@@ -29,4 +29,4 @@ plotpyear_institution=function(df,indicator,rangelow,rangehigh){
 # get each indicator development for the institutions
 df=read.delim('./general.csv', header = TRUE, sep=',')
 
-plotpyear_institution(df,'is_open_data',0,100)
+plotpyear_institution(df,'is_coi_pred',0,100)

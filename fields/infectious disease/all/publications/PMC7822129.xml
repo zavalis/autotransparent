@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-09-19T18:02:09Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7822129" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7822129</identifier>
+        <datestamp>2021-07-19</datestamp>
+        <setSpec>iai</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Infect Immun</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Infect Immun</journal-id>
+              <journal-id journal-id-type="hwp">iai</journal-id>
+              <journal-id journal-id-type="pmc">iai</journal-id>
+              <journal-id journal-id-type="publisher-id">IAI</journal-id>
+              <journal-title-group>
+                <journal-title>Infection and Immunity</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0019-9567</issn>
+              <issn pub-type="epub">1098-5522</issn>
+              <publisher>
+                <publisher-name>American Society for Microbiology</publisher-name>
+                <publisher-loc>1752 N St., N.W., Washington, DC</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7822129</article-id>
+              <article-id pub-id-type="pmcid">PMC7822129</article-id>
+              <article-id pub-id-type="pmc-uid">7822129</article-id>
+              <article-id pub-id-type="pmid">33257531</article-id>
+              <article-id pub-id-type="pmid">33257531</article-id>
+              <article-id pub-id-type="publisher-id">00673-20</article-id>
+              <article-id pub-id-type="doi">10.1128/IAI.00673-20</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Molecular Pathogenesis</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>The <named-content content-type="genus-species">Yersinia pestis</named-content> GTPase BipA Promotes Pathogenesis of Primary Pneumonic Plague</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Crane</surname>
+                    <given-names>Samantha D.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>a</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Banerjee</surname>
+                    <given-names>Srijon K.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>a</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Eichelberger</surname>
+                    <given-names>Kara R.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff4">
+                    <sup>d</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kurten</surname>
+                    <given-names>Richard C.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>b</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>c</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Goldman</surname>
+                    <given-names>William E.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff4">
+                    <sup>d</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5434-4744</contrib-id>
+                  <name>
+                    <surname>Pechous</surname>
+                    <given-names>Roger D.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>a</sup>
+                  </xref>
+                </contrib>
+                <aff id="aff1">
+                  <label>a</label>
+                  <addr-line>Department of Microbiology and Immunology, University of Arkansas for Medical Sciences, Little Rock, Arkansas, USA</addr-line>
+                </aff>
+                <aff id="aff2">
+                  <label>b</label>
+                  <addr-line>Department of Pediatric Allergy and Immunology, University of Arkansas for Medical Sciences, Little Rock, Arkansas, USA</addr-line>
+                </aff>
+                <aff id="aff3">
+                  <label>c</label>
+                  <addr-line>Lung Cell Biology Laboratory, Arkansas Children’s Research Institute, Little Rock, Arkansas, USA</addr-line>
+                </aff>
+                <aff id="aff4">
+                  <label>d</label>
+                  <addr-line>Department of Microbiology and Immunology, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA</addr-line>
+                </aff>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Brodsky</surname>
+                    <given-names>Igor E.</given-names>
+                  </name>
+                  <role>Editor</role>
+                  <aff>University of Pennsylvania</aff>
+                </contrib>
+              </contrib-group>
+              <author-notes>
+                <corresp id="cor1">Address correspondence to Roger D. Pechous, <email>RDPechous@uams.edu</email>.</corresp>
+                <fn fn-type="other">
+                  <p><bold>Citation</bold> Crane SD, Banerjee SK, Eichelberger KR, Kurten RC, Goldman WE, Pechous RD. 2021. The <italic>Yersinia pestis</italic> GTPase BipA promotes pathogenesis of primary pneumonic plague. Infect Immun 89:e00673-20. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/IAI.00673-20">https://doi.org/10.1128/IAI.00673-20</ext-link>.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="epreprint">
+                <day>30</day>
+                <month>11</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>19</day>
+                <month>1</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>2</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>89</volume>
+              <issue>2</issue>
+              <elocation-id>e00673-20</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>23</day>
+                  <month>10</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="rev-request">
+                  <day>9</day>
+                  <month>11</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>11</day>
+                  <month>11</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright © 2021 Crane et al.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <copyright-holder>Crane et al.</copyright-holder>
+                <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf" xlink:href="IAI.00673-20.pdf"/>
+              <abstract abstract-type="precis">
+                <p><named-content content-type="genus-species">Yersinia pestis</named-content> is a highly virulent pathogen and the causative agent of bubonic, septicemic, and pneumonic plague. Primary pneumonic plague caused by inhalation of respiratory droplets contaminated with <named-content content-type="genus-species">Y. pestis</named-content> is nearly 100% lethal within 4 to 7 days without antibiotic intervention.</p>
+              </abstract>
+              <abstract>
+                <title>ABSTRACT</title>
+                <p><named-content content-type="genus-species">Yersinia pestis</named-content> is a highly virulent pathogen and the causative agent of bubonic, septicemic, and pneumonic plague. Primary pneumonic plague caused by inhalation of respiratory droplets contaminated with <named-content content-type="genus-species">Y. pestis</named-content> is nearly 100% lethal within 4 to 7 days without antibiotic intervention. Pneumonic plague progresses in two phases, beginning with extensive bacterial replication in the lung with minimal host responsiveness, followed by the abrupt onset of a lethal proinflammatory response. The precise mechanisms by which <named-content content-type="genus-species">Y. pestis</named-content> is able to colonize the lung and survive two very distinct disease phases remain largely unknown. To date, a few bacterial virulence factors, including the Ysc type 3 secretion system, are known to contribute to the pathogenesis of primary pneumonic plague. The bacterial GTPase BipA has been shown to regulate expression of virulence factors in a number of Gram-negative bacteria, including <named-content content-type="genus-species">Pseudomonas aeruginosa</named-content>, <named-content content-type="genus-species">Escherichia coli</named-content>, and <named-content content-type="genus-species">Salmonella enterica</named-content> serovar Typhi. However, the role of BipA in <named-content content-type="genus-species">Y. pestis</named-content> has yet to be investigated. Here, we show that BipA is a <named-content content-type="genus-species">Y. pestis</named-content> virulence factor that promotes defense against early neutrophil-mediated bacterial killing in the lung. This work identifies a novel <named-content content-type="genus-species">Y. pestis</named-content> virulence factor and highlights the importance of early bacterial/neutrophil interactions in the lung during primary pneumonic plague.</p>
+              </abstract>
+              <kwd-group>
+                <title>KEYWORDS</title>
+                <kwd>plague</kwd>
+                <kwd>pneumonic plague</kwd>
+                <kwd>
+                  <italic>Yersinia</italic>
+                </kwd>
+                <kwd>
+                  <italic>Yersinia pestis</italic>
+                </kwd>
+                <kwd>bacterial GTPases</kwd>
+                <kwd>pathogenesis</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group id="award1">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>HHS | NIH | National Institute of Allergy and Infectious Diseases (NIAID)</institution>
+                      <institution-id>https://doi.org/10.13039/100000060</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>R21AI133103</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Pechous</surname>
+                      <given-names>Roger D.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+                <award-group id="award2">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>HHS | NIH | National Institute of General Medical Sciences (NIGMS)</institution>
+                      <institution-id>https://doi.org/10.13039/100000057</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>P20GM103625 subaward 7718</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Pechous</surname>
+                      <given-names>Roger D.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <counts>
+                <fig-count count="6"/>
+                <table-count count="0"/>
+                <equation-count count="0"/>
+                <ref-count count="53"/>
+                <page-count count="12"/>
+                <word-count count="7894"/>
+              </counts>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>cover-date</meta-name>
+                  <meta-value>February 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="s1">
+              <title>INTRODUCTION</title>
+              <p><named-content content-type="genus-species">Yersinia pestis</named-content> is a highly lethal Gram-negative bacterium that causes bubonic, septicemic, and pneumonic plague. Inhalation of aerosols and respiratory droplets contaminated with <named-content content-type="genus-species">Y. pestis</named-content> results in primary pneumonic plague, a rapidly progressing pneumonia that is nearly 100% fatal without antibiotic treatment (<xref rid="B1" ref-type="bibr">1</xref>). Due to its ease of transmission by aerosol and potential to cause mass casualties in outbreak and bioterrorism scenarios, <named-content content-type="genus-species">Y. pestis</named-content> is categorized as a Tier 1 Select Agent by the Centers of Disease Control and Prevention (CDC), and a Category A Priority Pathogen by the National Institutes of Health (NIH). While often considered a disease of ancient times, plague continues to be a modern threat, and <named-content content-type="genus-species">Y. pestis</named-content> is endemic on every continent except Antarctica and Australia (<xref rid="B2" ref-type="bibr">2</xref>). For example, a 2017 plague epidemic in Madagascar saw approximately 2,600 suspected or confirmed cases of plague, of which roughly 1,700 were pneumonic plague (<xref rid="B3" ref-type="bibr">3</xref>).</p>
+              <p>Essential to <named-content content-type="genus-species">Y. pestis</named-content> virulence is the Ysc type 3 secretion system (T3SS). The <italic>Yersinia</italic> T3SS is a “needle-like” apparatus that directly injects bacterial effector proteins called <italic>Yersinia</italic> outer proteins, or Yops, into the cytosol of target host cells. Once injected, the Yop effectors function to prevent phagocytosis and limit innate immune signaling (<xref rid="B4" ref-type="bibr">4</xref>). Aside from the T3SS, few <named-content content-type="genus-species">Y. pestis</named-content> virulence factors have been shown to contribute to disease progression of pneumonic plague. As a result, there is a paucity of information regarding how <named-content content-type="genus-species">Y. pestis</named-content> is able to establish infection and replicate to high numbers in the lung prior to the onset of host inflammatory responses.</p>
+              <p>BPI-inducible protein A (BipA), also known as TypA, was first identified in <named-content content-type="genus-species">Salmonella enterica</named-content> serovar Typhimurium, and its expression was shown to be induced in the presence of human bactericidal permeability increasing protein (BPI) (<xref rid="B5" ref-type="bibr">5</xref>), an antimicrobial peptide (AMP) produced primarily by granulocytes (<xref rid="B6" ref-type="bibr">6</xref>, <xref rid="B7" ref-type="bibr">7</xref>). BipA is classified as a translational GTPase with homology to elongation factor G (EF-G) (<xref rid="B8" ref-type="bibr">8</xref>, <xref rid="B9" ref-type="bibr">9</xref>) that demonstrates differential ribosomal subunit binding in response to relative guanosine-5′-triphosphate (GTP) and guanosine tetraphosphate (ppGpp) concentrations (<xref rid="B10" ref-type="bibr">10</xref>). BipA is highly conserved, and is implicated in regulating virulence mechanisms at the translational level in a number of bacterial species, including <named-content content-type="genus-species">Escherichia coli</named-content>, <named-content content-type="genus-species">S. enterica</named-content>, and <named-content content-type="genus-species">Pseudomonas aeruginosa</named-content> (<xref rid="B11" ref-type="bibr">11</xref>). In <named-content content-type="genus-species">E. coli</named-content>, BipA plays a role in K5 capsule production (<xref rid="B12" ref-type="bibr">12</xref>), flagella-mediated motility (<xref rid="B13" ref-type="bibr">13</xref>, <xref rid="B14" ref-type="bibr">14</xref>), BPI resistance (<xref rid="B13" ref-type="bibr">13</xref>), and attachment and effacement to epithelial cells (<xref rid="B14" ref-type="bibr">14</xref>). BipA contributes to macrophage uptake and survival in <named-content content-type="genus-species">S. enterica</named-content> serovar Typhi (<xref rid="B15" ref-type="bibr">15</xref>), and BPI resistance in <named-content content-type="genus-species">S. enterica</named-content> Typhimurium (<xref rid="B16" ref-type="bibr">16</xref>). In <named-content content-type="genus-species">P. aeruginosa</named-content>, BipA is involved in bacterial virulence in amoeba and nematode models, as well as adhesion, biofilm formation, resistance to phagocytosis, antibiotic resistance, and expression of the T3SS (<xref rid="B17" ref-type="bibr">17</xref>). While BipA has been shown to contribute to virulence mechanisms in these pathogens, there has been minimal characterization beyond initial <italic>in vitro</italic> analysis. The role of BipA in <named-content content-type="genus-species">Y. pestis</named-content> has yet to be investigated. In this study, we show that deletion of BipA results in decreased bacterial survival upon challenge with human BPI and primary human neutrophils. Further, we show that BipA facilitates bacterial survival in the lung, and contributes to lethality in a murine infection model of pneumonic plague. This work positions BipA as a novel <named-content content-type="genus-species">Y. pestis</named-content> virulence factor that promotes resistance to early neutrophil-mediated bacterial killing in the lung.</p>
+            </sec>
+            <sec sec-type="results" id="s2">
+              <title>RESULTS</title>
+              <sec id="s2.1">
+                <title>BipA is involved in the <named-content content-type="genus-species">Y. pestis</named-content> response to challenge with BPI.</title>
+                <p>Previous work (<xref rid="B18" ref-type="bibr">18</xref>) identified 405 bacterial genes that were differentially expressed in <named-content content-type="genus-species">Y. pestis</named-content> isolated from the murine lung during infection compared to broth-grown bacteria. Of these, the gene <italic>bipA</italic> (or <italic>YPO0026</italic>) encoding the bacterial translational GTPase BipA was upregulated 2.3-fold during pneumonic plague. Expression of BipA is known to be induced in the presence of BPI (<xref rid="B5" ref-type="bibr">5</xref>), an AMP released in primary granules by neutrophils (<xref rid="B19" ref-type="bibr">19</xref><xref ref-type="bibr" rid="B20">–</xref><xref rid="B21" ref-type="bibr">21</xref>). BipA, in turn, has been implicated in regulating expression of proteins, including known virulence factors, in a number of pathogens (<xref rid="B8" ref-type="bibr">8</xref>, <xref rid="B9" ref-type="bibr">9</xref>, <xref rid="B11" ref-type="bibr">11</xref>, <xref rid="B14" ref-type="bibr">14</xref>, <xref rid="B17" ref-type="bibr">17</xref>, <xref rid="B22" ref-type="bibr">22</xref><xref ref-type="bibr" rid="B23">–</xref><xref rid="B25" ref-type="bibr">25</xref>). We sought to determine if the absence of BipA impacted expression of BPI-induced proteins in <named-content content-type="genus-species">Y. pestis</named-content>. We generated a strain of <named-content content-type="genus-species">Y. pestis</named-content> CO92 lacking <italic>bipA</italic> (Δ<italic>bipA</italic>) and evaluated total protein expression by liquid chromatography-tandem mass spectrometry (LC-MS/MS) in wild type and Δ<italic>bipA</italic> strains in the logarithmic phase of broth-grown culture and during incubation with BPI. This analysis revealed a number of proteins that were differentially expressed (at least 2-fold difference) in Δ<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> compared to wild-type <named-content content-type="genus-species">Y. pestis</named-content> under both conditions (Table S1 and S2 in the supplemental material), as well as altered regulation of an additional set of proteins in the presence of BPI. For example, we observed increased expression of the zinc import ATP-binding protein ZnuC and decreased expression of Der, putative type 6 secretion system components, and various uncharacterized proteins in Δ<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> compared to wild-type <named-content content-type="genus-species">Y. pestis</named-content> under both conditions. During incubation with BPI, we saw differential regulation of additional proteins, including ClpB, YscJ, and a number of other uncharacterized proteins. Deletion of BipA did not appear to effect transcription of <italic>znuC</italic>, <italic>YPO0502</italic>, <italic>psaA</italic>, and <italic>yopH</italic>, each of which encode proteins that showed altered expression in the absence of BipA (Fig. S1). Similar to its function in other bacteria, our data suggest that BipA contributes to the bacterial response to challenge with BPI.</p>
+                <p>BPI is released from the granules of neutrophils and has high affinity for the lipid A component of bacterial lipopolysaccharide (LPS) (<xref rid="B19" ref-type="bibr">19</xref>). Binding of BPI to LPS inhibits the endotoxic activity of LPS, facilitates opsonization of bacteria, and has potent bactericidal activity (<xref rid="B6" ref-type="bibr">6</xref>, <xref rid="B26" ref-type="bibr">26</xref>, <xref rid="B27" ref-type="bibr">27</xref>). BipA has been shown to contribute to bacterial resistance to BPI in <named-content content-type="genus-species">E. coli</named-content> and <named-content content-type="genus-species">S. enterica</named-content> Typhi (<xref rid="B13" ref-type="bibr">13</xref>, <xref rid="B16" ref-type="bibr">16</xref>). We sought to determine if BipA contributes to <named-content content-type="genus-species">Y. pestis</named-content> resistance to BPI. To this end, we incubated wild-type <named-content content-type="genus-species">Y. pestis</named-content> strain CO92, Δ<italic>bipA</italic>, or the Δ<italic>bipA</italic>::<italic>bipA</italic> complement strain with a sub-MIC of BPI (40 μg/ml) at 37°C for 8 h, and enumerated CFU of each strain at 2, 4, and 8 h postinoculation (hpi). While deletion of <italic>bipA</italic> had no impact on <named-content content-type="genus-species">Y. pestis</named-content> growth in minimal medium (<xref ref-type="fig" rid="F1">Fig. 1A</xref>), we observed a significant decrease in survival of <named-content content-type="genus-species">Y. pestis</named-content> lacking BipA by 8 hpi compared to wild-type and BipA-complemented <named-content content-type="genus-species">Y. pestis</named-content>, indicating a role for BipA in bacterial resistance to BPI (<xref ref-type="fig" rid="F1">Fig. 1B</xref>). To determine if Δ<italic>bipA</italic> was attenuated in the presence of antimicrobial peptides in general, we also evaluated bacterial survival upon challenge with polymyxin B and LL-37. Deletion of <italic>bipA</italic> did not impact <named-content content-type="genus-species">Y. pestis</named-content> sensitivity to sub-MICs of polymyxin B or LL-37, suggesting that BipA may not contribute to resistance to all AMPs (<xref ref-type="fig" rid="F1">Fig. 1C</xref> and <xref ref-type="fig" rid="F1">D</xref>). Evaluating the MIC of each antimicrobial peptide for all three strains showed no difference in AMP resistance (Table S3). These results indicate that BipA contributes to the bacterial response to challenge with BPI.</p>
+                <fig id="F1" orientation="portrait" position="float">
+                  <label>FIG 1</label>
+                  <caption>
+                    <p>BipA is involved in the <named-content content-type="genus-species">Y. pestis</named-content> response to challenge with BPI. (A to D) Wild-type, Δ<italic>bipA</italic>, and Δ<italic>bipA</italic>::<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> CO92 from overnight culture grown at 37°C in BHI medium was diluted into complete PMH2 medium and optical density at 600 nm (OD<sub>600</sub>) was measured at the indicated time points to construct a growth curve. Wild-type, Δ<italic>bipA</italic>, and Δ<italic>bipA</italic>::<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> CO92 were inoculated into PMH2 medium containing 40 μg/ml BPI (B), 1 μg/ml polymyxin B (C), or 64 μg/ml LL-37 (D) and at each time point CFU/ml was enumerated by standard plate count. Significance was calculated with two-way ANOVA; *, <italic>P</italic> ≤ 0.05. Error bars represent standard deviation (SD). Data are presented as a pool of three independent experiments.</p>
+                  </caption>
+                  <graphic xlink:href="IAI.00673-20-f0001"/>
+                </fig>
+              </sec>
+              <sec id="s2.2">
+                <title>BipA contributes to resistance to neutrophil-mediated bacterial killing.</title>
+                <p>BPI is primarily produced by granulocytes such as neutrophils (<xref rid="B6" ref-type="bibr">6</xref>). We therefore sought to determine whether BipA contributes to bacterial defense against neutrophils. We inoculated primary human neutrophils with wild-type, Δ<italic>bipA</italic>, or Δ<italic>bipA</italic>::<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> CO92, and monitored bacterial survival for 8 h. We observed significantly decreased survival of Δ<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> compared to wild-type and Δ<italic>bipA</italic>::<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> in the presence of primary human neutrophils (<xref ref-type="fig" rid="F2">Fig. 2A</xref>), indicating that BipA contributes to bacterial resistance to neutrophil-mediated bacterial killing <italic>in vitro</italic>. To determine if BipA contributes to resistance to killing by professional phagocytes in general, we also evaluated bacterial survival during incubation with primary human alveolar macrophages (hAM) and immortalized murine alveolar macrophages (MH-S) (<xref ref-type="fig" rid="F2">Fig. 2B</xref> and <xref ref-type="fig" rid="F2">C</xref>). <named-content content-type="genus-species">Y. pestis</named-content> encounters alveolar macrophages early during infection, and these initial host/pathogen interactions are important to establishing infection in the lung. We did not observe a significant difference in Δ<italic>bipA</italic> survival compared to wild type or complemented Δ<italic>bipA</italic> during incubation with macrophages, suggesting that the contribution of BipA to bacterial survival may be specific to neutrophils. Gentamicin protection assays also revealed no difference in the ability of primary human neutrophils or MH-S cells to phagocytose wild-type, Δ<italic>bipA</italic>, or Δ<italic>bipA</italic>::<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> strains (Fig. S2).</p>
+                <fig id="F2" orientation="portrait" position="float">
+                  <label>FIG 2</label>
+                  <caption>
+                    <p>BipA contributes to resistance to neutrophil-mediated bacterial killing. (A to C) Human primary neutrophils (A), human primary alveolar macrophages (hAM) (B), and immortalized murine alveolar macrophages (MH-S) (C) were inoculated with wild-type, Δ<italic>bipA</italic>, and Δ<italic>bipA</italic>::<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> CO92 using an MOI of 1:1 bacteria to host cells. Surviving bacteria counts were determined at 2, 4, and 8 hpi by serial dilution and standard plate counting. Significance was calculated with two-way ANOVA; ****, <italic>P</italic> ≤ 0.0001. Data are representative of three independent experiments.</p>
+                  </caption>
+                  <graphic xlink:href="IAI.00673-20-f0002"/>
+                </fig>
+                <p>The <named-content content-type="genus-species">Yersinia pestis</named-content> T3SS (encoded on the pCD1 plasmid) inhibits phagocytosis of bacteria, limits innate immune signaling (<xref rid="B4" ref-type="bibr">4</xref>, <xref rid="B28" ref-type="bibr">28</xref>), and is essential for virulence. The <italic>Yersinia</italic> T3SS is critical for defense against phagocytosis by neutrophils (<xref rid="B29" ref-type="bibr">29</xref><xref ref-type="bibr" rid="B30">–</xref><xref rid="B31" ref-type="bibr">31</xref>). BipA was shown to regulate expression of the T3SS of <named-content content-type="genus-species">P. aeruginosa</named-content> (<xref rid="B17" ref-type="bibr">17</xref>), indicating that BipA-related phenotypes may result from the inability to effectively target host cells for T3SS. Though we did not see major differences in expression of the T3SS in the absence of BipA, we still sought to determine if reduced T3SS could explain increased Δ<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> sensitivity to killing by primary human neutrophils. Initial efforts to quantify T3SS in primary neutrophils were unsuccessful, likely due to the rapid turnover and sensitivity of primary neutrophils to manipulation in culture. As an alternative approach, we incubated primary human neutrophils with wild-type, Δ<italic>bipA</italic>, Δ<italic>bipA</italic>::<italic>bipA</italic>, Δ<italic>pCD1</italic> lacking the T3SS, or Δ<italic>bipA</italic> Δ<italic>pCD1</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> CO92 and monitored bacterial survival. We observed a similar decrease in the viability of Δ<italic>pCD1</italic> and Δ<italic>bipA</italic> Δ<italic>pCD1</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> compared to the Δ<italic>bipA</italic> strain in the presence of neutrophils (<xref ref-type="fig" rid="F3">Fig. 3A</xref>). This finding does not confirm a link between BipA and T3SS, but does indicate it is possible that BipA-mediated resistance to neutrophil-mediated killing is due to its regulation of the T3SS. To investigate this further, we sought to determine if the absence of BipA impacted the effects of the T3SS on target neutrophils. The <named-content content-type="genus-species">Y. pestis</named-content> T3SS was recently shown to inhibit degranulation of neutrophils via the combined activity of YopE and YopH (<xref rid="B30" ref-type="bibr">30</xref>, <xref rid="B32" ref-type="bibr">32</xref>). We therefore investigated the ability of <named-content content-type="genus-species">Y. pestis</named-content> Δ<italic>bipA</italic> to inhibit neutrophil degranulation compared to wild-type <named-content content-type="genus-species">Y. pestis</named-content> as a readout of T3SS. Primary human neutrophils were inoculated with wild-type, Δ<italic>bipA</italic>, or Δ<italic>pCD1</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> using an MOI of 10:1 bacteria to host cells, and neutrophil degranulation was evaluated by flow cytometric detection of CD63-PE-Cy7 as a marker of primary granule release (<xref rid="B21" ref-type="bibr">21</xref>). We observed no difference in CD63 fluorescence intensity between wild-type and Δ<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content>, indicating that loss of BipA did not impact the ability of <named-content content-type="genus-species">Y. pestis</named-content> to inhibit neutrophil degranulation by the T3SS (<xref ref-type="fig" rid="F3">Fig. 3B</xref>). As expected, we observed increased CD63 fluorescence intensity consistent with neutrophil degranulation after incubation with Δ<italic>pCD1</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> lacking the T3SS effectors and machinery. Gentamicin protection assays also showed similar resistance of Δ<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> (compared to both wild-type and BipA-complemented <named-content content-type="genus-species">Y. pestis</named-content>) to phagocytosis by neutrophils (Fig. S2), suggesting similar T3SS function. Together, these data show that BipA likely promotes <named-content content-type="genus-species">Y. pestis</named-content> resistance to neutrophil-mediated killing via a T3SS-independent mechanism.</p>
+                <fig id="F3" orientation="portrait" position="float">
+                  <label>FIG 3</label>
+                  <caption>
+                    <p>Role of the T3SS in BipA-mediated resistance to neutrophils. (A) Human primary neutrophils were inoculated with wild-type, Δ<italic>bipA</italic>, Δ<italic>pCD1</italic>, or Δ<italic>bipA</italic> Δ<italic>pCD1</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> CO92 at an MOI of 1:1 bacteria to host cells. Surviving bacteria counts were determined at 2, 4, and 8 hpi by serial dilution and plating. Significance was calculated using two-way ANOVA; ns, no significant difference; **, <italic>P</italic> ≤ 0.005; ***, <italic>P</italic> ≤ 0.0005. (B) Human primary neutrophils were inoculated with wild-type, Δ<italic>bipA</italic>, or Δ<italic>pCD1</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> CO92 using an MOI of 10:1 bacterial to host cells for 1 h at 37°C. CD63 mean fluorescence intensity was measured by flow cytometry. Significance relative to mock-inoculated neutrophils was calculated using one-way ANOVA with Tukey’s multiple-comparison test; ****, <italic>P</italic> ≤ 0.0001. For both experiments, error bars represent SD. Data are presented as pool of at least two independent experiments.</p>
+                  </caption>
+                  <graphic xlink:href="IAI.00673-20-f0003"/>
+                </fig>
+              </sec>
+              <sec id="s2.3">
+                <title>BipA promotes <named-content content-type="genus-species">Y. pestis</named-content> virulence and bacterial survival in a murine model of primary pneumonic plague.</title>
+                <p>We next sought to determine if BipA contributes to virulence <italic>in vivo</italic> during primary pneumonic plague. Groups of 4- to 6-week-old C57BL/6 female mice were inoculated via the intranasal route with 10<sup>3</sup> CFU of wild-type, Δ<italic>bipA</italic>, or Δ<italic>bipA</italic>::<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> and survival was observed over time. Mice inoculated with Δ<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> showed increased survival compared to mice inoculated with wild-type and Δ<italic>bipA</italic>::<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> (<xref ref-type="fig" rid="F4">Fig. 4A</xref>). To determine if BipA contributes to bacterial survival in the lung and/or dissemination to the spleen, bacterial burdens were quantified at 24 hpi (lungs only) and 48 hpi (lungs and spleen). While deletion of <italic>bipA</italic> did not impact bacterial growth in culture (<xref ref-type="fig" rid="F1">Fig. 1A</xref>), animals inoculated with Δ<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> had significantly decreased bacterial burdens in the lung compared to animals infected with wild-type or BipA-complemented <named-content content-type="genus-species">Y. pestis</named-content> strains at both 24 and 48 hpi (<xref ref-type="fig" rid="F4">Fig. 4B</xref> and <xref ref-type="fig" rid="F4">C</xref>). While we did not observe a statistically significant difference in Δ<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> bacterial burdens in the spleen (<xref ref-type="fig" rid="F4">Fig. 4D</xref>) compared to wild-type and Δ<italic>bipA</italic>::<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content>-infected animals, we failed to detect measurable burdens in 6 out of 15 Δ<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content>-infected animals, indicating a lack of bacterial dissemination from the lung. These data show that BipA promotes <named-content content-type="genus-species">Y. pestis</named-content> virulence in a murine model of primary pneumonic plague and contributes to bacterial survival in the lung during infection. Importantly, decreased survival of the bacterium was evident at 24 hpi, indicating that BipA likely contributes to early events facilitating survival of <named-content content-type="genus-species">Y. pestis</named-content> in the lung.</p>
+                <fig id="F4" orientation="portrait" position="float">
+                  <label>FIG 4</label>
+                  <caption>
+                    <p>BipA promotes <named-content content-type="genus-species">Y. pestis</named-content> virulence and bacterial survival in a murine model of primary pneumonic plague. (A) C57BL/6 female mice (<italic>n</italic> = 10 per group) were infected with 10<sup>3</sup> CFU of either wild-type CO92, Δ<italic>bipA</italic>, or Δ<italic>bipA</italic>::<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> via the intranasal route. Survival over a period of 7 days was recorded. Significance was calculated using a log rank test; **, <italic>P</italic> ≤ 0.005. Bacterial burdens (<italic>n</italic> = 13 to 15 per group) in the lung (B and C) and spleen (D) were determined at 24 h (lung only) and 48 h postinfection by plating serial dilutions of organ homogenates on BHI agar plates. Significance was calculated using one-way ANOVA; **, <italic>P</italic> ≤ 0.005; ***, <italic>P</italic> ≤ 0.0005; ****, <italic>P</italic> ≤ 0.0001. Error bars represent SD. Data in panel A are presented as representative of three independent experiments. Data in panels B to D are pooled from three independent experiments.</p>
+                  </caption>
+                  <graphic xlink:href="IAI.00673-20-f0004"/>
+                </fig>
+                <p>Our <italic>in vitro</italic> data suggest that BipA contributes to bacterial resistance to neutrophil-mediated killing via a mechanism independent of regulation of the T3SS. To determine if this is the case <italic>in vivo</italic>, we evaluated the T3SS in the lungs at 6 and 12 hpi, when bacterial burdens were roughly equivalent between wild-type and Δ<italic>bipA</italic> strains (<xref ref-type="fig" rid="F5">Fig. 5A</xref> and <xref ref-type="fig" rid="F5">E</xref>). To this end, C57BL/6 mice were inoculated with 5 × 10<sup>4</sup> CFU of wild-type, Δ<italic>bipA</italic>, or Δ<italic>bipA</italic>::<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> YopE-Bla reporter strains. These strains express wild-type YopE as well as a protein consisting of the first 100 amino acids of YopE fused to a truncated TEM β-lactamase gene (<italic>bla</italic>), and have been used extensively to detect the T3SS <italic>in vitro</italic> and <italic>in vivo</italic> (<xref rid="B33" ref-type="bibr">33</xref><xref ref-type="bibr" rid="B34">–</xref><xref rid="B35" ref-type="bibr">35</xref>). Upon incubation of infected cells with the fluorescent Bla substrate CCF2-AM, mammalian cells can be differentiated as Yop-injected (blue fluorescence) or uninjected (green fluorescence). At 6 and 12 hpi, there were no significant differences in levels of Yop-injected cells in the bronchoalveolar lavage fluid (BALF) between wild-type, Δ<italic>bipA</italic>, or Δ<italic>bipA</italic>::<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> infections (<xref ref-type="fig" rid="F6">Fig. 6B</xref> and <xref ref-type="fig" rid="F6">F</xref>). As BipA contributes to bacterial survival upon challenge with neutrophils <italic>in vitro</italic>, we quantified T3SS into neutrophils specifically. We observed no differences in Δ<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> Yop injection into neutrophils at 6 hpi or 12 hpi compared to wild-type and BipA-complemented <named-content content-type="genus-species">Y. pestis</named-content> (<xref ref-type="fig" rid="F5">Fig. 5C</xref> and <xref ref-type="fig" rid="F5">G</xref>). No difference in neutrophil influx into BALF was observed at 6 or 12 hpi with any strain (<xref ref-type="fig" rid="F5">Fig. 5D</xref> and <xref ref-type="fig" rid="F5">H</xref>). Together, these data indicate that BipA likely does not contribute significantly to the <named-content content-type="genus-species">Y. pestis</named-content> T3SS <italic>in vivo</italic>.</p>
+                <fig id="F5" orientation="portrait" position="float">
+                  <label>FIG 5</label>
+                  <caption>
+                    <p>BipA does not impact <named-content content-type="genus-species">Y. pestis</named-content> T3SS <italic>in vivo</italic> at 6 and 12 hpi. (A to H) C57BL/6 female mice (<italic>n</italic> = 5 per group) were infected with 5 × 10<sup>4</sup> CFU of either wild-type CO92, Δ<italic>bipA</italic>, or Δ<italic>bipA</italic>::<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> via the intranasal route, and infected lungs were analyzed at 6 (A to D) and 12 (E to H) hpi. Bacterial burdens were determined at 6 (A) and 12 (E) hpi by plating serial dilutions of organ homogenates on BHI agar plates. C57BL/6 mice (<italic>n</italic> = 12 to 14 per group) were infected with 5 × 10<sup>4</sup> CFU of either wild-type (YopE-Bla) CO92, Δ<italic>bipA</italic> YopE-Bla, or Δ<italic>bipA</italic>::<italic>bipA</italic> YopE-Bla <named-content content-type="genus-species">Y. pestis</named-content> via the intranasal route. The proportions of YopE-injected bronchoalveolar lavage fluid (BALF) cells were determined via flow cytometry at 6 (B) and 12 (F) hpi. The proportion of YopE-injected neutrophils (CD45<sup>+</sup> CD3<sup>−</sup> F4/80<sup>−</sup> CD11b<sup>+</sup> Ly-6G<sup>+</sup>) were determined via flow cytometry at 6 (C) and 12 (G) hpi. The proportion of neutrophils in the BALF was determined via flow cytometry at 6 (D) and 12 (H) hpi. Significance was calculated using one-way ANOVA; **, <italic>P</italic> ≤ 0.005. Error bars represent SD. Data are presented as a pool of at least two independent experiments.</p>
+                  </caption>
+                  <graphic xlink:href="IAI.00673-20-f0005"/>
+                </fig>
+                <fig id="F6" orientation="portrait" position="float">
+                  <label>FIG 6</label>
+                  <caption>
+                    <p>Neutrophils control Δ<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content>
+<italic>in vivo</italic>. C57BL/6 mice (<italic>n</italic> = 14 to 15 per group) were infected with 10<sup>3</sup> CFU of either wild-type CO92 or Δ<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> via the intranasal route. αLy-6G-treated mice were given anti-mouse Ly-6G antibody via tail vein injection at one day prior to infection and on the day of infection. Bacterial burdens in the lung were determined at 24 (A) and 48 (B) hpi by homogenization, serial dilution, and plating. Significance was calculated using two-way ANOVA; **, <italic>P</italic> ≤ 0.005; ***, <italic>P</italic> ≤ 0.0005; ****, <italic>P</italic> ≤ 0.0001. Error bars represent SD. Data are presented as a pool of three independent experiments.</p>
+                  </caption>
+                  <graphic xlink:href="IAI.00673-20-f0006"/>
+                </fig>
+              </sec>
+              <sec id="s2.4">
+                <title>Neutrophils are responsible for limiting growth of <named-content content-type="genus-species">Y. pestis</named-content> lacking BipA.</title>
+                <p>The finding that <named-content content-type="genus-species">Y. pestis</named-content> lacking BipA was more sensitive to neutrophil-mediated killing <italic>in vitro</italic> prompted us to investigate whether BipA promotes bacterial resistance to neutrophils <italic>in vivo</italic>. To test this, groups of mice were inoculated with 10<sup>3</sup> CFU of wild-type, Δ<italic>bipA</italic>, or Δ<italic>bipA</italic>::<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> CO92 and bacterial burdens were analyzed in the lung at 24 and 48 hpi. One cohort of Δ<italic>bipA-</italic>infected mice received 20 μg of anti-mouse Ly-6G antibody (αLy-6G) prior to and at the time of infection to deplete neutrophils (<xref ref-type="fig" rid="F6">Fig. 6</xref>). At both 24 (<xref ref-type="fig" rid="F6">Fig. 6A</xref>) and 48 hpi (<xref ref-type="fig" rid="F6">Fig. 6B</xref>), depletion of neutrophils resulted in complete restoration of Δ<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> growth in the lung. Neutrophil depletion did not significantly enhance bacterial burdens of wild-type <named-content content-type="genus-species">Y. pestis</named-content> at 24 hpi or 48 hpi compared to untreated mice, indicating that Δ<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> is exceptionally susceptible to neutrophil-mediated killing <italic>in vivo</italic>. These results indicate that neutrophils control Δ<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> growth in the lung, and that BipA contributes to bacterial resistance to neutrophil-mediated killing.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="s3">
+              <title>DISCUSSION</title>
+              <p><named-content content-type="genus-species">Y. pestis</named-content> employs a potent arsenal of virulence factors to cause multiple manifestations of plague. While many virulence factors have been characterized, only a few have been shown to contribute to the pathogenesis of pneumonic plague specifically. The precise mechanisms underlying biphasic disease progression of pneumonic plague are unknown, and it is likely that a number of bacterial and host mediators of pathogenesis are yet to be identified. Antibiotic-resistant strains of <named-content content-type="genus-species">Y. pestis</named-content> have emerged in plague-endemic foci (<xref rid="B36" ref-type="bibr">36</xref>), warranting investigation of putative virulence factors that contribute to disease and might be exploited therapeutically. In this study, we investigated the role of a novel virulence factor, BipA, in the pathogenesis of primary pneumonic plague. We show that BipA confers resistance to BPI <italic>in vitro</italic> and contributes to bacterial resistance to neutrophil-mediated killing, likely via a T3SS-independent mechanism. We further demonstrate that BipA promotes <named-content content-type="genus-species">Y. pestis</named-content> survival in lungs and bacterial dissemination to the spleen. Importantly, depletion of neutrophils rescues growth of the Δ<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> strain in the lung, confirming the importance of early bacterial-neutrophil interactions in the lung. This is the first time BipA has been evaluated in <italic>Yersinia</italic>, and to our knowledge is the first study to demonstrate the importance of BipA in bacterial virulence <italic>in vivo</italic> using a murine model of infection.</p>
+              <p>There is little known about the precise role BipA plays in bacterial translation or virulence. Studies from multiple labs using <named-content content-type="genus-species">E. coli</named-content> in low temperature conditions have shown that BipA promotes efficient assembly of ribosomal proteins (<xref rid="B22" ref-type="bibr">22</xref>, <xref rid="B25" ref-type="bibr">25</xref>). Furthermore, BipA is shown to have binding capabilities to the ribosome and 30S small ribosomal subunit in response to the relative abundance of GTP and ppGpp (<xref rid="B9" ref-type="bibr">9</xref>, <xref rid="B10" ref-type="bibr">10</xref>, <xref rid="B23" ref-type="bibr">23</xref>), suggesting a role in bacterial amino acid starvation responses (<xref rid="B37" ref-type="bibr">37</xref>). Other work used <italic>in vitro</italic> approaches to show that BipA has a role in regulating critical bacterial virulence mechanisms such as T3SS, adhesion, AMP resistance, motility, capsule expression, and survival and uptake into macrophages (<xref rid="B13" ref-type="bibr">13</xref><xref ref-type="bibr" rid="B14">–</xref><xref rid="B15" ref-type="bibr">15</xref>, <xref rid="B17" ref-type="bibr">17</xref>). Further work is needed to determine specifically how BipA contributes to stress responses at the mammalian body temperature and changes in protein expression that we observed here in response to challenge with BPI.</p>
+              <p>Our data indicate that the presence of BipA may impact the translation of a myriad of proteins in response to BPI, and potentially <italic>in vivo</italic>. These include known proteins such as Der and ZnuC. Der (also known as YphC in <named-content content-type="genus-species">Bacillus subtilis</named-content>) is a tandem GTPase functioning in 50S ribosomal subunit biogenesis and is essential for growth in <named-content content-type="genus-species">E. coli</named-content> (<xref rid="B38" ref-type="bibr">38</xref>, <xref rid="B39" ref-type="bibr">39</xref>). Our proteomic analysis showed a decrease in Der abundance in <named-content content-type="genus-species">Y. pestis</named-content> lacking BipA. ZnuC is the ATPase component of the zinc ion ATP-binding cassette (ABC) transporter system encoded by <italic>znuABC</italic>. Our proteomic analysis also suggested that the presence of BipA impacts the expression of a number of hypothetical proteins, including predicted type 6 secretion system (T6SS) components. The Hcp-like component encoded by <italic>YPO0502</italic> is implicated in autoagglutination (<xref rid="B40" ref-type="bibr">40</xref>) and has decreased expression in Δ<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> upon BPI challenge, according to our proteomic analysis. The precise roles of this and other predicted T6SS components in <italic>Yersinia</italic> have yet to be elucidated, but studies have suggested their roles in environment adaptation (<xref rid="B41" ref-type="bibr">41</xref>) and virulence (<xref rid="B42" ref-type="bibr">42</xref>). While it is unclear if BipA directly impacts translation of specific proteins, dysregulated expression of important virulence factors and metabolic proteins in its absence likely contribute to decreased viability in the presence of neutrophils and BPI, and may explain the decreased fitness of Δ<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content>
+<italic>in vitro</italic> and <italic>in vivo</italic>.</p>
+              <p>The early stage of pneumonic plague has been described as “preinflammatory,” characterized by minimal host responsiveness despite rapid outgrowth of <named-content content-type="genus-species">Y. pestis</named-content> in the lung (<xref rid="B43" ref-type="bibr">43</xref>). The Ysc T3SS is essential for colonizing and maintaining infection in the lung, as it functions to inhibit phagocytosis (<xref rid="B4" ref-type="bibr">4</xref>) and various immune signaling processes (<xref rid="B44" ref-type="bibr">44</xref>) by primarily targeting alveolar macrophages in the lung early in infection (<xref rid="B35" ref-type="bibr">35</xref>). This interaction is further facilitated by adhesins such as Ail, Psa, and Pla that encourage close contact between <named-content content-type="genus-species">Y. pestis</named-content> and host cells targeted for T3SS (<xref rid="B45" ref-type="bibr">45</xref><xref ref-type="bibr" rid="B46">–</xref><xref rid="B47" ref-type="bibr">47</xref>). The resulting effect is the creation of localized pockets of immunosuppression. Despite this, it is becoming clear from our lab and others that an early wave of neutrophils can be detected within the first 24 h of pulmonary infection (<xref rid="B35" ref-type="bibr">35</xref>, <xref rid="B48" ref-type="bibr">48</xref>) and <named-content content-type="genus-species">Y. pestis</named-content> must overcome this early onslaught. While several virulence factors have been identified and characterized in the later “proinflammatory” stage of pneumonic plague, where increased proinflammatory cytokines are expressed and increased immune cell infiltration occurs (<xref rid="B43" ref-type="bibr">43</xref>), it is unclear which play roles in establishing <named-content content-type="genus-species">Y. pestis</named-content> pulmonary infection. Here, we pose BipA as a novel virulence factor that aids in establishing <named-content content-type="genus-species">Y. pestis</named-content> pulmonary infection by contributing to resistance to early neutrophil infiltration into the lungs.</p>
+              <p>In summary, this work characterizes the role of the <named-content content-type="genus-species">Y. pestis</named-content> translational GTPase BipA in primary pneumonic plague. We show that BipA promotes resistance to neutrophil-mediated killing in a T3SS-independent manner. This effect is likely indirect, due to the impact of BipA on the expression of a number of proteins, including previously identified virulence factors, metabolic genes, and uncharacterized proteins in the face of host challenges during pulmonary infection. Future work will focus on identifying the mechanism of BipA-mediated protein expression and determining how BipA mediates resistance to neutrophil-mediated bacterial killing.</p>
+            </sec>
+            <sec sec-type="materials|methods" id="s4">
+              <title>MATERIALS AND METHODS</title>
+              <sec id="s4.1">
+                <title>Bacterial strains.</title>
+                <p><named-content content-type="genus-species">Y. pestis</named-content> strain CO92, CO92 Δ<italic>bipA</italic>, and CO92 Δ<italic>pCD1</italic> were obtained from the lab of William Goldman (UNC-Chapel Hill). The Δ<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> strain was generated using a modified lambda red recombination described previously (<xref rid="B49" ref-type="bibr">49</xref>). Upstream and downstream sequences of <italic>bipA</italic> were amplified by PCR using the following primers: 5′-TTACTGCATTTATGGTGTTCAGGCATT-3′, 5′-<underline>GAAGCAGCTCCAGCCTACAC</underline>CACAGCTTTTTTGCCTCAGGCATTTAG-3′ (upstream forward and reverse, respectively); 5′-<underline>GGTCGACGGATCCCCGGAAT</underline>TTCTTCTTTGCATTGTTGATACTTAGGGC-3′, and 5′-CTGCTCGAAACTCAAGGATATCCC-3′ (downstream forward and reverse, respectively. Underlined sequence indicates tags complementary to sequence tags added to primers used to amplify a kanamycin resistance marker. PCR product of sequence immediately upstream and downstream of the target loci was then used with the kanamycin resistance cassette as the template for splicing by overlap extension PCR to generate a PCR fragment for allelic exchange. The CO92 Δ<italic>bipA</italic>::<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> strain was generated as described previously (<xref rid="B49" ref-type="bibr">49</xref>) using Tn7-based integration (<xref rid="B50" ref-type="bibr">50</xref>) of <italic>bipA</italic> into the <named-content content-type="genus-species">Y. pestis</named-content> chromosomal <italic>glmS-pstS</italic> region. The following primers were used to amplify the <italic>bipA</italic> open reading frame: 5′-TTGACCTGTTCGTTA-3′ and 5′-ACCGCTTTACCCTGA-3′ (forward and reverse primers, respectively). CO92 Δ<italic>bipA</italic> YopE-Bla, CO92 Δ<italic>bipA</italic>::<italic>bipA</italic> YopE-Bla, and CO92 Δ<italic>pgm</italic> Δ<italic>bipA</italic> Δ<italic>bipA</italic>::<italic>bipA</italic> YopE-Bla strains were generated as described previously (<xref rid="B35" ref-type="bibr">35</xref>, <xref rid="B51" ref-type="bibr">51</xref>). <named-content content-type="genus-species">Y. pestis</named-content> strains were grown on brain heart infusion (BHI) agar (Difco) at 26°C for 2 to 3 days. Strains were confirmed by growth on Congo red plates, and PCR was performed to confirm the presence of the <italic>pgm</italic> locus and the pCD1 plasmid for wild-type and mutant strains. For infection, <named-content content-type="genus-species">Y. pestis</named-content> strains were inoculated into 10 ml BHI broth supplemented with 2.5 mM CaCl<sub>2</sub> and incubated at 37°C for 12 to 16 h with constant shaking. Infections with fully virulent <named-content content-type="genus-species">Y. pestis</named-content> CO92 were performed in the UAMS Biosafety level 3 (BSL-3) facility. For bacterial growth curve analysis, optical density of <named-content content-type="genus-species">Y. pestis</named-content> cultured in BHI or PMH2 medium was obtained using a spectrophotometer at the indicated time points.</p>
+              </sec>
+              <sec id="s4.2">
+                <title>Cell culture and cell culture infections.</title>
+                <p>MH-S cells were obtained from ATCC and were cultured in RPMI 1640 (Corning) medium containing 10% fetal bovine serum (FBS) (Gibco) and Antibiotic-Antimycotic (Gibco). Cell cultures were incubated at 37°C with 5% CO<sub>2</sub>. To perform bacterial killing assays, primary human neutrophils (Astarte Biologics), primary human alveolar macrophages (hAMs), and MH-S cells were cultured briefly in IMDM (Gibco), DMEM:F12K 1:1 (Corning), or RPMI 1640 (Corning) medium supplemented with 10% human AB sera or FBS. After determining cell density, cells were inoculated with <named-content content-type="genus-species">Y. pestis</named-content> using an MOI of 1:1 CFU bacteria to host cell. Cells were then incubated at 37°C with 5% CO<sub>2</sub> for up to 8 h. At 2, 4, and 8 hpi, cells were scraped and 100 μl from each technical replicate was serially diluted and plated on BHI agar to determine CFU. Gentamicin protection assays were performed by inoculating cells with <named-content content-type="genus-species">Y. pestis</named-content> strains using an MOI of 1:1. After the indicated time points postinfection, cells were treated with 8 μg/ml gentamicin-containing (<xref rid="B52" ref-type="bibr">52</xref>) cell culture medium for 1 h. After gentamicin treatment, medium was aspirated from cells and replaced with sterile diH<sub>2</sub>O to lyse cells. Technical replicates were serially diluted and plated on BHI agar to determine levels of intracellular <named-content content-type="genus-species">Y. pestis</named-content>.</p>
+              </sec>
+              <sec id="s4.3">
+                <title>Antimicrobial peptide susceptibility tests.</title>
+                <p>To determine the MIC of BPI, polymyxin B, and LL-37 needed to inhibit growth of <named-content content-type="genus-species">Y. pestis</named-content> strains, strains were cultured for 16 h in BHI broth supplemented with 2.5 mM CaCl<sub>2</sub> at 37°C. Serial dilutions of BPI, polymyxin B, and LL-37 were prepared in 96-well plates containing 100 μl BHI and 2.5 mM CaCl<sub>2</sub> per well. Aliquots of 10<sup>5</sup> CFU of wild-type (CO92), Δ<italic>bipA</italic>, or Δ<italic>bipA</italic>::<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> were inoculated into wells and incubated overnight at 37°C with shaking. The MIC was determined the following day by assessing the concentration of antimicrobial peptide needed to inhibit <named-content content-type="genus-species">Y. pestis</named-content> growth. To determine susceptibility to subinhibitory concentrations of antimicrobial peptide, <named-content content-type="genus-species">Y. pestis</named-content> strains were cultured for 16 h in BHI broth and then aliquots of wild-type, Δ<italic>bipA</italic>, and Δ<italic>bipA</italic>::<italic>bipA</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> were subcultured in PMH2 (<xref rid="B53" ref-type="bibr">53</xref>) medium with or without 40 μg/ml BPI (R&amp;D Systems), 1 μg/ml polymyxin B (Fisher), or 64 μg/ml LL-37 (Tocris Biosciences). Cultures were grown at 37°C with constant shaking and at 2, 4, and 8 hpi, 100 μl from each technical replicate was serially diluted and plated on BHI agar to determine CFU.</p>
+              </sec>
+              <sec id="s4.4">
+                <title>Preparation of human alveolar macrophages.</title>
+                <p>To isolate human alveolar macrophages (hAMs), lungs obtained from anonymous donors through the Arkansas Organ Recovery Agency were lavaged using phosphate-buffered saline (PBS). Lavage fluid was centrifuged at 500 × <italic>g</italic> for 10 min and treated with red blood cell lysis buffer (0.15 M NH<sub>4</sub>Cl, 12 mM NaHCO<sub>3</sub>, and 0.1 mM EDTA) for 5 min. The remaining cells were washed with PBS and reconstituted in DMEM-F12K 1:1 (GE) supplemented with 10% FBS (Gibco) and Antibiotic-Antimycotic (Gibco). Cells were plated in 12-well plates and incubated at 37°C with 5% CO<sub>2</sub> for 4 to 5 days. Cells were counted prior to infection.</p>
+              </sec>
+              <sec id="s4.5">
+                <title>Animals, animal infections, and ethical approval.</title>
+                <p>All animal experiments were conducted with approval from the UAMS Institutional Animal Ethics Committee. Six- to 8-week old C57BL/6J female mice were obtained from Jackson Laboratories. Mice were provided with food and water <italic>ad libitum</italic> and maintained at 25 to 26°C with 40 to 70% humidity. To prepare mice for infection, mice were anesthetized using ketamine/xylazine injected via the intraperitoneal route. Once anesthetized, mice were inoculated via the intranasal route with lethal doses (10<sup>3</sup> bacteria) of <named-content content-type="genus-species">Y. pestis</named-content> delivered in 20 μl PBS for survival experiments. For YopE secretion analysis, mice were inoculated via intranasal route with 5 × 10<sup>4</sup> CFU <named-content content-type="genus-species">Y. pestis</named-content>. Mice were sacrificed using a lethal dose of sodium pentobarbital injected via the intraperitoneal route. To determine bacterial burdens in lungs and spleens of mice, lungs and spleens were homogenized at 24 h (lungs only) and 48 h postinfection. Organ homogenates were serially diluted and plated on BHI agar to determine CFU. For neutrophil depletion, 20 μg Ly-6G antibody (clone 1A8, BioLegend) was injected via the intravenous route one day prior to and on the day of infection, as described previously (<xref rid="B48" ref-type="bibr">48</xref>).</p>
+              </sec>
+              <sec id="s4.6">
+                <title>Neutrophil degranulation assay.</title>
+                <p>Neutrophils were isolated from human peripheral blood samples and degranulation was quantified as described previously (<xref rid="B30" ref-type="bibr">30</xref>). Briefly, 10<sup>6</sup> isolated human neutrophils were infected in triplicate with 10<sup>7</sup> CFU of wild-type, Δ<italic>bipA</italic>, or Δ<italic>pCD1</italic>
+<named-content content-type="genus-species">Y. pestis</named-content> CO92 or mock-inoculated with PBS. Neutrophils and <named-content content-type="genus-species">Y. pestis</named-content> were incubated for 1 h at 37°C. After incubation, neutrophils were washed in PBS with 2% FBS, then stained for 25 min at 4°C with CD63-phycoerythrin-Cy7 (clone H5C6, Invitrogen) as a marker of primary granule exocytosis (<xref rid="B21" ref-type="bibr">21</xref>). Neutrophils were washed once in 2% FBS in PBS containing propidium idodide (Invitrogen) to exclude dead cells from analysis. Neutrophils were acquired using a Millipore Guava 6HT flow cytometer and analyzed with the InCyte EasyCyte v3.1 software.</p>
+              </sec>
+              <sec id="s4.7">
+                <title>Preparation of BALF for flow cytometry.</title>
+                <p>Bronchoalveolar lavage fluid (BALF) was retrieved from mice postmortem. BALF was centrifuged for 5 min at 500 × <italic>g</italic> to pellet cells. Cells were resuspended in 3% FBS in PBS containing the following antibodies (1:500 dilution) for 30 min at 4°C to stain cell surface markers: CD45-phycoerthrin (clone 30-F-11, BD Biosciences), CD3-allophycocyanin-Cy7 (clone 17A2, BD Biosciences), CD11b-Alexa Fluor 700 (clone M1/70, BD Biosciences), CD11c-Brilliant Violet 786 (clone HL3, BD Biosciences), F4/80-allophycocyanin (clone BM8, Invitrogen), and Ly-6G-phycoerthrin-Cy7 (clone 1A8, BD Biosciences). After antibody staining, cells were centrifuged at 500 × <italic>g</italic> for 5 min and the supernatant was removed. Cells were subsequently stained using 1× CCF2-AM (Invitrogen) for 30 min at room temperature. Cells were pelleted at 500 × <italic>g</italic> for 5 min and resuspended in 2% formalin in PBS for fixation for 20 min at room temperature. After fixation, cells were pelleted and resuspended in 200 μl of 3% FBS in PBS for flow cytometry. The following cell populations were identified as described previously (<xref rid="B35" ref-type="bibr">35</xref>): alveolar macrophages (F4/80<sup>+</sup>CD11b<sup>mid/low</sup>CD11c<sup>high</sup>), CD11b<sup>high</sup> interstitial/exudate macrophages (F4/80<sup>+</sup>CD11b<sup>high</sup>CD11c<sup>low/mid</sup>), F4/80<sup>+</sup>CD11b<sup>high</sup>CD11c<sup>high</sup> macrophages, monocytes (F4/80<sup>−</sup>CD11b<sup>high</sup>CD11c<sup>low</sup>Ly-6G<sup>−</sup>), CD11b<sup>high</sup> and CD11b<sup>low</sup>dendritic cells (F4/80<sup>−</sup>CD11c<sup>high</sup>CD11b<sup>high or low</sup>), and neutrophils (F4/80<sup>−</sup>CD11c<sup>low</sup>CD11b<sup>high</sup>Ly-6G<sup>+</sup>).</p>
+              </sec>
+              <sec id="s4.8">
+                <title>Proteomic analysis.</title>
+                <p>To obtain protein extracts from broth-grown <named-content content-type="genus-species">Y. pestis</named-content>, equal optical densities of <named-content content-type="genus-species">Y. pestis</named-content> CO92 and <named-content content-type="genus-species">Y. pestis</named-content> CO92 Δ<italic>bipA</italic> cultures were spun down at 10,000 × <italic>g</italic> for 5 min to pellet bacterial cells. To obtain bacterial protein extracts from <named-content content-type="genus-species">Y. pestis</named-content> incubated with BPI, <named-content content-type="genus-species">Y. pestis</named-content> was incubated with 40 μg/ml BPI or PBS for 30 min at 37°C. Bacteria were spun at 10,000 × <italic>g</italic> for 5 min to pellet bacteria. Bacterial pellets were resuspended in 1× Laemmeli buffer (Bio-Rad) and boiled for 5 min at 96°C to lyse cells. Volumes of each cell lysate sample (normalized to CFU) were resolved via SDS-PAGE and stained with Coomassie brilliant blue to visualize protein bands. Protein gels were subsequently submitted to the UAMS Proteomics Core for in-gel trypsin digestion, MS/MS analysis, and protein identification and quantification. Spectral counts were exported from Scaffold (Proteome Software) to Microsoft Excel for further statistical analyses.</p>
+              </sec>
+              <sec id="s4.9">
+                <title>Statistical analyses.</title>
+                <p>Statistical analyses were done using one-way and two-way analysis of variance (ANOVA) and log rank test where applicable. <italic>P</italic> values of &lt;0.05 are represented as *, of &lt;0.005 as **, of &lt;0.0005 as ***, and of &lt;0.0001 as ****. All statistical analyses were performed using GraphPad Prism v7.04 software.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <supplementary-material id="PMC_1" content-type="local-data">
+                <caption>
+                  <title>Supplemental file 1</title>
+                </caption>
+                <media mimetype="application" mime-subtype="pdf" xlink:href="IAI.00673-20_s00001.pdf"/>
+              </supplementary-material>
+              <supplementary-material id="PMC_2" content-type="local-data">
+                <caption>
+                  <title>Supplemental file 2</title>
+                </caption>
+                <media mimetype="application" mime-subtype="pdf" xlink:href="IAI.00673-20_s00003.pdf"/>
+              </supplementary-material>
+              <supplementary-material id="PMC_3" content-type="local-data">
+                <caption>
+                  <title>Supplemental file 3</title>
+                </caption>
+                <media mimetype="application" mime-subtype="pdf" xlink:href="IAI.00673-20_s00002.pdf"/>
+              </supplementary-material>
+              <supplementary-material id="PMC_4" content-type="local-data">
+                <caption>
+                  <title>Supplemental file 4</title>
+                </caption>
+                <media mimetype="application" mime-subtype="pdf" xlink:href="IAI.00673-20_s00005.pdf"/>
+              </supplementary-material>
+              <supplementary-material id="PMC_5" content-type="local-data">
+                <caption>
+                  <title>Supplemental file 5</title>
+                </caption>
+                <media mimetype="application" mime-subtype="pdf" xlink:href="IAI.00673-20_s00004.pdf"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn fn-type="supplementary-material">
+                <p>Supplemental material is available online only.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>ACKNOWLEDGMENTS</title>
+              <p>We acknowledge the UAMS Center for Microbial Pathogenesis and Host Inflammatory Responses for continued support. We also thank the UAMS Flow Cytometry Core Facility and the UAMS Proteomics Core for assistance. We thank Daniel Voth for the generous gift of MH-S cells.</p>
+              <p>This work was funded by the NIH/NIGMS award P20-GM103625, sub-award 7718, NIH/NIAID award 1R21 AI133103, and UAMS Foundation/Medical Research Endowment Award AWD00053959 MRE (to R.D.P.). The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.</p>
+            </ack>
+            <ref-list>
+              <title>REFERENCES</title>
+              <ref id="B1">
+                <label>1.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Inglesby</surname><given-names>TV</given-names></name>, <name name-style="western"><surname>Dennis</surname><given-names>DT</given-names></name>, <name name-style="western"><surname>Henderson</surname><given-names>DA</given-names></name>, <name name-style="western"><surname>Bartlett</surname><given-names>JG</given-names></name>, <name name-style="western"><surname>Ascher</surname><given-names>MS</given-names></name>, <name name-style="western"><surname>Eitzen</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Fine</surname><given-names>AD</given-names></name>, <name name-style="western"><surname>Friedlander</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>Hauer</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Koerner</surname><given-names>JF</given-names></name>, <name name-style="western"><surname>Layton</surname><given-names>M</given-names></name>, <name name-style="western"><surname>McDade</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Osterholm</surname><given-names>MT</given-names></name>, <name name-style="western"><surname>O'Toole</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Parker</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Perl</surname><given-names>TM</given-names></name>, <name name-style="western"><surname>Russell</surname><given-names>PK</given-names></name>, <name name-style="western"><surname>Schoch-Spana</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Tonat</surname><given-names>K</given-names></name></person-group>, <collab>for the Working Group on Civilian Biodefense.</collab><year>2000</year><article-title>Plague as a biological weapon</article-title>. <source>JAMA</source><volume>283</volume>:<fpage>2281</fpage>–<lpage>2290</lpage>. doi:<pub-id pub-id-type="doi">10.1001/jama.283.17.2281</pub-id>.<pub-id pub-id-type="pmid">10807389</pub-id></mixed-citation>
+              </ref>
+              <ref id="B2">
+                <label>2.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Perry</surname><given-names>RD</given-names></name>, <name name-style="western"><surname>Fetherston</surname><given-names>JD</given-names></name></person-group><year>1997</year><article-title><italic>Yersinia pestis</italic>—etiologic agent of plague</article-title>. <source>Clin Microbiol Rev</source><volume>10</volume>:<fpage>35</fpage>–<lpage>66</lpage>. doi:<pub-id pub-id-type="doi">10.1128/CMR.10.1.35-66.1997</pub-id>.<pub-id pub-id-type="pmid">8993858</pub-id></mixed-citation>
+              </ref>
+              <ref id="B3">
+                <label>3.</label>
+                <mixed-citation publication-type="other"><collab>World Health Organization</collab>. <year>2017</year><article-title>Plague outbreak Madagascar external situation report 12</article-title>. <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/bitstream/handle/10665/259482/Ex-PlagueMadagascar20112017.pdf;jsessionid=142B86D5F9CF39286E36FF7793E30EE5?sequence=1">https://apps.who.int/iris/bitstream/handle/10665/259482/Ex-PlagueMadagascar20112017.pdf;jsessionid=142B86D5F9CF39286E36FF7793E30EE5?sequence=1</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="B4">
+                <label>4.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Plano</surname><given-names>GV</given-names></name>, <name name-style="western"><surname>Schesser</surname><given-names>K</given-names></name></person-group><year>2013</year><article-title>The <italic>Yersinia pestis</italic> type III secretion system: expression, assembly and role in the evasion of host defenses</article-title>. <source>Immunol Res</source><volume>57</volume>:<fpage>237</fpage>–<lpage>245</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s12026-013-8454-3</pub-id>.<pub-id pub-id-type="pmid">24198067</pub-id></mixed-citation>
+              </ref>
+              <ref id="B5">
+                <label>5.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Qi</surname><given-names>SY</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Szyroki</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Giles</surname><given-names>IG</given-names></name>, <name name-style="western"><surname>Moir</surname><given-names>A</given-names></name>, <name name-style="western"><surname>O'Connor</surname><given-names>CD</given-names></name></person-group><year>1995</year><article-title><italic>Salmonella typhimurium</italic> responses to a bactericidal protein from human neutrophils</article-title>. <source>Mol Microbiol</source><volume>17</volume>:<fpage>523</fpage>–<lpage>531</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2958.1995.mmi_17030523.x</pub-id>.<pub-id pub-id-type="pmid">8559071</pub-id></mixed-citation>
+              </ref>
+              <ref id="B6">
+                <label>6.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Balakrishnan</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Marathe</surname><given-names>SA</given-names></name>, <name name-style="western"><surname>Joglekar</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Chakravortty</surname><given-names>D</given-names></name></person-group><year>2013</year><article-title>Bactericidal/permeability increasing protein: a multifaceted protein with functions beyond LPS neutralization</article-title>. <source>Innate Immun</source><volume>19</volume>:<fpage>339</fpage>–<lpage>347</lpage>. doi:<pub-id pub-id-type="doi">10.1177/1753425912465098</pub-id>.<pub-id pub-id-type="pmid">23160386</pub-id></mixed-citation>
+              </ref>
+              <ref id="B7">
+                <label>7.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Levy</surname><given-names>O</given-names></name></person-group><year>2000</year><article-title>A neutrophil-derived anti-infective molecule: bactericidal/permeability-increasing protein</article-title>. <source>Antimicrob Agents Chemother</source><volume>44</volume>:<fpage>2925</fpage>–<lpage>2931</lpage>. doi:<pub-id pub-id-type="doi">10.1128/aac.44.11.2925-2931.2000</pub-id>.<pub-id pub-id-type="pmid">11036002</pub-id></mixed-citation>
+              </ref>
+              <ref id="B8">
+                <label>8.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Gibbs</surname><given-names>MR</given-names></name>, <name name-style="western"><surname>Fredrick</surname><given-names>K</given-names></name></person-group><year>2018</year><article-title>Roles of elusive translational GTPases come to light and inform on the process of ribosome biogenesis in bacteria</article-title>. <source>Mol Microbiol</source><volume>107</volume>:<fpage>445</fpage>–<lpage>454</lpage>. doi:<pub-id pub-id-type="doi">10.1111/mmi.13895</pub-id>.<pub-id pub-id-type="pmid">29235176</pub-id></mixed-citation>
+              </ref>
+              <ref id="B9">
+                <label>9.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Fan</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Hahm</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Diggs</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Perry</surname><given-names>JJP</given-names></name>, <name name-style="western"><surname>Blaha</surname><given-names>G</given-names></name></person-group><year>2015</year><article-title>Structural and functional analysis of BipA, a regulator of virulence in enteropathogenic <italic>Escherichia coli</italic></article-title>. <source>J Biol Chem</source><volume>290</volume>:<fpage>20856</fpage>–<lpage>20864</lpage>. doi:<pub-id pub-id-type="doi">10.1074/jbc.M115.659136</pub-id>.<pub-id pub-id-type="pmid">26163516</pub-id></mixed-citation>
+              </ref>
+              <ref id="B10">
+                <label>10.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kumar</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Ero</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Ahmed</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Tan</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Wong</surname><given-names>ASW</given-names></name>, <name name-style="western"><surname>Bhushan</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Gao</surname><given-names>Y-G</given-names></name></person-group><year>2015</year><article-title>Structure of BipA in GTP form bound to the ratcheted ribosome</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>112</volume>:<fpage>10944</fpage>–<lpage>10949</lpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.1513216112</pub-id>.<pub-id pub-id-type="pmid">26283392</pub-id></mixed-citation>
+              </ref>
+              <ref id="B11">
+                <label>11.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Scott</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Diggle</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Clarke</surname><given-names>SC</given-names></name></person-group><year>2003</year><article-title>TypA is a virulence regulator and is present in many pathogenic bacteria</article-title>. <source>Br J Biomed Sci</source><volume>60</volume>:<fpage>168</fpage>–<lpage>170</lpage>. doi:<pub-id pub-id-type="doi">10.1080/09674845.2003.11978047</pub-id>.<pub-id pub-id-type="pmid">14560797</pub-id></mixed-citation>
+              </ref>
+              <ref id="B12">
+                <label>12.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Rowe</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Hodson</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Griffiths</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Roberts</surname><given-names>IS</given-names></name></person-group><year>2000</year><article-title>Regulation of the Escherichia coli K5 capsule gene cluster: evidence for the roles of H-NS, BipA, and integration host factor in regulation of group 2 capsule gene clusters in pathogenic <italic>E. coli</italic></article-title>. <source>J Bacteriol</source><volume>182</volume>:<fpage>2741</fpage>–<lpage>2745</lpage>. doi:<pub-id pub-id-type="doi">10.1128/jb.182.10.2741-2745.2000</pub-id>.<pub-id pub-id-type="pmid">10781541</pub-id></mixed-citation>
+              </ref>
+              <ref id="B13">
+                <label>13.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Farris</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Grant</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Richardson</surname><given-names>TB</given-names></name>, <name name-style="western"><surname>O'Connor</surname><given-names>CD</given-names></name></person-group><year>1998</year><article-title>BipA: a tyrosine-phosphorylated GTPase that mediates interactions between enteropathogenic <italic>Escherichia coli</italic> (EPEC) and epithelial cells</article-title>. <source>Mol Microbiol</source><volume>28</volume>:<fpage>265</fpage>–<lpage>279</lpage>. doi:<pub-id pub-id-type="doi">10.1046/j.1365-2958.1998.00793.x</pub-id>.<pub-id pub-id-type="pmid">9622352</pub-id></mixed-citation>
+              </ref>
+              <ref id="B14">
+                <label>14.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Grant</surname><given-names>AJ</given-names></name>, <name name-style="western"><surname>Farris</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Alefounder</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Williams</surname><given-names>PH</given-names></name>, <name name-style="western"><surname>Woodward</surname><given-names>MJ</given-names></name>, <name name-style="western"><surname>O'Connor</surname><given-names>CD</given-names></name></person-group><year>2003</year><article-title>Co-ordination of pathogenicity island expression by the BipA GTPase in enteropathogenic <italic>Escherichia coli</italic> (EPEC)</article-title>. <source>Mol Microbiol</source><volume>48</volume>:<fpage>507</fpage>–<lpage>521</lpage>. doi:<pub-id pub-id-type="doi">10.1046/j.1365-2958.2003.t01-1-03447.x</pub-id>.<pub-id pub-id-type="pmid">12675808</pub-id></mixed-citation>
+              </ref>
+              <ref id="B15">
+                <label>15.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Sabbagh</surname><given-names>SC</given-names></name>, <name name-style="western"><surname>Lepage</surname><given-names>C</given-names></name>, <name name-style="western"><surname>McClelland</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Daigle</surname><given-names>F</given-names></name></person-group><year>2012</year><article-title>Selection of <italic>Salmonella enterica</italic> serovar Typhi genes involved during interaction with human macrophages by screening of a transposon mutant library</article-title>. <source>PLoS One</source><volume>7</volume>:<elocation-id>e36643</elocation-id>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0036643</pub-id>.<pub-id pub-id-type="pmid">22574205</pub-id></mixed-citation>
+              </ref>
+              <ref id="B16">
+                <label>16.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Barker</surname><given-names>HC</given-names></name>, <name name-style="western"><surname>Kinsella</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Jaspe</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Friedrich</surname><given-names>T</given-names></name>, <name name-style="western"><surname>O'Connor</surname><given-names>CD</given-names></name></person-group><year>2000</year><article-title>Formate protects stationary-phase <italic>Escherichia coli</italic> and <italic>Salmonella</italic> cells from killing by a cationic antimicrobial peptide</article-title>. <source>Mol Microbiol</source><volume>35</volume>:<fpage>1518</fpage>–<lpage>1529</lpage>. doi:<pub-id pub-id-type="doi">10.1046/j.1365-2958.2000.01820.x</pub-id>.<pub-id pub-id-type="pmid">10760151</pub-id></mixed-citation>
+              </ref>
+              <ref id="B17">
+                <label>17.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Neidig</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Yeung</surname><given-names>ATY</given-names></name>, <name name-style="western"><surname>Rosay</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Tettmann</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Strempel</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Rueger</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Lesouhaitier</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Overhage</surname><given-names>J</given-names></name></person-group><year>2013</year><article-title>TypA is involved in virulence, antimicrobial resistance and biofilm formation in <italic>Pseudomonas aeruginosa</italic></article-title>. <source>BMC Microbiol</source><volume>13</volume>:<fpage>77</fpage>. doi:<pub-id pub-id-type="doi">10.1186/1471-2180-13-77</pub-id>.<pub-id pub-id-type="pmid">23570569</pub-id></mixed-citation>
+              </ref>
+              <ref id="B18">
+                <label>18.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lathem</surname><given-names>WW</given-names></name>, <name name-style="western"><surname>Crosby</surname><given-names>SD</given-names></name>, <name name-style="western"><surname>Miller</surname><given-names>VL</given-names></name>, <name name-style="western"><surname>Goldman</surname><given-names>WE</given-names></name></person-group><year>2005</year><article-title>Progression of primary pneumonic plague: a mouse model of infection, pathology, and bacterial transcriptional activity</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>102</volume>:<fpage>17786</fpage>–<lpage>17791</lpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.0506840102</pub-id>.<pub-id pub-id-type="pmid">16306265</pub-id></mixed-citation>
+              </ref>
+              <ref id="B19">
+                <label>19.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Elsbach</surname><given-names>P</given-names></name></person-group><year>1998</year><article-title>The bactericidal/permeability-increasing protein (BPI) in antibacterial host defense</article-title>. <source>J Leukoc Biol</source><volume>64</volume>:<fpage>14</fpage>–<lpage>18</lpage>. doi:<pub-id pub-id-type="doi">10.1002/jlb.64.1.14</pub-id>.<pub-id pub-id-type="pmid">9665269</pub-id></mixed-citation>
+              </ref>
+              <ref id="B20">
+                <label>20.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Pechous</surname><given-names>RD</given-names></name></person-group><year>2017</year><article-title>With friends like these: the complex role of neutrophils in the progression of severe pneumonia</article-title>. <source>Front Cell Infect Microbiol</source><volume>7</volume>:<fpage>160</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fcimb.2017.00160</pub-id>.<pub-id pub-id-type="pmid">28507954</pub-id></mixed-citation>
+              </ref>
+              <ref id="B21">
+                <label>21.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Cowland</surname><given-names>JB</given-names></name>, <name name-style="western"><surname>Borregaard</surname><given-names>N</given-names></name></person-group><year>2016</year><article-title>Granulopoiesis and granules of human neutrophils</article-title>. <source>Immunol Rev</source><volume>273</volume>:<fpage>11</fpage>–<lpage>28</lpage>. doi:<pub-id pub-id-type="doi">10.1111/imr.12440</pub-id>.<pub-id pub-id-type="pmid">27558325</pub-id></mixed-citation>
+              </ref>
+              <ref id="B22">
+                <label>22.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Choudhury</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Flower</surname><given-names>AM</given-names></name></person-group><year>2015</year><article-title>Efficient assembly of ribosomes is inhibited by deletion of bipA in <italic>Escherichia coli</italic></article-title>. <source>J Bacteriol</source><volume>197</volume>:<fpage>1819</fpage>–<lpage>1827</lpage>. doi:<pub-id pub-id-type="doi">10.1128/JB.00023-15</pub-id>.<pub-id pub-id-type="pmid">25777676</pub-id></mixed-citation>
+              </ref>
+              <ref id="B23">
+                <label>23.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>DeLivron</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Robinson</surname><given-names>VL</given-names></name></person-group><year>2008</year><article-title><italic>Salmonella enterica</italic> serovar Typhimurium BipA exhibits two distinct ribosome binding modes</article-title>. <source>J Bacteriol</source><volume>190</volume>:<fpage>5944</fpage>–<lpage>5952</lpage>. doi:<pub-id pub-id-type="doi">10.1128/JB.00763-08</pub-id>.<pub-id pub-id-type="pmid">18621905</pub-id></mixed-citation>
+              </ref>
+              <ref id="B24">
+                <label>24.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>DeLivron</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Makanji</surname><given-names>HS</given-names></name>, <name name-style="western"><surname>Lane</surname><given-names>MC</given-names></name>, <name name-style="western"><surname>Robinson</surname><given-names>VL</given-names></name></person-group><year>2009</year><article-title>A novel domain in translational GTPase BipA mediates interaction with the 70S ribosome and influences GTP hydrolysis</article-title>. <source>Biochemistry</source><volume>48</volume>:<fpage>10533</fpage>–<lpage>10541</lpage>. doi:<pub-id pub-id-type="doi">10.1021/bi901026z</pub-id>.<pub-id pub-id-type="pmid">19803466</pub-id></mixed-citation>
+              </ref>
+              <ref id="B25">
+                <label>25.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Choi</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Hwang</surname><given-names>J</given-names></name></person-group><year>2018</year><article-title>The GTPase BipA expressed at low temperature in <italic>Escherichia coli</italic> assists ribosome assembly and has chaperone-like activity</article-title>. <source>J Biol Chem</source><volume>293</volume>:<fpage>18404</fpage>–<lpage>18419</lpage>. doi:<pub-id pub-id-type="doi">10.1074/jbc.RA118.002295</pub-id>.<pub-id pub-id-type="pmid">30305394</pub-id></mixed-citation>
+              </ref>
+              <ref id="B26">
+                <label>26.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Wittmann</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Schönefeld</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Aichele</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Groer</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Gessner</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Schnare</surname><given-names>M</given-names></name></person-group><year>2008</year><article-title>Murine bactericidal/permeability-increasing protein inhibits the endotoxic activity of lipopolysaccharide and Gram-negative bacteria</article-title>. <source>J Immunol</source><volume>180</volume>:<fpage>7546</fpage>–<lpage>7552</lpage>. doi:<pub-id pub-id-type="doi">10.4049/jimmunol.180.11.7546</pub-id>.<pub-id pub-id-type="pmid">18490755</pub-id></mixed-citation>
+              </ref>
+              <ref id="B27">
+                <label>27.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Weiss</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Elsbach</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Olsson</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Odeberg</surname><given-names>H</given-names></name></person-group><year>1978</year><article-title>Purification and characterization of a potent bactericidal and membrane active protein from the granules of human polymorphonuclear leukocytes</article-title>. <source>J Biol Chem</source><volume>253</volume>:<fpage>2664</fpage>–<lpage>2672</lpage>.<pub-id pub-id-type="pmid">344320</pub-id></mixed-citation>
+              </ref>
+              <ref id="B28">
+                <label>28.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Viboud</surname><given-names>GI</given-names></name>, <name name-style="western"><surname>Bliska</surname><given-names>JB</given-names></name></person-group><year>2005</year><article-title><italic>Yersinia</italic> outer proteins: role in modulation of host cell signaling responses and pathogenesis</article-title>. <source>Annu Rev Microbiol</source><volume>59</volume>:<fpage>69</fpage>–<lpage>89</lpage>. doi:<pub-id pub-id-type="doi">10.1146/annurev.micro.59.030804.121320</pub-id>.<pub-id pub-id-type="pmid">15847602</pub-id></mixed-citation>
+              </ref>
+              <ref id="B29">
+                <label>29.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Eichelberger</surname><given-names>KR</given-names></name>, <name name-style="western"><surname>Goldman</surname><given-names>WE</given-names></name></person-group><year>2019</year><chapter-title>Human neutrophil isolation and degranulation responses to <italic>Yersinia pestis</italic> infection</chapter-title>, p <fpage>197</fpage>–<lpage>209</lpage>. <italic>In</italic>
+<person-group person-group-type="editor"><name name-style="western"><surname>Vadyvaloo</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Lawrenz</surname><given-names>M</given-names></name></person-group> (ed), <source>Pathogenic Yersinia. Methods in Molecular Biology</source>, <volume>vol 2010</volume>
+<publisher-name>Humana Press Inc</publisher-name>, <publisher-loc>New York, NY</publisher-loc>.</mixed-citation>
+              </ref>
+              <ref id="B30">
+                <label>30.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Eichelberger</surname><given-names>KR</given-names></name>, <name name-style="western"><surname>Jones</surname><given-names>GS</given-names></name>, <name name-style="western"><surname>Goldman</surname><given-names>WE</given-names></name></person-group><year>2019</year><article-title>Inhibition of Neutrophil Primary Granule Release during <italic>Yersinia pestis</italic> Pulmonary Infection</article-title>. <source>mBio</source><volume>10</volume>:<elocation-id>e02759-19</elocation-id>. doi:<pub-id pub-id-type="doi">10.1128/mBio.02759-19</pub-id>.<pub-id pub-id-type="pmid">31822588</pub-id></mixed-citation>
+              </ref>
+              <ref id="B31">
+                <label>31.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Taheri</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Fahlgren</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Fällman</surname><given-names>M</given-names></name></person-group><year>2016</year><article-title><italic>Yersinia pseudotuberculosis</italic> blocks neutrophil degranulation</article-title>. <source>Infect Immun</source><volume>84</volume>:<fpage>3369</fpage>–<lpage>3378</lpage>. doi:<pub-id pub-id-type="doi">10.1128/IAI.00760-16</pub-id>.<pub-id pub-id-type="pmid">27620724</pub-id></mixed-citation>
+              </ref>
+              <ref id="B32">
+                <label>32.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Pulsifer</surname><given-names>AR</given-names></name>, <name name-style="western"><surname>Vashishta</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Reeves</surname><given-names>SA</given-names></name>, <name name-style="western"><surname>Wolfe</surname><given-names>JK</given-names></name>, <name name-style="western"><surname>Palace</surname><given-names>SG</given-names></name>, <name name-style="western"><surname>Proulx</surname><given-names>MK</given-names></name>, <name name-style="western"><surname>Goguen</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Bodduluri</surname><given-names>SR</given-names></name>, <name name-style="western"><surname>Haribabu</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Uriarte</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>Lawrenz</surname><given-names>MB</given-names></name></person-group><year>2019</year><article-title>Redundant and cooperative roles for <italic>Yersinia pestis</italic> Yop effectors in the inhibition of human neutrophil exocytic responses revealed by gain-of-function approach</article-title>. <source>Infect Immun</source><volume>88</volume>:<elocation-id>e00909-19</elocation-id>. doi:<pub-id pub-id-type="doi">10.1128/IAI.00909-19</pub-id>.</mixed-citation>
+              </ref>
+              <ref id="B33">
+                <label>33.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Marketon</surname><given-names>MM</given-names></name>, <name name-style="western"><surname>DePaolo</surname><given-names>RW</given-names></name>, <name name-style="western"><surname>DeBord</surname><given-names>KL</given-names></name>, <name name-style="western"><surname>Jabri</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Schneewind</surname><given-names>O</given-names></name></person-group><year>2005</year><article-title>Plague bacteria target immune cells during infection</article-title>. <source>Science</source><volume>309</volume>:<fpage>1739</fpage>–<lpage>1741</lpage>. doi:<pub-id pub-id-type="doi">10.1126/science.1114580</pub-id>.<pub-id pub-id-type="pmid">16051750</pub-id></mixed-citation>
+              </ref>
+              <ref id="B34">
+                <label>34.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Osei-Owusu</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Charlton</surname><given-names>TM</given-names></name>, <name name-style="western"><surname>Kim</surname><given-names>HK</given-names></name>, <name name-style="western"><surname>Missiakas</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Schneewind</surname><given-names>O</given-names></name></person-group><year>2019</year><article-title>FPR1 is the plague receptor on host immune cells</article-title>. <source>Nature</source><volume>574</volume>:<fpage>57</fpage>–<lpage>62</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41586-019-1570-z</pub-id>.<pub-id pub-id-type="pmid">31534221</pub-id></mixed-citation>
+              </ref>
+              <ref id="B35">
+                <label>35.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Pechous</surname><given-names>RD</given-names></name>, <name name-style="western"><surname>Sivaraman</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Price</surname><given-names>PA</given-names></name>, <name name-style="western"><surname>Stasulli</surname><given-names>NM</given-names></name>, <name name-style="western"><surname>Goldman</surname><given-names>WE</given-names></name></person-group><year>2013</year><article-title>Early host cell targets of <italic>Yersinia pestis</italic> during primary pneumonic plague</article-title>. <source>PLoS Pathog</source><volume>9</volume>:<elocation-id>e1003679</elocation-id>. doi:<pub-id pub-id-type="doi">10.1371/journal.ppat.1003679</pub-id>.<pub-id pub-id-type="pmid">24098126</pub-id></mixed-citation>
+              </ref>
+              <ref id="B36">
+                <label>36.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Cabanel</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Bouchier</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Rajerison</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Carniel</surname><given-names>E</given-names></name></person-group><year>2018</year><article-title>Plasmid-mediated doxycycline resistance in a <italic>Yersinia pestis</italic> strain isolated from a rat</article-title>. <source>Int J Antimicrob Agents</source><volume>51</volume>:<fpage>249</fpage>–<lpage>254</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.ijantimicag.2017.09.015</pub-id>.<pub-id pub-id-type="pmid">29030266</pub-id></mixed-citation>
+              </ref>
+              <ref id="B37">
+                <label>37.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Dalebroux</surname><given-names>ZD</given-names></name>, <name name-style="western"><surname>Svensson</surname><given-names>SL</given-names></name>, <name name-style="western"><surname>Gaynor</surname><given-names>EC</given-names></name>, <name name-style="western"><surname>Swanson</surname><given-names>MS</given-names></name></person-group><year>2010</year><article-title>ppGpp conjures bacterial virulence</article-title>. <source>Microbiol Mol Biol Rev</source><volume>74</volume>:<fpage>171</fpage>–<lpage>199</lpage>. doi:<pub-id pub-id-type="doi">10.1128/MMBR.00046-09</pub-id>.<pub-id pub-id-type="pmid">20508246</pub-id></mixed-citation>
+              </ref>
+              <ref id="B38">
+                <label>38.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hwang</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Inouye</surname><given-names>M</given-names></name></person-group><year>2006</year><article-title>The tandem GTPase, Der, is essential for the biogenesis of 50S ribosomal subunits in <italic>Escherichia coli</italic></article-title>. <source>Mol Microbiol</source><volume>61</volume>:<fpage>1660</fpage>–<lpage>1672</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2958.2006.05348.x</pub-id>.<pub-id pub-id-type="pmid">16930151</pub-id></mixed-citation>
+              </ref>
+              <ref id="B39">
+                <label>39.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Britton</surname><given-names>RA</given-names></name></person-group><year>2009</year><article-title>Role of GTPases in bacterial ribosome assembly</article-title>. <source>Annu Rev Microbiol</source><volume>63</volume>:<fpage>155</fpage>–<lpage>176</lpage>. doi:<pub-id pub-id-type="doi">10.1146/annurev.micro.091208.073225</pub-id>.<pub-id pub-id-type="pmid">19575570</pub-id></mixed-citation>
+              </ref>
+              <ref id="B40">
+                <label>40.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Podladchikova</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Antonenka</surname><given-names>U</given-names></name>, <name name-style="western"><surname>Heesemann</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Rakin</surname><given-names>A</given-names></name></person-group><year>2011</year><article-title><italic>Yersinia pestis</italic> autoagglutination factor is a component of the type six secretion system</article-title>. <source>Int J Med Microbiol</source><volume>301</volume>:<fpage>562</fpage>–<lpage>569</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.ijmm.2011.03.004</pub-id>.<pub-id pub-id-type="pmid">21784704</pub-id></mixed-citation>
+              </ref>
+              <ref id="B41">
+                <label>41.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Yang</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Pan</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Shen</surname><given-names>X</given-names></name></person-group><year>2018</year><article-title>Type VI secretion systems present new insights on pathogenic <italic>Yersinia</italic></article-title>. <source>Front Cell Infect Microbiol</source><volume>8</volume>:<fpage>260</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fcimb.2018.00260</pub-id>.<pub-id pub-id-type="pmid">30109217</pub-id></mixed-citation>
+              </ref>
+              <ref id="B42">
+                <label>42.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Andersson</surname><given-names>JA</given-names></name>, <name name-style="western"><surname>Sha</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Erova</surname><given-names>TE</given-names></name>, <name name-style="western"><surname>Fitts</surname><given-names>EC</given-names></name>, <name name-style="western"><surname>Ponnusamy</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Kozlova</surname><given-names>EV</given-names></name>, <name name-style="western"><surname>Kirtley</surname><given-names>ML</given-names></name>, <name name-style="western"><surname>Chopra</surname><given-names>AK</given-names></name></person-group><year>2017</year><article-title>Identification of new virulence factors and vaccine candidates for <italic>Yersinia pestis</italic></article-title>. <source>Front Cell Infect Microbiol</source><volume>7</volume>:<fpage>448</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fcimb.2017.00448</pub-id>.<pub-id pub-id-type="pmid">29090192</pub-id></mixed-citation>
+              </ref>
+              <ref id="B43">
+                <label>43.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Pechous</surname><given-names>RD</given-names></name>, <name name-style="western"><surname>Sivaraman</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Stasulli</surname><given-names>NM</given-names></name>, <name name-style="western"><surname>Goldman</surname><given-names>WE</given-names></name></person-group><year>2016</year><article-title>Pneumonic plague: the darker side of <italic>Yersinia pestis</italic></article-title>. <source>Trends Microbiol</source><volume>24</volume>:<fpage>190</fpage>–<lpage>197</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.tim.2015.11.008</pub-id>.<pub-id pub-id-type="pmid">26698952</pub-id></mixed-citation>
+              </ref>
+              <ref id="B44">
+                <label>44.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Demeure</surname><given-names>CE</given-names></name>, <name name-style="western"><surname>Dussurget</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Mas Fiol</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Le Guern</surname><given-names>AS</given-names></name>, <name name-style="western"><surname>Savin</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Pizarro-Cerdá</surname><given-names>J</given-names></name></person-group><year>2019</year><article-title><italic>Yersinia pestis</italic> and plague: an updated view on evolution, virulence determinants, immune subversion, vaccination, and diagnostics</article-title>. <source>Genes Immun</source><volume>20</volume>:<fpage>357</fpage>–<lpage>370</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41435-019-0065-0</pub-id>.<pub-id pub-id-type="pmid">30940874</pub-id></mixed-citation>
+              </ref>
+              <ref id="B45">
+                <label>45.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Galván</surname><given-names>EM</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Schifferli</surname><given-names>DM</given-names></name></person-group><year>2007</year><article-title>The Psa fimbriae of <italic>Yersinia pestis</italic> interact with phosphatidylcholine on alveolar epithelial cells and pulmonary surfactant</article-title>. <source>Infect Immun</source><volume>75</volume>:<fpage>1272</fpage>–<lpage>1279</lpage>. doi:<pub-id pub-id-type="doi">10.1128/IAI.01153-06</pub-id>.<pub-id pub-id-type="pmid">17178780</pub-id></mixed-citation>
+              </ref>
+              <ref id="B46">
+                <label>46.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Felek</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Tsang</surname><given-names>TM</given-names></name>, <name name-style="western"><surname>Krukonis</surname><given-names>ES</given-names></name></person-group><year>2010</year><article-title>Three <italic>Yersinia pestis</italic> adhesins facilitate Yop delivery to eukaryotic cells and contribute to plague virulence</article-title>. <source>Infect Immun</source><volume>78</volume>:<fpage>4134</fpage>–<lpage>4150</lpage>. doi:<pub-id pub-id-type="doi">10.1128/IAI.00167-10</pub-id>.<pub-id pub-id-type="pmid">20679446</pub-id></mixed-citation>
+              </ref>
+              <ref id="B47">
+                <label>47.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Felek</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Krukonis</surname><given-names>ES</given-names></name></person-group><year>2009</year><article-title>The <italic>Yersinia pestis</italic> Ail protein mediates binding and Yop delivery to host cells required for plague virulence</article-title>. <source>Infect Immun</source><volume>77</volume>:<fpage>825</fpage>–<lpage>836</lpage>. doi:<pub-id pub-id-type="doi">10.1128/IAI.00913-08</pub-id>.<pub-id pub-id-type="pmid">19064637</pub-id></mixed-citation>
+              </ref>
+              <ref id="B48">
+                <label>48.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Banerjee</surname><given-names>SK</given-names></name>, <name name-style="western"><surname>Crane</surname><given-names>SD</given-names></name>, <name name-style="western"><surname>Pechous</surname><given-names>RD</given-names></name></person-group><year>2020</year><article-title>A dual role for the plasminogen activator protease during the preinflammatory phase of primary pneumonic plague</article-title>. <source>J Infect Dis</source><volume>222</volume>:<fpage>407</fpage>–<lpage>416</lpage>. doi:<pub-id pub-id-type="doi">10.1093/infdis/jiaa094</pub-id>.<pub-id pub-id-type="pmid">32128567</pub-id></mixed-citation>
+              </ref>
+              <ref id="B49">
+                <label>49.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Pechous</surname><given-names>RD</given-names></name>, <name name-style="western"><surname>Broberg</surname><given-names>CA</given-names></name>, <name name-style="western"><surname>Stasulli</surname><given-names>NM</given-names></name>, <name name-style="western"><surname>Miller</surname><given-names>VL</given-names></name>, <name name-style="western"><surname>Goldman</surname><given-names>WE</given-names></name></person-group><year>2015</year><article-title>In vivo transcriptional profiling of <italic>Yersinia pestis</italic> reveals a novel bacterial mediator of pulmonary inflammation</article-title>. <source>mBio</source><volume>6</volume>:<fpage>e02302-14</fpage>–<lpage>e02314</lpage>. doi:<pub-id pub-id-type="doi">10.1128/mBio.02302-14</pub-id>.<pub-id pub-id-type="pmid">25691593</pub-id></mixed-citation>
+              </ref>
+              <ref id="B50">
+                <label>50.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Choi</surname><given-names>K-H</given-names></name>, <name name-style="western"><surname>Gaynor</surname><given-names>JB</given-names></name>, <name name-style="western"><surname>White</surname><given-names>KG</given-names></name>, <name name-style="western"><surname>Lopez</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Bosio</surname><given-names>CM</given-names></name>, <name name-style="western"><surname>Karkhoff-Schweizer</surname><given-names>RR</given-names></name>, <name name-style="western"><surname>Schweizer</surname><given-names>HP</given-names></name></person-group><year>2005</year><article-title>A Tn7-based broad-range bacterial cloning and expression system</article-title>. <source>Nat Methods</source><volume>2</volume>:<fpage>443</fpage>–<lpage>448</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nmeth765</pub-id>.<pub-id pub-id-type="pmid">15908923</pub-id></mixed-citation>
+              </ref>
+              <ref id="B51">
+                <label>51.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lathem</surname><given-names>WW</given-names></name>, <name name-style="western"><surname>Price</surname><given-names>PA</given-names></name>, <name name-style="western"><surname>Miller</surname><given-names>VL</given-names></name>, <name name-style="western"><surname>Goldman</surname><given-names>WE</given-names></name></person-group><year>2007</year><article-title>A plasminogen-activating protease specifically controls the development of primary pneumonic plague</article-title>. <source>Science</source><volume>315</volume>:<fpage>509</fpage>–<lpage>513</lpage>. doi:<pub-id pub-id-type="doi">10.1126/science.1137195</pub-id>.<pub-id pub-id-type="pmid">17255510</pub-id></mixed-citation>
+              </ref>
+              <ref id="B52">
+                <label>52.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>VanCleave</surname><given-names>TT</given-names></name>, <name name-style="western"><surname>Pulsifer</surname><given-names>AR</given-names></name>, <name name-style="western"><surname>Connor</surname><given-names>MG</given-names></name>, <name name-style="western"><surname>Warawa</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Lawrenz</surname><given-names>MB</given-names></name></person-group><year>2017</year><article-title>Impact of gentamicin concentration and exposure time on intracellular <italic>Yersinia pestis</italic></article-title>. <source>Front Cell Infect Microbiol</source><volume>7</volume>:<fpage>505</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fcimb.2017.00505</pub-id>.<pub-id pub-id-type="pmid">29312891</pub-id></mixed-citation>
+              </ref>
+              <ref id="B53">
+                <label>53.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Gong</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Bearden</surname><given-names>SW</given-names></name>, <name name-style="western"><surname>Geoffroy</surname><given-names>VA</given-names></name>, <name name-style="western"><surname>Fetherston</surname><given-names>JD</given-names></name>, <name name-style="western"><surname>Perry</surname><given-names>RD</given-names></name></person-group><year>2001</year><article-title>Characterization of the <italic>Yersinia pestis</italic> Yfu ABC inorganic iron transport system</article-title>. <source>Infect Immun</source><volume>69</volume>:<fpage>2829</fpage>–<lpage>2837</lpage>. doi:<pub-id pub-id-type="doi">10.1128/IAI.67.5.2829-2837.2001</pub-id>.<pub-id pub-id-type="pmid">11292695</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

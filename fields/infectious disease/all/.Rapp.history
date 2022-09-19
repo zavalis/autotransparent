@@ -56,6 +56,43 @@ library(metareadr)
 .libPaths('./lib')
 library(metareadr)
 library(metareadr,lib.loc='../../../lib')
-library(metareadr,lib.loc='../../../lib')
 install.packages('magrittr')
 library(metareadr,lib.loc='../../../lib')
+downloads= function(filename){#
+  pmcidfilename=paste0(filename,".csv")#
+  pmcidlist<-read.delim(pmcidfilename, header = TRUE, sep=',')#
+  pmcidlist=pmcidlist$PMCID#
+  pmcnumber<-list()#
+  for (i in pmcidlist){#
+    go=str_replace(i,'PMC','')#
+    pmcnumber=c(pmcnumber,go)#
+  }#
+  pmcnumber=sample (pmcnumber, size=3, replace =F)#
+  filenames=paste0('./publications/PMC',as.character(pmcnumber),'.xml')#
+  mapply(metareadr::mt_read_pmcoa,pmcid=pmcnumber,file_name=filenames)#
+}
+mclapply('search',downloads)
+library(doParallel)
+mclapply('search',downloads)
+library(stringr, lib.loc='/Library/Frameworks/R.framework/Versions/4.2-arm64/Resources/library')
+mclapply('search',downloads)
+library(metareadr)
+.libPaths('../../../lib')
+library(metareadr)
+mclapply('search',downloads)
+downloads= function(filename){#
+  pmcidfilename=paste0(filename,".csv")#
+  pmcidlist<-read.delim(pmcidfilename, header = TRUE, sep=',')#
+  pmcidlist=pmcidlist$PMCID#
+  pmcnumber<-list()#
+  for (i in pmcidlist){#
+    go=str_replace(i,'PMC','')#
+    pmcnumber=c(pmcnumber,go)#
+  }#
+  pmcnumber=sample (pmcnumber, size=5, replace =F)#
+  filenames=paste0('./publications/PMC',as.character(pmcnumber),'.xml')#
+  mapply(metareadr::mt_read_pmcoa,pmcid=pmcnumber,file_name=filenames)#
+}
+mclapply('search',downloads)
+beep()
+beep()

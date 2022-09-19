@@ -36,7 +36,8 @@ downloads= function(filename){
     pmcnumber=c(pmcnumber,go)
   }
   
-  pmcnumber=tail(pmcnumber,10)
+  pmcnumber=sample (pmcnumber, size=5, replace =F)
+
   
   filenames=paste0('./publications/PMC',as.character(pmcnumber),'.xml')
   mapply(metareadr::mt_read_pmcoa,pmcid=pmcnumber,file_name=filenames)

@@ -6,5 +6,6 @@ To get the original raw data for a specific institution you use PubMed and perfo
 
 The autotransparent.R file runs the regex to get the transparency assessment, whilst the jupyter notebooks are just used to shape the data into more workable dataframes and summaries.
 
+You can obviouslyt use this approach to any PubMed search to get the same information.
 
  

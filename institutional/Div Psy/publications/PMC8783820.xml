@@ -1,0 +1,1462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:01:27Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8783820" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8783820</identifier>
+        <datestamp>2022-02-04</datestamp>
+        <setSpec>bmjo</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="systematic-review">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMJ Open</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMJ Open</journal-id>
+              <journal-id journal-id-type="hwp">bmjopen</journal-id>
+              <journal-id journal-id-type="publisher-id">bmjopen</journal-id>
+              <journal-title-group>
+                <journal-title>BMJ Open</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2044-6055</issn>
+              <publisher>
+                <publisher-name>BMJ Publishing Group</publisher-name>
+                <publisher-loc>BMA House, Tavistock Square, London, WC1H 9JR</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8783820</article-id>
+              <article-id pub-id-type="pmcid">PMC8783820</article-id>
+              <article-id pub-id-type="pmc-uid">8783820</article-id>
+              <article-id pub-id-type="pmid">35058256</article-id>
+              <article-id pub-id-type="publisher-id">bmjopen-2020-048166</article-id>
+              <article-id pub-id-type="doi">10.1136/bmjopen-2020-048166</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Paediatrics</subject>
+                </subj-group>
+                <subj-group subj-group-type="hwp-journal-coll">
+                  <subject>1506</subject>
+                  <subject>1719</subject>
+                </subj-group>
+                <series-title>Protocol</series-title>
+              </article-categories>
+              <title-group>
+                <article-title>Transforming Obesity Prevention for CHILDren (TOPCHILD) Collaboration: protocol for a systematic review with individual participant data meta-analysis of behavioural interventions for the prevention of early childhood obesity</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="author-25031282" contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-2796-9220</contrib-id>
+                  <name>
+                    <surname>Hunter</surname>
+                    <given-names>Kylie E</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib id="author-84030220" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5492-9219</contrib-id>
+                  <name>
+                    <surname>Johnson</surname>
+                    <given-names>Brittany J</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib id="author-25031318" contrib-type="author">
+                  <name>
+                    <surname>Askie</surname>
+                    <given-names>Lisa</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib id="author-79311948" contrib-type="author">
+                  <name>
+                    <surname>Golley</surname>
+                    <given-names>Rebecca K</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib id="author-25821789" contrib-type="author">
+                  <name>
+                    <surname>Baur</surname>
+                    <given-names>Louise A</given-names>
+                  </name>
+                  <xref rid="aff3" ref-type="aff">3</xref>
+                </contrib>
+                <contrib id="author-40800659" contrib-type="author">
+                  <name>
+                    <surname>Marschner</surname>
+                    <given-names>Ian C</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib id="author-20407011" contrib-type="author">
+                  <name>
+                    <surname>Taylor</surname>
+                    <given-names>Rachael W</given-names>
+                  </name>
+                  <xref rid="aff4" ref-type="aff">4</xref>
+                </contrib>
+                <contrib id="author-71933771" contrib-type="author">
+                  <name>
+                    <surname>Wolfenden</surname>
+                    <given-names>Luke</given-names>
+                  </name>
+                  <xref rid="aff5" ref-type="aff">5</xref>
+                </contrib>
+                <contrib id="author-84796226" contrib-type="author">
+                  <name>
+                    <surname>Wood</surname>
+                    <given-names>Charles T</given-names>
+                  </name>
+                  <xref rid="aff6" ref-type="aff">6</xref>
+                </contrib>
+                <contrib id="author-43428653" contrib-type="author">
+                  <name>
+                    <surname>Mihrshahi</surname>
+                    <given-names>Seema</given-names>
+                  </name>
+                  <xref rid="aff7" ref-type="aff">7</xref>
+                </contrib>
+                <contrib id="author-21820042" contrib-type="author">
+                  <name>
+                    <surname>Hayes</surname>
+                    <given-names>Alison J</given-names>
+                  </name>
+                  <xref rid="aff8" ref-type="aff">8</xref>
+                </contrib>
+                <contrib id="author-27935662" contrib-type="author">
+                  <name>
+                    <surname>Rissel</surname>
+                    <given-names>Chris</given-names>
+                  </name>
+                  <xref rid="aff8" ref-type="aff">8</xref>
+                </contrib>
+                <contrib id="author-84795872" contrib-type="author">
+                  <name>
+                    <surname>Robledo</surname>
+                    <given-names>Kristy P</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib id="author-39934485" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-6836-122X</contrib-id>
+                  <name>
+                    <surname>O'Connor</surname>
+                    <given-names>Denise A</given-names>
+                  </name>
+                  <xref rid="aff9" ref-type="aff">9</xref>
+                  <xref rid="aff10" ref-type="aff">10</xref>
+                </contrib>
+                <contrib id="author-81252718" contrib-type="author">
+                  <name>
+                    <surname>Espinoza</surname>
+                    <given-names>David</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib id="author-84796291" contrib-type="author">
+                  <name>
+                    <surname>Staub</surname>
+                    <given-names>Lukas P</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib id="author-21300361" contrib-type="author">
+                  <name>
+                    <surname>Chadwick</surname>
+                    <given-names>Paul</given-names>
+                  </name>
+                  <xref rid="aff11" ref-type="aff">11</xref>
+                </contrib>
+                <contrib id="author-84796317" contrib-type="author">
+                  <name>
+                    <surname>Taki</surname>
+                    <given-names>Sarah</given-names>
+                  </name>
+                  <xref rid="aff8" ref-type="aff">8</xref>
+                  <xref rid="aff12" ref-type="aff">12</xref>
+                </contrib>
+                <contrib id="author-73058862" contrib-type="author">
+                  <name>
+                    <surname>Barba</surname>
+                    <given-names>Angie</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib id="author-84795763" contrib-type="author">
+                  <name>
+                    <surname>Libesman</surname>
+                    <given-names>Sol</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib id="author-84795704" contrib-type="author">
+                  <name>
+                    <surname>Aberoumand</surname>
+                    <given-names>Mason</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib id="author-84796358" contrib-type="author">
+                  <name>
+                    <surname>Smith</surname>
+                    <given-names>Wendy A</given-names>
+                  </name>
+                  <xref rid="aff13" ref-type="aff">13</xref>
+                  <xref rid="aff14" ref-type="aff">14</xref>
+                </contrib>
+                <contrib id="author-84796422" contrib-type="author">
+                  <name>
+                    <surname>Sue-See</surname>
+                    <given-names>Michelle</given-names>
+                  </name>
+                  <xref rid="aff14" ref-type="aff">14</xref>
+                </contrib>
+                <contrib id="author-35556370" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-2702-7110</contrib-id>
+                  <name>
+                    <surname>Hesketh</surname>
+                    <given-names>Kylie D</given-names>
+                  </name>
+                  <xref rid="aff15" ref-type="aff">15</xref>
+                </contrib>
+                <contrib id="author-84796567" contrib-type="author">
+                  <name>
+                    <surname>Thomson</surname>
+                    <given-names>Jessica L</given-names>
+                  </name>
+                  <xref rid="aff16" ref-type="aff">16</xref>
+                </contrib>
+                <contrib id="author-84231035" contrib-type="author">
+                  <name>
+                    <surname>Bryant</surname>
+                    <given-names>Maria</given-names>
+                  </name>
+                  <xref rid="aff17" ref-type="aff">17</xref>
+                </contrib>
+                <contrib id="author-84796988" contrib-type="author">
+                  <name>
+                    <surname>Paul</surname>
+                    <given-names>Ian M</given-names>
+                  </name>
+                  <xref rid="aff18" ref-type="aff">18</xref>
+                </contrib>
+                <contrib id="author-84796666" contrib-type="author">
+                  <name>
+                    <surname>Verbestel</surname>
+                    <given-names>Vera</given-names>
+                  </name>
+                  <xref rid="aff19" ref-type="aff">19</xref>
+                </contrib>
+                <contrib id="author-64158035" contrib-type="author">
+                  <name>
+                    <surname>Stough</surname>
+                    <given-names>Cathleen Odar</given-names>
+                  </name>
+                  <xref rid="aff20" ref-type="aff">20</xref>
+                </contrib>
+                <contrib id="author-57409615" contrib-type="author">
+                  <name>
+                    <surname>Wen</surname>
+                    <given-names>Li Ming</given-names>
+                  </name>
+                  <xref rid="aff8" ref-type="aff">8</xref>
+                  <xref rid="aff12" ref-type="aff">12</xref>
+                </contrib>
+                <contrib id="author-45468829" contrib-type="author">
+                  <name>
+                    <surname>Larsen</surname>
+                    <given-names>Junilla K</given-names>
+                  </name>
+                  <xref rid="aff21" ref-type="aff">21</xref>
+                </contrib>
+                <contrib id="author-70655440" contrib-type="author">
+                  <name>
+                    <surname>O'Reilly</surname>
+                    <given-names>Sharleen L</given-names>
+                  </name>
+                  <xref rid="aff22" ref-type="aff">22</xref>
+                </contrib>
+                <contrib id="author-49179242" contrib-type="author">
+                  <name>
+                    <surname>Wasser</surname>
+                    <given-names>Heather M</given-names>
+                  </name>
+                  <xref rid="aff23" ref-type="aff">23</xref>
+                </contrib>
+                <contrib id="author-49179200" contrib-type="author">
+                  <name>
+                    <surname>Savage</surname>
+                    <given-names>Jennifer S</given-names>
+                  </name>
+                  <xref rid="aff24" ref-type="aff">24</xref>
+                </contrib>
+                <contrib id="author-24321166" contrib-type="author">
+                  <name>
+                    <surname>Ong</surname>
+                    <given-names>Ken K</given-names>
+                  </name>
+                  <xref rid="aff25" ref-type="aff">25</xref>
+                </contrib>
+                <contrib id="author-84796772" contrib-type="author">
+                  <name>
+                    <surname>Salvy</surname>
+                    <given-names>Sarah-Jeanne</given-names>
+                  </name>
+                  <xref rid="aff26" ref-type="aff">26</xref>
+                </contrib>
+                <contrib id="author-84796926" contrib-type="author">
+                  <name>
+                    <surname>Messito</surname>
+                    <given-names>Mary Jo</given-names>
+                  </name>
+                  <xref rid="aff27" ref-type="aff">27</xref>
+                </contrib>
+                <contrib id="author-84796955" contrib-type="author">
+                  <name>
+                    <surname>Gross</surname>
+                    <given-names>Rachel S</given-names>
+                  </name>
+                  <xref rid="aff27" ref-type="aff">27</xref>
+                </contrib>
+                <contrib id="author-84796872" contrib-type="author">
+                  <name>
+                    <surname>Karssen</surname>
+                    <given-names>Levie T</given-names>
+                  </name>
+                  <xref rid="aff21" ref-type="aff">21</xref>
+                </contrib>
+                <contrib id="author-84796899" contrib-type="author">
+                  <name>
+                    <surname>Rasmussen</surname>
+                    <given-names>Finn E</given-names>
+                  </name>
+                  <xref rid="aff28" ref-type="aff">28</xref>
+                </contrib>
+                <contrib id="author-26217475" contrib-type="author">
+                  <name>
+                    <surname>Campbell</surname>
+                    <given-names>Karen</given-names>
+                  </name>
+                  <xref rid="aff15" ref-type="aff">15</xref>
+                </contrib>
+                <contrib id="author-84797199" contrib-type="author">
+                  <name>
+                    <surname>Linares</surname>
+                    <given-names>Ana Maria</given-names>
+                  </name>
+                  <xref rid="aff29" ref-type="aff">29</xref>
+                </contrib>
+                <contrib id="author-23598167" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-1871-041X</contrib-id>
+                  <name>
+                    <surname>Øverby</surname>
+                    <given-names>Nina Cecilie</given-names>
+                  </name>
+                  <xref rid="aff30" ref-type="aff">30</xref>
+                </contrib>
+                <contrib id="author-84797290" contrib-type="author">
+                  <name>
+                    <surname>Palacios</surname>
+                    <given-names>Cristina</given-names>
+                  </name>
+                  <xref rid="aff31" ref-type="aff">31</xref>
+                </contrib>
+                <contrib id="author-90712568" contrib-type="author">
+                  <name>
+                    <surname>Joshipura</surname>
+                    <given-names>Kaumudi J</given-names>
+                  </name>
+                  <xref rid="aff32" ref-type="aff">32</xref>
+                  <xref rid="aff33" ref-type="aff">33</xref>
+                </contrib>
+                <contrib id="author-73935577" contrib-type="author">
+                  <name>
+                    <surname>González Acero</surname>
+                    <given-names>Carolina</given-names>
+                  </name>
+                  <xref rid="aff34" ref-type="aff">34</xref>
+                </contrib>
+                <contrib id="author-39789465" contrib-type="author">
+                  <name>
+                    <surname>Lakshman</surname>
+                    <given-names>Rajalakshmi</given-names>
+                  </name>
+                  <xref rid="aff25" ref-type="aff">25</xref>
+                </contrib>
+                <contrib id="author-68193112" contrib-type="author">
+                  <name>
+                    <surname>Thompson</surname>
+                    <given-names>Amanda L</given-names>
+                  </name>
+                  <xref rid="aff23" ref-type="aff">23</xref>
+                  <xref rid="aff35" ref-type="aff">35</xref>
+                </contrib>
+                <contrib id="author-50680606" contrib-type="author">
+                  <name>
+                    <surname>Maffeis</surname>
+                    <given-names>Claudio</given-names>
+                  </name>
+                  <xref rid="aff36" ref-type="aff">36</xref>
+                </contrib>
+                <contrib id="author-20411114" contrib-type="author">
+                  <name>
+                    <surname>Oken</surname>
+                    <given-names>Emily</given-names>
+                  </name>
+                  <xref rid="aff37" ref-type="aff">37</xref>
+                </contrib>
+                <contrib id="author-38278211" contrib-type="author">
+                  <name>
+                    <surname>Ghaderi</surname>
+                    <given-names>Ata</given-names>
+                  </name>
+                  <xref rid="aff38" ref-type="aff">38</xref>
+                </contrib>
+                <contrib id="author-53892850" contrib-type="author">
+                  <name>
+                    <surname>Campos Rivera</surname>
+                    <given-names>Maribel</given-names>
+                  </name>
+                  <xref rid="aff39" ref-type="aff">39</xref>
+                </contrib>
+                <contrib id="author-73935584" contrib-type="author">
+                  <name>
+                    <surname>Pérez-Expósito</surname>
+                    <given-names>Ana B</given-names>
+                  </name>
+                  <xref rid="aff40" ref-type="aff">40</xref>
+                </contrib>
+                <contrib id="author-65302896" contrib-type="author">
+                  <name>
+                    <surname>Banna</surname>
+                    <given-names>Jinan C</given-names>
+                  </name>
+                  <xref rid="aff41" ref-type="aff">41</xref>
+                </contrib>
+                <contrib id="author-66732769" contrib-type="author">
+                  <name>
+                    <surname>de la Haye</surname>
+                    <given-names>Kayla</given-names>
+                  </name>
+                  <xref rid="aff42" ref-type="aff">42</xref>
+                </contrib>
+                <contrib id="author-46839546" contrib-type="author">
+                  <name>
+                    <surname>Goran</surname>
+                    <given-names>Michael</given-names>
+                  </name>
+                  <xref rid="aff42" ref-type="aff">42</xref>
+                </contrib>
+                <contrib id="author-84797695" contrib-type="author">
+                  <name>
+                    <surname>Røed</surname>
+                    <given-names>Margrethe</given-names>
+                  </name>
+                  <xref rid="aff30" ref-type="aff">30</xref>
+                </contrib>
+                <contrib id="author-66631207" contrib-type="author">
+                  <name>
+                    <surname>Anzman-Frasca</surname>
+                    <given-names>Stephanie</given-names>
+                  </name>
+                  <xref rid="aff43" ref-type="aff">43</xref>
+                </contrib>
+                <contrib id="author-25056718" contrib-type="author">
+                  <name>
+                    <surname>Taylor</surname>
+                    <given-names>Barry J</given-names>
+                  </name>
+                  <xref rid="aff44" ref-type="aff">44</xref>
+                </contrib>
+                <contrib id="author-58339515" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-0027-1623</contrib-id>
+                  <name>
+                    <surname>Seidler</surname>
+                    <given-names>Anna Lene</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <collab>the Transforming Obesity Prevention for CHILDren (TOPCHILD) Collaboration
+<contrib-group content-type="collaborators"><contrib contrib-type="collab"><name><surname>Seidler</surname><given-names>Anna Lene</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Hunter</surname><given-names>Kylie</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Johnson</surname><given-names>Brittany</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Golley</surname><given-names>Rebecca</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Barba</surname><given-names>Angie</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Askie</surname><given-names>Lisa</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Aberoumand</surname><given-names>Mason</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Libesman</surname><given-names>Sol</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Williams</surname><given-names>Jonathan</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Baur</surname><given-names>Louise</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Chadwick</surname><given-names>Paul</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Espinoza</surname><given-names>David</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Hayes</surname><given-names>Alison</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Marschner</surname><given-names>Ian</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Mihrshahi</surname><given-names>Seema</given-names></name></contrib><contrib contrib-type="collab"><name><surname>O’Connor</surname><given-names>Denise</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Rissel</surname><given-names>Chris</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Robledo</surname><given-names>Kristy</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Sanders</surname><given-names>Lee</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Smith</surname><given-names>Wendy</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Staub</surname><given-names>Lukas</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Sue-See</surname><given-names>Michelle</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Taki</surname><given-names>Sarah</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Taylor</surname><given-names>Rachael</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Webster</surname><given-names>Angela</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Wolfenden</surname><given-names>Luke</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Wood</surname><given-names>Charles</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Yin</surname><given-names>Shonna</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Anzman-Frasca</surname><given-names>Stephanie</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Banna</surname><given-names>Jinan</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Bryant</surname><given-names>Maria</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Byrne</surname><given-names>Rebecca</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Campbell</surname><given-names>Karen</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Rivera</surname><given-names>Maribel Campos</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Corpeleijn</surname><given-names>Eva</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Daniels</surname><given-names>Lynne</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Dennis</surname><given-names>Cindy-Lee</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Haye</surname><given-names>Kayla dela</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Fiks</surname><given-names>Alexander</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Ghaderi</surname><given-names>Ata</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Acero</surname><given-names>Carolina González</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Goran</surname><given-names>Michael</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Gross</surname><given-names>Rachel</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Helle</surname><given-names>Christine</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Hesketh</surname><given-names>Kylie</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Jacobvitz</surname><given-names>Deborah</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Joshipura</surname><given-names>Kaumudi</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Karasz</surname><given-names>Alison</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Karssen</surname><given-names>Levie</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Lakshman</surname><given-names>Rajalakshmi</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Larsen</surname><given-names>Junilla K</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Linares</surname><given-names>Ana Maria</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Maffeis</surname><given-names>Claudio</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Messito</surname><given-names>Mary Jo</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Oken</surname><given-names>Emily</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Ong</surname><given-names>Ken</given-names></name></contrib><contrib contrib-type="collab"><name><surname>O’Reilly</surname><given-names>Sharleen</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Øverby</surname><given-names>Nina</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Palacios</surname><given-names>Cristina</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Paul</surname><given-names>Ian M</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Perez-Exposito</surname><given-names>Ana</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Perrin</surname><given-names>Eliana</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Raat</surname><given-names>Hein</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Rasmussen</surname><given-names>Finn</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Røed</surname><given-names>Margrethe</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Rothman</surname><given-names>Russell</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Salvy</surname><given-names>Sarah-Jeanne</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Williams</surname><given-names>Jennifer Savage</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Stough</surname><given-names>Cathleen Odar</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Taylor</surname><given-names>Barry</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Taylor</surname><given-names>Rachael</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Thompson</surname><given-names>Amanda</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Thomson</surname><given-names>Jessica</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Verbestel</surname><given-names>Vera</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Vitolo</surname><given-names>Márcia Regina</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Wasser</surname><given-names>Heather</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Wen</surname><given-names>Li Ming</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Widen</surname><given-names>Elizabeth</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Xia</surname><given-names>Hongping</given-names></name></contrib></contrib-group>
+</collab>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><label>1</label><institution content-type="department">NHMRC Clinical Trials Centre</institution>, <institution>The University of Sydney</institution>, <addr-line content-type="city">Sydney</addr-line>, <addr-line content-type="state">New South Wales</addr-line>, <country>Australia</country></aff>
+              <aff id="aff2"><label>2</label><institution content-type="department">Caring Futures Institute, College of Nursing and Health Sciences</institution>, <institution>Flinders University</institution>, <addr-line content-type="city">Adelaide</addr-line>, <addr-line content-type="state">South Australia</addr-line>, <country>Australia</country></aff>
+              <aff id="aff3"><label>3</label><institution content-type="department">Children's Hospital Westmead Clinical School</institution>, <institution>The University of Sydney</institution>, <addr-line content-type="city">Westmead</addr-line>, <addr-line content-type="state">New South Wales</addr-line>, <country>Australia</country></aff>
+              <aff id="aff4"><label>4</label><institution content-type="department">Department of Medicine</institution>, <institution>University of Otago</institution>, <addr-line content-type="city">Dunedin</addr-line>, <country>New Zealand</country></aff>
+              <aff id="aff5"><label>5</label><institution content-type="department">School of Medicine and Public Health</institution>, <institution>The University of Newcastle</institution>, <addr-line content-type="city">Callaghan</addr-line>, <addr-line content-type="state">New South Wales</addr-line>, <country>Australia</country></aff>
+              <aff id="aff6"><label>6</label><institution content-type="department">School of Medicine</institution>, <institution>Duke University</institution>, <addr-line content-type="city">Durham</addr-line>, <addr-line content-type="state">North Carolina</addr-line>, <country>USA</country></aff>
+              <aff id="aff7"><label>7</label><institution content-type="department">Department of Health Systems and Populations, Faculty of Medicine, Health and Human Sciences</institution>, <institution>Macquarie University</institution>, <addr-line content-type="city">Sydney</addr-line>, <addr-line content-type="state">New South Wales</addr-line>, <country>Australia</country></aff>
+              <aff id="aff8"><label>8</label><institution content-type="department">School of Public Health, Faculty of Medicine and Health</institution>, <institution>The University of Sydney</institution>, <addr-line content-type="city">Sydney</addr-line>, <addr-line content-type="state">New South Wales</addr-line>, <country>Australia</country></aff>
+              <aff id="aff9"><label>9</label><institution content-type="department">Department of Epidemiology and Preventive Medicine, School of Public Health and Preventive Medicine</institution>, <institution>Monash University</institution>, <addr-line content-type="city">Clayton</addr-line>, <addr-line content-type="state">Victoria</addr-line>, <country>Australia</country></aff>
+              <aff id="aff10"><label>10</label><institution content-type="department">Monash Department of Clinical Epidemiology</institution>, <institution>Cabrini Institute</institution>, <addr-line content-type="city">Malvern</addr-line>, <addr-line content-type="state">Victoria</addr-line>, <country>Australia</country></aff>
+              <aff id="aff11"><label>11</label><institution content-type="department">Centre For Behaviour Change</institution>, <institution>University College London</institution>, <addr-line content-type="city">London</addr-line>, <country>UK</country></aff>
+              <aff id="aff12"><label>12</label><institution content-type="department">Population Health Research and Evaluation Hub</institution>, <institution>Sydney Local Health District</institution>, <addr-line content-type="city">Camperdown</addr-line>, <addr-line content-type="state">New South Wales</addr-line>, <country>Australia</country></aff>
+              <aff id="aff13"><label>13</label><institution content-type="department">Canterbury Community Health Centre</institution>, <institution>Sydney Local Health District</institution>, <addr-line content-type="city">Campsie</addr-line>, <addr-line content-type="state">New South Wales</addr-line>, <country>Australia</country></aff>
+              <aff id="aff14"><label>14</label><institution>Consumer Representative</institution>, <addr-line content-type="city">Sydney</addr-line>, <addr-line content-type="state">New South Wales</addr-line>, <country>Australia</country></aff>
+              <aff id="aff15"><label>15</label><institution content-type="department">Institute for Physical Activity and Nutrition</institution>, <institution>Deakin University</institution>, <addr-line content-type="city">Geelong</addr-line>, <addr-line content-type="state">Victoria</addr-line>, <country>Australia</country></aff>
+              <aff id="aff16"><label>16</label><institution content-type="department">Agricultural Research Service</institution>, <institution>USDA</institution>, <addr-line content-type="city">Stoneville</addr-line>, <addr-line content-type="state">Mississippi</addr-line>, <country>USA</country></aff>
+              <aff id="aff17"><label>17</label><institution content-type="department">Department of Health Sciences and the Hull York Medical School</institution>, <institution>University of York</institution>, <addr-line content-type="city">York</addr-line>, <country>UK</country></aff>
+              <aff id="aff18"><label>18</label><institution>Penn State College of Medicine</institution>, <addr-line content-type="city">Hershey</addr-line>, <addr-line content-type="state">Pennsylvania</addr-line>, <country>USA</country></aff>
+              <aff id="aff19"><label>19</label><institution content-type="department">Department of Rehabilitation Sciences</institution>, <institution>Ghent University</institution>, <addr-line content-type="city">Ghent</addr-line>, <country>Belgium</country></aff>
+              <aff id="aff20"><label>20</label><institution content-type="department">Department of Psychology</institution>, <institution>University of Cincinnati</institution>, <addr-line content-type="city">Cincinnati</addr-line>, <addr-line content-type="state">Ohio</addr-line>, <country>USA</country></aff>
+              <aff id="aff21"><label>21</label><institution content-type="department">Behavioural Science Institute</institution>, <institution>Radboud Universiteit</institution>, <addr-line content-type="city">Nijmegen</addr-line>, <country>The Netherlands</country></aff>
+              <aff id="aff22"><label>22</label><institution content-type="department">School of Agriculture and Food Science</institution>, <institution>University College Dublin</institution>, <addr-line content-type="city">Dublin</addr-line>, <country>Ireland</country></aff>
+              <aff id="aff23"><label>23</label><institution content-type="department">Department of Nutrition</institution>, <institution>University of North Carolina at Chapel Hill</institution>, <addr-line content-type="city">Chapel Hill</addr-line>, <addr-line content-type="state">North Carolina</addr-line>, <country>USA</country></aff>
+              <aff id="aff24"><label>24</label><institution content-type="department">Department of Nutritional Sciences &amp; Center for Childhood Obesity Research</institution>, <institution>Pennsylvania State University</institution>, <addr-line content-type="city">University Park</addr-line>, <addr-line content-type="state">Pennsylvania</addr-line>, <country>USA</country></aff>
+              <aff id="aff25"><label>25</label><institution content-type="department">MRC Epidemiology Unit</institution>, <institution>University of Cambridge</institution>, <addr-line content-type="city">Cambridge</addr-line>, <country>UK</country></aff>
+              <aff id="aff26"><label>26</label><institution content-type="department">Research Center for Health Equity</institution>, <institution>Cedars-Sinai Medical Center</institution>, <addr-line content-type="city">West Hollywood</addr-line>, <addr-line content-type="state">California</addr-line>, <country>USA</country></aff>
+              <aff id="aff27"><label>27</label><institution content-type="department">Grossman School of Medicine</institution>, <institution>New York University</institution>, <addr-line content-type="city">New York</addr-line>, <addr-line content-type="state">New York</addr-line>, <country>USA</country></aff>
+              <aff id="aff28"><label>28</label><institution content-type="department">Department of Global Public Health</institution>, <institution>Karolinska Institute</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff29"><label>29</label><institution content-type="department">College of Nursing</institution>, <institution>University of Kentucky</institution>, <addr-line content-type="city">Lexington</addr-line>, <addr-line content-type="state">Kentucky</addr-line>, <country>USA</country></aff>
+              <aff id="aff30"><label>30</label><institution content-type="department">Faculty of Health and Sport Sciences, Department of Nutrition and Public Health</institution>, <institution>University of Agder</institution>, <addr-line content-type="city">Kristiansand</addr-line>, <addr-line content-type="state">Vest-Agder</addr-line>, <country>Norway</country></aff>
+              <aff id="aff31"><label>31</label><institution content-type="department">Department of Dietetics and Nutrition, Robert Stempel College of Public Health &amp; Social Work</institution>, <institution>Florida International University</institution>, <addr-line content-type="city">Miami</addr-line>, <addr-line content-type="state">Florida</addr-line>, <country>USA</country></aff>
+              <aff id="aff32"><label>32</label><institution content-type="department">Department of Epidemiology</institution>, <institution>Harvard University T H Chan School of Public Health</institution>, <addr-line content-type="city">Boston</addr-line>, <addr-line content-type="state">Massachusetts</addr-line>, <country>USA</country></aff>
+              <aff id="aff33"><label>33</label><institution content-type="department">Center for Clinical Research and Health Promotion</institution>, <institution>University of Puerto Rico Medical Sciences Campus</institution>, <addr-line content-type="city">San Juan</addr-line>, <addr-line content-type="state">Puerto Rico</addr-line>, <country>USA</country></aff>
+              <aff id="aff34"><label>34</label><institution content-type="department">Social Protection and Health Division</institution>, <institution>Inter-American Development Bank</institution>, <addr-line content-type="city">Santo Domingo</addr-line>, <addr-line content-type="state">Distrito Nacional</addr-line>, <country>Dominican Republic</country></aff>
+              <aff id="aff35"><label>35</label><institution content-type="department">Department of Anthropology</institution>, <institution>University of North Carolina at Chapel Hill</institution>, <addr-line content-type="city">Chapel Hill</addr-line>, <addr-line content-type="state">North Carolina</addr-line>, <country>USA</country></aff>
+              <aff id="aff36"><label>36</label><institution content-type="department">Pediatric Diabetes and Metabolic Disorders Unit</institution>, <institution>University of Verona</institution>, <addr-line content-type="city">Verona</addr-line>, <country>Italy</country></aff>
+              <aff id="aff37"><label>37</label><institution content-type="department">Division of Chronic Disease Research Across the Lifecourse, Department of Population Medicine</institution>, <institution>Harvard Medical School and Harvard Pilgrim Health Care Institute</institution>, <addr-line content-type="city">Boston</addr-line>, <addr-line content-type="state">Massachusetts</addr-line>, <country>USA</country></aff>
+              <aff id="aff38"><label>38</label><institution content-type="department">Department of Clinical Neuroscience</institution>, <institution>Karolinska Institute</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff39"><label>39</label><institution content-type="department">Medical Sciences Campus</institution>, <institution>University of Puerto Rico</institution>, <addr-line content-type="city">San Juan</addr-line>, <country>Puerto Rico, USA</country></aff>
+              <aff id="aff40"><label>40</label><institution content-type="department">Social Protection and Health Division</institution>, <institution>Inter-American Development Bank</institution>, <addr-line content-type="city">Washington</addr-line>, <addr-line content-type="state">District of Columbia</addr-line>, <country>USA</country></aff>
+              <aff id="aff41"><label>41</label><institution content-type="department">Department of Human Nutrition, Food and Animal Sciences</institution>, <institution>University of Hawaii</institution>, <addr-line content-type="city">Honolulu</addr-line>, <addr-line content-type="state">Hawaii</addr-line>, <country>USA</country></aff>
+              <aff id="aff42"><label>42</label><institution content-type="department">Department of Preventive Medicine</institution>, <institution>University of Southern California</institution>, <addr-line content-type="city">Los Angeles</addr-line>, <addr-line content-type="state">California</addr-line>, <country>USA</country></aff>
+              <aff id="aff43"><label>43</label><institution content-type="department">Department of Pediatrics, Jacobs School of Medicine and Biomedical Sciences</institution>, <institution>University at Buffalo</institution>, <addr-line content-type="city">Buffalo</addr-line>, <addr-line content-type="state">New York</addr-line>, <country>USA</country></aff>
+              <aff id="aff44"><label>44</label><institution content-type="department">Better Start National Science Challenge</institution>, <institution>University of Otago</institution>, <addr-line content-type="city">Dunedin</addr-line>, <country>New Zealand</country></aff>
+              <author-notes>
+                <corresp><label>Correspondence to</label> Kylie E Hunter; <email>kylie.hunter@sydney.edu.au</email>
+</corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>20</day>
+                <month>1</month>
+                <year>2022</year>
+              </pub-date>
+              <volume>12</volume>
+              <issue>1</issue>
+              <elocation-id>e048166</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>18</day>
+                  <month>12</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>18</day>
+                  <month>11</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© Author(s) (or their employer(s)) 2021. Re-use permitted under CC BY-NC. No commercial re-use. See rights and permissions. Published by BMJ.</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <ali:free_to_read/>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbynclicense" start_date="2022-01-20">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref>
+                  <license-p>This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non-commercial. See: <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:title="pdf" xlink:href="bmjopen-2020-048166.pdf"/>
+              <self-uri content-type="reviewers-comments-pdf" xlink:href="bmjopen-2020-048166.reviewer_comments.pdf"/>
+              <self-uri content-type="draft-revisions-pdf" xlink:href="bmjopen-2020-048166.draft_revisions.pdf"/>
+              <related-article related-article-type="companion" ext-link-type="doi" id="RA1" xlink:href="10.1136/bmjopen-2020-048165"/>
+              <abstract>
+                <sec>
+                  <title>Introduction</title>
+                  <p>Behavioural interventions in early life appear to show some effect in reducing childhood overweight and obesity. However, uncertainty remains regarding their overall effectiveness, and whether effectiveness differs among key subgroups. These evidence gaps have prompted an increase in very early childhood obesity prevention trials worldwide. Combining the individual participant data (IPD) from these trials will enhance statistical power to determine overall effectiveness and enable examination of individual and trial-level subgroups. We present a protocol for a systematic review with IPD meta-analysis to evaluate the effectiveness of obesity prevention interventions commencing antenatally or in the first year after birth, and to explore whether there are differential effects among key subgroups.</p>
+                </sec>
+                <sec>
+                  <title>Methods and analysis</title>
+                  <p>Systematic searches of Medline, Embase, Cochrane Central Register of Controlled Trials, Cumulative Index to Nursing and Allied Health Literature (CINAHL), PsycInfo and trial registries for all ongoing and completed randomised controlled trials evaluating behavioural interventions for the prevention of early childhood obesity have been completed up to March 2021 and will be updated annually to include additional trials. Eligible trialists will be asked to share their IPD; if unavailable, aggregate data will be used where possible. An IPD meta-analysis and a nested prospective meta-analysis will be performed using methodologies recommended by the Cochrane Collaboration. The primary outcome will be body mass index z-score at age 24±6 months using WHO Growth Standards, and effect differences will be explored among prespecified individual and trial-level subgroups. Secondary outcomes include other child weight-related measures, infant feeding, dietary intake, physical activity, sedentary behaviours, sleep, parenting measures and adverse events.</p>
+                </sec>
+                <sec>
+                  <title>Ethics and dissemination</title>
+                  <p>Approved by The University of Sydney Human Research Ethics Committee (2020/273) and Flinders University Social and Behavioural Research Ethics Committee (HREC CIA2133-1). Results will be relevant to clinicians, child health services, researchers, policy-makers and families, and will be disseminated via publications, presentations and media releases.</p>
+                </sec>
+                <sec>
+                  <title>PROSPERO registration number</title>
+                  <p>CRD42020177408.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>paediatrics</kwd>
+                <kwd>community child health</kwd>
+                <kwd>preventive medicine</kwd>
+                <kwd>public health</kwd>
+              </kwd-group>
+              <funding-group specific-use="FundRef">
+                <award-group id="funding-1">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100000925</institution-id>
+                      <institution>National Health and Medical Research Council</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>1186363</award-id>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>special-feature</meta-name>
+                  <meta-value>unlocked</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <boxed-text id="BX1" position="float">
+              <caption>
+                <title>Strengths and limitations of this study</title>
+              </caption>
+              <list list-type="bullet">
+                <list-item>
+                  <p>This will be the largest individual participant data (IPD) meta-analysis evaluating behavioural interventions for the prevention of early childhood obesity to date, and will provide the most reliable and precise estimates of early intervention effects to inform future decision-making.</p>
+                </list-item>
+                <list-item>
+                  <p>IPD meta-analysis methodology will enable unprecedented exploration of important individual and trial-level characteristics that may be associated with childhood obesity or that may be effect modifiers.</p>
+                </list-item>
+                <list-item>
+                  <p>The proposed innovative methodologies are feasible and have been successfully piloted by members of our group.</p>
+                </list-item>
+                <list-item>
+                  <p>It may not be possible to obtain IPD from all eligible trials; in this instance, aggregate data will be used where available, and sensitivity analyses will be conducted to assess inclusion bias.</p>
+                </list-item>
+                <list-item>
+                  <p>Outcome measures may be collected and reported differently across included trials, potentially increasing imprecision; however, we will harmonise available data where possible, and encourage those planning or conducting ongoing trials to collect common core outcomes following prospective meta-analysis methodology.</p>
+                </list-item>
+              </list>
+            </boxed-text>
+            <sec sec-type="intro" id="s1">
+              <title>Introduction</title>
+              <p>Childhood obesity is one of the most serious public health issues of the 21st century, and requires urgent action.<xref rid="R1" ref-type="bibr">1 2</xref> Globally, an estimated 38 million (6%) children aged under 5 years were living with overweight or obesity in 2019,<xref rid="R3" ref-type="bibr">3</xref> and prevalence is increasing across every continent as environments become more obesity conducive.<xref rid="R4" ref-type="bibr">4 5</xref> While childhood obesity affects all sections of society, it disproportionately affects racial and ethnic minority groups<xref rid="R6" ref-type="bibr">6 7</xref> and populations with a lower socioeconomic position (SEP), and thus is also a major health equity issue.<xref rid="R4" ref-type="bibr">4</xref> Children with obesity are much more likely to have obesity across the lifecourse,<xref rid="R8" ref-type="bibr">8 9</xref> and are at increased risk of short-term and long-term negative health sequelae, such as poor mental and musculoskeletal health, type 2 diabetes, asthma and cardiovascular disease.<xref rid="R10" ref-type="bibr">10 11</xref> This places a large burden on healthcare systems,<xref rid="R12" ref-type="bibr">12</xref> and has significant economic consequences arising from increased disability and decreased productivity and life expectancy.<xref rid="R13" ref-type="bibr">13</xref> Thus, identifying modifiable behaviours for the early prevention of childhood obesity is critical to inform the development of early intervention strategies.</p>
+              <p>There are a variety of modifiable behaviours that may influence energy balance and therefore may be implicated in childhood obesity prevention, namely, feeding practices, dietary intake, physical activity, sedentary behaviours and sleep. For instance, appropriate responsive feeding has been identified as promising for obesity prevention,<xref rid="R14" ref-type="bibr">14–16</xref> while consumption of sugar-sweetened beverages is associated with severe obesity in children aged less than 5 years.<xref rid="R17" ref-type="bibr">17</xref> Data are mixed on the protective benefits of breast feeding for the prevention of obesity, though some studies suggest that longer duration of exclusive breast feeding may provide modest protection.<xref rid="R18" ref-type="bibr">18–23</xref> Similarly, there may be an association between age at introduction of solids and growth,<xref rid="R24" ref-type="bibr">24</xref> with mixed results surrounding the direction of this association and the underlying causal mechanisms. Previous systematic reviews have reported significant inverse associations between physical activity and measures of adiposity in children.<xref rid="R25" ref-type="bibr">25–27</xref> Conversely, sedentary behaviours such as television viewing or screen time are associated with higher body mass index (BMI) levels<xref rid="R28" ref-type="bibr">28 29</xref> and greater adiposity<xref rid="R30" ref-type="bibr">30</xref> in young children. There is now also a large body of observational evidence supporting the relationship between short sleep duration and an increased risk of obesity across all age groups, including infants and young children,<xref rid="R31" ref-type="bibr">31–35</xref> though a recent systematic review found inconsistent evidence of an association between longer infant sleep duration and healthier body composition up to age 24 months.<xref rid="R36" ref-type="bibr">36</xref>
+</p>
+              <p>In addition to these behaviours, individual-level covariates known or hypothesised to be predictive for childhood obesity include prepregnancy maternal and paternal BMI, age, race, ethnicity, SEP, excess gestational weight gain, parity, smoking during pregnancy, gestational diabetes, birth mode of delivery (caesarean, vaginal), birth weight, gestational age at birth, baby’s sex, intrapartum antibiotic prophylaxis and childcare attendance.<xref rid="R6" ref-type="bibr">6 7 22 37 38</xref> Some of these covariates may also be individual-level effect modifiers, prediciting how effective an intervention is likely to be, for example, SEP and race/ethnicity. Trial-level characteristics such as timing of intervention onset, setting and the level of well-child healthcare available in the community may also modify intervention effectiveness.<xref rid="R39" ref-type="bibr">39</xref>
+</p>
+              <sec id="s1-1">
+                <title>Limitations and evidence gaps identified in previous reviews</title>
+                <p>In the past 5 years, there have been numerous reviews of childhood obesity prevention trials encompassing a variety of intervention types, settings and age groups.<xref rid="R14" ref-type="bibr">14 40–46</xref> Few of these focused solely on infancy, and many spanned multiple life stages from the prenatal period to 18 years of age. One review found that family-based childhood obesity prevention interventions most frequently targeted children 2–10 years of age (78%), with fewer targeting infants aged 0–1 year (24%) or the prenatal period (8%).<xref rid="R40" ref-type="bibr">40</xref> Most reviews highlighted the urgent need for further rigorous evidence to inform obesity prevention interventions in the very early childhood years.<xref rid="R14" ref-type="bibr">14 40–44 46</xref> Given the consequences of rapid early life weight gain, associated epigenetic changes and early onset of obesity in many children,<xref rid="R3" ref-type="bibr">3 47 48</xref> there is strong rationale to start preventive interventions early when biology is most amenable to change, and before negative obesity-conducive behavioural patterns are established.<xref rid="R2" ref-type="bibr">2</xref>
+</p>
+                <p>Most of the childhood obesity prevention reviews to date have used qualitative methodology such as narrative reviews, content analysis and systematic reviews without meta-analysis to describe variations in study design, setting, population, interventions and outcomes, and to hypothesise that certain individual and trial-level characteristics may enhance effectiveness via proposed conceptual frameworks and intervention models.<xref rid="R14" ref-type="bibr">14 40 42–46</xref> Yet, quantitative evaluation is required to formally test these hypotheses. Recently, Brown <italic toggle="yes">et al</italic>
+<xref rid="R41" ref-type="bibr">41</xref> updated a Cochrane systematic review and aggregate data meta-analysis on obesity prevention in children aged 0–18 years, and found that interventions focusing on diet and physical activity combined can lead to a small reduction in BMI z-score in children aged 0–5 years of age (mean difference −0.07, 95% CI −0.14 to −0.01). However, a huge variety in intervention approaches limited their ability to conduct meaningful comparisons, and many multicomponent interventions were originally reported as a whole package, precluding evaluation of discrete intervention characteristics. Moreover, the aggregated data were insufficient to derive conclusions on effect differences by individual-level characteristics such as ethnicity and SEP.</p>
+                <p>The Early Prevention of Obesity in Children (EPOCH) Collaboration conducted a world-first individual participant data (IPD) prospective meta-analysis (PMA) of four randomised controlled trials (RCTs) of behavioural interventions for the prevention of early childhood obesity.<xref rid="R39" ref-type="bibr">39</xref> They found that, compared with usual care, early childhood interventions were modestly effective in reducing BMI z-score 18–24 months after birth by 0.12 SD (which translates to a 2% decrease in obesity prevalence). However, when accounting for missing data this difference was no longer significant. There was some heterogeneity across trials, and interventions appeared to be more effective in populations with limited publicly funded existing healthcare programmes, in this instance defined as a maximum of one postnatal home visit.<xref rid="R39" ref-type="bibr">39</xref> However, this finding needs to be confirmed in analyses including more than four studies. EPOCH’s predictive analyses of individual and trial-level factors did not have sufficient power to detect reliable differences in BMI z-score. Thus, the overall effectiveness of early obesity prevention interventions remains uncertain, as does whether there may be differential effects among subgroups.</p>
+              </sec>
+              <sec id="s1-2">
+                <title>Need for IPD meta-analysis</title>
+                <p>The limitations and evidence gaps described above highlight the need for more powerful and in-depth analyses focusing on preventive interventions in very early childhood. Since the EPOCH PMA,<xref rid="R39" ref-type="bibr">39</xref> we have identified more than 60 additional ongoing or completed very early obesity prevention trials worldwide with a combined sample size of more than 50 000 participants. While most trials are powered to detect some important differences in key outcomes, individually they have limited power to detect a difference in our primary outcome, BMI z-score at 24±6 months of age. In order to reliably detect a reduction in BMI z-score similar to that seen in EPOCH (−0.12),<xref rid="R39" ref-type="bibr">39</xref> 2920 participants are required (90% power, 2-sided 5% level of significance). Moreover, usually about four times that sample size (n~12 000) is required to detect differences in subgroups.<xref rid="R49" ref-type="bibr">49</xref> The expected total sample size for Transforming Obesity Prevention for CHILDren (TOPCHILD) will exceed these estimates (as by July 2021, 45 trials including 40 030 eligible participants have already agreed to share their IPD).</p>
+                <p>Conducting a trial of this size would be time and resource intensive. A more efficient method is to combine IPD from trials in a pooled analysis to increase the sample size and therefore statistical power. This strengthens the chance of detecting intervention effect differences, and enables us to determine the size of such effects with greater certainty,<xref rid="R50" ref-type="bibr">50</xref> while also allowing variation in study designs and population which heightens generalisability and allows a greater diversity to study effect modification for different subgroups of individuals or trial characteristics.<xref rid="R51" ref-type="bibr">51</xref> Moreover, this collaborative approach maximises the use of existing data, thereby reducing research waste.</p>
+                <p>Thus, we will conduct an IPD meta-analysis with detailed subgroup analyses of all available trials to confirm whether early obesity prevention interventions commencing antenatally or in the first year after birth are effective, and whether effectiveness varies across subgroups defined by individual-level or trial-level characteristics. The knowledge generated from this study can be used to inform decision-making around the design and implementation of more effective, efficient, equitable and targeted interventions for the prevention of childhood obesity and its sequelae.</p>
+              </sec>
+              <sec id="s1-3">
+                <title>Objectives</title>
+                <p>This IPD meta-analysis will address the following research questions:</p>
+                <list list-type="order">
+                  <list-item>
+                    <p>Compared with usual care, no intervention or attentional control, what are the effects of parent/caregiver-focused behavioural obesity prevention interventions commencing during pregnancy or infancy on:</p>
+                    <list list-type="alpha-lower">
+                      <list-item>
+                        <p>child BMI z-score at age 24 months (±6 months)? (primary outcome),</p>
+                      </list-item>
+                      <list-item>
+                        <p>child BMI z-score at alternative timepoints, other child weight-related measures, infant feeding, dietary intake, physical activity, sedentary behaviours, sleep, parenting measures and adverse events? (secondary outcomes),</p>
+                      </list-item>
+                    </list>
+                  </list-item>
+                  <list-item>
+                    <p>Do intervention effects vary across individual-level characteristics (eg, parental BMI, parity, SEP, birth weight)?</p>
+                  </list-item>
+                  <list-item>
+                    <p>Do intervention effects vary across trial-level characteristics (eg, access to existing well-child healthcare programmes, intervention mode of delivery, timing of intervention onset)?</p>
+                  </list-item>
+                </list>
+              </sec>
+            </sec>
+            <sec sec-type="methods" id="s2">
+              <title>Methods and analysis</title>
+              <p>We will conduct a systematic review with IPD meta-analysis and a nested PMA according to the methods recommended by the Cochrane Collaboration.<xref rid="R52" ref-type="bibr">52 53</xref> A nested PMA enables integration of prospective evidence into a retrospective meta-analysis, and harmonisation among planned/ongoing studies.<xref rid="R53" ref-type="bibr">53</xref> Lead investigators of eligible trials will be invited to share their IPD and join the TOPCHILD Collaboration (<ext-link xlink:href="www.topchildcollaboration.org" ext-link-type="uri">www.topchildcollaboration.org</ext-link>). This protocol adheres to the Preferred Reporting Items for Systematic Review and Meta-Analysis Protocols<xref rid="R54" ref-type="bibr">54</xref> (<xref rid="SP1" ref-type="supplementary-material">online supplemental appendix 1</xref>).</p>
+              <supplementary-material id="SP1" position="float" content-type="local-data">
+                <object-id pub-id-type="doi">10.1136/bmjopen-2020-048166.supp1</object-id>
+                <label>Supplementary data</label>
+                <p>
+                  <inline-supplementary-material id="SS1" xlink:href="bmjopen-2020-048166supp001.pdf" content-type="local-data"/>
+                </p>
+              </supplementary-material>
+              <sec id="s2-1">
+                <title>Eligibility criteria</title>
+                <sec id="s2-1-1">
+                  <title>Types of studies</title>
+                  <p>This systematic review will include RCTs only, including feasibility studies, pilot trials and definitive trials. Randomisation may occur at the individual level or by cluster (eg, child care, community), including stepped-wedge designs. Quasi-randomised trials are excluded as they may introduce bias. There are no language or date restrictions.</p>
+                </sec>
+                <sec id="s2-1-2">
+                  <title>Trial participants</title>
+                  <p>Participants will be parents/caregivers (including pregnant women) and their infant(s) aged 0–12 months (at baseline). Caregiver is defined as the person with primary responsibility for care of the child, and excludes secondary sources of support, such as child care providers and early childhood teachers. Women may be primipara or multipara, and both singletons and multiples are eligible.</p>
+                </sec>
+                <sec id="s2-1-3">
+                  <title>Types of interventions</title>
+                  <p>Interventions must be behavioural interventions targeting parents/caregivers, and include at least one component related to modifiable child behaviours that may influence overweight/obesity risk (eg, infant feeding, dietary intake, physical activity, sedentary behaviours, sleep). They may commence in the preconception or antenatal phase but must include intervention exposure targeting the birth to 12 months infancy stage, as pregnancy-only interventions are considered distinct and are currently being examined by Dodd <italic toggle="yes">et al</italic> in a separate IPD meta-analysis.<xref rid="R55" ref-type="bibr">55</xref> Only childhood obesity prevention-focused trials will be included; these are defined as trials that clearly state childhood obesity prevention as a key aim/objective. Interventions focused only on improving an obesity-related behaviour (eg, sleep, delayed introduction of solid foods), as well as those focused on treatment of obesity, stunting or underweight will be excluded. Trials with a dual focus to prevent obesity and undernutrition are eligible, though we will carefully consider and prespecify how their data will be incorporated in the statistical analysis plan. Interventions focused solely on nutritional supplements will be excluded, as they are not considered to be behavioural interventions.</p>
+                </sec>
+                <sec id="s2-1-4">
+                  <title>Types of comparator/control</title>
+                  <p>Eligible trials must have either (1) a usual care control arm, defined as existing local child healthcare, or (2) no intervention (including waitlist control) or (3) attention control (eg, child safety education).</p>
+                </sec>
+                <sec id="s2-1-5">
+                  <title>Types of outcome measures</title>
+                  <p>To be included, trials must collect at least one of the child weight-related outcomes listed in <xref rid="T1" ref-type="table">table 1</xref> post intervention (at any age), that is, BMI/BMI z-score, prevalence of overweight/obesity, per cent fat content/adiposity, skinfold thickness, abdominal circumference, waist-to-height ratio. This is considered a legitimate and pragmatic approach given our review is of multicomponent public health interventions focusing on obesity.<xref rid="R56" ref-type="bibr">56</xref>
+</p>
+                  <table-wrap position="float" id="T1">
+                    <label>Table 1</label>
+                    <caption>
+                      <p>Outcomes and subgroups</p>
+                    </caption>
+                    <table frame="hsides" rules="groups">
+                      <thead>
+                        <tr>
+                          <td align="left" valign="bottom" rowspan="1" colspan="1">
+                            <italic toggle="yes">Variable</italic>
+                          </td>
+                          <td align="left" valign="bottom" rowspan="1" colspan="1">
+                            <italic toggle="yes">Definition/explanatory text/examples*</italic>
+                          </td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Primary outcome</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> </td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> BMI z-score at age 24 months (±6 months)</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Determined in accordance with WHO growth standards<xref rid="R60" ref-type="bibr">60</xref>
+</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Secondary outcomes</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> </td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> BMI z-score at 12 months (±3 months)</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Determined in accordance with WHO growth standards<xref rid="R60" ref-type="bibr">60</xref>
+</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> BMI z-score at 48 months (±12 months)</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Determined in accordance with WHO growth standards<xref rid="R60" ref-type="bibr">60</xref>
+</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> BMI z-score beyond 60 months</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Determined in accordance with WHO growth standards<xref rid="R60" ref-type="bibr">60</xref>
+</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Other weight-related measures</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">For example, prevalence of overweight/obesity (defined as BMI z-score of at least 2 SD above the WHO reference), per cent fat content/ adiposity, skinfold thickness, abdominal circumference, waist-to-height ratio, velocity of weight gain, weight-for-length, per cent excess BMI &gt;95th percentile, adiposity rebound</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Infant feeding</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">For example, breast feeding initiation and duration, exclusivity of breast feeding, age at introduction of solid foods (complementary feeding)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Dietary intake</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">For example, energy intake, intake of fruit, vegetables, energy dense nutrient poor foods, and sugar-sweetened beverages</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Sedentary behaviours</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">For example, screen time, restrained time while awake (in prams/strollers, high-chairs, strapped on a caregiver’s back or chest)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Physical activity</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">For example, active play duration, prone play (‘tummy time’), device assessed physical activity time</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Sleep</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">For example, sleep duration, measures of sleep quality such as frequency and duration of waking at night</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Parental/caregiver measures</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">General and domain-specific parenting styles and practices, for example, parenting self-efficacy, parenting styles, parent feeding practices, parent physical activity practices, parent sleep practices, stress</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Adverse events</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">For example, underweight, injuries, infection</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" colspan="2" rowspan="1">Individual-level subgroups</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Socioeconomic position</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">For example, household income/country median household income, parent/caregiver highest education level, employment status</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Parental weight status</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">For example, maternal prepregnancy BMI, paternal BMI</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Race/ethnicity</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Trialist defined</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Maternal age</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">At recruitment</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Maternal gestational weight gain</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">In kilograms</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Parity</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Primipara, multiparous</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Mode of delivery at birth</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Caesarean, vaginal</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Birth weight</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">In grams</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Weight for gestational age</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Small for gestational age, appropriate for gestational age, large for gestational age</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Sex</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Female, male, uncertain/other</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Gestational age at birth</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Preterm, term</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Household composition</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">For example, 2 versus 1 adult household, siblings, marital status</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Type of pregnancy</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Singleton, multiple</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Maternal diabetes</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Gestational, type 1, type 2</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Smoking during pregnancy</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">yes/no</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Infant’s age at enrolment</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">In months</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Child’s age at final assessment</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">In months</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Child care attendance</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">yes/no</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" colspan="2" rowspan="1">Trial-level subgroups</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Delivery mode (intervention)</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">For example, face-to-face, letter, mobile digital device, individual versus group</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Intervention setting</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">For example, household residence, community healthcare facility</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Intervention dose/intensity</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">For example, total number of contacts, frequency of contact, duration of contact</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Fidelity</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Planned, actual</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Timing of intervention onset</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Preconception, antenatal, postnatal</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Timing of intervention completion</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Child age in months</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Current level of background care in the community</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Descriptive, categorisation to be determined, for example, expected number of health contacts between birth and 1 year, expectation of attending prenatal programmes (yes/no), etc.</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Country</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Low, middle, high income</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1"> Behavioural±other intervention type</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Behavioural intervention(s) alone versus behavioural+other intervention type (eg, supplement)</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table-wrap-foot>
+                      <fn id="T1_FN1">
+                        <p>*Exact measures and definitions will depend on what the individual trials have collected and the degree to which harmonisation is possible. Specific details of all outcome measures will be elaborated on in our forthcoming statistical analysis plan, which will be agreed and signed off by the Collaboration before any data are analysed.</p>
+                      </fn>
+                      <fn id="T1_FN2">
+                        <p>BMI, body mass index.</p>
+                      </fn>
+                    </table-wrap-foot>
+                  </table-wrap>
+                </sec>
+              </sec>
+              <sec id="s2-2">
+                <title>Eligibility for nested PMA</title>
+                <p>In accordance with PMA methodology,<xref rid="R53" ref-type="bibr">53</xref> only planned/ongoing trials will be eligible for the nested PMA if trial results were not yet known to the investigator/s at the time the main components of the TOPCHILD protocol (ie, aims and objectives, hypotheses, eligibility criteria, main outcomes, subgroup and sensitivity analyses) were initially agreed in December 2020. We encourage investigators of planned/ongoing studies to collect the outcomes and subgroup variables listed in <xref rid="T1" ref-type="table">table 1</xref> where possible, to facilitate data harmonisation and synthesis.</p>
+              </sec>
+              <sec id="s2-3">
+                <title>Information sources and search strategy</title>
+                <p>In March 2020, we undertook an initial systematic search for eligible trials using the following databases from their inception: Medline (Ovid), Embase (Ovid), Cochrane Central Register of Controlled Trials, CINAHL (EBSCO), PsycInfo, ClinicalTrials.gov and the WHO’s International Clinical Trials Registry Platform’s Search Portal. The full search strategy is available in <xref rid="SP2" ref-type="supplementary-material">online supplemental appendix 2</xref>. This search will be updated annually for the duration of the TOPCHILD Collaboration (currently funded until end 2023). Collaborators and contacts will also be asked to notify us of any planned, ongoing or completed trials of which they are aware that may meet the eligibility criteria.</p>
+                <supplementary-material id="SP2" position="float" content-type="local-data">
+                  <object-id pub-id-type="doi">10.1136/bmjopen-2020-048166.supp2</object-id>
+                  <label>Supplementary data</label>
+                  <p>
+                    <inline-supplementary-material id="SS2" xlink:href="bmjopen-2020-048166supp002.pdf" content-type="local-data"/>
+                  </p>
+                </supplementary-material>
+                <sec id="s2-3-1">
+                  <title>Selection of studies for inclusion in the review</title>
+                  <p>Two members of the TOPCHILD Steering Group will independently screen all retrieved records against eligibility criteria. Any discrepancies will be resolved by discussion or, if required, adjudication by a third reviewer from the Steering Group. The Principal Investigator and/or corresponding author of eligible trials will be invited by email to join the TOPCHILD Collaboration. If there is no response to initial emails and reminders, we will contact co-authors and/or other contacts listed in registration records and consult our existing networks to see if they can reach out to those they may know. If IPD cannot be obtained for an eligible trial, we will use aggregate data sourced from publications where available.</p>
+                  <p><xref rid="SP3" ref-type="supplementary-material">Online supplemental appendix 3</xref> lists eligible trials identified up to March 2021.</p>
+                  <supplementary-material id="SP3" position="float" content-type="local-data">
+                    <object-id pub-id-type="doi">10.1136/bmjopen-2020-048166.supp3</object-id>
+                    <label>Supplementary data</label>
+                    <p>
+                      <inline-supplementary-material id="SS3" xlink:href="bmjopen-2020-048166supp003.pdf" content-type="local-data"/>
+                    </p>
+                  </supplementary-material>
+                </sec>
+              </sec>
+              <sec id="s2-4">
+                <title>Data collection, management and confidentiality</title>
+                <sec id="s2-4-1">
+                  <title>Data receipt/extraction</title>
+                  <p>Trialists of all eligible studies will be invited to share deidentified IPD via secure data transfer platforms or via an institutional-secure email using password-protected zip files. Data will be provided according to a prespecified coding template where possible. Otherwise, data will be accepted in any format and recoded as necessary. The data management team (within the TOPCHILD Steering Group) will receive and store the data in perpetuity in a secure, customised database at the NHMRC Clinical Trials Centre, University of Sydney, and data management will follow the <italic toggle="yes">University of Sydney Data Management Policy 2014</italic>. Each trial will also be asked to provide metadata (ie, data that provides information about their trial dataset), such as questionnaires, data collection forms and data dictionaries to aid understanding of the dataset. Trial-level data, such as setting, intervention timing, mode of delivery, comparator/control details, method of sequence generation, allocation concealment, geographical location, sample size, outcome measures and definitions will be extracted into a database and cross-checked against any published reports, trial protocols, registration records and data collection sheets.</p>
+                </sec>
+                <sec id="s2-4-2">
+                  <title>Data processing</title>
+                  <p>Data from each trial will be checked with respect to range, internal consistency, consistency with published reports and missing items. Integrity of the randomisation process will be examined by reviewing the chronological randomisation sequence and pattern of assignment, as well as the balance of participant characteristics across intervention and control groups. Any inconsistencies or missing data will be discussed with trialists and/or data managers and resolved by consensus. Once finalised, data from each of the trials will be combined into a single TOPCHILD Collaboration database.</p>
+                </sec>
+              </sec>
+              <sec id="s2-5">
+                <title>Risk of bias assessment and certainty of evidence appraisal</title>
+                <p>Included studies will be assessed for risk of bias by two independent reviewers from the TOPCHILD Steering Group using Version 2 of the Cochrane risk-of-bias tool for randomised trials (RoB 2).<xref rid="R57" ref-type="bibr">57</xref> This tool includes five domains encompassing bias arising from: the randomisation process, deviations from intended interventions, missing outcome data, measurement of the outcome and selection of the reported result. For cluster-randomised trials, bias arising from identification or recruitment of individual participants within clusters will also be assessed.<xref rid="R45" ref-type="bibr">45</xref> The certainty of evidence will be assessed according to Cochrane procedures<xref rid="R58" ref-type="bibr">58</xref> using the Grading of Recommendations Assessment, Development and Evaluation approach.<xref rid="R59" ref-type="bibr">59</xref> Any differences will be resolved by consensus or with a third reviewer from the TOPCHILD Steering Group.</p>
+              </sec>
+              <sec id="s2-6">
+                <title>Primary outcome</title>
+                <p>The primary outcome will be BMI z-score at age 24 months (±6 months), determined in accordance with WHO growth standards.<xref rid="R60" ref-type="bibr">60</xref> We selected BMI z-score, over other measures such as weight-for-length, in light of accumulating evidence that it is more highly correlated with weight status in infancy and is better at predicting future obesity risk.<xref rid="R61" ref-type="bibr">61–65</xref> In addition, WHO BMI for age charts are applicable to all infants/children regardless of SEP or ethnicity, which aligns with the global nature of the TOPCHILD Collaboration.<xref rid="R66" ref-type="bibr">66</xref>
+</p>
+              </sec>
+              <sec id="s2-7">
+                <title>Secondary outcomes</title>
+                <p>All outcomes are detailed in <xref rid="T1" ref-type="table">table 1</xref>. Where possible, definitions will be standardised, otherwise outcomes will be used as defined within each trial. Secondary outcomes include BMI z-score at other timepoints, other measures of child weight, infant feeding (including breast feeding and introduction of solid foods), dietary intake, sedentary behaviours, physical activity and sleep, as well as parent/caregiver-related measures. We will also assess any adverse events, such as underweight or poor weight gain.</p>
+              </sec>
+              <sec id="s2-8">
+                <title>Subgroups</title>
+                <p>All included subgroups are listed in <xref rid="T1" ref-type="table">table 1</xref>. Individual-level and trial-level subgroup analyses will be conducted for the primary outcome of BMI z-score at age 24 months (±6 months). Those of primary interest at the individual level include SEP, race/ethnicity, prepregnancy maternal/paternal BMI, maternal age, gestational weight gain and parity, and at the trial level include timing of intervention onset, current level of background care in the community, recruitment country and mode of delivery.</p>
+                <p>Where possible, outcomes and subgroups will be collected as continuous variables to maximise power to detect intervention effects and interactions, and enable exploration of any non-linear relationships.<xref rid="R67" ref-type="bibr">67</xref> Dichotomous and categorical variables will also be collected to aid interpretation, and if data are insufficient for the prespecified subgroup analyses, categories will be collapsed prior to any analyses being conducted.</p>
+              </sec>
+              <sec id="s2-9">
+                <title>Data analysis</title>
+                <p>A detailed statistical analysis plan will be prepared and agreed on by the TOPCHILD Collaboration members prior to any analyses being undertaken. Analyses will follow the intention-to-treat principle and include all randomised infant–parent/caregiver dyads for which data are available (including any that were excluded from the original study analysis). For cluster RCTs, correlated data will be taken into account by fitting the models using generalised estimating equations to derive appropriate standard errors. Correlations between multiples also will be accounted for in the analyses.</p>
+                <p>The primary analysis for all outcomes will be conducted using a one-stage approach combining all available IPD and aggregate data (where IPD are unavailable) to reduce the risk of availability bias.<xref rid="R68" ref-type="bibr">68 69</xref> The combined dataset will be analysed including trial as a random effect. Models will be chosen appropriate to the outcome type. Generalised linear models with appropriate distributions and link functions will be used for continuous and binary outcomes, while Cox proportional hazards regression will be used to analyse time-to-event outcomes subject to censoring. For example, linear models will be used for the primary outcome while relative risk binomial regression with log link function will be used for prevalence of overweight/obesity, and Cox models will be used for breast feeding duration. Where possible, continuous outcomes and subgroup variables will be analysed on their continuous scale to maximise utility of available data.<xref rid="R67" ref-type="bibr">67</xref>
+</p>
+                <p>Heterogeneity of intervention effects across trials will be investigated using quantitative measures (I<sup>2</sup>) supplemented by graphical presentations as recommended in the Cochrane Handbook.<xref rid="R70" ref-type="bibr">70</xref> Any notable heterogeneity identified will be explored further to ascertain if the combination of trials is appropriate.</p>
+                <p>Results will be reported using appropriate estimates of intervention effect (relative risks, mean differences or hazard ratios) with 95% CIs and associated two-sided p values. For trials with multiple intervention arms, we will present the data for each intervention arm compared with the control arm, with the number of participants in the control arm adjusted to ensure no double counting.<xref rid="R41" ref-type="bibr">41</xref> Missing data will be explored in sensitivity analyses using appropriate methods. All analyses will be performed using the open-source software R.<xref rid="R71" ref-type="bibr">71</xref>
+</p>
+                <p>Differences in intervention effect between the prespecified subgroups will be examined by testing a treatment by subgroup interaction term within the 1-stage-model. Findings of subgroup analyses will be reported as exploratory,<xref rid="R72" ref-type="bibr">72</xref> and summarised using a 1-stage-approach supplemented by graphical presentation in a forest plot using a 2-stage-approach. Non-linear relationships will be explored for continuous subgroup variables using a multivariate meta-analysis of the trend.<xref rid="R67" ref-type="bibr">67</xref>
+</p>
+                <p>Other exploratory analyses for the primary outcome will include graphical presentation of BMI z-score distributions to investigate any differences beyond mean differences and examine any non-linear relationships. The potential for mediation and moderator analyses using parent/caregiver measures will be explored and detailed in a statistical analysis plan after we have extracted information about relevant variables collected by included trials.</p>
+              </sec>
+              <sec id="s2-10">
+                <title>Assessment of selection or publication bias</title>
+                <p>Potential selection bias and publication bias will be investigated by conducting a nested PMA and comparing prospectively versus retrospectively included trials in a sensitivity analysis.<xref rid="R53" ref-type="bibr">53</xref> We will also seek to include any unreported outcomes sourced from each trial’s IPD, which may alleviate selective outcome reporting bias.<xref rid="R52" ref-type="bibr">52</xref> Lastly, contour-enhanced funnel plots will be used to examine whether there are differences in results between more and less precise studies.</p>
+              </sec>
+              <sec id="s2-11">
+                <title>Adjustments for multiple testing</title>
+                <p>Only one primary outcome was selected for this study (<xref rid="T1" ref-type="table">table 1</xref>). For secondary outcomes and subgroup analyses, no formal adjustments will be made for the potential inflation of type 1 error rates due to multiple testing. Instead, we will follow Schulz and Grimes’ approach<xref rid="R54" ref-type="bibr">54</xref> and recommendations of the Cochrane Collaboration.<xref rid="R70" ref-type="bibr">70</xref> This involves cautious interpretation of the magnitudes of effect, patterns and consistency of results across related outcomes and clinical/biological plausibility rather than focusing on any single statistically significant result in isolation which can be extremely misleading.<xref rid="R70" ref-type="bibr">70 72</xref>
+</p>
+              </sec>
+              <sec id="s2-12">
+                <title>Planned sensitivity analyses</title>
+                <p>Where possible, the following sensitivity analyses will be conducted for the primary outcome:</p>
+                <list list-type="bullet">
+                  <list-item>
+                    <p>Two stage approach.</p>
+                  </list-item>
+                  <list-item>
+                    <p>Including IPD only, that is, excluding trials without IPD available.<xref rid="R55" ref-type="bibr">55</xref>
+</p>
+                  </list-item>
+                  <list-item>
+                    <p>Including prospectively included trials only (nested PMA), that is, planned/ongoing trials for which results were not yet known to investigator/s at the time the main components of the TOPCHILD protocol were agreed.<xref rid="R53" ref-type="bibr">53</xref>
+</p>
+                  </list-item>
+                  <list-item>
+                    <p>Adjusting for birth weight as a covariate.</p>
+                  </list-item>
+                  <list-item>
+                    <p>Excluding trials with a high risk of bias for sequence generation and/or allocation concealment and/or loss to follow-up.</p>
+                  </list-item>
+                  <list-item>
+                    <p>Excluding trials with a significant conflict of interest (eg, funded by industry).</p>
+                  </list-item>
+                  <list-item>
+                    <p>The impact of missing data on conclusions about the intervention effect (if appropriate).</p>
+                  </list-item>
+                </list>
+              </sec>
+              <sec id="s2-13">
+                <title>Project management</title>
+                <p>Membership of the TOPCHILD Collaboration includes trial representatives from each of the trials contributing IPD to the project, a Steering Group and an Advisory Group. Trial representatives have the opportunity to contribute their expert knowledge to the TOPCHILD Collaboration and provide input into the protocols, statistical analysis plan and final results manuscript. The Steering Group will be responsible for data collection, management and analysis, as well as communication within the Collaboration, including newsletter updates, maintenance of the TOPCHILD website and organisation of virtual or face-to-face collaborator meetings. The Advisory Group will comprise invited experts in childhood obesity prevention, IPD meta-analysis, statistics, behaviour change theory/methods and policy implementation.</p>
+              </sec>
+            </sec>
+            <sec id="s3">
+              <title>Ethics and dissemination</title>
+              <sec id="s3-1">
+                <title>Ethical considerations</title>
+                <p>IPD will be provided by each included trial on the stipulation that ethical approval has been provided by their respective Human Research Ethics Committees (or equivalent), and participants gave informed consent before enrolment to participate in the initial individual trials. Trialists remain the custodians of their own data, which will be deidentified before being shared with the TOPCHILD Collaboration. Ethical approval for this project has been granted by The University of Sydney Human Research Ethics Committee (2020/273) and Flinders University Social and Behavioural Research Ethics Committee (project no. HREC CIA2133-1).</p>
+              </sec>
+              <sec id="s3-2">
+                <title>Publication policy</title>
+                <p>TOPCHILD manuscripts will be prepared by the Steering Group in consultation with the Advisory Group, and circulated to the full Collaboration for comment, revision and approval prior to submission for publication. Any reports of the results of this study will be published either in the name of the collaborative group, or by representatives of the collaborative group on behalf of the TOPCHILD Collaboration, as agreed by members of the collaborative group.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="s4">
+              <title>Discussion</title>
+              <p>This will be the largest IPD meta-analysis to date of trials evaluating behavioural obesity prevention interventions commencing in very early childhood. The findings will inform next generation obesity prevention initiatives that are effective, efficient and equitable. Such interventions could set children on a better health trajectory early on and reduce the potentially life-long burden of disease associated with obesity.</p>
+              <p>The main strengths of this study arise from use of IPD meta-analysis methodology, which is considered the ‘gold standard’.<xref rid="R73" ref-type="bibr">73</xref> It involves collecting the raw line-by-line data for each participant in each study from the original trialists. This can improve the quality of data, and enables more in-depth and precise analyses than would be possible using only published aggregate data.<xref rid="R52" ref-type="bibr">52</xref> In particular, IPD meta-analysis will enable thorough exploration of individual-level and trial-level subgroups, so that we may quantify any differential effects and uncover the key determinants of successful outcomes. This addresses the limitations identified in previous reviews of childhood obesity prevention,<xref rid="R39" ref-type="bibr">39 41 46</xref> where such detailed and sufficiently powered analyses were simply not possible.</p>
+              <p>A potential limitation of this study is the risk of not obtaining IPD from all eligible studies, resulting in inclusion bias. Where available, we will include aggregate data from these studies, and conduct sensitivity analyses with inclusion of IPD only to explore potential bias.<xref rid="R74" ref-type="bibr">74</xref> Further, there may be variations across studies in how measures are collected and reported, which may lead to some imprecision and difficulties pooling the data. We will seek to address this using nested PMA methodology, whereby researchers of planned or ongoing trials are encouraged to harmonise their trial design and collect core outcome measures to facilitate meta-analysis and interpretation.<xref rid="R53" ref-type="bibr">53</xref> For completed studies, we will derive common outcome variables by cleaning, recoding and converting existing measures where possible.</p>
+              <p>We plan to complete the first round of study identification and IPD collection by early 2021, then conduct the primary analyses and disseminate the results by the end of 2022. Trials that are not completed in time to provide data for this cycle will remain a part of the TOPCHILD Collaboration, and their data will be included in future updates of TOPCHILD. Depending on data availability, we may consider collecting additional emerging variables of interest, such as intrapartum antibiotic prophylaxis and the microbiome, for future TOPCHILD cycles.</p>
+              <p>This IPD meta-analysis will be conducted in parallel with a complementary TOPCHILD project (Johnson <italic toggle="yes">et al</italic>
+<xref rid="R75" ref-type="bibr">75</xref> unpublished), which aims to deconstruct childhood obesity interventions into their components (ie, delivery features, target behaviours and behaviour change techniques) using systematic, internationally recognised frameworks and both published and unpublished trial materials. In future, the resulting dataset curated from these two projects will be used for predictive modelling of intervention component effectiveness at an individual participant level, facilitating a personalised or precision medicine approach to public health prevention.</p>
+              <p>The TOPCHILD Collaboration will maximise use of existing trial data that will enable us to understand and use the most effective intervention components for specific population groups and contexts. It will provide urgently needed evidence to inform development and implementation of effective, efficient and equitable interventions for the prevention of early childhood obesity. The results will be of prime importance for guideline developers, policy-makers, consumers and the research community. Further information and updates on the TOPCHILD Collaboration can be found at <ext-link xlink:href="http://www.topchildcollaboration.org" ext-link-type="uri">www.topchildcollaboration.org</ext-link>
+</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <supplementary-material content-type="local-data" id="d64e1530">
+                <caption>
+                  <title>Reviewer comments</title>
+                </caption>
+                <media xlink:href="bmjopen-2020-048166.reviewer_comments.pdf"/>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="d64e1531">
+                <caption>
+                  <title>Author's
+manuscript</title>
+                </caption>
+                <media xlink:href="bmjopen-2020-048166.draft_revisions.pdf"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>The authors thank Slavica Berber for guidance on the search strategy, and Jonathan Williams for his project management support. We would also like to acknowledge the NHMRC Centre of Research Excellence in Early Prevention of Obesity in Childhood (EPOCH CRE), who supported the pilot and foundational work for this project. Lastly, we thank Maria Luisa Garmendia and Camila Corvalan for their feedback on an earlier version of this protocol.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="other">
+                <p><bold>Twitter:</bold> @KylieEHunter, @brittanyjayne8, @DrSeemaM, @KylieHesketh, @oreillysharleen, @OverbyNina, @LeneSeidler</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Contributors:</bold> ALS together with KEH, BJJ, LA, RG conceived the idea for the study. KEH, BJJ, ALS, LA, RG developed the research question and protocol registration. KEH wrote the first draft of the manuscript. KEH, BJJ, ALS, RG, LA developed the eligibility criteria and search strategy. KEH, MA, AB, BJJ, SL, ALS performed the search and screening. AH, CR, CTW, DE, DAO'C, IM, KPR, LAB, LPS, LMW, MS-S, PC, RT, SM, ST, WS provided critical review and feedback at each stage of the process. All authors critically revised the manuscript for intellectual content, and agreed and approved the final manuscript. KEH is the guarantor of the review.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Funding:</bold> This work was supported by the Australian National Health and Medical Research Council (NHMRC) Ideas Grant TOPCHILD (Transforming Obesity Prevention for CHILDren): Looking into the black box of interventions (GNT1186363). Funders had no role in developing this protocol. Individual authors declare the following funding: ALT reports funding from NIH R01HD073237; AML reports funding from NIH National Center for Advancing Translational Science through grant # UL1TR000117 and UL1TR001998; BJT reports funding from Health Research Council of New Zealand; CGA reports funding from The PepsiCo Foundation; CP reports funding from National Institutes of Health, Robert Wood Johnson Foundation, World Health Organization, US Department of Agriculture; COS reports funding from University of Cincinnati University Research Council; DAOC is supported by an Australian National Health and Medical Research Council (NHMRC) Translating Research into Practice Fellowship (APP1168749); EO reports the PROBIT study was supported by grant MOP-53155 from the Canadian Institutes of Health Research and grant R01 HD050758 from the US National Institutes of Health; IMP reports funding from grant R01DK088244 from the United States National Institute of Diabetes and Digestive and Kidney Diseases; JCB reports funding from US Department of Agriculture; JKL and LTK reports funding from Fonds NutsOhra awarded (100.939); JSS reports funding from NIH NIDDK, NIH NHLBI, PCORI; JLT is an employee of USDA ARS and the Agency did fund the Delta Healthy Sprouts Trial (Project 6401-5300-003-00D); KdlH reports funding from 1R01HD092483-01 (MPI: de la Haye, Salvy), NIH/NICHD; KDH is supported by an Australian Research Council Future Fellowship (FT130100637); LMW reports funding from NHMRC (#393112; #1003780; #1169823); LW is supported by a NHMRC Career Development and NHF Future Leader Fellowship; MB reports HAPPY was funded by a UK NIHR Programme Grant for Applied Research (project number RP-PG-0407-10044); MCR reports The Baby Act Trial was sponsored by the Center for Collaborative Research in Health Disparities under grant U54 MD007600 of the National Institute on Minority Health and Health Disparities from the National Institutes of Health; MJM reports funding from USDA AFRI 2011-68001-30207; NCØ reports their original study was partly funded by the Norwegian Women's Public Health Association, who had no influence on any part of the study design, implementation and evaluation; RKG is a Chief Investigator on the Early Prevention of Obesity in Childhood, NHMRC Centre for Research Excellence (1101675); RSG is supported by the National Institute of Food and Agriculture/US Department of Agriculture, award number 2011-68001-30207, and the National Institutes of Health/National Institute of Child Health and Human Development through a K23 Mentored Patient-Oriented Research Career Development Award (K23HD081077; principal investigator: Rachel S. Gross); RL reports funding from UK NPRI (National Prevention Research Initiative), MRC PHIND (Public Health Intervention Development programme); SLOR reports funding from European Unions Horizon 2020 Research and Innovation Programme (Grant Agreement no. 847984) and Australia National Health and Medical Research Council (NHMRC) (Grant application no. APP1194234); S-JS reports funding from NIMHD U54MD000502 (MPI: Salvy &amp; Dutton Project #2), NICHD R01HD092483 (MPI: Salvy &amp; de la Haye); SA-F is a co-investigator on the current INSIGHT grant which follows participants to ages 6 and 9: NIH 2R01DK088244; ABP-E reports the SPOON program in Guatemala is funded by the Inter-American Development Bank with donations of The Government of Japan and The PepsiCo Foundation.</p>
+              </fn>
+              <fn fn-type="COI-statement">
+                <p><bold>Competing interests:</bold> AB, ALS, BJJ, KEH, MA, RKG, SL and LPS reports grants from NHMRC Ideas Grant TOPCHILD (Transforming Obesity Prevention for CHILDren) (GNT1186363); APE and CGA reports grants administered by the Inter-American Development Bank from The Government of Japan and The PepsiCo Foundation; ALT reports grants from National Institute of Health; BJT reports grants from NZ Health Research Council; EO reports grants from the US National Institutes of Health, and the Canadian Institutes for Health Research; IMP reports grants from NIH/NIDDK; JSS reports grants from PCORI, NIH NIDDK and NHLBI, and personal fees from Danone Organic, American Academy of Pediatrics, and Lets Move Maine; LTK and JKL reports grants from Fonds NutsOhra; MCR reports grants from National Institute on Minority Health and Health Disparities-National Institutes of Health/Center for Collaborative Research in Health Disparities, and personal fees from Rhythm Pharmaceuticals; RSG reports grants from US Department of Agriculture and NIH/NICHD.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Patient and public involvement statement:</bold> The TOPCHILD Collaboration involves a broad range of stakeholders including health professionals, policy-makers and trialists. In addition, the Advisory Group includes a parent representative and intervention facilitator/nurse. They have given input into and feedback on this protocol and will be involved in discussion and interpretation of results.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Provenance and peer review:</bold> Not commissioned; externally peer reviewed.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Supplemental material:</bold> This content has been supplied by the author(s). It has not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been peer-reviewed. Any opinions or recommendations discussed are solely those of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and responsibility arising from any reliance placed on the content. Where the content includes any translated material, BMJ does not warrant the accuracy and reliability of the translations (including but not limited to local regulations, clinical guidelines, terminology, drug names and drug dosages), and is not responsible for any error and/or omissions arising from translation and adaptation or otherwise.</p>
+              </fn>
+            </fn-group>
+            <sec sec-type="ethics-statement">
+              <title>Ethics statements</title>
+              <sec>
+                <title>Patient consent for publication</title>
+                <p content-type="ethics-consent-to-publish">Not applicable.</p>
+              </sec>
+            </sec>
+            <ref-list>
+              <title>References</title>
+              <ref id="R1">
+                <label>1</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><collab>World Health Organization</collab></person-group>. <source>Taking action on childhood obesity</source>. <publisher-loc>Geneva, Switzerland</publisher-loc>: <publisher-name>WHO</publisher-name>, <year>2018</year>.</mixed-citation>
+              </ref>
+              <ref id="R2">
+                <label>2</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><collab>World Health Organization</collab></person-group>. <source>Report of the Comission on ending childhood obesity</source>. <publisher-loc>Geneva, Switzerland</publisher-loc>: <publisher-name>WHO</publisher-name>, <year>2016</year>.</mixed-citation>
+              </ref>
+              <ref id="R3">
+                <label>3</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><collab>United Nations Children’s Fund (UNICEF), World Health Organization, International Bank for Reconstruction and Development/The World Bank</collab></person-group>. <source>Levels and trends in child malnutrition: key findings of the 2020 edition of the joint child malnutrition estimates</source>. <publisher-loc>Geneva</publisher-loc>: <publisher-name>World Health Organization</publisher-name>, <year>2020</year>.</mixed-citation>
+              </ref>
+              <ref id="R4">
+                <label>4</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><collab>UNICEF</collab></person-group>. <source>The State of the World’s Children 2019. Children, Food and Nutrition: Growing well in a changing world</source>. <publisher-loc>New York</publisher-loc>: <publisher-name>UNICEF</publisher-name>, <year>2019</year>.</mixed-citation>
+              </ref>
+              <ref id="R5">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Di Cesare</surname><given-names>M</given-names></string-name>, <string-name><surname>Sorić</surname><given-names>M</given-names></string-name>, <string-name><surname>Bovet</surname><given-names>P</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The epidemiological burden of obesity in childhood: a worldwide epidemic requiring urgent action</article-title>. <source>BMC Med</source><year>2019</year>;<volume>17</volume>:<elocation-id>212</elocation-id>. <pub-id pub-id-type="doi">10.1186/s12916-019-1449-8</pub-id><pub-id pub-id-type="pmid">31760948</pub-id></mixed-citation>
+              </ref>
+              <ref id="R6">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Guerrero</surname><given-names>AD</given-names></string-name>, <string-name><surname>Mao</surname><given-names>C</given-names></string-name>, <string-name><surname>Fuller</surname><given-names>B</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Racial and ethnic disparities in early childhood obesity: growth trajectories in body mass index</article-title>. <source>J Racial Ethn Health Disparities</source><year>2016</year>;<volume>3</volume>:<fpage>129</fpage>–<lpage>37</lpage>. <pub-id pub-id-type="doi">10.1007/s40615-015-0122-y</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26896112?><pub-id pub-id-type="pmid">26896112</pub-id></mixed-citation>
+              </ref>
+              <ref id="R7">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kumanyika</surname><given-names>SK</given-names></string-name></person-group>. <article-title>Unraveling common threads in obesity risk among racial/ethnic minority and migrant populations</article-title>. <source>Public Health</source><year>2019</year>;<volume>172</volume>:<fpage>125</fpage>–<lpage>34</lpage>. <pub-id pub-id-type="doi">10.1016/j.puhe.2019.04.010</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/31227270?><pub-id pub-id-type="pmid">31227270</pub-id></mixed-citation>
+              </ref>
+              <ref id="R8">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Simmonds</surname><given-names>M</given-names></string-name>, <string-name><surname>Llewellyn</surname><given-names>A</given-names></string-name>, <string-name><surname>Owen</surname><given-names>CG</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Predicting adult obesity from childhood obesity: a systematic review and meta-analysis</article-title>. <source>Obes Rev</source><year>2016</year>;<volume>17</volume>:<fpage>95</fpage>–<lpage>107</lpage>. <pub-id pub-id-type="doi">10.1111/obr.12334</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26696565?><pub-id pub-id-type="pmid">26696565</pub-id></mixed-citation>
+              </ref>
+              <ref id="R9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Geserick</surname><given-names>M</given-names></string-name>, <string-name><surname>Vogel</surname><given-names>M</given-names></string-name>, <string-name><surname>Gausche</surname><given-names>R</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Acceleration of BMI in early childhood and risk of sustained obesity</article-title>. <source>N Engl J Med Overseas Ed</source><year>2018</year>;<volume>379</volume>:<fpage>1303</fpage>–<lpage>12</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa1803527</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="R10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Halfon</surname><given-names>N</given-names></string-name>, <string-name><surname>Larson</surname><given-names>K</given-names></string-name>, <string-name><surname>Slusser</surname><given-names>W</given-names></string-name></person-group>. <article-title>Associations between obesity and comorbid mental health, developmental, and physical health conditions in a nationally representative sample of US children aged 10 to 17</article-title>. <source>Acad Pediatr</source><year>2013</year>;<volume>13</volume>:<fpage>6</fpage>–<lpage>13</lpage>. <pub-id pub-id-type="doi">10.1016/j.acap.2012.10.007</pub-id>
+<pub-id pub-id-type="pmid">23200634</pub-id></mixed-citation>
+              </ref>
+              <ref id="R11">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mihrshahi</surname><given-names>S</given-names></string-name>, <string-name><surname>Gow</surname><given-names>ML</given-names></string-name>, <string-name><surname>Baur</surname><given-names>LA</given-names></string-name></person-group>. <article-title>Contemporary approaches to the prevention and management of paediatric obesity: an Australian focus</article-title>. <source>Med J Aust</source><year>2018</year>;<volume>209</volume>:<fpage>267</fpage>–<lpage>74</lpage>. <pub-id pub-id-type="doi">10.5694/mja18.00140</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30208819?><pub-id pub-id-type="pmid">30208819</pub-id></mixed-citation>
+              </ref>
+              <ref id="R12">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Wolfenden</surname><given-names>L</given-names></string-name>, <string-name><surname>Ezzati</surname><given-names>M</given-names></string-name>, <string-name><surname>Larijani</surname><given-names>B</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The challenge for global health systems in preventing and managing obesity</article-title>. <source>Obes Rev</source><year>2019</year>;<volume>20</volume>:<fpage>185</fpage>–<lpage>93</lpage>. <pub-id pub-id-type="doi">10.1111/obr.12872</pub-id>
+<pub-id pub-id-type="pmid">31317659</pub-id></mixed-citation>
+              </ref>
+              <ref id="R13">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Finkelstein</surname><given-names>EA</given-names></string-name>, <string-name><surname>Graham</surname><given-names>WCK</given-names></string-name>, <string-name><surname>Malhotra</surname><given-names>R</given-names></string-name></person-group>. <article-title>Lifetime direct medical costs of childhood obesity</article-title>. <source>Pediatrics</source><year>2014</year>;<volume>133</volume>:<fpage>854</fpage>–<lpage>62</lpage>. <pub-id pub-id-type="doi">10.1542/peds.2014-0063</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/24709935?><pub-id pub-id-type="pmid">24709935</pub-id></mixed-citation>
+              </ref>
+              <ref id="R14">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Redsell</surname><given-names>SA</given-names></string-name>, <string-name><surname>Edmonds</surname><given-names>B</given-names></string-name>, <string-name><surname>Swift</surname><given-names>JA</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Systematic review of randomised controlled trials of interventions that AIM to reduce the risk, either directly or indirectly, of overweight and obesity in infancy and early childhood</article-title>. <source>Matern Child Nutr</source><year>2016</year>;<volume>12</volume>:<fpage>24</fpage>–<lpage>38</lpage>. <pub-id pub-id-type="doi">10.1111/mcn.12184</pub-id>
+<pub-id pub-id-type="pmid">25894857</pub-id></mixed-citation>
+              </ref>
+              <ref id="R15">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hurley</surname><given-names>KM</given-names></string-name>, <string-name><surname>Cross</surname><given-names>MB</given-names></string-name>, <string-name><surname>Hughes</surname><given-names>SO</given-names></string-name></person-group>. <article-title>A systematic review of responsive feeding and child obesity in high-income countries</article-title>. <source>J Nutr</source><year>2011</year>;<volume>141</volume>:<fpage>495</fpage>–<lpage>501</lpage>. <pub-id pub-id-type="doi">10.3945/jn.110.130047</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/21270360?><pub-id pub-id-type="pmid">21270360</pub-id></mixed-citation>
+              </ref>
+              <ref id="R16">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Spill</surname><given-names>MK</given-names></string-name>, <string-name><surname>Callahan</surname><given-names>EH</given-names></string-name>, <string-name><surname>Shapiro</surname><given-names>MJ</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Caregiver feeding practices and child weight outcomes: a systematic review</article-title>. <source>Am J Clin Nutr</source><year>2019</year>;<volume>109</volume>:<fpage>990S</fpage>–<lpage>1002</lpage>. <pub-id pub-id-type="doi">10.1093/ajcn/nqy276</pub-id>
+<pub-id pub-id-type="pmid">30982865</pub-id></mixed-citation>
+              </ref>
+              <ref id="R17">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Porter</surname><given-names>RM</given-names></string-name>, <string-name><surname>Tindall</surname><given-names>A</given-names></string-name>, <string-name><surname>Gaffka</surname><given-names>BJ</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>A review of modifiable risk factors for severe obesity in children ages 5 and under</article-title>. <source>Child Obes</source><year>2018</year>;<volume>14</volume>:<fpage>468</fpage>–<lpage>76</lpage>. <pub-id pub-id-type="doi">10.1089/chi.2017.0344</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30156438?><pub-id pub-id-type="pmid">30156438</pub-id></mixed-citation>
+              </ref>
+              <ref id="R18">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Arenz</surname><given-names>S</given-names></string-name>, <string-name><surname>Rückerl</surname><given-names>R</given-names></string-name>, <string-name><surname>Koletzko</surname><given-names>B</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Breast-Feeding and childhood obesity—a systematic review</article-title>. <source>Int J Obes</source><year>2004</year>;<volume>28</volume>:<fpage>1247</fpage>–<lpage>56</lpage>. <pub-id pub-id-type="doi">10.1038/sj.ijo.0802758</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="R19">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lefebvre</surname><given-names>CM</given-names></string-name>, <string-name><surname>John</surname><given-names>RM</given-names></string-name></person-group>. <article-title>The effect of breastfeeding on childhood overweight and obesity: a systematic review of the literature</article-title>. <source>J Am Assoc Nurse Pract</source><year>2014</year>;<volume>26</volume>:<fpage>386</fpage>–<lpage>401</lpage>. <pub-id pub-id-type="doi">10.1002/2327-6924.12036</pub-id>
+<pub-id pub-id-type="pmid">24170411</pub-id></mixed-citation>
+              </ref>
+              <ref id="R20">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Qiao</surname><given-names>J</given-names></string-name>, <string-name><surname>Dai</surname><given-names>L-J</given-names></string-name>, <string-name><surname>Zhang</surname><given-names>Q</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>A meta-analysis of the association between breastfeeding and early childhood obesity</article-title>. <source>J Pediatr Nurs</source><year>2020</year>;<volume>53</volume>:<fpage>57</fpage>–<lpage>66</lpage>. <pub-id pub-id-type="doi">10.1016/j.pedn.2020.04.024</pub-id>
+<pub-id pub-id-type="pmid">32464422</pub-id></mixed-citation>
+              </ref>
+              <ref id="R21">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Weng</surname><given-names>SF</given-names></string-name>, <string-name><surname>Redsell</surname><given-names>SA</given-names></string-name>, <string-name><surname>Swift</surname><given-names>JA</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Systematic review and meta-analyses of risk factors for childhood overweight identifiable during infancy</article-title>. <source>Arch Dis Child</source><year>2012</year>;<volume>97</volume>:<fpage>1019</fpage>–<lpage>26</lpage>. <pub-id pub-id-type="doi">10.1136/archdischild-2012-302263</pub-id>
+<pub-id pub-id-type="pmid">23109090</pub-id></mixed-citation>
+              </ref>
+              <ref id="R22">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Woo Baidal</surname><given-names>JA</given-names></string-name>, <string-name><surname>Locks</surname><given-names>LM</given-names></string-name>, <string-name><surname>Cheng</surname><given-names>ER</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Risk factors for childhood obesity in the first 1,000 days: a systematic review</article-title>. <source>Am J Prev Med</source><year>2016</year>;<volume>50</volume>:<fpage>761</fpage>–<lpage>79</lpage>. <pub-id pub-id-type="doi">10.1016/j.amepre.2015.11.012</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26916261?><pub-id pub-id-type="pmid">26916261</pub-id></mixed-citation>
+              </ref>
+              <ref id="R23">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Yan</surname><given-names>J</given-names></string-name>, <string-name><surname>Liu</surname><given-names>L</given-names></string-name>, <string-name><surname>Zhu</surname><given-names>Y</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The association between breastfeeding and childhood obesity: a meta-analysis</article-title>. <source>BMC Public Health</source><year>2014</year>;<volume>14</volume>:<elocation-id>1267</elocation-id>. <pub-id pub-id-type="doi">10.1186/1471-2458-14-1267</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/25495402?><pub-id pub-id-type="pmid">25495402</pub-id></mixed-citation>
+              </ref>
+              <ref id="R24">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Vail</surname><given-names>B</given-names></string-name>, <string-name><surname>Prentice</surname><given-names>P</given-names></string-name>, <string-name><surname>Dunger</surname><given-names>DB</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Age at weaning and infant growth: primary analysis and systematic review</article-title>. <source>J Pediatr</source><year>2015</year>;<volume>167</volume>:<fpage>317</fpage>–<lpage>24</lpage>. <pub-id pub-id-type="doi">10.1016/j.jpeds.2015.05.003</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26073105?><pub-id pub-id-type="pmid">26073105</pub-id></mixed-citation>
+              </ref>
+              <ref id="R25">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Jiménez-Pavón</surname><given-names>D</given-names></string-name>, <string-name><surname>Kelly</surname><given-names>J</given-names></string-name>, <string-name><surname>Reilly</surname><given-names>JJ</given-names></string-name></person-group>. <article-title>Associations between objectively measured habitual physical activity and adiposity in children and adolescents: systematic review</article-title>. <source>Int J Pediatr Obes</source><year>2010</year>;<volume>5</volume>:<fpage>3</fpage>–<lpage>18</lpage>. <pub-id pub-id-type="doi">10.3109/17477160903067601</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/19562608?><pub-id pub-id-type="pmid">19562608</pub-id></mixed-citation>
+              </ref>
+              <ref id="R26">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Pate</surname><given-names>RR</given-names></string-name>, <string-name><surname>Hillman</surname><given-names>CH</given-names></string-name>, <string-name><surname>Janz</surname><given-names>KF</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Physical activity and health in children younger than 6 years: a systematic review</article-title>. <source>Med Sci Sports Exerc</source><year>2019</year>;<volume>51</volume>:<fpage>1282</fpage>–<lpage>91</lpage>. <pub-id pub-id-type="doi">10.1249/MSS.0000000000001940</pub-id>
+<pub-id pub-id-type="pmid">31095085</pub-id></mixed-citation>
+              </ref>
+              <ref id="R27">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Timmons</surname><given-names>BW</given-names></string-name>, <string-name><surname>Leblanc</surname><given-names>AG</given-names></string-name>, <string-name><surname>Carson</surname><given-names>V</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Systematic review of physical activity and health in the early years (aged 0-4 years)</article-title>. <source>Appl Physiol Nutr Metab</source><year>2012</year>;<volume>37</volume>:<fpage>773</fpage>–<lpage>92</lpage>. <pub-id pub-id-type="doi">10.1139/h2012-070</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/22765840?><pub-id pub-id-type="pmid">22765840</pub-id></mixed-citation>
+              </ref>
+              <ref id="R28">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Wen</surname><given-names>LM</given-names></string-name>, <string-name><surname>Baur</surname><given-names>LA</given-names></string-name>, <string-name><surname>Rissel</surname><given-names>C</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Correlates of body mass index and overweight and obesity of children aged 2 years: findings from the healthy beginnings trial</article-title>. <source>Obesity</source><year>2014</year>;<volume>22</volume>:<fpage>1723</fpage>–<lpage>30</lpage>. <pub-id pub-id-type="doi">10.1002/oby.20700</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/24415528?><pub-id pub-id-type="pmid">24415528</pub-id></mixed-citation>
+              </ref>
+              <ref id="R29">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Cox</surname><given-names>R</given-names></string-name>, <string-name><surname>Skouteris</surname><given-names>H</given-names></string-name>, <string-name><surname>Rutherford</surname><given-names>L</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Television viewing, television content, food intake, physical activity and body mass index: a cross-sectional study of preschool children aged 2-6 years</article-title>. <source>Health Promot J Austr</source><year>2012</year>;<volume>23</volume>:<fpage>58</fpage>–<lpage>62</lpage>. <pub-id pub-id-type="doi">10.1071/HE12058</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/22730942?><pub-id pub-id-type="pmid">22730942</pub-id></mixed-citation>
+              </ref>
+              <ref id="R30">
+                <label>30</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Jochem</surname><given-names>C</given-names></string-name>, <string-name><surname>Schmid</surname><given-names>D</given-names></string-name>, <string-name><surname>Leitzmann</surname><given-names>MF</given-names></string-name></person-group>. <part-title>Sedentary Behaviour and Adiposity</part-title>. In: <person-group person-group-type="editor"><string-name><surname>Leitzmann</surname><given-names>MF</given-names></string-name>, <string-name><surname>Jochem</surname><given-names>C</given-names></string-name>, <string-name><surname>Schmid</surname><given-names>D</given-names></string-name></person-group>, eds. <source>Sedentary Behav Epidemiol</source>, <year>2018</year>: <fpage>155</fpage>–<lpage>78</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R31">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Carter</surname><given-names>PJ</given-names></string-name>, <string-name><surname>Taylor</surname><given-names>BJ</given-names></string-name>, <string-name><surname>Williams</surname><given-names>SM</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Longitudinal analysis of sleep in relation to BMI and body fat in children: the flame study</article-title>. <source>BMJ</source><year>2011</year>;<volume>342</volume>:<elocation-id>d2712</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmj.d2712</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/21622518?><pub-id pub-id-type="pmid">21622518</pub-id></mixed-citation>
+              </ref>
+              <ref id="R32">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Felső</surname><given-names>R</given-names></string-name>, <string-name><surname>Lohner</surname><given-names>S</given-names></string-name>, <string-name><surname>Hollódy</surname><given-names>K</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Relationship between sleep duration and childhood obesity: systematic review including the potential underlying mechanisms</article-title>. <source>Nutr Metab Cardiovasc Dis</source><year>2017</year>;<volume>27</volume>:<fpage>751</fpage>–<lpage>61</lpage>. <pub-id pub-id-type="doi">10.1016/j.numecd.2017.07.008</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28818457?><pub-id pub-id-type="pmid">28818457</pub-id></mixed-citation>
+              </ref>
+              <ref id="R33">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Miller</surname><given-names>MA</given-names></string-name>, <string-name><surname>Kruisbrink</surname><given-names>M</given-names></string-name>, <string-name><surname>Wallace</surname><given-names>J</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Sleep duration and incidence of obesity in infants, children, and adolescents: a systematic review and meta-analysis of prospective studies</article-title>. <source>Sleep</source><year>2018</year>;<volume>41</volume>. <pub-id pub-id-type="doi">10.1093/sleep/zsy018</pub-id></mixed-citation>
+              </ref>
+              <ref id="R34">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Morrissey</surname><given-names>B</given-names></string-name>, <string-name><surname>Taveras</surname><given-names>E</given-names></string-name>, <string-name><surname>Allender</surname><given-names>S</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Sleep and obesity among children: a systematic review of multiple sleep dimensions</article-title>. <source>Pediatr Obes</source><year>2020</year>;<volume>15</volume>:<elocation-id>e12619</elocation-id>. <pub-id pub-id-type="doi">10.1111/ijpo.12619</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/32072752?><pub-id pub-id-type="pmid">32072752</pub-id></mixed-citation>
+              </ref>
+              <ref id="R35">
+                <label>35</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Sluggett</surname><given-names>L</given-names></string-name>, <string-name><surname>Wagner</surname><given-names>SL</given-names></string-name>, <string-name><surname>Harris</surname><given-names>RL</given-names></string-name></person-group>. <article-title>Sleep duration and obesity in children and adolescents</article-title>. <source>Can J Diabetes</source><year>2019</year>;<volume>43</volume>:<fpage>146</fpage>–<lpage>52</lpage>. <pub-id pub-id-type="doi">10.1016/j.jcjd.2018.06.006</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30266216?><pub-id pub-id-type="pmid">30266216</pub-id></mixed-citation>
+              </ref>
+              <ref id="R36">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Harskamp-van Ginkel</surname><given-names>MW</given-names></string-name>, <string-name><surname>Chinapaw</surname><given-names>MJM</given-names></string-name>, <string-name><surname>Harmsen</surname><given-names>IA</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Sleep during infancy and associations with childhood body composition: a systematic review and narrative synthesis</article-title>. <source>Child Obes</source><year>2020</year>;<volume>16</volume>:<fpage>94</fpage>–<lpage>116</lpage>. <pub-id pub-id-type="doi">10.1089/chi.2019.0123</pub-id>
+<pub-id pub-id-type="pmid">31692365</pub-id></mixed-citation>
+              </ref>
+              <ref id="R37">
+                <label>37</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ziauddeen</surname><given-names>N</given-names></string-name>, <string-name><surname>Wilding</surname><given-names>S</given-names></string-name>, <string-name><surname>Roderick</surname><given-names>PJ</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Predicting the risk of childhood overweight and obesity at 4-5 years using population-level pregnancy and early-life healthcare data</article-title>. <source>BMC Med</source><year>2020</year>;<volume>18</volume>:<elocation-id>105</elocation-id>. <pub-id pub-id-type="doi">10.1186/s12916-020-01568-z</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/32389121?><pub-id pub-id-type="pmid">32389121</pub-id></mixed-citation>
+              </ref>
+              <ref id="R38">
+                <label>38</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mukhopadhyay</surname><given-names>S</given-names></string-name>, <string-name><surname>Bryan</surname><given-names>M</given-names></string-name>, <string-name><surname>Dhudasia</surname><given-names>MB</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Intrapartum group B streptococcal prophylaxis and childhood weight gain</article-title>. <source>Arch Dis Child Fetal Neonatal Ed</source><year>2021</year>;<volume>106</volume>:<fpage>649</fpage>–<lpage>56</lpage>. <pub-id pub-id-type="doi">10.1136/archdischild-2020-320638</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/33958387?><pub-id pub-id-type="pmid">33958387</pub-id></mixed-citation>
+              </ref>
+              <ref id="R39">
+                <label>39</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Askie</surname><given-names>LM</given-names></string-name>, <string-name><surname>Espinoza</surname><given-names>D</given-names></string-name>, <string-name><surname>Martin</surname><given-names>A</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Interventions commenced by early infancy to prevent childhood obesity-The epoch collaboration: an individual participant data prospective meta-analysis of four randomized controlled trials</article-title>. <source>Pediatr Obes</source><year>2020</year>;<volume>15</volume>:<elocation-id>e12618</elocation-id>. <pub-id pub-id-type="doi">10.1111/ijpo.12618</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/32026653?><pub-id pub-id-type="pmid">32026653</pub-id></mixed-citation>
+              </ref>
+              <ref id="R40">
+                <label>40</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ash</surname><given-names>T</given-names></string-name>, <string-name><surname>Agaronov</surname><given-names>A</given-names></string-name>, <string-name><surname>Young</surname><given-names>Ta'Loria</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Family-Based childhood obesity prevention interventions: a systematic review and quantitative content analysis</article-title>. <source>Int J Behav Nutr Phys Act</source><year>2017</year>;<volume>14</volume>:<fpage>113</fpage>. <pub-id pub-id-type="doi">10.1186/s12966-017-0571-2</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28836983?><pub-id pub-id-type="pmid">28836983</pub-id></mixed-citation>
+              </ref>
+              <ref id="R41">
+                <label>41</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Brown</surname><given-names>T</given-names></string-name>, <string-name><surname>Moore</surname><given-names>TH</given-names></string-name>, <string-name><surname>Hooper</surname><given-names>L</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Interventions for preventing obesity in children</article-title>. <source>Cochrane Database Syst Rev</source><year>2019</year>;<volume>7</volume>:<elocation-id>CD001871</elocation-id>. <pub-id pub-id-type="doi">10.1002/14651858.CD001871.pub4</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/31332776?><pub-id pub-id-type="pmid">31332776</pub-id></mixed-citation>
+              </ref>
+              <ref id="R42">
+                <label>42</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Narzisi</surname><given-names>K</given-names></string-name>, <string-name><surname>Simons</surname><given-names>J</given-names></string-name></person-group>. <article-title>Interventions that prevent or reduce obesity in children from birth to five years of age: a systematic review</article-title>. <source>J Child Health Care</source><year>2021</year>;<volume>25</volume>:<fpage>320</fpage>–<lpage>34</lpage>. <pub-id pub-id-type="doi">10.1177/1367493520917863</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/32295414?><pub-id pub-id-type="pmid">32295414</pub-id></mixed-citation>
+              </ref>
+              <ref id="R43">
+                <label>43</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Blake-Lamb</surname><given-names>TL</given-names></string-name>, <string-name><surname>Locks</surname><given-names>LM</given-names></string-name>, <string-name><surname>Perkins</surname><given-names>ME</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Interventions for childhood obesity in the first 1,000 days a systematic review</article-title>. <source>Am J Prev Med</source><year>2016</year>;<volume>50</volume>:<fpage>780</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1016/j.amepre.2015.11.010</pub-id>
+<pub-id pub-id-type="pmid">26916260</pub-id></mixed-citation>
+              </ref>
+              <ref id="R44">
+                <label>44</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bleich</surname><given-names>SN</given-names></string-name>, <string-name><surname>Vercammen</surname><given-names>KA</given-names></string-name>, <string-name><surname>Zatz</surname><given-names>LY</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Interventions to prevent global childhood overweight and obesity: a systematic review</article-title>. <source>Lancet Diabetes Endocrinol</source><year>2018</year>;<volume>6</volume>:<fpage>332</fpage>–<lpage>46</lpage>. <pub-id pub-id-type="doi">10.1016/S2213-8587(17)30358-3</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/29066096?><pub-id pub-id-type="pmid">29066096</pub-id></mixed-citation>
+              </ref>
+              <ref id="R45">
+                <label>45</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Grobler</surname><given-names>L</given-names></string-name>, <string-name><surname>Visser</surname><given-names>M</given-names></string-name>, <string-name><surname>Siegfried</surname><given-names>N</given-names></string-name></person-group>. <article-title>Healthy life trajectories initiative: summary of the evidence base for pregnancy-related interventions to prevent overweight and obesity in children</article-title>. <source>Obes Rev</source><year>2019</year>;<volume>20 Suppl 1</volume>:<fpage>18</fpage>–<lpage>30</lpage>. <pub-id pub-id-type="doi">10.1111/obr.12767</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/31419051?><pub-id pub-id-type="pmid">31419051</pub-id></mixed-citation>
+              </ref>
+              <ref id="R46">
+                <label>46</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hennessy</surname><given-names>M</given-names></string-name>, <string-name><surname>Heary</surname><given-names>C</given-names></string-name>, <string-name><surname>Laws</surname><given-names>R</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The effectiveness of health professional-delivered interventions during the first 1000 days to prevent overweight/obesity in children: a systematic review</article-title>. <source>Obes Rev</source><year>2019</year>;<volume>20</volume>:<fpage>1691</fpage>–<lpage>707</lpage>. <pub-id pub-id-type="doi">10.1111/obr.12924</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/31478333?><pub-id pub-id-type="pmid">31478333</pub-id></mixed-citation>
+              </ref>
+              <ref id="R47">
+                <label>47</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Haire-Joshu</surname><given-names>D</given-names></string-name>, <string-name><surname>Tabak</surname><given-names>R</given-names></string-name></person-group>. <article-title>Preventing obesity across generations: evidence for early life intervention</article-title>. <source>Annu Rev Public Health</source><year>2016</year>;<volume>37</volume>:<fpage>253</fpage>–<lpage>71</lpage>. <pub-id pub-id-type="doi">10.1146/annurev-publhealth-032315-021859</pub-id>
+<pub-id pub-id-type="pmid">26989828</pub-id></mixed-citation>
+              </ref>
+              <ref id="R48">
+                <label>48</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lillycrop</surname><given-names>KA</given-names></string-name>, <string-name><surname>Burdge</surname><given-names>GC</given-names></string-name></person-group>. <article-title>Epigenetic changes in early life and future risk of obesity</article-title>. <source>Int J Obes</source><year>2011</year>;<volume>35</volume>:<fpage>72</fpage>–<lpage>83</lpage>. <pub-id pub-id-type="doi">10.1038/ijo.2010.122</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/20548303?></mixed-citation>
+              </ref>
+              <ref id="R49">
+                <label>49</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Brookes</surname><given-names>ST</given-names></string-name>, <string-name><surname>Whitely</surname><given-names>E</given-names></string-name>, <string-name><surname>Egger</surname><given-names>M</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Subgroup analyses in randomized trials: risks of subgroup-specific analyses; power and sample size for the interaction test</article-title>. <source>J Clin Epidemiol</source><year>2004</year>;<volume>57</volume>:<fpage>229</fpage>–<lpage>36</lpage>. <pub-id pub-id-type="doi">10.1016/j.jclinepi.2003.08.009</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/15066682?><pub-id pub-id-type="pmid">15066682</pub-id></mixed-citation>
+              </ref>
+              <ref id="R50">
+                <label>50</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Egger</surname><given-names>M</given-names></string-name>, <string-name><surname>Smith</surname><given-names>GD</given-names></string-name></person-group>. <article-title>Meta-Analysis. Potentials and promise</article-title>. <source>BMJ</source><year>1997</year>;<volume>315</volume>:<fpage>1371</fpage>–<lpage>4</lpage>. <pub-id pub-id-type="doi">10.1136/bmj.315.7119.1371</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/9432250?><pub-id pub-id-type="pmid">9432250</pub-id></mixed-citation>
+              </ref>
+              <ref id="R51">
+                <label>51</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Seidler</surname><given-names>AL</given-names></string-name>, <string-name><surname>Hunter</surname><given-names>KE</given-names></string-name>, <string-name><surname>Espinoza</surname><given-names>D</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Quantifying the advantages of conducting a prospective meta-analysis (PMA): a case study of early childhood obesity prevention</article-title>. <source>Trials</source><year>2021</year>;<volume>22</volume>:<elocation-id>78</elocation-id>. <pub-id pub-id-type="doi">10.1186/s13063-020-04984-x</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/33482883?><pub-id pub-id-type="pmid">33482883</pub-id></mixed-citation>
+              </ref>
+              <ref id="R52">
+                <label>52</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Tierney</surname><given-names>J</given-names></string-name>, <string-name><surname>Stewart</surname><given-names>L</given-names></string-name>, <string-name><surname>Clarke</surname><given-names>M</given-names></string-name></person-group>. <part-title>Chapter 26: Individual participant data</part-title>. In: <person-group person-group-type="editor"><string-name><surname>Higgins</surname><given-names>J</given-names></string-name>, <string-name><surname>Thomas</surname><given-names>J</given-names></string-name>, <string-name><surname>Chandler</surname><given-names>J</given-names></string-name></person-group>, eds. <source>Cochrane Handbook for systematic reviews of interventions version 6.0</source>. <publisher-name>Cochrane</publisher-name>, <year>2019</year>.</mixed-citation>
+              </ref>
+              <ref id="R53">
+                <label>53</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Seidler</surname><given-names>AL</given-names></string-name>, <string-name><surname>Hunter</surname><given-names>KE</given-names></string-name>, <string-name><surname>Cheyne</surname><given-names>S</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>A guide to prospective meta-analysis</article-title>. <source>BMJ</source><year>2019</year>;<volume>9</volume>:<fpage>l5342</fpage>. <pub-id pub-id-type="doi">10.1136/bmj.l5342</pub-id></mixed-citation>
+              </ref>
+              <ref id="R54">
+                <label>54</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Moher</surname><given-names>D</given-names></string-name>, <string-name><surname>Shamseer</surname><given-names>L</given-names></string-name>, <string-name><surname>Clarke</surname><given-names>M</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015 statement</article-title>. <source>Syst Rev</source><year>2015</year>;<volume>4</volume>:<elocation-id>1</elocation-id>. <pub-id pub-id-type="doi">10.1186/2046-4053-4-1</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/25554246?><pub-id pub-id-type="pmid">25554246</pub-id></mixed-citation>
+              </ref>
+              <ref id="R55">
+                <label>55</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Dodd</surname><given-names>JM</given-names></string-name>, <string-name><surname>Grivell</surname><given-names>RM</given-names></string-name>, <string-name><surname>Louise</surname><given-names>J</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The effects of dietary and lifestyle interventions among pregnant women who are overweight or obese on longer-term maternal and early childhood outcomes: protocol for an individual participant data (IPD) meta-analysis</article-title>. <source>Syst Rev</source><year>2017</year>;<volume>6</volume>:<elocation-id>51</elocation-id>. <pub-id pub-id-type="doi">10.1186/s13643-017-0442-6</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28274270?><pub-id pub-id-type="pmid">28274270</pub-id></mixed-citation>
+              </ref>
+              <ref id="R56">
+                <label>56</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>McKenzie</surname><given-names>JE</given-names></string-name>, <string-name><surname>Brennan</surname><given-names>SE</given-names></string-name>, <string-name><surname>Ryan</surname><given-names>RE</given-names></string-name></person-group>. <part-title>Chapter 3: Defining the criteria for including studies and how they will be grouped for the synthesis</part-title>. In: <person-group person-group-type="editor"><string-name><surname>Higgins</surname><given-names>JPT</given-names></string-name>, <string-name><surname>Thomas</surname><given-names>J</given-names></string-name>, <string-name><surname>Chandler</surname><given-names>J</given-names></string-name></person-group>, eds. <source>Cochrane Handbook for systematic reviews of interventions version 6.1</source>. <publisher-name>Cochrane</publisher-name>, <year>2021</year>. <uri xlink:href="www.training.cochrane.org/handbook2020">www.training.cochrane.org/handbook2020</uri></mixed-citation>
+              </ref>
+              <ref id="R57">
+                <label>57</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Sterne</surname><given-names>JAC</given-names></string-name>, <string-name><surname>Savović</surname><given-names>J</given-names></string-name>, <string-name><surname>Page</surname><given-names>MJ</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Rob 2: a revised tool for assessing risk of bias in randomised trials</article-title>. <source>BMJ</source><year>2019</year>;<volume>366</volume>:<fpage>l4898</fpage>. <pub-id pub-id-type="doi">10.1136/bmj.l4898</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/31462531?><pub-id pub-id-type="pmid">31462531</pub-id></mixed-citation>
+              </ref>
+              <ref id="R58">
+                <label>58</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Schünemann</surname><given-names>HJ</given-names></string-name>, <string-name><surname>Higgins</surname><given-names>JPT</given-names></string-name>, <string-name><surname>Vist</surname><given-names>GE</given-names></string-name></person-group>. <part-title>Chapter 14: Completing ‘Summary of findings’ tables and grading the certainty of the evidence</part-title>. In: <person-group person-group-type="editor"><string-name><surname>Higgins</surname><given-names>JPT</given-names></string-name>, <string-name><surname>Thomas</surname><given-names>J</given-names></string-name>, <string-name><surname>Chandler</surname><given-names>J</given-names></string-name></person-group>, eds. <source>Cochrane Handbook for systematic reviews of interventions version 6.1</source>. <publisher-name>Cochrane</publisher-name>, <year>2020</year>. <uri xlink:href="www.training.cochrane.org/handbook2020">www.training.cochrane.org/handbook2020</uri></mixed-citation>
+              </ref>
+              <ref id="R59">
+                <label>59</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Guyatt</surname><given-names>G</given-names></string-name>, <string-name><surname>Oxman</surname><given-names>AD</given-names></string-name>, <string-name><surname>Akl</surname><given-names>EA</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Grade guidelines: 1. Introduction-GRADE evidence profiles and summary of findings tables</article-title>. <source>J Clin Epidemiol</source><year>2011</year>;<volume>64</volume>:<fpage>383</fpage>–<lpage>94</lpage>. <pub-id pub-id-type="doi">10.1016/j.jclinepi.2010.04.026</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/21195583?><pub-id pub-id-type="pmid">21195583</pub-id></mixed-citation>
+              </ref>
+              <ref id="R60">
+                <label>60</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>World Health Organization</collab></person-group>. <article-title>WHO child growth standards: growth velocity based on weight, length and head circumference: methods and development</article-title><year>2009</year><uri xlink:href="http://www.who.int/childgrowth/en/">http://www.who.int/childgrowth/en/</uri></mixed-citation>
+              </ref>
+              <ref id="R61">
+                <label>61</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Perng</surname><given-names>W</given-names></string-name>, <string-name><surname>Ringham</surname><given-names>BM</given-names></string-name>, <string-name><surname>Glueck</surname><given-names>DH</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>An observational cohort study of weight- and length-derived anthropometric indicators with body composition at birth and 5 Mo: the healthy start study</article-title>. <source>Am J Clin Nutr</source><year>2017</year>;<volume>106</volume>:<fpage>559</fpage>–<lpage>67</lpage>. <pub-id pub-id-type="doi">10.3945/ajcn.116.149617</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28659296?><pub-id pub-id-type="pmid">28659296</pub-id></mixed-citation>
+              </ref>
+              <ref id="R62">
+                <label>62</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Roy</surname><given-names>SM</given-names></string-name>, <string-name><surname>Fields</surname><given-names>DA</given-names></string-name>, <string-name><surname>Mitchell</surname><given-names>JA</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Body mass index is a better indicator of body composition than Weight-for-Length at age 1 month</article-title>. <source>J Pediatr</source><year>2019</year>;<volume>204</volume>:<fpage>77</fpage>–<lpage>83</lpage>. <pub-id pub-id-type="doi">10.1016/j.jpeds.2018.08.007</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30268397?><pub-id pub-id-type="pmid">30268397</pub-id></mixed-citation>
+              </ref>
+              <ref id="R63">
+                <label>63</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Roy</surname><given-names>SM</given-names></string-name>, <string-name><surname>Spivack</surname><given-names>JG</given-names></string-name>, <string-name><surname>Faith</surname><given-names>MS</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Infant BMI or Weight-for-Length and obesity risk in early childhood</article-title>. <source>Pediatrics</source><year>2016</year>;<volume>137</volume>:<elocation-id>e20153492</elocation-id>. <pub-id pub-id-type="doi">10.1542/peds.2015-3492</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/27244803?><pub-id pub-id-type="pmid">27244803</pub-id></mixed-citation>
+              </ref>
+              <ref id="R64">
+                <label>64</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Woo</surname><given-names>JG</given-names></string-name>, <string-name><surname>Daniels</surname><given-names>SR</given-names></string-name></person-group>. <article-title>Assessment of body mass index in infancy: it is time to revise our guidelines</article-title>. <source>J Pediatr</source><year>2019</year>;<volume>204</volume>:<fpage>10</fpage>–<lpage>11</lpage>. <pub-id pub-id-type="doi">10.1016/j.jpeds.2018.09.025</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30297288?><pub-id pub-id-type="pmid">30297288</pub-id></mixed-citation>
+              </ref>
+              <ref id="R65">
+                <label>65</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Smego</surname><given-names>A</given-names></string-name>, <string-name><surname>Woo</surname><given-names>JG</given-names></string-name>, <string-name><surname>Klein</surname><given-names>J</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>High body mass index in infancy may predict severe obesity in early childhood</article-title>. <source>J Pediatr</source><year>2017</year>;<volume>183</volume>:<fpage>87</fpage>–<lpage>93</lpage>. <pub-id pub-id-type="doi">10.1016/j.jpeds.2016.11.020</pub-id>
+<pub-id pub-id-type="pmid">27916426</pub-id></mixed-citation>
+              </ref>
+              <ref id="R66">
+                <label>66</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><collab>WHO Multicentre Growth Reference Study Group</collab></person-group>. <article-title>Who child growth standards based on length/height, weight and age</article-title>. <source>Acta Paediatr Suppl</source><year>2006</year>;<volume>450</volume>:<fpage>76</fpage>–<lpage>85</lpage>. <pub-id pub-id-type="doi">10.1111/j.1651-2227.2006.tb02378.x</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/16817681?><pub-id pub-id-type="pmid">16817681</pub-id></mixed-citation>
+              </ref>
+              <ref id="R67">
+                <label>67</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Riley</surname><given-names>RD</given-names></string-name>, <string-name><surname>Debray</surname><given-names>TPA</given-names></string-name>, <string-name><surname>Fisher</surname><given-names>D</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Individual participant data meta-analysis to examine interactions between treatment effect and participant-level covariates: statistical recommendations for conduct and planning</article-title>. <source>Stat Med</source><year>2020</year>;<volume>39</volume>:<fpage>2115</fpage>–<lpage>37</lpage>. <pub-id pub-id-type="doi">10.1002/sim.8516</pub-id>
+<pub-id pub-id-type="pmid">32350891</pub-id></mixed-citation>
+              </ref>
+              <ref id="R68">
+                <label>68</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Burke</surname><given-names>DL</given-names></string-name>, <string-name><surname>Ensor</surname><given-names>J</given-names></string-name>, <string-name><surname>Riley</surname><given-names>RD</given-names></string-name></person-group>. <article-title>Meta-Analysis using individual participant data: one-stage and two-stage approaches, and why they may differ</article-title>. <source>Stat Med</source><year>2017</year>;<volume>36</volume>:<fpage>855</fpage>–<lpage>75</lpage>. <pub-id pub-id-type="doi">10.1002/sim.7141</pub-id>
+<pub-id pub-id-type="pmid">27747915</pub-id></mixed-citation>
+              </ref>
+              <ref id="R69">
+                <label>69</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Riley</surname><given-names>RD</given-names></string-name>, <string-name><surname>Steyerberg</surname><given-names>EW</given-names></string-name></person-group>. <article-title>Meta-Analysis of a binary outcome using individual participant data and aggregate data</article-title>. <source>Res. Synth. Method</source><year>2010</year>;<volume>1</volume>:<fpage>2</fpage>–<lpage>19</lpage>. <pub-id pub-id-type="doi">10.1002/jrsm.4</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="R70">
+                <label>70</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Deeks</surname><given-names>JJ</given-names></string-name>, <string-name><surname>Higgins</surname><given-names>JPT</given-names></string-name>, <string-name><surname>Altman</surname><given-names>DG</given-names></string-name></person-group>. <part-title>Chapter 10: Analysing data and undertaking meta-analyses</part-title>. In: <person-group person-group-type="editor"><string-name><surname>Higgins</surname><given-names>JPT</given-names></string-name>, <string-name><surname>Thomas</surname><given-names>J</given-names></string-name>, <string-name><surname>Chandler</surname><given-names>J</given-names></string-name></person-group>, eds. <source>Cochrane Handbook for systematic reviews of interventions version 6.1</source>, <year>2020</year>. <uri xlink:href="www.training.cochrane.org/handbook">www.training.cochrane.org/handbook</uri></mixed-citation>
+              </ref>
+              <ref id="R71">
+                <label>71</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><collab>R Core Team</collab></person-group>. <source>R: a language and environment for statistical computing. R foundation for statistical computing</source>. <publisher-loc>Vienna, Austria</publisher-loc>, <year>2020</year>. <uri xlink:href="https://www.R-project.org/">https://www.R-project.org/</uri></mixed-citation>
+              </ref>
+              <ref id="R72">
+                <label>72</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Schulz</surname><given-names>KF</given-names></string-name>, <string-name><surname>Grimes</surname><given-names>DA</given-names></string-name></person-group>. <article-title>Multiplicity in randomised trials II: subgroup and interim analyses</article-title>. <source>Lancet</source><year>2005</year>;<volume>365</volume>:<fpage>1657</fpage>–<lpage>61</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(05)66516-6</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/15885299?><pub-id pub-id-type="pmid">15885299</pub-id></mixed-citation>
+              </ref>
+              <ref id="R73">
+                <label>73</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Stewart</surname><given-names>LA</given-names></string-name>, <string-name><surname>Parmar</surname><given-names>MK</given-names></string-name></person-group>. <article-title>Meta-Analysis of the literature or of individual patient data: is there a difference?</article-title><source>Lancet</source><year>1993</year>;<volume>341</volume>:<fpage>418</fpage>–<lpage>22</lpage>. <pub-id pub-id-type="doi">10.1016/0140-6736(93)93004-K</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/8094183?><pub-id pub-id-type="pmid">8094183</pub-id></mixed-citation>
+              </ref>
+              <ref id="R74">
+                <label>74</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Tierney</surname><given-names>JF</given-names></string-name>, <string-name><surname>Fisher</surname><given-names>DJ</given-names></string-name>, <string-name><surname>Burdett</surname><given-names>S</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Comparison of aggregate and individual participant data approaches to meta-analysis of randomised trials: an observational study</article-title>. <source>PLoS Med</source><year>2020</year>;<volume>17</volume>:<elocation-id>e1003019</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pmed.1003019</pub-id><pub-id pub-id-type="pmid">32004320</pub-id></mixed-citation>
+              </ref>
+              <ref id="R75">
+                <label>75</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Johnson</surname><given-names>BJ</given-names></string-name>, <string-name><surname>Hunter</surname><given-names>KE</given-names></string-name>, <string-name><surname>Golley</surname><given-names>R</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Unpacking the behavioural components and delivery features of early childhood obesity prevention interventions in the TOPCHILD collaboration: a systematic review and intervention coding protocol</article-title>. <source>BMJ Open</source><year>2021</year>. <pub-id pub-id-type="doi">10.1136/bmjopen-2020-048165</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

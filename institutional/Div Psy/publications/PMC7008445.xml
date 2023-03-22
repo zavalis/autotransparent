@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:03:46Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7008445" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7008445</identifier>
+        <datestamp>2020-02-24</datestamp>
+        <setSpec>bmjo</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMJ Open</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMJ Open</journal-id>
+              <journal-id journal-id-type="hwp">bmjopen</journal-id>
+              <journal-id journal-id-type="publisher-id">bmjopen</journal-id>
+              <journal-title-group>
+                <journal-title>BMJ Open</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2044-6055</issn>
+              <publisher>
+                <publisher-name>BMJ Publishing Group</publisher-name>
+                <publisher-loc>BMA House, Tavistock Square, London, WC1H 9JR</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7008445</article-id>
+              <article-id pub-id-type="pmcid">PMC7008445</article-id>
+              <article-id pub-id-type="pmc-uid">7008445</article-id>
+              <article-id pub-id-type="pmid">31874876</article-id>
+              <article-id pub-id-type="publisher-id">bmjopen-2019-031964</article-id>
+              <article-id pub-id-type="doi">10.1136/bmjopen-2019-031964</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Mental Health</subject>
+                  <subj-group>
+                    <subject>Original Research</subject>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="hwp-journal-coll">
+                  <subject>1506</subject>
+                  <subject>1712</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Validation study of randomly selected cases of PTSD diagnoses identified in a Swedish regional database compared with medical records: is the validity sufficient for epidemiological research?</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="author-40036286" contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-1246-5804</contrib-id>
+                  <name>
+                    <surname>Hollander</surname>
+                    <given-names>Anna-Clara</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                </contrib>
+                <contrib id="author-70344642" contrib-type="author">
+                  <name>
+                    <surname>Askegård</surname>
+                    <given-names>Klara</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                </contrib>
+                <contrib id="author-70344688" contrib-type="author">
+                  <name>
+                    <surname>Iddon-Escalante</surname>
+                    <given-names>Claudia</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                </contrib>
+                <contrib id="author-58190404" contrib-type="author">
+                  <name>
+                    <surname>Holmes</surname>
+                    <given-names>Emily A</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <xref ref-type="aff" rid="aff4">4</xref>
+                </contrib>
+                <contrib id="author-34085148" contrib-type="author">
+                  <name>
+                    <surname>Wicks</surname>
+                    <given-names>Susanne</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff5">5</xref>
+                </contrib>
+                <contrib id="author-28840866" contrib-type="author">
+                  <name>
+                    <surname>Dalman</surname>
+                    <given-names>Christina</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff5">5</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><label>1</label><institution content-type="department">Department of Global Public Health Sciences</institution>, <institution>Karolinska Institutet</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff2"><label>2</label><institution>Psykiatri Södra, Administration</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff3"><label>3</label><institution content-type="department">Department of Clinical Neuroscience</institution>, <institution>Karolinska Institutet</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff4"><label>4</label><institution content-type="department">Department of Psychology</institution>, <institution>Uppsala University, Sweden</institution>, <addr-line content-type="city">Uppsala</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff5"><label>5</label><institution>Centre for Epidemiology and Community Medicine, Region Stockholm</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <author-notes>
+                <corresp><label>Correspondence to</label> Dr Anna-Clara Hollander; <email>anna-clara.hollander@ki.se</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>23</day>
+                <month>12</month>
+                <year>2019</year>
+              </pub-date>
+              <volume>9</volume>
+              <issue>12</issue>
+              <elocation-id>e031964</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>28</day>
+                  <month>5</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>19</day>
+                  <month>11</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="accepted">
+                  <day>27</day>
+                  <month>11</month>
+                  <year>2019</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© Author(s) (or their employer(s)) 2019. Re-use permitted under CC BY. Published by BMJ.</copyright-statement>
+                <copyright-year>2019</copyright-year>
+                <license license-type="open-access">
+                  <license-p>This is an open access article distributed in accordance with the Creative Commons Attribution 4.0 Unported (CC BY 4.0) license, which permits others to copy, redistribute, remix, transform and build upon this work for any purpose, provided the original work is properly cited, a link to the licence is given, and indication of whether changes were made. See: <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:title="pdf" xlink:href="bmjopen-2019-031964.pdf"/>
+              <self-uri content-type="reviewers-comments-pdf" xlink:href="bmjopen-2019-031964.reviewer_comments.pdf"/>
+              <self-uri content-type="draft-revisions-pdf" xlink:href="bmjopen-2019-031964.draft_revisions.pdf"/>
+              <abstract>
+                <sec>
+                  <title>Objectives</title>
+                  <p>In Sweden, the patients’ diagnoses are recorded in administrative registers. The research value of these registers is determined by their diagnostic validity, that is, if the diagnosis recorded meets the relevant diagnostic criteria. The aim of the study was to assess the validity of post-traumatic stress disorder (PTSD)-diagnoses as compared with case notes in medical records (MRs) and to test if there was a difference in validity by gender, migration status and those with and without psychotic symptoms. We hypothesised that the validity would be sufficient, using both <italic>Diagnostic and Statistical Manual of Mental Disorders</italic> (DSM)-IV and DSM-5 but higher according to DSM-IV than DSM-5, and that the validity would be the same for men and women, but different for Swedish-born and migrants, and for those with and without psychotic symptoms.</p>
+                </sec>
+                <sec>
+                  <title>Design and setting</title>
+                  <p>A validation of the register-diagnoses using MRs from treatment centres within the Region of Stockholm to examine whether patients with a register-diagnosis of PTSD fulfilled DSM criteria of PTSD according to the case notes in their MRs.</p>
+                </sec>
+                <sec>
+                  <title>Participants</title>
+                  <p>A random sample of 187 patients aged 18–64, who had been diagnosed with PTSD (F43.1 in the ICD-10) were drawn from the Region of Stockholm’s MR database 2013–2015.</p>
+                </sec>
+                <sec>
+                  <title>Primary outcome measure</title>
+                  <p>Validity of the PTSD diagnoses according to DSM-IV and DSM-5 as proportions of true positives with 95% CI.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p>The hypothesised sufficient validity of the PTSD diagnoses was confirmed. Although the point-estimates for DSM-IV were higher than for DSM-5, the hypothesis that there would be significant differences in validity between DSM-IV and DSM-5 was not confirmed. There were no significant validity differences by gender, migration status and for those with and without psychotic symptoms.</p>
+                </sec>
+                <sec>
+                  <title>Conclusions</title>
+                  <p>This study has found that validity of the PTSD diagnoses in the register of the Region of Stockholm to be sufficient for epidemiological research.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>epidemiology</kwd>
+                <kwd>psychiatry</kwd>
+                <kwd>public health</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group id="funding-1">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100001275</institution-id>
+                      <institution>Oak Foundation</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>OCAY-18-442</award-id>
+                </award-group>
+                <award-group id="funding-2">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100006636</institution-id>
+                      <institution>Forskningsrådet om Hälsa, Arbetsliv och Välfärd</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>2016-00870</award-id>
+                </award-group>
+                <award-group id="funding-3">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100004359</institution-id>
+                      <institution>Vetenskapsrådet</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>2017-00957</award-id>
+                  <award-id>5232010-1052</award-id>
+                </award-group>
+                <award-group id="funding-4">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100010431</institution-id>
+                      <institution>Lupina Foundation</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>OCAY-18-442</award-id>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>special-feature</meta-name>
+                  <meta-value>unlocked</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <boxed-text id="BX1" position="float" orientation="portrait">
+              <caption>
+                <title>Strengths and limitations of this study</title>
+              </caption>
+              <list list-type="bullet">
+                <list-item>
+                  <p>Randomly selected sample of cases with a post-traumatic stress disorder (PTSD) diagnosis from the comprehensive register of the Stockholm region with an almost complete coverage and mixed urban populations.</p>
+                </list-item>
+                <list-item>
+                  <p>Thorough review of the medical records (MRs) performed by two medical doctors.</p>
+                </list-item>
+                <list-item>
+                  <p>The two medical doctors reviewing MRs had a high coherence.</p>
+                </list-item>
+                <list-item>
+                  <p>The method of validating diagnosis by reviewing MRs carries a risk of misinterpretation when reading another medical doctor’s case notes.</p>
+                </list-item>
+                <list-item>
+                  <p>The Stockholm population is an urban population, hence, there might be specific aspects of PTSD in rural areas that are not taken into account.</p>
+                </list-item>
+              </list>
+            </boxed-text>
+            <sec sec-type="intro" id="s1">
+              <title>Introduction</title>
+              <p>Post-traumatic stress disorder (PTSD) can develop after a person has been exposed to exceptionally threatening or horrifying events which qualify as ‘psychological trauma’.<xref rid="R1" ref-type="bibr">1</xref> Symptoms of PTSD, continuing more than a month after the event, include involuntary and intrusive upsetting memories of the traumatic event, thoughts, feelings, or dreams related to the events, mental or physical distress to trauma-related cues, attempts to avoid trauma-related cues, alterations in how a person thinks and feels, and increased arousal.<xref rid="R2" ref-type="bibr">2 3</xref> There is a strong case for the cross-cultural validity of PTSD,<xref rid="R4" ref-type="bibr">4</xref> still, estimates of PTSD prevalence differ greatly between countries.<xref rid="R4" ref-type="bibr">4</xref> In a study of PTSD in European countries, the highest prevalence of PTSD was found in war-torn Croatia, followed by the Netherlands, the UK, France and Germany.<xref rid="R5" ref-type="bibr">5</xref> The samples included in this comparison were small and survey-based with varying attrition.</p>
+              <p>Psychotic disorders and PTSD are different in many ways but arguably have some similarities in terms of specific symptoms.<xref rid="R6" ref-type="bibr">6</xref> Some avoidance behaviours in PTSD resemble safety-seeking behaviours or negative symptoms in psychosis.<xref rid="R6" ref-type="bibr">6</xref> Hallucinations in psychosis have similarities to the experience of flashbacks and intrusive images and bodily sensations in PTSD.<xref rid="R6" ref-type="bibr">6</xref> There is an ongoing discussion about the relationship between PTSD and psychosis.<xref rid="R7" ref-type="bibr">7</xref> Studies of refugees have, so far, often had a focus on PTSD, however, a study from 2016 showed that in particular male refugees also have an increased risk of non-affective psychosis.<xref rid="R8" ref-type="bibr">8</xref> This study has intensified an already ongoing debate regarding the validity of PTSD diagnoses among male and female migrants, especially with psychosis, as for mental health professionals, different cultural variation in presentation of psychiatric symptoms contributes to risk of being misdiagnosed.<xref rid="R9" ref-type="bibr">9</xref>
+</p>
+              <p>In Scandinavia and Finland, visits to psychiatric care are recorded in local and national administrative registers covering the entire population (also known as population-based registers). Such registers have benefited mental health research immensely.<xref rid="R10" ref-type="bibr">10</xref> Central understanding regarding major mental disorders, for instance, schizophrenia, bipolar disorder, suicide, autism spectrum disorders (ASD) would not exist without the use of population based registers.<xref rid="R10" ref-type="bibr">10</xref> When using these administrative registers created for generic purposes in research it is crucial to assess the quality of the information they contain, that is, testing the diagnostic validity.<xref rid="R11" ref-type="bibr">11</xref> Diagnostic validity refers, in this context, to the accuracy of a diagnose, if the diagnoses recorded meets the relevant diagnostic criteria, measured as proportions of true positives. The diagnose is considered valid if it corresponds to the diagnostic criteria according to either <italic>International Classification of Diseases</italic> (ICD)<xref rid="R12" ref-type="bibr">12</xref> or <italic>Diagnostic and Statistical Manual of Mental Disorders</italic> (DSM).<xref rid="R2" ref-type="bibr">2 3 12</xref> In Sweden diagnoses are registered according to the ICD-10. The share of cases with a valid diagnosis differ for different diagnoses and for different registers but in Sweden the population registers who have been validated have had a validity around 85%–95%,<xref rid="R11" ref-type="bibr">11</xref> hence, this level can be considered as a sufficient validity. Validation studies have been performed for a range of specific psychiatric diagnoses, for example, schizophrenia, ASD, bipolar disorder and so on,<xref rid="R11" ref-type="bibr">11</xref> in the Swedish registers, but hitherto the diagnosis of PTSD has not been validated. A small validation study of PTSD was performed in Denmark 2015 testing the validity of PTSD<xref rid="R13" ref-type="bibr">13</xref> defined according to ICD-10.<xref rid="R12" ref-type="bibr">12</xref> The study used 18 cases of PTSD from the Danish Psychiatric Central Research Register and found a positive predictive value (ppv) of 83%. The PTSD diagnosis are of special interest since the DSM criteria for PTSD have been changed recently. Valid PTSD-diagnoses that can be used in population-based register studies could improve understanding of the prevalence and incidence of PTSD.</p>
+              <p>The first aim of the current study is to assess the validity of PTSD-diagnoses in a regional register as compared with case notes in medical records (MRs) according to the DSM-IV and DSM-5 criterion, in order to determine if the register diagnoses are of sufficient quality for epidemiological research. We hypothesise that the validity of PTSD-diagnoses will be sufficient, using both DSM-IV and DSM-5 but that the validity would be higher according to DSM-IV than the DSM-5, as for the time frame chosen more clinicians would have been familiar with DSM-IV. The second aim is to test if there is a difference in the validity by gender, migration status and among the patients with and without psychotic symptoms. We hypothesise that the validity will be the same for men and women, but different for Swedish-born and migrants and for those with and without psychotic symptoms, with a higher validity for Swedish born and those without psychotic symptoms.</p>
+            </sec>
+            <sec sec-type="methods" id="s2">
+              <title>Method</title>
+              <sec id="s2-1">
+                <title>Setting and design</title>
+                <p>The design of the validation was to examine whether patients with register-diagnoses of PTSD fulfilled the DSM criteria of PTSD according to the case notes in their MRs. We chose to assess the diagnoses in accordance with the DSM-system since it has become the global standard in psychiatric research and contains specific criteria for each diagnosis. MRs were retrieved from four local specialist psychiatric treatment centres within the Region of Stockholm in Sweden: Psykiatri Södra, Psykiatri Sydväst, Norra Stockholms Psykiatri and Psykiatri Nordväst.</p>
+              </sec>
+              <sec id="s2-2">
+                <title>Population and data source</title>
+                <p>We selected a random sample of 200 patients from the approximately 2000 eligible patients in the register, aged 18–64, who had been diagnosed with PTSD (F43.1 according to ICD-10<xref rid="R12" ref-type="bibr">12</xref>) at one of the above-mentioned local centres as a primary or secondary diagnosis according to the Region of Stockholm’s healthcare register 2013–2015. The reason for including 200 patients were to have the statistical power to do the subgroup calculations even if the validity was found to be low. The MRs of these patients were retrieved from the Region of Stockholm’s electronic MR database <italic>Take Care,</italic> that was introduced within the Region of Stockholm in 2008 and used by the majority of clinics by year 2010. Thirteen MRs were not possible to retrieve due to, for instance, hidden identity of the MR holder. These MRs were deducted from the total number of MRs. The size of the MRs ranged from 1 to 100 pages, sometimes from different psychiatric caregivers.</p>
+              </sec>
+              <sec id="s2-3">
+                <title>Validation procedure</title>
+                <p>Two medical doctors, in their psychiatric specialty training, revised 90 MRs each and 20 together to cross-validate their judgements (total n=200). They reviewed both symptoms for PTSD, and psychosis. Considering that DSM-IV was used until late 2014, when DSM-5 was published in Swedish, the PTSD diagnostic criteria was scrutinised for both DSM-IV and DSM-5. Twenty patients were cross validated by both the clinicians in order to calculate the degree of coherence between the two doctors, and in conjunction with supervision from a specialist in PTSD. When the MRs included results from a Mini International Neuropsychiatric Interview (M.I.N.I.)<xref rid="R14" ref-type="bibr">14</xref> concluding that the patient fulfilled the criteria for a PTSD diagnosis, this was considered as the criteria were fulfilled, although each criterion was not commented on specifically. The clinicians also reviewed the MRs for positive or negative symptoms of psychosis, whether the patient fulfilled a psychosis diagnosis according to M.I.N.I. or whether the patient had received any diagnosis of psychosis in the MR (henceforth, referred to as psychosis according to MR).</p>
+              </sec>
+              <sec id="s2-4">
+                <title>Subgroups</title>
+                <p>The diagnoses were compared by gender according to the MR, migration status (born in Sweden or not) according to the MR and by psychosis according to notes in the MR. The patient was classified as having psychosis according to notes in the MR by the reviewer if the patients either fulfilled the criteria of both hallucinations and delusions or were diagnosed with a psychotic disorder according to M.I.N.I.<xref rid="R14" ref-type="bibr">14</xref> or if the patient was classified as having a suspected psychotic diagnosis.</p>
+              </sec>
+              <sec id="s2-5">
+                <title>Statistical methods</title>
+                <p>We calculated the degree of coherence between raters, in per cent and validity as ppv among the register diagnoses with 95% CI, ppv is defined as number of patients with a PTSD register diagnosis confirmed in the MRs divided by the total number of patients with a PTSD register diagnosis that we were able to validate against MRs. The differences between subgroups were compared using χ<sup>2</sup> tests.</p>
+                <p>In order for a DSM-criteria to be counted as fulfilled, the criteria needed to be explicitly mentioned in the MR. However, criteria C for PTSD (the avoidance criteria) seemed sometimes not to be mentioned unless it was not fulfilled (ie, ‘the patient do not seem to avoid related cues’). An additional test of validity was made, were we counted criteria C to be fulfilled each time it was not specifically described as not to be fulfilled.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="s3">
+              <title>Results</title>
+              <sec id="s3-1">
+                <title>Study population</title>
+                <p>Due to either protected identities or inaccessible records, MRs could not be validated for 13 persons out of the 200 selected. Since we could not assess the validity of PTSD among these patients, they were excluded from the study. Altogether 187 register diagnoses were validated in the final sample, which included more women than men and more Swedish born than migrants (see <xref rid="T1" ref-type="table">table 1</xref>). The coherence between the two medical doctors validating the MRs was 80% (95% CI 62% to 98%) for DSM-IV and 85% (95% CI 69% to 100%) for DSM-5.</p>
+                <table-wrap id="T1" orientation="portrait" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Demographic description of the retrieved cases of PTSD from the register</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                        <td align="left" valign="top" rowspan="1" colspan="1">N (%)</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="2">
+                          <bold>Total number of selected cases</bold>
+                        </td>
+                        <td align="char" char="." rowspan="1" colspan="1">200 (100)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="2">Number of accessible records that is, final sample</td>
+                        <td align="char" char="." rowspan="1" colspan="1">187 (94)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="3">
+                          <bold>Demographics of the final sample</bold>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Gender according to MR</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Men</td>
+                        <td align="char" char="." rowspan="1" colspan="1">68 (36)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Women</td>
+                        <td align="char" char="." rowspan="1" colspan="1">119 (64)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Migration status according to MR</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Swedish born</td>
+                        <td align="char" char="." rowspan="1" colspan="1">108 (58)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Foreign born</td>
+                        <td align="char" char="." rowspan="1" colspan="1">79 (42)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Psychosis according to notes in the MR</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Yes</td>
+                        <td align="char" char="." rowspan="1" colspan="1">16 (9)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                        <td align="left" valign="top" rowspan="1" colspan="1">No</td>
+                        <td align="char" char="." rowspan="1" colspan="1">171 (91)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="T1_FN1">
+                      <p>MRs, medical records; PTSD, post-traumatic stress disorder.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec id="s3-2">
+                <title>Validity of PTSD according to DSM-IV and DSM 5</title>
+                <p>Out of 187 patients, 84% (95% CI 79% to 90%) fulfilled the criteria of PTSD according to DSM-IV and 75% (95% CI 69% to 82%) of the patients qualified for a PTSD diagnosis according to DSM-5 (see <xref rid="T2" ref-type="table">table 2</xref>). There were 29 (for DSM-IV) and 46 (for DSM-5) false positive cases. Among the false positive cases, there were no transferring errors (ie, complete mistake with unrelated diagnoses miscoded as PTSD) as all cases had some symptoms relating to PTSD, but still did not fulfil the PTSD criteria.</p>
+                <table-wrap id="T2" orientation="portrait" position="float">
+                  <label>Table 2</label>
+                  <caption>
+                    <p>Validity, positive predictive value (ppv), of the PTSD-diagnoses in the register among the 187 accessible MRs and the additional test of validity counting cases with inadequate information on criteria C as true positives</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <td align="left" valign="bottom" rowspan="2" colspan="1">According to the 187 MRs</td>
+                        <td align="left" valign="bottom" rowspan="1" colspan="2">DSM-IV</td>
+                        <td align="left" valign="bottom" rowspan="1" colspan="2">DSM-5</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">N</td>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">ppv (95% CI)</td>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">N</td>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">ppv (95% CI)</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">True positive cases</td>
+                        <td align="char" char="." valign="top" rowspan="1" colspan="1">158</td>
+                        <td align="char" char="." valign="top" rowspan="1" colspan="1">84 (79 to 90)</td>
+                        <td align="char" char="." valign="top" rowspan="1" colspan="1">141</td>
+                        <td align="char" char="." valign="top" rowspan="1" colspan="1">75 (69 to 82)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Additional test of validity</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">True positive cases</td>
+                        <td align="char" char="." valign="top" rowspan="1" colspan="1">168</td>
+                        <td align="char" char="." valign="top" rowspan="1" colspan="1">90 (86 to 94)</td>
+                        <td align="char" char="." valign="top" rowspan="1" colspan="1">154</td>
+                        <td align="char" char="." valign="top" rowspan="1" colspan="1">82 (77 to 88)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="T2_FN1">
+                      <p>DSM, <italic>Diagnostic and Statistical Manual of Mental Disorders</italic>; MRs, medical records; PTSD, post-traumatic stress disorder.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <p>The false positive cases were primarily due to two reasons. Either not fulfilling the central criteria of being exposed to a trauma specific event (criteria A) or not describing any signs of avoidance, criteria C. According to the DSM-IV criteria A was fulfilled 93% of the times and 92% the DSM-5. Regarding criteria C, 88% fulfilled the DSM-IV, and 84% the DSM-5 fulfilled criteria C. For more information on the per cent of the cases fulfilling each specific PTSD criteria in detail, see <xref ref-type="supplementary-material" rid="SP1">online supplementary appendix A</xref>. In the additional test of validity test criteria C was calculated as fulfilled each time it was not specifically described as not to be fulfilled. When counting validity according to the additional test of validity test the validity of the PTSD-diagnosis was 90% (95% CI 86% to 94%) for DSM-IV and, 82% (95% CI 77% to 88%) for DSM-5. There were no significant differences in terms of validity by gender, migration status and psychosis according to notes in the MR (see <xref rid="T3" ref-type="table">table 3</xref>).</p>
+                <supplementary-material content-type="local-data" id="SP1">
+                  <object-id pub-id-type="doi">10.1136/bmjopen-2019-031964.supp1</object-id>
+                  <label>Supplementary data</label>
+                  <p>
+                    <inline-supplementary-material id="SS1" xlink:href="bmjopen-2019-031964supp001.pdf" mime-subtype="pdf" mimetype="application" content-type="local-data"/>
+                  </p>
+                </supplementary-material>
+                <table-wrap id="T3" orientation="portrait" position="float">
+                  <label>Table 3</label>
+                  <caption>
+                    <p>Validity, positive predictive value (ppv), of the PTSD-diagnoses in the register according to accessible MRs by gender, migration status and psychosis according to notes in MR for DSM-IV and DSM-5 and p value for the differences using χ<sup>2</sup> or Fishers exact test</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <td align="left" valign="top" rowspan="2" colspan="1"/>
+                        <td align="left" valign="top" rowspan="1" colspan="2">DSM-IV</td>
+                        <td align="left" valign="top" rowspan="1" colspan="2">DSM-5</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">ppv (95% CI)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">P value</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">ppv (95% CI)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">P value</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="3">Gender according to MR</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> Men</td>
+                        <td align="char" char="." rowspan="1" colspan="1">87 (79 to 95)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">χ<sup>2</sup> test</td>
+                        <td align="char" char="." rowspan="1" colspan="1">78 (68 to 88)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">χ<sup>2</sup> test</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> Women</td>
+                        <td align="char" char="." rowspan="1" colspan="1">83 (76 to 90)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.5163</td>
+                        <td align="char" char="." rowspan="1" colspan="1">74 (66 to 82)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.5421</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="3">Migration status according to MR</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> Swedish born</td>
+                        <td align="char" char="." rowspan="1" colspan="1">82 (74 to 91)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">χ<sup>2</sup> test</td>
+                        <td align="char" char="." rowspan="1" colspan="1">72 (62 to 82)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">χ<sup>2</sup> test</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> Foreign born</td>
+                        <td align="char" char="." rowspan="1" colspan="1">86 (79 to 93)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.4745</td>
+                        <td align="char" char="." rowspan="1" colspan="1">78 (70 to 86)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.3776</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="3">Psychosis according to notes in MR</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                        <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> Yes</td>
+                        <td align="char" char="." rowspan="1" colspan="1">94 (82 to 100)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Fisher’s exact test</td>
+                        <td align="char" char="." rowspan="1" colspan="1">88 (71 to 100)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Fisher’s exact test</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1"> No</td>
+                        <td align="char" char="." rowspan="1" colspan="1">84 (78 to 89)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.4737</td>
+                        <td align="char" char="." rowspan="1" colspan="1">74 (68 to 81)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">0.3648</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="T3_FN1">
+                      <p>DSM, <italic>Diagnostic and Statistical Manual of Mental Disorders</italic>; MRs, medical records; PTSD, post-traumatic stress disorder.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="s4">
+              <title>Discussion</title>
+              <p>In this study, the first to assess the validity of PTSD-diagnoses in a Swedish population-based register, the hypothesised sufficient validity of the PTSD-diagnoses was confirmed because the ppv of the diagnoses were between 75% and 90%. Although the point-estimates for DSM-IV was higher than for DSM-5 the hypothesis that it would be a significant difference in validity between DSM-IV and DSM-5 was not confirmed. There were neither any significant validity differences between men and women, Swedish born and migrants, nor for those with and without psychosis according to notes in the MR.</p>
+              <p>A strength of the study is that the sample of persons with a PTSD diagnosis was randomly selected from the comprehensive register of the Stockholm country council representing four major psychiatric treatment centres with an almost complete coverage and mixed urban populations, and this limits sampling bias. Another strength is that the clinicians reviewing MRs had a high coherence. A limiting factor with the method of validating diagnosis by reviewing MRs is a risk of misinterpretation when reading the case notes of other medical professionals. The ultimate gold standard of validation is always clinical interviews; however, using MRs is a standard method that as the data are more easily available, more cost effective and less intrusive for patients.</p>
+              <p>Criteria C for DSM-IV (‘Persistent avoidance of stimuli associated with the trauma and numbing of general responsiveness’), and criteria D for DSM-5 (‘Negative thoughts or feelings that began or worsened after the trauma’) were considered to be non-stringent by the medical doctors reading the MRs as there is a risk of mistaking these symptoms for a symptom of a depressive state or vice-versa. The Stockholm population is an urban population, hence, there might be specific rural aspects of PTSD that are not taken into account. It is also important to note that these are clinical cases; hence, using PTSD in the register only accounts for clinical cases of PTSD and will by definition miss patients who do have PTSD but does not present in the healthcare system. Another weakness was that the migrant status was defined according to birthplace classified according to the MRs, and not according to a population data base were all places of births are recorded. Most MRs are very detailed in terms of background information however there might be instances were a migration background is not mentioned.</p>
+              <p>Just like the smaller Danish validation study<xref rid="R13" ref-type="bibr">13</xref> from 2015 testing the validity of PTSD defined according ICD-10<xref rid="R12" ref-type="bibr">12</xref> we found a sufficient validity of the PTSD diagnoses. The accuracy we found for DSM-IV (84%) was similar to that of the Danish study (83%) but a little bit lower for DSM-5 (75%), which is perhaps not surprising as it had only just been started to be used in the time frame of our investigation. However, a validation study from the USA including 4777 veterans comparing Department of Veterans Affairs administrative data with the self-assessment questioner PTSD Checklist had the same validity as our results as when diagnosed using DSM-5 (75%).<xref rid="R15" ref-type="bibr">15</xref> In DSM-5 the American Psychiatric Association updated the diagnostic criteria for PTSD. The key changes between DSM-IV and DSM-5 are that the trauma criterion is different and that feelings such as intense fear, hopelessness, or horror, are removed from DSM-5.<xref rid="R16" ref-type="bibr">16</xref> Another change is that one criterion was made into two; one avoidance criteria and one criterion for negative alterations in cognitions and mood. This put more emphasis on avoidance symptoms in the DSM-5 version. Two criterion have also been added, one regarding negative thoughts or feelings and one regarding trauma-related arousal and reactivity, requiring that they began or worsened after the trauma. The validity differences in our study between DSM-IV and DSM-5 were small and not statistically significant and are possibly associated with the altered criteria in DSM-5. A study in the US shows that the changes in the diagnostic criteria for PTSD in the DSM from IV to 5 have had a minimal impact on prevalence.<xref rid="R16" ref-type="bibr">16</xref> Still, the national PTSD prevalence estimates in the USA have been slightly lower (ca 1%), for both lifetime, and past 12-month PTSD when using DSM-5 as compared with DSM-IV.<xref rid="R16" ref-type="bibr">16</xref> In the same study, the differences between DSM-IV and DSM-5 seem to be due to the exclusion of the ‘sudden unexpected death of a loved one’ as criteria for trauma in the DSM-5 and that DSM-5 is more explicit regarding the avoidance criteria.<xref rid="R16" ref-type="bibr">16</xref> The altered trauma criteria and the more explicit avoidance criteria seems to make the greatest difference between DSM-IV and DSM-5 in our study too.</p>
+              <p>This study has found that the validity of the PTSD diagnoses in the healthcare registers of the Region of Stockholm is sufficient for epidemiological research. The register can be used for population-based register studies of PTSD for men and women, Swedish born and migrants and person with and without psychosis according to notes in the MR and studies generated from its use have the potential to greatly improve understanding of the prevalence and incidence of PTSD and risk factors of the diagnosis.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <supplementary-material content-type="local-data" id="d35e236">
+                <caption>
+                  <title>Reviewer comments</title>
+                </caption>
+                <media mimetype="application" mime-subtype="pdf" xlink:href="bmjopen-2019-031964.reviewer_comments.pdf"/>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="d35e237">
+                <caption>
+                  <title>Author's manuscript</title>
+                </caption>
+                <media mimetype="application" mime-subtype="pdf" xlink:href="bmjopen-2019-031964.draft_revisions.pdf"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>We are grateful of the heads of the local specialist psychiatric treatment centres that gave permission to use the MRs from their centres in this study. We are grateful of the help of Filip Arnberg, associate professor, lic. clin psychologist, who provided valuable knowledge of the available screening instruments for detecting PTSD.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="other">
+                <p><bold>Contributors:</bold> A-CH and CD conceived the study. A-CH and CD obtained funding. A-CH, CD and SW designed the study. A-CH, CD and SW acquired the data. A-CH and SW prepared the data. KA and CE performed the comparison of the diagnoses and the MR. EAH supervised KA and CL-E regarding diagnoses accuracy. KA, CL-E, A-CH and SW conducted the statistical analyses. ACH drafted the data tables. All interpreted statistical analyses. ACH wrote the manuscript. All authors critically revised the paper for important intellectual content and approved the final version.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Funding:</bold> A-CH was supported by FORTE (dnr 2016-00870). CD is supported by the Swedish Research Council (grant number 5232010-1052). EAH receives support from the Swedish Research Council (VR) 2017-00957 the Lupina Foundation and the Oak Foundation (OCAY-18-442).</p>
+              </fn>
+              <fn fn-type="COI-statement">
+                <p><bold>Competing interests:</bold> None declared.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Patient and public involvement statement:</bold> No patients were involved in setting the research question or the outcome measures, nor were they involved in developing plans for design or implementation of the study. No patients were asked to advise on interpretation or writing up of results.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Patient consent for publication:</bold> Not required.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Ethics approval:</bold> The study was approved by the Regional Ethical Review Board in Stockholm (Dnr 2016/1537-32).</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Provenance and peer review:</bold> Not commissioned; externally peer reviewed.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Data availability statement:</bold> No data are available.</p>
+              </fn>
+            </fn-group>
+            <ref-list>
+              <title>References</title>
+              <ref id="R1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bisson</surname><given-names>JI</given-names></name>, <name name-style="western"><surname>Cosgrove</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Lewis</surname><given-names>C</given-names></name>, <etal>et al</etal></person-group><article-title>Post-Traumatic stress disorder</article-title>. <source>BMJ</source><year>2015</year>;<volume>351</volume>:<elocation-id>h6161</elocation-id><pub-id pub-id-type="doi">10.1136/bmj.h6161</pub-id><pub-id pub-id-type="pmid">26611143</pub-id></mixed-citation>
+              </ref>
+              <ref id="R2">
+                <label>2</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><collab>American Psychiatric Association,</collab>, <collab>American Psychiatric Association</collab></person-group><chapter-title>DSM-5 task force</chapter-title> : <source>Diagnostic and statistical manual of mental disorders: DSM-5. 5</source>. <publisher-loc>Arlington, Va</publisher-loc>: <publisher-name>American Psychiatric Association</publisher-name>, <year>2013</year>.</mixed-citation>
+              </ref>
+              <ref id="R3">
+                <label>3</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><collab>American Psychiatric Association,</collab>, <collab>American Psychiatric Association</collab></person-group><chapter-title>Task Force on DSM-IV</chapter-title> : <source>Diagnostic and statistical manual of mental disorders: DSM-IV-TR. 4</source>. <publisher-loc>Washington, DC</publisher-loc>: <publisher-name>American Psychiatric Association</publisher-name>, <year>2000</year>.</mixed-citation>
+              </ref>
+              <ref id="R4">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Dückers</surname><given-names>MLA</given-names></name>, <name name-style="western"><surname>Alisic</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Brewin</surname><given-names>CR</given-names></name></person-group><article-title>A vulnerability paradox in the cross-national prevalence of post-traumatic stress disorder</article-title>. <source>Br J Psychiatry</source><year>2016</year>;<volume>209</volume>:<fpage>300</fpage>–<lpage>5</lpage>. <pub-id pub-id-type="doi">10.1192/bjp.bp.115.176628</pub-id>
+<pub-id pub-id-type="pmid">27445357</pub-id></mixed-citation>
+              </ref>
+              <ref id="R5">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Burri</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Maercker</surname><given-names>A</given-names></name></person-group><article-title>Differences in prevalence rates of PTSD in various European countries explained by war exposure, other trauma and cultural value orientation</article-title>. <source>BMC Res Notes</source><year>2014</year>;<volume>7</volume>:<elocation-id>407</elocation-id><pub-id pub-id-type="doi">10.1186/1756-0500-7-407</pub-id><pub-id pub-id-type="pmid">24972489</pub-id></mixed-citation>
+              </ref>
+              <ref id="R6">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Seow</surname><given-names>LSE</given-names></name>, <name name-style="western"><surname>Ong</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Mahesh</surname><given-names>MV</given-names></name>, <etal>et al</etal></person-group><article-title>A systematic review on comorbid post-traumatic stress disorder in schizophrenia</article-title>. <source>Schizophr Res</source><year>2016</year>;<volume>176</volume>:<fpage>441</fpage>–<lpage>51</lpage>. <pub-id pub-id-type="doi">10.1016/j.schres.2016.05.004</pub-id>
+<pub-id pub-id-type="pmid">27230289</pub-id></mixed-citation>
+              </ref>
+              <ref id="R7">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Brand</surname><given-names>RM</given-names></name>, <name name-style="western"><surname>Rossell</surname><given-names>SL</given-names></name>, <name name-style="western"><surname>Bendall</surname><given-names>S</given-names></name>, <etal>et al</etal></person-group><article-title>Can we use an Interventionist-Causal paradigm to Untangle the relationship between trauma, PTSD and psychosis?</article-title><source>Front Psychol</source><year>2017</year>;<volume>8</volume>:<elocation-id>306</elocation-id><pub-id pub-id-type="doi">10.3389/fpsyg.2017.00306</pub-id><pub-id pub-id-type="pmid">28316580</pub-id></mixed-citation>
+              </ref>
+              <ref id="R8">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hollander</surname><given-names>A-C</given-names></name>, <name name-style="western"><surname>Dal</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Lewis</surname><given-names>G</given-names></name>, <etal>et al</etal></person-group><article-title>Refugee migration and risk of schizophrenia and other non-affective psychoses: cohort study of 1.3 million people in Sweden</article-title>. <source>BMJ</source><year>2016</year>;<volume>352</volume><pub-id pub-id-type="doi">10.1136/bmj.i1030</pub-id></mixed-citation>
+              </ref>
+              <ref id="R9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Schouten</surname><given-names>BC</given-names></name>, <name name-style="western"><surname>Meeuwesen</surname><given-names>L</given-names></name></person-group><article-title>Cultural differences in medical communication: a review of the literature</article-title>. <source>Patient Educ Couns</source><year>2006</year>;<volume>64</volume>:<fpage>21</fpage>–<lpage>34</lpage>. <pub-id pub-id-type="doi">10.1016/j.pec.2005.11.014</pub-id>
+<pub-id pub-id-type="pmid">16427760</pub-id></mixed-citation>
+              </ref>
+              <ref id="R10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Allebeck</surname><given-names>P</given-names></name></person-group><article-title>The use of population based registers in psychiatric research</article-title>. <source>Acta Psychiatr Scand</source><year>2009</year>;<volume>120</volume>:<fpage>386</fpage>–<lpage>91</lpage>. <pub-id pub-id-type="doi">10.1111/j.1600-0447.2009.01474.x</pub-id>
+<pub-id pub-id-type="pmid">19807720</pub-id></mixed-citation>
+              </ref>
+              <ref id="R11">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ludvigsson</surname><given-names>JF</given-names></name>, <name name-style="western"><surname>Andersson</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Ekbom</surname><given-names>A</given-names></name>, <etal>et al</etal></person-group><article-title>External review and validation of the Swedish national inpatient register</article-title>. <source>BMC Public Health</source><year>2011</year>;<volume>11</volume>:<elocation-id>450</elocation-id><pub-id pub-id-type="doi">10.1186/1471-2458-11-450</pub-id><pub-id pub-id-type="pmid">21658213</pub-id></mixed-citation>
+              </ref>
+              <ref id="R12">
+                <label>12</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><collab>World Health Organization</collab></person-group><source>International statistical classification of diseases and related health problems [Elektronisk resurs] : ICD-10</source>. <edition>2 edn</edition><publisher-loc>Geneva</publisher-loc>: <publisher-name>World Health Organization</publisher-name>, <year>2005</year>.</mixed-citation>
+              </ref>
+              <ref id="R13">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Svensson</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Lash</surname><given-names>TL</given-names></name>, <name name-style="western"><surname>Resick</surname><given-names>PA</given-names></name>, <etal>et al</etal></person-group><article-title>Validity of reaction to severe stress and adjustment disorder diagnoses in the Danish psychiatric central research registry</article-title>. <source>Clin Epidemiol</source><year>2015</year>;<volume>7</volume>:<fpage>235</fpage>–<lpage>42</lpage>. <pub-id pub-id-type="doi">10.2147/CLEP.S80514</pub-id>
+<pub-id pub-id-type="pmid">25870515</pub-id></mixed-citation>
+              </ref>
+              <ref id="R14">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Sheehan</surname><given-names>DV</given-names></name>, <name name-style="western"><surname>Lecrubier</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Sheehan</surname><given-names>KH</given-names></name>, <etal>et al</etal></person-group><article-title>The Mini-International neuropsychiatric interview (M.I.N.I.): the development and validation of a structured diagnostic psychiatric interview for DSM-IV and ICD-10</article-title>. <source>J Clin Psychiatry</source><year>1998</year>;<volume>59 Suppl 20</volume>:<fpage>22</fpage>–<lpage>33</lpage>. <comment>quiz 34-57</comment>.</mixed-citation>
+              </ref>
+              <ref id="R15">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Gravely</surname><given-names>AA</given-names></name>, <name name-style="western"><surname>Cutting</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Nugent</surname><given-names>S</given-names></name>, <etal>et al</etal></person-group><article-title>Validity of PTSD diagnoses in Va administrative data: comparison of Va administrative PTSD diagnoses to self-reported PTSD checklist scores</article-title>. <source>JRRD</source><year>2011</year>;<volume>48</volume>:<fpage>21</fpage>–<lpage>30</lpage>. <pub-id pub-id-type="doi">10.1682/JRRD.2009.08.0116</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="R16">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kilpatrick</surname><given-names>DG</given-names></name>, <name name-style="western"><surname>Resnick</surname><given-names>HS</given-names></name>, <name name-style="western"><surname>Milanak</surname><given-names>ME</given-names></name>, <etal>et al</etal></person-group><article-title>National estimates of exposure to traumatic events and PTSD prevalence using DSM-IV and DSM-5 criteria</article-title>. <source>J Trauma Stress</source><year>2013</year>;<volume>26</volume>:<fpage>537</fpage>–<lpage>47</lpage>. <pub-id pub-id-type="doi">10.1002/jts.21848</pub-id>
+<pub-id pub-id-type="pmid">24151000</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

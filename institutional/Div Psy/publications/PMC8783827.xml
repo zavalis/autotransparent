@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:01:28Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8783827" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8783827</identifier>
+        <datestamp>2022-02-04</datestamp>
+        <setSpec>bmjo</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="systematic-review">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMJ Open</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMJ Open</journal-id>
+              <journal-id journal-id-type="hwp">bmjopen</journal-id>
+              <journal-id journal-id-type="publisher-id">bmjopen</journal-id>
+              <journal-title-group>
+                <journal-title>BMJ Open</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2044-6055</issn>
+              <publisher>
+                <publisher-name>BMJ Publishing Group</publisher-name>
+                <publisher-loc>BMA House, Tavistock Square, London, WC1H 9JR</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8783827</article-id>
+              <article-id pub-id-type="pmcid">PMC8783827</article-id>
+              <article-id pub-id-type="pmc-uid">8783827</article-id>
+              <article-id pub-id-type="pmid">35058255</article-id>
+              <article-id pub-id-type="publisher-id">bmjopen-2020-048165</article-id>
+              <article-id pub-id-type="doi">10.1136/bmjopen-2020-048165</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Paediatrics</subject>
+                </subj-group>
+                <subj-group subj-group-type="hwp-journal-coll">
+                  <subject>1506</subject>
+                  <subject>1719</subject>
+                </subj-group>
+                <series-title>Protocol</series-title>
+              </article-categories>
+              <title-group>
+                <article-title>Unpacking the behavioural components and delivery features of early childhood obesity prevention interventions in the TOPCHILD Collaboration: a systematic review and intervention coding protocol</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="author-84030220" contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5492-9219</contrib-id>
+                  <name>
+                    <surname>Johnson</surname>
+                    <given-names>Brittany J</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib id="author-25031282" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-2796-9220</contrib-id>
+                  <name>
+                    <surname>Hunter</surname>
+                    <given-names>Kylie E</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib id="author-79311948" contrib-type="author">
+                  <name>
+                    <surname>Golley</surname>
+                    <given-names>Rebecca K</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib id="author-21300361" contrib-type="author">
+                  <name>
+                    <surname>Chadwick</surname>
+                    <given-names>Paul</given-names>
+                  </name>
+                  <xref rid="aff3" ref-type="aff">3</xref>
+                </contrib>
+                <contrib id="author-73058862" contrib-type="author">
+                  <name>
+                    <surname>Barba</surname>
+                    <given-names>Angie</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib id="author-84795704" contrib-type="author">
+                  <name>
+                    <surname>Aberoumand</surname>
+                    <given-names>Mason</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib id="author-84795763" contrib-type="author">
+                  <name>
+                    <surname>Libesman</surname>
+                    <given-names>Sol</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib id="author-25031318" contrib-type="author">
+                  <name>
+                    <surname>Askie</surname>
+                    <given-names>Lisa</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib id="author-20407011" contrib-type="author">
+                  <name>
+                    <surname>Taylor</surname>
+                    <given-names>Rachael W</given-names>
+                  </name>
+                  <xref rid="aff4" ref-type="aff">4</xref>
+                </contrib>
+                <contrib id="author-84795872" contrib-type="author">
+                  <name>
+                    <surname>Robledo</surname>
+                    <given-names>Kristy P</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib id="author-43428653" contrib-type="author">
+                  <name>
+                    <surname>Mihrshahi</surname>
+                    <given-names>Seema</given-names>
+                  </name>
+                  <xref rid="aff5" ref-type="aff">5</xref>
+                </contrib>
+                <contrib id="author-39934485" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-6836-122X</contrib-id>
+                  <name>
+                    <surname>O'Connor</surname>
+                    <given-names>Denise A</given-names>
+                  </name>
+                  <xref rid="aff6" ref-type="aff">6</xref>
+                  <xref rid="aff7" ref-type="aff">7</xref>
+                </contrib>
+                <contrib id="author-21820042" contrib-type="author">
+                  <name>
+                    <surname>Hayes</surname>
+                    <given-names>Alison J</given-names>
+                  </name>
+                  <xref rid="aff8" ref-type="aff">8</xref>
+                </contrib>
+                <contrib id="author-71933771" contrib-type="author">
+                  <name>
+                    <surname>Wolfenden</surname>
+                    <given-names>Luke</given-names>
+                  </name>
+                  <xref rid="aff9" ref-type="aff">9</xref>
+                </contrib>
+                <contrib id="author-84796226" contrib-type="author">
+                  <name>
+                    <surname>Wood</surname>
+                    <given-names>Charles T</given-names>
+                  </name>
+                  <xref rid="aff10" ref-type="aff">10</xref>
+                </contrib>
+                <contrib id="author-25821789" contrib-type="author">
+                  <name>
+                    <surname>Baur</surname>
+                    <given-names>Louise A</given-names>
+                  </name>
+                  <xref rid="aff11" ref-type="aff">11</xref>
+                </contrib>
+                <contrib id="author-27935662" contrib-type="author">
+                  <name>
+                    <surname>Rissel</surname>
+                    <given-names>Chris</given-names>
+                  </name>
+                  <xref rid="aff8" ref-type="aff">8</xref>
+                </contrib>
+                <contrib id="author-84796291" contrib-type="author">
+                  <name>
+                    <surname>Staub</surname>
+                    <given-names>Lukas P</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib id="author-84796317" contrib-type="author">
+                  <name>
+                    <surname>Taki</surname>
+                    <given-names>Sarah</given-names>
+                  </name>
+                  <xref rid="aff8" ref-type="aff">8</xref>
+                  <xref rid="aff12" ref-type="aff">12</xref>
+                </contrib>
+                <contrib id="author-84796358" contrib-type="author">
+                  <name>
+                    <surname>Smith</surname>
+                    <given-names>Wendy</given-names>
+                  </name>
+                  <xref rid="aff13" ref-type="aff">13</xref>
+                  <xref rid="aff14" ref-type="aff">14</xref>
+                </contrib>
+                <contrib id="author-84796422" contrib-type="author">
+                  <name>
+                    <surname>Sue-See</surname>
+                    <given-names>Michelle</given-names>
+                  </name>
+                  <xref rid="aff14" ref-type="aff">14</xref>
+                </contrib>
+                <contrib id="author-40800659" contrib-type="author">
+                  <name>
+                    <surname>Marschner</surname>
+                    <given-names>Ian C</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib id="author-81252718" contrib-type="author">
+                  <name>
+                    <surname>Espinoza</surname>
+                    <given-names>David</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib id="author-84796567" contrib-type="author">
+                  <name>
+                    <surname>Thomson</surname>
+                    <given-names>Jessica L</given-names>
+                  </name>
+                  <xref rid="aff15" ref-type="aff">15</xref>
+                </contrib>
+                <contrib id="author-45468829" contrib-type="author">
+                  <name>
+                    <surname>Larsen</surname>
+                    <given-names>Junilla K</given-names>
+                  </name>
+                  <xref rid="aff16" ref-type="aff">16</xref>
+                </contrib>
+                <contrib id="author-84796666" contrib-type="author">
+                  <name>
+                    <surname>Verbestel</surname>
+                    <given-names>Vera</given-names>
+                  </name>
+                  <xref rid="aff17" ref-type="aff">17</xref>
+                </contrib>
+                <contrib id="author-64158035" contrib-type="author">
+                  <name>
+                    <surname>Odar Stough</surname>
+                    <given-names>Cathleen</given-names>
+                  </name>
+                  <xref rid="aff18" ref-type="aff">18</xref>
+                </contrib>
+                <contrib id="author-84796772" contrib-type="author">
+                  <name>
+                    <surname>Salvy</surname>
+                    <given-names>Sarah-Jeanne</given-names>
+                  </name>
+                  <xref rid="aff19" ref-type="aff">19</xref>
+                </contrib>
+                <contrib id="author-70655440" contrib-type="author">
+                  <name>
+                    <surname>O'Reilly</surname>
+                    <given-names>Sharleen L</given-names>
+                  </name>
+                  <xref rid="aff20" ref-type="aff">20</xref>
+                </contrib>
+                <contrib id="author-84796872" contrib-type="author">
+                  <name>
+                    <surname>Karssen</surname>
+                    <given-names>Levie T</given-names>
+                  </name>
+                  <xref rid="aff16" ref-type="aff">16</xref>
+                </contrib>
+                <contrib id="author-84796899" contrib-type="author">
+                  <name>
+                    <surname>Rasmussen</surname>
+                    <given-names>Finn E</given-names>
+                  </name>
+                  <xref rid="aff21" ref-type="aff">21</xref>
+                </contrib>
+                <contrib id="author-84796926" contrib-type="author">
+                  <name>
+                    <surname>Messito</surname>
+                    <given-names>Mary Jo</given-names>
+                  </name>
+                  <xref rid="aff22" ref-type="aff">22</xref>
+                </contrib>
+                <contrib id="author-84796955" contrib-type="author">
+                  <name>
+                    <surname>Gross</surname>
+                    <given-names>Rachel S</given-names>
+                  </name>
+                  <xref rid="aff22" ref-type="aff">22</xref>
+                </contrib>
+                <contrib id="author-84231035" contrib-type="author">
+                  <name>
+                    <surname>Bryant</surname>
+                    <given-names>Maria</given-names>
+                  </name>
+                  <xref rid="aff23" ref-type="aff">23</xref>
+                </contrib>
+                <contrib id="author-84796988" contrib-type="author">
+                  <name>
+                    <surname>Paul</surname>
+                    <given-names>Ian M</given-names>
+                  </name>
+                  <xref rid="aff24" ref-type="aff">24</xref>
+                </contrib>
+                <contrib id="author-57409615" contrib-type="author">
+                  <name>
+                    <surname>Wen</surname>
+                    <given-names>Li Ming</given-names>
+                  </name>
+                  <xref rid="aff8" ref-type="aff">8</xref>
+                  <xref rid="aff12" ref-type="aff">12</xref>
+                </contrib>
+                <contrib id="author-35556370" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-2702-7110</contrib-id>
+                  <name>
+                    <surname>Hesketh</surname>
+                    <given-names>Kylie D</given-names>
+                  </name>
+                  <xref rid="aff25" ref-type="aff">25</xref>
+                </contrib>
+                <contrib id="author-73935577" contrib-type="author">
+                  <name>
+                    <surname>González Acero</surname>
+                    <given-names>Carolina</given-names>
+                  </name>
+                  <xref rid="aff26" ref-type="aff">26</xref>
+                </contrib>
+                <contrib id="author-26217475" contrib-type="author">
+                  <name>
+                    <surname>Campbell</surname>
+                    <given-names>Karen</given-names>
+                  </name>
+                  <xref rid="aff25" ref-type="aff">25</xref>
+                </contrib>
+                <contrib id="author-23598167" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-1871-041X</contrib-id>
+                  <name>
+                    <surname>Øverby</surname>
+                    <given-names>Nina Cecilie</given-names>
+                  </name>
+                  <xref rid="aff27" ref-type="aff">27</xref>
+                </contrib>
+                <contrib id="author-84797199" contrib-type="author">
+                  <name>
+                    <surname>Linares</surname>
+                    <given-names>Ana M</given-names>
+                  </name>
+                  <xref rid="aff28" ref-type="aff">28</xref>
+                </contrib>
+                <contrib id="author-49179242" contrib-type="author">
+                  <name>
+                    <surname>Wasser</surname>
+                    <given-names>Heather M</given-names>
+                  </name>
+                  <xref rid="aff29" ref-type="aff">29</xref>
+                </contrib>
+                <contrib id="author-65520146" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-1964-7579</contrib-id>
+                  <name>
+                    <surname>Joshipura</surname>
+                    <given-names>Kaumudi J</given-names>
+                  </name>
+                  <xref rid="aff30" ref-type="aff">30</xref>
+                  <xref rid="aff31" ref-type="aff">31</xref>
+                </contrib>
+                <contrib id="author-84797290" contrib-type="author">
+                  <name>
+                    <surname>Palacios</surname>
+                    <given-names>Cristina</given-names>
+                  </name>
+                  <xref rid="aff32" ref-type="aff">32</xref>
+                </contrib>
+                <contrib id="author-50680606" contrib-type="author">
+                  <name>
+                    <surname>Maffeis</surname>
+                    <given-names>Claudio</given-names>
+                  </name>
+                  <xref rid="aff33" ref-type="aff">33</xref>
+                </contrib>
+                <contrib id="author-68193112" contrib-type="author">
+                  <name>
+                    <surname>Thompson</surname>
+                    <given-names>Amanda L</given-names>
+                  </name>
+                  <xref rid="aff34" ref-type="aff">34</xref>
+                  <xref rid="aff35" ref-type="aff">35</xref>
+                </contrib>
+                <contrib id="author-38278211" contrib-type="author">
+                  <name>
+                    <surname>Ghaderi</surname>
+                    <given-names>Ata</given-names>
+                  </name>
+                  <xref rid="aff36" ref-type="aff">36</xref>
+                </contrib>
+                <contrib id="author-39789465" contrib-type="author">
+                  <name>
+                    <surname>Lakshman</surname>
+                    <given-names>Rajalakshmi</given-names>
+                  </name>
+                  <xref rid="aff37" ref-type="aff">37</xref>
+                </contrib>
+                <contrib id="author-65302896" contrib-type="author">
+                  <name>
+                    <surname>Banna</surname>
+                    <given-names>Jinan C</given-names>
+                  </name>
+                  <xref rid="aff38" ref-type="aff">38</xref>
+                </contrib>
+                <contrib id="author-20411114" contrib-type="author">
+                  <name>
+                    <surname>Oken</surname>
+                    <given-names>Emily</given-names>
+                  </name>
+                  <xref rid="aff39" ref-type="aff">39</xref>
+                </contrib>
+                <contrib id="author-53892850" contrib-type="author">
+                  <name>
+                    <surname>Campos Rivera</surname>
+                    <given-names>Maribel</given-names>
+                  </name>
+                  <xref rid="aff40" ref-type="aff">40</xref>
+                </contrib>
+                <contrib id="author-73935584" contrib-type="author">
+                  <name>
+                    <surname>Pérez-Expósito</surname>
+                    <given-names>Ana B</given-names>
+                  </name>
+                  <xref rid="aff41" ref-type="aff">41</xref>
+                </contrib>
+                <contrib id="author-25056718" contrib-type="author">
+                  <name>
+                    <surname>Taylor</surname>
+                    <given-names>Barry J</given-names>
+                  </name>
+                  <xref rid="aff42" ref-type="aff">42</xref>
+                </contrib>
+                <contrib id="author-49179200" contrib-type="author">
+                  <name>
+                    <surname>Savage</surname>
+                    <given-names>Jennifer S</given-names>
+                  </name>
+                  <xref rid="aff43" ref-type="aff">43</xref>
+                </contrib>
+                <contrib id="author-84797695" contrib-type="author">
+                  <name>
+                    <surname>Røed</surname>
+                    <given-names>Margrethe</given-names>
+                  </name>
+                  <xref rid="aff27" ref-type="aff">27</xref>
+                </contrib>
+                <contrib id="author-46839546" contrib-type="author">
+                  <name>
+                    <surname>Goran</surname>
+                    <given-names>Michael</given-names>
+                  </name>
+                  <xref rid="aff44" ref-type="aff">44</xref>
+                </contrib>
+                <contrib id="author-66732769" contrib-type="author">
+                  <name>
+                    <surname>de la Haye</surname>
+                    <given-names>Kayla</given-names>
+                  </name>
+                  <xref rid="aff44" ref-type="aff">44</xref>
+                </contrib>
+                <contrib id="author-66631207" contrib-type="author">
+                  <name>
+                    <surname>Anzman-Frasca</surname>
+                    <given-names>Stephanie</given-names>
+                  </name>
+                  <xref rid="aff45" ref-type="aff">45</xref>
+                </contrib>
+                <contrib id="author-58339515" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-0027-1623</contrib-id>
+                  <name>
+                    <surname>Seidler</surname>
+                    <given-names>Anna Lene</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <collab>the Transforming Obesity Prevention for CHILDren (TOPCHILD) Collaboration
+<contrib-group content-type="collaborators"><contrib contrib-type="collab"><name><surname>Seidler</surname><given-names>Anna Lene</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Hunter</surname><given-names>Kylie</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Johnson</surname><given-names>Brittany</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Golley</surname><given-names>Rebecca</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Askie</surname><given-names>Lisa</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Barba</surname><given-names>Angie</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Aberoumand</surname><given-names>Mason</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Libesman</surname><given-names>Sol</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Hayes</surname><given-names>Alison</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Wood</surname><given-names>Charles</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Rissel</surname><given-names>Chris</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Espinoza</surname><given-names>David</given-names></name></contrib><contrib contrib-type="collab"><name><surname>O’Connor</surname><given-names>Denise</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Marschner</surname><given-names>Ian</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Robledo</surname><given-names>Kristy</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Baur</surname><given-names>Louise</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Staub</surname><given-names>Lukas</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Wolfenden</surname><given-names>Luke</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Sue-See</surname><given-names>Michelle</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Chadwick</surname><given-names>Paul</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Taylor</surname><given-names>Rachael</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Taki</surname><given-names>Sarah</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Mihrshahi</surname><given-names>Seema</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Smith</surname><given-names>Wendy</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Yin</surname><given-names>Shonna</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Sanders</surname><given-names>Lee</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Karasz</surname><given-names>Alison</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Thompson</surname><given-names>Amanda</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Linares</surname><given-names>Ana Maria</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Exposito</surname><given-names>Ana Perez</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Ghaderi</surname><given-names>Ata</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Taylor</surname><given-names>Barry</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Acero</surname><given-names>Carolina González</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Stough</surname><given-names>Cathleen Odar</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Maffeis</surname><given-names>Claudio</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Palacios</surname><given-names>Cristina</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Helle</surname><given-names>Christine</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Perrin</surname><given-names>Eliana</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Oken</surname><given-names>Emily</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Corpeleijn</surname><given-names>Eva</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Rasmussen</surname><given-names>Finn</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Wasser</surname><given-names>Heather</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Raat</surname><given-names>Hein</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Paul</surname><given-names>Ian</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Savage</surname><given-names>Jennifer</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Thomson</surname><given-names>Jessica</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Banna</surname><given-names>Jinan</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Larsen</surname><given-names>Junilla</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Campbell</surname><given-names>Karen</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Joshipura</surname><given-names>Kaumudi</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Haye</surname><given-names>Kayla dela</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Ong</surname><given-names>Ken</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Hesketh</surname><given-names>Kylie</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Karssen</surname><given-names>Levie</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Wen</surname><given-names>Li Ming</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Daniels</surname><given-names>Lynne</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Røed</surname><given-names>Margrethe</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Bryant</surname><given-names>Maria</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Rivera</surname><given-names>Maribel Campos</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Messito</surname><given-names>Mary Jo</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Goran</surname><given-names>Michael</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Øverby</surname><given-names>Nina</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Taylor</surname><given-names>Rachael</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Gross</surname><given-names>Rachel</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Lakshman</surname><given-names>Rajalakshmi</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Rothman</surname><given-names>Russell</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Salvy</surname><given-names>Sarah-Jeanne</given-names></name></contrib><contrib contrib-type="collab"><name><surname>O’Reilly</surname><given-names>Sharleen</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Verbestel</surname><given-names>Vera</given-names></name></contrib><contrib contrib-type="collab"><name><surname>Anzman-Frasca</surname><given-names>Stephanie</given-names></name></contrib></contrib-group>
+</collab>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><label>1</label><institution content-type="department">Caring Fututures Institute, College of Nursing and Health Sciences</institution>, <institution>Flinders University</institution>, <addr-line content-type="city">Adelaide</addr-line>, <addr-line content-type="state">South Australia</addr-line>, <country>Australia</country></aff>
+              <aff id="aff2"><label>2</label><institution content-type="department">National Health and Medical Research Council Clinical Trials Centre</institution>, <institution>The University of Sydney</institution>, <addr-line content-type="city">Sydney</addr-line>, <addr-line content-type="state">New South Wales</addr-line>, <country>Australia</country></aff>
+              <aff id="aff3"><label>3</label><institution content-type="department">Centre for Behaviour Change</institution>, <institution>University College London</institution>, <addr-line content-type="city">London</addr-line>, <country>UK</country></aff>
+              <aff id="aff4"><label>4</label><institution content-type="department">Department of Medicine</institution>, <institution>University of Otago</institution>, <addr-line content-type="city">Dunedin</addr-line>, <country>New Zealand</country></aff>
+              <aff id="aff5"><label>5</label><institution content-type="department">Department of Health Systems and Populations, Faculty of Medicine, Health and Human Sciences</institution>, <institution>Macquarie University</institution>, <addr-line content-type="city">Sydney</addr-line>, <addr-line content-type="state">New South Wales</addr-line>, <country>Australia</country></aff>
+              <aff id="aff6"><label>6</label><institution content-type="department">Department of Epidemiology and Preventive Medicine, School of Public Health and Preventive Medicine</institution>, <institution>Monash University</institution>, <addr-line content-type="city">Melbourne</addr-line>, <addr-line content-type="state">Victoria</addr-line>, <country>Australia</country></aff>
+              <aff id="aff7"><label>7</label><institution content-type="department">Monash Department of Clinical Epidemiology</institution>, <institution>Cabrini Institute</institution>, <addr-line content-type="city">Malvern</addr-line>, <addr-line content-type="state">Victoria</addr-line>, <country>Australia</country></aff>
+              <aff id="aff8"><label>8</label><institution content-type="department">School of Public Health, Faculty of Medicine and Health</institution>, <institution>University of Sydney</institution>, <addr-line content-type="city">Sydney</addr-line>, <addr-line content-type="state">New South Wales</addr-line>, <country>Australia</country></aff>
+              <aff id="aff9"><label>9</label><institution content-type="department">School of Medicine and Public Health</institution>, <institution>University of Newcastle</institution>, <addr-line content-type="city">Newcastle</addr-line>, <addr-line content-type="state">New South Wales</addr-line>, <country>Australia</country></aff>
+              <aff id="aff10"><label>10</label><institution content-type="department">School of Medicine</institution>, <institution>Duke University</institution>, <addr-line content-type="city">Durham</addr-line>, <addr-line content-type="state">North Carolina</addr-line>, <country>USA</country></aff>
+              <aff id="aff11"><label>11</label><institution content-type="department">The Children's Hospital at Westmead Clinical School</institution>, <institution>University of Sydney</institution>, <addr-line content-type="city">Sydney</addr-line>, <addr-line content-type="state">New South Wales</addr-line>, <country>Australia</country></aff>
+              <aff id="aff12"><label>12</label><institution content-type="department">Population Health Research and Evaluation Hub</institution>, <institution>Sydney Local Health District</institution>, <addr-line content-type="city">Camperdown</addr-line>, <addr-line content-type="state">New South Wales</addr-line>, <country>Australia</country></aff>
+              <aff id="aff13"><label>13</label><institution>Canterbury Community Health Centre</institution>, <addr-line content-type="city">Campsie</addr-line>, <addr-line content-type="state">New South Wales</addr-line>, <country>Australia</country></aff>
+              <aff id="aff14"><label>14</label><institution>Consumer Representative</institution>, <addr-line content-type="city">Sydney</addr-line>, <addr-line content-type="state">New South Wales</addr-line>, <country>Australia</country></aff>
+              <aff id="aff15"><label>15</label><institution content-type="department">Agricultural Research Service</institution>, <institution>USDA</institution>, <addr-line content-type="city">Stoneville</addr-line>, <addr-line content-type="state">Mississippi</addr-line>, <country>USA</country></aff>
+              <aff id="aff16"><label>16</label><institution content-type="department">Behavioural Science Institute</institution>, <institution>Radboud Universiteit</institution>, <addr-line content-type="city">Nijmegen</addr-line>, <addr-line content-type="state">Gelderland</addr-line>, <country>The Netherlands</country></aff>
+              <aff id="aff17"><label>17</label><institution content-type="department">Department of Rehabilitation Sciences</institution>, <institution>Ghent University</institution>, <addr-line content-type="city">Ghent</addr-line>, <country>Belgium</country></aff>
+              <aff id="aff18"><label>18</label><institution content-type="department">Department of Psychology</institution>, <institution>University of Cincinnati Medical Center</institution>, <addr-line content-type="city">Cincinnati</addr-line>, <addr-line content-type="state">Ohio</addr-line>, <country>USA</country></aff>
+              <aff id="aff19"><label>19</label><institution content-type="department">Research Center for Health Equity</institution>, <institution>Cedars-Sinai Medical Center</institution>, <addr-line content-type="city">West Hollywood</addr-line>, <addr-line content-type="state">California</addr-line>, <country>USA</country></aff>
+              <aff id="aff20"><label>20</label><institution content-type="department">School of Agriculture and Food Science</institution>, <institution>University College Dublin</institution>, <addr-line content-type="city">Dublin</addr-line>, <country>Ireland</country></aff>
+              <aff id="aff21"><label>21</label><institution content-type="department">Department of Global Public Health</institution>, <institution>Karolinska Institute</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff22"><label>22</label><institution content-type="department">Grossman School of Medicine</institution>, <institution>New York University</institution>, <addr-line content-type="city">New York</addr-line>, <addr-line content-type="state">New York</addr-line>, <country>USA</country></aff>
+              <aff id="aff23"><label>23</label><institution content-type="department">Department of Health Sciences and the Hull York Medical School</institution>, <institution>University of York</institution>, <addr-line content-type="city">Heslington</addr-line>, <country>UK</country></aff>
+              <aff id="aff24"><label>24</label><institution content-type="department">College of Medicine</institution>, <institution>Penn State</institution>, <addr-line content-type="city">Hershey</addr-line>, <addr-line content-type="state">Pennsylvania</addr-line>, <country>USA</country></aff>
+              <aff id="aff25"><label>25</label><institution content-type="department">Institute for Physical Activity and Nutrition</institution>, <institution>Deakin University</institution>, <addr-line content-type="city">Geelong</addr-line>, <addr-line content-type="state">Victoria</addr-line>, <country>Australia</country></aff>
+              <aff id="aff26"><label>26</label><institution content-type="department">Office of Strategic Planning and Development Effectiveness</institution>, <institution>Inter- American Development Bank</institution>, <addr-line content-type="city">Santo Domingo</addr-line>, <country>Dominican Republic</country></aff>
+              <aff id="aff27"><label>27</label><institution content-type="department">Faculty of Health and Sport Sciences, Department of Nutrition and Public Health</institution>, <institution>University of Agder</institution>, <addr-line content-type="city">Kristiansand</addr-line>, <country>Norway</country></aff>
+              <aff id="aff28"><label>28</label><institution content-type="department">College of Nursing</institution>, <institution>University of Kentucky</institution>, <addr-line content-type="city">Lexington</addr-line>, <addr-line content-type="state">Kentucky</addr-line>, <country>USA</country></aff>
+              <aff id="aff29"><label>29</label><institution content-type="department">Department of Nutrition</institution>, <institution>University of North Carolina at Chapel Hill</institution>, <addr-line content-type="city">Chapel Hill</addr-line>, <addr-line content-type="state">North Carolina</addr-line>, <country>USA</country></aff>
+              <aff id="aff30"><label>30</label><institution content-type="department">Center for Clinical Research and Health Promotion</institution>, <institution>University of Puerto Rico School of Medicine</institution>, <addr-line content-type="city">San Juan</addr-line>, <country>Puerto Rico</country></aff>
+              <aff id="aff31"><label>31</label><institution content-type="department">Department of Epidemiology</institution>, <institution>Harvard T.H. Chan School of Public Health</institution>, <addr-line content-type="city">Boston</addr-line>, <addr-line content-type="state">Massachusetts</addr-line>, <country>USA</country></aff>
+              <aff id="aff32"><label>32</label><institution content-type="department">Department of Dietetics and Nutrition, Robert Stempel College of Public Health and Social Work</institution>, <institution>Florida International University</institution>, <addr-line content-type="city">Miami</addr-line>, <addr-line content-type="state">Florida</addr-line>, <country>USA</country></aff>
+              <aff id="aff33"><label>33</label><institution content-type="department">Pediatric Diabetes and Metabolic Disorders Unit</institution>, <institution>Universita degli Studi di Verona</institution>, <addr-line content-type="city">Verona</addr-line>, <country>Italy</country></aff>
+              <aff id="aff34"><label>34</label><institution content-type="department">Department of Nutrition</institution>, <institution>University of North Carolina at Chapel Hill</institution>, <addr-line content-type="city">Chapel Hill</addr-line>, <country>UK</country></aff>
+              <aff id="aff35"><label>35</label><institution content-type="department">Department of Anthropology</institution>, <institution>University of North Carolina at Chapel Hill</institution>, <addr-line content-type="city">Chapel Hill</addr-line>, <addr-line content-type="state">North Carolina</addr-line>, <country>USA</country></aff>
+              <aff id="aff36"><label>36</label><institution content-type="department">Department of Clinical Neuroscience</institution>, <institution>Karolinska Institutet</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff37"><label>37</label><institution content-type="department">Medical Research Council Epidemiology Unit</institution>, <institution>University of Cambridge</institution>, <addr-line content-type="city">Cambridge</addr-line>, <country>UK</country></aff>
+              <aff id="aff38"><label>38</label><institution content-type="department">Human Nutrition, Food and Animal Sciences</institution>, <institution>University of Hawaii System</institution>, <addr-line content-type="city">Honolulu</addr-line>, <addr-line content-type="state">Hawaii</addr-line>, <country>USA</country></aff>
+              <aff id="aff39"><label>39</label><institution content-type="department">Division of Chronic Disease Research Across the Lifecourse, Department of Population Medicine</institution>, <institution>Harvard Medical School and Harvard Pilgrim Health Care</institution>, <addr-line content-type="city">Boston</addr-line>, <addr-line content-type="state">Massachusetts</addr-line>, <country>USA</country></aff>
+              <aff id="aff40"><label>40</label><institution content-type="department">Medical Sciences Campus</institution>, <institution>University of Puetro Rico</institution>, <addr-line content-type="city">San Juan</addr-line>, <country>Puerto Rico</country></aff>
+              <aff id="aff41"><label>41</label><institution content-type="department">Office of Strategic Planning and Development Effectiveness</institution>, <institution>Inter- American Development Bank</institution>, <addr-line content-type="city">Washington DC</addr-line>, <addr-line content-type="state">District of Columbia</addr-line>, <country>USA</country></aff>
+              <aff id="aff42"><label>42</label><institution content-type="department">Better Start National Science Challenge</institution>, <institution>University of Otago</institution>, <addr-line content-type="city">Dunedin</addr-line>, <country>New Zealand</country></aff>
+              <aff id="aff43"><label>43</label><institution content-type="department">Department of Nutritional Sciences and Center for Childhood Obesity Research</institution>, <institution>Pennsylvania State University</institution>, <addr-line content-type="city">University Park</addr-line>, <addr-line content-type="state">Pennsylvania</addr-line>, <country>USA</country></aff>
+              <aff id="aff44"><label>44</label><institution content-type="department">Department of Preventive Medicine</institution>, <institution>University of Southern California</institution>, <addr-line content-type="city">Los Angeles</addr-line>, <addr-line content-type="state">California</addr-line>, <country>USA</country></aff>
+              <aff id="aff45"><label>45</label><institution content-type="department">Department of Pediatrics, Jacobs School of Medicine and Biomedical Sciences</institution>, <institution>University at Buffalo</institution>, <addr-line content-type="city">Buffalo</addr-line>, <addr-line content-type="state">New York</addr-line>, <country>USA</country></aff>
+              <author-notes>
+                <corresp><label>Correspondence to</label> Dr Brittany J Johnson; <email>brittany.johnson@flinders.edu.au</email>
+</corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>20</day>
+                <month>1</month>
+                <year>2022</year>
+              </pub-date>
+              <volume>12</volume>
+              <issue>1</issue>
+              <elocation-id>e048165</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>18</day>
+                  <month>12</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>28</day>
+                  <month>10</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© Author(s) (or their employer(s)) 2022. Re-use permitted under CC BY-NC. No commercial re-use. See rights and permissions. Published by BMJ.</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <ali:free_to_read/>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbynclicense" start_date="2022-01-20">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref>
+                  <license-p>This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non-commercial. See: <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:title="pdf" xlink:href="bmjopen-2020-048165.pdf"/>
+              <self-uri content-type="reviewers-comments-pdf" xlink:href="bmjopen-2020-048165.reviewer_comments.pdf"/>
+              <self-uri content-type="draft-revisions-pdf" xlink:href="bmjopen-2020-048165.draft_revisions.pdf"/>
+              <related-article related-article-type="companion" ext-link-type="doi" id="RA1" xlink:href="10.1136/bmjopen-2020-048166"/>
+              <abstract>
+                <sec>
+                  <title>Introduction</title>
+                  <p>Little is known about how early (eg, commencing antenatally or in the first 12 months after birth) obesity prevention interventions seek to change behaviour and which components are or are not effective. This study aims to (1) characterise early obesity prevention interventions in terms of target behaviours, delivery features and behaviour change techniques (BCTs), (2) explore similarities and differences in BCTs used to target behaviours and (3) explore effectiveness of intervention components in preventing childhood obesity.</p>
+                </sec>
+                <sec>
+                  <title>Methods and analysis</title>
+                  <p>Annual comprehensive systematic searches will be performed in Epub Ahead of Print/MEDLINE, Embase, Cochrane (CENTRAL), CINAHL, PsycINFO, as well as clinical trial registries. Eligible randomised controlled trials of behavioural interventions to prevent childhood obesity commencing antenatally or in the first year after birth will be invited to join the Transforming Obesity in CHILDren Collaboration. Standard ontologies will be used to code target behaviours, delivery features and BCTs in both published and unpublished intervention materials provided by trialists. Narrative syntheses will be performed to summarise intervention components and compare applied BCTs by types of target behaviours. Exploratory analyses will be undertaken to assess effectiveness of intervention components.</p>
+                </sec>
+                <sec>
+                  <title>Ethics and dissemination</title>
+                  <p>The study has been approved by The University of Sydney Human Research Ethics Committee (project no. 2020/273) and Flinders University Social and Behavioural Research Ethics Committee (project no. HREC CIA2133-1). The study’s findings will be disseminated through peer-reviewed publications, conference presentations and targeted communication with key stakeholders.</p>
+                </sec>
+                <sec>
+                  <title>PROSPERO registration number</title>
+                  <p>CRD42020177408.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>paediatrics</kwd>
+                <kwd>community child health</kwd>
+                <kwd>preventive medicine</kwd>
+                <kwd>public health</kwd>
+              </kwd-group>
+              <funding-group specific-use="FundRef">
+                <award-group id="funding-1">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100000925</institution-id>
+                      <institution>National Health and Medical Research Council</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>1186363</award-id>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>special-feature</meta-name>
+                  <meta-value>unlocked</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <boxed-text id="BX1" position="float">
+              <caption>
+                <title>Strengths and limitations of this study</title>
+              </caption>
+              <list list-type="bullet">
+                <list-item>
+                  <p>This will be the most comprehensive examination of the target behaviours, behaviour change techniques and delivery features used in early childhood obesity prevention trials.</p>
+                </list-item>
+                <list-item>
+                  <p>Extends previous methods by coding behaviour change techniques in published and unpublished intervention materials and performing cross validation with trial investigators.</p>
+                </list-item>
+                <list-item>
+                  <p>We will use standardised coding taxonomies and pilot test new ontologies from the Human Behaviour Change Project.</p>
+                </list-item>
+                <list-item>
+                  <p>Examination of behaviour change technique effectiveness will be limited to exploratory analysis.</p>
+                </list-item>
+                <list-item>
+                  <p>It may not be possible to obtain unpublished intervention materials from all eligible trials, however, we may perform sensitivity analyses coding only published materials.</p>
+                </list-item>
+              </list>
+            </boxed-text>
+            <sec sec-type="intro" id="s1">
+              <title>Introduction</title>
+              <p>Childhood overweight and obesity are a global concern, with 2019 estimates indicating that 38 million children under the age of 5 years are affected.<xref rid="R1" ref-type="bibr">1</xref> Increasing rates of overweight and obesity have been observed in young children in low-income and middle-income countries, highlighting this widespread issue and the overlap of undernutrition and obesity as a double burden for public health systems.<xref rid="R2" ref-type="bibr">2 3</xref> The causes of childhood obesity are multifaceted, including genetic, epigenetic, environmental, social and behavioural factors.<xref rid="R4" ref-type="bibr">4</xref> Many suggest that obesity prevention should start early in life, if not prenatally or prior to conception, to establish healthy behavioural patterns in young children and avoid metabolic programming that will continue across the life course.<xref rid="R5" ref-type="bibr">5 6</xref>
+</p>
+              <p>Parents and caregivers play a key role in shaping children’s developmental environment and behaviours, particularly in the first year after birth when children are dependent on their parents’ and caregivers’ guidance.<xref rid="R7" ref-type="bibr">7 8</xref> While infant behavioural outcomes are the focus for early obesity prevention, parents and caregivers are the key agents of change.<xref rid="R8" ref-type="bibr">8</xref> Parents and caregivers should be supported to obtain the knowledge and acquired behaviour to act in ways that provide infants with home environments to develop optimal energy-balance related behaviours, resulting in favourable infant feeding, dietary intake, physical activity, sedentary behaviour and sleep.</p>
+              <p>Trials commencing antenatally or in the first 12 months after birth are from here on referred to as early obesity prevention interventions. Many of the first of such complex trials began in 2006–2009.<xref rid="R9" ref-type="bibr">9–15</xref> These trials aimed to modify several parent behaviours known to be associated with infant obesity risk. Since the first trials, the number of early obesity prevention interventions has grown substantially, providing an extensive evidence base to inform how we seek to prevent the global issue of childhood obesity. This evidence base continues to grow as more early obesity prevention interventions are developed and tested.<xref rid="R16" ref-type="bibr">16</xref> Interventions published to date, vary in their effectiveness to reduce childhood obesity and energy-balance-related behaviours.<xref rid="R7" ref-type="bibr">7 16–18</xref> A potential source of variation in intervention effectiveness may be the components of the interventions.</p>
+              <p>Intervention components can differ, such as behaviours targeted, delivery features (eg, mode, setting) and behaviour change techniques (BCTs). Little is known about which components are included in early obesity prevention interventions seeking to change behaviour, and which of those included specific components are and are not effective.<xref rid="R19" ref-type="bibr">19</xref> Interventions designed to modify the trajectory of a young child’s growth trajectory are hypothesised to exert their effect by changing parental behaviours that influence children’s energy balance. Traditionally, the different components of behaviour change interventions are underspecified in published reports contributing to a poor understanding of the ways in which effective interventions have their impact (ie, the ‘black box’ problem).<xref rid="R19" ref-type="bibr">19</xref> This limits the ability of researchers and practitioners to optimise, implement and scale up effective interventions that are needed to prevent childhood obesity.<xref rid="R19" ref-type="bibr">19 20</xref> Exploring the extent to which the target behaviours, delivery features and BCTs differ between interventions may help to understand why some interventions work better than others.</p>
+              <p>Deconstructing interventions into their components can provide important information about the parental behaviours that were targeted for change, how an intervention was delivered (ie, delivery features), and the BCTs (ie, the smallest, measurable and reproducible behaviour change components)<xref rid="R21" ref-type="bibr">21</xref> used to change parents’ behaviour. Deconstructing interventions in this way is possible through the use of taxonomies and ontologies to systematically categorise various intervention components.<xref rid="R21" ref-type="bibr">21–23</xref> While there are several reporting checklists, taxonomies and ontologies available to describe behaviour change interventions, the BCT Taxonomy V.1 (BCTT V.1) to specify BCTs is one of the most commonly used, including examination of obesity-related interventions among adults.<xref rid="R24" ref-type="bibr">24–26</xref>
+</p>
+              <p>Researchers have explored BCTs in parent-focused interventions targeting child obesity-related behaviours, including infant feeding practices, dietary behaviours and physical activity patterns.<xref rid="R27" ref-type="bibr">27–31</xref> The proposed work builds on prior work by Martin <italic toggle="yes">et al</italic>
+<xref rid="R30" ref-type="bibr">30</xref> and Matvienko-Sikar <italic toggle="yes">et al</italic>
+<xref rid="R29" ref-type="bibr">29</xref> that identified components of interventions targeting obesity, focused on physical activity and eating, and infant feeding interventions (in 2–18 year old children and infants, respectively). The current project advances previous reviews by examining interventions commencing antenatally or within 1 year of birth, covering all obesity-relevant behaviours (relating to infant feeding, dietary intake, physical activity, sedentary behaviour, sleep), drawing on unpublished material describing interventions and using the most comprehensive (ie, BCTT V.1).<xref rid="R29" ref-type="bibr">29 30 32</xref> To date, no review has comprehensively explored the intervention components of early obesity prevention interventions across multiple behaviours or utilised unpublished intervention materials.</p>
+              <p>Members of our research team have previously applied a comprehensive approach to better understand factors contributing to the effectiveness of four early obesity prevention interventions undertaken in Australia and New Zealand.<xref rid="R33" ref-type="bibr">33</xref> The approach included analysing the content of interventions using descriptions of interventions in both published peer reviewed articles and unpublished materials (eg, participant manuals, telephone scripts, videos).<xref rid="R33" ref-type="bibr">33</xref> The number of BCTs identified from published materials only (1–11 BCTs per trial)<xref rid="R29" ref-type="bibr">29</xref> was much smaller than when including unpublished materials (13–25 BCTs per trial),<xref rid="R33" ref-type="bibr">33</xref> reinforcing the importance of analysing unpublished intervention materials to obtain a more accurate understanding of such interventions.<xref rid="R34" ref-type="bibr">34</xref> This prior work was limited to four trials in one geographical region and results may not be generalisable on a global level. Furthermore, small sample sizes hindered exploration of BCTs by the types of behaviours targeted. We propose extending this innovative approach to include all ongoing and completed trials in this field and analysing BCTs to address all relevant target behaviours in both published and unpublished intervention materials.</p>
+              <p>The current study will answer the following questions:</p>
+              <list list-type="order">
+                <list-item>
+                  <p>What are the targeted behaviours, delivery features and BCTs used in early obesity prevention interventions?</p>
+                </list-item>
+                <list-item>
+                  <p>What are the similarities and differences in BCTs used to target different behaviours?</p>
+                </list-item>
+                <list-item>
+                  <p>Are particular intervention components more effective at reducing obesity risk among children aged around 24 months (ie, body mass index (BMI) z-score) than others?</p>
+                </list-item>
+              </list>
+              <p>To address these questions, we will code intervention content and evaluate the effectiveness of components to prevent obesity.</p>
+            </sec>
+            <sec sec-type="methods" id="s2">
+              <title>Methods and analysis</title>
+              <p>The current project will complement our individual participant data meta-analysis assessing the effectiveness of early child obesity prevention interventions. <xref rid="R35" ref-type="bibr">35</xref> A systematic search has been used to identify trials eligible to join the Transforming Obesity in CHILDren (TOPCHILD) Collaboration (<ext-link xlink:href="www.topchildcollaboration.org" ext-link-type="uri">www.topchildcollaboration.org</ext-link>), and all eligible trials will be able to contribute to both the current review and the individual participant data meta-analysis. This protocol follows the Preferred Reporting Items for Systematic Reviews and Meta-Analyses protocols checklist (<xref rid="SP1" ref-type="supplementary-material">online supplemental file 1</xref>).<xref rid="R36" ref-type="bibr">36</xref>
+</p>
+              <supplementary-material id="SP1" position="float" content-type="local-data">
+                <object-id pub-id-type="doi">10.1136/bmjopen-2020-048165.supp1</object-id>
+                <label>Supplementary data</label>
+                <p>
+                  <inline-supplementary-material id="SS1" xlink:href="bmjopen-2020-048165supp001.pdf" content-type="local-data"/>
+                </p>
+              </supplementary-material>
+              <sec id="s2-1">
+                <title>Eligibility criteria</title>
+                <p>Trials will be included if they (1) are a randomised controlled trial for which randomisation can occur at the individual level or by cluster, including stepped-wedge designs; (2) involve parents/caregivers (including pregnant women) and their infant(s) aged 0–12 months at baseline; (3) are evaluating an intervention which continues beyond pregnancy, is child obesity prevention focused and includes at least one behavioural component related to parent feeding practices, early feeding, diet quality, activity/sedentary behaviour or sleep; (4) include a usual care control arm, no intervention or attentional control and (5) include at least one measure of child adiposity measured at the end of intervention (eg, BMI z-score, prevalence of overweight/obesity, skinfold thickness). Trials will be excluded if they focus solely on obesity in pregnancy, or include non-behavioural interventions (eg, <xref rid="SP1 SP2" ref-type="supplementary-material">online supplemental files</xref>). See our companion paper for further details. <xref rid="R35" ref-type="bibr">35</xref>
+</p>
+                <supplementary-material id="SP2" position="float" content-type="local-data">
+                  <object-id pub-id-type="doi">10.1136/bmjopen-2020-048165.supp2</object-id>
+                  <label>Supplementary data</label>
+                  <p>
+                    <inline-supplementary-material id="SS2" xlink:href="bmjopen-2020-048165supp002.pdf" content-type="local-data"/>
+                  </p>
+                </supplementary-material>
+              </sec>
+              <sec id="s2-2">
+                <title>Information sources and search strategy</title>
+                <p>Systematic searches will be conducted annually to identify eligible trials for the duration of the TOPCHILD Collaboration (currently funded until the end of 2023). An initial systematic search was performed on the 18 March 2020 in the following databases: Medline (Ovid), Embase (Ovid), Cochrane Central Register of Controlled Trials (CENTRAL), CINAHL (EBSCO), PsycINFO. No limits were placed on publication date or language. A search strategy for Medline is presented in <xref rid="SP2" ref-type="supplementary-material">online supplemental file 2</xref>.</p>
+                <p>We also searched ClinicalTrials.gov (24 March 2020) and other trial registries via the WHO’s International Clinical Trials Registry Platform (13 May 2020) search portal to identify planned and ongoing trials. A search strategy for WHO ICTRP is presented in online supplemental file 2. Additional trials will be identified by collaborators and contacts notifying the research team of any planned, ongoing or completed trials of which they are aware and will be screened for eligibility.</p>
+              </sec>
+              <sec id="s2-3">
+                <title>Selection process</title>
+                <p>Two reviewers will independently screen title/abstracts and full-text articles against the eligibility criteria, in Covidence systematic review software (Veritas Health Innovation, Melbourne Australia). Agreement between reviewers will be calculated as percent agreement for title/abstract and full text screening. Any disagreements will be resolved by discussion or consulting a third reviewer.</p>
+              </sec>
+              <sec id="s2-4">
+                <title>Data extraction and risk of bias</title>
+                <p>Eligible trials will be invited by email to nominate a representative/s to join the TOPCHILD Collaboration. Trial representatives (ie, trialists) will be contacted via email to share unpublished intervention materials for this current review, in English language where possible. Primary analyses will only include trials that have provided both published and unpublished intervention materials, allowing comprehensive intervention coding to be performed. If required, sensitivity analyses will be undertaken to compare intervention components using intervention descriptions reported in published materials of trials that have not shared intervention materials to address potential selection bias. Two reviewers will independently extract general trial characteristics (eg, author, publication date, intervention name, method of sequence generation and allocation concealment, geographical location, participants) and outcome measures, and record them in FileMaker (FileMaker Pro 18 Advanced; Claris International, Santa Clara, California, USA). Risk of bias will be assessed for the complementary review examining intervention effectiveness; however, is not required for the current study focused on describing the content of interventions.</p>
+              </sec>
+              <sec id="s2-5">
+                <title>Coding of target behaviours, delivery features and BCTs</title>
+                <p>Outcomes for which data will be sought are the discrete intervention components that will be coded by the study team, namely target behaviours, delivery features and BCTs. A standardised procedure will be followed to code intervention materials with a brief training session held to ensure all coders are familiar with the processes to assist consistency in coding target behaviours, delivery features and BCTs. All coders will have completed at minimum the University College London online training for the BCTT V.1 (<ext-link xlink:href="http://www.bct-taxonomy.com/" ext-link-type="uri">http://www.bct-taxonomy.com/</ext-link>) and, where possible, have experience in coding BCTs in past projects. All materials will be coded by two independent coders, when possible, exceptions may include when unpublished materials are only available in languages other than English. Agreement between coders will be calculated. Any discrepancies in coding will be resolved through discussion; or if no consensus is reached, a third coder will be consulted to reach consensus. The standardised procedure will be used whenever possible, however where unpublished materials are provided in languages other than English a modified procedure will be followed, such as using one coder fluent in the required language resulting in a subset of unpublished materials from a trial being coded once. If necessary, translation services will be sought to ensure the intervention components can be appropriately coded.</p>
+                <sec id="s2-5-1">
+                  <title>Target behaviours</title>
+                  <p>Target behaviours will be coded to capture the parental behaviour(s) addressed in each intervention. <xref rid="T1" ref-type="table">Table 1</xref> provides examples of behaviours that may be targeted in early obesity prevention interventions. Additional behaviours extracted from trials will be iteratively added to this prespecified list. Behaviours will be grouped into clusters of behavioural topics, and these may include infant feeding practices, food provision and parent feeding practices, movement practices and sleep health practices (<xref rid="T1" ref-type="table">table 1</xref>). While eligible interventions can commence antenatally, this study is focused on understanding the behavioural content relating to parental behaviours directed towards infants in the first 12–24 months after birth, rather than focusing on parents own health behaviours.</p>
+                  <table-wrap position="float" id="T1">
+                    <label>Table 1</label>
+                    <caption>
+                      <p>Examples of specific parental behaviours grouped into clusters of behavioural topics</p>
+                    </caption>
+                    <table frame="hsides" rules="groups">
+                      <thead>
+                        <tr>
+                          <td align="left" valign="bottom" rowspan="1" colspan="1">Target parental behaviour cluster</td>
+                          <td align="left" valign="bottom" rowspan="1" colspan="1">Example of specific parental behaviours</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Infant feeding practices</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Promoting and/or sustaining breastfeeding, including exclusive breastfeeding to 6 months of age.<break/>Feeding formula appropriately, if necessary (eg, making formula per package instructions, feeding in response to the infant’s hunger/satiety cues, feeling with suitable types of formula).<break/>Avoiding unnecessary overfeeding with breastmilk and supplementing with formula.<break/>Delaying introduction of solid foods (complementary feeding) until 6 months of age.</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="4" colspan="1">Food provision and parent feeding practices</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">
+                            <bold>Behaviours related to dietary intake:</bold>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Providing appropriate types of foods (eg, vegetables, meat and alternatives, fruits, whole grains, dairy)<break/>Providing age-appropriate portions of each food group (ie, portion sizes; incl. limiting portions of milk).<break/>Limiting provision of certain foods and drinks (eg, energy-dense, nutrient poor foods, sugar-sweetened beverages).</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">
+                            <bold>Behaviours related to feeding practices:</bold>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Offering foods repeatedly that have previously been rejected.<break/>Offering foods and drinks in response to infants’ hunger/satiety cues (eg, letting the infant decide how much they eat, not pressuring to eat).<break/>Avoiding use of food to control (or reward) the infant’s emotions, behaviour or consumption of other foods.<break/>Providing regular meal routines (incl. eating together, limiting distractions).</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="4" colspan="1">Movement practices</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">
+                            <bold>Behaviours related to physical activity:</bold>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Placing infant on their stomach for prone play (‘tummy time’).<break/>Promoting age appropriate physical activity such as active play, outdoor play, activities relating to fundamental movement skills.<break/>Providing toys that promote movement such as balls and toys on wheels.</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">
+                            <bold>Behaviours related to sedentary behaviour:</bold>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Limiting the amount of time the infant is restrained (eg, prams/strollers, high chairs, strapped on a caregivers back).<break/>Limiting the amount of time the infant is exposed to screens (eg, television, mobile devices).<break/>Providing alternatives to screen time.</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Sleep health practices</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Promoting regular sleep routine (eg, calm, quiet, soothing).<break/>Letting the infant settle back to sleep when stirring/crying during sleep cycle (eg, leaving the room, only picking up infant when awake).<break/>Promoting a positive sleep environment (eg, quiet, darkened, warm).<break/>Placing infant in cot/bassinet while awake and letting infant learn to fall asleep (eg, following infant’s signs of tiredness).<break/>Avoiding bed-sharing/co-sleeping (ie, sleeping with the infant in the same bed).<break/>Maximising day-night differences (eg, lights on and play in the day, lights off and sleep at night).</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </table-wrap>
+                </sec>
+                <sec id="s2-5-2">
+                  <title>Delivery features</title>
+                  <p>Delivery features refer to a broad number of intervention characteristics that relate to how an intervention is delivered. Delivery features will include items in the Template for Intervention Description and Replication (TIDieR) reporting checklist,<xref rid="R37" ref-type="bibr">37</xref> such as who conducted the intervention, how (mode of delivery), where (setting), when and how much (intensity), how well the intervention was delivered (fidelity), and if there were modifications made at the intervention level (<xref rid="T2" ref-type="table">table 2</xref>). Draft ontologies from the Human Behaviour Change Project<xref rid="R22" ref-type="bibr">22</xref> will be used to code the intervention setting (Intervention Setting Ontology), mode of delivery (Mode of Delivery Ontology) and source delivering the intervention (Intervention Source Ontology). Such ontologies provide a common language to describe and compare several delivery features across interventions. Delivery features that cannot be classified using existing checklists/ontologies will be added as additional categories.</p>
+                  <table-wrap position="float" id="T2">
+                    <label>Table 2</label>
+                    <caption>
+                      <p>Delivery features and corresponding Human Behaviour Change Project ontologies and project-developed categories based on the TIDieR framework</p>
+                    </caption>
+                    <table frame="hsides" rules="groups">
+                      <thead>
+                        <tr>
+                          <td align="left" valign="bottom" rowspan="1" colspan="1">Delivery features*</td>
+                          <td align="left" valign="bottom" rowspan="1" colspan="1">Example categories</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Why—theory: rational, theory or goal</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Theory name and/or factors identified as needing to change reported in intervention</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">What—materials: physical or informational materials, including provided to participants</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">DVD/video<break/>Written materials<break/>Newsletters<break/>PowerPoint slides<break/>Website<break/>Mobile application</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">What—procedures: Procedures, activities, processed used in the intervention</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Didactic sessions<break/>Group discussion<break/>Peer support</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Who provided—intervention delivered by: expertise, background and any specific training (for each intervention provider)</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Intervention source ontology:<break/>for example,<break/>Nursing professional<break/>Community health worker<break/>Dietician and Nutritionist</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">How—delivery mode:<break/>(includes delivery to individuals or groups)</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Mode of delivery ontology:<break/>for example,<break/>Face to face<break/>Letter<break/>Mobile digital device</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Where—intervention setting: location</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Intervention setting ontology:<break/>for example,<break/>Household residence<break/>Community healthcare facility</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">When and how much—intervention dose:</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Total no of contacts<break/>Frequency of contact: &lt;weekly, weekly to &lt;monthly; monthly or greater<break/>Duration of contact: brief, moderate, extended</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Tailoring:<break/>If the intervention was planned to be personalised, titrated or adapted at the participant level</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Yes—there was an element of tailoring in the intervention<break/>No<break/>Not described</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Modifications:<break/>If the intervention was modified during the study at the intervention level</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Yes—the intervention was modified<break/>No<break/>Not described</td>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Fidelity:<break/>Planned and actual</td>
+                          <td align="left" valign="top" rowspan="1" colspan="1">Fidelity of the intervention extracted as reported in the intervention</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table-wrap-foot>
+                      <fn id="T2_FN1">
+                        <p>*Adapted from Hoffmann <italic toggle="yes">et al.</italic>
+<xref rid="R37" ref-type="bibr">37</xref>
+</p>
+                      </fn>
+                      <fn id="T2_FN2">
+                        <p>TIDieR, Template for Intervention Description and Replication.</p>
+                      </fn>
+                    </table-wrap-foot>
+                  </table-wrap>
+                </sec>
+                <sec id="s2-5-3">
+                  <title>Behaviour change techniques</title>
+                  <p>BCTs will be coded using the BCTT V.1.<xref rid="R21" ref-type="bibr">21</xref> This taxonomy was developed through a consensus process with experts from a range of disciplines from several countries, and selected for the current study as a multidisciplinary standardised language to categorise intervention content.<xref rid="R21" ref-type="bibr">21</xref> Standard coding procedures will be followed, for example, the whole intervention description will be read before coding.<xref rid="R2" ref-type="bibr">2</xref> BCTs that are clearly present in the intervention from the description provided will be coded as ‘Yes’, and BCTs that are likely present but with insufficient evidence will be coded as ‘Maybe’.<xref rid="R38" ref-type="bibr">38 39</xref> To be coded as ‘Yes’ the BCTs are required to target parents (ie, target population) and a parental behaviour related to the target behavioural clusters as described in <xref rid="T1" ref-type="table">table 1</xref>. Due to the complex number of different target behaviours across eligible trials and the scope of this project, BCTs will be coded to the target behaviour cluster rather than each individual target behaviour. Each BCT identified will be coded to the relevant target behaviour cluster/s when there is sufficient detail to separate content in this way. When this is not possible BCTs will be coded to ‘unspecified behavioural cluster’. Intervention content will be coded from both published (eg, protocols, main results and follow-up publications) and unpublished intervention materials (eg, participant manuals, telephone scripts, videos). Access to unpublished materials is important to understand details of an intervention and allow coding of additional BCTs not reported in published descriptions.<xref rid="R19" ref-type="bibr">19 34</xref> Control arms will also be coded for the presence of BCTs relevant to the target population and behaviours, and only BCTs unique to the intervention arm will be used in the results synthesis.<xref rid="R20" ref-type="bibr">20</xref> Two trained coders will perform and record coding in Microsoft Excel. Agreement of initial coding between coders will be calculated by kappa and prevalence-adjusted bias-adjusted kappa statistics to assess strength of agreement.<xref rid="R40" ref-type="bibr">40</xref>
+</p>
+                  <p>Following agreement between coders, a validation process will be undertaken. Coded BCTs for each target behaviour cluster from published and unpublished materials for each trial will be sent to the respective trialists to validate the coding. Where possible, a virtual meeting will be organised for the coder to discuss the coding with the trial representative and to minimise reliance on trialists knowledge of BCTs. If there are discrepancies between the coder and trial representative, these will be discussed to reach consensus, including referring to the intervention materials as the primary source of evidence.</p>
+                </sec>
+              </sec>
+              <sec id="s2-6">
+                <title>Synthesis of results</title>
+                <p>To address the first research question, a structured summary will be prepared to describe the targeted behaviour clusters, delivery features and BCTs used in early obesity prevention interventions. To address the second research question, narrative comparisons of BCTs used by target behaviour clusters will be made to explore the similarities and differences in BCTs used to target different behaviours. To address the third research question, exploratory analyses will be undertaken to provide preliminary information about the effectiveness of commonly used intervention components in reducing BMI z-scores at 2 years of age (±6 months). For this purpose, a meta-regression analysis will be performed for each commonly used intervention component (ie, used in five or more interventions), to compare infant BMI z-score for trials including the intervention component compared with trials not including the intervention component. Our proposed approach will take into account small sample sizes and importantly the variability of the observed effect sizes, however, will not be able to determine independent effects of each component.</p>
+              </sec>
+              <sec id="s2-7">
+                <title>Patients and public involvement</title>
+                <p>The TOPCHILD Collaboration involves a broad range of stakeholders including health professionals, policy makers, researchers and trialists. In addition, the Collaboration includes a parent representative and an intervention facilitator/nurse who have given input into and feedback on this protocol and will be involved in the interpretation of results.</p>
+              </sec>
+            </sec>
+            <sec id="s3">
+              <title>Ethics and dissemination</title>
+              <p>The study has been approved by The University of Sydney Human Research Ethics Committee (project no. 2020/273) and Flinders University Social and Behavioural Research Ethics Committee (project no. HREC CIA2133-1).</p>
+              <p>Findings from the current study will be disseminated through peer-reviewed publications, conference presentations and targeted communication with key stakeholders, such as intervention designers. Disseminating findings to intervention designers will impart knowledge about common intervention approaches used in the field of early obesity prevention as well as less commonly used but potentially effective BCTs and delivery features that can be explored in future interventions.</p>
+            </sec>
+            <sec sec-type="discussion" id="s4">
+              <title>Discussion</title>
+              <p>Our study will characterise early obesity prevention interventions commencing antenatally or in the first 12 months after birth, by specifying the targeted behaviours, delivery features and applied BCTs. Key strengths of this study include the comprehensive systematic search to identify planned, ongoing, and completed early childhood obesity prevention trials that will provide a broad understanding of the behaviour change content and delivery features used around the world. By looking into the ‘black box’ of interventions, this study will provide detailed summaries of methodologies used in early childhood obesity prevention interventions globally. We are extending previous methods by coding BCTs in both unpublished and published materials and performing cross validation of coding with trialists through the TOPCHILD Collaboration. In addition, we are exploring patterns in BCT use across four key obesity prevention parental behaviour clusters; namely infant feeding practices, food provision and parent feeding practices, movement practices and sleep health practices. We will use standardised coding taxonomies (ie, BCTT V.1), and pilot test new ontologies from the Human Behaviour Change Project<xref rid="R22" ref-type="bibr">22</xref> to systematically code intervention source, mode of delivery and intervention setting. This study will provide preliminary insights into which intervention components are more effective than others. However, because BCTs are not used in isolation and interventions include multiple components, it is not possible to isolate the individual effects of each BCT or component within a trial or across trials from the effects of other BCTs, and there may be confounding through unobserved trial-level effects. Intervention coding will be limited to indicating the presence or absence of a BCT in intervention materials. Coding will not address whether techniques were in fact delivered to each participant (ie, fidelity of BCT) or BCT dose. Nevertheless, we hope that this exploratory analysis will provide preliminary insight into which intervention components may be more effective than others.</p>
+              <p>A systematic understanding of the components of early childhood obesity prevention interventions will lay the groundwork for conducting quantitative predictive modelling in future research projects. The current study will generate a comprehensive database of intervention components for each trial in the TOPCHILD Collaboration in standardised terminology and classified by target behaviours, delivery features and BCTs. The resulting database will be combined with individual participant data obtained from TOPCHILD trialists (see <xref rid="R35" ref-type="bibr">35</xref> l) in a future study to perform quantitative predictive modelling. Predictive modelling will further our understanding of effective intervention components for reducing childhood obesity, including identification of components that are particularly effective for key population groups. Project updates will be publicly available on the TOPCHILD Collaboration website at <ext-link xlink:href="www.topchildcollaboration.org" ext-link-type="uri">https://wwwtopchildcollaborationorg/</ext-link>.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <supplementary-material content-type="local-data" id="d64e1495">
+                <caption>
+                  <title>Reviewer comments</title>
+                </caption>
+                <media xlink:href="bmjopen-2020-048165.reviewer_comments.pdf"/>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="d64e1496">
+                <caption>
+                  <title>Author's
+manuscript</title>
+                </caption>
+                <media xlink:href="bmjopen-2020-048165.draft_revisions.pdf"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>We would like to acknowledge Slavica Berber from the NHMRC Clinical Trials Centre for advice on the search strategy. We would also like to acknowledge the NHMRC Centre of Research Excellence in Early Prevention of Obesity in Childhood, who supported the pilot and foundational work for this project. We would like to thank Maria Luisa Garmendia and Camila Corvalan for their feedback on an earlier version of this protocol.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="other">
+                <p><bold>Twitter:</bold> @brittanyjayne8, @KylieEHunter, @DrSeemaM, @oreillysharleen, @KylieHesketh, @OverbyNina, @LeneSeidler</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Collaborators:</bold> Transforming Obesity Prevention for CHILDren (TOPCHILD) Collaboration: TOPCHILD Collaboration members: Steering Group: Anna Lene Seidler, Kylie Hunter, Brittany Johnson, Rebecca Golley, Lisa Askie, Angie Barba, Mason Aberoumand, Sol Libesman; Advisory Group: Alison Hayes, Charles Wood, Chris Rissel, David Espinoza, Denise O’Connor, Ian Marschner, Kristy Robledo, Louise Baur, Lukas Staub, Luke Wolfenden, Michelle Sue-See, Paul Chadwick, Rachael Taylor, Sarah Taki, Seema Mihrshahi, Wendy Smith, Shonna Yin, Lee Sanders. Trial Representatives (to date): Alison Karasz, Amanda Thompson, Ana Maria Linares, Ana Perez Exposito, Ata Ghaderi, Barry Taylor, Carolina González Acero, Cathleen Odar Stough, Claudio Maffeis, Cristina Palacios, Christine Helle, Eliana Perrin, Emily Oken, Eva Corpeleijn, Finn Rasmussen, Heather Wasser, Hein Raat, Ian Paul, Jennifer Savage, Jessica Thomson, Jinan Banna, Junilla Larsen, Karen Campbell, Kaumudi Joshipura, Kayla de la Haye, Ken Ong, Kylie Hesketh, Levie Karssen, Li Ming Wen, Lynne Daniels, Margrethe Røed, Maria Bryant, Maribel Campos Rivera, Mary Jo Messito, Michael Goran, Nina Øverby, Rachael Taylor, Rachel Gross, Rajalakshmi Lakshman, Russell Rothman, Sarah-Jeanne Salvy, Sharleen O’Reilly, Stephanie Anzman-Frasca, Vera Verbestel</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Contributors:</bold> ALS together with KEH, BJJ, LA and RG conceived the idea for the study. BJJ, KEH, ALS, RG and LA developed the research question and protocol registration. BJJ wrote the first draft of the manuscript. KEH, BJJ, ALS, RG and LA developed the eligibility criteria and KEH developed the search strategy. KEH, MA, AB, BJJ, SL and ALS performed the search and screening. BJJ, PC, RG developed the coding procedure. AH, CTW, CR, DE, DAO’C, IM, KPR, LAB, LPS, LWo, MS-S, PC, RT, ST, SM and WS provided critical review and feedback at each stage of the process. BJJ, KEH, RG, PC, AB, MA, SL, LA, RT, KPR, SM, DAO’C, AH, LWo, CTW, LAB, CR, LPS, ST, WS, MS-S, IM, DE, JLT, JL, VV, CS, S-JS, SO’R, LTK, FER, MJM, RSG, MB, IMP, LWe, KDH, CGA, KC, NCØ, AML, HW, KJ, CP, CM, AT, AG, RL, JB, EO, MR, AP-E, BJT, JS, MR, MG, KdlH, SA-F and ALS critically revised the manuscript for intellectual content, and agreed and approved the final manuscript. BJJ is the guarantor of the manuscript.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Funding:</bold> This work was supported by the Australian National Health and Medical Research Council (NHMRC) Ideas Grant TOPCHILD (Transforming Obesity Prevention for CHILDren): Looking into the black box of interventions (GNT1186363). AT reports funding from NIH R01HD073237; AML reports funding from NIH National Center for Advancing Translational Science through grant # UL1TR000117 and UL1TR001998; BJT reports funding from Health Research Council of New Zealand; CGA reports funding from The PepsiCo Foundation; CP reports funding from National Institutes of Health, Robert Wood Johnson Foundation, WHO, US Department of Agriculture; CS reports funding from University of Cincinnati University Research Council; DAOC is supported by an Australian National Health and Medical Research Council (NHMRC) Translating Research into Practice Fellowship (APP1168749); EO reports the PROBIT study was supported by grant MOP-53155 from the Canadian Institutes of Health Research and grant R01 HD050758 from the US National Institutes of Health; IMP reports funding from grant R01DK088244 from the United States National Institute of Diabetes and Digestive and Kidney Diseases; JB reports funding from US Department of Agriculture; JL and LTK reports funding from Fonds NutsOhra awarded (100.939); JS reports funding from NIH NIDDK, NIH NHLBI, PCORI; JLT is an employee of USDA ARS and the Agency did fund the Delta Healthy Sprouts Trial (Project 6401-5300-003-00D); KdlH reports funding from 1R01HD092483-01 (MPI: de la Haye, Salvy), NIH/NICHD; KDH is supported by an Australian Research Council Future Fellowship (FT130100637); LMW reports funding from NHMRC (#393112; #1003780; #1169823); LWo is supported by a NHMRC Career Development and NHF Future Leader Fellowship; MB reports HAPPY was funded by a UK NIHR Programme Grant for Applied Research (project number RP-PG-0407-10044); MR reports The Baby Act Trial was sponsored by the Center for Collaborative Research in Health Disparities under grant U54 MD007600 of the National Institute on Minority Health and Health Disparities from the National Institutes of Health; MJM reports funding from USDA AFRI 2011-68001-30207; NCØ reports their original study was partly funded by the Norwegian Women's Public Health Association, who had no influence on any part of the study design, implementation and evaluation; RG is a Chief Investigator on the Early Prevention of Obesity in Childhood, NHMRC Centre for Research Excellence (1101675); RSG is supported by the National Institute of Food and Agriculture/US Department of Agriculture, award number 2011-68001-30207, and the National Institutes of Health/National Institute of Child Health and Human Development through a K23 Mentored Patient-Oriented Research Career Development Award (K23HD081077; principal investigator: Rachel S. Gross); RL reports funding from UK NPRI (National Prevention Research Initiative), MRC PHIND (Public Health Intervention Development programme); SO'R reports funding from European Unions Horizon 2020 Research and Innovation Programme (Grant Agreement no. 847984) and Australia National Health and Medical Research Council (NHMRC) (Grant application no. APP1194234); S-JS reports funding from NIMHD U54MD000502 (MPI: Salvy &amp; Dutton Project #2), NICHD R01HD092483 (MPI: Salvy &amp; de la Haye); SA-F is a co-investigator on the current INSIGHT grant which follows participants to ages 6 and 9: NIH 2R01DK088244; AP-E reports the SPOON program in Guatemala is funded by the Inter-American Development Bank with donations of The Government of Japan and The PepsiCo Foundation.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Disclaimer:</bold> Funders had no role in developing this protocol. Individual authors declare the following funding</p>
+              </fn>
+              <fn fn-type="COI-statement">
+                <p><bold>Competing interests:</bold> AB, ALS, BJJ, KEH, MA, RG, SL and LPS reports grants from NHMRC Ideas Grant TOPCHILD (Transforming Obesity Prevention for CHILDren) (GNT1186363); APE and CGA reports grants administered by the Inter-American Development Bank from The Government of Japan and The PepsiCo Foundation; AT reports grants from National Institute of Health; BJT reports grants from NZ Health Research Council; EO reports grants from the US National Institutes of Health, and the Canadian Institutes for Health Research; IMP reports grants from NIH/NIDDK; JS reports grants from PCORI, NIH NIDDK and NHLBI, and personal fees from Danone Organic, American Academy of Pediatrics and Lets Move Maine; LTK and JL reports grants from Fonds NutsOhra; MR reports grants from National Institute on Minority Health and Health Disparities-National Institutes of Health/Center for Collaborative Research in Health Disparities, and personal fees from Rhythm Pharmaceuticals; RSG reports grants from US Department of Agriculture and NIH/NICHD.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Provenance and peer review:</bold> Not commissioned; externally peer reviewed.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Supplemental material:</bold> This content has been supplied by the author(s). It has not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been peer-reviewed. Any opinions or recommendations discussed are solely those of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and responsibility arising from any reliance placed on the content. Where the content includes any translated material, BMJ does not warrant the accuracy and reliability of the translations (including but not limited to local regulations, clinical guidelines, terminology, drug names and drug dosages), and is not responsible for any error and/or omissions arising from translation and adaptation or otherwise.</p>
+              </fn>
+            </fn-group>
+            <sec sec-type="ethics-statement">
+              <title>Ethics statements</title>
+              <sec>
+                <title>Patient consent for publication</title>
+                <p content-type="ethics-consent-to-publish">Not applicable.</p>
+              </sec>
+            </sec>
+            <ref-list>
+              <title>References</title>
+              <ref id="R1">
+                <label>1</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><collab>United Nations Children’s Fund (UNICEF), World Health Organization, International Bank for Reconstruction and Development/The World Bank</collab></person-group>. <source>Levels and trends in child malnutrition: key findings of the 2020 edition of the joint child malnutrition estimates</source>. <publisher-loc>Geneva</publisher-loc>: <publisher-name>World Health Organization</publisher-name>, <year>2020</year>.</mixed-citation>
+              </ref>
+              <ref id="R2">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Abarca-Gómez</surname><given-names>L</given-names></string-name>, <string-name><surname>Abdeen</surname><given-names>ZA</given-names></string-name>, <string-name><surname>Hamid</surname><given-names>ZA</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Worldwide trends in body-mass index, underweight, overweight, and obesity from 1975 to 2016: a pooled analysis of 2416 population-based measurement studies in 128·9 million children, adolescents, and adults</article-title>. <source>The Lancet</source><year>2017</year>;<volume>390</volume>:<fpage>2627</fpage>–<lpage>42</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(17)32129-3</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="R3">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Prentice</surname><given-names>AM</given-names></string-name></person-group>. <article-title>The emerging epidemic of obesity in developing countries</article-title>. <source>Int J Epidemiol</source><year>2006</year>;<volume>35</volume>:<fpage>93</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1093/ije/dyi272</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/16326822?><pub-id pub-id-type="pmid">16326822</pub-id></mixed-citation>
+              </ref>
+              <ref id="R4">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Finegood</surname><given-names>DT</given-names></string-name>, <string-name><surname>Merth</surname><given-names>TDN</given-names></string-name>, <string-name><surname>Rutter</surname><given-names>H</given-names></string-name></person-group>. <article-title>Implications of the Foresight obesity system map for solutions to childhood obesity</article-title>. <source>Obesity</source><year>2010</year>;<volume>18 Suppl 1</volume>:<fpage>S13</fpage>–<lpage>16</lpage>. <pub-id pub-id-type="doi">10.1038/oby.2009.426</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/20107455?><pub-id pub-id-type="pmid">20107455</pub-id></mixed-citation>
+              </ref>
+              <ref id="R5">
+                <label>5</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>World Health Organisation</collab></person-group>. <article-title>Childhood overweight and obesity</article-title>, <year>2020</year>. Available: <uri xlink:href="https://www.who.int/dietphysicalactivity/childhood/en/">https://www.who.int/dietphysicalactivity/childhood/en/</uri> [Accessed <comment>26 May 2020</comment>].</mixed-citation>
+              </ref>
+              <ref id="R6">
+                <label>6</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><collab>World Health Organization</collab></person-group>. <source>Report of the Commission on ending childhood obesity. Geneva</source>. <volume>50</volume>. <publisher-loc>Switzerland</publisher-loc>: <publisher-name>World Health Organization</publisher-name>, <year>2016</year>.</mixed-citation>
+              </ref>
+              <ref id="R7">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Yavuz</surname><given-names>HM</given-names></string-name>, <string-name><surname>van Ijzendoorn</surname><given-names>MH</given-names></string-name>, <string-name><surname>Mesman</surname><given-names>J</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Interventions aimed at reducing obesity in early childhood: a meta-analysis of programs that involve parents</article-title>. <source>J Child Psychol Psychiatr</source><year>2015</year>;<volume>56</volume>:<fpage>677</fpage>–<lpage>92</lpage>. <pub-id pub-id-type="doi">10.1111/jcpp.12330</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="R8">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Golan</surname><given-names>M</given-names></string-name>, <string-name><surname>Crow</surname><given-names>S</given-names></string-name></person-group>. <article-title>Parents are key players in the prevention and treatment of weight-related problems</article-title>. <source>Nutr Rev</source><year>2004</year>;<volume>62</volume>:<fpage>39</fpage>–<lpage>50</lpage>. <pub-id pub-id-type="doi">10.1111/j.1753-4887.2004.tb00005.x</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/14995056?><pub-id pub-id-type="pmid">14995056</pub-id></mixed-citation>
+              </ref>
+              <ref id="R9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Paul</surname><given-names>IM</given-names></string-name>, <string-name><surname>Savage</surname><given-names>JS</given-names></string-name>, <string-name><surname>Anzman</surname><given-names>SL</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Preventing obesity during infancy: a pilot study</article-title>. <source>Obesity</source><year>2011</year>;<volume>19</volume>:<fpage>353</fpage>–<lpage>61</lpage>. <pub-id pub-id-type="doi">10.1038/oby.2010.182</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/20725058?><pub-id pub-id-type="pmid">20725058</pub-id></mixed-citation>
+              </ref>
+              <ref id="R10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Döring</surname><given-names>N</given-names></string-name>, <string-name><surname>Hansson</surname><given-names>LM</given-names></string-name>, <string-name><surname>Andersson</surname><given-names>ES</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Primary prevention of childhood obesity through counselling sessions at Swedish child health centres: design, methods and baseline sample characteristics of the primrose cluster-randomised trial</article-title>. <source>BMC Public Health</source><year>2014</year>;<volume>14</volume>:<elocation-id>335</elocation-id>. <pub-id pub-id-type="doi">10.1186/1471-2458-14-335</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/24717011?><pub-id pub-id-type="pmid">24717011</pub-id></mixed-citation>
+              </ref>
+              <ref id="R11">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Verbestel</surname><given-names>V</given-names></string-name>, <string-name><surname>De Coen</surname><given-names>V</given-names></string-name>, <string-name><surname>Van Winckel</surname><given-names>M</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Prevention of overweight in children younger than 2 years old: a pilot cluster-randomized controlled trial</article-title>. <source>Public Health Nutr</source><year>2014</year>;<volume>17</volume>:<fpage>1384</fpage>–<lpage>92</lpage>. <pub-id pub-id-type="doi">10.1017/S1368980013001353</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/23701835?><pub-id pub-id-type="pmid">23701835</pub-id></mixed-citation>
+              </ref>
+              <ref id="R12">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Campbell</surname><given-names>K</given-names></string-name>, <string-name><surname>Hesketh</surname><given-names>K</given-names></string-name>, <string-name><surname>Crawford</surname><given-names>D</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The infant feeding activity and nutrition trial (infant) an early intervention to prevent childhood obesity: cluster-randomised controlled trial</article-title>. <source>BMC Public Health</source><year>2008</year>;<volume>8</volume>:<elocation-id>103</elocation-id>. <pub-id pub-id-type="doi">10.1186/1471-2458-8-103</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/18373877?><pub-id pub-id-type="pmid">18373877</pub-id></mixed-citation>
+              </ref>
+              <ref id="R13">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Daniels</surname><given-names>LA</given-names></string-name>, <string-name><surname>Magarey</surname><given-names>A</given-names></string-name>, <string-name><surname>Battistutta</surname><given-names>D</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The NOURISH randomised control trial: positive feeding practices and food preferences in early childhood - a primary prevention program for childhood obesity</article-title>. <source>BMC Public Health</source><year>2009</year>;<volume>9</volume>:<elocation-id>387</elocation-id>. <pub-id pub-id-type="doi">10.1186/1471-2458-9-387</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/19825193?><pub-id pub-id-type="pmid">19825193</pub-id></mixed-citation>
+              </ref>
+              <ref id="R14">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Taylor</surname><given-names>BJ</given-names></string-name>, <string-name><surname>Heath</surname><given-names>A-LM</given-names></string-name>, <string-name><surname>Galland</surname><given-names>BC</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Prevention of overweight in infancy (POI.nz) study: a randomised controlled trial of sleep, food and activity interventions for preventing overweight from birth</article-title>. <source>BMC Public Health</source><year>2011</year>;<volume>11</volume>:<elocation-id>942</elocation-id>. <pub-id pub-id-type="doi">10.1186/1471-2458-11-942</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/22182309?><pub-id pub-id-type="pmid">22182309</pub-id></mixed-citation>
+              </ref>
+              <ref id="R15">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Wen</surname><given-names>LM</given-names></string-name>, <string-name><surname>Baur</surname><given-names>LA</given-names></string-name>, <string-name><surname>Rissel</surname><given-names>C</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Early intervention of multiple home visits to prevent childhood obesity in a disadvantaged population: a home-based randomised controlled trial (healthy beginnings trial)</article-title>. <source>BMC Public Health</source><year>2007</year>;<volume>7</volume>:<elocation-id>76</elocation-id>. <pub-id pub-id-type="doi">10.1186/1471-2458-7-76</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/17490492?><pub-id pub-id-type="pmid">17490492</pub-id></mixed-citation>
+              </ref>
+              <ref id="R16">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Blake-Lamb</surname><given-names>TL</given-names></string-name>, <string-name><surname>Locks</surname><given-names>LM</given-names></string-name>, <string-name><surname>Perkins</surname><given-names>ME</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Interventions for childhood obesity in the first 1,000 days a systematic review</article-title>. <source>Am J Prev Med</source><year>2016</year>;<volume>50</volume>:<fpage>780</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1016/j.amepre.2015.11.010</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26916260?><pub-id pub-id-type="pmid">26916260</pub-id></mixed-citation>
+              </ref>
+              <ref id="R17">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Askie</surname><given-names>LM</given-names></string-name>, <string-name><surname>Espinoza</surname><given-names>D</given-names></string-name>, <string-name><surname>Martin</surname><given-names>A</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Interventions commenced by early infancy to prevent childhood obesity-The epoch collaboration: an individual participant data prospective meta-analysis of four randomized controlled trials</article-title>. <source>Pediatr Obes</source><year>2020</year>;<volume>15</volume>:<elocation-id>e12618</elocation-id>. <pub-id pub-id-type="doi">10.1111/ijpo.12618</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/32026653?><pub-id pub-id-type="pmid">32026653</pub-id></mixed-citation>
+              </ref>
+              <ref id="R18">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Brown</surname><given-names>T</given-names></string-name>, <string-name><surname>Moore</surname><given-names>TH</given-names></string-name>, <string-name><surname>Hooper</surname><given-names>L</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Interventions for preventing obesity in children</article-title>. <source>Cochrane Database Syst Rev</source><year>2019</year>;<volume>7</volume>:<elocation-id>CD001871</elocation-id>. <pub-id pub-id-type="doi">10.1002/14651858.CD001871.pub4</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/31332776?><pub-id pub-id-type="pmid">31332776</pub-id></mixed-citation>
+              </ref>
+              <ref id="R19">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Tate</surname><given-names>DF</given-names></string-name>, <string-name><surname>Lytle</surname><given-names>LA</given-names></string-name>, <string-name><surname>Sherwood</surname><given-names>NE</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Deconstructing interventions: approaches to studying behavior change techniques across obesity interventions</article-title>. <source>Transl Behav Med</source><year>2016</year>;<volume>6</volume>:<fpage>236</fpage>–<lpage>43</lpage>. <pub-id pub-id-type="doi">10.1007/s13142-015-0369-1</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/27356994?><pub-id pub-id-type="pmid">27356994</pub-id></mixed-citation>
+              </ref>
+              <ref id="R20">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Byrne</surname><given-names>M</given-names></string-name></person-group>. <article-title>Gaps and priorities in advancing methods for health behaviour change research</article-title>. <source>Health Psychol Rev</source><year>2020</year>;<volume>14</volume>:<fpage>165</fpage>–<lpage>75</lpage>. <pub-id pub-id-type="doi">10.1080/17437199.2019.1707106</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/31856663?><pub-id pub-id-type="pmid">31856663</pub-id></mixed-citation>
+              </ref>
+              <ref id="R21">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Michie</surname><given-names>S</given-names></string-name>, <string-name><surname>Richardson</surname><given-names>M</given-names></string-name>, <string-name><surname>Johnston</surname><given-names>M</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The behavior change technique taxonomy (V1) of 93 hierarchically clustered techniques: building an international consensus for the reporting of behavior change interventions</article-title>. <source>Ann Behav Med</source><year>2013</year>;<volume>46</volume>:<fpage>81</fpage>–<lpage>95</lpage>. <pub-id pub-id-type="doi">10.1007/s12160-013-9486-6</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/23512568?><pub-id pub-id-type="pmid">23512568</pub-id></mixed-citation>
+              </ref>
+              <ref id="R22">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Michie</surname><given-names>S</given-names></string-name>, <string-name><surname>Thomas</surname><given-names>J</given-names></string-name>, <string-name><surname>Johnston</surname><given-names>M</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The human Behaviour-Change project: harnessing the power of artificial intelligence and machine learning for evidence synthesis and interpretation</article-title>. <source>Implementation Sci</source><year>2017</year>;<volume>12</volume>:<fpage>1</fpage>–<lpage>12</lpage>. <pub-id pub-id-type="doi">10.1186/s13012-017-0641-5</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="R23">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kok</surname><given-names>G</given-names></string-name>, <string-name><surname>Gottlieb</surname><given-names>NH</given-names></string-name>, <string-name><surname>Peters</surname><given-names>G-JY</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>A taxonomy of behaviour change methods: an intervention mapping approach</article-title>. <source>Health Psychol Rev</source><year>2016</year>;<volume>10</volume>:<fpage>297</fpage>–<lpage>312</lpage>. <pub-id pub-id-type="doi">10.1080/17437199.2015.1077155</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26262912?><pub-id pub-id-type="pmid">26262912</pub-id></mixed-citation>
+              </ref>
+              <ref id="R24">
+                <label>24</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>Google Scholar</collab></person-group>. <article-title>Citations for: 'The Behavior Change Technique Taxonomy (v1) of 93 Hierarchically Clustered Techniques: Building an International Consensus for the Reporting of Behavior Change Interventions'</article-title>, <year>2020</year>. Available: <uri xlink:href="https://scholar.google.com.au/scholar?cites=17280621799253216609&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en">https://scholar.google.com.au/scholar?cites=17280621799253216609&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en</uri> [Accessed <comment>12 Nov 2020</comment>].</mixed-citation>
+              </ref>
+              <ref id="R25">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Samdal</surname><given-names>GB</given-names></string-name>, <string-name><surname>Eide</surname><given-names>GE</given-names></string-name>, <string-name><surname>Barth</surname><given-names>T</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Effective behaviour change techniques for physical activity and healthy eating in overweight and obese adults; systematic review and meta-regression analyses</article-title>. <source>Int J Behav Nutr Phys Act</source><year>2017</year>;<volume>14</volume>:<fpage>42</fpage>. <pub-id pub-id-type="doi">10.1186/s12966-017-0494-y</pub-id><pub-id pub-id-type="pmid">28351367</pub-id></mixed-citation>
+              </ref>
+              <ref id="R26">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ashton</surname><given-names>LM</given-names></string-name>, <string-name><surname>Sharkey</surname><given-names>T</given-names></string-name>, <string-name><surname>Whatnall</surname><given-names>MC</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Which behaviour change techniques within interventions to prevent weight gain and/or initiate weight loss improve adiposity outcomes in young adults? A systematic review and meta-analysis of randomized controlled trials</article-title>. <source>Obes Rev</source><year>2020</year>;<volume>21</volume>:<elocation-id>e13009</elocation-id>. <pub-id pub-id-type="doi">10.1111/obr.13009</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/32064761?><pub-id pub-id-type="pmid">32064761</pub-id></mixed-citation>
+              </ref>
+              <ref id="R27">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Golley</surname><given-names>RK</given-names></string-name>, <string-name><surname>Hendrie</surname><given-names>GA</given-names></string-name>, <string-name><surname>Slater</surname><given-names>A</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Interventions that involve parents to improve children's weight-related nutrition intake and activity patterns - what nutrition and activity targets and behaviour change techniques are associated with intervention effectiveness?</article-title><source>Obes Rev</source><year>2011</year>;<volume>12</volume>:<fpage>114</fpage>–<lpage>30</lpage>. <pub-id pub-id-type="doi">10.1111/j.1467-789X.2010.00745.x</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/20406416?><pub-id pub-id-type="pmid">20406416</pub-id></mixed-citation>
+              </ref>
+              <ref id="R28">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Johnson</surname><given-names>BJ</given-names></string-name>, <string-name><surname>Zarnowiecki</surname><given-names>D</given-names></string-name>, <string-name><surname>Hendrie</surname><given-names>GA</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>How to reduce parental provision of unhealthy foods to 3- to 8-year-old children in the home environment? A systematic review utilizing the behaviour change wheel framework</article-title>. <source>Obes Rev</source><year>2018</year>;<volume>19</volume>:<fpage>1359</fpage>–<lpage>70</lpage>. <pub-id pub-id-type="doi">10.1111/obr.12702</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30092606?><pub-id pub-id-type="pmid">30092606</pub-id></mixed-citation>
+              </ref>
+              <ref id="R29">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Matvienko-Sikar</surname><given-names>K</given-names></string-name>, <string-name><surname>Toomey</surname><given-names>E</given-names></string-name>, <string-name><surname>Delaney</surname><given-names>L</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Effects of healthcare professional delivered early feeding interventions on feeding practices and dietary intake: a systematic review</article-title>. <source>Appetite</source><year>2018</year>;<volume>123</volume>:<fpage>56</fpage>–<lpage>71</lpage>. <pub-id pub-id-type="doi">10.1016/j.appet.2017.12.001</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/29225141?><pub-id pub-id-type="pmid">29225141</pub-id></mixed-citation>
+              </ref>
+              <ref id="R30">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Martin</surname><given-names>J</given-names></string-name>, <string-name><surname>Chater</surname><given-names>A</given-names></string-name>, <string-name><surname>Lorencatto</surname><given-names>F</given-names></string-name></person-group>. <article-title>Effective behaviour change techniques in the prevention and management of childhood obesity</article-title>. <source>Int J Obes</source><year>2013</year>;<volume>37</volume>:<fpage>1287</fpage>–<lpage>94</lpage>. <pub-id pub-id-type="doi">10.1038/ijo.2013.107</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/23756676?></mixed-citation>
+              </ref>
+              <ref id="R31">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>JaKa</surname><given-names>MM</given-names></string-name>, <string-name><surname>Wood</surname><given-names>C</given-names></string-name>, <string-name><surname>Veblen-Mortenson</surname><given-names>S</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Applying the behavior change technique taxonomy to four multicomponent childhood obesity interventions</article-title>. <source>West J Nurs Res</source><year>2021</year>;<volume>43</volume>:<elocation-id>193945920954782</elocation-id>. <pub-id pub-id-type="doi">10.1177/0193945920954782</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/32909523?></mixed-citation>
+              </ref>
+              <ref id="R32">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ash</surname><given-names>T</given-names></string-name>, <string-name><surname>Agaronov</surname><given-names>A</given-names></string-name>, <string-name><surname>Young</surname><given-names>Ta'Loria</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Family-Based childhood obesity prevention interventions: a systematic review and quantitative content analysis</article-title>. <source>Int J Behav Nutr Phys Act</source><year>2017</year>;<volume>14</volume>:<fpage>113</fpage>. <pub-id pub-id-type="doi">10.1186/s12966-017-0571-2</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28836983?><pub-id pub-id-type="pmid">28836983</pub-id></mixed-citation>
+              </ref>
+              <ref id="R33">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Seidler</surname><given-names>AL</given-names></string-name>, <string-name><surname>Hunter</surname><given-names>KE</given-names></string-name>, <string-name><surname>Johnson</surname><given-names>BJ</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Understanding, comparing and learning from the four epoch early childhood obesity prevention interventions: a multi-methods study</article-title>. <source>Pediatr Obes</source><year>2020</year>;<volume>15</volume>:<elocation-id>e12679</elocation-id>. <pub-id pub-id-type="doi">10.1111/ijpo.12679</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/32543054?><pub-id pub-id-type="pmid">32543054</pub-id></mixed-citation>
+              </ref>
+              <ref id="R34">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>de Bruin</surname><given-names>M</given-names></string-name>, <string-name><surname>Black</surname><given-names>N</given-names></string-name>, <string-name><surname>Javornik</surname><given-names>N</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Underreporting of the active content of behavioural interventions: a systematic review and meta-analysis of randomised trials of smoking cessation interventions</article-title>. <source>Health Psychol Rev</source><year>2021</year>;<volume>15</volume>:<fpage>1</fpage>–<lpage>19</lpage>. <pub-id pub-id-type="doi">10.1080/17437199.2019.1709098</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/31906781?><pub-id pub-id-type="pmid">33550940</pub-id></mixed-citation>
+              </ref>
+              <ref id="R35">
+                <label>35</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hunter</surname><given-names>KE</given-names></string-name>, <string-name><surname>Johnson</surname><given-names>BJ</given-names></string-name>, <string-name><surname>Askie</surname><given-names>L, et al.</given-names></string-name></person-group>. <article-title>Transforming obesity prevention for children (TOPCHILD) collaboration: protocol for a systematic review with individual participant data meta-analysis of behavioural interventions for the prevention of early childhood obesity.</article-title>. <source>BMJ Open</source><year>2021</year>. <pub-id pub-id-type="doi">10.1136/bmjopen-2020-048166</pub-id></mixed-citation>
+              </ref>
+              <ref id="R36">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Moher</surname><given-names>D</given-names></string-name>, <string-name><surname>Shamseer</surname><given-names>L</given-names></string-name>, <string-name><surname>Clarke</surname><given-names>M</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015 statement</article-title>. <source>Syst Rev</source><year>2015</year>;<volume>4</volume>:<elocation-id>1</elocation-id>. <pub-id pub-id-type="doi">10.1186/2046-4053-4-1</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/25554246?><pub-id pub-id-type="pmid">25554246</pub-id></mixed-citation>
+              </ref>
+              <ref id="R37">
+                <label>37</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hoffmann</surname><given-names>TC</given-names></string-name>, <string-name><surname>Glasziou</surname><given-names>PP</given-names></string-name>, <string-name><surname>Boutron</surname><given-names>I</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Better reporting of interventions: template for intervention description and replication (TIDieR) checklist and guide</article-title>. <source>BMJ</source><year>2014</year>;<volume>348</volume>:<fpage>g1687</fpage>–<lpage>99</lpage>. <pub-id pub-id-type="doi">10.1136/bmj.g1687</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/24609605?><pub-id pub-id-type="pmid">24609605</pub-id></mixed-citation>
+              </ref>
+              <ref id="R38">
+                <label>38</label>
+                <mixed-citation publication-type="webpage"><article-title>BCT taxonomy V1 online training</article-title>, <year>2020</year>. Available: <uri xlink:href="https://www.bct-taxonomy.com/">https://www.bct-taxonomy.com/</uri> [Accessed <comment>20 Mar 2020</comment>].</mixed-citation>
+              </ref>
+              <ref id="R39">
+                <label>39</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Carey</surname><given-names>RN</given-names></string-name>, <string-name><surname>Connell</surname><given-names>LE</given-names></string-name>, <string-name><surname>Johnston</surname><given-names>M</given-names></string-name></person-group>. <article-title>Behavior change techniques and their mechanisms of action: a synthesis of links described in published intervention literature</article-title>. <source>Ann Behav Med</source><year>2018</year>;<volume>53</volume>:<fpage>693</fpage>–<lpage>707</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R40">
+                <label>40</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Landis</surname><given-names>JR</given-names></string-name>, <string-name><surname>Koch</surname><given-names>GG</given-names></string-name></person-group>. <article-title>The measurement of observer agreement for categorical data</article-title>. <source>Biometrics</source><year>1977</year>;<volume>33</volume>:<fpage>159</fpage>–<lpage>74</lpage>. <pub-id pub-id-type="doi">10.2307/2529310</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/843571?><pub-id pub-id-type="pmid">843571</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

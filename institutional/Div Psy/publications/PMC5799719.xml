@@ -1,0 +1,2706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:05:34Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:5799719" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:5799719</identifier>
+        <datestamp>2018-02-08</datestamp>
+        <setSpec>jmir</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">J Med Internet Res</journal-id>
+              <journal-id journal-id-type="iso-abbrev">J. Med. Internet Res</journal-id>
+              <journal-id journal-id-type="publisher-id">JMIR</journal-id>
+              <journal-title-group>
+                <journal-title>Journal of Medical Internet Research</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1439-4456</issn>
+              <issn pub-type="epub">1438-8871</issn>
+              <publisher>
+                <publisher-name>JMIR Publications</publisher-name>
+                <publisher-loc>Toronto, Canada</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC5799719</article-id>
+              <article-id pub-id-type="pmcid">PMC5799719</article-id>
+              <article-id pub-id-type="pmc-uid">5799719</article-id>
+              <article-id pub-id-type="pmid">29358158</article-id>
+              <article-id pub-id-type="publisher-id">v20i1e12</article-id>
+              <article-id pub-id-type="pmid">29358158</article-id>
+              <article-id pub-id-type="doi">10.2196/jmir.7803</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Paper</subject>
+                </subj-group>
+                <subj-group subj-group-type="article-type">
+                  <subject>Original Paper</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Internet-Based Cognitive Behavioral Therapy for Children and Adolescents With Dental Anxiety: Open Trial</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Eysenbach</surname>
+                    <given-names>Gunther</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Alberts</surname>
+                    <given-names>Nicole</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Dudeney</surname>
+                    <given-names>Joanne</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Apolinário-Hagen</surname>
+                    <given-names>Jennifer</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib id="contrib1" contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Shahnavaz</surname>
+                    <given-names>Shervin</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7296-4920</contrib-id>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <address>
+                    <institution>Division of Pediatric Dentistry</institution>
+                    <institution>Department of Dental Medicine</institution>
+                    <institution>Karolinska Institutet</institution>
+                    <addr-line>Box 4064</addr-line>
+                    <addr-line>14104</addr-line>
+                    <addr-line>Huddinge,</addr-line>
+                    <country>Sweden</country>
+                    <phone>46 8 52488091</phone>
+                    <email>shervin.shahnavaz@ki.se</email>
+                  </address>
+                </contrib>
+                <contrib id="contrib2" contrib-type="author">
+                  <name>
+                    <surname>Hedman-Lagerlöf</surname>
+                    <given-names>Erik</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7939-9848</contrib-id>
+                </contrib>
+                <contrib id="contrib3" contrib-type="author">
+                  <name>
+                    <surname>Hasselblad</surname>
+                    <given-names>Tove</given-names>
+                  </name>
+                  <degrees>MSc (Psychology)</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8429-4218</contrib-id>
+                </contrib>
+                <contrib id="contrib4" contrib-type="author">
+                  <name>
+                    <surname>Reuterskiöld</surname>
+                    <given-names>Lena</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0923-8923</contrib-id>
+                </contrib>
+                <contrib id="contrib5" contrib-type="author">
+                  <name>
+                    <surname>Kaldo</surname>
+                    <given-names>Viktor</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff4">4</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6443-5279</contrib-id>
+                </contrib>
+                <contrib id="contrib6" contrib-type="author">
+                  <name>
+                    <surname>Dahllöf</surname>
+                    <given-names>Göran</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8536-5292</contrib-id>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <sup>1</sup>
+                <institution>Division of Pediatric Dentistry</institution>
+                <institution>Department of Dental Medicine</institution>
+                <institution>Karolinska Institutet</institution>
+                <addr-line>Huddinge</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <aff id="aff2">
+                <sup>2</sup>
+                <institution>Department of Clinical Neuroscience</institution>
+                <institution>Karolinska Institutet</institution>
+                <addr-line>Stockholm</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <aff id="aff3">
+                <sup>3</sup>
+                <institution>Department of Psychology</institution>
+                <institution>Stockholm University</institution>
+                <addr-line>Stockholm</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <aff id="aff4">
+                <sup>4</sup>
+                <institution>Centre for Psychiatry Research</institution>
+                <institution>Department of Clinical Neuroscience</institution>
+                <institution>Karolinska Institutet</institution>
+                <addr-line>Stockholm</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <author-notes>
+                <corresp>Corresponding Author: Shervin Shahnavaz
+<email>shervin.shahnavaz@ki.se</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <month>1</month>
+                <year>2018</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>22</day>
+                <month>1</month>
+                <year>2018</year>
+              </pub-date>
+              <volume>20</volume>
+              <issue>1</issue>
+              <elocation-id>e12</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>8</day>
+                  <month>5</month>
+                  <year>2017</year>
+                </date>
+                <date date-type="rev-request">
+                  <day>15</day>
+                  <month>6</month>
+                  <year>2017</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>30</day>
+                  <month>9</month>
+                  <year>2017</year>
+                </date>
+                <date date-type="accepted">
+                  <day>2</day>
+                  <month>11</month>
+                  <year>2017</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>©Shervin Shahnavaz, Erik Hedman-Lagerlöf, Tove Hasselblad, Lena Reuterskiöld, Viktor Kaldo, Göran Dahllöf. Originally published in the Journal of Medical Internet Research (http://www.jmir.org), 22.01.2018.</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+                  <license-p><!--CREATIVE COMMONS-->This is an open-access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in the Journal of Medical Internet Research, is properly cited. The complete bibliographic information, a link to the original publication on <ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/">http://www.jmir.org/</ext-link>, as well as this copyright and license information must be included.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:type="simple" xlink:href="http://www.jmir.org/2018/1/e12/"/>
+              <abstract>
+                <sec sec-type="background">
+                  <title>Background</title>
+                  <p>Cognitive behavioral therapy (CBT) is an evidence-based method for treating specific phobias, but access to treatment is difficult, especially for children and adolescents with dental anxiety. Psychologist-guided Internet-based CBT (ICBT) may be an effective way of increasing accessibility while maintaining treatment effects.</p>
+                </sec>
+                <sec sec-type="objective">
+                  <title>Objective</title>
+                  <p>The aim of this study was to test the hypothesis that psychologist-guided ICBT improves school-aged children’s and adolescents’ ability to manage dental anxiety by (1) decreasing avoidance and affecting the phobia diagnosis and (2) decreasing the dental fear and increasing the target groups’ self-efficacy. The study also aimed to examine the feasibility and acceptability of this novel treatment.</p>
+                </sec>
+                <sec sec-type="methods">
+                  <title>Methods</title>
+                  <p>This was an open, uncontrolled trial with assessments at baseline, posttreatment, and the 1-year follow-up. The study enrolled and treated 18 participants. The primary outcome was level of avoidance behaviors, as measured by the picture-guided behavioral avoidance test (PG-BAT). The secondary outcome was a diagnostic evaluation with the parents conducted by a psychologist. The specific phobia section of the structured interview Kiddie-Schedule for Affective Disorders and Schizophrenia for School-Age Children-Present and Lifetime (K-SADS-PL) was used. Other outcome measures included level of dental anxiety and self-efficacy. The ICBT, which employed exposure therapy, comprised 12 modules of texts, animations, dentistry-related video clips, and an exercise package (including dental instruments). Participants accessed the treatment through an Internet-based treatment platform and received Web-based guidance from a psychologist. Treatment also included training at dental clinics. Feasibility and acceptability were assessed by measures of engagement, adherence, compliance, completed measures, patient and parent satisfaction scale, and staff acceptability.</p>
+                </sec>
+                <sec sec-type="results">
+                  <title>Results</title>
+                  <p>The level of avoidance (according to the primary outcome measure PG-BAT) and dental anxiety decreased and self-efficacy increased significantly (<italic>P</italic>&lt;.001), within-group effect sizes for both the primary outcome (Cohen d=1.5), and other outcomes were large in the range of 0.9 and 1.5. According to K-SADS-PL, 53% (8/15) of the participants were free from diagnosable dental anxiety at the 1-year follow-up. At the 1-year follow-up, improvements were maintained and clinically significant, with 60% (9/15) of participants who had been unable to manage intraoral injection of local anesthetics before ICBT reporting having accomplished this task at a dental clinic. The target group showed improvement in all the outcome measures. High levels of feasibility and acceptability were observed for the treatment.</p>
+                </sec>
+                <sec sec-type="conclusions">
+                  <title>Conclusions</title>
+                  <p>ICBT is a promising and feasible treatment for dental anxiety in children and adolescents. Integrating it into routine pediatric dental care would increase access to an effective psychological treatment. The results of this open trial must be replicated in controlled studies.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>cognitive behavioral therapy</kwd>
+                <kwd>dental fear</kwd>
+                <kwd>dental phobia</kwd>
+                <kwd>dentistry</kwd>
+                <kwd>internet-based treatment</kwd>
+                <kwd>pediatric dentistry</kwd>
+                <kwd>psychology</kwd>
+                <kwd>self efficacy</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="introduction">
+              <title>Introduction</title>
+              <sec>
+                <title>Background</title>
+                <p>Dental fear and anxiety is defined as strong negative feelings associated with dental treatment or anticipation of dental treatment. Among children and adolescents, the prevalence of dental fear and anxiety is approximately 9% [<xref rid="ref1" ref-type="bibr">1</xref>]. The Diagnostic and Statistical Manual of Mental Disorders-4<sup>th</sup> edition (DSM-IV), often used in psychiatric or psychological research, classifies dental anxiety as a form of specific phobia and defines it as a persistent, irrational, and intense fear of a specific object or medical procedure in dentistry persisting for at least 6 months [<xref rid="ref2" ref-type="bibr">2</xref>]. Dental anxiety often begins during childhood or adolescence. It leads to poor oral health manifesting as untreated caries, missing teeth, or periodontal problems [<xref rid="ref3" ref-type="bibr">3</xref>] and can have other negative consequences such as a sense of embarrassment and reduced self-esteem [<xref rid="ref4" ref-type="bibr">4</xref>].</p>
+                <p>The common methods for dealing with dental anxiety in pediatric dentistry are tell-show-do, sedation with midazolam, nitrous oxide sedation, and general anesthesia [<xref rid="ref5" ref-type="bibr">5</xref>,<xref rid="ref6" ref-type="bibr">6</xref>]. According to a recent systematic review of methods in pediatric dentistry [<xref rid="ref7" ref-type="bibr">7</xref>], the evidence supporting these methods is low, and it is uncertain whether they reduce dental anxiety. This highlights the need for new, evidence-based psychological methods for treating dental anxiety in pediatric dentistry [<xref rid="ref8" ref-type="bibr">8</xref>,<xref rid="ref9" ref-type="bibr">9</xref>].</p>
+              </sec>
+              <sec>
+                <title>Cognitive Behavioral Therapy</title>
+                <p>Cognitive behavioral therapy (CBT) is an evidence-based treatment method for psychiatric conditions such as specific phobias [<xref rid="ref10" ref-type="bibr">10</xref>,<xref rid="ref11" ref-type="bibr">11</xref>]. Main features of CBT include psychoeducation, coping techniques, cognitive restructuring, exposure, and homework exercises. CBT has been shown to be highly effective in adults with dental anxiety [<xref rid="ref12" ref-type="bibr">12</xref>,<xref rid="ref13" ref-type="bibr">13</xref>]. In a recently conducted randomized clinical trial, our research group showed that CBT has similarly large effects in children and adolescents [<xref rid="ref14" ref-type="bibr">14</xref>]. Results from a qualitative study show that children experience increased feelings of safety and mastery and reduced fear in dental situations after receiving CBT [<xref rid="ref9" ref-type="bibr">9</xref>,<xref rid="ref15" ref-type="bibr">15</xref>]. However, accessibility to treatment is low. Children and parents face challenges that make it difficult to receive face-to-face CBT, such as constraints in time and availability, long distances to specialist pediatric dental clinics or lack of a psychologist at dental clinics. Thus, children with dental anxiety need better access to evidence-based psychological treatments.</p>
+              </sec>
+              <sec>
+                <title>Internet-Based Cognitive Behavioral Therapy</title>
+                <p>Internet-based cognitive behavioral therapy (ICBT) is based on the same principles as conventional CBT, although ICBT is delivered over the Internet instead of in face-to-face sessions. ICBT has effect sizes comparable with face-to-face CBT and has been scientifically evaluated for many psychiatric conditions in both adults and children [<xref rid="ref16" ref-type="bibr">16</xref>,<xref rid="ref17" ref-type="bibr">17</xref>]. ICBT has shown promising results in treating specific phobias in children [<xref rid="ref18" ref-type="bibr">18</xref>-<xref rid="ref20" ref-type="bibr">20</xref>], is easier to deliver, and is more cost-effective than face-to-face CBT. The Internet-based version of CBT thus improves access to CBT among children and young individuals. An open study of self-help CBT resources (available in paper-based and on-line versions) for children with dental anxiety showed that CBT resources are a feasible and acceptable intervention for the reduction of dental anxiety in children in the age range of 9 to 16 years [<xref rid="ref21" ref-type="bibr">21</xref>]. The self-help CBT resources mentioned above lack therapist guidance. The ICBT with therapist guidance (psychologist contact on weekly basis through a chat system) we implemented in this study is an Internet adapted version of a previously evaluated face-to-face CBT program (including therapy sessions with a clinical psychologist on weekly basis). The face-to-face treatment program has been evaluated in a randomized controlled trial (RCT) study [<xref rid="ref14" ref-type="bibr">14</xref>]. We produced the treatment manual for the ICBT program based on the face-to-face CBT manual, which we developed further and adapted for the Internet.</p>
+                <p>The aim of this study was to test the hypothesis that psychologist-guided ICBT improves school-aged children’s and adolescents’ ability to manage dental anxiety by (1) decreasing avoidance and affecting the phobia diagnosis and (2) decreasing the dental fear and increasing the target groups’ self-efficacy. The study also aimed to examine the feasibility and acceptability of this novel treatment.</p>
+              </sec>
+            </sec>
+            <sec sec-type="methods">
+              <title>Methods</title>
+              <sec>
+                <title>Design</title>
+                <p>This study has a single-group, open-trial design. We conducted assessments at baseline, posttreatment, and the 1-year follow-up. All participants and parents (one parent if there was only one primary caregiver) provided written informed consent.</p>
+                <p>To be able to have a larger recruitment base, we chose to include both children and teenagers in the study. As children needed to be able to read and understand the written text on the Internet platform, we chose 8 years as the minimum age. Age 7 or 8 is often the set starting age for these types of interventions. Some studies also have similar age ranges (7-13 or 7-14 years) [<xref rid="ref22" ref-type="bibr">22</xref>,<xref rid="ref23" ref-type="bibr">23</xref>]. The maximum age was chosen based on the need for self-determination and integrity that teenagers from the age of 15 years are granted in Sweden. If we would have included patients older than 15 years, then we would have to create two different log-ins in the Internet platform for the parent and the adolescents, which would make the treatment administration more complicated and would reduce the feasibility of the treatment. In the current intervention, participants and their parents had a common log-in and access to all modules throughout the course of treatment. The material on the Internet platform was common to all ages participating in the study, but the psychologist guiding the child tailored his or her messages to the child’s age.</p>
+                <p>The regional ethics review board in Stockholm approved the study (Daybook no: 2014/633-31/5).</p>
+              </sec>
+              <sec>
+                <title>Participants and Recruitment</title>
+                <p>We recruited participants in two phases from August 2014 to February 2015. Our team contacted both private (only in Stockholm) and public dental clinics in Sweden by email and encouraged them to advertise the study in their waiting rooms (posters could be ordered or downloaded from the website). Interested parents applied through the website of the Department of Dental Medicine at Karolinska Institutet (the website provided visitors with brief information about the study and a list of primary inclusion criteria (items 1-5, <xref ref-type="boxed-text" rid="box1">Textbox 1</xref>). <xref ref-type="boxed-text" rid="box1">Textboxes 1</xref> and <xref ref-type="boxed-text" rid="box1">2</xref> list the complete eligibility and exclusion criteria for participation in the study. A history of unsuccessful CBT for dental anxiety (during the past 3 years) suggests that this treatment might not be suitable. Therefore, we found it unethical to offer a treatment based on previous nonimprovement and excluded participants with earlier CBT experience. This is a standardized procedure in psychological treatment studies [<xref rid="ref24" ref-type="bibr">24</xref>]</p>
+                <p>In all, 34 parents applied to participate in the study, and 18 children fulfilled all inclusion criteria and no exclusion criteria (we included a patient with attention deficit hyperactivity disorder incorrectly in the study; this patient received treatment and was kept in the analysis on the basis of intention-to-treat principle). <xref ref-type="fig" rid="figure1">Figure 1</xref> shows the flow of participants through the trial.</p>
+                <p>The duration of dental fear before inclusion in the study was determined by directing the question “How many months has your child had his or her dental fear (including intraoral injection phobia)?” to the parent during the online screening (children and adolescents also received the question). The intensity of dental phobia was determined by 0 to 10 on a visual analog scale (VAS; no fear-strong fear) and the fear scale; Children’s Fear Survey Schedule-Dental Subscale (CFSS-DS). Intensity equal to or less than 3 on VAS and values less or equal to 31 on CFSS-DS evaluated by both child and parent were considered as too weak fear, which led to exclusion. Evaluation of duration and intensity of dental anxiety were also part of the diagnostic instrument K-SADS-PL, which were used during the telephone interview with the parents, evaluated by a psychologist.</p>
+                <boxed-text id="box1" position="float">
+                  <caption>
+                    <title>Inclusion criteria for participation in this study.</title>
+                  </caption>
+                  <list list-type="order">
+                    <list-item>
+                      <p>The participant is in the age range of 8 to 15 years.</p>
+                    </list-item>
+                    <list-item>
+                      <p>The participant had strong dental fear for at least 6 months before registering for the study.</p>
+                    </list-item>
+                    <list-item>
+                      <p>The participant and parent have regular access to a computer and the Internet.</p>
+                    </list-item>
+                    <list-item>
+                      <p>The participant is able to read and write in Swedish.</p>
+                    </list-item>
+                    <list-item>
+                      <p>The participant has no current or planned psychological examination or treatment.</p>
+                    </list-item>
+                    <list-item>
+                      <p>Participant and parents agree to participate in the research project.</p>
+                    </list-item>
+                    <list-item>
+                      <p>The participant and parent have the time, opportunity, and motivation to work on and practice ICBT for 3 hours a week over 12 weeks.</p>
+                    </list-item>
+                    <list-item>
+                      <p>Parents agree to book at least four visits at the dentist’s office during the 12 weeks of treatment.</p>
+                    </list-item>
+                    <list-item>
+                      <p>Parents give their consent for the participant to be exposed to intraoral injection at the dentist if the child suffers from intraoral injection phobia, even if the child has no dental treatment needs.</p>
+                    </list-item>
+                  </list>
+                </boxed-text>
+                <boxed-text id="box2" position="float">
+                  <caption>
+                    <title>Exclusion criteria for participation in this study.</title>
+                  </caption>
+                  <list list-type="order">
+                    <list-item>
+                      <p>Full scores on both the child and parent versions of the picture-guided behavioral avoidance test, which means that the child manages most of the procedures in dentistry.</p>
+                    </list-item>
+                    <list-item>
+                      <p>A score of 31 or less on both the child and parent versions of the Children’s Fear Survey Schedule- Dental Subscale while, at the same time, not fulfilling the criteria for intraoral injection phobia.</p>
+                    </list-item>
+                    <list-item>
+                      <p>Likely fulfillment of the criteria for a neurodevelopmental disorder according to the Development and Well-being Assessment and/or telephone interview by a psychologist.</p>
+                    </list-item>
+                    <list-item>
+                      <p>Other psychiatric disorders such as severe depression, an eating disorder, or self-harm behavior that need treatment before dentistry-related specific phobia.</p>
+                    </list-item>
+                    <list-item>
+                      <p>Stressful life experiences during the past 12 months, such as a difficult divorce in the family or somatic illness that the parent or psychologist sees as an obstacle to treatment.</p>
+                    </list-item>
+                    <list-item>
+                      <p>A history of cognitive behavioral treatment for dental anxiety or needle phobia during the past 3 years.</p>
+                    </list-item>
+                  </list>
+                </boxed-text>
+                <fig id="figure1" position="float">
+                  <label>Figure 1</label>
+                  <caption>
+                    <p>Flow of participants through the trial.</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v20i1e12_fig1"/>
+                </fig>
+                <p><xref rid="table1" ref-type="table">Table 1</xref> presents the sociodemographic and clinical characteristics of the participants in the intervention group.</p>
+              </sec>
+              <sec>
+                <title>Primary Outcome Measure</title>
+                <p>The primary outcome measures were the child and parental versions of the picture-guided behavior avoidance test (PG-BAT). The PG-BAT is an analogous test to the behavior avoidance test (BAT), which is the recommended outcome measure for CBT studies of phobias [<xref rid="ref13" ref-type="bibr">13</xref>,<xref rid="ref25" ref-type="bibr">25</xref>,<xref rid="ref26" ref-type="bibr">26</xref>]. The test is constructed by our research group and has been used in an earlier published study of face-to-face CBT for children and adolescents with dental phobia [<xref rid="ref14" ref-type="bibr">14</xref>].</p>
+                <p>Our study chose the PG-BAT because it is adapted to pediatric dentistry and is self-reported, possible to conduct on Internet, in contrast to the BAT, which is administered by clinicians face-to-face. The PG-BAT consists of 17 hierarchically organized dental-clinical situations. During this online self-reported test, the participant views pictures of a child going through different dental procedures. The participant responds, using yes or no answers, whether he or she could manage the situation. The test comprises these situations: going into the dental treatment room, sitting in the treatment chair, fastening a paper bib around the neck, lowering back the chair, opening mouth, undergoing a clinical exam with mirror and dental probe, dropbox receiving topical anesthesia, receiving an injection of local anesthesia, undergoing drilling, and undergoing extraction. The same process applies for the parental version (parents assess the child’s ability to manage the dental procedures listed above).</p>
+                <table-wrap id="table1" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Patient and clinical characteristics (n=18).</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="30" span="1"/>
+                    <col width="30" span="1"/>
+                    <col width="790" span="1"/>
+                    <col width="150" span="1"/>
+                    <thead>
+                      <tr valign="top">
+                        <td colspan="3" rowspan="1">Characteristic</td>
+                        <td rowspan="1" colspan="1">Value</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td colspan="3" rowspan="1">
+                          <bold>Patient characteristics</bold>
+                        </td>
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td colspan="2" rowspan="1">Age (years), mean (SD)</td>
+                        <td rowspan="1" colspan="1">11 (2)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td colspan="2" rowspan="1">Gender (female), n (%)</td>
+                        <td rowspan="1" colspan="1">11 (61)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td colspan="2" rowspan="1">Parent or sibling with dental fear, n (%)</td>
+                        <td rowspan="1" colspan="1">3 (6)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td colspan="2" rowspan="1">University education, mother, n (%)</td>
+                        <td rowspan="1" colspan="1">7 (39)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td colspan="2" rowspan="1">University education, father, n (%)</td>
+                        <td rowspan="1" colspan="1">8 (47)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td colspan="2" rowspan="1">One or both parents born in a country other than Sweden, n (%)</td>
+                        <td rowspan="1" colspan="1">3 (17)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td colspan="2" rowspan="1">Parents live together, n (%)</td>
+                        <td rowspan="1" colspan="1">12 (67)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="3" rowspan="1">
+                          <bold>Clinical characteristics</bold>
+                        </td>
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td colspan="2" rowspan="1">Comorbidity<sup>a</sup>, n (%)</td>
+                        <td rowspan="1" colspan="1">6 (30)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td colspan="2" rowspan="1">Duration of dental anxiety (years), mean (SD)</td>
+                        <td rowspan="1" colspan="1">4 (3)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td colspan="2" rowspan="1">Intraoral injection as main fear, n (%)</td>
+                        <td rowspan="1" colspan="1">14 (78)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td colspan="2" rowspan="1">
+                          <bold>Main reason for onset of fear</bold>
+                        </td>
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Negative experiences in dentistry, n (%)</td>
+                        <td rowspan="1" colspan="1">3 (17)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Negative experiences in health care, n (%)</td>
+                        <td rowspan="1" colspan="1">11 (61)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Model learning through parent or sibling, n (%)</td>
+                        <td rowspan="1" colspan="1">2 (11)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Do not know the reason, n (%)</td>
+                        <td rowspan="1" colspan="1">2 (11)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td colspan="2" rowspan="1">Experience of nitrous oxide, midazolam, or general anesthesia before ICBT<sup>b</sup>, n (%)</td>
+                        <td rowspan="1" colspan="1">11 (60)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td colspan="2" rowspan="1">Referred to pediatric dental clinic, n (%)</td>
+                        <td rowspan="1" colspan="1">8 (44)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="table1fn1">
+                      <p><sup>a</sup>Comorbidity diagnoses were phobia of dogs, wasps, or blood, as well as attention deficit hyperactivity disorder and language disorder.</p>
+                    </fn>
+                    <fn id="table1fn2">
+                      <p><sup>b</sup>ICBT: Internet-based cognitive behavioral therapy.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <p>The score for each child was the sum of positive responses to these items, from 0 (not entering the dentist’s room) to 17 (managing all activities including dental extraction), with 1 point for each stage until the point where the child discontinued the test. According to data (N=26) generated in an ongoing study, both the child and parental versions of this test have shown good internal reliability (with a Cronbach alpha of. 88 and .86, respectively) and validity (significant positive association between the instruments and a clinician-conducted face-to-face BAT; <italic>r</italic>=.68, N=36; <italic>P</italic>&lt;.001 for the child version and <italic>r</italic>=.75, N=37; <italic>P</italic>&lt;.001 for the parental version).</p>
+              </sec>
+              <sec>
+                <title>Secondary Outcome Measure</title>
+                <p><italic>Diagnosis of dental phobia</italic> assessed the presence of dentistry-related specific phobia as measured by the phobic disorders supplement included in K-SADS-PL. K-SADS-PL is a semistructured diagnostic interview guide that generates reliable and valid psychiatric diagnoses [<xref rid="ref27" ref-type="bibr">27</xref>]. We conducted interviews by telephone with one parent of the participants. All other outcome measures were self- or parent-reported and administered online.</p>
+              </sec>
+              <sec>
+                <title>Other Outcome Measures</title>
+                <p><italic>CFSS-DS</italic> child and parental versions, which consist of 15 items measuring the degree of fear associated with various situations in dental and medical care and with interactions with people unfamiliar to the child (scale 1-5, from no fear to high fear). The CFSS-DS for the Swedish version of the test has high test-retest reliability and validity [<xref rid="ref28" ref-type="bibr">28</xref>].</p>
+                <p><italic>Self-Efficacy Questionnaire for Specific Phobias</italic> (SEQ-SP), which consists of 14 questions assessing the level of self-efficacy (a 5-point scale, with the endpoints 1=low self-efficacy and 5=high self-efficacy). We used a version we translated to Swedish and adapted to dentistry. Flatt and King [<xref rid="ref29" ref-type="bibr">29</xref>] provide evidence for the reliability and validity of the SEQ-SP.</p>
+                <p><italic>Children’s negative cognitions in dentistry</italic> (CNCD), as measured using a scale constructed by our research team and inspired by a scale used in an earlier study of CBT for adults in dentistry [<xref rid="ref13" ref-type="bibr">13</xref>]. Our scale contains 5 items (a VAS with both numbers and happy and sad faces and the endpoints 0=not having negative thoughts and 10=having negative thoughts). It asks children about both the presence and strength of five negative thoughts that are common in dentistry: uncontrollability, distrust of dentists, unpredictability, dangerousness, and pain related to dentistry [<xref rid="ref30" ref-type="bibr">30</xref>,<xref rid="ref31" ref-type="bibr">31</xref>]. We assessed the internal consistency of this scale by analyzing a sample from this study and a sample from another ongoing study; reliability is good (Cronbach alpha coefficient of .89, n=26).</p>
+                <p><italic>Parental Self-Efficacy Questionnaire for Dental Anxiety</italic> (<italic>P</italic>-SEQ-DA), which is another measure constructed by our research team according to guidelines for constructing self-efficacy scales [<xref rid="ref32" ref-type="bibr">32</xref>]. It comprises 12 items asking parents to evaluate their ability to support their children in dental situations (with the endpoints 0=no parental self-efficacy and 100=very high parental self-efficacy). A sample from this study showed the <italic>P</italic>-SEQ-DA to have good internal consistency (Cronbach alpha reliability coefficient of .89, n=26).</p>
+                <p><italic>Injection phobia scale for children</italic> (IPSC), which measures changes in children’s degree of anxiety related to injection, consists of 18 items measuring the degree of fear associated with various situations associated to injection (scale 1-5, from no fear to high fear). The test has good reliability and validity [<xref rid="ref33" ref-type="bibr">33</xref>,<xref rid="ref34" ref-type="bibr">34</xref>].</p>
+                <p>In addition, participants and their parents responded to online questionnaires concerning the qualitative aspects of dental anxiety and ICBT with open answers, multiple choice questions, and VASs. We included questions evaluating the degree of satisfaction with the treatment. These questionnaires were delivered to the participants immediately after the treatment (week 13).</p>
+              </sec>
+              <sec>
+                <title>Procedure</title>
+                <p>The recruitment process began with an online screening comprising questionnaires about informed consent for primary caregivers and children and background information and inclusion and exclusion criteria for participation, as well as the CFSS-DS (child and parental), PG-BAT (child and parental), CNCD, and IPSC.</p>
+                <p>In the second step, parents received access to the Development and Well-Being Assessment (DAWBA) on the Internet and a personalized password. The DAWBA is a package of questionnaires and rating scales designed to generate the 10th revision of the International Statistical Classification of Diseases and Related Health Problems and DSM-IV psychiatric diagnoses for children in the age range of 5 to 17 years [<xref rid="ref35" ref-type="bibr">35</xref>,<xref rid="ref36" ref-type="bibr">36</xref>].</p>
+                <p>In the third step, parents were administered the K-SADS-PL over the phone to determine whether the child met the inclusion criteria for dental anxiety (including intraoral injection phobia) and other phobias (including general injection phobia, eg, vaccination). On the basis of the DAWBA and K-SADS-PL, a clinical psychologist determined if dental anxiety was the primary diagnosis and whether the participant met the inclusion criteria. If the child was over the age of 11 years, the psychologist conducted a short telephone interview with the child to ensure that the child had read the information about the project and was willing to participate. We conducted assessments before treatment (baseline), after treatment (12 weeks after the start of treatment), and at a 1-year follow-up. All assessments used online questionnaires except for the parent interview conducted with K-SADS-PL and questions about dental health staff and their acceptance of the treatment. These were administered by telephone interviews.</p>
+              </sec>
+              <sec>
+                <title>Intervention</title>
+                <p>The treatment manual comprised 12 modules (modules are distinct but interrelated units that ICBT is built upon) of guiding text (32,000 words), 18 worksheets, and 10 informational documents. <xref rid="table2" ref-type="table">Table 2</xref> shows the content of modules. We wrote the manual in Swedish, developing it and adapting it to the Internet from a face-to-face CBT manual [<xref rid="table2" ref-type="table">14</xref>]. Four experienced clinical psychologists and one specialist in pediatric dentistry (coauthors) read the manual and gave continuous feedback during its development. Participants accessed treatment modules through a specially designed participant-secure platform for Internet-based psychological treatments.</p>
+                <table-wrap id="table2" position="float">
+                  <label>Table 2</label>
+                  <caption>
+                    <p>Contents of the modules.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="30" span="1"/>
+                    <col width="170" span="1"/>
+                    <col width="800" span="1"/>
+                    <thead>
+                      <tr valign="top">
+                        <td colspan="2" rowspan="1">Modules</td>
+                        <td rowspan="1" colspan="1">Content</td>
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td colspan="2" rowspan="1">
+                          <bold>Intro (Modules 1-2)</bold>
+                        </td>
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">1-2</td>
+                        <td rowspan="1" colspan="1">Coach psychoeducation; practical arrangements; home assignment; how to guide a child to elicit and reinforce behavioral change; rewarding strategies; and enhancing the child's self-efficacy</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="2" rowspan="1">
+                          <bold>Exposure (Modules 3-11)</bold>
+                        </td>
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">3</td>
+                        <td rowspan="1" colspan="1">Behavioral analyses; child psychoeducation and treatment rationale; goal setting</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">4</td>
+                        <td rowspan="1" colspan="1">Constructing an exposure list and beginning exposure</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">5</td>
+                        <td rowspan="1" colspan="1">Continued exposure (films and training package) and controlled breathing</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">6</td>
+                        <td rowspan="1" colspan="1">Dentistry-related communication training; preparation for dental visit</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">7</td>
+                        <td rowspan="1" colspan="1">Evaluation of dental visit; cognitive restructuring</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">8</td>
+                        <td rowspan="1" colspan="1">Evaluation of ICBT<sup>a</sup> (so far); evaluation of exposure or treatment at a dental clinic; relaxation techniques</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">9</td>
+                        <td rowspan="1" colspan="1">Pain and pain management education; fear, thoughts, and pain; focus shift and acceptance training</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">10</td>
+                        <td rowspan="1" colspan="1">Problem solving and mindfulness training</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">11</td>
+                        <td rowspan="1" colspan="1">Repetition; strategies for maintaining change and relapse prevention; letter to yourself</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="2" rowspan="1">
+                          <bold>Diploma (Module 12)</bold>
+                        </td>
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">12</td>
+                        <td rowspan="1" colspan="1">Relapse prevention plan; enhance your self-efficacy; diploma</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="table2fn1">
+                      <p><sup>a</sup>ICBT: Internet-based cognitive behavioral therapy.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <sec>
+                  <title>Treatment Introduction</title>
+                  <p>The first two modules targeted the coach, who was a parent or other person significant to the child and accepted to take primary responsibility for assisting the child during the treatment. From module 3 onward, the text addressed the children directly. Each module consisted of a number of tasks (answering questions and filling out worksheets) that the participant had to complete before moving on to the next module.</p>
+                  <p><xref ref-type="fig" rid="figure2">Figure 2</xref> illustrates the components of the treatment. Early in treatment (module 2), we asked the coach to book a planning meeting (15 min) and a minimum of three dental appointments (30 min each) for exposure practice and dental care, to occur sometime between 6 weeks into the treatment and the end of treatment at 12 weeks. During treatment, the coach had access to an information sheet, available on the Internet platform that described the Internet treatment, basic aspects and rules of CBT, and the role of dental professionals during the Internet treatment. We asked coaches to send the information sheet to the dental clinics at which they had booked appointments. The dental care teams determined whether a dentist, dental hygienist, or dental assistant would take the main responsibility for exposure exercises at the dental clinic. The coach and children, together with their online psychologist, drafted suggestions concerning suitable exposure exercises that they then brought to the dental office for discussion.</p>
+                </sec>
+                <sec>
+                  <title>Psychologist Contact</title>
+                  <p>Each participant had a personal psychologist whom we introduced to the participant with a welcome letter at the beginning of treatment. Participants had continuous contact with their psychologist via a messaging system on the Internet platform. A psychologist guided the participants and their coaches during the 12 weeks of treatment. Two licensed psychologists provided this treatment. Both had a CBT qualification and experience in delivering CBT in pediatric dentistry. To increase treatment adherence and therapist competence, the psychologist with greater experience (8 years of experience as a therapist in pediatric dentistry) supervised the other psychologist on a weekly basis.</p>
+                </sec>
+                <sec>
+                  <title>Homework</title>
+                  <p>Each module ended with homework that contained both knowledge questions based on texts in the modules, as well as practical exercises such as exposures; registrations of, for example, negative thoughts related to dental care; relaxation exercises; and mindfulness. Exposure to dentistry-related video clips and audio files began from module 3. A practice package consisting of dental tools such as a dentist’s mirror, dental probe, topical anesthetic, and cannula were sent home to the coach together with detailed instructions for use and safety (tool kit in <xref ref-type="fig" rid="figure2">Figure 2</xref>). Parents and children had to complete the assigned homework after each session before they were allowed to progress to the next module. The psychologist sent a message to the participant once a week. Messages consisted of feedback on homework assignment and answers to questions parents or children raised. If the assignments were not completed, reminders were sent to the participant. Exposures at the dental office started after module 6. The psychologists would provide feedback and support on homework assignments to participants within 36 hours on weekdays.</p>
+                  <fig id="figure2" position="float">
+                    <label>Figure 2</label>
+                    <caption>
+                      <p>The components of the Internet-based treatment.</p>
+                    </caption>
+                    <graphic xlink:href="jmir_v20i1e12_fig2"/>
+                  </fig>
+                </sec>
+                <sec>
+                  <title>Relapse Prevention and Diploma</title>
+                  <p>The treatment was ended by repetition, strategies for maintaining change, and relapse prevention. The participant has the possibility to print a diploma accessible in module 12.</p>
+                  <p>The treatment manual for this study is available in Swedish and English and can be obtained by contacting the corresponding author.</p>
+                </sec>
+              </sec>
+              <sec>
+                <title>Statistical Analyses</title>
+                <p>On the basis of an earlier study of CBT for pediatric dental anxiety [<xref rid="ref14" ref-type="bibr">14</xref>], we expected a within-group Cohen <italic>d</italic> effect size of 0.80, which would require a sample size of 15 to achieve a power of 80% using a one-tailed test and alpha at .05.</p>
+                <p>The statistical analyses used Statistical package for the Social Sciences (SPSS) version 22 (IBM Corp). We analyzed data for the primary outcome measure (the PG-BAT, child and parental versions) and the other continuous measures (the CFSS-DS, child and parental versions; SEQ-SP; P-SEQ-DA; CNCS; and IPSC) using repeated measures analysis of variance. We also performed a separate sensitivity analysis for the primary outcome measure by putting missing data at the posttreatment and 1-year follow-up measurements (3 participants) with data from baseline assessments (assuming no change for these participants). Paired sample <italic>t</italic> tests compared continuous outcome measures from baseline to posttreatment, baseline to the 1-year follow-up, and posttreatment to the 1-year follow-up. Cochran Q test determined whether there were differences in the dichotomous dependent variables over time (from baseline to posttreatment to the 1-year follow-up). McNemar test explored if there were differences in the dichotomous dependent variables between two related groups (baseline to posttreatment, baseline to the 1-year follow-up, and posttreatment to the 1-year follow-up). Cohen <italic>d</italic>, based on pooled standard deviations, determined the effect sizes [<xref rid="ref37" ref-type="bibr">37</xref>]. We evaluated clinically significant improvement on the basis of the primary outcome (level of avoidance behavior, as measured by the PG-BAT), setting a value of 12 or above as the cut-off value for clinically significant change. Values above 12 meant that the participant managed injection with local anesthesia, which is a necessary task in dentistry. Thus, we dichotomized the PG-BAT values based on a cut-off value of 12. This definition has been used in an earlier published study of face-to-face CBT for children and adolescents with dental phobia [<xref rid="ref14" ref-type="bibr">14</xref>].</p>
+                <p>We also reported parents’ responses to an online question, which asked if the participants had undergone and managed intraoral injection at a dental clinic after the ICBT.</p>
+                <p>Engagement, adherence, and compliance were used as a measure of feasibility: Engagement is the number of participants who began a module. Adherence is the number of participants who completed at least 75% of the modules (9/12 modules), and compliance is the number who completed the treatment program (all 12 modules). We considered a treatment module as complete when the participants had completed the home assignment and returned it to the psychologist on the Internet platform.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results">
+              <title>Results</title>
+              <sec>
+                <title>Attrition and Dropout</title>
+                <p>Of 18 participants who began treatment, 2 discontinued participation in the study (<xref ref-type="fig" rid="figure1">Figure 1</xref>). In one case, the coach (mother) found the texts and home assignments too difficult to understand and manage. She declined participation after completing module 2. In the other case, the coach only performed the first assignment (module 1) and did not respond to reminders for continued participation. Another parent and her child dropped out after performing module 6. The parent stated that this was because of a crisis in their life situation and other priorities. However, the parent agreed to and partly completed the assessments at the posttreatment measurement, but they were not available for the 1-year follow-up.</p>
+              </sec>
+              <sec>
+                <title>Clinician Support and Adverse Effect</title>
+                <p>The average total clinician time per participant (including emails and telephone calls) was 5.4 hours (SD 2.3) which is approximately 30 min per week for each participant. We also asked participants and their parents about any negative or adverse effects of ICBT with a question in the online questionnaire they completed at the posttreatment assessment. None reported any negative effects.</p>
+              </sec>
+              <sec>
+                <title>Primary Outcome</title>
+                <p>Statistically significant changes in children’s self-perceived ability to manage dental care procedures according to the PG-BAT, child version (<italic>F</italic><sub>2,28</sub>=14.1,  <italic>P</italic>&lt;.001) and in parental perceptions of the child’s ability to manage dental care (not avoiding dental care), as measured by the PG-BAT, parental version (<italic>F</italic><sub>2,28</sub>=21.4,  <italic>P</italic>&lt;.001) occurred. There was a significant within-group improvement in both the child and the parental versions of the PG-BAT from baseline to posttreatment and from baseline to the 1-year follow-up (<xref rid="table3" ref-type="table">Table 3</xref>). No significant changes from posttreatment to the 1-year follow-up occurred. The sensitivity analyses showed no difference in significance levels from the original tests, which were missing data for three participants.</p>
+              </sec>
+              <sec>
+                <title>Secondary Outcome (Clinician Administered)</title>
+                <p>In the psychologist-administered telephone interviews with the parents, which used the K-SADS-PL (specific phobia section), there was a significant reduction over time in the proportion of participants with diagnosis dental anxiety (<italic>P</italic>=.001). We also found a significant reduction in the proportion of participants with a diagnosis of dental anxiety from baseline to posttreatment (<italic>P</italic>=.02) and from baseline to follow-up (<italic>P</italic>=.01). After treatment, 50% (7 /14) of participants no longer met the diagnostic criteria for dental anxiety and at the 1-year follow-up, 53% (8 /15). Corresponding reductions over time in injection phobia in the health care context (eg, vaccination) were also significant (<italic>P</italic>=.02). The proportion of participants with health care injection phobia reduced significantly from baseline to posttreatment (<italic>P</italic>=.008) but not from baseline to the 1-year-follow up (<italic>P</italic>=.06).</p>
+                <table-wrap id="table3" position="float">
+                  <label>Table 3</label>
+                  <caption>
+                    <p>Efficacy of cognitive behavioral therapy for children and adolescents with dental anxiety. Pre and post treatment and 1-year follow-up measures; <italic>P</italic> and <italic>t</italic> values; and effect sizes (according to Cohen <italic>d</italic>) and CIs.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="200" span="1"/>
+                    <col width="100" span="1"/>
+                    <col width="100" span="1"/>
+                    <col width="100" span="1"/>
+                    <col width="70" span="1"/>
+                    <col width="70" span="1"/>
+                    <col width="100" span="1"/>
+                    <col width="70" span="1"/>
+                    <col width="70" span="1"/>
+                    <col width="115" span="1"/>
+                    <thead>
+                      <tr valign="top">
+                        <td rowspan="2" colspan="1"><break/>Measures</td>
+                        <td rowspan="2" colspan="1">Pre<sup>a</sup> (N=16) Mean (SD<sup>b</sup>)</td>
+                        <td rowspan="2" colspan="1">Post<sup>c</sup> (N=16) <break/>Mean (SD)</td>
+                        <td rowspan="2" colspan="1">Follow-up<sup>d</sup>
+<break/>(N=15) <break/>Mean (SD)</td>
+                        <td colspan="3" rowspan="1"><break/>Prepost</td>
+                        <td colspan="3" rowspan="1"><break/>Prefollow-up</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1"><italic>P</italic> value</td>
+                        <td rowspan="1" colspan="1"><italic>t</italic> value</td>
+                        <td rowspan="1" colspan="1">Effect sizes <break/>(95% CI)</td>
+                        <td rowspan="1" colspan="1"><italic>P</italic> value</td>
+                        <td rowspan="1" colspan="1"><italic>t</italic> value</td>
+                        <td rowspan="1" colspan="1">Effect sizes <break/>(95% CI)</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">PG-BAT<sup>e</sup> child version</td>
+                        <td rowspan="1" colspan="1">10.5 (1.0)</td>
+                        <td rowspan="1" colspan="1">13.9 (2.9)</td>
+                        <td rowspan="1" colspan="1">13.7 (2.8)</td>
+                        <td rowspan="1" colspan="1">&lt;.001</td>
+                        <td rowspan="1" colspan="1">5.5</td>
+                        <td rowspan="1" colspan="1">1.5 (0.7-2.3)</td>
+                        <td rowspan="1" colspan="1">.001</td>
+                        <td rowspan="1" colspan="1">4.1</td>
+                        <td rowspan="1" colspan="1">1.4 (0.3-2.6)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">PG-BAT parental version</td>
+                        <td rowspan="1" colspan="1">9.3 (2.8)</td>
+                        <td rowspan="1" colspan="1">13.7 (3)</td>
+                        <td rowspan="1" colspan="1">13.7 (2.9)</td>
+                        <td rowspan="1" colspan="1">&lt;.001</td>
+                        <td rowspan="1" colspan="1">4.9</td>
+                        <td rowspan="1" colspan="1">1.5 (0.6-2.5)</td>
+                        <td rowspan="1" colspan="1">&lt;.001</td>
+                        <td rowspan="1" colspan="1">4.8</td>
+                        <td rowspan="1" colspan="1">1.6 (0.5-2.6)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">CFSS-DS<sup>f</sup> child version</td>
+                        <td rowspan="1" colspan="1">32.9 (10.2)</td>
+                        <td rowspan="1" colspan="1">24.1 (6.8)</td>
+                        <td rowspan="1" colspan="1">23.8 (6.4)</td>
+                        <td rowspan="1" colspan="1">&lt;.001</td>
+                        <td rowspan="1" colspan="1">6.3</td>
+                        <td rowspan="1" colspan="1">1.0 (0.5-1.6)</td>
+                        <td rowspan="1" colspan="1">.006</td>
+                        <td rowspan="1" colspan="1">3.2</td>
+                        <td rowspan="1" colspan="1">1.1 (0.2-1.9)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">CFSS-DS parental version</td>
+                        <td rowspan="1" colspan="1">35.4 (10.1)</td>
+                        <td rowspan="1" colspan="1">24.1 (6.3)</td>
+                        <td rowspan="1" colspan="1">25.0 (4.8)</td>
+                        <td rowspan="1" colspan="1">&lt;.001</td>
+                        <td rowspan="1" colspan="1">5.7</td>
+                        <td rowspan="1" colspan="1">1.3 (0.7-2.0)</td>
+                        <td rowspan="1" colspan="1">.001</td>
+                        <td rowspan="1" colspan="1">4.5</td>
+                        <td rowspan="1" colspan="1">1.3 (0.6-2.0)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">SEQ-SP<sup>g</sup></td>
+                        <td rowspan="1" colspan="1">27.8 (8.3)</td>
+                        <td rowspan="1" colspan="1">44.6 (6.9)</td>
+                        <td rowspan="1" colspan="1">44.1 (11.1)</td>
+                        <td rowspan="1" colspan="1">&lt;.001</td>
+                        <td rowspan="1" colspan="1">6.2</td>
+                        <td rowspan="1" colspan="1">2.2 (0.8-3.6)</td>
+                        <td rowspan="1" colspan="1">.001</td>
+                        <td rowspan="1" colspan="1">4.3</td>
+                        <td rowspan="1" colspan="1">1.66 (0.4-2.9)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">P-SEQ-DA<sup>h</sup></td>
+                        <td rowspan="1" colspan="1">107.9 (13.3)</td>
+                        <td rowspan="1" colspan="1">124.7 (7.2)</td>
+                        <td rowspan="1" colspan="1">118.7 (11.6)</td>
+                        <td rowspan="1" colspan="1">&lt;.001</td>
+                        <td rowspan="1" colspan="1">6.5</td>
+                        <td rowspan="1" colspan="1">1.6 (0.9-2.2)</td>
+                        <td rowspan="1" colspan="1">.02</td>
+                        <td rowspan="1" colspan="1">2.6</td>
+                        <td rowspan="1" colspan="1">0.9 (0.0-1.7)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">CNCD<sup>i</sup></td>
+                        <td rowspan="1" colspan="1">24.0 (12.6)</td>
+                        <td rowspan="1" colspan="1">8.0 (9.0)</td>
+                        <td rowspan="1" colspan="1">11.4 (10.1)</td>
+                        <td rowspan="1" colspan="1">&lt;.001</td>
+                        <td rowspan="1" colspan="1">5.4</td>
+                        <td rowspan="1" colspan="1">1.7 (0.6-2.9)</td>
+                        <td rowspan="1" colspan="1">.001</td>
+                        <td rowspan="1" colspan="1">4.8</td>
+                        <td rowspan="1" colspan="1">1.1 (0.5-1.8)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">IPSC<sup>j</sup></td>
+                        <td rowspan="1" colspan="1">44.4 (14.3)</td>
+                        <td rowspan="1" colspan="1">33.3 (10.9)</td>
+                        <td rowspan="1" colspan="1">35.9 (12.1)</td>
+                        <td rowspan="1" colspan="1">.001</td>
+                        <td rowspan="1" colspan="1">4.05</td>
+                        <td rowspan="1" colspan="1">0.9 (0.4-1.4)</td>
+                        <td rowspan="1" colspan="1">.08</td>
+                        <td rowspan="1" colspan="1">1.9</td>
+                        <td rowspan="1" colspan="1">0.6 (−.05 to 1.3)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="table3fn1">
+                      <p><sup>a</sup>Baseline measurement.</p>
+                    </fn>
+                    <fn id="table3fn2">
+                      <p><sup>b</sup>SD: standard deviation.</p>
+                    </fn>
+                    <fn id="table3fn3">
+                      <p><sup>c</sup>Posttreatment measurement (after 12 weeks of treatment).</p>
+                    </fn>
+                    <fn id="table3fn4">
+                      <p><sup>d</sup>1-year follow-up (1 year after posttreatment).</p>
+                    </fn>
+                    <fn id="table3fn5">
+                      <p><sup>e</sup>PG-BAT: picture-guided behavior avoidance test.</p>
+                    </fn>
+                    <fn id="table3fn6">
+                      <p><sup>f</sup>CFSS-DS: Children's Fear Survey Schedule-Dental Subscale.</p>
+                    </fn>
+                    <fn id="table3fn7">
+                      <p><sup>g</sup>SEQ-SP: Self-Efficacy Questionnaire for Specific Phobias.</p>
+                    </fn>
+                    <fn id="table3fn8">
+                      <p><sup>h</sup>P-SEQ-DA: Parental Self-Efficacy Questionnaire for Dental Anxiety.</p>
+                    </fn>
+                    <fn id="table3fn9">
+                      <p><sup>i</sup>CNCD: children’s negative cognitions in dentistry.</p>
+                    </fn>
+                    <fn id="table3fn10">
+                      <p><sup>j</sup>IPSC: injection phobia scale for children.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec>
+                <title>Other Outcomes (Self-Reported and Parent Reported)</title>
+                <p>There were significant changes in the participant’s self-perceived level of fear according to the CFSS-DS, child version (<italic>F</italic><sub>2,28</sub>=10.1,  <italic>P</italic>&lt;.001) and parental perceptions of the participant’s level of fear according to the CFSS-DS-P (<italic>F</italic><sub>2,28</sub>=18.6,  <italic>P</italic>&lt;.001). Similar results occurred in the child’s or adolescent’s level of self-efficacy, SEQ-SP (<italic>F</italic><sub>2,28</sub>=19.4,  <italic>P</italic>&lt;.001); parental self-efficacy, SEQ-DA-P (<italic>F</italic><sub>2,28</sub>=12.6, <italic>P</italic>&lt;.001); the CNCD (<italic>F</italic><sub>2,28</sub>=19.4, <italic>P</italic>&lt;.001); and for the general fear of injection (<italic>F</italic><sub>2,28</sub>=6.9, <italic>P</italic>=.01). There was a statistically significant within-group improvement from baseline to posttreatment and from baseline to the 1-year follow-up for all the continuous outcome measures except for the injection phobia scale, where the significant changes from baseline to posttreatment were not maintained at the 1-year follow-up (<xref rid="table3" ref-type="table">Table 3</xref>).</p>
+              </sec>
+              <sec>
+                <title>Effect Sizes</title>
+                <p>As <xref rid="table3" ref-type="table">Table 3</xref> shows, large within-group effect sizes between baseline and posttreatment measurements and from baseline to the 1-year follow-up measurements occurred for both the primary measurements, level of avoidance (the PG-BAT), and other continuous measurements.</p>
+              </sec>
+              <sec>
+                <title>Clinically Significant Improvement</title>
+                <p>There was a significant difference in the proportion of participants who managed to pass the cut-off value over time (baseline to post to 1-year follow-up) for both child- and parent-reported PG-BATs (<italic>P</italic>=.001). At the posttreatment measurement, 56% (9/16) of parents and children reported that the participant could manage an intraoral injection. The corresponding proportion was 60% (9/15) at the 1-year follow-up. At baseline, all participants and their parents had reported that the participant could not manage local anesthesia. The improvement from baseline to posttreatment (<italic>P</italic>=.008 for children and <italic>P</italic>=.002 for parents) and from baseline to 1-year follow-up (<italic>P</italic>=.008 for both) was significant for both the child or adolescent and parental versions of the PG-BAT. Moreover, agreeing with the dichotomized results of the PG-BAT above, 60% (9/15) of parents reported at the 1-year follow-up that their child had managed intraoral injection at the dental clinic.</p>
+              </sec>
+              <sec>
+                <title>Feasibility and Acceptability</title>
+                <p>Measures of feasibility were engagement=18/18, adherence=14/18, and compliance=5/18. Children and their coaches completed, on average, 9.2 (SD 3.3) of the 12 treatment modules. Moreover, the completed measure (at posttreatment) rate was 90% (16/18). Measure of acceptance, that is, the average level of satisfaction with the treatment at posttreatment (from 1=quite dissatisfied to 4=very satisfied) for the participants was 3.3 (SD 0.6) and for the parents, 3.1 (SD 0.4). There were 15 children and 15 parents who were mostly satisfied or very satisfied (3 and 4 on the scale), whereas 1 child and 1 parent were indifferent (2 on the scale). Some parents and children, however, requested less extensive texts with fewer repetitions in the treatment manual. For all 15 children, the parents were able to book and attend at least three appointments at the dental clinic during the 12 weeks of ICBT. Participants visited a dental assistant, a hygienist, or a dentist during these visits.</p>
+                <p>Parents did not report (in the telephone interview at posttreatment) any major problems in terms of the dental personnel’s acceptance of the Internet treatment. Parents reported that most of the dental professionals who met the child or adolescent during ICBT accepted the Internet treatment and showed interest in the treatment, meaning that they followed the information sheet that provided instructions for the staff. In two cases, however, coaches reported that the dental professionals were too cautious and avoided challenging exposures. According to these coaches, the dental professionals did not understand the importance of exposure and did not manage to help the children challenge their fear. Furthermore, two coaches felt uncomfortable with taking the time of the dental staff for training the child. We should also mention that, in three cases, the dental clinics meeting the participants initially asked for extra payment from our clinic for the extra costs of training the participants. However, when the clinic managers learned directly about the project from us, or via the parents, they dropped their requests for extra payment. We reminded these dental clinics that four visits, a total of 105 min, is not an unreasonable amount of time to train children who suffer from dental anxiety and that treatment of children with dental anxiety is a part of pediatric dentistry. In two cases, there was concern about getting too many participants from our project. We informed these clinics that no one clinic would receive too many such requests.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion">
+              <title>Discussion</title>
+              <sec>
+                <title>Principal Findings</title>
+                <p>The aim of this study was to test the hypothesis that psychologist-guided ICBT improves school-aged children’s and adolescents’ ability to manage dental anxiety by (1) decreasing avoidance and affecting the phobia diagnosis and (2) decreasing the dental fear and increasing the target groups’ self-efficacy. The study also aimed to examine the feasibility and acceptability of this novel treatment. The results show large within-group effect sizes (Cohen <italic>d</italic>) for the treatment, ranging from 0.9 to 2.2 for the outcome measures. Participants (8-15 years) improved their ability to cope with dental procedures, reduced their negative feelings and thoughts about dentistry, and increased their dentistry-related self-efficacy after the treatment. High levels of feasibility and acceptability (engagement, adherence, completed measures, and patient or parent satisfaction) were indicated by the results. Regarding compliance, the number of participants who completed all 12 modules was low, which indicates a need for reducing the number of modules.</p>
+                <p>Moreover, this study indicates that the treatment was acceptable from the perspective of dental health staff involved. Participating parents were able to book and attend at least three appointments at the dental clinic and meet a dental assistant, a hygienist, or a dentist. Parents overall reported high level of satisfaction concerning cooperation with the dental health staff that conducted the in vivo exposures.</p>
+              </sec>
+              <sec>
+                <title>Comparisons With Previous Work</title>
+                <p>Our results are in line with previous findings from a clinical trial testing a face-to-face CBT protocol for children and adolescents with dental anxiety [<xref rid="ref14" ref-type="bibr">14</xref>]. The observed effect sizes of face-to-face CBT, however, were larger, ranging from 1.3 to 2.9 for the outcome measures. In the face-to-face CBT trial, participants managed more dental procedures in the BAT on average, and fewer participants met the diagnostic criteria for dentistry-related specific phobia compared with the participants in this ICBT study. This result might imply that ICBT is less effective than CBT, but these differences could also be because of differences in study design between the two studies, such as the differing age ranges for participants, different versions of the primary outcome measure, different level of severity of phobia for populations in these studies, and access to treatment at general or pediatric specialist dental clinics. ICBT combined with treatment at the specialist clinic could result in better treatment effect than ICBT combined with treatment in general dentistry. Thus, the results from these two studies are not entirely comparable. Due to small group sizes, we have not been able to conduct subanalyses that allow us to study the effect of age and symptom severity on the treatment efficacy. However, a meta-analyses conducted by another research team did not find age effects in results of exposure treatment (CBT) of child and adolescent anxiety [<xref rid="ref38" ref-type="bibr">38</xref>].</p>
+                <p>Compared with self-help CBT for children with dental anxiety [<xref rid="ref21" ref-type="bibr">21</xref>], our treatment is more resource-demanding (patient and parents are guided by a psychologist during 12 weeks). However, the self- help resource in dentistry we mentioned earlier and the material it consists of has not been evaluated in RCT studies. The effect of self-help CBT for patients with severe symptoms and the diagnosis of dentistry-related specific phobia is uncertain. There is some evidence in the literature that guided ICBT is more effective than unguided [<xref rid="ref39" ref-type="bibr">39</xref>]. In this study, we wanted to build the new Internet-based treatment on the methods and material of the face-to-face psychologist-guided CBT program for pediatric dental phobia, which is evaluated in a RCT study [<xref rid="ref14" ref-type="bibr">14</xref>] and use the benefits of guided ICBT.</p>
+                <p>One interesting finding of this trial was that the effect size for children’s dentistry-related self-efficacy was as large as in the face-to-face study. This is a promising result as self-efficacy may be linked to clinically significant and sustainable behavioral change. In our earlier face-to-face CBT study, we hypothesized that differences in self-efficacy may explain why children in the treatment-as-usual group achieved, to a lesser extent, clinically significant behavior change [<xref rid="ref14" ref-type="bibr">14</xref>]. Our results suggest that ICBT, like CBT, has the potential to affect self-efficacy. This is important as self-efficacy may be a mechanism of change in psychotherapy [<xref rid="ref40" ref-type="bibr">40</xref>,<xref rid="ref41" ref-type="bibr">41</xref>]. The self-efficacy effect could also be related to the film exposures included in both face-to-face therapy and ICBT. These film scenes were based on the principles of model learning and promoted processes that facilitate development of self-efficacy [<xref rid="ref40" ref-type="bibr">40</xref>]. Studies have shown that vicarious exposure and film modeling can be as effective as or even more effective than live exposure when dealing with fear stimuli [<xref rid="ref42" ref-type="bibr">42</xref>,<xref rid="ref43" ref-type="bibr">43</xref>].</p>
+                <p>Another interesting finding was that the participants’ fear of injection in general (in health care settings, eg, vaccination) decreased, as indicated by the clinical interview with parents and the injection phobia scale. The effect, however, was limited to changes from baseline to posttreatment measurements and was not maintained at the follow-up assessment.</p>
+                <p>In an earlier interview study with children and adolescent who had received CBT in dentistry, parents and children expressed uncertainty about the children’s ability to manage injections outside of dental care (eg, vaccinations and blood sampling). Continued fear of injection in a health care setting could threaten improvement from CBT treatment in dentistry and enhance the risk of relapse to intraoral injection phobia [<xref rid="ref9" ref-type="bibr">9</xref>]. Treatment module 12 contained recommendations for practices to help generalize the child’s ability to receive injections in other health care settings. However, as mentioned in the results, only 5 of the participants completed and sent back the home assignments for module 12, which could mean that the remaining participants did not follow or use these recommendations. To address this, we should perhaps place the part of treatment dealing with general injection phobia in an earlier module and stress it more by incorporating planned exposures for injection training with health care staff.</p>
+                <p>The results of this study also agree with evaluations of evidence-based psychological treatments such as one-session CBT treatment for pediatric-specific phobias. In a study of one-session treatment, 49% of participants were free of a specific-phobia diagnosis at a 6-month follow-up [<xref rid="ref44" ref-type="bibr">44</xref>] compared with 53% at the 1-year follow-up in our study. Others have reported similar results for ICBT in children with specific phobias, with approximately 50% of children at a 3-month follow-up free from a specific-phobia diagnosis [<xref rid="ref18" ref-type="bibr">18</xref>,<xref rid="ref20" ref-type="bibr">20</xref>].</p>
+                <p>Comparing one-session treatment and therapist-guided Internet treatment for spider phobia, both groups achieved clinically significant results according to the BAT. Approximately 70% achieved this effect at a 1-year follow-up [<xref rid="ref19" ref-type="bibr">19</xref>]. Similar effects appear for ICBT in children with anxiety disorder, with 75% of participants reported as diagnosis-free at a 6-month follow-up [<xref rid="ref17" ref-type="bibr">17</xref>]. The two booster sessions that participants were offered after treatment and before the follow-up may explain the higher percentage of diagnosis-free participants in the last study [<xref rid="ref20" ref-type="bibr">20</xref>]. Implementing booster sessions in ICBT for pediatric dental anxiety may be a way to increase its treatment efficacy.</p>
+              </sec>
+              <sec>
+                <title>Limitations</title>
+                <p>This study is limited by its design and lack of a control group, which would make between-group comparisons possible. Participant improvements could hypothetically be a result of other factors than the treatment, such as time and maturation of the child; thus, the results should be interpreted with caution. However, CBT for specific phobias has shown good effects in numerous controlled studies [<xref rid="ref11" ref-type="bibr">11</xref>,<xref rid="ref44" ref-type="bibr">44</xref>]. On average, the participants in this study reported suffering from dental anxiety for 4 years before the study, which contradicts the supposition that this fear would disappear without treatment.</p>
+                <p>To take part in this study, a parent or coach needed to have the ability to manage the project information, apply for participation, and continuously support the participant during the project. Participants whose coach lacked these resources and abilities would have difficulty participating. As in several other ICBT studies, a high percentage of the coaches were well-educated, which may imply a limitation that parents with restricted resources and low education would struggle to access treatment.</p>
+                <p>Another limitation is that some of the measures used in this study were new and constructed in our research group. We had to construct these instruments because of a lack of suitable instruments for measuring behavioral and cognitive dimensions of pediatric dental phobia in the literature. These new measures need to be validated in larger studies.</p>
+              </sec>
+              <sec>
+                <title>Future Directions</title>
+                <p>Strengths of this study include a threefold measurement (child, coach, and psychologist assessments). Furthermore, the trial was conducted in a naturalistic dental care setting, which means that participants had the opportunity to experience exposure in vivo. Nevertheless, there is a need to modify and customize ICBT for participants and coaches who are less accustomed to reading texts, for instance by including short filmed lectures and fewer modules. Using ICBT to facilitate interaction between children or adolescents, coach or parent, and the medical or dental care staff is a novel approach implemented in this study. There is a potential to further develop this approach by increasing interaction with dental care staff. In this study, coaches brought short information sheets about ICBT to the staff they met. Providing access to brief ICBT courses for the dental care staff and supervision for them could increase treatment effect.</p>
+                <p>Another way to increase the dental health staff´s interaction could be to give them access to the Internet platform for the ICBT and allow the staff to take part; comment and give feedback to the participants during the whole ICBT. Although this may make the treatment more efficacious, there is a risk for making the treatment too demanding and time-consuming for the participating staff, which could decrease the staffs’ acceptability. Studies that investigate the dental health staff acceptability for ICBT by qualitative interviews are important to conduct. Future studies should also test the ICBT for pediatric dental anxiety in RCTs.</p>
+              </sec>
+              <sec>
+                <title>Conclusions</title>
+                <p>If results of this open trial can be replicated in future controlled studies, there would be a potential for dental care systems to gain an effective evidence-based psychological treatment for children with dental anxiety—regardless of where they live or their access to specialist pediatric dental care —with relatively low personnel costs. While acknowledging the limitations of this study, we conclude that ICBT for dental anxiety in children and adolescents could be a feasible and efficacious treatment with the potential to increase accessibility to effective treatment.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>The authors would like to thank the participating children or adolescents and their parents or coaches, dental assistant Katarina Edentorp Eriksson for help coordinating the project, psychologist Sara Ytterbrink for help constructing the Internet CBT platform and treating participants, the dental staff that met and trained the participants, the dental staff that acted in video clips included in the treatment program, Viggo and Lo Shahnavaz for enriching the treatment manual with a child’s perspective through their feedback and comments and also for acting as participants in the video clips, professor Nils Lindefors for helping supervise the project, and the Internet-psychiatry unit at Stockholm County Council for giving participants access to the Internet treatment platform. They also thank the Mayflower Charity Foundation for Children, Karolinska Institutet, and the Stockholm County Council (SOF 16102563) for financial support of this project.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="con">
+                <p>Authors' Contributions: SS, TH, EH, LR, and GD conceived and designed the experiments. SS and TH performed the experiments. SS, EH, VK, LR, and GD analyzed the data. SS, TH, EH, VK, LR, and GD contributed reagents or materials or analysis tools. SS wrote the paper. TH, EH, VK, LR, and GD reviewed and commented on the paper.</p>
+              </fn>
+              <fn fn-type="COI-statement">
+                <p>Conflicts of Interest: None declared.</p>
+              </fn>
+            </fn-group>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term id="abb2">BAT</term>
+                  <def>
+                    <p>behavior avoidance test</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb3">CBT</term>
+                  <def>
+                    <p>cognitive behavioral therapy</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb4">CFSS-DS</term>
+                  <def>
+                    <p>Children's Fear Survey Schedule-Dental Subscale</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb5">CNCD</term>
+                  <def>
+                    <p>children’s negative cognitions in dentistry</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb6">DAWBA</term>
+                  <def>
+                    <p>Development and Well-Being Assessment</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb7">DSM-IV</term>
+                  <def>
+                    <p>Diagnostic and Statistical Manual of Mental Disorders-4th edition</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb8">ICBT</term>
+                  <def>
+                    <p>Internet-based cognitive behavioral therapy</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb9">IPSC</term>
+                  <def>
+                    <p>injection phobia scale for children</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb10">K-SADS-PL</term>
+                  <def>
+                    <p>Kiddie-Schedule for Affective Disorders and Schizophrenia for School-Age Children-Present and Lifetime version</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb11">PG-BAT</term>
+                  <def>
+                    <p>picture-guided behavior avoidance test</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb12">P-SEQ-DA</term>
+                  <def>
+                    <p>Parental Self-Efficacy Questionnaire for Dental Anxiety</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb13">RCT</term>
+                  <def>
+                    <p>randomized controlled trial</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb14">SEQ-SP</term>
+                  <def>
+                    <p>Self-Efficacy Questionnaire for Specific Phobias</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb15">SD</term>
+                  <def>
+                    <p>standard deviation</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb16">VAS</term>
+                  <def>
+                    <p>visual analog scale</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <ref-list>
+              <ref id="ref1">
+                <label>1</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Klingberg</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Broberg</surname>
+                      <given-names>AG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dental fear/anxiety and dental behaviour management problems in children and adolescents: a review of prevalence and concomitant psychological factors</article-title>
+                  <source>Int J Paediatr Dent</source>
+                  <year>2007</year>
+                  <month>11</month>
+                  <volume>17</volume>
+                  <issue>6</issue>
+                  <fpage>391</fpage>
+                  <lpage>406</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1365-263X.2007.00872.x</pub-id>
+                  <pub-id pub-id-type="medline">17935593</pub-id>
+                  <!--<pub-id pub-id-type="pii">IPD872</pub-id>-->
+                  <pub-id pub-id-type="pmid">17935593</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref2">
+                <label>2</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>American Psychiatric Association</collab>
+                  </person-group>
+                  <source>Diagnostic and statistical manual of mental disorders (DSM-IV-TR), 4th edition, text revision</source>
+                  <year>2000</year>
+                  <publisher-loc>Washington, DC</publisher-loc>
+                  <publisher-name>American Psychiatric Association</publisher-name>
+                  <fpage>1</fpage>
+                  <lpage>485</lpage>
+                </element-citation>
+              </ref>
+              <ref id="ref3">
+                <label>3</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Crego</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Carrillo-Díaz</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Armfield</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Romero</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>From public mental health to community oral health: the impact of dental anxiety and fear on dental status</article-title>
+                  <source>Front Public Health</source>
+                  <year>2014</year>
+                  <volume>2</volume>
+                  <fpage>16</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fpubh.2014.00016</pub-id>
+                  <pub-id pub-id-type="doi">10.3389/fpubh.2014.00016</pub-id>
+                  <pub-id pub-id-type="medline">24616889</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC3937873</pub-id>-->
+                  <pub-id pub-id-type="pmid">24616889</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref4">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wide</surname>
+                      <given-names>BU</given-names>
+                    </name>
+                    <name>
+                      <surname>Carlsson</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Westin</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Hakeberg</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Psychological treatment of dental anxiety among adults: a systematic review</article-title>
+                  <source>Eur J Oral Sci</source>
+                  <year>2013</year>
+                  <month>6</month>
+                  <volume>121</volume>
+                  <issue>3 Pt 2</issue>
+                  <fpage>225</fpage>
+                  <lpage>34</lpage>
+                  <pub-id pub-id-type="doi">10.1111/eos.12032</pub-id>
+                  <pub-id pub-id-type="medline">23659254</pub-id>
+                  <pub-id pub-id-type="pmid">23659254</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>JF</given-names>
+                    </name>
+                    <name>
+                      <surname>Curzon</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Koch</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Martens</surname>
+                      <given-names>LC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Review: behaviour management techniques in paediatric dentistry</article-title>
+                  <source>Eur Arch Paediatr Dent</source>
+                  <year>2010</year>
+                  <month>8</month>
+                  <volume>11</volume>
+                  <issue>4</issue>
+                  <fpage>166</fpage>
+                  <lpage>74</lpage>
+                  <pub-id pub-id-type="medline">20840826</pub-id>
+                  <!--<pub-id pub-id-type="pii">10.05</pub-id>-->
+                  <pub-id pub-id-type="pmid">20840826</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Klingberg</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson-Wenckert</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Grindefjord</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Lundin</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ridell</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Tsilingaridis</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Ullbro</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Specialist paediatric dentistry in Sweden 2008 - a 25-year perspective</article-title>
+                  <source>Int J Paediatr Dent</source>
+                  <year>2010</year>
+                  <month>9</month>
+                  <day>01</day>
+                  <volume>20</volume>
+                  <issue>5</issue>
+                  <fpage>313</fpage>
+                  <lpage>21</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1365-263X.2010.01057.x</pub-id>
+                  <pub-id pub-id-type="medline">20545788</pub-id>
+                  <!--<pub-id pub-id-type="pii">IPD1057</pub-id>-->
+                  <pub-id pub-id-type="pmid">20545788</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mejàre</surname>
+                      <given-names>IA</given-names>
+                    </name>
+                    <name>
+                      <surname>Klingberg</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Mowafi</surname>
+                      <given-names>FK</given-names>
+                    </name>
+                    <name>
+                      <surname>Stecksén-Blicks</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Twetman</surname>
+                      <given-names>SH</given-names>
+                    </name>
+                    <name>
+                      <surname>Tranæus</surname>
+                      <given-names>SH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A systematic map of systematic reviews in pediatric dentistry--what do we really know?</article-title>
+                  <source>PLoS One</source>
+                  <year>2015</year>
+                  <volume>10</volume>
+                  <issue>2</issue>
+                  <fpage>e0117537</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://dx.plos.org/10.1371/journal.pone.0117537"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0117537</pub-id>
+                  <pub-id pub-id-type="medline">25706629</pub-id>
+                  <!--<pub-id pub-id-type="pii">PONE-D-14-41142</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC4338212</pub-id>-->
+                  <pub-id pub-id-type="pmid">25706629</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Porritt</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Marshman</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodd</surname>
+                      <given-names>HD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Understanding children's dental anxiety and psychological approaches to its reduction</article-title>
+                  <source>Int J Paediatr Dent</source>
+                  <year>2012</year>
+                  <month>11</month>
+                  <volume>22</volume>
+                  <issue>6</issue>
+                  <fpage>397</fpage>
+                  <lpage>405</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1365-263X.2011.01208.x</pub-id>
+                  <pub-id pub-id-type="medline">22221141</pub-id>
+                  <pub-id pub-id-type="pmid">22221141</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shahnavaz</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rutley</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Larsson</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Dahllöf</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Children and parents' experiences of cognitive behavioral therapy for dental anxiety--a qualitative study</article-title>
+                  <source>Int J Paediatr Dent</source>
+                  <year>2015</year>
+                  <month>9</month>
+                  <volume>25</volume>
+                  <issue>5</issue>
+                  <fpage>317</fpage>
+                  <lpage>26</lpage>
+                  <pub-id pub-id-type="doi">10.1111/ipd.12181</pub-id>
+                  <pub-id pub-id-type="medline">26147012</pub-id>
+                  <pub-id pub-id-type="pmid">26147012</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ollendick</surname>
+                      <given-names>TH</given-names>
+                    </name>
+                    <name>
+                      <surname>King</surname>
+                      <given-names>NJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Empirically supported treatments for children with phobic and anxiety disorders: current status</article-title>
+                  <source>J Clin Child Psychol</source>
+                  <year>1998</year>
+                  <month>6</month>
+                  <volume>27</volume>
+                  <issue>2</issue>
+                  <fpage>156</fpage>
+                  <lpage>67</lpage>
+                  <pub-id pub-id-type="doi">10.1207/s15374424jccp2702_3</pub-id>
+                  <pub-id pub-id-type="medline">9648033</pub-id>
+                  <pub-id pub-id-type="pmid">9648033</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Davis</surname>
+                      <given-names>TE</given-names>
+                    </name>
+                    <name>
+                      <surname>May</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Whiting</surname>
+                      <given-names>SE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Evidence-based treatment of anxiety and phobia in children and adolescents: current status and effects on the emotional response</article-title>
+                  <source>Clin Psychol Rev</source>
+                  <year>2011</year>
+                  <month>6</month>
+                  <volume>31</volume>
+                  <issue>4</issue>
+                  <fpage>592</fpage>
+                  <lpage>602</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cpr.2011.01.001</pub-id>
+                  <pub-id pub-id-type="medline">21482318</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0272-7358(11)00006-7</pub-id>-->
+                  <pub-id pub-id-type="pmid">21482318</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kvale</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Berggren</surname>
+                      <given-names>U</given-names>
+                    </name>
+                    <name>
+                      <surname>Milgrom</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dental fear in adults: a meta-analysis of behavioral interventions</article-title>
+                  <source>Community Dent Oral Epidemiol</source>
+                  <year>2004</year>
+                  <month>8</month>
+                  <volume>32</volume>
+                  <issue>4</issue>
+                  <fpage>250</fpage>
+                  <lpage>64</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1600-0528.2004.00146.x</pub-id>
+                  <pub-id pub-id-type="medline">15239776</pub-id>
+                  <!--<pub-id pub-id-type="pii">COM146</pub-id>-->
+                  <pub-id pub-id-type="pmid">15239776</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref13">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Haukebø</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Skaret</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ost</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Raadal</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Berg</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Sundberg</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Kvale</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>One- vs. five-session treatment of dental phobia: a randomized controlled study</article-title>
+                  <source>J Behav Ther Exp Psychiatry</source>
+                  <year>2008</year>
+                  <month>9</month>
+                  <volume>39</volume>
+                  <issue>3</issue>
+                  <fpage>381</fpage>
+                  <lpage>90</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jbtep.2007.09.006</pub-id>
+                  <pub-id pub-id-type="medline">18005932</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0005-7916(07)00060-2</pub-id>-->
+                  <pub-id pub-id-type="pmid">18005932</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref14">
+                <label>14</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shahnavaz</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Hedman</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Grindefjord</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Reuterskiöld</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Dahllöf</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cognitive behavioral therapy for children with dental anxiety</article-title>
+                  <source>JDR Clin Trans Res</source>
+                  <year>2016</year>
+                  <month>10</month>
+                  <volume>1</volume>
+                  <issue>3</issue>
+                  <fpage>234</fpage>
+                  <lpage>243</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://journals.sagepub.com/doi/abs/10.1177/2380084416661473 "/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1177/2380084416661473</pub-id>
+                  <pub-id pub-id-type="pmid">29417092</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref15">
+                <label>15</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Svensson</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Larsson</surname>
+                      <given-names>Å</given-names>
+                    </name>
+                    <name>
+                      <surname>Öst</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>How children experience brief-exposure treatment of specific phobias</article-title>
+                  <source>J Clin Child Adolesc Psychol</source>
+                  <year>2002</year>
+                  <month>3</month>
+                  <volume>31</volume>
+                  <issue>1</issue>
+                  <fpage>80</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="doi">10.1207/S15374424JCCP3101_10</pub-id>
+                  <pub-id pub-id-type="medline">11845654</pub-id>
+                  <pub-id pub-id-type="pmid">11845654</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref16">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hedman</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Lindefors</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cognitive behavior therapy via the Internet: a systematic review of applications, clinical efficacy and cost-effectiveness</article-title>
+                  <source>Expert Rev Pharmacoecon Outcomes Res</source>
+                  <year>2012</year>
+                  <month>12</month>
+                  <volume>12</volume>
+                  <issue>6</issue>
+                  <fpage>745</fpage>
+                  <lpage>64</lpage>
+                  <pub-id pub-id-type="doi">10.1586/erp.12.67</pub-id>
+                  <pub-id pub-id-type="medline">23252357</pub-id>
+                  <pub-id pub-id-type="pmid">23252357</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref17">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vigerland</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Lenhard</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Bonnert</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Lalouni</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Hedman</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ahlen</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Olén</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Serlachius</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Internet-delivered cognitive behavior therapy for children and adolescents: a systematic review and meta-analysis</article-title>
+                  <source>Clin Psychol Rev</source>
+                  <year>2016</year>
+                  <month>12</month>
+                  <volume>50</volume>
+                  <fpage>1</fpage>
+                  <lpage>10</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://linkinghub.elsevier.com/retrieve/pii/S0272-7358(15)30090-8"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.cpr.2016.09.005</pub-id>
+                  <pub-id pub-id-type="medline">27668988</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0272-7358(15)30090-8</pub-id>-->
+                  <pub-id pub-id-type="pmid">27668988</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref18">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vigerland</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Thulin</surname>
+                      <given-names>U</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Svirsky</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Ost</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Lindefors</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Serlachius</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Internet-delivered CBT for children with specific phobia: a pilot study</article-title>
+                  <source>Cogn Behav Ther</source>
+                  <year>2013</year>
+                  <volume>42</volume>
+                  <issue>4</issue>
+                  <fpage>303</fpage>
+                  <lpage>14</lpage>
+                  <pub-id pub-id-type="doi">10.1080/16506073.2013.844201</pub-id>
+                  <pub-id pub-id-type="medline">24245708</pub-id>
+                  <pub-id pub-id-type="pmid">24245708</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref19">
+                <label>19</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Waara</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Jonsson</surname>
+                      <given-names>U</given-names>
+                    </name>
+                    <name>
+                      <surname>Malmaeus</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Carlbring</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Ost</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Internet-based self-help versus one-session exposure in the treatment of spider phobia: a randomized controlled trial</article-title>
+                  <source>Cogn Behav Ther</source>
+                  <year>2009</year>
+                  <volume>38</volume>
+                  <issue>2</issue>
+                  <fpage>114</fpage>
+                  <lpage>20</lpage>
+                  <pub-id pub-id-type="doi">10.1080/16506070902931326</pub-id>
+                  <pub-id pub-id-type="medline">20183690</pub-id>
+                  <!--<pub-id pub-id-type="pii">912392743</pub-id>-->
+                  <pub-id pub-id-type="pmid">20183690</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref20">
+                <label>20</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vigerland</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Thulin</surname>
+                      <given-names>U</given-names>
+                    </name>
+                    <name>
+                      <surname>Öst</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Serlachius</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Internet-delivered cognitive behavioural therapy for children with anxiety disorders: a randomised controlled trial</article-title>
+                  <source>Behav Res Ther</source>
+                  <year>2016</year>
+                  <month>1</month>
+                  <volume>76</volume>
+                  <fpage>47</fpage>
+                  <lpage>56</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://linkinghub.elsevier.com/retrieve/pii/S0005-7967(15)30055-3"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.brat.2015.11.006</pub-id>
+                  <pub-id pub-id-type="medline">26649465</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0005-7967(15)30055-3</pub-id>-->
+                  <pub-id pub-id-type="pmid">26649465</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref21">
+                <label>21</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Porritt</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodd</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Morgan</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Gupta</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Kirby</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Creswell</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Newton</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Stevens</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Baker</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Prasad</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Marshman</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Development and testing of a Cognitive Behavioural Therapy resource for children's dental anxiety</article-title>
+                  <source>JDR Clin Trans Res</source>
+                  <year>2017</year>
+                  <month>1</month>
+                  <volume>2</volume>
+                  <issue>1</issue>
+                  <fpage>23</fpage>
+                  <lpage>37</lpage>
+                  <pub-id pub-id-type="doi">10.1177/2380084416673798</pub-id>
+                  <pub-id pub-id-type="pmid">28879243</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref22">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Khanna</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                    <name>
+                      <surname>Kendall</surname>
+                      <given-names>PC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Computer-assisted cognitive behavioral therapy for child anxiety: results of a randomized clinical trial</article-title>
+                  <source>J Consult Clin Psychol</source>
+                  <year>2010</year>
+                  <month>10</month>
+                  <volume>78</volume>
+                  <issue>5</issue>
+                  <fpage>737</fpage>
+                  <lpage>45</lpage>
+                  <pub-id pub-id-type="doi">10.1037/a0019739</pub-id>
+                  <pub-id pub-id-type="medline">20873909</pub-id>
+                  <!--<pub-id pub-id-type="pii">2010-19874-014</pub-id>-->
+                  <pub-id pub-id-type="pmid">20873909</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref23">
+                <label>23</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Spence</surname>
+                      <given-names>SH</given-names>
+                    </name>
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>March</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipp</surname>
+                      <given-names>OV</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The feasibility and outcome of clinic plus internet delivery of cognitive-behavior therapy for childhood anxiety</article-title>
+                  <source>J Consult Clin Psychol</source>
+                  <year>2006</year>
+                  <month>6</month>
+                  <volume>74</volume>
+                  <issue>3</issue>
+                  <fpage>614</fpage>
+                  <lpage>21</lpage>
+                  <pub-id pub-id-type="doi">10.1037/0022-006X.74.3.614</pub-id>
+                  <pub-id pub-id-type="medline">16822117</pub-id>
+                  <!--<pub-id pub-id-type="pii">2006-08433-020</pub-id>-->
+                  <pub-id pub-id-type="pmid">16822117</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref24">
+                <label>24</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hedman</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Rück</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Asmundson</surname>
+                      <given-names>GJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Lindefors</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Internet-based cognitive-behavioural therapy for severe health anxiety: randomised controlled trial</article-title>
+                  <source>Br J Psychiatry</source>
+                  <year>2011</year>
+                  <month>3</month>
+                  <volume>198</volume>
+                  <issue>3</issue>
+                  <fpage>230</fpage>
+                  <lpage>6</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://bjp.rcpsych.org/cgi/pmidlookup?view=long&amp;pmid=21357882"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1192/bjp.bp.110.086843</pub-id>
+                  <pub-id pub-id-type="medline">21357882</pub-id>
+                  <!--<pub-id pub-id-type="pii">198/3/230</pub-id>-->
+                  <pub-id pub-id-type="pmid">21357882</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref25">
+                <label>25</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Öst</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Skaret</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Hakeberg</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Raadal</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Haukebø</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Vika</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Öst</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Skaret</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <source>Cognitive Behaviour Therapy for Dental Phobia andAnxiety</source>
+                  <year>2013</year>
+                  <publisher-loc>Chichester, West Sussex, UK</publisher-loc>
+                  <publisher-name>John Wiley &amp; Sons</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref26">
+                <label>26</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Davis</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Ollendick</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Öst</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Davis</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Ollendick</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Öst</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <source>Intensive One-Session Treatment of Specific Phobias</source>
+                  <year>2012</year>
+                  <publisher-loc>New York</publisher-loc>
+                  <publisher-name>Springer</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref27">
+                <label>27</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kaufman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Birmaher</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Brent</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Rao</surname>
+                      <given-names>U</given-names>
+                    </name>
+                    <name>
+                      <surname>Flynn</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Moreci</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Williamson</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Ryan</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Schedule for affective disorders and schizophrenia for school-age children-present and lifetime version (K-SADS-PL): initial reliability and validity data</article-title>
+                  <source>J Am Acad Child Adolesc Psychiatry</source>
+                  <year>1997</year>
+                  <month>7</month>
+                  <volume>36</volume>
+                  <issue>7</issue>
+                  <fpage>980</fpage>
+                  <lpage>8</lpage>
+                  <pub-id pub-id-type="doi">10.1097/00004583-199707000-00021</pub-id>
+                  <pub-id pub-id-type="medline">9204677</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0890-8567(09)62555-7</pub-id>-->
+                  <pub-id pub-id-type="pmid">9204677</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref28">
+                <label>28</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Klingberg</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Reliability and validity of the Swedish version of the Dental Subscale of the Children's Fear Survey Schedule, CFSS-DS</article-title>
+                  <source>Acta Odontol Scand</source>
+                  <year>1994</year>
+                  <month>8</month>
+                  <volume>52</volume>
+                  <issue>4</issue>
+                  <fpage>255</fpage>
+                  <lpage>6</lpage>
+                  <pub-id pub-id-type="medline">7985512</pub-id>
+                  <pub-id pub-id-type="pmid">7985512</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref29">
+                <label>29</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Flatt</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>King</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Self-Efficacy Questionnaire for Phobic Situations (SEQ-SP): development and Psychometric Evaluation</article-title>
+                  <source>Behav change</source>
+                  <year>2012</year>
+                  <month>2</month>
+                  <day>22</day>
+                  <volume>26</volume>
+                  <issue>02</issue>
+                  <fpage>141</fpage>
+                  <lpage>152</lpage>
+                  <pub-id pub-id-type="doi">10.1375/bech.26.2.141</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref30">
+                <label>30</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Armfield</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Slade</surname>
+                      <given-names>GD</given-names>
+                    </name>
+                    <name>
+                      <surname>Spencer</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cognitive vulnerability and dental fear</article-title>
+                  <source>BMC Oral Health</source>
+                  <year>2008</year>
+                  <month>1</month>
+                  <day>24</day>
+                  <volume>8</volume>
+                  <fpage>2</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://bmcoralhealth.biomedcentral.com/articles/10.1186/1472-6831-8-2"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1186/1472-6831-8-2</pub-id>
+                  <pub-id pub-id-type="medline">18218075</pub-id>
+                  <!--<pub-id pub-id-type="pii">1472-6831-8-2</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC2266729</pub-id>-->
+                  <pub-id pub-id-type="pmid">18218075</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref31">
+                <label>31</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Armfield</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Towards a better understanding of dental anxiety and fear: cognitions vs. experiences</article-title>
+                  <source>Eur J Oral Sci</source>
+                  <year>2010</year>
+                  <month>6</month>
+                  <volume>118</volume>
+                  <issue>3</issue>
+                  <fpage>259</fpage>
+                  <lpage>64</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1600-0722.2010.00740.x</pub-id>
+                  <pub-id pub-id-type="medline">20572859</pub-id>
+                  <!--<pub-id pub-id-type="pii">EOS740</pub-id>-->
+                  <pub-id pub-id-type="pmid">20572859</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref32">
+                <label>32</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bandura</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Urdan</surname>
+                      <given-names>TC</given-names>
+                    </name>
+                    <name>
+                      <surname>Pajares</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Guide for Creating Self Efficacy Scale</article-title>
+                  <source>SelfEfficacy Beliefs of Adolescents</source>
+                  <year>2006</year>
+                  <publisher-loc>Greenwich, CT</publisher-loc>
+                  <publisher-name>Information Age Pub., Inc</publisher-name>
+                  <fpage>1</fpage>
+                  <lpage>367</lpage>
+                </element-citation>
+              </ref>
+              <ref id="ref33">
+                <label>33</label>
+                <element-citation publication-type="webpage">
+                  <source>Diva-portal</source>
+                  <year>2008</year>
+                  <date-in-citation>2017-05-06</date-in-citation>
+                  <comment>Injection phobi scale for children Internet
+<ext-link ext-link-type="uri" xlink:href="https://www.diva-portal.org/smash/get/diva2:199342/FULLTEXT01.pdf">https://www.diva-portal.org/smash/get/diva2:199342/FULLTEXT01.pdf</ext-link><ext-link ext-link-type="webcite" xlink:href="6qFh4apcL"/></comment>
+                </element-citation>
+              </ref>
+              <ref id="ref34">
+                <label>34</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Öst</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Hellström</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Kåver</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>One versus five sessions of exposure in the treatment of injection phobia</article-title>
+                  <source>Behav Ther</source>
+                  <year>1992</year>
+                  <month>3</month>
+                  <volume>23</volume>
+                  <issue>2</issue>
+                  <fpage>263</fpage>
+                  <lpage>281</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0005-7894(05)80385-5</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref35">
+                <label>35</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Goodman</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Ford</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Richards</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Gatward</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Meltzer</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The development and well-being assessment: description and initial validation of an integrated assessment of child and adolescent psychopathology</article-title>
+                  <source>J Child Psychol Psychiatry</source>
+                  <year>2000</year>
+                  <month>7</month>
+                  <volume>41</volume>
+                  <issue>5</issue>
+                  <fpage>645</fpage>
+                  <lpage>55</lpage>
+                  <pub-id pub-id-type="medline">10946756</pub-id>
+                  <pub-id pub-id-type="pmid">10946756</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref36">
+                <label>36</label>
+                <element-citation publication-type="webpage">
+                  <source>dawba</source>
+                  <year>2012</year>
+                  <date-in-citation>2017-05-06</date-in-citation>
+                  <comment>Development and Well-Being Assessment
+<ext-link ext-link-type="uri" xlink:href="http://www.dawba.com">http://www.dawba.com</ext-link><ext-link ext-link-type="webcite" xlink:href="6qFhcJo26"/></comment>
+                </element-citation>
+              </ref>
+              <ref id="ref37">
+                <label>37</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cohen</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A power primer</article-title>
+                  <source>Psychol Bull</source>
+                  <year>1992</year>
+                  <month>7</month>
+                  <volume>112</volume>
+                  <issue>1</issue>
+                  <fpage>155</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="medline">19565683</pub-id>
+                  <pub-id pub-id-type="pmid">19565683</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref38">
+                <label>38</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bennett</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Manassis</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Walter</surname>
+                      <given-names>SD</given-names>
+                    </name>
+                    <name>
+                      <surname>Cheung</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilansky-Traynor</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Diaz-Granados</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Duda</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rice</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Baer</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Barrett</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Bodden</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Cobham</surname>
+                      <given-names>VE</given-names>
+                    </name>
+                    <name>
+                      <surname>Dadds</surname>
+                      <given-names>MR</given-names>
+                    </name>
+                    <name>
+                      <surname>Flannery-Schroeder</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ginsburg</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Heyne</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Hudson</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                    <name>
+                      <surname>Kendall</surname>
+                      <given-names>PC</given-names>
+                    </name>
+                    <name>
+                      <surname>Liber</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Warner</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Mendlowitz</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Nauta</surname>
+                      <given-names>MH</given-names>
+                    </name>
+                    <name>
+                      <surname>Rapee</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Silverman</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Siqueland</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Spence</surname>
+                      <given-names>SH</given-names>
+                    </name>
+                    <name>
+                      <surname>Utens</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Wood</surname>
+                      <given-names>JJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cognitive behavioral therapy age effects in child and adolescent anxiety: an individual patient data metaanalysis</article-title>
+                  <source>Depress Anxiety</source>
+                  <year>2013</year>
+                  <month>9</month>
+                  <volume>30</volume>
+                  <issue>9</issue>
+                  <fpage>829</fpage>
+                  <lpage>41</lpage>
+                  <pub-id pub-id-type="doi">10.1002/da.22099</pub-id>
+                  <pub-id pub-id-type="medline">23658135</pub-id>
+                  <pub-id pub-id-type="pmid">23658135</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref39">
+                <label>39</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baumeister</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Reichler</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Munzinger</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The impact of guidance on Internet-based mental health interventions—A systematic review</article-title>
+                  <source>Internet Interv</source>
+                  <year>2014</year>
+                  <month>10</month>
+                  <volume>1</volume>
+                  <issue>4</issue>
+                  <fpage>205</fpage>
+                  <lpage>215</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.invent.2014.08.003</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref40">
+                <label>40</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bandura</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Self-efficacy: toward a unifying theory of behavioral change</article-title>
+                  <source>Psychol Rev</source>
+                  <year>1977</year>
+                  <month>3</month>
+                  <volume>84</volume>
+                  <issue>2</issue>
+                  <fpage>191</fpage>
+                  <lpage>215</lpage>
+                  <pub-id pub-id-type="medline">847061</pub-id>
+                  <pub-id pub-id-type="pmid">847061</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref41">
+                <label>41</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gallagher</surname>
+                      <given-names>MW</given-names>
+                    </name>
+                    <name>
+                      <surname>Payne</surname>
+                      <given-names>LA</given-names>
+                    </name>
+                    <name>
+                      <surname>White</surname>
+                      <given-names>KS</given-names>
+                    </name>
+                    <name>
+                      <surname>Shear</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Woods</surname>
+                      <given-names>SW</given-names>
+                    </name>
+                    <name>
+                      <surname>Gorman</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Barlow</surname>
+                      <given-names>DH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mechanisms of change in cognitive behavioral therapy for panic disorder: the unique effects of self-efficacy and anxiety sensitivity</article-title>
+                  <source>Behav Res Ther</source>
+                  <year>2013</year>
+                  <month>11</month>
+                  <volume>51</volume>
+                  <issue>11</issue>
+                  <fpage>767</fpage>
+                  <lpage>77</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/24095901"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.brat.2013.09.001</pub-id>
+                  <pub-id pub-id-type="medline">24095901</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0005-7967(13)00155-1</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC3866809</pub-id>-->
+                  <pub-id pub-id-type="pmid">24095901</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref42">
+                <label>42</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Golkar</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Selbing</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Flygare</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Ohman</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Olsson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Other people as means to a safe end: vicarious extinction blocks the return of learned fear</article-title>
+                  <source>Psychol Sci</source>
+                  <year>2013</year>
+                  <month>11</month>
+                  <day>01</day>
+                  <volume>24</volume>
+                  <issue>11</issue>
+                  <fpage>2182</fpage>
+                  <lpage>90</lpage>
+                  <pub-id pub-id-type="doi">10.1177/0956797613489890</pub-id>
+                  <pub-id pub-id-type="medline">24022651</pub-id>
+                  <!--<pub-id pub-id-type="pii">0956797613489890</pub-id>-->
+                  <pub-id pub-id-type="pmid">24022651</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref43">
+                <label>43</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Melamed</surname>
+                      <given-names>BG</given-names>
+                    </name>
+                    <name>
+                      <surname>Weinstein</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Katin-Borland</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Hawes</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Reduction of fear-related dental management problems with use of filmed modeling</article-title>
+                  <source>J Am Dent Assoc</source>
+                  <year>1975</year>
+                  <month>4</month>
+                  <volume>90</volume>
+                  <issue>4</issue>
+                  <fpage>822</fpage>
+                  <lpage>6</lpage>
+                  <pub-id pub-id-type="medline">123932</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0002-8177(75)04039-1</pub-id>-->
+                  <pub-id pub-id-type="pmid">123932</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref44">
+                <label>44</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ollendick</surname>
+                      <given-names>TH</given-names>
+                    </name>
+                    <name>
+                      <surname>Ost</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Reuterskiöld</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Costa</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Cederlund</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Sirbu</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Davis</surname>
+                      <given-names>TE</given-names>
+                    </name>
+                    <name>
+                      <surname>Jarrett</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>One-session treatment of specific phobias in youth: a randomized clinical trial in the United States and Sweden</article-title>
+                  <source>J Consult Clin Psychol</source>
+                  <year>2009</year>
+                  <month>6</month>
+                  <volume>77</volume>
+                  <issue>3</issue>
+                  <fpage>504</fpage>
+                  <lpage>16</lpage>
+                  <pub-id pub-id-type="doi">10.1037/a0015158</pub-id>
+                  <pub-id pub-id-type="medline">19485591</pub-id>
+                  <!--<pub-id pub-id-type="pii">2009-08093-012</pub-id>-->
+                  <pub-id pub-id-type="pmid">19485591</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

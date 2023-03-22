@@ -1,0 +1,2069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:05:07Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6080578" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6080578</identifier>
+        <datestamp>2018-08-09</datestamp>
+        <setSpec>nic</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Neuroimage Clin</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Neuroimage Clin</journal-id>
+              <journal-title-group>
+                <journal-title>NeuroImage : Clinical</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2213-1582</issn>
+              <publisher>
+                <publisher-name>Elsevier</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6080578</article-id>
+              <article-id pub-id-type="pmcid">PMC6080578</article-id>
+              <article-id pub-id-type="pmc-uid">6080578</article-id>
+              <article-id pub-id-type="pmid">30094173</article-id>
+              <article-id pub-id-type="publisher-id">S2213-1582(18)30217-1</article-id>
+              <article-id pub-id-type="doi">10.1016/j.nicl.2018.07.005</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Regular Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Lateral parietal contributions to memory impairment in posterior cortical atrophy</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ahmed</surname>
+                    <given-names>Samrah</given-names>
+                  </name>
+                  <email>Samrah.ahmed@ndcn.ox.ac.uk</email>
+                  <xref rid="af0005" ref-type="aff">a</xref>
+                  <xref rid="cr0005" ref-type="corresp">⁎</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Loane</surname>
+                    <given-names>Clare</given-names>
+                  </name>
+                  <xref rid="af0010" ref-type="aff">b</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bartels</surname>
+                    <given-names>Sara</given-names>
+                  </name>
+                  <xref rid="af0015" ref-type="aff">c</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Zamboni</surname>
+                    <given-names>Giovanna</given-names>
+                  </name>
+                  <xref rid="af0005" ref-type="aff">a</xref>
+                  <xref rid="af0045" ref-type="aff">i</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mackay</surname>
+                    <given-names>Clare</given-names>
+                  </name>
+                  <xref rid="af0020" ref-type="aff">d</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Baker</surname>
+                    <given-names>Ian</given-names>
+                  </name>
+                  <xref rid="af0025" ref-type="aff">e</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Husain</surname>
+                    <given-names>Masud</given-names>
+                  </name>
+                  <xref rid="af0005" ref-type="aff">a</xref>
+                  <xref rid="af0030" ref-type="aff">f</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Thompson</surname>
+                    <given-names>Sian</given-names>
+                  </name>
+                  <xref rid="af0035" ref-type="aff">g</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hornberger</surname>
+                    <given-names>Michael</given-names>
+                  </name>
+                  <xref rid="af0040" ref-type="aff">h</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Butler</surname>
+                    <given-names>Christopher</given-names>
+                  </name>
+                  <xref rid="af0005" ref-type="aff">a</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="af0005"><label>a</label>Nuffield Department of Clinical Neurosciences, University of Oxford, John Radcliffe Hospital, Oxford, UK</aff>
+              <aff id="af0010"><label>b</label>Institute of Cognitive Neuroscience, University College London, London, UK</aff>
+              <aff id="af0015"><label>c</label>Department of Psychiatry and Neuropsychology and Alzheimer Centre Limburg, School for Mental Health and Neurosciences, Maastricht University, Maastricht, the Netherlands</aff>
+              <aff id="af0020"><label>d</label>Department of Psychiatry, University of Oxford, Oxford, UK</aff>
+              <aff id="af0025"><label>e</label>Russell Cairns Unit, Oxford Radcliffe Hospitals NHS Foundation Trust, John Radcliffe Hospital, Oxford, UK</aff>
+              <aff id="af0030"><label>f</label>Department of Experimental Psychology, University of Oxford, John Radcliffe Hospital, Oxford, UK</aff>
+              <aff id="af0035"><label>g</label>Department of Clinical Neurology, Oxford Radcliffe Hospitals NHS Foundation Trust, John Radcliffe Hospital, Oxford, UK</aff>
+              <aff id="af0040"><label>h</label>Norwich Medical School, University of East Anglia, Norwich, UK</aff>
+              <aff id="af0045"><label>i</label>Center for Neuroscience and Neurotechnology, University of Modena and Reggio Emilia, Italy</aff>
+              <author-notes>
+                <corresp id="cr0005"><label>⁎</label>Corresponding author. Nuffield Department of Clinical Neurosciences, University of Oxford, John Radcliffe Hospital, OX3 9DU Oxford, UK. <email>Samrah.ahmed@ndcn.ox.ac.uk</email></corresp>
+              </author-notes>
+              <pub-date pub-type="pmc-release">
+                <day>05</day>
+                <month>7</month>
+                <year>2018</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+              <pub-date pub-type="collection">
+                <year>2018</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>05</day>
+                <month>7</month>
+                <year>2018</year>
+              </pub-date>
+              <volume>20</volume>
+              <fpage>252</fpage>
+              <lpage>259</lpage>
+              <history>
+                <date date-type="received">
+                  <day>1</day>
+                  <month>4</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>4</day>
+                  <month>6</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="accepted">
+                  <day>3</day>
+                  <month>7</month>
+                  <year>2018</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2018 The Authors</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <license license-type="CC BY-NC-ND" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+                  <license-p>This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).</license-p>
+                </license>
+              </permissions>
+              <abstract id="ab0005">
+                <sec>
+                  <title>Objective</title>
+                  <p>Posterior cortical atrophy (PCA) is a neurodegenerative syndrome characterised by progressive impairment in visuospatial and perceptual function. Recent findings show that memory functioning can also be compromised early in the course of disease. In this study, we investigated the neural basis of memory impairment in PCA, and hypothesised that correlations would be observed with parietal cortex rather than classic medial temporal memory structures.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p>Eighteen PCA patients, 15 typical Alzheimer's disease (tAD) patients and 21 healthy controls underwent memory testing with the Rey Auditory Verbal Learning Test (RAVLT) word list and MRI. Voxel-based morphometry (VBM) was used to identify regions in the parietal and medial temporal lobes that correlated with memory performance.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p>Compared with controls, PCA patients were impaired at learning, immediate and delayed recall and recognition of the RAVLT. Learning rate and immediate recall was significantly better in PCA compared to tAD, whereas there was no difference in delayed recall. Recognition memory also was not statistically different between patient groups, but PCA patients made significantly more false positive errors than tAD patients. VBM analysis in the PCA patients revealed a significant correlation between total learning and grey matter density in the right supramarginal gyrus, right angular gyrus and left postcentral gyrus. The left post central gyrus also significantly correlated with immediate and delayed recall and with recognition memory. No correlations were detected in the medial temporal lobe.</p>
+                </sec>
+                <sec>
+                  <title>Conclusions</title>
+                  <p>The findings provide novel evidence that early verbal memory impairment is frequently observed in PCA, and is associated with damage to lateral parietal structures. The results have implications for the diagnosis and management of PCA.</p>
+                </sec>
+              </abstract>
+              <abstract abstract-type="author-highlights" id="ab0010">
+                <title>Highlights</title>
+                <p>
+                  <list list-type="simple" id="l0005">
+                    <list-item id="li0005">
+                      <label>•</label>
+                      <p id="p0005">PCA patients were impaired in learning, recall and recognition memory.</p>
+                    </list-item>
+                    <list-item id="li0010">
+                      <label>•</label>
+                      <p id="p0010">Deficits were evident in the early stages of disease.</p>
+                    </list-item>
+                    <list-item id="li0015">
+                      <label>•</label>
+                      <p id="p0015">Memory impairment was associated with damage to lateral parietal structures.</p>
+                    </list-item>
+                    <list-item id="li0020">
+                      <label>•</label>
+                      <p id="p0020">No correlations were detected in the medial temporal lobe.</p>
+                    </list-item>
+                  </list>
+                </p>
+              </abstract>
+              <kwd-group id="ks0005">
+                <title>Keywords</title>
+                <kwd>Posterior cortical atrophy</kwd>
+                <kwd>Episodic memory</kwd>
+                <kwd>Attention</kwd>
+                <kwd>Alzheimer's disease</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="s0005">
+              <label>1</label>
+              <title>Introduction</title>
+              <p id="p0025">Posterior cortical atrophy (PCA) is characterised by progressive impairment of visuospatial and visuoperceptual function that is not attributable to ocular disease (<xref rid="bb0190" ref-type="bibr">McMonagle et al., 2006</xref>; <xref rid="bb0255" ref-type="bibr">Tang-Wai et al., 2004</xref>). Impaired object and space perception is prominent, often accompanied by other features of posterior cortical dysfunction. The most common underlying cause is Alzheimer's pathology (<xref rid="bb0220" ref-type="bibr">Renner et al., 2004</xref>), although in a minority of cases alternative aetiologies, including corticobasal degeneration, dementia with Lewy bodies and prion disease, are implicated (<xref rid="bb0075" ref-type="bibr">Crutch et al., 2017</xref>).</p>
+              <p id="p0030">Much research on PCA has concentrated on defining the visuospatial deficits (<xref rid="bb0070" ref-type="bibr">Crutch et al., 2013</xref>). Diagnostic criteria emphasise that episodic memory is relatively spared in the early stages (<xref rid="bb0190" ref-type="bibr">McMonagle et al., 2006</xref>; <xref rid="bb0195" ref-type="bibr">Migliaccio et al., 2009</xref>). However, there is accumulating evidence of memory dysfunction in PCA(<xref rid="bb0190" ref-type="bibr">McMonagle et al., 2006</xref>; <xref rid="bb0050" ref-type="bibr">Charles and Hillis, 2005</xref>), and our work has shown that encoding and retrieval of new verbal information is significantly impaired in PCA patients compared to controls at initial presentation (<xref rid="bb0005" ref-type="bibr">Ahmed et al., 2016</xref>). Recently published consensus criteria also report that some PCA patients commonly report prominent memory disturbances at clinical presentation (<xref rid="bb0075" ref-type="bibr">Crutch et al., 2017</xref>). Since memory impairment could be amongst the presenting features in PCA, there is a need for better understanding of the neurocognitive mechanisms underlying this impairment, mechanisms which have to date remained entirely unexplored. Compared with tAD, voxel-based morphometry (VBM) studies in PCA show relatively minimal involvement of classically implicated memory circuitry i.e. the medial temporal lobes (MTL) (<xref rid="bb0145" ref-type="bibr">Kas et al., 2011</xref>; <xref rid="bb0160" ref-type="bibr">Lehmann et al., 2011</xref>; <xref rid="bb0280" ref-type="bibr">Whitwell et al., 2007</xref>). Instead, PCA patients show a characteristic pattern of atrophy in parieto-occipital and temporo-occipital cortices compared with controls, with significant grey matter reductions predominantly in the right superior parietal lobe (<xref rid="bb0160" ref-type="bibr">Lehmann et al., 2011</xref>). Brain perfusion studies show bilateral and symmetrical hypoperfusion of the posterior cortex, with the most marked decrease found in the inferior parietal cortex (<xref rid="bb0145" ref-type="bibr">Kas et al., 2011</xref>).</p>
+              <p id="p0035">Memory is not a cognitive function typically credited to the lateral parietal regions. Classic discourses describing the function of the parietal lobe make little mention of memory processes (e.g., (<xref rid="bb0065" ref-type="bibr">Critchley, 1953</xref>; <xref rid="bb0175" ref-type="bibr">Luria, 1976</xref>)). Recent investigation, however, suggests that the lateral parietal cortex may play an integrative role in episodic memory that has been largely underappreciated. Episodic memory tasks consistently show greater lateral parietal activation for encoding and retrieval of items, although more commonly for the latter process (<xref rid="bb0080" ref-type="bibr">Davidson et al., 2008</xref>; <xref rid="bb0140" ref-type="bibr">Hutchinson et al., 2009</xref>; <xref rid="bb0265" ref-type="bibr">Uncapher and Wagner, 2009</xref>), and lesion studies of patients with focal parietal damage provide further supporting evidence (<xref rid="bb0025" ref-type="bibr">Berryhill et al., 2007</xref>; <xref rid="bb0235" ref-type="bibr">Simons et al., 2010</xref>). Accordingly, given the relative sparing of the MTL in PCA, we hypothesize that memory impairment may be subserved by regions of the parietal lobe, and in particular, regions of the lateral parietal lobe that appear to be most severely compromised. This is in direct contrast to neural correlates of word list learning in AD. Using the Rey auditory verbal learning task (RAVLT), a widely used verbal episodic list learning task to quantify memory impairment in AD and preclinical AD, studies have shown consistent atrophy of medial temporal (<xref rid="bb0015" ref-type="bibr">Balthazar et al., 2010</xref>; <xref rid="bb0290" ref-type="bibr">Wolk and Dickerson, 2011</xref>) and medial parietal regions (<xref rid="bb0030" ref-type="bibr">Brugnolo et al., 2014</xref>) across imaging modalities.</p>
+              <p id="p0040">The aim of this study was to characterise the behavioural and neuroanatomical profile of memory impairment in PCA. Specifically, we predicted that PCA patients would not differ from AD patient controls in free recall measures of new learning but that PCA patients would benefit more from assessment of memory using recognition memory test formats, showing normal performance, given relative sparing of the MTL. Anatomically, we hypothesised that impairment on word list learning would correlate with sites of early and typical dysfunction in the lateral parietal regions in PCA, rather than classic memory structures of the MTL.</p>
+            </sec>
+            <sec id="s0010">
+              <label>2</label>
+              <title>Material and methods</title>
+              <sec id="s0015">
+                <label>2.1</label>
+                <title>Participants</title>
+                <p id="p0045">18 PCA patients were recruited through the Oxford Cognitive Disorders Clinic, Oxford, UK. Diagnosis was established by a senior behavioural neurologist (CRB, ST or MH) and neuropsychologists (IB and SA). All patients fulfilled consensus criteria for PCA (<xref rid="bb0255" ref-type="bibr">Tang-Wai et al., 2004</xref>; <xref rid="bb0075" ref-type="bibr">Crutch et al., 2017</xref>), based upon clinical assessment, brain imaging and detailed neuropsychological assessment. Clinical magnetic resonance imaging (MRI) confirmed focal atrophy in the occipital and parietal lobes.</p>
+                <p id="p0050">Three controls groups were used for comparison with the PCA patients. The first group (HC1) consisted of 21 healthy controls, and was used to analyse neuropsychological test performance in the PCA patients. These participants had no objective cognitive impairment (scored &gt;88 on the Addenbrooke's Cognitive Examination-Revised (<xref rid="bb0200" ref-type="bibr">Mioshi et al., 2006</xref>)), and no prior history of psychiatric illness, significant head injury, or cerebrovascular disease, and were not prescribed any medication known to affect cognition.</p>
+                <p id="p0055">The second group (tAD patient controls) consisted of 15 tAD patients, recruited from the dementia research clinic in Norwich, UK, as a disease control group for neuropsychological data analysis. tAD controls fulfilled consensus criteria for Alzheimer's disease (<xref rid="bb0180" ref-type="bibr">McKhann et al., 1984</xref>; <xref rid="bb0185" ref-type="bibr">McKhann et al., 2011</xref>), based upon clinical assessment, detailed neuropsychological assessment, and structural brain imaging. tAD patients showed marked impairment in episodic memory, with relatively preserved behaviour and personality, and characteristic bilateral medial temporal, with other more general atrophy.</p>
+                <p id="p0060">PCA patients, HC1 and tAD control groups were matched for age, years of education and gender distribution (<xref rid="t0005" ref-type="table">Table 1</xref>). PCA and tAD controls were matched for symptom duration, i.e. time since the first symptom was noticed. PCA patients did not demonstrate evidence of depressed mood or elevated stress levels, but did show significantly raised anxiety levels compared to controls. However, the group average (3.4) was still well within the normal range (0–7) on the Depression, Anxiety Stress Scale (DASS).<table-wrap id="t0005" position="float"><label>Table 1</label><caption><p>Demographic and clinical characteristics of control and patient groups. Standard deviation given in brackets. Total scores achievable on neuropsychological tests, where applicable, in brackets in right column. Values in bold indicate significant group differences.</p></caption><alt-text id="al0020">Table 1</alt-text><table frame="hsides" rules="groups"><thead><tr><th/><th>HC1</th><th>HC2</th><th>PCA</th><th>tAD</th><th>HC1 × PCA</th><th>HC1 × tAD</th><th>PCA × tAD</th><th>HC1 × HC2</th></tr></thead><tbody><tr><td>Demographics</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>N</td><td>21</td><td>45</td><td>18</td><td>15</td><td>–</td><td>–</td><td>–</td><td/></tr><tr><td>Age (yrs)</td><td>63.4 (6.1)</td><td>64.4 (7.2)</td><td>64.9 (6.8)</td><td>68.6 (9.7)</td><td>0.898</td><td>0.126</td><td>0.411</td><td>0.577</td></tr><tr><td>Education (yrs)</td><td>14.4 (2.1)</td><td>14.2 (3.0)</td><td>13.6 (2.0)</td><td>12.6 (6.5)</td><td>0.821</td><td>0.413</td><td>0.824</td><td>0.751</td></tr><tr><td>Gender (m:f)</td><td>9:12</td><td>25:20</td><td>#’;lmn 9:9</td><td>8:7</td><td>0.656</td><td>0.535</td><td>0.849</td><td>0.336</td></tr><tr><td>Symptom duration (yrs)</td><td>–</td><td>/. M,./</td><td>3.8 (1.9)</td><td>3.0 (0.8)</td><td>–</td><td>–</td><td>0.130</td><td/></tr><tr><td>DASS<xref rid="tf0005" ref-type="table-fn">1</xref> depression scale (normal range 0–9)</td><td>2.1 (2.5)</td><td/><td>5.5 (9.3)</td><td>–</td><td>0.119</td><td>–</td><td>–</td><td/></tr><tr><td>DASS anxiety scale (normal range 0–7)</td><td>1.0 (2.1)</td><td/><td>3.4 (3.1)</td><td>–</td><td><bold>0.019</bold></td><td>–</td><td>–</td><td/></tr><tr><td>DASS stress scale (normal range 0–14)</td><td>4.0 (4.5)</td><td/><td>5.6 (5.0)</td><td>–</td><td>0.318</td><td>–</td><td>–</td><td/></tr><tr><td>Background neuropsychological profile</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>ACE III Total (100)</td><td>96.0 (4.3)</td><td/><td>55.4 (15.7)</td><td>66.9 (22.1)</td><td><bold>0.000</bold></td><td><bold>0.000</bold></td><td>0.092</td><td/></tr><tr><td>ACE III Attention (<xref rid="bb0235" ref-type="bibr">Simons et al., 2010</xref>)</td><td>17.1 (1.5)</td><td/><td>10.9 (3.6)</td><td>12.2 (4.9)</td><td><bold>0.000</bold></td><td><bold>0.000</bold></td><td>0.621</td><td/></tr><tr><td>ACE III Memory (<xref rid="bb0295" ref-type="bibr">Zamboni et al., 2013</xref>)</td><td>24.7 (2.1)</td><td/><td>14.9 (5.2)</td><td>12.6 (6.4)</td><td><bold>0.000</bold></td><td><bold>0.000</bold></td><td>0.405</td><td/></tr><tr><td>ACE III Fluency (<xref rid="bb0080" ref-type="bibr">Davidson et al., 2008</xref>)</td><td>12.7 (1.5)</td><td/><td>7.9 (4.2)</td><td>8.1 (3.6)</td><td><bold>0.000</bold></td><td><bold>0.000</bold></td><td>0.995</td><td/></tr><tr><td>ACE III Language (<xref rid="bb0295" ref-type="bibr">Zamboni et al., 2013</xref>)</td><td>25.7 (0.96)</td><td/><td>18.4 (6.4)</td><td>21.7 (5.9)</td><td><bold>0.000</bold></td><td>0.055</td><td>0.153</td><td/></tr><tr><td>ACE III Visuospatial function (<xref rid="bb0265" ref-type="bibr">Uncapher and Wagner, 2009</xref>)</td><td>15.7 (0.72)</td><td/><td>3.8 (3.8)</td><td>12.3 (3.4)</td><td><bold>0.000</bold></td><td><bold>0.002</bold></td><td><bold>0.000</bold></td><td/></tr><tr><td><italic>Visuospatial function</italic></td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>VOSP dot counting<xref rid="tf0005" ref-type="table-fn">1</xref> (<xref rid="bb0160" ref-type="bibr">Lehmann et al., 2011</xref>)</td><td>10.0 (0)</td><td/><td>3.9 (3.7)</td><td>–</td><td><bold>0.000</bold></td><td>–</td><td>–</td><td/></tr><tr><td>VOSP position discrimination<xref rid="tf0005" ref-type="table-fn">1</xref> (<xref rid="bb0290" ref-type="bibr">Wolk and Dickerson, 2011</xref>)</td><td>19.6 (1.1)</td><td/><td>13.5 (3.8)</td><td>–</td><td><bold>0.000</bold></td><td>–</td><td>–</td><td/></tr><tr><td>VOSP cube analysis<xref rid="tf0005" ref-type="table-fn">1</xref> (<xref rid="bb0160" ref-type="bibr">Lehmann et al., 2011</xref>)</td><td>9.5 (1.2)</td><td/><td>1.8 (2.3)</td><td>–</td><td><bold>0.000</bold></td><td>–</td><td>–</td><td/></tr><tr><td>Rey-Osterrieth complex figure copy<xref rid="tf0005" ref-type="table-fn">1</xref> (<xref rid="bb0235" ref-type="bibr">Simons et al., 2010</xref>)</td><td>17.6 (0.74)</td><td/><td>1.8 (3.1)</td><td>–</td><td><bold>0.000</bold></td><td>–</td><td>–</td><td/></tr><tr><td><italic>Visual imagery</italic></td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Spatial relations: categorical (<xref rid="bb0065" ref-type="bibr">Critchley, 1953</xref>)</td><td>11.5 (0.93)</td><td/><td>8.4 (2.3)</td><td>–</td><td><bold>0.000</bold></td><td>–</td><td>–</td><td/></tr><tr><td>Spatial relations: metric (<xref rid="bb0065" ref-type="bibr">Critchley, 1953</xref>)</td><td>11.0 (0.67)</td><td/><td>7.9 (2.5)</td><td>–</td><td><bold>0.000</bold></td><td>–</td><td>–</td><td/></tr><tr><td>Spatial relations: total (<xref rid="bb0185" ref-type="bibr">McKhann et al., 2011</xref>)</td><td>22.4 (1.2)</td><td/><td>15.8 (4.0)</td><td>–</td><td><bold>0.000</bold></td><td>–</td><td>–</td><td/></tr><tr><td>Animal imagery (<xref rid="bb0290" ref-type="bibr">Wolk and Dickerson, 2011</xref>)</td><td>18.0 (1.0)</td><td/><td>15.4 (2.3)</td><td>–</td><td><bold>0.000</bold></td><td>–</td><td>–</td><td/></tr><tr><td>Letter imagery (<xref rid="bb0290" ref-type="bibr">Wolk and Dickerson, 2011</xref>)</td><td>19.3 (0.85)</td><td/><td>15.8 (3.4)</td><td>–</td><td><bold>0.000</bold></td><td>–</td><td>–</td><td/></tr><tr><td><italic>Language</italic></td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Pyramids and Palm Trees<xref rid="tf0005" ref-type="table-fn">1</xref> (<xref rid="bb0040" ref-type="bibr">Cabeza and Nyberg, 2000</xref>)</td><td>51.6 (0.68)</td><td/><td>46.6 (3.0)</td><td>–</td><td><bold>0.001</bold></td><td>–</td><td>–</td><td/></tr><tr><td>Category fluency<xref rid="tf0005" ref-type="table-fn">1</xref></td><td>21.2 (3.8)</td><td/><td>9.4 (6.6)</td><td>–</td><td><bold>0.000</bold></td><td>–</td><td>–</td><td/></tr><tr><td>FAS<xref rid="tf0005" ref-type="table-fn">1</xref></td><td>46.7 (12.9)</td><td/><td>32.5 (18.4)</td><td>–</td><td><bold>0.008</bold></td><td>–</td><td>–</td><td/></tr><tr><td>RAVLT</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Total learning across 5 trials (75)</td><td>49.7 (9.0)</td><td/><td>29.5 (11.7)</td><td>24.2 (13.5)</td><td><bold>0.000</bold></td><td><bold>0.000</bold></td><td>0.343</td><td/></tr><tr><td>Immediate recall (<xref rid="bb0140" ref-type="bibr">Hutchinson et al., 2009</xref>)</td><td>10.3 (2.9)</td><td/><td>5.1 (3.3)</td><td>2.9 (2.2)</td><td><bold>0.000</bold></td><td><bold>0.000</bold></td><td><bold>0.040</bold></td><td/></tr><tr><td>Delayed recall (<xref rid="bb0140" ref-type="bibr">Hutchinson et al., 2009</xref>)</td><td>10.2 (3.2)</td><td/><td>4.3 (4.0)</td><td>2.7 (2.4)</td><td><bold>0.000</bold></td><td><bold>0.000</bold></td><td>0.229</td><td/></tr><tr><td>Recognition hits (<xref rid="bb0140" ref-type="bibr">Hutchinson et al., 2009</xref>)</td><td>13.9 (1.6)</td><td/><td>13.1 (2.2)</td><td>10.1 (4.5)</td><td>0.349</td><td><bold>0.001</bold></td><td><bold>0.030</bold></td><td/></tr><tr><td>Recognition false positives (<xref rid="bb0205" ref-type="bibr">Morris et al., 1989</xref>)</td><td>2.0 (2.8)</td><td/><td>9.5 (7.6)</td><td>4.4 (5.1)</td><td><bold>0.001</bold></td><td>0.222</td><td>0.077</td><td/></tr><tr><td>Recognition memory index (<xref rid="bb0140" ref-type="bibr">Hutchinson et al., 2009</xref>)</td><td>11.8 (3.7)</td><td/><td>3.6 (8.1)</td><td>5.7 (5.3)</td><td><bold>0.001</bold></td><td><bold>0.001</bold></td><td>0.464</td><td/></tr></tbody></table><table-wrap-foot><fn><p>Abbreviations: ACE III Addenbrooke's Cognitive Examination; DASS Depression anxiety stress scale; HC1 Healthy controls group 1 (controls for behavioural data); HC2 Healthy control group 2 (controls for imaging data); PCA Posterior cortical atrophy; tAD typical Alzheimer's disease; VOSP Visual object and space perception; RAVLT Rey auditory verbal learning task.</p></fn></table-wrap-foot><table-wrap-foot><fn id="tf0005"><label>1</label><p id="np0005">Missing data: Data in PCA patients was missing for some tests due to the test being ended on the patients' request: Reduced sample sizes were present for: Rey figure (n = 9); VOSP cube analysis (n = 10); VOSP dot counting (n = 18); VOSP position discrimination (n = 11); PPT (n = 17); FAS (n = 17); Category fluency (n = 17); DASS (n = 14).</p></fn></table-wrap-foot></table-wrap></p>
+                <p id="p0065">A third control group (HC2) consisted of a further 32 healthy participants, and was used solely for analysis of the PCA neuroimaging data. These controls were recruited from the Oxford Project to Investigate Memory and Ageing and the Memory and Amnesia Project, University of Oxford, UK (cohorts described fully in (<xref rid="bb0170" ref-type="bibr">Loane et al., 2018</xref>; <xref rid="bb0295" ref-type="bibr">Zamboni et al., 2013</xref>)). PCA patients and HC2 controls were matched for age (HC2: mean = 69.7 years, SD = 7.4; PCA: mean = 63.8 years, SD = 6.9; p &gt; .05), education (HC2: mean = 14.5 years, SD = 3.5; PCA: mean = 13.7 years, SD = 1.9; p &gt; .05), and gender distribution (HC2: 19 males, 13 females; PCA: 6 males, 7 females). HC1 and HC2 were also matched on age, education and gender (p &gt; .05).</p>
+                <p id="p0070">The study was approved by the National Research Ethics Service South Central - Hampshire B and Oxford C. All participants provided written informed consent in accordance with the Declaration of Helsinki.</p>
+              </sec>
+              <sec id="s0020">
+                <label>2.2</label>
+                <title>Background neuropsychological tests</title>
+                <p id="p0075">Standardised neuropsychological tests were administered to evaluate patient and control participant function in four domains:<list list-type="simple" id="l0010"><list-item id="li0025"><label>(i)</label><p id="p0080"><italic>Global cognition</italic>: Addenbrooke's Cognitive Examination-III (<xref rid="bb0135" ref-type="bibr">Hsieh et al., 2013</xref>).</p></list-item><list-item id="li0030"><label>(ii)</label><p id="p0085"><italic>Visuospatial function</italic>: Dot counting, position discrimination and cube analysis from the Visual Object and Space Perception (VOSP; (<xref rid="bb0270" ref-type="bibr">Warrington and James, 1991</xref>) and the Rey-Osterrieth Complex fig. (29).</p></list-item><list-item id="li0035"><label>(iii)</label><p id="p0090"><italic>Visual imagery</italic>: Spatial Relations Test (adapted from (<xref rid="bb0150" ref-type="bibr">Kosslyn, 1987</xref>; <xref rid="bb0215" ref-type="bibr">Policardi et al., 1996</xref>)), Letter Shape Test (<xref rid="bb0090" ref-type="bibr">Farah, 1985</xref>) and Tail Judgement Test (<xref rid="bb0095" ref-type="bibr">Farah, 1988</xref>).</p></list-item><list-item id="li0040"><label>(iv)</label><p id="p0095"><italic>Language</italic>: Oral Pyramids and Palm Trees (PPT; (<xref rid="bb0130" ref-type="bibr">Howard and Patterson, 1992</xref>)), category fluency (<xref rid="bb0205" ref-type="bibr">Morris et al., 1989</xref>) and FAS letter fluency (<xref rid="bb0020" ref-type="bibr">Benton and Hamsher, 1976</xref>).</p></list-item></list></p>
+              </sec>
+              <sec id="s0025">
+                <label>2.3</label>
+                <title>Memory assessment</title>
+                <sec id="s0030">
+                  <label>2.3.1</label>
+                  <title>Subjective memory questionnaires</title>
+                  <p id="p0100">PCA patients' perspectives of their memory function were assessed using the Everyday Memory Questionnaire (EMQ; (<xref rid="bb0250" ref-type="bibr">Sunderland et al., 1984</xref>)) and carer perspectives were assessed using the Cambridge Behavioural Inventory-Revised (CBI-R; (<xref rid="bb0275" ref-type="bibr">Wedderburn et al., 2008</xref>)). Both patients and carers were instructed to answer questions with regards to memory and thinking and not poor visual functioning. For example, on the EMQ the last question asks how frequently the individual fails to recognise a close friend or relative – the results (<xref rid="t0010" ref-type="table">Table 2</xref>) show that the majority of patients (93%) do not experience this problem in terms of memory loss, whereas if answered in terms of visual and perceptual symptoms in PCA, a higher proportion of patients would be expected to endorse this symptom. In both questionnaires, Likert scales were collapsed to provide a rating for symptoms experienced at three frequencies: Never, Frequent and Daily. Specifically, the CBI-R scales was collapsed as follows: “Never” = Never category; “a few times per month” and “a few times per week” = Frequent category; “daily” and “constantly” = Daily category. The EMQ scales was collapsed as follows: “not at all” = Never category; “about once in the last 3 months”, “about once a month” and “about once a week” = Frequent category; “about once a day” and “more than once a day” = Daily category.<table-wrap id="t0010" position="float"><label>Table 2</label><caption><p>Frequency of memory complaints observed by carers or expressed by PCA patients (at average symptom duration of 3.8 years). Symptoms highlighted in bold denote those that were endorsed by &gt;75% of the patient or carer group as occurring frequently or daily.</p></caption><alt-text id="al0025">Table 2</alt-text><table frame="hsides" rules="groups"><thead><tr><th rowspan="2">Carer observation (N = 16)<break/><italic>(from the Cambridge Behavioural Inventory-Revised;</italic><xref rid="bb0275" ref-type="bibr"><italic>Wedderburn</italic> et al., 2008</xref><italic>)</italic></th><th colspan="4">Frequency of complaint (%)<hr/></th></tr><tr><th>Never</th><th>Frequent</th><th>Daily</th><th>No answer</th></tr></thead><tbody><tr><td>Poor day-to-day memory</td><td>37.5</td><td>19</td><td>37.5</td><td>6</td></tr><tr><td>Asks the same questions over and over again</td><td>56</td><td>25</td><td>19</td><td>0</td></tr><tr><td><bold>Loses/misplaces things</bold></td><td>6</td><td><bold>44</bold></td><td><bold>44</bold></td><td>6</td></tr><tr><td><bold>Forgets the names of familiar people</bold></td><td>12.5</td><td><bold>75</bold></td><td><bold>12.5</bold></td><td>0</td></tr><tr><td><bold>Forgets the names of objects and things</bold></td><td>6</td><td><bold>62.5</bold></td><td><bold>25</bold></td><td>6</td></tr><tr><td>Poor concentration when reading/watching television</td><td>12.5</td><td>31</td><td>37.5</td><td>19</td></tr><tr><td>Forgets what day it is</td><td>25</td><td>62.5</td><td>12.5</td><td>0</td></tr><tr><td><bold>Becomes confused/muddled in unusual surroundings</bold></td><td>6</td><td><bold>44</bold></td><td><bold>44</bold></td><td>6</td></tr><tr><td>PCA patients' subjective complaints (N = 14)<break/><italic>(from the Everyday Memory Questionnaire; Sunderland</italic> et al. <italic>1983,</italic><xref rid="bb0250" ref-type="bibr"><italic>Sunderland</italic> et al., 1984</xref><italic>)</italic></td><td/><td/><td/><td/></tr><tr><td><bold>Forget where you put something</bold></td><td>0</td><td><bold>22</bold></td><td><bold>64</bold></td><td>14</td></tr><tr><td>Fail to recognise places that you are told you have been to often before</td><td>64</td><td>22</td><td>7</td><td>7</td></tr><tr><td>Fails to remember a change in your daily routine</td><td>36</td><td>57</td><td>0</td><td>7</td></tr><tr><td><bold>Have to go back to check whether you had done something you meant to do</bold></td><td>7</td><td><bold>43</bold></td><td><bold>36</bold></td><td>14</td></tr><tr><td><bold>Forget that you were told something yesterday/few days ago</bold></td><td>14</td><td><bold>64</bold></td><td><bold>22</bold></td><td>0</td></tr><tr><td>Let yourself ramble on to speak about unimportant/irrelevant things</td><td>57</td><td>43</td><td>0</td><td>0</td></tr><tr><td><bold>Have difficulty picking up a new skill</bold></td><td>14</td><td><bold>43</bold></td><td><bold>36</bold></td><td>7</td></tr><tr><td><bold>Find that a word is “on the tip of your tongue”</bold></td><td>0</td><td><bold>36</bold></td><td><bold>64</bold></td><td>0</td></tr><tr><td>Forget important details of what you did/forget what happened to you the day before</td><td>50</td><td>43</td><td>0</td><td>7</td></tr><tr><td>Forget important details about yourself</td><td>79</td><td>21</td><td>0</td><td>0</td></tr><tr><td>When talking to someone, forget what you had just said</td><td>29</td><td>50</td><td>14</td><td>7</td></tr><tr><td>When reading a newspaper/magazine, being unable to follow the thread of the story/lose track of what it was about</td><td>36</td><td>29</td><td>21</td><td>14</td></tr><tr><td>Forget to tell somebody something important</td><td>71</td><td>29</td><td>0</td><td>0</td></tr><tr><td><bold>Get the details of what somebody has told you mixed up/confused</bold></td><td>14</td><td><bold>72</bold></td><td><bold>14</bold></td><td>0</td></tr><tr><td><bold>Forget people's names</bold></td><td>14</td><td><bold>36</bold></td><td><bold>50</bold></td><td>0</td></tr><tr><td>Get lost/turn in the wrong direction on a journey/walk/in a building you have only been to once/twice before</td><td>14</td><td>50</td><td>14</td><td>22</td></tr><tr><td>Repeat to someone what you have told them/ask the same question twice</td><td>64</td><td>29</td><td>7</td><td>0</td></tr><tr><td>Fail to recognise a close relative</td><td>93</td><td>0</td><td>0</td><td>7</td></tr></tbody></table></table-wrap></p>
+                </sec>
+                <sec id="s0035">
+                  <label>2.3.2</label>
+                  <title>RAVLT</title>
+                  <p id="p0105">The RAVLT (<xref rid="bb0230" ref-type="bibr">Rey, 1964</xref>) was used to measure objective memory performance. This well-validated instrument has been extensively employed to evaluate verbal episodic memory performance in various dementia syndromes (e.g. AD: (<xref rid="bb0015" ref-type="bibr">Balthazar et al., 2010</xref>; <xref rid="bb0290" ref-type="bibr">Wolk and Dickerson, 2011</xref>; <xref rid="bb0030" ref-type="bibr">Brugnolo et al., 2014</xref>); FTD: (<xref rid="bb0125" ref-type="bibr">Hornberger et al., 2010</xref>); PCA: (<xref rid="bb0050" ref-type="bibr">Charles and Hillis, 2005</xref>)). A list of 15 unrelated words is read out to the participant five times, each time followed by free recall, in order to allow encoding of the word list. This is followed by an interference list of 15 new words. The original word list is then recalled immediately and at a delayed interval of 30 min. Recognition memory is assessed by presenting the participants with 50 words, consisting of 15 target words (i.e. the original word list) and 35 new words. If participants recognise a learned word, they respond “yes” (correct hit) and “no” to reject a new word. If participants incorrectly respond “yes” to a new word, it is scored as a false positive. A recognition memory index was calculated (hits - false positives) (<xref rid="bb0165" ref-type="bibr">Lemos et al., 2015</xref>; <xref rid="bb0120" ref-type="bibr">Grober et al., 2008</xref>) to describe recognition ability taking into account response bias. Values closer to the maximum 15 denote better recognition memory.</p>
+                </sec>
+              </sec>
+              <sec id="s0040">
+                <label>2.4</label>
+                <title>Structural neuroimaging</title>
+                <p id="p0110">Image acquisition was conducted on a Siemens 3 T Trio system using a 32-channel head coil at the University of Oxford Centre for Clinical Magnetic Resonance Research. High resolution, 3D T1-weighted images were acquired using a Magnetization Prepared Rapid Gradient Echo (MPRAGE) sequence (echo time = 4.7 ms, repetition time = 2040 ms, 8° flip angle, field of view = 192 mm, voxel size = 1 × 1 × 1 mm). Scans from 5 PCA patients were removed due to artifacts as a result of patient motion in the scanner. Structural data were analysed with an optimised protocol of the FSL-Voxel Based Morphometry (VBM) processing stream (see (<xref rid="bb0085" ref-type="bibr">Douaud et al., 2007</xref>)). In brief, images were brain extracted using the brain extraction tool (BET) (<xref rid="bb0240" ref-type="bibr">Smith, 2002</xref>) prior to tissue segmentation using the FMRIB Automatic Segmentation Tool (FAST). Images were non-linearly registered to standard space and an average study-specific template was created. All images were then non-linearly aligned to the study-specific template and modulated for correction of local field expansion or contraction by dividing the Jacobian of the warp field. Modulated images were then smoothed with an isotropic kernel with a sigma of 3 mm. Finally, voxel-wise statistics were employed using a general linear model with non-parametric permutation testing (<xref rid="bb0285" ref-type="bibr">Winkler et al., 2014</xref>) and 5000 permutations per contrast.</p>
+                <sec id="s0045">
+                  <label>2.4.1</label>
+                  <title>Whole brain VBM analysis</title>
+                  <p id="p0115">To investigate differences in cortical grey-matter between PCA patients and HC2, regression models were applied with separate directional contrasts (i.e. <italic>t</italic>-tests). Results were defined as significant at p &lt; 0.001 corrected for multiple comparisons using the Threshold-Free Cluster Enhancement (TFCE) approach (<xref rid="bb0245" ref-type="bibr">Smith and Nichols, 2009</xref>) carried out in Randomise with 5000 permutations per contrast.</p>
+                </sec>
+                <sec id="s0050">
+                  <label>2.4.2</label>
+                  <title>Region of interest analyses</title>
+                  <p id="p0120">Analysis of the anatomical correlates of RAVLT metrics in PCA patients was restricted to the parietal region, based on the hypothesis that atrophy in this region constitutes the characteristic cortical signature of PCA and is therefore most likely to underpin memory deficits in PCA. A control region mask of the MTL was used to determine the specificity of parietal effects, since this is the region most commonly associated with memory dysfunction in other forms of dementia. Binary masks of the bilateral parietal lobes (including the supramarginal gyrus, precuneus cortex, angular gyrus, postcentral gyrus and superior parietal lobule) and bilateral MTL were taken from the Harvard-Oxford cortical structural atlas. Correlational analyses were conducted between grey matter density within these masks and performance on total learning across RAVLT trials, immediate recall, delayed recall, correct recognition and recognition sensitivity index, with correction for multiple comparisons using the TFCE approach in Randomise with 5000 permutations per contrast and significance defined as p &lt; 0.05. Age and gender were included as covariates in all analyses.</p>
+                </sec>
+              </sec>
+              <sec id="s0055">
+                <label>2.5</label>
+                <title>Statistical analyses</title>
+                <p id="p0125">Demographic, clinical, and cognitive characteristics were explored using one-way analysis of variance with Sidak post hoc tests or independent samples t-tests, and Chi-squared tests for gender differences. RAVLT metrics were explored using Kruskal-Wallis nonparametric tests, with Mann-Whitney tests for pairwise comparisons. Spearman's rank correlation coefficient was used to explore relationships between RAVLT metrics and clinical variables. Two-tailed tests were conducted with alpha level set at 0.05, with Bonferroni correction applied for multiple comparisons.</p>
+              </sec>
+            </sec>
+            <sec id="s0060">
+              <label>3</label>
+              <title>Results</title>
+              <sec id="s0065">
+                <label>3.1</label>
+                <title>Background neuropsychological assessment</title>
+                <p id="p0130">PCA patients were impaired on all visuospatial and visual imagery tests compared to HC1, in keeping with the clinical phenotype of this syndrome, with some decline in language also (<xref rid="t0005" ref-type="table">Table 1</xref>). Both PCA and tAD patients were impaired on the ACE-III compared to HC1, but there was no significant difference between patient groups.</p>
+              </sec>
+              <sec id="s0070">
+                <label>3.2</label>
+                <title>Memory assessment</title>
+                <sec id="s0075">
+                  <label>3.2.1</label>
+                  <title>Subjective memory questionnaires</title>
+                  <p id="p0135">The most common observations endorsed by carers (those observed by &gt;75% of carers as occurring frequently or daily) referred to symptoms related to memory retrieval and spatial memory. The most common subjective experiences of memory loss (those endorsed by &gt;75% of PCA patients) also pertained to memory retrieval, as well as task monitoring and memory for everyday activities (<xref rid="t0010" ref-type="table">Table 2</xref>).</p>
+                </sec>
+                <sec id="s0080">
+                  <label>3.2.2</label>
+                  <title>RAVLT</title>
+                  <p id="p0140">Both PCA and tAD patients learnt significantly fewer words across trials compared to HC1, and there was no significant difference between patient groups (<xref rid="t0005" ref-type="table">Table 1</xref>). Both patient groups were impaired compared to HC1 on immediate recall, but PCA patients recalled significantly more than tAD patients. To further explore encoding, rate of learning was computed (calculated as Trial 5 recall - Trial 1 recall; (<xref rid="bb0110" ref-type="bibr">Glosser et al., 2002</xref>)). Although both PCA and tAD groups showed significantly reduced rate of learning compared to HC1 (PCA: p = .022; tAD: p = .040), PCA patients showed significantly more rapid learning than tAD patients (p = .040) (<xref rid="f0005" ref-type="fig">Fig. 1</xref>).<fig id="f0005"><label>Fig. 1</label><caption><p>Rate of learning (Trial 5 – Trial 1) across groups. Error bars represent standard error of the mean. (*p &lt; .05).</p></caption><alt-text id="al0005">Fig. 1</alt-text><graphic xlink:href="gr1"/></fig></p>
+                  <p id="p0145">At retrieval, both patient groups were impaired compared to HC1 on delayed recall, and there was no difference between patient groups. Examining recognition, PCA patients were comparable to HC1 in correct identification of previously learned words (recognition hits), while the tAD group was impaired compared to HC1 and PCA patients. Conversely, PCA patients produced significantly more false positives compared to HC1, while the tAD group showed no difference compared to HC1, although there was no significant difference between the patient groups. The recognition memory index revealed that, once the number of false positives was accounted for, both PCA and tAD groups were impaired compared to HC1, and the performance of both patient groups was comparable.</p>
+                </sec>
+              </sec>
+              <sec id="s0085">
+                <label>3.3</label>
+                <title>Other clinical considerations</title>
+                <p id="p0150">Mood, symptom duration and impaired visual imagery were explored for their potential influence on poor memory performance in PCA.</p>
+                <sec id="s0090">
+                  <label>3.3.1</label>
+                  <title>Mood</title>
+                  <p id="p0155">There were no significant correlations between DASS stress, anxiety or depression measures with any of the RAVLT metrics (all p values &gt; .05).</p>
+                </sec>
+                <sec id="s0095">
+                  <label>3.3.2</label>
+                  <title>Symptom duration</title>
+                  <p id="p0160">To explore whether the memory profile in PCA was being driven by patients with a longer symptom duration who may have accumulated more widespread cognitive symptoms, PCA patients were divided into two subgroups based on median length of symptom duration (median = 3.3 years), replicating the method used by Kas et al. (<xref rid="bb0145" ref-type="bibr">Kas et al., 2011</xref>): (i) a short symptom duration group defined as having less than or equal to three years symptom duration (n = 9); and (ii) a long symptom duration defined as having greater than three years symptom duration (n = 9). There were no significant differences between these groups on any of the RAVLT metrics (all p values &gt; .05). Supplementary analysis using symptom duration as a continuous variable revealed no significant correlations with the RAVLT.</p>
+                </sec>
+                <sec id="s0100">
+                  <label>3.3.3</label>
+                  <title>Visual imagery</title>
+                  <p id="p0165">Poor visual imagery in PCA patients may impact the encoding process, based on evidence that visual strategies and mental imagery are commonly used to encode words presented in the auditory modality (<xref rid="bb0105" ref-type="bibr">Foley et al., 2010</xref>). There were no significant correlations between visual imagery tasks and RAVLT metrics.</p>
+                </sec>
+              </sec>
+              <sec id="s0105">
+                <label>3.4</label>
+                <title>Structural neuroimaging</title>
+                <sec id="s0110">
+                  <label>3.4.1</label>
+                  <title>Whole brain analyses</title>
+                  <p id="p0170">VBM analysis revealed significant decreases in grey matter density in PCA patients relative to HC2 (<xref rid="f0010" ref-type="fig">Fig. 2</xref>). PCA patients showed characteristic pronounced changes, largely bilateral, in the lateral occipital cortex, and in lateral and medial parietal regions, including the parietal lobule, angular gyrus, the supramarginal gyrus, precuneus and posterior cingulate. Medial temporal regions were largely spared except for grey matter density reduction in bilateral posterior parahippocampal gyrus and posterior hippocampus (<xref rid="t0015" ref-type="table">Table 3</xref>).<fig id="f0010"><label>Fig. 2</label><caption><p>Voxel based morphometry maps displaying reduced grey matter density in HC2 &gt; PCA. The comparison was significant at p &lt; 0.001 FWE corrected using TFCE method. Colour bars indicates T-values of statistically significant voxels.</p></caption><alt-text id="al0010">Fig. 2</alt-text><graphic xlink:href="gr2"/></fig><table-wrap id="t0015" position="float"><label>Table 3</label><caption><p>Results from voxel-based morphometry analyses. All clusters were significant at p &lt; 0.001 family-wise error corrected using threshold-free cluster enhancement method.</p></caption><alt-text id="al0030">Table 3</alt-text><table frame="hsides" rules="groups"><thead><tr><th>Contrast</th><th>Regions</th><th>Cluster size</th><th>Coordinates</th><th>T value</th></tr></thead><tbody><tr><td>PCA &lt; HC2</td><td><italic>Left:</italic><break/>paracingulate cortex, paracingulate gyrus<break/><italic>Right:</italic><break/>middle frontal gyrus<break/><italic>Bilateral:</italic><break/>superior parietal lobule, precentral gyrus, supramarginal gyrus, postcentral gyrus, posterior cingulate, angular gyrus, parietal operculum cortex, Heshl's gyrus, insular cortex, thalamus, superior temporal gyrus, middle temporal gyrus, inferior temporal gyrus, posterior parahippocampal gyrus, posterior hippocampus, putamen, caudate, precuneus, lingual gyrus, occipital fusiform gyrus, lateral occipital cortex, temporal fusiform gyrus, brain stem</td><td>98,166</td><td>56, −30, −4</td><td>7.86</td></tr></tbody></table><table-wrap-foot><fn><p>Abbreviations: PCA Posterior cortical atrophy; HC2 Healthy controls group 2 (controls for imaging analysis).</p></fn></table-wrap-foot></table-wrap></p>
+                </sec>
+                <sec id="s0115">
+                  <label>3.4.2</label>
+                  <title>Region of interest analyses</title>
+                  <p id="p0175">Analyses within the parietal lobe mask revealed a significant correlation between total learning across trials and grey matter density in the right supramarginal gyrus, right angular gyrus and left postcentral gyrus. The left post central gyrus also significantly correlated with immediate and delayed recall, correct recognition (<xref rid="f0015" ref-type="fig">Fig. 3</xref>). No correlations were detected between grey matter density within the parietal mask and the recognition memory index. No correlations with RAVLT metrics were detected within the MTL mask.<fig id="f0015"><label>Fig. 3</label><caption><p>Voxel based morphometry maps displaying correlation between reduced grey matter density in A = right supramarginal gyrus, right angular gyrus and left postcentral gyrus with total learning across trials; B = left postcentral gyrus with immediate recall; C = left postcentral gyrus with delayed recall and D = left postcentral gyrus with correct recognition in the PCA patients. Findings were significant at p &lt; 0.01 FWE corrected using TFCE method (p values by colour bar).</p></caption><alt-text id="al0015">Fig. 3</alt-text><graphic xlink:href="gr3"/></fig></p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="s0120">
+              <label>4</label>
+              <title>Discussion</title>
+              <p id="p0180">This study provides novel evidence that, contra to traditional understanding, PCA is associated with early verbal memory impairment. Moreover, the degree of memory impairment correlates with atrophy in the lateral parietal cortex rather than regions typically associated with memory impairment, such as the MTL in tAD.</p>
+              <p id="p0185">Compared with healthy controls, PCA patients were impaired at learning, immediate recall and delayed recall of the RAVLT word list. Nevertheless, PCA patients performed better than tAD patients on measures of learning rate and immediate recall, although their delayed recall was not significantly different. This overall impairment of verbal recall in PCA is in line with the subjective complaints of patients, and with our previous, retrospective study (<xref rid="bb0005" ref-type="bibr">Ahmed et al., 2016</xref>). Importantly, the results could not be explained as a function of disease progression or mood disorder. However, whilst we expected to see a relative sparing of recognition memory in PCA, this was not observed. Although PCA patients scored as many ‘hits’ as healthy controls, this was due to a response bias indicated by their greater number of ‘false positive’ responses. The reason for this response bias is unclear. A recent study suggests disinhibition may play a role, i.e. patients are unable to constrain endorsement of recognition items (<xref rid="bb0100" ref-type="bibr">Flanagan et al., 2016</xref>), although on the CBI-R, disinhibition did not emerge as a prevalent feature in PCA. An alternative possibility is that PCA patients have reduced confidence in their memory, akin to that observed in patients with parietal lesions (<xref rid="bb0235" ref-type="bibr">Simons et al., 2010</xref>), leading to a liberal response bias. Further studies are needed to explain this observation.</p>
+              <p id="p0190">Investigating the neural substrate of the verbal memory deficit in PCA, we found that atrophy in lateral parietal regions correlated with both encoding and retrieval. Specifically, grey matter density in the right supramarginal gyrus, right angular gyrus and left postcentral gyrus correlated with total learning across trials, and the left postcentral gyrus with immediate recall, delayed recall and correct recognition. No correlations were identified between memory performance and MTL atrophy. This is strikingly different from extensive previous research in tAD, where learning and retrieval impairments have consistently been attributed to pathology in the hippocampus and surrounding cortex (e.g. (<xref rid="bb0015" ref-type="bibr">Balthazar et al., 2010</xref>; <xref rid="bb0290" ref-type="bibr">Wolk and Dickerson, 2011</xref>; <xref rid="bb0030" ref-type="bibr">Brugnolo et al., 2014</xref>)).</p>
+              <p id="p0195">Two possible explanations for the observed neuroanatomical profile may be considered. First, the supramarginal gyrus has been associated with the phonological loop (<xref rid="bb0010" ref-type="bibr">Baddeley, 1986</xref>), which supports auditory-verbal working memory (<xref rid="bb0035" ref-type="bibr">Buchsbaum and D'Esposito, 2009</xref>). Accordingly, supramarginal gyrus atrophy in PCA may disrupt working memory processes essential in a verbal memory task. However, such processes are likely to be most critical to successful encoding of verbal information and therefore to learning of the initial trials on the RAVLT. For example, in tAD patients, Wolk and Dickerson (<xref rid="bb0290" ref-type="bibr">Wolk and Dickerson, 2011</xref>) found that reduced cortical thickness in the supramarginal gyrus correlated with learning on the initial trial of the RAVLT, while MTL structures correlated with total learning and delayed recall. In contrast, our results demonstrate that the supramarginal gyrus was associated with total learning and delayed recall in PCA patients, suggesting that impaired auditory-working memory is unlikely to be the primary deficit underpinning the memory impairment.</p>
+              <p id="p0200">A second and more compelling possibility is that the lateral parietal correlates of memory in PCA reflect the hitherto under-recognised significance of these regions in episodic memory. Classic theories of memory would hypothesize that, because MTL involvement is not an early feature of PCA, patients should have relatively intact long-term declarative memory. However, an increasing number of fMRI (e.g. (<xref rid="bb0040" ref-type="bibr">Cabeza and Nyberg, 2000</xref>) and lesion (e.g. (<xref rid="bb0080" ref-type="bibr">Davidson et al., 2008</xref>) studies have demonstrated a role for bilateral parietal cortex in both the encoding and retrieval of memories. The parietal cortex is also firmly linked with attentional processing and a rich body of neuropsychological, neurophysiological and neuroimaging literature shows anatomical co-localization of memory and attention processes in the lateral parietal cortex (see (<xref rid="bb0140" ref-type="bibr">Hutchinson et al., 2009</xref>; <xref rid="bb0265" ref-type="bibr">Uncapher and Wagner, 2009</xref>) for reviews), functionally dissociated along a dorsal (superior parietal lobe) and ventral (inferior parietal lobe, specifically the supramarginal gyrus) axis. Dorsal parietal mechanisms are proposed to direct attention to information that is relevant to the goal (top-down attention), enhancing cortical representation of the information being attended to and thus increasing the likelihood of later remembering. Ventral parietal mechanisms, by contrast, are proposed to be active when attention is captured by salient information (bottom-up attention), weakening later recall when attention is captured by information irrelevant to the task (<xref rid="bb0045" ref-type="bibr">Cabeza et al., 2008</xref>; <xref rid="bb0055" ref-type="bibr">Ciaramelli et al., 2008</xref>). The post central gyrus is frequently reported as part of the functional anatomy of attention and more specifically as part of the frontoparietal cortical network for directing attention (<xref rid="bb0060" ref-type="bibr">Corbetta, 1998</xref>). This may explain the correlation of the postcentral gyrus with several metrics from the RAVLT, and suggests a critical role for attention in episodic memory. Accordingly, we propose that memory impairment in PCA may be driven by the primary pathology in the parietal cortex, specifically affecting the attentional networks underlying memory processes.</p>
+              <p id="p0205">Our results have important clinical implications. Memory is impaired early in the course of PCA, alongside the initial, defining visuo-perceptual impairments. As such memory assessments may aid accurate and early diagnosis of PCA, potentially within an optimal therapeutic window. Moreover, memory assessment may have particular utility in disease monitoring, since PCA patients typically perform at, or close to, floor on visual tasks even in the early stages of disease. If the attentional basis of memory impairment in PCA is borne out by future studies, everyday memory performance may be enhanced by implementing organisational or categorical cues at the time of encoding and by minimising attentional demands, directing attention and supporting retrieval (e.g. (<xref rid="bb0115" ref-type="bibr">Grober et al., 2000</xref>)). Finally, the efficacy of pharmaceutical intervention for memory impairment in PCA should be explored. Research in tAD shows that deficits in shifting attention have been linked to reduced cholinergic innervation associated with hypometabolism of the posterior parietal cortex (<xref rid="bb0210" ref-type="bibr">Parasuraman et al., 2002</xref>), and that administration of acetylcholinesterase inhibitors improves attention (<xref rid="bb0155" ref-type="bibr">Lawrence and Sahakian, 1995</xref>).</p>
+              <p id="p0210">Our study has some limitations, which could be addressed by future research in order to investigate further the nature of memory impairment in PCA. First, visual imagery tests were not administered to the tAD group, and thus we were not able to explore differences between patient groups in visual imagery performance and its potential impact upon memory. Additional tests of attention and working memory could also be employed to understand more completely the contribution of these systems to memory impairment in PCA. Second, whilst the RAVLT has been used extensively to explore memory impairment in dementia (<xref rid="bb0015" ref-type="bibr">Balthazar et al., 2010</xref>; <xref rid="bb0290" ref-type="bibr">Wolk and Dickerson, 2011</xref>; <xref rid="bb0030" ref-type="bibr">Brugnolo et al., 2014</xref>) components of memory (i.e. encoding, recall and recognition) could be more systematically studied using free and cued memory tests (e.g. (<xref rid="bb0260" ref-type="bibr">Teichmann et al., 2017</xref>)) that control encoding and retrieval of the material to be learnt.</p>
+            </sec>
+            <sec id="s0125">
+              <label>5</label>
+              <title>Conclusions</title>
+              <p id="p0215">In summary, the results of this study provide the first description of the neural correlates of memory impairment in PCA, and strongly suggest that the deficits are underpinned by damage within parietal rather than medial temporal lobe networks. Future work is warranted to explore the relationship between attention and memory in PCA.</p>
+            </sec>
+            <sec id="s0130">
+              <title>Competing interests</title>
+              <p id="p0220">None.</p>
+            </sec>
+            <sec id="s0135">
+              <title>Funding</title>
+              <p id="p0225">SA and M Hornberger are supported by <funding-source id="gts0005">Alzheimer's Research UK</funding-source>. CRB is supported by a <funding-source id="gts0010">Medical Research Council</funding-source> Clinician Scientist Fellowship (MR/K010395/1). M Husain is supported by the <funding-source id="gts0015">Wellcome</funding-source> Trust and NIHR Oxford Biomedical Research Centre.</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list id="bi0005">
+              <title>References</title>
+              <ref id="bb0005">
+                <element-citation publication-type="journal" id="rf0005">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ahmed</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Baker</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Husain</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Thompson</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kipps</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hornberger</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Memory impairment at initial clinical presentation in posterior cortical atrophy</article-title>
+                  <source>J. Alzheimers Dis.</source>
+                  <volume>52</volume>
+                  <issue>4</issue>
+                  <year>2016</year>
+                  <fpage>1245</fpage>
+                  <lpage>1250</lpage>
+                  <pub-id pub-id-type="pmid">27128371</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0010">
+                <element-citation publication-type="book" id="rf0010">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baddeley</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>Working Memory</chapter-title>
+                  <year>1986</year>
+                  <publisher-name>Oxford University Press</publisher-name>
+                  <publisher-loc>Oxford</publisher-loc>
+                </element-citation>
+              </ref>
+              <ref id="bb0015">
+                <element-citation publication-type="journal" id="rf0015">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Balthazar</surname>
+                      <given-names>M.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yasuda</surname>
+                      <given-names>C.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cendes</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Damasceno</surname>
+                      <given-names>B.P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Learning, retrieval, and recognition are compromised in aMCI and mild AD: are distinct episodic memory processes mediated by the same anatomical structures?</article-title>
+                  <source>J. Int.Neuropsychol. Soc.</source>
+                  <volume>16</volume>
+                  <issue>1</issue>
+                  <year>2010</year>
+                  <fpage>205</fpage>
+                  <lpage>209</lpage>
+                  <pub-id pub-id-type="pmid">19835661</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0020">
+                <element-citation publication-type="book" id="rf0020">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Benton</surname>
+                      <given-names>A.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hamsher</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>Multilingual Aphasia Examination</chapter-title>
+                  <year>1976</year>
+                  <publisher-name>University of Iowa: AJA Associates</publisher-name>
+                  <publisher-loc>Iowa City</publisher-loc>
+                </element-citation>
+              </ref>
+              <ref id="bb0025">
+                <element-citation publication-type="journal" id="rf0025">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Berryhill</surname>
+                      <given-names>M.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Phuong</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Picasso</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cabeza</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Olson</surname>
+                      <given-names>I.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Parietal lobe and episodic memory: bilateral damage causes impaired free recall of autobiographical memory</article-title>
+                  <source>J. Neurosci.</source>
+                  <volume>27</volume>
+                  <issue>52</issue>
+                  <year>2007</year>
+                  <fpage>14415</fpage>
+                  <lpage>14423</lpage>
+                  <pub-id pub-id-type="pmid">18160649</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0030">
+                <element-citation publication-type="journal" id="rf0030">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brugnolo</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Morbelli</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Arnaldi</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>De Carli</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Accardo</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bossert</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Metabolic correlates of Rey auditory verbal learning test in elderly subjects with memory complaints</article-title>
+                  <source>J. Alzheimers Dis.</source>
+                  <volume>39</volume>
+                  <issue>1</issue>
+                  <year>2014</year>
+                  <fpage>103</fpage>
+                  <lpage>113</lpage>
+                  <pub-id pub-id-type="pmid">24150105</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0035">
+                <element-citation publication-type="journal" id="rf0035">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Buchsbaum</surname>
+                      <given-names>B.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>D'Esposito</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Repetition suppression and reactivation in auditory-verbal short-term recognition memory</article-title>
+                  <source>Cereb. Cortex</source>
+                  <volume>19</volume>
+                  <issue>6</issue>
+                  <year>2009</year>
+                  <fpage>1474</fpage>
+                  <lpage>1485</lpage>
+                  <pub-id pub-id-type="pmid">18987393</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0040">
+                <element-citation publication-type="journal" id="rf0040">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cabeza</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nyberg</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neural bases of learning and memory: functional neuroimaging evidence</article-title>
+                  <source>Curr. Opin. Neurol.</source>
+                  <volume>13</volume>
+                  <issue>4</issue>
+                  <year>2000</year>
+                  <fpage>415</fpage>
+                  <lpage>421</lpage>
+                  <pub-id pub-id-type="pmid">10970058</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0045">
+                <element-citation publication-type="journal" id="rf0045">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cabeza</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ciaramelli</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Olson</surname>
+                      <given-names>I.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moscovitch</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The parietal cortex and episodic memory: an attentional account</article-title>
+                  <source>Nat. Rev. Neurosci.</source>
+                  <volume>9</volume>
+                  <issue>8</issue>
+                  <year>2008</year>
+                  <fpage>613</fpage>
+                  <lpage>625</lpage>
+                  <pub-id pub-id-type="pmid">18641668</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0050">
+                <element-citation publication-type="journal" id="rf0050">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Charles</surname>
+                      <given-names>R.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hillis</surname>
+                      <given-names>A.E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Posterior cortical atrophy: clinical presentation and cognitive deficits compared to Alzheimer's disease</article-title>
+                  <source>Behav. Neurol.</source>
+                  <volume>16</volume>
+                  <issue>1</issue>
+                  <year>2005</year>
+                  <fpage>15</fpage>
+                  <lpage>23</lpage>
+                  <pub-id pub-id-type="pmid">16082076</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0055">
+                <element-citation publication-type="journal" id="rf0055">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ciaramelli</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grady</surname>
+                      <given-names>C.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moscovitch</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Top-down and bottom-up attention to memory: a hypothesis (AtoM) on the role of the posterior parietal cortex in memory retrieval</article-title>
+                  <source>Neuropsychologia</source>
+                  <volume>46</volume>
+                  <issue>7</issue>
+                  <year>2008</year>
+                  <fpage>1828</fpage>
+                  <lpage>1851</lpage>
+                  <pub-id pub-id-type="pmid">18471837</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0060">
+                <element-citation publication-type="journal" id="rf0060">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Corbetta</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Frontoparietal cortical networks for directing attention and the eye to visual locations: identical, independent, or overlapping neural systems?</article-title>
+                  <source>Proc. Natl. Acad. Sci. U. S. A.</source>
+                  <volume>95</volume>
+                  <issue>3</issue>
+                  <year>1998</year>
+                  <fpage>831</fpage>
+                  <lpage>838</lpage>
+                  <pub-id pub-id-type="pmid">9448248</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0065">
+                <element-citation publication-type="book" id="rf0065">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Critchley</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>The Parietal Lobes</chapter-title>
+                  <year>1953</year>
+                  <publisher-name>Williams and Wilkins</publisher-name>
+                  <publisher-loc>Oxford, UK</publisher-loc>
+                </element-citation>
+              </ref>
+              <ref id="bb0070">
+                <element-citation publication-type="journal" id="rf0070">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Crutch</surname>
+                      <given-names>S.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lehmann</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Warren</surname>
+                      <given-names>J.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rohrer</surname>
+                      <given-names>J.D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The language profile of posterior cortical atrophy</article-title>
+                  <source>J. Neurol. Neurosurg. Psychiatry</source>
+                  <volume>84</volume>
+                  <issue>4</issue>
+                  <year>2013</year>
+                  <fpage>460</fpage>
+                  <lpage>466</lpage>
+                  <pub-id pub-id-type="pmid">23138762</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0075">
+                <element-citation publication-type="journal" id="rf0075">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Crutch</surname>
+                      <given-names>S.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schott</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rabinovici</surname>
+                      <given-names>G.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Murray</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Snowden</surname>
+                      <given-names>J.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>van der Flier</surname>
+                      <given-names>W.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Consensus classification of posterior cortical atrophy</article-title>
+                  <source>Alzheimer's Dement.</source>
+                  <volume>13</volume>
+                  <issue>8</issue>
+                  <year>2017</year>
+                  <fpage>870</fpage>
+                  <lpage>884</lpage>
+                  <pub-id pub-id-type="pmid">28259709</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0080">
+                <element-citation publication-type="journal" id="rf0080">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Davidson</surname>
+                      <given-names>P.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Anaki</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ciaramelli</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cohn</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>A.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Murphy</surname>
+                      <given-names>K.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Does lateral parietal cortex support episodic memory? Evidence from focal lesion patients</article-title>
+                  <source>Neuropsychologia</source>
+                  <volume>46</volume>
+                  <issue>7</issue>
+                  <year>2008</year>
+                  <fpage>1743</fpage>
+                  <lpage>1755</lpage>
+                  <pub-id pub-id-type="pmid">18313699</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0085">
+                <element-citation publication-type="journal" id="rf0085">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Douaud</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jenkinson</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Behrens</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Johansen-Berg</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vickers</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Anatomically related grey and white matter abnormalities in adolescent-onset schizophrenia</article-title>
+                  <source>Brain</source>
+                  <volume>130</volume>
+                  <year>2007</year>
+                  <fpage>2375</fpage>
+                  <lpage>2386</lpage>
+                  <comment>Pt 9</comment>
+                  <pub-id pub-id-type="pmid">17698497</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0090">
+                <element-citation publication-type="journal" id="rf0090">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Farah</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Psychophysical evidence for a shared representational medium for mental images and percepts</article-title>
+                  <source>J. Exp. Psychol. Gen.</source>
+                  <volume>114</volume>
+                  <issue>1</issue>
+                  <year>1985</year>
+                  <fpage>91</fpage>
+                  <lpage>103</lpage>
+                  <pub-id pub-id-type="pmid">3156947</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0095">
+                <element-citation publication-type="journal" id="rf0095">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Farah</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Is visual imagery really visual? Overlooked evidence from neuropsychology</article-title>
+                  <source>Psychol. Rev.</source>
+                  <volume>95</volume>
+                  <issue>3</issue>
+                  <year>1988</year>
+                  <fpage>307</fpage>
+                  <lpage>317</lpage>
+                  <pub-id pub-id-type="pmid">3043530</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0100">
+                <element-citation publication-type="journal" id="rf0100">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Flanagan</surname>
+                      <given-names>E.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wong</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dutt</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tu</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bertoux</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Irish</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>False recognition in behavioral variant frontotemporal dementia and Alzheimer's disease-disinhibition or amnesia?</article-title>
+                  <source>Front. Aging Neurosci.</source>
+                  <volume>8</volume>
+                  <year>2016</year>
+                  <fpage>177</fpage>
+                  <pub-id pub-id-type="pmid">27489543</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0105">
+                <element-citation publication-type="journal" id="rf0105">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Foley</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Foy</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schlemmer</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Belser-Ehrlich</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Imagery encoding and false recognition errors: examining the role of imagery process and imagery content on source misattributions</article-title>
+                  <source>Memory</source>
+                  <volume>18</volume>
+                  <issue>8</issue>
+                  <year>2010</year>
+                  <fpage>801</fpage>
+                  <lpage>821</lpage>
+                  <pub-id pub-id-type="pmid">20924947</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0110">
+                <element-citation publication-type="journal" id="rf0110">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Glosser</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gallo</surname>
+                      <given-names>J.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Clark</surname>
+                      <given-names>C.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grossman</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Memory encoding and retrieval in frontotemporal dementia and Alzheimer's disease</article-title>
+                  <source>Neuropsychology</source>
+                  <volume>16</volume>
+                  <issue>2</issue>
+                  <year>2002</year>
+                  <fpage>190</fpage>
+                  <lpage>196</lpage>
+                  <pub-id pub-id-type="pmid">11949711</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0115">
+                <element-citation publication-type="journal" id="rf0115">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Grober</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipton</surname>
+                      <given-names>R.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hall</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Crystal</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Memory impairment on free and cued selective reminding predicts dementia</article-title>
+                  <source>Neurology</source>
+                  <volume>54</volume>
+                  <issue>4</issue>
+                  <year>2000</year>
+                  <fpage>827</fpage>
+                  <lpage>832</lpage>
+                  <pub-id pub-id-type="pmid">10690971</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0120">
+                <element-citation publication-type="journal" id="rf0120">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Grober</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hall</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sanders</surname>
+                      <given-names>A.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipton</surname>
+                      <given-names>R.B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Free and cued selective reminding distinguishes Alzheimer's disease from vascular dementia</article-title>
+                  <source>J. Am. Geriatr. Soc.</source>
+                  <volume>56</volume>
+                  <issue>5</issue>
+                  <year>2008</year>
+                  <fpage>944</fpage>
+                  <lpage>946</lpage>
+                  <pub-id pub-id-type="pmid">18454754</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0125">
+                <element-citation publication-type="journal" id="rf0125">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hornberger</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Piguet</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Graham</surname>
+                      <given-names>A.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nestor</surname>
+                      <given-names>P.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hodges</surname>
+                      <given-names>J.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>How preserved is episodic memory in behavioral variant frontotemporal dementia?</article-title>
+                  <source>Neurology</source>
+                  <volume>74</volume>
+                  <issue>6</issue>
+                  <year>2010</year>
+                  <fpage>472</fpage>
+                  <lpage>479</lpage>
+                  <pub-id pub-id-type="pmid">20142613</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0130">
+                <element-citation publication-type="book" id="rf0130">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Howard</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Patterson</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>The Pyramids and Palm Trees</chapter-title>
+                  <year>1992</year>
+                  <publisher-name>Thames Valley Test Company</publisher-name>
+                  <publisher-loc>Bury St Edmunds</publisher-loc>
+                </element-citation>
+              </ref>
+              <ref id="bb0135">
+                <element-citation publication-type="journal" id="rf0135">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hsieh</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schubert</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoon</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mioshi</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hodges</surname>
+                      <given-names>J.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Validation of the Addenbrooke's cognitive examination III in frontotemporal dementia and Alzheimer's disease</article-title>
+                  <source>Dement. Geriatr. Cogn. Disord.</source>
+                  <volume>36</volume>
+                  <issue>3–4</issue>
+                  <year>2013</year>
+                  <fpage>242</fpage>
+                  <lpage>250</lpage>
+                  <pub-id pub-id-type="pmid">23949210</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0140">
+                <element-citation publication-type="journal" id="rf0140">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hutchinson</surname>
+                      <given-names>J.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Uncapher</surname>
+                      <given-names>M.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wagner</surname>
+                      <given-names>A.D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Posterior parietal cortex and episodic retrieval: convergent and divergent effects of attention and memory</article-title>
+                  <source>Learn. Mem.</source>
+                  <volume>16</volume>
+                  <issue>6</issue>
+                  <year>2009</year>
+                  <fpage>343</fpage>
+                  <lpage>356</lpage>
+                  <pub-id pub-id-type="pmid">19470649</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0145">
+                <element-citation publication-type="journal" id="rf0145">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kas</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>de Souza</surname>
+                      <given-names>L.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Samri</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bartolomeo</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lacomblez</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kalafat</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neural correlates of cognitive impairment in posterior cortical atrophy</article-title>
+                  <source>Brain</source>
+                  <volume>134</volume>
+                  <year>2011</year>
+                  <fpage>1464</fpage>
+                  <lpage>1478</lpage>
+                  <comment>Pt 5</comment>
+                  <pub-id pub-id-type="pmid">21478188</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0150">
+                <element-citation publication-type="journal" id="rf0150">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kosslyn</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Seeing and imagining in the cerebral hemispheres: a computational approach</article-title>
+                  <source>Psychol. Rev.</source>
+                  <volume>94</volume>
+                  <issue>2</issue>
+                  <year>1987</year>
+                  <fpage>148</fpage>
+                  <lpage>175</lpage>
+                  <pub-id pub-id-type="pmid">3575583</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0155">
+                <element-citation publication-type="journal" id="rf0155">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lawrence</surname>
+                      <given-names>A.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sahakian</surname>
+                      <given-names>B.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Alzheimer disease, attention, and the cholinergic system</article-title>
+                  <source>Alzheimer Dis Assoc Disord.</source>
+                  <volume>9</volume>
+                  <issue>Suppl. 2</issue>
+                  <year>1995</year>
+                  <fpage>43</fpage>
+                  <lpage>49</lpage>
+                  <pub-id pub-id-type="pmid">8534423</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0160">
+                <element-citation publication-type="journal" id="rf0160">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lehmann</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Barnes</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ridgway</surname>
+                      <given-names>G.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wattam-Bell</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Warrington</surname>
+                      <given-names>E.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fox</surname>
+                      <given-names>N.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Basic visual function and cortical thickness patterns in posterior cortical atrophy</article-title>
+                  <source>Cereb. Cortex</source>
+                  <volume>21</volume>
+                  <issue>9</issue>
+                  <year>2011</year>
+                  <fpage>2122</fpage>
+                  <lpage>2132</lpage>
+                  <pub-id pub-id-type="pmid">21310781</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0165">
+                <element-citation publication-type="journal" id="rf0165">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lemos</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Simoes</surname>
+                      <given-names>M.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Santiago</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Santana</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The free and cued selective reminding test: calidation for mild cognitive impairment and Alzheimer's disease</article-title>
+                  <source>J. Neuropsychol.</source>
+                  <volume>9</volume>
+                  <year>2015</year>
+                  <fpage>242</fpage>
+                  <lpage>257</lpage>
+                  <pub-id pub-id-type="pmid">24894485</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0170">
+                <element-citation publication-type="book" id="rf0170">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Loane</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Roca-Fernandez</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lage-Martinez</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sheerin</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ahmed</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zamboni</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>Structural and Function Brain Imaging Following Limbic Encephalitis Associated with Voltage-Gated Potassium Channel Complex Antibodies</chapter-title>
+                  <year>2018</year>
+                  <comment>(submitted)</comment>
+                </element-citation>
+              </ref>
+              <ref id="bb0175">
+                <element-citation publication-type="book" id="rf0175">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Luria</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>The Neuropsychology of Memory</chapter-title>
+                  <year>1976</year>
+                  <publisher-name>V. H. Winston &amp; Sons</publisher-name>
+                  <publisher-loc>Oxford, UK</publisher-loc>
+                </element-citation>
+              </ref>
+              <ref id="bb0180">
+                <element-citation publication-type="journal" id="rf0180">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McKhann</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Drachman</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Folstein</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Katzman</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Price</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stadlan</surname>
+                      <given-names>E.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Clinical diagnosis of Alzheimer's disease: report of the NINCDS-ADRDA work group under the auspices of Department of Health and Human Services Task Force on Alzheimer's disease</article-title>
+                  <source>Neurology</source>
+                  <volume>34</volume>
+                  <issue>7</issue>
+                  <year>1984</year>
+                  <fpage>939</fpage>
+                  <lpage>944</lpage>
+                  <pub-id pub-id-type="pmid">6610841</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0185">
+                <element-citation publication-type="journal" id="rf0185">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McKhann</surname>
+                      <given-names>G.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Knopman</surname>
+                      <given-names>D.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chertkow</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hyman</surname>
+                      <given-names>B.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jack</surname>
+                      <given-names>C.R.</given-names>
+                      <suffix>Jr.</suffix>
+                    </name>
+                    <name>
+                      <surname>Kawas</surname>
+                      <given-names>C.H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The diagnosis of dementia due to Alzheimer's disease: recommendations from the National Institute on Aging-Alzheimer's Association workgroups on diagnostic guidelines for Alzheimer's disease</article-title>
+                  <source>Alzheimer's Dement.</source>
+                  <volume>7</volume>
+                  <issue>3</issue>
+                  <year>2011</year>
+                  <fpage>263</fpage>
+                  <lpage>269</lpage>
+                  <pub-id pub-id-type="pmid">21514250</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0190">
+                <element-citation publication-type="journal" id="rf0190">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McMonagle</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Deering</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Berliner</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kertesz</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The cognitive profile of posterior cortical atrophy</article-title>
+                  <source>Neurology</source>
+                  <volume>66</volume>
+                  <issue>3</issue>
+                  <year>2006</year>
+                  <fpage>331</fpage>
+                  <lpage>338</lpage>
+                  <pub-id pub-id-type="pmid">16476930</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0195">
+                <element-citation publication-type="journal" id="rf0195">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Migliaccio</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Agosta</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rascovsky</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Karydas</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bonasera</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rabinovici</surname>
+                      <given-names>G.D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Clinical syndromes associated with posterior atrophy: early age at onset AD spectrum</article-title>
+                  <source>Neurology</source>
+                  <volume>73</volume>
+                  <issue>19</issue>
+                  <year>2009</year>
+                  <fpage>1571</fpage>
+                  <lpage>1578</lpage>
+                  <pub-id pub-id-type="pmid">19901249</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0200">
+                <element-citation publication-type="journal" id="rf0200">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mioshi</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dawson</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mitchell</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Arnold</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hodges</surname>
+                      <given-names>J.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Addenbrooke's Cognitive Examination Revised (ACE-R): a brief cognitive test battery for dementia screening</article-title>
+                  <source>Int. J. Geriatr. Psychiatry</source>
+                  <volume>21</volume>
+                  <issue>11</issue>
+                  <year>2006</year>
+                  <fpage>1078</fpage>
+                  <lpage>1085</lpage>
+                  <pub-id pub-id-type="pmid">16977673</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0205">
+                <element-citation publication-type="journal" id="rf0205">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Morris</surname>
+                      <given-names>J.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Heyman</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mohs</surname>
+                      <given-names>R.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hughes</surname>
+                      <given-names>J.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>van Belle</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fillenbaum</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Consortium to Establish a Registry for Alzheimer's Disease (CERAD). Part I. Clinical and neuropsychological assessment of Alzheimer's disease</article-title>
+                  <source>Neurology</source>
+                  <volume>39</volume>
+                  <issue>9</issue>
+                  <year>1989</year>
+                  <fpage>1159</fpage>
+                  <lpage>1165</lpage>
+                  <pub-id pub-id-type="pmid">2771064</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0210">
+                <element-citation publication-type="journal" id="rf0210">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Parasuraman</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Greenwood</surname>
+                      <given-names>P.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sunderland</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The apolipoprotein E gene, attention, and brain function</article-title>
+                  <source>Neuropsychology</source>
+                  <volume>16</volume>
+                  <issue>2</issue>
+                  <year>2002</year>
+                  <fpage>254</fpage>
+                  <lpage>274</lpage>
+                  <pub-id pub-id-type="pmid">11949718</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0215">
+                <element-citation publication-type="journal" id="rf0215">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Policardi</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Perani</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zago</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grassi</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fazio</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ladavas</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Failure to evoke visual images in a case of long-lasting cortical blindness</article-title>
+                  <source>Neurocase</source>
+                  <volume>2</volume>
+                  <issue>5</issue>
+                  <year>1996</year>
+                  <fpage>381</fpage>
+                  <lpage>394</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bb0220">
+                <element-citation publication-type="journal" id="rf0220">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Renner</surname>
+                      <given-names>J.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Burns</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hou</surname>
+                      <given-names>C.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>McKeel</surname>
+                      <given-names>D.W.</given-names>
+                      <suffix>Jr.</suffix>
+                    </name>
+                    <name>
+                      <surname>Storandt</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Morris</surname>
+                      <given-names>J.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Progressive posterior cortical dysfunction: a clinicopathologic series</article-title>
+                  <source>Neurology</source>
+                  <volume>63</volume>
+                  <issue>7</issue>
+                  <year>2004</year>
+                  <fpage>1175</fpage>
+                  <lpage>1180</lpage>
+                  <pub-id pub-id-type="pmid">15477534</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0230">
+                <element-citation publication-type="book" id="rf0230">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rey</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>Rey's Auditory Verbal Learning Test</chapter-title>
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>PUF</surname>
+                    </name>
+                  </person-group>
+                  <source>L'examen Clinique en Psychologie. Paris1958</source>
+                  <year>1964</year>
+                </element-citation>
+              </ref>
+              <ref id="bb0235">
+                <element-citation publication-type="journal" id="rf0235">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Simons</surname>
+                      <given-names>J.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peers</surname>
+                      <given-names>P.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mazuz</surname>
+                      <given-names>Y.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Berryhill</surname>
+                      <given-names>M.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Olson</surname>
+                      <given-names>I.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dissociation between memory accuracy and memory confidence following bilateral parietal lesions</article-title>
+                  <source>Cereb. Cortex</source>
+                  <volume>20</volume>
+                  <issue>2</issue>
+                  <year>2010</year>
+                  <fpage>479</fpage>
+                  <lpage>485</lpage>
+                  <pub-id pub-id-type="pmid">19542474</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0240">
+                <element-citation publication-type="journal" id="rf0240">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Fast robust automated brain extraction</article-title>
+                  <source>Hum. Brain Mapp.</source>
+                  <volume>17</volume>
+                  <issue>3</issue>
+                  <year>2002</year>
+                  <fpage>143</fpage>
+                  <lpage>155</lpage>
+                  <pub-id pub-id-type="pmid">12391568</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0245">
+                <element-citation publication-type="journal" id="rf0245">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nichols</surname>
+                      <given-names>T.E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Threshold-free cluster enhancement: addressing problems of smoothing, threshold dependence and localisation in cluster inference</article-title>
+                  <source>NeuroImage</source>
+                  <volume>44</volume>
+                  <issue>1</issue>
+                  <year>2009</year>
+                  <fpage>83</fpage>
+                  <lpage>98</lpage>
+                  <pub-id pub-id-type="pmid">18501637</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0250">
+                <element-citation publication-type="journal" id="rf0250">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sunderland</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Harris</surname>
+                      <given-names>J.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gleave</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Memory failures in everyday life following severe head injury</article-title>
+                  <source>J. Clin. Neuropsychol.</source>
+                  <volume>6</volume>
+                  <issue>2</issue>
+                  <year>1984</year>
+                  <fpage>127</fpage>
+                  <lpage>142</lpage>
+                  <pub-id pub-id-type="pmid">6736263</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0255">
+                <element-citation publication-type="journal" id="rf0255">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tang-Wai</surname>
+                      <given-names>D.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Graff-Radford</surname>
+                      <given-names>N.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boeve</surname>
+                      <given-names>B.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dickson</surname>
+                      <given-names>D.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Parisi</surname>
+                      <given-names>J.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Crook</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Clinical, genetic, and neuropathologic characteristics of posterior cortical atrophy</article-title>
+                  <source>Neurology</source>
+                  <volume>63</volume>
+                  <issue>7</issue>
+                  <year>2004</year>
+                  <fpage>1168</fpage>
+                  <lpage>1174</lpage>
+                  <pub-id pub-id-type="pmid">15477533</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0260">
+                <element-citation publication-type="journal" id="rf0260">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Teichmann</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Epelbaum</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Samri</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Levy Nogueira</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Michon</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hampel</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Free and Cued Selective Reminding Test - accuracy for the differential diagnosis of Alzheimer's and neurodegenerative diseases: a large-scale biomarker-characterized monocenter cohort study (ClinAD)</article-title>
+                  <source>Alzheimer's Dement.</source>
+                  <volume>13</volume>
+                  <issue>8</issue>
+                  <year>2017</year>
+                  <fpage>913</fpage>
+                  <lpage>923</lpage>
+                  <pub-id pub-id-type="pmid">28222300</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0265">
+                <element-citation publication-type="journal" id="rf0265">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Uncapher</surname>
+                      <given-names>M.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wagner</surname>
+                      <given-names>A.D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Posterior parietal cortex and episodic encoding: insights from fMRI subsequent memory effects and dual-attention theory</article-title>
+                  <source>Neurobiol. Learn. Mem.</source>
+                  <volume>91</volume>
+                  <issue>2</issue>
+                  <year>2009</year>
+                  <fpage>139</fpage>
+                  <lpage>154</lpage>
+                  <pub-id pub-id-type="pmid">19028591</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0270">
+                <element-citation publication-type="book" id="rf0270">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Warrington</surname>
+                      <given-names>E.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>James</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>Visual Object and Space Perception Battery</chapter-title>
+                  <year>1991</year>
+                  <publisher-name>Thames Valley Test Co</publisher-name>
+                  <publisher-loc>Bury St. Edmunds, Suffolk</publisher-loc>
+                </element-citation>
+              </ref>
+              <ref id="bb0275">
+                <element-citation publication-type="journal" id="rf0275">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wedderburn</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wear</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mason</surname>
+                      <given-names>S.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Barker</surname>
+                      <given-names>R.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hodges</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The utility of the Cambridge Behavioural inventory in neurodegenerative disease</article-title>
+                  <source>J. Neurol. Neurosurg. Psychiatry</source>
+                  <volume>79</volume>
+                  <issue>5</issue>
+                  <year>2008</year>
+                  <fpage>500</fpage>
+                  <lpage>503</lpage>
+                  <pub-id pub-id-type="pmid">17846114</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0280">
+                <element-citation publication-type="journal" id="rf0280">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Whitwell</surname>
+                      <given-names>J.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jack</surname>
+                      <given-names>C.R.</given-names>
+                      <suffix>Jr.</suffix>
+                    </name>
+                    <name>
+                      <surname>Kantarci</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Weigand</surname>
+                      <given-names>S.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boeve</surname>
+                      <given-names>B.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Knopman</surname>
+                      <given-names>D.S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Imaging correlates of posterior cortical atrophy</article-title>
+                  <source>Neurobiol. Aging</source>
+                  <volume>28</volume>
+                  <issue>7</issue>
+                  <year>2007</year>
+                  <fpage>1051</fpage>
+                  <lpage>1061</lpage>
+                  <pub-id pub-id-type="pmid">16797786</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0285">
+                <element-citation publication-type="journal" id="rf0285">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Winkler</surname>
+                      <given-names>A.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ridgway</surname>
+                      <given-names>G.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Webster</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nichols</surname>
+                      <given-names>T.E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Permutation inference for the general linear model</article-title>
+                  <source>NeuroImage</source>
+                  <volume>92</volume>
+                  <year>2014</year>
+                  <fpage>381</fpage>
+                  <lpage>397</lpage>
+                  <pub-id pub-id-type="pmid">24530839</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0290">
+                <element-citation publication-type="journal" id="rf0290">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wolk</surname>
+                      <given-names>D.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dickerson</surname>
+                      <given-names>B.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Alzheimer's Disease Neuroimaging I. Fractionating verbal episodic memory in Alzheimer's disease</article-title>
+                  <source>NeuroImage</source>
+                  <volume>54</volume>
+                  <issue>2</issue>
+                  <year>2011</year>
+                  <fpage>1530</fpage>
+                  <lpage>1539</lpage>
+                  <pub-id pub-id-type="pmid">20832485</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bb0295">
+                <element-citation publication-type="journal" id="rf0295">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zamboni</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilcock</surname>
+                      <given-names>G.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Douaud</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Drazich</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>McCulloch</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Filippini</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Resting functional connectivity reveals residual functional activity in Alzheimer's disease</article-title>
+                  <source>Biol. Psychiatry</source>
+                  <volume>74</volume>
+                  <issue>5</issue>
+                  <year>2013</year>
+                  <fpage>375</fpage>
+                  <lpage>383</lpage>
+                  <pub-id pub-id-type="pmid">23726515</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+            <ack id="ac0005">
+              <title>Acknowledgements</title>
+              <p>We are indebted to the patients and families for their kind participation in our research, and thank Cristina Blanco-Duque for help with data collection.</p>
+            </ack>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:05:45Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:5651850" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:5651850</identifier>
+        <datestamp>2017-10-26</datestamp>
+        <setSpec>scirep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-2322</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC5651850</article-id>
+              <article-id pub-id-type="pmcid">PMC5651850</article-id>
+              <article-id pub-id-type="pmc-uid">5651850</article-id>
+              <article-id pub-id-type="pmid">29057956</article-id>
+              <article-id pub-id-type="publisher-id">13361</article-id>
+              <article-id pub-id-type="doi">10.1038/s41598-017-13361-9</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>A mammalian blood odor component serves as an approach-avoidance cue across phylum border - from flies to humans</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Arshamian</surname>
+                    <given-names>Artin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Laska</surname>
+                    <given-names>Matthias</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Gordon</surname>
+                    <given-names>Amy R.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Norberg</surname>
+                    <given-names>Matilda</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lahger</surname>
+                    <given-names>Christian</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Porada</surname>
+                    <given-names>Danja K.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Jelvez Serra</surname>
+                    <given-names>Nadia</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Johansson</surname>
+                    <given-names>Emilia</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Schaefer</surname>
+                    <given-names>Martin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Amundin</surname>
+                    <given-names>Mats</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Melin</surname>
+                    <given-names>Harald</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Olsson</surname>
+                    <given-names>Andreas</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Olsson</surname>
+                    <given-names>Mats J.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Stensmyr</surname>
+                    <given-names>Marcus</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Lundström</surname>
+                    <given-names>Johan N.</given-names>
+                  </name>
+                  <address>
+                    <email>johan.lundstrom@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                  <xref ref-type="aff" rid="Aff8">8</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1937 0626</institution-id><institution-id institution-id-type="GRID">grid.4714.6</institution-id><institution>Department of Clinical Neuroscience, Karolinska Institutet, </institution></institution-wrap>17177 Stockholm, Sweden </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000000122931605</institution-id><institution-id institution-id-type="GRID">grid.5590.9</institution-id><institution>Donders Institute for Brain, Cognition, and Behavior and Center for Language Studies, Radboud University, </institution></institution-wrap>6500 HD Nijmegen, The Netherlands </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1936 9377</institution-id><institution-id institution-id-type="GRID">grid.10548.38</institution-id><institution>Department of Psychology, Stockholm University, </institution></institution-wrap>10691 Stockholm, Sweden </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2162 9922</institution-id><institution-id institution-id-type="GRID">grid.5640.7</institution-id><institution>Department of Physics, Chemistry and Biology, Linköping University, </institution></institution-wrap>58183 Linköping, Sweden </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0000 9142 2735</institution-id><institution-id institution-id-type="GRID">grid.250221.6</institution-id><institution>Monell Chemical Senses Center, </institution></institution-wrap>Philadelphia, PA 19104 USA </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 0930 2361</institution-id><institution-id institution-id-type="GRID">grid.4514.4</institution-id><institution>Department of Biology, Lund University, </institution></institution-wrap>22362 Lund, Sweden </aff>
+                <aff id="Aff7"><label>7</label>Kolmården Wildlife Park, Kolmården, 618 92 Kolmården, Sweden </aff>
+                <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1936 8972</institution-id><institution-id institution-id-type="GRID">grid.25879.31</institution-id><institution>Department of Psychology, University of Pennsylvania, </institution></institution-wrap>PA 19104 Philadelphia, USA </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>20</day>
+                <month>10</month>
+                <year>2017</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>20</day>
+                <month>10</month>
+                <year>2017</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2017</year>
+              </pub-date>
+              <volume>7</volume>
+              <elocation-id>13635</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>31</day>
+                  <month>5</month>
+                  <year>2017</year>
+                </date>
+                <date date-type="accepted">
+                  <day>21</day>
+                  <month>9</month>
+                  <year>2017</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2017</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">Chemosignals are used by predators to localize prey and by prey to avoid predators. These cues vary between species, but the odor of blood seems to be an exception and suggests the presence of an evolutionarily conserved chemosensory cue within the blood odor mixture. A blood odor component, E2D, has been shown to trigger approach responses identical to those triggered by the full blood odor in mammalian carnivores and as such, is a key candidate as a food/alarm cue in blood. Using a multidisciplinary approach, we demonstrate that E2D holds the dual function of affecting both approach and avoidance behavior in a predator-prey predicted manner. E2D evokes approach responses in two taxonomically distant blood-seeking predators, Stable fly and Wolf, while evoking avoidance responses in the prey species Mouse. We extend this by demonstrating that this chemical cue is preserved in humans as well; E2D induces postural avoidance, increases physiological arousal, and enhances visual perception of affective stimuli. This is the first demonstration of a single chemical cue with the dual function of guiding both approach and avoidance in a predator-prey predicted manner across taxonomically distant species, as well as the first known chemosignal that affects both human and non-human animals alike.</p>
+              </abstract>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2017</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1" sec-type="introduction">
+              <title>Introduction</title>
+              <p id="Par2">In mammals, endogenous odors, such as body odors, urine, feces, or blood, serve as attractants to predators and warning signals to prey species<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. These types of odors typically transfer information between predator-prey species pairs sharing a long evolutionary history<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. However, this information flow is normally confined to discrete pairs of predator-prey species but the odor from blood seems to be a more universal cue. Mammalian predators use the odor of blood to home-in on wounded prey<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>, whereas prey species display avoidance behavior and increased vigilance towards conspecific, as well as heterospecific, blood odors<sup><xref ref-type="bibr" rid="CR2">2</xref>–<xref ref-type="bibr" rid="CR7">7</xref></sup>. This suggests the presence of an old and evolutionarily conserved chemosensory cue within blood odor.</p>
+              <p id="Par3">However, the odor of blood is a complex mixture of volatiles, and mammals very seldom respond to a single volatile compound as they do to the naturally occurring odor mixture the volatile belongs to<sup><xref ref-type="bibr" rid="CR8">8</xref>–<xref ref-type="bibr" rid="CR14">14</xref></sup>. Nonetheless, we recently demonstrated that the volatile chemical <italic>trans</italic>-4, 5-epoxy-(E)-2-decenal (see E2D; Fig. <xref rid="Fig1" ref-type="fig">1a</xref>), that is present in mammalian blood is as strong an attractant to four mammalian predator species as the full blood mixture<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>. E2D is generated by lipid peroxidation<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>. This physiological process is present in all mammals and it is very likely that the corresponding volatile metabolites, including E2D, are ubiquitously found in the blood of all mammals. Thus, E2D could indicate the presence of wounded prey to a predator and initiate a behavioral response as efficiently as a natural, complex blood odor.<fig id="Fig1"><label>Figure 1</label><caption><p>The odor of E2D is sufficient to elicit approach response in blood-seeking animals. (<bold>A</bold>) Chemical structure of <italic>trans</italic>-4,5-epoxy-(<bold>E</bold>)-2-decenal (E2D). (<bold>B</bold>) Schematic drawing of the Y maze olfactory assay used for the fly behavioral experiment. (<bold>C</bold>) Mean percentage of flies choosing between E2D in a background of host odor and host odor only (left) and between E2D and cattle blood both in a host background. (<bold>D</bold>) A wolf displaying biting on the scented log, one of the eleven behaviors present in the ethogram. (<bold>E</bold>) Mean total number of interactions during a session with the four odor stimuli for the wolf pack. Error bars indicate standard error of the mean (SEM). *p &lt; 0.05, ***p &lt; 0.001.</p></caption><graphic xlink:href="41598_2017_13361_Fig1_HTML" id="d29e445"/></fig>
+</p>
+              <p id="Par4">Olfactory sensitivity to a specific odorant depends on its behavioral relevance for the survival and reproduction rate of individuals of a given species<sup><xref ref-type="bibr" rid="CR16">16</xref>,<xref ref-type="bibr" rid="CR17">17</xref></sup>. In line with this argument, we recently demonstrated that CD-1 mice (an outbred strain) display extremely high olfactory sensitivity towards this chemical<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>. This indicates that for mice, E2D—like blood—could be an avoidance cue. These observations suggest that high sensitivity to E2D may be evolutionarily conserved across animals and, at least from a behavioral point of view, constitute a key compound of the blood odor cue involved in approach/avoidance responses. This would be rare as, to the best of our knowledge, there is no known chemical cue with the dual function of affecting both approach and avoidance behavior in predator and prey in a predicted manner.</p>
+              <p id="Par5">In addition to the two non-human animal studies described above, another study has determined the olfactory detection threshold for E2D in humans. Intriguingly—and as with mice—humans display an extraordinarily low detection threshold of 0.078–0.33 ppt (parts per trillion) for this odorant<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>. Although humans are thought to be opportunistic predators<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>, paleontological data indicate that early primates were small-bodied insectivores<sup><xref ref-type="bibr" rid="CR20">20</xref></sup> and that predator pressure is likely to be ancient in our clade<sup><xref ref-type="bibr" rid="CR19">19</xref>,<xref ref-type="bibr" rid="CR21">21</xref></sup>. Moreover, anthropological evidence suggests that more complex forms of large prey hunting in primates increased with the emergence of the genus <italic>Homo</italic>
+<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. Thus, if the chemical cue of E2D is conserved in humans, it is likely in the form of a contextual alarm cue. If true, this would, to our knowledge, constitute the first demonstration of a chemosensory cue that affects behavior in both human and non-human animals alike. However, if such a chemosensory cue does exist, it should be conserved in predator and prey across species, within as well as between phyla.</p>
+              <p id="Par6">To address these notions, we used a multidisciplinary protocol that enabled us to assess behavioral responses to E2D across taxonomically distant species. We first determined whether E2D is a key compound of the blood odor cue across taxa by comparing it to the full blood odor in three non-human species of animals. We tested one blood-seeking invertebrate (Stable fly) and one mammalian (Wolf) predator, as well as one mammalian prey species (Mouse). We predicted that both predators would be attracted to E2D to the same degree as to the full blood odor. In addition, we predicted that E2D would serve as an alarm cue in mice by inducing similar avoidance responses as full blood odor. Finally, we addressed whether niche-dependent responses towards E2D are conserved in humans as well. We predicted that as in mice, this odorant would induce a behavioral avoidance response in humans. Moreover, since previous studies have demonstrated that behaviorally relevant odors can affect physiological responses in humans<sup><xref ref-type="bibr" rid="CR22">22</xref>–<xref ref-type="bibr" rid="CR25">25</xref></sup>, we predicted that E2D would modulate a range of responses associated with the perception of danger.</p>
+            </sec>
+            <sec id="Sec2" sec-type="results">
+              <title>Results</title>
+              <p id="Par7">First, to determine how an invertebrate blood-seeking animal responds to the odor of E2D, we examined blood chemotaxis of the stable fly, <italic>Stomoxys calcitrans</italic>, a livestock pest of which both sexes require blood meals for survival and reproduction<sup><xref ref-type="bibr" rid="CR26">26</xref></sup>. We assayed flies (n = 35) in a Y-maze setup (Fig. <xref rid="Fig1" ref-type="fig">1B</xref>) in which the flies were first provided with a choice between E2D and a near-odorless organic solvent (diethyl phthalate) within the context of a host odor (horse or cattle). Given this choice, the flies significantly preferred E2D (<italic>χ</italic>
+<sup>2</sup>(1) = 25.7195, p &lt; 0.001; see Fig. <xref rid="Fig1" ref-type="fig">1C</xref>, left panel). Next, we contrasted E2D against real blood (cattle), again within the context of a host odor, and the flies now displayed the same level of approach response to E2D as to the odor of blood, i.e., equating the two odor sources (<italic>χ</italic>
+<sup>2</sup>(1) = 1.847, p = 0.17; see Fig. <xref rid="Fig1" ref-type="fig">1C</xref>, right panel).</p>
+              <p id="Par8">We then sought to determine whether E2D would be sufficient to elicit approach responses typical to those elicited by real blood in a large mammalian predator. To this end, we tested the Eurasian wolf (<italic>Canis lupus</italic>), a gregarious carnivore that relies heavily on olfactory information when tracking and hunting prey<sup><xref ref-type="bibr" rid="CR27">27</xref></sup>. We placed odor-impregnated wooden logs into the wolf packs’ (n = 7) outdoor enclosure to allow the animals to freely interact with the logs. Over a twenty-day experimental period, the wolf pack was presented with logs impregnated with either E2D, real blood (horse), or two control conditions – a fruity odor (iso-pentyl acetate) or the near-odorless organic solvent (diethyl phthalate), while individual interactions with the logs were recorded (see Fig. <xref rid="Fig1" ref-type="fig">1D</xref>). There were significant differences in the number of interactions between odorized logs (<italic>χ</italic>
+<sup>2</sup>(3) = 17.597, p &lt; 0.001). As hypothesized, the wolves displayed a higher number of interactions when presented with E2D compared to the fruity odor (p &lt; 0.05) and the near-odorless solvent (p &lt; 0.05). There was, however, no significant difference between E2D and the full blood odor mixture (p = 0.997). The wolves also displayed a significantly higher number of interactions when presented with horse blood compared to fruity odor (p &lt; 0.05) and the near-odorless solvent (p &lt; 0.05). The number of interactions did not differ significantly between the fruity odor and the solvent (p = 1.0; see Fig. <xref rid="Fig1" ref-type="fig">1E</xref>).</p>
+              <p id="Par9">These findings suggest that for blood-seeking invertebrates and carnivorous mammals alike, E2D serves as a conserved chemical cue indicating the presence of blood. In short, we conclude that for both vertebrate and invertebrate blood-seeking animals, the monomolecular odor E2D is sufficient as a chemical cue to initiate an approach behavior that is indistinguishable from that elicited by the complex odor mixture of natural mammalian blood.</p>
+              <p id="Par10">Having concluded that predators and blood-feeding animals use E2D as a chemical cue to locate and approach blood, we next asked whether E2D would induce avoidance responses in prey species. First, we tested the behavioral response of mice (<italic>Mus musculus</italic>), a known prey species for which the odor of blood might indicate the presence of injured conspecifics. We tested predator-naïve CD-1 mice, an outbred strain which has a behavioral phenotype more similar to wild mice compared to inbred strains<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>. We measured time spent on either side of a 2-compartment test arena, with the near-odorless organic solvent (diethyl phthalate) on one side and either E2D, real blood, or a fruity odor (<italic>n</italic>-pentyl acetate) on the other (see Fig. <xref rid="Fig2" ref-type="fig">2A</xref>). Both the odor of E2D and the odor of the full blood mixture generated aversive behavior in mice. The mice (<italic>n</italic> = 60) spent significantly more time in the near-odorless compartment compared to both E2D (<italic>V</italic> = 2792.5, p &lt; 0.05) and blood (<italic>V</italic> = 58893.5, p &lt; 0.0001), but not compared to the fruity odor (V = 31595, p = 0.65). As with flies and wolves, the response to E2D and blood did not significantly differ from each other (<italic>χ</italic>
+<sup>2</sup>(1) = 2.3726, <italic>p</italic> = 0.12).<fig id="Fig2"><label>Figure 2</label><caption><p>E2D induces avoidance behavior in the prey species mouse and in human participants. (<bold>A</bold>) Upper panel: A mouse displaying aversion towards E2D. Lower panel: mean aversion index of the time spent in the non-odorized compartments. (<bold>B</bold>) A human participant standing on the force platform measuring approach (anterior)-avoidance (posterior). (<bold>C</bold>) Mean total movement (cm) in the anterior-posterior direction as a function of E2D, and the control odors <italic>trans</italic>-2-decenal (T2D) and butanol (BUT). (<bold>D</bold>) Mean GSR signal as a function of E2D, T2D and BUT. (<bold>E</bold>) Mean visual reaction time to affective faces in human participants as function of E2D, BUT, and odorless control. Error bars indicate s.e.m. *p &lt; 0.05, **p &lt; 0.01, ***p &lt; 0.001.</p></caption><graphic xlink:href="41598_2017_13361_Fig2_HTML" id="d29e617"/></fig>
+</p>
+              <p id="Par11">Taken together, these experiments confirmed that the mammalian blood odor component E2D elicits approach-avoidance responses in mammalian predator and prey species as well as in blood-feeding invertebrates, in accordance with their ecological niches. Our findings also show that E2D initiates a behavioral response as efficiently as a natural, complex blood odor.</p>
+              <p id="Par12">Next, we sought to determine whether E2D is conserved as a chemical alarm cue in humans (<italic>Homo sapiens</italic>) as well. We hypothesized that E2D would serve as a contextual threat and alarm cue that warns the individual of impending danger. According to the well-validated threat-imminence and defense-cascade model, behavioral responses to stimuli that warn the individual of a potential threat in the vicinity are manifested by active avoidance responses, increased arousal, vigilance, and attention<sup><xref ref-type="bibr" rid="CR29">29</xref>,<xref ref-type="bibr" rid="CR30">30</xref></sup>. We first assessed whether participants would demonstrate an automatic avoidance response towards the E2D odor using a strain gauge force plate (see Fig. <xref rid="Fig2" ref-type="fig">2B</xref>). This is a method for measuring approach-avoidance responses in humans by the use of balance-dependent sway in the anterior–posterior (AP) direction<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. Moreover, we measured physical arousal by means of galvanic skin responses (GSR). Specifically, we hypothesized that participants would demonstrate an avoidance response by initiating a backward leaning motion and elevated physical arousal response towards the E2D odor. To control for odor specificity of the behavioral and autonomic response, we used two control odors, <italic>n</italic>-butanol, frequently used in human olfactory research, and <italic>trans</italic>-2-decenal, a molecule that is structurally similar to E2D, differing only by the presence vs. absence of a functional epoxy group. We matched all three odors on intensity, using weak but detectable iso-intense concentrations. Notably, there were no significant differences between odors in either pleasantness or familiarity. All three odors were rated as neutral in valence (iso-pleasant) and low in familiarity (see Materials and Methods section for ratings and analysis). Participants (<italic>n</italic> = 40) were standing on the force plate blindfolded and E2D, <italic>n-</italic>butanol, and <italic>trans</italic>-2-decenal were birhinally presented using a computer-controlled olfactometer<sup><xref ref-type="bibr" rid="CR32">32</xref></sup> (see Fig. <xref rid="Fig2" ref-type="fig">2B</xref>). Importantly, participants could not anticipate the stimuli onsets, and no mention of blood or blood odor was given either before, during, or after the experiment. Post-experiment control questions showed that no participant had any association with the odor of blood (see Materials and Methods section for more information). In response to 2 s long odor puffs, we observed that E2D increased movement in the AP axis significantly more than both odorant controls, n-butanol (estimate = −0.010851, t(2242) = 2.395, p &lt; 0.05), and trans-2-decenal (estimate = −0.013613, t(2242) = 3.158, p &lt; 0.01), whereas the latter two did not significantly differ from each other in their total AP axis movement (estimate = −0.002762, t(2242) = 0.610, p = 0.81; see Fig. <xref rid="Fig2" ref-type="fig">2C</xref>). Subsequent post-hoc tests against zero (no movement) demonstrated that E2D increased movement towards the posterior, a leaning back motion (p &lt; 0.05) whereas both control odors did not differ from baseline (<italic>n</italic>-butanol: p = 0.15, and <italic>trans</italic>-2-decenal(p = 0.31). Similarly, E2D increased the participants’ physical arousal by inducing a significantly higher GSR signal than both control odors (<italic>n</italic>-butanol, estimate = 4.2615, t(2242) = 4.515, p &lt; 0.001, and trans-2-decenal (estimate = −4.0195, <italic>t</italic>
+<sub>(2242)</sub> = 4.478, p &lt; 0.001), which in turn did not significantly differ from each other (estimate = 0.2421, t(2242) = 0.256, p = 0.96). Both of these responses, the leaning back motion and the increased physical arousal, are viewed as hallmarks of avoidance behavior in humans<sup><xref ref-type="bibr" rid="CR31">31</xref>,<xref ref-type="bibr" rid="CR33">33</xref></sup>.</p>
+              <p id="Par13">Having established that E2D induced an avoidance response in humans, we next asked if this alarm cue has broader cognitive implications. We tested this by studying if E2D modifies the emotional saliency of visual stimuli by increasing vigilance and attention. Earlier studies have shown that ecologically relevant chemosensory cues, such as body odors, can modify behavioral responses to ambiguous signals of visual threat by making them more similar to unambiguous warning signals<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. Accordingly, we used a well-validated visual search task<sup><xref ref-type="bibr" rid="CR35">35</xref></sup> that contained affective facial stimuli while measuring reaction time (RT) and GSR, as the autonomic measure of arousal. We used schematic rather than real faces for three principal reasons: (i) their stereotypical expressions of affective valence, (ii) to limit the influence of previous associations and gender/racial biases that real faces would evoke, and (iii) ensuring low perceptual expertise with the images across participants<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. These parameters mean schematic faces produce lower variability in evoked arousal than real faces do<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. In three separate blocks, participants (<italic>n</italic> = 33) were instructed to, as quickly as possible, determine whether all faces in a 3 × 3 array of schematic faces were identical or if one was different while being exposed to either E2D, <italic>n</italic>-butanol, or clean air (same concentrations as in the previous experiment). An angry or a happy face was present as a target among neutral distractor faces; previous studies have demonstrated an angry/threat superiority within this task<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. As hypothesized, there was a main effect of chemosensory cue on both RT (<italic>F</italic>(2, 64) = 6.168, <italic>p</italic> &lt; 0.01 (see Fig. <xref rid="Fig2" ref-type="fig">2E</xref>), and GSR (<italic>F</italic>(2, 64) = 3.241, <italic>p</italic> &lt; 0.05; see Fig. <xref rid="Fig2" ref-type="fig">2D</xref>). Pairwise comparisons revealed lower RTs for E2D than for both the odorant control <italic>n</italic>-butanol (p &lt; 0.01), and the odorless control, <italic>p</italic> &lt; 0.05, but the latter two did not significantly differ from each other (p = 0.32). Exposure to E2D, but not <italic>n</italic>-butanol or clean air, speeded RTs to happy faces bringing them to the same level of response time as to that of angry faces. Replicating our previous GSR finding, E2D increased GSR significantly more than <italic>n</italic>-butanol (p &lt; 0.05), and odorless control (p &lt; 0.05), whereas the latter two did not significantly differ (p = 0.625).</p>
+            </sec>
+            <sec id="Sec3" sec-type="discussion">
+              <title>Discussion</title>
+              <p id="Par14">Using a multidisciplinary approach, we demonstrate that across taxonomically distant species, for which adaptive behavior towards the odor of mammalian blood is important, one single odorant can elicit approach and avoidance in predator-prey predicted manner. Specifically, our results from non-human animals demonstrate that E2D serves as a signature blood odorant across phylum borders by indicating food in blood-feeding invertebrates, as well as in mammalian predators, while simultaneously cueing danger in mammalian prey to the same extent as the full blood odor. This is unique for two reasons: firstly, mammals do not usually respond to a single volatile compound as they do to the naturally occurring odor mixture the odorant belongs to and, secondly, to the best of our knowledge, there is no known single odorant with the dual function of affecting both approach and avoidance in a predator-prey predicted manner. From an evolutionary point of view, behavioral adaptation towards invariant chemical cues present in blood may have constituted a cost-effective way for predators to locate wounded prey from different species, and for preys to avoid novel and potentially dangerous environments containing conspecific or heterospecific blood. It is possible that the selection pressure for this chemical cue is old, likely predating several of the other known species-specific chemical cues that have been shaped by predator-prey interactions.</p>
+              <p id="Par15">We further demonstrate that E2D affected several responses in humans despite being perceived as an odor stimulus of low intensity, and neutral valence. First, E2D triggered a postural avoidance, which was in line with our hypothesis that humans, like mice, would display a prey-typical response to this odorant. The increase in the participants’ physical arousal in two independent experiments further corroborated this observation. Finally, the enhanced efficiency in detecting emotional visual stimuli demonstrated that the effect of E2D went beyond simple peripheral responses by modulating more complex cognitive functions prototypical for a defensive system. This suggests that E2D, at least in humans, functions as a contextual alarm cue affecting afferent systems, which in turn leads to increased stimulus receptivity and visual processing.</p>
+              <p id="Par16">Due to ethical restrictions concerning pathogen transfer, direct comparison between E2D and blood was not possible in human participants. However, we believe that our comparative approach justifies and makes it likely that this chemical cue is conserved in humans and non-human animals alike. Predator-prey interactions have been a major force in shaping olfactory perception in the animal kingdom<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>, and are likely important in the hominin lineage<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. Cross-species signals are well-established in other modalities<sup><xref ref-type="bibr" rid="CR19">19</xref></sup> and olfaction is no exception<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>. For example, both elephants and a large number of moths share parts of their sex pheromones, and many alarm pheromones and other chemical cues are shared in species within the same prey guild<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>. However, unlike these types of chemical stimuli, the odor of blood is characterized by a rare universality<sup><xref ref-type="bibr" rid="CR1">1</xref>–<xref ref-type="bibr" rid="CR7">7</xref></sup>. We propose that the driving force behind this is the ecological relevance of blood odor for survival, and that E2D may be an invariant cue shared across species. Invariant cues across animals are well-established in both auditory and visual perception<sup><xref ref-type="bibr" rid="CR19">19</xref>,<xref ref-type="bibr" rid="CR33">33</xref></sup>. For example, many species, including mammals, birds, reptiles, and human adults as well as infants, display strong gaze sensitivity<sup><xref ref-type="bibr" rid="CR19">19</xref>,<xref ref-type="bibr" rid="CR34">34</xref></sup>. Similar to the widespread use of gaze information, a liquid such as blood, omnipresent in all mammals, would be an ideal candidate for the adaptation towards invariant food and alarm cues shaped by the long evolution of mammalian predator-prey interactions. However, based on our results we cannot draw valid conclusions whether our data support the notion of an evolutionarily preserved common chemical cue or the notion of convergent evolution leading to comparable behavioral responses in different taxa. Moreover, it is important to point out that we cannot completely exclude the possibility that these responses may be, at some stage of development, modulated or initiated by learning processes. Future studies need to elucidate whether nature or nurture is creating these behavioral responses.</p>
+              <p id="Par17">In our study, concentrations above detection threshold were used in all experiments to elicit clear behavioral responses. Thus, future studies need to establish the lowest concentration of E2D needed to trigger a behavioral response. Furthermore, whether these across-species behavioral responses are mediated by a shared mechanism needs to be determined by studies targeting the receptor(s) and the underlying neural process. Moreover, although numerically lower, E2D did not significantly decrease RT for the angry face stimuli. This could be due to low power or a lack of effectiveness of E2D to make the angry face more negative. However, we believe the more likely explanation is that this is the result of a floor effect caused by the anger superiority effect. Also, future studies should assess a wider range of emotional facial stimuli to better evaluate the specificity of the E2D effect. It is important to note that our results do not exclude that other blood-related odorants can elicit similar responses as demonstrated above. The full blood odor is a complex mixture with several possible candidates and future studies are needed to determine their potential effects. However, few examples exist of monomolecular odors eliciting behavioral responses similar in magnitude as those observed for the full natural mixture. Indeed, even the widely used fox odor component trimethylthiazoline (TMT), which causes fear and avoidance responses in rodents, demonstrates effects that are clearly weaker than those in response to the real fox faeces odor<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>. The majority of field studies demonstrate that monomolecular predator odors convey very limited information, and require additional odorants from the natural mixture to be efficient<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>. Thus the uniqueness of these findings makes the likelihood of finding additional blood odor candidates with the same characteristics less likely.</p>
+              <p id="Par18">Taken together, our results strongly suggest that E2D is a blood signature substance that serves as an approach-avoidance cue across phylum borders; it elicits approach responses in blood-feeding invertebrates as well as in mammalian predators, while eliciting avoidance behavior in mammalian prey species. These results demonstrate the existence of a cross-species food- and alarm cue that affects behavior in both human and non-human animals alike.</p>
+            </sec>
+            <sec id="Sec4" sec-type="materials|methods">
+              <title>Material and Methods</title>
+              <sec id="Sec5">
+                <title>Participants</title>
+                <p id="Par19">In Experiment 1 (Fly), a total of 35 Stable flies (<italic>Stomoxys calcitrans</italic>) were used. In Experiment 2 (Wolf), seven uncastrated adult male Wolves (<italic>Canis lupus</italic>) forming a wolfpack maintained at Kolmården Wildlife Park were studied within their normal outdoor enclosure out of sight of visitors. In Experiment 3 (Mouse), a total of 60 individually housed CD-1 mice (<italic>Mus musculus</italic>) were studied. All mice were between 90–130 days of age at study onset and laboratory-born without any exposure to natural predators. In Experiments 4 and 5 (Human), healthy adult participants (<italic>Homo sapiens</italic>) without sensory deficit participated. In Experiment 4, a total of 40 participants participated (mean age 24; of which 20 women) and in Experiment 5, a total of 37 participants participated but data from 4 individuals were excluded due to technical problems during recording of the psychophysical data. This resulted in a final sample of 33 participants (mean age 26; of which 20 women).</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Odor Stimuli and presentation</title>
+                <p id="Par20">All synthetic chemicals were obtained from commercial sources (Sigma, <ext-link ext-link-type="uri" xlink:href="http://www.sigmaaldrich.com">www.sigmaaldrich.com</ext-link>, and aromaLAB, Freising, Germany) and were of the highest purity available and all odors were diluted in near-odorless diethyl phthalate (CAS# 84-66-2). Also, diethyl phthalate was used as the near-odorless organic control solvent in Experiment 1, 2, and 3. Importantly, this odorant is neither aversive nor attractive for either the current or previously tested species<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>. In Experiment 1, 4, and 5, <italic>trans</italic>-4, 5-epoxy-(E)-2-decenal (E2D; CAS #134454-31-2) was diluted down to a 10% v/v concentration from a 5 mg/ml stock solution and in Experiment 2 and 3, E2D was diluted down to 1% concentration from stock solution. In Experiment 1, 2, and 3, undiluted animal blood (horse, mouse, cat, and human) was used. Moreover, different monomolecular odors were used as controls in the various experiments. In Experiment 2, iso-pentyl acetate (CAS# 123-92-2) was diluted down to 0.1% concentration from neat content; in Experiment 3, <italic>n</italic>-pentyl acetate (CAS# 628-63-7) was diluted down to 0.0001% concentration; in Experiment 4 and 5 (Human), <italic>n</italic>-butanol (CAS# 71-36-3) was diluted down to a 0.16% v/v concentration; in Experiment 4, <italic>trans</italic>-2-decenal (CAS# 3913-81-3) was diluted down to 0.125% v/v. Odor concentrations were selected to be above detection limits for each species but at a weak perceptual concentration. For Experiments 4 and 5, these concentrations were selected from a range of concentrations after a pilot experiment (n = 10 particpants) indicated that these were of weak, yet clearly discernable iso-intense and iso-pleasant concentrations. Participants were asked to rate the intensity and familiarity of the odors on a visual analog-scale from very low (0) to very high (10), and their pleasantness on a scale from very unpleasant (-5) to very pleasant (5), with the middle (0) indicating neutral valence. Repeated measure ANOVAs of the perceptual ratings in Experiments 4 showed that there were no significant differences in intensity between E2D (M = 4.05, SD = 1.96), trans-2-decenal (M = 3.83, SD = 1.92) and n-butanol (M = 3.68, SD = 1.90) (F(2,78) = 0.52, p = 0.60). The same was true for ratings of familiarity (E2D: (M = 3.63, SD = 2.49; trans-2-decenal: M = 3.50, SD = 2.71; n-butanol (M = 3.83, SD = 2.95; F(2,78) = 0.277, p = 0.76); and pleasantness (E2D: M = 0.33, SD = 2.1; n-butanol: M = −0.15, SD = 2.02; trans-2-decenal: M = −0.28, SD = 1.57; F(2,78) = 1.44, p = 0.24). Likewise, paired-sample t-tests between E2D and n-butanol in experiment 5 did not show any significant difference in intensity (E2D: M = 3.87, SD = 2.09; n-butanol: M = 3.98, SD = 2.09; t(32) = 0.25, p = 0.81) or pleasantness (E2D: M = 0.36, SD = 1.71; n-butanol: M = −0.03, SD = 1.68; t(32) = 1.01, p = 0.32). For flies, stimulus delivery followed established protocols<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>. For wolves, odors were presented on wooden logs as previously described with the exception that they were secured to a chain to limit the range of allowed movement<sup><xref ref-type="bibr" rid="CR9">9</xref></sup> and for mice, each compartment had a petri dish with an impregnated filter paper with the odor in question located centrally underneath the perforated cage floor. For humans, all odors were presented birhinally using a computer-controlled olfactometer with a known rise-time of 160 ms<sup><xref ref-type="bibr" rid="CR38">38</xref></sup> and a total flow-rate of 1.5 liter/minute (l/min) per channel for Experiment 4 (3 l/m for Experiment 5) and inserted into an ongoing 0.3 l/min constant flow to avoid any tactile sensation of the odor onset. This means that total airflow per nostril was never higher than 1.75 l/min, a flow significantly lower than airflows known to elicit nasal irritation<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>, and flow was intermittently terminated using a jittered design between trials to allow the mucosa to rehydrate. In Experiment 4, to avoid sniff-dependent effect on balance measures, odor delivery was synchronized to the participants’ inhalation by means of sniff-triggering of the olfactometer in that the olfactometer was triggered at the nadir of the participants’ exhalation, determined by a nasal cannula connected to a piezoelectric pressure sensor, i.e. the participant could not anticipate the odor onset. In Experiment 5, odors were delivered on average 1.5 s before (jitter 0.5–2 s) the onset of the visual task to prime the visual response.</p>
+              </sec>
+              <sec id="Sec7">
+                <title>Psychophysiological measures</title>
+                <p id="Par21">Posturography measures used to derive time series of the center of pressure for the anterior-posterior (AP) direction were obtained by means of an AccuSway force platform (AMTI, Watertown, MA). The collected data were calibrated on an individual level and filtered with a low-pass filter using a cut-off frequency of 5 Hz. Average AP-sway for each condition was formed by subtracting movement 0.5 s pre-stimulus from the average 1 s after each trial to capture event-related responses. GSR was obtained and analyzed similar to previous studies<sup><xref ref-type="bibr" rid="CR39">39</xref></sup> with the exception being that the average electrodermal activity 0.5 s pre-stimulus was subtracted from the peak response within 8 s post-stimulus onset to reflect stimulus-evoked responses. Heart rate was also measured in experiment 5 but incorrectly acquired due to technical problems.</p>
+              </sec>
+              <sec id="Sec8">
+                <title>Behavioral measures</title>
+                <p id="Par22">For flies, preference tests between natural blood and E2D with host odor as context, as well as E2D and natural blood versus diluent only within the host (cattle and horse) context, were performed in a standard Y-maze setup<sup><xref ref-type="bibr" rid="CR38">38</xref></sup> where number of flies selecting each odor was recorded. For wolves, scented logs were placed within the enclosure for 3 h in the morning and 3 h in the afternoon with a total of 20 repetitions with intertrial intervals of at least one day. Number of interactions was recorded according to a previously used ethogram<sup><xref ref-type="bibr" rid="CR9">9</xref></sup> with one addition measure noted, guarding. Mice were tested in a two-compartment test arena and time spent within each compartment, out of a total of 600 seconds, was recorded<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>. For humans, sensory functions were established using a visual Snellen test in Experiment 5 and a 5 items 4-alternative cued odor quality identification test (all participants, ≥4 correct ID responses) in both Experiment 4 and 5. Exclusion criteria were self-reported health problems demanding medication as well as psychiatric, neurological, and other diagnoses affecting emotional regulation or the vestibular system, as well as being a habitual smoker. In Experiment 4 and 5, subjective ratings of intensity and pleasantness of all the odors were averaged from 3 repeated ratings obtained during each experiment. In Experiment 5, participants were presented with 3 × 3 matrices of schematic faces demonstrating prototypical emotional features of neutral, angry, or happy faces<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>; half were entirely composed of neutral faces (lures) and the remaining matrices were divided between matrices where one face at a random position consisted of either an angry face or a happy face (target). Participants’ task in each trial was to determine, as fast as possible, whether the matrix presented to them consisted of all the same faces or if one face was different. Each trials was initiated by a visual fixation cross in the center of the screen which stayed on for an average of 2 s (jitter: 1.5–3 s) and was immediately replaced by a matrix that remained until participant response or for a maximum of 3 s.</p>
+              </sec>
+              <sec id="Sec9">
+                <title>Statistical Analysis</title>
+                <p id="Par23">For Experiment 1 (Fly), the contrasts between E2D and odorless solvent and between E2D and blood were tested using χ<sup>2</sup> tests with Yates’ correction for continuity. For Experiment 2 (Wolf), the total number of interactions per stimulus was tested using Friedman tests with Nemenyi post-hoc test. In Experiment 3 (Mouse), Wilcoxon signed-rank test was used for measuring time spent in the odorized compartments compared to the non-odorized compartment. The comparison between odorized compartments was tested using χ<sup>2</sup> tests with Yates’ correction for continuity. Statistical differences in GSR and movement in the AP axis between conditions in Experiment 4 (Human), were assessed using separate mixed-linear ANOVA models with the subject factor as a random effect and GSR values and AP movement as a fixed effect. For movement, subsequent post-hoc tests against zero (no movement), using Holm-Bonferroni correction, were performed for each condition to assess whether there was a significant movement forward (positive values) or backwards (negative values) in response to each odor. For GSR, subsequent corrected pair-wise post-hoc tests were performed to assess response-differences between conditions. For Experiment 5 (Human), RT and GSR were assessed using repeated measure ANOVAs with within-subject factors Facial expression (angry, happy) and Odor (E2D, <italic>n</italic>-butanol, odorless air). Main effects were followed by pair-wise post-hoc tests. The alpha level was set to 0.05 in all tests and all Student’s <italic>t</italic>-tests and ANOVAs were two-tailed, the analyses were performed in R, and the mixed-effects models used the <italic>lme4</italic> package.</p>
+              </sec>
+              <sec id="Sec10">
+                <title>Ethical and data availability Statement</title>
+                <p id="Par24">Informed written consent was obtained from all human participants and all study procedures and protocols were, in respect of the vertebrate animals, approved by the respective regional ethical review board (Wolf: Jordbruksverket, Dnr. 5.2.19-5974/15; Mice: Linköpings djurförsöksetiska nämnd, Dnr. 76/12; Human: Stockholm’s Ethical Review Board, Dnr. 2016/1692-31/4) and all study procedures and protocols were carried out in accordance with all relevant guidelines and regulations. Individual depicted in Fig. <xref rid="Fig2" ref-type="fig">2B</xref> provided consent for inclusion of image in publication. All data directly associated with this publication will upon request be shared without restrictions.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher's note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>This research was supported by the Knut and Alice Wallenberg Foundation (KAW 2012.0141) awarded to JNL. AA was supported by an international postdoctoral grant from the Swedish Research Council (VR2014-240), The Netherlands Organization for Scientific Research: NWO VICI grant “Human olfaction at the intersection of language, culture and biology” (277-70-011) and the Swedish Foundation for Humanities and Social Sciences (M14-0375:1). We would like to thank Dr. Asifa Majid for valuable comments on our manuscript.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author Contributions</title>
+              <p>A.A., M.L., and J.N.L. conceived the project. A.A., M.L., M.S., A.R.G., and J.N.L. designed the experiments. M.A. and M.N. collected wolf data. C.L. collected mice data. N.J.S. collected fly data. M.S. and H.M. collected human data. A.A., E.J., and J.N.L. analyzed the data. A.A., M.S., D.K.P., E.J., and J.N.L. made the figures. A.A., J.N.L., M.L., and M.S. wrote the manuscript. M.J.O., A.O., A.R.G. revised the manuscript critically.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <sec id="FPar1">
+                <title>Competing Interests</title>
+                <p id="Par25">The authors declare that they have no competing interests.</p>
+              </sec>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <mixed-citation publication-type="other">Conover, M. R. <italic>Predator-prey dynamics: the role of olfaction</italic>. (CRC Press, 2007).</mixed-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hornbuckle</surname>
+                      <given-names>PA</given-names>
+                    </name>
+                    <name>
+                      <surname>Beall</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Escape reactions to the blood of selected mammals by rats</article-title>
+                  <source>Behav. Biol.</source>
+                  <year>1974</year>
+                  <volume>12</volume>
+                  <fpage>573</fpage>
+                  <lpage>576</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0091-6773(74)92531-0</pub-id>
+                  <?supplied-pmid 4451543?>
+                  <pub-id pub-id-type="pmid">4451543</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mackay-Sim</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Laing</surname>
+                      <given-names>DG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Rat’s responses to blood and body odors of stressed and non-stressed conspecifics</article-title>
+                  <source>Physiol. Behav.</source>
+                  <year>1981</year>
+                  <volume>27</volume>
+                  <fpage>503</fpage>
+                  <lpage>510</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0031-9384(81)90339-5</pub-id>
+                  <?supplied-pmid 7335790?>
+                  <pub-id pub-id-type="pmid">7335790</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stevens</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Saplikoski</surname>
+                      <given-names>NJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Rats’ reactions to consepecific muscle and blood: Evidence for an alarm substance</article-title>
+                  <source>Behav. Biol.</source>
+                  <year>1973</year>
+                  <volume>8</volume>
+                  <fpage>75</fpage>
+                  <lpage>82</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0091-6773(73)80008-2</pub-id>
+                  <?supplied-pmid 4734965?>
+                  <pub-id pub-id-type="pmid">4734965</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Terlouw</surname>
+                      <given-names>EC</given-names>
+                    </name>
+                    <name>
+                      <surname>Boissy</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Blinet</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Behavioural responses of cattle to the odours of blood and urine from conspecifics and to the odour of faeces from carnivores</article-title>
+                  <source>Appl. Anim. Behav. Sci.</source>
+                  <year>1998</year>
+                  <volume>57</volume>
+                  <fpage>9</fpage>
+                  <lpage>21</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0168-1591(97)00122-6</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>March</surname>
+                      <given-names>KS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Deer, Bears, and Blood: A Note on Nonhuman Animal Response to Menstrual Odor</article-title>
+                  <source>Am. Anthropol.</source>
+                  <year>1980</year>
+                  <volume>82</volume>
+                  <fpage>125</fpage>
+                  <lpage>127</lpage>
+                  <pub-id pub-id-type="doi">10.1525/aa.1980.82.1.02a00130</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nunley</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Response of deer to human blood odor</article-title>
+                  <source>Am. Anthropol.</source>
+                  <year>1981</year>
+                  <volume>83</volume>
+                  <fpage>630</fpage>
+                  <lpage>634</lpage>
+                  <pub-id pub-id-type="doi">10.1525/aa.1981.83.3.02a00170</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dunkel</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Nature’s chemical signatures in human olfaction: a foodborne perspective for future biotechnology</article-title>
+                  <source>Angew. Chem. Int. Ed.</source>
+                  <year>2014</year>
+                  <volume>53</volume>
+                  <fpage>7124</fpage>
+                  <lpage>7143</lpage>
+                  <pub-id pub-id-type="doi">10.1002/anie.201309508</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nilsson</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Behavioral responses to mammalian blood odor and a blood odor component in four species of large carnivores</article-title>
+                  <source>PloS One</source>
+                  <year>2014</year>
+                  <volume>9</volume>
+                  <fpage>e112694</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0112694</pub-id>
+                  <?supplied-pmid 25383706?>
+                  <pub-id pub-id-type="pmid">25383706</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Grosch</surname>
+                      <given-names>W</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Evaluation of the key odorants of foods by dilution experiments, aroma models and omission</article-title>
+                  <source>Chem. Senses</source>
+                  <year>2001</year>
+                  <volume>26</volume>
+                  <fpage>533</fpage>
+                  <lpage>545</lpage>
+                  <pub-id pub-id-type="doi">10.1093/chemse/26.5.533</pub-id>
+                  <?supplied-pmid 11418500?>
+                  <pub-id pub-id-type="pmid">11418500</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hernandez Salazar</surname>
+                      <given-names>LT</given-names>
+                    </name>
+                    <name>
+                      <surname>Laska</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Luna</surname>
+                      <given-names>ER</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Olfactory sensitivity for aliphatic esters in spider monkeys (Ateles geoffroyi)</article-title>
+                  <source>Behav. Neurosci.</source>
+                  <year>2003</year>
+                  <volume>117</volume>
+                  <fpage>1142</fpage>
+                  <pub-id pub-id-type="doi">10.1037/0735-7044.117.6.1142</pub-id>
+                  <?supplied-pmid 14674835?>
+                  <pub-id pub-id-type="pmid">14674835</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Laska</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Bautista</surname>
+                      <given-names>RMR</given-names>
+                    </name>
+                    <name>
+                      <surname>Salazar</surname>
+                      <given-names>LTH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Olfactory sensitivity for aliphatic alcohols and aldehydes in spider monkeys (Ateles geoffroyi)</article-title>
+                  <source>Am. J. Phys. Anthropol.</source>
+                  <year>2006</year>
+                  <volume>129</volume>
+                  <fpage>112</fpage>
+                  <lpage>120</lpage>
+                  <pub-id pub-id-type="doi">10.1002/ajpa.20252</pub-id>
+                  <?supplied-pmid 16245343?>
+                  <pub-id pub-id-type="pmid">16245343</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Laska</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Höfelmann</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Huber</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Schumacher</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The frequency of occurrence of acyclic monoterpene alcohols in the chemical environment does not determine olfactory sensitivity in nonhuman primates</article-title>
+                  <source>J. Chem. Ecol.</source>
+                  <year>2006</year>
+                  <volume>32</volume>
+                  <fpage>1317</fpage>
+                  <lpage>1331</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10886-006-9090-3</pub-id>
+                  <?supplied-pmid 16770721?>
+                  <pub-id pub-id-type="pmid">16770721</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Laska</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Seibt</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Olfactory sensitivity for aliphatic esters in squirrel monkeys and pigtail macaques</article-title>
+                  <source>Behav. Brain Res.</source>
+                  <year>2002</year>
+                  <volume>134</volume>
+                  <fpage>165</fpage>
+                  <lpage>174</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0166-4328(01)00464-8</pub-id>
+                  <?supplied-pmid 12191803?>
+                  <pub-id pub-id-type="pmid">12191803</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Buettner</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Schieberle</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Aroma properties of a homologous series of 2, 3-epoxyalkanals and trans-4, 5-epoxyalk-2-enals</article-title>
+                  <source>J. Agric. Food Chem.</source>
+                  <year>2001</year>
+                  <volume>49</volume>
+                  <fpage>3881</fpage>
+                  <lpage>3884</lpage>
+                  <pub-id pub-id-type="doi">10.1021/jf0104329</pub-id>
+                  <?supplied-pmid 11513683?>
+                  <pub-id pub-id-type="pmid">11513683</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <mixed-citation publication-type="other">Laska, M. Human and Animal Olfactory Capabilities Compared. in Springer Handbook of Odor (ed. Buettner, A.) 81–82 (Springer International Publishing, 2017).</mixed-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <mixed-citation publication-type="other">Wyatt, T. D. <italic>Pheromones and animal behavior: chemical signals and signatures</italic>. (Cambridge University Press, 2014).</mixed-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <mixed-citation publication-type="other">Sarrafchi, A. &amp; Laska, M. Olfactory sensitivity for the mammalian blood odor component trans-4, 5-epoxy-(E)-2-decenal in CD-1 mice. <italic>Perception</italic> (in press).</mixed-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <mixed-citation publication-type="other">Barrett, H. C. <italic>Adaptations to predators and prey. In</italic> Buss D. <italic>(Ed.), The handbook of evolutionary psychology</italic>. (Wiley, 2015).</mixed-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <mixed-citation publication-type="other">Sussman, R. W. Morpho-physiological analysis of diets: species-specific dietary patterns in primates and human dietary adaptations. in <italic>The Evolution of Human Behavior: Primate Models</italic> 151–182 (State University of New York Press, 1987).</mixed-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <mixed-citation publication-type="other">Hart, D. &amp; Sussman, R. W. The influence of predation on primate and early human evolution: impetus for cooperation. in <italic>Origins of Altruism and Cooperation</italic> 19–40 (Springer, 2011).</mixed-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lundström</surname>
+                      <given-names>JN</given-names>
+                    </name>
+                    <name>
+                      <surname>Olsson</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Schaal</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Hummel</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A putative social chemosignal elicits faster cortical responses than perceptually similar odorants</article-title>
+                  <source>Neuroimage</source>
+                  <year>2006</year>
+                  <volume>30</volume>
+                  <fpage>1340</fpage>
+                  <lpage>1346</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2005.10.040</pub-id>
+                  <?supplied-pmid 16413793?>
+                  <pub-id pub-id-type="pmid">16413793</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Frumin</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A social chemosignaling function for human handshaking</article-title>
+                  <source>eLife</source>
+                  <year>2015</year>
+                  <volume>4</volume>
+                  <fpage>e05154</fpage>
+                  <pub-id pub-id-type="doi">10.7554/eLife.05154</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>de Groot</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <name>
+                      <surname>Smeets</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaldewaij</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Duijndam</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Semin</surname>
+                      <given-names>GR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Chemosignals communicate human emotions</article-title>
+                  <source>Psychol. Sci.</source>
+                  <year>2012</year>
+                  <volume>23</volume>
+                  <fpage>1417</fpage>
+                  <lpage>1424</lpage>
+                  <pub-id pub-id-type="doi">10.1177/0956797612445317</pub-id>
+                  <?supplied-pmid 23019141?>
+                  <pub-id pub-id-type="pmid">23019141</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gelstein</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Human Tears Contain a Chemosignal</article-title>
+                  <source>Science</source>
+                  <year>2011</year>
+                  <volume>331</volume>
+                  <fpage>226</fpage>
+                  <lpage>230</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.1198331</pub-id>
+                  <?supplied-pmid 21212322?>
+                  <pub-id pub-id-type="pmid">21212322</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <mixed-citation publication-type="other">Lehane, M. J. <italic>The biology of blood-sucking in insects</italic>. (Cambridge University Press, 2005).</mixed-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <mixed-citation publication-type="other">Mech, L. D., Smith, D. W. &amp; MacNulty, D. R. <italic>Wolves on the Hunt: The Behavior of Wolves Hunting Wild Prey</italic>. (University of Chicago Press, 2015).</mixed-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <mixed-citation publication-type="other">Crusio, W. E. <italic>Behavioral Genetics of the Mouse: Volume 1, Genetics of Behavioral Phenotypes</italic>. 1, (Cambridge University Press, 2013).</mixed-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lang</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Bradley</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Appetitive and Defensive Motivation: Goal-Directed or Goal-Determined?</article-title>
+                  <source>Emot. Rev. J. Int. Soc. Res. Emot.</source>
+                  <year>2013</year>
+                  <volume>5</volume>
+                  <fpage>230</fpage>
+                  <lpage>234</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fanselow</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neural organization of the defensive behavior system responsible for fear</article-title>
+                  <source>Psychon. Bull. Rev.</source>
+                  <year>1994</year>
+                  <volume>1</volume>
+                  <fpage>429</fpage>
+                  <lpage>438</lpage>
+                  <pub-id pub-id-type="doi">10.3758/BF03210947</pub-id>
+                  <?supplied-pmid 24203551?>
+                  <pub-id pub-id-type="pmid">24203551</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stins</surname>
+                      <given-names>JF</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Walk to me when I smile, step back when I’m angry: emotional faces modulate whole-body approach–avoidance behaviors</article-title>
+                  <source>Exp. Brain Res. Exp. Hirnforsch. Exp. Cerebrale</source>
+                  <year>2011</year>
+                  <volume>212</volume>
+                  <fpage>603</fpage>
+                  <lpage>611</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00221-011-2767-z</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Öhman</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Lundqvist</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Esteves</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The face in the crowd revisited: a threat advantage with schematic stimuli</article-title>
+                  <source>J. Pers. Soc. Psychol.</source>
+                  <year>2001</year>
+                  <volume>80</volume>
+                  <fpage>381</fpage>
+                  <pub-id pub-id-type="doi">10.1037/0022-3514.80.3.381</pub-id>
+                  <?supplied-pmid 11300573?>
+                  <pub-id pub-id-type="pmid">11300573</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Arnal</surname>
+                      <given-names>LH</given-names>
+                    </name>
+                    <name>
+                      <surname>Flinker</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Kleinschmidt</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Giraud</surname>
+                      <given-names>A-L</given-names>
+                    </name>
+                    <name>
+                      <surname>Poeppel</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Human screams occupy a privileged niche in the communication soundscape</article-title>
+                  <source>Curr. Biol.</source>
+                  <year>2015</year>
+                  <volume>25</volume>
+                  <fpage>2051</fpage>
+                  <lpage>2056</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cub.2015.06.043</pub-id>
+                  <?supplied-pmid 26190070?>
+                  <pub-id pub-id-type="pmid">26190070</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Davidson</surname>
+                      <given-names>GL</given-names>
+                    </name>
+                    <name>
+                      <surname>Butler</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Fernández-Juricic</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Thornton</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Clayton</surname>
+                      <given-names>NS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Gaze sensitivity: function and mechanisms from sensory and cognitive perspectives</article-title>
+                  <source>Anim. Behav.</source>
+                  <year>2014</year>
+                  <volume>87</volume>
+                  <fpage>3</fpage>
+                  <lpage>15</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.anbehav.2013.10.024</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Apfelbach</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Blanchard</surname>
+                      <given-names>CD</given-names>
+                    </name>
+                    <name>
+                      <surname>Blanchard</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Hayes</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                    <name>
+                      <surname>McGregor</surname>
+                      <given-names>IS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effects of predator odors in mammalian prey species: a review of field and laboratory studies</article-title>
+                  <source>Neurosci. Biobehav. Rev.</source>
+                  <year>2005</year>
+                  <volume>29</volume>
+                  <fpage>1123</fpage>
+                  <lpage>1144</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neubiorev.2005.05.005</pub-id>
+                  <?supplied-pmid 16085312?>
+                  <pub-id pub-id-type="pmid">16085312</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <mixed-citation publication-type="other">Apfelbach, R., Parsons, M. H., Soini, H. A. &amp; Novotny, M. V. Are single odorous components of a predator sufficient to elicit defensive behaviors in prey species? <italic>Front. Neurosci</italic>. <bold>9</bold> (2015).</mixed-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stökl</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A deceptive pollination system targeting drosophilids through olfactory mimicry of yeast</article-title>
+                  <source>Curr. Biol.</source>
+                  <year>2010</year>
+                  <volume>20</volume>
+                  <fpage>1846</fpage>
+                  <lpage>1852</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cub.2010.09.033</pub-id>
+                  <?supplied-pmid 20933425?>
+                  <pub-id pub-id-type="pmid">20933425</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lundström</surname>
+                      <given-names>JN</given-names>
+                    </name>
+                    <name>
+                      <surname>Gordon</surname>
+                      <given-names>AR</given-names>
+                    </name>
+                    <name>
+                      <surname>Alden</surname>
+                      <given-names>EC</given-names>
+                    </name>
+                    <name>
+                      <surname>Boesveldt</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Albrecht</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Methods for building an inexpensive computer-controlled olfactometer for temporally precise experiments</article-title>
+                  <source>Int. J. Psychophysiol. Off. J. Int. Organ. Psychophysiol.</source>
+                  <year>2010</year>
+                  <volume>78</volume>
+                  <fpage>179</fpage>
+                  <lpage>189</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Åhs</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>SS</given-names>
+                    </name>
+                    <name>
+                      <surname>Gordon</surname>
+                      <given-names>AR</given-names>
+                    </name>
+                    <name>
+                      <surname>Lundström</surname>
+                      <given-names>JN</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Aversive learning increases sensory detection sensitivity</article-title>
+                  <source>Biol. Psychol.</source>
+                  <year>2013</year>
+                  <volume>92</volume>
+                  <fpage>135</fpage>
+                  <lpage>141</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.biopsycho.2012.11.004</pub-id>
+                  <?supplied-pmid 23174695?>
+                  <pub-id pub-id-type="pmid">23174695</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <mixed-citation publication-type="other">Sievert, T. &amp; Laska, M. Behavioral Responses of CD-1 Mice to Six Predator Odor Components. <italic>Chem. Senses</italic> bjw015. 10.1093/chemse/bjw015 (2016)</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

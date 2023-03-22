@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:03:20Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7294403" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7294403</identifier>
+        <datestamp>2020-06-18</datestamp>
+        <setSpec>sleep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sleep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sleep</journal-id>
+              <journal-id journal-id-type="publisher-id">sleep</journal-id>
+              <journal-title-group>
+                <journal-title>Sleep</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0161-8105</issn>
+              <issn pub-type="epub">1550-9109</issn>
+              <publisher>
+                <publisher-name>Oxford University Press</publisher-name>
+                <publisher-loc>US</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7294403</article-id>
+              <article-id pub-id-type="pmcid">PMC7294403</article-id>
+              <article-id pub-id-type="pmc-uid">7294403</article-id>
+              <article-id pub-id-type="pmid">31782961</article-id>
+              <article-id pub-id-type="doi">10.1093/sleep/zsz291</article-id>
+              <article-id pub-id-type="publisher-id">zsz291</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Cognitive, Affective and Behavioral Neuroscience of Sleep</subject>
+                </subj-group>
+                <subj-group subj-group-type="category-taxonomy-collection">
+                  <subject>AcademicSubjects/SCI01870</subject>
+                  <subject>AcademicSubjects/MED00385</subject>
+                  <subject>AcademicSubjects/MED00370</subject>
+                </subj-group>
+                <subj-group subj-group-type="category-oup-series">
+                  <subject>Editor's Choice</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Sleepiness as motivation: a potential mechanism for how sleep deprivation affects behavior</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Axelsson</surname>
+                    <given-names>John</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="AF0001">1</xref>
+                  <xref ref-type="aff" rid="AF0002">2</xref>
+                  <xref ref-type="corresp" rid="c1"/>
+                  <!--<email>john.axelsson@su.se</email>-->
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ingre</surname>
+                    <given-names>Michael</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="AF0002">2</xref>
+                  <xref ref-type="aff" rid="AF0003">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kecklund</surname>
+                    <given-names>Göran</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="AF0001">1</xref>
+                  <xref ref-type="aff" rid="AF0002">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lekander</surname>
+                    <given-names>Mats</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="AF0001">1</xref>
+                  <xref ref-type="aff" rid="AF0002">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wright</surname>
+                    <given-names>Kenneth P</given-names>
+                    <suffix>Jr</suffix>
+                  </name>
+                  <xref ref-type="aff" rid="AF0004">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Sundelin</surname>
+                    <given-names>Tina</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="AF0001">1</xref>
+                  <xref ref-type="aff" rid="AF0002">2</xref>
+                  <xref ref-type="aff" rid="AF0005">5</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="AF0001"><label>1</label><institution>Stress Research Institute, Stockholm University</institution>, Stockholm, <country country="SE">Sweden</country></aff>
+              <aff id="AF0002"><label>2</label><institution>Department of Clinical Neuroscience, Karolinska Institutet</institution>, Stockholm, <country country="SE">Sweden</country></aff>
+              <aff id="AF0003"><label>3</label><institution>Institute for Globally Distributed Research and Education (IGDORE)</institution>, Stockholm, <country country="SE">Sweden</country></aff>
+              <aff id="AF0004"><label>4</label><institution>Department of Integrative Physiology, University of Colorado Boulder</institution>, CO</aff>
+              <aff id="AF0005"><label>5</label><institution>Department of Psychology, New York University</institution>, NY</aff>
+              <author-notes>
+                <corresp id="c1">Corresponding author. John Axelsson, Stress Research Institute, Stockholm University, 106 91 Stockholm, Sweden. Email: <email>john.axelsson@su.se</email>.</corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <month>6</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="epub" iso-8601-date="2019-11-29">
+                <day>29</day>
+                <month>11</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>29</day>
+                <month>11</month>
+                <year>2019</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>. -->
+              <volume>43</volume>
+              <issue>6</issue>
+              <elocation-id>zsz291</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>15</day>
+                  <month>7</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>16</day>
+                  <month>10</month>
+                  <year>2019</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© Sleep Research Society 2019. Published by Oxford University Press on behalf of the Sleep Research Society.</copyright-statement>
+                <copyright-year>2019</copyright-year>
+                <license license-type="cc-by-nc-nd" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+                  <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs licence (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link>), which permits non-commercial reproduction and distribution of the work, in any medium, provided the original work is not altered or transformed in any way, and that the work is properly cited. For commercial re-use, please contact journals.permissions@oup.com</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:href="zsz291.pdf"/>
+              <abstract>
+                <title>Abstract</title>
+                <sec id="s0100">
+                  <title>Study Objectives</title>
+                  <p>To determine how sleepiness and sleep deprivation drive the motivation to engage in different behaviors.</p>
+                </sec>
+                <sec id="s0101">
+                  <title>Methods</title>
+                  <p>We studied the sleepiness of 123 participants who had been randomized to sleep deprivation or normal sleep, and their willingness to engage in a range of everyday behaviors.</p>
+                </sec>
+                <sec id="s0102">
+                  <title>Results</title>
+                  <p>Self-reported sleepiness was a strong predictor of the motivation to engage in sleep-preparatory behaviors such as shutting one’s eyes (OR = 2.78, 95% CI: 2.19–3.52 for each step up on the Karolinska Sleepiness Scale) and resting (OR = 3.20, CI: 2.46–4.16). Sleepiness was also related to the desire to be cared for by a loved one (OR = 1.49, CI: 1.22–1.82), and preparedness to utilize monetary and energy resources to get to sleep. Conversely, increased sleepiness was associated with a decreased motivation for social and physical activities (e.g. be with friends OR = 0.71, CI: 0.61–0.82; exercise OR = 0.65, CI: 0.56–0.76). Sleep deprivation had similar effects as sleepiness on these behaviors. Neither sleepiness nor sleep deprivation had strong associations with hunger, thirst, or food preferences.</p>
+                </sec>
+                <sec id="s0103">
+                  <title>Conclusions</title>
+                  <p>Our findings indicate that sleepiness is a dynamic motivational drive that promotes sleep-preparatory behaviors and competes with other drives and desired outcomes. Consequently, sleepiness may be a central mechanism by which impaired alertness, for example, due to insufficient sleep, contributes to poor quality of life and adverse health. We propose that sleepiness helps organize behaviors toward the specific goal of assuring sufficient sleep, in competition with other needs and incentives. A theoretical framework on sleepiness and its behavioral consequences are likely to improve our understanding of several disease mechanisms.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>sleepiness</kwd>
+                <kwd>sleep deprivation</kwd>
+                <kwd>motivation</kwd>
+                <kwd>behavior</kwd>
+                <kwd>health</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group award-type="grant">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Swedish Research Council</institution>
+                      <institution-id institution-id-type="DOI">10.13039/501100004359</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <counts>
+                <page-count count="6"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <boxed-text position="float" orientation="portrait">
+              <caption>
+                <title>Statement of Significance</title>
+              </caption>
+              <p>We show that sleep deprivation and self-reported sleepiness (1) increase willingness to engage in sleep-preparatory behaviors, (2) reduce willingness to engage in physical and social behaviors, and (3) induce a preparedness to utilize resources toward being allowed to sleep. Through this reduction in motivation to engage in physical and social activities—activities that increase the quality of life and protect against health problems—too much sleepiness may act as a mechanism contributing to cardio-metabolic and mood disorders. Sleepiness is common in many patient groups, further indicating its role as a mediator between insufficient sleep and increased risk for developing several afflictions. This manuscript thus provides a new theoretical framework around self-reported sleepiness as a mechanistic risk factor for adverse health outcomes.</p>
+            </boxed-text>
+            <sec id="s1">
+              <title>Introduction</title>
+              <p>Primary motivational drives, such as hunger and thirst, promote behaviors that meet biological needs. Sleep is an essential biological need regulated by homeostatic and circadian processes [<xref rid="CIT0001" ref-type="bibr">1</xref>], but little is known about sleep-related motivations. The primary consequence of sleep deprivation is sleepiness [<xref rid="CIT0002" ref-type="bibr">2</xref>], a phenomenon strongly influenced by external stimuli, incentives, and desired outcomes [<xref rid="CIT0003" ref-type="bibr">3</xref>], similar to how the flexibility of motivational drives, emotions, and survival circuits helps the organism respond to challenges and opportunities in a dynamic environment [<xref rid="CIT0004" ref-type="bibr">4</xref>]. The present study proposes a new model where sleepiness functions as such a motivational drive, assuring that basic requisites for sleeping are obtained.</p>
+              <p>Traditionally, sleepiness has been defined as a physiological inability to stay awake, commonly measured as the time it takes to fall asleep when lying in a bed in a dark environment [<xref rid="CIT0005" ref-type="bibr">5</xref>]. However, humans, primates, and many other animals do not enter sleep indiscriminately, but instead engage in a number of sleep-preparatory behaviors before sleeping [<xref rid="CIT0006" ref-type="bibr">6</xref>]. Typically, such behaviors relate to safety (e.g. finding a safe site in a tree/burrow/cave, sleeping together), comfort and hygiene (e.g. shelter from elements, avoidance of light or biting insects, making the bed), social dynamics and huddles (e.g. kin relationship, conservation of body heat), and obtaining a particular sleep position (e.g. lying in a certain position, shutting one’s eyes) [<xref rid="CIT0006" ref-type="bibr">6</xref>, <xref rid="CIT0007" ref-type="bibr">7</xref>]. Many of these behaviors ensure that sleep occurs in an acceptable setting. The fact that most of them are robust across species and cultures suggests that preparing for sleep is driven by a motivating mechanism to assure the safety and adequacy of one’s surroundings. Here, we investigated the potential role of sleepiness as such a mechanism, coordinating these preparatory behaviors.</p>
+              <p>Insufficient sleep is related to an increased risk for adverse health outcomes [<xref rid="CIT0008" ref-type="bibr">8</xref>], and proposed mechanisms include metabolic, immunological, and cognitive alterations. The primary consequence of insufficient sleep—either caused by acute sleep loss, repeated partial sleep restriction [<xref rid="CIT0002" ref-type="bibr">2</xref>], or disruption of slow–wave sleep [<xref rid="CIT0009" ref-type="bibr">9</xref>]—is sleepiness, and it seems possible that any sleepiness-related alterations of motivation and behavior could be a previously unexplored pathway between insufficient sleep and health problems. For example, previous findings indicate that sleep loss has a larger effect on the experience of exertion than on physiological effort, as indicated by heart rate and metabolic rate, while exercising [<xref rid="CIT0010" ref-type="bibr">10</xref>]. It seems possible that through decreased motivation, sleepiness results in avoidance of, and reduced tolerance to, physical activity.</p>
+              <p>We hypothesized that sleepiness would be associated with an increased desire for safety-seeking and utilization of resources toward sleeping, and a decreased inclination toward engaging in other, competing, behaviors. To test these hypotheses, participants were randomized to one night of sleep loss or a normal night’s sleep. The following day they rated their sleepiness and how much they wanted to engage in different behaviors. With an exploratory aim, we also assessed eating behaviors and preferences. While the literature shows that sleep deprivation increases energy expenditure, hunger, and preference for high-energy foods [<xref rid="CIT0011" ref-type="bibr">11</xref>], eating and drinking could also be seen as a competitive behavior to the initiation of sleep.</p>
+            </sec>
+            <sec sec-type="materials" id="s2">
+              <title>Methods</title>
+              <sec id="s3">
+                <title>Participants</title>
+                <p>To cause variation in sleepiness, 123 participants (61 women, mean age 25.3 ± 6.3 years) were randomized to normal sleep at home (<italic>N</italic> = 60; 29 women, mean age 25.1 ± 6.8 years), or a night of total sleep deprivation (<italic>N</italic> = 63; 32 women, mean age 25.5 ± 5.7 years), verified by continuous monitoring in the laboratory. Inclusion criteria were fluent Swedish, and a habitual sleep needs of 7–9 hours. Participants were free from sleep disorders and other physical and mental disorders, not allowed to have worked shifts the previous 3 weeks, habitually drink more than three cups of coffee or tea per day, smoke, take medication that affects sleep/sleepiness, or have studied psychology. The sample was a subset of a larger sleep-deprivation study, see Ref. [<xref rid="CIT0012" ref-type="bibr">12</xref>] for the detailed study protocol. The study was approved by the Regional Ethical Review Board in Stockholm (dnr: 2012/2189-31/3 and 2014/1766-32). Participants provided written informed consent.</p>
+                <p>Participants spent three nights sleeping 7–9 hours before being informed of their sleep condition for the fourth night. For the sleep group, participants were instructed to spend one more night sleeping 7–9 hours at home and coming to the lab at 10:00 the following day. Participants in the sleep-deprivation group instead came to the lab at 22:00 that evening and stayed awake throughout the night. Breakfast was served 06:30–07:30 in the sleep-deprivation condition, whereas normal-sleep participants had breakfast at home at a time of their choosing, before coming to the lab. Lunch was served in the lab at 12:00. Ratings were collected at 11:00. No strenuous exercise or alcohol was allowed during the day prior to, or the morning of, coming to the lab, and no caffeine intake or naps were allowed during the lab day.</p>
+              </sec>
+              <sec id="s4">
+                <title>Sleep</title>
+                <p>Participants’ sleep was measured with actigraphy (Motionwatch 8, Camntech, UK) and sleep diaries for three to four nights in their own homes. The average sleep times across the first 3 nights were 470 ± 39 min (mean ± SD) for the normal-sleep group and 470 ± 35 min for the sleep-deprivation group. During the fourth night, when the sleep-deprivation group was awake in the lab, the normal-sleep group slept for an average of 474 ± 50 min.</p>
+              </sec>
+              <sec id="s5">
+                <title>Sleepiness and motivation</title>
+                <p>At 11:00, participants used the newly constructed motivation scale of sleepiness (MOSS) to indicate their motivation to engage in 24 different behaviors on 5-graded scales (see supplement for full questionnaire and distributions). They also rated their self-reported sleepiness on the Karolinska Sleepiness Scale (KSS), see <xref ref-type="fig" rid="F1">Figure 1I</xref>. The KSS is a well-validated scale related to physiological markers of sleepiness, reduced performance, and accidents, and responses are strongly affected by sleep loss [<xref rid="CIT0013" ref-type="bibr">13</xref>], making it widely used in experimental sleep-deprivation studies as well as in field studies. The MOSS was developed for the present study to measure behavioral dimensions of sleep preparation, sleep, social activities, physical activities, resource utilization, and food preferences.</p>
+                <fig id="F1" orientation="portrait" position="float">
+                  <label>Figure 1.</label>
+                  <caption>
+                    <p>(A–G) Expected means of the responses (1 = not at all, 5 = very/very much) as a function of self-reported sleepiness (Karolinska Sleepiness Scale (KSS) 1 = very alert, 9 = very sleepy). (H) Probability of paying money or walking any distance as a function of sleepiness. (I) Distribution of observed sleepiness for the two groups. Expected means were calculated from predicted probabilities based on estimates from ordinal (proportional odds) logistic regression models.</p>
+                  </caption>
+                  <graphic xlink:href="zsz291f0001"/>
+                </fig>
+                <p>In a previous study [<xref rid="CIT0014" ref-type="bibr">14</xref>], we found that two nights of partial sleep deprivation increased sleepiness with approximately 3 units on the KSS scale, with a pooled standard deviation of approximately 1.6, indicating an effect size of <italic>d</italic> = 1.9 and 100% power to detect such an effect in this study. The sample size of <italic>n</italic> = 123 allowed for detection of true associations between sleepiness and motivation of <italic>r</italic> = 0.32 with 95% and <italic>r</italic> = 0.25 with 80% power at <italic>p</italic> &lt; .05. All independent variables (i.e. sleep deprivation and sleepiness ratings) and dependent variables (MOSS items) collected for the aim of this article have been reported. No participants or observations were excluded from the analyses.</p>
+              </sec>
+              <sec id="s6">
+                <title>Statistics</title>
+                <p>Data were analyzed using an ordinal (proportional odds) logistic regression model. This model assumes a continuous latent dependent variable that has been measured on an ordered category scale with <italic>K</italic> responses, and fits multiple intercepts <inline-formula id="IN0001"><mml:math id="M1"><mml:mstyle displaystyle="false"><mml:mi>ζ</mml:mi><mml:mo stretchy="false">{</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mo>.</mml:mo><mml:mo>.</mml:mo><mml:mo>.</mml:mo><mml:mo>,</mml:mo><mml:mi>K</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">}</mml:mo></mml:mstyle></mml:math></inline-formula> representing cut-points between the observed response categories, where:</p>
+                <disp-formula id="M1a">
+                  <mml:math id="M2">
+                    <mml:mstyle displaystyle="true">
+                      <mml:mtable columnalign="left" columnspacing="1">
+                        <mml:mtr>
+                          <mml:mtd>
+                            <mml:mstyle displaystyle="true">
+                              <mml:mo>−</mml:mo>
+                              <mml:mi mathvariant="normal">∞</mml:mi>
+                              <mml:mo>=</mml:mo>
+                              <mml:mrow>
+                                <mml:msub>
+                                  <mml:mrow>
+                                    <mml:mi>ζ</mml:mi>
+                                  </mml:mrow>
+                                  <mml:mrow>
+                                    <mml:mn>0</mml:mn>
+                                  </mml:mrow>
+                                </mml:msub>
+                              </mml:mrow>
+                              <mml:mo>&lt;</mml:mo>
+                              <mml:mrow>
+                                <mml:msub>
+                                  <mml:mrow>
+                                    <mml:mi>ζ</mml:mi>
+                                  </mml:mrow>
+                                  <mml:mrow>
+                                    <mml:mn>1</mml:mn>
+                                  </mml:mrow>
+                                </mml:msub>
+                              </mml:mrow>
+                              <mml:mo>&lt;</mml:mo>
+                              <mml:mo>.</mml:mo>
+                              <mml:mo>.</mml:mo>
+                              <mml:mo>.</mml:mo>
+                              <mml:mo>&lt;</mml:mo>
+                              <mml:mrow>
+                                <mml:msub>
+                                  <mml:mrow>
+                                    <mml:mi>ζ</mml:mi>
+                                  </mml:mrow>
+                                  <mml:mrow>
+                                    <mml:mi>K</mml:mi>
+                                  </mml:mrow>
+                                </mml:msub>
+                              </mml:mrow>
+                              <mml:mo>=</mml:mo>
+                              <mml:mi mathvariant="normal">∞</mml:mi>
+                            </mml:mstyle>
+                          </mml:mtd>
+                        </mml:mtr>
+                      </mml:mtable>
+                    </mml:mstyle>
+                  </mml:math>
+                  <label>(1)</label>
+                </disp-formula>
+                <p>The probability of response <italic>K</italic> is then the normal logistic model below, where <italic>xβ</italic> is the combined linear predictor excluding the intercepts:</p>
+                <disp-formula id="M2a">
+                  <mml:math id="M3">
+                    <mml:mstyle displaystyle="true">
+                      <mml:mtable columnalign="left" columnspacing="1">
+                        <mml:mtr>
+                          <mml:mtd>
+                            <mml:mstyle displaystyle="true">
+                              <mml:mi>log</mml:mi>
+                              <mml:mrow>
+                                <mml:mi mathvariant="normal">i</mml:mi>
+                                <mml:mi mathvariant="normal">t</mml:mi>
+                                <mml:mo stretchy="false">(</mml:mo>
+                              </mml:mrow>
+                              <mml:mi>P</mml:mi>
+                              <mml:mrow>
+                                <mml:mo stretchy="false">(</mml:mo>
+                              </mml:mrow>
+                              <mml:mi>Y</mml:mi>
+                              <mml:mo>≤</mml:mo>
+                              <mml:mspace width="thinmathspace"/>
+                              <mml:mspace width="thinmathspace"/>
+                              <mml:mi>k</mml:mi>
+                              <mml:mrow>
+                                <mml:mo stretchy="false">|</mml:mo>
+                              </mml:mrow>
+                              <mml:mi>x</mml:mi>
+                              <mml:mrow>
+                                <mml:mo stretchy="false">)</mml:mo>
+                                <mml:mo stretchy="false">)</mml:mo>
+                              </mml:mrow>
+                              <mml:mspace width="thinmathspace"/>
+                              <mml:mrow>
+                                <mml:mo>=</mml:mo>
+                              </mml:mrow>
+                              <mml:mspace width="thinmathspace"/>
+                              <mml:mrow>
+                                <mml:msub>
+                                  <mml:mrow>
+                                    <mml:mi>ζ</mml:mi>
+                                  </mml:mrow>
+                                  <mml:mrow>
+                                    <mml:mi>k</mml:mi>
+                                  </mml:mrow>
+                                </mml:msub>
+                              </mml:mrow>
+                              <mml:mo>−</mml:mo>
+                              <mml:mi>x</mml:mi>
+                              <mml:mi>β</mml:mi>
+                            </mml:mstyle>
+                          </mml:mtd>
+                        </mml:mtr>
+                      </mml:mtable>
+                    </mml:mstyle>
+                  </mml:math>
+                  <label>(2)</label>
+                </disp-formula>
+                <p>Two different models were fitted. The first model estimated the association of responses with sleep deprivation and the second model estimated the association of responses with sleepiness. The exponentiated estimates describe the odds ratio (OR) of an increase of at least one step on the MOSS-scale for the sleep-deprived group compared to the group with normal sleep, or as an increase in the MOSS-scale response for every one unit increase of rated sleepiness (KSS: 1–9) for all participants combined. Expected means of the responses were subsequently calculated from the predicted probabilities. A likelihood ratio test was used to assess statistical significance, by comparing the model fitting sleep deprivation or sleepiness as a predictor, with a model fitting only the intercepts. All analyses were performed in R using the polr function from the package MASS [<xref rid="CIT0015" ref-type="bibr">15</xref>].</p>
+              </sec>
+            </sec>
+            <sec id="s7">
+              <title>Results</title>
+              <p>The effects of sleep deprivation are detailed in <xref rid="T1" ref-type="table">Table 1</xref> (mean values are reported in <xref ref-type="supplementary-material" rid="sup1">Supplementary Table 1</xref>). In addition to being sleepier, sleep-deprived participants expressed more preference for sleep preparation, resting, sleeping, and care seeking (being cared for by a partner, but not by a parent). The sleep-deprived group also showed less interest in engaging in social activities with others, and instead wanted to be alone. Sleep-deprived participants were also prepared to utilize more resources in order to be able to sleep, with regard to both paying or walking at least some distance in order to be allowed to go to bed. There was no effect of sleep deprivation on hunger, thirst, or food preferences. Thus, our data do not support the notion that one night of sleep deprivation is associated with changes in thirst or food preferences, at least not around 11:00 when ratings were made.</p>
+              <table-wrap id="T1" orientation="portrait" position="float">
+                <label>Table 1.</label>
+                <caption>
+                  <p>Effects of sleep deprivation on the motivation to engage in different behaviors and activities, and their associations with sleepiness</p>
+                </caption>
+                <table frame="vsides" rules="groups">
+                  <thead>
+                    <tr>
+                      <th rowspan="1" colspan="1"/>
+                      <th rowspan="1" colspan="1"/>
+                      <th colspan="3" rowspan="1">Effect of sleep deprivation</th>
+                      <th colspan="3" rowspan="1">Association with sleepiness</th>
+                    </tr>
+                    <tr>
+                      <th rowspan="1" colspan="1">Group</th>
+                      <th rowspan="1" colspan="1">Dependent variable</th>
+                      <th rowspan="1" colspan="1">OR</th>
+                      <th rowspan="1" colspan="1">95% CI</th>
+                      <th rowspan="1" colspan="1">
+                        <italic>P</italic>
+                      </th>
+                      <th rowspan="1" colspan="1">OR</th>
+                      <th rowspan="1" colspan="1">95% CI</th>
+                      <th rowspan="1" colspan="1">
+                        <italic>P</italic>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td rowspan="1" colspan="1">Sleepiness</td>
+                      <td rowspan="1" colspan="1">Sleepiness</td>
+                      <td rowspan="1" colspan="1">31.66</td>
+                      <td rowspan="1" colspan="1">12.94, 77.5</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                      <td rowspan="1" colspan="1">—</td>
+                      <td rowspan="1" colspan="1">—</td>
+                      <td rowspan="1" colspan="1">—</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">Sleep preparation</td>
+                      <td rowspan="1" colspan="1">Shut eyes</td>
+                      <td rowspan="1" colspan="1">9.63</td>
+                      <td rowspan="1" colspan="1">4.54, 20.4</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                      <td rowspan="1" colspan="1">2.78</td>
+                      <td rowspan="1" colspan="1">2.19, 3.52</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1">Quiet</td>
+                      <td rowspan="1" colspan="1">2.47</td>
+                      <td rowspan="1" colspan="1">1.29, 4.72</td>
+                      <td rowspan="1" colspan="1">.006**</td>
+                      <td rowspan="1" colspan="1">1.42</td>
+                      <td rowspan="1" colspan="1">1.22, 1.66</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1">Be home</td>
+                      <td rowspan="1" colspan="1">9.04</td>
+                      <td rowspan="1" colspan="1">4.28, 19.1</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                      <td rowspan="1" colspan="1">1.80</td>
+                      <td rowspan="1" colspan="1">1.52, 2.15</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">Resting and sleeping</td>
+                      <td rowspan="1" colspan="1">Rest</td>
+                      <td rowspan="1" colspan="1">18.00</td>
+                      <td rowspan="1" colspan="1">7.87, 41.2</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                      <td rowspan="1" colspan="1">3.20</td>
+                      <td rowspan="1" colspan="1">2.46, 4.16</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1">Sleep own bed</td>
+                      <td rowspan="1" colspan="1">24.82</td>
+                      <td rowspan="1" colspan="1">10.43, 59.1</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                      <td rowspan="1" colspan="1">3.05</td>
+                      <td rowspan="1" colspan="1">2.35, 3.96</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1">Sleep any bed</td>
+                      <td rowspan="1" colspan="1">14.96</td>
+                      <td rowspan="1" colspan="1">6.84, 32.8</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                      <td rowspan="1" colspan="1">2.58</td>
+                      <td rowspan="1" colspan="1">2.03, 3.28</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">Care seeking</td>
+                      <td rowspan="1" colspan="1">Partner</td>
+                      <td rowspan="1" colspan="1">5.59</td>
+                      <td rowspan="1" colspan="1">2.15, 14.5</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                      <td rowspan="1" colspan="1">1.49</td>
+                      <td rowspan="1" colspan="1">1.22, 1.82</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1">Parent</td>
+                      <td rowspan="1" colspan="1">1.51</td>
+                      <td rowspan="1" colspan="1">0.78, 2.91</td>
+                      <td rowspan="1" colspan="1">.221</td>
+                      <td rowspan="1" colspan="1">1.19</td>
+                      <td rowspan="1" colspan="1">1.03, 1.39</td>
+                      <td rowspan="1" colspan="1">.019*</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">Physical activities</td>
+                      <td rowspan="1" colspan="1">Food shopping</td>
+                      <td rowspan="1" colspan="1">0.19</td>
+                      <td rowspan="1" colspan="1">0.09, 0.41</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                      <td rowspan="1" colspan="1">0.77</td>
+                      <td rowspan="1" colspan="1">0.66, 0.89</td>
+                      <td rowspan="1" colspan="1">.001***</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1">Walk</td>
+                      <td rowspan="1" colspan="1">0.35</td>
+                      <td rowspan="1" colspan="1">0.18, 0.67</td>
+                      <td rowspan="1" colspan="1">.001**</td>
+                      <td rowspan="1" colspan="1">0.79</td>
+                      <td rowspan="1" colspan="1">0.69, 0.91</td>
+                      <td rowspan="1" colspan="1">.001**</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1">Exercise</td>
+                      <td rowspan="1" colspan="1">0.16</td>
+                      <td rowspan="1" colspan="1">0.08, 0.34</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                      <td rowspan="1" colspan="1">0.65</td>
+                      <td rowspan="1" colspan="1">0.56, 0.76</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">Social activities</td>
+                      <td rowspan="1" colspan="1">Be with stranger</td>
+                      <td rowspan="1" colspan="1">0.19</td>
+                      <td rowspan="1" colspan="1">0.09, 0.38</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                      <td rowspan="1" colspan="1">0.61</td>
+                      <td rowspan="1" colspan="1">0.51, 0.72</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1">Date</td>
+                      <td rowspan="1" colspan="1">0.19</td>
+                      <td rowspan="1" colspan="1">0.09, 0.39</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                      <td rowspan="1" colspan="1">0.62</td>
+                      <td rowspan="1" colspan="1">0.52, 0.73</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1">Be alone</td>
+                      <td rowspan="1" colspan="1">5.52</td>
+                      <td rowspan="1" colspan="1">2.76, 11.05</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                      <td rowspan="1" colspan="1">1.62</td>
+                      <td rowspan="1" colspan="1">1.37, 1.91</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1">Be with friends</td>
+                      <td rowspan="1" colspan="1">0.12</td>
+                      <td rowspan="1" colspan="1">0.06, 0.24</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                      <td rowspan="1" colspan="1">0.71</td>
+                      <td rowspan="1" colspan="1">0.61, 0.82</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">Hunger and thirst</td>
+                      <td rowspan="1" colspan="1">Hungry</td>
+                      <td rowspan="1" colspan="1">1.84</td>
+                      <td rowspan="1" colspan="1">0.97, 3.53</td>
+                      <td rowspan="1" colspan="1">.063</td>
+                      <td rowspan="1" colspan="1">1.16</td>
+                      <td rowspan="1" colspan="1">1.00, 1.34</td>
+                      <td rowspan="1" colspan="1">.045*</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1">Water</td>
+                      <td rowspan="1" colspan="1">0.58</td>
+                      <td rowspan="1" colspan="1">0.30, 1.10</td>
+                      <td rowspan="1" colspan="1">.095</td>
+                      <td rowspan="1" colspan="1">0.93</td>
+                      <td rowspan="1" colspan="1">0.81, 1.07</td>
+                      <td rowspan="1" colspan="1">.329</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1">Meal</td>
+                      <td rowspan="1" colspan="1">1.24</td>
+                      <td rowspan="1" colspan="1">0.66, 2.33</td>
+                      <td rowspan="1" colspan="1">.510</td>
+                      <td rowspan="1" colspan="1">1.04</td>
+                      <td rowspan="1" colspan="1">0.91, 1.20</td>
+                      <td rowspan="1" colspan="1">.542</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">Food preferences</td>
+                      <td rowspan="1" colspan="1">Fruit</td>
+                      <td rowspan="1" colspan="1">0.94</td>
+                      <td rowspan="1" colspan="1">0.50, 1.77</td>
+                      <td rowspan="1" colspan="1">.850</td>
+                      <td rowspan="1" colspan="1">1.00</td>
+                      <td rowspan="1" colspan="1">0.87, 1.15</td>
+                      <td rowspan="1" colspan="1">.973</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1">Sweets/candy</td>
+                      <td rowspan="1" colspan="1">1.12</td>
+                      <td rowspan="1" colspan="1">0.59, 2.14</td>
+                      <td rowspan="1" colspan="1">.726</td>
+                      <td rowspan="1" colspan="1">1.08</td>
+                      <td rowspan="1" colspan="1">0.94, 1.25</td>
+                      <td rowspan="1" colspan="1">.264</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1">Steak/protein</td>
+                      <td rowspan="1" colspan="1">0.90</td>
+                      <td rowspan="1" colspan="1">0.48, 1.69</td>
+                      <td rowspan="1" colspan="1">.738</td>
+                      <td rowspan="1" colspan="1">1.00</td>
+                      <td rowspan="1" colspan="1">0.86, 1.15</td>
+                      <td rowspan="1" colspan="1">.945</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">Utilization of resources</td>
+                      <td rowspan="1" colspan="1">Pay</td>
+                      <td rowspan="1" colspan="1">5.41</td>
+                      <td rowspan="1" colspan="1">2.48, 11.8</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                      <td rowspan="1" colspan="1">1.66</td>
+                      <td rowspan="1" colspan="1">1.34, 2.05</td>
+                      <td rowspan="1" colspan="1">.000***</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1">Walk</td>
+                      <td rowspan="1" colspan="1">2.15</td>
+                      <td rowspan="1" colspan="1">1.12, 4.11</td>
+                      <td rowspan="1" colspan="1">.020*</td>
+                      <td rowspan="1" colspan="1">1.20</td>
+                      <td rowspan="1" colspan="1">1.03, 1.40</td>
+                      <td rowspan="1" colspan="1">.017*</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <fn id="fn-0100">
+                    <p>Ordinal (proportional odds) logistic regression. The table shows odds ratios (OR) for a one-unit increase on the response scale after sleep deprivation (left) and with an increase of one unit of sleepiness on the Karolinska Sleepiness Scale (KSS) (right), with 95% confidence intervals, <italic>p</italic>-values based on likelihood ratio tests.</p>
+                  </fn>
+                  <fn id="fn-0101">
+                    <p>*<italic>p</italic> &lt; .05<italic>. **p</italic> &lt; .01. ***<italic>p</italic> &lt; .001.</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+              <p>Increased sleepiness strongly predicted wanting to engage in sleep-preparatory behaviors, resting, and sleeping in a bed (<xref ref-type="fig" rid="F1">Figure 1A</xref> and <xref ref-type="fig" rid="F1">B</xref> and <xref rid="T1" ref-type="table">Table 1</xref>). These data support the notion that a primary function of sleepiness is to stimulate behaviors that facilitate an adequate environment for sleep to occur in. The finding that sleepiness was related to an increased willingness to be cared for by a partner or parent (<xref ref-type="fig" rid="F1">Figure 1C</xref>), indicates that kinship or close partner relationships are of concern in sleepy humans, similar to how other social animals often sleep with close peers [<xref rid="CIT0006" ref-type="bibr">6</xref>].</p>
+              <p>If a primary function of sleepiness is to prepare for sleep, it should also decrease motivation for engaging in competitive behaviors, and increase the willingness to utilize resources in order to go to sleep. Indeed, increased sleepiness was related to a decreased willingness to engage in physical activities such as walking, exercise, and food shopping (<xref ref-type="fig" rid="F1">Figure 1D</xref>). Furthermore, higher levels of sleepiness were associated with a decreased desire to engage in social activities such as going on a date, being with a friend, or socializing with a stranger, and an increased desire to be alone (<xref ref-type="fig" rid="F1">Figure 1E</xref>). For example, when sleepiness was 4.5 or higher on the KSS, the average person preferred being alone to being on a date, and when higher than 6 on the KSS, the preference was to be alone rather than with friends. As sleepiness increased, so did participants’ willingness to pay money to be allowed to go to bed immediately (<xref ref-type="fig" rid="F1">Figure 1H</xref>). Sleepier participants were also prepared to walk further in order to get to sleep sooner, although this effect size was small, likely due to the fact that even alert participants chose to walk at least some distance.</p>
+              <p>Although sleepiness was related to a slight increase in hunger, there was no association between sleepiness and thirst or food preferences (<xref ref-type="fig" rid="F1">Figure 1F</xref> and <xref ref-type="fig" rid="F1">G</xref>).</p>
+              <p>As indicated in <xref ref-type="fig" rid="F1">Figure 1</xref>, not all variables were associated with sleepiness. A more detailed analysis is presented in the supplementary appendix (Supplementary <xref ref-type="supplementary-material" rid="sup1">Figure S1</xref>), showing the probability distribution of the responses as a function of sleepiness. The weakest associations (<xref ref-type="supplementary-material" rid="sup1">Supplementary Figure panels P–U</xref>) show a relatively constant probability distribution of the responses across all levels of sleepiness, while the strongest associations, such as shutting the eyes and resting (<xref ref-type="supplementary-material" rid="sup1">Supplementary Figure panels A–F</xref>) clearly indicate how probabilities for higher ratings increase with higher sleepiness levels.</p>
+            </sec>
+            <sec id="s8">
+              <title>Discussion</title>
+              <p>These data indicate that sleepiness is more than just the propensity to fall asleep. In line with our hypothesis, sleepiness seems to function as a dynamic motivational drive, affecting daily activities, promoting sleep-preparatory behaviors, and influencing the timing of sleep. Thus, sleepiness can be seen as an integral mechanism assuring that sleep occurs in an adequate and safe environment. Many animals have particular sleep sites and engage in sleep-preparatory behavior [<xref rid="CIT0006" ref-type="bibr">6</xref>, <xref rid="CIT0007" ref-type="bibr">7</xref>], and it is likely that such a mechanism would be conserved across a large range of species.</p>
+              <p>Although sleepiness contributes to sleep occurring during optimal times and in an adequate environment, it could also be viewed as a potential mechanism behind the detrimental effect of sleep loss on health, including mental and cardio-metabolic health. The finding that sleepiness reduced the motivation to engage in physical and social activities has important implications, as such activities contribute to the quality of life and protect against ill-health [<xref rid="CIT0016" ref-type="bibr">16</xref>, <xref rid="CIT0017" ref-type="bibr">17</xref>]. Along these lines, viewing sleepiness as motivation may help explain why less sleep relates to wanting to be alone, social withdrawal, and loneliness [<xref rid="CIT0018" ref-type="bibr">18–20</xref>], as well as why many mental disorders, often comorbid with sleep problems [<xref rid="CIT0021" ref-type="bibr">21</xref>], are characterized by a reduced motivation to engage socially with others. Sleepiness might thus be a mechanism behind how short and disturbed sleep, as well as excessive daytime sleepiness unrelated to sleep loss, increase the risk for negative health outcomes and a sedentary lifestyle. Furthermore, the motivation to be at home and sleep in one’s own bed when sleepy could be a potential risk factor for accidents. For example, shift workers driving home from a night shift might be highly motivated to get there as soon as possible, decreasing the likelihood of safety behaviors such as stopping for a nap or coffee, or planning for an alternative way to get home.</p>
+              <p>Targeting self-reported sleepiness directly (e.g. through light, sleep treatment, or caffeine) might aid health-protective behaviors, improve adherence with treatment schemes, and reduce health risks. This kind of intervention may be particularly successful in cases where there is a strong relationship between excessive sleepiness and health problems, such as depression [<xref rid="CIT0022" ref-type="bibr">22</xref>, <xref rid="CIT0023" ref-type="bibr">23</xref>]. Our findings highlight the need for future studies in the fields of human biology, psychology, and medicine to investigate sleepiness from a motivational perspective, and to elucidate its potential role in competing with other behaviors. From one perspective, it seems likely that some motivational drives, such as socializing with others [<xref rid="CIT0024" ref-type="bibr">24</xref>] and breeding [<xref rid="CIT0025" ref-type="bibr">25</xref>], cause individuals to down-prioritize sleep duration despite becoming sleepier. There is a clear need for studying the importance of sleepiness as a signal for decision making in competition with other motivational drives, and why individuals’ choices vary under different circumstances.</p>
+              <p>A crucial aspect in the current study was the focus on how much the participants wanted to engage in different behaviors rather than monitoring what behaviors they actually engaged in. It will be important to carry out studies of how sleepiness and other motivational drives together predict actual behavior in real-life situations, both at work and at home. Other ways of manipulating sleepiness, for example, with repeated sleep restriction, naps, or caffeine, would also help delineate how motivation and behavior are affected. Furthermore, future work will have to define how sleepiness and fatigue relate to one another from a motivational viewpoint. Although from a theoretical point of view these concepts are strongly separated from each other, they are often used interchangeably [<xref rid="CIT0026" ref-type="bibr">26</xref>]. The definitions of fatigue vary, with some including sleepiness as one of its dimensions (e.g. Ref. [<xref rid="CIT0027" ref-type="bibr">27</xref>]), while others have used definitions and shown data indicating that sleepiness and fatigue are independent manifestations of insufficient sleep [<xref rid="CIT0028" ref-type="bibr">28</xref>]. Limitations of the current study include the restricted sample of healthy young adults and the one-time assessment, that participants in the normal-sleep condition could eat what and when they wanted the morning before coming into the lab, and that hunger was measured at a time when participants were not very hungry. Measures of how sleepiness relates to behavioral changes and actual food intake at all times awake will also be an important future step. Furthermore, there is a need to study sleepiness as a motivational drive in more diverse and less healthy groups, preferably in a longitudinal manner.</p>
+              <p>In conclusion, this study shows for the first time that sleepiness can function as a motivational drive and is an important step in optimizing one’s sleep. If the reduced desire to engage in physical and social activities when sleepy translates to actual reductions in these behaviors, it has implications for how insufficient sleep contributes to negative health outcomes [<xref rid="CIT0008" ref-type="bibr">8</xref>, <xref rid="CIT0022" ref-type="bibr">22</xref>] as well as how these could be counteracted. We propose that factors reducing sleepiness may, besides counteracting deteriorations in performance, also aid individuals in managing a healthier lifestyle.</p>
+            </sec>
+            <sec id="s0104">
+              <title>Authors’ Contributions</title>
+              <p>J.A., G.K., M.L., and T.S. developed the study concept and designed the research; T.S., and J.A. collected the data; M.I., and J.A. analyzed the data and drafted the manuscript. All authors interpreted the data, revised the manuscript and accepted the final version for submission.</p>
+            </sec>
+            <sec id="s0105">
+              <title>Open Practices Statement</title>
+              <p>The experiment in this article was not formally preregistered. The MOSS is provided in the supplemental information. MOSS, statistics, data, and code are available at <ext-link ext-link-type="uri" xlink:href="https://osf.io/pa2ng/?view_only=a04b6093c4074cdebfa0759a048e1792">https://osf.io/pa2ng/?view_only=a04b6093c4074cdebfa0759a048e1792</ext-link></p>
+            </sec>
+            <sec id="s0106">
+              <title>Funding</title>
+              <p>This research was supported by grants from the Swedish Research Council for Humanities and Social Sciences, the Swedish Research Council for Health, Working Life and Welfare, and the Swedish Research Council.</p>
+              <p><italic>Conflict of interest statement</italic>. Financial disclosures: K.P.W. reports funding from NIH, Office of Naval Research, Philips Inc., Torvec Inc; Consulting fees from or served as a paid member of scientific advisory boards for NIH, CurAegis Inc. Circadian Therapeutics, Kellogg; Speaker honorarium or travel reimbursement fees from the American Academy of Sleep Medicine, American College of CHEST Physicians, American College of Sports Medicine, Associated Professional Sleep Societies, Daylight Academy, Illuminating Engineering Society, and the Sleep Research Society. J.A. has current funding from the Swedish Research Council for Humanities and Social Sciences and AFA Insurance. Non-financial disclosure: None declared.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <supplementary-material content-type="local-data" id="sup1">
+                <label>zsz291_suppl_Supplementary_Materials</label>
+                <media xlink:href="zsz291_suppl_supplementary_materials.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack id="a1">
+              <title>Acknowledgments</title>
+              <p>We thank B. Holding, M. Eriksson, T. Johansson, and S. Gershagen for study assistance.</p>
+            </ack>
+            <ref-list id="r1">
+              <title>References</title>
+              <ref id="CIT0001">
+                <label>1.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Borbély</surname><given-names>AA</given-names></name></person-group><article-title>A two process model of sleep regulation</article-title>. <source>Hum Neurobiol.</source><year>1982</year>;<volume>1</volume>(<issue>3</issue>):<fpage>195</fpage>–<lpage>204</lpage>.<pub-id pub-id-type="pmid">7185792</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0002">
+                <label>2.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lo</surname><given-names>JC</given-names></name>, <etal>et al.</etal></person-group><article-title>Effects of partial and acute total sleep deprivation on performance across cognitive domains, individuals and circadian phase</article-title>. <source>PLoS One.</source><year>2012</year>;<volume>7</volume>(<issue>9</issue>):<fpage>e45987</fpage>.<pub-id pub-id-type="pmid">23029352</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0003">
+                <label>3.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Horne</surname><given-names>J</given-names></name></person-group><article-title>Sleepiness as a need for sleep: when is enough, enough?</article-title><source>Neurosci Biobehav Rev.</source><year>2010</year>;<volume>34</volume>(<issue>1</issue>):<fpage>108</fpage>–<lpage>118</lpage>.<pub-id pub-id-type="pmid">19643131</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0004">
+                <label>4.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>LeDoux</surname><given-names>J</given-names></name></person-group><article-title>Rethinking the emotional brain</article-title>. <source>Neuron.</source><year>2012</year>;<volume>73</volume>(<issue>4</issue>):<fpage>653</fpage>–<lpage>676</lpage>.<pub-id pub-id-type="pmid">22365542</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0005">
+                <label>5.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Carskadon</surname><given-names>MA</given-names></name>, <etal>et al.</etal></person-group><article-title>Guidelines for the multiple sleep latency test (MSLT): a standard measure of sleepiness</article-title>. <source>Sleep.</source><year>1986</year>;<volume>9</volume>(<issue>4</issue>):<fpage>519</fpage>–<lpage>524</lpage>.<pub-id pub-id-type="pmid">3809866</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0006">
+                <label>6.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Anderson</surname><given-names>JR</given-names></name></person-group><article-title>Sleep, sleeping sites, and sleep-related activities: awakening to their significance</article-title>. <source>Am J Primatol.</source><year>1998</year>;<volume>46</volume>(<issue>1</issue>):<fpage>63</fpage>–<lpage>75</lpage>.<pub-id pub-id-type="pmid">9730213</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0007">
+                <label>7.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Zepelin</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Siegel</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Tobler</surname><given-names>I</given-names></name></person-group><article-title>Mammalian sleep.</article-title> In: <person-group person-group-type="editor"><name name-style="western"><surname>Kryger</surname><given-names>MH</given-names></name>, <name name-style="western"><surname>Roth</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Dement</surname><given-names>WC</given-names></name></person-group>, eds. <source>Principles and Practice of Sleep Medicine</source>. Vol. <volume>4</volume>
+<publisher-loc>Philadelphia</publisher-loc>: <publisher-name>Elsevier Saunders</publisher-name>; <year>2005</year>: <fpage>91</fpage>–<lpage>100</lpage>.</mixed-citation>
+              </ref>
+              <ref id="CIT0008">
+                <label>8.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kecklund</surname><given-names>G</given-names></name>, <etal>et al.</etal></person-group><article-title>Health consequences of shift work and insufficient sleep</article-title>. <source>BMJ.</source><year>2016</year>;<volume>355</volume>:<fpage>i5210</fpage>.<pub-id pub-id-type="pmid">27803010</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0009">
+                <label>9.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Groeger</surname><given-names>JA</given-names></name>, <etal>et al.</etal></person-group><article-title>Dissociating effects of global SWS disruption and healthy aging on waking performance and daytime sleepiness</article-title>. <source>Sleep.</source><year>2014</year>;<volume>37</volume>(<issue>6</issue>):<fpage>1127</fpage>–<lpage>1142</lpage>.<pub-id pub-id-type="pmid">24882908</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0010">
+                <label>10.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Martin</surname><given-names>BJ</given-names></name></person-group><article-title>Effect of sleep deprivation on tolerance of prolonged exercise</article-title>. <source>Eur J Appl Physiol Occup Physiol.</source><year>1981</year>;<volume>47</volume>(<issue>4</issue>):<fpage>345</fpage>–<lpage>354</lpage>.<pub-id pub-id-type="pmid">7199438</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0011">
+                <label>11.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Markwald</surname><given-names>RR</given-names></name>, <etal>et al.</etal></person-group><article-title>Impact of insufficient sleep on total daily energy expenditure, food intake, and weight gain</article-title>. <source>Proc Natl Acad Sci USA.</source><year>2013</year>;<volume>110</volume>(<issue>14</issue>):<fpage>5695</fpage>–<lpage>5700</lpage>.<pub-id pub-id-type="pmid">23479616</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0012">
+                <label>12.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Holding</surname><given-names>BC</given-names></name>, <etal>et al.</etal></person-group><article-title>Sleep deprivation and its effects on communication during individual and collaborative tasks</article-title>. <source>Sci Rep.</source><year>2019</year>;<volume>9</volume>(<issue>1</issue>):<fpage>3131</fpage>.<pub-id pub-id-type="pmid">30816244</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0013">
+                <label>13.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Akerstedt</surname><given-names>T</given-names></name>, <etal>et al.</etal></person-group><article-title>Subjective sleepiness is a sensitive indicator of insufficient sleep and impaired waking function</article-title>. <source>J Sleep Res.</source><year>2014</year>;<volume>23</volume>(<issue>3</issue>):<fpage>240</fpage>–<lpage>252</lpage>.<pub-id pub-id-type="pmid">24750198</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0014">
+                <label>14.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Sundelin</surname><given-names>T</given-names></name>, <etal>et al.</etal></person-group><article-title>Negative effects of restricted sleep on facial appearance and social appeal</article-title>. <source>R Soc Open Sci.</source><year>2017</year>;<volume>4</volume>(<issue>5</issue>):<fpage>160918</fpage>.<pub-id pub-id-type="pmid">28572989</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0015">
+                <label>15.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Venables</surname><given-names>WN</given-names></name>, <etal>et al.</etal></person-group><comment><italic>Modern Applied Statistics with S</italic></comment><publisher-loc>New York</publisher-loc>: <publisher-name>Springer</publisher-name>; <year>2002</year>.</mixed-citation>
+              </ref>
+              <ref id="CIT0016">
+                <label>16.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kyu</surname><given-names>HH</given-names></name>, <etal>et al.</etal></person-group><article-title>Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke events: systematic review and dose-response meta-analysis for the Global Burden of Disease Study 2013</article-title>. <source>BMJ.</source><year>2016</year>;<volume>354</volume>:<fpage>i3857</fpage>.<pub-id pub-id-type="pmid">27510511</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0017">
+                <label>17.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Leigh-Hunt</surname><given-names>N</given-names></name>, <etal>et al.</etal></person-group><article-title>An overview of systematic reviews on the public health consequences of social isolation and loneliness</article-title>. <source>Public Health.</source><year>2017</year>;<volume>152</volume>:<fpage>157</fpage>–<lpage>171</lpage>.<pub-id pub-id-type="pmid">28915435</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0018">
+                <label>18.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ben Simon</surname><given-names>E</given-names></name>, <etal>et al.</etal></person-group><article-title>Sleep loss causes social withdrawal and loneliness</article-title>. <source>Nat Commun.</source><year>2018</year>;<volume>9</volume>(<issue>1</issue>):<fpage>3146</fpage>.<pub-id pub-id-type="pmid">30108218</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0019">
+                <label>19.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Cacioppo</surname><given-names>JT</given-names></name>, <etal>et al.</etal></person-group><article-title>Loneliness and health: potential mechanisms</article-title>. <source>Psychosom Med.</source><year>2002</year>;<volume>64</volume>(<issue>3</issue>):<fpage>407</fpage>–<lpage>417</lpage>.<pub-id pub-id-type="pmid">12021415</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0020">
+                <label>20.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Totterdell</surname><given-names>P</given-names></name>, <etal>et al.</etal></person-group><article-title>Associations of sleep with everyday mood, minor symptoms and social interaction experience</article-title>. <source>Sleep.</source><year>1994</year>;<volume>17</volume>(<issue>5</issue>):<fpage>466</fpage>–<lpage>475</lpage>.<pub-id pub-id-type="pmid">7991960</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0021">
+                <label>21.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Baglioni</surname><given-names>C</given-names></name>, <etal>et al.</etal></person-group><article-title>Sleep and mental disorders: a meta-analysis of polysomnographic research</article-title>. <source>Psychol Bull.</source><year>2016</year>;<volume>142</volume>(<issue>9</issue>):<fpage>969</fpage>–<lpage>990</lpage>.<pub-id pub-id-type="pmid">27416139</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0022">
+                <label>22.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Buysse</surname><given-names>DJ</given-names></name></person-group><article-title>Sleep health: can we define it? Does it matter?</article-title><source>Sleep.</source><year>2014</year>;<volume>37</volume>(<issue>1</issue>):<fpage>9</fpage>–<lpage>17</lpage>.<pub-id pub-id-type="pmid">24470692</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0023">
+                <label>23.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Chellappa</surname><given-names>SL</given-names></name>, <etal>et al.</etal></person-group><article-title>Chronobiology, excessive daytime sleepiness and depression: is there a link?</article-title><source>Sleep Med.</source><year>2009</year>;<volume>10</volume>(<issue>5</issue>):<fpage>505</fpage>–<lpage>514</lpage>.<pub-id pub-id-type="pmid">18824409</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0024">
+                <label>24.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Basner</surname><given-names>M</given-names></name>, <etal>et al.</etal></person-group><article-title>American time use survey: sleep time and its relationship to waking activities</article-title>. <source>Sleep.</source><year>2007</year>;<volume>30</volume>(<issue>9</issue>):<fpage>1085</fpage>–<lpage>1095</lpage>.<pub-id pub-id-type="pmid">17910380</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0025">
+                <label>25.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lesku</surname><given-names>JA</given-names></name>, <etal>et al.</etal></person-group><article-title>Adaptive sleep loss in polygynous pectoral sandpipers</article-title>. <source>Science.</source><year>2012</year>;<volume>337</volume>(<issue>6102</issue>):<fpage>1654</fpage>–<lpage>1658</lpage>.<pub-id pub-id-type="pmid">22878501</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0026">
+                <label>26.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Shen</surname><given-names>J</given-names></name>, <etal>et al.</etal></person-group><article-title>Distinguishing sleepiness and fatigue: focus on definition and measurement</article-title>. <source>Sleep Med Rev.</source><year>2006</year>;<volume>10</volume>(<issue>1</issue>):<fpage>63</fpage>–<lpage>76</lpage>.<pub-id pub-id-type="pmid">16376590</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0027">
+                <label>27.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ahsberg</surname><given-names>E</given-names></name></person-group><article-title>Dimensions of fatigue in different working populations</article-title>. <source>Scand J Psychol.</source><year>2000</year>;<volume>41</volume>(<issue>3</issue>):<fpage>231</fpage>–<lpage>241</lpage>.<pub-id pub-id-type="pmid">11041305</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0028">
+                <label>28.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hossain</surname><given-names>JL</given-names></name>, <etal>et al.</etal></person-group><article-title>Subjective fatigue and subjective sleepiness: two independent consequences of sleep disorders?</article-title><source>J Sleep Res.</source><year>2005</year>;<volume>14</volume>(<issue>3</issue>):<fpage>245</fpage>–<lpage>253</lpage>.<pub-id pub-id-type="pmid">16120099</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

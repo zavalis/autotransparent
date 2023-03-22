@@ -1,0 +1,2052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:04:03Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6717599" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6717599</identifier>
+        <datestamp>2019-09-13</datestamp>
+        <setSpec>springeropen</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Eur J Nucl Med Mol Imaging</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Eur. J. Nucl. Med. Mol. Imaging</journal-id>
+              <journal-title-group>
+                <journal-title>European Journal of Nuclear Medicine and Molecular Imaging</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1619-7070</issn>
+              <issn pub-type="epub">1619-7089</issn>
+              <publisher>
+                <publisher-name>Springer Berlin Heidelberg</publisher-name>
+                <publisher-loc>Berlin/Heidelberg</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6717599</article-id>
+              <article-id pub-id-type="pmcid">PMC6717599</article-id>
+              <article-id pub-id-type="pmc-uid">6717599</article-id>
+              <article-id pub-id-type="pmid">31363804</article-id>
+              <article-id pub-id-type="publisher-id">4403</article-id>
+              <article-id pub-id-type="doi">10.1007/s00259-019-04403-7</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Effects of age, BMI and sex on the glial cell marker TSPO — a multicentre [<sup>11</sup>C]PBR28 HRRT PET study</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0965-9365</contrib-id>
+                  <name>
+                    <surname>Tuisku</surname>
+                    <given-names>Jouni</given-names>
+                  </name>
+                  <address>
+                    <phone>+358-443423890</phone>
+                    <email>joupes@utu.fi</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Plavén-Sigray</surname>
+                    <given-names>Pontus</given-names>
+                  </name>
+                  <address>
+                    <email>Pontus.Plaven-Sigray@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Gaiser</surname>
+                    <given-names>Edward C.</given-names>
+                  </name>
+                  <address>
+                    <email>edward.gaiser@yale.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Airas</surname>
+                    <given-names>Laura</given-names>
+                  </name>
+                  <address>
+                    <email>laura.airas@utu.fi</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Al-Abdulrasul</surname>
+                    <given-names>Haidar</given-names>
+                  </name>
+                  <address>
+                    <email>Haidar.Al-Abdulrasul@tyks.fi</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Brück</surname>
+                    <given-names>Anna</given-names>
+                  </name>
+                  <address>
+                    <email>Anna.Bruck@tyks.fi</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Carson</surname>
+                    <given-names>Richard E.</given-names>
+                  </name>
+                  <address>
+                    <email>richard.carson@yale.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Chen</surname>
+                    <given-names>Ming-Kai</given-names>
+                  </name>
+                  <address>
+                    <email>ming-kai.chen@yale.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Cosgrove</surname>
+                    <given-names>Kelly P.</given-names>
+                  </name>
+                  <address>
+                    <email>kelly.cosgrove@yale.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ekblad</surname>
+                    <given-names>Laura</given-names>
+                  </name>
+                  <address>
+                    <email>llekbl@utu.fi</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Esterlis</surname>
+                    <given-names>Irina</given-names>
+                  </name>
+                  <address>
+                    <email>Irina.Esterlis@yale.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Farde</surname>
+                    <given-names>Lars</given-names>
+                  </name>
+                  <address>
+                    <email>lars.farde@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Forsberg</surname>
+                    <given-names>Anton</given-names>
+                  </name>
+                  <address>
+                    <email>anton.forsberg@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Halldin</surname>
+                    <given-names>Christer</given-names>
+                  </name>
+                  <address>
+                    <email>christer.halldin@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Helin</surname>
+                    <given-names>Semi</given-names>
+                  </name>
+                  <address>
+                    <email>Semi.Helin@abo.fi</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kosek</surname>
+                    <given-names>Eva</given-names>
+                  </name>
+                  <address>
+                    <email>eva.kosek@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff8">8</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lekander</surname>
+                    <given-names>Mats</given-names>
+                  </name>
+                  <address>
+                    <email>mats.lekander@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff8">8</xref>
+                  <xref ref-type="aff" rid="Aff9">9</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lindgren</surname>
+                    <given-names>Noora</given-names>
+                  </name>
+                  <address>
+                    <email>nhsalm@utu.fi</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Marjamäki</surname>
+                    <given-names>Päivi</given-names>
+                  </name>
+                  <address>
+                    <email>pamarja@utu.fi</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rissanen</surname>
+                    <given-names>Eero</given-names>
+                  </name>
+                  <address>
+                    <email>eerris@utu.fi</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Sucksdorff</surname>
+                    <given-names>Marcus</given-names>
+                  </name>
+                  <address>
+                    <email>marsuc@utu.fi</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Varrone</surname>
+                    <given-names>Andrea</given-names>
+                  </name>
+                  <address>
+                    <email>andrea.varrone@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                  <xref ref-type="aff" rid="Aff9">9</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <collab>HRRT [11C ]PBR28 study group</collab>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Collste</surname>
+                    <given-names>Karin</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Gallezot</surname>
+                    <given-names>Jean-Dominique</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hillmer</surname>
+                    <given-names>Ansel</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Huang</surname>
+                    <given-names>Yiyun</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Höglund</surname>
+                    <given-names>Caroline O.</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Johansson</surname>
+                    <given-names>Jarkko</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Jucaite</surname>
+                    <given-names>Aurelija</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lampa</surname>
+                    <given-names>Jon</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Nabulsi</surname>
+                    <given-names>Nabeel</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Pittman</surname>
+                    <given-names>Brian</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Sandiego</surname>
+                    <given-names>Christine M.</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Stenkrona</surname>
+                    <given-names>Per</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rinne</surname>
+                    <given-names>Juha</given-names>
+                  </name>
+                  <address>
+                    <email>Juha.Rinne@tyks.fi</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Matuskey</surname>
+                    <given-names>David</given-names>
+                  </name>
+                  <address>
+                    <email>david.matuskey@yale.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Cervenka</surname>
+                    <given-names>Simon</given-names>
+                  </name>
+                  <address>
+                    <email>Simon.Cervenka@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2097 1371</institution-id><institution-id institution-id-type="GRID">grid.1374.1</institution-id><institution>Turku PET Centre, </institution><institution>University of Turku, </institution></institution-wrap>Turku, Finland </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0628 215X</institution-id><institution-id institution-id-type="GRID">grid.410552.7</institution-id><institution>Turku PET Centre, </institution><institution>c/o Turku University Hospital, </institution></institution-wrap>Po Box 52, 20521 Turku, Finland </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1937 0626</institution-id><institution-id institution-id-type="GRID">grid.4714.6</institution-id><institution>Centre for Psychiatry Research, Department of Clinical Neuroscience, </institution><institution>Karolinska Institutet and Stockholm County, </institution></institution-wrap>Stockholm, Sweden </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ISNI">0000000419368710</institution-id><institution-id institution-id-type="GRID">grid.47100.32</institution-id><institution>PET Center, Department of Radiology and Biomedical Imaging, </institution><institution>Yale University, </institution></institution-wrap>New Haven, CT 06520 USA </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="ISNI">0000000419368710</institution-id><institution-id institution-id-type="GRID">grid.47100.32</institution-id><institution>Department of Psychiatry, </institution><institution>Yale University, </institution></institution-wrap>New Haven, CT 06511 USA </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0628 215X</institution-id><institution-id institution-id-type="GRID">grid.410552.7</institution-id><institution>Division of Clinical Neurosciences, </institution><institution>Turku University Hospital, </institution></institution-wrap>Turku, Finland </aff>
+                <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.465198.7</institution-id><institution>PET Science Centre, Precision Medicine and Genomics, IMED Biotech Unit, AstraZeneca, </institution><institution>Karolinska Institutet, </institution></institution-wrap>Solna, Sweden </aff>
+                <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1937 0626</institution-id><institution-id institution-id-type="GRID">grid.4714.6</institution-id><institution>Department of Clinical Neuroscience, </institution><institution>Karolinska Institutet, </institution></institution-wrap>Stockholm, Sweden </aff>
+                <aff id="Aff9"><label>9</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1936 9377</institution-id><institution-id institution-id-type="GRID">grid.10548.38</institution-id><institution>Stress Research Institute, Department of Psychology, </institution><institution>Stockholm University, </institution></institution-wrap>Stockholm, Sweden </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>30</day>
+                <month>7</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>30</day>
+                <month>7</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="ppub">
+                <year>2019</year>
+              </pub-date>
+              <volume>46</volume>
+              <issue>11</issue>
+              <fpage>2329</fpage>
+              <lpage>2338</lpage>
+              <history>
+                <date date-type="received">
+                  <day>1</day>
+                  <month>3</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="accepted">
+                  <day>14</day>
+                  <month>6</month>
+                  <year>2019</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2019</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold> This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Purpose</title>
+                  <p id="Par1">The purpose of this study was to investigate the effects of ageing, sex and body mass index (BMI) on translocator protein (TSPO) availability in healthy subjects using positron emission tomography (PET) and the radioligand [<sup>11</sup>C]PBR28.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p id="Par2">[<sup>11</sup>C]PBR28 data from 140 healthy volunteers (72 males and 68 females; N = 78 with HAB and N = 62 MAB genotype; age range 19–80 years; BMI range 17.6–36.9) were acquired with High Resolution Research Tomograph at three centres: Karolinska Institutet (N = 53), Turku PET centre (N = 62) and Yale University PET Center (N = 25). The total volume of distribution (V<sub>T</sub>) was estimated in global grey matter, frontal, temporal, occipital and parietal cortices, hippocampus and thalamus using multilinear analysis 1. The effects of age, BMI and sex on TSPO availability were investigated using linear mixed effects model, with TSPO genotype and PET centre specified as random intercepts.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p id="Par3">There were significant positive correlations between age and V<sub>T</sub> in the frontal and temporal cortex. BMI showed a significant negative correlation with V<sub>T</sub> in all regions. Additionally, significant differences between males and females were observed in all regions, with females showing higher V<sub>T</sub>. A subgroup analysis revealed a positive correlation between V<sub>T</sub> and age in all regions in male subjects, whereas age showed no effect on TSPO levels in female subjects.</p>
+                </sec>
+                <sec>
+                  <title>Conclusion</title>
+                  <p id="Par4">These findings provide evidence that individual biological properties may contribute significantly to the high variation shown in TSPO binding estimates, and suggest that age, BMI and sex can be confounding factors in clinical studies.</p>
+                </sec>
+                <sec>
+                  <title>Electronic supplementary material</title>
+                  <p>The online version of this article (10.1007/s00259-019-04403-7) contains supplementary material, which is available to authorized users.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>PET</kwd>
+                <kwd>TSPO</kwd>
+                <kwd>[<sup>11</sup>C]PBR28</kwd>
+                <kwd>Ageing</kwd>
+                <kwd>Sex difference</kwd>
+                <kwd>BMI</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>University of Turku (UTU) including Turku University Central Hospital</institution>
+                  </funding-source>
+                </award-group>
+                <open-access>
+                  <p>Open access funding provided by University of Turku (UTU) including Turku University Central Hospital.</p>
+                </open-access>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© Springer-Verlag GmbH Germany, part of Springer Nature 2019</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par27">The translocator protein (TSPO) is an 18 kDa protein structure located on the outer mitochondrial membrane. In the brain, TSPO is expressed in microglia, astrocytes, endothelial and smooth muscle cells and even neurons (although in lower levels compared to tissues which are essential for steroid production or lipid storage and metabolism) [<xref ref-type="bibr" rid="CR1">1</xref>, <xref ref-type="bibr" rid="CR2">2</xref>]. Although TSPO is present throughout the brain under normal physiological conditions [<xref ref-type="bibr" rid="CR3">3</xref>–<xref ref-type="bibr" rid="CR5">5</xref>], <italic>in vitro</italic> studies have shown that TSPO expression increases in response to immune activation [<xref ref-type="bibr" rid="CR6">6</xref>]. TSPO radioligands have therefore been used together with molecular imaging techniques to study brain immune activation.</p>
+              <p id="Par28">A limitation of clinical TSPO PET studies is that TSPO shows high interindividual variability, even after accounting for the effect of the TSPO gene polymorphism [<xref ref-type="bibr" rid="CR7">7</xref>, <xref ref-type="bibr" rid="CR8">8</xref>]. It is not fully known to what extent this variability is influenced by individual physiological properties, such as age, body mass index (BMI) and sex. TSPO is involved in the transport of cholesterol across the mitochondrial membrane, a requirement for steroid synthesis; additionally it is involved in immunomodulation as well as mitochondrial respiration and metabolism [<xref ref-type="bibr" rid="CR9">9</xref>]. These processes are likely to be related to ageing, as well as hormonal steroid function [<xref ref-type="bibr" rid="CR10">10</xref>]. However, previous <italic>in vivo</italic> human research using positron emission tomography (PET) imaging to investigate influences of age and sex on TSPO expression have been inconclusive. Studies have showed both higher TSPO levels with increasing age [<xref ref-type="bibr" rid="CR11">11</xref>–<xref ref-type="bibr" rid="CR14">14</xref>] and no effect [<xref ref-type="bibr" rid="CR15">15</xref>–<xref ref-type="bibr" rid="CR17">17</xref>]. Similarly, no effects of sex or BMI on TSPO expression were found in a recent TSPO study of healthy control subjects [<xref ref-type="bibr" rid="CR13">13</xref>], whereas higher TSPO levels were observed in females in a clinical study with small sample size [<xref ref-type="bibr" rid="CR18">18</xref>].</p>
+              <p id="Par29"><italic>In vivo</italic> PET studies usually involve small sample sizes, and this low statistical power adds difficulty to detect significant effects. In order to more conclusively examine the effects of ageing, BMI and sex on TSPO availability in healthy individuals, we combined TSPO radioligand [<sup>11</sup>C]PBR28 data acquired using a High Resolution Research Tomograph (HRRT) from three different institutes. This resulted in the largest TSPO PET sample to date of healthy control subjects imaged using the same radioligand and PET system.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Materials and methods</title>
+              <p id="Par30">This study was based on [<sup>11</sup>C]PBR28 data from 140 healthy volunteers that had previously been enrolled at three centres: Karolinska Institutet (KI; N = 53), Turku PET Centre (TPC; N = 62) and Yale University PET Center (Yale; N = 25). Descriptive statistics for age, BMI, sex and TSPO genotype for each centre are presented in Table <xref rid="Tab1" ref-type="table">1</xref>. Ethical approvals were obtained from the Stockholm Regional Ethical Board, Hospital District of Southwest Finland and the Yale Human Investigation Committee, respectively, for KI, Turku and Yale data.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Study subject characteristics of Karolinska Institutet (KI), Turku PET Centre (TPC) and Yale University PET Center (Yale) data</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Parameter</th><th>KI</th><th>TPC</th><th>Yale</th><th>Total</th><th><italic>p</italic>*</th></tr></thead><tbody><tr><td>Number of subjects</td><td>53</td><td>62</td><td>25</td><td>140</td><td>–</td></tr><tr><td>HAB genotype subjects</td><td>31</td><td>34</td><td>13</td><td>78</td><td>–</td></tr><tr><td>MAB genotype subjects</td><td>22</td><td>28</td><td>12</td><td>62</td><td>–</td></tr><tr><td>Male / Female subjects</td><td>30 / 23</td><td>26 / 36</td><td>16 / 9</td><td>72 / 68</td><td>–</td></tr><tr><td>Age range</td><td>20–72</td><td>42–80</td><td>19–55</td><td>19–80</td><td>–</td></tr><tr><td>Age (mean ± sd)</td><td>44.3 ± 17.3</td><td>68.7 ± 7.3</td><td>33.4 ± 11.6</td><td>53.2 ± 19.1</td><td><italic>p</italic> &lt; 0.001</td></tr><tr><td>BMI range</td><td>17.6–30.5</td><td>19.1–35.2</td><td>20.4–36.9</td><td>17.6–36.9</td><td>–</td></tr><tr><td>BMI (mean ± sd)</td><td>23.3 ± 2.9</td><td>26.1 ± 3.7</td><td>26.9 ± 4.2</td><td>25.2 ± 3.8</td><td>p &lt; 0.001</td></tr></tbody></table><table-wrap-foot><p><italic>HAB</italic> high-affinity binder, <italic>MAB</italic> mixed-affinity binder</p><p>*The group differences in age and BMI were investigated with the one-way analysis of variance</p></table-wrap-foot></table-wrap></p>
+              <p id="Par31">Exclusion criteria for participation at all centres were evidence of a current or previous major psychiatric illness (e.g., schizophrenia or major depression), alcohol or drug dependence, or history of a serious somatic or neurological illness. All subjects had a physical exam and medical history to confirm criteria. Subjects who had medication for diabetes mellitus (N = 7, exclusively in Turku data) were excluded from the initial study sample of 147 individuals. Three subjects of Turku data were smoking regularly, and for several Turku data subjects the current smoking status was unknown (N = 10). A subset of Turku data subjects also used cholesterol-lowering statins (N = 11; 3 males, 8 females; age 70.7 (3.6); BMI 26.8 (4.1)) and hormonal replacement medication (N = 2). Prior to imaging, all participants were genotyped for the rs6971 polymorphism of the TSPO gene and categorized as mixed-affinity binders (MABs) or high-affinity binders (HABs) utilizing methods described previously [<xref ref-type="bibr" rid="CR7">7</xref>, <xref ref-type="bibr" rid="CR19">19</xref>]. Low-affinity binders were excluded from this study.</p>
+              <p id="Par32">Structural MR imaging (MRI) was performed to exclude individuals with anatomical abnormalities and to allow for the delineation of anatomical regions for the PET data analysis after coregistration. T1-weighted MRI scans were acquired using a 3 T scanner (Discovery MR750 system (GE, Milwaukee, WI, at KI; Philips Ingenuity TF PET/MR, Philips Medical Systems, Cleveland, OH, USA, at TPC; Trio system, Siemens Medical Solutions, Malvern, Pennsylvania, at Yale).</p>
+              <p id="Par33">All PET examinations were performed on an HRRT scanner (Siemens/CTI, Knoxville, TN, USA). The [<sup>11</sup>C]PBR28 synthesis in TPC is described in the online resource. In KI and Yale the [<sup>11</sup>C]PBR28 was prepared as previously described [<xref ref-type="bibr" rid="CR19">19</xref>, <xref ref-type="bibr" rid="CR20">20</xref>]. The injection dose was administered as a rapid intravenous bolus, where the mean (sd) of injected activity, molar activity and injected mass at the time of injection, respectively, at each centre was 413.5 (53.4) MBq, 328.5 (148.0) MBq/nmol and 0.009 (0.004) μg/kg at KI; 494.3 (18.9) MBq, 286.9 (120.0) MBq/nmol and 0.012 (0.012) μg/kg at TPC; and 575.3 (151.6) MBq, 178.7 (164.0) MBq/nmol and 0.036 (0.036) μg/kg at Yale. Data were acquired while participants were at rest over 70, 75 or 90 min, respectively at TPC, KI and Yale. The present analysis was restricted to 70 min at TPC, and 75 min at KI and Yale. The further details of PET data acquisition, reconstruction and frame lengths, as well as arterial blood sampling and radiometabolite analysis are presented in the online resource.</p>
+              <p id="Par34">All 4D PET data were preprocessed at each centre in a similar manner, in which PET images were realigned and coregistered to anatomical MR images using SPM12 software (Wellcome Trust Centre for Neuroimaging, London, UK) running in MATLAB (The Mathworks, Natick, MA), or Bioimage Suite (version 2.5; <ext-link ext-link-type="uri" xlink:href="http://www.bioimagesuite.com/"><underline>http://www.bioimagesuite.com</underline></ext-link>). The MR images were further segmented into tissue classes using SPM. The grey matter segment was thresholded (GM &gt; 0.5) and then used as the main region of interest for the statistical analysis. Additionally, six automated ROIs (frontal, temporal, occipital and parietal cortices, hippocampus and thalamus) were generated by using the Automated Anatomical Labeling (AAL) template [<xref ref-type="bibr" rid="CR21">21</xref>]. These AAL ROIs were first coregistered to summed PET images via the deformation fields obtained from the MRI segmentation and then multiplied with the thresholded GM segment, before the ROI extraction.</p>
+              <p id="Par35">The total volume of distribution (V<sub>T</sub>) was estimated at each centre using multilinear analysis 1 [<xref ref-type="bibr" rid="CR22">22</xref>] (t* = 30 min) with the metabolite and the delay corrected arterial plasma curves as an input function. Uniform weights were used in the MA1 analysis at KI and Turku, whereas at Yale the weights were based on the noise equivalent counts in each frame. The normality of the regional V<sub>T</sub> estimates were inspected with Shapiro-Wilk test of normality and the Q-Q plot. The main research question of this study was to examine the associations between [<sup>11</sup>C]PBR28 binding and age, sex as well as BMI. This was done using a linear mixed effects model, with TSPO genotype and PET centre specified as random effects, allowing their intercepts to vary freely. The results from this model are reported as “confirmatory”, as the associations were hypothesized <italic>a priori</italic>. Having observed the results from the confirmatory analysis, we performed a set of follow-up tests, examining males and females separately, as well as sex-age interaction and centre effects. The results of these analyses are reported as “exploratory”, as they are all <italic>post-hoc</italic>. The results are presented as unstandardized regression effect estimates with 95% confidence intervals. All statistical analyses were conducted using lme4 and lmerTest packages in R (version 3.5.0 “Joy in Playing”). Previous studies have shown high correlations between [<sup>11</sup>C]PBR28 V<sub>T</sub> estimates in different ROIs [<xref ref-type="bibr" rid="CR23">23</xref>] and in this dataset all inter-regional Pearson’s correlations were &gt; 0.96 (all <italic>p</italic> &lt; 10<sup>−15</sup>). Hence, we considered the ROI analyses to be highly dependent comparisons and set the alpha threshold to 0.05 (two-tailed). The main research questions, outcome measures and overall statistical approach were all determined before data was shared and analysed, in a signed and dated Memorandum of Understanding (available upon request).</p>
+              <sec id="FPar1" sec-type="data-availability">
+                <title>Availability of data and material</title>
+                <p id="Par36">The data will be available upon request from the principal investigators, as allowed by legislation on data integrity in the country of each participating centre.</p>
+              </sec>
+            </sec>
+            <sec id="Sec3">
+              <title>Results</title>
+              <p id="Par37">There were significant differences in the age and BMI between centres (Table <xref rid="Tab1" ref-type="table">1</xref>), but there were no significant differences in these variables between HABs and MABs, or between males and females (Table <xref rid="Tab2" ref-type="table">2</xref>). Figure <xref rid="Fig1" ref-type="fig">1</xref> illustrates the relationships of age, BMI and sex to grey matter [<sup>11</sup>C]PBR28 V<sub>T</sub>. The Shapiro-Wilk test and the Q-Q plot indicated that the residuals of the statistical model were not normally distributed (see <xref rid="MOESM1" ref-type="media">online Resource</xref>). Hence, all V<sub>T</sub> values were log-transformed prior to being inserted into the linear-mixed effect model, which then fulfilled the assumption of normally distributed residuals. Below, the results from log-transformed V<sub>T</sub> values are presented.<table-wrap id="Tab2"><label>Table 2</label><caption><p>Study sample characteristics grouped by TSPO genotype (A) and sex (B)</p></caption><table frame="hsides" rules="groups"><tbody><tr><td align="left">Group</td><td>Demographic</td><td>HAB</td><td>MAB</td><td><italic>p</italic>*</td></tr><tr><td align="left" rowspan="4">(A)</td><td>Number</td><td>78</td><td>62</td><td>–</td></tr><tr><td>Males/Females (n)</td><td>35 / 43</td><td>37 / 25</td><td>–</td></tr><tr><td>Age (mean ± sd)</td><td>53.2 ± 18.9</td><td>53.1 ± 19.6</td><td>0.969</td></tr><tr><td>BMI (mean ± sd)</td><td>24.9 ± 4.2</td><td>25.5 ± 3.1</td><td>0.394</td></tr><tr><td align="left">Group</td><td>Female</td><td>Male</td><td><italic>p*</italic></td><td/></tr><tr><td align="left" rowspan="4">(B)</td><td>68</td><td>72</td><td>–</td><td/></tr><tr><td>–</td><td>–</td><td>–</td><td/></tr><tr><td>54.0 ± 19.6</td><td>52.4 ± 18.8</td><td>0.632</td><td/></tr><tr><td>24.7 (4.3)</td><td>25.6 ± 3.3</td><td>0.195</td><td/></tr></tbody></table><table-wrap-foot><p><italic>HAB</italic> high-affinity binder, <italic>MAB</italic> mixed-affinity binder</p><p>*The group differences were investigated with the Student’s t test</p></table-wrap-foot></table-wrap></p>
+              <p>
+                <fig id="Fig1">
+                  <label>Fig. 1</label>
+                  <caption>
+                    <p>The relationships of age, BMI and sex to log-transformed grey matter [<sup>11</sup>C]PBR28 V<sub>T</sub>. Age vs. [<sup>11</sup>C]PBR28 GM V<sub>T</sub> in MAB genotype (<bold>A</bold>) and HAB genotype (<bold>B</bold>). BMI vs. [<sup>11</sup>C]PBR28 GM V<sub>T</sub> in MAB genotype subjects (<bold>C</bold>) and HAB genotype subjects (<bold>D</bold>). Sex vs. [<sup>11</sup>C]PBR28 GM V<sub>T</sub> in MAB genotype subjects (<bold>E</bold>) and HAB genotype subjects (<bold>F</bold>). Box-plots in (<bold>E</bold>) and (<bold>F</bold>) represent the data means and standard deviations for both sexes</p>
+                  </caption>
+                  <graphic xlink:href="259_2019_4403_Fig1_HTML" id="MO1"/>
+                </fig>
+              </p>
+              <sec id="Sec4">
+                <title>Confirmatory results</title>
+                <p id="Par38">The regional fixed effect estimates with confidence intervals and <italic>p</italic>-values for the association between [<sup>11</sup>C]PBR28 V<sub>T</sub> and age, BMI and sex are presented in Table <xref rid="Tab3" ref-type="table">3</xref>. There was a significant positive association between age and log-transformed V<sub>T</sub> in frontal and temporal cortex, but not in any other regions. Higher BMI levels were associated with lower log-transformed V<sub>T</sub> in all regions. Additionally, significant differences between males and females were observed in all regions, with females showing higher [<sup>11</sup>C]PBR28 binding. For example, an increase of one year of age predicted a 0.4% increase (100*(e<sup>0.004</sup> – 1) = 0.4) in temporal cortex V<sub>T</sub>. Correspondingly, an increase of one BMI unit predicted a 2.4% decrease (100*(e<sup>0.024</sup> – 1) = −2.4) in temporal cortex V<sub>T</sub>. For females, temporal cortex V<sub>T</sub> was 16.3% higher (100*(e<sup>0.151</sup> – 1) = 16.3) compared to males.<table-wrap id="Tab3"><label>Table 3</label><caption><p>Fixed effects estimates with 95% confidence intervals and p-values for age, BMI and sex as regressors for regional [<sup>11</sup>C]PBR28 log-transformed V<sub>T</sub>. <italic>N</italic> = 140 for all analyses</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Region</th><th>Age (β, [CI], p)</th><th>BMI (β, [CI], p)</th><th>Sex (β, [CI], p)*</th></tr></thead><tbody><tr><td>Gray matter</td><td>0.003, [−0.001,0.007], <italic>p</italic> = 0.080</td><td>−0.022, [−0.034,-0.010], <italic>p</italic> &lt; 0.001</td><td>0.155, [0.075,0.235], <italic>p</italic> &lt; 0.001</td></tr><tr><td>Frontal cortex</td><td>0.004, [0.000,0.008], <italic>p</italic> = 0.034</td><td>−0.021, [−0.033,-0.009], p = 0.001</td><td>0.164, [0.082,0.246], p &lt; 0.001</td></tr><tr><td>Temporal cortex</td><td>0.004, [0.000,0.008], p = 0.030</td><td>−0.024, [−0.036,-0.012], p &lt; 0.001</td><td>0.151, [0.069,0.233], p &lt; 0.001</td></tr><tr><td>Occipital cortex</td><td>0.002, [−0.002,0.006], <italic>p</italic> = 0.167</td><td>−0.019, [−0.031,-0.007], p = 0.001</td><td>0.161, [0.081,0.241], p &lt; 0.001</td></tr><tr><td>Parietal cortex</td><td>0.003, [−0.001,0.007], <italic>p</italic> = 0.086</td><td>−0.017, [−0.029,-0.005], p = 0.004</td><td>0.172, [0.092,0.252], p &lt; 0.001</td></tr><tr><td>Hippocampus</td><td>0.002, [−0.002,0.006], <italic>p</italic> = 0.349</td><td>−0.026, [−0.038,-0.014], p &lt; 0.001</td><td>0.140, [0.054,0.226], p = 0.002</td></tr><tr><td>Thalamus</td><td>0.003, [−0.001,0.007], <italic>p</italic> = 0.067</td><td>−0.023, [−0.035,-0.011], p &lt; 0.001</td><td>0.139, [0.051,0.227], <italic>p</italic> = 0.002</td></tr></tbody></table><table-wrap-foot><p>*Coding: Males = 0, Females = 1</p></table-wrap-foot></table-wrap></p>
+                <p id="Par39">Using the raw, untransformed V<sub>T</sub> values the results were similar to those presented above, except for the V<sub>T</sub>-age association that was not statistically significant (see <xref rid="MOESM1" ref-type="media">online resource</xref>).</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Exploratory results</title>
+                <p id="Par40">Due to the sex differences in V<sub>T</sub>, the data were divided into two subgroups for studying the effects of age and BMI separately for both sexes. This subgroup analysis showed a significant positive association between age and log-transformed V<sub>T</sub> in all regions in male subjects, but not in female subjects (Table <xref rid="Tab4" ref-type="table">4</xref>). There was also a significant negative association between BMI and [<sup>11</sup>C]PBR28 binding in males in all regions, but for females the association was significant only in the temporal cortex, hippocampus and thalamus. For example, an increase of one year of age predicted a 0.7% and a 0.1% increase in temporal cortex V<sub>T</sub>, respectively, for males and females. Correspondingly, an increase of one BMI unit predicted 2.6% and 1.9% decrease in temporal cortex V<sub>T</sub>, respectively, for males and females.<table-wrap id="Tab4"><label>Table 4</label><caption><p>Fixed effects estimates with 95% confidence intervals and <italic>p</italic>-values for age and BMI as regressors for regional [<sup>11</sup>C]PBR28 log-transformed V<sub>T</sub> in a separate subgroup analysis for males (N = 72) and females (N = 68)</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Region</th><th>Age (β, [CI], p), Male</th><th>Age (β, [CI], p), Female</th><th>BMI (β, [CI], p), Male</th><th>BMI (β, [CI], p), Female</th></tr></thead><tbody><tr><td>Grey matter</td><td>0.006, [0.002,0.010], p = 0.002</td><td>−0.002, [−0.008,0.004], <italic>p</italic> = 0.542</td><td>−0.026, [−0.042,-0.010], <italic>p</italic> = 0.002</td><td>−0.017, [−0.035,0.001], <italic>p</italic> = 0.061</td></tr><tr><td>Frontal cortex</td><td>0.007, [0.003,0.011], p = 0.001</td><td>−0.001, [−0.007,0.005], <italic>p</italic> = 0.645</td><td>−0.024, [−0.040,-0.008], <italic>p</italic> = 0.004</td><td>−0.015, [−0.033,0.003], <italic>p</italic> = 0.085</td></tr><tr><td>Temporal cortex</td><td>0.007, [0.003,0.011], <italic>p</italic> = 0.001</td><td>−0.001, [−0.007,0.005], <italic>p</italic> = 0.745</td><td>−0.026, [−0.042,-0.010], p = 0.002</td><td>−0.019, [−0.037,-0.001], <italic>p</italic> = 0.039</td></tr><tr><td>Occipital cortex</td><td>0.005, [0.001,0.009], <italic>p</italic> = 0.006</td><td>−0.002, [−0.008,0.004], <italic>p</italic> = 0.462</td><td>−0.023, [−0.039,-0.007], p = 0.004</td><td>−0.013, [−0.031,0.005], <italic>p</italic> = 0.123</td></tr><tr><td>Parietal cortex</td><td>0.006, [0.002,0.010], p = 0.002</td><td>−0.002, [−0.008,0.004], <italic>p</italic> = 0.467</td><td>−0.021, [−0.037,-0.005], <italic>p</italic> = 0.010</td><td>−0.012, [−0.030,0.006], <italic>p</italic> = 0.175</td></tr><tr><td>Hippocampus</td><td>0.004, [0.000,0.008], <italic>p</italic> = 0.046</td><td>−0.002, [−0.006,0.002], <italic>p</italic> = 0.399</td><td>−0.027, [−0.045,-0.009], <italic>p</italic> = 0.005</td><td>−0.020, [−0.036,-0.004], <italic>p</italic> = 0.020</td></tr><tr><td>Thalamus</td><td>0.006, [0.002,0.010], <italic>p</italic> = 0.007</td><td>−0.001, [−0.005,0.003], <italic>p</italic> = 0.755</td><td>−0.022, [−0.040,-0.004], <italic>p</italic> = 0.011</td><td>−0.020, [−0.038,-0.002], <italic>p</italic> = 0.030</td></tr></tbody></table></table-wrap></p>
+                <p id="Par41">The interaction between age and sex was confirmed by adding an interaction term to the main effects model (fixed effects estimates are presented in the online resource). This analysis revealed a significant age and sex interaction in all regions except the occipital cortex and hippocampus. The fixed effect estimates of the association between age and log-transformed V<sub>T</sub> in the grey matter for males and females are illustrated in Fig. <xref rid="Fig2" ref-type="fig">2</xref>.<fig id="Fig2"><label>Fig. 2</label><caption><p>The relationship between [<sup>11</sup>C]PBR28 log-transformed V<sub>T</sub> and age for males and females in the grey matter. The regression lines denote the fixed effects from two linear mixed effects models including either females or males, with TSPO genotype and PET center specified as random intercepts</p></caption><graphic xlink:href="259_2019_4403_Fig2_HTML" id="MO2"/></fig></p>
+              </sec>
+              <sec id="Sec6">
+                <title>Robustness test</title>
+                <p id="Par42">To examine the robustness of our results, we performed the main analysis also by excluding the subjects who had cholesterol medication (N = 11), hormone replacement therapy (N = 2) and who were current smokers (N = 3) (presented in the online resource; 16 excluded subjects, thus resulting in a total number of subjects of 124). The results were similar compared to the main analysis without exclusions.</p>
+                <p id="Par43">Because of the of the significant differences in plasma parent fractions, as well as age and BMI distributions between centres, it can’t be excluded that the overall age or BMI effects are attributed to only one centre. Therefore, a possible centre effect was studied in grey matter by inserting centre as a dummy predictor and as an interaction-effect to age, BMI and sex. The results were comparable to the main analysis. The age interaction estimate for Turku data was statistically significant, whereas the other interaction estimates were not significant (the results are presented in the online resource).</p>
+              </sec>
+            </sec>
+            <sec id="Sec7">
+              <title>Discussion</title>
+              <p id="Par44">In this retrospective multicentre collaboration study, constituting the largest harmonized TSPO PET sample to date, the results indicate that higher [<sup>11</sup>C]PBR28 V<sub>T</sub> is associated with lower BMI. Higher V<sub>T</sub> was found in females, as compared to males. Higher age was significantly associated to higher V<sub>T</sub> in frontal and temporal cortices, partly replicating a previous [<sup>11</sup>C]PBR28 study [<xref ref-type="bibr" rid="CR13">13</xref>]. A post hoc analysis however revealed that this association was present only in male subjects. These findings provide evidence that individual biological factors contribute significantly to the high variability seen in V<sub>T</sub> estimates, and suggest that age, BMI and sex can be confounding factors in clinical designs.</p>
+              <p id="Par45">It has been suggested that with increasing age, microglia activate slower and exhibit less “surveying” morphology [<xref ref-type="bibr" rid="CR24">24</xref>]. Several post-mortem human studies have indicated age-related alterations in microglia morphology and function as well as age-associated increases in total number of activated pro-inflammatory microglia phenotype [<xref ref-type="bibr" rid="CR25">25</xref>–<xref ref-type="bibr" rid="CR28">28</xref>]. Ageing has also been shown to be associated with increases in peripheral markers of inflammation [<xref ref-type="bibr" rid="CR29">29</xref>–<xref ref-type="bibr" rid="CR32">32</xref>]. In contrast, previous PET studies on brain TSPO in relation to age have been inconclusive [<xref ref-type="bibr" rid="CR11">11</xref>–<xref ref-type="bibr" rid="CR17">17</xref>, ]. However, the sample sizes have generally been small, limiting the conclusions that can be drawn. By using a several-fold larger dataset, a second-generation TSPO radioligand and full arterial sampling, our observation of a positive effect of age on [<sup>11</sup>C]PBR28 binding in the frontal and temporal cortices is congruent with some of the previous studies, where positive correlations between age and TSPO binding were found in the thalamus [<xref ref-type="bibr" rid="CR11">11</xref>], whole cortical GM [<xref ref-type="bibr" rid="CR14">14</xref>] and in several cortical and subcortical areas [<xref ref-type="bibr" rid="CR12">12</xref>, <xref ref-type="bibr" rid="CR13">13</xref>]. Importantly, the present results were driven solely by the males, which could explain the conflicting results of no observed age effect found in other studies [<xref ref-type="bibr" rid="CR15">15</xref>–<xref ref-type="bibr" rid="CR17">17</xref>], where mixed samples of males and females were included.</p>
+              <p id="Par46">Previous preclinical studies have shown also sex-related differences in microglial function [, <xref ref-type="bibr" rid="CR33">33</xref>]. These findings are supported by our observation of females showing higher [<sup>11</sup>C]PBR28 V<sub>T</sub> compared to males. Also, the potential link between TSPO and steroidogenesis could partly explain the association between immune function and sex steroid hormones [<xref ref-type="bibr" rid="CR34">34</xref>]. Particularly, glial cells express receptors for estrogens and androgens, suggesting that there is an interplay between sex steroid hormones and the neuroinflammatory response [<xref ref-type="bibr" rid="CR35">35</xref>–<xref ref-type="bibr" rid="CR37">37</xref>]. As a consequence, an age-related change in both androgens and female sex hormones could explain the observed interaction of age and sex in [<sup>11</sup>C]PBR28 binding, where male TSPO levels increase with age, eventually reaching the higher TSPO level of females. Our finding of age-related sex difference in [<sup>11</sup>C]PBR28 V<sub>T</sub> may also provide a clue to the observed sex-specific differences of neuroinflammatory autoimmune diseases such as multiple sclerosis, which are more prevalent in younger females than in males [<xref ref-type="bibr" rid="CR38">38</xref>].</p>
+              <p id="Par47">While the immunostaining assays of a preclinical model of obesity have suggested that high-fat diet induced obesity increases neuroinflammation in the hypothalamus and hippocampus [<xref ref-type="bibr" rid="CR39">39</xref>–<xref ref-type="bibr" rid="CR42">42</xref>], in contrast we observed decreased [<sup>11</sup>C]PBR28 V<sub>T</sub> with higher BMI. A possible explanation for this could be that the peripheral TSPO expression is dysregulated in obese subjects, and that this effect is reflected also in the brain. Interestingly, a recent <italic>in vitro</italic> study on adipocytes, which are considered to be a major regulatory cell in obesity, suggested that TSPO expression is essential for the maintenance of the healthy adipocyte functions, and that TSPO activation in adipocytes improves their metabolic status in regulating glucose homeostasis [<xref ref-type="bibr" rid="CR43">43</xref>]. On the other hand, a dysregulation of TSPO expression has been reported previously in a preclinical study, where the total number of available TSPO binding sites (B<sub>max</sub>) was significantly decreased in brown adipose tissue cells of obese mice compared to the lean controls, whereas there was no difference in the affinity of the ligand (K<sub>d</sub>) [<xref ref-type="bibr" rid="CR44">44</xref>]. Although our results support an involvement of TSPO in obesity, we cannot determine if this effect is related to brain TSPO expression specifically or if this is reflective of systemic differences. For instance, TSPO levels in brain and peripheral blood cells were previously shown to correlate highly [<xref ref-type="bibr" rid="CR45">45</xref>]. To our knowledge, the relationship between TPSO binding in brain and peripheral tissue (including adipose tissue) has not been investigated, and future studies on this topic are warranted.</p>
+              <p id="Par48">Another explanation for the observed negative association between TSPO and BMI could be related to the increased level of endogenous ligands such as cholesterol and porphyrins [<xref ref-type="bibr" rid="CR46">46</xref>], for which TSPO has high affinity. Obese subjects often have higher levels of serum cholesterol [<xref ref-type="bibr" rid="CR47">47</xref>], which could induce competition between TSPO ligand and cholesterol between available TSPO binding sites. This hypothesis is supported by a previous study, where higher plasma cholesterol levels were shown to be associated with lower whole brain [<sup>11</sup>C]PBR28 V<sub>T</sub> in healthy control subjects and alcohol use disorder patients [<xref ref-type="bibr" rid="CR48">48</xref>]. Cholesterol medication such as statins are expected to affect serum cholesterol level. However, excluding these individuals (n = 11) from the analysis did not change our results. Taken together, further studies on the role of TSPO and neuroinflammation in obesity are warranted to address these questions.</p>
+              <p id="Par49">Our study includes some limitations. Although the subjects are imaged using the same PET scanner with similar scanning protocols, the data are acquired in different institutes with significantly different plasma parent fractions and age and BMI distributions between the study subjects. In addition, the scanner hardware and software differences, as well as differences in image analysis pipelines might increase the data variability and even influence the results on TSPO availability-associations. However, because of the nested structure of the data, we strived to control for the possible centre differences statistically by modelling a random intercept for each centre. Additionally, although all subjects were categorized as healthy controls, there are several confounding factors, which might contribute to the TSPO availability. Several older subjects were using statins to control cholesterol levels, which could theoretically affect TSPO availability, either by modulating the peripheral inflammation process or by interfering with TSPOs role in the cholesterol transport. Also, smokers have been reported to have decreased TSPO availability [<xref ref-type="bibr" rid="CR49">49</xref>], which could contribute also to our results, as the smoking status of several subjects at the time of PET acquisition was unknown. Importantly, the main analysis results remained the same after excluding the subjects who were using cholesterol lowering or hormonal replacement medication, or whose current smoking status was positive. Thus, it is less likely that these subjects have significant effects on our age, BMI and sex findings. Recently, a paralogous <italic>Tspo</italic> gene was identified [<xref ref-type="bibr" rid="CR50">50</xref>]. However, it is currently unknown if [<sup>11</sup>C]PBR28 or any other TPSO radioligand would be sensitive to both TSPO isoforms [<xref ref-type="bibr" rid="CR51">51</xref>] and if this isoform sensitivity affects in vivo TSPO PET measurements.</p>
+              <p id="Par50">In summary, we show a positive effect of ageing on TSPO, partly replicating a previous study using [<sup>11</sup>C]PBR28. In addition, we found that TSPO levels were associated with sex and BMI, which has not been demonstrated previously. In addition to identifying important confounding factors for clinical TSPO studies, the present study shows how a multicentre collaboration can mitigate the problem of small sample sizes in PET research, providing increased power to detect clinically relevant effects. Future efforts should aim at facilitating sharing of raw data, in terms of both technical and legal aspects, which would allow for increased harmonization of multi-centre analyses.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Electronic supplementary material</title>
+              <sec id="Sec8">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="259_2019_4403_MOESM1_ESM.docx">
+                      <label>ESM 1</label>
+                      <caption>
+                        <p>(DOCX 137 kb)</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term>AAL</term>
+                  <def>
+                    <p id="Par5">Automated anatomical labeling</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>B<sub>max</sub></term>
+                  <def>
+                    <p id="Par6">Total number of available binding sites</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>BMI</term>
+                  <def>
+                    <p id="Par7">Body mass index</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>GM</term>
+                  <def>
+                    <p id="Par8">Grey matter</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>HAB</term>
+                  <def>
+                    <p id="Par9">High-affinity binder</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>HRRT</term>
+                  <def>
+                    <p id="Par10">High resolution research tomograph</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>kg</term>
+                  <def>
+                    <p id="Par11">Kilogram</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>K<sub>d</sub></term>
+                  <def>
+                    <p id="Par12">Radioligand affinity</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>kDa</term>
+                  <def>
+                    <p id="Par13">KiloDalton</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>KI</term>
+                  <def>
+                    <p id="Par14">Karolinska Institutet</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>μg</term>
+                  <def>
+                    <p id="Par15">Microgram</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>MAB</term>
+                  <def>
+                    <p id="Par16">Mixed-affinity binder</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>MBq</term>
+                  <def>
+                    <p id="Par17">MegaBecquerel</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>MRI</term>
+                  <def>
+                    <p id="Par18">Magnetic resonance imaging</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>nmol</term>
+                  <def>
+                    <p id="Par19">Nanomole</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>PET</term>
+                  <def>
+                    <p id="Par20">Positron emission tomography</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>ROI</term>
+                  <def>
+                    <p id="Par21">Region of interest</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>sd</term>
+                  <def>
+                    <p id="Par22">Standard deviation</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>SPM</term>
+                  <def>
+                    <p id="Par23">Statistical parametric mapping</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>TPC</term>
+                  <def>
+                    <p id="Par24">Turku PET Centre</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>TSPO</term>
+                  <def>
+                    <p id="Par25">Translocator protein</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>V<sub>T</sub></term>
+                  <def>
+                    <p id="Par26">Total distribution volume</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <fn-group>
+              <fn>
+                <p>Members of the HRRT [<sup>11</sup>C]PBR28 study group are listed in the Acknowledgments before References.</p>
+              </fn>
+              <fn>
+                <p>David Matuskey and Simon Cervenka share last author contributions.</p>
+              </fn>
+              <fn>
+                <p>This article is part of the Topical Collection on Neurology</p>
+              </fn>
+              <fn>
+                <p>
+                  <bold>Publisher’s note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>We would like to thank all study participants and the staff at the Karolinska Institutet PET Centre, Turku PET Centre and Yale University PET Center for their assistance. We thank also Tomi Karjalainen for help in the analysis of Turku data.</p>
+              <p>Members of the HRRT [<sup>11</sup>C]PBR28 study group:</p>
+              <p>Jouni Tuisku<sup>1</sup>, Pontus Plavén-Sigray<sup>2</sup>, Edward C. Gaiser<sup>4,5</sup>, Laura Airas<sup>1,6</sup>, Haidar Al-Abdulrasul<sup>1</sup>, Anna Brück<sup>1,6</sup>, Richard E. Carson<sup>4</sup>, Ming-Kai Chen<sup>4</sup>, Karin Collste<sup>2</sup>, Kelly P. Cosgrove<sup>4,5</sup>, Laura Ekblad<sup>1</sup>, Irina Esterlis<sup>5</sup>, Lars Farde<sup>2,7</sup>, Anton Forsberg<sup>2</sup>, Jean-Dominique Gallezot<sup>4</sup>, Christer Halldin<sup>2</sup>, Semi Helin<sup>1</sup>, Ansel Hillmer<sup>4,5</sup>, Yiyun Huang<sup>4</sup>, Caroline O. Höglund<sup>2,9,10</sup>, Jarkko Johansson<sup>1</sup>, Aurelija Jucaite<sup>2,7</sup>, Eva Kosek<sup>8</sup>, Jon Lampa<sup>9</sup>, Mats Lekander<sup>3,8</sup>, Noora Lindgren<sup>1</sup>, Päivi Marjamäki<sup>1</sup>, Nabeel Nabulsi<sup>4</sup>, Brian Pittman<sup>5</sup>, Eero Rissanen<sup>1,6</sup>, Christine M. Sandiego<sup>4,5</sup>, Per Stenkrona<sup>2,</sup> Marcus Sucksdorff<sup>1,6</sup>, Andrea Varrone<sup>2,3</sup>, Juha Rinne<sup>1,6</sup>, David Matuskey<sup>4,5</sup>, Simon Cervenka<sup>2</sup>.</p>
+              <p>
+                <sup>
+                  <italic>1</italic>
+                </sup>
+                <italic>Turku PET Centre, University of Turku, Turku, Finland.</italic>
+              </p>
+              <p>
+                <sup>
+                  <italic>2</italic>
+                </sup>
+                <italic>Centre for Psychiatry Research, Department of Clinical Neuroscience, Karolinska Institutet and Stockholm County, Stockholm, Sweden.</italic>
+              </p>
+              <p>
+                <sup>
+                  <italic>3</italic>
+                </sup>
+                <italic>Stress Research Institute, Department of Psychology, Stockholm University.</italic>
+              </p>
+              <p>
+                <sup>
+                  <italic>4</italic>
+                </sup>
+                <italic>PET Center, Department of Radiology and Biomedical Imaging, Yale University, New Haven, CT 06520.</italic>
+              </p>
+              <p>
+                <sup>
+                  <italic>5</italic>
+                </sup>
+                <italic>Department of Psychiatry, Yale University, New Haven, CT 06511.</italic>
+              </p>
+              <p>
+                <sup>
+                  <italic>6</italic>
+                </sup>
+                <italic>Division of Clinical Neurosciences, Turku University Hospital, Turku, Finland.</italic>
+              </p>
+              <p>
+                <sup>
+                  <italic>7</italic>
+                </sup>
+                <italic>PET Science Centre, Precision Medicine and Genomics, IMED Biotech Unit, AstraZeneca, Karolinska Institutet, Sweden.</italic>
+              </p>
+              <p>
+                <sup>
+                  <italic>8</italic>
+                </sup>
+                <italic>Department of Clinical Neuroscience, Karolinska Institutet, Stockholm, Sweden.</italic>
+              </p>
+              <p>
+                <sup>
+                  <italic>9</italic>
+                </sup>
+                <italic>Department of Medicine and Center for Molecular Medicine, Karolinska Institutet, Karolinska University Hospital, Stockholm, Sweden.</italic>
+              </p>
+              <p>
+                <sup>
+                  <italic>10</italic>
+                </sup>
+                <italic>Department of Physiology and Pharmacology, Karolinska Institutet, Stockholm, Sweden.</italic>
+              </p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Authors’ contributions</title>
+              <p>DM, JR, SC supervised and designed the study; PSS designed the statistical model; JT and PPS performed the statistical analysis of all data; BP contributed to the statistical analysis of the data; AF and PPS performed the KI data processing at KI; JT performed the Turku data processing; EK and ML performed the subject recruitment for PET scanning at KI; LF, and AV participated in the generation and analysis of the [11C]PBR28 data at KI; LA, HAA, AB, LE, NL and MS performed the subject recruitment and PET scanning at Turku; REC, MKC, KPC, IE, JDG, AH, YH and CMS participated in generation and analysis of the [11C]PBR28 data at Yale; CH performed the radiochemistry at KI; SH performed the radiochemistry at Turku; NN supervised Yale PET radiochemistry; PM performed the metabolite analysis for Turku data; JT, DM, JR, PPS and SC drafted the manuscript; ECG, LA, LE, SH, ML, ER participated in manuscript writing; All authors interpreted the results, critically revised the article, and approved of the final version for publication.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>Open access funding provided by University of Turku (UTU) including Turku University Central Hospital. PET studies at KI were funded by grants from the Swedish Science Council. PET studies at Turku PET Centre were funded by grants from the Sigrid Juselius Foundation, the Pro Humanitate Foundation, the Finnish Cultural Foundation, the Academy of Finland (#310962), Governmental Clinical Grants (VTR) and The Finnish Parkinson Foundation. PET studies at Yale were funded by grants from the Nancy Taylor Foundation and SNMMI molecular imaging research grant for junior faculty. JT is supported by the Alfred Kordelin Foundation, the Instrumentarium Science Foundation, the Orion research Foundation, the Paulo Foundation, the Päivikki and Sakari Sohlberg Foundation and the Turku University Hospital Foundation. SC is supported by Swedish Research Council (Grant No. 523-2014-3467). MKC is supported by Eli Lilly and company grant. NL was supported by the Finnish Cultural Foundation, Yrjö Jahnsson Foundation, Turku University Foundation, and Finnish Brain Foundation. KC is supported by the U.S. Department of Veterans Affairs National Center for posttraumatic stress disorder. ML is supported by the Hedlund Foundation, Swedish Heart-Lung Foundation, Swedish Asthma and Allergy Association and the Swedish Research Council. HA is supported by the Finnish Parkinson Foundation. LA is supported by the Academy of Finland and the Sigrid Juselius Foundation.</p>
+            </notes>
+            <notes notes-type="ethics">
+              <title>Compliance with ethical standards</title>
+              <notes>
+                <title>Ethical approval</title>
+                <p id="Par51">All procedures performed in studies involving human participants were in accordance with the ethical standards of the institutional and/or national research committee and with the principles of the 1964 Declaration of Helsinki and its later amendments or comparable ethical standards.</p>
+              </notes>
+              <notes>
+                <title>Informed consent</title>
+                <p id="Par52">Informed consent was obtained from all individual participants included in the study.</p>
+              </notes>
+              <notes notes-type="COI-statement">
+                <title>Conflict of interest</title>
+                <p id="Par53">LF and AJ are employees of Astrazeneca. All other authors declare that they have no conflict of interest.</p>
+              </notes>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Notter</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Coughlin</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Sawa</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Reconceptualization of translocator protein as a biomarker of neuroinflammation in psychiatry</article-title>
+                  <source>Mol Psychiatry</source>
+                  <year>2018</year>
+                  <volume>23</volume>
+                  <fpage>36</fpage>
+                  <lpage>47</lpage>
+                  <pub-id pub-id-type="doi">10.1038/mp.2017.232</pub-id>
+                  <pub-id pub-id-type="pmid">29203847</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cosenza-Nashat</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>ML</given-names>
+                    </name>
+                    <name>
+                      <surname>Suh</surname>
+                      <given-names>HS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Expression of the translocator protein of 18 kDa by microglia, macrophages and astrocytes based on immunohistochemical localization in abnormal human brain</article-title>
+                  <source>Neuropathol Appl Neurobiol</source>
+                  <year>2009</year>
+                  <volume>35</volume>
+                  <fpage>306</fpage>
+                  <lpage>328</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1365-2990.2008.01006.x</pub-id>
+                  <pub-id pub-id-type="pmid">19077109</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Owen</surname>
+                      <given-names>DR</given-names>
+                    </name>
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Kalk</surname>
+                      <given-names>NJ</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Determination of [(11)C]PBR28 binding potential in vivo: a first human TSPO blocking study</article-title>
+                  <source>J Cereb Blood Flow Metab</source>
+                  <year>2014</year>
+                  <volume>34</volume>
+                  <fpage>989</fpage>
+                  <lpage>994</lpage>
+                  <pub-id pub-id-type="doi">10.1038/jcbfm.2014.46</pub-id>
+                  <pub-id pub-id-type="pmid">24643083</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kobayashi</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Telu</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title><sup>11</sup> C-DPA-713 has much greater specific binding to translocator protein 18 kDa (TSPO) in human brain than <sup>11</sup> C-( <italic>R</italic> )-PK11195</article-title>
+                  <source>J Cereb Blood Flow Metab</source>
+                  <year>2018</year>
+                  <volume>38</volume>
+                  <fpage>393</fpage>
+                  <lpage>403</lpage>
+                  <pub-id pub-id-type="doi">10.1177/0271678X17699223</pub-id>
+                  <pub-id pub-id-type="pmid">28322082</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Doble</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Malgouris</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Daniel</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Labelling of peripheral-type benzodiazepine binding sites in human brain with [3H]PK 11195: Anatomical and subcellular distribution</article-title>
+                  <source>Brain Res Bull</source>
+                  <year>1987</year>
+                  <volume>18</volume>
+                  <fpage>49</fpage>
+                  <lpage>61</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0361-9230(87)90033-5</pub-id>
+                  <pub-id pub-id-type="pmid">3030512</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cumming</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Burgher</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Patkar</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Sifting through the surfeit of neuroinflammation tracers</article-title>
+                  <source>J Cereb Blood Flow Metab</source>
+                  <year>2018</year>
+                  <volume>38</volume>
+                  <fpage>204</fpage>
+                  <lpage>224</lpage>
+                  <pub-id pub-id-type="doi">10.1177/0271678X17748786</pub-id>
+                  <pub-id pub-id-type="pmid">29256293</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <mixed-citation publication-type="other">Owen DR, Yeo AJ, Gunn RN, et al. An 18-kDa Translocator translocator protein (TSPO) polymorphism explains differences in binding affinity of the PET radioligand PBR28. J Cereb Blood Flow Metab. 2012;32:1–5.</mixed-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Collste</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Forsberg</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Varrone</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Test–retest reproducibility of [11C]PBR28 binding to TSPO in healthy control subjects</article-title>
+                  <source>Eur J Nucl Med Mol Imaging</source>
+                  <year>2016</year>
+                  <volume>43</volume>
+                  <fpage>173</fpage>
+                  <lpage>183</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00259-015-3149-8</pub-id>
+                  <pub-id pub-id-type="pmid">26293827</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Papadopoulos</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Baraldi</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Guilarte</surname>
+                      <given-names>TR</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Translocator protein (18kDa): new nomenclature for the peripheral-type benzodiazepine receptor based on its structure and molecular function</article-title>
+                  <source>Trends Pharmacol Sci</source>
+                  <year>2006</year>
+                  <volume>27</volume>
+                  <fpage>402</fpage>
+                  <lpage>409</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.tips.2006.06.005</pub-id>
+                  <pub-id pub-id-type="pmid">16822554</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Velarde</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mitochondrial and sex steroid hormone crosstalk during aging</article-title>
+                  <source>Longev Heal</source>
+                  <year>2014</year>
+                  <volume>3</volume>
+                  <fpage>2</fpage>
+                  <pub-id pub-id-type="doi">10.1186/2046-2395-3-2</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cagnin</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Brooks</surname>
+                      <given-names>DJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Kennedy</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>In-vivo measurement of activated microglia in dementia</article-title>
+                  <source>Lancet</source>
+                  <year>2001</year>
+                  <volume>358</volume>
+                  <fpage>461</fpage>
+                  <lpage>467</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(01)05625-2</pub-id>
+                  <pub-id pub-id-type="pmid">11513911</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schuitemaker</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>van der Doef</surname>
+                      <given-names>TF</given-names>
+                    </name>
+                    <name>
+                      <surname>Boellaard</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Microglial activation in healthy aging</article-title>
+                  <source>Neurobiol Aging</source>
+                  <year>2012</year>
+                  <volume>33</volume>
+                  <fpage>1067</fpage>
+                  <lpage>1072</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neurobiolaging.2010.09.016</pub-id>
+                  <pub-id pub-id-type="pmid">21051106</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <mixed-citation publication-type="other">Paul S, Gallagher E, Liow J-S, et al. Building a database for brain 18 kDa translocator protein imaged using [ <sup>11</sup> C]PBR28 in healthy subjects. J Cereb Blood Flow Metab. 2018:0271678X1877125.</mixed-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <mixed-citation publication-type="other">Rissanen E, Tuisku J, Vahlberg T, et al. Microglial activation, white matter tract damage, and disability in MS. Neurol Neuroimmunol Neuroinflamm. 2018;5:e443.</mixed-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Debruyne</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Versijpt</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Laere</surname>
+                      <given-names>KJ</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>PET visualization of microglia in multiple sclerosis patients using [11C]PK11195</article-title>
+                  <source>Eur J Neurol</source>
+                  <year>2003</year>
+                  <volume>10</volume>
+                  <fpage>257</fpage>
+                  <lpage>264</lpage>
+                  <pub-id pub-id-type="doi">10.1046/j.1468-1331.2003.00571.x</pub-id>
+                  <pub-id pub-id-type="pmid">12752399</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <mixed-citation publication-type="other">Suridjan I, Rusjan PM, Voineskos AN, et al. Neuroinflammation in healthy aging: A PET study using a novel translocator Protein 18kDa (TSPO) radioligand, [18F]-FEPPA. Neuroimage. 2014;84:868–75.</mixed-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yasuno</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Ota</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Kosaka</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Increased binding of peripheral benzodiazepine receptor in Alzheimer’s disease measured by positron emission tomography with [11C]DAA1106</article-title>
+                  <source>Biol Psychiatry</source>
+                  <year>2008</year>
+                  <volume>64</volume>
+                  <fpage>835</fpage>
+                  <lpage>841</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.biopsych.2008.04.021</pub-id>
+                  <pub-id pub-id-type="pmid">18514164</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Collste</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Plavén-Sigray</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Fatouros-Bergman</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Lower levels of the glial cell marker TSPO in drug-naive first-episode psychosis patients as measured using PET and [11C]PBR28</article-title>
+                  <source>Mol Psychiatry</source>
+                  <year>2017</year>
+                  <volume>22</volume>
+                  <fpage>850</fpage>
+                  <lpage>856</lpage>
+                  <pub-id pub-id-type="doi">10.1038/mp.2016.247</pub-id>
+                  <pub-id pub-id-type="pmid">28194003</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hannestad</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>DellaGioia</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Gallezot</surname>
+                      <given-names>J-D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The neuroinflammation marker translocator protein is not elevated in individuals with mild-to-moderate depression: a [<sup>11</sup>C]PBR28 PET study</article-title>
+                  <source>Brain Behav Immun</source>
+                  <year>2013</year>
+                  <volume>33</volume>
+                  <fpage>131</fpage>
+                  <lpage>138</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.bbi.2013.06.010</pub-id>
+                  <pub-id pub-id-type="pmid">23850810</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jucaite</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Svenningsson</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Rinne</surname>
+                      <given-names>JO</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Effect of the myeloperoxidase inhibitor AZD3241 on microglia: a PET study in Parkinson’s disease</article-title>
+                  <source>Brain</source>
+                  <year>2015</year>
+                  <volume>138</volume>
+                  <fpage>2687</fpage>
+                  <lpage>2700</lpage>
+                  <pub-id pub-id-type="doi">10.1093/brain/awv184</pub-id>
+                  <pub-id pub-id-type="pmid">26137956</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tzourio-Mazoyer</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Landeau</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Papathanassiou</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Automated anatomical labeling of activations in SPM using a macroscopic anatomical parcellation of the MNI MRI single-subject brain</article-title>
+                  <source>Neuroimage</source>
+                  <year>2002</year>
+                  <volume>15</volume>
+                  <fpage>273</fpage>
+                  <lpage>289</lpage>
+                  <pub-id pub-id-type="doi">10.1006/nimg.2001.0978</pub-id>
+                  <pub-id pub-id-type="pmid">11771995</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ichise</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Toyama</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Innis</surname>
+                      <given-names>RB</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Strategies to improve neuroreceptor parameter estimation by linear regression analysis</article-title>
+                  <source>J Cereb Blood Flow Metab</source>
+                  <year>2002</year>
+                  <volume>22</volume>
+                  <fpage>1271</fpage>
+                  <lpage>1281</lpage>
+                  <pub-id pub-id-type="doi">10.1097/01.WCB.0000038000.34930.4E</pub-id>
+                  <pub-id pub-id-type="pmid">12368666</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Matheson</surname>
+                      <given-names>GJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Plavén-Sigray</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Forsberg</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Assessment of simplified ratio-based approaches for quantification of PET [11C]PBR28 data</article-title>
+                  <source>EJNMMI Res</source>
+                  <year>2017</year>
+                  <volume>7</volume>
+                  <fpage>58</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s13550-017-0304-1</pub-id>
+                  <pub-id pub-id-type="pmid">28733954</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Damani</surname>
+                      <given-names>MR</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Fontainhas</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Age-related alterations in the dynamic behavior of microglia</article-title>
+                  <source>Aging Cell</source>
+                  <year>2011</year>
+                  <volume>10</volume>
+                  <fpage>263</fpage>
+                  <lpage>276</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1474-9726.2010.00660.x</pub-id>
+                  <pub-id pub-id-type="pmid">21108733</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>DiPatre</surname>
+                      <given-names>PL</given-names>
+                    </name>
+                    <name>
+                      <surname>Gelman</surname>
+                      <given-names>BB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Microglial cell activation in aging and Alzheimer disease: partial linkage with neurofibrillary tangle burden in the hippocampus</article-title>
+                  <source>J Neuropathol Exp Neurol</source>
+                  <year>1997</year>
+                  <volume>56</volume>
+                  <fpage>143</fpage>
+                  <lpage>149</lpage>
+                  <pub-id pub-id-type="doi">10.1097/00005072-199702000-00004</pub-id>
+                  <pub-id pub-id-type="pmid">9034367</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>KR</given-names>
+                    </name>
+                    <name>
+                      <surname>Streit</surname>
+                      <given-names>WJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effects of aging, injury and disease on microglial function: a case for cellular senescence</article-title>
+                  <source>Neuron Glia Biol</source>
+                  <year>2007</year>
+                  <volume>3</volume>
+                  <fpage>245</fpage>
+                  <lpage>253</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S1740925X08000136</pub-id>
+                  <pub-id pub-id-type="pmid">18634615</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sheng</surname>
+                      <given-names>JG</given-names>
+                    </name>
+                    <name>
+                      <surname>Mrak</surname>
+                      <given-names>RE</given-names>
+                    </name>
+                    <name>
+                      <surname>Griffin</surname>
+                      <given-names>WS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Enlarged and phagocytic, but not primed, interleukin-1 alpha-immunoreactive microglia increase with age in normal human brain</article-title>
+                  <source>Acta Neuropathol</source>
+                  <year>1998</year>
+                  <volume>95</volume>
+                  <fpage>229</fpage>
+                  <lpage>234</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s004010050792</pub-id>
+                  <pub-id pub-id-type="pmid">9542587</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Michell-Robinson</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Touil</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Healy</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Roles of microglia in brain development, tissue maintenance and repair</article-title>
+                  <source>Brain</source>
+                  <year>2015</year>
+                  <volume>138</volume>
+                  <fpage>1138</fpage>
+                  <lpage>1159</lpage>
+                  <pub-id pub-id-type="doi">10.1093/brain/awv066</pub-id>
+                  <pub-id pub-id-type="pmid">25823474</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Godbout</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Johnson</surname>
+                      <given-names>RW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Age and neuroinflammation: a lifetime of psychoneuroimmune consequences</article-title>
+                  <source>Neurol Clin</source>
+                  <year>2006</year>
+                  <volume>24</volume>
+                  <fpage>521</fpage>
+                  <lpage>538</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ncl.2006.03.010</pub-id>
+                  <pub-id pub-id-type="pmid">16877122</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Henry</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Wynne</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Peripheral lipopolysaccharide (LPS) challenge promotes microglial hyperactivity in aged mice that is associated with exaggerated induction of both pro-inflammatory IL-1β and anti- inflammatory IL-10 cytokines</article-title>
+                  <source>Brain Behav Immun</source>
+                  <year>2009</year>
+                  <volume>23</volume>
+                  <fpage>309</fpage>
+                  <lpage>317</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.bbi.2008.09.002</pub-id>
+                  <pub-id pub-id-type="pmid">18814846</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <mixed-citation publication-type="other">Njie G, Boelen E, Stassen FR, et al. Ex vivo cultures of microglia from young and aged rodent brain reveal age-related changes in microglial function. Neurobiol Aging. 2012;33(1):195.e1–12.10.1016/j.neurobiolaging.2010.05.008.</mixed-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sierra</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Gottfried-Blackmore</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <name>
+                      <surname>McEwen</surname>
+                      <given-names>BS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Microglia derived from aging mice exhibit an altered inflammatory profile</article-title>
+                  <source>Glia</source>
+                  <year>2007</year>
+                  <volume>55</volume>
+                  <fpage>412</fpage>
+                  <lpage>424</lpage>
+                  <pub-id pub-id-type="doi">10.1002/glia.20468</pub-id>
+                  <pub-id pub-id-type="pmid">17203473</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schwarz</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Sholar</surname>
+                      <given-names>PW</given-names>
+                    </name>
+                    <name>
+                      <surname>Bilbo</surname>
+                      <given-names>SD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sex differences in microglial colonization of the developing rat brain</article-title>
+                  <source>J Neurochem</source>
+                  <year>2012</year>
+                  <volume>120</volume>
+                  <fpage>948</fpage>
+                  <lpage>963</lpage>
+                  <pub-id pub-id-type="pmid">22182318</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Villa</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Gelosa</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Castiglioni</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Sex-specific features of microglia from adult mice</article-title>
+                  <source>Cell Rep</source>
+                  <year>2018</year>
+                  <volume>23</volume>
+                  <fpage>3501</fpage>
+                  <lpage>3511</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.celrep.2018.05.048</pub-id>
+                  <pub-id pub-id-type="pmid">29924994</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <mixed-citation publication-type="other">Nissen JC. Microglial function across the spectrum of age and gender. Int J Mol Sci. 2017;18(3).10.3390/ijms18030561.</mixed-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Puy</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>MacLusky</surname>
+                      <given-names>NJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Becker</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Immunocytochemical detection of androgen receptor in human temporal cortex characterization and application of polyclonal androgen receptor antibodies in frozen and paraffin-embedded tissues</article-title>
+                  <source>J Steroid Biochem Mol Biol</source>
+                  <year>1995</year>
+                  <volume>55</volume>
+                  <fpage>197</fpage>
+                  <lpage>209</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0960-0760(95)00165-V</pub-id>
+                  <pub-id pub-id-type="pmid">7495699</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Uchoa</surname>
+                      <given-names>MF</given-names>
+                    </name>
+                    <name>
+                      <surname>Moser</surname>
+                      <given-names>VA</given-names>
+                    </name>
+                    <name>
+                      <surname>Pike</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Interactions between inflammation, sex steroids, and Alzheimer’s disease risk factors</article-title>
+                  <source>Front Neuroendocrinol</source>
+                  <year>2016</year>
+                  <volume>43</volume>
+                  <fpage>60</fpage>
+                  <lpage>82</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.yfrne.2016.09.001</pub-id>
+                  <pub-id pub-id-type="pmid">27651175</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Barreto</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Veiga</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Azcoitia</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Testosterone decreases reactive astroglia and reactive microglia after brain injury in male rats: role of its metabolites, oestradiol and dihydrotestosterone</article-title>
+                  <source>Eur J Neurosci</source>
+                  <year>2007</year>
+                  <volume>25</volume>
+                  <fpage>3039</fpage>
+                  <lpage>3046</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1460-9568.2007.05563.x</pub-id>
+                  <pub-id pub-id-type="pmid">17561817</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Villa</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Vegeto</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Poletti</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Estrogens, neuroinflammation, and neurodegeneration</article-title>
+                  <source>Endocr Rev</source>
+                  <year>2016</year>
+                  <volume>37</volume>
+                  <fpage>372</fpage>
+                  <lpage>402</lpage>
+                  <pub-id pub-id-type="doi">10.1210/er.2016-1007</pub-id>
+                  <pub-id pub-id-type="pmid">27196727</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Erion</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                    <name>
+                      <surname>Wosiski-Kuhn</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Dey</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Obesity elicits interleukin 1-mediated deficits in hippocampal synaptic plasticity</article-title>
+                  <source>J Neurosci</source>
+                  <year>2014</year>
+                  <volume>34</volume>
+                  <fpage>2618</fpage>
+                  <lpage>2631</lpage>
+                  <pub-id pub-id-type="doi">10.1523/JNEUROSCI.4200-13.2014</pub-id>
+                  <pub-id pub-id-type="pmid">24523551</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Buckman</surname>
+                      <given-names>LB</given-names>
+                    </name>
+                    <name>
+                      <surname>Thompson</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                    <name>
+                      <surname>Lippert</surname>
+                      <given-names>RN</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Evidence for a novel functional role of astrocytes in the acute homeostatic response to high-fat diet intake in mice</article-title>
+                  <source>Mol Metab</source>
+                  <year>2015</year>
+                  <volume>4</volume>
+                  <fpage>58</fpage>
+                  <lpage>63</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.molmet.2014.10.001</pub-id>
+                  <pub-id pub-id-type="pmid">25685690</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sobesky</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                    <name>
+                      <surname>Barrientos</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>De May</surname>
+                      <given-names>HS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>High-fat diet consumption disrupts memory and primes elevations in hippocampal IL-1β, an effect that can be prevented with dietary reversal or IL-1 receptor antagonism</article-title>
+                  <source>Brain Behav Immun</source>
+                  <year>2014</year>
+                  <volume>42</volume>
+                  <fpage>22</fpage>
+                  <lpage>32</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.bbi.2014.06.017</pub-id>
+                  <pub-id pub-id-type="pmid">24998196</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hao</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Dey</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Dietary obesity reversibly induces synaptic stripping by microglia and impairs hippocampal plasticity</article-title>
+                  <source>Brain Behav Immun</source>
+                  <year>2016</year>
+                  <volume>51</volume>
+                  <fpage>230</fpage>
+                  <lpage>239</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.bbi.2015.08.023</pub-id>
+                  <pub-id pub-id-type="pmid">26336035</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Papadopoulos</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Translocator protein (18 kDa) as a pharmacological target in adipocytes to regulate glucose homeostasis</article-title>
+                  <source>Biochem Pharmacol</source>
+                  <year>2015</year>
+                  <volume>97</volume>
+                  <fpage>99</fpage>
+                  <lpage>110</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.bcp.2015.06.020</pub-id>
+                  <pub-id pub-id-type="pmid">26123521</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Thompson</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                    <name>
+                      <surname>Manning</surname>
+                      <given-names>HC</given-names>
+                    </name>
+                    <name>
+                      <surname>Ellacott</surname>
+                      <given-names>KLJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Translocator protein 18 kDa (TSPO) is regulated in white and brown adipose tissue by obesity</article-title>
+                  <source>PLoS One</source>
+                  <year>2013</year>
+                  <volume>8</volume>
+                  <fpage>e79980</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0079980</pub-id>
+                  <pub-id pub-id-type="pmid">24260329</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kanegawa</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Collste</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Forsberg</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>In vivo evidence of a functional association between immune cells in blood and brain in healthy human subjects</article-title>
+                  <source>Brain Behav Immun</source>
+                  <year>2016</year>
+                  <volume>54</volume>
+                  <fpage>149</fpage>
+                  <lpage>157</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.bbi.2016.01.019</pub-id>
+                  <pub-id pub-id-type="pmid">26820224</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Kalathur</surname>
+                      <given-names>RC</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Protein structure. Structure and activity of tryptophan-rich TSPO proteins</article-title>
+                  <source>Science</source>
+                  <year>2015</year>
+                  <volume>347</volume>
+                  <fpage>551</fpage>
+                  <lpage>555</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.aaa1534</pub-id>
+                  <pub-id pub-id-type="pmid">25635100</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Després</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Moorjani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Lupien</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Regional distribution of body fat, plasma lipoproteins, and cardiovascular disease</article-title>
+                  <source>Arteriosclerosis</source>
+                  <year>1990</year>
+                  <volume>10</volume>
+                  <fpage>497</fpage>
+                  <lpage>511</lpage>
+                  <pub-id pub-id-type="doi">10.1161/01.ATV.10.4.497</pub-id>
+                  <pub-id pub-id-type="pmid">2196040</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <mixed-citation publication-type="other">Kim SW, Wiers CE, Tyler R, et al. Influence of alcoholism and cholesterol on TSPO binding in brain: PET [11 C]PBR28 studies in humans and rodents. Neuropsychopharmacology. 2018;43(9):1832–1839.10.1038/s41386-018-0085-x.</mixed-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brody</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                    <name>
+                      <surname>Hubert</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Enoki</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Effect of cigarette smoking on a marker for neuroinflammation: a [11C]DAA1106 positron emission tomography study</article-title>
+                  <source>Neuropsychopharmacology</source>
+                  <year>2017</year>
+                  <volume>42</volume>
+                  <fpage>1630</fpage>
+                  <lpage>1639</lpage>
+                  <pub-id pub-id-type="doi">10.1038/npp.2017.48</pub-id>
+                  <pub-id pub-id-type="pmid">28262740</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fan</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Rone</surname>
+                      <given-names>MB</given-names>
+                    </name>
+                    <name>
+                      <surname>Papadopoulos</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Translocator protein 2 is involved in cholesterol redistribution during erythropoiesis</article-title>
+                  <source>J Biol Chem</source>
+                  <year>2009</year>
+                  <volume>284</volume>
+                  <fpage>30484</fpage>
+                  <lpage>30497</lpage>
+                  <pub-id pub-id-type="doi">10.1074/jbc.M109.029876</pub-id>
+                  <pub-id pub-id-type="pmid">19729679</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Iatmanen-Harbi</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>lucile</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Papadopoulos</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Characterization of the high-affinity drug ligand binding site of mouse recombinant TSPO</article-title>
+                  <source>Int J Mol Sci</source>
+                  <year>2019</year>
+                  <volume>20</volume>
+                  <fpage>1444</fpage>
+                  <pub-id pub-id-type="doi">10.3390/ijms20061444</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

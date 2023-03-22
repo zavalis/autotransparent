@@ -1,0 +1,2009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:09:19Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3221374" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:3221374</identifier>
+        <datestamp>2011-11-21</datestamp>
+        <setSpec>jmir</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">J Med Internet Res</journal-id>
+              <journal-id journal-id-type="publisher-id">JMIR</journal-id>
+              <journal-title-group>
+                <journal-title>Journal of Medical Internet Research</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1438-8871</issn>
+              <publisher>
+                <publisher-name>Gunther Eysenbach</publisher-name>
+                <publisher-loc>Centre for Global eHealth Innovation, Toronto, Canada</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC3221374</article-id>
+              <article-id pub-id-type="pmcid">PMC3221374</article-id>
+              <article-id pub-id-type="pmc-uid">3221374</article-id>
+              <article-id pub-id-type="pmid">21676694</article-id>
+              <article-id pub-id-type="publisher-id">v13i2e39</article-id>
+              <article-id pub-id-type="pmid">21676694</article-id>
+              <article-id pub-id-type="doi">10.2196/jmir.1776</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Paper</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>A 5-Year Follow-up of Internet-Based Cognitive Behavior Therapy for Social Anxiety Disorder</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Eysenbach</surname>
+                    <given-names>Gunther</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Rydh</surname>
+                    <given-names>Sara</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Fäldt</surname>
+                    <given-names>Jonas</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Khazaal</surname>
+                    <given-names>Yasser</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib id="contrib1" contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Hedman</surname>
+                    <given-names>Erik</given-names>
+                  </name>
+                  <degrees>MSc</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <address>
+                    <institution>Department of Clinical Neuroscience</institution>
+                    <institution>Karolinska Institutet</institution>
+                    <addr-line>Internet Psychiatry M46</addr-line>
+                    <addr-line>Karolinska University Hospital Huddinge</addr-line>
+                    <addr-line>Stockholm, 141 86</addr-line>
+                    <country>Sweden</country>
+                    <phone>46 8 585 857 91</phone>
+                    <fax>46 8 779 54 16</fax>
+                    <email>erik.hedman.2@ki.se</email>
+                  </address>
+                </contrib>
+                <contrib id="contrib2" contrib-type="author">
+                  <name>
+                    <surname>Furmark</surname>
+                    <given-names>Tomas</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                </contrib>
+                <contrib id="contrib3" contrib-type="author">
+                  <name>
+                    <surname>Carlbring</surname>
+                    <given-names>Per</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                </contrib>
+                <contrib id="contrib4" contrib-type="author">
+                  <name>
+                    <surname>Ljótsson</surname>
+                    <given-names>Brjánn</given-names>
+                  </name>
+                  <degrees>MSc</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                </contrib>
+                <contrib id="contrib5" contrib-type="author">
+                  <name>
+                    <surname>Rück</surname>
+                    <given-names>Christian</given-names>
+                  </name>
+                  <degrees>MD PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                </contrib>
+                <contrib id="contrib6" contrib-type="author">
+                  <name>
+                    <surname>Lindefors</surname>
+                    <given-names>Nils</given-names>
+                  </name>
+                  <degrees>MD PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                </contrib>
+                <contrib id="contrib7" contrib-type="author">
+                  <name>
+                    <surname>Andersson</surname>
+                    <given-names>Gerhard</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff4">4</xref>
+                  <xref ref-type="aff" rid="aff5">5</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff5" rid="aff5">
+                <sup>5</sup>
+                <institution>Department of Behavioural Sciences and Learning</institution>
+                <institution>Linköping University</institution>
+                <addr-line>Linköping</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <aff id="aff4" rid="aff4">
+                <sup>4</sup>
+                <institution>Swedish Institute for Disability Research</institution>
+                <institution>Linköping University</institution>
+                <addr-line>Linköping</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <aff id="aff3" rid="aff3">
+                <sup>3</sup>
+                <institution>Department of Psychology</institution>
+                <institution>Umeå University</institution>
+                <addr-line>Umeå</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <aff id="aff2" rid="aff2">
+                <sup>2</sup>
+                <institution>Department of Psychology</institution>
+                <institution>Uppsala University</institution>
+                <addr-line>Uppsala</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <aff id="aff1" rid="aff1">
+                <sup>1</sup>
+                <institution>Department of Clinical Neuroscience</institution>
+                <institution>Karolinska Institutet</institution>
+                <addr-line>Stockholm</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <pub-date pub-type="collection">
+                <season>Apr-Jun</season>
+                <year>2011</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>15</day>
+                <month>6</month>
+                <year>2011</year>
+              </pub-date>
+              <volume>13</volume>
+              <issue>2</issue>
+              <elocation-id>e39</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>18</day>
+                  <month>2</month>
+                  <year>2011</year>
+                </date>
+                <date date-type="rev-request">
+                  <day>09</day>
+                  <month>3</month>
+                  <year>2011</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>13</day>
+                  <month>3</month>
+                  <year>2011</year>
+                </date>
+                <date date-type="accepted">
+                  <day>14</day>
+                  <month>3</month>
+                  <year>2011</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>©Erik Hedman, Tomas Furmark, Per Carlbring, Brjánn Ljótsson, Christian Rück, Nils Lindefors, Gerhard Andersson. Originally published in the Journal of Medical Internet Research (http://www.jmir.org), 15.06.2011. </copyright-statement>
+                <copyright-year>2011</copyright-year>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0/">
+                  <license-p><!--CREATIVE COMMONS-->This is an open-access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0/">http://creativecommons.org/licenses/by/2.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in the Journal of Medical Internet Research, is properly cited. The complete bibliographic information, a link to the original publication on <ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/,">http://www.jmir.org/,</ext-link> as well as this copyright and license information must be included.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:type="simple" xlink:href="http://www.jmir.org/2011/2/e39/"/>
+              <abstract>
+                <sec sec-type="background">
+                  <title>Background</title>
+                  <p>Internet-based cognitive behavior therapy (CBT) has been shown to be a promising method to disseminate cognitive behavior therapy for social anxiety disorder (SAD). Several trials have demonstrated that Internet-based CBT can be effective for SAD in the shorter term. However, the long-term effects of Internet-based CBT for SAD are less well known.</p>
+                </sec>
+                <sec sec-type="objective">
+                  <title>Objective</title>
+                  <p>Our objective was to investigate the effect of Internet-based CBT for SAD 5 years after completed treatment.</p>
+                </sec>
+                <sec sec-type="method">
+                  <title>Method</title>
+                  <p>We conducted a 5-year follow-up study of 80 persons with SAD who had undergone Internet-based CBT. The assessment comprised a diagnostic interview and self-report questionnaires. The main outcome measure was the Liebowitz Social Anxiety Scale-Self-Report (LSAS-SR). Additional measures of social anxiety were the Social Interaction Anxiety Scale (SIAS) and the Social Phobia Scale (SPS). Attrition rates were low: 89% (71/80) of the participants completed the diagnostic interview and 80% (64/80) responded to the questionnaires.</p>
+                </sec>
+                <sec sec-type="results">
+                  <title>Results</title>
+                  <p>Mixed-effect models analysis showed a significant effect of time on the three social anxiety measures, LSAS-SR, SIAS, and SPS (<italic>F</italic>
+                        <sub>3,98</sub>
+                        <sub>-102</sub> = 16.05 - 29.20, <italic>P</italic> &lt; .001) indicating improvement. From baseline to 5-year follow-up, participants’ mean scores on the LSAS-SR were reduced from 71.3 (95% confidence interval [CI] 66.1-76.5) to 40.3 (95% CI 35.2 - 45.3). The effect sizes of the LSAS-SR were large (Cohen’s <italic>d</italic> range 1.30 - 1.40, 95% CI 0.77 - 1.90). Improvements gained at the 1-year follow-up were sustained 5 years after completed treatment.</p>
+                </sec>
+                <sec sec-type="conclusions">
+                  <title>Conclusions</title>
+                  <p>Internet-based CBT for SAD is a treatment that can result in large and enduring effects.</p>
+                </sec>
+                <sec>
+                  <title>Trial registration</title>
+                  <p> Clinicaltrials.gov NCT01145690; http://clinicaltrials.gov/ct2/show/NCT01145690 (Archived by WebCite at http://www.webcitation.org/5ygRxDLfK)</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>Internet</kwd>
+                <kwd>cognitive behavior therapy</kwd>
+                <kwd>anxiety disorders</kwd>
+                <kwd>social anxiety disorder</kwd>
+                <kwd>5-year follow-up</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec>
+              <title>Introduction</title>
+              <p>Social anxiety disorder (SAD) is common [<xref ref-type="bibr" rid="ref1">1</xref>], is associated with functional impairment [<xref ref-type="bibr" rid="ref2">2</xref>], and often becomes chronic if left untreated [<xref ref-type="bibr" rid="ref3">3</xref>]. In recent years, Internet-based cognitive behavior therapy (CBT) has demonstrated efficacy in several randomized controlled trials [<xref ref-type="bibr" rid="ref4">4</xref>-<xref ref-type="bibr" rid="ref9">9</xref>]. In general, effect sizes on measures of social anxiety in these studies have been at parity with those seen in trials investigating conventional CBT (Cohen’s <italic>d</italic> typically ranging from 1.0-1.5) [<xref ref-type="bibr" rid="ref10">10</xref>,<xref ref-type="bibr" rid="ref11">11</xref>]. In essence, Internet-based CBT could be described as Internet-administered self-help therapy with online therapist contact and support. The treatment components and theoretical basis are the same as in conventional CBT. While several studies have shown that conventional CBT produces long-term improvements up to 5 years after treatment [<xref ref-type="bibr" rid="ref12">12</xref>-<xref ref-type="bibr" rid="ref15">15</xref>], nearly all studies on Internet-based CBT have had a follow-up period of 1 year or shorter. The one exception is a study where participants receiving Internet-based CBT not only maintained their treatment gains but also were further improved at a 2.5-year follow-up [<xref ref-type="bibr" rid="ref16">16</xref>]. This is in line with the notion that reduced anxiety following CBT to a large extent is contingent on repeated exposure [<xref ref-type="bibr" rid="ref17">17</xref>].</p>
+              <p>The aim of the present study was to investigate the effects of Internet-based CBT for SAD 5 years after treatment, as no previous study has investigated if the effect of Internet-based CBT persists over this long period of time. We hypothesized that treatment gains would be sustained on measures of social anxiety, depressive symptoms, general anxiety, and quality of life.</p>
+            </sec>
+            <sec sec-type="methods">
+              <title>Methods</title>
+              <sec>
+                <title>Design</title>
+                <p>This was a follow-up study assessing 80 participants who had received Internet-based CBT for SAD within the context of a randomized controlled trial (RCT) conducted in 2005. In the original RCT, participants were randomized to treatment (n = 40) or waiting list control (n = 40) with equal probability. Participants were randomized using a true random number service (http://www.random.org). Participants were randomized after inclusion in the study, ensuring that allocation status was unknown to the assessors deciding on inclusion. Following treatment and postassessment, participants in the waiting list control group were crossed over to treatment. Thus, both groups had received Internet-based CBT at 1-year follow-up. As the two groups received treatment at different time points, results are reported separately for the two groups. CBT denotes the first group, and waiting list (WL)-CBT, the latter. A detailed description of the original study is available elsewhere [<xref ref-type="bibr" rid="ref6">6</xref>]. The trial was registered at clinicaltrials.gov (identifier NCT01145690).</p>
+              </sec>
+              <sec>
+                <title>Sample and Recruitment</title>
+                <p>All participants included in the original RCT were eligible to participate in this follow-up study. The main inclusion criteria were the following: participants had to have a primary diagnosis of SAD according to the Structural Clinical Interview for Diagnostic and Statistical Manual of Mental Disorders, 4<sup>th</sup> edition (DSM-IV) Axis-I Disorders [<xref ref-type="bibr" rid="ref18">18</xref>]; participants had to agree to undergo no other psychological treatment throughout the original study and keep dosage constant if on prescribed medication for anxiety or depression; and participants had to be at least 18 years old. Main exclusion criteria were not having a computer with Internet access and admitting to another serious disorder (eg, schizophrenia or substance dependence). On average, participants were 35.3 (SD 10.5) years old, and the sample comprised 70% women. Participants in the original RCT were enrolled from January 2005 through March 2005, and recruitment tool place in Uppsala, Sweden. The flow of participants throughout the study is presented in <xref ref-type="fig" rid="figure1">Figure 1</xref>. The follow-up study was approved by the regional ethics review board in Stockholm, Sweden, and informed consent was obtained from all participants.</p>
+                <fig id="figure1" position="float">
+                  <label>Figure 1</label>
+                  <caption>
+                    <p>Participant flow</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v13i2e39_fig1"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Outcome Measures</title>
+                <p>The primary outcome measure was the Liebowitz Social Anxiety Scale-Self-Report (LSAS-SR) [<xref ref-type="bibr" rid="ref19">19</xref>]. The LSAS-SR measures fear in and avoidance of 24 social situations (13 performance and 11 interaction situations) that are usually difficult for people suffering from SAD. Fear and avoidance in each situation is rated on a 4-point scale from 0 to 3. We also used the Social Interaction Anxiety Scale (SIAS) [<xref ref-type="bibr" rid="ref20">20</xref>], the Social Phobia Scale (SPS) [<xref ref-type="bibr" rid="ref20">20</xref>], and the Social Phobia Screening Questionnaire (SPSQ) [<xref ref-type="bibr" rid="ref1">1</xref>] as complementary measures of social anxiety. The SPS assesses anxiety in 20 performance situations, while the SIAS is constructed to measure anxiety in 20 social interaction situations. Each situation is rated on a 5-point scale ranging from 0 to 5. The SPSQ, designed to screen for SAD using DSMV-IV criteria, was used solely as a dichotomous indicator of SAD diagnosis.</p>
+                <p>In addition, the Montgomery-Åsberg Depression Rating Scale-Self-report (MADRS-S) [<xref ref-type="bibr" rid="ref21">21</xref>] and the Beck Anxiety Inventory (BAI) [<xref ref-type="bibr" rid="ref22">22</xref>] were used as secondary measures to assess depressive symptoms and general anxiety, respectively. MADRS-S comprises 9 items measuring different aspects of depressive symptoms, and each symptom is rated on a 7-point scale. The BAI assesses 21 anxiety symptoms on a 4-point scale from 0 to 3. The Quality of Life Inventory (QOLI) [<xref ref-type="bibr" rid="ref23">23</xref>] was also administered as a secondary generic outcome measure. The QOLI measures quality of life in16 different domains (eg, work and family). For each domain, the respondent is asked to rate importance on a 3-point scale (from 0 to 2) and the degree of satisfaction on a 6-point scale (from −3 to +3). By multiplying importance by satisfaction, each domain yields a value from −6 to +6.</p>
+                <p>All measures described above have demonstrated good psychometric properties.</p>
+              </sec>
+              <sec>
+                <title>Clinical Assessment Interview</title>
+                <p>The SCID-I [<xref ref-type="bibr" rid="ref18">18</xref>] was used to establish whether participants met diagnostic criteria for SAD at 5-year follow-up. Global improvement was measured by the Clinical Global Impression Improvement Scale (CGI-I) [<xref ref-type="bibr" rid="ref24">24</xref>]. In addition, information about current and earlier psychological and pharmacological treatments was obtained. Finally, participants were asked to rate to what extent they attributed their improvement/current state to Internet-based CBT.</p>
+              </sec>
+              <sec>
+                <title>Treatment</title>
+                <p>The Internet-based CBT used in this study has been found efficacious in several randomized controlled trials [<xref ref-type="bibr" rid="ref4">4</xref>,<xref ref-type="bibr" rid="ref5">5</xref>,<xref ref-type="bibr" rid="ref25">25</xref>]. The treatment followed a CBT model that stresses the importance of avoidance and safety behaviors as maintaining factors of SAD [<xref ref-type="bibr" rid="ref26">26</xref>]. The most central feature of the treatment was a self-help text comprising 9 text modules delivered via the Internet, each covering a specific theme (eg, exposure and cognitive restructuring) including homework exercises.</p>
+                <p>The introductory module described basic features of SAD and facts about CBT. The topics of modules 2 to 4 were primarily the social anxiety model as presented by Clark and Wells, as well as cognitive restructuring. Modules 5 to 7 introduce safety behavior experiments, exposure exercises, and attention training. Modules 8 and 9 had a main focus on social skills and relapse prevention. The general treatment procedure was that participants read the self-help text, carried out the home work assignments, and reported to their therapist through an online message system.</p>
+                <p>Throughout the trial, all participants had access to a therapist who supervised the progress and gave feedback on homework exercises. All therapists were clinical psychologists in training during the last semester of their 5-year educational programme. In addition, participants had access to an online discussion forum where they could communicate anonymously with each other. The duration of the treatment was 9 weeks.</p>
+              </sec>
+              <sec>
+                <title>Procedure</title>
+                <p>The clinical assessment interview was performed by a clinical psychologist with more than 5 years experience in working with structured diagnostic assessments. The interview was conducted by telephone, which has been shown to be a reliable way of assessing psychiatric symptoms [<xref ref-type="bibr" rid="ref27">27</xref>,<xref ref-type="bibr" rid="ref28">28</xref>]. The LSAS-SR, SIAS, SPS, SPSQ, MADRS-S, BAI, and QOLI were administered via the Internet, a valid administration format for these instruments [<xref ref-type="bibr" rid="ref29">29</xref>].</p>
+              </sec>
+              <sec>
+                <title>Statistical Analysis</title>
+                <p>Statistical analyses were conducted using PASW version 18.0 (SPSS inc, Chicago, IL). While data were analyzed on intent-to-treat basis, we did not apply last observation carried forward (LOCF) to handle missing data as that might have exaggerated the degree to which gains were sustained. Instead, we report the observed means and standard deviations as well as estimated means and standard deviations, as suggested by Gueorguieva and Krystal [<xref ref-type="bibr" rid="ref30">30</xref>]. Estimated parameters were obtained using a mixed-models approach employing a first order autoregressive covariance structure. The following formula was used for converting standard errors to standard deviations: SD = SE (√n). As all participants received Internet-based CBT, the main analyses entailed no between-group comparisons. However, as half of the sample served as controls in the first phase of the RCT, the two groups are reported separately. We conducted mixed-effect models analysis to assess improvement over time on continuous outcome variables. Nominal data were analyzed with McNemar’s test of change. Effect sizes (Cohen’s <italic>d</italic>) were calculated using the observed means and pooled SDs. </p>
+              </sec>
+            </sec>
+            <sec>
+              <title>Results</title>
+              <sec>
+                <title>Attrition</title>
+                <p>Of 80 participants, 71 (89%) underwent the clinical assessment interview and 64 (80%) completed the LSAS-SR, SIAS, SPS, MADRS-S, BAI, and QOLI. There were no statistically significant differences between participants who did not provide follow-up data and those who did regarding gender (c<sup>2</sup>
+                    <sub>1</sub> = 0.39, <italic>P</italic> = .39), age, and social anxiety at baseline or at 1-year follow-up (<italic>t</italic>
+                    <sub>1,</sub>
+                    <sub>67-78</sub> = 0.40 - 1.74, <italic>P</italic> = .68 - .09). The reasons for not completing the 5-year follow-up are unknown. </p>
+              </sec>
+              <sec>
+                <title>Social Anxiety Measures</title>
+                <p>The observed and estimated means and SDs as well as effect sizes of the continuous outcome measures are presented in <xref ref-type="table" rid="table1">Table 1</xref>. Mixed-effect models analysis showed a significant effect of time on the primary outcome measure LSAS-SR, as well as on the SIAS and SPS (<italic>F</italic>
+                    <sub>3,</sub>
+                    <sub>98-102</sub> = 16.05 - 29.20, <italic>P</italic> &lt; .001). Pairwise comparisons showed that participants in both groups were significantly improved from baseline to 1- and 5-year follow-up on all social anxiety measures (<italic>F</italic>
+                    <sub>1,</sub>
+                    <sub>33-38</sub> = 15.10 - 90.05, <italic>P</italic> &lt; .001). The CBT group was further improved at 1-year follow-up compared with postassessment, and the WL-CBT group were also improved during this period <italic>(F</italic>
+                    <sub>1,</sub>
+                    <sub>34-35</sub> = 7.43 - 40.42, <italic>P</italic> = .01 - .001). There were no significant changes on the LSAS and SPS between 1- and 5-year follow-up (<italic>F</italic>
+                    <sub>1,28,</sub>
+                    <sub>32</sub> = 0.22, 0.93, <italic>P</italic> = .64 - .13). In the WL-CBT group but not in the CBT group, participants were further improved on the SIAS at 5-year follow-up compared with 1-year follow-up (<italic>F</italic>
+                    <sub>1,29</sub> = 7.85 <italic>P</italic> = .01). <xref ref-type="fig" rid="figure2">Figure 2</xref> displays changes on the primary outcome measure LSAS-SR across assessment points. Note that as we used LOCF to handle missing data in the original article, there are minimal and nonsignificant discrepancies in the present report compared with the original regarding parameters at postassessment and 1-year follow-up.</p>
+                <table-wrap id="table1" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Observed and estimated means, SDs, and effect sizes (Cohen’s <italic>d</italic>) on continuous outcome measures</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" cellpadding="8" cellspacing="0" border="1" width="1000">
+                    <col width="10" span="1"/>
+                    <col width="100" span="1"/>
+                    <col width="77" span="1"/>
+                    <col width="96" span="1"/>
+                    <col width="96" span="1"/>
+                    <col width="96" span="1"/>
+                    <col width="142" span="1"/>
+                    <col width="160" span="1"/>
+                    <col width="160" span="1"/>
+                    <thead>
+                      <tr valign="top">
+                        <td colspan="2" rowspan="1">Measure and <break/> Group <break/> n = 40 <break/> (CBT and <break/> WL-CBT)</td>
+                        <td rowspan="1" colspan="1">Pre <break/> M (SD)</td>
+                        <td rowspan="1" colspan="1">Post <break/> M (SD)</td>
+                        <td rowspan="1" colspan="1">1-Year <break/> Follow-up <break/> M (SD)</td>
+                        <td rowspan="1" colspan="1">Observed <break/> 5-year <break/> Follow-up <break/> M (SD)</td>
+                        <td rowspan="1" colspan="1">Estimated <break/> 5-Year <break/>Follow-up <break/> M (SD)</td>
+                        <td rowspan="1" colspan="1">Effect Size Within <break/> Pre 1-Year <break/> Follow-up <break/> (95%CI)</td>
+                        <td rowspan="1" colspan="1">Effect Size Within <break/> Pre 5-Year <break/> Follow-up <break/> (95%CI)</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td colspan="9" rowspan="1">
+                          <bold>LSAS-SR</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">CBT </td>
+                        <td rowspan="1" colspan="1">71.3 (22.5)</td>
+                        <td rowspan="1" colspan="1">50.3 (21.0) </td>
+                        <td rowspan="1" colspan="1">37.7 (17.7)</td>
+                        <td rowspan="1" colspan="1">41.5 (23.7)</td>
+                        <td rowspan="1" colspan="1">41.6 (20.9)</td>
+                        <td rowspan="1" colspan="1">1.65 (1.11–2.15)</td>
+                        <td rowspan="1" colspan="1">1.30 (0.77–1.79)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">WL-CBT </td>
+                        <td rowspan="1" colspan="1">71.3 (24.9)</td>
+                        <td rowspan="1" colspan="1">70.4 (27.6)</td>
+                        <td rowspan="1" colspan="1">41.3 (29.0)</td>
+                        <td rowspan="1" colspan="1">36.3 (25.3)</td>
+                        <td rowspan="1" colspan="1">38.9 (24.9)</td>
+                        <td rowspan="1" colspan="1">1.12 (0.61-1.60)</td>
+                        <td rowspan="1" colspan="1">1.40 (0.86-1.90)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="9" rowspan="1">
+                          <bold>SIAS</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">CBT </td>
+                        <td rowspan="1" colspan="1">51.0 (14.2)</td>
+                        <td rowspan="1" colspan="1">38.5 (13.9)</td>
+                        <td rowspan="1" colspan="1">32.8 (14.9)</td>
+                        <td rowspan="1" colspan="1">36.3 (16.8)</td>
+                        <td rowspan="1" colspan="1">36.1 (14.7)</td>
+                        <td rowspan="1" colspan="1">1.25 (0.73-1.75)</td>
+                        <td rowspan="1" colspan="1">0.95 (0.45-1.43)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">WL-CBT</td>
+                        <td rowspan="1" colspan="1">46.5 (17.9)</td>
+                        <td rowspan="1" colspan="1">46.4 (18.7)</td>
+                        <td rowspan="1" colspan="1">31.7 (18.3)</td>
+                        <td rowspan="1" colspan="1">24.6 (14.7)</td>
+                        <td rowspan="1" colspan="1">25.9 (15.8)</td>
+                        <td rowspan="1" colspan="1">0.81 (0.34-1.27)</td>
+                        <td rowspan="1" colspan="1">1.32 (0.79-1.82)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="9" rowspan="1">
+                          <bold>SPS</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">CBT </td>
+                        <td rowspan="1" colspan="1">39.2 (15.3)</td>
+                        <td rowspan="1" colspan="1">25.2 (12.0)</td>
+                        <td rowspan="1" colspan="1">19.0 (12.0)</td>
+                        <td rowspan="1" colspan="1">22.6 (18.4)</td>
+                        <td rowspan="1" colspan="1">22.6 (14.7)</td>
+                        <td rowspan="1" colspan="1">1.46 (0.94-1.95)</td>
+                        <td rowspan="1" colspan="1">0.98 (0.48-1.47)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">WL-CBT </td>
+                        <td rowspan="1" colspan="1">36.4 (17.1)</td>
+                        <td rowspan="1" colspan="1">35.7 (16.4)</td>
+                        <td rowspan="1" colspan="1">20.0 (14.7)</td>
+                        <td rowspan="1" colspan="1">16.6 (16.4)</td>
+                        <td rowspan="1" colspan="1">17.5 (15.3)</td>
+                        <td rowspan="1" colspan="1">1.02 (0.53-1.49)</td>
+                        <td rowspan="1" colspan="1">1.18 (0.66-1.67)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="9" rowspan="1">
+                          <bold>MADRS-S</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">CBT </td>
+                        <td rowspan="1" colspan="1">14.9 (7.8)</td>
+                        <td rowspan="1" colspan="1">10.4 (6.3)</td>
+                        <td rowspan="1" colspan="1">9.7 (7.0)</td>
+                        <td rowspan="1" colspan="1">9.6 (7.8)</td>
+                        <td rowspan="1" colspan="1">10.5 (7.9)</td>
+                        <td rowspan="1" colspan="1">0.70 (0.23-1.16)</td>
+                        <td rowspan="1" colspan="1">0.68 (0.20-1.15)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">WL-CBT</td>
+                        <td rowspan="1" colspan="1">15.7 (9.3)</td>
+                        <td rowspan="1" colspan="1">16.3 (10.2)</td>
+                        <td rowspan="1" colspan="1">10.9 (8.5)</td>
+                        <td rowspan="1" colspan="1">7.7 (8.9)</td>
+                        <td rowspan="1" colspan="1">8.3 (9.0)</td>
+                        <td rowspan="1" colspan="1">0.54 (0.08-0.99)</td>
+                        <td rowspan="1" colspan="1">0.88 (0.39-1.36)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="9" rowspan="1">
+                          <bold>BAI</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">CBT</td>
+                        <td rowspan="1" colspan="1">16.1 (7.4)</td>
+                        <td rowspan="1" colspan="1">9.8 (5.8)</td>
+                        <td rowspan="1" colspan="1">10.4 (7.2)</td>
+                        <td rowspan="1" colspan="1">10.6 (10.4)</td>
+                        <td rowspan="1" colspan="1">10.5 (7.9)</td>
+                        <td rowspan="1" colspan="1">0.87 (0.39-1.33)</td>
+                        <td rowspan="1" colspan="1">0.63 (0.15-1.10)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">WL-CBT </td>
+                        <td rowspan="1" colspan="1">16.2 (9.6)</td>
+                        <td rowspan="1" colspan="1">15.3 (9.4)</td>
+                        <td rowspan="1" colspan="1">11.8 (9.2)</td>
+                        <td rowspan="1" colspan="1">8.3 (9.8)</td>
+                        <td rowspan="1" colspan="1">8.7 (9.0)</td>
+                        <td rowspan="1" colspan="1">0.68 (0.21-1.14)</td>
+                        <td rowspan="1" colspan="1">0.81 (9.32-1.28)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="9" rowspan="1">
+                          <bold>QOLI</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">CBT </td>
+                        <td rowspan="1" colspan="1">0.8 (1.9)</td>
+                        <td rowspan="1" colspan="1">1.3 (2.0)</td>
+                        <td rowspan="1" colspan="1">1.7 (1.5)</td>
+                        <td rowspan="1" colspan="1">1.9 (1.7)</td>
+                        <td rowspan="1" colspan="1">1.7 (1.7)</td>
+                        <td rowspan="1" colspan="1">0.55 (0.09-1.00)</td>
+                        <td rowspan="1" colspan="1">0.63 (0.15-1.10)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">WL-CBT </td>
+                        <td rowspan="1" colspan="1">0.6 (1.9)</td>
+                        <td rowspan="1" colspan="1">0.4 (1.6)</td>
+                        <td rowspan="1" colspan="1">1.4 (1.8)</td>
+                        <td rowspan="1" colspan="1">2.1 (1.8)</td>
+                        <td rowspan="1" colspan="1">1.9 (1.7)</td>
+                        <td rowspan="1" colspan="1">0.41 (−0.06 to 0.86)</td>
+                        <td rowspan="1" colspan="1">0.77 (0.28-1.25)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+                <fig id="figure2" position="float">
+                  <label>Figure 2</label>
+                  <caption>
+                    <p>Improvement course on the primary outcome measure LSAS-SR during the follow-up period</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v13i2e39_fig2"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Depressive Symptoms, General Anxiety, and Quality of Life</title>
+                <p>Effect sizes and observed and estimated parameters of secondary outcome measures are presented in <xref ref-type="table" rid="table1">Table 1</xref>. Mixed-effect models analysis showed a significant effect of time on the MADRS-S, BAI, and QOLI (<italic>F</italic>
+                    <sub>3,</sub>
+                    <sub>97-104</sub> = 4.64 - 9.78, <italic>P</italic> = .01 - .001). Pairwise comparisons showed that participants in both groups were significantly improved from baseline to 1- and 5-year follow-up on MADRS-S, BAI, and QOLI (<italic>F</italic>
+                    <sub>1,32-40</sub> = 4.7 - 30, <italic>P</italic> = .04 - .001). The WL-CBT was improved at 1-year follow-up compared with postassessment on these measures (<italic>F</italic>
+                    <sub>1,34,35</sub> = 12.12 - 13.83, <italic>P</italic> &lt; .001), whereas the CBT group was not (<italic>F</italic>
+                    <sub>1,35-37</sub> = 0.36 - 3.09, <italic>P</italic> = .55 - .09). There were no changes on these measures from 1- to 5-year follow-up (<italic>F</italic>
+                    <sub>1,28,33</sub> = 0.01 - 3.80, <italic>P</italic> = .94 - .06). </p>
+              </sec>
+              <sec>
+                <title>Clinical Assessment Interview</title>
+                <sec>
+                  <title>Global Improvement and Diagnostic Assessment</title>
+                  <p><xref ref-type="fig" rid="figure3">Figure 3</xref> displays CGI-I scores at 5-year follow-up for both groups. At this time, 60% of participants (24/40) in the CBT group and 67.5% (27/40) in the WL-CBT group were considered very much or much improved, that is, responders. At 5-year follow-up, 48% of participants (19/40) in both groups no longer met diagnostic criteria for SAD according to the clinician assessment (counting dropouts as nonresponders). McNemar’s test showed that this was a statistically significant change compared with baseline (<italic>P</italic> &lt; .001). According to the SPSQ, 40% (16/40) of the participants in the CBT group and 45% (18/40 in the WL-CBT group no longer met criteria for SAD (counting dropouts as nonresponders).</p>
+                  <fig id="figure3" position="float">
+                    <label>Figure 3</label>
+                    <caption>
+                      <p>Clinical Global Impression Improvement (CGI-I) scores at 5-year follow-up (dropouts are considered non-responders)</p>
+                    </caption>
+                    <graphic xlink:href="jmir_v13i2e39_fig3"/>
+                  </fig>
+                </sec>
+                <sec>
+                  <title>Participants’ Attribution of Improvement</title>
+                  <p>Participants were asked to rate to what extent they attributed their improvement to the Internet-based CBT on a Likert-scale from 0 to 100 (0 = any improvement is completely unrelated to Internet-based CBT, 50 = any improvement is equally due to Internet-based CBT and other causes, and 100 = any improvement is completely due to Internet-based CBT). In the CBT group, the average score was 60.3 (SD 26.9) and the corresponding WL-CBT score was 61.8 (SD 25.9).</p>
+                </sec>
+                <sec>
+                  <title>Other Psychological and Psychotropic Treatments Received Since Internet-based CBT</title>
+                  <p>At 5-year follow-up, 10% (4/40) participants in the CBT group had received some form of psychological treatment (all reasons included) after Internet-based CBT. This was 11% (4/37) if counting completers only, that is, those who provided data. The corresponding percent in the WL-CBT + WL group was 17.5% (7/40). This was 21% (7/34) if counting completers only. In the CBT group, 1 of the 40 participants (2.5%), or 1 of 37 (2.7%) if counting completers only, was taking psychotropic medication, that is, selective serotonin reuptake inhibitors (SSRIs) at the time of the 5-year follow-up assessment, although 4 of 40 participants (10%), or 4 of 37 (11%) if counting completers only, had started and discontinued psychotropic medication at some point during the follow-up period (all SSRIs). In the WL-CBT group, the corresponding numbers were 3 of 40 (7.5%), or 3 of 37 (8%) if counting completers only, and 5 of 40 (12.5%), or 5 of 34 (15%) if counting completers only, respectively (all had been taking SSRIs). The status of the 11% (9/80) dropouts regarding medication is unknown.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec>
+              <title>Discussion</title>
+              <sec>
+                <title>Main Findings</title>
+                <p>The aim of this study was to evaluate the 5-year effect of Internet-based CBT for SAD by assessing participants who had received Internet-based CBT within the context of an RCT. The results showed that improvements on measures of social anxiety at 1-year follow-up were sustained 5 years after treatment. Overall, effect sizes were large on measures of social anxiety. In addition, improvements regarding depressive symptoms, general anxiety, and quality of life were also sustained at 5-year follow-up. The results of this study indicate that participants receiving Internet-based CBT for SAD are moderately improved immediately following treatment but make further improvements within the following year. Improvements made at 1-year follow-up are, in turn, long-term enduring.</p>
+                <p>The effect sizes in this study are in line with those reported in studies investigating the long-term effects of conventional CBT for SAD [<xref ref-type="bibr" rid="ref13">13</xref>,<xref ref-type="bibr" rid="ref31">31</xref>]. They are also in line with results from a previous independent 2.5-year follow-up study of Internet-based CBT for SAD [<xref ref-type="bibr" rid="ref16">16</xref>]. The major strength of this study is that attrition rates were low making the generalizability of the findings high. The low attrition rates were also reflected in the small differences in the observed and estimated estimates. Furthermore, participants attributed their improvement to Internet-based CBT to a large extent, and few had commenced other forms of psychological or psychotropic treatments after completing Internet-based CBT. Taken together, this suggests that the reduction of social anxiety observed at 5-year follow-up was largely an effect of Internet-based CBT.</p>
+              </sec>
+              <sec>
+                <title>Clinical Implications</title>
+                <p>There are several clinical implications of our findings. First, if Internet-based CBT for SAD has sustained effects over longer time periods, it is highly likely that it is a cost-effective treatment. We did not collect economic data in this study; however, results of a study by Titov and coworkers have demonstrated that Internet-based CBT is likely more cost-effective than group CBT due to lower costs of treatment [<xref ref-type="bibr" rid="ref32">32</xref>]. Second, it may also be that Internet-based CBT confers benefits in another way compared with conventional therapies, since the material can be saved and used as reminders long after the treatment has ended. The effect sizes found in the present study, which are in parity with those found in trials investigating conventional CBT, suggest that Internet-based CBT has some qualities that compensate for the lack of face-to-face contact. Intriguingly, in the original trial [<xref ref-type="bibr" rid="ref6">6</xref>], a basic patient satisfaction rating showed that 94% of the participants were satisfied with the treatment and that 91% of the participants found the feedback from the therapists to be good or excellent. This suggests that it is possible to have a good therapeutic relationship online, which has also been reported in other studies on Internet-based CBT [<xref ref-type="bibr" rid="ref33">33</xref>].</p>
+                <p>Third, Internet-based CBT may in the future be used as a complement to conventional CBT and pharmacotherapy, as it probably can be combined with these two treatments. Internet-based CBT might enable more efficient use of health care resources, that is, as Internet-based CBT requires less therapist time, more resources can be made available for patients who need a more intensified treatment. This, in turn, could lead to a larger total proportion of treatment responders. Future research should more clearly link symptom improvement to the treatment provided and the extent to which strategies learned in treatment are used to prevent recurrence.</p>
+              </sec>
+              <sec>
+                <title>Limitations</title>
+                <p>The present study has several limitations, and we view the following as most important. First, common to most long-term follow-up trials, there was no randomization to a control condition with which treatment results could be compared at 5-year follow-up. However, considering the chronicity of SAD [<xref ref-type="bibr" rid="ref3">3</xref>], we find it unlikely that improvements are due to spontaneous recovery. Furthermore, it is improbable that nonspecific treatment effects such as attention from a therapist would generate improvements that are enduring over 5 years. Second, we did not use a behavioral test to assess social anxiety, which would have been a more objective measure than the ones used. For example, Heimberg and coworkers used a test where participants were exposed to personally tailored social situations while using heart rate monitoring equipment to assess bodily symptoms of anxiety [<xref ref-type="bibr" rid="ref34">34</xref>]. Nonetheless, we view the combination of clinician assessment and administration of questionnaires with good psychometric properties as a valid assessment method. Third, the intervals between the follow-ups were not regular, and it is not possible to infer symptom levels between the follow-ups (eg, 3 years posttreatment). As clinical assessment interviews were only conducted at pretreatment and 5-year follow-up, this uncertainty also applies to diagnostic status. However, as symptoms of SAD are not known to fluctuate spontaneously, we find it unlikely that levels of social anxiety in the present sample varied greatly between 1- and 5-year follow-up. Finally, although attrition rates were low, 11% of the participants did not attend the assessment interview. Of course, it might be that these individuals are less improved than those who participated in the 5-year follow-up assessment. However, even if those participants were nonresponders, it would have only a marginal effect on the effect size estimates. We also view the types of analyses performed, where models were created using all available data, yielded the best estimate, as last observation carried forward could have overestimated the long-term effect.</p>
+                <p>In spite of these limitations, we regard the results of the present study as important as they are the first to demonstrate that Internet-based CBT for SAD can yield large effects that are enduring over 5 years. </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>The funding organization (Stockholm County Council) is a public institution that had no role in the design and conduct of the study; in the collection, management, and analysis of the data; or in the preparation, review and approval of the manuscript.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="conflict">
+                <p>None declared</p>
+              </fn>
+              <fn fn-type="con">
+                <p>Author EH designed the study, performed the analyses, and drafted the paper. Authors TF, PC, BL, CR, NL, and GA designed the study, supervised the scientific work, and drafted the paper. EH had full access to all the data in the study and takes responsibility for the integrity of the data and the accuracy of the analysis.</p>
+              </fn>
+            </fn-group>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term id="abb2">BAI</term>
+                  <def>
+                    <p>Beck Anxiety Inventory</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb3">CBT</term>
+                  <def>
+                    <p>cognitive behavior therapy</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb4">CGI-I</term>
+                  <def>
+                    <p>Clinical Global Impression Improvement Scale</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb5">CI</term>
+                  <def>
+                    <p>confidence interval</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb6">DSMV-IV</term>
+                  <def>
+                    <p>Diagnostic and Statistical Manual of Mental Disorders, 4th edition</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb7">LOCF</term>
+                  <def>
+                    <p>last observation carried forward</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb8">LSAS-SR</term>
+                  <def>
+                    <p>Liebowitz Social Anxiety Scale-Self-Report</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb9">MADRS-S</term>
+                  <def>
+                    <p>Montgomery-Åsberg Depression Rating Scale-Self-Report </p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb10">QOLI</term>
+                  <def>
+                    <p>Quality of Life Inventory ()</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb11">RCT</term>
+                  <def>
+                    <p>randomized controlled trial</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb12">SAD</term>
+                  <def>
+                    <p>social anxiety disorder</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb13">SIAS</term>
+                  <def>
+                    <p>Social Interaction Anxiety Scale</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb14">SPS</term>
+                  <def>
+                    <p>Social Phobia Scale</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb15">SPSQ</term>
+                  <def>
+                    <p>Social Phobia Screening Questionnaire</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb16">SSRI</term>
+                  <def>
+                    <p>selective serotonin reuptake inhibitor</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <ref-list>
+              <ref id="ref1">
+                <label>1</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Furmark</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Tillfors</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Everz</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Marteinsdottir</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Gefvert</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Fredrikson</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Social phobia in the general population: prevalence and sociodemographic profile</article-title>
+                  <source>Soc Psychiatry Psychiatr Epidemiol</source>
+                  <year>1999</year>
+                  <month>8</month>
+                  <volume>34</volume>
+                  <issue>8</issue>
+                  <fpage>416</fpage>
+                  <lpage>24</lpage>
+                  <pub-id pub-id-type="medline">10501711</pub-id>
+                  <pub-id pub-id-type="pii">90340416.127</pub-id>
+                  <pub-id pub-id-type="pmid">10501711</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref2">
+                <label>2</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schneier</surname>
+                      <given-names>FR</given-names>
+                    </name>
+                    <name>
+                      <surname>Heckelman</surname>
+                      <given-names>LR</given-names>
+                    </name>
+                    <name>
+                      <surname>Garfinkel</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Campeas</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Fallon</surname>
+                      <given-names>BA</given-names>
+                    </name>
+                    <name>
+                      <surname>Gitow</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Street</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Del Bene</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Liebowitz</surname>
+                      <given-names>MR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Functional impairment in social phobia</article-title>
+                  <source>J Clin Psychiatry</source>
+                  <year>1994</year>
+                  <month>8</month>
+                  <volume>55</volume>
+                  <issue>8</issue>
+                  <fpage>322</fpage>
+                  <lpage>31</lpage>
+                  <pub-id pub-id-type="medline">8071299</pub-id>
+                  <pub-id pub-id-type="pmid">8071299</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref3">
+                <label>3</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Reich</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Goldenberg</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Vasile</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Goisman</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Keller</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A prospective follow-along study of the course of social phobia</article-title>
+                  <source>Psychiatry Res</source>
+                  <year>1994</year>
+                  <month>12</month>
+                  <volume>54</volume>
+                  <issue>3</issue>
+                  <fpage>249</fpage>
+                  <lpage>58</lpage>
+                  <pub-id pub-id-type="medline">7792329</pub-id>
+                  <pub-id pub-id-type="pmid">7792329</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref4">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Carlbring</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Holmström</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Sparthan</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Furmark</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Nilsson-Ihrfelt</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Buhrman</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Ekselius</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Internet-based self-help with therapist feedback and in vivo group exposure for social phobia: a randomized controlled trial</article-title>
+                  <source>J Consult Clin Psychol</source>
+                  <year>2006</year>
+                  <month>8</month>
+                  <volume>74</volume>
+                  <issue>4</issue>
+                  <fpage>677</fpage>
+                  <lpage>86</lpage>
+                  <pub-id pub-id-type="doi">10.1037/0022-006X.74.4.677</pub-id>
+                  <pub-id pub-id-type="medline">16881775</pub-id>
+                  <pub-id pub-id-type="pii">2006-09621-005</pub-id>
+                  <pub-id pub-id-type="pmid">16881775</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Carlbring</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Gunnarsdóttir</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Hedensjö</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Ekselius</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Furmark</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Treatment of social phobia: randomised trial of internet-delivered cognitive-behavioural therapy with telephone support</article-title>
+                  <source>Br J Psychiatry</source>
+                  <year>2007</year>
+                  <month>2</month>
+                  <volume>190</volume>
+                  <fpage>123</fpage>
+                  <lpage>8</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://bjp.rcpsych.org/cgi/pmidlookup?view=long&amp;pmid=17267928"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1192/bjp.bp.105.020107</pub-id>
+                  <pub-id pub-id-type="medline">17267928</pub-id>
+                  <pub-id pub-id-type="pii">190/2/123</pub-id>
+                  <pub-id pub-id-type="pmid">17267928</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Furmark</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Carlbring</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Hedman</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Sonnenstein</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Clevberger</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Bohman</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Eriksson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Hållén</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Frykman</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Holmström</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Sparthan</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Tillfors</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Ihrfelt</surname>
+                      <given-names>EN</given-names>
+                    </name>
+                    <name>
+                      <surname>Spak</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Eriksson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Ekselius</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Guided and unguided self-help for social anxiety disorder: randomised controlled trial</article-title>
+                  <source>Br J Psychiatry</source>
+                  <year>2009</year>
+                  <month>11</month>
+                  <volume>195</volume>
+                  <issue>5</issue>
+                  <fpage>440</fpage>
+                  <lpage>7</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://bjp.rcpsych.org/cgi/pmidlookup?view=long&amp;pmid=19880935"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1192/bjp.bp.108.060996</pub-id>
+                  <pub-id pub-id-type="medline">19880935</pub-id>
+                  <pub-id pub-id-type="pii">195/5/440</pub-id>
+                  <pub-id pub-id-type="pmid">19880935</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Titov</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Andrews</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Schwencke</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Drobny</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Einstein</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Shyness 1: distance treatment of social phobia over the Internet</article-title>
+                  <source>Aust N Z J Psychiatry</source>
+                  <year>2008</year>
+                  <month>7</month>
+                  <volume>42</volume>
+                  <issue>7</issue>
+                  <fpage>585</fpage>
+                  <lpage>94</lpage>
+                  <pub-id pub-id-type="doi">10.1080/00048670802119762</pub-id>
+                  <pub-id pub-id-type="medline">18612862</pub-id>
+                  <pub-id pub-id-type="pii">794820327</pub-id>
+                  <pub-id pub-id-type="pmid">18612862</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Berger</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Hohl</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Caspar</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Internet-based treatment for social phobia: a randomized controlled trial</article-title>
+                  <source>J Clin Psychol</source>
+                  <year>2009</year>
+                  <month>10</month>
+                  <volume>65</volume>
+                  <issue>10</issue>
+                  <fpage>1021</fpage>
+                  <lpage>35</lpage>
+                  <pub-id pub-id-type="doi">10.1002/jclp.20603</pub-id>
+                  <pub-id pub-id-type="medline">19437505</pub-id>
+                  <pub-id pub-id-type="pmid">19437505</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Titov</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Andrews</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Choi</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Schwencke</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Mahoney</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Shyness 3: randomized controlled trial of guided versus unguided Internet-based CBT for social phobia</article-title>
+                  <source>Aust N Z J Psychiatry</source>
+                  <year>2008</year>
+                  <month>12</month>
+                  <volume>42</volume>
+                  <issue>12</issue>
+                  <fpage>1030</fpage>
+                  <lpage>40</lpage>
+                  <pub-id pub-id-type="doi">10.1080/00048670802512107</pub-id>
+                  <pub-id pub-id-type="medline">19016091</pub-id>
+                  <pub-id pub-id-type="pii">905606265</pub-id>
+                  <pub-id pub-id-type="pmid">19016091</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Heimberg</surname>
+                      <given-names>RG</given-names>
+                    </name>
+                    <name>
+                      <surname>Liebowitz</surname>
+                      <given-names>MR</given-names>
+                    </name>
+                    <name>
+                      <surname>Hope</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Schneier</surname>
+                      <given-names>FR</given-names>
+                    </name>
+                    <name>
+                      <surname>Holt</surname>
+                      <given-names>CS</given-names>
+                    </name>
+                    <name>
+                      <surname>Welkowitz</surname>
+                      <given-names>LA</given-names>
+                    </name>
+                    <name>
+                      <surname>Juster</surname>
+                      <given-names>HR</given-names>
+                    </name>
+                    <name>
+                      <surname>Campeas</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Bruch</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Cloitre</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Fallon</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Klein</surname>
+                      <given-names>DF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cognitive behavioral group therapy vs phenelzine therapy for social phobia: 12-week outcome</article-title>
+                  <source>Arch Gen Psychiatry</source>
+                  <year>1998</year>
+                  <month>12</month>
+                  <volume>55</volume>
+                  <issue>12</issue>
+                  <fpage>1133</fpage>
+                  <lpage>41</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://archpsyc.ama-assn.org/cgi/pmidlookup?view=long&amp;pmid=9862558"/>
+                  </comment>
+                  <pub-id pub-id-type="medline">9862558</pub-id>
+                  <pub-id pub-id-type="pmid">9862558</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Clark</surname>
+                      <given-names>DM</given-names>
+                    </name>
+                    <name>
+                      <surname>Ehlers</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>McManus</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Hackmann</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Fennell</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Campbell</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Flower</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Davenport</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Louis</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cognitive therapy versus fluoxetine in generalized social phobia: a randomized placebo-controlled trial</article-title>
+                  <source>J Consult Clin Psychol</source>
+                  <year>2003</year>
+                  <month>12</month>
+                  <volume>71</volume>
+                  <issue>6</issue>
+                  <fpage>1058</fpage>
+                  <lpage>67</lpage>
+                  <pub-id pub-id-type="doi">10.1037/0022-006X.71.6.1058</pub-id>
+                  <pub-id pub-id-type="medline">14622081</pub-id>
+                  <pub-id pub-id-type="pii">2003-09784-011</pub-id>
+                  <pub-id pub-id-type="pmid">14622081</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Barrett</surname>
+                      <given-names>PM</given-names>
+                    </name>
+                    <name>
+                      <surname>Duffy</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                    <name>
+                      <surname>Dadds</surname>
+                      <given-names>MR</given-names>
+                    </name>
+                    <name>
+                      <surname>Rapee</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cognitive-behavioral treatment of anxiety disorders in children: long-term (6-year) follow-up</article-title>
+                  <source>J Consult Clin Psychol</source>
+                  <year>2001</year>
+                  <month>2</month>
+                  <volume>69</volume>
+                  <issue>1</issue>
+                  <fpage>135</fpage>
+                  <lpage>41</lpage>
+                  <pub-id pub-id-type="medline">11302272</pub-id>
+                  <pub-id pub-id-type="pmid">11302272</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref13">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Heimberg</surname>
+                      <given-names>RG</given-names>
+                    </name>
+                    <name>
+                      <surname>Salzman</surname>
+                      <given-names>DG</given-names>
+                    </name>
+                    <name>
+                      <surname>Holt</surname>
+                      <given-names>CS</given-names>
+                    </name>
+                    <name>
+                      <surname>Blendell</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cognitive-behavioral group treatment for social phobia: Effectiveness at five-year followup</article-title>
+                  <source>Cognitive Ther Res</source>
+                  <year>1993</year>
+                  <volume>17</volume>
+                  <fpage>325</fpage>
+                  <lpage>39</lpage>
+                </element-citation>
+              </ref>
+              <ref id="ref14">
+                <label>14</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Saavedra</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>Silverman</surname>
+                      <given-names>WK</given-names>
+                    </name>
+                    <name>
+                      <surname>Morgan-Lopez</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Kurtines</surname>
+                      <given-names>WM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cognitive behavioral treatment for childhood anxiety disorders: long-term effects on anxiety and secondary disorders in young adulthood</article-title>
+                  <source>J Child Psychol Psychiatry</source>
+                  <year>2010</year>
+                  <month>8</month>
+                  <volume>51</volume>
+                  <issue>8</issue>
+                  <fpage>924</fpage>
+                  <lpage>34</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1469-7610.2010.02242.x</pub-id>
+                  <pub-id pub-id-type="medline">20345838</pub-id>
+                  <pub-id pub-id-type="pii">JCPP2242</pub-id>
+                  <pub-id pub-id-type="pmid">20345838</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref15">
+                <label>15</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fava</surname>
+                      <given-names>GA</given-names>
+                    </name>
+                    <name>
+                      <surname>Rafanelli</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Grandi</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Canestrari</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Morphy</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Six-year outcome for cognitive behavioral treatment of residual symptoms in major depression</article-title>
+                  <source>Am J Psychiatry</source>
+                  <year>1998</year>
+                  <month>10</month>
+                  <volume>155</volume>
+                  <issue>10</issue>
+                  <fpage>1443</fpage>
+                  <lpage>5</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://ajp.psychiatryonline.org/cgi/pmidlookup?view=long&amp;pmid=9766780"/>
+                  </comment>
+                  <pub-id pub-id-type="medline">9766780</pub-id>
+                  <pub-id pub-id-type="pmid">9766780</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref16">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Carlbring</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Nordgren</surname>
+                      <given-names>LB</given-names>
+                    </name>
+                    <name>
+                      <surname>Furmark</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Long-term outcome of Internet-delivered cognitive-behavioural therapy for social phobia: a 30-month follow-up</article-title>
+                  <source>Behav Res Ther</source>
+                  <year>2009</year>
+                  <month>10</month>
+                  <volume>47</volume>
+                  <issue>10</issue>
+                  <fpage>848</fpage>
+                  <lpage>50</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.brat.2009.06.012</pub-id>
+                  <pub-id pub-id-type="medline">19631312</pub-id>
+                  <pub-id pub-id-type="pii">S0005-7967(09)00147-8</pub-id>
+                  <pub-id pub-id-type="pmid">19631312</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref17">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Michelson</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Mavissakalian</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Marchione</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Dancu</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Greenwald</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The role of self-directed in vivo exposure in cognitive, behavioral, and psychophysiological treatments of agoraphobia</article-title>
+                  <source>Behav Ther</source>
+                  <year>1986</year>
+                  <volume>17</volume>
+                  <fpage>91</fpage>
+                  <lpage>108</lpage>
+                </element-citation>
+              </ref>
+              <ref id="ref18">
+                <label>18</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>First</surname>
+                      <given-names>MB</given-names>
+                    </name>
+                    <name>
+                      <surname>Spitzer</surname>
+                      <given-names>RL</given-names>
+                    </name>
+                    <name>
+                      <surname>Gibbon</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>JBW</given-names>
+                    </name>
+                  </person-group>
+                  <source>Structured Clinical Interview for DSM-IV-TR Axis I Disorders, Research Version, Patient Edition</source>
+                  <year>2002</year>
+                  <publisher-loc>New York, NY</publisher-loc>
+                  <publisher-name>Biometrics Research, New York State Psychiatric Institute</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref19">
+                <label>19</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fresco</surname>
+                      <given-names>DM</given-names>
+                    </name>
+                    <name>
+                      <surname>Coles</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Heimberg</surname>
+                      <given-names>RG</given-names>
+                    </name>
+                    <name>
+                      <surname>Liebowitz</surname>
+                      <given-names>MR</given-names>
+                    </name>
+                    <name>
+                      <surname>Hami</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Stein</surname>
+                      <given-names>MB</given-names>
+                    </name>
+                    <name>
+                      <surname>Goetz</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Liebowitz Social Anxiety Scale: a comparison of the psychometric properties of self-report and clinician-administered formats</article-title>
+                  <source>Psychol Med</source>
+                  <year>2001</year>
+                  <month>8</month>
+                  <volume>31</volume>
+                  <issue>6</issue>
+                  <fpage>1025</fpage>
+                  <lpage>35</lpage>
+                  <pub-id pub-id-type="medline">11513370</pub-id>
+                  <pub-id pub-id-type="pmid">11513370</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref20">
+                <label>20</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mattick</surname>
+                      <given-names>RP</given-names>
+                    </name>
+                    <name>
+                      <surname>Clarke</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Development and validation of measures of social phobia scrutiny fear and social interaction anxiety</article-title>
+                  <source>Behav Res Ther</source>
+                  <year>1998</year>
+                  <month>4</month>
+                  <volume>36</volume>
+                  <issue>4</issue>
+                  <fpage>455</fpage>
+                  <lpage>70</lpage>
+                  <pub-id pub-id-type="medline">9670605</pub-id>
+                  <pub-id pub-id-type="pii">S0005-7967(97)10031-6</pub-id>
+                  <pub-id pub-id-type="pmid">9670605</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref21">
+                <label>21</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Svanborg</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Asberg</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A new self-rating scale for depression and anxiety states based on the Comprehensive Psychopathological Rating Scale</article-title>
+                  <source>Acta Psychiatr Scand</source>
+                  <year>1994</year>
+                  <month>1</month>
+                  <volume>89</volume>
+                  <issue>1</issue>
+                  <fpage>21</fpage>
+                  <lpage>8</lpage>
+                  <pub-id pub-id-type="medline">8140903</pub-id>
+                  <pub-id pub-id-type="pmid">8140903</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref22">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beck</surname>
+                      <given-names>AT</given-names>
+                    </name>
+                    <name>
+                      <surname>Epstein</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Steer</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An inventory for measuring clinical anxiety: psychometric properties</article-title>
+                  <source>J Consult Clin Psychol</source>
+                  <year>1988</year>
+                  <month>12</month>
+                  <volume>56</volume>
+                  <issue>6</issue>
+                  <fpage>893</fpage>
+                  <lpage>7</lpage>
+                  <pub-id pub-id-type="medline">3204199</pub-id>
+                  <pub-id pub-id-type="pmid">3204199</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref23">
+                <label>23</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Frisch</surname>
+                      <given-names>MB</given-names>
+                    </name>
+                    <name>
+                      <surname>Cornell</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Villanueva</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Retzlaff</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Clinical validation of the quality of life inventory. A measure of life satisfaction for use in treatment planning and outcome assessment</article-title>
+                  <source>Psychological Assessment</source>
+                  <year>1992</year>
+                  <volume>4</volume>
+                  <issue>1</issue>
+                  <fpage>92</fpage>
+                  <lpage>101</lpage>
+                </element-citation>
+              </ref>
+              <ref id="ref24">
+                <label>24</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Guy</surname>
+                      <given-names>W</given-names>
+                    </name>
+                  </person-group>
+                  <source>Clinical Global Impressions</source>
+                  <year>1976</year>
+                  <publisher-loc>Rockville, MD</publisher-loc>
+                  <publisher-name>US Department of Health and Human services</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref25">
+                <label>25</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tillfors</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Carlbring</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Furmark</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Lewenhaupt</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Spak</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Eriksson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Westling</surname>
+                      <given-names>BE</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Treating university students with social phobia and public speaking fears: Internet delivered self-help with or without live group exposure sessions</article-title>
+                  <source>Depress Anxiety</source>
+                  <year>2008</year>
+                  <volume>25</volume>
+                  <issue>8</issue>
+                  <fpage>708</fpage>
+                  <lpage>17</lpage>
+                  <pub-id pub-id-type="doi">10.1002/da.20416</pub-id>
+                  <pub-id pub-id-type="medline">18729147</pub-id>
+                  <pub-id pub-id-type="pmid">18729147</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref26">
+                <label>26</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Clark</surname>
+                      <given-names>DM</given-names>
+                    </name>
+                    <name>
+                      <surname>Wells</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Heimberg</surname>
+                      <given-names>RG</given-names>
+                    </name>
+                    <name>
+                      <surname>Leibowitz</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Hope</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Schneider</surname>
+                      <given-names>FR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A cognitive model of social phobia</article-title>
+                  <source>Social Phobia: Diagnosis, Assessment and Treatment</source>
+                  <year>1995</year>
+                  <publisher-loc>New York, NY</publisher-loc>
+                  <publisher-name>Guilford Press</publisher-name>
+                  <fpage>63</fpage>
+                  <lpage>93</lpage>
+                </element-citation>
+              </ref>
+              <ref id="ref27">
+                <label>27</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Crippa</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>de Lima Osório</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Del-Ben</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Filho</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <name>
+                      <surname>da Silva Freitas</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                    <name>
+                      <surname>Loureiro</surname>
+                      <given-names>SR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparability between telephone and face-to-face structured clinical interview for DSM-IV in assessing social anxiety disorder</article-title>
+                  <source>Perspect Psychiatr Care</source>
+                  <year>2008</year>
+                  <month>10</month>
+                  <volume>44</volume>
+                  <issue>4</issue>
+                  <fpage>241</fpage>
+                  <lpage>7</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1744-6163.2008.00183.x</pub-id>
+                  <pub-id pub-id-type="medline">18826462</pub-id>
+                  <pub-id pub-id-type="pii">PPC183</pub-id>
+                  <pub-id pub-id-type="pmid">18826462</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref28">
+                <label>28</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rohde</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Lewinsohn</surname>
+                      <given-names>PM</given-names>
+                    </name>
+                    <name>
+                      <surname>Seeley</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparability of telephone and face-to-face interviews in assessing axis I and II disorders</article-title>
+                  <source>Am J Psychiatry</source>
+                  <year>1997</year>
+                  <month>11</month>
+                  <volume>154</volume>
+                  <issue>11</issue>
+                  <fpage>1593</fpage>
+                  <lpage>8</lpage>
+                  <pub-id pub-id-type="medline">9356570</pub-id>
+                  <pub-id pub-id-type="pmid">9356570</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref29">
+                <label>29</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hedman</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Rück</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Furmark</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Carlbring</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Lindefors</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Internet administration of self-report measures commonly used in research on social anxiety disorder: A psychometric evaluation</article-title>
+                  <source>Computers in Human Behavior</source>
+                  <year>2010</year>
+                  <volume>26</volume>
+                  <fpage>736</fpage>
+                  <lpage>40</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chb.2010.01.010</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref30">
+                <label>30</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gueorguieva</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Krystal</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Move over ANOVA: progress in analyzing repeated-measures data and its reflection in papers published in the Archives of General Psychiatry</article-title>
+                  <source>Arch Gen Psychiatry</source>
+                  <year>2004</year>
+                  <month>3</month>
+                  <volume>61</volume>
+                  <issue>3</issue>
+                  <fpage>310</fpage>
+                  <lpage>7</lpage>
+                  <pub-id pub-id-type="doi">10.1001/archpsyc.61.3.310</pub-id>
+                  <pub-id pub-id-type="medline">14993119</pub-id>
+                  <pub-id pub-id-type="pii">61/3/310</pub-id>
+                  <pub-id pub-id-type="pmid">14993119</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref31">
+                <label>31</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hunt</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Andrews</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Long-term outcome of panic disorder and social phobia</article-title>
+                  <source>J Anxiety Disord</source>
+                  <year>1998</year>
+                  <volume>12</volume>
+                  <issue>4</issue>
+                  <fpage>395</fpage>
+                  <lpage>406</lpage>
+                  <pub-id pub-id-type="medline">9699122</pub-id>
+                  <pub-id pub-id-type="pii">S0887-6185(98)00023-1</pub-id>
+                  <pub-id pub-id-type="pmid">9699122</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref32">
+                <label>32</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Titov</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Andrews</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Johnston</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Schwencke</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Choi</surname>
+                      <given-names>I</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Shyness programme: longer term benefits, cost-effectiveness, and acceptability</article-title>
+                  <source>Aust N Z J Psychiatry</source>
+                  <year>2009</year>
+                  <month>1</month>
+                  <volume>43</volume>
+                  <issue>1</issue>
+                  <fpage>36</fpage>
+                  <lpage>44</lpage>
+                  <pub-id pub-id-type="doi">10.1080/00048670802534424</pub-id>
+                  <pub-id pub-id-type="medline">19085526</pub-id>
+                  <pub-id pub-id-type="pii">906738278</pub-id>
+                  <pub-id pub-id-type="pmid">19085526</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref33">
+                <label>33</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Knaevelsrud</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Maercker</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Internet-based treatment for PTSD reduces distress and facilitates the development of a strong therapeutic alliance: a randomized controlled clinical trial</article-title>
+                  <source>BMC Psychiatry</source>
+                  <year>2007</year>
+                  <volume>7</volume>
+                  <fpage>13</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://www.biomedcentral.com/1471-244X/7/13"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1186/1471-244X-7-13</pub-id>
+                  <pub-id pub-id-type="medline">17442125</pub-id>
+                  <pub-id pub-id-type="pii">1471-244X-7-13</pub-id>
+                  <pub-id pub-id-type="pmcid">PMC1885249</pub-id>
+                  <pub-id pub-id-type="pmid">17442125</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref34">
+                <label>34</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Heimberg</surname>
+                      <given-names>RG</given-names>
+                    </name>
+                    <name>
+                      <surname>Dodge</surname>
+                      <given-names>CS</given-names>
+                    </name>
+                    <name>
+                      <surname>Hope</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Kennedy</surname>
+                      <given-names>CR</given-names>
+                    </name>
+                    <name>
+                      <surname>Zollo</surname>
+                      <given-names>LJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Becker</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cognitive behavioral group treatment for social phobia: Comparison with a credible placebo control</article-title>
+                  <source>Cognitive Therapy and Research</source>
+                  <year>1990</year>
+                  <volume>14</volume>
+                  <issue>1</issue>
+                  <fpage>1</fpage>
+                  <lpage>23</lpage>
+                  <pub-id pub-id-type="doi">10.1007/BF01173521</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

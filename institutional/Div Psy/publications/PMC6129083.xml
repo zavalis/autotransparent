@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:05:02Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6129083" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6129083</identifier>
+        <datestamp>2018-09-10</datestamp>
+        <setSpec>bmjo</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="protocol">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMJ Open</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMJ Open</journal-id>
+              <journal-id journal-id-type="hwp">bmjopen</journal-id>
+              <journal-id journal-id-type="publisher-id">bmjopen</journal-id>
+              <journal-title-group>
+                <journal-title>BMJ Open</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2044-6055</issn>
+              <publisher>
+                <publisher-name>BMJ Publishing Group</publisher-name>
+                <publisher-loc>BMA House, Tavistock Square, London, WC1H 9JR</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6129083</article-id>
+              <article-id pub-id-type="pmcid">PMC6129083</article-id>
+              <article-id pub-id-type="pmc-uid">6129083</article-id>
+              <article-id pub-id-type="pmid">30185575</article-id>
+              <article-id pub-id-type="publisher-id">bmjopen-2018-022254</article-id>
+              <article-id pub-id-type="doi">10.1136/bmjopen-2018-022254</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Mental Health</subject>
+                  <subj-group>
+                    <subject>Protocol</subject>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="hwp-journal-coll">
+                  <subject>1506</subject>
+                  <subject>1712</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Study protocol for a single-blind, randomised controlled, non-inferiority trial of internet-based versus face-to-face cognitive behaviour therapy for obsessive–compulsive disorder</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="author-38189435" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-8742-0168</contrib-id>
+                  <name>
+                    <surname>Rück</surname>
+                    <given-names>Christian</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                </contrib>
+                <contrib id="author-60444850" contrib-type="author">
+                  <name>
+                    <surname>Lundström</surname>
+                    <given-names>Lina</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                </contrib>
+                <contrib id="author-60517922" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-2017-3940</contrib-id>
+                  <name>
+                    <surname>Flygare</surname>
+                    <given-names>Oskar</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                </contrib>
+                <contrib id="author-38031459" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-1897-5549</contrib-id>
+                  <name>
+                    <surname>Enander</surname>
+                    <given-names>Jesper</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                </contrib>
+                <contrib id="author-47763246" contrib-type="author">
+                  <name>
+                    <surname>Bottai</surname>
+                    <given-names>Matteo</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                </contrib>
+                <contrib id="author-38189407" contrib-type="author">
+                  <name>
+                    <surname>Mataix-Cols</surname>
+                    <given-names>David</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                </contrib>
+                <contrib id="author-38189382" contrib-type="author">
+                  <name>
+                    <surname>Andersson</surname>
+                    <given-names>Erik</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><label>1</label><institution content-type="department">Centre for Psychiatry Research, Department of Clinical Neuroscience</institution>, <institution>Karolinska Institutet</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff2"><label>2</label><institution>Stockholm Health Care Services</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff3"><label>3</label><institution content-type="department">Institute of Environmental Medicine</institution>, <institution>Biostatistics, Karolinska Institutet</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <author-notes>
+                <corresp><label>Correspondence to</label> Dr Christian Rück; <email>christian.ruck@ki.se</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2018</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>5</day>
+                <month>9</month>
+                <year>2018</year>
+              </pub-date>
+              <volume>8</volume>
+              <issue>9</issue>
+              <elocation-id>e022254</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>09</day>
+                  <month>2</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>04</day>
+                  <month>6</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="accepted">
+                  <day>30</day>
+                  <month>7</month>
+                  <year>2018</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© Author(s) (or their employer(s)) 2018. Re-use permitted under CC BY-NC. No commercial re-use. See rights and permissions. Published by BMJ.</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <license license-type="open-access">
+                  <license-p>This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non-commercial. See: <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:title="pdf" xlink:href="bmjopen-2018-022254.pdf"/>
+              <self-uri content-type="reviewers-comments-pdf" xlink:href="bmjopen-2018-022254.reviewer_comments.pdf"/>
+              <self-uri content-type="draft-revisions-pdf" xlink:href="bmjopen-2018-022254.draft_revisions.pdf"/>
+              <abstract>
+                <sec>
+                  <title>Introduction</title>
+                  <p>Expert guidelines recommend cognitive–behavioural therapy (CBT) as a first-line treatment for obsessive–compulsive disorder (OCD), but the majority of patients with OCD do not have access to CBT. Internet-delivered CBT (ICBT) has the potential to make this evidence-based treatment more accessible while requiring less therapist time than traditional face-to-face (f2f) CBT. Data from six clinical trials suggest that ICBT for OCD is both efficacious and cost-effective, but whether ICBT is non-inferior to traditional f2f CBT for OCD is yet unknown.</p>
+                </sec>
+                <sec>
+                  <title>Methods and analysis</title>
+                  <p>A single-blind, randomised, controlled, non-inferiority trial comparing therapist-guided ICBT, unguided ICBT and individual (f2f) CBT for adult OCD patients. The primary objective is to investigate whether ICBT is non-inferior to gold standard f2f CBT. Secondary objectives are to investigate if ICBT is equally effective when delivered unguided, to establish the cost-effectiveness of ICBT and to investigate if the treatment outcome differs between self-referred and clinically referred patients. Participants will be recruited at two specialist OCD clinics in Stockholm and also through online self-referral. Participants will be randomised to one of three treatment conditions: F2f CBT, ICBT with therapist support or unguided ICBT. The total number of participants will be 120, and masked assessments will be administered at baseline, biweekly during treatment, at post-treatment and at 3-month and 12-month follow-ups. The main outcome measure is the clinician-rated Yale-Brown Obsessive Compulsive Scale (Y-BOCS) at 3-month follow-up. The margin of non-inferiority is set to 3 points on the Y-BOCS using a 90% CI.</p>
+                </sec>
+                <sec>
+                  <title>Ethics and dissemination</title>
+                  <p>The study has been approved by the Regional Ethics Board of Stockholm (REPN 2015/1099-31/2) and registered at Clinicaltrials.gov (NCT02541968). The study will be reported in accordance with the Consolidated Standards of Reporting Trials statement for non-pharmacological trials. The results will be published in peer-reviewed academic journals and disseminated to patient organisations and media.</p>
+                </sec>
+                <sec>
+                  <title>Trial registration number</title>
+                  <p><ext-link ext-link-type="uri" xlink:href="NCT02541968" specific-use="clinicaltrial pre-results">NCT02541968</ext-link>; Pre-results.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>obsessive compulsive disorder</kwd>
+                <kwd>internet delivered cognitive behaviour theraphy</kwd>
+                <kwd>non-inferiority study</kwd>
+                <kwd>clinical randomized controlled trial</kwd>
+                <kwd>adult psychiatry</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group id="funding-1">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>The regional agreement on medical training and clinical research (ALF)</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+                <award-group id="funding-2">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>The Swedish Research Council</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>special-feature</meta-name>
+                  <meta-value>unlocked</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <boxed-text id="BX1" position="float" orientation="portrait">
+              <caption>
+                <title>Strength and limitations of this study</title>
+              </caption>
+              <list list-type="bullet">
+                <list-item>
+                  <p>First study evaluating if two modalities of internet-delivered cognitive–behavioural therapy (ICBT) are non-inferior to the gold standard face-to-face (f2f) cognitive–behavioural therapy (CBT) for obsessive–compulsive disorder (OCD).</p>
+                </list-item>
+                <list-item>
+                  <p>Full health economic evaluation of therapist-guided ICBT, unguided ICBT and f2f CBT for OCD.</p>
+                </list-item>
+                <list-item>
+                  <p>Recruitment of both clinic-referred and self-referred patients, which will help generalise the results to more typical OCD cases.</p>
+                </list-item>
+                <list-item>
+                  <p>The exclusion of participants with certain diagnoses, for example, people with autism spectrum disorder, limits the generalisability.</p>
+                </list-item>
+              </list>
+            </boxed-text>
+            <sec sec-type="intro" id="s1">
+              <title>Introduction</title>
+              <p>Obsessive–compulsive disorder (OCD) is a mental disorder characterised by obsessions (eg, ‘did I really lock that door?’) and compulsions (eg, repeatedly checking that a door is locked). OCD affects ~2% of the general population<xref rid="R1" ref-type="bibr">1</xref> and is associated with poor quality of life, functional impairment across multiple life domains, high suicide risk<xref rid="R2" ref-type="bibr">2</xref> and a large societal economic burden.<xref rid="R3" ref-type="bibr">3</xref> The disorder usually onsets before the age of 25 years and has a low probability of remission if left untreated.<xref rid="R4" ref-type="bibr">4</xref></p>
+              <p>Cognitive–behavioural therapy (CBT) is currently recommended by the National Institute for Health and Care Excellence guidelines as a first-line treatment for OCD.<xref rid="R5" ref-type="bibr">5</xref> Unfortunately, there is a gap between supply and demand of CBT for OCD; barriers to treatment access include a shortage of trained CBT therapists,<xref rid="R6" ref-type="bibr">6</xref> costs associated with treatment, geographical barriers and embarrassment to openly disclose one’s OCD symptoms.<xref rid="R7" ref-type="bibr">7</xref>Specialised CBT for OCD is therefore not accessible for most patients, and only a minority of sufferers (5%–10%) receive this evidence-based treatment.<xref rid="R8" ref-type="bibr">8</xref></p>
+              <p>Internet-delivered cognitive–behavioural therapy (ICBT) has the advantage of being more accessible and requiring less therapist time than face-to-face (f2f) CBT, potentially resulting in savings for the healthcare system. In therapist-guided ICBT, the patient logs on to a secure website and works with written self-help materials and homework assignments. During the treatment, the patient receives asynchronous online support by an identified therapist who motivates the patient and troubleshoots any problems that may occur during the treatment. Therapist-guided ICBT has the potential to increase access to evidence-based care, and there is a substantial body of work demonstrating that therapist-guided ICBT can increase access to treatment for several mental disorders without impairing efficacy. In a recent meta-analysis where therapist-guided ICBT was compared with f2f CBT for both somatic and psychiatric disorders, therapist-guided ICBT was shown to have comparable efficacy with traditional f2f CBT treatment.<xref rid="R9" ref-type="bibr">9</xref> At the internet psychiatry unit in Stockholm (<ext-link ext-link-type="uri" xlink:href="www.internetpsykiatri.se">www.internetpsykiatri.se</ext-link>), the effectiveness of therapist-guided ICBT for psychiatric disorders within clinical psychiatric care has been evaluated with positive long-term effects.<xref rid="R10" ref-type="bibr">10–12</xref></p>
+              <p>Our research group has previously developed and tested therapist-guided ICBT for adults with OCD.<xref rid="R13" ref-type="bibr">13–16</xref> In a first pilot study of therapist-guided ICBT for OCD (n=23), large within-group effects (d=1.56) were found for ICBT.<xref rid="R15" ref-type="bibr">15</xref> In a subsequent randomised controlled trial (RCT) (n=101), therapist-guided ICBT was superior to an attention control condition with a large between-group effect size (d=1.12).<xref rid="R13" ref-type="bibr">13</xref> The treatment effects were sustained up to 2 years after treatment.<xref rid="R16" ref-type="bibr">16</xref> In a third study (n=128), therapist-guided ICBT for OCD, with or without the addition of the partial NMDA-agonist d-cycloserine, was investigated. Although no significant effect of d-cycloserine was found, large within-group improvements were observed for both groups: d-cycloserine (d=1.82) and placebo (d=2.20).<xref rid="R14" ref-type="bibr">14</xref> Therapist-guided ICBT for OCD has also shown positive results across cultures and age groups. In Australia, Wootton and colleagues and Mahoney and colleagues have both shown therapist-guided ICBT for OCD to be effective in randomised controlled trials.<xref rid="R17" ref-type="bibr">17 18</xref> In Germany, Herbst and colleagues have tested therapist-guided ICBT for OCD with positive long-term effects.<xref rid="R19" ref-type="bibr">19</xref> ICBT is also efficacious and cost-effective in adolescents with OCD.<xref rid="R20" ref-type="bibr">20 21</xref></p>
+              <p>There is some evidence to suggest that ICBT can be delivered without any therapist involvement.<xref rid="R18" ref-type="bibr">18 22-24</xref> However, this contradicts earlier literature suggesting that OCD patients receiving therapist support have lower attrition and fare better in treatment.<xref rid="R25" ref-type="bibr">25</xref> If ICBT could be entirely unguided, even more patients could receive help at a minimal cost.</p>
+              <sec id="s1a">
+                <title>Remaining evidence gaps that need to be closed</title>
+                <p>Although multiple research groups have found that therapist-guided ICBT is a promising approach for treating OCD, there are several critical issues that need to be addressed before the implementation of ICBT in a regular healthcare context can be recommended. First, it is unclear if ICBT is non-inferior to gold standard f2f CBT. Second, we do not know if our ICBT treatment is equally effective when delivered unguided. Third, there are no high-quality cost-effectiveness studies on ICBT for OCD, and it is crucial to make a full health economical evaluation of ICBT versus the gold standard f2f CBT. Fourth, the existing studies supporting the efficacy of ICBT in OCD have all relied on self-referred subjects. Self-referred subjects may be less complex, have better insight into their difficulties and be more motivated for treatment and therefore potentially affecting the generalisability of previous findings.<xref rid="R26" ref-type="bibr">26</xref> Fifth, since we do not yet know for whom ICBT is particularly suitable, the identification of reliable predictors and moderators of treatment outcome aid in choosing the right treatment from the start.</p>
+              </sec>
+              <sec id="s1b">
+                <title>Aims and objectives</title>
+                <sec id="s1b1">
+                  <title>Primary objective</title>
+                  <list list-type="order">
+                    <list-item>
+                      <p>Our primary objective is to establish whether ICBT is non-inferior to f2f CBT with regard to OCD symptoms (measured with the masked clinician-rated Yale-Brown Obsessive Compulsive Scale (Y-BOCS)).</p>
+                    </list-item>
+                  </list>
+                </sec>
+                <sec id="s1b2">
+                  <title>Secondary objectives</title>
+                  <list list-type="order">
+                    <list-item>
+                      <p>To investigate if ICBT for OCD can be delivered without therapist support without impairing efficacy.</p>
+                    </list-item>
+                    <list-item>
+                      <p>To determine if ICBT, compared with f2f CBT, is a cost-effective treatment for OCD.</p>
+                    </list-item>
+                    <list-item>
+                      <p>To examine if there is a difference in treatment outcome between self-referred and clinically referred patients.</p>
+                    </list-item>
+                    <list-item>
+                      <p>To explore predictors and moderators of treatment outcome as a first step towards personalised treatment selection.</p>
+                    </list-item>
+                  </list>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="s2">
+              <title>Methods and analysis</title>
+              <sec id="s2a">
+                <title>Study design</title>
+                <p>Single-blind, randomised, controlled, non-inferiority trial comparing therapist-guided ICBT, unguided ICBT without therapist support and individual f2f CBT for OCD in adults. The total number of participants will be 120 (40 per group), with stratification according to source of referral (self-referred vs clinic-referred patients). Block randomisation will be performed within each stratum to ensure all participants are equally represented across treatment conditions. Participants will be assessed at baseline, biweekly during treatment, at post-treatment and at 3-month and 12-month follow-ups. The Consolidated Standards of Reporting Trials (CONSORT) flow chart of the trial is depicted in <xref ref-type="fig" rid="F1">figure 1</xref>.</p>
+                <fig id="F1" orientation="portrait" position="float">
+                  <label>Figure 1</label>
+                  <caption>
+                    <p>CONSORT-flow diagram. CBT, cognitive–behavioural therapy; CONSORT, Consolidated Standards of Reporting Trials; ICBT, internet-delivered CBT.</p>
+                  </caption>
+                  <graphic xlink:href="bmjopen-2018-022254f01"/>
+                </fig>
+              </sec>
+              <sec id="s2b">
+                <title>Sample selection</title>
+                <p>Regular patients referred to two OCD specialist clinics in Stockholm will be assessed for eligibility. The trial will also be advertised online so that interested participants can self-refer by registering on the trial’s secure webpage and completing a screening questionnaire. People living in Stockholm, Södermanland or Uppsala County are eligible to participate in the study (these counties are within 1–2 hours travel distance to Stockholm).</p>
+                <p>After completing an online screening, a clinical psychologist will contact potentially suitable participants by telephone for a brief screening interview. They will then be offered an appointment with a psychiatrist at one of the two OCD specialist clinics for a full psychiatric assessment. The psychiatrist will administer the Mini International Neuropsychiatric Interview<xref rid="R27" ref-type="bibr">27</xref> and The Structured Clinical Interview for DSM-5 (SCID-5)<xref rid="R28" ref-type="bibr">28</xref> to confirm the diagnosis of OCD, document psychiatric comorbidities, administer baseline instruments and decide on inclusion/exclusion. <xref rid="T1" ref-type="table">Table 1</xref> lists inclusion and exclusion criteria.</p>
+                <table-wrap id="T1" orientation="portrait" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Overview of inclusion and exclusion criteria</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <tbody>
+                      <tr>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">Inclusion criteria</td>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">≥18 years of age.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Primary diagnosis of OCD according to DSM-5.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Internet access.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Written consent of participation in the study.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Exclusion criteria</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Other psychological treatment for OCD during the treatment period.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Completed CBT for OCD in the last 12 months.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Changes in psychotropic medication within the last 2 months.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Bipolar disorder.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Psychosis.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Alcohol or substance dependence.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Autism spectrum disorder.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Organic brain disorder.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Hoarding disorder or OCD with primary hoarding symptoms.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Suicidal ideation.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Subjects that lack the ability to read written Swedish or lack the cognitive ability to assimilate the written material.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="tblfn1">
+                      <p>CBT, cognitive–behavioural therapy; DSM-5, The Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition; OCD, obsessive–compulsive disorder.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec id="s2c">
+                <title>Randomisation and concealment</title>
+                <p>The randomisation sequence will be generated by Karolinska Trial Alliance (KTA; <ext-link ext-link-type="uri" xlink:href="https://karolinskatrialalliance.se">https://karolinskatrialalliance.se</ext-link>, an independent entity not involved in the study) before inclusion of the first participant, using masked block randomisation. Patients will receive their randomisation number based on the order of their first psychiatrist appointment. Patients will be stratified based on self-referral or clinical referral. Sealed envelopes with information on treatment allocation will be stored in a secure locker in case of emergency unblinding.</p>
+                <p>Assessors will be blind to group assignment up to the 12-month follow-up. To ensure that the blinding is maintained, patients will be given clear instructions not to disclose which treatment they have been randomised to while being interviewed by the blind assessors. Where blindness is inadvertently broken, raters will be immediately replaced, and the participant will be reassessed by another rater. Blind raters will be asked to guess each patient’s group allocation at each assessment point.<xref rid="R29" ref-type="bibr">29</xref> This will establish if the blind raters’ guesses regarding treatment allocation were better than chance.</p>
+              </sec>
+              <sec id="s2d">
+                <title>Interventions</title>
+                <sec id="s2d1">
+                  <title>Therapist-guided ICBT</title>
+                  <p>Patients will receive 14 weeks of ICBT for OCD using a validated treatment protocol.<xref rid="R13" ref-type="bibr">13–16</xref> As in regular CBT for OCD, the main treatment component is exposure and response prevention (ERP). The therapists will be licenced psychologists with expertise in treating patients with OCD. Therapists will respond to messages encrypted in the internet platform at a set time during office hours (08:00–17:00) on weekdays, in order to ensure that participants receive a response within 24 hours. Each participant’s response rate at the 3-month follow-up will be calculated and monitored by the project leaders. The participants who are non-responders (defined as Y-BOCS reduction &lt;35% and Clinical Global Impression-Improvement Scale (CGI-I) &gt;2)<xref rid="R30" ref-type="bibr">30</xref> at the 3-month follow-up will be contacted by telephone and offered f2f CBT for 14 weeks.</p>
+                </sec>
+                <sec id="s2d2">
+                  <title>Unguided ICBT</title>
+                  <p>This arm will be identical to the ICBT described above but without any online therapist support. If participants experience any technical problems with the online platform during the treatment, they can contact project leaders for help. In the internet platform, patients will have detailed contact information in case of emergency. Participants in this group who are non-responders at 3-month follow-up will be offered up to 14 weeks of f2f CBT according to the same procedure explained in the previous section.</p>
+                </sec>
+                <sec id="s2d3">
+                  <title>Individual f2f CBT</title>
+                  <p>Patients receive 16 sessions of individual f2f CBT for OCD delivered over a time period of 14 weeks, according to a validated protocol.<xref rid="R31" ref-type="bibr">31</xref> Sessions will be held twice weekly during the first 2 weeks and once a week for the remaining 12 weeks. The therapists will be licenced psychologists with expertise in treating patients with OCD. The content of the f2f CBT is the same as in the ICBT arms. Sessions will be audiotaped in order to ensure that the therapists adhere to the treatment protocol. Adherence to protocol will be independently rated by two psychologists (not otherwise involved in the study) specialised in CBT treatment for OCD.</p>
+                </sec>
+              </sec>
+              <sec id="s2e">
+                <title>Sample size calculation</title>
+                <p>In order to provide accurate estimates for the power calculation in the current trial, we used individual-level data from a previous study of therapist-guided ICBT with identical Y-BOCS assessments by blinded raters and six repeated observations.<xref rid="R14" ref-type="bibr">14</xref> To calculate the required sample size, we used a bootstrap simulation with 1000 samples using the following assumptions, based on data from the previous trial: a variance of the random intercept of 10.5, a variance for the random slope of 0.04 and a within-individual residual variance of 20.4. With three treatment groups and eight observations (Y-BOCS) per patient, we estimated that a total of 120 participants would be needed to detect a slope difference between two groups (ie, group 1 vs group 2 and group 1 vs group 3) of 3 points at 3-month follow-up with over 90% power. We will request an interim power analysis by the KTA to test these assumptions, using data from 80 individuals, and adjust sample size if power is lower than anticipated (see online <xref ref-type="supplementary-material" rid="SP1">supplementary file 1</xref> for a detailed description).</p>
+                <supplementary-material content-type="local-data" id="SP1">
+                  <object-id pub-id-type="doi">10.1136/bmjopen-2018-022254.supp1</object-id>
+                  <label>Supplementary file 1</label>
+                  <p>
+                    <inline-supplementary-material id="ss1" xlink:href="bmjopen-2018-022254supp001.pdf" mimetype="application" mime-subtype="pdf" content-type="local-data"/>
+                  </p>
+                </supplementary-material>
+              </sec>
+              <sec id="s2f">
+                <title>Measurements</title>
+                <p><xref rid="T2" ref-type="table">Table 2</xref> lists clinician-rated and self-rated assessments at the different time points.</p>
+                <table-wrap id="T2" orientation="portrait" position="float">
+                  <label>Table 2</label>
+                  <caption>
+                    <p>Assessments at different time points</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">Screening</td>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">Pretreatment</td>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">During treatment</td>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">Post-treatment</td>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">3-month follow-up</td>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">12-month follow-up</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td valign="top" colspan="7" align="left" rowspan="1">Clinician-rated instruments</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  SCID-5 (OCD)</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  Y-BOCS</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  CGI-S</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  CGI-I</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  GAF</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  SMURF</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  PEAS</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  MADRS-S</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  MINI</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" colspan="7" align="left" rowspan="1">Self-rated instruments</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  Y-BOCS</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  Y-BOCS checklist</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  OCI-R</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  EQ-5D</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  EQ-5D index</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  AUDIT</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  DUDIT</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  MADRS-S</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  PHQ9</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  SDS</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  ASRS</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  ISI</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  TIC-P</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">  TCS</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">WAI-SF</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="tblfn2">
+                      <p>ASRS, Adult ADHD Self-Report Scale; AUDIT, Alcohol Use Disorder Identification Test; CGI-I, Clinical Global Impression-Improvement Scale; CGI-S, Clinical Global Impression-Severity Scale; DUDIT, Drug Use Disorders Identification Test; EQ-5D, EuroQol 5 Dimension Scale; GAF, Global Assessment of Functioning; ISI, Insomnia Severity Index; MADRS-S, Montgomery-Åsberg Depression Rating Scale; MINI, Mini International Neuropsychiatric Interview; OCI-R, Obsessive–Compulsive Inventory-Revised; PEAS, Patient Exposure/Response Prevention Adherence Scale; PHQ9, Patient Health Questionnaire; SCID-5, Structured Clinical Interview for DSM-5 Disorders (OCD), obsessive–compulsive disorder; SCID-5, The Structured Clinical Interview for DSM-5; SDS, Sheehan Disability Scale; SMURF, Safety Monitoring Uniform Report Form; TCS, Treatment Credibility Scale; TIC-P, Treatment Inventory of Costs in Psychiatric Patients; WAI-SF, Working Alliance Inventory – Short Form; Y-BOCS, Yale-Brown Obsessive Compulsive Scale.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <p>The primary outcome measure is the clinician-rated Y-BOCS, which is the gold standard for assessing the severity of OCD symptoms.<xref rid="R32" ref-type="bibr">32</xref> Clinicians in this trial will practice together on case examples to establish high inter-rater reliability. The Y-BOCS will be administered by blind raters at baseline, at weeks 2, 4, 6, 8, 10 and 12 during treatment, at post-treatment (week 15) and at 3-month and 12-month follow-ups. The primary endpoint is the 3-month follow-up.</p>
+                <p>Secondary clinician-administered outcome measures are the Clinical Global Impression-Severity Scale (CGI-S) and CGI-I,<xref rid="R33" ref-type="bibr">33</xref> the SCID-5, OCD and related disorders<xref rid="R28" ref-type="bibr">28</xref> and the Global Assessment of Functioning (GAF).<xref rid="R34" ref-type="bibr">34</xref> Secondary self-rated outcome measures are the Obsessive-Compulsive Inventory-Revised (OCI-R),<xref rid="R35" ref-type="bibr">35</xref> the self-rated Y-BOCS,<xref rid="R32" ref-type="bibr">32</xref> the Montgomery-Åsberg Depression Rating Scale (MADRS-S),<xref rid="R36" ref-type="bibr">36</xref> Sheehan Disability Scale (SDS)<xref rid="R37" ref-type="bibr">37</xref> and the EuroQol 5 Dimension Scale (EQ-5D).<xref rid="R38" ref-type="bibr">38</xref> The Patient Exposure/Response Prevention Adherence Scale (PEAS)<xref rid="R39" ref-type="bibr">39</xref> will be used to quantify compliance with ERP homework, and the Working Alliance Inventory – Short Form (WAI-SF)<xref rid="R40" ref-type="bibr">40</xref> will be used to measure therapeutic alliance in the f2f CBT and ICBT with therapist support treatment conditions. The Insomnia Severity Index (ISI)<xref rid="R41" ref-type="bibr">41</xref> will be used to measure participants sleep patterns, and the Treatment Credibility Scale (TCS)<xref rid="R42" ref-type="bibr">42</xref> will be used to measure how credible participants perceive the treatment to be. Measurements will be administered before and after treatment as well as during 3-month and 12-month follow-ups. In order to increase participant retention at follow-up assessments, participants will be notified via text message 48 hours prior to an appointment. Should a participant not attend a follow-up session, a psychiatrist will contact participants via telephone to perform the assessments.</p>
+              </sec>
+              <sec id="s2g">
+                <title>Safety and adverse events</title>
+                <p>Data on adverse events and suicidal ideation will be collected by blinded independent raters biweekly during treatment, at post-treatment and at 3-month and 12-month follow-up. Adverse events will be collected using a standardised checklist, which is the Safety Monitoring Uniform Report Form.<xref rid="R43" ref-type="bibr">43</xref> If a participant expresses suicidal ideation (ie, a score on item 9 of the MADRS-S ≥4), assessors will initiate a structured suicide risk assessment. If there is an urgent need for psychiatric care, a trial psychiatrist will contact participants to schedule an f2f appointment as soon as possible.</p>
+              </sec>
+              <sec id="s2h">
+                <title>Statistical analysis</title>
+                <p>The main outcome analyses will be conducted according to the ‘intent-to-treat’ principle. Mixed-effects regression analyses for repeated measures with maximum likelihood estimation of parameters will be used with the assumption that data are missing at random. The latter assumption will be tested. For each outcome measure, the model will include fixed effects of time (baseline, midtreatment, post-treatment and 3-month follow-up (primary endpoint)), treatment group (guided ICBT, unguided ICBT and f2f CBT) and an interaction effect of treatment group × time to allow for the differential change between the three groups from baseline to the 3-month follow-up. The models will include individuals’ random intercept and random slope to account for variability between and within participants over time. Within-group and between-group effect sizes will be calculated with Cohen’s <italic>d</italic>.<xref rid="R44" ref-type="bibr">44</xref> Numbers needed to treat will be calculated based on responder status.</p>
+                <p>Alpha for all analyses will be set at 0.05. Non-inferiority is established when the 90% Wald CI for the difference between treatment conditions excludes the prespecified margin of inferiority, which is set at three points on the Y-BOCS.<xref rid="R45" ref-type="bibr">45 46</xref> This means that if the upper limit of the 90% CI is less than three points, we are 95% confident that ICBT will be non-inferior to f2f CBT. The non-inferiority hypothesis will be tested of both therapist-guided and self-guided ICBT against the f2f CBT. Additional analyses of the 12-month follow-up data will determine whether the treatment gains are maintained long term and whether ICBT is non-inferior to f2f CBT at follow-up.</p>
+              </sec>
+              <sec id="s2i">
+                <title>Cost-effectiveness analysis</title>
+                <p>Health economic data will be collected using the Treatment Inventory of Costs in Psychiatric Patients<xref rid="R47" ref-type="bibr">47</xref> and the Swedish National Patient Register, the Swedish Prescribed Drugs Register and the longitudinal integrated database for health insurance and work-related research (LISA). Costs will be analysed using a societal perspective, that is, including both sick leave, hospitalisations, service use, medication and so on and analysed in relation to outcome (ie, OCD symptoms and quality-adjusted life years using the Y-BOCS and EQ-5D, respectively). National tariffs will be used to estimate costs from healthcare visits. Productivity losses will be estimated using gross earnings data from each patient.<xref rid="R48" ref-type="bibr">48</xref> Treatment costs, that is, therapist support time per patient logged on the platform and time spent on f2f sessions, will be included in the cost estimation.</p>
+                <p>Cost-effectiveness comparisons will be analysed using incremental cost-effectiveness ratios. The "net benefit approach" will also be used. This approach estimates the cost-effectiveness depending on different societal willingness-to-pay values for one unit of improvement.<xref rid="R48" ref-type="bibr">48</xref> Non-parametric bootstrapping (one thousand replications) will be used to estimate the difference between ICBT (guided or unguided) and gold standard f2f CBT.</p>
+              </sec>
+              <sec id="s2j">
+                <title>Analysis of predictors and moderators</title>
+                <p>We will analyse predictors and moderators of response and remission status at 3-month and 12-month follow-up using repeated k-fold cross validation with 10 folds and 20 repeats to reduce the risk of model instability.<xref rid="R49" ref-type="bibr">49 50</xref> We then average model performance over the repeats using area under the receiver operating characteristic curve of sensitivity and specificity to distinguish between responders/remitters and non-responders/non-remitters.<xref rid="R51" ref-type="bibr">51</xref></p>
+              </sec>
+              <sec id="s2k">
+                <title>Limitations</title>
+                <p>There are several potential threats to the validity and generalisability of the current trial results, some of which apply to most clinical trials. First, the trial was designed to maximise the chances of the results being as generalisable as possible. However, despite the best of our efforts to recruit both clinic-referred and self-referred individuals, it will be difficult to confidently claim that our participants will be representative of the entire population of patients with OCD in Sweden. For example, we will not know if our results are generalisable to patients with comorbid autism spectrum disorder or to patients who are too ill to seek help and participate in clinical studies. Second, it is impossible to conduct double-blinded clinical trials of behavioural interventions. In an effort to increase transparency, our design includes careful checks of the extent to which raters are blind to the group allocation. Third, while our study is well powered to test the non-inferiority hypothesis, it may not be powered to test the same hypothesis for all secondary measures or for the cost-effectiveness calculations. Fourth, patients in the unguided ICBT arm still have contact with healthcare professionals at baseline, during treatment and after treatment (eg, biweekly telephone assessments, post-treatment and follow-up appointments). An entirely unguided treatment would involve limited or no contact with healthcare professionals.</p>
+              </sec>
+              <sec id="s2l">
+                <title>Patient and public involvement</title>
+                <p>We received input from patients from three previous OCD internet CBT trials, which guided the design of the current study. In the current trial, no patients were involved in the design of the study or in the decision of outcome measures. Neither will patients be involved in the recruitment of participants or in the decision of the research question. A patient organisation for OCD and related disorders (the Swedish OCD Foundation) will be involved in the recruitment of participants by informing their members about the study. We will assess the burden of the trial interventions on the patients by collecting information about adverse events, quality of life and time spent on the treatment. We will gather information about the patients satisfaction with treatment through an online self-rating questionnaire at the end of treatment. We plan to disseminate the results of the research to study participants and to the Swedish OCD Foundation.</p>
+              </sec>
+            </sec>
+            <sec id="s3">
+              <title>Ethics and dissemination</title>
+              <p>The trial will be conducted in compliance with this study protocol, the Declaration of Helsinki and Good Clinical Practice (GCP). KTA is an external party that will monitor the study every 6 months and ensure that the study follows GCP, that is, that all participants give informed written consent and that study related materials are handled correctly. All professionals involved in the study will attend a course in GCP and get certified by the KTA.</p>
+              <p>This study will be reported in accordance with the CONSORT statement for non-pharmacological trials.<xref rid="R52" ref-type="bibr">52</xref> Ethical risks are deemed minimal and both f2f CBT and ICBT have well-documented efficacy.</p>
+              <sec id="s3a">
+                <title>Current trial status</title>
+                <p>Recruitment of participants started in September 2015, and the last participant is expected to reach the primary endpoint (3-month follow-up) in February 2019. Primary data analysis will begin in April 2019. The naturalistic follow-up phase of the trial will continue until November 2019.</p>
+              </sec>
+            </sec>
+            <sec sec-type="conclusions" id="s4">
+              <title>Conclusion</title>
+              <p>OCD is associated with significant suffering, loss of function across multiple life domains, high suicide risk and large societal costs. ICBT has great potential to increase access to evidence-based care for a large group of sufferers that normally do not receive evidence-based psychological treatments. The study outlined in this protocol is the first direct comparison of ICBT and gold standard f2f CBT and is a crucial step before ICBT can be recommended for use within the regular healthcare system. The study will provide new insights into the effectiveness of different treatment modalities for OCD, and the health economic evaluation will help decision makers to rationally allocate available resources. Implementation of ICBT in regular healthcare would dramatically increase the availability of effective treatment to those suffering from OCD.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <supplementary-material id="d35e219" content-type="local-data">
+                <caption>
+                  <title>Reviewer comments</title>
+                </caption>
+                <media mimetype="application" mime-subtype="pdf" xlink:href="bmjopen-2018-022254.reviewer_comments.pdf"/>
+              </supplementary-material>
+              <supplementary-material id="d35e220" content-type="local-data">
+                <caption>
+                  <title>Author's manuscript</title>
+                </caption>
+                <media mimetype="application" mime-subtype="pdf" xlink:href="bmjopen-2018-022254.draft_revisions.pdf"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn fn-type="other">
+                <p><bold>Contributors:</bold> CR and LL wrote the first draft of the paper. All authors conceived the study and revised the manuscript for relevant scientific content. MB specifically revised the statistical analyses and power calculation sections of the paper. All authors approved the final version of the manuscript.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Funding:</bold> This study is funded by the Swedish Research Council (K2013-61P-22168) and the regional agreement on medical training and clinical research (ALF) between Stockholm County Council and Karolinska Institutet.</p>
+              </fn>
+              <fn fn-type="COI-statement">
+                <p><bold>Competing interests:</bold> None declared.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Patient consent:</bold> Not requried.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Ethics approval:</bold> The study has been approved by the Regional Ethics Board of Stockholm (REPN 2015/1099-31/2) and registered at Clinicaltrials.gov (NCT02541968).</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Provenance and peer review:</bold> Not commissioned; externally peer reviewed.</p>
+              </fn>
+            </fn-group>
+            <ref-list>
+              <title>References</title>
+              <ref id="R1">
+                <label>1.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Fullana</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Vilagut</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Rojas-Farreras</surname><given-names>S</given-names></name>, <etal>et al</etal></person-group><article-title>Obsessive-compulsive symptom dimensions in the general population: results from an epidemiological study in six European countries</article-title>. <source>J Affect Disord</source><year>2010</year>;<volume>124</volume>:<fpage>291</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1016/j.jad.2009.11.020</pub-id>
+<pub-id pub-id-type="pmid">20022382</pub-id></mixed-citation>
+              </ref>
+              <ref id="R2">
+                <label>2.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Fernández de la Cruz</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Rydell</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Runeson</surname><given-names>B</given-names></name>, <etal>et al</etal></person-group><article-title>Suicide in obsessive-compulsive disorder: a population-based study of 36 788 Swedish patients</article-title>. <source>Mol Psychiatry</source><year>2017</year>;<volume>22</volume>:<fpage>1626</fpage>–<lpage>32</lpage>. <pub-id pub-id-type="doi">10.1038/mp.2016.115</pub-id>
+<pub-id pub-id-type="pmid">27431293</pub-id></mixed-citation>
+              </ref>
+              <ref id="R3">
+                <label>3.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Huppert</surname><given-names>JD</given-names></name>, <name name-style="western"><surname>Simpson</surname><given-names>HB</given-names></name>, <name name-style="western"><surname>Nissenson</surname><given-names>KJ</given-names></name>, <etal>et al</etal></person-group><article-title>Quality of life and functional impairment in obsessive-compulsive disorder: a comparison of patients with and without comorbidity, patients in remission, and healthy controls</article-title>. <source>Depress Anxiety</source><year>2009</year>;<volume>26</volume>:<fpage>39</fpage>–<lpage>45</lpage>. <pub-id pub-id-type="doi">10.1002/da.20506</pub-id>
+<pub-id pub-id-type="pmid">18800368</pub-id></mixed-citation>
+              </ref>
+              <ref id="R4">
+                <label>4.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Rasmussen</surname><given-names>SA</given-names></name>, <name name-style="western"><surname>Eisen</surname><given-names>JL</given-names></name></person-group><article-title>Epidemiology of obsessive compulsive disorder</article-title>. <source>J Clin Psychiatry</source><year>1990</year>;<volume>51 Suppl</volume>:<fpage>10</fpage>–<lpage>13</lpage>.<pub-id pub-id-type="pmid">2404965</pub-id></mixed-citation>
+              </ref>
+              <ref id="R5">
+                <label>5.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Obsessive</surname><given-names>N</given-names></name></person-group><source>Compulsive Disorder: core interventions in the treatment of obsessive–compulsive disorder and body dysmorphic disorder</source>. <publisher-loc>London</publisher-loc>: <publisher-name>NICE</publisher-name>, <year>2005</year>.</mixed-citation>
+              </ref>
+              <ref id="R6">
+                <label>6.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Larsson</surname><given-names>BPM</given-names></name>, <name name-style="western"><surname>Kaldo</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Broberg</surname><given-names>AG</given-names></name></person-group><article-title>Similarities and differences between practitioners of psychotherapy in Sweden: a comparison of attitudes between psychodynamic, cognitive, cognitive–behavioral, and integrative therapists</article-title>. <source>Journal of Psychotherapy Integration</source><year>2009</year>;<volume>19</volume>:<fpage>34</fpage>–<lpage>66</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R7">
+                <label>7.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Shapiro</surname><given-names>DA</given-names></name>, <name name-style="western"><surname>Cavanagh</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Lomas</surname><given-names>H</given-names></name></person-group><article-title>Geographic inequity in the availability of cognitive behavioural therapy in eng land and wales</article-title>. <source>Behavioural and Cognitive Psychotherapy</source><year>2003</year>;<volume>31</volume>:<fpage>185</fpage>–<lpage>92</lpage>. <pub-id pub-id-type="doi">10.1017/S1352465803002066</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="R8">
+                <label>8.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Goodwin</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Koenen</surname><given-names>KC</given-names></name>, <name name-style="western"><surname>Hellman</surname><given-names>F</given-names></name>, <etal>et al</etal></person-group><article-title>Helpseeking and access to mental health treatment for obsessive-compulsive disorder</article-title>. <source>Acta Psychiatr Scand</source><year>2002</year>;<volume>106</volume>:<fpage>143</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1034/j.1600-0447.2002.01221.x</pub-id>
+<pub-id pub-id-type="pmid">12121213</pub-id></mixed-citation>
+              </ref>
+              <ref id="R9">
+                <label>9.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Andersson</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Cuijpers</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Carlbring</surname><given-names>P</given-names></name>, <etal>et al</etal></person-group><article-title>Guided Internet-based vs. face-to-face cognitive behavior therapy for psychiatric and somatic disorders: a systematic review and meta-analysis</article-title>. <source>World Psychiatry</source><year>2014</year>;<volume>13</volume>:<fpage>288</fpage>–<lpage>95</lpage>. <pub-id pub-id-type="doi">10.1002/wps.20151</pub-id>
+<pub-id pub-id-type="pmid">25273302</pub-id></mixed-citation>
+              </ref>
+              <ref id="R10">
+                <label>10.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>El Alaoui</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Hedman</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Kaldo</surname><given-names>V</given-names></name>, <etal>et al</etal></person-group><article-title>Effectiveness of Internet-based cognitive-behavior therapy for social anxiety disorder in clinical psychiatry</article-title>. <source>J Consult Clin Psychol</source><year>2015</year>;<volume>83</volume>:<fpage>902</fpage>–<lpage>14</lpage>. <pub-id pub-id-type="doi">10.1037/a0039198</pub-id>
+<pub-id pub-id-type="pmid">26009780</pub-id></mixed-citation>
+              </ref>
+              <ref id="R11">
+                <label>11.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hedman</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Ljótsson</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Kaldo</surname><given-names>V</given-names></name>, <etal>et al</etal></person-group><article-title>Effectiveness of Internet-based cognitive behaviour therapy for depression in routine psychiatric care</article-title>. <source>J Affect Disord</source><year>2014</year>;<volume>155</volume>:<fpage>49</fpage>–<lpage>58</lpage>. <pub-id pub-id-type="doi">10.1016/j.jad.2013.10.023</pub-id>
+<pub-id pub-id-type="pmid">24238951</pub-id></mixed-citation>
+              </ref>
+              <ref id="R12">
+                <label>12.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hedman</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Ljótsson</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Rück</surname><given-names>C</given-names></name>, <etal>et al</etal></person-group><article-title>Effectiveness of internet-based cognitive behaviour therapy for panic disorder in routine psychiatric care</article-title>. <source>Acta Psychiatr Scand</source><year>2013</year>;<volume>128</volume>:<fpage>457</fpage>–<lpage>67</lpage>. <pub-id pub-id-type="doi">10.1111/acps.12079</pub-id>
+<pub-id pub-id-type="pmid">23406572</pub-id></mixed-citation>
+              </ref>
+              <ref id="R13">
+                <label>13.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Andersson</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Enander</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Andrén</surname><given-names>P</given-names></name>, <etal>et al</etal></person-group><article-title>Internet-based cognitive behaviour therapy for obsessive-compulsive disorder: a randomized controlled trial</article-title>. <source>Psychol Med</source><year>2012</year>;<volume>42</volume>:<fpage>2193</fpage>–<lpage>203</lpage>. <pub-id pub-id-type="doi">10.1017/S0033291712000244</pub-id>
+<pub-id pub-id-type="pmid">22348650</pub-id></mixed-citation>
+              </ref>
+              <ref id="R14">
+                <label>14.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Andersson</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Hedman</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Enander</surname><given-names>J</given-names></name>, <etal>et al</etal></person-group><article-title>D-cycloserine vs placebo as adjunct to cognitive behavioral therapy for obsessive-compulsive disorder and interaction with antidepressants: a randomized clinical trial</article-title>. <source>JAMA Psychiatry</source><year>2015</year>;<volume>72</volume>:<fpage>659</fpage>–<lpage>67</lpage>. <pub-id pub-id-type="doi">10.1001/jamapsychiatry.2015.0546</pub-id>
+<pub-id pub-id-type="pmid">25970252</pub-id></mixed-citation>
+              </ref>
+              <ref id="R15">
+                <label>15.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Andersson</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Ljótsson</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Hedman</surname><given-names>E</given-names></name>, <etal>et al</etal></person-group><article-title>Internet-based cognitive behavior therapy for obsessive compulsive disorder: a pilot study</article-title>. <source>BMC Psychiatry</source><year>2011</year>;<volume>11</volume>:<elocation-id>125</elocation-id><pub-id pub-id-type="doi">10.1186/1471-244X-11-125</pub-id><pub-id pub-id-type="pmid">21812991</pub-id></mixed-citation>
+              </ref>
+              <ref id="R16">
+                <label>16.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Andersson</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Steneby</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Karlsson</surname><given-names>K</given-names></name>, <etal>et al</etal></person-group><article-title>Long-term efficacy of Internet-based cognitive behavior therapy for obsessive-compulsive disorder with or without booster: a randomized controlled trial</article-title>. <source>Psychol Med</source><year>2014</year>;<volume>44</volume>:<fpage>2877</fpage>–<lpage>87</lpage>. <pub-id pub-id-type="doi">10.1017/S0033291714000543</pub-id>
+<pub-id pub-id-type="pmid">25066102</pub-id></mixed-citation>
+              </ref>
+              <ref id="R17">
+                <label>17.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Wootton</surname><given-names>BM</given-names></name>, <name name-style="western"><surname>Dear</surname><given-names>BF</given-names></name>, <name name-style="western"><surname>Johnston</surname><given-names>L</given-names></name>, <etal>et al</etal></person-group><article-title>Remote treatment of obsessive-compulsive disorder: a randomized controlled trial</article-title>. <source>Journal of Obsessive-Compulsive and Related Disorders</source><year>2013</year>;<volume>2</volume>:<fpage>375</fpage>–<lpage>84</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R18">
+                <label>18.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Mahoney</surname><given-names>AE</given-names></name>, <name name-style="western"><surname>Mackenzie</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Williams</surname><given-names>AD</given-names></name>, <etal>et al</etal></person-group><article-title>Internet cognitive behavioural treatment for obsessive compulsive disorder: a randomised controlled trial</article-title>. <source>Behav Res Ther</source><year>2014</year>;<volume>63</volume>:<fpage>99</fpage>–<lpage>106</lpage>. <pub-id pub-id-type="doi">10.1016/j.brat.2014.09.012</pub-id>
+<pub-id pub-id-type="pmid">25461784</pub-id></mixed-citation>
+              </ref>
+              <ref id="R19">
+                <label>19.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Herbst</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Voderholzer</surname><given-names>U</given-names></name>, <name name-style="western"><surname>Thiel</surname><given-names>N</given-names></name>, <etal>et al</etal></person-group><article-title>No talking, just writing! Efficacy of an internet-based cognitive behavioral therapy with exposure and response prevention in obsessive compulsive disorder</article-title>. <source>Psychother Psychosom</source><year>2014</year>;<volume>83</volume>:<fpage>165</fpage>–<lpage>75</lpage>. <pub-id pub-id-type="doi">10.1159/000357570</pub-id>
+<pub-id pub-id-type="pmid">24732962</pub-id></mixed-citation>
+              </ref>
+              <ref id="R20">
+                <label>20.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lenhard</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Ssegonja</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Andersson</surname><given-names>E</given-names></name>, <etal>et al</etal></person-group><article-title>Cost-effectiveness of therapist-guided internet-delivered cognitive behaviour therapy for paediatric obsessive-compulsive disorder: results from a randomised controlled trial</article-title>. <source>BMJ Open</source><year>2017</year>;<volume>7</volume>:<elocation-id>e015246</elocation-id><pub-id pub-id-type="doi">10.1136/bmjopen-2016-015246</pub-id></mixed-citation>
+              </ref>
+              <ref id="R21">
+                <label>21.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lenhard</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Andersson</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Mataix-Cols</surname><given-names>D</given-names></name>, <etal>et al</etal></person-group><article-title>Therapist-guided, internet-delivered cognitive-behavioral therapy for adolescents with obsessive-compulsive disorder: a randomized controlled trial</article-title>. <source>J Am Acad Child Adolesc Psychiatry</source><year>2017</year>;<volume>56</volume>:<fpage>10</fpage>–<lpage>19</lpage>. <pub-id pub-id-type="doi">10.1016/j.jaac.2016.09.515</pub-id>
+<pub-id pub-id-type="pmid">27993223</pub-id></mixed-citation>
+              </ref>
+              <ref id="R22">
+                <label>22.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hauschildt</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Schröder</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Moritz</surname><given-names>S</given-names></name></person-group><article-title>Randomized-controlled trial on a novel (meta-)cognitive self-help approach for obsessive-compulsive disorder (“myMCT”)</article-title>. <source>Journal of Obsessive-Compulsive and Related Disorders</source><year>2016</year>;<volume>10</volume>:<fpage>26</fpage>–<lpage>34</lpage>. <pub-id pub-id-type="doi">10.1016/j.jocrd.2016.04.010</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="R23">
+                <label>23.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Wootton</surname><given-names>BM</given-names></name>, <name name-style="western"><surname>Dear</surname><given-names>BF</given-names></name>, <name name-style="western"><surname>Johnston</surname><given-names>L</given-names></name>, <etal>et al</etal></person-group><article-title>Self-guided internet administered treatment for obsessive-compulsive disorder: Results from two open trials</article-title>. <source>Journal of Obsessive-Compulsive and Related Disorders</source><year>2014</year>;<volume>3</volume>:<fpage>102</fpage>–<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1016/j.jocrd.2014.03.001</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="R24">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Wootton</surname><given-names>BM</given-names></name>, <name name-style="western"><surname>Dear</surname><given-names>BF</given-names></name>, <name name-style="western"><surname>Johnston</surname><given-names>L</given-names></name>, <etal>et al</etal></person-group><article-title>Self-guided internet-delivered cognitive behavior therapy (iCBT) for obsessive–compulsive disorder: 12 month follow-up</article-title>. <source>Internet Interv</source><year>2015</year>;<volume>2</volume>:<fpage>243</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1016/j.invent.2015.05.003</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="R25">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kenwright</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Marks</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Graham</surname><given-names>C</given-names></name>, <etal>et al</etal></person-group><article-title>Brief scheduled phone support from a clinician to enhance computer-aided self-help for obsessive-compulsive disorder: randomized controlled trial</article-title>. <source>J Clin Psychol</source><year>2005</year>;<volume>61</volume>:<fpage>1499</fpage>–<lpage>508</lpage>. <pub-id pub-id-type="doi">10.1002/jclp.20204</pub-id>
+<pub-id pub-id-type="pmid">16173084</pub-id></mixed-citation>
+              </ref>
+              <ref id="R26">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Mataix-Cols</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Cameron</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Gega</surname><given-names>L</given-names></name>, <etal>et al</etal></person-group><article-title>Effect of referral source on outcome with cognitive-behavior therapy self-help</article-title>. <source>Compr Psychiatry</source><year>2006</year>;<volume>47</volume>:<fpage>241</fpage>–<lpage>5</lpage>. <pub-id pub-id-type="doi">10.1016/j.comppsych.2005.11.007</pub-id>
+<pub-id pub-id-type="pmid">16769296</pub-id></mixed-citation>
+              </ref>
+              <ref id="R27">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lecrubier</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Sheehan</surname><given-names>DV</given-names></name>, <name name-style="western"><surname>Weiller</surname><given-names>E</given-names></name>, <etal>et al</etal></person-group><article-title>The mini international neuropsychiatric interview (MINI). A short diagnostic structured interview: reliability and validity according to the CIDI</article-title>. <source>European Psychiatry</source><year>1997</year>;<volume>12</volume>:<fpage>224</fpage>–<lpage>31</lpage>. <pub-id pub-id-type="doi">10.1016/S0924-9338(97)83296-8</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="R28">
+                <label>28.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>First</surname><given-names>MB</given-names></name></person-group><source>Structured Clinical Interview for the DSM (SCID). The encyclopedia of clinical psychology</source>: <publisher-name>John Wiley &amp; Sons, Inc</publisher-name>, <year>2014</year>.</mixed-citation>
+              </ref>
+              <ref id="R29">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Basoglu</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Marks</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Livanou</surname><given-names>M</given-names></name>, <etal>et al</etal></person-group><article-title>Rater blindness, and ratings of outcome. Observations from a controlled trial</article-title>. <source>Arch Gen Psychiatry</source><year>1997</year>;<volume>54</volume>:<fpage>744</fpage>–<lpage>8</lpage>.<pub-id pub-id-type="pmid">9283510</pub-id></mixed-citation>
+              </ref>
+              <ref id="R30">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Mataix-Cols</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Fernández de la Cruz</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Nordsletten</surname><given-names>AE</given-names></name>, <etal>et al</etal></person-group><article-title>Towards an international expert consensus for defining treatment response, remission, recovery and relapse in obsessive-compulsive disorder</article-title>. <source>World Psychiatry</source><year>2016</year>;<volume>15</volume>:<fpage>80</fpage>–<lpage>1</lpage>. <pub-id pub-id-type="doi">10.1002/wps.20299</pub-id>
+<pub-id pub-id-type="pmid">26833615</pub-id></mixed-citation>
+              </ref>
+              <ref id="R31">
+                <label>31.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Yadin</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Foa</surname><given-names>EL</given-names></name></person-group><source>T Exposure and Response (Ritual) Prevention for obsessive-compulsive disorder: therapist guide</source>: <publisher-name>Oxford University Press</publisher-name>, <year>2012</year>.</mixed-citation>
+              </ref>
+              <ref id="R32">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Goodman</surname><given-names>WK</given-names></name>, <name name-style="western"><surname>Price</surname><given-names>LH</given-names></name>, <name name-style="western"><surname>Rasmussen</surname><given-names>SA</given-names></name>, <etal>et al</etal></person-group><article-title>The yale-brown obsessive compulsive scale. I. Development, use, and reliability</article-title>. <source>Arch Gen Psychiatry</source><year>1989</year>;<volume>46</volume>:<fpage>1006</fpage>–<lpage>11</lpage>.<pub-id pub-id-type="pmid">2684084</pub-id></mixed-citation>
+              </ref>
+              <ref id="R33">
+                <label>33.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Guy</surname><given-names>W</given-names></name></person-group><article-title>Clinical global impression scale. The ECDEU Assessment Manual for Psychopharmacology-Revised Volume DHEW Publ No ADM</article-title>. <year>1976</year>;<volume>76</volume>:<fpage>218</fpage>–<lpage>22</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R34">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Spitzer</surname><given-names>RL</given-names></name>, <name name-style="western"><surname>Gibbon</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Williams</surname><given-names>J</given-names></name>, <etal>et al</etal></person-group><article-title>Global assessment of functioning (GAF) scale</article-title>. <source>Outcome assessment in clinical practice</source><year>1996</year>:<fpage>76</fpage>–<lpage>8</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R35">
+                <label>35.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Foa</surname><given-names>EB</given-names></name>, <name name-style="western"><surname>Huppert</surname><given-names>JD</given-names></name>, <name name-style="western"><surname>Leiberg</surname><given-names>S</given-names></name>, <etal>et al</etal></person-group><article-title>The obsessive-compulsive inventory: development and validation of a short version</article-title>. <source>Psychol Assess</source><year>2002</year>;<volume>14</volume>:<fpage>485</fpage>–<lpage>96</lpage>. <pub-id pub-id-type="doi">10.1037/1040-3590.14.4.485</pub-id>
+<pub-id pub-id-type="pmid">12501574</pub-id></mixed-citation>
+              </ref>
+              <ref id="R36">
+                <label>36.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Svanborg</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Asberg</surname><given-names>M</given-names></name></person-group><article-title>A comparison between the Beck Depression Inventory (BDI) and the self-rating version of the Montgomery Asberg Depression Rating Scale (MADRS)</article-title>. <source>J Affect Disord</source><year>2001</year>;<volume>64</volume>(<issue>2-3</issue>):<fpage>203</fpage>–<lpage>16</lpage>. <pub-id pub-id-type="doi">10.1016/S0165-0327(00)00242-1</pub-id>
+<pub-id pub-id-type="pmid">11313087</pub-id></mixed-citation>
+              </ref>
+              <ref id="R37">
+                <label>37.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Sheehan</surname><given-names>D</given-names></name></person-group><chapter-title>Sheehan disability scale</chapter-title><source>Handbook of psychiatric measures</source>, <year>2000</year>:<fpage>113</fpage>–<lpage>5</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R38">
+                <label>38.</label>
+                <mixed-citation publication-type="journal"><collab>EuroQol Group</collab>. <article-title>EuroQol - a new facility for the measurement of health-related quality of life</article-title>. <source>Health Policy</source><year>1990</year>;<volume>16</volume>:<fpage>199</fpage>–<lpage>208</lpage>. <pub-id pub-id-type="doi">10.1016/0168-8510(90)90421-9</pub-id>
+<pub-id pub-id-type="pmid">10109801</pub-id></mixed-citation>
+              </ref>
+              <ref id="R39">
+                <label>39.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Simpson</surname><given-names>HB</given-names></name>, <name name-style="western"><surname>Maher</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Page</surname><given-names>JR</given-names></name>, <etal>et al</etal></person-group><article-title>Development of a patient adherence scale for exposure and response prevention therapy</article-title>. <source>Behav Ther</source><year>2010</year>;<volume>41</volume>:<fpage>30</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1016/j.beth.2008.12.002</pub-id>
+<pub-id pub-id-type="pmid">20171325</pub-id></mixed-citation>
+              </ref>
+              <ref id="R40">
+                <label>40.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Tracey</surname><given-names>TJ</given-names></name>, <name name-style="western"><surname>Kokotovic</surname><given-names>AM</given-names></name></person-group><article-title>Factor structure of the working alliance inventory</article-title>. <source>Psychological Assessment: A Journal of Consulting and Clinical Psychology</source><year>1989</year>;<volume>1</volume>:<fpage>207</fpage>–<lpage>10</lpage>. <pub-id pub-id-type="doi">10.1037/1040-3590.1.3.207</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="R41">
+                <label>41.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bastien</surname><given-names>CH</given-names></name>, <name name-style="western"><surname>Vallières</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Morin</surname><given-names>CM</given-names></name></person-group><article-title>Validation of the insomnia severity index as an outcome measure for insomnia research</article-title>. <source>Sleep Med</source><year>2001</year>;<volume>2</volume>:<fpage>297</fpage>–<lpage>307</lpage>. <pub-id pub-id-type="doi">10.1016/S1389-9457(00)00065-4</pub-id>
+<pub-id pub-id-type="pmid">11438246</pub-id></mixed-citation>
+              </ref>
+              <ref id="R42">
+                <label>42.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Devilly</surname><given-names>GJ</given-names></name>, <name name-style="western"><surname>Borkovec</surname><given-names>TD</given-names></name></person-group><article-title>Psychometric properties of the credibility/expectancy questionnaire</article-title>. <source>J Behav Ther Exp Psychiatry</source><year>2000</year>;<volume>31</volume>:<fpage>73</fpage>–<lpage>86</lpage>. <pub-id pub-id-type="doi">10.1016/S0005-7916(00)00012-4</pub-id>
+<pub-id pub-id-type="pmid">11132119</pub-id></mixed-citation>
+              </ref>
+              <ref id="R43">
+                <label>43.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Greenhill</surname><given-names>LL</given-names></name>, <name name-style="western"><surname>Vitiello</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Fisher</surname><given-names>P</given-names></name>, <etal>et al</etal></person-group><article-title>Comparison of increasingly detailed elicitation methods for the assessment of adverse events in pediatric psychopharmacology</article-title>. <source>J Am Acad Child Adolesc Psychiatry</source><year>2004</year>;<volume>43</volume>:<fpage>1488</fpage>–<lpage>96</lpage>. <pub-id pub-id-type="doi">10.1097/01.chi.0000142668.29191.13</pub-id>
+<pub-id pub-id-type="pmid">15564818</pub-id></mixed-citation>
+              </ref>
+              <ref id="R44">
+                <label>44.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Cohen</surname><given-names>J</given-names></name></person-group><source>Statistical power analysis for the behavioural sciences. Hillside</source>. <publisher-loc>NJ</publisher-loc>: <publisher-name>Lawrence Earlbaum Associates</publisher-name>, <year>1988</year>.</mixed-citation>
+              </ref>
+              <ref id="R45">
+                <label>45.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lovell</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Cox</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Haddock</surname><given-names>G</given-names></name>, <etal>et al</etal></person-group><article-title>Telephone administered cognitive behaviour therapy for treatment of obsessive compulsive disorder: randomised controlled non-inferiority trial</article-title>. <source>BMJ</source><year>2006</year>;<volume>333</volume>:<fpage>883</fpage><pub-id pub-id-type="doi">10.1136/bmj.38940.355602.80</pub-id><pub-id pub-id-type="pmid">16935946</pub-id></mixed-citation>
+              </ref>
+              <ref id="R46">
+                <label>46.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Turner</surname><given-names>CM</given-names></name>, <name name-style="western"><surname>Mataix-Cols</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Lovell</surname><given-names>K</given-names></name>, <etal>et al</etal></person-group><article-title>Telephone cognitive-behavioral therapy for adolescents with obsessive-compulsive disorder: a randomized controlled non-inferiority trial</article-title>. <source>J Am Acad Child Adolesc Psychiatry</source><year>2014</year>;<volume>53</volume>:<fpage>1298</fpage>–<lpage>307</lpage>. <pub-id pub-id-type="doi">10.1016/j.jaac.2014.09.012</pub-id>
+<pub-id pub-id-type="pmid">25457928</pub-id></mixed-citation>
+              </ref>
+              <ref id="R47">
+                <label>47.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Hakkaart-van Roijen</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Van Straten</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Donker</surname><given-names>M</given-names></name>, <etal>et al</etal></person-group><source>Trimbos/iMTA questionnaire for costs associated with psychiatric illness (TIC-P</source>. <publisher-loc>Rotterdam</publisher-loc>: <publisher-name>Institute for Medical Technology Assessment</publisher-name>, <year>2002</year>.</mixed-citation>
+              </ref>
+              <ref id="R48">
+                <label>48.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Drummond</surname><given-names>MF</given-names></name>, <name name-style="western"><surname>Sculpher</surname><given-names>MJ</given-names></name>, <name name-style="western"><surname>Claxton</surname><given-names>K</given-names></name>, <etal>et al</etal></person-group><source>Methods for the economic evaluation of health care programmes</source>: <publisher-name>Oxford university press</publisher-name>, <year>2015</year>.</mixed-citation>
+              </ref>
+              <ref id="R49">
+                <label>49.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Molinaro</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>Simon</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Pfeiffer</surname><given-names>RM</given-names></name></person-group><article-title>Prediction error estimation: a comparison of resampling methods</article-title>. <source>Bioinformatics</source><year>2005</year>;<volume>21</volume>:<fpage>3301</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1093/bioinformatics/bti499</pub-id>
+<pub-id pub-id-type="pmid">15905277</pub-id></mixed-citation>
+              </ref>
+              <ref id="R50">
+                <label>50.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kim</surname><given-names>J-H</given-names></name></person-group><article-title>Estimating classification error rate: repeated cross-validation, repeated hold-out and bootstrap</article-title>. <source>Comput Stat Data Anal</source><year>2009</year>;<volume>53</volume>:<fpage>3735</fpage>–<lpage>45</lpage>. <pub-id pub-id-type="doi">10.1016/j.csda.2009.04.009</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="R51">
+                <label>51.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bradley</surname><given-names>AP</given-names></name></person-group><article-title>The use of the area under the ROC curve in the evaluation of machine learning algorithms</article-title>. <source>Pattern Recognition</source><year>1997</year>;<volume>30</volume>:<fpage>1145</fpage>–<lpage>59</lpage>. <pub-id pub-id-type="doi">10.1016/S0031-3203(96)00142-2</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="R52">
+                <label>52.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Schulz</surname><given-names>KF</given-names></name>, <name name-style="western"><surname>Altman</surname><given-names>DG</given-names></name>, <name name-style="western"><surname>Moher</surname><given-names>D</given-names></name></person-group><article-title>CONSORT 2010 Statement: updated guidelines for reporting parallel group randomised trials</article-title>. <source>BMC Med</source><year>2010</year>;<volume>8</volume>:<fpage>18</fpage><pub-id pub-id-type="doi">10.1186/1741-7015-8-18</pub-id><pub-id pub-id-type="pmid">20334633</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

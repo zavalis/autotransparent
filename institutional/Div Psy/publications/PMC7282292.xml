@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:03:23Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7282292" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7282292</identifier>
+        <datestamp>2020-06-15</datestamp>
+        <setSpec>bmjo</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMJ Open</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMJ Open</journal-id>
+              <journal-id journal-id-type="hwp">bmjopen</journal-id>
+              <journal-id journal-id-type="publisher-id">bmjopen</journal-id>
+              <journal-title-group>
+                <journal-title>BMJ Open</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2044-6055</issn>
+              <publisher>
+                <publisher-name>BMJ Publishing Group</publisher-name>
+                <publisher-loc>BMA House, Tavistock Square, London, WC1H 9JR</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7282292</article-id>
+              <article-id pub-id-type="pmcid">PMC7282292</article-id>
+              <article-id pub-id-type="pmc-uid">7282292</article-id>
+              <article-id pub-id-type="pmid">32499260</article-id>
+              <article-id pub-id-type="publisher-id">bmjopen-2019-033946</article-id>
+              <article-id pub-id-type="doi">10.1136/bmjopen-2019-033946</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Epidemiology</subject>
+                </subj-group>
+                <subj-group subj-group-type="hwp-journal-coll">
+                  <subject>1506</subject>
+                  <subject>1692</subject>
+                </subj-group>
+                <series-title>Original research</series-title>
+              </article-categories>
+              <title-group>
+                <article-title>Risk of transition from occasional neck/back pain to long-duration activity limiting neck/back pain: a cohort study on the influence of poor work ability and sleep disturbances in the working population in Stockholm County</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="author-32541176" contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-6415-8673</contrib-id>
+                  <name>
+                    <surname>Holm</surname>
+                    <given-names>Lena W</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                </contrib>
+                <contrib id="author-36967157" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-9507-6101</contrib-id>
+                  <name>
+                    <surname>Bohman</surname>
+                    <given-names>Tony</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                </contrib>
+                <contrib id="author-28290412" contrib-type="author">
+                  <name>
+                    <surname>Lekander</surname>
+                    <given-names>Mats</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                </contrib>
+                <contrib id="author-49559771" contrib-type="author">
+                  <name>
+                    <surname>Magnusson</surname>
+                    <given-names>C</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff4">4</xref>
+                </contrib>
+                <contrib id="author-25958631" contrib-type="author">
+                  <name>
+                    <surname>Skillgate</surname>
+                    <given-names>Eva</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff5">5</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><label>1</label><institution content-type="department">Institute of Environmental Medicine</institution>, <institution>Karolinska Institutet</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff2"><label>2</label><institution content-type="department">Stress Research Institute</institution>, <institution>Stockholm University</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff3"><label>3</label><institution content-type="department">Clinical Neuroscience</institution>, <institution>Karolinska Institutet</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff4"><label>4</label><institution content-type="department">Department of Public Health Sciences</institution>, <institution>Karolinska Institutet</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff5"><label>5</label><institution>Sophiahemmet University</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <author-notes>
+                <corresp><label>Correspondence to</label> Dr Lena W Holm; <email>lena.holm@ki.se</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>3</day>
+                <month>6</month>
+                <year>2020</year>
+              </pub-date>
+              <volume>10</volume>
+              <issue>6</issue>
+              <elocation-id>e033946</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>29</day>
+                  <month>8</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>12</day>
+                  <month>3</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>01</day>
+                  <month>5</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© Author(s) (or their employer(s)) 2020. Re-use permitted under CC BY-NC. No commercial re-use. See rights and permissions. Published by BMJ.</copyright-statement>
+                <copyright-year>2020</copyright-year>
+                <license license-type="open-access">
+                  <ali:license_ref start_date="2020-06-02">http://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref>
+                  <license-p>This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non-commercial. See: <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:title="pdf" xlink:href="bmjopen-2019-033946.pdf"/>
+              <self-uri content-type="reviewers-comments-pdf" xlink:href="bmjopen-2019-033946.reviewer_comments.pdf"/>
+              <self-uri content-type="draft-revisions-pdf" xlink:href="bmjopen-2019-033946.draft_revisions.pdf"/>
+              <abstract>
+                <sec>
+                  <title>Objectives</title>
+                  <p>The prevalence of neck/back pain (NBP) is high worldwide. Limited number of studies have investigated workers with occasional NBP regarding the risk of developing long-duration activity limiting NBP (LNBP). The objectives were to assess (1) the effect of poor work ability and sleep disturbances in persons with occasional NBP on the risk of LNBP, and (2) the interaction effect of these exposures.</p>
+                </sec>
+                <sec>
+                  <title>Design</title>
+                  <p>Cohort study based on three subsamples from the Stockholm Public Health Cohort.</p>
+                </sec>
+                <sec>
+                  <title>Settings</title>
+                  <p>The working population in Stockholm County.</p>
+                </sec>
+                <sec>
+                  <title>Participants</title>
+                  <p>Persons aged 18–60 years, reporting occasional NBP the past 6 months at baseline year 2010 (n=16 460).</p>
+                </sec>
+                <sec>
+                  <title>Measures</title>
+                  <p>Work ability was assessed with items from the Work Ability Index, perceived mental and/or physical work ability. Sleep disturbances were self-reported current mild/severe disturbances. The outcome in year 2014 was reporting NBP the previous 6 months, occurring ≥couple of days per week and resulting in decreased work ability/restricted other daily activities. The additive effect of having both poor work ability and sleep disturbances was modelled with a dummy variable, including both exposures. Poisson log-linear regression was used to calculate risk ratios (RRs) and 95% CIs.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p>At follow-up, 9% had developed LNBP. Poor work ability and sleep disturbances were independent risk factors for LNBP; adjusted RR 1.7 (95% CI: 1.4 to 2.0) and 1.4 (95% CI: 1.2 to 1.5), respectively. No additive interaction was observed.</p>
+                </sec>
+                <sec>
+                  <title>Conclusion</title>
+                  <p>Workers with occasional NBP who have poor work ability and/or sleep disturbances are at risk of developing LNBP. Having both conditions does not exceed additive risk.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>epidemiology</kwd>
+                <kwd>occupational &amp; industrial medicine</kwd>
+                <kwd>musculoskeletal disorders</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group id="funding-1">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100002706</institution-id>
+                      <institution>AFA Försäkring</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>170095</award-id>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>special-feature</meta-name>
+                  <meta-value>unlocked</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <boxed-text id="BX1" position="float" orientation="portrait">
+              <caption>
+                <title>Strengths and limitations of this study</title>
+              </caption>
+              <list list-type="bullet">
+                <list-item>
+                  <p>A longitudinal design and the exposures were measured at baseline and the outcome at follow-up 4 years later, thus the temporality has been taken care of.</p>
+                </list-item>
+                <list-item>
+                  <p>Large study population securing statistical power.</p>
+                </list-item>
+                <list-item>
+                  <p>A comprehensive control of confounding factors increases the possibility of causality.</p>
+                </list-item>
+                <list-item>
+                  <p>The main possible limitation is the misclassification of the exposures and the outcome and would, if any, result in an underestimation of the results.</p>
+                </list-item>
+              </list>
+            </boxed-text>
+            <sec sec-type="intro" id="s1">
+              <title>Introduction</title>
+              <p>Despite decades of research aiming to understand how to prevent and treat long-duration activity limiting neck and/or back pain (LNBP), these health conditions seem to increase over time and are the leading causes of disability globally.<xref rid="R1" ref-type="bibr">1 2</xref> Preventive measures are necessary in order to reduce the burden of disease in society and require a knowledge of modifiable risk factors. A recent systemic review of risk factors for the onset of ‘first episode’ neck pain concludes that personal as well as work-related factors play a role in the development of neck pain, some of which are modifiable while others are not.<xref rid="R3" ref-type="bibr">3</xref> Another systematic review concludes that physical activity may reduce the risk of long-duration low back pain,<xref rid="R4" ref-type="bibr">4</xref> while the evidence of risk factors for recurrence of low back pain,<xref rid="R5" ref-type="bibr">5</xref> and neck pain,<xref rid="R6" ref-type="bibr">6</xref> is sparse. Most people experience recurrent occasional short-duration neck and/or back pain (NBP), and it is necessary to identify the factors involved in the transition to long duration and activity limiting pain conditions in order to address these in prevention measures.</p>
+              <p>Self-perceived work ability is a concept that has been widely studied in occupational settings often as a predictor of future sickness absence,<xref rid="R7" ref-type="bibr">7 8</xref> but it has also been shown to be associated with outcomes such as health-related production loss<xref rid="R9" ref-type="bibr">9</xref> and work turnover.<xref rid="R10" ref-type="bibr">10</xref> A frequently used measurement is the Work Ability Index (WAI) and its subscales. WAI consists of seven items including two about perceived work ability in relation to physical and mental work demands.<xref rid="R11" ref-type="bibr">11</xref> Ahlstrom <italic>et al</italic>,<xref rid="R12" ref-type="bibr">12</xref> used both the full WAI and the single-item WAI-S; ‘current work ability compared with the lifetime best’, found that both were associated with sickness absenteeism over a 12-month period. Lundin <italic>et al</italic>
+<xref rid="R13" ref-type="bibr">13</xref> found that this single WAI item had an excellent ability to predict long-term sickness absence and also that the two items covering perceived mental and physical work ability had acceptable predictive validity.</p>
+              <p>Little is known about the impact of perceived work ability on the development of NBP. A recent clinical study of primary care patients with low back pain found an association between higher work ability measured with the WAI item ‘current work ability compared with the lifetime best’ and improvement in work ability, pain and quality of life at follow-up,<xref rid="R14" ref-type="bibr">14</xref> but other than this, the topic appears to have escaped scientific investigation despite the construct’s connection to future ill health.</p>
+              <p>It is well established that impaired sleep increases the risk of several health problems of varying severity, for instance all-cause cardiopulmonary mortality, respiratory tract infections, hypertension as well as depression.<xref rid="R15" ref-type="bibr">15–17</xref> Current evidence suggests that sleep disturbances are a risk factor for the onset of NBP,<xref rid="R18" ref-type="bibr">18</xref> as well as a prognostic factor in subacute or long-lasting pain conditions,<xref rid="R19" ref-type="bibr">19 20</xref> and for sickness absence.<xref rid="R21" ref-type="bibr">21</xref> Hypothesising that poor work ability and sleep disturbances are independent risk factors for the development of LNBP, it is possible that having both factors results in a synergistic effect.</p>
+              <p>Few studies have focused on workers with occasional NBP and their risk of LNBP. We have previously studied job strain and sleep disturbances,<xref rid="R22" ref-type="bibr">22 23</xref> regarding the risk of LNBP and have found that high job strain (high job demands/low job control) and active jobs (high job demands/high job control) as well as sleep disturbances were independent risk factors, but the estimates were modest for both conditions. The results also indicated that sleep disturbances may modify the association between high job strain and long-duration activity limiting neck pain,<xref rid="R22" ref-type="bibr">22</xref> but this was not the case for back pain.<xref rid="R23" ref-type="bibr">23</xref> In another study, also based on workers with occasional neck pain, work-related and leisure time physical activity were assessed for the risk of long-duration activity limiting neck pain, but no associations were found.<xref rid="R24" ref-type="bibr">24</xref>
+</p>
+              <p>In summary, there is some evidence that poor perceived work ability and sleep disturbances contribute to both the onset of and the recovery from pain conditions; however, little is known about the transitions from occasional pain to long-duration pain that affects daily activities, including the spectra from minor restrictions to full work disability. The primary aim of this study was to assess the effect of poor mental and/or poor physical work ability and sleep disturbances, respectively, in persons with occasional NBP, for the risk of developing LNBP. A secondary aim was to assess the additive interaction effect between these two exposures.</p>
+            </sec>
+            <sec sec-type="materials" id="s2">
+              <title>Materials and methods</title>
+              <sec id="s2-1">
+                <title>Design, source and study population</title>
+                <p>A prospective cohort was formed based on three subsamples of the Stockholm Public Health Cohort; one recruited in year 2002 and followed up in years 2006, 2010 and 2014, second formed in 2006 and followed up in 2010 and 2014, and a third formed in 2010 and followed up in 2014. We used the 2010 and 2014 waves as baseline and follow-up, respectively, in all subsamples. The data used (ie, the questions) were defined in the same way in these subsamples in 2010 and 2014.</p>
+                <p>Men and women, aged 18–60 years who were participating in any of the three subsamples in 2010, were included if they reported NBP during the past 6 months up to a couple of days per month but not more often and were responding to any of the two items from the WAI); physical and mental capacity in relation to work demands (indicating that the persons were active in working life) at baseline. NBP was defined based on the questions: ‘Have you had any pain in your upper back or neck in the preceding 6 months?’ and ‘Have you had any pain in your lower back in the preceding 6 months?’ Persons who responded ‘Yes, a couple of days per month or less frequent’ to one or both of these questions fulfilled the criteria for NBP.</p>
+                <p>Persons with sickness absence of more than 90 days during the past 12 months were excluded.</p>
+              </sec>
+              <sec id="s2-2">
+                <title>Exposures</title>
+                <p>The exposure self-perceived physical work ability and mental work ability in relation to work demands was measured with two questions from the WAI. The psychometric properties of this instrument have been tested,<xref rid="R25" ref-type="bibr">25 26</xref> and it is considered stable at a group level, predictive and internally coherent. Physical work ability was measured with the question: ‘How do you rate your current work ability with respect to the physical demands of your work?’ The answering alternatives were: ‘Very good’, ‘Good’, ‘Moderate’, ‘Rather poor’ and ‘Poor’. The variable was dichotomised into poor work ability (‘Moderate’, ‘Rather poor’ or ‘Poor’) and good work ability (‘Very good’ or ‘Rather good’). Mental work ability was measured with the question: ‘How do you rate your current work ability with respect to the psychological and mental demands of your work?’ The alternative response for mental work ability was the same as that for physical work ability, and the variable was dichotomised in the same way. The two items were then merged into ‘poor work ability’ (‘Moderate’, ‘Rather poor’, ‘Poor’ in one or both of the items), whereas those scoring ‘Good’ or ‘Very good’ on both items were categorised as having ‘Good work ability’ (non-exposed).</p>
+                <p>The exposure sleep disturbances were defined as having responded ‘Yes mild’ or ‘Yes severe’ to the question ‘Do you have sleep disturbances?’ Those responding ‘No’ were classified as unexposed.</p>
+              </sec>
+              <sec id="s2-3">
+                <title>Outcome</title>
+                <p>The outcome LNBP was operationalised by the response from the 2014 questionnaire and was defined as having reported NBP during the past 6 months, occurring a couple of days per week or more often and resulting in a decreased work ability/restricted other daily activity.</p>
+              </sec>
+              <sec id="s2-4">
+                <title>Confounding control</title>
+                <p>We investigated several potential confounders based on relevance and on the literature on risk factors for long-lasting NBP (<xref rid="T1" ref-type="table">table 1</xref>). For the work ability exposure, one model was run, adding sleep disturbances as a confounder, and similarly for the model sleep disturbances, one model was run adding work ability as a confounder.</p>
+                <table-wrap id="T1" orientation="portrait" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Description of the variables tested as potential confounders</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">Variables</td>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">Operationalisation *</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Age</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Continuous and categorised in 5-year intervals</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Sex</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Man/woman</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Socioeconomic status</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Based on occupational class, classified according to the Swedish socioeconomic classification, developed by Statistics Sweden and retrieved from National Register in Sweden: a combination of current occupation and highest educational level (six categories)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Body mass index</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Continuous and categorised into underweight &lt;18.5 kg/m<sup>2</sup>, normal weight 18.5<italic>–</italic>24.9 kg/m<sup>2</sup>, overweight 25<italic>–</italic>29.9 kg/m<sup>2</sup>, obese ≥30 kg/m<sup>2</sup>
+</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Daily smoking</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Question: ‘Are you currently smoking daily or almost daily’; response alternatives: ‘Yes,’ ‘No’</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Sedentary leisure time activity</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">‘State your average physical activity during the past 12 months’; leisure time sitting; watching, TV, reading. The response alternatives were added up and categorised into &lt;2 hours/day, 2–3 hours/day and more than 3 hours/day</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Physical activity</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">‘State your physical activity (PA) during the past 12 months’ categorised into walking/cycling less than 20 min/day AND other leisure time PA less than 1 hour/week vs PA (walking/biking, other PA) exceeding these time durations</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Household composition</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Three categories; adult living alone, adult living with other adult(s) with/without children, adult living with children</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Psychological distress</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Derived from the General Health Questionnaire (GHQ12)<xref rid="R38" ref-type="bibr">38 39</xref> and categorised into &lt;3, 3<italic>–</italic>7 and &gt;7</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Long-standing illness</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">The question ‘Do you have any long-duration sickness, health problems as a result of an accident, handicap or other long-duration health problem?’; response alternatives: ‘Yes’,‘No’</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="T1_FN1">
+                      <p>*All variables were retrieved from the baseline questionnaire except socioeconomic status, which is retrieved from National Swedish Registers.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec id="s2-5">
+                <title>Statistical methods</title>
+                <p>Generalised linear models with Poisson log-linear regression were used to estimate the association between the exposures and the outcome. The results are presented as a risk ratio (RR) with 95% CIs. We ran four adjusted models. For work ability, the first model excluding and the second including sleep disturbances, and for sleep disturbances, one model excluding and the second including work ability. This was done since it might be argued that these factors act as mediators rather than confounders.</p>
+                <p>To assess whether the interaction between the two risk factors poor work ability and sleep disturbances deviated from additivity regarding the risk of developing LNBP, we created a dummy variable: having poor work ability/no sleep disturbances, no poor work ability/sleep disturbances, both poor work ability and sleep disturbances.<xref rid="R27" ref-type="bibr">27</xref> Having none of the conditions served as a reference, and this model was run in a Poisson log-linear regression.</p>
+                <p>Factors potentially confounding the effect between the exposures and the outcome were added one at a time to each univariate model. If the crude estimate changed by 5% or more, the factor was considered a confounder and was included in the adjusted model. We also added a variable including the origin of the three subsamples, since, for two of the merged subsamples, the first and second follow-up wave, respectively, were used as baseline in our study.</p>
+                <p>To assess the potential selection bias, attrition analysis was conducted by comparing the prevalence of the main exposure, work ability, among those lost to follow-up and those with missing data on any of the outcome variables, with the prevalence of this exposure among those successfully followed.</p>
+                <p>IBM SPSS V.25 was used.</p>
+              </sec>
+              <sec id="s2-6">
+                <title>Patient and public involvement</title>
+                <p>Patients or the public were not involved in the design or planning of the study.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="s3">
+              <title>Results</title>
+              <p>The total study population was 16 460. Of those, 11 276 were successfully followed up and 11 229 responded to the back/neck pain questions, which gives a follow-up rate of 68% (<xref ref-type="fig" rid="F1">figure 1</xref>).</p>
+              <fig id="F1" orientation="portrait" position="float">
+                <label>Figure 1</label>
+                <caption>
+                  <p>Flowchart of the inclusion of the study population and follow-up. *NBP, neck and/or back pain.</p>
+                </caption>
+                <graphic xlink:href="bmjopen-2019-033946f01"/>
+              </fig>
+              <p>Of the 16 460 participants, 1989 (12%) reported poor work ability and 1392 (8%) reported mild or severe sleep disturbances at baseline. A detailed description of the study population is displayed in <xref rid="T2" ref-type="table">table 2</xref> and stratified into those with poor versus good work ability. Age and sex were relatively evenly distributed across the two groups. The most common occupations represented were intermediate non-manual workers and employed/self-employed professionals/higher civil servants/executives.</p>
+              <table-wrap id="T2" orientation="portrait" position="float">
+                <label>Table 2</label>
+                <caption>
+                  <p>Baseline characteristics of the study population in relation to work ability (n=16 460)</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <thead>
+                    <tr>
+                      <td align="left" valign="bottom" rowspan="2" colspan="1">Characteristic</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="2">Good work ability<break/>n: 14 471 (88%)</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="2">Poor* work ability<break/>n: 1989 (12%)</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">n</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">%</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">n</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">%</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Female</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">8279</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">57</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">1252</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">63</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Age mean (SD)</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">43.2</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">10.0</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">42.9</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">10.5</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Age median (min<italic>–</italic>max)</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">44</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">18<italic>–</italic>60</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">44</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">18<italic>–</italic>60</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="5">Socioeconomic status</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> Unskilled/semiskilled workers</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">1498</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">11</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">406</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">22</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> Skilled workers</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">1401</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">10</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">248</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">13</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> Assistant non-manual workers</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">1932</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">14</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">244</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">13</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> Intermediate non-manual workers</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">4164</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">30</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">468</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">25</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> Employed/self-employed professionals</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">3501</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">25</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">333</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">18</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> Self-employed other than professionals</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">1283</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">9</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">169</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">9</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="5">Household composition</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> Living together with adult (with or without children)</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">11 628</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">81</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">1464</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">74</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> Living with children</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">805</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">5</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">147</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">7</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> Living alone</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">1990</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">14</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">369</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">19</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="5">Body mass index, kg/m<sup>2</sup>
+</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> &lt;18.5</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">187</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">1</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">39</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">2</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> 18.5–24.9</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">7978</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">56</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">1022</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">53</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> 25.0–29.9</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">4628</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">33</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">600</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">31</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> ≥30.0</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">1446</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">10</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">281</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">15</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Daily smoking</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">1424</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">10</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">320</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">16</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="5">Physical activity<bold>†</bold>
+</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> None or low (less than 1 hour/week)</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">1989</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">14</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">445</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">23</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> Intermediate</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">8730</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">60</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">1149</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">58</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> High</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">3288</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">23</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">336</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">17</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> Very high (more than 5 hours/week)</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">424</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">3</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">47</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">2</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="5">Sedentary leisure time (TV, reading, etc)</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> &lt;2 hours/day</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">9111</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">63</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">1038</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">53</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> 2–3 hours/day</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">3740</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">26</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">578</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">29</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> More than 3 hours/day</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">1558</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">11</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">360</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">18</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="5">Sleep disturbances</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> No</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">10 478</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">73</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">914</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">47</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> Yes, mild</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">355</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">25</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">866</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">44</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> Yes, severe</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">237</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">2</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">169</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">9</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="5">Psychological Distress (GHQ12<bold>‡</bold>)</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> No (0–2)</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">12 250</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">85</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">1005</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">51</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> Mild (3–6)</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">1590</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">11</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">485</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">25</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> Severe (7–12)</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">602</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">4</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">493</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">25</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Long-standing illness</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">8200</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">22</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">3837</td>
+                      <td rowspan="1" align="char" char="." valign="top" colspan="1">54</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <fn id="T2_FN1">
+                    <p>Total numbers across rows differ due to internal missing values.</p>
+                  </fn>
+                  <fn id="T2_FN2">
+                    <p>*WAI (Work Ability Index) items,<xref rid="R11" ref-type="bibr">11</xref> self-perceived physical and/or mental work ability in relation to job demands and defined as moderate, rather poor, poor.</p>
+                  </fn>
+                  <fn id="T2_FN3">
+                    <p>†Defined as a combination of cycling/walking and other physical activity expressed as hours per week.</p>
+                  </fn>
+                  <fn id="T2_FN4">
+                    <p>‡GHQ12, General Health Questionnaire–12 items.<xref rid="R38" ref-type="bibr">38</xref>
+</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+              <p>In 2014, 1056 (9%) of the 11 229 responders had developed LNBP. Those successfully followed-up were compared with those who dropped out/had missing information on the outcome (n=5231), with respect to the main exposure work ability. Fifteen per cent of the dropouts had poor work ability compared with 11% among those successfully followed-up.</p>
+              <p>The results of the Poisson log-linear regression analyses are presented in <xref rid="T3 T4" ref-type="table">tables 3 and 4</xref>. Of those with poor work ability, 214 (18%) participants developed LNBP. The confounders in this association were socioeconomic status (SES) and long-standing illness and were therefore adjusted for, yielding an RR of 1.8 (95% CI: 1.6 to 2.2). Adding sleep disturbances to the model yields an RR of 1.7 (95% CI: 1.4 to 2.0) (<xref rid="T3" ref-type="table">table 3</xref>A).</p>
+              <table-wrap id="T3" orientation="portrait" position="float">
+                <label>Table 3</label>
+                <caption>
+                  <p>Association between poor work ability* (A) and sleep disturbances† (B) and long-duration activity limiting neck and/or back pain</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <thead>
+                    <tr>
+                      <td valign="top" align="char" char="." rowspan="1" colspan="1">Cases/all</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Crude RR</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">95% CI</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Model 1‡ adjusted RR</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">95% CI</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Model 2§¶<break/>adjusted RR</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">95% CI</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td align="left" valign="top" colspan="8" rowspan="1">A</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Good work ability</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">842/10 011</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">ref</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">ref</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">ref</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Poor work ability*</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">214/1218</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">2.1</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1.8 to 2.4</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1.8</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1.6 to 2.1</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1.7</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1.4 to 2.0</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" colspan="8" rowspan="1">B</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Good sleep</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> 625/7833</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">ref</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">ref</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">ref</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Sleep disturbances†</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">411/3257</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1.6</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1.4 to 1.8</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1.5</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1.3 to 1.7</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1.4</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1.2 to 1.5</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <fn id="T3_FN1">
+                    <p>*WAI (Work Ability Index) items, self-perceived physical and/or mental work ability in relation to job demands and defined as moderate, rather poor, poor.</p>
+                  </fn>
+                  <fn id="T3_FN2">
+                    <p>†Sleep disturbances=current mild or severe sleep disturbances.</p>
+                  </fn>
+                  <fn id="T3_FN3">
+                    <p>‡Adjusted for socioeconomic status, chronic comorbidity and subsample (years 2002, 2006, 2010).</p>
+                  </fn>
+                  <fn id="T3_FN4">
+                    <p>§Adjusted for socioeconomic status, chronic comorbidity, sleep disturbances and subsample (years 2002, 2006, 2010).</p>
+                  </fn>
+                  <fn id="T3_FN5">
+                    <p>¶Adjusted for socioeconomic status, chronic comorbidity, work ability and subsample (years 2002, 2006, 2010)</p>
+                  </fn>
+                  <fn id="T3_FN6">
+                    <p>RR, risk ratio.</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+              <table-wrap id="T4" orientation="portrait" position="float">
+                <label>Table 4</label>
+                <caption>
+                  <p>Association between different combinations of poor work ability* and sleep disturbances†, and long-duration activity limiting neck and/or back pain</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <thead>
+                    <tr>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1"/>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">Cases/all</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">Crude RR</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">95% CI</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">Adjusted‡ RR</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">95% CI</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Good work ability/no sleep disturbances</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">534/7281</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">ref</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">ref</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Poor work ability/no sleep disturbances</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">91/552</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">2.4</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">2.0 to 3.0</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">2.1</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1.7 to 2.6</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Good work ability/sleep disturbances</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">294/2610</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1.5</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1.3 to 1.8</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1.5</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1.3 to 1.7</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Poor work ability/sleep disturbances</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">117/647</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">2.4</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1.9 to 2.9</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">2.1</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1.6 to 2.6</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <fn id="T4_FN1">
+                    <p>*Assessed with WAI (Work Ability Index) items, self-perceived physical and/or mental work ability in relation to job demands and defined as moderate, rather poor, poor.</p>
+                  </fn>
+                  <fn id="T4_FN2">
+                    <p>†Sleep disturbances=current mild or severe sleep disturbances.</p>
+                  </fn>
+                  <fn id="T4_FN3">
+                    <p>‡Adjusted for socioeconomic status, long-standing illness and subsample (years 2002, 2006, 2010)</p>
+                  </fn>
+                  <fn id="T4_FN4">
+                    <p>RR, risk ratio.</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+              <p>Of those with sleep disturbances, 411 (13%) developed LNBP. SES and long-standing illness were confounders also in the association between sleep disturbances and the outcome (adjusted RR 1.5 (95% CI: 1.3 to 1.7)). Adding poor work ability to the model yields an RR of 1.4 (95% CI: 1.2 to 1.6) (<xref rid="T3" ref-type="table">table 3</xref>B).</p>
+              <p>The analysis including the interaction variable, poor work ability and sleep disturbances showed after adjusting for SES and chronic comorbidity that those solely with poor WAI had a doubly increased risk of developing LNBP (RR 2.1 (95% CI: 1.7 to 2.6)) compared with those with none of the risk factors. Having sleep disturbances solely yields an RR 1.5 (95% CI: 1.3 to 1.7) and having both conditions was similar to having poor WAI only (RR 2.1 (95% CI: 1.7 to 2.6)) (<xref rid="T4" ref-type="table">table 4</xref>).</p>
+            </sec>
+            <sec sec-type="discussion" id="s4">
+              <title>Discussion</title>
+              <p>The results of this study suggest that persons with occasional NBP who assess their work ability (mental and/or physical) as poor, in relation to the work demands, have a higher risk of developing LNBP. Also, those who reported sleep disturbances have a higher risk of such an outcome. The risk in persons with both poor work ability and sleep disturbances was not more than additive.</p>
+              <p>When it comes to research about work ability and NBP, we only found one earlier study, namely on primary care patients with various durations of low back pain. In that prognostic study, they used another item from the WAI when predicting decrease in disability,<xref rid="R14" ref-type="bibr">14</xref> thus it is not comparable with our risk study.</p>
+              <p>The majority of published studies using items from the WAI, when measuring work ability and its impact on health, have sickness absence as the outcome.<xref rid="R7" ref-type="bibr">7 8 28 29</xref> In the present study, we note that only one-third of the cases had a history of sickness absence in the year prior to the follow-up, thus our study adds new knowledge to this topic, since the outcome in our study is not equal or similar to sickness absenteeism or disability pension investigated in previous studies.</p>
+              <p>Perceived physical and/or mental work ability in relation to work demands are theoretically modifiable factors, although they are not always easy to change without changing job or employer. Poor work ability has been shown to be associated with high work turnover,<xref rid="R10" ref-type="bibr">10</xref> thus job change may be an option in order to prevent long-duration activity limiting pain conditions. Another option might be that the employee in dialogue with their employer investigates the possibilities of changes within the current job or that the individual takes their own responsibility for physical and mental health maintenance through self-care such as leisure time physical activity or similar actions.</p>
+              <p>Several studies have shown that sleep disturbance or daytime sleepiness are risk factors for the onset of NBP as well as a factor that impedes recovery<xref rid="R30" ref-type="bibr">30–32</xref> and are also a risk factor for the onset of musculoskeletal pain in general.<xref rid="R33" ref-type="bibr">33 34</xref> One likely mechanism behind the association between sleep disturbances and pain is elevated levels of inflammatory markers triggering the onset of and continuation of pain.<xref rid="R35" ref-type="bibr">35</xref> We have, however, not found any previous studies based on a population with occasional NBP. Sleep disturbance is a modifiable factor, and cognitive behaviour therapy is a recommended treatment for insomnia, the most common sleep disturbance.<xref rid="R36" ref-type="bibr">36</xref> There is also some evidence that cognitive therapy for insomnia may improve other health problems such as depression and anxiety; thus, treating sleep problems may also improve comorbid conditions that in turn are often related to pain.<xref rid="R37" ref-type="bibr">37</xref> It is, therefore, possible that treating sleep problems in persons with occasional NBP may reduce the risk of activity limiting pain, but this needs to be evaluated in future studies.</p>
+              <sec id="s4-1">
+                <title>Strengths</title>
+                <p>This is a population-based longitudinal study covering residents in the largest county in Sweden with a large sample size allowing interaction analysis. Another strength is the thorough control for possible confounding factors in the analyses. Furthermore, although almost one-third of the study participants had dropped out at the follow-up in 2014, the prevalence of the main exposure was 11% and 15% of these successfully followed versus the dropouts. We believe that selection bias has a minor impact on the results, although this cannot be fully ruled out. If the exposed participants who dropped out were less likely to have the outcome compared with the exposed participants who were successfully followed, we may have overestimated the true effect. We excluded those who in 2010 reported that they had a sickness absence of more than 90 days during the 12 months preceding entry to the study. The reason for this was to avoid the issue of major morbidity influencing the participants’ judgement of their work ability for illness not related to NBP, and thus also reducing the risk of null findings when there would be a true risk.</p>
+              </sec>
+              <sec id="s4-2">
+                <title>Limitations</title>
+                <p>The main limitations are possible misclassification due to imprecise or time-varying exposure, resulting in a non-differential exposure misclassification which, if any, will have led to a dilution of the effect estimate. In particular, we believe that the way sleep disturbances were measured may be prone to misclassification. One single question with three response alternatives may not fully capture the concept of sleep disturbances.</p>
+                <p>Also, work ability may be prone to non-differential misclassification, since we did not have access to the full WAI. However, these single questions on perceived work ability in relation to job demands have previously been validated, both against the full WAI<xref rid="R13" ref-type="bibr">13</xref> and when used as predictors for sickness absences with acceptable results.<xref rid="R12" ref-type="bibr">12</xref> Nevertheless, if anything, such misclassification bias would lead to diluted associations. Furthermore, the exposure work ability may change over the follow-up period, most likely due to a job change. Exactly the same proportion among cases and non-cases had changed job/new employer in 2014 compared with 2010 (28%), which to some extent reduces the likelihood of differential misclassification of work ability.</p>
+                <p>There is also a risk of residual confounding due to unprecise measure of confounding factors, such as physical activity, sedentary leisure time activities and smoking, as well as unmeasured confounding. Such bias may have led to underestimation or overestimation of the results. During a 4-year follow-up, time-varying prognostic factors, among other treatment for NBP, may have had an impact on the risk of developing LNBP. Since these are present among exposed as well as unexposed, the most likely effect of such factors would be a dilution of the associations reported.</p>
+                <p>We claim that the results of our study are generalisable to other settings on persons active in working life. Even though the study showed that the absolute risk of LNBP is modest, with less than 10% of those with occasional NBP developing the more severe condition according to our definition, it is a major and expensive public health problem that accumulates over time.</p>
+                <p>This study adds knowledge to the area of why persons with occasional NBP develop long-duration and activity limiting NBP. Paying attention to persons with occasional NBP who have poor perceived work ability and/or sleep disturbances, and taking action accordingly, may reduce this burden of ill health. We welcome future research on the effect of occupational preventive measures for workers with poor work ability.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <supplementary-material content-type="local-data" id="d36e232">
+                <caption>
+                  <title>Reviewer comments</title>
+                </caption>
+                <media mimetype="application" mime-subtype="pdf" xlink:href="bmjopen-2019-033946.reviewer_comments.pdf"/>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="d36e233">
+                <caption>
+                  <title>Author's manuscript</title>
+                </caption>
+                <media mimetype="application" mime-subtype="pdf" xlink:href="bmjopen-2019-033946.draft_revisions.pdf"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>We thank Peeter Fredlund, Research Statistician at Karolinska Institutet and SLL Centre for Epidemiology and Community Medicine, Stockholm, for providing us with the data and for the prompt answers to our questions about the variables.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="other">
+                <p><bold>Contributors:</bold> LWH, TB, ML and ES contributed to the conceptualisation and methodology of the study, which was approved by CM. CM provided the data resources. LWH made the statistical analyses based on a protocol approved by the co-authors. LWH wrote a draft of the manuscript. All authors contributed to the interpretation of the results and critically revised the manuscript and finally approved the last version.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Funding:</bold> The study was funded by AFA- Insurance Grant No 170 095. The funder had no involvement in any of the steps of the manuscript preparation.</p>
+              </fn>
+              <fn fn-type="COI-statement">
+                <p><bold>Competing interests:</bold> Drs ES and LWH are scientific consultants at the Scandinavian College of Naprapathic Manual Medicine and members of their Scientific Board.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Patient and public involvement:</bold> Patients and/or the public were not involved in the design, or conduct, or reporting, or dissemination plans of this research.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Patient consent for publication:</bold> Not required.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Ethics approval:</bold> Ethical approval was obtained from the regional ethical review board in Stockholm (Dnr; 2007/545-31, 2013/497-32 and 2015/1204-32). The questionnaires included information about handling of personal data, and the participants accepted the use of their data by answering to the questionnaires (written informed consent).</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Provenance and peer review:</bold> Not commissioned; externally peer reviewed.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Data availability statement:</bold> Data are available upon reasonable request. Due to ethical restrictions and laws (GDPR) of disclosing personal data, authors have to seek permission to allow us to make the data used in this study available. Data will be available upon request after permission is granted from the Karolinska Institutet’s Ethics Review Board in Stockholm. Inquiries for data access should first be sent to eva.skillgate@ki.se, who will then contact the ethics board for permission to openly share the data.</p>
+              </fn>
+            </fn-group>
+            <ref-list>
+              <title>References</title>
+              <ref id="R1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hoy</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Bain</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Williams</surname><given-names>G</given-names></name>, <etal>et al</etal></person-group><article-title>A systematic review of the global prevalence of low back pain</article-title>. <source>Arthritis Rheum</source><year>2012</year>;<volume>64</volume>:<fpage>2028</fpage>–<lpage>37</lpage>. <pub-id pub-id-type="doi">10.1002/art.34347</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/22231424?><pub-id pub-id-type="pmid">22231424</pub-id></mixed-citation>
+              </ref>
+              <ref id="R2">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hoy</surname><given-names>D</given-names></name>, <name name-style="western"><surname>March</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Woolf</surname><given-names>A</given-names></name>, <etal>et al</etal></person-group><article-title>The global burden of neck pain: estimates from the global burden of disease 2010 study</article-title>. <source>Ann Rheum Dis</source><year>2014</year>;<volume>73</volume>:<fpage>1309</fpage>–<lpage>15</lpage>. <pub-id pub-id-type="doi">10.1136/annrheumdis-2013-204431</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/24482302?><pub-id pub-id-type="pmid">24482302</pub-id></mixed-citation>
+              </ref>
+              <ref id="R3">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kim</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Wiest</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Clark</surname><given-names>K</given-names></name>, <etal>et al</etal></person-group><article-title>Identifying risk factors for first-episode neck pain: a systematic review</article-title>. <source>Musculoskelet Sci Pract</source><year>2018</year>;<volume>33</volume>:<fpage>77</fpage>–<lpage>83</lpage>. <pub-id pub-id-type="doi">10.1016/j.msksp.2017.11.007</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/29197234?><pub-id pub-id-type="pmid">29197234</pub-id></mixed-citation>
+              </ref>
+              <ref id="R4">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Shiri</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Falah-Hassani</surname><given-names>K</given-names></name></person-group><article-title>Does leisure time physical activity protect against low back pain? systematic review and meta-analysis of 36 prospective cohort studies</article-title>. <source>Br J Sports Med</source><year>2017</year>;<volume>51</volume>:<fpage>1410</fpage>–<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1136/bjsports-2016-097352</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28615218?><pub-id pub-id-type="pmid">28615218</pub-id></mixed-citation>
+              </ref>
+              <ref id="R5">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>da Silva</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Mills</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Brown</surname><given-names>BT</given-names></name>, <etal>et al</etal></person-group><article-title>Risk of recurrence of low back pain: a systematic review</article-title>. <source>J Orthop Sports Phys Ther</source><year>2017</year>;<volume>47</volume>:<fpage>305</fpage>–<lpage>13</lpage>. <pub-id pub-id-type="doi">10.2519/jospt.2017.7415</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28355981?><pub-id pub-id-type="pmid">28355981</pub-id></mixed-citation>
+              </ref>
+              <ref id="R6">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Langenfeld</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Humphreys</surname><given-names>BK</given-names></name>, <name name-style="western"><surname>Swanenburg</surname><given-names>J</given-names></name>, <etal>et al</etal></person-group><article-title>Prognostic factors for recurrences in neck pain patients up to 1 year after chiropractic care</article-title>. <source>J Manipulative Physiol Ther</source><year>2015</year>;<volume>38</volume>:<fpage>458</fpage>–<lpage>64</lpage>. <pub-id pub-id-type="doi">10.1016/j.jmpt.2015.06.014</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26385743?><pub-id pub-id-type="pmid">26385743</pub-id></mixed-citation>
+              </ref>
+              <ref id="R7">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Alavinia</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>de Boer</surname><given-names>AGEM</given-names></name>, <name name-style="western"><surname>van Duivenbooden</surname><given-names>JC</given-names></name>, <etal>et al</etal></person-group><article-title>Determinants of work ability and its predictive value for disability</article-title>. <source>Occup Med</source><year>2009</year>;<volume>59</volume>:<elocation-id>kqn148</elocation-id>:<fpage>32</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1093/occmed/kqn148</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/19073989?></mixed-citation>
+              </ref>
+              <ref id="R8">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kinnunen</surname><given-names>U</given-names></name>, <name name-style="western"><surname>Nätti</surname><given-names>J</given-names></name></person-group><article-title>Work ability score and future work ability as predictors of register-based disability pension and long-term sickness absence: a three-year follow-up study</article-title>. <source>Scand J Public Health</source><year>2018</year>;<volume>46</volume>:<fpage>321</fpage>–<lpage>30</lpage>. <pub-id pub-id-type="doi">10.1177/1403494817745190</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/29212430?><pub-id pub-id-type="pmid">29212430</pub-id></mixed-citation>
+              </ref>
+              <ref id="R9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lohela Karlsson</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Busch</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Aboagye</surname><given-names>E</given-names></name>, <etal>et al</etal></person-group><article-title>Validation of a measure of health-related production loss: construct validity and responsiveness - a cohort study</article-title>. <source>BMC Public Health</source><year>2015</year>;<volume>15</volume>:<elocation-id>1148</elocation-id>. <pub-id pub-id-type="doi">10.1186/s12889-015-2449-z</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26584735?><pub-id pub-id-type="pmid">26584735</pub-id></mixed-citation>
+              </ref>
+              <ref id="R10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Rongen</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Robroek</surname><given-names>SJW</given-names></name>, <name name-style="western"><surname>van der Heijden</surname><given-names>BIJM</given-names></name>, <etal>et al</etal></person-group><article-title>Influence of work-related characteristics and work ability on changing employer or leaving the profession among nursing staff</article-title>. <source>J Nurs Manag</source><year>2014</year>;<volume>22</volume>:<fpage>1065</fpage>–<lpage>75</lpage>. <pub-id pub-id-type="doi">10.1111/jonm.12066</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/23941401?><pub-id pub-id-type="pmid">23941401</pub-id></mixed-citation>
+              </ref>
+              <ref id="R11">
+                <label>11</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Tuomi</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Ilmarinen</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Jahkola</surname><given-names>A</given-names></name>, <etal>et al</etal></person-group><source>Work ability index</source>. <publisher-loc>Helsinki</publisher-loc>: <publisher-name>Finnish Institute of Occupational Health</publisher-name>, <year>1998</year>.</mixed-citation>
+              </ref>
+              <ref id="R12">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ahlstrom</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Grimby-Ekman</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Hagberg</surname><given-names>M</given-names></name>, <etal>et al</etal></person-group><article-title>The work ability index and single-item question: associations with sick leave, symptoms, and health--a prospective study of women on long-term sick leave</article-title>. <source>Scand J Work Environ Health</source><year>2010</year>;<volume>36</volume>:<fpage>404</fpage>–<lpage>12</lpage>. <pub-id pub-id-type="doi">10.5271/sjweh.2917</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/20372766?><pub-id pub-id-type="pmid">20372766</pub-id></mixed-citation>
+              </ref>
+              <ref id="R13">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lundin</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Leijon</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Vaez</surname><given-names>M</given-names></name>, <etal>et al</etal></person-group><article-title>Predictive validity of the work ability index and its individual items in the general population</article-title>. <source>Scand J Public Health</source><year>2017</year>;<volume>45</volume>:<fpage>350</fpage>–<lpage>6</lpage>. <pub-id pub-id-type="doi">10.1177/1403494817702759</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28385066?><pub-id pub-id-type="pmid">28385066</pub-id></mixed-citation>
+              </ref>
+              <ref id="R14">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Nordstoga</surname><given-names>AL</given-names></name>, <name name-style="western"><surname>Vasseljen</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Meisingset</surname><given-names>I</given-names></name>, <etal>et al</etal></person-group><article-title>Improvement in work ability, psychological distress and pain sites in relation to low back pain prognosis: a longitudinal observational study in primary care</article-title>. <source>Spine</source><year>2019</year>;<volume>44</volume>:<fpage>E423</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1097/BRS.0000000000002860</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30234815?><pub-id pub-id-type="pmid">30234815</pub-id></mixed-citation>
+              </ref>
+              <ref id="R15">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Parthasarathy</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Vasquez</surname><given-names>MM</given-names></name>, <name name-style="western"><surname>Halonen</surname><given-names>M</given-names></name>, <etal>et al</etal></person-group><article-title>Persistent insomnia is associated with mortality risk</article-title>. <source>Am J Med</source><year>2015</year>;<volume>128</volume>:<fpage>268</fpage>–<lpage>75</lpage>. <pub-id pub-id-type="doi">10.1016/j.amjmed.2014.10.015</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/25447616?><pub-id pub-id-type="pmid">25447616</pub-id></mixed-citation>
+              </ref>
+              <ref id="R16">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Nieters</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Blagitko-Dorfs</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Peter</surname><given-names>H-H</given-names></name>, <etal>et al</etal></person-group><article-title>Psychophysiological insomnia and respiratory tract infections: results of an infection-diary-based cohort study</article-title>. <source>Sleep</source><year>2019</year>;<volume>42</volume>:<elocation-id>sleep/zsz098</elocation-id>. <pub-id pub-id-type="doi">10.1093/sleep/zsz098</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/31099836?><pub-id pub-id-type="pmid">31099836</pub-id></mixed-citation>
+              </ref>
+              <ref id="R17">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Dong</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Yang</surname><given-names>FM</given-names></name></person-group><article-title>Insomnia symptoms predict both future hypertension and depression</article-title>. <source>Prev Med</source><year>2019</year>;<volume>123</volume>:<fpage>41</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1016/j.ypmed.2019.02.001</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30742871?><pub-id pub-id-type="pmid">30742871</pub-id></mixed-citation>
+              </ref>
+              <ref id="R18">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Canivet</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Ostergren</surname><given-names>P-O</given-names></name>, <name name-style="western"><surname>Choi</surname><given-names>B</given-names></name>, <etal>et al</etal></person-group><article-title>Sleeping problems as a risk factor for subsequent musculoskeletal pain and the role of job strain: results from a one-year follow-up of the Malmö shoulder neck study cohort</article-title>. <source>Int J Behav Med</source><year>2008</year>;<volume>15</volume>:<fpage>254</fpage>–<lpage>62</lpage>. <pub-id pub-id-type="doi">10.1080/10705500802365466</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/19005925?><pub-id pub-id-type="pmid">19005925</pub-id></mixed-citation>
+              </ref>
+              <ref id="R19">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kovacs</surname><given-names>FM</given-names></name>, <name name-style="western"><surname>Seco</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Royuela</surname><given-names>A</given-names></name>, <etal>et al</etal></person-group><article-title>Patients with neck pain are less likely to improve if they experience poor sleep quality: a prospective study in routine practice</article-title>. <source>Clin J Pain</source><year>2015</year>;<volume>31</volume>:<fpage>713</fpage>–<lpage>21</lpage>. <pub-id pub-id-type="doi">10.1097/AJP.0000000000000147</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26153781?><pub-id pub-id-type="pmid">26153781</pub-id></mixed-citation>
+              </ref>
+              <ref id="R20">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Paanalahti</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Wertli</surname><given-names>MM</given-names></name>, <name name-style="western"><surname>Held</surname><given-names>U</given-names></name>, <etal>et al</etal></person-group><article-title>Spinal pain--good sleep matters: a secondary analysis of a randomized controlled trial</article-title>. <source>Eur Spine J</source><year>2016</year>;<volume>25</volume>:<fpage>760</fpage>–<lpage>5</lpage>. <pub-id pub-id-type="doi">10.1007/s00586-015-3987-x</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26063054?><pub-id pub-id-type="pmid">26063054</pub-id></mixed-citation>
+              </ref>
+              <ref id="R21">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Aili</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Nyman</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Hillert</surname><given-names>L</given-names></name>, <etal>et al</etal></person-group><article-title>Sleep disturbances predict future sickness absence among individuals with lower back or neck-shoulder pain: a 5-year prospective study</article-title>. <source>Scand J Public Health</source><year>2015</year>;<volume>43</volume>:<fpage>315</fpage>–<lpage>23</lpage>. <pub-id pub-id-type="doi">10.1177/1403494814567755</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/25724467?><pub-id pub-id-type="pmid">25724467</pub-id></mixed-citation>
+              </ref>
+              <ref id="R22">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Rasmussen-Barr</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Grooten</surname><given-names>WJA</given-names></name>, <name name-style="western"><surname>Hallqvist</surname><given-names>J</given-names></name>, <etal>et al</etal></person-group><article-title>Are job strain and sleep disturbances prognostic factors for neck/shoulder/arm pain? a cohort study of a general population of working age in Sweden</article-title>. <source>BMJ Open</source><year>2014</year>;<volume>4</volume>:<elocation-id>e005103</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmjopen-2014-005103</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/25005596?></mixed-citation>
+              </ref>
+              <ref id="R23">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Rasmussen-Barr</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Grooten</surname><given-names>WJA</given-names></name>, <name name-style="western"><surname>Hallqvist</surname><given-names>J</given-names></name>, <etal>et al</etal></person-group><article-title>Are job strain and sleep disturbances prognostic factors for low-back pain?A cohort study of a general population of working age in Sweden</article-title>. <source>J Rehabil Med</source><year>2017</year>;<volume>49</volume>:<fpage>591</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.2340/16501977-2249</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28657642?><pub-id pub-id-type="pmid">28657642</pub-id></mixed-citation>
+              </ref>
+              <ref id="R24">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Palmlöf</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Holm</surname><given-names>LW</given-names></name>, <name name-style="western"><surname>Alfredsson</surname><given-names>L</given-names></name>, <etal>et al</etal></person-group><article-title>The impact of work related physical activity and leisure physical activity on the risk and prognosis of neck pain - a population based cohort study on workers</article-title>. <source>BMC Musculoskelet Disord</source><year>2016</year>;<volume>17</volume>:<elocation-id>s12891-016-1080-1</elocation-id>. <pub-id pub-id-type="doi">10.1186/s12891-016-1080-1</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/27206535?></mixed-citation>
+              </ref>
+              <ref id="R25">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>de Zwart</surname><given-names>BCH</given-names></name>, <name name-style="western"><surname>Frings-Dresen</surname><given-names>MHW</given-names></name>, <name name-style="western"><surname>van Duivenbooden</surname><given-names>JC</given-names></name></person-group><article-title>Test-Retest reliability of the work ability index questionnaire</article-title>. <source>Occup Med</source><year>2002</year>;<volume>52</volume>:<fpage>177</fpage>–<lpage>81</lpage>. <pub-id pub-id-type="doi">10.1093/occmed/52.4.177</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/12091582?></mixed-citation>
+              </ref>
+              <ref id="R26">
+                <label>26</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Radkiewich</surname><given-names>P</given-names></name></person-group><source>Psychometric properties of work ability index in the light of comparative survey study 2004</source>. <edition>2nd International Symposium on Work Ability</edition><publisher-loc>Verona, Italy</publisher-loc>: <publisher-name>Elsevier</publisher-name>, <year>2005</year>.</mixed-citation>
+              </ref>
+              <ref id="R27">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Andersson</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Alfredsson</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Källberg</surname><given-names>H</given-names></name>, <etal>et al</etal></person-group><article-title>Calculating measures of biological interaction</article-title>. <source>Eur J Epidemiol</source><year>2005</year>;<volume>20</volume>:<fpage>575</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1007/s10654-005-7835-x</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/16119429?><pub-id pub-id-type="pmid">16119429</pub-id></mixed-citation>
+              </ref>
+              <ref id="R28">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Alavinia</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>van den Berg</surname><given-names>TIJ</given-names></name>, <name name-style="western"><surname>van Duivenbooden</surname><given-names>C</given-names></name>, <etal>et al</etal></person-group><article-title>Impact of work-related factors, lifestyle, and work ability on sickness absence among Dutch construction workers</article-title>. <source>Scand J Work Environ Health</source><year>2009</year>;<volume>35</volume>:<fpage>325</fpage>–<lpage>33</lpage>. <pub-id pub-id-type="doi">10.5271/sjweh.1340</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/19554244?><pub-id pub-id-type="pmid">19554244</pub-id></mixed-citation>
+              </ref>
+              <ref id="R29">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Jääskeläinen</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Kausto</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Seitsamo</surname><given-names>J</given-names></name>, <etal>et al</etal></person-group><article-title>Work ability index and perceived work ability as predictors of disability pension: a prospective study among Finnish municipal employees</article-title>. <source>Scand J Work Environ Health</source><year>2016</year>;<volume>42</volume>:<fpage>490</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.5271/sjweh.3598</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/27706492?><pub-id pub-id-type="pmid">27706492</pub-id></mixed-citation>
+              </ref>
+              <ref id="R30">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Yabe</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Hagiwara</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Sekiguchi</surname><given-names>T</given-names></name>, <etal>et al</etal></person-group><article-title>Sleep disturbance is associated with new onset and continuation of lower back pain: a longitudinal study among survivors of the great East Japan earthquake</article-title>. <source>Tohoku J Exp Med</source><year>2018</year>;<volume>246</volume>:<fpage>9</fpage>–<lpage>14</lpage>. <pub-id pub-id-type="doi">10.1620/tjem.246.9</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30175723?><pub-id pub-id-type="pmid">30175723</pub-id></mixed-citation>
+              </ref>
+              <ref id="R31">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Gustafsson</surname><given-names>M-L</given-names></name>, <name name-style="western"><surname>Laaksonen</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Aromaa</surname><given-names>M</given-names></name>, <etal>et al</etal></person-group><article-title>The prevalence of neck-shoulder pain, back pain and psychological symptoms in association with daytime sleepiness - a prospective follow-up study of school children aged 10 to 15</article-title>. <source>Scand J Pain</source><year>2018</year>;<volume>18</volume>:<fpage>389</fpage>–<lpage>97</lpage>. <pub-id pub-id-type="doi">10.1515/sjpain-2017-0166</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/29794264?><pub-id pub-id-type="pmid">29794264</pub-id></mixed-citation>
+              </ref>
+              <ref id="R32">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Sawada</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Matsudaira</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Muto</surname><given-names>Y</given-names></name>, <etal>et al</etal></person-group><article-title>Potential risk factors for onset of severe neck and shoulder discomfort (Katakori) in urban Japanese workers</article-title>. <source>Ind Health</source><year>2016</year>;<volume>54</volume>:<fpage>230</fpage>–<lpage>6</lpage>. <pub-id pub-id-type="doi">10.2486/indhealth.2015-0143</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26829974?><pub-id pub-id-type="pmid">26829974</pub-id></mixed-citation>
+              </ref>
+              <ref id="R33">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Nitter</surname><given-names>AK</given-names></name>, <name name-style="western"><surname>Pripp</surname><given-names>AH</given-names></name>, <name name-style="western"><surname>Forseth</surname><given-names>Karin Ø</given-names></name></person-group><article-title>Are sleep problems and non-specific health complaints risk factors for chronic pain? A prospective population-based study with 17 year follow-up</article-title>. <source>Scand J Pain</source><year>2012</year>;<volume>3</volume>:<fpage>210</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1016/j.sjpain.2012.04.001</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/29913872?><pub-id pub-id-type="pmid">29913872</pub-id></mixed-citation>
+              </ref>
+              <ref id="R34">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Generaal</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Vogelzangs</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Penninx</surname><given-names>BWJH</given-names></name>, <etal>et al</etal></person-group><article-title>Insomnia, sleep duration, depressive symptoms, and the onset of chronic multisite musculoskeletal pain</article-title>. <source>Sleep</source><year>2017</year>;<volume>40</volume>:<elocation-id>sleep/zsw030</elocation-id>. <pub-id pub-id-type="doi">10.1093/sleep/zsw030</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28364456?></mixed-citation>
+              </ref>
+              <ref id="R35">
+                <label>35</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Haack</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Sanchez</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Mullington</surname><given-names>JM</given-names></name></person-group><article-title>Elevated inflammatory markers in response to prolonged sleep restriction are associated with increased pain experience in healthy volunteers</article-title>. <source>Sleep</source><year>2007</year>;<volume>30</volume>:<fpage>1145</fpage>–<lpage>52</lpage>. <pub-id pub-id-type="doi">10.1093/sleep/30.9.1145</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/17910386?><pub-id pub-id-type="pmid">17910386</pub-id></mixed-citation>
+              </ref>
+              <ref id="R36">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Koffel</surname><given-names>EA</given-names></name>, <name name-style="western"><surname>Koffel</surname><given-names>JB</given-names></name>, <name name-style="western"><surname>Gehrman</surname><given-names>PR</given-names></name></person-group><article-title>A meta-analysis of group cognitive behavioral therapy for insomnia</article-title>. <source>Sleep Med Rev</source><year>2015</year>;<volume>19</volume>:<fpage>6</fpage>–<lpage>16</lpage>. <pub-id pub-id-type="doi">10.1016/j.smrv.2014.05.001</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/24931811?><pub-id pub-id-type="pmid">24931811</pub-id></mixed-citation>
+              </ref>
+              <ref id="R37">
+                <label>37</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ye</surname><given-names>Y-Y</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>Y-F</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>J</given-names></name>, <etal>et al</etal></person-group><article-title>Internet-Based cognitive behavioral therapy for insomnia (ICBT-i) improves comorbid anxiety and Depression-A meta-analysis of randomized controlled trials</article-title>. <source>PLoS One</source><year>2015</year>;<volume>10</volume>:<elocation-id>e0142258</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0142258</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26581107?><pub-id pub-id-type="pmid">26581107</pub-id></mixed-citation>
+              </ref>
+              <ref id="R38">
+                <label>38</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Goldberg</surname><given-names>DP</given-names></name>, <name name-style="western"><surname>Gater</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Sartorius</surname><given-names>N</given-names></name>, <etal>et al</etal></person-group><article-title>The validity of two versions of the GHQ in the who study of mental illness in general health care</article-title>. <source>Psychol Med</source><year>1997</year>;<volume>27</volume>:<fpage>191</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1017/S0033291796004242</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/9122299?><pub-id pub-id-type="pmid">9122299</pub-id></mixed-citation>
+              </ref>
+              <ref id="R39">
+                <label>39</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lundin</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Hallgren</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Theobald</surname><given-names>H</given-names></name>, <etal>et al</etal></person-group><article-title>Validity of the 12-Item version of the general health questionnaire in detecting depression in the general population</article-title>. <source>Public Health</source><year>2016</year>;<volume>136</volume>:<fpage>66</fpage>–<lpage>74</lpage>. <pub-id pub-id-type="doi">10.1016/j.puhe.2016.03.005</pub-id>
+<?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/27040911?><pub-id pub-id-type="pmid">27040911</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

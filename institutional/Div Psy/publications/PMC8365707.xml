@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:02:04Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8365707" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8365707</identifier>
+        <datestamp>2021-08-23</datestamp>
+        <setSpec>blackwellopen</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" id="jsr13236" xml:lang="en" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">J Sleep Res</journal-id>
+              <journal-id journal-id-type="iso-abbrev">J Sleep Res</journal-id>
+              <journal-id journal-id-type="doi">10.1111/(ISSN)1365-2869</journal-id>
+              <journal-id journal-id-type="publisher-id">JSR</journal-id>
+              <journal-title-group>
+                <journal-title>Journal of Sleep Research</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0962-1105</issn>
+              <issn pub-type="epub">1365-2869</issn>
+              <publisher>
+                <publisher-name>John Wiley and Sons Inc.</publisher-name>
+                <publisher-loc>Hoboken</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8365707</article-id>
+              <article-id pub-id-type="pmcid">PMC8365707</article-id>
+              <article-id pub-id-type="pmc-uid">8365707</article-id>
+              <article-id pub-id-type="pmid">33219629</article-id>
+              <article-id pub-id-type="pmid">33219629</article-id>
+              <article-id pub-id-type="doi">10.1111/jsr.13236</article-id>
+              <article-id pub-id-type="publisher-id">JSR13236</article-id>
+              <article-categories>
+                <subj-group subj-group-type="overline">
+                  <subject>Regular Research Paper</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Sleep, Learning and Memory</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Does insufficient sleep affect how you learn from reward or punishment? Reinforcement learning after 2 nights of sleep restriction</article-title>
+                <alt-title alt-title-type="left-running-head">GERHARDSSON et al.</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="jsr13236-cr-0001" contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Gerhardsson</surname>
+                    <given-names>Andreas</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1087-5519</contrib-id>
+                  <xref rid="jsr13236-aff-0001" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="jsr13236-aff-0002" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <address>
+                    <email>andreas.gerhardsson@su.se</email>
+                  </address>
+                </contrib>
+                <contrib id="jsr13236-cr-0002" contrib-type="author">
+                  <name>
+                    <surname>Porada</surname>
+                    <given-names>Danja K.</given-names>
+                  </name>
+                  <xref rid="jsr13236-aff-0003" ref-type="aff">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib id="jsr13236-cr-0003" contrib-type="author">
+                  <name>
+                    <surname>Lundström</surname>
+                    <given-names>Johan N.</given-names>
+                  </name>
+                  <xref rid="jsr13236-aff-0003" ref-type="aff">
+                    <sup>3</sup>
+                  </xref>
+                  <xref rid="jsr13236-aff-0004" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                  <xref rid="jsr13236-aff-0005" ref-type="aff">
+                    <sup>5</sup>
+                  </xref>
+                  <xref rid="jsr13236-aff-0006" ref-type="aff">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib id="jsr13236-cr-0004" contrib-type="author">
+                  <name>
+                    <surname>Axelsson</surname>
+                    <given-names>John</given-names>
+                  </name>
+                  <xref rid="jsr13236-aff-0001" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="jsr13236-aff-0002" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <xref rid="jsr13236-aff-0003" ref-type="aff">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib id="jsr13236-cr-0005" contrib-type="author">
+                  <name>
+                    <surname>Schwarz</surname>
+                    <given-names>Johanna</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9873-2506</contrib-id>
+                  <xref rid="jsr13236-aff-0002" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <xref rid="jsr13236-aff-0003" ref-type="aff">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="jsr13236-aff-0001">
+                <label>
+                  <sup>1</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Psychology</named-content>
+                <institution>Stockholm University</institution>
+                <city>Stockholm</city>
+                <country country="SE">Sweden</country>
+              </aff>
+              <aff id="jsr13236-aff-0002">
+                <label>
+                  <sup>2</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Psychology</named-content>
+                <named-content content-type="organisation-division">Stress Research Institute</named-content>
+                <institution>Stockholm University</institution>
+                <city>Stockholm</city>
+                <country country="SE">Sweden</country>
+              </aff>
+              <aff id="jsr13236-aff-0003">
+                <label>
+                  <sup>3</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Clinical Neuroscience</named-content>
+                <institution>Karolinska Institute</institution>
+                <city>Stockholm</city>
+                <country country="SE">Sweden</country>
+              </aff>
+              <aff id="jsr13236-aff-0004">
+                <label>
+                  <sup>4</sup>
+                </label>
+                <institution>Monell Chemical Senses Center</institution>
+                <city>Philadelphia</city>
+                <named-content content-type="country-part">PA</named-content>
+                <country country="US">USA</country>
+              </aff>
+              <aff id="jsr13236-aff-0005">
+                <label>
+                  <sup>5</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Psychology</named-content>
+                <institution>University of Pennsylvania</institution>
+                <city>Philadelphia</city>
+                <named-content content-type="country-part">PA</named-content>
+                <country country="US">USA</country>
+              </aff>
+              <aff id="jsr13236-aff-0006">
+                <label>
+                  <sup>6</sup>
+                </label>
+                <named-content content-type="organisation-division">Stockholm University Brain Imaging Centre</named-content>
+                <institution>Stockholm University</institution>
+                <city>Stockholm</city>
+                <country country="SE">Sweden</country>
+              </aff>
+              <author-notes>
+                <corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Andreas Gerhardsson, Department of Psychology, Stockholm University, 106 91 Stockholm, Sweden.<break/>
+Email: <email>andreas.gerhardsson@su.se</email>
+<break/>
+</corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>20</day>
+                <month>11</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="ppub">
+                <month>8</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>30</volume>
+              <issue seq="240">4</issue>
+              <issue-id pub-id-type="doi">10.1111/jsr.v30.4</issue-id>
+              <elocation-id>e13236</elocation-id>
+              <history>
+                <date date-type="rev-recd">
+                  <day>23</day>
+                  <month>10</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="received">
+                  <day>25</day>
+                  <month>5</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>26</day>
+                  <month>10</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <!--Copyright &#x000a9; 2021 European Sleep Research Society-->
+                <copyright-statement content-type="article-copyright">© 2020 The Authors. <italic toggle="yes">Journal of Sleep Research</italic> published by John Wiley &amp; Sons Ltd on behalf of European Sleep Research Society</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf" xlink:href="file:JSR-30-e13236.pdf"/>
+              <abstract id="jsr13236-abs-0001">
+                <title>Abstract</title>
+                <p>To learn from feedback (trial and error) is essential for all species. Insufficient sleep has been found to reduce the sensitivity to feedback as well as increase reward sensitivity. To determine whether insufficient sleep alters learning from positive and negative feedback, healthy participants (<italic toggle="yes">n</italic> = 32, mean age 29.0 years, 18 women) were tested once after normal sleep (8 hr time in bed for 2 nights) and once after 2 nights of sleep restriction (4 hr/night) on a probabilistic selection task where learning behaviour was evaluated in three ways: as generalised learning, short‐term win–stay/lose–shift learning strategies, and trial‐by‐trial learning rate. Sleep restriction did not alter the sensitivity to either positive or negative feedback on generalised learning. Also, short‐term win–stay/lose–shift strategies were not affected by sleep restriction. Similarly, results from computational models that assess the trial‐by‐trial update of stimuli value demonstrated no difference between sleep conditions after the first block. However, a slower learning rate from negative feedback when evaluating all learning blocks was found after sleep restriction. Despite a marked increase in sleepiness and slowed learning rate for negative feedback, sleep restriction did not appear to alter strategies and generalisation of learning from positive or negative feedback.</p>
+              </abstract>
+              <kwd-group>
+                <kwd id="jsr13236-kwd-0001">carrot or stick</kwd>
+                <kwd id="jsr13236-kwd-0002">feedback‐based learning</kwd>
+                <kwd id="jsr13236-kwd-0003">lack of sleep</kwd>
+                <kwd id="jsr13236-kwd-0004">reward or punishment</kwd>
+                <kwd id="jsr13236-kwd-0005">sleep deprivation</kwd>
+                <kwd id="jsr13236-kwd-0006">valanced feedback</kwd>
+              </kwd-group>
+              <counts>
+                <fig-count count="5"/>
+                <table-count count="1"/>
+                <page-count count="10"/>
+                <word-count count="6780"/>
+              </counts>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>source-schema-version-number</meta-name>
+                  <meta-value>2.0</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>cover-date</meta-name>
+                  <meta-value>August 2021</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>details-of-publishers-convertor</meta-name>
+                  <meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.0.5 mode:remove_FC converted:16.08.2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+            <notes>
+              <p content-type="self-citation">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-1001"><string-name><surname>Gerhardsson</surname><given-names>A</given-names></string-name>, <string-name><surname>Porada</surname><given-names>DK</given-names></string-name>, <string-name><surname>Lundström</surname><given-names>JN</given-names></string-name>, <string-name><surname>Axelsson</surname><given-names>J</given-names></string-name>, <string-name><surname>Schwarz</surname><given-names>J</given-names></string-name>. <article-title>Does insufficient sleep affect how you learn from reward or punishment? Reinforcement learning after 2 nights of sleep restriction</article-title>. <source>J Sleep Res</source>.<year>2021</year>;<volume>30</volume>:<elocation-id>e13236</elocation-id>. <pub-id pub-id-type="doi">10.1111/jsr.13236</pub-id><pub-id pub-id-type="pmid">33219629</pub-id></mixed-citation>
+              </p>
+            </notes>
+          </front>
+          <body id="jsr13236-body-0001">
+            <sec id="jsr13236-sec-0001">
+              <label>1</label>
+              <title>INTRODUCTION</title>
+              <p>Reinforcement learning is how we learn from positive (reward) or negative (punishment) feedback and adapt behaviour to maximise reward (Sutton &amp; Barto, <xref rid="jsr13236-bib-0031" ref-type="bibr">2018</xref>). Stemming from early animal behavioural studies, including Ivan Pavlov’s salivating dogs (Todes, <xref rid="jsr13236-bib-0033" ref-type="bibr">1997</xref>) and Thorndike’s law of effect (Thorndike, <xref rid="jsr13236-bib-0032" ref-type="bibr">1911</xref>), reinforcement learning is now being applied to machine learning and neural signalling (Sutton &amp; Barto, <xref rid="jsr13236-bib-0031" ref-type="bibr">2018</xref>). Sleep loss has previously been found to affect the response to feedback (Liu &amp; Zhou, <xref rid="jsr13236-bib-0017" ref-type="bibr">2016</xref>; Whitney et al., <xref rid="jsr13236-bib-0039" ref-type="bibr">2015</xref>). However, whether sleep loss affects the incentives to learn from positive or negative feedback has not yet been explored.</p>
+              <p>The detrimental effects on a range of cognitive functions, including attention and working memory, are well documented for total sleep deprivation (Lim &amp; Dinges, <xref rid="jsr13236-bib-0016" ref-type="bibr">2010</xref>; Pilcher &amp; Huffcutt, <xref rid="jsr13236-bib-0026" ref-type="bibr">1996</xref>), but also for shorter periods of sleep restriction (van Dongen et al., <xref rid="jsr13236-bib-0034" ref-type="bibr">2003</xref>; Lowe et al., <xref rid="jsr13236-bib-0018" ref-type="bibr">2017</xref>). Attentional degradation after sleep loss may in turn cause deficits in item and associative recognition memory (Ratcliff &amp; Van Dongen, <xref rid="jsr13236-bib-0028" ref-type="bibr">2018</xref>). Sleep deprivation increases reward‐seeking tendencies (Venkatraman et al., <xref rid="jsr13236-bib-0037" ref-type="bibr">2011</xref>) and causes an over‐activation in the reward‐related neural circuitries in response to gamble wins (Mullin et al., <xref rid="jsr13236-bib-0024" ref-type="bibr">2013</xref>; Venkatraman et al., <xref rid="jsr13236-bib-0036" ref-type="bibr">2007</xref>), positive images (Gujar et al., <xref rid="jsr13236-bib-0010" ref-type="bibr">2011</xref>), and food desirability (Greer et al., <xref rid="jsr13236-bib-0009" ref-type="bibr">2013</xref>; St‐Onge et al., <xref rid="jsr13236-bib-0030" ref-type="bibr">2012</xref>), compared to normal night sleep. These reward‐seeking tendencies may also be related to findings of attenuated risk‐aversion after sleep loss (Killgore, <xref rid="jsr13236-bib-0011" ref-type="bibr">2015</xref>; Maric et al., <xref rid="jsr13236-bib-0020" ref-type="bibr">2017</xref>). Moreover, studies investigating the response to feedback have found reduced event‐related potentials (ERP) amplitudes after 72 hr of sleep deprivation (Liu &amp; Zhou, <xref rid="jsr13236-bib-0017" ref-type="bibr">2016</xref>) and attenuated skin conductance response after 62 hr of sleep deprivation (Whitney et al., <xref rid="jsr13236-bib-0039" ref-type="bibr">2015</xref>), which in the latter study was associated with an ineffective use of feedback, although the authors did not investigate differences in response to feedback.</p>
+              <p>One of the mechanisms behind a reward‐seeking behaviour after total sleep deprivation can be traced to a reduced availability of D<sub>2</sub> and D<sub>3</sub> dopamine receptors (Volkow et al., <xref rid="jsr13236-bib-0038" ref-type="bibr">2012</xref>), which in turn increases the D<sub>1</sub> receptor activation, making sleep deprived individuals hypersensitive to reward (Krause et al., <xref rid="jsr13236-bib-0012" ref-type="bibr">2017</xref>). Support of a direct link between dopamine availability and reinforcement learning (Garrison et al., <xref rid="jsr13236-bib-0008" ref-type="bibr">2013</xref>) has been found in experimental studies on patients with Parkinson’s disease, where patients <italic toggle="yes">on</italic> dopamine medication prioritised learning from positive feedback while patients <italic toggle="yes">off</italic> medication prioritised avoiding negative feedback (Frank, <xref rid="jsr13236-bib-0005" ref-type="bibr">2004</xref>), or had no specific preference (McCoy et al., <xref rid="jsr13236-bib-0021" ref-type="bibr">2019</xref>). Moreover, reinforcement learning algorithms, such as Q‐learning (Sutton &amp; Barto, <xref rid="jsr13236-bib-0031" ref-type="bibr">2018</xref>), providing a latent measure of the trial‐by‐trial update of the stimuli value have shown that the change in learning rate speed is related to dopamine (McCoy et al., <xref rid="jsr13236-bib-0021" ref-type="bibr">2019</xref>). Indirect evidence on the role of dopamine in reinforcement learning comes from studies on ageing, which leads to increased tendency to avoid negative feedback (Frank &amp; Kong, <xref rid="jsr13236-bib-0006" ref-type="bibr">2008</xref>), and acute stress that can increase the tendency to learn from positive feedback (Lighthall et al., <xref rid="jsr13236-bib-0015" ref-type="bibr">2013</xref>) or reduce the tendency to learn from negative feedback (Petzold et al., <xref rid="jsr13236-bib-0025" ref-type="bibr">2010</xref>).</p>
+              <p>The main aim of the present study was to determine whether 2 nights of sleep restriction affects the incentives to learn from positive or negative feedback using a probabilistic selection task (Frank, <xref rid="jsr13236-bib-0005" ref-type="bibr">2004</xref>). As there is a scarcity of studies on reward processing after sleep restriction, we rely on findings from total sleep deprivation studies and assume that if sleep restriction, similar to total sleep deprivation, increases the reward incentives (Krause et al., <xref rid="jsr13236-bib-0012" ref-type="bibr">2017</xref>), we would expect that the difference in the proportion of correct responses learned from positive compared to negative feedback would be greater following 2 nights of sleep restriction (~4 hr) than after 2 nights of normal sleep (~8 hr).</p>
+              <p>We were mainly interested in the generalised reinforcement learning, that is, to what degree participants prioritised to choose the symbol associated with highest positive value (A) against more neutral symbols (C, D, E and F) or to avoid the symbol associated with the highest negative value (B) against more neutral symbols. As sleep loss has been found to affect attention and working memory (Lim &amp; Dinges, <xref rid="jsr13236-bib-0016" ref-type="bibr">2010</xref>; Lowe et al., <xref rid="jsr13236-bib-0018" ref-type="bibr">2017</xref>), we also investigated if the short‐term learning in the initial learning phase was biased towards positive or negative feedback, as shown in other contexts (Lighthall et al., <xref rid="jsr13236-bib-0015" ref-type="bibr">2013</xref>). In addition, we used a computational Q‐learning algorithm to investigate the trial‐by‐trial value update for the learning rate of positive and negative feedback during the learning phase (Frank et al., <xref rid="jsr13236-bib-0007" ref-type="bibr">2007</xref>; McCoy et al., <xref rid="jsr13236-bib-0021" ref-type="bibr">2019</xref>). We measured sleepiness using the Karolinska Sleepiness Scale (KSS; Åkerstedt &amp; Gillberg, <xref rid="jsr13236-bib-0002" ref-type="bibr">1990</xref>) and subjective stress using a rating scale ranging from 1 = very relaxed (“Väldigt avspänd”) to 9 = extremely stressed (“Extremt stressad”) (Schwarz et al., <xref rid="jsr13236-bib-0029" ref-type="bibr">2018</xref>).</p>
+            </sec>
+            <sec sec-type="methods" id="jsr13236-sec-0002">
+              <label>2</label>
+              <title>METHODS</title>
+              <sec id="jsr13236-sec-0003">
+                <label>2.1</label>
+                <title>Participants</title>
+                <p>A total of 32 healthy individuals (18 women; mean [<italic toggle="yes">SD</italic>] age 29.0 [7.6] years), recruited from the greater Stockholm area, completed this study in a within‐participant cross‐over fashion. All participants were non‐tobacco users (cigarettes and snus), moderate alcohol and coffee consumers (&lt;3 glasses of alcohol and &lt;6 cups of coffee per day), naïve to the Japanese language, not taking regular medication, not working night shifts, and had normal sleep habits with a habitual sleep requirement of between 7.0 and 9.0 hr. Participants demonstrated normal/corrected‐to‐normal visual and auditory acuity, had no physiological or psychiatric pathology that could affect sleep or any of the measured variables, and had not been travelling across more than two time zones during the previous month. The study was approved by the Regional Ethical Review board in Stockholm, Sweden (DNR: 2010/1506‐31, 2016/64‐32), and conducted in accordance with the Helsinki Declaration. All participants provided written informed consent prior to inclusion and received monetary compensation.</p>
+              </sec>
+              <sec id="jsr13236-sec-0004">
+                <label>2.2</label>
+                <title>Protocol</title>
+                <p>Participants were informed about the protocol and performed a training version of the task during an initial screening session. The experimental task was then completed in two test sessions, once after 2 consecutive nights of sleep restriction and once after 2 consecutive nights of normal sleep, in a counterbalanced order with at least a 1‐week wash‐out period of normal sleep between the conditions. Both test sessions took place at the same time of day, with a starting time between 12:30 and 15:00 hours, and began with a calm‐down period of 30 min during which participants completed questionnaires. Subsequently, each participant underwent five to six computerised experimental tasks. The tasks were always presented in the same order, each lasting between 10 and 40 min, with the opportunity to take short breaks in between. After each experimental task, participants completed a short questionnaire about sleepiness and motivation during the just completed task.</p>
+                <p>In the sleep restriction condition, participants were given a 4‐hr sleep opportunity, the exact timing being self‐chosen between 01:00 hours ± 1 hr and 05:00 hours ± 1 hr. In the normal sleep condition, participants were instructed to make sure to get 7–8 hr time in bed between 23:00 hours ± 1 hr and 07:00 hours ± 1 hr. Both conditions were performed in their homes. Adherence to the protocol was controlled with an actiograph, a wrist‐worn movement sensitive device commonly used to measure sleep–wake activity (Actiwatch, Cambridge Neuro‐Technology Ltd.). Participants were additionally instructed to send a text message to the experimenter shortly before going to sleep and shortly after having woken up. In the morning after each experimental night (2 nights of sleep restriction, 2 nights of normal sleep), participants completed a sleep diary, providing information about sleep times, sleep quality, and the feeling of sleepiness in the morning. Napping, hard physical training, as well as consuming caffeine or alcohol was not permitted 2 days before and the day of the test session. Sleep parameters are presented in Table <xref rid="jsr13236-tbl-0001" ref-type="table">1</xref>.</p>
+                <table-wrap position="float" id="jsr13236-tbl-0001" content-type="Table">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Mean (<italic toggle="yes">SD</italic>) and [range] of actiography sleep parameters calculated from the aggregated means of each participant over the 2 nights of measurement</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <thead valign="top">
+                      <tr style="border-bottom:solid 1px #000000">
+                        <th align="left" valign="top" rowspan="1" colspan="1"/>
+                        <th align="left" valign="top" rowspan="1" colspan="1">Normal sleep</th>
+                        <th align="left" valign="top" rowspan="1" colspan="1">Sleep restriction</th>
+                        <th align="left" valign="top" rowspan="1" colspan="1">BF<sub>10</sub>
+</th>
+                        <th align="left" valign="top" rowspan="1" colspan="1">BF<sub>01</sub>
+</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="left" colspan="5" rowspan="1">Actiography</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Time in bed</td>
+                        <td align="left" rowspan="1" colspan="1">07:55 (00:24) [06:58–08:39]</td>
+                        <td align="left" rowspan="1" colspan="1">04:09 (00:12) [03:43–04:40]</td>
+                        <td align="left" rowspan="1" colspan="1">&gt;30</td>
+                        <td align="left" rowspan="1" colspan="1">&lt;1/30</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Sleep start</td>
+                        <td align="left" rowspan="1" colspan="1">23:46 (00:59) [22:16–03:00]</td>
+                        <td align="left" rowspan="1" colspan="1">01:18 (00:44) [23:56–03:45]</td>
+                        <td align="left" rowspan="1" colspan="1">&gt;30</td>
+                        <td align="left" rowspan="1" colspan="1">&lt;1/30</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Sleep end</td>
+                        <td align="left" rowspan="1" colspan="1">07:26 (01:03) [05:54–10:40]</td>
+                        <td align="left" rowspan="1" colspan="1">05:16 (00:44) [03:50–07:12]</td>
+                        <td align="left" rowspan="1" colspan="1">&gt;30</td>
+                        <td align="left" rowspan="1" colspan="1">&lt;1/30</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Assumed sleep</td>
+                        <td align="left" rowspan="1" colspan="1">07:40 (00:27) [06:50–08:59]</td>
+                        <td align="left" rowspan="1" colspan="1">03:58 (00:12) [03:27–04:26]</td>
+                        <td align="left" rowspan="1" colspan="1">&gt;30</td>
+                        <td align="left" rowspan="1" colspan="1">&lt;1/30</td>
+                      </tr>
+                      <tr>
+                        <td align="left" colspan="5" rowspan="1">Sleep diary</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Well rested (5 = fully, 1 = not at all)</td>
+                        <td align="left" rowspan="1" colspan="1">3.6 (0.9) [1.5–5]</td>
+                        <td align="left" rowspan="1" colspan="1">1.7 (0.6) [0.5–3]</td>
+                        <td align="left" rowspan="1" colspan="1">&gt;30</td>
+                        <td align="left" rowspan="1" colspan="1">&lt;1/30</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Easy to get up (5 = very easy, 1 = very difficult)</td>
+                        <td align="left" rowspan="1" colspan="1">3.7 (0.8) [2–5.0]</td>
+                        <td align="left" rowspan="1" colspan="1">2.3 (0.8) [1–4.5]</td>
+                        <td align="left" rowspan="1" colspan="1">&gt;30</td>
+                        <td align="left" rowspan="1" colspan="1">&lt;1/30</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot id="jsr13236-ntgp-0001">
+                    <fn id="jsr13236-note-0001">
+                      <p>Bayes factors were estimated using Bayesian paired <italic toggle="yes">t</italic> tests with default weakly informative priors (Morey &amp; Rouder, <xref rid="jsr13236-bib-0023" ref-type="bibr">2015</xref>). BF<sub>10</sub> &gt;30 and BF<sub>01</sub> &lt;1/30 indicates very strong evidence for a difference.</p>
+                    </fn>
+                  </table-wrap-foot>
+                  <permissions>
+                    <copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder>
+                  </permissions>
+                </table-wrap>
+              </sec>
+              <sec id="jsr13236-sec-0005">
+                <label>2.3</label>
+                <title>Probabilistic selection task</title>
+                <p>To test reinforcement learning, we used a probabilistic selection task (Frank, <xref rid="jsr13236-bib-0005" ref-type="bibr">2004</xref>). This task consists of a learning phase and a test phase. In the learning phase participants learn from feedback to choose the most likely winner in a pair of ambiguous symbols. Three pairs (A/B, C/D, E/F, see Figure <xref rid="jsr13236-fig-0001" ref-type="fig">1a</xref>) of Japanese Hiragana symbols were presented in a pseudorandomised order on the left and right of the centre of the screen (balanced). Within each pair one symbol was more likely to be the winning symbol, which is to render positive feedback (for the pair A/B the ratio was 80/20, for C/D 70/30 and for E/F 60/40). Each trial (Figure <xref rid="jsr13236-fig-0001" ref-type="fig">1b</xref>) started with a short inter‐trial interval (250 ms) after which the symbols appeared until a response was given or 4,000 ms had passed, in which case the participant was informed that the response was missed. Responses were made by pressing on a keyboard, <italic toggle="yes">A</italic> for the left symbol or <italic toggle="yes">L</italic> for the right symbol and participants were instructed to answer as fast and correctly as possible. Following a response, positive feedback was given as green text stating the Swedish word for “Correct” (Rätt) combined with a sound with ascending pitch, and negative feedback was given as red text stating the Swedish word for “Wrong” (Fel) combined with a sound with a descending pitch. A block consisted of 60 trials where each of the three pairs of symbols was presented 20 times, with balanced lateralisation within the pairs. The learning phase was finished after a block when the participant had reached the learning criteria for all pairs (≥65% A choices for A/B trials, ≥60% C choices for C/D trials, and ≥40% E choices for E/F trials), or reached a maximum of six blocks. In addition, we used a training version of the task at screening, with a different set of characters and more deterministic probabilities, but higher learning criteria. This was done mainly to facilitate the understanding of the task, and to avoid the possibility that sleep restriction would impair the ability to understand the task instructions. Thus, in total three sets of Japanese characters were used. Note that the data from the screening were not included in the analysis. The experiment was designed using Inquisit 4 (<ext-link xlink:href="http://www.millisecond.com" ext-link-type="uri">www.millisecond.com</ext-link>).</p>
+                <fig position="float" fig-type="FIGURE" id="jsr13236-fig-0001">
+                  <label>FIGURE 1</label>
+                  <caption>
+                    <p>(a) Symbol pairs in the training and the two learning sets together with winning probability within each pair. Learning criteria for Set 1 and Set 2 were ≥65% A choices for A/B, ≥60% C choices for C/D, and ≥40% E choices for E/F after each block. (b) Trial example from learning phase. In the test phase (not depicted) no feedback was given and symbol pairs were scrambled</p>
+                  </caption>
+                  <graphic xlink:href="JSR-30-e13236-g004" position="anchor" id="jats-graphic-1"/>
+                </fig>
+                <p>During the test phase, the symbols were mixed, making up 15 combinations that were presented four times, rendering a total of 60 trials. A trial was the same as in the learning phase but without feedback. This phase assesses the ability to generalise. Positive feedback learning is characterised by a higher accuracy for the symbol with highest probability in the learning phase (symbol A) when paired with one of the more neutral stimuli (C, D, E or F) and negative feedback learning by higher accuracy for avoiding the symbol with the lowest probability (symbol B) when paired with the neutral stimuli. Due to the repeated measures design, two different sets of Japanese characters were used and order was counterbalanced between participants.</p>
+              </sec>
+              <sec id="jsr13236-sec-0006">
+                <label>2.4</label>
+                <title>Statistical analysis</title>
+                <p>For all analyses, we used Bayesian generalised linear mixed‐effects models (GLMM) fitted in R (R Core Team, <xref rid="jsr13236-bib-0027" ref-type="bibr">2018</xref>). Mixed‐effects models are in general preferable to single‐level analyses, but especially on repeated measures (McElreath, <xref rid="jsr13236-bib-0022" ref-type="bibr">2016</xref>). A Bayesian approach to the GLMM provides rich information in the full posterior distribution, as compared to point estimates, and allows evaluation of the null hypothesis (Kruschke &amp; Liddell, <xref rid="jsr13236-bib-0014" ref-type="bibr">2018</xref>).</p>
+                <sec id="jsr13236-sec-0007">
+                  <label>2.4.1</label>
+                  <title>Behavioural analyses</title>
+                  <p>For all behavioural analyses we used weakly informative priors with a Student’s <italic toggle="yes">t</italic> distribution (<italic toggle="yes">df</italic> = 3, µ = 0, σ = 2.5) on the intercept and slope. A Cauchy prior (location = 0, scale = 1) was used on the standard deviations (<italic toggle="yes">SDs</italic>). Posterior predictive checks were performed to ensure sufficient model requirements. From the posterior distributions we calculated the highest maximum a posteriori probability estimate (MAP), or the mode of the posterior distribution, and 95% highest density intervals (HDI) for each parameter. However, for best understanding of the data and not merely its summary statistics, readers are encouraged to study the full posterior distribution. A region of practical equivalence (ROPE) was used as proxy for the null hypothesis, with limits set to reflect half of a small effect size (Kruschke, <xref rid="jsr13236-bib-0013" ref-type="bibr">2018</xref>). We also estimated Bayes factors, by taking the likelihood ratios of the posterior distribution falling within or outside the ROPE over the prior distribution (null) falling within or outside the ROPE (Makowski et al., <xref rid="jsr13236-bib-0019" ref-type="bibr">2019</xref>). The Bayes factors denote the evidence of the experimental hypothesis over the null hypothesis (BF<sub>10</sub>) or reversed (BF<sub>01</sub>). A BF<sub>10</sub> &gt;1 or BF<sub>01</sub> &lt;1 indicates evidence for the experimental and BF<sub>10</sub> &lt;1 or BF<sub>01</sub> &gt;1 indicates evidence for the null hypothesis, with level of evidence considered moderate if above 3 or below 1/3, strong if above 10 or below 1/10, and extreme if above 100 or below 1/100 (Beard et al., <xref rid="jsr13236-bib-0003" ref-type="bibr">2016</xref>).</p>
+                </sec>
+                <sec id="jsr13236-sec-0008">
+                  <label>2.4.2</label>
+                  <title>Computational model</title>
+                  <p>For the computational model we used a Q‐learning algorithm, which estimates the trial‐by‐trial expected value update based on the feedback given (Sutton &amp; Barto, <xref rid="jsr13236-bib-0031" ref-type="bibr">2018</xref>). The analytic procedure were based on that of McCoy et al., (<xref rid="jsr13236-bib-0021" ref-type="bibr">2019</xref>), and we adapted the scripts to model sleep as a within subject parameter (scripts available on <ext-link xlink:href="https://osf.io/mtszr/" ext-link-type="uri">https://osf.io/mtszr/</ext-link>). The outcome parameters consisted of two learning rates (α), for positive and negative feedback respectively, and inverse temperature (β) reflecting the consistency in the choices. Weakly informative normally distributed priors (µ = 0, σ = 1) were set on the group level and individual level means and half‐Cauchy priors (location = 0, scale = 5) were set on the group level <italic toggle="yes">SD</italic>s. Q‐values were initialised at 0.5. Parameters were transformed to an inverse probit distribution and centred on zero with a <italic toggle="yes">SD</italic> of 1 and with restrictive boundaries of ± 5 (see Ahn et al., <xref rid="jsr13236-bib-0001" ref-type="bibr">2017</xref>). We fitted one model with data from all learning blocks and one with data from the first learning block only. For evaluative purposes, we also fitted models with a single learning rate parameter (positive and negative combined), although they did not provide a better fit than the models with two learning rate parameters evaluated by leave‐one‐out cross validation (LOO; Vehtari et al., <xref rid="jsr13236-bib-0035" ref-type="bibr">2017</xref>) (see Table <xref rid="jsr13236-sup-0001" ref-type="supplementary-material">S9</xref>).</p>
+                  <p>For further details on the statistical analysis we refer to the Appendix <xref rid="jsr13236-sup-0001" ref-type="supplementary-material">S1</xref>.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="jsr13236-sec-0009">
+              <label>3</label>
+              <title>RESULTS</title>
+              <sec id="jsr13236-sec-0010">
+                <label>3.1</label>
+                <title>Sleepiness increased</title>
+                <p>Participants were markedly sleepier after 2 nights of sleep restriction as indicated by extreme evidence for an increase on the KSS (Åkerstedt &amp; Gillberg, <xref rid="jsr13236-bib-0002" ref-type="bibr">1990</xref>) (observed mean increase in sleepiness = 3.12, <italic toggle="yes">SD</italic> = 2.14, MAP = 3.11, 95% HDI = 2.47–3.78, BF<sub>10</sub> = 1e + 10, BF<sub>01</sub> = 8e − 11). A small increase in subjective stress (Schwarz et al., <xref rid="jsr13236-bib-0029" ref-type="bibr">2018</xref>) (mean increase in stress = 0.72, <italic toggle="yes">SD</italic> = 1.51) was, however, not distinct enough to reach the criterion of moderate evidence (MAP = 0.72, 95% HDI = 0.19–1.28, BF<sub>10</sub> = 2.45, BF<sub>01</sub> = 0.41). For full posterior distributions and observed data see Figure <xref rid="jsr13236-fig-0002" ref-type="fig">2</xref>.</p>
+                <fig position="float" fig-type="FIGURE" id="jsr13236-fig-0002">
+                  <label>FIGURE 2</label>
+                  <caption>
+                    <p>Boxplots show observed sleepiness ratings according to the Karolinska Sleepiness Scale (KSS; Åkerstedt &amp;amp; Gillberg, <xref rid="jsr13236-bib-0002" ref-type="bibr">1990</xref>), and subjective stress ratings (Schwarz et al., <xref rid="jsr13236-bib-0029" ref-type="bibr">2018</xref>) for the normal and restricted sleep conditions. Histograms to the right of each boxplot show the posterior distributions of the difference between sleep conditions with highest density intervals (HDI; thick black horizontal line), highest maximum a posteriori probability estimates (MAP; grey solid vertical line), and the regions of practical equivalence (ROPE; red shading) around zero (dotted line). Sleepiness increased strongly but an increase in stress after sleep restriction was not large enough to be conclusively separated from the ROPE. Bars above the histograms show Bayes factors with level of support for either hypothesis (BF<sub>10</sub>, red; BF<sub>01</sub>, grey) indicated by length of the bar; black lines indicate thresholds for moderate (BF &gt;3), strong (BF &gt;10), and extreme evidence (BF &gt;100) (Beard et al., <xref rid="jsr13236-bib-0003" ref-type="bibr">2016</xref>)</p>
+                  </caption>
+                  <graphic xlink:href="JSR-30-e13236-g002" position="anchor" id="jats-graphic-3"/>
+                </fig>
+              </sec>
+              <sec id="jsr13236-sec-0011">
+                <label>3.2</label>
+                <title>Sleep restriction did not affect win–stay/lose–shift tendencies</title>
+                <p>To investigate short‐term learning, we calculated the proportion of trials where the choice was to select the same symbol that rendered positive feedback on the previous trial (win–stay) and the proportion of trials where the choice was to switch when given negative feedback (lose–shift). In the first block of the learning phase sleep restriction did not affect the proportion of win–stay (MAP = 0.01, 95% HDI = −0.03 to 0.05, BF<sub>10</sub> = 0.008, BF<sub>01</sub> = 127) or lose–shift (MAP = −0.01, 95% HDI = −0.07 to 0.05, BF<sub>10</sub> = 0.009, BF<sub>01</sub> = 108) tendencies. In fact, the data suggest extreme evidence for no meaningful difference between the sleep conditions (see also Figure <xref rid="jsr13236-fig-0003" ref-type="fig">3</xref>). When averaging the data over the two sleep conditions, the proportion of win–stay was higher compared to lose–shift (MAP = 0.30, 95% HDI = 0.26–0.34, BF<sub>10</sub> = 7e + 12, BF<sub>01</sub> = 1e − 13).</p>
+                <fig position="float" fig-type="FIGURE" id="jsr13236-fig-0003">
+                  <label>FIGURE 3</label>
+                  <caption>
+                    <p>Boxplots show observed data for win–stay and lose–shift tendencies during the first block of the learning phase. Histograms to the right of each boxplot show the posterior distributions of the difference between sleep conditions with highest density intervals (HDI; thick black horizontal line), highest maximum a posteriori probability estimates (MAP; grey solid vertical line) and the regions of practical equivalence (ROPE; red shading) around zero (dotted line), indicating no meaningful difference between sleep conditions. Bars above the histograms show Bayes factors with level of support for either hypothesis (BF<sub>10</sub>, red; BF<sub>01</sub>, grey) indicated by length of the bar and black lines indicate thresholds for moderate (BF &gt;3), strong (BF &gt;10), and extreme evidence (BF &gt;100) (Beard et al., <xref rid="jsr13236-bib-0003" ref-type="bibr">2016</xref>)</p>
+                  </caption>
+                  <graphic xlink:href="JSR-30-e13236-g003" position="anchor" id="jats-graphic-5"/>
+                </fig>
+                <p>In addition, we investigated the number of blocks needed to pass the learning criteria. Fewer individuals in the sleep restriction condition passed the criteria before the six‐block limit (26 vs. 30). Here we found that the predicted mean probability of passing the criteria after partial sleep deprivation (0.92) was slightly lower compared to after normal sleep (0.98) with BF<sub>10</sub> = 7.79, BF<sub>01</sub> = 0.13 (Figure <xref rid="jsr13236-sup-0001" ref-type="supplementary-material">S1</xref>). The average number of blocks needed to pass showed no meaningful difference between the sleep conditions (BF<sub>10</sub> = 0.23, BF<sub>01</sub> = 4.26). See Appendix <xref rid="jsr13236-sup-0001" ref-type="supplementary-material">S1</xref> for details. We also performed a supplementary analysis on response times during the learning phase. These showed no difference between sleep conditions (Figure <xref rid="jsr13236-sup-0001" ref-type="supplementary-material">S4</xref>).</p>
+              </sec>
+              <sec id="jsr13236-sec-0012">
+                <label>3.3</label>
+                <title>Sleep restriction did not affect generalized learning incentives</title>
+                <p>In the test phase, we investigated how the participants had generalised the learning from the learning phase. We were specifically interested in whether learning was prioritised for positive or negative feedback. Positive feedback learning is indicated by the proportion of choices of the symbol with highest probability to win (A) over the more neutral symbols (C, D, E, F) and negative feedback learning is indicated by the proportion where the choice was not to select the symbol with least probability to win (B) when paired with the more neutral symbols. Here we also did not observe any differences between sleep conditions in the accuracy for positive (MAP = 0.0, 95% HDI = −0.10 to 0.11, BF<sub>10</sub> = 0.13, BF<sub>01</sub> = 7.54) or negative (MAP = −0.02, 95% HDI = −0.12 to 0.10, BF<sub>10</sub> = 0.11, BF<sub>01</sub> = 9.39) feedback learning. Instead, our data are favour the null hypothesis, that learned associations are practically equal for both positive and negative feedback after sleep restriction compared to normal sleep (Figure <xref rid="jsr13236-fig-0004" ref-type="fig">4</xref>). Collapsing over sleep conditions there was no difference in learning accuracy between positive and negative feedback (MAP = 0.07, 95% HDI = −0.01 to 0.14, BF<sub>10</sub> = 0.26, BF<sub>01</sub> = 3.87).</p>
+                <fig position="float" fig-type="FIGURE" id="jsr13236-fig-0004">
+                  <label>FIGURE 4</label>
+                  <caption>
+                    <p>Boxplots of the observed test phase data for Choose A (positive feedback) and Avoid B (negative feedback). Histograms to the right of each boxplot show the posterior distributions of the difference between sleep conditions with highest density intervals (HDI; thick black horizontal line), highest maximum a posteriori probability estimates (MAP; grey solid vertical line) and the regions of practical equivalence (ROPE; red shading) around zero (dotted line). There was no meaningful difference in generalised learning after sleep restriction. Bars above the histograms show Bayes factors with level of support for either hypothesis (BF<sub>10</sub>, red; BF<sub>01</sub>, grey) is indicated by the length of the bar and black lines indicate thresholds for moderate (BF &gt;3), strong (BF &gt;10), and extreme evidence (BF &gt;100) (Beard et al., <xref rid="jsr13236-bib-0003" ref-type="bibr">2016</xref>)</p>
+                  </caption>
+                  <graphic xlink:href="JSR-30-e13236-g005" position="anchor" id="jats-graphic-7"/>
+                </fig>
+                <p>To investigate whether individuals that did not reach the learning criteria before the six‐block limit would bias the results, we also ran the same analysis excluding the individuals that did not pass the learning criteria within the six blocks. This did not change the results (see Appendix <xref rid="jsr13236-sup-0001" ref-type="supplementary-material">S1</xref>). Like for the learning phase we analysed the response times during the test phase, including Choose A and Avoid B as a fixed parameter. There was no effect of sleep restriction or symbol pair on response times (Figure <xref rid="jsr13236-sup-0001" ref-type="supplementary-material">S9</xref>).</p>
+              </sec>
+              <sec id="jsr13236-sec-0013">
+                <label>3.4</label>
+                <title>Slower learning rate for negative feedback after sleep restriction</title>
+                <p>To study the trial‐by‐trial learning rate during the learning phase we fitted computational models utilising a Q‐learning algorithm for the first block only, as well as all learning blocks together. See Figure <xref rid="jsr13236-fig-0005" ref-type="fig">5</xref> for visualisation of the results. The posterior distribution of the positive learning rate indicated no effect of sleep restriction after the first block (MAP = 0.03, 95% HDI = −0.62 to 0.60, BF<sub>10</sub> = 0.23, BF<sub>01</sub> = 4.29), and anecdotal evidence for slower learning after sleep restriction when evaluating all learning blocks (MAP = −0.52, 95% HDI = −1.07 to −0.05, BF<sub>10</sub> = 2.66, BF<sub>01</sub> = 0.38). For the negative learning rate, there was anecdotal evidence for no effect of sleep restriction after the first block (MAP = −0.21, 95% HDI = −1.36 to 0.52, BF<sub>10</sub> = 0.49, BF<sub>01</sub> = 2.02). However, when considering all learning blocks, there was strong evidence for slower learning after sleep restriction (MAP = −1.65, 95% HDI = −3.63 to −0.56, BF<sub>10</sub> = 82.44, BF<sub>01</sub> = 0.01). To further assess the influence of sleep restriction on positive and negative learning rate, we first calculated the difference in posterior distributions between the positive and the negative learning rate (Positive–Negative) stratified by sleep condition. Then we calculated the differences of these differences to estimate whether sleep restriction affects positive and negative learning rate differentially. Results showed inconclusive evidence both for the data from the first block (MAP = 0.95, 95% HDI = −0.49 to 2.38, BF<sub>10</sub> = 1.88, BF<sub>01</sub> = 0.53) and for the data from all blocks (MAP = 0.15, 95% HDI = −2.27 to 1.61, BF<sub>10</sub> = 0.88, BF<sub>01</sub> = 1.14). For the choice consistency (β), indicating to what extent the individual explored or exploited the options based on the feedback given, there was no difference neither after the first block (MAP = −0.002, 95% HDI = −0.19 to 0.16, BF<sub>10</sub> = 0.03, BF<sub>01</sub> = 34.40) nor after all blocks (MAP = 0.09, 95% HDI = −0.07 to 0.24, BF<sub>10</sub> = 0.06, BF<sub>01</sub> = 17.17).</p>
+                <fig position="float" fig-type="FIGURE" id="jsr13236-fig-0005">
+                  <label>FIGURE 5</label>
+                  <caption>
+                    <p>Posterior distributions of the computational model for the first learning block (left panel) and all learning blocks together (right panel). Boxplots show the estimated individual means drawn from the posterior distribution. Histograms to the right of each boxplot show the inverse probit transformed (φ) posterior distributions with highest density intervals (HDI; thick black horizontal line), highest maximum a posteriori probability estimates (MAP; grey solid vertical line) and the regions of practical equivalence (ROPE; red shading) around zero (dotted line). Bars above the histograms show Bayes factors with level of support for either hypothesis (BF<sub>10</sub>, red; BF<sub>01</sub>, grey) indicated by length of the bar and black lines indicate thresholds for moderate (BF &gt;3), strong (BF &gt;10), and extreme (BF &gt;100) evidence (Beard et al., <xref rid="jsr13236-bib-0003" ref-type="bibr">2016</xref>)</p>
+                  </caption>
+                  <graphic xlink:href="JSR-30-e13236-g001" position="anchor" id="jats-graphic-9"/>
+                </fig>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="jsr13236-sec-0014">
+              <label>4</label>
+              <title>DISCUSSION</title>
+              <p>In the present study, 2 nights of sleep restriction increased sleepiness, but did not affect generalised learning in the test phase of the reinforcement learning task. Utilising Bayesian statistics with Bayes factors showing the probability of one hypothesis over the other, we found that the data favoured the null hypothesis, indicating that participants in both sleep conditions learned equally well from positive and negative feedback. There was no support for sleep restriction having an effect on the neither the win–stay nor lose–shift learning strategies over the first 60 trials of the learning phase. Complementary computational modelling using a Q‐learning algorithm further suggested that learning rate, estimated from the trial‐by‐trial behaviour in the first block of the learning phase did not differ between sleep conditions. However, when evaluating all learning phase blocks, there was strong evidence of slowed learning rate for negative feedback after sleep restriction.</p>
+              <p>We did not observe alterations in generalised learning or win–stay/lose–shift tendencies after sleep restriction, as indicated by the null hypothesis being between seven and &gt;100 times more likely than the experimental hypothesis. Most of the previous research is based on total sleep deprivation (Liu &amp; Zhou, <xref rid="jsr13236-bib-0017" ref-type="bibr">2016</xref>; Whitney et al., <xref rid="jsr13236-bib-0039" ref-type="bibr">2015</xref>) and it is possible that 2 nights of sleep restriction did not have the same effect on reward incentives. It has been hypothesised that adenosine accumulation is involved in the dopamine alterations (Krause et al., <xref rid="jsr13236-bib-0012" ref-type="bibr">2017</xref>), and this accumulation could possibly have been restored enough from the, although short, sleep period (Elmenhorst et al., <xref rid="jsr13236-bib-0004" ref-type="bibr">2017</xref>). Another reason for the lack of effect of sleep restriction on reinforcement learning could be that the probabilistic selection task was not sensitive enough to capture such changes after sleep restriction. On the other hand, other studies using a similar assumption regarding dopamine availability, such as Parkinson’s disease (Frank, <xref rid="jsr13236-bib-0005" ref-type="bibr">2004</xref>; Frank et al., <xref rid="jsr13236-bib-0007" ref-type="bibr">2007</xref>; McCoy et al., <xref rid="jsr13236-bib-0021" ref-type="bibr">2019</xref>) and stress (Lighthall et al., <xref rid="jsr13236-bib-0015" ref-type="bibr">2013</xref>; Petzold et al., <xref rid="jsr13236-bib-0025" ref-type="bibr">2010</xref>), and the same reinforcement learning task, have found an effect on generalised learning. Although the probabilistic selection task is a well‐established paradigm, the feedback may not have triggered a hedonic reward signal comparable to those of economic, food or pleasurable images used in previous sleep deprivation studies (Greer et al., <xref rid="jsr13236-bib-0009" ref-type="bibr">2013</xref>; Gujar et al., <xref rid="jsr13236-bib-0010" ref-type="bibr">2011</xref>; Mullin et al., <xref rid="jsr13236-bib-0024" ref-type="bibr">2013</xref>; Venkatraman et al., <xref rid="jsr13236-bib-0036" ref-type="bibr">2007</xref>). Thus, the reward in our paradigm was potentially too weak or not valued relevant enough to cause detectable behavioural changes after sleep restriction. An avenue for further studies is to investigate the effect of total sleep deprivation on reinforcement learning, possibly combined with more ecologically valid or stronger reinforcers in relation to sleep loss.</p>
+              <p>The results from the computational model suggest that the trial‐by‐trial negative learning rate is affected by sleep restriction when evaluating the full learning phase, but not when only evaluating data from the first block. The win–stay and lose–shift reflected the total proportions of respective behaviour for the first learning phase block, and only considered the response of the previous trial. The Q‐learning estimates, on the other hand, was based on the trial‐by‐trial value update that considers the continuous learning from all previous feedback. For the first block, the results were somewhat in agreement with the win–stay and lose–shift results, although there is uncertainty in the effect of sleep restriction for learning rate from negative feedback. For the data from the full learning phase, we observed a slowing of learning rate after sleep restriction for negative feedback, and a slight slowing for positive feedback that was not confidently supported by the Bayes factor (BF<sub>10</sub> = 2.66). Thus, rather than the hypothesised increase in reward seeking, we observed a slowing of learning speed from negative feedback after sleep restriction that could be related to increased risk‐seeking behaviour found after sleep restriction (Killgore, <xref rid="jsr13236-bib-0011" ref-type="bibr">2015</xref>; Maric et al., <xref rid="jsr13236-bib-0020" ref-type="bibr">2017</xref>). Reinforcement learning algorithms, such as Q‐learning, have been directly linked to dopamine activity (Garrison et al., <xref rid="jsr13236-bib-0008" ref-type="bibr">2013</xref>). Total sleep deprivation has been associated with downregulation of dopamine D<sub>2</sub> receptor availability (Volkow et al., <xref rid="jsr13236-bib-0038" ref-type="bibr">2012</xref>), and lower D<sub>2</sub> receptor availability has been linked to slower learning rate specifically for negative feedback (Frank et al., <xref rid="jsr13236-bib-0007" ref-type="bibr">2007</xref>). Slowing in learning rate could indicate problems in maintaining feedback information in working memory and slower integration of information over time (Frank et al., <xref rid="jsr13236-bib-0007" ref-type="bibr">2007</xref>). Sleep restriction caused a slower learning rate for negative feedback, but to some degree also affected the learning rate for positive feedback. Moreover, high uncertainty in the difference estimates between positive and negative learning rate between the two sleep conditions did not confidently favour one hypothesis over the other. This could be an indication of a general working memory decline or attention deficits commonly found after sleep restriction (Lowe et al., <xref rid="jsr13236-bib-0018" ref-type="bibr">2017</xref>) rather than being associated to specific feedback valence. Lastly, sleep restriction did not affect the inverse temperature (β), indicating that the level of consistency in choice behaviour was similar across conditions.</p>
+              <p>To limit differences between individuals regarding time of task, we used a limit of six blocks for completing the learning phase, regardless of passing the learning criteria or not. After sleep restriction six out of the 32 participants did not reach the criteria within this limit compared to two out of the 32 after normal sleep, a difference with moderate support from the Bayes factor. This could be related to general attentional or working memory impairments after sleep restriction (van Dongen et al., <xref rid="jsr13236-bib-0034" ref-type="bibr">2003</xref>; Lowe et al., <xref rid="jsr13236-bib-0018" ref-type="bibr">2017</xref>), but as this was not a main question of interest further studies are needed to explore the underlying mechanisms for why sleep restriction may reduce the probability of reaching a learning criterion.</p>
+              <p>There are some limitations in the present study worth mentioning. The sleep manipulation was done in the participants’ homes restricting the possibilities of controlling adherence to the protocol. For the 2 manipulation nights, sleep was measured using actiography and sleep diaries. With a few exceptions, these data show satisfactory adherence to the sleep restriction protocol. For the other nights before and in‐between the test sessions we did not measure sleep but relied on the participants keeping to their habitual sleeping pattern and following the instructions not to take naps during the day. However, we have little reason to believe that any divergence from these patterns would be other than random, therefore not changing the conclusions of the study. Finally, these results should be interpreted with the notion that 2 nights of sleep restriction may not be directly transferable to potential effects of total sleep deprivation. Sleep restriction may be a more ecologically valid form of sleep loss, and similar deficits have been found for executive functions and vigilant attention (van Dongen et al., <xref rid="jsr13236-bib-0034" ref-type="bibr">2003</xref>; Lowe et al., <xref rid="jsr13236-bib-0018" ref-type="bibr">2017</xref>), yet less is known about underlying reward incentives after sleep restriction.</p>
+              <p>To conclude, 2 nights of sleep restriction did not affect the accuracy in generalised learning from positive or negative feedback, the win–stay/lose–shift tendencies, and the modelled learning rate in the initial learning phase. However, considering all blocks from the learning phase using a computational modelling approach revealed that sleep restriction causes a slower learning rate for negative feedback.</p>
+            </sec>
+            <sec sec-type="COI-statement" id="jsr13236-sec-0016">
+              <title>CONFLICT OF INTEREST</title>
+              <p>The authors declare no competing interests.</p>
+            </sec>
+            <sec id="jsr13236-sec-0017">
+              <title>AUTHOR CONTRIBUTIONS</title>
+              <p>Conceptualisation: JS, AG and JA; Methodology: JS, AG and JA; Investigation: DKP and JNL; Analysis: AG, JS and JA; Interpretation: AG, JS and JA; Writing – original draft: AG; Writing – Review and Editing: AG, JS, JA, JNL and DKP; Supervision: JS, JA and JNL.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supporting information</title>
+              <supplementary-material id="jsr13236-sup-0001" position="float" content-type="local-data">
+                <caption>
+                  <p>Appendix S1</p>
+                </caption>
+                <media xlink:href="JSR-30-e13236-s001.pdf">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack id="jsr13236-sec-0015">
+              <title>ACKNOWLEDGEMENTS</title>
+              <p>We would like to thank Christina Schmitter for data collection and analysis of the actiograph data, and Tina Sundelin for the instruction to the use of actigraphy.</p>
+            </ack>
+            <sec sec-type="data-availability" id="jsr13236-sec-0019">
+              <title>DATA AVAILABILITY STATEMENT</title>
+              <p>Data and analysis scripts are available via Open Science Framework (<ext-link xlink:href="https://osf.io/mtszr/" ext-link-type="uri" specific-use="software is-supplemented-by">https://osf.io/mtszr/</ext-link>).</p>
+            </sec>
+            <ref-list content-type="cited-references" id="jsr13236-bibl-0001">
+              <title>REFERENCES</title>
+              <ref id="jsr13236-bib-0001">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0001"><string-name><surname>Ahn</surname>, <given-names>W.‐Y.</given-names></string-name>, <string-name><surname>Haines</surname>, <given-names>N.</given-names></string-name>, &amp; <string-name><surname>Zhang</surname>, <given-names>L.</given-names></string-name> (<year>2017</year>). <article-title>Revealing neurocomputational mechanisms of reinforcement learning and decision‐making with the hBayesDM package</article-title>. <source>Computational Psychiatry</source>, <volume>1</volume>, <fpage>24</fpage>–<lpage>57</lpage>.<pub-id pub-id-type="pmid">29601060</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0002">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0002"><string-name><surname>Åkerstedt</surname>, <given-names>T.</given-names></string-name>, &amp; <string-name><surname>Gillberg</surname>, <given-names>M.</given-names></string-name> (<year>1990</year>). <article-title>Subjective and objective sleepiness in the active individual</article-title>. <source>The International Journal of Neuroscience</source>, <volume>1</volume>, <fpage>29</fpage>–<lpage>37</lpage>.</mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0003">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0003"><string-name><surname>Beard</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Dienes</surname>, <given-names>Z.</given-names></string-name>, <string-name><surname>Muirhead</surname>, <given-names>C.</given-names></string-name>, &amp; <string-name><surname>West</surname>, <given-names>R.</given-names></string-name> (<year>2016</year>). <article-title>Using Bayes factors for testing hypotheses about intervention effectiveness in addictions research: Using Bayes factors for testing hypotheses about intervention effectiveness in addictions research</article-title>. <source>Addiction</source>, <volume>111</volume>, <fpage>2230</fpage>–<lpage>2247</lpage>.<pub-id pub-id-type="pmid">27347846</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0004">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0004"><string-name><surname>Elmenhorst</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Elmenhorst</surname>, <given-names>E. M.</given-names></string-name>, <string-name><surname>Hennecke</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Kroll</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Matusch</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Aeschbach</surname>, <given-names>D.</given-names></string-name>, &amp; <string-name><surname>Bauer</surname>, <given-names>A.</given-names></string-name> (<year>2017</year>). <article-title>Recovery sleep after extended wakefulness restores elevated A<sub>1</sub> adenosine receptor availability in the human brain</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>, <volume>114</volume>, <fpage>4243</fpage>–<lpage>4248</lpage>.<pub-id pub-id-type="pmid">28373571</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0005">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0005"><string-name><surname>Frank</surname>, <given-names>M. J.</given-names></string-name> (<year>2004</year>). <article-title>By carrot or by stick: Cognitive reinforcement learning in parkinsonism</article-title>. <source>Science</source>, <volume>306</volume>, <fpage>1940</fpage>–<lpage>1943</lpage>.<pub-id pub-id-type="pmid">15528409</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0006">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0006"><string-name><surname>Frank</surname>, <given-names>M. J.</given-names></string-name>, &amp; <string-name><surname>Kong</surname>, <given-names>L.</given-names></string-name> (<year>2008</year>). <article-title>Learning to avoid in older age</article-title>. <source>Psychology and Aging</source>, <volume>23</volume>, <fpage>392</fpage>–<lpage>398</lpage>.<pub-id pub-id-type="pmid">18573012</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0007">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0007"><string-name><surname>Frank</surname>, <given-names>M. J.</given-names></string-name>, <string-name><surname>Moustafa</surname>, <given-names>A. A.</given-names></string-name>, <string-name><surname>Haughey</surname>, <given-names>H. M.</given-names></string-name>, <string-name><surname>Curran</surname>, <given-names>T.</given-names></string-name>, &amp; <string-name><surname>Hutchison</surname>, <given-names>K. E.</given-names></string-name> (<year>2007</year>). <article-title>Genetic triple dissociation reveals multiple roles for dopamine in reinforcement learning</article-title>. <source>Proceedings of the National Academy of Sciences</source>, <volume>104</volume>, <fpage>16311</fpage>–<lpage>16316</lpage>.</mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0008">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0008"><string-name><surname>Garrison</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Erdeniz</surname>, <given-names>B.</given-names></string-name>, &amp; <string-name><surname>Done</surname>, <given-names>J.</given-names></string-name> (<year>2013</year>). <article-title>Prediction error in reinforcement learning: A meta‐analysis of neuroimaging studies</article-title>. <source>Neuroscience &amp; Biobehavioral Reviews</source>, <volume>37</volume>, <fpage>1297</fpage>–<lpage>1310</lpage>.<pub-id pub-id-type="pmid">23567522</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0009">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0009"><string-name><surname>Greer</surname>, <given-names>S. M.</given-names></string-name>, <string-name><surname>Goldstein</surname>, <given-names>A. N.</given-names></string-name>, &amp; <string-name><surname>Walker</surname>, <given-names>M. P.</given-names></string-name> (<year>2013</year>). <article-title>The impact of sleep deprivation on food desire in the human brain</article-title>. <source>Nature Communications</source>, <volume>4</volume>, <fpage>2259</fpage>.</mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0010">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0010"><string-name><surname>Gujar</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Yoo</surname>, <given-names>S.‐S.</given-names></string-name>, <string-name><surname>Hu</surname>, <given-names>P.</given-names></string-name>, &amp; <string-name><surname>Walker</surname>, <given-names>M.</given-names></string-name> (<year>2011</year>). <article-title>Sleep deprivation amplifies reactivity of brain reward networks, biasing the appraisal of positive emotional experiences</article-title>. <source>The Journal of Neuroscience</source>, <volume>31</volume>, <fpage>4466</fpage>–<lpage>4474</lpage>.<pub-id pub-id-type="pmid">21430147</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0011">
+                <mixed-citation publication-type="book" id="jsr13236-cit-0011"><string-name><surname>Killgore</surname>, <given-names>W. D. S.</given-names></string-name> (<year>2015</year>). <chapter-title>Sleep deprivation and behavioral risk‐taking</chapter-title>. In R. Watson (Ed.), <source>Modulation of Sleep by Obesity, Diabetes, Age, and Diet</source> (pp. <fpage>279</fpage>–<lpage>287</lpage>). <publisher-name>Elsevier</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0012">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0012"><string-name><surname>Krause</surname>, <given-names>A. J.</given-names></string-name>, <string-name><surname>Simon</surname>, <given-names>E. B.</given-names></string-name>, <string-name><surname>Mander</surname>, <given-names>B. A.</given-names></string-name>, <string-name><surname>Greer</surname>, <given-names>S. M.</given-names></string-name>, <string-name><surname>Saletin</surname>, <given-names>J. M.</given-names></string-name>, <string-name><surname>Goldstein‐Piekarski</surname>, <given-names>A. N.</given-names></string-name>, &amp; <string-name><surname>Walker</surname>, <given-names>M. P.</given-names></string-name> (<year>2017</year>). <article-title>The sleep‐deprived human brain</article-title>. <source>Nature Reviews Neuroscience</source>, <volume>18</volume>, <fpage>404</fpage>–<lpage>418</lpage>.<pub-id pub-id-type="pmid">28515433</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0013">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0013"><string-name><surname>Kruschke</surname>, <given-names>J. K.</given-names></string-name> (<year>2018</year>). <article-title>Rejecting or accepting parameter values in Bayesian estimation</article-title>. <source>Advances in Methods and Practices in Psychological Science</source>, <volume>1</volume>, <fpage>11</fpage>.</mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0014">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0014"><string-name><surname>Kruschke</surname>, <given-names>J. K.</given-names></string-name>, &amp; <string-name><surname>Liddell</surname>, <given-names>T. M.</given-names></string-name> (<year>2018</year>). <article-title>The Bayesian New Statistics: Hypothesis testing, estimation, meta‐analysis, and power analysis from a Bayesian perspective</article-title>. <source>Psychonomic Bulletin &amp; Review</source>, <volume>25</volume>, <fpage>178</fpage>–<lpage>206</lpage>.<pub-id pub-id-type="pmid">28176294</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0015">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0015"><string-name><surname>Lighthall</surname>, <given-names>N. R.</given-names></string-name>, <string-name><surname>Gorlick</surname>, <given-names>M. A.</given-names></string-name>, <string-name><surname>Schoeke</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Frank</surname>, <given-names>M. J.</given-names></string-name>, &amp; <string-name><surname>Mather</surname>, <given-names>M.</given-names></string-name> (<year>2013</year>). <article-title>Stress modulates reinforcement learning in younger and older adults</article-title>. <source>Psychology and Aging</source>, <volume>28</volume>, <fpage>35</fpage>–<lpage>46</lpage>.<pub-id pub-id-type="pmid">22946523</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0016">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0016"><string-name><surname>Lim</surname>, <given-names>J.</given-names></string-name>, &amp; <string-name><surname>Dinges</surname>, <given-names>D. F.</given-names></string-name> (<year>2010</year>). <article-title>A meta‐analysis of the impact of short‐term sleep deprivation on cognitive variables</article-title>. <source>Psychological Bulletin</source>, <volume>136</volume>, <fpage>375</fpage>–<lpage>389</lpage>.<pub-id pub-id-type="pmid">20438143</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0017">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0017"><string-name><surname>Liu</surname>, <given-names>L.</given-names></string-name>, &amp; <string-name><surname>Zhou</surname>, <given-names>R.</given-names></string-name> (<year>2016</year>). <article-title>Effect of 72 h of sleep deprivation on the iowa gambling task</article-title>. <source>Archives of Neuropsychiatry</source>, <volume>53</volume>, <fpage>357</fpage>–<lpage>360</lpage>.<pub-id pub-id-type="pmid">28360813</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0018">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0018"><string-name><surname>Lowe</surname>, <given-names>C. J.</given-names></string-name>, <string-name><surname>Safati</surname>, <given-names>A.</given-names></string-name>, &amp; <string-name><surname>Hall</surname>, <given-names>P. A.</given-names></string-name> (<year>2017</year>). <article-title>The neurocognitive consequences of sleep restriction: A meta‐analytic review</article-title>. <source>Neuroscience &amp; Biobehavioral Reviews</source>, <volume>80</volume>, <fpage>586</fpage>–<lpage>604</lpage>.<pub-id pub-id-type="pmid">28757454</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0019">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0019"><string-name><surname>Makowski</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Ben‐Shachar</surname>, <given-names>M.</given-names></string-name>, &amp; <string-name><surname>Lüdecke</surname>, <given-names>D.</given-names></string-name> (<year>2019</year>). <article-title>bayestestR: Describing effects and their uncertainty, existence and significance within the Bayesian framework</article-title>. <source>JOSS</source>, <volume>4</volume>, <fpage>1541</fpage>.</mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0020">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0020"><string-name><surname>Maric</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Montvai</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Werth</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Storz</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Leemann</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Weissengruber</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Ruff</surname>, <given-names>C. C.</given-names></string-name>, <string-name><surname>Huber</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>Poryazova</surname>, <given-names>R.</given-names></string-name>, &amp; <string-name><surname>Baumann</surname>, <given-names>C. R.</given-names></string-name> (<year>2017</year>). <article-title>Insufficient sleep: Enhanced risk‐seeking relates to low local sleep intensity: Insufficient sleep increases risk‐seeking</article-title>. <source>Annals of Neurology</source>, <volume>82</volume>, <fpage>409</fpage>–<lpage>418</lpage>.<pub-id pub-id-type="pmid">28833531</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0021">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0021"><string-name><surname>McCoy</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Jahfari</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Engels</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Knapen</surname>, <given-names>T.</given-names></string-name>, &amp; <string-name><surname>Theeuwes</surname>, <given-names>J.</given-names></string-name> (<year>2019</year>). <article-title>Dopaminergic medication reduces striatal sensitivity to negative outcomes in Parkinson’s disease</article-title>. <source>Brain</source>, <volume>142</volume>, <fpage>3605</fpage>–<lpage>3620</lpage>.<pub-id pub-id-type="pmid">31603493</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0022">
+                <mixed-citation publication-type="book" id="jsr13236-cit-0022"><string-name><surname>McElreath</surname>, <given-names>R.</given-names></string-name> (<year>2016</year>). <source>Statistical rethinking: A Bayesian course with examples in R and Stan</source>, <edition>1</edition>, <publisher-loc>New York</publisher-loc>: <publisher-name>Chapman and Hall/CRC</publisher-name>. <pub-id pub-id-type="doi">10.1201/9781315372495</pub-id>.</mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0023">
+                <mixed-citation publication-type="book" id="jsr13236-cit-0023"><string-name><surname>Morey</surname>, <given-names>R. D.</given-names></string-name>, &amp; <string-name><surname>Rouder</surname>, <given-names>J. N.</given-names></string-name> (<year>2015</year>). <source>BayesFactor: Computation of Bayes Factors for Common Designs</source>. Retrieved from <ext-link xlink:href="https://cran.r-project.org/web/packages/BayesFactor/index.html" ext-link-type="uri">https://cran.r‐project.org/web/packages/BayesFactor/index.html</ext-link>
+</mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0024">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0024"><string-name><surname>Mullin</surname>, <given-names>B. C.</given-names></string-name>, <string-name><surname>Phillips</surname>, <given-names>M. L.</given-names></string-name>, <string-name><surname>Siegle</surname>, <given-names>G. J.</given-names></string-name>, <string-name><surname>Buysse</surname>, <given-names>D. J.</given-names></string-name>, <string-name><surname>Forbes</surname>, <given-names>E. E.</given-names></string-name>, &amp; <string-name><surname>Franzen</surname>, <given-names>P. L.</given-names></string-name> (<year>2013</year>). <article-title>Sleep deprivation amplifies striatal activation to monetary reward</article-title>. <source>Psychological Medicine</source>, <volume>43</volume>, <fpage>2215</fpage>–<lpage>2225</lpage>.<pub-id pub-id-type="pmid">23286303</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0025">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0025"><string-name><surname>Petzold</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Plessow</surname>, <given-names>F.</given-names></string-name>, <string-name><surname>Goschke</surname>, <given-names>T.</given-names></string-name>, &amp; <string-name><surname>Kirschbaum</surname>, <given-names>C.</given-names></string-name> (<year>2010</year>). <article-title>Stress reduces use of negative feedback in a feedback‐based learning task</article-title>. <source>Behavioral Neuroscience</source>, <volume>124</volume>, <fpage>248</fpage>–<lpage>255</lpage>.<pub-id pub-id-type="pmid">20364884</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0026">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0026"><string-name><surname>Pilcher</surname>, <given-names>J. J.</given-names></string-name>, &amp; <string-name><surname>Huffcutt</surname>, <given-names>A. I.</given-names></string-name> (<year>1996</year>). <article-title>Effects of sleep deprivation on performance: A meta‐analysis</article-title>. <source>Sleep</source>, <volume>19</volume>, <fpage>318</fpage>–<lpage>326</lpage>.<pub-id pub-id-type="pmid">8776790</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0027">
+                <mixed-citation publication-type="book" id="jsr13236-cit-0027"><collab collab-type="authors">R Core Team</collab>
+(<year>2018</year>). <source>R: A language and environment for statistical computing</source>. <publisher-name>R Foundation for Statistical Computing</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0028">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0028"><string-name><surname>Ratcliff</surname>, <given-names>R.</given-names></string-name>, &amp; <string-name><surname>Van Dongen</surname>, <given-names>H. P. A.</given-names></string-name> (<year>2018</year>). <article-title>The effects of sleep deprivation on item and associative recognition memory</article-title>. <source>Journal of Experimental Psychology: Learning Memory and Cognition</source>, <volume>44</volume>, <fpage>193</fpage>–<lpage>208</lpage>.</mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0029">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0029"><string-name><surname>Schwarz</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Gerhardsson</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>van Leeuwen</surname>, <given-names>W.</given-names></string-name>, <string-name><surname>Lekander</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Ericson</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Fischer</surname>, <given-names>H.</given-names></string-name>, <string-name><surname>Kecklund</surname>, <given-names>G.</given-names></string-name>, &amp; <string-name><surname>Åkerstedt</surname>, <given-names>T.</given-names></string-name> (<year>2018</year>). <article-title>Does sleep deprivation increase the vulnerability to acute psychosocial stress in young and older adults?</article-title>
+<source>Psychoneuroendocrinology</source>, <volume>96</volume>, <fpage>155</fpage>–<lpage>165</lpage>.<pub-id pub-id-type="pmid">29982098</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0030">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0030"><string-name><surname>St‐Onge</surname>, <given-names>M.‐P.</given-names></string-name>, <string-name><surname>McReynolds</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Trivedi</surname>, <given-names>Z. B.</given-names></string-name>, <string-name><surname>Roberts</surname>, <given-names>A. L.</given-names></string-name>, <string-name><surname>Sy</surname>, <given-names>M.</given-names></string-name>, &amp; <string-name><surname>Hirsch</surname>, <given-names>J.</given-names></string-name> (<year>2012</year>). <article-title>Sleep restriction leads to increased activation of brain regions sensitive to food stimuli</article-title>. <source>The American Journal of Clinical Nutrition</source>, <volume>95</volume>, <fpage>818</fpage>–<lpage>824</lpage>.<pub-id pub-id-type="pmid">22357722</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0031">
+                <mixed-citation publication-type="book" id="jsr13236-cit-0031"><string-name><surname>Sutton</surname>, <given-names>R. S.</given-names></string-name>, &amp; <string-name><surname>Barto</surname>, <given-names>A. G.</given-names></string-name> (<year>2018</year>). <source>Reinforcement learning: An introduction</source>. <publisher-name>The MIT Press</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0032">
+                <mixed-citation publication-type="book" id="jsr13236-cit-0032"><string-name><surname>Thorndike</surname>, <given-names>E. L.</given-names></string-name> (<year>1911</year>). <source>Animal Intelligence ‐ experimental studies</source>. <publisher-name>The MacMillan Company</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0033">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0033"><string-name><surname>Todes</surname>, <given-names>D. P.</given-names></string-name> (<year>1997</year>). <article-title>From the machine to the ghost within: Pavlov’s transition from digestive physiology to conditional reflexes</article-title>. <source>American Psychologist</source>, <volume>52</volume>, <fpage>947</fpage>–<lpage>955</lpage>.</mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0034">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0034"><string-name><surname>van Dongen</surname>, <given-names>H. P. A.</given-names></string-name>, <string-name><surname>Maislin</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Mullington</surname>, <given-names>J. M.</given-names></string-name>, &amp; <string-name><surname>Dinges</surname>, <given-names>D. F.</given-names></string-name> (<year>2003</year>). <article-title>The cumulative cost of additional wakefulness: Dose‐response effects on neurobehavioral functions and sleep physiology from chronic sleep restriction and total sleep deprivation</article-title>. <source>Sleep</source>, <volume>26</volume>, <fpage>117</fpage>–<lpage>126</lpage>.<pub-id pub-id-type="pmid">12683469</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0035">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0035"><string-name><surname>Vehtari</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Gelman</surname>, <given-names>A.</given-names></string-name>, &amp; <string-name><surname>Gabry</surname>, <given-names>J.</given-names></string-name> (<year>2017</year>). <article-title>Practical Bayesian model evaluation using leave‐one‐out cross‐validation and WAIC</article-title>. <source>Statistics and Computing</source>, <volume>27</volume>, <fpage>1413</fpage>–<lpage>1432</lpage>.</mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0036">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0036"><string-name><surname>Venkatraman</surname>, <given-names>V.</given-names></string-name>, <string-name><surname>Chuah</surname>, <given-names>L. Y. M.</given-names></string-name>, <string-name><surname>Huettel</surname>, <given-names>S. A.</given-names></string-name>, &amp; <string-name><surname>Chee</surname>, <given-names>M. W. L.</given-names></string-name> (<year>2007</year>). <article-title>Sleep deprivation elevates expectation of gains and attenuates response to losses following risky decisions</article-title>. <source>Sleep</source>, <volume>30</volume>, <fpage>603</fpage>–<lpage>609</lpage>.<pub-id pub-id-type="pmid">17552375</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0037">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0037"><string-name><surname>Venkatraman</surname>, <given-names>V.</given-names></string-name>, <string-name><surname>Huettel</surname>, <given-names>S. A.</given-names></string-name>, <string-name><surname>Chuah</surname>, <given-names>L. Y. M.</given-names></string-name>, <string-name><surname>Payne</surname>, <given-names>J. W.</given-names></string-name>, &amp; <string-name><surname>Chee</surname>, <given-names>M. W. L.</given-names></string-name> (<year>2011</year>). <article-title>Sleep deprivation biases the neural mechanisms underlying economic preferences</article-title>. <source>Journal of Neuroscience</source>, <volume>31</volume>, <fpage>3712</fpage>–<lpage>3718</lpage>.<pub-id pub-id-type="pmid">21389226</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0038">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0038"><string-name><surname>Volkow</surname>, <given-names>N. D.</given-names></string-name>, <string-name><surname>Tomasi</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Wang</surname>, <given-names>G. J.</given-names></string-name>, <string-name><surname>Telang</surname>, <given-names>F.</given-names></string-name>, <string-name><surname>Fowler</surname>, <given-names>J. S.</given-names></string-name>, <string-name><surname>Logan</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Benveniste</surname>, <given-names>H.</given-names></string-name>, <string-name><surname>Kim</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>Thanos</surname>, <given-names>P. K.</given-names></string-name>, &amp; <string-name><surname>Ferré</surname>, <given-names>S.</given-names></string-name> (<year>2012</year>). <article-title>Evidence that sleep deprivation downregulates dopamine D2R in ventral striatum in the human brain</article-title>. <source>The Journal of Neuroscience: The Official Journal of the Society for Neuroscience</source>, <volume>32</volume>, <fpage>6711</fpage>–<lpage>6717</lpage>.<pub-id pub-id-type="pmid">22573693</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr13236-bib-0039">
+                <mixed-citation publication-type="journal" id="jsr13236-cit-0039"><string-name><surname>Whitney</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Hinson</surname>, <given-names>J. M.</given-names></string-name>, <string-name><surname>Jackson</surname>, <given-names>M. L.</given-names></string-name>, &amp; <string-name><surname>Van Dongen</surname>, <given-names>H. P. A.</given-names></string-name> (<year>2015</year>). <article-title>Feedback blunting: Total sleep deprivation impairs decision making that requires updating based on feedback</article-title>. <source>Sleep</source>, <volume>38</volume>, <fpage>745</fpage>–<lpage>754</lpage>.<pub-id pub-id-type="pmid">25515105</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

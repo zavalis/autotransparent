@@ -1,0 +1,1591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:08:13Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3806436" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:3806436</identifier>
+        <datestamp>2013-10-24</datestamp>
+        <setSpec>jmir</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">J Med Internet Res</journal-id>
+              <journal-id journal-id-type="publisher-id">JMIR</journal-id>
+              <journal-title-group>
+                <journal-title>Journal of Medical Internet Research</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1439-4456</issn>
+              <issn pub-type="epub">1438-8871</issn>
+              <publisher>
+                <publisher-name>JMIR Publications Inc.</publisher-name>
+                <publisher-loc>Toronto, Canada</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC3806436</article-id>
+              <article-id pub-id-type="pmcid">PMC3806436</article-id>
+              <article-id pub-id-type="pmc-uid">3806436</article-id>
+              <article-id pub-id-type="pmid">24140566</article-id>
+              <article-id pub-id-type="publisher-id">v15i10e229</article-id>
+              <article-id pub-id-type="pmid">24140566</article-id>
+              <article-id pub-id-type="doi">10.2196/jmir.2818</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Paper</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Telephone Versus Internet Administration of Self-Report Measures of Social Anxiety, Depressive Symptoms, and Insomnia: Psychometric Evaluation of a Method to Reduce the Impact of Missing Data</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Eysenbach</surname>
+                    <given-names>Gunther</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Cipresso</surname>
+                    <given-names>Pietro</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Kolostoumpis</surname>
+                    <given-names>George</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib id="contrib1" contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Hedman</surname>
+                    <given-names>Erik</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <address>
+                    <institution>Osher Center for Integrative Medicine</institution>
+                    <institution>Department of Clinical Neuroscience</institution>
+                    <institution>Karolinska Institutet</institution>
+                    <addr-line>Retzius väg 8</addr-line>
+                    <addr-line>Stockholm, 171 77</addr-line>
+                    <country>Sweden</country>
+                    <phone>46 08 524 800 00</phone>
+                    <fax>46 8 779 54 16</fax>
+                    <email>kire.hedman@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                </contrib>
+                <contrib id="contrib2" contrib-type="author">
+                  <name>
+                    <surname>Ljótsson</surname>
+                    <given-names>Brjánn</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                </contrib>
+                <contrib id="contrib3" contrib-type="author">
+                  <name>
+                    <surname>Blom</surname>
+                    <given-names>Kerstin</given-names>
+                  </name>
+                  <degrees>MSc</degrees>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                </contrib>
+                <contrib id="contrib4" contrib-type="author">
+                  <name>
+                    <surname>El Alaoui</surname>
+                    <given-names>Samir</given-names>
+                  </name>
+                  <degrees>MSc</degrees>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                </contrib>
+                <contrib id="contrib5" contrib-type="author">
+                  <name>
+                    <surname>Kraepelien</surname>
+                    <given-names>Martin</given-names>
+                  </name>
+                  <degrees>MSc</degrees>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                </contrib>
+                <contrib id="contrib6" contrib-type="author">
+                  <name>
+                    <surname>Rück</surname>
+                    <given-names>Christian</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                </contrib>
+                <contrib id="contrib7" contrib-type="author">
+                  <name>
+                    <surname>Andersson</surname>
+                    <given-names>Gerhard</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <xref ref-type="aff" rid="aff4">4</xref>
+                </contrib>
+                <contrib id="contrib8" contrib-type="author">
+                  <name>
+                    <surname>Svanborg</surname>
+                    <given-names>Cecilia</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                </contrib>
+                <contrib id="contrib9" contrib-type="author">
+                  <name>
+                    <surname>Lindefors</surname>
+                    <given-names>Nils</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                </contrib>
+                <contrib id="contrib10" contrib-type="author">
+                  <name>
+                    <surname>Kaldo</surname>
+                    <given-names>Viktor</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1" rid="aff1">
+                <sup>1</sup>
+                <institution>Osher Center for Integrative Medicine</institution>
+                <institution>Department of Clinical Neuroscience</institution>
+                <institution>Karolinska Institutet</institution>
+                <addr-line>Stockholm</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <aff id="aff2" rid="aff2">
+                <sup>2</sup>
+                <institution>Division of Psychology</institution>
+                <institution>Department of Clinical Neuroscience</institution>
+                <institution>Karolinska Institutet</institution>
+                <addr-line>Stockholm</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <aff id="aff3" rid="aff3">
+                <sup>3</sup>
+                <institution>Division of Psychiatry</institution>
+                <institution>Department of Clinical Neuroscience</institution>
+                <institution>Karolinska Institutet</institution>
+                <addr-line>Stockholm</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <aff id="aff4" rid="aff4">
+                <sup>4</sup>
+                <institution>Department of Behavioural Sciences and Learning</institution>
+                <institution>Linköping University</institution>
+                <addr-line>Linköping</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <author-notes>
+                <corresp>Corresponding Author: Erik Hedman <email>kire.hedman@ki.se</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <month>10</month>
+                <year>2013</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>18</day>
+                <month>10</month>
+                <year>2013</year>
+              </pub-date>
+              <volume>15</volume>
+              <issue>10</issue>
+              <elocation-id>e229</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>05</day>
+                  <month>7</month>
+                  <year>2013</year>
+                </date>
+                <date date-type="rev-request">
+                  <day>29</day>
+                  <month>7</month>
+                  <year>2013</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>06</day>
+                  <month>8</month>
+                  <year>2013</year>
+                </date>
+                <date date-type="accepted">
+                  <day>29</day>
+                  <month>8</month>
+                  <year>2013</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>©Erik Hedman, Brjánn Ljótsson, Kerstin Blom, Samir El Alaoui, Martin Kraepelien, Christian Rück, Gerhard Andersson, Cecilia Svanborg, Nils Lindefors, Viktor Kaldo. Originally published in the Journal of Medical Internet Research (http://www.jmir.org), 18.10.2013. </copyright-statement>
+                <copyright-year>2013</copyright-year>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0/">
+                  <license-p><!--CREATIVE COMMONS-->This is an open-access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0/">http://creativecommons.org/licenses/by/2.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in the Journal of Medical Internet Research, is properly cited. The complete bibliographic information, a link to the original publication on <ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/,">http://www.jmir.org/,</ext-link> as well as this copyright and license information must be included.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:type="simple" xlink:href="http://www.jmir.org/2013/10/e229/"/>
+              <abstract>
+                <sec sec-type="background">
+                  <title>Background</title>
+                  <p>Internet-administered self-report measures of social anxiety, depressive symptoms, and sleep difficulties are widely used in clinical trials and in clinical routine care, but data loss is a common problem that could render skewed estimates of symptom levels and treatment effects. One way of reducing the negative impact of missing data could be to use telephone administration of self-report measures as a means to complete the data missing from the online data collection.</p>
+                </sec>
+                <sec sec-type="objective">
+                  <title>Objective</title>
+                  <p>The aim of the study was to compare the convergence of telephone and Internet administration of self-report measures of social anxiety, depressive symptoms, and sleep difficulties.</p>
+                </sec>
+                <sec sec-type="methods">
+                  <title>Methods</title>
+                  <p>The Liebowitz Social Anxiety Scale-Self-Report (LSAS-SR), Montgomery-Åsberg Depression Rating Scale-Self-Rated (MADRS-S), and the Insomnia Severity Index (ISI) were administered over the telephone and via the Internet to a clinical sample (N=82) of psychiatric patients at a clinic specializing in Internet-delivered treatment. Shortened versions of the LSAS-SR and the ISI were used when administered via telephone.</p>
+                </sec>
+                <sec sec-type="results">
+                  <title>Results</title>
+                  <p>As predicted, the results showed that the estimates produced by the two administration formats were highly correlated (<italic>r</italic>=.82-.91; <italic>P</italic>&lt;.001) and internal consistencies were high in both administration formats (telephone: Cronbach alpha=.76-.86 and Internet: Cronbach alpha=.79-.93). The correlation coefficients were similar across questionnaires and the shorter versions of the questionnaires used in the telephone administration of the LSAS-SR and ISI performed in general equally well compared to when the full scale was used, as was the case with the MADRS-S.</p>
+                </sec>
+                <sec sec-type="conclusions">
+                  <title>Conclusions</title>
+                  <p>Telephone administration of self-report questionnaires is a valid method that can be used to reduce data loss in routine psychiatric practice as well as in clinical trials, thereby contributing to more accurate symptom estimates.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>Internet</kwd>
+                <kwd>telephone</kwd>
+                <kwd>self-report measures</kwd>
+                <kwd>missing data</kwd>
+                <kwd>method validation</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec>
+              <title>Introduction</title>
+              <p>Self-report measures are widely used in both routine psychiatric care and in clinical trials as they have several advantages including psychometric properties similar to clinician-administered instruments [<xref ref-type="bibr" rid="ref1">1</xref>], low cost, and the potential to administer the instruments over the Internet [<xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref3">3</xref>]. However, a common problem in these settings is data loss. As pointed out by Claassen et al [<xref ref-type="bibr" rid="ref4">4</xref>], even in randomized controlled trials attrition rates can be 30-40% and in effectiveness studies on regular care patients this number is likely to be even higher. In an effectiveness study on Internet-based cognitive behavior therapy (ICBT) for panic disorder, we found that as few as 32% of patients completed self-report assessments at six-month follow-up, despite several text message reminders [<xref ref-type="bibr" rid="ref5">5</xref>]. Data loss lowers the statistical power and as attrition could be non-randomly distributed (eg, persons with more severe symptoms may be more likely not to fill out self-assessments), this could render skewed estimates of symptom levels and treatment effects [<xref ref-type="bibr" rid="ref6">6</xref>]. A common way of handling this problem is through statistical procedures such as multiple imputation or the use of full-information maximum likelihood estimation models [<xref ref-type="bibr" rid="ref7">7</xref>]. These missing data strategies do however have some important disadvantages, including non-testable assumptions of the randomness of the missing data patterns, difficulty of dealing with non-normally distributed covariates, and the complexity of the computational process [<xref ref-type="bibr" rid="ref8">8</xref>].</p>
+              <p>One way of reducing the negative impact of missing data without the disadvantages of advanced imputational methods could be to increase completion rates of self-reports through the use of telephone assessments, that is, telephone administration of self-report measures as a means to complete the data missing from the online data collection. Several studies have demonstrated that diagnostic assessment interviews can be conducted over the telephone with high convergent validity with face-to-face interviews [<xref ref-type="bibr" rid="ref9">9</xref>,<xref ref-type="bibr" rid="ref10">10</xref>]. However, a diagnostic interview or a clinician’s expert rating of the patient’s level of symptoms is not equivalent to a telephone-administered self-report, where the clinician’s impact on the ratings is put to a minimum by using standardized questions and answers that are read verbatim to the patient. The body of evidence is limited when it comes to how accurate this kind of telephone administration of self-report instruments is in comparison to the standard way of self-assessment. We have found only two studies investigating this. In these studies, it was shown that the Penn-State Worry Questionnaire (PSWQ), the Beck Depression Inventory (BDI), and the General Health Questionnaire (GHQ) could be completed over the telephone providing similar estimates as when administered as self-assessment using paper and pencil [<xref ref-type="bibr" rid="ref11">11</xref>,<xref ref-type="bibr" rid="ref12">12</xref>]. Another problem when providing self-assessments over the telephone with patients who have failed to complete standard self-assessments is that the patient’s motivation to devote a substantial amount of time for a telephone interview might be limited. This problem could be even more pronounced in long-term follow-ups. Against this background, it is important to use instruments with few items when conducting telephone-administered assessments with self-report measures.</p>
+              <p>To our knowledge, no prior study has investigated whether telephone and Internet administration of self-report measures produce equivalent results in the assessment of social anxiety, depressive symptoms, and sleep difficulties. More knowledge in this regard could lead to more effective strategies for handling data loss in clinical routine psychiatric care as well as in clinical trials. Also, investigation of whether it is possible to use shortened, and thus more efficient, versions of the full-length scales over the telephone has to our knowledge not been done.</p>
+              <p>The main aim of this study was to compare the convergence of telephone and Internet administration of self-report measures of social anxiety, depressive symptoms, and sleep difficulties. The Liebowitz Social Anxiety Scale - Self-Report (LSAS-SR) [<xref ref-type="bibr" rid="ref1">1</xref>], Montgomery Åsberg Depression Rating Scale - Self-Rated (MADRS-S) [<xref ref-type="bibr" rid="ref13">13</xref>], and the Insomnia Severity Index (ISI) [<xref ref-type="bibr" rid="ref14">14</xref>] were used. We hypothesized that the estimates produced by the two administration formats would be highly correlated.</p>
+              <p>As a secondary aim, we wanted to explore three different strategies for developing an interview version of a self-report measure. The first is the most straightforward, as the same questions and response options are used in the interview as in the self-report measures. This was used when comparing Internet-administered MADRS-S to a telephone interview version of the same measure. The second strategy emerged from the need to keep the telephone interviews short. We explored this by reducing the number of items for the LSAS-SR and ISI when the measures were telephone-administered. Thus, we compared the Internet-administered full-scale self-report versions against shortened or full-scale telephone-administered versions of the same measure. The third strategy was to use a different measure within the same symptom domain in the telephone interview compared to when administering the measure via the Internet. The main reason to use this strategy is when the nature of the questions and answers in the self-report measure are deemed somewhat difficult to administer verbally over the telephone. This is the case with MADRS-S, which has long questions and answers are given on a 7-point scale with four anchor labels that are also quite long and unique for each question. Specifically, we investigated whether a shortened telephone-administered version of the Hospital Anxiety and Depression Scale (HADS) [<xref ref-type="bibr" rid="ref15">15</xref>], deemed to be easier to administer via the telephone, could be as highly correlated with Internet-administered MADRS-S as the telephone-administered MADRS-S.</p>
+            </sec>
+            <sec sec-type="methods">
+              <title>Methods</title>
+              <sec>
+                <title>Design</title>
+                <p>This study employed a repeated measurement design where participants provided data in both administration formats, that is, telephone and Internet. Participants completed the Internet-administered self-report questionnaire first, followed by a telephone-administered assessment with the same questionnaire, shortened or full-scale. The average time between assessments was 3.1 days (SD 2.2) and the range was 0 to 7 days. The sample (N=82) comprised three cohorts: (1) participants seeking treatment for social anxiety disorder (SAD), denoted SAD sample (n=14), (2) participants seeking treatment for depression (DEP), denoted DEP sample (n=35), and (3) participants diagnosed with insomnia (Insomnia sample, n=33). Type of self-report measure used and whether the full version of the measure was telephone-administered were as follows: the SAD sample completed the full version of the LSAS-SR via the Internet and a short version of LSAS-SR via telephone; the DEP sample completed the full version of the MADRS-S via the Internet and the full version via telephone; and the Insomnia sample completed the full versions of the ISI and MADRS-S via Internet and short versions of the ISI and HADS via telephone.</p>
+              </sec>
+              <sec>
+                <title>Recruitment and Participants</title>
+                <p>Participants were recruited from a series of patients seeking treatment at the Internet-based Cognitive Behavior Therapy Clinic (ICBT clinic) located at the Karolinska University Hospital Huddinge (Psychiatry Southwest) in Stockholm, Sweden. The ICBT clinic provides Internet-based CBT, which is a treatment that essentially can be described as guided online CBT-bibliotherapy with therapist contact through an Internet-based messaging system resembling email [<xref ref-type="bibr" rid="ref16">16</xref>]. The ICBT clinic treatment context has been described previously in greater detail [<xref ref-type="bibr" rid="ref5">5</xref>]. Participants were self-referred and could apply through the official website of the ICBT clinic. Only participants who completed the two assessments within one week (on the Internet and via telephone) were included in the present study. <xref ref-type="table" rid="table1">Table 1</xref> presents a demographic description of the participants.</p>
+                <table-wrap id="table1" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Description of the participants.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="619" border="0" cellpadding="7" cellspacing="0">
+                    <col width="80" span="1"/>
+                    <col width="150" span="1"/>
+                    <col width="100" span="1"/>
+                    <col width="100" span="1"/>
+                    <col width="120" span="1"/>
+                    <thead>
+                      <tr valign="bottom">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">SAD<sup>a</sup>sample (n=14)</td>
+                        <td rowspan="1" colspan="1">DEP<sup>b</sup>sample (n=35)</td>
+                        <td rowspan="1" colspan="1">Insomnia sample (n=33)</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <bold>Age, mean (SD)</bold>
+                        </td>
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">31.7 (12.5)</td>
+                        <td rowspan="1" colspan="1">36.5 (10.1)</td>
+                        <td rowspan="1" colspan="1">47.2 (13.6)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="5" rowspan="1">
+                          <bold>Gender</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Women (%)</td>
+                        <td rowspan="1" colspan="1">9 (64.3)</td>
+                        <td rowspan="1" colspan="1">21 (60.0)</td>
+                        <td rowspan="1" colspan="1">24 (72.7)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Men (%)</td>
+                        <td rowspan="1" colspan="1">5 (35.7)</td>
+                        <td rowspan="1" colspan="1">14 (40.0)</td>
+                        <td rowspan="1" colspan="1">9 (27.3)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="5" rowspan="1">
+                          <bold>Marital status</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Married or de facto (%)</td>
+                        <td rowspan="1" colspan="1">7 (50.0)</td>
+                        <td rowspan="1" colspan="1">21 (60.0)</td>
+                        <td rowspan="1" colspan="1">21 (63.3)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Not married (%)</td>
+                        <td rowspan="1" colspan="1">7 (50.0)</td>
+                        <td rowspan="1" colspan="1">14 (40.0)</td>
+                        <td rowspan="1" colspan="1">12 (36.7)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="5" rowspan="1">
+                          <bold>Parental status</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="2" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Parent</td>
+                        <td rowspan="1" colspan="1">4 (28.6)</td>
+                        <td rowspan="1" colspan="1">16 (45.7)</td>
+                        <td rowspan="1" colspan="1">23 (69.7)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Not parent</td>
+                        <td rowspan="1" colspan="1">10 (71.4)</td>
+                        <td rowspan="1" colspan="1">19 (54.3)</td>
+                        <td rowspan="1" colspan="1">10 (30.3)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="5" rowspan="1">
+                          <bold>Education</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="3" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Did not finish high school (%)</td>
+                        <td rowspan="1" colspan="1">4 (28.6)</td>
+                        <td rowspan="1" colspan="1">7 (20.0)</td>
+                        <td rowspan="1" colspan="1">1 (3.0)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Finished high school (%)</td>
+                        <td rowspan="1" colspan="1">8 (57.1)</td>
+                        <td rowspan="1" colspan="1">7 (20.0)</td>
+                        <td rowspan="1" colspan="1">8 (24.2)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">University (%)</td>
+                        <td rowspan="1" colspan="1">2 (14.3)</td>
+                        <td rowspan="1" colspan="1">21 (60.0)</td>
+                        <td rowspan="1" colspan="1">24 (72.7)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="table1fn1">
+                      <p><sup>a</sup>SAD: social anxiety disorder</p>
+                    </fn>
+                    <fn id="table1fn2">
+                      <p><sup>b</sup>DEP: depression</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec>
+                <title>Measures</title>
+                <sec>
+                  <title>Social Anxiety</title>
+                  <p>The LSAS-SR was used to assess social anxiety. The LSAS-SR measures fear in and avoidance of 24 social situations (13 performance and 11 interaction situations) that are assumed to be difficult for people suffering from social anxiety disorder. The LSAS-SR is highly correlated with the clinician-administered Liebowitz Social Anxiety Scale (<italic>r</italic>=.85) [<xref ref-type="bibr" rid="ref1">1</xref>]. LSAS-SR has high internal consistency (Cronbach alpha=.95), as well as high test-retest reliability over 12 weeks (<italic>r</italic>=.83) [<xref ref-type="bibr" rid="ref17">17</xref>]. The convergent and discriminant validity of LSAS-SR has been shown to be strong and the scale is sensitive to change and is therefore often used in treatment research [<xref ref-type="bibr" rid="ref17">17</xref>]. When administered via the telephone, a shortened version of the LSAS-SR was used. This short version was derived through factor analysis based on previously collected clinical data from patients with SAD at the ICBT clinic (N=684). Ten situations (rated for both fear and avoidance) were chosen for the short version, based on their correlations with the total scale score while ensuring that items from all factors that emerged in the principal components analysis were represented, in order to avoid making the short version narrower in measurement scope than the full version. The correlations with the full scale were <italic>r</italic>=.96 (total), <italic>r</italic>=.95 (fear), and <italic>r</italic>=.95 (avoidance). The included items, as numbered in the full scale, were 4, 9, 10, 11, 12, 15, 16, 17, 20, and 23.</p>
+                </sec>
+                <sec>
+                  <title>Depressive Symptoms</title>
+                  <p>We used the MADRS-S and a shortened version of the HADS to assess depressive symptoms. The full version of the MADRS-S was used partly because of its brevity in terms of number of items, partly as each of the items in the scale covers rather different dimensions of depressive symptoms, making item reduction difficult. MADRS-S consists of nine items measuring nine different symptoms and each symptom is rated on a 7-point scale with four predefined anchor labels and three non-defined anchor labels in between. The test-retest reliability of MADRS-S is high with <italic>r</italic> ranging from .80 to .94. In a comparative study, Svanborg and Åsberg [<xref ref-type="bibr" rid="ref13">13</xref>] showed that MADRS-S correlated highly (<italic>r</italic>=.87) with BDI [<xref ref-type="bibr" rid="ref18">18</xref>].</p>
+                  <p>The HADS consists of two subscales: one that measures depressive symptoms and one that measures general anxiety. Each subscale has 7 items, each rated 0-3, yielding a total score between 0 and 42. The HADS has good convergent validity as the depressive symptoms subscale is highly correlated with the clinician-administered Montgomery-Åsberg Depression Rating Scale (<italic>r</italic>=.81) [<xref ref-type="bibr" rid="ref15">15</xref>]. In a review of 71 studies investigating the psychometric properties of HADS, Bjelland et al [<xref ref-type="bibr" rid="ref19">19</xref>] found that Cronbach alpha exceeded .60 in all of them, indicating stable and adequate internal consistency. In the present study, only a subset of items of the scale assessing depressive symptoms was used and this short version of HADS was solely telephone-administered and compared to the Internet-administered MADRS-S. We chose the four items of the HADS depression scale deemed most suitable for telephone-administration. These items, as numbered from the original scale, were 2, 4, 8, and 10.</p>
+                </sec>
+                <sec>
+                  <title>Sleep Difficulties</title>
+                  <p>The ISI was used to assess sleep difficulties. The ISI is a 7-item instrument assessing the severity of initial, middle, and late insomnia; sleep satisfaction; interference of insomnia with daytime functioning; noticeability of sleep problems by others; and distress about sleep difficulties. A 5-point scale (0-4) is used to rate each item, yielding a total score of 0 to 28. The ISI has adequate psychometric properties including high internal consistency (Cronbach alpha=.74) and is moderately correlated with other measures of sleep behaviors [<xref ref-type="bibr" rid="ref14">14</xref>]. The items chosen for the shortened telephone version of ISI were items 1a, 1b, 1c, 2, and 3. These five items were chosen as they correspond to the DSM-IV diagnostic criteria of insomnia.</p>
+                </sec>
+              </sec>
+              <sec>
+                <title>Procedures</title>
+                <p>Participants completed Internet-administered assessments through the Internet-based platform of the ICBT clinic. Previous research has shown that the LSAS-SR, MADRS-S, HADS, and ISI can be administered via the Internet with psychometric properties equivalent to the paper-and-pencil versions [<xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref3">3</xref>,<xref ref-type="bibr" rid="ref20">20</xref>]. Participants in the SAD sample filled out the LSAS-SR, while those in the DEP sample completed the MADRS-S, and the Insomnia sample completed the MADRS-S and the ISI. After this had been done, participants were contacted by a licensed psychologist or by a student at the master level psychology program who conducted the telephone assessment by reading the questions to the participant and recording the response. As described in the design, this meant that the SAD sample was administered a short version of the LSAS-SR, the DEP sample was administered the full version of the MADRS-S, and the Insomnia sample was administered both a short version of the HAD depression scale and a short version of the ISI. There were eight assessors in total and they followed a structured interview guide after having received education on how to conduct the telephone assessments. The interviewer first informed the respondent on how to give their answers, then read the instructions and questions of the respective instrument exactly as presented in the scale. For items with predefined anchor labels, the clinician read the corresponding text to the participant. Clinicians reading the self-report instrument to the participant were instructed not to make any form of independent assessment of the symptoms or to give any further explanation of how to interpret the question, but to only record the participant’s response.</p>
+              </sec>
+              <sec>
+                <title>Statistical Analyses</title>
+                <p>Analyses were conducted using SPSS, version 20. Cronbach alpha was used to calculate internal consistency. Pearson’s zero-order product-moment correlation was used to analyze intercorrelations across administration formats. Data were standardized prior to correlation analyses by subtracting the mean score from each raw score and dividing by the standard deviation. To provide an estimate of how raw scores from the telephone-administered assessment translated into the full scale as completed online, linear regression analyses were conducted where Internet scores were regressed on telephone scores. <italic>Z</italic> tests were used to investigate differences in correlation coefficients between the measures.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results">
+              <title>Results</title>
+              <sec>
+                <title>Internal Consistency</title>
+                <p>The alpha values for each questionnaire and administration format are presented in <xref ref-type="table" rid="table2">Table 2</xref>. Cronbach alpha ranged between .76 and .86 for telephone administration and .79 and .93 for Internet administration. The differences in internal consistency across administration format were small, with the largest difference being found for the LSAS-SR (telephone: Cronbach alpha=.86 vs Internet: Cronbach alpha=.93).</p>
+              </sec>
+              <sec>
+                <title>Correlation Between Administration Formats</title>
+                <p>The scores from the telephone and Internet administered self-report questionnaires were all highly and significantly (<italic>P</italic>&lt;.001 for all measures) correlated indicating strong positive associations of the two formats. The correlation coefficients were as follows: LSAS-SR (Internet) with short LSAS-SR (telephone), <italic>r</italic>=.82; ISI (Internet) with short ISI (telephone), <italic>r</italic>=.91; MADRS-S (Internet) with MADRS-S (telephone), <italic>r</italic>=.83; MADRS-S (Internet) with short HADS (telephone), <italic>r</italic>=.70. <italic>Z</italic> tests did not indicate any significant differences between correlations across questionnaires (<italic>P</italic>&gt;.50).</p>
+              </sec>
+              <sec>
+                <title>Regression Coefficients to Predict Internet Self-Report From Telephone Self-Report</title>
+                <p>In order to obtain an estimate of how the telephone-administered raw scores best translate into the Internet-administered version, regression coefficients were calculated for each measure where the Internet-administered scores were regressed on the telephone-administered scores. <xref ref-type="table" rid="table3">Table 3</xref> presents the beta coefficients (ie, the change in the Internet-administered scales for a one-point increase in the telephone-administered scales), as well as the intercepts (ie, the score on the Internet-administered version when the telephone score equals zero). All beta coefficients were statistically significant indicating that the Internet-administered LSAS-SR can be predicted from the telephone-administered short version of LSAS-SR (<italic>t</italic>
+<sub>1,12</sub>=4.92, <italic>P</italic>&lt;.001), the Internet-administered MADRS-S can be predicted from the telephone-administered MADRS-S (<italic>t</italic>
+<sub>1,36</sub>=8.76, <italic>P</italic>&lt;.001) as well as from the short HADS depression scale (<italic>t</italic>
+<sub>1,31</sub>=5.43, <italic>P</italic>&lt;.001), and finally, the Internet-administered ISI can be predicted from the telephone-administered ISI (<italic>t</italic>
+<sub>1,31</sub>=12.09, <italic>P</italic>&lt;.001). Thus, missing Internet ratings can be estimated by using the general formula: Internet score = intercept + beta * telephone score.</p>
+                <table-wrap id="table2" position="float">
+                  <label>Table 2</label>
+                  <caption>
+                    <p>Internal consistencies (Cronbach alpha) for the two administration formats for each questionnaire.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="619" border="0" cellpadding="7" cellspacing="0">
+                    <col width="127" span="1"/>
+                    <col width="243" span="1"/>
+                    <col width="207" span="1"/>
+                    <thead>
+                      <tr valign="bottom">
+                        <td rowspan="1" colspan="1">Measure</td>
+                        <td rowspan="1" colspan="1">Telephone administration<sup>f</sup>
+</td>
+                        <td rowspan="1" colspan="1">Internet administration</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="bottom">
+                        <td rowspan="1" colspan="1">LSAS-SR<sup>a</sup>
+</td>
+                        <td rowspan="1" colspan="1">.86</td>
+                        <td rowspan="1" colspan="1">.93</td>
+                      </tr>
+                      <tr valign="bottom">
+                        <td rowspan="1" colspan="1">MADRS-S<sup>b</sup>
+</td>
+                        <td rowspan="1" colspan="1">.76</td>
+                        <td rowspan="1" colspan="1">.79</td>
+                      </tr>
+                      <tr valign="bottom">
+                        <td rowspan="1" colspan="1">HADS<sup>c,d</sup>
+</td>
+                        <td rowspan="1" colspan="1">.85</td>
+                        <td rowspan="1" colspan="1">-</td>
+                      </tr>
+                      <tr valign="bottom">
+                        <td rowspan="1" colspan="1">ISI<sup>e</sup>
+</td>
+                        <td rowspan="1" colspan="1">.83</td>
+                        <td rowspan="1" colspan="1">.87</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="table2fn1">
+                      <p><sup>a</sup>LSAS-SR: Liebowitz Social Anxiety Scale – Self-Report</p>
+                    </fn>
+                    <fn id="table2fn2">
+                      <p><sup>b</sup>MADRS-S: Montgomery Åsberg Depression Rating Scale – Self-Rating</p>
+                    </fn>
+                    <fn id="table2fn3">
+                      <p><sup>c</sup>HADS: Hospital Anxiety and Depression Scale</p>
+                    </fn>
+                    <fn id="table2fn4">
+                      <p><sup>d</sup>HADS was only administered via telephone</p>
+                    </fn>
+                    <fn id="table2fn5">
+                      <p><sup>e</sup>ISI: Insomnia Severity Index</p>
+                    </fn>
+                    <fn id="table2fn6">
+                      <p><sup>f</sup>Shortened versions of the LSAS-SR, ISI, and HADS were used when administered on the telephone</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <table-wrap id="table3" position="float">
+                  <label>Table 3</label>
+                  <caption>
+                    <p>Mean, SD, and regression coefficients to predict Internet self-report from telephone self-report.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="619" border="0" cellpadding="7" cellspacing="0">
+                    <col width="80" span="1"/>
+                    <col width="93" span="1"/>
+                    <col width="86" span="1"/>
+                    <col width="60" span="1"/>
+                    <col width="60" span="1"/>
+                    <col width="150" span="1"/>
+                    <thead>
+                      <tr valign="bottom">
+                        <td rowspan="1" colspan="1">Measure</td>
+                        <td colspan="2" rowspan="1">Administration format<sup>f</sup>
+</td>
+                        <td colspan="3" rowspan="1">Regression coefficients, Internet data regressed on telephone data</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Telephone, mean (SD)</td>
+                        <td rowspan="1" colspan="1">Internet, mean (SD)</td>
+                        <td rowspan="1" colspan="1">Intercept</td>
+                        <td rowspan="1" colspan="1">Beta</td>
+                        <td rowspan="1" colspan="1"><italic>P</italic> value of regression beta coefficient</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="bottom">
+                        <td rowspan="1" colspan="1">LSAS-SR<sup>a</sup>
+</td>
+                        <td rowspan="1" colspan="1">34.1 (9.6)</td>
+                        <td rowspan="1" colspan="1">70.0 (20.0)</td>
+                        <td rowspan="1" colspan="1">6.25</td>
+                        <td rowspan="1" colspan="1">1.87</td>
+                        <td rowspan="1" colspan="1">&lt;.001</td>
+                      </tr>
+                      <tr valign="bottom">
+                        <td rowspan="1" colspan="1">MADRS-S<sup>b</sup>
+</td>
+                        <td rowspan="1" colspan="1">24.4 (7.2)</td>
+                        <td rowspan="1" colspan="1">26.9 (7.0)</td>
+                        <td rowspan="1" colspan="1">7.36</td>
+                        <td rowspan="1" colspan="1">0.80</td>
+                        <td rowspan="1" colspan="1">&lt;.001</td>
+                      </tr>
+                      <tr valign="bottom">
+                        <td rowspan="1" colspan="1">HADS<sup>c,e</sup>
+</td>
+                        <td rowspan="1" colspan="1">2.6 (2.5)</td>
+                        <td rowspan="1" colspan="1">-</td>
+                        <td rowspan="1" colspan="1">5.77</td>
+                        <td rowspan="1" colspan="1">2.88</td>
+                        <td rowspan="1" colspan="1">&lt;.001</td>
+                      </tr>
+                      <tr valign="bottom">
+                        <td rowspan="1" colspan="1">ISI<sup>d</sup>
+</td>
+                        <td rowspan="1" colspan="1">8.3 (4.7)</td>
+                        <td rowspan="1" colspan="1">12.2 (5.9)</td>
+                        <td rowspan="1" colspan="1">2.81</td>
+                        <td rowspan="1" colspan="1">1.14</td>
+                        <td rowspan="1" colspan="1">&lt;.001</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="table3fn1">
+                      <p><sup>a</sup>LSAS-SR: Liebowitz Social Anxiety Scale - Self-Report</p>
+                    </fn>
+                    <fn id="table3fn2">
+                      <p><sup>b</sup>MADRS-S: Montgomery Åsberg Depression Rating Scale - Self-Rated</p>
+                    </fn>
+                    <fn id="table3fn3">
+                      <p><sup>c</sup>HADS: Hospital Anxiety and Depression Scale</p>
+                    </fn>
+                    <fn id="table3fn4">
+                      <p><sup>d</sup>ISI: Insomnia Severity Index</p>
+                    </fn>
+                    <fn id="table3fn5">
+                      <p><sup>e</sup>HADS was only administered via telephone and predicts MADRS-S in the regression results presented in the table</p>
+                    </fn>
+                    <fn id="table3fn6">
+                      <p><sup>f</sup>Shortened versions of the LSAS-SR, ISI, and HADS were used when administered on the telephone</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+            </sec>
+            <sec sec-type="discussion">
+              <title>Discussion</title>
+              <sec>
+                <title>Principal Findings</title>
+                <p>The aim of this study was to compare the convergence of telephone and Internet administration of self-report measures of social anxiety (LSAS-SR), depressive symptoms (MADRS-S), and sleep difficulties (ISI). As predicted, the results showed that the estimates produced by the two administration formats were highly correlated. The correlation coefficients were similar across questionnaires and the shorter versions of the questionnaires used in telephone administration of the LSAS-SR and ISI performed, in general, equally well compared to when the full scale was used, as was the case with the MADRS-S. The analysis also showed that a shortened telephone-administered version of a different scale assessing the same symptom domain could be used to predict Internet-administered self-report scores. In other words, shortened HADS could be used to predict the full MADRS-S with similar effectiveness as when the full telephone-administered MADRS-S was used to predict the Internet-administered MADRS-S. These findings suggest that providing self-report questionnaires over the telephone, in their full or shortened form, is a valid administration format for measures commonly used to assess social anxiety, depressive symptoms, and sleep difficulties.</p>
+                <p>As outlined in the introduction, prior research in this area is scarce and to our knowledge this is the first study to compare the psychometric properties of self-report measures administered via the telephone and the Internet. However, two prior studies have investigated the correlations between telephone and paper-and-pencil-administered self-report instruments. The present study has similar estimates on measures of association as in the study by Senior and colleagues [<xref ref-type="bibr" rid="ref11">11</xref>] investigating the worry measure, PSWQ, and the depression inventory, BDI. Evans and colleagues [<xref ref-type="bibr" rid="ref12">12</xref>] reported a correlation coefficient of .83 when comparing the GHQ administered over the telephone and as paper-and-pencil self-report, which is close to the estimates found in this study. This is further indication that Internet is a valid way of providing self-report questionnaires, which has also been previously demonstrated [<xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref21">21</xref>].</p>
+                <p>We regard the findings of the present study as relevant from a clinical as well as from a research perspective as they show that telephone administration can be a valid substitute for conventional use of self-report measures. As missing data is a substantial problem in both routine psychiatric practice and clinical trials, the findings of this study are important as they support the use of telephone interviewing of patients who have failed to provide self-report data. This, in turn, can lead to lower attrition rates and thereby more accurate estimates of symptom levels and treatment effects. As mentioned in the introduction, this type of handling of missing data has some advantages compared to using statistical procedures such as multiple imputation. A direct comparison between these forms of data replacements was beyond the scope of this paper, but should be investigated in future studies. One potential problem when trying to reach patients who have not completed self-report assessments is that their willingness to spend large amounts of time on the telephone being interviewed might be reduced. Therefore, a major implication of this study is that it is also possible to replace the full Internet-administered self-report version of the respective scales with shorter versions (LSAS-SR and ISI) or even with another set of questions within the same symptom category (HADS). This may further increase the possibility of reducing attrition rates, as not more than three or four minutes are required to complete the telephone assessments.</p>
+              </sec>
+              <sec>
+                <title>Limitations</title>
+                <p>There were some limitations to this study. First and most importantly, there was no randomization of the order in which participants completed questionnaires. However, previous research has demonstrated limited effect of order [<xref ref-type="bibr" rid="ref12">12</xref>]. Second, there was some time lag (a maximum of one week) between assessment points allowing for true natural fluctuations in symptom levels to occur. Considering that no treatment was initiated between the assessment points and that previous studies have found that social anxiety and depressive symptoms tend to be stable for this short period of time if untreated [<xref ref-type="bibr" rid="ref22">22</xref>], this was nevertheless deemed as acceptable. It also reduced the risk of recall bias. Third, this study used a clinical sample, which may reduce the generalizability of the findings to non-clinical populations. It is however difficult to argue for a plausible mechanism for this potential difference and telephone assessment as data replacement method is probably most useful in clinical settings.</p>
+              </sec>
+              <sec>
+                <title>Conclusions</title>
+                <p>In spite of these limitations, we regard the results of this study as important as they show that telephone administration of self-report measures of social anxiety, depressive symptoms, and sleep difficulties can be a valid method of administration. This procedure can be used to reduce data loss in routine psychiatric practice as well as in clinical trials, thereby contributing to more accurate symptom estimates.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>We express our warmest gratitude to research nurse, Monica Hellberg, for important clinical assistance.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="conflict">
+                <p>Conflicts of Interest: None declared.</p>
+              </fn>
+            </fn-group>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term id="abb1">BDI</term>
+                  <def>
+                    <p>Beck Depression Inventory</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb2">DEP</term>
+                  <def>
+                    <p>depression</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb3">GHQ</term>
+                  <def>
+                    <p>General Health Questionnaire</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb4">HADS</term>
+                  <def>
+                    <p>Hospital Anxiety and Depression Scale</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb5">ICBT</term>
+                  <def>
+                    <p>Internet-based cognitive behavior therapy</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb6">ISI</term>
+                  <def>
+                    <p>Insomnia Severity Index</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb7">LSAS-SR</term>
+                  <def>
+                    <p>Liebowitz Social Anxiety Scale - Self-Report</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb8">MADRS-S</term>
+                  <def>
+                    <p>Montgomery-Åsberg Depression Rating Scale - Self-Rated</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb9">PSWQ</term>
+                  <def>
+                    <p>Penn-State Worry Questionnaire</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb10">SAD</term>
+                  <def>
+                    <p>social anxiety disorder</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <ref-list>
+              <ref id="ref1">
+                <label>1</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fresco</surname>
+                      <given-names>DM</given-names>
+                    </name>
+                    <name>
+                      <surname>Coles</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Heimberg</surname>
+                      <given-names>RG</given-names>
+                    </name>
+                    <name>
+                      <surname>Liebowitz</surname>
+                      <given-names>MR</given-names>
+                    </name>
+                    <name>
+                      <surname>Hami</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Stein</surname>
+                      <given-names>MB</given-names>
+                    </name>
+                    <name>
+                      <surname>Goetz</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Liebowitz Social Anxiety Scale: a comparison of the psychometric properties of self-report and clinician-administered formats</article-title>
+                  <source>Psychol Med</source>
+                  <year>2001</year>
+                  <month>8</month>
+                  <volume>31</volume>
+                  <issue>6</issue>
+                  <fpage>1025</fpage>
+                  <lpage>35</lpage>
+                  <pub-id pub-id-type="medline">11513370</pub-id>
+                  <pub-id pub-id-type="pmid">11513370</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref2">
+                <label>2</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hedman</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Rück</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Furmark</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Carlbring</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Lindefors</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Internet administration of self-report measures commonly used in research on social anxiety disorder: A psychometric evaluation</article-title>
+                  <source>Computers in Human Behavior</source>
+                  <year>2010</year>
+                  <month>7</month>
+                  <volume>26</volume>
+                  <issue>4</issue>
+                  <fpage>736</fpage>
+                  <lpage>740</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chb.2010.01.010</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0014-4835(13)00030-4</pub-id>-->
+                </element-citation>
+              </ref>
+              <ref id="ref3">
+                <label>3</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Thorndike</surname>
+                      <given-names>FP</given-names>
+                    </name>
+                    <name>
+                      <surname>Ritterband</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>Saylor</surname>
+                      <given-names>DK</given-names>
+                    </name>
+                    <name>
+                      <surname>Magee</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Gonder-Frederick</surname>
+                      <given-names>LA</given-names>
+                    </name>
+                    <name>
+                      <surname>Morin</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Validation of the insomnia severity index as a web-based measure</article-title>
+                  <source>Behav Sleep Med</source>
+                  <year>2011</year>
+                  <volume>9</volume>
+                  <issue>4</issue>
+                  <fpage>216</fpage>
+                  <lpage>23</lpage>
+                  <pub-id pub-id-type="doi">10.1080/15402002.2011.606766</pub-id>
+                  <pub-id pub-id-type="medline">22003975</pub-id>
+                  <pub-id pub-id-type="pmid">22003975</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref4">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Claassen</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Kurian</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Trivedi</surname>
+                      <given-names>MH</given-names>
+                    </name>
+                    <name>
+                      <surname>Grannemann</surname>
+                      <given-names>BD</given-names>
+                    </name>
+                    <name>
+                      <surname>Tuli</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Pipes</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Preston</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>Flood</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Telephone-based assessments to minimize missing data in longitudinal depression trials: a project IMPACTS study report</article-title>
+                  <source>Contemp Clin Trials</source>
+                  <year>2009</year>
+                  <month>1</month>
+                  <volume>30</volume>
+                  <issue>1</issue>
+                  <fpage>13</fpage>
+                  <lpage>9</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/18761427"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.cct.2008.08.001</pub-id>
+                  <pub-id pub-id-type="medline">18761427</pub-id>
+                  <!--<pub-id pub-id-type="pii">S1551-7144(08)00095-5</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC3268227</pub-id>-->
+                  <pub-id pub-id-type="pmid">18761427</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hedman</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Rück</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Bergström</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaldo</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Jansson</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Blom</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>El Alaoui</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Falk</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Ivarsson</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Nasri</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Rydh</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Lindefors</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effectiveness of Internet-based cognitive behaviour therapy for panic disorder in routine psychiatric care</article-title>
+                  <source>Acta Psychiatr Scand</source>
+                  <year>2013</year>
+                  <month>2</month>
+                  <day>14</day>
+                  <fpage>1</fpage>
+                  <lpage>1</lpage>
+                  <pub-id pub-id-type="doi">10.1111/acps.12079</pub-id>
+                  <pub-id pub-id-type="medline">23406572</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Allott</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Chanen</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Yuen</surname>
+                      <given-names>HP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Attrition bias in longitudinal research involving adolescent psychiatric outpatients</article-title>
+                  <source>J Nerv Ment Dis</source>
+                  <year>2006</year>
+                  <month>12</month>
+                  <volume>194</volume>
+                  <issue>12</issue>
+                  <fpage>958</fpage>
+                  <lpage>61</lpage>
+                  <pub-id pub-id-type="doi">10.1097/01.nmd.0000243761.52104.91</pub-id>
+                  <pub-id pub-id-type="medline">17164636</pub-id>
+                  <!--<pub-id pub-id-type="pii">00005053-200612000-00012</pub-id>-->
+                  <pub-id pub-id-type="pmid">17164636</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Blankers</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Koeter</surname>
+                      <given-names>MW</given-names>
+                    </name>
+                    <name>
+                      <surname>Schippers</surname>
+                      <given-names>GM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Missing data approaches in eHealth research: simulation study and a tutorial for nonmathematically inclined researchers</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2010</year>
+                  <volume>12</volume>
+                  <issue>5</issue>
+                  <fpage>e54</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/2010/5/e54/"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/jmir.1448</pub-id>
+                  <pub-id pub-id-type="medline">21169167</pub-id>
+                  <!--<pub-id pub-id-type="pii">v12i5e54</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC3057309</pub-id>-->
+                  <pub-id pub-id-type="pmid">21169167</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sterne</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>White</surname>
+                      <given-names>IR</given-names>
+                    </name>
+                    <name>
+                      <surname>Carlin</surname>
+                      <given-names>JB</given-names>
+                    </name>
+                    <name>
+                      <surname>Spratt</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Royston</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Kenward</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                    <name>
+                      <surname>Wood</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>Carpenter</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls</article-title>
+                  <source>BMJ</source>
+                  <year>2009</year>
+                  <volume>338</volume>
+                  <fpage>b2393</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/19564179"/>
+                  </comment>
+                  <pub-id pub-id-type="medline">19564179</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC2714692</pub-id>-->
+                </element-citation>
+              </ref>
+              <ref id="ref9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hajebi</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Motevalian</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Amin-Esmaeili</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Hefazi</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Radgoodarzi</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Rahimi-Movaghar</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharifi</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Telephone versus face-to-face administration of the Structured Clinical Interview for Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition, for diagnosis of psychotic disorders</article-title>
+                  <source>Compr Psychiatry</source>
+                  <year>2012</year>
+                  <month>7</month>
+                  <volume>53</volume>
+                  <issue>5</issue>
+                  <fpage>579</fpage>
+                  <lpage>83</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.comppsych.2011.06.001</pub-id>
+                  <pub-id pub-id-type="medline">21820651</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0010-440X(11)00135-0</pub-id>-->
+                  <pub-id pub-id-type="pmid">21820651</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Crippa</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>de Lima Osório</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Del-Ben</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Filho</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <name>
+                      <surname>da Silva Freitas</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                    <name>
+                      <surname>Loureiro</surname>
+                      <given-names>SR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparability between telephone and face-to-face structured clinical interview for DSM-IV in assessing social anxiety disorder</article-title>
+                  <source>Perspect Psychiatr Care</source>
+                  <year>2008</year>
+                  <month>10</month>
+                  <volume>44</volume>
+                  <issue>4</issue>
+                  <fpage>241</fpage>
+                  <lpage>7</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1744-6163.2008.00183.x</pub-id>
+                  <pub-id pub-id-type="medline">18826462</pub-id>
+                  <!--<pub-id pub-id-type="pii">PPC183</pub-id>-->
+                </element-citation>
+              </ref>
+              <ref id="ref11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Senior</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <name>
+                      <surname>Kunik</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Rhoades</surname>
+                      <given-names>HM</given-names>
+                    </name>
+                    <name>
+                      <surname>Novy</surname>
+                      <given-names>DM</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>NL</given-names>
+                    </name>
+                    <name>
+                      <surname>Stanley</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Utility of telephone assessments in an older adult population</article-title>
+                  <source>Psychol Aging</source>
+                  <year>2007</year>
+                  <month>6</month>
+                  <volume>22</volume>
+                  <issue>2</issue>
+                  <fpage>392</fpage>
+                  <lpage>7</lpage>
+                  <pub-id pub-id-type="doi">10.1037/0882-7974.22.2.392</pub-id>
+                  <pub-id pub-id-type="medline">17563195</pub-id>
+                  <!--<pub-id pub-id-type="pii">2007-07952-019</pub-id>-->
+                  <pub-id pub-id-type="pmid">17563195</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Evans</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Kessler</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Lewis</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Peters</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharp</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Assessing mental health in primary care research using standardized scales: can it be carried out over the telephone?</article-title>
+                  <source>Psychol Med</source>
+                  <year>2004</year>
+                  <month>1</month>
+                  <volume>34</volume>
+                  <issue>1</issue>
+                  <fpage>157</fpage>
+                  <lpage>62</lpage>
+                  <pub-id pub-id-type="medline">14971636</pub-id>
+                  <pub-id pub-id-type="pmid">14971636</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref13">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Svanborg</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Åsberg</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A new self-rating scale for depression and anxiety states based on the Comprehensive Psychopathological Rating Scale</article-title>
+                  <source>Acta Psychiatr Scand</source>
+                  <year>1994</year>
+                  <month>1</month>
+                  <volume>89</volume>
+                  <issue>1</issue>
+                  <fpage>21</fpage>
+                  <lpage>8</lpage>
+                  <pub-id pub-id-type="medline">8140903</pub-id>
+                  <pub-id pub-id-type="pmid">8140903</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref14">
+                <label>14</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bastien</surname>
+                      <given-names>CH</given-names>
+                    </name>
+                    <name>
+                      <surname>Vallières</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Morin</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Validation of the Insomnia Severity Index as an outcome measure for insomnia research</article-title>
+                  <source>Sleep Med</source>
+                  <year>2001</year>
+                  <month>7</month>
+                  <volume>2</volume>
+                  <issue>4</issue>
+                  <fpage>297</fpage>
+                  <lpage>307</lpage>
+                  <pub-id pub-id-type="medline">11438246</pub-id>
+                  <!--<pub-id pub-id-type="pii">S1389945700000654</pub-id>-->
+                  <pub-id pub-id-type="pmid">11438246</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref15">
+                <label>15</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zigmond</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <name>
+                      <surname>Snaith</surname>
+                      <given-names>RP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The hospital anxiety and depression scale</article-title>
+                  <source>Acta Psychiatr Scand</source>
+                  <year>1983</year>
+                  <month>6</month>
+                  <volume>67</volume>
+                  <issue>6</issue>
+                  <fpage>361</fpage>
+                  <lpage>70</lpage>
+                  <pub-id pub-id-type="medline">6880820</pub-id>
+                  <pub-id pub-id-type="pmid">6880820</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref16">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using the Internet to provide cognitive behaviour therapy</article-title>
+                  <source>Behav Res Ther</source>
+                  <year>2009</year>
+                  <month>3</month>
+                  <volume>47</volume>
+                  <issue>3</issue>
+                  <fpage>175</fpage>
+                  <lpage>80</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.brat.2009.01.010</pub-id>
+                  <pub-id pub-id-type="medline">19230862</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0005-7967(09)00029-1</pub-id>-->
+                  <pub-id pub-id-type="pmid">19230862</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref17">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baker</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                    <name>
+                      <surname>Heinrichs</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>HJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Hofmann</surname>
+                      <given-names>SG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The liebowitz social anxiety scale as a self-report instrument: a preliminary psychometric analysis</article-title>
+                  <source>Behav Res Ther</source>
+                  <year>2002</year>
+                  <month>6</month>
+                  <volume>40</volume>
+                  <issue>6</issue>
+                  <fpage>701</fpage>
+                  <lpage>15</lpage>
+                  <pub-id pub-id-type="medline">12051488</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref18">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beck</surname>
+                      <given-names>AT</given-names>
+                    </name>
+                    <name>
+                      <surname>Ward</surname>
+                      <given-names>CH</given-names>
+                    </name>
+                    <name>
+                      <surname>Mendelson</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Mock</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Erbaugh</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An inventory for measuring depression</article-title>
+                  <source>Arch Gen Psychiatry</source>
+                  <year>1961</year>
+                  <month>6</month>
+                  <volume>4</volume>
+                  <fpage>561</fpage>
+                  <lpage>71</lpage>
+                  <pub-id pub-id-type="medline">13688369</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref19">
+                <label>19</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bjelland</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Dahl</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Haug</surname>
+                      <given-names>TT</given-names>
+                    </name>
+                    <name>
+                      <surname>Neckelmann</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The validity of the Hospital Anxiety and Depression Scale. An updated literature review</article-title>
+                  <source>J Psychosom Res</source>
+                  <year>2002</year>
+                  <month>2</month>
+                  <volume>52</volume>
+                  <issue>2</issue>
+                  <fpage>69</fpage>
+                  <lpage>77</lpage>
+                  <pub-id pub-id-type="medline">11832252</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0022399901002963</pub-id>-->
+                </element-citation>
+              </ref>
+              <ref id="ref20">
+                <label>20</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaldo-Sandström</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Ström</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Strömgren</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Internet administration of the Hospital Anxiety and Depression Scale in a sample of tinnitus patients</article-title>
+                  <source>J Psychosom Res</source>
+                  <year>2003</year>
+                  <month>9</month>
+                  <volume>55</volume>
+                  <issue>3</issue>
+                  <fpage>259</fpage>
+                  <lpage>62</lpage>
+                  <pub-id pub-id-type="medline">12932800</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0022399902005755</pub-id>-->
+                  <pub-id pub-id-type="pmid">12932800</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref21">
+                <label>21</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Carlbring</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Brunt</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Bohman</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Austin</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Richards</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Öst</surname>
+                      <given-names>L-G</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Internet vs. paper and pencil administration of questionnaires commonly used in panic/agoraphobia research</article-title>
+                  <source>Computers in Human Behavior</source>
+                  <year>2007</year>
+                  <month>5</month>
+                  <volume>23</volume>
+                  <issue>3</issue>
+                  <fpage>1421</fpage>
+                  <lpage>1434</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chb.2005.05.002</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref22">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Reich</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Goldenberg</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Vasile</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Goisman</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Keller</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A prospective follow-along study of the course of social phobia</article-title>
+                  <source>Psychiatry Res</source>
+                  <year>1994</year>
+                  <month>12</month>
+                  <volume>54</volume>
+                  <issue>3</issue>
+                  <fpage>249</fpage>
+                  <lpage>58</lpage>
+                  <pub-id pub-id-type="medline">7792329</pub-id>
+                  <pub-id pub-id-type="pmid">7792329</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

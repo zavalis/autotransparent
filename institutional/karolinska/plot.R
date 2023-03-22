@@ -3,9 +3,11 @@ library(reshape2)
 
 # CHECK OUT HOW TO AFFECT THIS
 plotpyear_institution=function(df,indicator,rangelow,rangehigh){
-  p=ggplot(df, aes(x=Publication.Year, y=.data[[indicator]], fill= short_name)) +
-    geom_line(aes(color= short_name)) + 
-    geom_point(aes(color = short_name)) + 
+  p=ggplot(df, aes(x=Publication.Year, y=.data[[indicator]], fill= Group)) +
+    geom_line(aes(color= Group)) + 
+      geom_line(data=df[df$Group=="CNS",], aes(colour=Group), size = 1, alpha = .9) +
+
+    geom_point(aes(color = Group)) + 
     theme_bw()+ylim(rangelow, rangehigh)
     
     if (grepl('data',indicator))
@@ -27,6 +29,11 @@ plotpyear_institution=function(df,indicator,rangelow,rangehigh){
 
 
 # get each indicator development for the institutions
-df=read.delim('./general.csv', header = TRUE, sep=',')
+df=read.delim('./cns_pres_data.csv', header = TRUE, sep=',')
 
-plotpyear_institution(df,'is_coi_pred',0,100)
+plotpyear_institution(df,'is_open_data',0,40)
+
+df=read.delim('./publications_cns_pres.csv', header = TRUE, sep=',')
+
+ggplot(df, aes(x=Publication.Year, y=Count, fill= Group)) +
+    geom_line(aes(color= Group))+theme_bw()

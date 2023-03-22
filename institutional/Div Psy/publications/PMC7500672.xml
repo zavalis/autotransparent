@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:03:12Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7500672" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7500672</identifier>
+        <datestamp>2020-09-24</datestamp>
+        <setSpec>ploscomp</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">PLoS Comput Biol</journal-id>
+              <journal-id journal-id-type="iso-abbrev">PLoS Comput. Biol</journal-id>
+              <journal-id journal-id-type="publisher-id">plos</journal-id>
+              <journal-id journal-id-type="pmc">ploscomp</journal-id>
+              <journal-title-group>
+                <journal-title>PLoS Computational Biology</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1553-734X</issn>
+              <issn pub-type="epub">1553-7358</issn>
+              <publisher>
+                <publisher-name>Public Library of Science</publisher-name>
+                <publisher-loc>San Francisco, CA USA</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7500672</article-id>
+              <article-id pub-id-type="pmcid">PMC7500672</article-id>
+              <article-id pub-id-type="pmc-uid">7500672</article-id>
+              <article-id pub-id-type="pmid">32898146</article-id>
+              <article-id pub-id-type="pmid">32898146</article-id>
+              <article-id pub-id-type="publisher-id">PCOMPBIOL-D-19-01796</article-id>
+              <article-id pub-id-type="doi">10.1371/journal.pcbi.1008163</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Neuroscience</subject>
+                    <subj-group>
+                      <subject>Cognitive Science</subject>
+                      <subj-group>
+                        <subject>Cognitive Psychology</subject>
+                        <subj-group>
+                          <subject>Decision Making</subject>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Psychology</subject>
+                    <subj-group>
+                      <subject>Cognitive Psychology</subject>
+                      <subj-group>
+                        <subject>Decision Making</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Social Sciences</subject>
+                  <subj-group>
+                    <subject>Psychology</subject>
+                    <subj-group>
+                      <subject>Cognitive Psychology</subject>
+                      <subj-group>
+                        <subject>Decision Making</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Neuroscience</subject>
+                    <subj-group>
+                      <subject>Cognitive Science</subject>
+                      <subj-group>
+                        <subject>Cognition</subject>
+                        <subj-group>
+                          <subject>Decision Making</subject>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Psychology</subject>
+                    <subj-group>
+                      <subject>Emotions</subject>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Social Sciences</subject>
+                  <subj-group>
+                    <subject>Psychology</subject>
+                    <subj-group>
+                      <subject>Emotions</subject>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Neuroscience</subject>
+                    <subj-group>
+                      <subject>Cognitive Science</subject>
+                      <subj-group>
+                        <subject>Cognitive Psychology</subject>
+                        <subj-group>
+                          <subject>Learning</subject>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Psychology</subject>
+                    <subj-group>
+                      <subject>Cognitive Psychology</subject>
+                      <subj-group>
+                        <subject>Learning</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Social Sciences</subject>
+                  <subj-group>
+                    <subject>Psychology</subject>
+                    <subj-group>
+                      <subject>Cognitive Psychology</subject>
+                      <subj-group>
+                        <subject>Learning</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Neuroscience</subject>
+                    <subj-group>
+                      <subject>Learning and Memory</subject>
+                      <subj-group>
+                        <subject>Learning</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Psychology</subject>
+                    <subj-group>
+                      <subject>Emotions</subject>
+                      <subj-group>
+                        <subject>Fear</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Social Sciences</subject>
+                  <subj-group>
+                    <subject>Psychology</subject>
+                    <subj-group>
+                      <subject>Emotions</subject>
+                      <subj-group>
+                        <subject>Fear</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Psychology</subject>
+                    <subj-group>
+                      <subject>Behavior</subject>
+                      <subj-group>
+                        <subject>Nonverbal Communication</subject>
+                        <subj-group>
+                          <subject>Facial Expressions</subject>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Social Sciences</subject>
+                  <subj-group>
+                    <subject>Psychology</subject>
+                    <subj-group>
+                      <subject>Behavior</subject>
+                      <subj-group>
+                        <subject>Nonverbal Communication</subject>
+                        <subj-group>
+                          <subject>Facial Expressions</subject>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Neuroscience</subject>
+                    <subj-group>
+                      <subject>Cognitive Science</subject>
+                      <subj-group>
+                        <subject>Cognitive Psychology</subject>
+                        <subj-group>
+                          <subject>Learning</subject>
+                          <subj-group>
+                            <subject>Human Learning</subject>
+                          </subj-group>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Psychology</subject>
+                    <subj-group>
+                      <subject>Cognitive Psychology</subject>
+                      <subj-group>
+                        <subject>Learning</subject>
+                        <subj-group>
+                          <subject>Human Learning</subject>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Social Sciences</subject>
+                  <subj-group>
+                    <subject>Psychology</subject>
+                    <subj-group>
+                      <subject>Cognitive Psychology</subject>
+                      <subj-group>
+                        <subject>Learning</subject>
+                        <subj-group>
+                          <subject>Human Learning</subject>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Neuroscience</subject>
+                    <subj-group>
+                      <subject>Learning and Memory</subject>
+                      <subj-group>
+                        <subject>Learning</subject>
+                        <subj-group>
+                          <subject>Human Learning</subject>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Psychology</subject>
+                    <subj-group>
+                      <subject>Developmental Psychology</subject>
+                      <subj-group>
+                        <subject>Pervasive Developmental Disorders</subject>
+                        <subj-group>
+                          <subject>Autism Spectrum Disorder</subject>
+                          <subj-group>
+                            <subject>Autism</subject>
+                          </subj-group>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Social Sciences</subject>
+                  <subj-group>
+                    <subject>Psychology</subject>
+                    <subj-group>
+                      <subject>Developmental Psychology</subject>
+                      <subj-group>
+                        <subject>Pervasive Developmental Disorders</subject>
+                        <subj-group>
+                          <subject>Autism Spectrum Disorder</subject>
+                          <subj-group>
+                            <subject>Autism</subject>
+                          </subj-group>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Medicine and Health Sciences</subject>
+                  <subj-group>
+                    <subject>Medical Conditions</subject>
+                    <subj-group>
+                      <subject>Neurodevelopmental Disorders</subject>
+                      <subj-group>
+                        <subject>Autism</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Neuroscience</subject>
+                    <subj-group>
+                      <subject>Developmental Neuroscience</subject>
+                      <subj-group>
+                        <subject>Neurodevelopmental Disorders</subject>
+                        <subj-group>
+                          <subject>Autism</subject>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Medicine and Health Sciences</subject>
+                  <subj-group>
+                    <subject>Neurology</subject>
+                    <subj-group>
+                      <subject>Neurodevelopmental Disorders</subject>
+                      <subj-group>
+                        <subject>Autism</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Physical Sciences</subject>
+                  <subj-group>
+                    <subject>Mathematics</subject>
+                    <subj-group>
+                      <subject>Geometry</subject>
+                      <subj-group>
+                        <subject>Fractals</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Integration of social cues and individual experiences during instrumental avoidance learning</article-title>
+                <alt-title alt-title-type="running-head">Social cue integration</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-8360-9097</contrib-id>
+                  <name>
+                    <surname>Pärnamets</surname>
+                    <given-names>Philip</given-names>
+                  </name>
+                  <role content-type="https://casrai.org/credit/">Conceptualization</role>
+                  <role content-type="https://casrai.org/credit/">Data curation</role>
+                  <role content-type="https://casrai.org/credit/">Formal analysis</role>
+                  <role content-type="https://casrai.org/credit/">Investigation</role>
+                  <role content-type="https://casrai.org/credit/">Methodology</role>
+                  <role content-type="https://casrai.org/credit/">Project administration</role>
+                  <role content-type="https://casrai.org/credit/">Software</role>
+                  <role content-type="https://casrai.org/credit/">Validation</role>
+                  <role content-type="https://casrai.org/credit/">Visualization</role>
+                  <role content-type="https://casrai.org/credit/">Writing – original draft</role>
+                  <role content-type="https://casrai.org/credit/">Writing – review &amp; editing</role>
+                  <xref ref-type="aff" rid="aff001">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff002">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="corresp" rid="cor001">*</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-5272-7744</contrib-id>
+                  <name>
+                    <surname>Olsson</surname>
+                    <given-names>Andreas</given-names>
+                  </name>
+                  <role content-type="https://casrai.org/credit/">Conceptualization</role>
+                  <role content-type="https://casrai.org/credit/">Funding acquisition</role>
+                  <role content-type="https://casrai.org/credit/">Project administration</role>
+                  <role content-type="https://casrai.org/credit/">Resources</role>
+                  <role content-type="https://casrai.org/credit/">Supervision</role>
+                  <role content-type="https://casrai.org/credit/">Validation</role>
+                  <role content-type="https://casrai.org/credit/">Writing – review &amp; editing</role>
+                  <xref ref-type="aff" rid="aff001">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff001">
+                <label>1</label>
+                <addr-line>Division of Psychology, Department of Clinical Neuroscience, Karolinska Institutet, Stockholm, Sweden</addr-line>
+              </aff>
+              <aff id="aff002">
+                <label>2</label>
+                <addr-line>Department of Psychology, New York University, New York, New York, United States of America</addr-line>
+              </aff>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>O’Reilly</surname>
+                    <given-names>Jill</given-names>
+                  </name>
+                  <role>Editor</role>
+                  <xref ref-type="aff" rid="edit1"/>
+                </contrib>
+              </contrib-group>
+              <aff id="edit1">
+                <addr-line>Oxford University, UNITED KINGDOM</addr-line>
+              </aff>
+              <author-notes>
+                <fn fn-type="COI-statement" id="coi001">
+                  <p>The authors have declared that no competing interests exist.</p>
+                </fn>
+                <corresp id="cor001">* E-mail: <email>philip.parnamets@ki.se</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <month>9</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>8</day>
+                <month>9</month>
+                <year>2020</year>
+              </pub-date>
+              <volume>16</volume>
+              <issue>9</issue>
+              <elocation-id>e1008163</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>24</day>
+                  <month>10</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="accepted">
+                  <day>19</day>
+                  <month>7</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2020 Pärnamets, Olsson</copyright-statement>
+                <copyright-year>2020</copyright-year>
+                <copyright-holder>Pärnamets, Olsson</copyright-holder>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf" xlink:href="pcbi.1008163.pdf"/>
+              <abstract>
+                <p>Learning to avoid harmful consequences can be a costly trial-and-error process. In such situations, social information can be leveraged to improve individual learning outcomes. Here, we investigated how participants used their own experiences and others’ social cues to avoid harm. Participants made repeated choices between harmful and safe options, each with different probabilities of generating shocks, while also seeing the image of a social partner. Some partners made predictive gaze cues towards the harmful choice option while others cued an option at random, and did so using neutral or fearful facial expressions. We tested how learned social information about partner reliability transferred across contexts by letting participants encounter the same partner in multiple trial blocks while facing novel choice options. Participants’ decisions were best explained by a reinforcement learning model that independently learned the probabilities of options being safe and of partners being reliable and combined these combined these estimates to generate choices. Advice from partners making a fearful facial expression influenced participants’ decisions more than advice from partners with neutral expressions. Our results showed that participants made better decisions when facing predictive partners and that they cached and transferred partner reliability estimates into new blocks. Using simulations we show that participants’ transfer of social information into novel contexts is better adapted to variable social environments where social partners may change their cuing strategy or become untrustworthy. Finally, we found no relation between autism questionnaire scores and performance in our task, but do find autism trait related differences in learning rate parameters.</p>
+              </abstract>
+              <abstract abstract-type="summary">
+                <title>Author summary</title>
+                <p>People learn about dangers in their environment by directly interacting with it or indirectly from social sources. While what is dangerous in an environment can change, many times one’s social context is relatively stable. Surprisingly little work has investigated how people learn to avoid dangers by combining their own experiences with social advice in repeated settings. Combining behavioral testing and computational modeling, here we show that people blend social cues with information from their own experiences. When entering a new environment, people utilize stored information about how good advice a social partner gives to improve their choices. Crucially, however, we show that people don’t entirely rely on social advice even when that is the only valid information they have to base their choice on. Using simulations we show that while this tendency to not fully rely on social advice is less than optimal in our experimental task, it might be adaptive in settings where social partners become unreliable. Increasing our understanding of how people learn to avoid dangers using individual experiences and social information furthers the development of ecologically valid models of value-based learning and decision-making.</p>
+              </abstract>
+              <funding-group>
+                <award-group id="award001">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100000781</institution-id>
+                      <institution>European Research Council</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>284366</award-id>
+                  <principal-award-recipient>
+                    <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-5272-7744</contrib-id>
+                    <name>
+                      <surname>Olsson</surname>
+                      <given-names>Andreas</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+                <award-group id="award002">
+                  <funding-source>
+                    <institution>Knut och Alice Wallenbergs Stiftelse (SE)</institution>
+                  </funding-source>
+                  <award-id>KAW 2014.0237</award-id>
+                  <principal-award-recipient>
+                    <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-5272-7744</contrib-id>
+                    <name>
+                      <surname>Olsson</surname>
+                      <given-names>Andreas</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+                <award-group id="award003">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100004359</institution-id>
+                      <institution>Vetenskapsrådet</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>2016-06793</award-id>
+                  <principal-award-recipient>
+                    <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-8360-9097</contrib-id>
+                    <name>
+                      <surname>Pärnamets</surname>
+                      <given-names>Philip</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+                <funding-statement>This research was supported by the European Research Council (Independent Starting Grant 284366; Emotional Learning in Social Interaction), the Knut and Alice Wallenberg Foundation (KAW 2014.0237) and Consolidator Grant (2018-00877) from the Swedish Research Council to AO and by the Swedish Research Council (2016-06793) to PP. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+              </funding-group>
+              <counts>
+                <fig-count count="9"/>
+                <table-count count="3"/>
+                <page-count count="24"/>
+              </counts>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>PLOS Publication Stage</meta-name>
+                  <meta-value>vor-update-to-uncorrected-proof</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>Publication Update</meta-name>
+                  <meta-value>2020-09-18</meta-value>
+                </custom-meta>
+                <custom-meta id="data-availability">
+                  <meta-name>Data Availability</meta-name>
+                  <meta-value>All code and data are available from OSF repository: <ext-link ext-link-type="uri" xlink:href="https://osf.io/8vwjy/">https://osf.io/8vwjy/</ext-link>.</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+            <notes>
+              <title>Data Availability</title>
+              <p>All code and data are available from OSF repository: <ext-link ext-link-type="uri" xlink:href="https://osf.io/8vwjy/">https://osf.io/8vwjy/</ext-link>.</p>
+            </notes>
+          </front>
+          <body>
+            <sec sec-type="intro" id="sec001">
+              <title>Introduction</title>
+              <p>Learning about threats and dangers in the environment is important for survival across species. Many species, including humans, engage in social learning to leverage the knowledge other conspecifics may have acquired about the environment [<xref rid="pcbi.1008163.ref001" ref-type="bibr">1</xref>–<xref rid="pcbi.1008163.ref004" ref-type="bibr">4</xref>]. This allows individuals to avoid potentially costly trial-and-error learning and is under many conditions adaptive [<xref rid="pcbi.1008163.ref002" ref-type="bibr">2</xref>, <xref rid="pcbi.1008163.ref005" ref-type="bibr">5</xref>] and scaffolds general cognitive capacities for associative learning [<xref rid="pcbi.1008163.ref001" ref-type="bibr">1</xref>]. Trial-and-error learning is not only costly in terms of time or energy expended searching for rewards, but can be especially so in a potentially dangerous environment where selecting the wrong action or holding false beliefs may be detrimental to an individual’s survival. Social learning sometimes takes the form of acquiring the behavior of a demonstrator, for example through imitation or teaching [<xref rid="pcbi.1008163.ref006" ref-type="bibr">6</xref>–<xref rid="pcbi.1008163.ref009" ref-type="bibr">9</xref>]. Another way of learning about a conspecific’s past experiences is through paying attention to their gestures or other bodily expressions that might signal risks and rewards in the environment [<xref rid="pcbi.1008163.ref010" ref-type="bibr">10</xref>–<xref rid="pcbi.1008163.ref013" ref-type="bibr">13</xref>]. In humans, the face is a particularly potent source of such signals, capable of carrying cues with varied informational content [<xref rid="pcbi.1008163.ref014" ref-type="bibr">14</xref>–<xref rid="pcbi.1008163.ref016" ref-type="bibr">16</xref>]. Little is known, however, about how well humans can leverage such signals to improve their decision making to learn to avoid harmful consequences and what the computational mechanisms underlying those abilities are. To investigate this, we used an instrumental aversive learning task where participants, prior to making decisions between two potentially harmful options, observed the gaze cues and fearful facial expressions made by different social partners.</p>
+              <p>To date a small body of work has investigated how social advice in the form of gaze cues and individual experiences are integrated during instrumental decision making [<xref rid="pcbi.1008163.ref010" ref-type="bibr">10</xref>, <xref rid="pcbi.1008163.ref013" ref-type="bibr">13</xref>]. Social information in instrumental learning tasks is instead commonly represented by indicating the choice of a confederate demonstrator, sometimes coupled with an image of the demonstrator [<xref rid="pcbi.1008163.ref008" ref-type="bibr">8</xref>, <xref rid="pcbi.1008163.ref009" ref-type="bibr">9</xref>] and sometimes without [<xref rid="pcbi.1008163.ref017" ref-type="bibr">17</xref>, <xref rid="pcbi.1008163.ref018" ref-type="bibr">18</xref>]. If the outcome of the demonstrator’s choice is not represented, the choice can be understood as presenting advice similar to how a gaze cue can be interpreted as signaling about the cued option. In an early groundbreaking study researchers investigated the effects of volatility in social advice [<xref rid="pcbi.1008163.ref017" ref-type="bibr">17</xref>]. Participants made choices between two probabilistically rewarding options. Prior to each choice one option was highlighted representing the choice of a confederate. The confederate was performing another task to that of the participants which entailed that sometimes their choice would be helpful and sometimes unhelpful as advice to participants. Results showed that social and reward information were tracked in separate neural substrates and then integrated during decision-making. Studies investigating learning from gaze cues have also manipulated volatility [<xref rid="pcbi.1008163.ref010" ref-type="bibr">10</xref>, <xref rid="pcbi.1008163.ref013" ref-type="bibr">13</xref>]. In these studies the reliability of a single social partner’s gaze cues was manipulated while participants made choices between different probabilistic alternatives. The key finding from these two studies was that, especially under conditions of high volatility, participants with high levels of autistic traits exhibited differences in how social information was integrated compared to participants with lower levels and, consequently, performed worse on the task.</p>
+              <p>Humans are very skilled at ascertaining the target of others’ gaze [<xref rid="pcbi.1008163.ref019" ref-type="bibr">19</xref>], owing in part to the physiological makeup of the human eye with a dark pupil and light sclera [<xref rid="pcbi.1008163.ref020" ref-type="bibr">20</xref>]. Indeed, previous work has shown that people automatically orient to gaze from an early age [<xref rid="pcbi.1008163.ref021" ref-type="bibr">21</xref>], and that in adults, this orienting has effects on both attention [<xref rid="pcbi.1008163.ref022" ref-type="bibr">22</xref>, <xref rid="pcbi.1008163.ref023" ref-type="bibr">23</xref>] and preferences [<xref rid="pcbi.1008163.ref024" ref-type="bibr">24</xref>, <xref rid="pcbi.1008163.ref025" ref-type="bibr">25</xref>]. In a standard gaze-cuing paradigm, a face is first presented facing and gazeing forward followed by a gaze shift. A target then appears beside the face. If the target appears at the cued location, recognition is significantly faster indicating covert attentional shifts facilitated by the social cue. Such immediate attentional effects have also been demonstrated using counter-predictive gaze cues [<xref rid="pcbi.1008163.ref023" ref-type="bibr">23</xref>, <xref rid="pcbi.1008163.ref026" ref-type="bibr">26</xref>]. While there is ample evidence for the immediate attentional and evaluative effects of gaze cues, their use as inputs to evaluate decisions between options remain understudied, particularly in harmful contexts.</p>
+              <p>Previous work on learning from social advice and gaze cues has investigated the social learning problem of estimating how reliable a single individual is in a fixed decision context [<xref rid="pcbi.1008163.ref010" ref-type="bibr">10</xref>, <xref rid="pcbi.1008163.ref013" ref-type="bibr">13</xref>, <xref rid="pcbi.1008163.ref017" ref-type="bibr">17</xref>]. However, it does not address another feature of natural environments, namely that people typically encounter social partners across multiple decision contexts. For example, if a person is good at advising which stalls have safe food during the <italic>Feast of San Gennaro</italic> in Little Italy, they might also be good at advising which dumpling spots in nearby Chinatown are safe to visit. This suggests that remembering how likely it is that a social partner gives accurate advice, or is able to signal safe options, is necessary to maximally leverage their knowledge during repeated encounters. However, a study where participants could learn from from a demonstrators’ choices found mixed results regarding if participants transfer information about demonstrators to novel contexts [<xref rid="pcbi.1008163.ref008" ref-type="bibr">8</xref>]. In the current study, we allowed participants to learn from multiple partners differing in their ability to reliably cue alternatives. Additionally, partners were re-encountered multiple times during the experiment in contexts where participants faced novel choice options. This design allowed us to capture several crucial features of the human social environment, one where we typically must learn to track the utility of multiple individual partners and transfer that information to decisions about actions in novel contexts.</p>
+              <p>Considerable research has investigated how the combination of emotional expressions and gaze direction can confer values to objects, so-called social referencing [<xref rid="pcbi.1008163.ref011" ref-type="bibr">11</xref>, <xref rid="pcbi.1008163.ref012" ref-type="bibr">12</xref>, <xref rid="pcbi.1008163.ref027" ref-type="bibr">27</xref>]. This work has shown that value can be transferred to objects being referenced [<xref rid="pcbi.1008163.ref011" ref-type="bibr">11</xref>]. However, how gaze cues and emotional expressions interact to shape instrumental decisions has not been investigated. Avoidance-oriented emotional expressions, such as fear, are more quickly identified when gaze is also averted indicating that gaze direction and emotional expressions are contextually processed [<xref rid="pcbi.1008163.ref028" ref-type="bibr">28</xref>]. Similarly, the attentional effects of gaze cues are amplified with fearful expressions as these represent potentially more significant signals to the perceiver [<xref rid="pcbi.1008163.ref012" ref-type="bibr">12</xref>, <xref rid="pcbi.1008163.ref029" ref-type="bibr">29</xref>]. Given these findings, we allowed some of the partners in the present study to express fear while giving gaze cues. We reasoned that this is a naturalistic signal for danger [<xref rid="pcbi.1008163.ref030" ref-type="bibr">30</xref>, <xref rid="pcbi.1008163.ref031" ref-type="bibr">31</xref>]. If participants pay extra attention to gaze cues from partners with fearful expressions, then this should bias their decisions.</p>
+              <p>We present results from an experiment investigating instrumental learning under threat of shock while viewing different partners giving either predictive or random gaze cues coupled with either neutral or fearful facial expressions (see <xref ref-type="fig" rid="pcbi.1008163.g001">Fig 1</xref>). Participants were placed in one of two conditions; in the naïve condition participants were not told anything about the role of the social partners and simply told that at the start of each trial they would see a face on the screen. In the instructed condition we informed participants that the faces represented social partners some of who would have information about what choice options were dangerous, although no specific information was given. Participants were not otherwise told anything if the social partners were human or computer controlled. Our design allowed us to explore if prior knowledge about the potential relevance of the social partners impacted behavior in our task, although we did not formulate any directional hypotheses concerning the effects of instruction. Participants were also assessed on their autistic traits by filling out an Autism Questionairre (AQ) at the end of the experiment [<xref rid="pcbi.1008163.ref032" ref-type="bibr">32</xref>]. We expected to find task related deficiencies consistent with previous findings in the literature related to participants’ AQ scores. We also explored if participants’ AQ scores related to parameters derived from a reinforcement learning model describing their learning and decision making in our task.</p>
+              <fig id="pcbi.1008163.g001" orientation="portrait" position="float">
+                <object-id pub-id-type="doi">10.1371/journal.pcbi.1008163.g001</object-id>
+                <label>Fig 1</label>
+                <caption>
+                  <title>Methods overview.</title>
+                  <p>A: Example trial structure. Participants view a fixation cross, followed by the appearance of the partner of the current block of 12 trials. The partner makes a gaze cue and shortly thereafter the two alternative options appear, randomly assigned to the left or right side of the screen. Once participants have made their choice, the selected alternative remains onscreen, highlighted for 5.5s. At the end of this period the participants may receive a shock. Displaying KDEF images AF14NES, AF14AFS. B: The four social partners used in the experiment, each was randomly assigned to one condition for each participant. Displaying KDEF images AF01NES, AF14NES, AF26NES, AF29NES. C: <italic>A priori</italic> predictions of models <bold>1-4</bold> for the case when partners are predictive. Models <bold>2-4</bold> cache the learned value of the social partner when transferring between blocks that feature novel choice options. This allows them to predict above chance performance on the first trial by partially relying on the social partners’ gaze cue.</p>
+                </caption>
+                <graphic xlink:href="pcbi.1008163.g001"/>
+              </fig>
+              <p>We found that participants’ behavior was best explained by a reinforcement learning model which assumed that they learned the probabilities of the options being safe as well as of the partners accurately signaling safety. Participants then combined the resulting value estimates to make decisions, while also following advice from partners making a fearful expression to a greater degree through a fixed bonus to their decision making. Estimates of partners’ probability of giving accurate cues was transferred into novel contexts. We additionally explored the ecological validity of participants’ transfer of information between contexts, attempting to explain apparent suboptimalities in participants’ learning strategy by simulating model outcomes in a variety of environments.</p>
+            </sec>
+            <sec sec-type="results" id="sec002">
+              <title>Results</title>
+              <sec id="sec003">
+                <title>Choice behavior</title>
+                <p>We first analyzed choice behavior across all participants using a logistic generalized mixed model with partner reliability (<italic>predictive</italic> or <italic>random</italic>), emotional expression (<italic>fearful</italic> or <italic>neutral</italic>) and instruction condition (<italic>naïve</italic> or <italic>instructed</italic>) as predictors together with their interactions. We defined a choice as being safe if the option with the lowest shock probability was chosen, see <xref ref-type="fig" rid="pcbi.1008163.g002">Fig 2</xref> for descriptive results. We found that participants made more safe choices when facing predictive compared to random partners (<italic>b</italic><sub><italic>reliability</italic></sub> = 0.67, <italic>SE</italic> = 0.10, 95% CrI = [0.48, 0.85], <italic>pd</italic> ≈ 1.0) and this effect did not robustly interact with instruction (<italic>b</italic><sub><italic>rel</italic>*<italic>instr</italic></sub> = 0.11, <italic>SE</italic> = 0.18, 95% CrI = [-0.25, 0.45], <italic>pd</italic> = .73). Indeed, we found no average difference in proportion safe choices depending on instruction (<italic>b</italic><sub><italic>instruction</italic></sub> = 0.0, <italic>SE</italic> = 0.14, 95% CrI = [-0.28, 0.28], <italic>pd</italic> = 0.5). Together this shows that participants readily learned to use the predictive partners’ gaze cues to improve their decision-making but that receiving instructions about the partners had no effect on this ability.</p>
+                <fig id="pcbi.1008163.g002" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pcbi.1008163.g002</object-id>
+                  <label>Fig 2</label>
+                  <caption>
+                    <title>Choice behavior.</title>
+                    <p>Average proportion of safe choices across all participants split by conditions and instruction. Error bars are standard errors. Individual dots represent participant averages.</p>
+                  </caption>
+                  <graphic xlink:href="pcbi.1008163.g002"/>
+                </fig>
+                <p>We found mixed results regarding the effects of partners giving fearful or neutral emotional expressions. There was no general increase in safe choices based on partners’ emotional expressions (<italic>b</italic><sub><italic>emotion</italic></sub> = 0.08, <italic>SE</italic> = 0.071, 95% CrI = [-0.06, 0.22], <italic>pd</italic> = 0.87), but instead we found an interaction between partner reliability and emotional expression (<italic>b</italic><sub><italic>rel</italic>*<italic>emot</italic></sub> = 0.51, <italic>SE</italic> = 0.14, 95% CrI = [0.23, 0.78], <italic>pd</italic> ≈ 1.0). The interaction showed that participants tended to make more safe choices to fearful compared to neutral partners in the predictive condition, while making fewer safe choices to fearful compared to neutral partners in the neutral condition. It is also probable that emotional expression increased safe choices more for participants given additional instructions (<italic>b</italic><sub><italic>emot</italic>*<italic>instr</italic></sub> = 0.26, <italic>SE</italic> = 0.14, 95% CrI = [-0.017, 0.53], <italic>pd</italic> = 0.97), but we note that the credible intervals overlap with zero rendering strong conclusions inappropriate. Further, in light of the lack of effects on average performance, this increase of safe choices to fearful partners appears to have been “compensated” by a decrease in safe choices to neutral partners additionally complicating interpretation of this effect. In the remainder of the paper, unless otherwise specified, we analyze data collapsed by participant instruction.</p>
+                <p>A key prediction was that if participants would retain and use previously learned information about the social partner, they should be above chance choosing the safe option on the first trial when facing reliable partners a second and third time. Therefore, we examined participants’ choices on the first trial of the second and third blocks to each partner. We found that participants indeed were above chance on these trials when facing predictive partners. In the second block, participants chose the safe option above chance when facing the predictive fearful partner (<italic>M</italic> = 0.79, logistic regression <italic>b</italic> = 1.25, <italic>SE</italic> = 0.26, 95% CrI = [0.76, 1.78], <italic>pd</italic> ≈ 1.0) and when facing the predictive neutral partner (<italic>M</italic> = 0.68, <italic>b</italic> = 0.72, <italic>SE</italic> = 0.24, 95% CrI = [0.26, 1.20], <italic>pd</italic> = 0.999). In the third block, the same results were observed, with participants choosing the safe option above chance both when facing the predictive fearful partner (<italic>M</italic> = 0.84, <italic>b</italic> = 1.54, <italic>SE</italic> = 0.28, 95% CrI = [1.0, 2.12], <italic>pd</italic> ≈ 1.0) and when facing the predictive neutral partner (<italic>M</italic> = 0.70, <italic>b</italic> = 0.83, <italic>SE</italic> = 0.24, 95% CrI = [0.37, 1.30, <italic>pd</italic> ≈ 1.0). In contrast, this was not observed for the two random partners in block two (fearful, <italic>M</italic> = 0.47, <italic>b</italic> = -0.11, <italic>SE</italic> = 0.22, 95% CrI = [-0.54, 0.33], <italic>pd</italic> = 0.695; neutral, <italic>M</italic> = 0.52, <italic>b</italic> = 0.072, <italic>SE</italic> = 0.22, 95% CrI = [-0.35, 0.53], <italic>pd</italic> = 0.622) or in block three (fearful, <italic>M</italic> = 0.54, <italic>b</italic> = 0.17, <italic>SE</italic> = 0.22, 95% CrI = [-0.26, 0.61], <italic>pd</italic> = 0.778; neutral, <italic>M</italic> = 0.54, <italic>b</italic> = 0.17, <italic>SE</italic> = 0.22, 95% CrI = [-0.26 0.62], <italic>pd</italic> = 0.776).</p>
+                <p>In sum, participants learned that some social partners were reliably predictive and used that information to make more safe choices. Furthermore, they retained their learning about the social partners and were able to benefit it when proceeding through the experiment and encountering novel choice options. The next question was how they achieved this.</p>
+              </sec>
+              <sec id="sec004">
+                <title>Computational modeling</title>
+                <p>To understand participants’ learning and decision-making in the experiment, we analyzed their trial-by-trial decisions with the help of reinforcement learning (RL) models (see <xref ref-type="sec" rid="sec010">Methods</xref> and <xref rid="pcbi.1008163.t001" ref-type="table">Table 1</xref>). All models, except for the the null models <bold>1-2</bold>, assumed that participants learned both the probability of each option being safe and the reliability of the social partners (the probability of each social partner giving good advice). In the null models, by contrast, participants only learned from one source of information. We formulated a <italic>weak transfer</italic> and <italic>strong transfer</italic> version of the different models. Transfer refers to how the learning about partners’ reliability affects choices between new options between blocks (see <xref ref-type="fig" rid="pcbi.1008163.g001">Fig 1C</xref>). Under weak transfer, participants are assumed to cache the reliability of each social partner between blocks. By contrast, under strong transfer, participants additionally allow the reliability of the social partner influence their initial estimates of novel options.</p>
+                <table-wrap id="pcbi.1008163.t001" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pcbi.1008163.t001</object-id>
+                  <label>Table 1</label>
+                  <caption>
+                    <title>Overview of models compared and their respective free parameters.</title>
+                    <p>ELPD = expected log predictive density (larger is better). Winning <bold>model 9</bold> highlighted in bold.</p>
+                  </caption>
+                  <alternatives>
+                    <graphic id="pcbi.1008163.t001g" xlink:href="pcbi.1008163.t001"/>
+                    <table frame="box" rules="all" border="0">
+                      <colgroup span="1">
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th align="left" style="border-bottom:thick" rowspan="1" colspan="1">Model</th>
+                          <th align="left" style="border-bottom:thick" rowspan="1" colspan="1">Parameters</th>
+                          <th align="left" style="border-bottom:thick" rowspan="1" colspan="1">Transfer</th>
+                          <th align="left" style="border-bottom:thick" rowspan="1" colspan="1">#</th>
+                          <th align="left" style="border-bottom:thick" rowspan="1" colspan="1">ELPD</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Option only</td>
+                          <td align="left" rowspan="1" colspan="1"><italic>β</italic>, <italic>α</italic><sub>+/−,<italic>opt</italic></sub></td>
+                          <td align="left" rowspan="1" colspan="1">-</td>
+                          <td align="left" rowspan="1" colspan="1">1</td>
+                          <td align="left" rowspan="1" colspan="1">-4634</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Gaze only</td>
+                          <td align="left" rowspan="1" colspan="1"><italic>β</italic>, <italic>α</italic><sub>+/−,<italic>partner</italic></sub></td>
+                          <td align="left" rowspan="1" colspan="1">Weak</td>
+                          <td align="left" rowspan="1" colspan="1">2</td>
+                          <td align="left" rowspan="1" colspan="1">-6219</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="2" colspan="1">Equal weighting</td>
+                          <td align="left" rowspan="2" colspan="1"><italic>β</italic>, <italic>α</italic><sub>+/−,<italic>opt</italic></sub>, <italic>α</italic><sub>+/−,<italic>partner</italic></sub></td>
+                          <td align="left" rowspan="1" colspan="1">Weak</td>
+                          <td align="left" rowspan="1" colspan="1">3</td>
+                          <td align="left" rowspan="1" colspan="1">-4239</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Strong</td>
+                          <td align="left" rowspan="1" colspan="1">4</td>
+                          <td align="left" rowspan="1" colspan="1">-4340</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="2" colspan="1">Variable weighting</td>
+                          <td align="left" rowspan="2" colspan="1"><italic>β</italic>, <italic>α</italic><sub>+/−,<italic>opt</italic></sub>, <italic>α</italic><sub>+/−,<italic>partner</italic></sub>, <italic>ω</italic></td>
+                          <td align="left" rowspan="1" colspan="1">Weak</td>
+                          <td align="left" rowspan="1" colspan="1">5</td>
+                          <td align="left" rowspan="1" colspan="1">-4239</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Strong</td>
+                          <td align="left" rowspan="1" colspan="1">6</td>
+                          <td align="left" rowspan="1" colspan="1">-4318</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="2" colspan="1">Emotion weighting</td>
+                          <td align="left" rowspan="2" colspan="1"><italic>β</italic>, <italic>α</italic><sub>+/−,<italic>opt</italic></sub>, <italic>α</italic><sub>+/−,<italic>partner</italic></sub>, <italic>ω</italic><sub><italic>n</italic></sub>, <italic>ω</italic><sub><italic>f</italic></sub></td>
+                          <td align="left" rowspan="1" colspan="1">Weak</td>
+                          <td align="left" rowspan="1" colspan="1">7</td>
+                          <td align="left" rowspan="1" colspan="1">-4164</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Strong</td>
+                          <td align="left" rowspan="1" colspan="1">8</td>
+                          <td align="left" rowspan="1" colspan="1">-4329</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="2" colspan="1">Emotion bonus</td>
+                          <td align="left" rowspan="2" colspan="1"><italic>β</italic>, <italic>α</italic><sub>+/−,<italic>opt</italic></sub>, <italic>α</italic><sub>+/−,<italic>partner</italic></sub>, <italic>ω</italic>, <italic>θ</italic></td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>Weak</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>9</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>-4145</bold>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Strong</td>
+                          <td align="left" rowspan="1" colspan="1">10</td>
+                          <td align="left" rowspan="1" colspan="1">-4277</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="2" colspan="1">Arbitration</td>
+                          <td align="left" rowspan="2" colspan="1"><italic>β</italic>, <italic>α</italic><sub>+/−,<italic>opt</italic></sub>,<italic>α</italic><sub>+/−,<italic>partner</italic></sub>, <italic>γ</italic></td>
+                          <td align="left" rowspan="1" colspan="1">Weak</td>
+                          <td align="left" rowspan="1" colspan="1">11</td>
+                          <td align="left" rowspan="1" colspan="1">-4188</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Strong</td>
+                          <td align="left" rowspan="1" colspan="1">12</td>
+                          <td align="left" rowspan="1" colspan="1">-4306</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="2" colspan="1">Arbitration emotion bonus</td>
+                          <td align="left" rowspan="2" colspan="1"><italic>β</italic>, <italic>α</italic><sub>+/−,<italic>opt</italic></sub>,<italic>α</italic><sub>+/−,<italic>partner</italic></sub>, <italic>γ</italic><italic>θ</italic></td>
+                          <td align="left" rowspan="1" colspan="1">Weak</td>
+                          <td align="left" rowspan="1" colspan="1">13</td>
+                          <td align="left" rowspan="1" colspan="1">-4155</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Strong</td>
+                          <td align="left" rowspan="1" colspan="1">14</td>
+                          <td align="left" rowspan="1" colspan="1">-4239</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                </table-wrap>
+                <p>The models also differed in how option and partner information was combined and if the partners’ emotional expression was taken into account or not. We assumed that participants weighted option values according to a weighting parameter, <italic>ω</italic>, and combined this with the value of the partners’ advice (1 − <italic>ω</italic>). The weighting parameter was fixed in models <bold>3-4</bold> and variable in in models <bold>5-14</bold>. Several of the models additionally modeled how participants’ decisions might have changed in response to the partners’ emotional expression. In models <bold>7-8</bold>, the weighting parameter differed depending on the partners emotional expression. In models <bold>9-10</bold> and <bold>13-14</bold> emotional expression was taking into account through a bonus parameter, <italic>θ</italic>, conferring a fixed value bonus to the advised option from a partner making a fearful facial expression.</p>
+                <p>To compare the models we used leave-one-out cross-validation (LOO-CV) to compute the expected log predictive density (ELPD) of each model which quantifies the predictive accuracy of the models [<xref rid="pcbi.1008163.ref033" ref-type="bibr">33</xref>], analogous to what information criteria estimate. The results of the model comparison are summarized in <xref rid="pcbi.1008163.t002" ref-type="table">Table 2</xref>. Model <bold>9</bold> emerged as the winning model. This model used weak transfer and it further assumed that each participant varied in their relative weighting of option and partner information and that fearful expressions conferred a fixed bonus to the option advised (see <xref ref-type="sec" rid="sec010">Methods</xref>, <xref ref-type="disp-formula" rid="pcbi.1008163.e007">Eq (7)</xref>). The distribution of the average per-participant estimates of the weighting parameter <italic>ω</italic> ranged between 0.26 and 0.85, with a clear majority of participants (72 of 81) being fit with a greater weighting for options over partner advice (<italic>ω</italic> &gt; 0.5), see also <xref ref-type="fig" rid="pcbi.1008163.g003">Fig 3</xref>. The emotion bonus parameter was positive for all participants, ranging from 0.038 to 0.44 (see <xref ref-type="fig" rid="pcbi.1008163.g003">Fig 3</xref>), meaning that all participants were on average estimated to be more likely to follow the partners’ advice if they made a fearful expression. Estimated population parameter values for all parameters are presented in <xref rid="pcbi.1008163.t003" ref-type="table">Table 3</xref>. In the <xref ref-type="supplementary-material" rid="pcbi.1008163.s001">S1 Text</xref> we report additional exploratory analyses of model parameters depending on instruction condition.</p>
+                <fig id="pcbi.1008163.g003" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pcbi.1008163.g003</object-id>
+                  <label>Fig 3</label>
+                  <caption>
+                    <title>Parameter histograms.</title>
+                    <p>Histograms of the per participant average posterior parameter estimates of the weighting parameter <italic>ω</italic> and the emotion bonus parameter <italic>θ</italic> from model <bold>9</bold>. Dashed red line corresponds to the estimated population average parameter value.</p>
+                  </caption>
+                  <graphic xlink:href="pcbi.1008163.g003"/>
+                </fig>
+                <table-wrap id="pcbi.1008163.t002" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pcbi.1008163.t002</object-id>
+                  <label>Table 2</label>
+                  <caption>
+                    <title>Full model comparison.</title>
+                    <p>Δ ELPD is the difference in expected log predictive density (ELPD) between each model and the winning model. SE Δ approximates the standard error of the difference between each model and the winning model. ELPD and SE ELPD give each model’s expected log predictive density and their standard error. <italic>p</italic><sub><italic>eff</italic></sub> and SE <italic>p</italic><sub><italic>eff</italic></sub> estimates the effective number of parameters in each model and the standard error of this estimate.</p>
+                  </caption>
+                  <alternatives>
+                    <graphic id="pcbi.1008163.t002g" xlink:href="pcbi.1008163.t002"/>
+                    <table frame="box" rules="all" border="0">
+                      <colgroup span="1">
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th align="right" rowspan="1" colspan="1">Model #</th>
+                          <th align="right" rowspan="1" colspan="1">Δ ELPD</th>
+                          <th align="right" rowspan="1" colspan="1">SE Δ</th>
+                          <th align="right" rowspan="1" colspan="1">ELPD</th>
+                          <th align="right" rowspan="1" colspan="1">SE ELPD</th>
+                          <th align="right" rowspan="1" colspan="1">
+                            <italic>p</italic>
+                            <sub>
+                              <italic>eff</italic>
+                            </sub>
+                          </th>
+                          <th align="right" rowspan="1" colspan="1">SE <italic>p</italic><sub><italic>eff</italic></sub></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">9</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.00</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.00</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-4144.84</td>
+                          <td align="char" char="." rowspan="1" colspan="1">167.26</td>
+                          <td align="char" char="." rowspan="1" colspan="1">275.81</td>
+                          <td align="char" char="." rowspan="1" colspan="1">8.20</td>
+                        </tr>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">13</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-10.30</td>
+                          <td align="char" char="." rowspan="1" colspan="1">13.28</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-4155.14</td>
+                          <td align="char" char="." rowspan="1" colspan="1">165.89</td>
+                          <td align="char" char="." rowspan="1" colspan="1">282.51</td>
+                          <td align="char" char="." rowspan="1" colspan="1">8.32</td>
+                        </tr>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">7</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-19.17</td>
+                          <td align="char" char="." rowspan="1" colspan="1">9.76</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-4164.01</td>
+                          <td align="char" char="." rowspan="1" colspan="1">164.33</td>
+                          <td align="char" char="." rowspan="1" colspan="1">291.55</td>
+                          <td align="char" char="." rowspan="1" colspan="1">8.70</td>
+                        </tr>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">5</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-27.56</td>
+                          <td align="char" char="." rowspan="1" colspan="1">10.95</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-4172.40</td>
+                          <td align="char" char="." rowspan="1" colspan="1">165.51</td>
+                          <td align="char" char="." rowspan="1" colspan="1">248.78</td>
+                          <td align="char" char="." rowspan="1" colspan="1">7.03</td>
+                        </tr>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">11</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-42.75</td>
+                          <td align="char" char="." rowspan="1" colspan="1">16.90</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-4187.59</td>
+                          <td align="char" char="." rowspan="1" colspan="1">164.61</td>
+                          <td align="char" char="." rowspan="1" colspan="1">246.28</td>
+                          <td align="char" char="." rowspan="1" colspan="1">7.53</td>
+                        </tr>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">3</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-93.88</td>
+                          <td align="char" char="." rowspan="1" colspan="1">19.93</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-4238.72</td>
+                          <td align="char" char="." rowspan="1" colspan="1">160.93</td>
+                          <td align="char" char="." rowspan="1" colspan="1">245.42</td>
+                          <td align="char" char="." rowspan="1" colspan="1">8.31</td>
+                        </tr>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">14</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-120.99</td>
+                          <td align="char" char="." rowspan="1" colspan="1">25.59</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-4265.83</td>
+                          <td align="char" char="." rowspan="1" colspan="1">164.07</td>
+                          <td align="char" char="." rowspan="1" colspan="1">326.08</td>
+                          <td align="char" char="." rowspan="1" colspan="1">10.61</td>
+                        </tr>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">10</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-132.25</td>
+                          <td align="char" char="." rowspan="1" colspan="1">23.64</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-4277.10</td>
+                          <td align="char" char="." rowspan="1" colspan="1">163.92</td>
+                          <td align="char" char="." rowspan="1" colspan="1">319.53</td>
+                          <td align="char" char="." rowspan="1" colspan="1">10.02</td>
+                        </tr>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">12</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-160.74</td>
+                          <td align="char" char="." rowspan="1" colspan="1">30.47</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-4305.58</td>
+                          <td align="char" char="." rowspan="1" colspan="1">162.24</td>
+                          <td align="char" char="." rowspan="1" colspan="1">298.84</td>
+                          <td align="char" char="." rowspan="1" colspan="1">10.10</td>
+                        </tr>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">6</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-173.65</td>
+                          <td align="char" char="." rowspan="1" colspan="1">30.78</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-4318.49</td>
+                          <td align="char" char="." rowspan="1" colspan="1">160.96</td>
+                          <td align="char" char="." rowspan="1" colspan="1">297.55</td>
+                          <td align="char" char="." rowspan="1" colspan="1">9.47</td>
+                        </tr>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">8</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-184.41</td>
+                          <td align="char" char="." rowspan="1" colspan="1">31.01</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-4329.26</td>
+                          <td align="char" char="." rowspan="1" colspan="1">161.88</td>
+                          <td align="char" char="." rowspan="1" colspan="1">330.51</td>
+                          <td align="char" char="." rowspan="1" colspan="1">9.66</td>
+                        </tr>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">4</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-195.42</td>
+                          <td align="char" char="." rowspan="1" colspan="1">31.52</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-4340.26</td>
+                          <td align="char" char="." rowspan="1" colspan="1">165.06</td>
+                          <td align="char" char="." rowspan="1" colspan="1">270.24</td>
+                          <td align="char" char="." rowspan="1" colspan="1">8.17</td>
+                        </tr>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">1</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-488.73</td>
+                          <td align="char" char="." rowspan="1" colspan="1">53.87</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-4633.57</td>
+                          <td align="char" char="." rowspan="1" colspan="1">178.26</td>
+                          <td align="char" char="." rowspan="1" colspan="1">155.05</td>
+                          <td align="char" char="." rowspan="1" colspan="1">5.32</td>
+                        </tr>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">2</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-2074.57</td>
+                          <td align="char" char="." rowspan="1" colspan="1">138.57</td>
+                          <td align="char" char="." rowspan="1" colspan="1">-6219.41</td>
+                          <td align="char" char="." rowspan="1" colspan="1">92.31</td>
+                          <td align="char" char="." rowspan="1" colspan="1">118.03</td>
+                          <td align="char" char="." rowspan="1" colspan="1">7.24</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                </table-wrap>
+                <table-wrap id="pcbi.1008163.t003" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pcbi.1008163.t003</object-id>
+                  <label>Table 3</label>
+                  <caption>
+                    <title>Population-level average parameter estimates and 95% credible intervals from the posterior of the winning model 9.</title>
+                  </caption>
+                  <alternatives>
+                    <graphic id="pcbi.1008163.t003g" xlink:href="pcbi.1008163.t003"/>
+                    <table frame="box" rules="all" border="0">
+                      <colgroup span="1">
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th align="right" rowspan="1" colspan="1">Parameter</th>
+                          <th align="right" rowspan="1" colspan="1">Mean</th>
+                          <th align="right" rowspan="1" colspan="1">2.5%</th>
+                          <th align="right" rowspan="1" colspan="1">97.5%</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">
+                            <italic>β</italic>
+                          </td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.25</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.23</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.28</td>
+                        </tr>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">
+                            <italic>ω</italic>
+                          </td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.68</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.62</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.73</td>
+                        </tr>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">
+                            <italic>α</italic>
+                            <sub>+,<italic>opt</italic></sub>
+                          </td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.53</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.43</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.63</td>
+                        </tr>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">
+                            <italic>α</italic>
+                            <sub>−,<italic>opt</italic></sub>
+                          </td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.19</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.13</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.27</td>
+                        </tr>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">
+                            <italic>α</italic>
+                            <sub>+,<italic>partner</italic></sub>
+                          </td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.45</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.35</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.56</td>
+                        </tr>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">
+                            <italic>α</italic>
+                            <sub>−,<italic>partner</italic></sub>
+                          </td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.33</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.26</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.41</td>
+                        </tr>
+                        <tr>
+                          <td align="right" rowspan="1" colspan="1">
+                            <italic>θ</italic>
+                          </td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.069</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.039</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.11</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                </table-wrap>
+                <p>Model <bold>13</bold> came close second in the comparison, indeed, within one standard error of difference to the wining model <bold>9</bold> but with a higher amount of effective parameters. This model implemented a dynamically changing weighting between option and partner information based on past prediction errors (see <xref ref-type="sec" rid="sec010">Methods</xref>). In addition to this dynamic arbitration a fixed bias parameter, <italic>γ</italic> was also applied. The per participant fitted values of <italic>γ</italic> were found to strongly correlate with the per participant weighting parameter <italic>ω</italic> from model <bold>9</bold> (robust correlation, <italic>r</italic> = -0.91, <italic>SE</italic> = 0.021, 95% CrI = [-0.94, -0.86], <italic>pd</italic> ≈ 1.0), suggesting close similarities in the roles that those parameters were playing in their respective models. While we discuss and interpret model <bold>9</bold> in the remainder of the results, we return to the question of adjudicating between these two models in the discussion.</p>
+                <p>Finally, we simulated decision trajectories from each participants’ best fitting parameters from model <bold>9</bold> to new data, simulating each participant 500 times. These posterior model predictions are plotted by-block and trial-by-trial in <xref ref-type="fig" rid="pcbi.1008163.g004">Fig 4</xref>, and illustrate how the model captures and generalizes the empirical data patterns including between block transfer of social information and both average and trial-by-trial decision probabilities.</p>
+                <fig id="pcbi.1008163.g004" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pcbi.1008163.g004</object-id>
+                  <label>Fig 4</label>
+                  <caption>
+                    <title>Posterior predictions.</title>
+                    <p>Average proportion of safe choices across all participants, split by block and condition (p = predictive, r = random, F = fearful, N = neutral). Error bars are standard errors. Model predictions using full posterior of each participants’ parameter estimates each simulated to 500 times to new data matching the parameters of our experiment. Shaded regions represent 95% predictive intervals.</p>
+                  </caption>
+                  <graphic xlink:href="pcbi.1008163.g004"/>
+                </fig>
+                <sec id="sec005">
+                  <title>Between block transfer of partner information</title>
+                  <p>Model comparisons bore out that models using weak transfer better described participants data than models using strong transfer. In other words, participants cached partner reliability when transitioning into new decision context, but did not let that influence their initial estimate of options’ safety. However, <italic>a priori</italic> simulations (see <xref ref-type="fig" rid="pcbi.1008163.g001">Fig 1C</xref>) clearly indicated that strong transfer represents a better algorithm for participants in this experiment (i.e. it makes more safe choices).</p>
+                  <p>To explore the conditions under which weak transfer and strong transfer is better with respect to partners’ reliability, we conducted simulations. We simulated each type of transfer 1000 times for all combinations of twelve evenly spaced samples of all learning rates <italic>α</italic><sub>+,<italic>partner</italic></sub>, <italic>α</italic><sub>−,<italic>partner</italic></sub>, <italic>α</italic><sub>+,<italic>option</italic></sub>, <italic>α</italic><sub>−,<italic>option</italic></sub> in [0.1, 0.8] and of the temperature parameter <italic>β</italic> in [0.2, 1], using a fixed <italic>ω</italic> of 0.5 (i.e. the equal weighing models <bold>3</bold> and <bold>4</bold>).</p>
+                  <p>We simulated four blocks of 12 trials, where the partner always cues the bad option during the first two blocks and then cues the good option in the last two blocks (<xref ref-type="fig" rid="pcbi.1008163.g005">Fig 5</xref>). As in our experiment, options are assumed to be novel in each block. This means that the first two blocks simply simulate our experiment with a <italic>predictive</italic> partner. The transition between the second and the third block in the simulation represents a situation where a previously trusted source of information completely reverses its signals. This can arise, for example, if a partner loses track of the environment but fails to realize it or if they continue to track the environment but change how they communicate their information about it.</p>
+                  <fig id="pcbi.1008163.g005" orientation="portrait" position="float">
+                    <object-id pub-id-type="doi">10.1371/journal.pcbi.1008163.g005</object-id>
+                    <label>Fig 5</label>
+                    <caption>
+                      <title>Simulation results, partner reliability reversal.</title>
+                      <p>A: Average difference in proportion safe choices between weak (red, solid) and strong (blue, dashed) transfer models when social partners reverse advice (on trial 25). B: Each model’s estimate of the partner. C-D: Each model’s estimate of the safety of the bad and good option respectively. For panels B-D, estimates are plotted following learning on the trial depicted. Dotted vertical lines indicate new decision environments (blocks) where novel options are presented. The horizontal dashed line represents chance performance.</p>
+                    </caption>
+                    <graphic xlink:href="pcbi.1008163.g005"/>
+                  </fig>
+                  <p>We examined the proportions of safe choices made during the second and third blocks by calculating the differences and ratios between models. During the second block, replicating the observations from <xref ref-type="fig" rid="pcbi.1008163.g001">Fig 1C</xref>, the difference between the models was on average 5.2 percentage points (p.p.) (<italic>Q</italic><sub>10</sub> = −0.35p.p., <italic>Q</italic><sub>90</sub> = 10.2p.p.), confirming that the strong transfer model is generally better when the partner’s ability to give good advice is stable. This translates to a ratio of safe choices between the models of 1.06 (<italic>Q</italic><sub>10</sub> = 0.995, <italic>Q</italic><sub>90</sub> = 1.13). During the third block, by contrast, the relationship between the models was reversed, such that the difference strongly favored the weak transfer model (<italic>M</italic> = 10.1p.p., <italic>Q</italic><sub>10</sub> = 0.46p.p., <italic>Q</italic><sub>90</sub> = 22.6p.p.). The difference between the models in the third block was even starker when considering the ratios: 1.60 (<italic>Q</italic><sub>10</sub> = 1.0, <italic>Q</italic><sub>90</sub> = 2.0). As is evident from <xref ref-type="fig" rid="pcbi.1008163.g005">Fig 5a</xref>, differences between the weak and strong transfer models diminished as agents learned about the environment. To illustrate this, we restricted our comparison only to the first half of the third block. In this case the difference between the models increases to (<italic>M</italic> = 14.7p.p., <italic>Q</italic><sub>10</sub> = 2.0p.p., <italic>Q</italic><sub>90</sub> = 29.9pp), with an average ratio 2.08 (<italic>Q</italic><sub>10</sub> = 1.03, <italic>Q</italic><sub>90</sub> = 2.75). In the fourth block, as can be seen in <xref ref-type="fig" rid="pcbi.1008163.g005">Fig 5A</xref>, the strong transfer model once again performs better owing to the stability in the partners’ signal. Finally, as seen in <xref ref-type="fig" rid="pcbi.1008163.g005">Fig 5B, 5C and 5D</xref>, the differences between the models’ internal estimates lie not with what is estimated about the partner, but what is learned about the options. This suggests that differences between the models should be exacerbated especially for agents with low learning rates about options, in particular for negative prediction errors <italic>α</italic><sub>−,<italic>opt</italic></sub>. The reason for this is that because following a reversal of the way the partner communicates, under strong transfer the “bad” option will now have (wrongly) been assigned a high probability of being good. This means that it will be chosen more often. When choosing the bad option the agent will experience negative prediction errors and if the learning rate from these is low, then it will take longer time for the new information to override the old. In Fig A in <xref ref-type="supplementary-material" rid="pcbi.1008163.s001">S1 Text</xref> we plot the differences in proportion safe choices between the models for each simulated parameter combination, and visually examining the resulting plots bears out this prediction.</p>
+                  <p>We also simulated a second situation where partners instead of reversing their advice in the third block instead begin guessing at random (<xref ref-type="fig" rid="pcbi.1008163.g006">Fig 6</xref>). In this situation differences between the models are much smaller, but even in this case the weak transfer model makes slightly safer choices on average (<italic>M</italic> = 1.6p.p., <italic>Q</italic><sub>10</sub> = −2.0p.p., <italic>Q</italic><sub>90</sub> = 5.6pp), with an average ratio 1.03 (<italic>Q</italic><sub>10</sub> = 0.97, <italic>Q</italic><sub>90</sub> = 1.09). Like previously, restricting the comparison to the first half of the block increases the differences between the models (<italic>M</italic> = 2.2p.p., <italic>Q</italic><sub>10</sub> = −1.6p.p., <italic>Q</italic><sub>90</sub> = 6.7pp), with an average ratio 1.04 (<italic>Q</italic><sub>10</sub> = 0.97, <italic>Q</italic><sub>90</sub> = 1.11). In this simulation, the strong transfer model has no advantage over the weak transfer model going into the fourth block and a slight advantage remains for the weak transfer model, owing primarily to differences in option estimates (see <xref ref-type="fig" rid="pcbi.1008163.g006">Fig 6B, 6C and 6D</xref>).</p>
+                  <fig id="pcbi.1008163.g006" orientation="portrait" position="float">
+                    <object-id pub-id-type="doi">10.1371/journal.pcbi.1008163.g006</object-id>
+                    <label>Fig 6</label>
+                    <caption>
+                      <title>Simulation results, partner becomes random.</title>
+                      <p>A: Average difference in proportion safe choices between weak (red, solid) and strong (blue, dashed) transfer models when social partners stop giving informative advice (on trial 25). B: Each model’s estimate of the partner. C-D: Each model’s estimate of the safety of the bad and good option respectively. For panels B-D, estimates are plotted following learning on the trial depicted. Dotted vertical lines indicate new decision environments (blocks) where novel options are presented. The horizontal dashed line represents chance performance.</p>
+                    </caption>
+                    <graphic xlink:href="pcbi.1008163.g006"/>
+                  </fig>
+                </sec>
+              </sec>
+              <sec id="sec006">
+                <title>Choice response times</title>
+                <p>We analyzed participants choice response times throughout the experiment, as response times provide additional information about cognitive processing not contained in decisions alone. Participants’ response times when facing the Predictive Fearful partner were <italic>M</italic> = 1.9s, <italic>SD</italic> = 2.4; when facing the Predictive Neutral partner <italic>M</italic> = 2.0s, <italic>SD</italic> = 2.8; when facing the Random Fearful partner <italic>M</italic> = 2.4s, <italic>SD</italic> = 3.8, and, when facing the Random Neutral partner <italic>M</italic> = 2.2s, <italic>SD</italic> = 2.6, see also <xref ref-type="fig" rid="pcbi.1008163.g007">Fig 7</xref>.</p>
+                <fig id="pcbi.1008163.g007" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pcbi.1008163.g007</object-id>
+                  <label>Fig 7</label>
+                  <caption>
+                    <title>Choice response times.</title>
+                    <p>Response times to the four partners. Boxplots show medians (circle) and 25th and 75th percentiles, while hinges represent the interquartile range. Points represent participant average response times.</p>
+                  </caption>
+                  <graphic xlink:href="pcbi.1008163.g007"/>
+                </fig>
+                <p>We fit a regression model using an ex-Gaussian likelihood to account for the skewed nature of response times [<xref rid="pcbi.1008163.ref034" ref-type="bibr">34</xref>], with partner partner reliability and emotional expression as predictors on both the <italic>μ</italic> and <italic>τ</italic> components of the distribution. In the ex-Gaussian, <italic>μ</italic> reflects shifts in the mean of the distribution and <italic>τ</italic> reflects both shifts in the mean and variance. We found that partner reliability negatively affected both <italic>μ</italic> (<italic>b</italic><sub><italic>μ</italic>,<italic>reliability</italic></sub> = -0.26, <italic>SE</italic> = 0.029, 95% CrI = [-0.32, -0.21], <italic>pd</italic> ≈ 1.0) and <italic>τ</italic> (<italic>b</italic><sub><italic>τ</italic>,<italic>reliability</italic></sub> = -0.19, <italic>SE</italic> = 0.022, 95% CrI = [-0.24, -0.15], <italic>pd</italic> ≈ 1.0). Participants were faster when responding to predictive partners and showed less variance in their response times. Additionally, we found an interaction between partner reliability and emotional expression on the <italic>μ</italic> parameter (<italic>b</italic><sub><italic>μ</italic>,<italic>rel</italic>*<italic>emot</italic></sub> = -0.15, <italic>SE</italic> = 0.067, 95% CrI = [-0.29, -0.03], <italic>pd</italic> = .99), capturing that responses were faster to fearful partners when they were predictive but slower when partners were random.</p>
+              </sec>
+              <sec id="sec007">
+                <title>AQ scores</title>
+                <p>We investigated if participants’ autism questionnaire scores (AQ) correlated with their performance to either the partners who reliably gave predictive gaze cues or to the ones that didn’t. Average AQ score was <italic>M</italic> = 19.7, <italic>SD</italic> = 6.4, range = [8, 39]. We found no correlation between AQ sores and average number of safe choices when facing predictive partners (robust correlation, <italic>r</italic> = 0.06, <italic>SE</italic> = 0.11, 95% CrI = [-0.16, 0.28], <italic>pd</italic> = 0.702). Similarly, we found no correlation when facing random partners (robust correlation, <italic>r</italic> = 0.05, <italic>SE</italic> = 0.11, 95% CrI = [-0.17, 0.27], <italic>pd</italic> = 0.651). In sum, we found no relationship between AQ scores and performance in our task.</p>
+                <p>However, it is possible that participants acquire information about options and partners differently in a way that correlates with the AQ scores [<xref rid="pcbi.1008163.ref013" ref-type="bibr">13</xref>]. To capture this we constructed a measure by subtracting the average partner learning rates (i.e. average of <italic>α</italic><sub>+,<italic>partner</italic></sub> and <italic>α</italic><sub>−,<italic>partner</italic></sub>) from the analogous average of the option learning rates for each participant using the posterior mean. We correlated this option-partner learning rate difference with participants’ AQ scores. We found a small positive correlation, such that participants with higher AQ scores also exhibited larger differences between option and partner learning rates (robust correlation, <italic>r</italic> = 0.19, <italic>SE</italic> = 0.11, 95% CrI = [-0.04, 0.39], <italic>pd</italic> = 0.951), see also <xref ref-type="fig" rid="pcbi.1008163.g008">Fig 8A</xref>. As this finding was exploratory, we assessed its robustness by computing similar correlations for other models and found consistent results (see <xref ref-type="supplementary-material" rid="pcbi.1008163.s001">S1 Text</xref>).</p>
+                <fig id="pcbi.1008163.g008" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pcbi.1008163.g008</object-id>
+                  <label>Fig 8</label>
+                  <caption>
+                    <title>AQ scores and learning rates.</title>
+                    <p>A: Correlation between option and partner learning rate difference and participant AQ-scores. B: Interaction between AQ scores and instruction condition on option-partner learning rate difference. Bold line depict the regression line derived from the mean posterior parameter estimates, and thin lines show regression line derived from 400 draws from the posterior distribution of parameter estimates, indicating uncertainty around the mean estimate.</p>
+                  </caption>
+                  <graphic xlink:href="pcbi.1008163.g008"/>
+                </fig>
+                <p>We further explored the relationship of AQ scores to the option-partner learning rate difference by considering the possible role of instruction condition. It is possible that the top-down manipulation of instruction could affect the relative weights placed on learning from options versus social partners. To test this possibility we regressed the option-partner learning rate difference on standardized AQ scores and a variable indicating instruction condition. We found a probable main effect of AQ scores (<italic>b</italic> = 0.024, <italic>SE</italic> = 0.015, 95% CrI = [-0.005, 0.053], <italic>pd</italic> = 0.949) and no main effect of instruction condition (<italic>b</italic> = -0.003, <italic>SE</italic> = 0.029, 95% CrI = [-0.058, 0.054], <italic>pd</italic> = 0.54). However, these effects were qualified by an interaction effect (<italic>b</italic> = 0.046, <italic>SE</italic> = 0.029, 95% CrI = [-0.011, 0.103], <italic>pd</italic> = 0.945), which we plot in <xref ref-type="fig" rid="pcbi.1008163.g008">Fig 8B</xref>. Together, these findings indicated that the relationship between option-partner learning rate difference likely emerged only in the instructed condition and not in the naïve condition.</p>
+              </sec>
+              <sec id="sec008">
+                <title>Partner helpfulness</title>
+                <p>Lastly we examined participants’ selections at the end of the experiment, where they made a series of forced choices to, in order, select which partner they thought was the most helpful (of 4), the least helpful (of 3 remaining) and finally most helpful from the final pair. This produced a rank ordering of partners for all participants. The results of participants selections can be seen in <xref ref-type="fig" rid="pcbi.1008163.g009">Fig 9</xref>. Overall, participants were fairly accurate at classifying one of the predictive partners as being most helpful (68%) and at classifying one of the random partners as least helpful (63%).</p>
+                <fig id="pcbi.1008163.g009" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pcbi.1008163.g009</object-id>
+                  <label>Fig 9</label>
+                  <caption>
+                    <title>Ranking of partners at end of experiment.</title>
+                    <p>Proportion of participants selecting each partner at each stage of the forced choice helpfulness task. rN = random Neutral, rF = random Fearful, pN = predictive Neutral, pF = predictive Fearful.</p>
+                  </caption>
+                  <graphic xlink:href="pcbi.1008163.g009"/>
+                </fig>
+                <p>We explored the extent to which participants’ experiences and model predictions explained the rankings of the different social partners. We regressed social partner rank on each participants’ model derived final estimates of each social partner’s reliability together with the number of shocks each participant experienced from their choices in the presence of each partner (z-scored) together with their interaction using a multi-level ordered probit regression. The analysis indicated that both estimated partner reliability (<italic>b</italic> = 0.68, <italic>SE</italic> = 0.27, 95% CrI = [0.15, 1.21], <italic>pd</italic> = 0.993) and number of shocks experience (<italic>b</italic> = -0.18, <italic>SE</italic> = 0.065, 95% CrI = [-0.31, 0.051], <italic>pd</italic> = 0.996) influenced rankings, but not their interaction (<italic>b</italic> = -0.084, <italic>SE</italic> = 0.30, 95% CrI = [-0.68, 0.50], <italic>pd</italic> = 0.611).</p>
+                <p>We next considered if the each participant’s <italic>θ</italic> estimate from model <bold>9</bold> was associated with ranking fearful over neutral partners. We constructed an index ranging between 0 and 2 indicating if the fearful partner has been ranked over the neutral for only the predictive or random partners, neither or both. We found a probable effect of <italic>θ</italic> indicating it that participants with higher tendency to follow fearful partners’ advice also ranked fearful partners as being more helpful (<italic>b</italic> = 0.26, <italic>SE</italic> = 0.15, 95% CrI = [-0.023, 0.55], <italic>pd</italic> = 0.965), but we note that the 95% credible intervals include zero cautioning against strong conclusions. In the <xref ref-type="supplementary-material" rid="pcbi.1008163.s001">S1 Text</xref> we report an additional analyses on rankings contrasting participants best fit by models <bold>9</bold> and <bold>10</bold>.</p>
+              </sec>
+            </sec>
+            <sec sec-type="conclusions" id="sec009">
+              <title>Discussion</title>
+              <p>We investigated how human participants learn to avoid harmful choice options based on information from two sources: social (gaze) cues from partners with different reliability and trial-and-error learning. We found that participants readily acquired relevant predictive information from gaze cues and used this to improve their decision making. Participants learned to separately track and update multiple partners’ predictive value. Participants were, on average, as adept at learning from gaze cues spontaneously as when they had prior knowledge that partners would have predictive information, which is in line with research on human infants showing that gaze following emerges early in development [<xref rid="pcbi.1008163.ref021" ref-type="bibr">21</xref>], as well as work showing that gaze signaling frequently occurs in naturalistic context [<xref rid="pcbi.1008163.ref016" ref-type="bibr">16</xref>]. Using gaze cues as a source of social information is likely highly over-trained in adults, and suggests that participants were already highly prepared to attend to partners’ gaze cues as valid sources for social learning.</p>
+              <p>Participants’ learning and decision making was best explained by a reinforcement learning model which assumed that participants independently track the probability that options have good/bad outcomes and the reliability of the social partners’ advice. Participants weighted these sources differently to combine them when making decisions, but generally put greater weights on option information compared to partner information. The work presented here contributes to a growing literature investigating how social information is acquired and combined with experiential information [<xref rid="pcbi.1008163.ref007" ref-type="bibr">7</xref>–<xref rid="pcbi.1008163.ref009" ref-type="bibr">9</xref>, <xref rid="pcbi.1008163.ref013" ref-type="bibr">13</xref>, <xref rid="pcbi.1008163.ref017" ref-type="bibr">17</xref>, <xref rid="pcbi.1008163.ref018" ref-type="bibr">18</xref>], and concords with a developing consensus that basic associative learning principles can be applied to understand a wide variety of adaptive social behaviors [<xref rid="pcbi.1008163.ref035" ref-type="bibr">35</xref>].</p>
+              <p>One question not settled in the present work arose from the close comparison between the winning model <bold>9</bold> and model <bold>13</bold>. This alternative model was an arbitration model which assumed that weights between options and partner advice were partially determined from the past prediction errors. In [<xref rid="pcbi.1008163.ref018" ref-type="bibr">18</xref>], where we derived model <bold>13</bold> from, arbitration was between information gained from two different types of observational learning—imitation and emulation. Imitation can be characterized as being more model-free while emulation as being more model-based. In our task participants had to weigh one source of social information against information derived from their own experience of the choice options, but both sources are essentially model-free. This difference may account for why the arbitration model did not best describe our participants data. Simulations similarly showed that the two models were not strongly distinguishable (see <xref ref-type="supplementary-material" rid="pcbi.1008163.s001">S1 Text</xref>). However, further experimentation, potentially targeting the neural correlates identified in [<xref rid="pcbi.1008163.ref018" ref-type="bibr">18</xref>] will be necessary to fully settle how participants weigh information in tasks like ours.</p>
+              <p>Our results showed that participants cache the probability of a partner giving good advice and use that information to guide decisions during subsequent encounters with that partner. This allows for a gradual improvement in the quality of participants’ decisions over time, even when facing choices between novel options. Indeed, participants decisions on the first trial when facing a predictive partner they had learned about were above chance. Despite caching partner estimates between blocks, participants did not fully capitalize on their previous learning when transitioning into a new context. Letting information from partners’ advice spill over to initial option estimates, as formalized in the strong transfer models, would have been a better strategy in our experiments. Why then didn’t participants adopt this strategy?</p>
+              <p>One reason for this apparent suboptimality in participants’ behavior might be that their strategy is tuned to the possibility of partners’ reliability varying when transitioning between choice environments. The way participants used cached social information, as formalized in the weak transfer formulation of our models, was shown to be a better strategy in conditions where partners could not be trusted to give reliable advice between contexts compared to that of the strong transfer models. We argue that participants’ behavior likely reflects expectations about social partners which they bring with them from their lives into the lab. If someone once suggested to you which of two Italian food stalls were safest to eat from, it might be a good idea to take their advice into consideration when choosing between two Chinese restaurants (as in the weak transfer models). However, you might be hesitant to completely take their word for it and assume that each restaurant is exactly as safe as they say it is (the strong transfer models). Indeed, both theoretical results and empirical findings on the cultural evolution of social learning have indicated the importance of switching between learning from experience and social learning [<xref rid="pcbi.1008163.ref005" ref-type="bibr">5</xref>, <xref rid="pcbi.1008163.ref036" ref-type="bibr">36</xref>]. In volatile environments, reliance on social information can be maladaptive and lead to fitness loss compared to reliance on individual experience. In stable environments, the reverse is true. Our findings suggest that participants might not be switching between pure social and non-social learning strategies but rather using both to inform their decisions. Beyond understanding how participants solved this particular task, our findings highlight the importance of considering the ecological factors which shape human decision makers beyond the confines of the lab when interpreting the results from experimental tasks [<xref rid="pcbi.1008163.ref037" ref-type="bibr">37</xref>]. Additionally, loss or risk sensitivity [<xref rid="pcbi.1008163.ref038" ref-type="bibr">38</xref>], in addition to prior social experiences, might contribute to explaining why participants exhibit this particular transfer behavior by causing participants to overweight the prospect of aversive experiences. By not fully transferring social information, weak transfer models err on the side of caution. Nevertheless, further experimentation will be necessary to pinpoint if these are the responsible psychological mechanisms.</p>
+              <p>In addition to manipulating partner reliability, we also introduced an emotional expression manipulation. We expected that fearful facial expressions may improve decision-making, acting as ecologically valid signals of danger [<xref rid="pcbi.1008163.ref012" ref-type="bibr">12</xref>]. Our results supported this hypothesis. On average, participants made more safe choices when facing the predictive fearful partners compared to when face the predictive neutral ones. These tendencies appeared reversed for the random partners. We also observed choice response time patterns supporting the conclusions drawn from the choice data—participants responded fastest to the predictive fearful partners and slowest to the random fearful partner. The model that best described participants’ behavior included a fixed bonus applied to the value of the cued option. This bonus was positive meaning that participants were more likely to follow a partner’s advice when they made a fearful expression. Taken together, our results suggest that the subjective value of equally predictive social cues can be enhanced by additional emotional cues, but that this effect likely is variable among participants (see <xref ref-type="fig" rid="pcbi.1008163.g003">Fig 3</xref>). Nevertheless, we interpret our findings to demonstrate that emotional cues shape instrumental decision making similar to how they serve to transfer value in passive viewing tasks [<xref rid="pcbi.1008163.ref011" ref-type="bibr">11</xref>, <xref rid="pcbi.1008163.ref012" ref-type="bibr">12</xref>].</p>
+              <p>Finally, we investigated how AQ scores related to performance on our study. We found no correlations between task performance (safe choices) and AQ scores irrespective of if participants were facing predictive partners or not. This was surprising as past research has indicated that people high in autistic traits may be impaired in tasks involving the integration of social cues [<xref rid="pcbi.1008163.ref010" ref-type="bibr">10</xref>, <xref rid="pcbi.1008163.ref013" ref-type="bibr">13</xref>]. In one recent study [<xref rid="pcbi.1008163.ref013" ref-type="bibr">13</xref>], the reliability of the social cue was volatile, unlike in our study where different partners had different but fixed levels of volatility. In [<xref rid="pcbi.1008163.ref010" ref-type="bibr">10</xref>], both a volatile and a stable condition were used and correlations with participants’ AQ scores were found in both conditions, even if the correlations were smaller in the stable condition. This suggests that our findings cannot be explained by the stability of the partners. However, another difference between our study and previous ones is that we use an aversive decision making setting, where participants receive motivationally salient punishers (shocks) as feedback to their decisions. Past research, in non-social settings, has shown that persons with high-functioning autism spectrum disorder can perform better in risky decision making tasks by adopting safer and more risk averse strategies [<xref rid="pcbi.1008163.ref039" ref-type="bibr">39</xref>]. Therefore, a possible explanation for our findings might be that certain deficiencies associated with AQ scores are not as readily expressed in aversive settings. Consistent with this proposed explanation, we found a correlation between AQ scores and the difference in learning rates about the options and learning rates about the partners. Follow up analyses showed that this relationship appeared uniquely for participants in the instructed condition. This result was surprising and may indicate that participants with greater autistic traits regulate their attention to favor non-social information when they are informed that they will be in a situation where social information may play a role. This regulation of attention might compensate for the deficits in integrating social information they otherwise might have exhibited. While our sample size was large compared to that of previous studies investigating gaze cues and instrumental learning, our findings relating to AQ scores are nevertheless to be considered exploratory and should be replicated and extended in future investigations. In particular, it will be important to compare reward and punishment feedback conditions within-subjects to determine the role, if any, played by the type of feedback for social cue integration.</p>
+              <p>There are additional limitations and possible extensions to the present work that future studies should address. One concerns the relative anonymity of the partners. Ecological validity could be improved by giving participants more information about the partners, such as group belonging, status or trustworthiness, information that is typically available during real life interactions and that is known to affect the influence of social information. For example, people might be more inclined to use information from partners about whom they have more (positive) knowledge [<xref rid="pcbi.1008163.ref040" ref-type="bibr">40</xref>], hence it would be important to understand how this affects their learning. Further, by giving participants information about partners, it would be possible to better understand if and how such information shapes how participants use partner reliability in novel choice contexts. Another interesting extension of the current research is to increase realism by porting the task to a virtual reality setting. In such a setting it would be easy to create situations where participants interact with multiple social partners who could be controlled by other participants or confederates. Such a setting would come closer to modeling the richness of everyday interactions while still allowing for large degrees of experimental control [<xref rid="pcbi.1008163.ref041" ref-type="bibr">41</xref>]. Finally, in our experiment social partners were either fully predictive or fully random. While this design allowed us to clearly contrast the two and consider how learned information about social partner transferred between contexts, future work should explore how varying levels of partner reliability are learned and integrated.</p>
+              <p>Taken together, our findings demonstrate that people mix socially derived information with individual experiences to make decisions in aversive environments and are capable to track the value of multiple individuals across decision contexts. Using a reinforcement learning framework we show that participants cache social values and use these to inform their choices in novel context. The manner in which participants use previously learned social information likely reflects an ecologically valid risk-minimizing strategy. When facing uncertainty about what is the safest course of action, social advice can rapidly improve one’s chances of avoiding harmful consequences. Overreliance on social partners entails a risk of being deceived or misled if the source of advice is no longer valid and consequently diminishes one’s opportunities to learn about options for oneself. On the other hand, ignoring social information wastes accumulated knowledge and can overexpose oneself to dangers. Our findings indicate that people navigate this dilemma by opting for a middle-of-the-road strategy.</p>
+            </sec>
+            <sec sec-type="materials|methods" id="sec010">
+              <title>Materials and methods</title>
+              <sec id="sec011">
+                <title>Ethics statement</title>
+                <p>The experimental procedures were approved by the regional ethical committee at Karolinska Institutet (2012/340-31/4), and was carried out in accordance with the principles of the revised Helsinki Declaration. Written consent was obtained from all participants.</p>
+              </sec>
+              <sec id="sec012">
+                <title>Participants</title>
+                <p>We recruited 81 participants from the student population at Karolinska Institutet and from the local community. 40 participants were assigned to the naïve condition and the remainder to the instructed condition. Participants were give two cinema vouchers in exchange for their participation.</p>
+              </sec>
+              <sec id="sec013">
+                <title>Equipment and materials</title>
+                <p>The experiment was presented using PsychoPy [<xref rid="pcbi.1008163.ref042" ref-type="bibr">42</xref>]. The four faces used to represent the partners providing the gaze cues were taken from the Karolinska Directed Emotional Faces database (KDEF; [<xref rid="pcbi.1008163.ref043" ref-type="bibr">43</xref>]; <xref ref-type="fig" rid="pcbi.1008163.g001">Fig 1B</xref>). We used the neutral and fearful versions of each of the faces, and were edited in Adobe Photoshop to provide the gaze cues. The following KDEF image IDs were used in the study: AF01ANS, AF01NES, AF14ANS, AF14NES, AF26ANS, AF26NES, AF29ANS, AF29NES. Twenty-four fractal images were used as choice stimuli. All stimuli, fractals and faces, were presented in greyscale and modified to be isoluminant with the background color (RGB: 192 192 192).</p>
+                <p>Mild electric shocks, consisting of a single 100ms DC pulse, were administered using a Biopac STM200 module (Biopac Systems Inc.) applied to the lower forearm of participants’ dominant side. The strength of the electric shocks was individually calibrated so that participants experienced the shocks as being “unpleasant but not painful”.</p>
+              </sec>
+              <sec id="sec014">
+                <title>Experimental procedure</title>
+                <p>Participants entered the lab and were given general information about the experiment and consent forms to sign. They were the introduced to the shock delivery equipment and shock level was calibrated individually. Participants were informed during calibration that they would receive shocks based on their performance, but that they should expect around forty shocks due to the probabilistic nature of the reinforcement.</p>
+                <p>The main experiment consisted of a two-alternative forced choice task between two aversive options. Participants were told that the options differed in the likelihood of giving them an electric shock, but not what the objective probabilities were and had to learn these to perform optimally in the task. One option always terminated with shock if chosen with <italic>P</italic> = .8 and the other with <italic>P</italic> = .2.</p>
+                <p>The experiment was divided into twelve blocks of twelve trials. Each block featured novel options (fractal images). To prevent spatial decision strategies left/right position of options varied randomly between trials. Additionally, on each trial the face of a partner was shown. The identity of this partner was the same within a block. There were four unique partners in the experiment, meaning each participant met all partners in three separate blocks, therefore creating the opportunity for repeated encounters of a social partner in a new context. Two of the partners were <italic>predictive</italic> and two were <italic>random</italic>. Predictive partners <italic>always</italic> made a gaze cue towards the <italic>bad</italic> option. The direction of random partners’ gaze cues was determined on each trial with equal probability ensuring their cues had no predictive validity. Additionally, two of the partners, one <italic>predictive</italic> and one <italic>random</italic>, made their gaze cue with a <italic>fearful</italic> emotional expression, while the other two partners retained a <italic>neutral</italic> expression. All partners were encountered once before before participants re-encountered them.</p>
+                <p>Participants were additionally in one of two possible instruction conditions. In the <italic>naïve</italic> condition participants were only told that the face of a partner would be seen on each trial. In the <italic>instructed</italic> condition, in contrast, participants were additionally told that the some partners would have knowledge about what option was the safe one. Participants were not led to believe, however, that the social partner was being controlled by a confederate.</p>
+                <p>Each trial had the same structure, see also <xref ref-type="fig" rid="pcbi.1008163.g001">Fig 1A</xref>. First, a fixation cross was presented onscreen for 3s. After this a face of one of the four partners was displayed in the center of the screen. After 1.3s the partners gaze shifted to the left or right direction, thus providing a gaze cue. After 0.5s two fractals appears on each side of the partner, hence one fractal would appear in the cued direction and one in the non-cued direction. Participants were given free amount of time to choose, by pressing the left or right arrow keys, one of the fractals. Following their choice, the selected fractal was highlighted with a yellow frame and the non-selected fractal disappeared. The face of the partner remained onscreen. After 5.5s the trial terminated with either a shock or no feedback. The experiment consisted of 12 blocks of 12 trials each, resulting in 144 trials total.</p>
+                <p>At the end of the experiment, participants were asked to rank the partners by first selecting the partner they thought was most helpful, then selecting who they thought was the least helpful from the remaining three, and, lastly, selecting from the final two who was most helpful of those. Finally, participants filled in a 50 item Autism Questionnaire (AQ; [<xref rid="pcbi.1008163.ref032" ref-type="bibr">32</xref>]). Participants were then thanked, paid and debriefed.</p>
+              </sec>
+              <sec id="sec015">
+                <title>Computational models of behavior</title>
+                <p>To understand participants trial-by-trial choices we formulated several reinforcement learning models and compared their fit to participants’ data. Here we detail 14 different models (see <xref rid="pcbi.1008163.t001" ref-type="table">Table 1</xref>). Some additional variations are reported in the <xref ref-type="supplementary-material" rid="pcbi.1008163.s001">S1 Text</xref> as explained below. We first give a general description of our modeling framework and then outline how each model differs from the others.</p>
+                <p>We assumed that participants learn the probabilities of options being safe, <italic>p</italic><sub><italic>i</italic></sub>, <italic>p</italic><sub><italic>j</italic></sub>, and the probability of each social partner giving good advice—signaling the safe option, <italic>p</italic><sub><italic>partner</italic></sub>. We assumed that participants used these learned probabilities to calculate the expected value of each option as well as the expected value of the partner’s advice, by taking a shock as having reward value of −1 and the absence of shock reward value of 1. Hence the equation for expected values of partners’ advice and of each option is given by:
+<disp-formula id="pcbi.1008163.e001"><alternatives><graphic xlink:href="pcbi.1008163.e001.jpg" id="pcbi.1008163.e001g" mimetype="image" position="anchor" orientation="portrait"/><mml:math id="M1"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>E</mml:mi><mml:msub><mml:mi>V</mml:mi><mml:mi>x</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mi>x</mml:mi></mml:msub><mml:mo>×</mml:mo><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mi>x</mml:mi></mml:msub><mml:mo>)</mml:mo></mml:mrow><mml:mo>×</mml:mo><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></alternatives><label>(1)</label></disp-formula></p>
+                <p>The expected values were combined such that the EV of the partners’ advice was combined with the EV of the option the partner was not looking at (i.e. signaling was safe by virtue of how the gaze cues were set-up in this experiment). Choices were generated with a softmax:
+<disp-formula id="pcbi.1008163.e002"><alternatives><graphic xlink:href="pcbi.1008163.e002.jpg" id="pcbi.1008163.e002g" mimetype="image" position="anchor" orientation="portrait"/><mml:math id="M2"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mi>Q</mml:mi><mml:mi>x</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mo>{</mml:mo><mml:mtable><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mi>ω</mml:mi><mml:mi>E</mml:mi><mml:msub><mml:mi>V</mml:mi><mml:mi>x</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>ω</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mi>E</mml:mi><mml:msub><mml:mi>V</mml:mi><mml:mrow><mml:mi>p</mml:mi><mml:mi>a</mml:mi><mml:mi>r</mml:mi><mml:mi>t</mml:mi><mml:mi>n</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mtext>if</mml:mtext><mml:mspace width="4pt"/><mml:mtext>x</mml:mtext><mml:mspace width="4pt"/><mml:mtext>advised</mml:mtext></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mi>ω</mml:mi><mml:mi>E</mml:mi><mml:msub><mml:mi>V</mml:mi><mml:mi>x</mml:mi></mml:msub></mml:mrow></mml:mtd><mml:mtd columnalign="left"><mml:mtext>otherwise</mml:mtext></mml:mtd></mml:mtr></mml:mtable><mml:mo/></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></alternatives><label>(2)</label></disp-formula>
+<disp-formula id="pcbi.1008163.e003"><alternatives><graphic xlink:href="pcbi.1008163.e003.jpg" id="pcbi.1008163.e003g" mimetype="image" position="anchor" orientation="portrait"/><mml:math id="M3"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mspace width="0.277778em"/><mml:mo>|</mml:mo><mml:mspace width="0.277778em"/><mml:mi>i</mml:mi><mml:mspace width="0.277778em"/><mml:mtext>advised</mml:mtext></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:msub><mml:mi>Q</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:mi>β</mml:mi></mml:mrow></mml:msup><mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:msub><mml:mi>Q</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:mi>β</mml:mi></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:msub><mml:mi>Q</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:mi>β</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:mfrac></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></alternatives><label>(3)</label></disp-formula>
+where <italic>β</italic> is an inverse gain parameter. Lower <italic>β</italic> implies more deterministic choices in favor of the option with the currently highest EV. In <xref ref-type="disp-formula" rid="pcbi.1008163.e002">Eq (2)</xref>
+<italic>ω</italic> is a weighting parameter determining the relative influence of social advice versus self-experienced information about the options. As detailed below the different models differed in how <italic>ω</italic> was determined.</p>
+                <p>Updating followed a simple Rescorla-Wagner delta rule [<xref rid="pcbi.1008163.ref044" ref-type="bibr">44</xref>]. For options, <italic>r</italic> = 1 if the chosen option was safe and 0 otherwise:
+<disp-formula id="pcbi.1008163.e004"><alternatives><graphic xlink:href="pcbi.1008163.e004.jpg" id="pcbi.1008163.e004g" mimetype="image" position="anchor" orientation="portrait"/><mml:math id="M4"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>δ</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mi>r</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>p</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mrow><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></alternatives><label>(4)</label></disp-formula></p>
+                <p>For learning about the partner, <italic>r</italic> depended on if the participant chose according to the partner’s advice or not, and ensures that the learning is congruent with the reinforcement received relative to the gaze direction of the partner:
+<disp-formula id="pcbi.1008163.e005"><alternatives><graphic xlink:href="pcbi.1008163.e005.jpg" id="pcbi.1008163.e005g" mimetype="image" position="anchor" orientation="portrait"/><mml:math id="M5"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mi>δ</mml:mi><mml:mrow><mml:mi>p</mml:mi><mml:mi>a</mml:mi><mml:mi>r</mml:mi><mml:mi>t</mml:mi><mml:mi>n</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>{</mml:mo><mml:mtable><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:msub><mml:mi>r</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>p</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mrow><mml:mi>p</mml:mi><mml:mi>a</mml:mi><mml:mi>r</mml:mi><mml:mi>t</mml:mi><mml:mi>n</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mtext>if</mml:mtext><mml:mspace width="4pt"/><mml:mtext>advice</mml:mtext><mml:mspace width="4pt"/><mml:mtext>followed</mml:mtext></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msub><mml:mi>r</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>)</mml:mo></mml:mrow><mml:mo>-</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>p</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mrow><mml:mi>p</mml:mi><mml:mi>a</mml:mi><mml:mi>r</mml:mi><mml:mi>t</mml:mi><mml:mi>n</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mtext>if</mml:mtext><mml:mspace width="4pt"/><mml:mtext>advice</mml:mtext><mml:mspace width="4pt"/><mml:mtext>not</mml:mtext><mml:mspace width="4pt"/><mml:mtext>followed</mml:mtext></mml:mrow></mml:mtd></mml:mtr></mml:mtable><mml:mo/></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></alternatives><label>(5)</label></disp-formula></p>
+                <p>Finally, the chosen option and the partner’s estimated probabilities were updated:
+<disp-formula id="pcbi.1008163.e006"><alternatives><graphic xlink:href="pcbi.1008163.e006.jpg" id="pcbi.1008163.e006g" mimetype="image" position="anchor" orientation="portrait"/><mml:math id="M6"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>p</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mrow><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>p</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mrow><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mo>{</mml:mo><mml:mtable><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mo>+</mml:mo><mml:mo>,</mml:mo><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:mi>δ</mml:mi></mml:mrow></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:msub><mml:mi>δ</mml:mi><mml:mi>x</mml:mi></mml:msub><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mo>-</mml:mo><mml:mo>,</mml:mo><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:mi>δ</mml:mi></mml:mrow></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:msub><mml:mi>δ</mml:mi><mml:mi>x</mml:mi></mml:msub><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mtd></mml:mtr></mml:mtable><mml:mo/></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></alternatives><label>(6)</label></disp-formula>
+where <italic>α</italic> is the learning rate. We allowed the learning rate to vary between learning from experience and social learning, as well as for positive and negative prediction errors (<italic>α</italic><sub>+,<italic>opt</italic></sub>/<italic>α</italic><sub>−,<italic>opt</italic></sub> and <italic>α</italic><sub>+,<italic>partner</italic></sub>/<italic>α</italic><sub>−,<italic>partner</italic></sub> respectively), implying a total of four possible learning rate parameters. In the <xref ref-type="supplementary-material" rid="pcbi.1008163.s001">S1 Text</xref> we report additional comparisons based on models containing fewer learning rate parameters (see Table A in <xref ref-type="supplementary-material" rid="pcbi.1008163.s001">S1 Text</xref>)., however all these models exhibited worse fits to the data.</p>
+                <sec id="sec016">
+                  <title>Option only</title>
+                  <p>The option only model (<bold>model 1</bold>) was a null model that assumes that participants only learn about the options but not about the reliability of social partners’ advice. In this model, (<italic>α</italic><sub>+,<italic>partner</italic></sub>/<italic>α</italic><sub>−,<italic>partner</italic></sub> were clamped to 0 and <italic>ω</italic> fixed to 0.5.</p>
+                </sec>
+                <sec id="sec017">
+                  <title>Gaze only</title>
+                  <p>The gaze only model (<bold>model 2</bold>) was a null model that assumes that participants only learn about the reliability of social partners’ advice but not about the options. In this model, <italic>α</italic><sub>+,<italic>opt</italic></sub>/<italic>α</italic><sub>−,<italic>opt</italic></sub> were clamped to 0 and <italic>ω</italic> fixed to 0.5.</p>
+                </sec>
+                <sec id="sec018">
+                  <title>Weak and strong transfer</title>
+                  <p>Models that incorporated learning both about options and about social partners differed in how social information was cached and transferred between blocks. In our experiment, each block entailed novel choice options. In the <italic>weak transfer</italic> class of models (<bold>models 3,5,7,9,11,13</bold>), between blocks, <italic>p</italic><sub><italic>i</italic></sub>, <italic>p</italic><sub><italic>j</italic></sub> are reset to their starting value of 0.5—implying <italic>EV</italic> = 0—since options are novel. Crucially, <italic>p</italic><sub><italic>partner</italic></sub> is cached, allowing information learned about the social partner’s usefulness to continue to influence decision making when facing a new, unknown environment.</p>
+                  <p>By contrast, in the <italic>strong transfer</italic> class of models (<bold>models 4,6,8,10,12,14</bold>). <italic>p</italic><sub><italic>i</italic></sub>, <italic>p</italic><sub><italic>j</italic></sub> are set to <italic>p</italic><sub><italic>partner</italic></sub> and 1 − <italic>p</italic><sub><italic>partner</italic></sub> on the first trial of each block, according to the advice given by the partner on that first trial. In environments where partners are continuously reliable (see <xref ref-type="fig" rid="pcbi.1008163.g001">Fig 1C</xref>, like that in our experiment, this algorithm efficiently scaffolds earlier learning.</p>
+                </sec>
+                <sec id="sec019">
+                  <title>Equal weighting</title>
+                  <p>In <bold>models 3-4</bold> participants learned both about options and social partners. In these models expected values of options and of partners’ advice was assumed to be weighted equally, hence <italic>ω</italic> was fixed to 0.5.</p>
+                </sec>
+                <sec id="sec020">
+                  <title>Variable weighting</title>
+                  <p><bold>Models 5-6</bold> relaxed the assumption of equal weighting and allowed <italic>ω</italic> to vary freely.</p>
+                </sec>
+                <sec id="sec021">
+                  <title>Emotion weighting</title>
+                  <p><bold>Models 7-8</bold> tested the possibility that participants weighted the social partners’ advice differently if it came from a partner with a <italic>fearful</italic> expression compared to a partner with a <italic>neutral</italic> expression. To achieve this we introduced two weighting parameters <italic>ω</italic><sub><italic>f</italic></sub> and <italic>ω</italic><sub><italic>n</italic></sub> which took the place of <italic>ω</italic> in <xref ref-type="disp-formula" rid="pcbi.1008163.e003">Eq (3)</xref> depending on the social partners’ emotional expression.</p>
+                </sec>
+                <sec id="sec022">
+                  <title>Emotion bonus</title>
+                  <p>The emotion bonus models (<bold>models 9-10</bold>) tested another way partners’ emotional expressions might influence decision making. These models expanded on models <bold>5-6</bold> by adding a static bonus parameter, <italic>θ</italic> to the softmax, replacing <xref ref-type="disp-formula" rid="pcbi.1008163.e002">Eq (2)</xref> with:
+<disp-formula id="pcbi.1008163.e007"><alternatives><graphic xlink:href="pcbi.1008163.e007.jpg" id="pcbi.1008163.e007g" mimetype="image" position="anchor" orientation="portrait"/><mml:math id="M7"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mi>Q</mml:mi><mml:mi>x</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mo>{</mml:mo><mml:mtable><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mi>ω</mml:mi><mml:mi>E</mml:mi><mml:msub><mml:mi>V</mml:mi><mml:mi>x</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>ω</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mi>E</mml:mi><mml:msub><mml:mi>V</mml:mi><mml:mrow><mml:mi>p</mml:mi><mml:mi>a</mml:mi><mml:mi>r</mml:mi><mml:mi>t</mml:mi><mml:mi>n</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi>θ</mml:mi></mml:mrow></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mtext>if</mml:mtext><mml:mspace width="4pt"/><mml:mtext>x</mml:mtext><mml:mspace width="4pt"/><mml:mtext>advised</mml:mtext></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mi>ω</mml:mi><mml:mi>E</mml:mi><mml:msub><mml:mi>V</mml:mi><mml:mi>x</mml:mi></mml:msub></mml:mrow></mml:mtd><mml:mtd columnalign="left"><mml:mtext>otherwise</mml:mtext></mml:mtd></mml:mtr></mml:mtable><mml:mo/></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></alternatives><label>(7)</label></disp-formula>
+<italic>θ</italic> could assign a positive or negative value to the option advised by partners who were making a <italic>fearful</italic> expression and took the value 0 for <italic>neutral</italic> partners.</p>
+                </sec>
+                <sec id="sec023">
+                  <title>Arbitration</title>
+                  <p>The arbitration models (<bold>models 11-12</bold>) incorporated an alternative method of determining <italic>ω</italic> in <xref ref-type="disp-formula" rid="pcbi.1008163.e002">Eq (2)</xref> by allowing it to vary on a trial-by-trial basis as suggested in recent work [<xref rid="pcbi.1008163.ref018" ref-type="bibr">18</xref>]. The key idea is that the weighting between different sources should be determined by their relative reliability. In this instance reliability was determined by comparing the absolute prediction errors from the chosen option (|<italic>δ</italic>|) and partner (|<italic>δ</italic><sub><italic>partner</italic></sub>|) from the preceding trial. Arbitration was implemented as a softmax:
+<disp-formula id="pcbi.1008163.e008"><alternatives><graphic xlink:href="pcbi.1008163.e008.jpg" id="pcbi.1008163.e008g" mimetype="image" position="anchor" orientation="portrait"/><mml:math id="M8"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>ω</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mo>|</mml:mo><mml:mi>δ</mml:mi><mml:mo>|</mml:mo><mml:mo>)</mml:mo></mml:mrow></mml:msup><mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mo>|</mml:mo><mml:mi>δ</mml:mi><mml:mo>|</mml:mo><mml:mo>)</mml:mo></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mo>(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mo>|</mml:mo></mml:mrow><mml:msub><mml:mi>δ</mml:mi><mml:mrow><mml:mi>p</mml:mi><mml:mi>a</mml:mi><mml:mi>r</mml:mi><mml:mi>t</mml:mi><mml:mi>n</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>|</mml:mo><mml:mo>)</mml:mo><mml:mo>+</mml:mo><mml:mi>γ</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:msup></mml:mrow></mml:mfrac></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></alternatives><label>(8)</label></disp-formula></p>
+                  <p>Arbitration was biased by an additional parameter <italic>γ</italic>. This parameter reflected a bias towards the advice of the partner if <italic>γ</italic> &lt; 0 and a bias towards the option if <italic>γ</italic> &lt; 0. In the <xref ref-type="supplementary-material" rid="pcbi.1008163.s001">S1 Text</xref> we report variations of the arbitration models without the bias parameter as well as using a different arbitration scheme based on computing entropy rather than using absolute prediction errors [<xref rid="pcbi.1008163.ref018" ref-type="bibr">18</xref>]. These variations showed worse fit to our data (see Table B in <xref ref-type="supplementary-material" rid="pcbi.1008163.s001">S1 Text</xref>).</p>
+                </sec>
+                <sec id="sec024">
+                  <title>Arbitration emotion bonus</title>
+                  <p><bold>Models 13-14</bold> used the same emotion bonus parameter <italic>θ</italic> as in models <bold>9-10</bold> by using <xref ref-type="disp-formula" rid="pcbi.1008163.e007">Eq (7)</xref> but determined <italic>ω</italic> as in models <bold>11-12</bold>.</p>
+                </sec>
+                <sec id="sec025">
+                  <title>Hierarchical Gaussian Filter</title>
+                  <p>In the <xref ref-type="supplementary-material" rid="pcbi.1008163.s001">S1 Text</xref> we additionally report on fitting the Hierarchical Gaussian Filter [<xref rid="pcbi.1008163.ref045" ref-type="bibr">45</xref>] to our data, as this model has previously been used to model data from experiments similar to ours [<xref rid="pcbi.1008163.ref013" ref-type="bibr">13</xref>].</p>
+                </sec>
+              </sec>
+              <sec id="sec026">
+                <title>Model fitting and comparison</title>
+                <p>All our computational models were implemented in the Stan probabilistic programming language and fit with MCMC sampling using the NUTS sampling algorithm [<xref rid="pcbi.1008163.ref046" ref-type="bibr">46</xref>]. All parameters were fit hierarchically to each participant as deviations from an estimated population average. Parameters were fit in logit space and then back-transformed to their native space. Priors for all parameters were set as <italic>Normal(0,1)</italic> except for population-level learning rates were weakly informative <italic>Normal(0,0.5)</italic> were used to assist convergence.</p>
+                <p>Learning rate (<italic>α</italic>) and weighting (<italic>ω</italic>) parameters were constrained in the interval [0, 1] and the temperature parameter (<italic>β</italic>) constrained in the interval (0,2]. All <italic>p</italic>’s were initially set to 0.5. The emotion bonus (<italic>θ</italic>) and arbitration bias (<italic>γ</italic>) parameters were constrained to the interval [-1, 1].</p>
+                <p>Model comparison was performed using leave-one-out cross-validation (LOO-CV) by estimating the pointwise out-of-sample prediction accuracy from the log-likelihood evaluated using the full posterior of the model [<xref rid="pcbi.1008163.ref033" ref-type="bibr">33</xref>]. Since individual observations are not independent in trial-by-trial computational models, we follow [<xref rid="pcbi.1008163.ref047" ref-type="bibr">47</xref>] and use the pointwise log-likelihood summed to the participant level as an input to the leave-one-out cross-validation procedure. See <xref rid="pcbi.1008163.t002" ref-type="table">Table 2</xref> for full model comparison.</p>
+                <p>We also simulated data from a subset of our candidate models (models <bold>1-3, 5, 7, 9, 11, 13</bold>) and fitted the models to the simulated data. The resulting confusion matrices are reported in the <xref ref-type="supplementary-material" rid="pcbi.1008163.s001">S1 Text</xref> (Fig A and Fig B). Generally, models with emotion expression components distinguish themselves well compared to other models. However, models <bold>9</bold> and <bold>13</bold> produce very similar data patterns to each other, which is also reflected in their fit similarity to our data (see <xref rid="pcbi.1008163.t002" ref-type="table">Table 2</xref>).</p>
+              </sec>
+              <sec id="sec027">
+                <title>Statistical analysis</title>
+                <p>All analyses were performed in the R statistical language using the <italic>brms</italic> package [<xref rid="pcbi.1008163.ref048" ref-type="bibr">48</xref>]. Where appropriate we analyzed the data using Bayesian multi-level regression including varying intercepts and slopes by participant and correlations between intercept and slopes. All categorical regressors were deviation coded (-0.5/0.5) and all continuous regressors were standardized. In addition to the parameter estimate, its standard error and 95% credible intervals we also report the <italic>probability of difference</italic> (<italic>pd</italic>) [<xref rid="pcbi.1008163.ref049" ref-type="bibr">49</xref>]. The quantity <italic>pd</italic> is the proportion of the posterior distribution of the parameter that has the same sign as the parameter itself.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material" id="sec028">
+              <title>Supporting information</title>
+              <supplementary-material content-type="local-data" id="pcbi.1008163.s001">
+                <label>S1 Text</label>
+                <caption>
+                  <title>Supplementary methods and results.</title>
+                  <p>(PDF)</p>
+                </caption>
+                <media xlink:href="pcbi.1008163.s001.pdf">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>We thank R. Ilangomaran for assistance with data collection and F. Dahlin for modifying face images. We thank A. Golkar and B. Lindström for helpful comments on earlier versions of the manuscript.</p>
+            </ack>
+            <ref-list>
+              <title>References</title>
+              <ref id="pcbi.1008163.ref001">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><name><surname>Heyes</surname><given-names>C</given-names></name>. <article-title>What’s social about social learning?</article-title><source>Journal of Comparative Psychology</source>. <year>2012</year>;<volume>126</volume>(<issue>2</issue>):<fpage>193</fpage>–<lpage>202</lpage>. <pub-id pub-id-type="doi">10.1037/a0025180</pub-id><pub-id pub-id-type="pmid">21895355</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref002">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><name><surname>Laland</surname><given-names>KN</given-names></name>. <article-title>Social learning strategies</article-title>. <source>Animal Learning &amp; Behavior</source>. <year>2004</year>;<volume>32</volume>(<issue>1</issue>):<fpage>4</fpage>–<lpage>14</lpage>. <pub-id pub-id-type="doi">10.3758/BF03196002</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref003">
+                <label>3</label>
+                <mixed-citation publication-type="book"><name><surname>Mineka</surname><given-names>S</given-names></name>, <name><surname>Cook</surname><given-names>M</given-names></name>. <chapter-title>Social learning and the acquisition of snake fear in monkeys</chapter-title> In: <source>Social Learning: Psychological and Biological Perspectives</source>. <publisher-name>Erlbaum</publisher-name>; <year>1988</year> p. <fpage>51</fpage>–<lpage>73</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref004">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><name><surname>Olsson</surname><given-names>A</given-names></name>, <name><surname>Phelps</surname><given-names>EA</given-names></name>. <article-title>Social learning of fear</article-title>. <source>Nature neuroscience</source>. <year>2007</year>;<volume>10</volume>(<issue>9</issue>):<fpage>1095</fpage>–<lpage>1102</lpage>. <pub-id pub-id-type="doi">10.1038/nn1968</pub-id><pub-id pub-id-type="pmid">17726475</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref005">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><name><surname>McElreath</surname><given-names>R</given-names></name>, <name><surname>Lubell</surname><given-names>M</given-names></name>, <name><surname>Richerson</surname><given-names>PJ</given-names></name>, <name><surname>Waring</surname><given-names>TM</given-names></name>, <name><surname>Baum</surname><given-names>W</given-names></name>, <name><surname>Edsten</surname><given-names>E</given-names></name>, <etal>et al</etal><article-title>Applying evolutionary models to the laboratory study of social learning</article-title>. <source>Evolution and Human Behavior</source>. <year>2005</year>;<volume>26</volume>(<issue>6</issue>):<fpage>483</fpage>–<lpage>508</lpage>. <pub-id pub-id-type="doi">10.1016/j.evolhumbehav.2005.04.003</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref006">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><name><surname>Acerbi</surname><given-names>A</given-names></name>, <name><surname>Tennie</surname><given-names>C</given-names></name>, <name><surname>Mesoudi</surname><given-names>A</given-names></name>. <article-title>Social learning solves the problem of narrow-peaked search landscapes: experimental evidence in humans</article-title>. <source>Royal Society open science</source>. <year>2016</year>;<volume>3</volume>(<issue>9</issue>):<fpage>160215</fpage><pub-id pub-id-type="doi">10.1098/rsos.160215</pub-id><pub-id pub-id-type="pmid">27703687</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref007">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><name><surname>Burke</surname><given-names>CJ</given-names></name>, <name><surname>Tobler</surname><given-names>PN</given-names></name>, <name><surname>Baddeley</surname><given-names>M</given-names></name>, <name><surname>Schultz</surname><given-names>W</given-names></name>. <article-title>Neural mechanisms of observational learning</article-title>. <source>Proceedings of the National Academy of Sciences</source>. <year>2010</year>;<volume>107</volume>(<issue>32</issue>):<fpage>14431</fpage>–<lpage>14436</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1003111107</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref008">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><name><surname>Selbing</surname><given-names>I</given-names></name>, <name><surname>Lindström</surname><given-names>B</given-names></name>, <name><surname>Olsson</surname><given-names>A</given-names></name>. <article-title>Demonstrator skill modulates observational aversive learning</article-title>. <source>Cognition</source>. <year>2014</year>;<volume>133</volume>(<issue>1</issue>):<fpage>128</fpage>–<lpage>139</lpage>. <pub-id pub-id-type="doi">10.1016/j.cognition.2014.06.010</pub-id><pub-id pub-id-type="pmid">25016187</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref009">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><name><surname>Safra</surname><given-names>L</given-names></name>, <name><surname>Chevallier</surname><given-names>C</given-names></name>, <name><surname>Palminteri</surname><given-names>S</given-names></name>. <article-title>Depressive symptoms are associated with blunted reward learning in social contexts</article-title>. <source>PLoS computational biology</source>. <year>2019</year>;<volume>15</volume>(<issue>7</issue>):<fpage>e1007224</fpage><pub-id pub-id-type="doi">10.1371/journal.pcbi.1007224</pub-id><pub-id pub-id-type="pmid">31356594</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref010">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><name><surname>Robic</surname><given-names>S</given-names></name>, <name><surname>Sonié</surname><given-names>S</given-names></name>, <name><surname>Fonlupt</surname><given-names>P</given-names></name>, <name><surname>Henaff</surname><given-names>MA</given-names></name>, <name><surname>Touil</surname><given-names>N</given-names></name>, <name><surname>Coricelli</surname><given-names>G</given-names></name>, <etal>et al</etal><article-title>Decision-making in a changing world: A study in autism spectrum disorders</article-title>. <source>Journal of autism and developmental disorders</source>. <year>2015</year>;<volume>45</volume>(<issue>6</issue>):<fpage>1603</fpage>–<lpage>1613</lpage>. <pub-id pub-id-type="doi">10.1007/s10803-014-2311-7</pub-id><pub-id pub-id-type="pmid">25433404</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref011">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><name><surname>Meffert</surname><given-names>H</given-names></name>, <name><surname>Brislin</surname><given-names>SJ</given-names></name>, <name><surname>White</surname><given-names>SF</given-names></name>, <name><surname>Blair</surname><given-names>JR</given-names></name>. <article-title>Prediction errors to emotional expressions: the roles of the amygdala in social referencing</article-title>. <source>Social cognitive and affective neuroscience</source>. <year>2014</year>;<volume>10</volume>(<issue>4</issue>):<fpage>537</fpage>–<lpage>544</lpage>. <pub-id pub-id-type="doi">10.1093/scan/nsu085</pub-id><pub-id pub-id-type="pmid">24939872</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref012">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><name><surname>Hooker</surname><given-names>CI</given-names></name>, <name><surname>Germine</surname><given-names>LT</given-names></name>, <name><surname>Knight</surname><given-names>RT</given-names></name>, <name><surname>D’Esposito</surname><given-names>M</given-names></name>. <article-title>Amygdala response to facial expressions reflects emotional learning</article-title>. <source>Journal of Neuroscience</source>. <year>2006</year>;<volume>26</volume>(<issue>35</issue>):<fpage>8915</fpage>–<lpage>8922</lpage>. <pub-id pub-id-type="doi">10.1523/JNEUROSCI.3048-05.2006</pub-id><pub-id pub-id-type="pmid">16943547</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref013">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><name><surname>Sevgi</surname><given-names>M</given-names></name>, <name><surname>Diaconescu</surname><given-names>AO</given-names></name>, <name><surname>Henco</surname><given-names>L</given-names></name>, <name><surname>Tittgemeyer</surname><given-names>M</given-names></name>, <name><surname>Schilbach</surname><given-names>L</given-names></name>. <article-title>Social Bayes: Using Bayesian Modeling to Study Autistic Trait–Related Differences in Social Cognition</article-title>. <source>Biological Psychiatry</source>. <year>2020</year>;<volume>87</volume>(<issue>2</issue>):<fpage>185</fpage>–<lpage>193</lpage>. <pub-id pub-id-type="doi">10.1016/j.biopsych.2019.09.032</pub-id><pub-id pub-id-type="pmid">31856957</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref014">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><name><surname>Adolphs</surname><given-names>R</given-names></name>. <article-title>Neural systems for recognizing emotion</article-title>. <source>Current opinion in neurobiology</source>. <year>2002</year>;<volume>12</volume>(<issue>2</issue>):<fpage>169</fpage>–<lpage>177</lpage>. <pub-id pub-id-type="doi">10.1016/S0959-4388(02)00301-X</pub-id><pub-id pub-id-type="pmid">12015233</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref015">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><name><surname>Jack</surname><given-names>RE</given-names></name>, <name><surname>Schyns</surname><given-names>PG</given-names></name>. <article-title>The human face as a dynamic tool for social communication</article-title>. <source>Current Biology</source>. <year>2015</year>;<volume>25</volume>(<issue>14</issue>):<fpage>R621</fpage>–<lpage>R634</lpage>. <pub-id pub-id-type="doi">10.1016/j.cub.2015.05.052</pub-id><pub-id pub-id-type="pmid">26196493</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref016">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><name><surname>Wu</surname><given-names>DWL</given-names></name>, <name><surname>Bischof</surname><given-names>WF</given-names></name>, <name><surname>Kingstone</surname><given-names>A</given-names></name>. <article-title>Natural gaze signaling in a social context</article-title>. <source>Evolution and Human Behavior</source>. <year>2014</year>;<volume>35</volume>(<issue>3</issue>):<fpage>211</fpage>–<lpage>218</lpage>. <pub-id pub-id-type="doi">10.1016/j.evolhumbehav.2014.01.005</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref017">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><name><surname>Behrens</surname><given-names>TE</given-names></name>, <name><surname>Hunt</surname><given-names>LT</given-names></name>, <name><surname>Woolrich</surname><given-names>MW</given-names></name>, <name><surname>Rushworth</surname><given-names>MF</given-names></name>. <article-title>Associative learning of social value</article-title>. <source>Nature</source>. <year>2008</year>;<volume>456</volume>(<issue>7219</issue>):<fpage>245</fpage>–<lpage>249</lpage>. <pub-id pub-id-type="doi">10.1038/nature07538</pub-id><pub-id pub-id-type="pmid">19005555</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref018">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><name><surname>Charpentier</surname><given-names>CJ</given-names></name>, <name><surname>Iigaya</surname><given-names>K</given-names></name>, <name><surname>O’Doherty</surname><given-names>JP</given-names></name>. <article-title>A Neuro-computational Account of Arbitration between Choice Imitation and Goal Emulation during Human Observational Learning</article-title>. <source>Neuron</source>. <year>2020</year><pub-id pub-id-type="doi">10.1016/j.neuron.2020.02.028</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref019">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><name><surname>Gibson</surname><given-names>JJ</given-names></name>, <name><surname>Pick</surname><given-names>AD</given-names></name>. <article-title>Perception of another person’s looking behavior</article-title>. <source>The American journal of psychology</source>. <year>1963</year>;<volume>76</volume>(<issue>3</issue>):<fpage>386</fpage>–<lpage>394</lpage>. <pub-id pub-id-type="doi">10.2307/1419779</pub-id><pub-id pub-id-type="pmid">13947729</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref020">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><name><surname>Kobayashi</surname><given-names>H</given-names></name>, <name><surname>Kohshima</surname><given-names>S</given-names></name>. <article-title>Unique morphology of the human eye and its adaptive meaning: comparative studies on external morphology of the primate eye</article-title>. <source>Journal of human evolution</source>. <year>2001</year>;<volume>40</volume>(<issue>5</issue>):<fpage>419</fpage>–<lpage>435</lpage>. <pub-id pub-id-type="doi">10.1006/jhev.2001.0468</pub-id><pub-id pub-id-type="pmid">11322803</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref021">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><name><surname>Gredebäck</surname><given-names>G</given-names></name>, <name><surname>Fikke</surname><given-names>L</given-names></name>, <name><surname>Melinder</surname><given-names>A</given-names></name>. <article-title>The development of joint visual attention: a longitudinal study of gaze following during interactions with mothers and strangers</article-title>. <source>Developmental science</source>. <year>2010</year>;<volume>13</volume>(<issue>6</issue>):<fpage>839</fpage>–<lpage>848</lpage>. <pub-id pub-id-type="doi">10.1111/j.1467-7687.2009.00945.x</pub-id><pub-id pub-id-type="pmid">20977555</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref022">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><name><surname>Friesen</surname><given-names>CK</given-names></name>, <name><surname>Kingstone</surname><given-names>A</given-names></name>. <article-title>The eyes have it! Reflexive orienting is triggered by nonpredictive gaze</article-title>. <source>Psychonomic bulletin &amp; review</source>. <year>1998</year>;<volume>5</volume>(<issue>3</issue>):<fpage>490</fpage>–<lpage>495</lpage>. <pub-id pub-id-type="doi">10.3758/BF03208827</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref023">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><name><surname>Driver</surname><given-names>J</given-names><suffix>IV</suffix></name>, <name><surname>Davis</surname><given-names>G</given-names></name>, <name><surname>Ricciardelli</surname><given-names>P</given-names></name>, <name><surname>Kidd</surname><given-names>P</given-names></name>, <name><surname>Maxwell</surname><given-names>E</given-names></name>, <name><surname>Baron-Cohen</surname><given-names>S</given-names></name>. <article-title>Gaze perception triggers reflexive visuospatial orienting</article-title>. <source>Visual cognition</source>. <year>1999</year>;<volume>6</volume>(<issue>5</issue>):<fpage>509</fpage>–<lpage>540</lpage>. <pub-id pub-id-type="doi">10.1080/135062899394920</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref024">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><name><surname>Bayliss</surname><given-names>AP</given-names></name>, <name><surname>Paul</surname><given-names>MA</given-names></name>, <name><surname>Cannon</surname><given-names>PR</given-names></name>, <name><surname>Tipper</surname><given-names>SP</given-names></name>. <article-title>Gaze cuing and affective judgments of objects: I like what you look at</article-title>. <source>Psychonomic bulletin &amp; review</source>. <year>2006</year>;<volume>13</volume>(<issue>6</issue>):<fpage>1061</fpage>–<lpage>1066</lpage>. <pub-id pub-id-type="doi">10.3758/BF03213926</pub-id><pub-id pub-id-type="pmid">17484436</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref025">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><name><surname>Bayliss</surname><given-names>AP</given-names></name>, <name><surname>Frischen</surname><given-names>A</given-names></name>, <name><surname>Fenske</surname><given-names>MJ</given-names></name>, <name><surname>Tipper</surname><given-names>SP</given-names></name>. <article-title>Affective evaluations of objects are influenced by observed gaze direction and emotional expression</article-title>. <source>Cognition</source>. <year>2007</year>;<volume>104</volume>(<issue>3</issue>):<fpage>644</fpage>–<lpage>653</lpage>. <pub-id pub-id-type="doi">10.1016/j.cognition.2006.07.012</pub-id><pub-id pub-id-type="pmid">16950239</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref026">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><name><surname>Friesen</surname><given-names>CK</given-names></name>, <name><surname>Ristic</surname><given-names>J</given-names></name>, <name><surname>Kingstone</surname><given-names>A</given-names></name>. <article-title>Attentional effects of counterpredictive gaze and arrow cues</article-title>. <source>Journal of Experimental Psychology: Human Perception and Performance</source>. <year>2004</year>;<volume>30</volume>(<issue>2</issue>):<fpage>319</fpage>–<lpage>329</lpage>.<pub-id pub-id-type="pmid">15053691</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref027">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><name><surname>Walden</surname><given-names>TA</given-names></name>, <name><surname>Ogan</surname><given-names>TA</given-names></name>. <article-title>The development of social referencing</article-title>. <source>Child development</source>. <year>1988</year>; p. <fpage>1230</fpage>–<lpage>1240</lpage>. <pub-id pub-id-type="doi">10.2307/1130486</pub-id><pub-id pub-id-type="pmid">3168639</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref028">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><name><surname>Adams</surname><given-names>RB</given-names><suffix>Jr</suffix></name>, <name><surname>Kleck</surname><given-names>RE</given-names></name>. <article-title>Perceived gaze direction and the processing of facial displays of emotion</article-title>. <source>Psychological science</source>. <year>2003</year>;<volume>14</volume>(<issue>6</issue>):<fpage>644</fpage>–<lpage>647</lpage>. <pub-id pub-id-type="doi">10.1046/j.0956-7976.2003.psci_1479.x</pub-id><pub-id pub-id-type="pmid">14629700</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref029">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><name><surname>Whalen</surname><given-names>PJ</given-names></name>, <name><surname>Kagan</surname><given-names>J</given-names></name>, <name><surname>Cook</surname><given-names>RG</given-names></name>, <name><surname>Davis</surname><given-names>FC</given-names></name>, <name><surname>Kim</surname><given-names>H</given-names></name>, <name><surname>Polis</surname><given-names>S</given-names></name>, <etal>et al</etal><article-title>Human amygdala responsivity to masked fearful eye whites</article-title>. <source>Science</source>. <year>2004</year>;<volume>306</volume>(<issue>5704</issue>):<fpage>2061</fpage>–<lpage>2061</lpage>. <pub-id pub-id-type="doi">10.1126/science.1103617</pub-id><pub-id pub-id-type="pmid">15604401</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref030">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><name><surname>Blair</surname><given-names>R</given-names></name>. <article-title>Facial expressions, their communicatory functions and neuro–cognitive substrates</article-title>. <source>Philosophical Transactions of the Royal Society of London Series B: Biological Sciences</source>. <year>2003</year>;<volume>358</volume>(<issue>1431</issue>):<fpage>561</fpage>–<lpage>572</lpage>. <pub-id pub-id-type="doi">10.1098/rstb.2002.1220</pub-id><pub-id pub-id-type="pmid">12689381</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref031">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><name><surname>Mineka</surname><given-names>S</given-names></name>, <name><surname>Cook</surname><given-names>M</given-names></name>. <article-title>Mechanisms involved in the observational conditioning of fear</article-title>. <source>Journal of Experimental Psychology: General</source>. <year>1993</year>;<volume>122</volume>(<issue>1</issue>):<fpage>23</fpage>–<lpage>38</lpage>. <pub-id pub-id-type="doi">10.1037/0096-3445.122.1.23</pub-id><pub-id pub-id-type="pmid">8440976</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref032">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><name><surname>Baron-Cohen</surname><given-names>S</given-names></name>, <name><surname>Wheelwright</surname><given-names>S</given-names></name>, <name><surname>Skinner</surname><given-names>R</given-names></name>, <name><surname>Martin</surname><given-names>J</given-names></name>, <name><surname>Clubley</surname><given-names>E</given-names></name>. <article-title>The autism-spectrum quotient (AQ): Evidence from asperger syndrome/high-functioning autism, malesand females, scientists and mathematicians</article-title>. <source>Journal of autism and developmental disorders</source>. <year>2001</year>;<volume>31</volume>(<issue>1</issue>):<fpage>5</fpage>–<lpage>17</lpage>. <pub-id pub-id-type="doi">10.1023/A:1005653411471</pub-id><pub-id pub-id-type="pmid">11439754</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref033">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><name><surname>Vehtari</surname><given-names>A</given-names></name>, <name><surname>Gelman</surname><given-names>A</given-names></name>, <name><surname>Gabry</surname><given-names>J</given-names></name>. <article-title>Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC</article-title>. <source>Statistics and computing</source>. <year>2017</year>;<volume>27</volume>(<issue>5</issue>):<fpage>1413</fpage>–<lpage>1432</lpage>. <pub-id pub-id-type="doi">10.1007/s11222-016-9696-4</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref034">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><name><surname>Heathcote</surname><given-names>A</given-names></name>, <name><surname>Popiel</surname><given-names>SJ</given-names></name>, <name><surname>Mewhort</surname><given-names>D</given-names></name>. <article-title>Analysis of response time distributions: An example using the Stroop task</article-title>. <source>Psychological bulletin</source>. <year>1991</year>;<volume>109</volume>(<issue>2</issue>):<fpage>340</fpage>–<lpage>347</lpage>. <pub-id pub-id-type="doi">10.1037/0033-2909.109.2.340</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref035">
+                <label>35</label>
+                <mixed-citation publication-type="journal"><name><surname>FeldmanHall</surname><given-names>O</given-names></name>, <name><surname>Dunsmoor</surname><given-names>JE</given-names></name>. <article-title>Viewing adaptive social choice through the lens of associative learning</article-title>. <source>Perspectives on Psychological Science</source>. <year>2019</year>;<volume>14</volume>(<issue>2</issue>):<fpage>175</fpage>–<lpage>196</lpage>. <pub-id pub-id-type="doi">10.1177/1745691618792261</pub-id><pub-id pub-id-type="pmid">30513040</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref036">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><name><surname>Kameda</surname><given-names>T</given-names></name>, <name><surname>Nakanishi</surname><given-names>D</given-names></name>. <article-title>Does social/cultural learning increase human adaptability?: Rogers’s question revisited</article-title>. <source>Evolution and Human Behavior</source>. <year>2003</year>;<volume>24</volume>(<issue>4</issue>):<fpage>242</fpage>–<lpage>260</lpage>. <pub-id pub-id-type="doi">10.1016/S1090-5138(03)00015-1</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref037">
+                <label>37</label>
+                <mixed-citation publication-type="other">Newell A. In: Chase WG, editor. You can’t play 20 questions with nature and win: Projective comments on the papers of this symposium. New York: Academic Press; 1973.</mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref038">
+                <label>38</label>
+                <mixed-citation publication-type="journal"><name><surname>Tversky</surname><given-names>A</given-names></name>, <name><surname>Kahneman</surname><given-names>D</given-names></name>. <article-title>The framing of decisions and the psychology of choice</article-title>. <source>Science</source>. <year>1981</year>;<volume>211</volume>(<issue>4481</issue>):<fpage>453</fpage>–<lpage>458</lpage>. <pub-id pub-id-type="doi">10.1126/science.7455683</pub-id><pub-id pub-id-type="pmid">7455683</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref039">
+                <label>39</label>
+                <mixed-citation publication-type="journal"><name><surname>South</surname><given-names>M</given-names></name>, <name><surname>Chamberlain</surname><given-names>PD</given-names></name>, <name><surname>Wigham</surname><given-names>S</given-names></name>, <name><surname>Newton</surname><given-names>T</given-names></name>, <name><surname>Le Couteur</surname><given-names>A</given-names></name>, <name><surname>McConachie</surname><given-names>H</given-names></name>, <etal>et al</etal><article-title>Enhanced decision making and risk avoidance in high-functioning autism spectrum disorder</article-title>. <source>Neuropsychology</source>. <year>2014</year>;<volume>28</volume>(<issue>2</issue>):<fpage>222</fpage>–<lpage>228</lpage>. <pub-id pub-id-type="doi">10.1037/neu0000016</pub-id><pub-id pub-id-type="pmid">24219603</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref040">
+                <label>40</label>
+                <mixed-citation publication-type="journal"><name><surname>Izuma</surname><given-names>K</given-names></name>, <name><surname>Adolphs</surname><given-names>R</given-names></name>. <article-title>Social manipulation of preference in the human brain</article-title>. <source>Neuron</source>. <year>2013</year>;<volume>78</volume>(<issue>3</issue>):<fpage>563</fpage>–<lpage>573</lpage>. <pub-id pub-id-type="doi">10.1016/j.neuron.2013.03.023</pub-id><pub-id pub-id-type="pmid">23664619</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref041">
+                <label>41</label>
+                <mixed-citation publication-type="journal"><name><surname>Schilbach</surname><given-names>L</given-names></name>, <name><surname>Timmermans</surname><given-names>B</given-names></name>, <name><surname>Reddy</surname><given-names>V</given-names></name>, <name><surname>Costall</surname><given-names>A</given-names></name>, <name><surname>Bente</surname><given-names>G</given-names></name>, <name><surname>Schlicht</surname><given-names>T</given-names></name>, <etal>et al</etal><article-title>Toward a second-person neuroscience 1</article-title>. <source>Behavioral and brain sciences</source>. <year>2013</year>;<volume>36</volume>(<issue>4</issue>):<fpage>393</fpage>–<lpage>414</lpage>. <pub-id pub-id-type="doi">10.1017/S0140525X12000660</pub-id><pub-id pub-id-type="pmid">23883742</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref042">
+                <label>42</label>
+                <mixed-citation publication-type="journal"><name><surname>Peirce</surname><given-names>JW</given-names></name>. <article-title>PsychoPy—psychophysics software in Python</article-title>. <source>Journal of neuroscience methods</source>. <year>2007</year>;<volume>162</volume>(<issue>1-2</issue>):<fpage>8</fpage>–<lpage>13</lpage>. <pub-id pub-id-type="doi">10.1016/j.jneumeth.2006.11.017</pub-id><pub-id pub-id-type="pmid">17254636</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref043">
+                <label>43</label>
+                <mixed-citation publication-type="journal"><name><surname>Lundqvist</surname><given-names>D</given-names></name>, <name><surname>Flykt</surname><given-names>A</given-names></name>, <name><surname>Öhman</surname><given-names>A</given-names></name>. <article-title>The Karolinska directed emotional faces (KDEF)</article-title>. <source>CD ROM from Department of Clinical Neuroscience, Psychology section, Karolinska Institutet</source>. <year>1998</year>;<volume>91</volume>:<fpage>630</fpage>.</mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref044">
+                <label>44</label>
+                <mixed-citation publication-type="book"><name><surname>Rescorla</surname><given-names>RA</given-names></name>, <name><surname>Wagner</surname><given-names>AR</given-names></name>. <chapter-title>A theory of Pavlovian conditioning: Variations in the effectiveness of reinforcement and nonreinforcement</chapter-title> In: <name><surname>Black</surname><given-names>A</given-names></name>, <name><surname>Prokasy</surname><given-names>W</given-names></name>, editors. <source>Classical conditioning II: Current research and theory</source>. <volume>vol. 2</volume>
+<publisher-loc>New-York</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>; <year>1972</year> p. <fpage>64</fpage>–<lpage>99</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref045">
+                <label>45</label>
+                <mixed-citation publication-type="journal"><name><surname>Mathys</surname><given-names>CD</given-names></name>, <name><surname>Lomakina</surname><given-names>EI</given-names></name>, <name><surname>Daunizeau</surname><given-names>J</given-names></name>, <name><surname>Iglesias</surname><given-names>S</given-names></name>, <name><surname>Brodersen</surname><given-names>KH</given-names></name>, <name><surname>Friston</surname><given-names>KJ</given-names></name>, <etal>et al</etal><article-title>Uncertainty in perception and the Hierarchical Gaussian Filter</article-title>. <source>Frontiers in human neuroscience</source>. <year>2014</year>;<volume>8</volume>:<fpage>825</fpage><pub-id pub-id-type="doi">10.3389/fnhum.2014.00825</pub-id><pub-id pub-id-type="pmid">25477800</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref046">
+                <label>46</label>
+                <mixed-citation publication-type="journal"><name><surname>Carpenter</surname><given-names>B</given-names></name>, <name><surname>Gelman</surname><given-names>A</given-names></name>, <name><surname>Hoffman</surname><given-names>MD</given-names></name>, <name><surname>Lee</surname><given-names>D</given-names></name>, <name><surname>Goodrich</surname><given-names>B</given-names></name>, <name><surname>Betancourt</surname><given-names>M</given-names></name>, <etal>et al</etal><article-title>Stan: A probabilistic programming language</article-title>. <source>Journal of statistical software</source>. <year>2017</year>;<volume>76</volume>(<issue>1</issue>). <pub-id pub-id-type="doi">10.18637/jss.v076.i01</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref047">
+                <label>47</label>
+                <mixed-citation publication-type="journal"><name><surname>Ahn</surname><given-names>WY</given-names></name>, <name><surname>Haines</surname><given-names>N</given-names></name>, <name><surname>Zhang</surname><given-names>L</given-names></name>. <article-title>Revealing neurocomputational mechanisms of reinforcement learning and decision-making with the hBayesDM package</article-title>. <source>Computational Psychiatry</source>. <year>2017</year>;<volume>1</volume>:<fpage>24</fpage>–<lpage>57</lpage>. <pub-id pub-id-type="doi">10.1162/CPSY_a_00002</pub-id><pub-id pub-id-type="pmid">29601060</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref048">
+                <label>48</label>
+                <mixed-citation publication-type="journal"><name><surname>Bürkner</surname><given-names>PC</given-names></name>, <etal>et al</etal><article-title>brms: An R package for Bayesian multilevel models using Stan</article-title>. <source>Journal of Statistical Software</source>. <year>2017</year>;<volume>80</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>28</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pcbi.1008163.ref049">
+                <label>49</label>
+                <mixed-citation publication-type="journal"><name><surname>Makowski</surname><given-names>D</given-names></name>, <name><surname>Ben-Shachar</surname><given-names>M</given-names></name>, <name><surname>Lüdecke</surname><given-names>D</given-names></name>. <article-title>bayestestR: Describing effects and their uncertainty, existence and significance within the Bayesian framework</article-title>. <source>Journal of Open Source Software</source>. <year>2019</year>;<volume>4</volume>(<issue>40</issue>):<fpage>1541</fpage><pub-id pub-id-type="doi">10.21105/joss.01541</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

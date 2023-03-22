@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:03:51Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6908894" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6908894</identifier>
+        <datestamp>2019-12-20</datestamp>
+        <setSpec>brb</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Brain Behav</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Brain Behav</journal-id>
+              <journal-id journal-id-type="doi">10.1002/(ISSN)2157-9032</journal-id>
+              <journal-id journal-id-type="publisher-id">BRB3</journal-id>
+              <journal-title-group>
+                <journal-title>Brain and Behavior</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2162-3279</issn>
+              <publisher>
+                <publisher-name>John Wiley and Sons Inc.</publisher-name>
+                <publisher-loc>Hoboken</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6908894</article-id>
+              <article-id pub-id-type="pmcid">PMC6908894</article-id>
+              <article-id pub-id-type="pmc-uid">6908894</article-id>
+              <article-id pub-id-type="pmid">31747124</article-id>
+              <article-id pub-id-type="doi">10.1002/brb3.1468</article-id>
+              <article-id pub-id-type="publisher-id">BRB31468</article-id>
+              <article-categories>
+                <subj-group subj-group-type="overline">
+                  <subject>Original Research</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Research</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Remediating reduced memory specificity in bipolar disorder: A case study using a Computerized Memory Specificity Training</article-title>
+                <alt-title alt-title-type="left-running-head">MARTENS et al.</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="brb31468-cr-0001" contrib-type="author">
+                  <name>
+                    <surname>Martens</surname>
+                    <given-names>Kris</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8162-4979</contrib-id>
+                  <xref ref-type="aff" rid="brb31468-aff-0001">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib id="brb31468-cr-0002" contrib-type="author">
+                  <name>
+                    <surname>Takano</surname>
+                    <given-names>Keisuke</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0406-8654</contrib-id>
+                  <xref ref-type="aff" rid="brb31468-aff-0002">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib id="brb31468-cr-0003" contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Barry</surname>
+                    <given-names>Tom J.</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1042-3827</contrib-id>
+                  <xref ref-type="aff" rid="brb31468-aff-0003">
+                    <sup>3</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="brb31468-aff-0004">
+                    <sup>4</sup>
+                  </xref>
+                  <address>
+                    <email>tom.j.barry@icloud.com</email>
+                  </address>
+                </contrib>
+                <contrib id="brb31468-cr-0004" contrib-type="author">
+                  <name>
+                    <surname>Holmes</surname>
+                    <given-names>Emily A.</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7319-3112</contrib-id>
+                  <xref ref-type="aff" rid="brb31468-aff-0005">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib id="brb31468-cr-0005" contrib-type="author">
+                  <name>
+                    <surname>Wyckaert</surname>
+                    <given-names>Sabine</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="brb31468-aff-0006">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib id="brb31468-cr-0006" contrib-type="author">
+                  <name>
+                    <surname>Raes</surname>
+                    <given-names>Filip</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2770-2806</contrib-id>
+                  <xref ref-type="aff" rid="brb31468-aff-0001">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="brb31468-aff-0001">
+                <label>
+                  <sup>1</sup>
+                </label>
+                <named-content content-type="organisation-division">Faculty of Psychology and Educational Sciences</named-content>
+                <institution>KU Leuven</institution>
+                <city>Leuven</city>
+                <country country="BE">Belgium</country>
+              </aff>
+              <aff id="brb31468-aff-0002">
+                <label>
+                  <sup>2</sup>
+                </label>
+                <institution>Ludwig‐Maximilians‐University of Munich</institution>
+                <city>Munich</city>
+                <country country="DE">Germany</country>
+              </aff>
+              <aff id="brb31468-aff-0003">
+                <label>
+                  <sup>3</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Psychology</named-content>
+                <institution>The University of Hong Kong</institution>
+                <city>Hong Kong</city>
+                <country country="HK">Hong Kong</country>
+              </aff>
+              <aff id="brb31468-aff-0004">
+                <label>
+                  <sup>4</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Psychology</named-content>
+                <named-content content-type="organisation-division">The Institute of Psychiatry</named-content>
+                <institution>King's College London</institution>
+                <city>London</city>
+                <country country="GB">UK</country>
+              </aff>
+              <aff id="brb31468-aff-0005">
+                <label>
+                  <sup>5</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Psychology</named-content>
+                <institution>Uppsala University</institution>
+                <city>Uppsala</city>
+                <country country="SE">Sweden</country>
+              </aff>
+              <aff id="brb31468-aff-0006">
+                <label>
+                  <sup>6</sup>
+                </label>
+                <institution>University Psychiatric Center KU Leuven, Campus Kortenberg</institution>
+                <city>Kortenberg</city>
+                <country country="BE">Belgium</country>
+              </aff>
+              <author-notes>
+                <corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Tom J. Barry, Department of Psychology, The University of Hong Kong, Jockey Club Tower, Pokfulam Road, Hong Kong.<break/>
+Email: <email>tom.j.barry@icloud.com</email><break/></corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>20</day>
+                <month>11</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>12</month>
+                <year>2019</year>
+              </pub-date>
+              <volume>9</volume>
+              <issue>12</issue>
+              <issue-id pub-id-type="doi">10.1002/brb3.v9.12</issue-id>
+              <elocation-id>e01468</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>14</day>
+                  <month>5</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>08</day>
+                  <month>10</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="accepted">
+                  <day>13</day>
+                  <month>10</month>
+                  <year>2019</year>
+                </date>
+              </history>
+              <permissions>
+                <!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2019 Published by Wiley Periodicals, Inc. <copyright-statement>-->
+                <copyright-statement content-type="article-copyright">© 2019 The Authors. <italic>Brain and Behavior</italic> published by Wiley Periodicals, Inc.</copyright-statement>
+                <license license-type="creativeCommonsBy">
+                  <license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf" xlink:href="file:BRB3-9-e01468.pdf"/>
+              <abstract id="brb31468-abs-0001">
+                <title>Abstract</title>
+                <sec id="brb31468-sec-0001">
+                  <title>Objectives</title>
+                  <p>Reduced autobiographical memory specificity (rAMS) is a vulnerability factor found across unipolar depression (UD), posttraumatic stress disorder (PTSD), eating disorder, schizophrenia, and bipolar disorder (BD). A group delivered psychological therapy training called Memory Specificity Training (MeST) remediates rAMS in UD and PTSD, with additional downstream effects on related psychological processes and symptoms. Its impact in BD is unknown. In this case study, we examined the impact of a computerized version of MeST (c‐MeST) on improving AMS and related symptoms and processes in participant with rapid cycling type I BD.</p>
+                </sec>
+                <sec id="brb31468-sec-0002">
+                  <title>Method</title>
+                  <p>An experimental case study with an ABA design was used. During baseline (14 days, Phase A), the training phase (nine sessions across 17 days, Phase B), and a 1‐month follow‐up (Phase A), memory specificity, depressive symptoms, and related processes and symptoms were repeatedly measured.</p>
+                </sec>
+                <sec id="brb31468-sec-0003">
+                  <title>Results</title>
+                  <p>Memory specificity increased significantly after the participant completed c‐MeST. Session‐to‐session scores indicated that AMS improved most from the in‐person baseline assessment to the first online session. All other measures of processes and symptoms deteriorated during the training phase but regressed to baseline during follow‐up.</p>
+                </sec>
+                <sec id="brb31468-sec-0004">
+                  <title>Conclusion</title>
+                  <p>Memory specificity was improved as indicated by increased AMS from pre‐intervention measurement to 1‐month follow‐up. Other improvements in symptoms were not observed. Rather, some related maladaptive psychological processes and symptoms worsened during the training phase and regressed to baseline during follow‐up.</p>
+                </sec>
+              </abstract>
+              <abstract abstract-type="graphical" id="brb31468-abs-0002">
+                <p>In an experimental single case study autobiographical memory specificity was successfully remediated, from pre‐intervention measurement to 1‐month follow‐up, by using an online memory specificity training, in one person with rapid cycling Bipolar Disorder type I. Other improvements in symptoms were not observed. Rather, some related maladaptive psychological processes and symptoms worsened during the training phase and regressed to baseline during follow up.<boxed-text position="anchor" content-type="graphic" id="brb31468-blkfxd-0001" orientation="portrait"><graphic xlink:href="BRB3-9-e01468-g004.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"/></boxed-text>
+</p>
+              </abstract>
+              <kwd-group kwd-group-type="author-generated">
+                <kwd id="brb31468-kwd-0001">autobiographical memory</kwd>
+                <kwd id="brb31468-kwd-0002">bipolar disorder</kwd>
+                <kwd id="brb31468-kwd-0003">Memory Specificity Training</kwd>
+                <kwd id="brb31468-kwd-0004">reduced autobiographical memory specificity</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group id="funding-0001">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>KU Leuven Research Council </institution>
+                      <institution-id institution-id-type="open-funder-registry">10.13039/501100004040</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>PF/10/005</award-id>
+                </award-group>
+                <award-group id="funding-0002">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Swedish Research Council </institution>
+                      <institution-id institution-id-type="open-funder-registry">10.13039/501100004359</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>2017‐00957</award-id>
+                </award-group>
+              </funding-group>
+              <counts>
+                <fig-count count="3"/>
+                <table-count count="1"/>
+                <page-count count="11"/>
+                <word-count count="7972"/>
+              </counts>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>source-schema-version-number</meta-name>
+                  <meta-value>2.0</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>cover-date</meta-name>
+                  <meta-value>December 2019</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>details-of-publishers-convertor</meta-name>
+                  <meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.7.2 mode:remove_FC converted:13.12.2019</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+            <notes>
+              <p content-type="self-citation">
+                <mixed-citation publication-type="journal" id="brb31468-cit-1001"><string-name><surname>Martens</surname><given-names>K</given-names></string-name>, <string-name><surname>Takano</surname><given-names>K</given-names></string-name>, <string-name><surname>Barry</surname><given-names>TJ</given-names></string-name>, <string-name><surname>Holmes</surname><given-names>EA</given-names></string-name>, <string-name><surname>Wyckaert</surname><given-names>S</given-names></string-name>, <string-name><surname>Raes</surname><given-names>F</given-names></string-name>. <article-title>Remediating reduced memory specificity in bipolar disorder: A case study using a Computerized Memory Specificity Training</article-title>. <source xml:lang="en">Brain Behav</source>. <year>2019</year>;<volume>9</volume>:<elocation-id>e01468</elocation-id><pub-id pub-id-type="doi">10.1002/brb3.1468</pub-id></mixed-citation>
+              </p>
+              <fn-group id="brb31468-ntgp-0001">
+                <fn fn-type="funding" id="brb31468-note-0001">
+                  <p>
+                    <bold>Funding information</bold>
+                  </p>
+                  <p>This work was supported by the KU Leuven Research Council grant PF/10/005. EH is grateful for support from the Swedish Research Council (2017‐00957).</p>
+                </fn>
+              </fn-group>
+            </notes>
+          </front>
+          <body id="brb31468-body-0001">
+            <sec id="brb31468-sec-0005">
+              <label>1</label>
+              <title>INTRODUCTION</title>
+              <p>Several cognitive vulnerabilities have been found in individuals with bipolar disorder (BD), including reduced autobiographical memory specificity (rAMS) (Scott, Stanton, Garland, &amp; Ferrier, <xref rid="brb31468-bib-0038" ref-type="ref">2000</xref>). Despite the potential importance of rAMS within BD, and the existence of interventions that target rAMS (Barry, Sze, &amp; Raes, <xref rid="brb31468-bib-0005" ref-type="ref">2019</xref>), no study has yet examined whether these interventions are effective at improving rAMS among people with BD, or whether doing so can be beneficial. In this experimental case study, we explored the modifiability of rAMS for a participant diagnosed with rapid cycling type I bipolar disorder (American Psychiatric Association, <xref rid="brb31468-bib-0002" ref-type="ref">2013</xref>) with a computerized version of Memory Specificity Training (MeST) (Raes, Williams, &amp; Hermans, <xref rid="brb31468-bib-0036" ref-type="ref">2009</xref>), called c‐MeST (Takano, Moriya, &amp; Raes, <xref rid="brb31468-bib-0039" ref-type="ref">2017</xref>). We do not intend to present this as a case study examining MeST as a stand‐alone treatment for BD but as an exploration of MeST's potential as an add‐on intervention as part of wider care management.</p>
+              <p>rAMS—or overgeneral autobiographical memory (OGM)—can be described as a difficulty retrieving specific, personal memories of events lasting less than a day. For example, when asked to retrieve a specific memory given the cue word “Happy,” the response “I remember I was happy when I first kissed my partner” refers to a specific autobiographical memory. However, people with rAMS may respond to this cue word with a categorical event that took place repeatedly (e.g., “I'm always happy seeing friends”) or an extended memory of an event lasting longer than 1 day (e.g., “I was happy when I was on holiday in France”).</p>
+              <p>rAMS is considered an enduring trait in unipolar depression (Farina, Barry, Damme, Hie, &amp; Raes, <xref rid="brb31468-bib-0015" ref-type="ref">2018</xref>; van Vreeswijk &amp; de Wilde, <xref rid="brb31468-bib-0043" ref-type="ref">2004</xref>) and is also found in posttraumatic stress disorder (PTSD) (Ono, Devilly, &amp; Shum, <xref rid="brb31468-bib-0033" ref-type="ref">2016</xref>), eating disorders (Dalgleish et al., <xref rid="brb31468-bib-0011" ref-type="ref">2003</xref>), and in schizophrenia (Barry, Del Rey, &amp; Ricarte, <xref rid="brb31468-bib-0004" ref-type="ref">2018</xref>). The presence of rAMS has also been examined in BD but evidence is more mixed. Compared to healthy controls (HC), people in remission from BD (type I) reported worse rAMS (Oertel‐Knöchel et al., <xref rid="brb31468-bib-0032" ref-type="ref">2012</xref>; Scott et al., <xref rid="brb31468-bib-0038" ref-type="ref">2000</xref>). Compared to people in remission from UD, Mansell and Lam (<xref rid="brb31468-bib-0027" ref-type="ref">2004</xref>) found worse rAMS in people in remission from BD (albeit for negative cues only). This difference was not found in two other examinations (Tzemou &amp; Birchwood, <xref rid="brb31468-bib-0042" ref-type="ref">2007</xref>; Young &amp; Bodurka, <xref rid="brb31468-bib-0048" ref-type="ref">2016</xref>), but in both studies people in remission from BD and UD showed worse memory specificity compared to HC.</p>
+              <p>Evidence such as this, and evidence of other autobiographical memory problems among people with psychological problems, has resulted in the emergence of the field of memory therapeutics, as illustrated by recent reviews of such interventions in mood, anxiety, and stress‐related disorders (Barry et al., <xref rid="brb31468-bib-0005" ref-type="ref">2019</xref>; Hitchcock, Werner‐Seidler, Blackwell, &amp; Dalgleish, <xref rid="brb31468-bib-0020" ref-type="ref">2017</xref>). The authors of these reviews reported that no studies have yet examined the impact of a memory‐therapeutic intervention among people with BD. One intervention, Memory Specificity Training (MeST) (Raes, Williams, et al., <xref rid="brb31468-bib-0036" ref-type="ref">2009</xref>), is regarded as a promising method for improving memory specificity and remediating related symptoms and processes in UD (Eigenhuis, Seldenrijk, Schaik, Raes, &amp; Oppen, <xref rid="brb31468-bib-0014" ref-type="ref">2017</xref>; Raes, Williams, et al., <xref rid="brb31468-bib-0036" ref-type="ref">2009</xref>; Werner‐Seidler et al., <xref rid="brb31468-bib-0045" ref-type="ref">2018</xref>), PTSD (Maxwell et al., <xref rid="brb31468-bib-0030" ref-type="ref">2015</xref>), and Schizophrenia (Blairy et al., <xref rid="brb31468-bib-0006" ref-type="ref">2008</xref>; Ricarte, Hernández‐Viadel, Latorre, &amp; Ros, <xref rid="brb31468-bib-0037" ref-type="ref">2012</xref>). A recent meta‐analysis confirms these effects (Barry et al., <xref rid="brb31468-bib-0005" ref-type="ref">2019</xref>) and concluded that MeST has also been found to improve other processes associated with rAMS, such as deficits in problem solving, future‐oriented thinking, and hopelessness. The group training protocol of MeST was translated to a computerized application that can be offered individually: computerized MeST or “c‐MeST” (Takano, Moriya, et al., <xref rid="brb31468-bib-0039" ref-type="ref">2017</xref>). For this study, the same version of c‐MeST is used as in the examination of c‐MeST in healthy older adults with rAMS (Martens, Takano, et al., <xref rid="brb31468-bib-0029" ref-type="ref">2019</xref>) in which each session consists of 11 specificity exercises. The platform offers immediate feedback about the specificity of the answer, such that the participant can learn from feedback.</p>
+              <p>The principle aim of this study was to investigate whether c‐MeST increases memory specificity from pre‐intervention to 1‐month follow‐up for one participant with BD. A second research question concerned whether c‐MeST would impact depressive symptoms and associated processes. Conway and Pleydell‐Pearce (<xref rid="brb31468-bib-0010" ref-type="ref">2000</xref>) proposed a model which states that autobiographical memories are retrieved by searching autobiographical knowledge which is hierarchically ordered from general, summarized information to event‐specific details. The CaR‐FA‐X model (Williams et al., <xref rid="brb31468-bib-0046" ref-type="ref">2007</xref>) describes the mechanisms which can disrupt the top‐down search through this hierarchy: Capture and Rumination (when conceptual self‐relevant information activates ruminative processes and thus capturing cognitive resources and disrupting the search down the hierarchy), Functional Avoidance (when the retrieval of specific memories is passively avoided to regulate negative affect), and impaired eXecutive Control (when deficits in executive resources limit the ability to conduct a successful retrieval search). rAMS is found to be associated with other forms as avoidance as well. For example, Hermans, Defranc, Raes, Williams, and Eelen (<xref rid="brb31468-bib-0019" ref-type="ref">2005</xref>) found that, among people with UD, rAMS was associated with social avoidance, avoidance of thoughts about painful experiences or feelings, and suppression of negative thoughts. Tzemou and Birchwood (<xref rid="brb31468-bib-0042" ref-type="ref">2007</xref>) found that people with UD and BD who had worse rAMS also reported fewer intrusive thoughts, perhaps due to a tendency to avoid these negative thoughts. These authors hypothesize that rAMS in BP reduces stress associated with life events, but also reduces awareness of emerging distressing affect, which might contribute to BP relapse. The authors suggest that CBT in BP should focus on counteracting a generalized avoidant style. This is exactly one of the aims for which MeST has been developed. Also, BD is associated with impaired problem solving (Scott et al., <xref rid="brb31468-bib-0038" ref-type="ref">2000</xref>; Tzemou &amp; Birchwood, <xref rid="brb31468-bib-0042" ref-type="ref">2007</xref>) and future thinking (Boulanger, Lejeune, &amp; Blairy, <xref rid="brb31468-bib-0007" ref-type="ref">2013</xref>).</p>
+              <p>Aspects of memory in BD might, however, also differ from UD. Barry and colleagues (Barry, Chiu, Raes, Ricarte, &amp; Lau, <xref rid="brb31468-bib-0003" ref-type="ref">2018</xref>) describe in their review paper on the neurobiology of rAMS that although similar behavioral deficits were found in UD and BD, the neurophysiological underpinnings of AM recall between people with UD and BP differed. Memory retrieval in people with BD is characterized by memories with enhanced salience and emotional vividness and is processed as more self‐relevant compared to people with UD and HC (Oertel‐Knöchel et al., <xref rid="brb31468-bib-0032" ref-type="ref">2012</xref>; Young &amp; Bodurka, <xref rid="brb31468-bib-0048" ref-type="ref">2016</xref>). Relatedly, it has been proposed that mental imagery (e.g., in vivid episodic recall) can act as an emotional amplifier in BD (Holmes et al., <xref rid="brb31468-bib-0022" ref-type="ref">2011</xref>). An emerging treatment approach is to target such mental imagery in BD to improve mood stability (Holmes et al., <xref rid="brb31468-bib-0021" ref-type="ref">2016</xref>). Recent guidelines for BD have called for innovations in psychological treatment, in particular interventions with a focus in on BD's mental imagery‐based memory (Goodwin et al., <xref rid="brb31468-bib-0017" ref-type="ref">2016</xref>).</p>
+              <p>In the current study, we investigate the impact of c‐MeST on memory specificity and on symptoms and processes related to the “Capture and Rumination” and “Functional Avoidance” domains of the Car‐FA‐X model. In particular, whether MeST improves a person's tendency to ruminate (CaR), worry (CaR), whether it reduces the presence and negative affect associated with unwanted thoughts and memories (CaR and FA), and whether it reduces the tendency to utilize thought suppression to regulate negative affect (FA). In addition, the impact of c‐MeST on future thinking is examined. A third research question regarded the experiences of the participant concerning the c‐MeST platform and the cue word exercises and feedback used within it.</p>
+            </sec>
+            <sec sec-type="methods" id="brb31468-sec-0006">
+              <label>2</label>
+              <title>METHOD</title>
+              <sec id="brb31468-sec-0007">
+                <label>2.1</label>
+                <title>Participant selection</title>
+                <p>The recruitment setting was an university‐affiliated psychiatric hospital (UPC Kortenberg), where a psychiatrist (the fifth author) explained the study briefly to potential participants and distributed a leaflet with information about the study. Patients expressing interest were invited for a meeting with the first author in which they received additional information. General inclusion criteria for this study were (a) experiencing rAMS, operationalized as a score of less than 70% on the Autobiographical Memory Test (Williams &amp; Broadbent, <xref rid="brb31468-bib-0047" ref-type="ref">1986</xref>), (b) being diagnosed with BD type I by the psychiatrist involved, (c) being stable or in remission and consulting a psychiatrist. The recruitment phase took place between May and August 2017. Our initial aim was to include at least three cases to comply to the evidence standards for an single case experimental design (Kratochwill et al., <xref rid="brb31468-bib-0025" ref-type="ref">2010</xref>), but unfortunately only one participant was included. In total, 12 patients with BD (seven women) were assessed, with a mean AMT score of 7.92 (<italic>SD</italic> = 2.78). Only two female patients with BD showed rAMS. One participant with BD type I (American Psychiatric Association, <xref rid="brb31468-bib-0002" ref-type="ref">2013</xref>) rapid cycling was willing to participate. The other patient showing rAMS (with an AMT score of 6/10) decided not to participate due to the perceived time cost of the study.</p>
+              </sec>
+              <sec id="brb31468-sec-0008">
+                <label>2.2</label>
+                <title>Participant description</title>
+                <p>The participant was a 40‐year‐old Belgian Caucasian woman with a diagnosis of BD type I rapid cycling. She had obtained a Masters‐level degree. She had her first episodes at age 27 and was diagnosed that year with BD type I rapid cycling. Since then, she has been unemployed and is receiving a disability allowance, based on the BD diagnosis, and has been doing volunteer work. The participant reported no history of any other diagnoses and mentioned no history of clear trauma, except for one traffic accident which did impact her condition. She had received different kinds of treatments, among which she had experienced two periods of day hospitalization. At the time of the study, she was seeing a psychiatrist and a clinical psychologist once every month. With regard to medication use, the participant was taking lithium (800 mg), plus auetiapine (600 mg), and aripiprazole (10 mg) at the time of the study. At the beginning of the study, the quetiapine was raised by 100 mg for a week, due to a hypomanic episode. Prior to participating in this study, the participant was discharged from an outpatient day treatment program. She lived alone.</p>
+              </sec>
+              <sec id="brb31468-sec-0009">
+                <label>2.3</label>
+                <title>The intervention</title>
+                <p>C‐MeST consists of nine sessions of eleven specificity exercises. In each specificity exercise, the participant was asked to retrieve a specific memory. Immediate feedback on the memory was provided. The participant completed each session on an online platform which contained instructions and tips about autobiographical memory specificity, similar to the instructions of the AMT but with more examples provided. Nine of the eleven specificity exercises consisted of cue words: three positive (e.g., safe), three negative (e.g., guilty), and three neutral (e.g., forest). Similar to the structure of therapist‐provided “off‐line” MeST, each of the sessions included one exercise about a memory of an event that occurred in the previous day and also for an event that occurred within the same day (without cue words, referred to as <italic>exercises of the day</italic>). The Web site used the computerized scoring algorithm for the Autobiographical Memory Test (Takano, Ueno, Moriya, &amp; Mori, <xref rid="brb31468-bib-0040" ref-type="ref">2017</xref>) to score responses. If the entry was not specific enough, the participant was encouraged with automated feedback to re‐enter the memory (or another memory) but with more episodic details. For each cue word, the participant obtained three chances to enter a specific memory, otherwise the next exercise was automatically presented. If the participant succeeded in providing a specific memory, she was invited to provide more spatiotemporal and contextual details on the next page (i.e., “Where did it happen? When did it happen? How long did it take? Who else was there? What can you see, hear, smell or taste? What kind of day was it?”). The participant was able to skip a cue word if she wished to do so. There was no time limit per question.</p>
+              </sec>
+              <sec id="brb31468-sec-0010">
+                <label>2.4</label>
+                <title>Study design and procedure</title>
+                <p>During the meeting of the participant and the first author, after assessing memory specificity, c‐MeST was introduced to the patient. As the participant recognized the phenomenon of rAMS and expressed the wish to improve this skill, it was explained that by training this memory specificity might improve and potentially impact secondary processes as well. The participant received a personalized file with a schedule of which day she had to train and/or fill out questionnaires, based on a baseline length of 14 days. Each day when the participant was assumed to fill out a questionnaire or complete a training session, an invitation by e‐mail was sent automatically using the software Boomerang (<ext-link ext-link-type="uri" xlink:href="http://www.boomeranggmail.com">http://www.boomeranggmail.com</ext-link>) to remind her.</p>
+                <p>Symptoms and related psychological processes were repeatedly measured throughout the three phases: a first measurement a baseline of 14 days (Phase A), a training phase of 17 days (Phase B) with a training session every other day, and a follow‐up phase of 1 month (Phase A). The participant was instructed to fill out the measures every day during Phase A and Phase B, and once every 3 days during follow‐up. In addition to the repeated measures, some processes were only measured at pre‐training and at the end of follow‐up: impact of events, impact of future events, and manic symptoms. The full study design can be found in Figure <xref rid="brb31468-fig-0001" ref-type="fig">1</xref>.</p>
+                <fig fig-type="Figure" xml:lang="en" id="brb31468-fig-0001" orientation="portrait" position="float">
+                  <label>Figure 1</label>
+                  <caption>
+                    <p>Illustration of the research design. AMT, Autobiographical Memory Test; ASRM‐NL, Altman Self‐Rating Mania Scale; c‐MeST, Computerized Memory Specificity Training; IES‐RR, Impact of Events Scale; IFES, Impact of Future Events Scale; PHQ 9, Patient Health Questionnaire 9; RRS Brooding, Ruminative Response Scale Brooding Subscale</p>
+                  </caption>
+                  <graphic id="nlm-graphic-3" xlink:href="BRB3-9-e01468-g001"/>
+                </fig>
+                <p>No blinding was used, although all repeated measures are generated without the presence of an experimenter. The participant did not receive any compensation. The study received institutional ethical approval of the Social and Societal Ethics Committee of the University of Leuven (G201412113).</p>
+              </sec>
+              <sec id="brb31468-sec-0011">
+                <label>2.5</label>
+                <title>Outcomes</title>
+                <p>
+                  <list list-type="order" id="brb31468-list-0001">
+                    <list-item>
+                      <p><bold>Autobiographical Memory Specificity</bold> was measured using a verbal version of the Autobiographical Memory Test (Dalgleish et al., <xref rid="brb31468-bib-0012" ref-type="ref">2007</xref>; Williams &amp; Broadbent, <xref rid="brb31468-bib-0047" ref-type="ref">1986</xref>).</p>
+                    </list-item>
+                    <list-item>
+                      <p><bold>Depressive symptomatology</bold> was measured using The Patient Health Questionnaire 9 (Kroenke, Spitzer, Williams, &amp; Löwe, <xref rid="brb31468-bib-0026" ref-type="ref">2010</xref>) (Dutch translation).</p>
+                    </list-item>
+                    <list-item>
+                      <p><bold>Rumination</bold> was measured using the Ruminative Response Scale–Brooding subscale (RSS Brooding) (Raes, Schoofs, et al., <xref rid="brb31468-bib-0035" ref-type="ref">2009</xref>; Treynor, Gonzalez, &amp; Nolen‐Hoeksema, <xref rid="brb31468-bib-0041" ref-type="ref">2003</xref>).</p>
+                    </list-item>
+                    <list-item>
+                      <p><bold>Manic Symptoms</bold> were measured using the Altman Self‐Rating Mania Scale (ASRM‐NL, Dutch translation). (Altman, Hedeker, Peterson, &amp; Davis, <xref rid="brb31468-bib-0001" ref-type="ref">1997</xref>).</p>
+                    </list-item>
+                    <list-item>
+                      <p><bold>Impact of Events</bold> was assessed using the Impact of Event Scale–Revised (IES‐R, Dutch translation by TZP Psychotrauma 2006). (Weiss &amp; Marmar, <xref rid="brb31468-bib-0044" ref-type="ref">1995</xref>).</p>
+                    </list-item>
+                    <list-item>
+                      <p><bold>Impact of intrusive prospective imagery</bold> was assessed using the Impact of Future Events Scale (IFES (Deeprose &amp; Holmes, <xref rid="brb31468-bib-0013" ref-type="ref">2010</xref>), translated ad hoc to Dutch).</p>
+                    </list-item>
+                    <list-item>
+                      <p><bold>Items for Repeated Measurements.</bold> Eight single items were added to the online platform for repeated measures that capture process change. Items are shown in Figure <xref rid="brb31468-fig-0003" ref-type="fig">3</xref>.</p>
+                    </list-item>
+                    <list-item>
+                      <p><bold>Measures of c‐MeST training experiences.</bold> After each c‐MeST session, the participant was asked three closed and two open questions regarding feasibility.</p>
+                    </list-item>
+                  </list>
+                </p>
+                <p>A more extensive description of each measure can be found as Appendix <xref rid="brb31468-sup-0001" ref-type="supplementary-material">S1</xref> in the online publication.</p>
+              </sec>
+              <sec id="brb31468-sec-0012">
+                <label>2.6</label>
+                <title>Analysis</title>
+                <p>For the current study, four categories of measures are analyzed: memory specificity, related symptoms, related processes, and feasibility. The participant's responses within each c‐MeST session were scored manually by the first author after treatment completion. C‐MeST sessions were scored as the number of trials for which the participant's first answer was classified as a specific autobiographical memory, in accordance with the logic of the AMT, resulting in a maximum of 11 points per session. Inter‐rater reliability between automated scores of the classifier and manual post‐hoc scores were substantial with a Cohen's <italic>κ</italic> of 0.66, <italic>p</italic> &lt; .001. As such, in addition to examining change in memory specificity from pre‐intervention to follow‐up, session‐to‐session change was also examined.</p>
+                <p>Regarding symptoms, we assessed manic symptoms at pre‐intervention and follow‐up, and depressive symptoms, happiness, and sadness as repeated measures using PHQ‐9 and two single items. Regarding related processes, rumination was measured repeatedly using RRS Brooding and a single item. Worrying was measured using a repeated single item. For visual analysis of all repeated measures, the software “Single Case Data Analysis” (Bulté &amp; Onghena, <xref rid="brb31468-bib-0009" ref-type="ref">2013</xref>) was used, which uses the R packages SCRT, SCVA, and SCM. For visual analysis with SCVA, the level of each phase using mean scores and the trend of each phase using least squares regression are shown (Bulté &amp; Onghena, <xref rid="brb31468-bib-0008" ref-type="ref">2011</xref>). The impact of events was assessed at pre‐intervention and follow‐up using the IES‐R. The IES‐R consists of three subscales from which we created three questions that were included during the repeated measures assessment: unwanted thoughts or images, thought suppression, and being tense when a painful memory arises. These were combined for visual analysis. The impact of future thinking was assessed only at pre‐intervention and at follow‐up by using the IFES. Regarding feasibility, the participant was offered questions after each session and the participant was asked to provide feedback at the follow‐up measurement.</p>
+              </sec>
+              <sec id="brb31468-sec-0013">
+                <label>2.7</label>
+                <title>Ethical approval</title>
+                <p>The study received institutional ethical approval of the Social and Societal Ethics Committee of the University of Leuven and all participants filled out and signed an informed consent form.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="brb31468-sec-0014">
+              <label>3</label>
+              <title>RESULTS</title>
+              <sec id="brb31468-sec-0015">
+                <label>3.1</label>
+                <title>Compliance and feasibility</title>
+                <p>The participant completed all exercises and filled out all repeated measures throughout the three phases, resulting in sufficient data for visual analysis. Although she was instructed that filling out the repeated measures during 1‐month follow‐up once every 3 days would suffice, during the first half of follow‐up she continued to fill out the questionnaires each day.</p>
+                <p>Regarding feasibility (see Appendix <xref rid="brb31468-sup-0002" ref-type="supplementary-material">S2</xref> in the online publication), the participant experienced the cue words, on average, as appropriately difficult (<italic>M</italic> = 5.5, <italic>SD</italic> = 2.00) and reported that the feedback she received was typically correct (<italic>M</italic> = 8.75, <italic>SD</italic> = 0.89). The length of the sessions was, on average, experienced as between “just right” and “a bit too long” (<italic>M</italic> = 3.63, <italic>SD</italic> = 0.52). Recurrent themes in participant's open‐ended responses were that she experienced the training as interesting and challenging, and at the 1‐month follow‐up, she reported that MeST made her more aware of events happening throughout the day. She confirmed during the follow‐up assessment that sessions lasted a bit too long and the training (17 days, training every other day) lasted too long as well.</p>
+              </sec>
+              <sec id="brb31468-sec-0016">
+                <label>3.2</label>
+                <title>Effects of c‐MeST on memory specificity during training and at 1‐month follow‐up</title>
+                <p>The participant exhibited an increase in specificity from pre‐intervention (AMT A = 0 out of a possible 10 specific responses) to 1 month after intervention completion (AMT B = 4/10). According to our inclusion criterion, the participant's score at follow‐up is still in the range of what we would define as rAMS (&lt;70% on the AMT).</p>
+                <p>Figure <xref rid="brb31468-fig-0002" ref-type="fig">2</xref> illustrates the specificity scores of the AMT at pre‐measurement and at 1‐month follow‐up measurement, and specificity scores of c‐MeST sessions in‐between. Specificity scores per session, for neutral, positive, and negative cue words and for exercises of the day can be found in Table <xref rid="brb31468-tbl-0001" ref-type="table">1</xref>. Three trends are noticeable. First, although the participant was not able to retrieve specific memories in a face‐to‐face AMT with a time limit, she succeeded at scoring 81.82% already in Session 1 of the computerized training when she was alone, at home, and without time pressure. Second, there was no clear increasing trend from session to session, with scores varying between 54.55% and 90.91% with a mean of 72.73%. Third, of the four types of memory exercises, scores for memories of the day (one for yesterday and one for today) were the highest and a ceiling effect was reached (<italic>M</italic> = 100% across 18 exercises), while scores for negative (<italic>M</italic> = 77.78%) and positive (<italic>M</italic> = 70.37%) cue words were higher than neutral words (<italic>M</italic> = 51.85%).</p>
+                <fig fig-type="Figure" xml:lang="en" id="brb31468-fig-0002" orientation="portrait" position="float">
+                  <label>Figure 2</label>
+                  <caption>
+                    <p>Specificity scores (%) on the Autobiographical Memory Test (pre‐intervention and 1‐month follow‐up measurement) and in‐between session‐to‐session scores on c‐MeST</p>
+                  </caption>
+                  <graphic id="nlm-graphic-5" xlink:href="BRB3-9-e01468-g002"/>
+                </fig>
+                <table-wrap id="brb31468-tbl-0001" xml:lang="en" orientation="portrait" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Specificity scores for each of the nine sessions of computerized Memory Specificity Training</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <thead valign="top">
+                      <tr style="border-bottom:solid 1px #000000">
+                        <th align="left" valign="top" rowspan="1" colspan="1">Session</th>
+                        <th align="left" valign="top" rowspan="1" colspan="1">Total score</th>
+                        <th align="left" valign="top" rowspan="1" colspan="1">Scores for neutral cues</th>
+                        <th align="left" valign="top" rowspan="1" colspan="1">Scores for positive cues</th>
+                        <th align="left" valign="top" rowspan="1" colspan="1">Scores for negative cues</th>
+                        <th align="left" valign="top" rowspan="1" colspan="1">Scores for <italic>memories of the day</italic>
+</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">1</td>
+                        <td align="char" char="." rowspan="1" colspan="1">9</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">3</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">9</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">3</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">3</td>
+                        <td align="char" char="." rowspan="1" colspan="1">9</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">3</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">4</td>
+                        <td align="char" char="." rowspan="1" colspan="1">7</td>
+                        <td align="char" char="." rowspan="1" colspan="1">1</td>
+                        <td align="char" char="." rowspan="1" colspan="1">3</td>
+                        <td align="char" char="." rowspan="1" colspan="1">1</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">5</td>
+                        <td align="char" char="." rowspan="1" colspan="1">10</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">3</td>
+                        <td align="char" char="." rowspan="1" colspan="1">3</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">6</td>
+                        <td align="char" char="." rowspan="1" colspan="1">7</td>
+                        <td align="char" char="." rowspan="1" colspan="1">1</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">7</td>
+                        <td align="char" char="." rowspan="1" colspan="1">8</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">1</td>
+                        <td align="char" char="." rowspan="1" colspan="1">3</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">8</td>
+                        <td align="char" char="." rowspan="1" colspan="1">7</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">1</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">9</td>
+                        <td align="char" char="." rowspan="1" colspan="1">6</td>
+                        <td align="char" char="." rowspan="1" colspan="1">0</td>
+                        <td align="char" char="." rowspan="1" colspan="1">1</td>
+                        <td align="char" char="." rowspan="1" colspan="1">3</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Total</td>
+                        <td align="char" char="." rowspan="1" colspan="1">72</td>
+                        <td align="char" char="." rowspan="1" colspan="1">14</td>
+                        <td align="char" char="." rowspan="1" colspan="1">19</td>
+                        <td align="char" char="." rowspan="1" colspan="1">21</td>
+                        <td align="char" char="." rowspan="1" colspan="1">18</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">% Total</td>
+                        <td align="char" char="." rowspan="1" colspan="1">72.73%</td>
+                        <td align="char" char="." rowspan="1" colspan="1">51.85%</td>
+                        <td align="char" char="." rowspan="1" colspan="1">70.37%</td>
+                        <td align="char" char="." rowspan="1" colspan="1">77.78%</td>
+                        <td align="char" char="." rowspan="1" colspan="1">100%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot id="brb31468-ntgp-0002">
+                    <title>Note</title>
+                    <fn id="brb31468-note-0002">
+                      <p>Each c‐MeST session includes 11 exercises: three exercises of each kind of cue (neutral, positive, and negative values) and two exercises with <italic>memories of the day</italic>.</p>
+                    </fn>
+                  </table-wrap-foot>
+                  <permissions>
+                    <copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder>
+                  </permissions>
+                </table-wrap>
+              </sec>
+              <sec id="brb31468-sec-0017">
+                <label>3.3</label>
+                <title>Symptoms</title>
+                <p>Comparison of pre‐intervention and follow‐up measurement shows that manic symptom scores on the ASRM‐NL decreased from 10 to 3. A sum score of 6 or higher indicates a high probability of a manic or hypomanic state.</p>
+                <p>Visual analysis (Figure <xref rid="brb31468-fig-0003" ref-type="fig">3</xref>) of the repeated measures of depressive symptoms (PHQ‐9), sadness, and happiness with the levels of each phase using mean scores and with the trend of each phase using least squares regression suggests three things. First, during baseline the participant reported almost no depressive symptoms, sadness, or happiness. The increased hypomanic state at the beginning of the training might explain why these states were not recognized and not reported by the participant. Second, during the training phase (Phase B, from measurement time 10 to 27) the participant started to report more depressive symptoms, happiness, and sadness. Third, after the training phase during follow‐up, all symptoms show a declining trend again.</p>
+                <fig fig-type="Figure" xml:lang="en" id="brb31468-fig-0003" orientation="portrait" position="float">
+                  <label>Figure 3</label>
+                  <caption>
+                    <p>Visual analysis of ABA design showing (1) level of each phase (baseline–training–follow‐up) using mean scores and showing (2) the trend of each phase using least squares regression. For depressive symptoms (PHQ‐9), Brooding (RRS‐5), worrying about the future, ruminating about the past, a combination of the three items inspired by the revised Impact of Events scale (unwanted thoughts or images, thought suppression, being tense when a painful memory arises), sadness, happiness, and experiencing an impact of the training</p>
+                  </caption>
+                  <graphic id="nlm-graphic-7" xlink:href="BRB3-9-e01468-g003"/>
+                </fig>
+              </sec>
+              <sec id="brb31468-sec-0018">
+                <label>3.4</label>
+                <title>Processes</title>
+                <p>Visual analysis (Figure <xref rid="brb31468-fig-0003" ref-type="fig">3</xref>) of all repeated measures of related processes (RRS Brooding, single item on rumination, single item on worrying about the future, the combination of three single items reflecting the IES‐R items) shows the same pattern as in symptoms: These processes were not reported by the participant during baseline, an increase occurred during training phase, and during follow‐up a decline can be observed.</p>
+                <p>There was no apparent difference in the impact of negative events scores from pre‐intervention (IES‐R = 20) to follow‐up (IES‐R = 22). Both scores are below the cutoff of being of clinical concern. The impact of intrusive prospective (IFES) imagery scores decreased from pre‐intervention (IFES = 31) to follow‐up (IFES = 12). At both time points, the participant provided three positive events (perhaps due to their hypomanic state). Unfortunately, no item of the repeated measures can be regarded as a parallel measure, but the variability on the item concerning worrying about the future suggests that there may have been a similar trend of increase during the repeated measures assessments and then decrease on the follow‐up assessments, as was evident for other study variables.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="brb31468-sec-0019">
+              <label>4</label>
+              <title>DISCUSSION</title>
+              <p>This case study was the first to examine the potential benefits of remediating rAMS in BD with memory specificity training. rAMS is a transdiagnostic clinically relevant phenomenon, and accumulating evidence has shown the potential of remediating rAMS in other clinical disorders with concomitant effects of disorder symptoms and associated processes (Barry et al., <xref rid="brb31468-bib-0005" ref-type="ref">2019</xref>).</p>
+              <p>For the patient who participated in the present investigation, c‐MeST did improve the skill of retrieving specific memories in a face‐to‐face context with a time limit from pre‐intervention to 1‐month follow‐up measurement. However, results are limited: The participant's score at follow‐up is still in the range of what we would define as rAMS (i.e., poor memory specificity). In addition to the limited effect, the session‐to‐session scores indicate that at intervention Session 1 the participant was able to retrieve specific memories (mean score of 81.82%), and no further improvement was observed throughout the remainder of the training (with scores ranging from 54.55% to 90.91% with a mean of 72.73%). This finding is in line with the results of our other studies using the same training platform with 20 participants with a history of UD (Martens, Barry, Barry, Takano, Onghena, &amp; Raes, <xref rid="brb31468-bib-0028" ref-type="ref">2019</xref>) and 20 healthy older adults (Martens, Takano, et al., <xref rid="brb31468-bib-0029" ref-type="ref">2019</xref>). This offers no clear information on optimal dose. However, it suggests that the context wherein participants are required to retrieve specific memories could contribute to the ability to do so, such as the presence of another person or a time limit. But even if this is the case, the online version improved the skill sufficiently to have an improved score at 1‐month follow‐up in‐person measurement.</p>
+              <p>The effects of c‐MeST on repeatedly measured related symptoms and related processes were mixed. The participant barely reported symptoms during baseline, presumably due to hypomania, which is not surprising given her BD type 1 rapid cycling diagnosis. At the start of the training, symptoms then increased (and it is noted that after hypomania symptoms of depression can only worsen by definition). One possible additional interpretation worth considering is in line with the generalized affect regulation strategy hypothesis and the functional avoidance model hypothesis. If rAMS serves the function of affect regulation and of avoidance of thinking of specific memories, MeST could lead to an increase in symptoms in the short run as this avoidance function is challenged. As previous examinations of c‐MeST only included pre‐ and postintervention assessments, it is unclear whether an increase in symptoms during training would be problematic. This discussion is in line with the question on the temporary exacerbation of symptoms in PTSD treatments (Foa, Zoellner, Feeny, Hembree, &amp; Alvarez‐Conrad, <xref rid="brb31468-bib-0016" ref-type="ref">2002</xref>). Here however, it is not possible to disentangle what are due to depression symptoms worsening as the participant (who was rapid cycling) came out of hypomania and what may be due to MeST.</p>
+              <p>The higher specificity scores for emotional cue words versus neutral cues were explained by the participant as due to the difficulty they had in recalling any memories related to the neutral cue words, which they reported as feeling “flat.” Future research can be aimed at finding trends in people with BD, such as the role of valence and/or emotionality of cue words at assessment and during training. For a recent discussion on how cue words of different valences generate different results, see the meta‐analysis and systematic review of MeST by Barry et al. (<xref rid="brb31468-bib-0005" ref-type="ref">2019</xref>). Alternatively, the c‐MeST software makes it possible to offer more cue words of a certain valence depending on personal scores. A flexible online training tool using an adaptive system might start with cue words chosen by the participant, but after a while when participants' scores increase, the system could motivate the participant to try different cue words of valences for which they have particular difficulty retrieving memories. The present investigation tested a computerized, online, version of MeST, which the participant experienced as feasible: The cue words were judged as not too difficult and the feedback from the classifier was judged as correct. Although the duration of the sessions was experienced as too long, the participant completed out all sessions. For research purposes, we designed the online training such that the participant trained many exercises in a short period of time: 99 exercises in 17 days, as opposed to 104 exercises in 4 weeks in original group version of MeST (Raes, Williams, et al., <xref rid="brb31468-bib-0036" ref-type="ref">2009</xref>). In future examinations and implementations of MeST, researchers and clinicians could utilize the functions of the software that permit individualization, where participants and clinicians can choose when and how much to train. In comparison with other in‐person group MeST protocols, this version did not include psycho‐education on memory problems related to psychopathology or psycho‐education and exercises on how to notice when one is thinking in an overgeneral manner and how to interrupt that process (STOP model, session four), nor any therapist‐plus‐group interaction. This might be included as a useful addition in future examinations of c‐MeST or MeST in BD.</p>
+              <p>The main limitation of this study is that it concerns only one, well‐educated and self‐selected patient. Although some improvement in specificity was observed in the present case study, future research is now needed to examine the impact of MeST or c‐MeST on more diverse groups of people with BD showing rAMS. In the recruitment of participants, we identified 12 patients who recognized the described phenomenon of rAMS and expressed an intention to participate; however, only two patients showed rAMS when tested with the AMT. All other patients with BD were able to retrieve seven or more specific autobiographical memories in a time limited face‐to‐face test. The mean score on AMT (79.17%) is in contrast to previous studies (40.00% (Mowlds et al., <xref rid="brb31468-bib-0031" ref-type="ref">2010</xref>); 33.33% (Tzemou &amp; Birchwood, <xref rid="brb31468-bib-0042" ref-type="ref">2007</xref>); and 44.5% in remitted BD (Mansell &amp; Lam, <xref rid="brb31468-bib-0027" ref-type="ref">2004</xref>)). This discrepancy does not seem to be caused by the use of another form of AMT (all verbal forms including positive and negative cues) or a much smaller sample size (<italic>n</italic> = 12 versus <italic>n</italic> = 52 (Mowlds et al., <xref rid="brb31468-bib-0031" ref-type="ref">2010</xref>); <italic>n</italic> = 29 (Tzemou &amp; Birchwood, <xref rid="brb31468-bib-0042" ref-type="ref">2007</xref>); <italic>n</italic> = 19 (Mansell &amp; Lam, <xref rid="brb31468-bib-0027" ref-type="ref">2004</xref>)). One potential explanation is a sampling bias. Our participants were self‐selected: They recognized the phenomenon rAMS and hoped they could be included in a study examining a training to remediate this process. An increase in motivation at intake might explain an increase in executive function, and thus an increase at retrieving specific memories. Overall, it seems that there is mixed evidence for rAMS in BD, and more research may be needed according to current mood state and type of BD. Also, in future studies it may be useful for someone to come out of an acute (hypomanic, manic, or depressive) episode before taking part in a new intervention.</p>
+              <p>For this study, standard c‐MeST is used (Martens, Takano, et al., <xref rid="brb31468-bib-0029" ref-type="ref">2019</xref>; Takano, Moriya, et al., <xref rid="brb31468-bib-0039" ref-type="ref">2017</xref>). One potential interesting route is to adapt it to people with BD by taking into account unique characteristics of memory retrieval in BD (Barry, Chiu, et al., <xref rid="brb31468-bib-0003" ref-type="ref">2018</xref>). For example, as discussed previously, vivid mental imagery as part of episodic recall can act as an emotional amplifier of mood states in BD (Holmes et al., <xref rid="brb31468-bib-0021" ref-type="ref">2016</xref>). Holmes et al. (<xref rid="brb31468-bib-0022" ref-type="ref">2011</xref>) also discuss negative mental imagery of the future (“flashforwards”) as a potential important process in BD. Flashforwards, for example, to suicidal acts (Hales, Deeprose, Goodwin, &amp; Holmes, <xref rid="brb31468-bib-0018" ref-type="ref">2011</xref>) or future manic events (Ivins, Di, Close, Goodwin, &amp; Holmes, <xref rid="brb31468-bib-0024" ref-type="ref">2014</xref>) may also have a past memory component. Whether training rAMS affects mental imagery of the past or future remains to be further examined. For this participant, scores on an ad hoc translated Impact of Future Events Scale decreased from 31 to 12. A potential explanation for this finding is that by instructing participants to retrieve specific memories in a structured and detailed manner, they increased in their ability to manage intrusive thoughts. Deliberate memory responses to cue words (akin to our training here) and experiencing involuntary, intrusive imagery are distinct phenomena according to Holmes, Lang, Moulds, and Steele (<xref rid="brb31468-bib-0023" ref-type="ref">2008</xref>). Research combining MeST and imagery training has been started in UD (Pile et al., <xref rid="brb31468-bib-0034" ref-type="ref">2018</xref>) and might also be of interest in the context of BD.</p>
+            </sec>
+            <sec sec-type="conclusions" id="brb31468-sec-0020">
+              <label>5</label>
+              <title>CONCLUSIONS</title>
+              <p>One patient with BD type I rapid cycling and rAMS (a score of 0/10 at the AMT) successfully conducted an online version of Memory Specificity Training (c‐MeST). This led to an increase in memory specificity between pre‐intervention and follow‐up measurement, but also to a deterioration in some repeatedly measured associated symptoms and processes during the training phase. Overall, the participant managed to successfully complete a large number of sessions independently and gave very useful feedback, which is promising in terms of developing a low intensity, process specific psychological intervention approach. Future research should now pilot test this intervention in a group of patients, considering the current stage of the BD cycle that they are in during the study and training phases and the effects of this on their specificity and other associated processes and symptoms. These studies should preferably include patients with more diverse educational backgrounds and BD symptomatology than that of the participant included in this study, as this participant was a highly motivated self‐selected well‐educated patient.</p>
+            </sec>
+            <sec sec-type="COI-statement" id="brb31468-sec-0021">
+              <title>CONFLICT OF INTEREST</title>
+              <p>The following facts may be considered as potential conflicts of interest. FR is one of the developers of the original in‐group face‐to‐face MeST. KT, KM, and FR are the developers of the Web‐based computerized MeST (c‐MeST). KM and FR additionally receive payments for training workshops and presentations related to MeST. EH receives book royalties from Guilford Press (for the book Imagery‐Based Cognitive Therapy for Bipolar Disorder and Mood Instability) although this does not include MeST. We wish to confirm that there are no other known conflicts of interest associated with this publication and there has been no significant financial support for this work that could have influenced its outcome.</p>
+            </sec>
+            <sec id="brb31468-sec-0022">
+              <title>AUTHORS' CONTRIBUTIONS</title>
+              <p>FR is the principal investigator for the study protocol. KM and FR generated the idea and designed the study. KM and SW were responsible for the acquisition of data. KT, TB, and EH made substantial contributions to the analysis and interpretation of data. KM drafted the manuscript. TB, KT, EH, SW, and FR substantively revised it. All authors read and approved the final manuscript.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supporting information</title>
+              <supplementary-material content-type="local-data" id="brb31468-sup-0001">
+                <caption>
+                  <p> </p>
+                </caption>
+                <media xlink:href="BRB3-9-e01468-s001.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="brb31468-sup-0002">
+                <caption>
+                  <p> </p>
+                </caption>
+                <media xlink:href="BRB3-9-e01468-s002.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <sec sec-type="data-availability" id="brb31468-sec-0024">
+              <title>DATA AVAILABILITY STATEMENT</title>
+              <p>All data are included in the manuscript or in appendices.</p>
+            </sec>
+            <ref-list content-type="cited-references" id="brb31468-bibl-0001">
+              <title>REFERENCES</title>
+              <ref id="brb31468-bib-0001">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0001"><string-name><surname>Altman</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Hedeker</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Peterson</surname>, <given-names>J.</given-names></string-name>, &amp; <string-name><surname>Davis</surname>, <given-names>J.</given-names></string-name> (<year>1997</year>). <article-title>The Altman self‐rating mania scale</article-title>. <source xml:lang="en">Biological Psychiatry</source>, <volume>42</volume>(<issue>10</issue>), <fpage>948</fpage>–<lpage>955</lpage>. <pub-id pub-id-type="doi">10.1016/S0006-3223(96)00548-3</pub-id>
+<pub-id pub-id-type="pmid">9359982</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0002">
+                <mixed-citation publication-type="book" id="brb31468-cit-0002"><collab collab-type="authors">American Psychiatric Association</collab>
+(<year>2013</year>). <source xml:lang="en">Diagnostic and statistical manual of mental disorders</source> (<edition>5th ed.</edition>). <publisher-loc>Washington, DC</publisher-loc>: <publisher-name>Author</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0003">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0003"><string-name><surname>Barry</surname>, <given-names>T. J.</given-names></string-name>, <string-name><surname>Chiu</surname>, <given-names>C. P. Y.</given-names></string-name>, <string-name><surname>Raes</surname>, <given-names>F.</given-names></string-name>, <string-name><surname>Ricarte</surname>, <given-names>J.</given-names></string-name>, &amp; <string-name><surname>Lau</surname>, <given-names>H.</given-names></string-name> (<year>2018</year>). <article-title>The neurobiology of reduced autobiographical memory specificity</article-title>. <source xml:lang="en">Trends in Cognitive Sciences</source>, <volume>22</volume>(<issue>11</issue>), <fpage>1038</fpage>–<lpage>1049</lpage>. <pub-id pub-id-type="doi">10.1016/j.tics.2018.09.001</pub-id>
+<pub-id pub-id-type="pmid">30292785</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0004">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0004"><string-name><surname>Barry</surname>, <given-names>T. J.</given-names></string-name>, <string-name><surname>Del Rey</surname>, <given-names>F.</given-names></string-name>, &amp; <string-name><surname>Ricarte</surname>, <given-names>J. J.</given-names></string-name> (<year>2018</year>). <article-title>Valence‐related impairments in the retrieval of specific autobiographical memories amongst patients with schizophrenia</article-title>. <source xml:lang="en">British Journal of Clinical Psychology</source>, <volume>58</volume>(<issue>2</issue>), <fpage>140</fpage>–<lpage>153</lpage>. <pub-id pub-id-type="doi">10.1111/bjc.12205</pub-id>
+<pub-id pub-id-type="pmid">30357848</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0005">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0005"><string-name><surname>Barry</surname>, <given-names>T. J.</given-names></string-name>, <string-name><surname>Sze</surname>, <given-names>W. Y.</given-names></string-name>, &amp; <string-name><surname>Raes</surname>, <given-names>F.</given-names></string-name> (<year>2019</year>). <article-title>A meta‐analysis and systematic review of Memory Specificity Training (MeST) in the treatment of emotional disorders</article-title>. <source xml:lang="en">Behaviour Research and Therapy</source>, <volume>116</volume>, <fpage>36</fpage>–<lpage>51</lpage>. <pub-id pub-id-type="doi">10.1016/j.brat.2019.02.001</pub-id>
+<pub-id pub-id-type="pmid">30776658</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0006">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0006"><string-name><surname>Blairy</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Neumann</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Nutthals</surname>, <given-names>F.</given-names></string-name>, <string-name><surname>Pierret</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Collet</surname>, <given-names>D.</given-names></string-name>, &amp; <string-name><surname>Philippot</surname>, <given-names>P.</given-names></string-name> (<year>2008</year>). <article-title>Improvements in autobiographical memory in schizophrenia patients after a cognitive intervention: A preliminary study</article-title>. <source xml:lang="en">Psychopathology</source>, <volume>41</volume>(<issue>6</issue>), <fpage>388</fpage>–<lpage>396</lpage>. <pub-id pub-id-type="doi">10.1159/000155217</pub-id>
+<pub-id pub-id-type="pmid">18787361</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0007">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0007"><string-name><surname>Boulanger</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Lejeune</surname>, <given-names>A.</given-names></string-name>, &amp; <string-name><surname>Blairy</surname>, <given-names>S.</given-names></string-name> (<year>2013</year>). <article-title>Overgenerality memory style for past and future events and emotions related in bipolar disorder. What are the links with problem solving and interpersonal relationships?</article-title>
+<source xml:lang="en">Psychiatry Research</source>, <volume>210</volume>(<issue>3</issue>), <fpage>863</fpage>–<lpage>870</lpage>. <pub-id pub-id-type="doi">10.1016/j.psychres.2013.06.029</pub-id>
+<pub-id pub-id-type="pmid">23978731</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0008">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0008"><string-name><surname>Bulté</surname>, <given-names>I.</given-names></string-name>, &amp; <string-name><surname>Onghena</surname>, <given-names>P.</given-names></string-name> (<year>2011</year>). <article-title>When the truth hits you between the eyes. A software tool for the visual analysis of single‐case experimental data</article-title>. <source xml:lang="en">Methodology</source>, <volume>8</volume>, <fpage>104</fpage>–<lpage>114</lpage>. <pub-id pub-id-type="doi">10.1027/1614-2241/a000042</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0009">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0009"><string-name><surname>Bulté</surname>, <given-names>I.</given-names></string-name>, &amp; <string-name><surname>Onghena</surname>, <given-names>P.</given-names></string-name> (<year>2013</year>). <article-title>The single‐case data analysis package: Analysing single‐case experiments with R software</article-title>. <source xml:lang="en">Journal of Modern Applied Statistical Methods</source>, <volume>12</volume>, <fpage>450</fpage>–<lpage>478</lpage>. <pub-id pub-id-type="doi">10.22237/jmasm/1383280020</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0010">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0010"><string-name><surname>Conway</surname>, <given-names>M. A.</given-names></string-name>, &amp; <string-name><surname>Pleydell‐Pearce</surname>, <given-names>C. W.</given-names></string-name> (<year>2000</year>). <article-title>The construction of autobiographical memories in the self‐memory system</article-title>. <source xml:lang="en">Psychological Review</source>, <volume>107</volume>(<issue>2</issue>), <fpage>261</fpage>–<lpage>288</lpage>. <pub-id pub-id-type="doi">10.1037//0033-295X</pub-id>
+<pub-id pub-id-type="pmid">10789197</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0011">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0011"><string-name><surname>Dalgleish</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Tchanturia</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Serpell</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Hems</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Yiend</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>de Silva</surname>, <given-names>P.</given-names></string-name>, &amp; <string-name><surname>Treasure</surname>, <given-names>J.</given-names></string-name> (<year>2003</year>). <article-title>Self‐reported parental abuse relates to autobiographical memory style in patients with eating disorders</article-title>. <source xml:lang="en">Emotion</source>, <volume>3</volume>(<issue>3</issue>), <fpage>211</fpage>–<lpage>222</lpage>. <pub-id pub-id-type="doi">10.1037/1528-3542.3.3.211</pub-id>
+<pub-id pub-id-type="pmid">14498792</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0012">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0012"><string-name><surname>Dalgleish</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Williams</surname>, <given-names>J. M. G.</given-names></string-name>, <string-name><surname>Golden</surname>, <given-names>A.‐M.‐J.</given-names></string-name>, <string-name><surname>Perkins</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Barrett</surname>, <given-names>L. F.</given-names></string-name>, <string-name><surname>Barnard</surname>, <given-names>P. J.</given-names></string-name>, … <string-name><surname>Watkins</surname>, <given-names>E.</given-names></string-name> (<year>2007</year>). <article-title>Reduced specificity of autobiographical memory and depression: The role of executive control</article-title>. <source xml:lang="en">Journal of Experimental Psychology: General</source>, <volume>136</volume>(<issue>1</issue>), <fpage>23</fpage>–<lpage>42</lpage>. <pub-id pub-id-type="doi">10.1037/0096-3445.136.1.23</pub-id>
+<pub-id pub-id-type="pmid">17324083</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0013">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0013"><string-name><surname>Deeprose</surname>, <given-names>C.</given-names></string-name>, &amp; <string-name><surname>Holmes</surname>, <given-names>E. A.</given-names></string-name> (<year>2010</year>). <article-title>An exploration of prospective imagery: The impact of future events scale</article-title>. <source xml:lang="en">Behavioural and Cognitive Psychotherapy</source>, <volume>38</volume>(<issue>2</issue>), <fpage>201</fpage>–<lpage>209</lpage>. <pub-id pub-id-type="doi">10.1017/S1352465809990671</pub-id>
+<pub-id pub-id-type="pmid">20074386</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0014">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0014"><string-name><surname>Eigenhuis</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Seldenrijk</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Schaik</surname>, <given-names>A. V.</given-names></string-name>, <string-name><surname>Raes</surname>, <given-names>F.</given-names></string-name>, &amp; <string-name><surname>Oppen</surname>, <given-names>P. V.</given-names></string-name> (<year>2017</year>). <article-title>Feasibility and effectiveness of Memory Specificity Training in depressed outpatients: A pilot study</article-title>. <source xml:lang="en">Clinical Psychology &amp; Psychotherapy</source>, <volume>24</volume>(<issue>1</issue>), <fpage>269</fpage>–<lpage>277</lpage>. <pub-id pub-id-type="doi">10.1002/cpp.1995</pub-id>
+<pub-id pub-id-type="pmid">26620851</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0015">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0015"><string-name><surname>Farina</surname>, <given-names>F. R.</given-names></string-name>, <string-name><surname>Barry</surname>, <given-names>T. J.</given-names></string-name>, <string-name><surname>Damme</surname>, <given-names>I.</given-names></string-name>, <string-name><surname>van Hie</surname>, <given-names>T.</given-names></string-name>, &amp; <string-name><surname>Raes</surname>, <given-names>F.</given-names></string-name> (<year>2018</year>). <article-title>Depression diagnoses, but not individual differences in depression symptoms, are associated with reduced autobiographical memory specificity</article-title>. <source xml:lang="en">British Journal of Clinical Psychology</source>, <volume>58</volume>(<issue>2</issue>), <fpage>173</fpage>–<lpage>186</lpage>. <pub-id pub-id-type="doi">10.1111/bjc.12207</pub-id>
+<pub-id pub-id-type="pmid">30444032</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0016">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0016"><string-name><surname>Foa</surname>, <given-names>E. B.</given-names></string-name>, <string-name><surname>Zoellner</surname>, <given-names>L. A.</given-names></string-name>, <string-name><surname>Feeny</surname>, <given-names>N. C.</given-names></string-name>, <string-name><surname>Hembree</surname>, <given-names>E. A.</given-names></string-name>, &amp; <string-name><surname>Alvarez‐Conrad</surname>, <given-names>J.</given-names></string-name> (<year>2002</year>). <article-title>Does imaginal exposure exacerbate PTSD symptoms?</article-title>
+<source xml:lang="en">Journal of Consulting and Clinical Psychology</source>, <volume>70</volume>(<issue>4</issue>), <fpage>1022</fpage>–<lpage>1028</lpage>. <pub-id pub-id-type="doi">10.1037//0022-006X.70.4.1022</pub-id>
+<pub-id pub-id-type="pmid">12182265</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0017">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0017"><string-name><surname>Goodwin</surname>, <given-names>G. M.</given-names></string-name>, <string-name><surname>Haddad</surname>, <given-names>P. M.</given-names></string-name>, <string-name><surname>Ferrier</surname>, <given-names>I. N.</given-names></string-name>, <string-name><surname>Aronson</surname>, <given-names>J. K.</given-names></string-name>, <string-name><surname>Barnes</surname>, <given-names>T. R. H.</given-names></string-name>, <string-name><surname>Cipriani</surname>, <given-names>A.</given-names></string-name>, … <string-name><surname>Young</surname>, <given-names>A. H.</given-names></string-name> (<year>2016</year>). <article-title>Evidence‐based guidelines for treating bipolar disorder: Revised third edition recommendations from the British Association for Psychopharmacology</article-title>. <source xml:lang="en">Journal of Psychopharmacology</source>, <volume>30</volume>(<issue>6</issue>), <fpage>495</fpage>–<lpage>553</lpage>. <pub-id pub-id-type="doi">10.1177/0269881116636545</pub-id>
+<pub-id pub-id-type="pmid">26979387</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0018">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0018"><string-name><surname>Hales</surname>, <given-names>S. A.</given-names></string-name>, <string-name><surname>Deeprose</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Goodwin</surname>, <given-names>G. M.</given-names></string-name>, &amp; <string-name><surname>Holmes</surname>, <given-names>E. A.</given-names></string-name> (<year>2011</year>). <article-title>Cognitions in bipolar affective disorder and unipolar depression: Imagining suicide</article-title>. <source xml:lang="en">Bipolar Disorders</source>, <volume>13</volume>(<issue>7‐8</issue>), <fpage>651</fpage>–<lpage>661</lpage>. <pub-id pub-id-type="doi">10.1111/j.1399-5618.2011.00954.x</pub-id>
+<pub-id pub-id-type="pmid">22085478</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0019">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0019"><string-name><surname>Hermans</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Defranc</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Raes</surname>, <given-names>F.</given-names></string-name>, <string-name><surname>Williams</surname>, <given-names>J. M. G.</given-names></string-name>, &amp; <string-name><surname>Eelen</surname>, <given-names>P.</given-names></string-name> (<year>2005</year>). <article-title>Reduced autobiographical memory specificity as an avoidant coping style</article-title>. <source xml:lang="en">British Journal of Clinical Psychology</source>, <volume>44</volume>(<issue>4</issue>), <fpage>583</fpage>–<lpage>589</lpage>. <pub-id pub-id-type="doi">10.1348/014466505X53461</pub-id>
+<pub-id pub-id-type="pmid">16368035</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0020">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0020"><string-name><surname>Hitchcock</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Werner‐Seidler</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Blackwell</surname>, <given-names>S. E.</given-names></string-name>, &amp; <string-name><surname>Dalgleish</surname>, <given-names>T.</given-names></string-name> (<year>2017</year>). <article-title>Autobiographical episodic memory‐based training for the treatment of mood, anxiety and stress‐related disorders: A systematic review and meta‐analysis</article-title>. <source xml:lang="en">Clinical Psychology Review</source>, <volume>52</volume>, <fpage>92</fpage>–<lpage>107</lpage>. <pub-id pub-id-type="doi">10.1016/j.cpr.2016.12.003</pub-id>
+<pub-id pub-id-type="pmid">28086133</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0021">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0021"><string-name><surname>Holmes</surname>, <given-names>E. A.</given-names></string-name>, <string-name><surname>Bonsall</surname>, <given-names>M. B.</given-names></string-name>, <string-name><surname>Hales</surname>, <given-names>S. A.</given-names></string-name>, <string-name><surname>Mitchell</surname>, <given-names>H.</given-names></string-name>, <string-name><surname>Renner</surname>, <given-names>F.</given-names></string-name>, <string-name><surname>Blackwell</surname>, <given-names>S. E.</given-names></string-name>, … <string-name><surname>Di Simplicio</surname>, <given-names>M.</given-names></string-name> (<year>2016</year>). <article-title>Applications of time‐series analysis to mood fluctuations in bipolar disorder to promote treatment innovation: A case series</article-title>. <source xml:lang="en">Translational Psychiatry</source>, <volume>6</volume>(<issue>1</issue>), <fpage>e720</fpage>
+<pub-id pub-id-type="doi">10.1038/tp.2015.207</pub-id>
+<pub-id pub-id-type="pmid">26812041</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0022">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0022"><string-name><surname>Holmes</surname>, <given-names>E. A.</given-names></string-name>, <string-name><surname>Deeprose</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Fairburn</surname>, <given-names>C. G.</given-names></string-name>, <string-name><surname>Wallace‐Hadrill</surname>, <given-names>S. M. A.</given-names></string-name>, <string-name><surname>Bonsall</surname>, <given-names>M. B.</given-names></string-name>, <string-name><surname>Geddes</surname>, <given-names>J. R.</given-names></string-name>, &amp; <string-name><surname>Goodwin</surname>, <given-names>G. M.</given-names></string-name> (<year>2011</year>). <article-title>Mood stability versus mood instability in bipolar disorder: A possible role for emotional mental imagery</article-title>. <source xml:lang="en">Behaviour Research and Therapy</source>, <volume>49</volume>(<issue>10</issue>), <fpage>707</fpage>–<lpage>713</lpage>. <pub-id pub-id-type="doi">10.1016/j.brat.2011.06.008</pub-id>
+<pub-id pub-id-type="pmid">21798515</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0023">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0023"><string-name><surname>Holmes</surname>, <given-names>E. A.</given-names></string-name>, <string-name><surname>Lang</surname>, <given-names>T. J.</given-names></string-name>, <string-name><surname>Moulds</surname>, <given-names>M. L.</given-names></string-name>, &amp; <string-name><surname>Steele</surname>, <given-names>A. M.</given-names></string-name> (<year>2008</year>). <article-title>Prospective and positive mental imagery deficits in dysphoria</article-title>. <source xml:lang="en">Behaviour Research and Therapy</source>, <volume>46</volume>, <fpage>976</fpage>–<lpage>981</lpage>. <pub-id pub-id-type="doi">10.1016/j.brat.2008.04.009</pub-id>
+<pub-id pub-id-type="pmid">18538304</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0024">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0024"><string-name><surname>Ivins</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Di Simplicio</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Close</surname>, <given-names>H.</given-names></string-name>, <string-name><surname>Goodwin</surname>, <given-names>G. M.</given-names></string-name>, &amp; <string-name><surname>Holmes</surname>, <given-names>E.</given-names></string-name> (<year>2014</year>). <article-title>Mental imagery in bipolar affective disorder versus unipolar depression: Investigating cognitions at times of ‘positive’ mood</article-title>. <source xml:lang="en">Journal of Affective Disorders</source>, <volume>166</volume>, <fpage>234</fpage>–<lpage>242</lpage>. <pub-id pub-id-type="doi">10.1016/j.jad.2014.05.007</pub-id>
+<pub-id pub-id-type="pmid">25012436</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0025">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0025"><string-name><surname>Kratochwill</surname>, <given-names>T. R.</given-names></string-name>, <string-name><surname>Hitchcock</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Horner</surname>, <given-names>R. H.</given-names></string-name>, <string-name><surname>Levin</surname>, <given-names>J. R.</given-names></string-name>, <string-name><surname>Odom</surname>, <given-names>S. L.</given-names></string-name>, <string-name><surname>Rindskopf</surname>, <given-names>D. M.</given-names></string-name>, &amp; <string-name><surname>Shadish</surname>, <given-names>W. R.</given-names></string-name> (<year>2010</year>). <article-title>Single‐case design technical documentation</article-title>. <source xml:lang="en">What Work Clear House</source>, (<issue>June</issue>), <fpage>1</fpage>–<lpage>34</lpage>. <pub-id pub-id-type="doi">10.1037/e578392011-004</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0026">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0026"><string-name><surname>Kroenke</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Spitzer</surname>, <given-names>R. L.</given-names></string-name>, <string-name><surname>Williams</surname>, <given-names>J. B. W.</given-names></string-name>, &amp; <string-name><surname>Löwe</surname>, <given-names>B.</given-names></string-name> (<year>2010</year>). <article-title>The patient health questionnaire somatic, anxiety, and depressive symptom scales: A systematic review</article-title>. <source xml:lang="en">General Hospital Psychiatry</source>, <volume>32</volume>(<issue>4</issue>), <fpage>345</fpage>–<lpage>359</lpage>. <pub-id pub-id-type="doi">10.1016/j.genhosppsych.2010.03.006</pub-id>
+<pub-id pub-id-type="pmid">20633738</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0027">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0027"><string-name><surname>Mansell</surname>, <given-names>W.</given-names></string-name>, &amp; <string-name><surname>Lam</surname>, <given-names>D.</given-names></string-name> (<year>2004</year>). <article-title>A preliminary study of autobiographical memory in remitted bipolar and unipolar depression and the role of imagery in the specificity of memory</article-title>. <source xml:lang="en">Memory</source>, <volume>12</volume>(<issue>4</issue>), <fpage>437</fpage>–<lpage>446</lpage>. <pub-id pub-id-type="doi">10.1080/09658210444000052</pub-id>
+<pub-id pub-id-type="pmid">15487540</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0028">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0028"><string-name><surname>Martens</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Barry</surname>, <given-names>T. J.</given-names></string-name>, <string-name><surname>Takano</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Onghena</surname>, <given-names>P.</given-names></string-name>, &amp; <string-name><surname>Raes</surname>, <given-names>F.</given-names></string-name> (<year>2019</year>). <article-title>Efficacy of online Memory Specificity Training in adults with a history of depression, using a multiple baseline across participants design</article-title>. <source xml:lang="en">Internet Interventions</source>. <pub-id pub-id-type="doi">10.1016/j.invent.2019.100259</pub-id> [In press].</mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0029">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0029"><string-name><surname>Martens</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Takano</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Barry</surname>, <given-names>T. J.</given-names></string-name>, <string-name><surname>Goedleven</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Van den Meutter</surname>, <given-names>L.</given-names></string-name>, &amp; <string-name><surname>Raes</surname>, <given-names>F.</given-names></string-name> (<year>2019</year>). <article-title>Remediating reduced autobiographical memory in healthy older adults with computerized memory specificity training (c‐MeST): Preliminary Investigation</article-title>. <source xml:lang="en">Journal of Medical Internet Research</source>, <volume>21</volume>(<issue>5</issue>), <elocation-id>e13333</elocation-id>
+<pub-id pub-id-type="doi">10.2196/13333</pub-id>
+<pub-id pub-id-type="pmid">31094362</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0030">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0030"><string-name><surname>Maxwell</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Callahan</surname>, <given-names>J. L.</given-names></string-name>, <string-name><surname>Holtz</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Janis</surname>, <given-names>B. M.</given-names></string-name>, <string-name><surname>Gerber</surname>, <given-names>M. M.</given-names></string-name>, &amp; <string-name><surname>Connor</surname>, <given-names>D. R.</given-names></string-name> (<year>2015</year>). <article-title>Comparative study of group treatments for posttraumatic stress disorder</article-title>. <source xml:lang="en">Psychotherapy</source>, <volume>53</volume>(<issue>4</issue>), <fpage>433</fpage>–<lpage>445</lpage>. <pub-id pub-id-type="doi">10.1037/pst0000032</pub-id>
+<pub-id pub-id-type="pmid">26390014</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0031">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0031"><string-name><surname>Mowlds</surname>, <given-names>W.</given-names></string-name>, <string-name><surname>Shannon</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>McCusker</surname>, <given-names>C. G.</given-names></string-name>, <string-name><surname>Meenagh</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Robinson</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Wilson</surname>, <given-names>A.</given-names></string-name>, &amp; <string-name><surname>Mulholland</surname>, <given-names>C.</given-names></string-name> (<year>2010</year>). <article-title>Autobiographical memory specificity, depression, and trauma in bipolar disorder</article-title>. <source xml:lang="en">British Journal of Clinical Psychology</source>, <volume>49</volume>(<issue>2</issue>), <fpage>217</fpage>–<lpage>233</lpage>. <pub-id pub-id-type="doi">10.1348/014466509X454868</pub-id>
+<pub-id pub-id-type="pmid">19580704</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0032">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0032"><string-name><surname>Oertel‐Knöchel</surname>, <given-names>V.</given-names></string-name>, <string-name><surname>Reinke</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Hornung</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Knöchel</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Matura</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Knopf</surname>, <given-names>M.</given-names></string-name>, … <string-name><surname>Linden</surname>, <given-names>D. E. J.</given-names></string-name> (<year>2012</year>). <article-title>Patterns of autobiographical memory in bipolar disorder examined by psychometric and functional neuroimaging methods</article-title>. <source xml:lang="en">The Journal of Nervous and Mental Disease</source>, <volume>200</volume>(<issue>4</issue>), <fpage>296</fpage>–<lpage>304</lpage>. <pub-id pub-id-type="doi">10.1097/NMD.0b013e31824ceef7</pub-id>
+<pub-id pub-id-type="pmid">22456582</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0033">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0033"><string-name><surname>Ono</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Devilly</surname>, <given-names>G. J.</given-names></string-name>, &amp; <string-name><surname>Shum</surname>, <given-names>D. H. K.</given-names></string-name> (<year>2016</year>). <article-title>A meta‐analytic review of overgeneral memory: The role of trauma, history, mood, and the presence of posttraumatic stress disorder</article-title>. <source xml:lang="en">Psychological Trauma: Theory, Research, Practice, and Policy</source>, <volume>8</volume>(<issue>2</issue>), <fpage>157</fpage>–<lpage>164</lpage>. <pub-id pub-id-type="doi">10.1037/tra0000027</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0034">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0034"><string-name><surname>Pile</surname>, <given-names>V.</given-names></string-name>, <string-name><surname>Smith</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Leamy</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Blackwell</surname>, <given-names>S. E.</given-names></string-name>, <string-name><surname>Meiser‐Stedman</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>Stringer</surname>, <given-names>D.</given-names></string-name>, … <string-name><surname>Lau</surname>, <given-names>J. Y. F.</given-names></string-name> (<year>2018</year>). <article-title>A brief early intervention for adolescent depression that targets emotional mental images and memories: Protocol for a feasibility randomised controlled trial (IMAGINE trial)</article-title>. <source xml:lang="en">Pilot and Feasibility Studies</source>, <volume>4</volume>(<issue>1</issue>), <fpage>1</fpage>–<lpage>13</lpage>. <pub-id pub-id-type="doi">10.1186/s40814-018-0287-3</pub-id>
+<pub-id pub-id-type="pmid">28616252</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0035">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0035"><string-name><surname>Raes</surname>, <given-names>F.</given-names></string-name>, <string-name><surname>Schoofs</surname>, <given-names>H.</given-names></string-name>, <string-name><surname>Hoes</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Hermans</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Van Den Eede</surname>, <given-names>F.</given-names></string-name>, &amp; <string-name><surname>Frank</surname>, <given-names>E.</given-names></string-name> (<year>2009</year>). <article-title>‘Reflection’ en ‘brooding’ als subtypes van rumineren: Een herziening van de Ruminative Response Scale</article-title>. <source xml:lang="en">Gedragstherapie</source>, <volume>42</volume>, <fpage>205</fpage>–<lpage>214</lpage>.</mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0036">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0036"><string-name><surname>Raes</surname>, <given-names>F.</given-names></string-name>, <string-name><surname>Williams</surname>, <given-names>J. M. G.</given-names></string-name>, &amp; <string-name><surname>Hermans</surname>, <given-names>D.</given-names></string-name> (<year>2009</year>). <article-title>Reducing cognitive vulnerability to depression: A preliminary investigation of MEmory Specificity Training (MEST) in inpatients with depressive symptomatology</article-title>. <source xml:lang="en">Journal of Behavior Therapy and Experimental Psychiatry</source>, <volume>40</volume>(<issue>1</issue>), <fpage>24</fpage>–<lpage>38</lpage>. <pub-id pub-id-type="doi">10.1016/j.jbtep.2008.03.001</pub-id>
+<pub-id pub-id-type="pmid">18407245</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0037">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0037"><string-name><surname>Ricarte</surname>, <given-names>J. J.</given-names></string-name>, <string-name><surname>Hernández‐Viadel</surname>, <given-names>J. V.</given-names></string-name>, <string-name><surname>Latorre</surname>, <given-names>J. M.</given-names></string-name>, &amp; <string-name><surname>Ros</surname>, <given-names>L.</given-names></string-name> (<year>2012</year>). <article-title>Effects of event‐specific memory training on autobiographical memory retrieval and depressive symptoms in schizophrenic patients</article-title>. <source xml:lang="en">Journal of Behavior Therapy and Experimental Psychiatry</source>, <volume>43</volume>(<issue>Suppl. 1</issue>), <fpage>S12</fpage>–<lpage>S20</lpage>. <pub-id pub-id-type="doi">10.1016/j.jbtep.2011.06.001</pub-id>
+<pub-id pub-id-type="pmid">23200426</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0038">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0038"><string-name><surname>Scott</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Stanton</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Garland</surname>, <given-names>A.</given-names></string-name>, &amp; <string-name><surname>Ferrier</surname>, <given-names>I. N.</given-names></string-name> (<year>2000</year>). <article-title>Cognitive vulnerability in patients with bipolar disorder</article-title>. <source xml:lang="en">Psychological Medicine</source>, <volume>30</volume>, <fpage>467</fpage>–<lpage>472</lpage>. <pub-id pub-id-type="doi">10.1017/S0033291799008879</pub-id>
+<pub-id pub-id-type="pmid">10824667</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0039">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0039"><string-name><surname>Takano</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Moriya</surname>, <given-names>J.</given-names></string-name>, &amp; <string-name><surname>Raes</surname>, <given-names>F.</given-names></string-name> (<year>2017</year>). <article-title>Lost in distractors: Reduced autobiographical memory specificity and dispersed activation spreading over distractors in working memory</article-title>. <source xml:lang="en">Behaviour Research and Therapy</source>, <volume>94</volume>, <fpage>19</fpage>–<lpage>35</lpage>. <pub-id pub-id-type="doi">10.1016/j.brat.2017.04.005</pub-id>
+<pub-id pub-id-type="pmid">28441521</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0040">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0040"><string-name><surname>Takano</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Ueno</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Moriya</surname>, <given-names>J.</given-names></string-name>, &amp; <string-name><surname>Mori</surname>, <given-names>M.</given-names></string-name> (<year>2017</year>). <article-title>Unraveling the linguistic nature of specific autobiographical memories using a computerized classification algorithm</article-title>. <source xml:lang="en">Behavior Research Methods</source>, <volume>49</volume>, <fpage>835</fpage>–<lpage>852</lpage>. <pub-id pub-id-type="doi">10.3758/s13428-016-0753-x</pub-id>
+<pub-id pub-id-type="pmid">27338931</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0041">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0041"><string-name><surname>Treynor</surname>, <given-names>W.</given-names></string-name>, <string-name><surname>Gonzalez</surname>, <given-names>R.</given-names></string-name>, &amp; <string-name><surname>Nolen‐Hoeksema</surname>, <given-names>S.</given-names></string-name> (<year>2003</year>). <article-title>Rumination reconsidered: A psychometric analysis</article-title>. <source xml:lang="en">Cognitive Therapy and Research</source>, <volume>27</volume>(<issue>3</issue>), <fpage>247</fpage>–<lpage>259</lpage>. <pub-id pub-id-type="doi">10.1023/A:1023910315561</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0042">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0042"><string-name><surname>Tzemou</surname>, <given-names>E.</given-names></string-name>, &amp; <string-name><surname>Birchwood</surname>, <given-names>M.</given-names></string-name> (<year>2007</year>). <article-title>A prospective study of dysfunctional thinking and the regulation of negative intrusive memories in bipolar 1 disorder: Implications for affect regulation theory</article-title>. <source xml:lang="en">Psychological Medicine</source>, <volume>37</volume>, <fpage>689</fpage>–<lpage>698</lpage>. <pub-id pub-id-type="doi">10.1017/S0033291706009470</pub-id>
+<pub-id pub-id-type="pmid">17121689</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0043">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0043"><string-name><surname>van Vreeswijk</surname>, <given-names>M. F.</given-names></string-name>, &amp; <string-name><surname>de Wilde</surname>, <given-names>E. J.</given-names></string-name> (<year>2004</year>). <article-title>Autobiographical memory specificity, psychopathology, depressed mood and the use of the Autobiographical Memory Test: A meta‐analysis</article-title>. <source xml:lang="en">Behaviour Research and Therapy</source>, <volume>42</volume>, <fpage>731</fpage>–<lpage>743</lpage>. <pub-id pub-id-type="doi">10.1016/S0005-7967(03)00194-3</pub-id>
+<pub-id pub-id-type="pmid">15081887</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0044">
+                <mixed-citation publication-type="book" id="brb31468-cit-0044"><string-name><surname>Weiss</surname>, <given-names>D. S.</given-names></string-name>, &amp; <string-name><surname>Marmar</surname>, <given-names>C. R.</given-names></string-name> (<year>1995</year>). <chapter-title>The impact of event scale‐revised</chapter-title> In <person-group person-group-type="editor"><name name-style="western"><surname>Wilson</surname><given-names>J. P.</given-names></name></person-group>, &amp; <person-group person-group-type="editor"><name name-style="western"><surname>Keane</surname><given-names>T. M.</given-names></name></person-group> (Eds.), <source xml:lang="en">Assessing psychological trauma and PTSD: A practitioner's handbook</source> (<edition>2nd ed.</edition>, pp. <fpage>399</fpage>–<lpage>411</lpage>). <publisher-loc>New York, NY</publisher-loc>: <publisher-name>Guildford</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0045">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0045"><string-name><surname>Werner‐Seidler</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Hitchcock</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Bevan</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>McKinnon</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Gillard</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Dahm</surname>, <given-names>T.</given-names></string-name>, … <string-name><surname>Dalgleish</surname>, <given-names>T.</given-names></string-name> (<year>2018</year>). <article-title>A cluster randomized controlled platform trial comparing group MEmory Specificity Training (MEST) to group psychoeducation and supportive counselling (PSC) in the treatment of recurrent depression</article-title>. <source xml:lang="en">Behaviour Research and Therapy</source>, <volume>105</volume>(<issue>February</issue>), <fpage>1</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1016/j.brat.2018.03.004</pub-id>
+<pub-id pub-id-type="pmid">29587159</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0046">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0046"><string-name><surname>Williams</surname>, <given-names>J. M. G.</given-names></string-name>, <string-name><surname>Barnhofer</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Crane</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Herman</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Raes</surname>, <given-names>F.</given-names></string-name>, <string-name><surname>Watkins</surname>, <given-names>E.</given-names></string-name>, &amp; <string-name><surname>Dalgleish</surname>, <given-names>T.</given-names></string-name> (<year>2007</year>). <article-title>Autobiographical memory specificity and emotional disorder</article-title>. <source xml:lang="en">Psychological Bulletin</source>, <volume>133</volume>(<issue>1</issue>), <fpage>122</fpage>–<lpage>148</lpage>. <pub-id pub-id-type="doi">10.1037/0033-2909.133.1.122</pub-id>
+<pub-id pub-id-type="pmid">17201573</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0047">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0047"><string-name><surname>Williams</surname>, <given-names>J. M. G.</given-names></string-name>, &amp; <string-name><surname>Broadbent</surname>, <given-names>K.</given-names></string-name> (<year>1986</year>). <article-title>Autobiographical memory in suicide attempters</article-title>. <source xml:lang="en">Journal of Abnormal Psychology</source>, <volume>95</volume>(<issue>2</issue>), <fpage>144</fpage>–<lpage>149</lpage>. <pub-id pub-id-type="doi">10.1037/0021-843X.95.2.144</pub-id>
+<pub-id pub-id-type="pmid">3711438</pub-id></mixed-citation>
+              </ref>
+              <ref id="brb31468-bib-0048">
+                <mixed-citation publication-type="journal" id="brb31468-cit-0048"><string-name><surname>Young</surname>, <given-names>K. D.</given-names></string-name>, <string-name><surname>Bodurka</surname>, <given-names>J.</given-names></string-name>, &amp; <string-name><surname>Drevets</surname>, <given-names>W. C.</given-names></string-name> (<year>2016</year>). <article-title>Differential neural correlates of autobiographical memory recall in bipolar and unipolar depression</article-title>. <source xml:lang="en">Bipolar Disorders</source>, <volume>18</volume>(<issue>7</issue>), <fpage>571</fpage>–<lpage>582</lpage>. <pub-id pub-id-type="doi">10.1111/bdi.12441</pub-id>
+<pub-id pub-id-type="pmid">27813234</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

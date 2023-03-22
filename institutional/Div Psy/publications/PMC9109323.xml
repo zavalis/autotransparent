@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:01:06Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9109323" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9109323</identifier>
+        <datestamp>2022-05-17</datestamp>
+        <setSpec>bmcpedi</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMC Pediatr</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMC Pediatr</journal-id>
+              <journal-title-group>
+                <journal-title>BMC Pediatrics</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1471-2431</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9109323</article-id>
+              <article-id pub-id-type="pmcid">PMC9109323</article-id>
+              <article-id pub-id-type="pmc-uid">9109323</article-id>
+              <article-id pub-id-type="pmid">35578205</article-id>
+              <article-id pub-id-type="publisher-id">3349</article-id>
+              <article-id pub-id-type="doi">10.1186/s12887-022-03349-4</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Regression to the mean in latent change score models: an example involving breastfeeding and intelligence</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Sorjonen</surname>
+                    <given-names>Kimmo</given-names>
+                  </name>
+                  <address>
+                    <email>kimmo.sorjonen@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Nilsonne</surname>
+                    <given-names>Gustav</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ingre</surname>
+                    <given-names>Michael</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Melin</surname>
+                    <given-names>Bo</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.4714.6</institution-id><institution-id institution-id-type="ISNI">0000 0004 1937 0626</institution-id><institution>Department of Clinical Neuroscience, </institution><institution>Karolinska Institutet, </institution></institution-wrap>171 77 Stockholm, Sweden </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.10548.38</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 9377</institution-id><institution>Department of Psychology, </institution><institution>Stockholm University, </institution></institution-wrap>Stockholm, Sweden </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.484013.a</institution-id><institution-id institution-id-type="ISNI">0000 0004 6879 971X</institution-id><institution>QUEST Center, Berlin Institute of Health at Charité – Universitätsmedizin Berlin, </institution></institution-wrap>Berlin, Germany </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.8148.5</institution-id><institution-id institution-id-type="ISNI">0000 0001 2174 3522</institution-id><institution>Department of Psychology, </institution><institution>Linnaeus University, </institution></institution-wrap>Växjö, Sweden </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.499279.8</institution-id><institution>Institute for Globally Distributed Open Research and Education (IGDORE), </institution></institution-wrap>Stockholm, Sweden </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>16</day>
+                <month>5</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>16</day>
+                <month>5</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2022</year>
+              </pub-date>
+              <volume>22</volume>
+              <elocation-id>283</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>29</day>
+                  <month>12</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>10</day>
+                  <month>5</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2022</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold>This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated in a credit line to the data.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Background</title>
+                  <p id="Par1">Latent change score models are often used to study change over time in observational data. However, latent change score models may be susceptible to regression to the mean. Earlier observational studies have identified a positive association between breastfeeding and child intelligence, even when adjusting for maternal intelligence.</p>
+                </sec>
+                <sec>
+                  <title>Method</title>
+                  <p id="Par2">In the present study, we investigate regression to the mean in the case of breastfeeding and intelligence of children. We used latent change score modeling to analyze intergenerational change in intelligence, both from mothers to children and backward from children to mothers, in the 1979 National Longitudinal Survey of Youth (NLSY79) dataset (<italic>N</italic> = 6283).</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p id="Par3">When analyzing change from mothers to children, breastfeeding was found to have a positive association with intergenerational change in intelligence, whereas when analyzing backward change from children to mothers, a negative association was found.</p>
+                </sec>
+                <sec>
+                  <title>Conclusions</title>
+                  <p id="Par4">These discrepant findings highlight a hidden flexibility in the analytical space and call into question the reliability of earlier studies of breastfeeding and intelligence using observational data.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Analytical flexibility</kwd>
+                <kwd>Breastfeeding</kwd>
+                <kwd>Causal effect</kwd>
+                <kwd>Forward and backward change</kwd>
+                <kwd>Latent change score modeling</kwd>
+                <kwd>Maternal and child intelligence</kwd>
+                <kwd>Regression to the mean</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>Karolinska Institute</institution>
+                  </funding-source>
+                </award-group>
+                <open-access>
+                  <p>Open access funding provided by Karolinska Institute.</p>
+                </open-access>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2022</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par5">In this article, we use the effect of breastfeeding on intergenerational change in intelligence as a case study of regression to the mean in latent change score models. The effect of breastfeeding on intelligence is controversial. Earlier studies using observational data have found that breastfed children have higher intelligence compared to those not breastfed [<xref ref-type="bibr" rid="CR1">1</xref>–<xref ref-type="bibr" rid="CR4">4</xref>]. A risk for confounding is apparent, as breastfeeding mothers tend to be more intelligent than non-breastfeeding mothers or mothers who breastfeed only for a short period of time [<xref ref-type="bibr" rid="CR4">4</xref>–<xref ref-type="bibr" rid="CR6">6</xref>] and because intelligence is strongly hereditary [<xref ref-type="bibr" rid="CR7">7</xref>–<xref ref-type="bibr" rid="CR10">10</xref>]. A positive association between breastfeeding and child intelligence has indeed been shown to be less than completely attenuated when adjusting for maternal intelligence [<xref ref-type="bibr" rid="CR2">2</xref>, <xref ref-type="bibr" rid="CR4">4</xref>, <xref ref-type="bibr" rid="CR5">5</xref>, <xref ref-type="bibr" rid="CR11">11</xref>]. However, since intelligence is measured with imperfect reliability, breastfeeding mothers may tend to have higher true intelligence than non-breastfeeding mothers even if they have the same measured intelligence. Hence, the remaining adjusted association between breastfeeding and child intelligence could be due to residual confounding. This example may illustrate the susceptibility of latent change score models to regression to the mean, a phenomenon which is well-understood in theory [<xref ref-type="bibr" rid="CR12">12</xref>], but nevertheless often overlooked in practice.</p>
+              <p id="Par6">Galton coined the term regression toward mediocrity to describe the phenomenon that tall parents tended to have tall offspring, but not quite as tall as themselves, while short parents tended to have short offspring, but not quite as short as themselves [<xref ref-type="bibr" rid="CR13">13</xref>]. This phenomenon, nowadays usually called regression to the mean, occurs because extreme outcomes usually require an extreme combination of causative factors, and the probability is higher for some combination of causative factors that results in a less extreme outcome. So, even if an offspring has partly inherited their parent’s genome that increases the likelihood for tall/short stature, they may not experience the same extreme combination of other factors, such as nutrition, activity levels, and medical conditions, and this tends to result in a less extreme stature. An important feature of regression to the mean is that it has an effect backward as well as forward in time. Tall offspring can be expected to have tall parents, but not quite as tall as themselves, while short offspring can be expected to have short parents, but not quite as short as themselves.</p>
+              <p id="Par7">The heights of parents and offspring in Galton’s example above are likely to have been measured with very high reliability. However, if we have an outcome Y that is measured with less than perfect reliability and a predictor X that has an association with the true value on Y, we can expect an association between X and observed change in Y between two measurements when adjusting for initial value on Y, even if no true change in Y has taken place. The reason for this spurious association is that with a positive (negative) association between X and the true value on Y, given the same initial value on Y those with a high value on X will tend to have a higher (lower) value on true Y and, consequently, a more positive (negative) residual in the measurement of Y compared with those with a lower value on X. And as residuals and measurement errors tend to regress toward a mean value of zero, those with a high value on X will tend to experience a more positive (negative) change in Y to a subsequent measurement compared with those with the same initial value on Y but with a lower value on X. The effect of X on the change score in Y is less susceptible to this fallacy when not adjusting for the initial value on Y [<xref ref-type="bibr" rid="CR14">14</xref>–<xref ref-type="bibr" rid="CR17">17</xref>].</p>
+              <p id="Par8">Confounding refers to a phenomenon where two variables X and Y are associated without having any effect on each other because both of them are associated with a third variable Z. In attempting to evaluate whether X and Y are independently associated, it is common to estimate the association while adjusting for an indicator of Z. However, it is far from certain that such adjustment will eliminate the problem completely and some degree of residual confounding may remain. Residual confounding is increased by higher true degree of confounding, higher reliability in the measurements of X and Y, lower reliability in the measurement of Z, and larger sample size [<xref ref-type="bibr" rid="CR18">18</xref>–<xref ref-type="bibr" rid="CR22">22</xref>].</p>
+              <p id="Par9">Latent change score modeling is a form of structural equation modeling for analyzing change in an outcome between measurements [<xref ref-type="bibr" rid="CR23">23</xref>–<xref ref-type="bibr" rid="CR25">25</xref>]. The use of latent change score modeling rather than traditional regression models has been recommended for analyzing change over time [<xref ref-type="bibr" rid="CR24">24</xref>]. However, similarly to simpler regression models, latent change score models can be susceptible to the influence of regression to the mean if regressing the latent change score factor on the initial value on the outcome variable in addition to the predictor. For example, studies employing latent change score modeling have demonstrated what seems to be spurious effects of vocabulary on change in matrix reasoning scores, and vice versa, and of intelligence on change in academic achievement, and vice versa [<xref ref-type="bibr" rid="CR26">26</xref>, <xref ref-type="bibr" rid="CR27">27</xref>]. Therefore, we have recommended to verify effects shown in latent change score models by analyses where the latent change score is not regressed on the initial value on the outcome variable [<xref ref-type="bibr" rid="CR27">27</xref>].</p>
+              <p id="Par10">Thus, we aimed to investigate the association between breastfeeding and child intelligence using two latent change score models susceptible to regression to the mean either on the mother’s or the child’s intelligence, in order to evaluate whether these approaches would diverge. If breastfeeding has a true causal effect on child intelligence, a positive association is predicted between breastfeeding and the latent intergenerational change score in intelligence, from mother to child, both when adjusting and when not adjusting for maternal intelligence. Moreover, a negative association is predicted between breastfeeding and backward intergenerational change in intelligence, from child to mother, when conditioning on child intelligence. This negative association would indicate that given the same intelligence, breastfed children tend to have mothers with lower intelligence and have, consequently, experienced a more positive intergenerational change in intelligence compared with non-breastfed children. Additionally, we simulated data with similar descriptive characteristics as in the empirical data and without any independent effect of breastfeeding on child intelligence, in order to test whether spurious associations would appear when it is known that no true effect is present.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Method</title>
+              <sec id="Sec3">
+                <title>Participants</title>
+                <p id="Par11">The present study employed data from a nationally representative sample of 6283 American female participants in the 1979 National Longitudinal Survey of Youth (NLSY79, available at <ext-link ext-link-type="uri" xlink:href="https://www.nlsinfo.org/content/cohorts/nlsy79">https://www.nlsinfo.org/content/cohorts/nlsy79</ext-link>), born between 1957 and 1964, as well as data from the first (<italic>N</italic> = 4820) and second (<italic>N</italic> = 3328) born child of these women. We used this dataset because it is a large, openly available resource well suited to the question at hand.</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Measures</title>
+                <p id="Par12">In 1980 a majority (<italic>N</italic> = 5939) of the women took the Armed Forces Qualification Test (AFQT). We transformed the score to an IQ scale (<italic>M</italic> = 100, <italic>SD</italic> = 15). Between 1986 and 2014 children aged five and over of the NLSY79 women could take the Peabody Individual Achievement Test (PIAT) in mathematics, reading recognition, and reading comprehension. The scores were normed to an IQ scale by the NLS personnel. At least one PIAT score was available for 3950 first and 2996 s born children, respectively. For those with more than one score available, a mean across the scores was calculated and used as a measure of their intelligence.</p>
+                <p id="Par13">On nine possible occasions between 1983 and 1996 the NLSY79 women were asked if they had breastfed their first and second born child (when the child was an infant) at all. If they answered “yes” on at least one of these occasions and never answered “no”, the child was categorized to have been breastfed and if they answered “no” on at least one of these occasions the child was categorized to not have been breastfed. A dichotomous breastfeeding variable can be expected to be less susceptible to the effect of imprecise memory compared with reports of breastfeeding duration and, consequently, to be more reliable [<xref ref-type="bibr" rid="CR28">28</xref>]. Data from 1983 on breastfeeding of subsequent children after the second were also available, but the cases were few (280, 62, 16, 2, and 1 for the third to the seventh child, respectively) and were not included in the present analyses.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Statistical analyses</title>
+                <p id="Par14">The association between breastfeeding and intergenerational change in intelligence was analyzed with latent change score modeling (see the Results section for illustrations). In one model, predicting forward intergenerational change in intelligence from mothers to children, child intelligence was regressed on maternal intelligence and a latent change score and both regression weights were fixed to one. The intercept and variance of maternal intelligence and the change score were freely estimated while they were fixed to zero for the child’s intelligence, i.e. the child’s intelligence was fully determined by maternal intelligence and the change score. The change score was regressed on maternal intelligence as well as on the dichotomous breastfeeding variable. Breastfeeding and maternal intelligence were allowed to correlate. In a second model, predicting backward intergenerational change in intelligence from children to mothers, maternal and the child’s intelligence changed places in the model. This second model was analyzed in order to distinguish between a true increasing effect of breastfeeding on child intelligence and a spurious effect due to regression to the mean. In a third model, predicting forward intergenerational change in intelligence from mothers to children, the regression effect between maternal intelligence and the latent intergenerational change in intelligence was replaced by a covariance.</p>
+                <p id="Par15">As the aim was to compare models with different susceptibilities to regression to the mean, additional covariates were not included. For validation, models were run separately for first and second born children. Cases with missing values on all variables were omitted from the analyses, and for the rest missing values were handled by using full information maximum likelihood estimations. This resulted in sample sizes of <italic>N</italic> = 6172 and <italic>N</italic> = 6084 for the analyses involving the first and the second born child, respectively. Analyses were conducted with R 4.1.0 statistical software [<xref ref-type="bibr" rid="CR29">29</xref>] employing the lavaan package [<xref ref-type="bibr" rid="CR30">30</xref>]. Script and data are available at the Open Science Framework at <ext-link ext-link-type="uri" xlink:href="https://osf.io/hnf8a/">https://osf.io/hnf8a/</ext-link>.</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Simulation</title>
+                <p id="Par16">A dataset was generated through the following steps: (1) Two groups of virtual mothers were created, with the same sample size, mean true intelligence, and standard deviation of true intelligence as for the breastfeeding (first child) and non-breastfeeding mothers in the empirical data; (2) Each virtual mother was allocated a virtual child whose true intelligence correlated 0.8 with the mother’s true intelligence; (3) All mothers and children were allocated an observed intelligence score that correlated 0.8 with their true intelligence.</p>
+                <p id="Par17">It is important to note that nothing in the data generation suggests an effect of breastfeeding on child intelligence over and above an effect due to a difference in maternal intelligence and heritability of intelligence. We used 0.8 as the population correlation between true maternal and true child intelligence and between true and observed intelligence as a reasonable approximation to correlations between observed maternal and observed child intelligence seen in the empirical data. Analyses with a correlation of 0.7 or 0.9 resulted in the same conclusion. The association between breastfeeding and intergenerational change in observed intelligence in the simulated data was analyzed with the same three latent change score models as for the empirical data (see above).</p>
+              </sec>
+            </sec>
+            <sec id="Sec7">
+              <title>Results</title>
+              <sec id="Sec8">
+                <title>Empirical analyses</title>
+                <p id="Par18">Descriptive statistics for and correlations between the study variables are presented in Table <xref rid="Tab1" ref-type="table">1</xref>. We see that 39% and 40% of the mothers breastfed their first and second child, respectively. We also see a positive correlation between breastfeeding and child intelligence, but a stronger positive correlation between breastfeeding and maternal intelligence.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Descriptive statistics for and correlations between study variables</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Variable</th><th align="left" rowspan="2"><italic>N</italic></th><th align="left" rowspan="2"><italic>M</italic></th><th align="left" rowspan="2"><italic>SD</italic></th><th align="left" colspan="4">Pearson correlation</th></tr><tr><th align="left">2</th><th align="left">3</th><th align="left">4</th><th align="left">5</th></tr></thead><tbody><tr><td align="left">1. IQ, mother</td><td align="left">5939</td><td char="." align="char">100.00</td><td char="." align="char">15.00</td><td char="." align="char">0.506</td><td char="." align="char">0.518</td><td char="." align="char">0.385</td><td char="." align="char">0.393</td></tr><tr><td align="left">2. IQ, child 1</td><td align="left">3950</td><td char="." align="char">102.80</td><td char="." align="char">11.30</td><td char="." align="char">-</td><td char="." align="char">0.548</td><td char="." align="char">0.288</td><td char="." align="char">0.254</td></tr><tr><td align="left">3. IQ, child 2</td><td align="left">2996</td><td char="." align="char">101.73</td><td char="." align="char">11.31</td><td char="." align="char"/><td char="." align="char">-</td><td char="." align="char">0.276</td><td char="." align="char">0.270</td></tr><tr><td align="left">4. BF<sup>a</sup>, child 1</td><td align="left">4564</td><td char="." align="char">0.39</td><td char="." align="char">0.49</td><td char="." align="char"/><td char="." align="char"/><td char="." align="char">-</td><td char="." align="char">0.680</td></tr><tr><td align="left">5. BF<sup>a</sup>, child 2</td><td align="left">1771</td><td char="." align="char">0.40</td><td char="." align="char">0.49</td><td char="." align="char"/><td char="." align="char"/><td char="." align="char"/><td char="." align="char">-</td></tr></tbody></table><table-wrap-foot><p><sup>a</sup>Breastfeeding, dichotomous variable; Note: All correlations are significant (<italic>p</italic> &lt; 0.001)</p></table-wrap-foot></table-wrap></p>
+                <p id="Par19">Non-breastfeeding mothers had lower measured intelligence than breastfeeding mothers (Fig. <xref rid="Fig1" ref-type="fig">1</xref>). Both for first- (panel A) and second-born (panel B) children we see that non-breastfeeding mothers were a rather homogenous group of low-performers with a peak at approximately IQ 85 (although with a positive tail reaching high scores as well). Contrarily, breastfeeding mothers were more uniformly distributed along the IQ-scale.<fig id="Fig1"><label>Fig. 1</label><caption><p>Maternal IQ frequency distribution, separately for first (A) and second (B) child and for those who breastfed (darker gray) or did not breastfeed (lighter gray) the child. Due to the scaling of the original variable (percentile from 0 to 100 with <italic>M</italic> = 42 and <italic>SD</italic> = 29), the range was restricted to 77.5–131</p></caption><graphic xlink:href="12887_2022_3349_Fig1_HTML" id="MO1"/></fig></p>
+                <p id="Par20">Predicted intergenerational changes in intelligence are presented in Fig. <xref rid="Fig2" ref-type="fig">2</xref>. For firstborn children (first row in Fig. <xref rid="Fig2" ref-type="fig">2</xref>) we see that: (1) If conditioning on maternal intelligence, breastfed children tended to have experienced a more positive intergenerational change in intelligence compared with non-breastfed children with equally intelligent mothers (panel A); (2) If predicting change backward in time from child to mother and conditioning on child intelligence, we still see a positive association between breastfeeding and intergenerational change in intelligence, meaning that breastfed children tended to have experienced a more negative intergenerational change in intelligence compared with equally intelligent but non-breastfed children (panel B); (3) If not conditioning on maternal intelligence, the intergenerational change in intelligence from mothers to children was predicted to have been more negative for breastfed compared with non-breastfed children (panel C). The results were similar for second-born children (panels D-F in Fig. <xref rid="Fig2" ref-type="fig">2</xref>).<fig id="Fig2"><label>Fig. 2</label><caption><p>Models for predicting intergenerational change in intelligence from mother to child when conditioning on maternal intelligence (A and D), for predicting change backward in time from child to mother when conditioning on the child’s intelligence (B and E), and for predicting change forward in time from mother to child without conditioning on maternal intelligence (C and F). Separately for first (A-C) and second (D-F) child. Note: <italic>BF</italic> breastfeeding, <italic>IQ</italic><sub><italic>M</italic></sub> maternal IQ, <italic>IQ</italic><sub><italic>C</italic></sub> child’s IQ; the parameters are unstandardized; all parameters were statistically significant (<italic>p</italic> &lt; 0.001, except for the effect of BF on ΔIQ in panel D, for which <italic>p</italic> = 0.012)</p></caption><graphic xlink:href="12887_2022_3349_Fig2_HTML" id="MO2"/></fig></p>
+                <p id="Par21">The association between breastfeeding and intergenerational change in intelligence may seem very different in panels A and C in Fig. <xref rid="Fig2" ref-type="fig">2</xref>, with a positive and a negative effect, respectively. However, it should be noted that the positive effect in panel A ignores the positive association between breastfeeding and maternal intelligence. The expected (i.e. mean) IQ of mothers who breastfed their first child was 12.0 points higher compared with mothers who did not breastfeed their first child. If taking this difference into account, as well as the negative association between maternal intelligence and intergenerational change in IQ, the total effect of breastfeeding on the intergenerational change would equal 2.67 + 12.0 × -0.648 = -5.11, i.e. the same as the effect in panel C (difference due to rounding). Similarly, the expected difference in IQ between breastfed and non-breastfed firstborn children was 6.91 and if taking this into account the total effect of breastfeeding on backward intergenerational change in IQ, from child to mother (see panel B), would equal 8.09 + 6.91 × -0.429 = 5.13, which corresponds to the effect of -5.13 on forward change in panel C. The same logic applies to the effects on intergenerational change in intelligence from mother to her second child in row 2 in Fig. <xref rid="Fig2" ref-type="fig">2</xref>.</p>
+                <p id="Par22">For cross-validation, we divided the full sample into two random subsamples (<italic>N</italic> = 3142 and <italic>N</italic> = 3141, respectively) and fitted the three latent change score models on data from these subsamples, separately for the first and the second child. As seen in Table <xref rid="Tab2" ref-type="table">2</xref>, the effect of breastfeeding on intergenerational change in intelligence calculated in the subsamples resembled each other as well as the effects calculated in the full sample. This suggests that the effects are generalizable.<table-wrap id="Tab2"><label>Table 2</label><caption><p>The effect (with 95% CI) of breastfeeding on intergenerational change in intelligence in the full sample (<italic>N</italic> = 6283) as well as two random subsamples (<italic>N</italic> = 3142 and <italic>N</italic> = 3141, respectively). Separately for three alternative latent change score models (see Fig. <xref rid="Fig2" ref-type="fig">2</xref> for illustration) as well as for first and second child</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Child/Model</th><th align="left">Full sample</th><th align="left">Subsample 1</th><th align="left">Subsample 2</th></tr></thead><tbody><tr><td align="left" colspan="4">Child 1</td></tr><tr><td align="left">  Forward, Adj</td><td align="left">2.67 (1.96; 3.37)</td><td align="left">2.68 (1.67; 3.69)</td><td align="left">2.65 (1.67; 3.64)</td></tr><tr><td align="left">  Backward, Adj</td><td align="left">8.09 (7.23; 8.94)</td><td align="left">8.16 (6.93; 9.38)</td><td align="left">8.02 (6.83; 9.22)</td></tr><tr><td align="left">  Forward, Noadj</td><td align="left">-5.13 (-5.98; -4.27)</td><td align="left">-5.23 (-6.45; -4.01)</td><td align="left">-5.02 (-6.23; -3.82)</td></tr><tr><td align="left" colspan="4">Child 2</td></tr><tr><td align="left">  Forward, Adj</td><td align="left">1.47 (0.32; 2.62)</td><td align="left">1.68 (0.15; 3.21)</td><td align="left">1.23 (-0.49; 2.96)</td></tr><tr><td align="left">  Backward, Adj</td><td align="left">8.63 (7.32; 9.94)</td><td align="left">8.09 (6.24; 9.94)</td><td align="left">9.12 (7.26; 11.0)</td></tr><tr><td align="left">  Forward, Noadj</td><td align="left">-6.17 (-7.50; -4.83)</td><td align="left">-5.88 (-7.70; -4.06)</td><td align="left">-6.47 (-8.42; -4.51)</td></tr></tbody></table></table-wrap></p>
+              </sec>
+              <sec id="Sec9">
+                <title>Simulation</title>
+                <p id="Par23">A simulated dataset with virtual breastfeeding (<italic>N</italic> = 1801, mean true intelligence = 103.3, <italic>SD</italic> of true intelligence = 15.1) and non-breastfeeding (<italic>N</italic> = 2763, mean true intelligence = 91.5, <italic>SD</italic> of true intelligence = 12.4) mothers was generated. Each virtual mother was allocated a virtual child whose true intelligence correlated 0.8 with true maternal intelligence. All mothers and children were allocated an observed intelligence score that correlated 0.8 with their true intelligence. Mirroring the empirical data, mean observed intelligence was set to 100 (<italic>SD</italic> = 15) across all virtual mothers and to 102.8 (<italic>SD</italic> = 11.3) across all virtual children.</p>
+                <p id="Par24">Analyses with latent change score models of the simulated data yielded similar results as in the empirical analyses (compare Fig. <xref rid="Fig3" ref-type="fig">3</xref> to the first row in Fig. <xref rid="Fig2" ref-type="fig">2</xref>). We see (1) a positive effect of breastfeeding on forward intergenerational change in intelligence, from mother to child, when adjusting for maternal intelligence (panel A); (2) a positive effect of breastfeeding on backward intergenerational change in intelligence, from child to mother, when adjusting for child intelligence (panel B); (3) a negative effect of breastfeeding on forward intergenerational change in intelligence when not adjusting for maternal intelligence (panel C).<fig id="Fig3"><label>Fig. 3</label><caption><p>Findings in simulated data. Models for predicting intergenerational change in intelligence from mother to child when conditioning on maternal intelligence (<bold>A</bold>), for predicting change backward in time from child to mother when conditioning on the child’s intelligence (<bold>B</bold>), and for predicting change forward in time from mother to child without conditioning on maternal intelligence (<bold>C</bold>). Note: <italic>BF</italic> breastfeeding, <italic>IQ</italic><sub><italic>M</italic></sub> maternal IQ, <italic>IQ</italic><sub><italic>C</italic></sub> child’s IQ, the parameters are unstandardized; all parameters were statistically significant (<italic>p</italic> &lt; 0.001)</p></caption><graphic xlink:href="12887_2022_3349_Fig3_HTML" id="MO3"/></fig></p>
+              </sec>
+            </sec>
+            <sec id="Sec10">
+              <title>Discussion</title>
+              <p id="Par25">We set out to evaluate if an observed association between breastfeeding and child intelligence differs between two methods of analysis with different susceptibility to regression to the mean either on the mother’s or the child’s intelligence. Consistent with earlier studies and with a true positive causal influence, a positive effect of 2.67 IQ points from breastfeeding on the intergenerational latent change in intelligence, from mothers to firstborn children, was observed when adjusting for maternal intelligence. However, contrary to a true positive causal effect, when adjusting for the first child’s intelligence, a positive effect of 8.09 IQ points from breastfeeding on the backward intergenerational change, from child to mother, was observed, meaning that breastfed children tended to have mothers with higher intelligence compared with equally intelligent but non-breastfed children and, consequently, to have experienced a more negative intergenerational change in intelligence. That the adjusted effect of breastfeeding on the intergenerational change in intelligence was positive both forward and backward in time suggests that it may have been due to regression to the mean. Also contrary to a true positive causal effect, the unadjusted intergenerational change in intelligence from mothers to children was more negative for breastfed children than for non-breastfed children. This latter negative effect should not be seen to definitively demonstrate a negative causal effect of breastfeeding on children’s intelligence. As many non-breastfeeding mothers had low measured intelligence, there was considerable scope for a positive, and limited scope for a negative, intergenerational change in intelligence from them to their children. Hence, the observed negative effect could be due to a floor effect. To be clear, we do not propose that breastfeeding has a negative effect on child intelligence.</p>
+              <p id="Par26">The present results suggest that some of the observed positive effects in earlier studies, including aggregated effects in meta-analyses, may be due partly to residual confounding. Breastfeeding mothers may tend to have higher true intelligence than non-breastfeeding mothers with the same measured intelligence and this could be the reason why their children are predicted to have higher intelligence even when adjusting for measured maternal intelligence. Findings from the simulations in the present study indicated that a spurious positive effect of breastfeeding on child intelligence, or on the intergenerational change in intelligence, may emerge if (1) breastfeeding mothers are more intelligent than non-breastfeeding mothers; (2) intelligence is hereditary; and (3) intelligence is measured with less than perfect reliability. All three criteria appear to be established. Furthermore, it is possible that breastfed children tend to have more intelligent fathers, even when adjusting for maternal (true) intelligence. Intelligent fathers may be better at providing support – economic, emotional, etc. – that enables breastfeeding. Paternal intelligence is a possible confounder that has received very little attention in the literature.</p>
+              <p id="Par27">It should be noted that there is no single proper way to conduct latent change score models, nor other statistical analyses, that results in infallible conclusions regarding causal effects. Difficulties to infer causality are inherent when analyzing observational data. As we did in the present study, researchers are recommended to analyze observational data with alternative models, e.g. to predict change both forward and backward in time. If interpretation of results from the models do not converge, findings may be spurious rather than indicating true causal effects. Stronger conclusions would be possible from observational data including repeated measurements of mothers’ and children’s IQ. Repeated measures would serve to increase the reliability of measurements of mothers’ IQ and to model a trajectory of children’s IQ, e.g. using growth curve analysis. Ideally, repeated measures of fathers’ IQ would also be adjusted for.</p>
+              <p id="Par28">A few studies with stronger methodology than the ones mentioned so far have investigated the association between breastfeeding and child intelligence. Evenhouse and Reilly [<xref ref-type="bibr" rid="CR31">31</xref>] compared the intelligence of breastfed and non-breastfed siblings, thereby completely adjusting for stable, e.g. genetically determined, maternal characteristics. They found a 1.68 percentile-points advantage for breastfed children compared with their non-breastfed siblings on an abbreviated version of the Peabody Picture Vocabulary Test, measured in adolescence. However, the breastfeeding or not of siblings was, of course, not randomized and it is possible that some child characteristics that may increase the likelihood for breastfeeding (e.g. ability to focus) are also positively associated with later measured intelligence, i.e. they act as confounders in the comparison of siblings. Der et al. [<xref ref-type="bibr" rid="CR28">28</xref>] found no effect of breastfeeding on more comprehensive measures of child intelligence when comparing siblings in the same NLSY79 cohort as in the present study. Furthermore, Der et al. combined their results with those by Evenhouse and Reilly [<xref ref-type="bibr" rid="CR31">31</xref>] and found the combined effect of breastfeeding on child intelligence to be weak and statistically non-significant. A cluster-randomized study found a significant effect of a breastfeeding promotion intervention on actual breastfeeding and on child verbal intelligence, at age 6.5 years, but not on child full-scale IQ [<xref ref-type="bibr" rid="CR32">32</xref>]. However, it has been argued that the limited observed effect could be biased by the facts that (1) the study excluded mothers who had decided beforehand not to breastfeed their child, and (2) the pediatricians who conducted the measurement of intelligence were not blinded to the allocated condition of the child (the differences were smaller and statistically non-significant for blinded auditors who assessed a subgroup of the children) [<xref ref-type="bibr" rid="CR6">6</xref>, <xref ref-type="bibr" rid="CR33">33</xref>]. Moreover, at age 16 no significant non-adjusted differences between the promotion and the control group remained, although a slight difference in verbal functioning could be observed if adjusting for various baseline characteristics [<xref ref-type="bibr" rid="CR33">33</xref>].</p>
+              <p id="Par29">Due to the limited, and possibly biased, findings in the randomized trial by Kramer et al. [<xref ref-type="bibr" rid="CR32">32</xref>], the negative finding in the comparison of siblings by Der et al. [<xref ref-type="bibr" rid="CR28">28</xref>], the risk of residual confounding in observational studies, even when adjusting for maternal intelligence, as well as the present findings, we think it remains premature to draw firm conclusions about a causal effect of breastfeeding on child intelligence.</p>
+              <p id="Par30">The present findings illustrate that with the same scientific question regarding breastfeeding and intelligence, and in the same dataset, different analytical strategies can give strongly divergent results. Studies using a multi-analyst approach, i.e. where different analysts have tried to answer the same question using the same data, have identified other such divergences, for example concerning the effect of skin tone on receiving a red card in football [<xref ref-type="bibr" rid="CR34">34</xref>] and the effect of decision making under risk on cerebral blood flow as assessed by functional magnetic resonance imaging (fMRI) [<xref ref-type="bibr" rid="CR35">35</xref>]. The present findings thus provide an additional instance of an analytical space that permits a range of conclusions.</p>
+            </sec>
+            <sec id="Sec11">
+              <title>Limitations</title>
+              <p id="Par31">It is possible that the measurements of maternal and children’s intelligence used in the present study are not optimal, in regard to used instruments nor timing. It is also possible that there are several factors, i.e. maternal educational level and socioeconomic situation, home environment, etc., that may confound observed associations. Furthermore, the measurement of breastfeeding could have been a more nuanced measure of duration rather than a dichotomous yes/no-variable. However, it is important to bear in mind that such factors are constant across all three analyzed models (see Fig. <xref rid="Fig2" ref-type="fig">2</xref>) and cannot, consequently, explain the diametrically different estimates they provide. For example, as the data comes from the same mothers and children, maternal level of education cannot explain why the effect of breastfeeding on the intergenerational change in intelligence is positive in the model in panel A in Fig. <xref rid="Fig2" ref-type="fig">2</xref> while the same effect is negative in the model in panel C. Hence, we consider ourselves entitled to conclude that estimates of the association between breastfeeding and child intelligence, or the intergenerational change in intelligence, are sensitive to the method of analysis. The full information maximum likelihood estimation assumes that missing observations were missing at random, which is not necessarily the case. The present study was conducted on a Western sample where the mothers were born between 1957 and 1964. Whether findings generalize to other times and populations is an open question.</p>
+            </sec>
+            <sec id="Sec12">
+              <title>Conclusions</title>
+              <p id="Par32">We have shown, using the effect of breastfeeding on intelligence as an example, that latent change score models are susceptible to regression to the mean, and that this phenomenon may lead to contradictory results. This finding calls into question the reliability of earlier studies of breastfeeding and intelligence using observational data. As studies of breastfeeding and intelligence using stronger designs have shown weak and inconsistent results, we conclude that a causal effect of breastfeeding on intelligence is far from established.</p>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher’s Note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>Not applicable.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Authors’ contributions</title>
+              <p>KS, GN, MI, and BM conceived of the study; KS acquired data, carried out the statistical analyses and wrote an initial draft with support from GN; KS, GN, MI, and BM critically revised the manuscript; KS, GN, MI, and BM gave final approval for publication and agree to be held accountable for the work performed therein. All authors read and approved the final manuscript.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>Open access funding provided by Karolinska Institute. The authors received no specific funding for this study.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Availability of data and materials</title>
+              <p>The script and data are available at Open Science Framework at <ext-link ext-link-type="uri" xlink:href="https://osf.io/hnf8a/">https://osf.io/hnf8a/</ext-link>.</p>
+            </notes>
+            <notes>
+              <title>Declarations</title>
+              <notes id="FPar1">
+                <title>Ethics approval and consent to participate</title>
+                <p id="Par33">In the present study, we have used the openly accessible 1979 National Longitudinal Survey of Youth (NLSY79) dataset. No administrative permissions were required to access the raw data used in the present study. According to the homepage of the National Longitudinal Surveys (NLS, see link below), “The NLS program has established set procedures for ensuring respondent confidentiality and obtaining informed consent. These procedures comply with Federal law and the policies and guidelines of the U.S. Office of Management and Budget (OMB) and the U.S. Bureau of Labor Statistics . The U.S. Office of Management and Budget (OMB) reviews the procedures and questionnaires for each NLSY round”. <ext-link ext-link-type="uri" xlink:href="https://www.nlsinfo.org/content/cohorts/nlsy97/intro-to-the-sample/confidentiality-informed-consent">https://www.nlsinfo.org/content/cohorts/nlsy97/intro-to-the-sample/confidentiality-informed-consent</ext-link></p>
+              </notes>
+              <notes id="FPar2">
+                <title>Consent for publication</title>
+                <p id="Par34">Not applicable.</p>
+              </notes>
+              <notes id="FPar3" notes-type="COI-statement">
+                <title>Competing interests</title>
+                <p id="Par35">The authors declare that they have no competing interests.</p>
+              </notes>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Anderson</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                    <name>
+                      <surname>Johnstone</surname>
+                      <given-names>BM</given-names>
+                    </name>
+                    <name>
+                      <surname>Remley</surname>
+                      <given-names>DT</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Breast-feeding and cognitive development: a meta-analysis</article-title>
+                  <source>Am J Clin Nutr</source>
+                  <year>1999</year>
+                  <volume>70</volume>
+                  <fpage>525</fpage>
+                  <lpage>535</lpage>
+                  <pub-id pub-id-type="doi">10.1093/ajcn/70.4.525</pub-id>
+                  <pub-id pub-id-type="pmid">10500022</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Horta</surname>
+                      <given-names>BL</given-names>
+                    </name>
+                    <name>
+                      <surname>de Mola</surname>
+                      <given-names>CL</given-names>
+                    </name>
+                    <name>
+                      <surname>Victora</surname>
+                      <given-names>CG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Breastfeeding and intelligence: a systematic review and meta-analysis</article-title>
+                  <source>Acta Paediatr</source>
+                  <year>2015</year>
+                  <volume>104</volume>
+                  <fpage>14</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="doi">10.1111/apa.13139</pub-id>
+                  <pub-id pub-id-type="pmid">26211556</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hou</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Yan</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Impact of the duration of breastfeeding on the intelligence of children: a systematic review with network meta-analysis</article-title>
+                  <source>Breastfeed Med</source>
+                  <year>2021</year>
+                  <volume>16</volume>
+                  <fpage>687</fpage>
+                  <lpage>696</lpage>
+                  <pub-id pub-id-type="doi">10.1089/bfm.2020.0364</pub-id>
+                  <pub-id pub-id-type="pmid">34077234</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Strøm</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Mortensen</surname>
+                      <given-names>EL</given-names>
+                    </name>
+                    <name>
+                      <surname>Kesmodel</surname>
+                      <given-names>US</given-names>
+                    </name>
+                    <name>
+                      <surname>Halldorsson</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Olsen</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Olsen</surname>
+                      <given-names>SF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Is breast feeding associated with offspring IQ at age 5? Findings from prospective cohort: Lifestyle During Pregnancy Study</article-title>
+                  <source>BMJ Open</source>
+                  <year>2019</year>
+                  <volume>9</volume>
+                  <fpage>e023134</fpage>
+                  <pub-id pub-id-type="doi">10.1136/bmjopen-2018-023134</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Angelsen</surname>
+                      <given-names>NK</given-names>
+                    </name>
+                    <name>
+                      <surname>Vik</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Jacobsen</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Bakketeig</surname>
+                      <given-names>LS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Breast feeding and cognitive development at age 1 and 5 years</article-title>
+                  <source>Arch Dis Child</source>
+                  <year>2001</year>
+                  <volume>85</volume>
+                  <fpage>183</fpage>
+                  <lpage>188</lpage>
+                  <pub-id pub-id-type="doi">10.1136/adc.85.3.183</pub-id>
+                  <pub-id pub-id-type="pmid">11517096</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sajjad</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Tharner</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Kiefte-de Jong</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Jaddoe</surname>
+                      <given-names>VV</given-names>
+                    </name>
+                    <name>
+                      <surname>Hofman</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Verhulst</surname>
+                      <given-names>FC</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Breastfeeding duration and non-verbal IQ in children</article-title>
+                  <source>J Epidemiol Community Health</source>
+                  <year>2015</year>
+                  <volume>69</volume>
+                  <fpage>775</fpage>
+                  <lpage>781</lpage>
+                  <pub-id pub-id-type="doi">10.1136/jech-2014-204486</pub-id>
+                  <pub-id pub-id-type="pmid">25700532</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bouchard</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Lykken</surname>
+                      <given-names>DT</given-names>
+                    </name>
+                    <name>
+                      <surname>McGue</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Segal</surname>
+                      <given-names>NL</given-names>
+                    </name>
+                    <name>
+                      <surname>Tellegen</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sources of human psychological differences: the Minnesota study of twins reared apart</article-title>
+                  <source>Science</source>
+                  <year>1990</year>
+                  <volume>250</volume>
+                  <fpage>223</fpage>
+                  <lpage>228</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.2218526</pub-id>
+                  <pub-id pub-id-type="pmid">2218526</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bouchard</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>McGue</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Genetic and environmental influences on human psychological differences</article-title>
+                  <source>J Neurobiol</source>
+                  <year>2003</year>
+                  <volume>54</volume>
+                  <fpage>4</fpage>
+                  <lpage>45</lpage>
+                  <pub-id pub-id-type="doi">10.1002/neu.10160</pub-id>
+                  <pub-id pub-id-type="pmid">12486697</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Plomin</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Pedersen</surname>
+                      <given-names>NL</given-names>
+                    </name>
+                    <name>
+                      <surname>Lichtenstein</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>McClearn</surname>
+                      <given-names>GE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Variability and stability in cognitive abilities are largely genetic later in life</article-title>
+                  <source>Behav Genet</source>
+                  <year>1994</year>
+                  <volume>24</volume>
+                  <fpage>207</fpage>
+                  <lpage>215</lpage>
+                  <pub-id pub-id-type="doi">10.1007/BF01067188</pub-id>
+                  <pub-id pub-id-type="pmid">7945151</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Plomin</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Deary</surname>
+                      <given-names>IJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Genetics and intelligence differences: five special findings</article-title>
+                  <source>Mol Psychiatry</source>
+                  <year>2015</year>
+                  <volume>20</volume>
+                  <fpage>98</fpage>
+                  <lpage>108</lpage>
+                  <pub-id pub-id-type="doi">10.1038/mp.2014.105</pub-id>
+                  <pub-id pub-id-type="pmid">25224258</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Eriksen</surname>
+                      <given-names>HLF</given-names>
+                    </name>
+                    <name>
+                      <surname>Kesmodel</surname>
+                      <given-names>US</given-names>
+                    </name>
+                    <name>
+                      <surname>Underbjerg</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Kilburn</surname>
+                      <given-names>TR</given-names>
+                    </name>
+                    <name>
+                      <surname>Bertrand</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Mortensen</surname>
+                      <given-names>EL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Predictors of intelligence at the age of 5: family, pregnancy and birth characteristics, postnatal influences, and postnatal growth</article-title>
+                  <source>PLoS One</source>
+                  <year>2013</year>
+                  <volume>8</volume>
+                  <fpage>e79200</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0079200</pub-id>
+                  <pub-id pub-id-type="pmid">24236109</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Köhler</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Hartig</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Schmid</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Deciding between the covariance analytical approach and the change-score approach in two wave panel data</article-title>
+                  <source>Multivar Behav Res</source>
+                  <year>2021</year>
+                  <volume>56</volume>
+                  <fpage>447</fpage>
+                  <lpage>458</lpage>
+                  <pub-id pub-id-type="doi">10.1080/00273171.2020.1726723</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Galton</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Regression towards mediocrity in hereditary stature</article-title>
+                  <source>J Anthropol Inst G B Irel</source>
+                  <year>1886</year>
+                  <volume>15</volume>
+                  <fpage>246</fpage>
+                  <lpage>263</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Castro-Schilo</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Grimm</surname>
+                      <given-names>KJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using residualized change versus difference scores for longitudinal research</article-title>
+                  <source>J Soc Pers Relat</source>
+                  <year>2018</year>
+                  <volume>35</volume>
+                  <fpage>32</fpage>
+                  <lpage>58</lpage>
+                  <pub-id pub-id-type="doi">10.1177/0265407517718387</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Eriksson</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Häggström</surname>
+                      <given-names>O</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Lord’s paradox in a continuous setting and a regression artifact in numerical cognition research</article-title>
+                  <source>PLoS One</source>
+                  <year>2014</year>
+                  <volume>9</volume>
+                  <fpage>e95949</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0095949</pub-id>
+                  <pub-id pub-id-type="pmid">24752244</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Glymour</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                    <name>
+                      <surname>Weuve</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Berkman</surname>
+                      <given-names>LF</given-names>
+                    </name>
+                    <name>
+                      <surname>Kawachi</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Robins</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>When is baseline adjustment useful in analyses of change? An example with education and cognitive change</article-title>
+                  <source>Am J Epidemiol</source>
+                  <year>2005</year>
+                  <volume>162</volume>
+                  <fpage>267</fpage>
+                  <lpage>278</lpage>
+                  <pub-id pub-id-type="doi">10.1093/aje/kwi187</pub-id>
+                  <pub-id pub-id-type="pmid">15987729</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sorjonen</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Melin</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Ingre</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Predicting the effect of a predictor when controlling for baseline</article-title>
+                  <source>Educ Psychol Measur</source>
+                  <year>2019</year>
+                  <volume>79</volume>
+                  <fpage>688</fpage>
+                  <lpage>698</lpage>
+                  <pub-id pub-id-type="doi">10.1177/0013164418822112</pub-id>
+                  <pub-id pub-id-type="pmid">32655179</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Christenfeld</surname>
+                      <given-names>NJS</given-names>
+                    </name>
+                    <name>
+                      <surname>Sloan</surname>
+                      <given-names>RP</given-names>
+                    </name>
+                    <name>
+                      <surname>Carroll</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Greenland</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Risk factors, confounding, and the illusion of statistical control</article-title>
+                  <source>Psychosom Med</source>
+                  <year>2004</year>
+                  <volume>66</volume>
+                  <issue>6</issue>
+                  <fpage>868</fpage>
+                  <lpage>75</lpage>
+                  <pub-id pub-id-type="doi">10.1097/01.psy.0000140008.70959.41</pub-id>
+                  <pub-id pub-id-type="pmid">15564351</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>D’Onofrio</surname>
+                      <given-names>BM</given-names>
+                    </name>
+                    <name>
+                      <surname>Sjölander</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Lahey</surname>
+                      <given-names>BB</given-names>
+                    </name>
+                    <name>
+                      <surname>Lichtenstein</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Öberg</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Accounting for confounding in observational studies</article-title>
+                  <source>Annu Rev Clin Psychol</source>
+                  <year>2020</year>
+                  <volume>16</volume>
+                  <fpage>25</fpage>
+                  <lpage>48</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev-clinpsy-032816-045030</pub-id>
+                  <pub-id pub-id-type="pmid">32384000</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fewell</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Davey Smith</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Sterne</surname>
+                      <given-names>JAC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The impact of residual and unmeasured confounding in epidemiologic studies: a simulation study</article-title>
+                  <source>Am J Epidemiol</source>
+                  <year>2007</year>
+                  <volume>166</volume>
+                  <issue>6</issue>
+                  <fpage>646</fpage>
+                  <lpage>55</lpage>
+                  <pub-id pub-id-type="doi">10.1093/aje/kwm165</pub-id>
+                  <pub-id pub-id-type="pmid">17615092</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sorjonen</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Melin</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Ingre</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Accounting for expected adjusted effect</article-title>
+                  <source>Front Psychol</source>
+                  <year>2020</year>
+                  <volume>11</volume>
+                  <fpage>542082</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fpsyg.2020.542082</pub-id>
+                  <pub-id pub-id-type="pmid">33041911</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Westfall</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Yarkoni</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Statistically controlling for confounding constructs is harder than you think</article-title>
+                  <source>PLoS One</source>
+                  <year>2016</year>
+                  <volume>11</volume>
+                  <issue>3</issue>
+                  <fpage>e0152719</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0152719</pub-id>
+                  <pub-id pub-id-type="pmid">27031707</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ghisletta</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>McArdle</surname>
+                      <given-names>JJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Latent curve models and latent change score models estimated in R</article-title>
+                  <source>Struct Equ Modeling</source>
+                  <year>2012</year>
+                  <volume>19</volume>
+                  <fpage>651</fpage>
+                  <lpage>682</lpage>
+                  <pub-id pub-id-type="doi">10.1080/10705511.2012.713275</pub-id>
+                  <pub-id pub-id-type="pmid">25505366</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kievit</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                    <name>
+                      <surname>Brandmaier</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>Ziegler</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>van Harmelen</surname>
+                      <given-names>A-L</given-names>
+                    </name>
+                    <name>
+                      <surname>de Mooij</surname>
+                      <given-names>SMM</given-names>
+                    </name>
+                    <name>
+                      <surname>Moutoussis</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Developmental cognitive neuroscience using latent change score models: A tutorial and applications</article-title>
+                  <source>Dev Cogn Neurosci</source>
+                  <year>2018</year>
+                  <volume>33</volume>
+                  <fpage>99</fpage>
+                  <lpage>117</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.dcn.2017.11.007</pub-id>
+                  <pub-id pub-id-type="pmid">29325701</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McArdle</surname>
+                      <given-names>JJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Latent variable modeling of differences and changes with longitudinal data</article-title>
+                  <source>Annu Rev Psychol</source>
+                  <year>2009</year>
+                  <volume>60</volume>
+                  <fpage>577</fpage>
+                  <lpage>605</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev.psych.60.110707.163612</pub-id>
+                  <pub-id pub-id-type="pmid">18817479</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <mixed-citation publication-type="other">Sorjonen K, Melin B, Nilsonne G. Lord’s paradox in latent change score modeling: An example involving facilitating longitudinal effects between intelligence and academic achievement. Personal Individ Differ. 2022;189:111520.</mixed-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <mixed-citation publication-type="other">Sorjonen K, Nilsonne G, Melin B. Dangers of including outcome at baseline as a covariate in latent change score models. preprint. PsyArXiv; 2021.</mixed-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Der</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Batty</surname>
+                      <given-names>GD</given-names>
+                    </name>
+                    <name>
+                      <surname>Deary</surname>
+                      <given-names>IJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effect of breast feeding on intelligence in children: prospective study, sibling pairs analysis, and meta-analysis</article-title>
+                  <source>BMJ</source>
+                  <year>2006</year>
+                  <volume>333</volume>
+                  <fpage>945</fpage>
+                  <pub-id pub-id-type="doi">10.1136/bmj.38978.699583.55</pub-id>
+                  <pub-id pub-id-type="pmid">17020911</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>R Core Team</collab>
+                  </person-group>
+                  <source>R: A language and environment for statistical computing</source>
+                  <year>2021</year>
+                  <publisher-loc>Vienna</publisher-loc>
+                  <publisher-name>R Foundation for Statistical Computing</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rosseel</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>lavaan: An R package for structural equation modeling</article-title>
+                  <source>J Stat Softw</source>
+                  <year>2012</year>
+                  <volume>48</volume>
+                  <fpage>1</fpage>
+                  <lpage>36</lpage>
+                  <pub-id pub-id-type="doi">10.18637/jss.v048.i02</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Evenhouse</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Reilly</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Improved estimates of the benefits of breastfeeding using sibling comparisons to reduce selection bias</article-title>
+                  <source>Health Serv Res</source>
+                  <year>2005</year>
+                  <volume>40</volume>
+                  <fpage>1781</fpage>
+                  <lpage>1802</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1475-6773.2005.00453.x</pub-id>
+                  <pub-id pub-id-type="pmid">16336548</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kramer</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                    <name>
+                      <surname>Aboud</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Mironova</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Vanilovich</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Platt</surname>
+                      <given-names>RW</given-names>
+                    </name>
+                    <name>
+                      <surname>Matush</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Breastfeeding and child cognitive development: new evidence from a large randomized trial</article-title>
+                  <source>Arch Gen Psychiatry</source>
+                  <year>2008</year>
+                  <volume>65</volume>
+                  <fpage>578</fpage>
+                  <pub-id pub-id-type="doi">10.1001/archpsyc.65.5.578</pub-id>
+                  <pub-id pub-id-type="pmid">18458209</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Oken</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Hameza</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Doniger</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Amit</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Breastfeeding during infancy and neurocognitive function in adolescence: 16-year follow-up of the PROBIT cluster-randomized trial</article-title>
+                  <source>PLoS Med</source>
+                  <year>2018</year>
+                  <volume>15</volume>
+                  <fpage>e1002554</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pmed.1002554</pub-id>
+                  <pub-id pub-id-type="pmid">29677187</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Silberzahn</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Uhlmann</surname>
+                      <given-names>EL</given-names>
+                    </name>
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>DP</given-names>
+                    </name>
+                    <name>
+                      <surname>Anselmi</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Aust</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Awtrey</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Many analysts, one data set: making transparent how variations in analytic choices affect results</article-title>
+                  <source>Adv Methods Pract Psychol Sci</source>
+                  <year>2018</year>
+                  <volume>1</volume>
+                  <fpage>337</fpage>
+                  <lpage>356</lpage>
+                  <pub-id pub-id-type="doi">10.1177/2515245917747646</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Botvinik-Nezer</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Holzmeister</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Camerer</surname>
+                      <given-names>CF</given-names>
+                    </name>
+                    <name>
+                      <surname>Dreber</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Huber</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Johannesson</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Variability in the analysis of a single neuroimaging dataset by many teams</article-title>
+                  <source>Nature</source>
+                  <year>2020</year>
+                  <volume>582</volume>
+                  <fpage>84</fpage>
+                  <lpage>88</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41586-020-2314-9</pub-id>
+                  <pub-id pub-id-type="pmid">32483374</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

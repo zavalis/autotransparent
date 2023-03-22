@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:02:19Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8237657" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8237657</identifier>
+        <datestamp>2021-07-03</datestamp>
+        <setSpec>pnas</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" xml:lang="en" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Proc Natl Acad Sci U S A</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Proc Natl Acad Sci U S A</journal-id>
+              <journal-id journal-id-type="hwp">pnas</journal-id>
+              <journal-id journal-id-type="publisher-id">PNAS</journal-id>
+              <journal-title-group>
+                <journal-title>Proceedings of the National Academy of Sciences of the United States of America</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0027-8424</issn>
+              <issn pub-type="epub">1091-6490</issn>
+              <publisher>
+                <publisher-name>National Academy of Sciences</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8237657</article-id>
+              <article-id pub-id-type="pmcid">PMC8237657</article-id>
+              <article-id pub-id-type="pmc-uid">8237657</article-id>
+              <article-id pub-id-type="pmid">34161276</article-id>
+              <article-id pub-id-type="pmid">34161276</article-id>
+              <article-id pub-id-type="publisher-id">202026099</article-id>
+              <article-id pub-id-type="doi">10.1073/pnas.2026099118</article-id>
+              <article-categories>
+                <subj-group subj-group-type="hwp-journal-coll">
+                  <subject>431</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Social Sciences</subject>
+                  <subj-group>
+                    <subject>Psychological and Cognitive Sciences</subject>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Attention, awareness, and the right temporoparietal junction</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4080-5386</contrib-id>
+                  <name>
+                    <surname>Wilterson</surname>
+                    <given-names>Andrew I.</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">
+                    <sup>a</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7013-5275</contrib-id>
+                  <name>
+                    <surname>Nastase</surname>
+                    <given-names>Samuel A.</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>b</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bio</surname>
+                    <given-names>Branden J.</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">
+                    <sup>a</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3694-1318</contrib-id>
+                  <name>
+                    <surname>Guterstam</surname>
+                    <given-names>Arvid</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">
+                    <sup>a</sup>
+                  </xref>
+                  <xref rid="aff3" ref-type="aff">
+                    <sup>c</sup>
+                  </xref>
+                  <xref rid="aff4" ref-type="aff">
+                    <sup>d</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7727-3475</contrib-id>
+                  <name>
+                    <surname>Graziano</surname>
+                    <given-names>Michael S. A.</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">
+                    <sup>a</sup>
+                  </xref>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>b</sup>
+                  </xref>
+                  <xref rid="cor1" ref-type="corresp">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <aff id="aff1"><sup>a</sup>Department of Psychology, <institution>Princeton University</institution>, Princeton, <addr-line>NJ</addr-line> 08544;</aff>
+                <aff id="aff2"><sup>b</sup>Princeton Neuroscience Institute, <institution>Princeton University</institution>, Princeton, <addr-line>NJ</addr-line> 08544;</aff>
+                <aff id="aff3"><sup>c</sup>Department of Clinical Neuroscience, <institution>Karolinska Institutet</institution>, 171 77 Solna, Stockholm, <country>Sweden</country>;</aff>
+                <aff id="aff4"><sup>d</sup>Department of Neurology, <institution>Karolinska University Hospital</institution>, 171 77 Solna, Stockholm, <country>Sweden</country></aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="cor1"><sup>1</sup>To whom correspondence may be addressed. Email: <email>graziano@princeton.edu</email>.</corresp>
+                <fn fn-type="edited-by">
+                  <p>Edited by Michael E. Goldberg, Columbia University, New York, NY, and approved May 7, 2021 (received for review December 30, 2020)</p>
+                </fn>
+                <fn fn-type="con">
+                  <p>Author contributions: A.I.W. and M.S.A.G. designed research; A.I.W. and B.J.B. performed research; A.I.W., S.A.N., A.G., and M.S.A.G. analyzed data; and A.I.W. and M.S.A.G. wrote the paper.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="ppub">
+                <day>22</day>
+                <month>6</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>14</day>
+                <month>6</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>14</day>
+                <month>6</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>118</volume>
+              <issue>25</issue>
+              <elocation-id>e2026099118</elocation-id>
+              <permissions>
+                <copyright-statement>Copyright © 2021 the Author(s). Published by PNAS.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+                  <license-p>This open access article is distributed under <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0 (CC BY-NC-ND)</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:title="pdf" xlink:href="pnas.202026099.pdf"/>
+              <abstract abstract-type="executive-summary">
+                <title>Significance</title>
+                <p>We all intuitively know what it is to be subjectively aware of something. For decades, psychologists have also studied the brain’s mechanisms of directing attention. But awareness and attention are not the same and can be separated. How do they relate? Here, we show that a part of the brain, the right temporoparietal junction, may be involved in a specific relationship in which awareness of an item permits the control of attention on that item.</p>
+              </abstract>
+              <abstract>
+                <p>The attention schema theory posits a specific relationship between subjective awareness and attention, in which awareness is the control model that the brain uses to aid in the endogenous control of attention. In previous experiments, we developed a behavioral paradigm in human subjects to manipulate awareness and attention. The paradigm involved a visual cue that could be used to guide attention to a target stimulus. In task 1, subjects were aware of the cue, but not aware that it provided information about the target. The cue measurably drew exogenous attention to itself. In addition, implicitly, the subjects’ endogenous attention mechanism used the cue to help shift attention to the target. In task 2, subjects were no longer aware of the cue. The cue still measurably drew exogenous attention to itself, yet without awareness of the cue, the subjects’ endogenous control mechanism was no longer able to use the cue to control attention. Thus, the control of attention depended on awareness. Here, we tested the two tasks while scanning brain activity in human volunteers. We predicted that the right temporoparietal junction (TPJ) would be active in relation to the process in which awareness helps control attention. This prediction was confirmed. The right TPJ was active in relation to the effect of the cue on attention in task 1; it was not measurably active in task 2. The difference was significant. In our interpretation, the right TPJ is involved in an interaction in which awareness permits the control of attention.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>attention</kwd>
+                <kwd>awareness</kwd>
+                <kwd>temporoparietal junction</kwd>
+                <kwd>predictive modeling</kwd>
+                <kwd>fMRI</kwd>
+              </kwd-group>
+              <counts>
+                <page-count count="10"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="s1">
+              <title>The Attention Schema Theory</title>
+              <p content-type="flushleft">The attention schema theory (AST) relates attention to subjective awareness (<xref rid="r1" ref-type="bibr">1</xref><xref rid="r2" ref-type="bibr"/><xref rid="r3" ref-type="bibr"/>–<xref rid="r4" ref-type="bibr">4</xref>). In the theory, although attention and awareness are not the same and can vary independently, they do have a specific cognitive relationship to each other. Awareness permits the control of attention. In this introduction, we first briefly summarize the theory and then describe a specific set of experiments that tested some of its predictions.</p>
+              <p>Psychology and neuroscience distinguish between many categories and subcategories of attention: arousal versus selective attention, exogenous and endogenous attention, spatial and feature attention, and so on. AST concerns the kind of attention that requires a complex control of allocation, namely, selective attention to particular locations, features, or other items. Selective attention, classically, can be drawn to an item exogenously (such as by a sudden movement that automatically attracts attention) or can be directed endogenously (such as when a person searches a scene, directing attention from item to item). Often, of course, attention shifts as a result of both processes. AST proposes that the brain constructs an internal model of selective attention, a constantly updating set of information that describes and monitors the current state of attention, predicts how that state may transition into future states, and predicts consequences of attention on behavior, decision-making, and memory (<xref rid="r1" ref-type="bibr">1</xref><xref rid="r2" ref-type="bibr"/><xref rid="r3" ref-type="bibr"/>–<xref rid="r4" ref-type="bibr">4</xref>). This attention schema is both descriptive and predictive and is the brain’s simplified self-account of attention. The model is used to help control attention. In a similar manner, the motor system controls the arm with the help of an internal model of the arm, a part of what is sometimes called the body schema (<xref rid="r5" ref-type="bibr">5</xref><xref rid="r6" ref-type="bibr"/>–<xref rid="r7" ref-type="bibr">7</xref>).</p>
+              <p>If such a model of attention exists, would people be able to gain cognitive access to it, just as we can gain at least some cognitive access to the body schema? And if we do so, what would that internal information lead us to verbally claim about ourselves? According to AST, when we claim to have subjective awareness, the claim stems from the descriptive information present within the attention schema. We are, in effect, describing our own attention, filtered through the brain’s slightly schematized way of representing attention. Logically, all claims that we make about ourselves must be dependent on information in the brain. Thus, our claim to have subjective awareness must derive from an internal information set. AST proposes a specific information set as the source for that claim: an internal, schematic model of attention. Many alternative theories of consciousness follow a different approach, proposing that a process in the brain causes a nonphysical feeling to emerge. In our approach, instead, information in the brain causes the system to formulate conclusions about itself. Our approach avoids nonscientific magical or nonphysical feelings (<xref rid="r1" ref-type="bibr">1</xref><xref rid="r2" ref-type="bibr"/><xref rid="r3" ref-type="bibr"/>–<xref rid="r4" ref-type="bibr">4</xref>).</p>
+              <p>One of the lines of reasoning to lead to AST involves the known close relationship between awareness and attention. The two are in some ways similar phenomena and often, though not always, covary (<xref rid="r4" ref-type="bibr">4</xref>). Yet attention is a physical, mechanistic process of selective data enhancement in the brain that can be objectively measured, whereas awareness is an intangible property that we only know about personally and that we attest to. According to AST, the reason for this relationship between awareness and attention is that our introspective understanding of awareness, and our belief that we have it, is based on an information set in the brain that depicts attention. The reason why we typically understand awareness to be a nonphysical, ethereal essence is because the brain’s model of attention is impoverished, schematic, and lacking in any details about the physical mechanisms of attention. The reason why awareness usually tracks attention is that it serves as a model of attention, much as the brain’s model of the arm typically tracks the physical arm and dissociates only when the model makes an error. In cases when awareness and attention are dissociated (such as when a person attends to a stimulus but is unaware of it), in this interpretation, the model is in error and has become misaligned from actual attention. The practical consequence of that misalignment, according to AST, is that, with an inaccurate control model, the endogenous control of attention should be impaired. AST is therefore a testable, falsifiable theory. Its central contention is that awareness is the control model for attention. If awareness of item X is compromised, and the endogenous control of attention with respect to item X is normal, then AST is falsified. When awareness is compromised, many functional capabilities are known to remain—but does the endogenous control of attention remain or disappear?</p>
+              <p>To test the relationship between attention and awareness, we recently conducted a series of behavioral experiments (<xref rid="r8" ref-type="bibr">8</xref>). We used a visual attention paradigm in which exogenous attention, endogenous attention, and awareness could be manipulated separately in human subjects. In the task, a visual cue statistically predicted the location of a subsequent visual target. In one version of the task (here called task 1), the cue was colored red, and the subjects were aware of the cue. In that version, subjects’ attention was initially exogenously drawn to the cue, and the subjects were successfully able to endogenously shift attention from the cue to the nearby location where the target was anticipated to appear.</p>
+              <p>In a second version of the task (here called task 2), the cue was colored black, which caused it to be masked, such that subjects were unaware of it. In that condition, although the cue had an impact on subjects, drawing measurable exogenous attention to itself (<xref rid="r8" ref-type="bibr">8</xref>), the subjects were severely impaired at endogenously shifting attention from the cue to the predicted location. Crucially, in neither task 1 nor task 2, did subjects explicitly know that their attention was being manipulated or that the cue predicted the location of the target. No explicit strategy or reasoning was involved in either task. Rather, awareness of the cue enabled an implicit ability to control and shift attention from the cue to a nearby location, and a lack of awareness of the cue prevented that implicit ability.</p>
+              <p>The findings were interpreted as supporting AST. In the theory, awareness of the cue served as the brain’s internal model of attention on the cue. Absent that model—absent any information about the attention that had been exogenously drawn to the cue—the controller could no longer shift that focus of attention in a controlled manner. The task would be as difficult as shifting the arm in a controlled manner if the body schema had failed to inform the system where the arm currently is.</p>
+              <p>Tasks 1 and 2, therefore, put AST to a stringent test. In the presence of awareness of the cue, people can endogenously control the attention that is on the cue, shifting it appropriately (task 1). In the absence of awareness of the cue, people can no longer endogenously control or adjust their attention on the cue in the same manner (task 2).</p>
+              <p>Other behavioral experiments also suggest that without an awareness of stimulus X, although attention can be exogenously drawn to X, the endogenous control of that attention on X is impaired. One study showed that, without an awareness of stimulus X, one’s attention may be briefly, exogenously drawn to X but cannot be strategically sustained on X, even when X is task relevant; in that case, without awareness, attention dissipated and became less than it should have been for the task (<xref rid="r9" ref-type="bibr">9</xref>). Another study showed that without an awareness of stimulus X, when exogenous attention is drawn to X, one cannot strategically suppress that attention, even when X is a distractor that is best ignored; in that case, without awareness, attention was higher than it should have been for the task (<xref rid="r10" ref-type="bibr">10</xref>). Together, these previous behavioral experiments support the central proposal of AST that awareness is a control model for attention. The model provides information about what attention is doing and what it is likely to do next, such that attention on an item can be endogenously controlled—sustained, adjusted up or down, or shifted away, as needed—and without awareness of the item, while other processes often remain and attention itself can remain, the endogenous control of attention is impaired.</p>
+              <p>One of the challenges in consciousness research is that being conscious of something does not have many experimentally demonstrable benefits. Without subjective awareness of an object, people can still react to it. Under some circumstances, they can point to it, avoid walking into it, and have their decisions and words influenced by it. Given the range of abilities outside awareness, does awareness have any definite purpose? Why can we not behave like complex, intelligent agents without any subjective awareness? We suggest that, without awareness of an item, the control of attention with respect to that item collapses. When the control of attention collapses, our behavior collapses. Creating a cognitive plan and executing it—like getting the jelly from the fridge, the knife from the drawer, and spreading the jelly on a slice of bread—requires a controlled, sequential movement of attention from one item to the next. Intelligent agency depends on the strategic control of attention, and AST gives a precise account of how the control of attention in turn depends on awareness.</p>
+            </sec>
+            <sec id="s2">
+              <title>Identifying Brain Networks Related to the Attention Schema</title>
+              <p content-type="flushleft">The behavioral experiments therefore suggest that AST makes accurate predictions about the relationship between awareness and attention. Awareness permits the well-regulated control of attention. Can evidence of this process be found in specific networks in the brain? The purpose of the present two experiments was to try to specify activity in the brain associated with constructing predictive models for the purpose of controlling attention. The experiments should not be taken as an overarching test of AST but as a way to test one corner of the theory.</p>
+              <p>In experiment 1, volunteers performed a version of task 1 in a functional MRI (fMRI) scanner. To explain the logic of the experiment, some of the details must be outlined here (see <xref rid="s3" ref-type="sec"><italic toggle="yes">Methods</italic></xref> for more task details). On each trial, a salient red cue appeared, followed 500 ms later by a target stimulus. Participants responded to the target as quickly as possible. On most trials (85%), the target appeared 3.5° to one side of the cue (termed “predicted trials”). On fewer trials (15%), the target appeared 3.5° to the other side of the cue (“nonpredicted trials”). Whether the predicted side was to the right or left of the cue was counterbalanced between subjects. In our previous study (<xref rid="r8" ref-type="bibr">8</xref>) and the present one, participants reacted more quickly to targets on the predicted side. By implication, the following events occurred: Attention was automatically, exogenously drawn to the cue; subjects endogenously shifted attention to the predicted side of the cue in anticipation of the upcoming target; on predicted trials, the target then appeared at the predicted location, and subjects could react to the target rapidly; and on nonpredicted trials, the target appeared at the nonpredicted location, and a corrective attention shift was required, causing an increase in response latency.</p>
+              <p>In our previous behavioral studies using this task (<xref rid="r8" ref-type="bibr">8</xref>), and the present study, we found that subjects were unaware of the predictive relationship between the cue and the target. They did not realize that they were endogenously shifting attention to a predicted location. Yet this implicit learning was robust and occurred quickly, within fewer than 50 trials. The attention control mechanism evidently rapidly learned to predict where to move attention. In this paradigm, on every trial that the target appeared at the nonpredicted location, the attention control mechanism was faced with a violation of its own prediction. We argue that whatever mechanism performs the task of learning and updating that predictive model, when it is faced with a violation of the model, it will likely react. Based on the error signal, it may reevaluate or incrementally update the model. Thus, brain networks involved in constructing the predictive model should be more active on nonpredicted trials than on predicted trials. The crucial comparison in experiment 1 is therefore a subtraction between nonpredicted and predicted trials. Brain areas that show greater activity in nonpredicted than in predicted trials are candidates for constructing a predictive model that is used to guide attention, because they react to an error indicating that the predictive model has failed and needs to be updated.</p>
+              <p>In experiment 2, subjects performed a version of task 2 in the scanner. In task 2, the visual cue was black instead of red, causing it to be masked, such that subjects were no longer visually aware of it (<xref rid="r8" ref-type="bibr">8</xref>, <xref rid="r11" ref-type="bibr">11</xref>). Prior experiments showed that the cue, though outside awareness, could still draw exogenous attention to itself (<xref rid="r8" ref-type="bibr">8</xref>). It affected the subjects. However, without awareness of the cue, reaction times were similar whether the target appeared to the predicted or nonpredicted side. By implication, without awareness of the cue, the attention control system could no longer construct a predictive model to guide attention. We argued, therefore, that brain areas involved in constructing a predictive model, and using that model to control attention, should satisfy two constraints: They should be sensitive to the difference between predicted and nonpredicted trials in task 1, and they should be insensitive to that difference in task 2.</p>
+              <p>We previously suggested (<xref rid="r1" ref-type="bibr">1</xref>, <xref rid="r2" ref-type="bibr">2</xref>) that the temporoparietal junction (TPJ), especially the right TPJ, may play a central role in constructing an attention schema and using it to aid in the control of attention. This proposal was based on the suggestion that a part of the brain known to be involved in constructing models of other people’s attention (during social cognition) may also be involved in constructing models of one’s own attention (<xref rid="r1" ref-type="bibr">1</xref>, <xref rid="r12" ref-type="bibr">12</xref><xref rid="r13" ref-type="bibr"/><xref rid="r14" ref-type="bibr"/><xref rid="r15" ref-type="bibr"/><xref rid="r16" ref-type="bibr"/>–<xref rid="r17" ref-type="bibr">17</xref>). Moreover, damage to the right TPJ can lead to severe forms of hemispatial neglect, a clinical disruption of attention and awareness (<xref rid="r18" ref-type="bibr">18</xref>, <xref rid="r19" ref-type="bibr">19</xref>), and many fMRI studies indicate a role of the right TPJ in attention (<xref rid="r20" ref-type="bibr">20</xref><xref rid="r21" ref-type="bibr"/><xref rid="r22" ref-type="bibr"/><xref rid="r23" ref-type="bibr"/><xref rid="r24" ref-type="bibr"/><xref rid="r25" ref-type="bibr"/><xref rid="r26" ref-type="bibr"/>–<xref rid="r27" ref-type="bibr">27</xref>). The right TPJ is likely to be only one part of a larger network involved in these processes, but we focused our predictions on it because of the greater degree of information available about it.</p>
+              <p>A straightforward set of predictions emerges. In experiment 1, in which awareness of the cue allows the brain to predictively control attention, the right TPJ should become active in association with violations of the predictive model (thus more activity in nonpredicted trials than in predicted trials). In task 2, in which awareness of the cue is removed and as a result the brain no longer uses it to predictively control attention, the right TPJ should no longer show that specific activity difference between predicted and nonpredicted trials. Such a finding would suggest that the right TPJ is involved in making and updating predictions used in the control of attention. Other interpretations of activity in the right TPJ during similar attention tasks have been proposed (<xref rid="r20" ref-type="bibr">20</xref><xref rid="r21" ref-type="bibr"/><xref rid="r22" ref-type="bibr"/><xref rid="r23" ref-type="bibr"/><xref rid="r24" ref-type="bibr"/><xref rid="r25" ref-type="bibr"/><xref rid="r26" ref-type="bibr"/><xref rid="r27" ref-type="bibr"/>–<xref rid="r28" ref-type="bibr">28</xref>). In the <xref rid="s19" ref-type="sec"><italic toggle="yes">Discussion</italic></xref>, we consider how the details of the present two tasks constrain the interpretations.</p>
+            </sec>
+            <sec sec-type="methods" id="s3">
+              <title>Methods</title>
+              <sec id="s4">
+                <title>Subjects.</title>
+                <p>All subjects provided informed consent and all procedures were approved by the Princeton Institutional Review Board. For experiment 1 (in which subjects performed task 1), 21 subjects were tested (18 to 26 y old, 14 women, normal or corrected-to-normal vision, and all right handed). One was excluded for poor performance (&lt; 80% of trials correct). One was excluded because of excessive movement during the scan. One was excluded for explicitly noticing an aspect of the task that was intended to be implicit (see <xref rid="s11" ref-type="sec"><italic toggle="yes">Results for Experiment 1</italic></xref>). Thus, 18 subjects were included in the final analysis for experiment 1. Experiment 2 (in which subjects performed task 2) included 20 new subjects, untested in experiment 1 (18 to 52 y old, 13 women, normal or corrected-to-normal vision, and all right handed). One was excluded for falling asleep. Two were excluded for excessive movement during the scan. Thus, 17 subjects were included in the final analysis for experiment 2.</p>
+              </sec>
+              <sec id="s5">
+                <title>Tasks.</title>
+                <p>Stimuli were projected with the Hyperion MRI Digital Projection System (Psychology Software Tools) at the end of the scanner bore. Each subject lay face up on the scanner bed with foam surrounding the head to reduce head movements and earplugs to reduce noise. All stimuli were developed and presented using the MATLAB psychophysics toolbox (<xref rid="r29" ref-type="bibr">29</xref>, <xref rid="r30" ref-type="bibr">30</xref>). Subjects used a button box held in the right hand for behavioral responses.</p>
+                <p>Task 1 (performed in experiment 1) differed from task 2 (performed in experiment 2) in that subjects were subjectively aware of the cue in task 1 and not in task 2. To achieve this difference, the color of the cue was red in task 1 (thus visible despite the mask) and black in task 2 (thus successfully masked). Moreover, in task 1 during the initial instructions, as the stimuli were explained to the subjects, the cue and all other visible stimuli were explicitly pointed out, whereas in task 2, which was run on a separate set of subjects, during the initial instructions, all stimuli except the (perceptually invisible) cue were explicitly pointed out. Thus, the subjective invisibility of the cue in task 2 was ensured. In other respects, the behavioral tasks were the same in the two experiments.</p>
+                <p>Before running any trials, subjects were instructed outside the scanner on the task and given 20 practice trials. Practice was repeated if subjects scored under 80% accuracy on the first attempt.</p>
+                <p><xref rid="fig01" ref-type="fig">Fig. 1</xref> shows task 1. The display screen was initially a neutral gray. First, a fixation point (a 0.7° black circle) was shown at the center. Subjects were instructed to fixate on the point and to maintain fixation throughout the trial. After 1,200 ms, the cue appeared at a peripheral location. The cue was an annulus (inner diameter 2.75° and outer diameter 3.0°). The cue could be in any of 10 possible locations around the screen. The gray circles in <xref rid="fig01" ref-type="fig">Fig. 1</xref>, panel 2 illustrate possible locations of the cue (spaced 3.5° apart from each other laterally and 7.0° vertically). In task 1, the annulus was bright red as shown in <xref rid="fig01" ref-type="fig">Fig. 1</xref>. In task 2, the annulus was black.</p>
+                <fig position="float" fig-type="featured" id="fig01">
+                  <label>Fig. 1.</label>
+                  <caption>
+                    <p>Paradigm for task 1. Subjects in experiment 1 performed task 1. Subjects in experiment 2 performed task 2. The tasks were similar, except for the color of the cue (red in task 1 and black in task 2). After the fixation point appeared, the cue appeared in 1 of 10 possible locations. Gray circles in panel 2 show possible locations for the cue and were not visible to the subject. A mask of black distractor circles then appeared in a 5 × 7 grid. The target then appeared. The target could be in one of only two possible locations relative to the cue. It either appeared one grid location to the right of where the cue had been (as shown) or one grid location to the left of where the cue had been. One of these positions relative to the cue was defined as the predicted side and occurred on 85% of trials; the other was defined as the nonpredicted side and occurred on 15% of trials. Whether the predicted side was to the right or left of the cue was counterbalanced between subjects. Subjects discriminated the slant of the target in a reaction-time task.</p>
+                  </caption>
+                  <graphic xlink:href="pnas.2026099118fig01" id="gra1" position="float"/>
+                </fig>
+                <p>After 35 ms, the cue disappeared and a visual mask in the form of an array of black annuli was presented, each the same size and shape as the cue, and arranged in a 7 × 7 grid at 3.5° spacing, excluding only the central position (<xref rid="fig01" ref-type="fig">Fig. 1</xref>, panel 3). In task 1, the initial cue stimulus, being red, was visible to subjects, despite the subsequent array of black annuli. In task 2, the initial cue stimulus, being black, was perceptually invisible, backward masked by the subsequent array of black annuli. The effectiveness of the masking was confirmed in the present experiment, as described in <italic toggle="yes">Results for Experiment 1</italic>, and has also been confirmed in previous studies (<xref rid="r8" ref-type="bibr">8</xref>, <xref rid="r11" ref-type="bibr">11</xref>).</p>
+                <p>After another 465 ms (500 ms after the onset of the cue), the target stimulus was added to the display. The target stimulus could appear at one of two locations in relation to the cue: either one grid position (3.5°) to the left of the where the cue had been presented or one grid position to the right. In <xref rid="fig01" ref-type="fig">Fig. 1</xref>, the target is shown one grid location to the right of the cue. The target stimulus consisted of a thin white line visible against the neutral gray background, centered in the black annulus. The line was angled 10° from vertical, tilted either to the left or right. In <xref rid="fig01" ref-type="fig">Fig. 1</xref>, the target is shown tilted toward the right. For each subject, one direction was chosen as the predicted, or more frequently presented, direction. For example, if the predicted direction was to the right, then the target appeared to the right of the cue on 85% of trials (called predicted trials) and to the left of the cue on 15% of trials (called nonpredicted trials). Whether the predicted direction was to the right or left was counterbalanced across subjects.</p>
+                <p>After 80 ms, the target stimulus disappeared. After another 200 ms, all stimuli disappeared, including the black annuli and the fixation point. The screen then remained a blank, neutral gray until the subject’s response was given or until the response window timed out after another 720 ms, as detailed next.</p>
+                <p>Subjects were instructed to respond as quickly as possible after the onset of the target by pressing one key if the target was tilted to the left and a different key if it was tilted to the right. Subjects were allowed a response window of 1,000 ms (80 ms of target stimulus presentation, 200 ms while the black annuli remained on screen, and 720 ms of blank screen). The limited response window was intended to encourage a speeded response. After the response window, a variable, intertrial interval (1,000 to 3,000 ms), was presented during which the screen was blank. Then the next trial began with the presentation of the fixation point.</p>
+              </sec>
+              <sec id="s6">
+                <title>Asking Subjects about Awareness of Task Events.</title>
+                <p>During the instruction period, before the experiment and outside the scanner in experiment 1 (in which task 1 was performed), each visible stimulus was explicitly pointed out to subjects, including the red (clearly visible) cue, to ensure that subjects were indeed aware of the cue as intended. They were never told that the target was more likely to appear on one predicted side of the cue or that the cue was relevant to the task in any way. In experiment 2 (in which task 2 was performed), during the instructions, the black (masked and invisible) cue was not pointed out, although all other stimuli were. Pointing out the cue in task 1, and not pointing out the cue in task 2, was part of the manipulation to ensure that subjects were aware of it in task 1 and not in task 2.</p>
+                <p>Furthermore, different subjects were tested in the two experiments to ensure that the subjects performing task 2 were naïve to the cue and had no explicit knowledge that a cue was being presented. Subjects who know that a cue may be presented on some trials are primed to look for one and may be more likely to become aware of the masked cue. Moreover, interleaving aware and unaware trials presents a difficulty in testing whether the masking was successful. If subjects are asked at the end of each trial whether they saw the cue, then the cue becomes the target of a decision and a response, altering the attention and awareness that attaches to the cue (<xref rid="r9" ref-type="bibr">9</xref>). In contrast, by separating subjects into two groups, one group presented with the visible cue (task 1) and the other group presented with the masked cue (task 2), we could better ensure that subjects in the first group were aware of the cue and that subjects in the second group remained unaware of it throughout testing.</p>
+                <p>In experiment 1, after completing the task 1, subjects were given a verbal posttest questionnaire. They were asked, “Did you consistently see the red circular cue during each trial?” Subjects were also asked, “Did you notice any pattern or relationship between the cue and the target stimulus?” Finally, if they did not offer the correct relationship, they were asked, “Did you notice that the target tended to appear more often to one side of the cue, and do you know which that most frequent side was?” Their yes or no answers were recorded. In experiment 2, after completing task 2, subjects were asked, “Did you notice anything about the experiment that was not explained in the instructions?” They were then asked, “Did you see a small black circle appearing before the larger set of back circles?” They were then shown a reduced-speed example of a trial, in which the black cue was clearly visible, and asked, “Did you see anything that looked like this small black circle, appearing before the larger set of circles, during any of the trials?”</p>
+              </sec>
+              <sec id="s7">
+                <title>Experimental Design and Analysis of Behavioral Data.</title>
+                <p>The task included the following randomly, interleaved trial types. The cue could be located at any of 10 possible grid locations. The target could be one grid location to the left of the cue or one grid location to the right. The target could be tilted toward the left or right. This 10 × 2 × 2 design resulted in 40 trial types. Although all trial types were presented, for purposes of analysis, they were collapsed into two main conditions: The target could be presented either to the left or right of the cue. Trials were not presented in equal proportions. The target was presented to the predicted side of the cue on 85% of trials and to the nonpredicted side on 15% of trials. In all other respects, trial types were counterbalanced. Whether the predicted direction was to the right or left was counterbalanced across subjects. Each subject performed 600 trials, in 10 scanning runs of 60 trials each.</p>
+                <p>For each subject, we calculated a mean difference of reaction times: ΔRT = (mean reaction time in nonpredicted trials − mean reaction time in predicted trials). Thus, each subject received a single ΔRT score representing the attention effect. A positive score indicated that attention was directed to the predicted side of the cue. The reaction-time analysis included data only from trials in which subjects responded correctly to the target. The pattern of results was not meaningfully changed when all trials were included. A <italic toggle="yes">t</italic> test (two tailed) was performed to determine whether the mean ΔRT among subjects was significantly greater than zero.</p>
+                <p>Accuracy data (percent correct) is also provided in the <xref rid="s11" ref-type="sec"><italic toggle="yes">Results for Experiment 1</italic></xref> and <xref rid="s15" ref-type="sec"><italic toggle="yes">Results for Experiment 2</italic></xref>. However, accuracy was close to ceiling (&gt; 98% average among subjects in task 1 and &gt; 97% in task 2) and therefore proved to be an insensitive measure compared with reaction time, consistent with results from our previous experiments using the same paradigm (<xref rid="r8" ref-type="bibr">8</xref>).</p>
+              </sec>
+              <sec id="s8">
+                <title>MRI Data Collection.</title>
+                <p>Functional imaging data were collected using a Siemens Prisma 3T scanner equipped with a 64-channel head coil. Gradient echo T2*-weighted echo planar images (EPI) with blood oxygen level–dependent (BOLD) contrast were used as an index of brain activity (<xref rid="r31" ref-type="bibr">31</xref>). Functional image volumes were composed of 42 near-axial slices with a thickness of 3 mm (with no interslice gap), which ensured that the entire brain excluding the cerebellum, was within the field of view in all subjects (64 × 64 matrix, 3 × 3 mm in-plane resolution, TE = 30 ms, and flip angle = 70°). Simultaneous multislice (SMS) acceleration was used (SMS factor = 2). One complete volume was collected every 1,500 ms (TR = 1,500 ms). A total of 2,150 functional volumes were collected for each participant in the main experiment and divided into 10 runs (215 volumes per run). The first five volumes of each run were discarded to account for non–steady-state magnetization. A high-resolution structural image was acquired for each participant at the beginning of the experiment (3D MPRAGE sequence, voxel size = 1 mm isotropic, FOV = 256 mm, 176 slices, TR = 2,300 ms, TE = 2.98 ms, TI = 900 ms, flip angle = 9°, and iPAT GRAPPA = 2). At the end of each scanning session, matching spin echo EPI pairs (anterior to posterior and posterior to anterior) were acquired for blip-up/blip-down field map correction. Subjects completed 10 functional scanning runs, each of 322.5 s (5 min and 22.5 s) duration (consisting of 60 trials). Brief breaks were given between functional scans, although subjects were encouraged to remain as still as possible even during the breaks. Total scanning time for each subject was about 60 min.</p>
+              </sec>
+              <sec id="s9">
+                <title>MRI Preprocessing.</title>
+                <p>Results included in this manuscript come from preprocessing performed using fMRIPrep version 1.2.3 (<xref rid="r32" ref-type="bibr">32</xref>) (RRID: <ext-link xlink:href="https://scicrunch.org/resolver/RRID:SCR_016216" ext-link-type="uri">SCR_016216</ext-link>), a Nipype (<xref rid="r33" ref-type="bibr">33</xref>) (RRID: <ext-link xlink:href="https://scicrunch.org/resolver/RRID:SCR_002502" ext-link-type="uri">SCR_002502</ext-link>) based tool. Each T1-weighted (T1w) volume was corrected for intensity nonuniformity using N4BiasFieldCorrection version 2.2.0 (<xref rid="r34" ref-type="bibr">34</xref>) and skull stripped using antsBrainExtraction.sh version 2.2.0 (using the OASIS template) (<xref rid="r35" ref-type="bibr">35</xref>) (RRID: <ext-link xlink:href="https://scicrunch.org/resolver/RRID:SCR_004757" ext-link-type="uri">SCR_004757</ext-link>). Spatial normalization to the ICBM 152 Nonlinear Asymmetrical template version 2009c (<xref rid="r36" ref-type="bibr">36</xref>) (RRID: <ext-link xlink:href="https://scicrunch.org/resolver/RRID:SCR_008796" ext-link-type="uri">SCR_008796</ext-link>) was performed through nonlinear registration with the antsRegistration tool of Advanced Normalization Tools (ANTs) version 2.2.0 using brain-extracted versions of both T1w volume and template. Brain tissue segmentation of cerebrospinal fluid, white matter, and gray matter was performed on the brain-extracted T1w using fast (<xref rid="r37" ref-type="bibr">37</xref>) (Functional Magnetic Resonance Imaging of the Brain Software Library [FSL] version 5.0.9, RRID: <ext-link xlink:href="https://scicrunch.org/resolver/RRID:SCR_002823" ext-link-type="uri">SCR_002823</ext-link>).</p>
+                <p>Functional data were slice time corrected using 3dTshift from Analysis of Functional Neuroimages (AFNI) version 16.2.07 (<xref rid="r38" ref-type="bibr">38</xref>) (RRID: <ext-link xlink:href="https://scicrunch.org/resolver/RRID:SCR_005927" ext-link-type="uri">SCR_005927</ext-link>) and motion corrected using mcflirt (<xref rid="r39" ref-type="bibr">39</xref>) (FSL version 5.0.9). This slice time and motion correction was followed by coregistration to the corresponding T1w using boundary-based registration (<xref rid="r40" ref-type="bibr">40</xref>) with six degrees of freedom using flirt (FSL). Motion-correcting transformations, BOLD-to-T1w transformation, and T1w-to-template (MNI) warp were concatenated and applied in a single step using antsApplyTransforms (ANTs version 2.2.0) using Lanczos interpolation.</p>
+                <p>Physiological noise regressors were extracted by applying component-based noise correction (CompCor) (<xref rid="r41" ref-type="bibr">41</xref>). Principal components were estimated for the anatomical CompCor variant (aCompCor). A mask to exclude signal with cortical origin was obtained by eroding the brain mask, ensuring it only contained subcortical structures. Six components were calculated within the intersection of the subcortical mask and the union of the cerebrospinal fluid and the white matter masks calculated in T1w space, after their projection to the native space of each functional run. Frame-wise displacement (<xref rid="r42" ref-type="bibr">42</xref>) was calculated for each functional run using the implementation of Nipype.</p>
+                <p>Many internal operations of FMRIPREP use Nilearn (<xref rid="r43" ref-type="bibr">43</xref>) (RRID: <ext-link xlink:href="https://scicrunch.org/resolver/RRID:SCR_001362" ext-link-type="uri">SCR_001362</ext-link>), principally within the BOLD-processing workflow.</p>
+              </sec>
+              <sec id="s10">
+                <title>MRI Statistical Analysis.</title>
+                <p>Statistical analyses were performed exclusively in fsaverage6 space (<xref rid="r44" ref-type="bibr">44</xref>), which treats the cortex as a two-dimensional sheet. To prepare for individual subjects processing, the first five TRs of each scanning run were discarded in order to allow for signal stabilization. Then, for each subject, runs were submitted to AFNI’s 3dDeconvolve (<xref rid="r38" ref-type="bibr">38</xref>), in order to construct an event-related general linear model (GLM) at each voxel for each subject. In this model, we included the six components of aCompCor as confound regressors. The events of interest were presentations of the target on trials, in which the target appeared in the location predicted by the cue, and presentations of the target on trials when the target appeared in the nonpredicted location relative to the cue. To analyze the response to the target onset (the crucial event in the trial), the hemodynamic response was modeled as a gamma function triggered at target onset.</p>
+                <p>After creating this initial, event-related GLM, we used the residual time series as a template for smoothing on the preprocessed functional data. Smoothing was achieved using AFNI’s SurfSmooth function. The target smoothness for the output was 6 mm full width at half maximum using the HEAT 7 method (<xref rid="r45" ref-type="bibr">45</xref>).</p>
+                <p>Next, the smoothed datasets were normalized to percent signal change to allow for easier interpretation after data analysis. Finally, these smoothed and normalized datasets were again submitted to 3dDeconvolve to generate an event-based GLM. Note that two GLMs were performed: The first, described in the previous paragraph, was used to generate residuals to perform smoothing; the second, described in the current paragraph, was used for the final statistical analysis (<xref rid="r45" ref-type="bibr">45</xref>).</p>
+                <p>For each subject, we created a contrast for brain activity, subtracting activity on predicted trials from activity on nonpredicted trials. This nonpredicted–predicted contrast was taken for each subject then submitted to AFNI’s 3dttest++, for comparison against null, on a group level. The resulting data were then thresholded to a family-wise, error-corrected significance level of <italic toggle="yes">P</italic> ≤ 0.05 using cluster correction (within-subjects <italic toggle="yes">t</italic> test, two tailed) in the following manner. Data were thresholded using an uncorrected threshold of <italic toggle="yes">P</italic> = 0.05. Then, clusters under a critical minimum size were excluded from analysis. As is standard for the present type of surface-based analysis, the minimum cluster size was calculated independently for each hemisphere using AFNI’s slow_surf_clustsim, a modern simulation-based method for determining cluster thresholds on surface data. For experiment 1, the resulting critical cluster sizes for each hemisphere were 341 mm<sup>2</sup> for the left hemisphere and 337 mm<sup>2</sup> for the right hemisphere. For experiment 2, the critical cluster sizes for each hemisphere were 344 mm<sup>2</sup> for the left hemisphere and 358 mm<sup>2</sup> for the right hemisphere.</p>
+              </sec>
+            </sec>
+            <sec id="s11">
+              <title>Results for Experiment 1</title>
+              <sec id="s12">
+                <title>Posttest Questions.</title>
+                <p>In experiment 1, in which subjects performed task 1, subjects were visually aware of the cue and the target but were never told that the cue predicted the target location. The reason why the paradigm was designed with many possible cue locations distributed across the display screen is that, in prior experiments (<xref rid="r8" ref-type="bibr">8</xref>), we found that, with many cue locations, most subjects were unable to notice the statistical relationship between cue and target if not explicitly told about it. The visual impression was of a complicated, flashing, and unpredictable stimulus sequence, in which the specific relationship between cue and target was not obvious. The fact that the cue-target contingencies were statistical and not absolute may have also helped to obscure them. In the posttest questions, all subjects reported that during the experiment trials they had clearly seen the red cue. When asked whether they had noticed any pattern or relationship between the cue and the target, although most noted correctly that the two stimuli were typically near each other, all except one said that they had noticed no other pattern, or they suggested patterns that were not in any way related to the actual pattern (e.g., guessing that the target sometimes appeared above or below the cue). Only one realized that the target was more likely to appear to one side of the cue, as opposed to the other side. When the other subjects were asked explicitly whether they had noticed that the target was more likely to appear to one side of the cue, all indicated they had not noticed and, when prompted, did not know which the more frequent side might be. The one subject who noticed the cue-target relationship was removed from analysis. Of the remaining 18 subjects, therefore, any preferential focusing of attention on the location predicted by the cue was likely to be the result of an implicit process.</p>
+              </sec>
+              <sec id="s13">
+                <title>Task Performance.</title>
+                <p><xref rid="fig02" ref-type="fig">Fig. 2<italic toggle="yes">A</italic></xref> shows the mean reaction times for predicted and nonpredicted trials (mean RT for predicted trials = 469.98 ms, SEM = 11.47; mean RT for nonpredicted trials = 482.64 ms, SEM = 12.61; mean accuracy for predicted trials = 98.40%, SEM = 0.34; and mean accuracy for nonpredicted trials = 98.18%, SEM = 0.40). Latency was shorter for predicted trials than for nonpredicted trials, suggesting that attention was shifted to the predicted side of the cue in anticipation of the target. The large error bars in <xref rid="fig02" ref-type="fig">Fig. 2<italic toggle="yes">A</italic></xref> derive from between-subjects variability. To assess the significance of the difference, a within-subjects statistical comparison is needed. We computed a within-subjects difference score, ΔRT, to measure the attention effect (see <xref rid="s3" ref-type="sec"><italic toggle="yes">Methods</italic></xref> for details). <xref rid="fig02" ref-type="fig">Fig. 2<italic toggle="yes">B</italic></xref> shows that attention was directed to the location predicted by the cue, since the mean ΔRT among subjects was significantly greater than 0 (mean ΔRT = 12.66 ms, SEM = 2.70, two-tailed <italic toggle="yes">t</italic> test, df = 17, t = 4.70, and <italic toggle="yes">P</italic> &lt; 0.001). These results confirm our prior behavioral study (<xref rid="r8" ref-type="bibr">8</xref>).</p>
+                <fig position="float" fig-type="figure" id="fig02">
+                  <label>Fig. 2.</label>
+                  <caption>
+                    <p>Behavioral results from experiment 1, in which subjects were aware of the cue but unaware of task contingencies. Data from 18 subjects. Error bars show SE among subjects. (<italic toggle="yes">A</italic>) The <italic toggle="yes">y</italic>-axis shows average reaction time for each target location relative to the cue. Targets were 85% likely to appear to the predicted side of the cue (Pre) and 15% likely to appear to the nonpredicted side of the cue (N-Pre). (<italic toggle="yes">B</italic>) The <italic toggle="yes">y</italic>-axis shows endogenous attention effect: ΔRT = [mean reaction time in nonpredicted trials] – [mean reaction time in predicted trials].</p>
+                  </caption>
+                  <graphic xlink:href="pnas.2026099118fig02" id="gra2" position="float"/>
+                </fig>
+              </sec>
+              <sec id="s14">
+                <title>MRI Results.</title>
+                <p>We used a surface-based analysis to find clusters of cortical activity that were significantly greater during nonpredicted trials than during predicted trials (see <xref rid="s3" ref-type="sec"><italic toggle="yes">Methods</italic></xref>). <xref rid="fig03" ref-type="fig">Fig. 3</xref> shows the results on the inflated surface. Three significant clusters were found in each hemisphere, in roughly mirror-symmetric locations (see <xref rid="t01" ref-type="table">Table 1</xref> for coordinates). In the right hemisphere, one cluster was located in the TPJ, mainly in the supramarginal gyrus. A second cluster was located mainly in the precuneus, on the medial aspect of the hemisphere, extending partly onto the lateral aspect into the dorsal parietal lobe. The encroachment onto the lateral aspect is not obvious in the inflated brain image, which slightly distorts relative locations. A third cluster was located in the middle cingulate gyrus, in the medial frontal lobe. In the left hemisphere, one cluster was located in the intraparietal sulcus, mainly dorsal to but also partly overlapping the dorsal TPJ. A second cluster was mainly in the precuneus. A third cluster was in the middle cingulate. Although participants did not explicitly realize that one target location relative to the cue was predicted and another was nonpredicted, these six brain regions were significantly affected by the difference, responding with more activity in nonpredicted trials.</p>
+                <fig position="float" fig-type="figure" id="fig03">
+                  <label>Fig. 3.</label>
+                  <caption>
+                    <p>MRI results in experiment 1 mapped onto the inflated, fsaverage6-standardized brain surface. Highlighted areas pass a <italic toggle="yes">P</italic> &lt; 0.05 threshold, are cluster corrected for multiple comparisons, and show regions with significantly more activity in nonpredicted trials than in predicted trials.</p>
+                  </caption>
+                  <graphic xlink:href="pnas.2026099118fig03" id="gra3" position="float"/>
+                </fig>
+                <table-wrap position="float" id="t01">
+                  <label>Table 1.</label>
+                  <caption>
+                    <p>Brain activations in experiment 1</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <td rowspan="1" colspan="1">Anatomical region</td>
+                        <td align="center" rowspan="1" colspan="1"><italic toggle="yes">x</italic>, <italic toggle="yes">y</italic>, <italic toggle="yes">z</italic> (RAI)</td>
+                        <td align="center" rowspan="1" colspan="1">Δ β</td>
+                        <td align="center" rowspan="1" colspan="1">Cluster size</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td rowspan="1" colspan="1">Right supramarginal gyrus</td>
+                        <td align="center" rowspan="1" colspan="1">82, −24, 18</td>
+                        <td align="center" rowspan="1" colspan="1">0.070</td>
+                        <td align="center" rowspan="1" colspan="1">403</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Right precuneus</td>
+                        <td align="center" rowspan="1" colspan="1">23, −67, 47</td>
+                        <td align="center" rowspan="1" colspan="1">0.122</td>
+                        <td align="center" rowspan="1" colspan="1">603</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Right midanterior cingulate</td>
+                        <td align="center" rowspan="1" colspan="1">10, 57, 24</td>
+                        <td align="center" rowspan="1" colspan="1">0.053</td>
+                        <td align="center" rowspan="1" colspan="1">447</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Left intraparietal sulcus</td>
+                        <td align="center" rowspan="1" colspan="1">−58, −48, 41</td>
+                        <td align="center" rowspan="1" colspan="1">0.085</td>
+                        <td align="center" rowspan="1" colspan="1">437</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Left precuneus</td>
+                        <td align="center" rowspan="1" colspan="1">−25, −68, 48</td>
+                        <td align="center" rowspan="1" colspan="1">0.131</td>
+                        <td align="center" rowspan="1" colspan="1">358</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Left midanterior cingulate</td>
+                        <td align="center" rowspan="1" colspan="1">−12, 38, 43</td>
+                        <td align="center" rowspan="1" colspan="1">0.051</td>
+                        <td align="center" rowspan="1" colspan="1">447</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn>
+                      <p>RAI coordinates are given relative to the fsaverage6 surface and indicate the location of the peak response (the node within the cluster with the largest contrast between nonpredicted and predicted trials). Δ β is the magnitude of the activation (β-value in percent signal change from baseline) for the nonpredicted trials minus the β-value for the predicted trials, for the voxel within a cluster that showed the greatest difference. Cluster size is given in square millimeters.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+            </sec>
+            <sec id="s15">
+              <title>Results for Experiment 2</title>
+              <sec id="s16">
+                <title>Posttest Questions.</title>
+                <p>In experiment 2, in which subjects performed task 2, the cue stimulus was black instead of red. Because of that change, the black cue was backward masked by the array of black rings appearing immediately after it, rendering the cue perceptually invisible (<xref rid="r8" ref-type="bibr">8</xref>, <xref rid="r11" ref-type="bibr">11</xref>). Many paradigms that seek to manipulate the awareness of a stimulus ask subjects whether they are aware of the stimulus on a trial-by-trial basis using interleaved trials. The downside of this type of measure is that it makes the stimulus task relevant, explicitly telling subjects that a stimulus may be present and that they should note its presence, altering their attention to it and potentially increasing the likelihood that subjects will become aware of it. The success of the present study depended on ensuring that the subjects were truly unaware of the cue in task 2. We chose, therefore, to test a separate set of subjects in task 2 and to leave the subjects uninformed about the cue stimulus until after the experiment so that they would be less likely to become aware of it. Therefore, in the instruction period, subjects were not told about the presence of the masked cue. They were given no explicit knowledge that it existed or that it predicted the location of the target. Only after completing the task, subjects were asked whether they had noticed the cue.</p>
+                <p>Many paradigms also test awareness of a stimulus using objective measures such as a forced-choice paradigm. We chose not to use this approach either, partly for the same reason—it would require telling subjects about the cue, increasing their likelihood of becoming aware of it. Moreover, objective measures of awareness do not necessarily address the question of subjective awareness (<xref rid="r46" ref-type="bibr">46</xref>). For these reasons, we relied on subjects’ subjective reports after completing all trials.</p>
+                <p>After testing, no subjects reported having seen a black circle, appearing just before the mask, on any of the trials. After being shown a reduced-speed example of a trial, in which the cue was plainly visible, no subjects reported that they had seen anything that looked like the cue at any time during any of the trials. These results suggest that the mask and the procedure of using a separate set of subjects naïve to the cue successfully reduced, and probably eliminated, awareness of the cue. The findings are consistent with prior reports using the same masking technique to eliminate perceptual awareness of a stimulus (<xref rid="r8" ref-type="bibr">8</xref>, <xref rid="r11" ref-type="bibr">11</xref>).</p>
+              </sec>
+              <sec id="s17">
+                <title>Task Performance.</title>
+                <p><xref rid="fig04" ref-type="fig">Fig. 4<italic toggle="yes">A</italic></xref> shows the mean reaction times for nonpredicted and predicted trials (mean RT for predicted trials = 459.87 ms, SEM = 12.07; mean RT for nonpredicted trials = 460.74 ms, SEM = 12.55; mean accuracy for predicted trials = 97.87%, SEM = 0.39; and mean accuracy for nonpredicted trials = 97.84%, SEM = 0.38). Note that the reaction times are slightly shorter in task 2, without awareness of the cue, than in task 1, with awareness of the cue. The difference lies mainly in the nonpredicted trials, in which a longer reaction time in task 1 is expected. However, a longer latency in task 1 compared with task 2 also appears in the predicted trials, though this difference between tasks is small and not statistically significant (<italic toggle="yes">t</italic> test, <italic toggle="yes">P</italic> &gt; 0.05). In our previous behavioral studies (<xref rid="r8" ref-type="bibr">8</xref>), when subjects were aware of an additional stimulus during the trials, even if they believed it to be task irrelevant, it appeared to add a processing cost, resulting in slightly longer reaction times. An overall processing cost of awareness, as subjects engage in an extra cognitive step, is not surprising. Any subtle baseline shift in reaction times between the tasks, however, does not affect the crucial analysis, which depends on a difference between conditions within each task. Whether a subject has long or short reaction times overall, if the subject is faster on predicted than on nonpredicted trials, then the subject has learned to predictively control attention. We computed the difference in reaction time between predicted and nonpredicted target locations. <xref rid="fig04" ref-type="fig">Fig. 4<italic toggle="yes">B</italic></xref> shows that the ΔRT in task 2 was not significantly greater than 0. Thus, there was no evidence that attention was directed to the location predicted by the cue in task 2 (mean ΔRT = 0.86 ms, SEM = 2.81, two-tailed <italic toggle="yes">t</italic> test, df = 16, t = 0.31, and <italic toggle="yes">P</italic> = 0.762).</p>
+                <fig position="float" fig-type="figure" id="fig04">
+                  <label>Fig. 4.</label>
+                  <caption>
+                    <p>Behavioral results from experiment 2, in which subjects were unaware of the cue. Data from 17 subjects. Error bars show SE among subjects. (<italic toggle="yes">A</italic>) The <italic toggle="yes">y</italic>-axis shows average reaction time for each target location relative to the cue. Targets were 85% likely to appear to the predicted side of the cue (Pre) and 15% likely to appear to the nonpredicted side of the cue (N-Pre). (<italic toggle="yes">B</italic>) The <italic toggle="yes">y</italic>-axis shows endogenous attention effect: ΔRT = (mean reaction time in nonpredicted trials) − (mean reaction time in predicted trials).</p>
+                  </caption>
+                  <graphic xlink:href="pnas.2026099118fig04" id="gra4" position="float"/>
+                </fig>
+                <p>We also directly compared the attention effect (ΔRT) between tasks 1 and 2 in a between-subjects analysis. The attention effect was significantly greater in task 1 than in task 2 (difference = 11.79 ms, SEM = 3.89, between-subjects, two-tailed <italic toggle="yes">t</italic> test, df = 33, t = 3.033, and <italic toggle="yes">P</italic> = 0.0047).</p>
+                <p>In an additional, alternative analysis, we analyzed reaction-time data from all individual trials from all subjects using a three-factor ANOVA, with subject as one factor, trial condition (nonpredicted or predicted) as a second within-subjects factor, and awareness status (task 1 versus task 2) as a third between-subjects factor. This analysis confirmed a significant interaction between trial condition and awareness status, reflecting that reaction times were significantly longer in nonpredicted trials than in predicted trials in the aware case, as compared with the unaware case (for the interaction between trial condition and awareness status, df<sub>1</sub> = 1, df<sub>2</sub> = 20209, F = 10.3227, and <italic toggle="yes">P</italic> = 0.0013).</p>
+                <p>These findings are consistent with our previous experiments, in which removing visual awareness of the cue significantly impaired the ability of the attention controller to shift or redirect attention with respect to the cue (<xref rid="r8" ref-type="bibr">8</xref>).</p>
+              </sec>
+              <sec id="s18">
+                <title>MRI Results.</title>
+                <p>In experiment 2, in which subjects performed task 2, even though subjects were not aware that the cue predicted the target and were not even aware that any cue had been presented at all, the brain nonetheless processed the cue and the predictive relationship between the cue and the target. <xref rid="fig05" ref-type="fig">Fig. 5</xref> shows the cortical areas where activity was significantly greater during nonpredicted trials than during predicted trials. Two significant clusters were found in the left hemisphere (see <xref rid="t02" ref-type="table">Table 2</xref> for coordinates). One cluster was located in the left angular gyrus; the second cluster was located in the left medial prefrontal cortex. No significant activity, however, was found in the right hemisphere. Of particular relevance to our hypotheses, the right TPJ showed no significant activity. When subjects were not aware of the cue, the right TPJ was not significantly active in the contrast between nonpredicted and predicted trials. This result confirms our hypothesis.</p>
+                <fig position="float" fig-type="figure" id="fig05">
+                  <label>Fig. 5.</label>
+                  <caption>
+                    <p>MRI results in experiment 2 mapped onto the inflated, fsaverage6-standardized brain surface. Highlighted areas pass a <italic toggle="yes">P</italic> &lt; 0.05 threshold cluster corrected for multiple comparisons and show regions with significantly more activity in nonpredicted trials than in predicted trials.</p>
+                  </caption>
+                  <graphic xlink:href="pnas.2026099118fig05" id="gra5" position="float"/>
+                </fig>
+                <table-wrap position="float" id="t02">
+                  <label>Table 2.</label>
+                  <caption>
+                    <p>Brain activations in experiment 2</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <td rowspan="1" colspan="1">Anatomical region</td>
+                        <td align="center" rowspan="1" colspan="1"><italic toggle="yes">x</italic>, <italic toggle="yes">y</italic>, <italic toggle="yes">z</italic> (RAI)</td>
+                        <td align="center" rowspan="1" colspan="1">Δ β</td>
+                        <td align="center" rowspan="1" colspan="1">Cluster size</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td rowspan="1" colspan="1">Left angular gyrus</td>
+                        <td align="center" rowspan="1" colspan="1">−41, −68, 44</td>
+                        <td align="center" rowspan="1" colspan="1">0.060</td>
+                        <td align="center" rowspan="1" colspan="1">583</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Left superior frontal gyrus</td>
+                        <td align="center" rowspan="1" colspan="1">−7, 37, 44</td>
+                        <td align="center" rowspan="1" colspan="1">0.112</td>
+                        <td align="center" rowspan="1" colspan="1">449</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn>
+                      <p>RAI coordinates are given relative to the fsaverage6 surface and indicate the location of the peak response (the node within the cluster with the largest contrast between nonpredicted and predicted trials). Δ β is the magnitude of the activation (β-value in percent signal change from baseline) for the nonpredicted trials minus the β-value for the predicted trials, for the voxel within a cluster that showed the greatest difference. Cluster size is given in square millimeters.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <p>It is always possible that some activity was present in the right TPJ, just beneath statistical threshold. To examine that possibility, we defined a region of interest (ROI) around the right TPJ (∼2,000 mm<sup>2</sup>, based on the definition of the TPJ used in ref. <xref rid="r47" ref-type="bibr">47</xref>). Testing within an ROI reduces the multiple-comparison correction and therefore can be more sensitive to weaker activations (for small volume corrections, see ref. <xref rid="r48" ref-type="bibr">48</xref>). Yet even within this ROI, no clusters of activity related to the nonpredicted versus predicted contrast were obtained that passed a <italic toggle="yes">P</italic> &lt; 0.05 significance. We did not even obtain any clusters in the ROI that passed a lax, <italic toggle="yes">P</italic> &lt; 0.10 threshold. We saw no evidence of any right TPJ activity associated with the nonpredicted versus predicted contrast, not even weak or subthreshold activity.</p>
+                <p>Finally, we used a between-subjects analysis to compare the right TPJ activity (in the nonpredicted versus predicted contrast) between tasks 1 and 2. In the ROI around the right TPJ, we found a region in the supramarginal gyrus in which activity was significantly greater in task 1 than in task 2 ([nonpredicted − predicted for experiment 1] − [nonpredicted − predicted for experiment 2], significant cluster of 211 mm<sup>2</sup> that passed a cluster-corrected, <italic toggle="yes">P</italic> &lt; 0.05 level of significance). Thus, in task 1, in which awareness of the cue allowed for the endogenous control of attention, the right TPJ showed significant activity in association with the use of that cue to control attention; in task 2, in which a lack of awareness of the cue led to a lack of endogenous attention control, the activity in the right TPJ was reduced and no longer detected, and the signal in the right TPJ was significantly greater in task 1 than in task 2.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="s19">
+              <title>Discussion</title>
+              <p content-type="flushleft">Previous behavioral experiments (<xref rid="r8" ref-type="bibr">8</xref>) provided two related findings that served as the basis for the present study. First, when people were aware of a visual cue, they implicitly used the cue to predictively guide their attention to a target. Second, in an otherwise similar paradigm, when people were not aware of the cue, they no longer engaged in the same implicit process of predictively guiding attention. In the present study, subjects performed the two tasks while brain activity was measured in an MRI scanner. We argued that any brain area that showed activity in the first task and not the second might participate in constructing that awareness-dependent, predictive model and using it to endogenously guide attention.</p>
+              <p>We did not look for a greater overall activity in task 1 than in task 2, which would have represented a nonspecific result subject to changes in baseline. Instead, we examined a contrast between two specific conditions. In predicted trials, the cue predicted a target location, and the target then appeared at that location. In nonpredicted trials, the cue predicted a target location, and the target then appeared elsewhere. Nothing distinguished the two trial types other than the predictive relationship between cue and target. Any brain area that responds differently to these two conditions must necessarily be sensitive to that predictive relationship between the cue and the target. Such a brain area reflects the brain’s learning of the predictive information.</p>
+              <p>We hypothesized that the right TPJ, specifically, would show this pattern of response in task 1 and not in task 2. The hypothesis was confirmed. The right TPJ was active in task 1, in association with the cue-target relationship, and not measurably so in task 2. A direct comparison between the two tasks within the right TPJ showed a significant difference.</p>
+              <p>In addition to the activity found in the right TPJ, we also obtained a similar pattern of activity (present in task 1 and absent in task 2) in other cortical areas, including the precuneus and the medial frontal cortex. These areas—TPJ, precuneus, and medial frontal cortex—have been described before as part of a social cognitive, theory-of-mind network (<xref rid="r13" ref-type="bibr">13</xref>, <xref rid="r15" ref-type="bibr">15</xref><xref rid="r16" ref-type="bibr"/>–<xref rid="r17" ref-type="bibr">17</xref>). We previously suggested that the theory-of-mind network, in which the right TPJ is a central node, may contribute to constructing models of attention, both the attention of other people and one’s own attention (<xref rid="r1" ref-type="bibr">1</xref>). Although in the present study we focused our predictions on the right TPJ, arguing that it should be a hotspot involved in building predictive models for the control of attention, we recognize that the effects we see here are reflected in a network of related areas, not one area.</p>
+              <p>In the following, we consider five possible alternative interpretations of the findings and then explain our own interpretation.</p>
+              <p>One possible explanation for the null result in the TPJ, in task 2, is that, because subjects were unaware of the cue, the cue was so reduced in stimulus efficacy that it affected no area of the brain and thus also did not affect the right TPJ. After all, if subjects are not aware of something, how can it impact the brain? The cue might as well not be there. However, this explanation is ruled out by the data. First, we know from prior data (<xref rid="r8" ref-type="bibr">8</xref>) that the black cue, though outside awareness, affects subjects by drawing exogenous attention to itself. In that prior study, we compared reaction times, when the target appeared at the same location as the cue versus when the target was displaced from the cue, and found a robust, repeatable difference. There is, therefore, no doubt that the black cue affects the subjects. Second, in the present data during task 2, the cue measurably affected the brain. We found two areas, the left angular gyrus and the left medial prefrontal cortex, that showed significantly more activity in the nonpredicted trials than in the predicted trials. Therefore, even though the subjects were not aware of the cue and did not use the cue to guide endogenous attention, these two brain areas still processed the predictive information that the cue provided about the target. At the same time, we found no evidence that the right TPJ was involved in that processing in task 2. We do not know why, without awareness, these two left hemisphere areas might have begun to process the relationship between the cue and target. Perhaps, when one mechanism shuts down—a mechanism associated with awareness of the cue and activity in the TPJ—a different mechanism begins to take over the processing of the cue’s environmental contingencies. Hopefully, future experiments can explore this unexpected, nonconscious processing. In any case, the cue in task 2 did measurably affect subjects; it just did not affect endogenous attention control or the TPJ.</p>
+              <p>A second alternative explanation of the results is that eye movements were systematically different between nonpredicted and predicted trials, leading to a false signal. Although we did not measure eye movement in the present study, we believe this explanation is unlikely. In our prior behavioral study on these tasks (<xref rid="r8" ref-type="bibr">8</xref>), we did measure eye position and found no systematic differences between conditions or tasks, as subjects tended to fixate on the center of the display during each trial. Eye movement and eye position could not explain the effect on attention.</p>
+              <p>A third alternative explanation is that the right TPJ responds to surprise. In task 1, perhaps the TPJ became more active to nonpredicted trials than to predicted trials because subjects were surprised when the target appeared at a nonpredicted location. In this interpretation, in task 2, without awareness of the cue, subjects experienced no surprise on nonpredicted trials, and thus, the activity pattern disappeared. The right TPJ is indeed known to become active in association with unexpected, surprising, and statistically uncommon events (<xref rid="r20" ref-type="bibr">20</xref><xref rid="r21" ref-type="bibr"/><xref rid="r22" ref-type="bibr"/><xref rid="r23" ref-type="bibr"/><xref rid="r24" ref-type="bibr"/><xref rid="r25" ref-type="bibr"/><xref rid="r26" ref-type="bibr"/><xref rid="r27" ref-type="bibr"/>–<xref rid="r28" ref-type="bibr">28</xref>). However, this explanation is ruled out in the present study. Even when subjects were aware of the cue (in task 1), they did not explicitly notice the trial statistics and therefore never realized that anything surprising or unexpected might have happened on nonpredicted trials. Thus, the present findings cannot be explained as a response to explicit surprise. Could the TPJ respond to implicitly processed, rare events, even when the subjects do not explicitly notice or experience surprise? If that were the case, then we would have seen elevated activity in task 2 during nonpredicted trials. Nonpredicted trials were just as rare in task 2 as in task 1. Moreover, in task 2, at least some brain areas showed evidence of processing the statistical relationship between the cue and target. Thus, at some implicit level, subjects knew about the difference between the more frequent predicted trials and the less frequent nonpredicted trials. Yet in task 2, the TPJ showed no evidence of responding to the less frequent trial type. For these reasons, neither explicit surprise nor the implicit coding of rarity can explain the right TPJ pattern of results.</p>
+              <p>A fourth possibility is that the TPJ generally monitors predictive events in the environment. In that interpretation, unrelated to attentional control, surprise, or awareness, the TPJ encoded the predictive relationship between cue and target. This possibility is ruled out for the same reason as in explanation three. The predictive relationship between the cue and the target was present in task 2, and at least some areas of the brain were sensitive to those predictive statistics, showing that at some level the subjects processed them. Yet the right TPJ did not respond to those predictive statistics.</p>
+              <p>A fifth alternate explanation is that the TPJ activity is related to exogenous shifts of attention. One of the most common and influential suggestions about the right TPJ is that it is involved in directing exogenous attention, as part of the ventral attention network (<xref rid="r20" ref-type="bibr">20</xref><xref rid="r21" ref-type="bibr"/><xref rid="r22" ref-type="bibr"/><xref rid="r23" ref-type="bibr"/><xref rid="r24" ref-type="bibr"/><xref rid="r25" ref-type="bibr"/><xref rid="r26" ref-type="bibr"/>–<xref rid="r27" ref-type="bibr">27</xref>). Of the explanations thus far, this possible explanation comes closest to accounting for the present pattern of results. We argue, however, that it is still not adequate. In task 1, on predicted trials, the likely sequence of events is as follows: Attention is exogenously drawn to the cue; attention is then endogenously shifted to the predicted location; the target appears at that location; there is probably a further rise in attention at target onset; and finally, the subject responds to the target. On nonpredicted trials, the likely sequence is the following: Attention is exogenously drawn to the cue; attention is endogenously shifted to the predicted location; the target appears at a different location; attention is exogenously drawn to the new location; and then, the subject responds to the target. Thus, the greater activity in the TPJ during nonpredicted trials, in task 1, could be caused by the additional, final spatial shift of exogenous attention to acquire the target. Findings like these, over many experiments in varied forms (<xref rid="r20" ref-type="bibr">20</xref><xref rid="r21" ref-type="bibr"/><xref rid="r22" ref-type="bibr"/><xref rid="r23" ref-type="bibr"/><xref rid="r24" ref-type="bibr"/><xref rid="r25" ref-type="bibr"/><xref rid="r26" ref-type="bibr"/>–<xref rid="r27" ref-type="bibr">27</xref>), have led to the hypothesis that the right TPJ helps control exogenous attention.</p>
+              <p>We suggest, however, that this explanation, that the TPJ becomes active in association with exogenous attention or that it is part of a controller for exogenous attention, does not explain the results. First, on theoretical grounds, we suggest that exogenous attention does not require a dedicated controller. Exogenous attention is a bottom-up, externally imposed shift of attention. Only endogenous attention requires a dedicated control system. Second, the right TPJ is not active in association with exogenous shifts of attention per se. If it were, it would respond to any stimulus that appears, given the inevitable exogenous attention drawn to the sharp onset of a visual stimulus. The TPJ would be as responsive to the onset of visual stimuli as the primary visual cortex is responsive to visual stimuli. Such visual responsiveness is not reported in the literature. For example, in the present study, we know that the initial onset of the cue robustly draws exogenous attention (see ref. <xref rid="r8" ref-type="bibr">8</xref> for the experimental conditions that established that shift in exogenous attention). Whether the cue is red and visible (task 1) or black and outside of awareness (task 2), it draws exogenous attention at onset. If the right TPJ responds to a shift in exogenous attention per se, then it should respond to the onset of the cue, averaged across all trial conditions. We performed that analyses on the present data, for each task, and found no significant right TPJ activity in response to the onset of the cue (no significant clusters within the right TPJ ROI at <italic toggle="yes">P</italic> &lt; 0.05 threshold). We are aware of no evidence that the right TPJ responds consistently when attention is shifted exogenously. The reason why the exogenous attention hypothesis has become so commonly accepted for the right TPJ is that, in a range of experiments, including in the present task 1, the right TPJ becomes active during shifts of exogenous attention in the case that something unexpected, nonpredicted, or rare occurs (<xref rid="r20" ref-type="bibr">20</xref><xref rid="r21" ref-type="bibr"/><xref rid="r22" ref-type="bibr"/><xref rid="r23" ref-type="bibr"/><xref rid="r24" ref-type="bibr"/><xref rid="r25" ref-type="bibr"/><xref rid="r26" ref-type="bibr"/>–<xref rid="r27" ref-type="bibr">27</xref>). Not all of these experiments involve a spatial shift of attention. Some may involve other sudden, or unexpected, exogenously induced changes in attentional status. For example, in the oddball task, subjects view a series of centrally placed, identical stimuli, and then an oddball stimulus appears, breaking the pattern, presumably causing an increase in attention at the same location, and triggering right TPJ activity (<xref rid="r26" ref-type="bibr">26</xref>, <xref rid="r27" ref-type="bibr">27</xref>).</p>
+              <p>We are therefore faced with an interpretational conundrum. The right TPJ activity found in the present study is not triggered by unexpected, surprising, or rare events by themselves. It is not triggered by learning predictive stimulus relationships by themselves. It is not triggered by exogenous shifts of attention by themselves. Some more complex combination of conditions is needed to explain the pattern of results. What makes the TPJ respond more on nonpredicted trials than on predicted trials but only in task 1 and not in task 2? We suggest that there remains one factor that varies across task conditions in a manner to adequately explain the pattern of results. In task 1, on nonpredicted trials, the attention control system makes a prediction (it shifts attention predictively), and the prediction turns out to be wrong, whereas on predicted trials, the attention control system makes the same prediction, and the prediction turns out to be right. In task 2, according to the behavioral data, the attention control system makes no such predictions. It does not make right or wrong predictions on either trial type. We suggest, therefore, that a relative rise in activity in the TPJ occurs specifically when a prediction related to attention turns out to be wrong. Why should a violated prediction lead to TPJ activity? When a prediction is wrong, we suggest that the error causes the underlying predictive model to be incrementally updated or at least reevaluated, and the TPJ becomes briefly more active during that process. In this suggestion, it is the error correction to the underlying predictive model of attention that drives TPJ activity. This explanation accounts for the pattern of data not only in the present study but also across previous studies that find activity in the right TPJ associated with changes in attention. In our proposed interpretation, the ventral attention system, including the right TPJ, is not a controller of exogenous attention. Instead, it is building or adjusting a model of attention. It is monitoring and making predictions about both exogenous and endogenous attention. Sometimes, an unexpected or rare event causes a shift of attention that does not fit the predictive model. Then, the right TPJ has a rise in activity. But an exogenous shift of attention, in the present interpretation, will not, by itself, drive TPJ activity, nor will an unexpected event that does not impact exogenous attention. The key event that causes TPJ activity is the momentary violation of a continuously computed, predictive model used for the control of attention.</p>
+              <p>In the present study, how are the results related to awareness? The key difference between task 1 and 2 is that subjects are aware of the cue in task 1 and not in task 2. The behavioral data show that awareness of the cue permits the predictive, endogenous control of attention; lack of awareness of the cue prevents the predictive, endogenous control of attention. Thus, the behavioral results, and the MRI results in the TPJ, are modulated by awareness of the cue. If AST is right, then that modulation has a simple explanation: Awareness is the model of attention. Awareness of the cue corresponds to a state in which the brain is modeling the attention that has been drawn to the cue.</p>
+              <p>We acknowledge that other interpretations may be possible. Moreover, it is unlikely that the right TPJ is limited to the functions suggested here, since it is a complex brain area with many subregions, within which a great range of other tasks have been found to evoke activity, including autobiographical memory tasks and social cognition tasks (<xref rid="r16" ref-type="bibr">16</xref>, <xref rid="r49" ref-type="bibr">49</xref><xref rid="r50" ref-type="bibr"/><xref rid="r51" ref-type="bibr"/>–<xref rid="r52" ref-type="bibr">52</xref>). In addition, the processes described here presumably depend on a network of areas of which the TPJ is only one node. Nonetheless, these findings represent a step toward understanding how attention and awareness interrelate in the brain.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>This work was supported by the Princeton Neuroscience Institute Innovation Fund. A.G. was supported by the Wenner-Gren Foundation, the Swedish Society of Medicine, and the Foundation Blanceflor. We thank Argos Wilterson for his enthusiastic encouragement.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="COI-statement">
+                <p>The authors declare no competing interest.</p>
+              </fn>
+              <fn fn-type="other">
+                <p>This article is a PNAS Direct Submission.</p>
+              </fn>
+            </fn-group>
+            <sec sec-type="data-availability" id="s20">
+              <title>Data Availability</title>
+              <p>Brain Imaging Data Structure format fMRI data have been deposited in Princeton DataSpace (DOI: <ext-link xlink:href="https://doi.org/10.34770/9425-b553" ext-link-type="uri">10.34770/9425-b553</ext-link>) (<xref rid="bib53" ref-type="bibr">53</xref>). All study data are included in the main text.</p>
+            </sec>
+            <ref-list>
+              <ref id="r1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M. S. A.</given-names><surname>Graziano</surname></string-name>, <string-name><given-names>S.</given-names><surname>Kastner</surname></string-name></person-group>, <article-title>Human consciousness and its relationship to social neuroscience: A novel hypothesis</article-title>. <source>Cogn. Neurosci.</source><volume>2</volume>, <fpage>98</fpage>–<lpage>113</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">22121395</pub-id></mixed-citation>
+              </ref>
+              <ref id="r2">
+                <label>2</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><given-names>M. S. A.</given-names><surname>Graziano</surname></string-name></person-group>, <source>Consciousness and the Social Brain</source> (<publisher-name>Oxford University Press</publisher-name>, <publisher-loc>Oxford, UK</publisher-loc>, <year>2013</year>).</mixed-citation>
+              </ref>
+              <ref id="r3">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M. S. A.</given-names><surname>Graziano</surname></string-name></person-group>, <article-title>Consciousness and the attention schema: Why it has to be right</article-title>. <source>Cogn. Neuropsychol.</source><volume>37</volume>, <fpage>224</fpage>–<lpage>233</lpage> (<year>2020</year>).<pub-id pub-id-type="pmid">32434429</pub-id></mixed-citation>
+              </ref>
+              <ref id="r4">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M. S. A.</given-names><surname>Graziano</surname></string-name>, <string-name><given-names>T. W.</given-names><surname>Webb</surname></string-name></person-group>, <article-title>The attention schema theory: A mechanistic account of subjective awareness</article-title>. <source>Front. Psychol.</source><volume>6</volume>, <fpage>500</fpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25954242</pub-id></mixed-citation>
+              </ref>
+              <ref id="r5">
+                <label>5</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><given-names>M. S. A.</given-names><surname>Graziano</surname></string-name>, <string-name><given-names>M. M.</given-names><surname>Botvinick</surname></string-name></person-group>, “<article-title>How the brain represents the body: Insights from neurophysiology and psychology</article-title>” in <source>Common Mechanisms in Perception and Action: Attention and Performance XIX</source>, <person-group person-group-type="editor"><string-name><given-names>W.</given-names><surname>Prinz</surname></string-name>, <string-name><given-names>B.</given-names><surname>Hommel</surname></string-name></person-group>, Eds. (<publisher-name>Oxford University Press</publisher-name>, <publisher-loc>Oxford, UK</publisher-loc>, <year>2002</year>), pp. <fpage>136</fpage>–<lpage>157</lpage>.</mixed-citation>
+              </ref>
+              <ref id="r6">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>R.</given-names><surname>Shadmehr</surname></string-name>, <string-name><given-names>F. A.</given-names><surname>Mussa-Ivaldi</surname></string-name></person-group>, <article-title>Adaptive representation of dynamics during learning of a motor task</article-title>. <source>J. Neurosci.</source><volume>14</volume>, <fpage>3208</fpage>–<lpage>3224</lpage> (<year>1994</year>).<pub-id pub-id-type="pmid">8182467</pub-id></mixed-citation>
+              </ref>
+              <ref id="r7">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>K. A.</given-names><surname>Thoroughman</surname></string-name>, <string-name><given-names>J. A.</given-names><surname>Taylor</surname></string-name></person-group>, <article-title>Rapid reshaping of human motor generalization</article-title>. <source>J. Neurosci.</source><volume>25</volume>, <fpage>8948</fpage>–<lpage>8953</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">16192385</pub-id></mixed-citation>
+              </ref>
+              <ref id="r8">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A. I.</given-names><surname>Wilterson</surname></string-name><etal/></person-group>., <article-title>Attention control and the attention schema theory of consciousness</article-title>. <source>Prog. Neurobiol.</source><volume>195</volume>, <fpage>101844</fpage> (<year>2020</year>).<pub-id pub-id-type="pmid">32497564</pub-id></mixed-citation>
+              </ref>
+              <ref id="r9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>T. W.</given-names><surname>Webb</surname></string-name>, <string-name><given-names>H. H.</given-names><surname>Kean</surname></string-name>, <string-name><given-names>M. S. A.</given-names><surname>Graziano</surname></string-name></person-group>, <article-title>Effects of awareness on the control of attention</article-title>. <source>J. Cogn. Neurosci.</source><volume>28</volume>, <fpage>842</fpage>–<lpage>851</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26836517</pub-id></mixed-citation>
+              </ref>
+              <ref id="r10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names><surname>Tsushima</surname></string-name>, <string-name><given-names>Y.</given-names><surname>Sasaki</surname></string-name>, <string-name><given-names>T.</given-names><surname>Watanabe</surname></string-name></person-group>, <article-title>Greater disruption due to failure of inhibitory control on an ambiguous distractor</article-title>. <source>Science</source><volume>314</volume>, <fpage>1786</fpage>–<lpage>1788</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">17170308</pub-id></mixed-citation>
+              </ref>
+              <ref id="r11">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Z.</given-names><surname>Lin</surname></string-name>, <string-name><given-names>S. O.</given-names><surname>Murray</surname></string-name></person-group>, <article-title>More power to the unconscious: Conscious, but not unconscious, exogenous attention requires location variation</article-title>. <source>Psychol. Sci.</source><volume>26</volume>, <fpage>221</fpage>–<lpage>230</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25568064</pub-id></mixed-citation>
+              </ref>
+              <ref id="r12">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A.</given-names><surname>Guterstam</surname></string-name>, <string-name><given-names>A. I.</given-names><surname>Wilterson</surname></string-name>, <string-name><given-names>D.</given-names><surname>Wachtell</surname></string-name>, <string-name><given-names>M. S. A.</given-names><surname>Graziano</surname></string-name></person-group>, <article-title>Other people’s gaze encoded as implied motion in the human brain</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source><volume>117</volume>, <fpage>13162</fpage>–<lpage>13167</lpage> (<year>2020</year>).<pub-id pub-id-type="pmid">32457153</pub-id></mixed-citation>
+              </ref>
+              <ref id="r13">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y. T.</given-names><surname>Kelly</surname></string-name>, <string-name><given-names>T. W.</given-names><surname>Webb</surname></string-name>, <string-name><given-names>J. D.</given-names><surname>Meier</surname></string-name>, <string-name><given-names>M. J.</given-names><surname>Arcaro</surname></string-name>, <string-name><given-names>M. S. A.</given-names><surname>Graziano</surname></string-name></person-group>, <article-title>Attributing awareness to oneself and to others</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source><volume>111</volume>, <fpage>5012</fpage>–<lpage>5017</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24639542</pub-id></mixed-citation>
+              </ref>
+              <ref id="r14">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>T. W.</given-names><surname>Webb</surname></string-name>, <string-name><given-names>K. M.</given-names><surname>Igelström</surname></string-name>, <string-name><given-names>A.</given-names><surname>Schurger</surname></string-name>, <string-name><given-names>M. S. A.</given-names><surname>Graziano</surname></string-name></person-group>, <article-title>Cortical networks involved in visual awareness independent of visual attention</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source><volume>113</volume>, <fpage>13923</fpage>–<lpage>13928</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27849616</pub-id></mixed-citation>
+              </ref>
+              <ref id="r15">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>H. L.</given-names><surname>Gallagher</surname></string-name><etal/></person-group>., <article-title>Reading the mind in cartoons and stories: An fMRI study of ‘theory of mind’ in verbal and nonverbal tasks</article-title>. <source>Neuropsychologia</source><volume>38</volume>, <fpage>11</fpage>–<lpage>21</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">10617288</pub-id></mixed-citation>
+              </ref>
+              <ref id="r16">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>R.</given-names><surname>Saxe</surname></string-name>, <string-name><given-names>N.</given-names><surname>Kanwisher</surname></string-name></person-group>, <article-title>People thinking about thinking people. The role of the temporo-parietal junction in “theory of mind”</article-title>. <source>Neuroimage</source><volume>19</volume>, <fpage>1835</fpage>–<lpage>1842</lpage> (<year>2003</year>).<pub-id pub-id-type="pmid">12948738</pub-id></mixed-citation>
+              </ref>
+              <ref id="r17">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>S. J.</given-names><surname>van Veluw</surname></string-name>, <string-name><given-names>S. A.</given-names><surname>Chance</surname></string-name></person-group>, <article-title>Differentiating between self and others: An ALE meta-analysis of fMRI studies of self-recognition and theory of mind</article-title>. <source>Brain Imaging Behav.</source><volume>8</volume>, <fpage>24</fpage>–<lpage>38</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24535033</pub-id></mixed-citation>
+              </ref>
+              <ref id="r18">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>G.</given-names><surname>Vallar</surname></string-name>, <string-name><given-names>D.</given-names><surname>Perani</surname></string-name></person-group>, <article-title>The anatomy of unilateral neglect after right-hemisphere stroke lesions. A clinical/CT-scan correlation study in man</article-title>. <source>Neuropsychologia</source><volume>24</volume>, <fpage>609</fpage>–<lpage>622</lpage> (<year>1986</year>).<pub-id pub-id-type="pmid">3785649</pub-id></mixed-citation>
+              </ref>
+              <ref id="r19">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>V.</given-names><surname>Verdon</surname></string-name>, <string-name><given-names>S.</given-names><surname>Schwartz</surname></string-name>, <string-name><given-names>K.-O.</given-names><surname>Lovblad</surname></string-name>, <string-name><given-names>C.-A.</given-names><surname>Hauert</surname></string-name>, <string-name><given-names>P.</given-names><surname>Vuilleumier</surname></string-name></person-group>, <article-title>Neuroanatomy of hemispatial neglect and its functional components: A study using voxel-based lesion-symptom mapping</article-title>. <source>Brain</source><volume>133</volume>, <fpage>880</fpage>–<lpage>894</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20028714</pub-id></mixed-citation>
+              </ref>
+              <ref id="r20">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M.</given-names><surname>Corbetta</surname></string-name>, <string-name><given-names>J. M.</given-names><surname>Kincade</surname></string-name>, <string-name><given-names>G. L.</given-names><surname>Shulman</surname></string-name></person-group>, <article-title>Neural systems for visual orienting and their relationships to spatial working memory</article-title>. <source>J. Cogn. Neurosci.</source><volume>14</volume>, <fpage>508</fpage>–<lpage>523</lpage> (<year>2002</year>).<pub-id pub-id-type="pmid">11970810</pub-id></mixed-citation>
+              </ref>
+              <ref id="r21">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M.</given-names><surname>Corbetta</surname></string-name>, <string-name><given-names>G.</given-names><surname>Patel</surname></string-name>, <string-name><given-names>G. L.</given-names><surname>Shulman</surname></string-name></person-group>, <article-title>The reorienting system of the human brain: From environment to theory of mind</article-title>. <source>Neuron</source><volume>58</volume>, <fpage>306</fpage>–<lpage>324</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18466742</pub-id></mixed-citation>
+              </ref>
+              <ref id="r22">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J. P.</given-names><surname>Mitchell</surname></string-name></person-group>, <article-title>Activity in right temporo-parietal junction is not selective for theory-of-mind</article-title>. <source>Cereb. Cortex</source><volume>18</volume>, <fpage>262</fpage>–<lpage>271</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">17551089</pub-id></mixed-citation>
+              </ref>
+              <ref id="r23">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>G. L.</given-names><surname>Shulman</surname></string-name><etal/></person-group>., <article-title>Interaction of stimulus-driven reorienting and expectation in ventral and dorsal frontoparietal and basal ganglia-cortical networks</article-title>. <source>J. Neurosci.</source><volume>29</volume>, <fpage>4392</fpage>–<lpage>4407</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19357267</pub-id></mixed-citation>
+              </ref>
+              <ref id="r24">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>G. L.</given-names><surname>Shulman</surname></string-name><etal/></person-group>., <article-title>Right hemisphere dominance during spatial selective attention and target detection occurs outside the dorsal frontoparietal network</article-title>. <source>J. Neurosci.</source><volume>30</volume>, <fpage>3640</fpage>–<lpage>3651</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20219998</pub-id></mixed-citation>
+              </ref>
+              <ref id="r25">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J. T.</given-names><surname>Serences</surname></string-name><etal/></person-group>., <article-title>Coordination of voluntary and stimulus-driven attentional control in human cortex</article-title>. <source>Psychol. Sci.</source><volume>16</volume>, <fpage>114</fpage>–<lpage>122</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">15686577</pub-id></mixed-citation>
+              </ref>
+              <ref id="r26">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A. A.</given-names><surname>Stevens</surname></string-name>, <string-name><given-names>P.</given-names><surname>Skudlarski</surname></string-name>, <string-name><given-names>J. C.</given-names><surname>Gatenby</surname></string-name>, <string-name><given-names>J. C.</given-names><surname>Gore</surname></string-name></person-group>, <article-title>Event-related fMRI of auditory and visual oddball tasks</article-title>. <source>Magn. Reson. Imaging</source><volume>18</volume>, <fpage>495</fpage>–<lpage>502</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">10913710</pub-id></mixed-citation>
+              </ref>
+              <ref id="r27">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>H.</given-names><surname>Kim</surname></string-name></person-group>, <article-title>Involvement of the dorsal and ventral attention networks in oddball stimulus processing: A meta-analysis</article-title>. <source>Hum. Brain Mapp.</source><volume>35</volume>, <fpage>2265</fpage>–<lpage>2284</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">23900833</pub-id></mixed-citation>
+              </ref>
+              <ref id="r28">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J. J.</given-names><surname>Geng</surname></string-name>, <string-name><given-names>S.</given-names><surname>Vossel</surname></string-name></person-group>, <article-title>Re-evaluating the role of TPJ in attentional control: Contextual updating?</article-title><source>Neurosci. Biobehav. Rev.</source><volume>37</volume>, <fpage>2608</fpage>–<lpage>2620</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23999082</pub-id></mixed-citation>
+              </ref>
+              <ref id="r29">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>D. H.</given-names><surname>Brainard</surname></string-name></person-group>, <article-title>The psychophysics toolbox</article-title>. <source>Spat. Vis.</source><volume>10</volume>, <fpage>433</fpage>–<lpage>436</lpage> (<year>1997</year>).<pub-id pub-id-type="pmid">9176952</pub-id></mixed-citation>
+              </ref>
+              <ref id="r30">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M.</given-names><surname>Kleiner</surname></string-name><etal/></person-group>., <article-title>What’s new in Psychtoolbox-3?</article-title><source>Perception</source><volume>36</volume>, <fpage>1</fpage>–<lpage>16</lpage> (<year>2007</year>).</mixed-citation>
+              </ref>
+              <ref id="r31">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>N. K.</given-names><surname>Logothetis</surname></string-name>, <string-name><given-names>J.</given-names><surname>Pauls</surname></string-name>, <string-name><given-names>M.</given-names><surname>Augath</surname></string-name>, <string-name><given-names>T.</given-names><surname>Trinath</surname></string-name>, <string-name><given-names>A.</given-names><surname>Oeltermann</surname></string-name></person-group>, <article-title>Neurophysiological investigation of the basis of the fMRI signal</article-title>. <source>Nature</source><volume>412</volume>, <fpage>150</fpage>–<lpage>157</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11449264</pub-id></mixed-citation>
+              </ref>
+              <ref id="r32">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>O.</given-names><surname>Esteban</surname></string-name><etal/></person-group>., <article-title>fMRIPrep: A robust preprocessing pipeline for functional MRI</article-title>. <source>Nat. Methods</source><volume>16</volume>, <fpage>111</fpage>–<lpage>116</lpage> (<year>2019</year>).<pub-id pub-id-type="pmid">30532080</pub-id></mixed-citation>
+              </ref>
+              <ref id="r33">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>K.</given-names><surname>Gorgolewski</surname></string-name><etal/></person-group>., <article-title>Nipype: A flexible, lightweight and extensible neuroimaging data processing framework in Python</article-title>. <source>Front. Neuroinform.</source><volume>5</volume>, <fpage>13</fpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21897815</pub-id></mixed-citation>
+              </ref>
+              <ref id="r34">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>N. J.</given-names><surname>Tustison</surname></string-name><etal/></person-group>., <article-title>N4ITK: Improved N3 bias correction</article-title>. <source>IEEE Trans. Med. Imaging</source><volume>29</volume>, <fpage>1310</fpage>–<lpage>1320</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20378467</pub-id></mixed-citation>
+              </ref>
+              <ref id="r35">
+                <label>35</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>B. B.</given-names><surname>Avants</surname></string-name>, <string-name><given-names>C. L.</given-names><surname>Epstein</surname></string-name>, <string-name><given-names>M.</given-names><surname>Grossman</surname></string-name>, <string-name><given-names>J. C.</given-names><surname>Gee</surname></string-name></person-group>, <article-title>Symmetric diffeomorphic image registration with cross-correlation: Evaluating automated labeling of elderly and neurodegenerative brain</article-title>. <source>Med. Image Anal.</source><volume>12</volume>, <fpage>26</fpage>–<lpage>41</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">17659998</pub-id></mixed-citation>
+              </ref>
+              <ref id="r36">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>V. S.</given-names><surname>Fonov</surname></string-name>, <string-name><given-names>A. C.</given-names><surname>Evans</surname></string-name>, <string-name><given-names>R. C.</given-names><surname>McKinstry</surname></string-name>, <string-name><given-names>C. R.</given-names><surname>Almli</surname></string-name>, <string-name><given-names>D. L.</given-names><surname>Collins</surname></string-name></person-group>, <article-title>Unbiased nonlinear average age-appropriate brain templates from birth to adulthood</article-title>. <source>Neuroimage</source><volume>47</volume>, <fpage>S102</fpage> (<year>2009</year>).</mixed-citation>
+              </ref>
+              <ref id="r37">
+                <label>37</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names><surname>Zhang</surname></string-name>, <string-name><given-names>M.</given-names><surname>Brady</surname></string-name>, <string-name><given-names>S.</given-names><surname>Smith</surname></string-name></person-group>, <article-title>Segmentation of brain MR images through a hidden Markov random field model and the expectation-maximization algorithm</article-title>. <source>IEEE Trans. Med. Imaging</source><volume>20</volume>, <fpage>45</fpage>–<lpage>57</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11293691</pub-id></mixed-citation>
+              </ref>
+              <ref id="r38">
+                <label>38</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>R. W.</given-names><surname>Cox</surname></string-name></person-group>, <article-title>AFNI: Software for analysis and visualization of functional magnetic resonance neuroimages</article-title>. <source>Comput. Biomed. Res.</source><volume>29</volume>, <fpage>162</fpage>–<lpage>173</lpage> (<year>1996</year>).<pub-id pub-id-type="pmid">8812068</pub-id></mixed-citation>
+              </ref>
+              <ref id="r39">
+                <label>39</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M.</given-names><surname>Jenkinson</surname></string-name>, <string-name><given-names>P.</given-names><surname>Bannister</surname></string-name>, <string-name><given-names>M.</given-names><surname>Brady</surname></string-name>, <string-name><given-names>S.</given-names><surname>Smith</surname></string-name></person-group>, <article-title>Improved optimization for the robust and accurate linear registration and motion correction of brain images</article-title>. <source>Neuroimage</source><volume>17</volume>, <fpage>825</fpage>–<lpage>841</lpage> (<year>2002</year>).<pub-id pub-id-type="pmid">12377157</pub-id></mixed-citation>
+              </ref>
+              <ref id="r40">
+                <label>40</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>D. N.</given-names><surname>Greve</surname></string-name>, <string-name><given-names>B.</given-names><surname>Fischl</surname></string-name></person-group>, <article-title>Accurate and robust brain image alignment using boundary-based registration</article-title>. <source>Neuroimage</source><volume>48</volume>, <fpage>63</fpage>–<lpage>72</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19573611</pub-id></mixed-citation>
+              </ref>
+              <ref id="r41">
+                <label>41</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names><surname>Behzadi</surname></string-name>, <string-name><given-names>K.</given-names><surname>Restom</surname></string-name>, <string-name><given-names>J.</given-names><surname>Liau</surname></string-name>, <string-name><given-names>T. T.</given-names><surname>Liu</surname></string-name></person-group>, <article-title>A component based noise correction method (CompCor) for BOLD and perfusion based fMRI</article-title>. <source>Neuroimage</source><volume>37</volume>, <fpage>90</fpage>–<lpage>101</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17560126</pub-id></mixed-citation>
+              </ref>
+              <ref id="r42">
+                <label>42</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J. D.</given-names><surname>Power</surname></string-name><etal/></person-group>., <article-title>Methods to detect, characterize, and remove motion artifact in resting state fMRI</article-title>. <source>Neuroimage</source><volume>84</volume>, <fpage>320</fpage>–<lpage>341</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">23994314</pub-id></mixed-citation>
+              </ref>
+              <ref id="r43">
+                <label>43</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A.</given-names><surname>Abraham</surname></string-name><etal/></person-group>., <article-title>Machine learning for neuroimaging with scikit-learn</article-title>. <source>Front. Neuroinform.</source><volume>8</volume>, <fpage>14</fpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24600388</pub-id></mixed-citation>
+              </ref>
+              <ref id="r44">
+                <label>44</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>B.</given-names><surname>Fischl</surname></string-name>, <string-name><given-names>M. I.</given-names><surname>Sereno</surname></string-name>, <string-name><given-names>R. B.</given-names><surname>Tootell</surname></string-name>, <string-name><given-names>A. M.</given-names><surname>Dale</surname></string-name></person-group>, <article-title>High-resolution intersubject averaging and a coordinate system for the cortical surface</article-title>. <source>Hum. Brain Mapp.</source><volume>8</volume>, <fpage>272</fpage>–<lpage>284</lpage> (<year>1999</year>).<pub-id pub-id-type="pmid">10619420</pub-id></mixed-citation>
+              </ref>
+              <ref id="r45">
+                <label>45</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M. K.</given-names><surname>Chung</surname></string-name><etal/></person-group>., <article-title>Cortical thickness analysis in autism with heat kernel smoothing</article-title>. <source>Neuroimage</source><volume>25</volume>, <fpage>1256</fpage>–<lpage>1265</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">15850743</pub-id></mixed-citation>
+              </ref>
+              <ref id="r46">
+                <label>46</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>P. M.</given-names><surname>Merikle</surname></string-name>, <string-name><given-names>D.</given-names><surname>Smilek</surname></string-name>, <string-name><given-names>J. D.</given-names><surname>Eastwood</surname></string-name></person-group>, <article-title>Perception without awareness: Perspectives from cognitive psychology</article-title>. <source>Cognition</source><volume>79</volume>, <fpage>115</fpage>–<lpage>134</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11164025</pub-id></mixed-citation>
+              </ref>
+              <ref id="r47">
+                <label>47</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>K. M.</given-names><surname>Igelström</surname></string-name>, <string-name><given-names>T. W.</given-names><surname>Webb</surname></string-name>, <string-name><given-names>M. S. A.</given-names><surname>Graziano</surname></string-name></person-group>, <article-title>Neural processes in the human temporoparietal cortex separated by localized independent component analysis</article-title>. <source>J. Neurosci.</source><volume>35</volume>, <fpage>9432</fpage>–<lpage>9445</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26109666</pub-id></mixed-citation>
+              </ref>
+              <ref id="r48">
+                <label>48</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><given-names>R. A.</given-names><surname>Poldrack</surname></string-name>, <string-name><given-names>J. A.</given-names><surname>Mumford</surname></string-name>, <string-name><given-names>T. E.</given-names><surname>Nichols</surname></string-name></person-group>, <source>Handbook of Functional MRI Data Analysis</source> (<publisher-name>Cambridge University Press</publisher-name>, <year>2011</year>).</mixed-citation>
+              </ref>
+              <ref id="r49">
+                <label>49</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>K. M.</given-names><surname>Igelström</surname></string-name>, <string-name><given-names>T. W.</given-names><surname>Webb</surname></string-name>, <string-name><given-names>Y. T.</given-names><surname>Kelly</surname></string-name>, <string-name><given-names>M. S. A.</given-names><surname>Graziano</surname></string-name></person-group>, <article-title>Topographical organization of attentional, social and memory processes in the human temporoparietal cortex</article-title>. <source>eNeuro</source><volume>3</volume>, <fpage>ENEURO.0060-16.2016</fpage> (<year>2016</year>).</mixed-citation>
+              </ref>
+              <ref id="r50">
+                <label>50</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>R.</given-names><surname>Cabeza</surname></string-name>, <string-name><given-names>E.</given-names><surname>Ciaramelli</surname></string-name>, <string-name><given-names>M.</given-names><surname>Moscovitch</surname></string-name></person-group>, <article-title>Cognitive contributions of the ventral parietal cortex: An integrative theoretical account</article-title>. <source>Trends Cogn. Sci.</source><volume>16</volume>, <fpage>338</fpage>–<lpage>352</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22609315</pub-id></mixed-citation>
+              </ref>
+              <ref id="r51">
+                <label>51</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>R. M.</given-names><surname>Carter</surname></string-name>, <string-name><given-names>S. A.</given-names><surname>Huettel</surname></string-name></person-group>, <article-title>A nexus model of the temporal-parietal junction</article-title>. <source>Trends Cogn. Sci.</source><volume>17</volume>, <fpage>328</fpage>–<lpage>336</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23790322</pub-id></mixed-citation>
+              </ref>
+              <ref id="r52">
+                <label>52</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>S.</given-names><surname>Konishi</surname></string-name>, <string-name><given-names>M. E.</given-names><surname>Wheeler</surname></string-name>, <string-name><given-names>D. I.</given-names><surname>Donaldson</surname></string-name>, <string-name><given-names>R. L.</given-names><surname>Buckner</surname></string-name></person-group>, <article-title>Neural correlates of episodic retrieval success</article-title>. <source>Neuroimage</source><volume>12</volume>, <fpage>276</fpage>–<lpage>286</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">10944410</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib53">
+                <label>53</label>
+                <mixed-citation publication-type="other"><person-group person-group-type="author"><string-name><given-names>A. I.</given-names><surname>Wilterson</surname></string-name>, <string-name><given-names>S. A.</given-names><surname>Nastase</surname></string-name>, <string-name><given-names>B. J.</given-names><surname>Bio</surname></string-name>, <string-name><given-names>A.</given-names><surname>Guterstam</surname></string-name>, <string-name><given-names>M. S. A.</given-names><surname>Graziano</surname></string-name></person-group>, <article-title>Attention and awareness in the dorsal attention network</article-title>. Princeton DataSpace. <ext-link xlink:href="http://arks.princeton.edu/ark:/88435/dsp01xp68kk27p" ext-link-type="uri">http://arks.princeton.edu/ark:/88435/dsp01xp68kk27p</ext-link>. Deposited 20 November 2020.</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

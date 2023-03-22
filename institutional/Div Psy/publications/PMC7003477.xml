@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:04:48Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7003477" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7003477</identifier>
+        <datestamp>2020-02-10</datestamp>
+        <setSpec>blackwellopen</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">J Sleep Res</journal-id>
+              <journal-id journal-id-type="iso-abbrev">J Sleep Res</journal-id>
+              <journal-id journal-id-type="doi">10.1111/(ISSN)1365-2869</journal-id>
+              <journal-id journal-id-type="publisher-id">JSR</journal-id>
+              <journal-title-group>
+                <journal-title>Journal of Sleep Research</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0962-1105</issn>
+              <issn pub-type="epub">1365-2869</issn>
+              <publisher>
+                <publisher-name>John Wiley and Sons Inc.</publisher-name>
+                <publisher-loc>Hoboken</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7003477</article-id>
+              <article-id pub-id-type="pmcid">PMC7003477</article-id>
+              <article-id pub-id-type="pmc-uid">7003477</article-id>
+              <article-id pub-id-type="pmid">29790200</article-id>
+              <article-id pub-id-type="doi">10.1111/jsr.12712</article-id>
+              <article-id pub-id-type="publisher-id">JSR12712</article-id>
+              <article-categories>
+                <subj-group subj-group-type="overline">
+                  <subject>Regular Research Paper</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Sleep Duration and Mortality</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Sleep duration and mortality – Does weekend sleep matter?</article-title>
+                <alt-title alt-title-type="left-running-head">ÅKERSTEDT <sc>et al.</sc></alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="jsr12712-cr-0001" contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Åkerstedt</surname>
+                    <given-names>Torbjörn</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-8049-8504</contrib-id>
+                  <xref ref-type="aff" rid="jsr12712-aff-0001">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="jsr12712-aff-0002">
+                    <sup>2</sup>
+                  </xref>
+                  <address>
+                    <email>torbjorn.akerstedt@ki.se</email>
+                  </address>
+                </contrib>
+                <contrib id="jsr12712-cr-0002" contrib-type="author">
+                  <name>
+                    <surname>Ghilotti</surname>
+                    <given-names>Francesca</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="jsr12712-aff-0003">
+                    <sup>3</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="jsr12712-aff-0004">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib id="jsr12712-cr-0003" contrib-type="author">
+                  <name>
+                    <surname>Grotta</surname>
+                    <given-names>Alessandra</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="jsr12712-aff-0005">
+                    <sup>5</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="jsr12712-aff-0006">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib id="jsr12712-cr-0004" contrib-type="author">
+                  <name>
+                    <surname>Zhao</surname>
+                    <given-names>Hongwei</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="jsr12712-aff-0007">
+                    <sup>7</sup>
+                  </xref>
+                </contrib>
+                <contrib id="jsr12712-cr-0005" contrib-type="author">
+                  <name>
+                    <surname>Adami</surname>
+                    <given-names>Hans‐Olov</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="jsr12712-aff-0005">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib id="jsr12712-cr-0006" contrib-type="author">
+                  <name>
+                    <surname>Trolle‐Lagerros</surname>
+                    <given-names>Ylva</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="jsr12712-aff-0003">
+                    <sup>3</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="jsr12712-aff-0008">
+                    <sup>8</sup>
+                  </xref>
+                </contrib>
+                <contrib id="jsr12712-cr-0007" contrib-type="author">
+                  <name>
+                    <surname>Bellocco</surname>
+                    <given-names>Rino</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="jsr12712-aff-0004">
+                    <sup>4</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="jsr12712-aff-0005">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="jsr12712-aff-0001">
+                <label>
+                  <sup>1</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Clinical Neuroscience</named-content>
+                <institution>Karolinska Institutet</institution>
+                <city>Stockholm</city>
+                <country country="SE">Sweden</country>
+              </aff>
+              <aff id="jsr12712-aff-0002">
+                <label>
+                  <sup>2</sup>
+                </label>
+                <named-content content-type="organisation-division">Stress Research Institute</named-content>
+                <institution>Stockholm University</institution>
+                <city>Stockholm</city>
+                <country country="SE">Sweden</country>
+              </aff>
+              <aff id="jsr12712-aff-0003">
+                <label>
+                  <sup>3</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Medicine</named-content>
+                <named-content content-type="organisation-division">Clinical Epidemiology Unit</named-content>
+                <institution>Karolinska Institutet</institution>
+                <city>Stockholm</city>
+                <country country="SE">Sweden</country>
+              </aff>
+              <aff id="jsr12712-aff-0004">
+                <label>
+                  <sup>4</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Statistics and Quantitative Methods</named-content>
+                <institution>University of Milano‐Bicocca</institution>
+                <city>Milan</city>
+                <country country="IT">Italy</country>
+              </aff>
+              <aff id="jsr12712-aff-0005">
+                <label>
+                  <sup>5</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Medical Epidemiology and Biostatistics</named-content>
+                <institution>Karolinska Institutet</institution>
+                <city>Stockholm</city>
+                <country country="SE">Sweden</country>
+              </aff>
+              <aff id="jsr12712-aff-0006">
+                <label>
+                  <sup>6</sup>
+                </label>
+                <named-content content-type="organisation-division">Center for Health Equity Studies</named-content>
+                <institution>Stockholm University and Karolinska Institutet</institution>
+                <city>Stockholm</city>
+                <country country="SE">Sweden</country>
+              </aff>
+              <aff id="jsr12712-aff-0007">
+                <label>
+                  <sup>7</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Epidemiology and Biostatistics</named-content>
+                <institution>School of Public Health</institution>
+                <institution>Texas A&amp;M University</institution>
+                <city>College Station</city>
+                <named-content content-type="country-part">Texas</named-content>
+              </aff>
+              <aff id="jsr12712-aff-0008">
+                <label>
+                  <sup>8</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Medicine</named-content>
+                <named-content content-type="organisation-division">Clinic of Endocrinology, Metabolism and Diabetes</named-content>
+                <institution>Karolinska University Hospital Huddinge</institution>
+                <city>Stockholm</city>
+                <country country="SE">Sweden</country>
+              </aff>
+              <author-notes>
+                <corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Professor Torbjörn Åkerstedt, Department of Clinical Neuroscience, Karolinska Institute, 17177 Stockholm, Sweden.<break/>
+Email: <email>torbjorn.akerstedt@ki.se</email><break/></corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>22</day>
+                <month>5</month>
+                <year>2018</year>
+              </pub-date>
+              <pub-date pub-type="ppub">
+                <month>2</month>
+                <year>2019</year>
+              </pub-date>
+              <volume>28</volume>
+              <issue>1</issue>
+              <issue-id pub-id-type="doi">10.1111/jsr.2019.28.issue-1</issue-id>
+              <elocation-id>e12712</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>08</day>
+                  <month>12</month>
+                  <year>2017</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>12</day>
+                  <month>4</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="accepted">
+                  <day>17</day>
+                  <month>4</month>
+                  <year>2018</year>
+                </date>
+              </history>
+              <permissions>
+                <!--<copyright-statement content-type="issue-copyright"> Copyright &#x000a9; 2019 European Sleep Research Society <copyright-statement>-->
+                <copyright-statement content-type="article-copyright">© 2018 The Authors. <italic>Journal of Sleep Research</italic> published by John Wiley &amp; Sons Ltd on behalf of European Sleep Research Society</copyright-statement>
+                <license license-type="creativeCommonsBy-nc-nd">
+                  <license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf" xlink:href="file:JSR-28-e12712.pdf"/>
+              <abstract id="jsr12712-abs-0001">
+                <title>Summary</title>
+                <p>Previous studies have found a U‐shaped relationship between mortality and (weekday) sleep duration. We here address the association of both weekday and weekend sleep duration with overall mortality. A cohort of 43,880 subjects was followed for 13 years through record‐linkages. Cox proportional hazards regression models with attained age as time‐scale were fitted to estimate multivariable‐adjusted hazard ratios and 95% confidence intervals for mortality; stratified analyses on age (&lt;65 years, ≥65 years) were conducted. Among individuals &lt;65 years old, short sleep (≤5 hr) during weekends at baseline was associated with a 52% higher mortality rate (hazard ratios 1.52; 95% confidence intervals 1.15–2.02) compared with the reference group (7 hr), while no association was observed for long (≥9 hr) weekend sleep. When, instead, different combinations of weekday and weekend sleep durations were analysed, we observed a detrimental association with consistently sleeping ≤5 hr (hazard ratios 1.65; 95% confidence intervals 1.22–2.23) or ≥8 hr (hazard ratios 1.25; 95% confidence intervals 1.05–1.50), compared with consistently sleeping 6–7 hr per day (reference). The mortality rate among participants with short sleep during weekdays, but long sleep during weekends, did not differ from the rate of the reference group. Among individuals ≥65 years old, no association between weekend sleep or weekday/weekend sleep durations and mortality was observed. In conclusion, short, but not long, weekend sleep was associated with an increased mortality in subjects <bold>&lt;</bold>65 years. In the same age group, short sleep (or long sleep) on both weekdays and weekend showed increased mortality. Possibly, long weekend sleep may compensate for short weekday sleep.</p>
+              </abstract>
+              <kwd-group kwd-group-type="author-generated">
+                <kwd id="jsr12712-kwd-0001">aging</kwd>
+                <kwd id="jsr12712-kwd-0002">compensation</kwd>
+                <kwd id="jsr12712-kwd-0003">long</kwd>
+                <kwd id="jsr12712-kwd-0004">rested</kwd>
+                <kwd id="jsr12712-kwd-0005">short</kwd>
+                <kwd id="jsr12712-kwd-0006">weekday</kwd>
+                <kwd id="jsr12712-kwd-0007">weekend</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group id="funding-0001">
+                  <funding-source>Italian Institute, Stockholm, Sweden</funding-source>
+                </award-group>
+                <award-group id="funding-0002">
+                  <funding-source>Stockholm Stress Center</funding-source>
+                </award-group>
+                <award-group id="funding-0003">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>AFA Försäkring (Insurance foundation) </institution>
+                      <institution-id institution-id-type="open-funder-registry">10.13039/501100002706</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+                <award-group id="funding-0004">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>AFA Insurance </institution>
+                      <institution-id institution-id-type="open-funder-registry">10.13039/501100002706</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <counts>
+                <fig-count count="4"/>
+                <table-count count="2"/>
+                <page-count count="11"/>
+                <word-count count="7820"/>
+              </counts>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>source-schema-version-number</meta-name>
+                  <meta-value>2.0</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>cover-date</meta-name>
+                  <meta-value>February 2019</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>details-of-publishers-convertor</meta-name>
+                  <meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.7.5 mode:remove_FC converted:06.02.2020</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+            <notes>
+              <p content-type="self-citation">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-1001"><string-name><surname>Åkerstedt</surname><given-names>T</given-names></string-name>, <string-name><surname>Ghilotti</surname><given-names>F</given-names></string-name>, <string-name><surname>Grotta</surname><given-names>A</given-names></string-name>, et al. <article-title>Sleep duration and mortality – Does weekend sleep matter?</article-title>. <source xml:lang="en">J Sleep Res</source>. <year>2019</year>;<volume>28</volume>:<elocation-id>e12712</elocation-id>
+<pub-id pub-id-type="doi">10.1111/jsr.12712</pub-id>
+<pub-id pub-id-type="pmid">29790200</pub-id></mixed-citation>
+              </p>
+            </notes>
+          </front>
+          <body id="jsr12712-body-0001">
+            <sec id="jsr12712-sec-0001">
+              <label>1</label>
+              <title>INTRODUCTION</title>
+              <p>The health effects of sleep duration have been addressed in a large number of studies and summarized in several systematic reviews (Cappuccio, D'elia, Strazzullo, &amp; Miller, <xref rid="jsr12712-bib-0006" ref-type="ref">2010</xref>; Gallicchio &amp; Kalesan, <xref rid="jsr12712-bib-0009" ref-type="ref">2009</xref>; Silva et al., <xref rid="jsr12712-bib-0023" ref-type="ref">2016</xref>). They conclude that both short and long sleep is associated with higher mortality. Still, published results are not consistent, as pointed out by Kurina et al. in their critical review (Kurina et al., <xref rid="jsr12712-bib-0019" ref-type="ref">2013</xref>). Two recent meta‐analyses (Itani, Jike, Watanabe, &amp; Kaneita, <xref rid="jsr12712-bib-0015" ref-type="ref">2017</xref>; Jike, Itani, Watanabe, Buysse, &amp; Kaneita, <xref rid="jsr12712-bib-0016" ref-type="ref">2018</xref>) found that short sleep was significantly related not only to increased mortality but also to increased morbidity, with a similar association observed for long sleep. In these two meta‐analyses, age‐subgroup analyses, using 65 years as cut‐off, showed an increased mortality in both age groups among individuals with long sleep, but no significant association between short sleep and mortality in any of the age groups. In a recent study (Akerstedt et al., <xref rid="jsr12712-bib-0002" ref-type="ref">2017</xref>), we found a U‐shaped relationship between sleep duration and mortality only among subjects below the age of 65 years.</p>
+              <p>Most studies of sleep duration and its consequences ask for the “usual” or “habitual” duration. It is not clear, however, whether individuals refer only to weekdays or take into account weekends. Because there are 5 weekdays and 2 weekend days, it is likely that self‐reports of typical sleep duration more strongly reflect weekday sleep. Thus, it is of interest to investigate the relationship between weekend sleep duration and mortality, as well as the different patterns of sleep duration between weekday and weekend sleep. If, for example, short weekday sleep increases mortality, long weekend sleep might mitigate this effect. Moreover, short sleep during both weekday and weekend (consistently short sleep) may be particularly detrimental. This issue has not been addressed before, but weekend compensatory sleep seems to counteract obesity in children who have short sleep duration during weekdays (Wing, Li, Li, Zhang, &amp; Kong, <xref rid="jsr12712-bib-0025" ref-type="ref">2009</xref>), and to counteract hypertension in adults (Hwangbo, Kim, Chu, Yun, &amp; Yang, <xref rid="jsr12712-bib-0014" ref-type="ref">2013</xref>). The purpose of the present study was to prospectively analyse the association between different sleep duration patterns between weekday and weekend sleep duration and mortality in a large Swedish cohort during 13 years of follow‐up.</p>
+            </sec>
+            <sec id="jsr12712-sec-0002">
+              <label>2</label>
+              <title>MATERIALS AND METHODS</title>
+              <sec id="jsr12712-sec-0003">
+                <label>2.1</label>
+                <title>Study population</title>
+                <p>The Swedish National March Cohort (SNMC) comprises participants who took part in a fundraising event for the Swedish Cancer Society organized in September 1997 at 3,600 sites throughout Sweden (Trolle Lagerros et al., <xref rid="jsr12712-bib-0024" ref-type="ref">2017</xref>). A total of 43,880 subjects returned the 36‐page questionnaire concerning lifestyle and medical history. The study was approved by the Regional Ethical Review Board of Karolinska Institutet, and all subjects provided informed consent.</p>
+                <p>Participants with inconsistent answers (<italic>n</italic> = 4), incorrect national registration number (<italic>n</italic> = 13), missing data on age (<italic>n</italic> = 11), age &lt;18 years (<italic>n</italic> = 1,740), who had emigrated (<italic>n</italic> = 457) or died (<italic>n</italic> = 8) before the start of follow‐up, or with missing values on weekday or weekend sleep duration (<italic>n</italic> = 3,632) were excluded from the analyses. After applying the exclusion criteria, the final cohort consisted of 38,015 subjects.</p>
+              </sec>
+              <sec id="jsr12712-sec-0004">
+                <label>2.2</label>
+                <title>Exposure assessment</title>
+                <p>Sleep duration was self‐reported through two questions at baseline: “How many hours, approximately, do you usually sleep during a workday/weekday night?” and “How many hours, approximately, do you usually sleep per night on days off?” The response alternatives were: &lt;5, 5, 6, 7, 8 or ≥9 hr. Even though days off do not necessarily correspond to the weekend, for simplicity, we will refer to the second question as weekend sleep duration. For the study of weekend sleep we defined short sleep as ≤5 hr, and weekend long sleep as ≥9 hr, with 7 hr being the reference category. The former is a common definition (Cappuccio et al., <xref rid="jsr12712-bib-0006" ref-type="ref">2010</xref>) and the one used in the largest study (Kripke, Garfinkel, Wingard, Klauber, &amp; Marler, <xref rid="jsr12712-bib-0018" ref-type="ref">2002</xref>). The definition of long sleep as ≥9 hr is the most common one (Cappuccio et al., <xref rid="jsr12712-bib-0006" ref-type="ref">2010</xref>), and the one used in the largest study (Kripke et al., <xref rid="jsr12712-bib-0018" ref-type="ref">2002</xref>). For the analysis of both weekend and weekday sleep duration we collapsed the two highest categories to ensure enough participants with long weekday sleep (which is shorter than weekday sleep).</p>
+                <p>We further combined some subgroups due to small cell sizes, and formed the following weekday/weekend sleep duration groups: short (SS); medium (MM–reference); or long (LL) sleep on both weekdays and weekend; short weekday and medium or long weekend sleep (SML); medium weekday and long weekend sleep (ML). A final group was composed of those who reported long weekday and short, or medium, weekend sleep or medium weekday and short weekend sleep (LS).</p>
+              </sec>
+              <sec id="jsr12712-sec-0005">
+                <label>2.3</label>
+                <title>Confounders</title>
+                <p>All previous studies of the association between sleep duration and mortality adjust for a large number of potential confounders measured at baseline (Cappuccio et al., <xref rid="jsr12712-bib-0006" ref-type="ref">2010</xref>; Gallicchio &amp; Kalesan, <xref rid="jsr12712-bib-0009" ref-type="ref">2009</xref>; Silva et al., <xref rid="jsr12712-bib-0023" ref-type="ref">2016</xref>). Among them are gender, education, body mass index (BMI), severe disease, use of hypnotics, and lifestyle factors like smoking, alcohol intake, physical activity, coffee intake, employment status (all adjusted for in the present study). Most of these factors are likely to be associated with mortality as well as with sleep.</p>
+              </sec>
+              <sec id="jsr12712-sec-0006">
+                <label>2.4</label>
+                <title>Follow‐up and outcome</title>
+                <p>Participants were followed for overall and cause‐specific mortality from 1 October 1997 until the date of death, emigration or the end of follow‐up on 31 December 2010, whichever occurred first. Through the use of the individually unique National Registration Numbers (NRNs), provided by the participants at baseline, the cohort was linked to the Swedish National Register of Death to obtain information on date of death and the underlying causes of death. Up to the end of follow‐up, 3,234 deaths occurred. The main causes of death were cancer (ICD‐10 codes C00‐C97; <italic>n</italic> = 1,515) and cardiovascular diseases (CVD‐ICD‐10 codes I00‐I99; <italic>n</italic> = 1,017).</p>
+              </sec>
+              <sec id="jsr12712-sec-0007">
+                <label>2.5</label>
+                <title>Statistical analysis</title>
+                <p>Baseline characteristics of the study cohort are described according to the six groups of weekday and weekend sleep durations. The distribution of all variables, except age and sex, was directly standardized to the age distribution of the entire study population. We fitted multivariable‐adjusted Cox proportional hazards (PHs) models with attained age as time‐scale to estimate overall mortality hazard ratios (HRs) and 95% confidence intervals (95% CIs) for both weekend sleep duration and the weekday/weekend sleep duration groups (Figure <xref rid="jsr12712-fig-0001" ref-type="fig">1</xref>); stratified analyses on age (&lt;65 years, ≥65 years) were conducted. Sixty‐five years represents the common retirement age in Sweden; we therefore assumed that weekday sleep duration is no longer restricted by working hours after retirement, and may thus permit extended sleep. The latter should be of importance for interpreting data on sleep duration and mortality. In a previous study the association between long or short sleep duration and mortality decreased with increasing age, and was no longer significant in the ≥65 years group (Akerstedt et al., <xref rid="jsr12712-bib-0002" ref-type="ref">2017</xref>).</p>
+                <fig fig-type="Figure" xml:lang="en" id="jsr12712-fig-0001" orientation="portrait" position="float">
+                  <label>Figure 1</label>
+                  <caption>
+                    <p>Distribution of weekday/weekend sleep durations</p>
+                  </caption>
+                  <graphic id="nlm-graphic-1" xlink:href="JSR-28-e12712-g001"/>
+                </fig>
+                <p>To control for potential confounding, we adjusted for sex, BMI (categorized as &lt;25, 25–30, &gt;30 kg/m<sup>2</sup>), education (categorized as 9, 11–14, ≥15 years, other), smoking status (categorized as never, former, current), alcohol consumption (g per month), total physical activity (expressed as metabolic energy turnover hours per day [MET‐hr per day], and categorized as low &lt;34.3, medium 34.3–46.4, high &gt;46.4; Ainsworth et al., <xref rid="jsr12712-bib-0001" ref-type="ref">1993</xref>), shift work (categorized as daytime, shiftwork, no work hours, other) and Charlson's co‐morbidity weighted index based on the National Inpatient Register (Charlson, Pompei, Ales, &amp; Mackenzie, <xref rid="jsr12712-bib-0007" ref-type="ref">1987</xref>; categorized as 0, ≥1). When weekend sleep duration was the main exposure of interest, we further adjusted for weekday sleep duration categorized as ≤5, 6, 7 and ≥8 hr.</p>
+                <p>Schoenfeld's residuals (Grambsch &amp; Therneau, <xref rid="jsr12712-bib-0010" ref-type="ref">1994</xref>) were used to assess whether the underlying PHs assumption of the Cox model was met, both for sleep duration and for the confounders. In case of departures from proportionality, interactions between the time‐scale and the exposures were investigated (Cologne et al., <xref rid="jsr12712-bib-0008" ref-type="ref">2012</xref>; Lamarca, Alonso, Gomez, &amp; Munoz, <xref rid="jsr12712-bib-0020" ref-type="ref">1998</xref>). Overall, our exposures were not fulfilling the PH assumption, and time‐varying HRs of the weekday/weekend sleep duration exposure were estimated. The temporal trend was modelled based on restricted cubic splines after having selected 4 knots according to Harrell's recommendations (Harrell, <xref rid="jsr12712-bib-0012" ref-type="ref">2001</xref>; Heinzl &amp; Kaider, <xref rid="jsr12712-bib-0013" ref-type="ref">1997</xref>). The corresponding graphs are also reported. Finally, for the predictors who did not fulfill the PH assumption (Charlson's index), stratified Cox models were implemented.</p>
+                <p>Multivariate Cox models were also fitted to study cancer mortality and CVD mortality. Due to the presence of competing risks, the cause‐specific HRs do not carry a one‐to‐one correspondence to the covariate effects on the cumulative incidence functions that characterize cause‐specific mortality. However, we still carried out these analyses because the alternative choice, the regression analysis on the cumulative incidence functions, has its own drawback – difficulty of interpreting the coefficients (Andersen, Geskus, De Witte, &amp; Putter, <xref rid="jsr12712-bib-0003" ref-type="ref">2012</xref>). Quantile regression was used to model the 25th, 50th and 75th percentiles of age at death (Bellavia, Akerstedt, Bottai, Wolk, &amp; Orsini, <xref rid="jsr12712-bib-0004" ref-type="ref">2014</xref>); differences in survival percentiles between the weekday/weekend sleep duration groups are reported. The same set of confounders as in the main analysis was used, to which baseline age is added.</p>
+              </sec>
+              <sec id="jsr12712-sec-0008">
+                <label>2.6</label>
+                <title>Sensitivity analysis</title>
+                <p>In sensitivity analyses we excluded subjects who had less than 2 years of follow‐up time in order to prevent reverse causation and, simultaneously, we left the follow‐up start 2 years later for subjects who contributed for more than 2 years of follow‐up. In addition, we further adjusted our model for sleep‐ and health‐related variables: sleep quality, snoring, self‐reported sleep medication use, napping, feeling rested at awakening, coffee intake, subjective health and high demands at work. Demands at work (Karasek &amp; Theorell, <xref rid="jsr12712-bib-0017" ref-type="ref">1990</xref>) were assessed by five questions (working fast, working hard, too much efforts, enough time and conflicting demands) and split at the median value.</p>
+                <p>Due to the presence of missing values on the covariates included in the model, we carried out multiple imputation using the Multiple Imputation by Chained Equations algorithm assuming a missing at random mechanism. The imputation model for each incomplete variable included information on the survival outcomes (Nelson–Aalen cumulative hazard and mortality status), age and the variables appearing in the fully‐adjusted Cox PHs model. Twenty imputed datasets were thus created and analysed. The results were pooled to obtain the HR estimates and the 95% CIs.</p>
+                <p>Analyses were performed using Stata, version 14 (StataCorp LP, College Station, Texas, USA). All statistical tests were two‐sided, and <italic>p</italic>‐values less than 0.05 were considered statistically significant.</p>
+              </sec>
+            </sec>
+            <sec id="jsr12712-sec-0009">
+              <label>3</label>
+              <title>RESULTS</title>
+              <p>Baseline characteristics of the study participants for the weekday/weekend sleep duration groups are presented in Table <xref rid="jsr12712-tbl-0001" ref-type="table">1</xref>. Subjects with short‐short sleep (SS) were on average older, less educated and more physically active. Subjects with long‐long sleep (LL) were more likely not to use sleep medications, to be never smokers and to drink less coffee. Background data stratified by weekend sleep duration are presented as supplementary material (Table <xref rid="jsr12712-sup-0001" ref-type="supplementary-material">S1</xref>).</p>
+              <table-wrap id="jsr12712-tbl-0001" xml:lang="en" orientation="portrait" position="float">
+                <label>Table 1</label>
+                <caption>
+                  <p>Age‐standardized baseline characteristics by categories weekdays/weekend sleep durations in the Swedish National March Cohort</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <col style="border-right:solid 1px #000000" span="1"/>
+                  <col style="border-right:solid 1px #000000" span="1"/>
+                  <col style="border-right:solid 1px #000000" span="1"/>
+                  <col style="border-right:solid 1px #000000" span="1"/>
+                  <col style="border-right:solid 1px #000000" span="1"/>
+                  <col style="border-right:solid 1px #000000" span="1"/>
+                  <col style="border-right:solid 1px #000000" span="1"/>
+                  <col style="border-right:solid 1px #000000" span="1"/>
+                  <col style="border-right:solid 1px #000000" span="1"/>
+                  <col style="border-right:solid 1px #000000" span="1"/>
+                  <col style="border-right:solid 1px #000000" span="1"/>
+                  <col style="border-right:solid 1px #000000" span="1"/>
+                  <col style="border-right:solid 1px #000000" span="1"/>
+                  <thead valign="top">
+                    <tr style="border-bottom:solid 1px #000000">
+                      <th align="left" rowspan="3" valign="top" colspan="1">Characteristics</th>
+                      <th align="center" colspan="12" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">Sleep duration<xref ref-type="fn" rid="jsr12712-note-0002">a</xref>, hr per day</th>
+                    </tr>
+                    <tr style="border-bottom:solid 1px #000000">
+                      <th align="center" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">Short‐short</th>
+                      <th align="center" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">Short‐medium/long</th>
+                      <th align="center" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">Medium‐medium</th>
+                      <th align="center" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">Medium‐long</th>
+                      <th align="center" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">Long‐long</th>
+                      <th align="center" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">Long‐short</th>
+                    </tr>
+                    <tr style="border-bottom:solid 1px #000000">
+                      <th align="center" valign="top" rowspan="1" colspan="1">No.</th>
+                      <th align="center" valign="top" rowspan="1" colspan="1">%</th>
+                      <th align="center" valign="top" rowspan="1" colspan="1">No.</th>
+                      <th align="center" valign="top" rowspan="1" colspan="1">%</th>
+                      <th align="center" valign="top" rowspan="1" colspan="1">No.</th>
+                      <th align="center" valign="top" rowspan="1" colspan="1">%</th>
+                      <th align="center" valign="top" rowspan="1" colspan="1">No.</th>
+                      <th align="center" valign="top" rowspan="1" colspan="1">%</th>
+                      <th align="center" valign="top" rowspan="1" colspan="1">No.</th>
+                      <th align="center" valign="top" rowspan="1" colspan="1">%</th>
+                      <th align="center" valign="top" rowspan="1" colspan="1">No.</th>
+                      <th align="center" valign="top" rowspan="1" colspan="1">%</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">
+                        <italic>N</italic>
+                      </td>
+                      <td align="char" char="." colspan="2" rowspan="1">1,592</td>
+                      <td align="char" char="." colspan="2" rowspan="1">1,438</td>
+                      <td align="char" char="." colspan="2" rowspan="1">10,699</td>
+                      <td align="char" char="." colspan="2" rowspan="1">14,381</td>
+                      <td align="char" char="." colspan="2" rowspan="1">9,174</td>
+                      <td align="char" char="." colspan="2" rowspan="1">731</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">Years at risk, mean (<italic>SD</italic>)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">12.1 (2.8)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">12.8 (2.0)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">12.6 (2.2)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">13.0 (1.5)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">12.6 (2.2)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">12.4 (2.4)</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">Deaths, <italic>n</italic>
+</td>
+                      <td align="char" char="." rowspan="1" colspan="1">323</td>
+                      <td align="char" char="." rowspan="1" colspan="1">20.3</td>
+                      <td align="char" char="." rowspan="1" colspan="1">85</td>
+                      <td align="char" char="." rowspan="1" colspan="1">5.9</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1,302</td>
+                      <td align="char" char="." rowspan="1" colspan="1">12.2</td>
+                      <td align="char" char="." rowspan="1" colspan="1">503</td>
+                      <td align="char" char="." rowspan="1" colspan="1">3.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">918</td>
+                      <td align="char" char="." rowspan="1" colspan="1">10.0</td>
+                      <td align="char" char="." rowspan="1" colspan="1">103</td>
+                      <td align="char" char="." rowspan="1" colspan="1">14.1</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">Age, mean (<italic>SD</italic>)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">61.2 (14.2)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">46.1 (14.9)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">56.7 (13.7)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">44.0 (13.2)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">50.2 (16.9)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">54.8 (16.5)</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">Gender, males</td>
+                      <td align="char" char="." rowspan="1" colspan="1">587</td>
+                      <td align="char" char="." rowspan="1" colspan="1">36.9</td>
+                      <td align="char" char="." rowspan="1" colspan="1">604</td>
+                      <td align="char" char="." rowspan="1" colspan="1">42.0</td>
+                      <td align="char" char="." rowspan="1" colspan="1">4,499</td>
+                      <td align="char" char="." rowspan="1" colspan="1">42.1</td>
+                      <td align="char" char="." rowspan="1" colspan="1">4,765</td>
+                      <td align="char" char="." rowspan="1" colspan="1">33.1</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2,972</td>
+                      <td align="char" char="." rowspan="1" colspan="1">32.4</td>
+                      <td align="char" char="." rowspan="1" colspan="1">260</td>
+                      <td align="char" char="." rowspan="1" colspan="1">35.6</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">BMI, mean (<italic>SD</italic>)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">25.01 (4.0)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">25.3 (4.0)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">24.7 (3.4)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">24.5 (3.5)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">24.5 (3.5)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">25.1 (3.6)</td>
+                    </tr>
+                    <tr>
+                      <td align="left" colspan="13" rowspan="1">Education</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">9 years</td>
+                      <td align="char" char="." rowspan="1" colspan="1">912</td>
+                      <td align="char" char="." rowspan="1" colspan="1">46.9</td>
+                      <td align="char" char="." rowspan="1" colspan="1">476</td>
+                      <td align="char" char="." rowspan="1" colspan="1">39.4</td>
+                      <td align="char" char="." rowspan="1" colspan="1">4,715</td>
+                      <td align="char" char="." rowspan="1" colspan="1">36.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">3,766</td>
+                      <td align="char" char="." rowspan="1" colspan="1">33.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">3,460</td>
+                      <td align="char" char="." rowspan="1" colspan="1">37.9</td>
+                      <td align="char" char="." rowspan="1" colspan="1">351</td>
+                      <td align="char" char="." rowspan="1" colspan="1">43.5</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">11–14 years</td>
+                      <td align="char" char="." rowspan="1" colspan="1">431</td>
+                      <td align="char" char="." rowspan="1" colspan="1">35.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">569</td>
+                      <td align="char" char="." rowspan="1" colspan="1">35.1</td>
+                      <td align="char" char="." rowspan="1" colspan="1">3,041</td>
+                      <td align="char" char="." rowspan="1" colspan="1">34.8</td>
+                      <td align="char" char="." rowspan="1" colspan="1">5,226</td>
+                      <td align="char" char="." rowspan="1" colspan="1">33.0</td>
+                      <td align="char" char="." rowspan="1" colspan="1">3,057</td>
+                      <td align="char" char="." rowspan="1" colspan="1">33.2</td>
+                      <td align="char" char="." rowspan="1" colspan="1">241</td>
+                      <td align="char" char="." rowspan="1" colspan="1">36.3</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">15 years</td>
+                      <td align="char" char="." rowspan="1" colspan="1">212</td>
+                      <td align="char" char="." rowspan="1" colspan="1">17.0</td>
+                      <td align="char" char="." rowspan="1" colspan="1">361</td>
+                      <td align="char" char="." rowspan="1" colspan="1">24.3</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2,739</td>
+                      <td align="char" char="." rowspan="1" colspan="1">27.9</td>
+                      <td align="char" char="." rowspan="1" colspan="1">5,214</td>
+                      <td align="char" char="." rowspan="1" colspan="1">32.9</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2,498</td>
+                      <td align="char" char="." rowspan="1" colspan="1">28.2</td>
+                      <td align="char" char="." rowspan="1" colspan="1">116</td>
+                      <td align="char" char="." rowspan="1" colspan="1">18.9</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Other</td>
+                      <td align="char" char="." rowspan="1" colspan="1">17</td>
+                      <td align="char" char="." rowspan="1" colspan="1">0.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">15</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1.2</td>
+                      <td align="char" char="." rowspan="1" colspan="1">90</td>
+                      <td align="char" char="." rowspan="1" colspan="1">0.7</td>
+                      <td align="char" char="." rowspan="1" colspan="1">62</td>
+                      <td align="char" char="." rowspan="1" colspan="1">0.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">71</td>
+                      <td align="char" char="." rowspan="1" colspan="1">0.7</td>
+                      <td align="char" char="." rowspan="1" colspan="1">10</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1.3</td>
+                    </tr>
+                    <tr>
+                      <td align="left" colspan="13" rowspan="1">Employment</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Employed</td>
+                      <td align="char" char="." rowspan="1" colspan="1">373</td>
+                      <td align="char" char="." rowspan="1" colspan="1">49.7</td>
+                      <td align="char" char="." rowspan="1" colspan="1">895</td>
+                      <td align="char" char="." rowspan="1" colspan="1">68.0</td>
+                      <td align="char" char="." rowspan="1" colspan="1">4,520</td>
+                      <td align="char" char="." rowspan="1" colspan="1">62.4</td>
+                      <td align="char" char="." rowspan="1" colspan="1">9,823</td>
+                      <td align="char" char="." rowspan="1" colspan="1">70.0</td>
+                      <td align="char" char="." rowspan="1" colspan="1">3,713</td>
+                      <td align="char" char="." rowspan="1" colspan="1">58.0</td>
+                      <td align="char" char="." rowspan="1" colspan="1">256</td>
+                      <td align="char" char="." rowspan="1" colspan="1">56.8</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Unemployed</td>
+                      <td align="char" char="." rowspan="1" colspan="1">38</td>
+                      <td align="char" char="." rowspan="1" colspan="1">5.7</td>
+                      <td align="char" char="." rowspan="1" colspan="1">29</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2.1</td>
+                      <td align="char" char="." rowspan="1" colspan="1">197</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2.9</td>
+                      <td align="char" char="." rowspan="1" colspan="1">218</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">262</td>
+                      <td align="char" char="." rowspan="1" colspan="1">3.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">23</td>
+                      <td align="char" char="." rowspan="1" colspan="1">4.9</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Retired</td>
+                      <td align="char" char="." rowspan="1" colspan="1">850</td>
+                      <td align="char" char="." rowspan="1" colspan="1">24.7</td>
+                      <td align="char" char="." rowspan="1" colspan="1">134</td>
+                      <td align="char" char="." rowspan="1" colspan="1">20.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">3,999</td>
+                      <td align="char" char="." rowspan="1" colspan="1">24.1</td>
+                      <td align="char" char="." rowspan="1" colspan="1">638</td>
+                      <td align="char" char="." rowspan="1" colspan="1">20.4</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2,588</td>
+                      <td align="char" char="." rowspan="1" colspan="1">25.3</td>
+                      <td align="char" char="." rowspan="1" colspan="1">267</td>
+                      <td align="char" char="." rowspan="1" colspan="1">23.9</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Sick leave</td>
+                      <td align="char" char="." rowspan="1" colspan="1">75</td>
+                      <td align="char" char="." rowspan="1" colspan="1">8.2</td>
+                      <td align="char" char="." rowspan="1" colspan="1">16</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1.3</td>
+                      <td align="char" char="." rowspan="1" colspan="1">190</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2.0</td>
+                      <td align="char" char="." rowspan="1" colspan="1">83</td>
+                      <td align="char" char="." rowspan="1" colspan="1">0.7</td>
+                      <td align="char" char="." rowspan="1" colspan="1">208</td>
+                      <td align="char" char="." rowspan="1" colspan="1">3.2</td>
+                      <td align="char" char="." rowspan="1" colspan="1">14</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2.4</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Other</td>
+                      <td align="char" char="." rowspan="1" colspan="1">75</td>
+                      <td align="char" char="." rowspan="1" colspan="1">11.8</td>
+                      <td align="char" char="." rowspan="1" colspan="1">153</td>
+                      <td align="char" char="." rowspan="1" colspan="1">8.1</td>
+                      <td align="char" char="." rowspan="1" colspan="1">343</td>
+                      <td align="char" char="." rowspan="1" colspan="1">8.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1,326</td>
+                      <td align="char" char="." rowspan="1" colspan="1">8.3</td>
+                      <td align="char" char="." rowspan="1" colspan="1">877</td>
+                      <td align="char" char="." rowspan="1" colspan="1">9.9</td>
+                      <td align="char" char="." rowspan="1" colspan="1">62</td>
+                      <td align="char" char="." rowspan="1" colspan="1">12.0</td>
+                    </tr>
+                    <tr>
+                      <td align="left" colspan="13" rowspan="1">Snoring</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Frequent</td>
+                      <td align="char" char="." rowspan="1" colspan="1">140</td>
+                      <td align="char" char="." rowspan="1" colspan="1">9.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">145</td>
+                      <td align="char" char="." rowspan="1" colspan="1">10.4</td>
+                      <td align="char" char="." rowspan="1" colspan="1">879</td>
+                      <td align="char" char="." rowspan="1" colspan="1">7.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">942</td>
+                      <td align="char" char="." rowspan="1" colspan="1">7.7</td>
+                      <td align="char" char="." rowspan="1" colspan="1">653</td>
+                      <td align="char" char="." rowspan="1" colspan="1">7.3</td>
+                      <td align="char" char="." rowspan="1" colspan="1">68</td>
+                      <td align="char" char="." rowspan="1" colspan="1">9.3</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Infrequent</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1,438</td>
+                      <td align="char" char="." rowspan="1" colspan="1">90.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">128</td>
+                      <td align="char" char="." rowspan="1" colspan="1">89.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">9,760</td>
+                      <td align="char" char="." rowspan="1" colspan="1">92.4</td>
+                      <td align="char" char="." rowspan="1" colspan="1">13,393</td>
+                      <td align="char" char="." rowspan="1" colspan="1">92.3</td>
+                      <td align="char" char="." rowspan="1" colspan="1">8,479</td>
+                      <td align="char" char="." rowspan="1" colspan="1">92.</td>
+                      <td align="char" char="." rowspan="1" colspan="1">657</td>
+                      <td align="char" char="." rowspan="1" colspan="1">90.7</td>
+                    </tr>
+                    <tr>
+                      <td align="left" colspan="13" rowspan="1">Work schedule</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Daytime</td>
+                      <td align="char" char="." rowspan="1" colspan="1">474</td>
+                      <td align="char" char="." rowspan="1" colspan="1">47.8</td>
+                      <td align="char" char="." rowspan="1" colspan="1">803</td>
+                      <td align="char" char="." rowspan="1" colspan="1">54.0</td>
+                      <td align="char" char="." rowspan="1" colspan="1">4,953</td>
+                      <td align="char" char="." rowspan="1" colspan="1">57.3</td>
+                      <td align="char" char="." rowspan="1" colspan="1">10,553</td>
+                      <td align="char" char="." rowspan="1" colspan="1">66.9</td>
+                      <td align="char" char="." rowspan="1" colspan="1">4,709</td>
+                      <td align="char" char="." rowspan="1" colspan="1">57.8</td>
+                      <td align="char" char="." rowspan="1" colspan="1">346</td>
+                      <td align="char" char="." rowspan="1" colspan="1">58.6</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Shiftwork</td>
+                      <td align="char" char="." rowspan="1" colspan="1">106</td>
+                      <td align="char" char="." rowspan="1" colspan="1">13.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">352</td>
+                      <td align="char" char="." rowspan="1" colspan="1">22.8</td>
+                      <td align="char" char="." rowspan="1" colspan="1">946</td>
+                      <td align="char" char="." rowspan="1" colspan="1">12.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1,956</td>
+                      <td align="char" char="." rowspan="1" colspan="1">11.3</td>
+                      <td align="char" char="." rowspan="1" colspan="1">719</td>
+                      <td align="char" char="." rowspan="1" colspan="1">8.9</td>
+                      <td align="char" char="." rowspan="1" colspan="1">64</td>
+                      <td align="char" char="." rowspan="1" colspan="1">11.5</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Other</td>
+                      <td align="char" char="." rowspan="1" colspan="1">22</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2.1</td>
+                      <td align="char" char="." rowspan="1" colspan="1">52</td>
+                      <td align="char" char="." rowspan="1" colspan="1">3.2</td>
+                      <td align="char" char="." rowspan="1" colspan="1">151</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2.1</td>
+                      <td align="char" char="." rowspan="1" colspan="1">309</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2.3</td>
+                      <td align="char" char="." rowspan="1" colspan="1">168</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1.8</td>
+                      <td align="char" char="." rowspan="1" colspan="1">12</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1.7</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">No work</td>
+                      <td align="char" char="." rowspan="1" colspan="1">753</td>
+                      <td align="char" char="." rowspan="1" colspan="1">36.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">152</td>
+                      <td align="char" char="." rowspan="1" colspan="1">20.0</td>
+                      <td align="char" char="." rowspan="1" colspan="1">3,608</td>
+                      <td align="char" char="." rowspan="1" colspan="1">28.1</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1,073</td>
+                      <td align="char" char="." rowspan="1" colspan="1">19.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2,801</td>
+                      <td align="char" char="." rowspan="1" colspan="1">31.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">238</td>
+                      <td align="char" char="." rowspan="1" colspan="1">28.2</td>
+                    </tr>
+                    <tr>
+                      <td align="left" colspan="13" rowspan="1">Smoking</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Never</td>
+                      <td align="char" char="." rowspan="1" colspan="1">903</td>
+                      <td align="char" char="." rowspan="1" colspan="1">59.7</td>
+                      <td align="char" char="." rowspan="1" colspan="1">782</td>
+                      <td align="char" char="." rowspan="1" colspan="1">61.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">6,075</td>
+                      <td align="char" char="." rowspan="1" colspan="1">61.8</td>
+                      <td align="char" char="." rowspan="1" colspan="1">8,548</td>
+                      <td align="char" char="." rowspan="1" colspan="1">65.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">5,621</td>
+                      <td align="char" char="." rowspan="1" colspan="1">64.8</td>
+                      <td align="char" char="." rowspan="1" colspan="1">409</td>
+                      <td align="char" char="." rowspan="1" colspan="1">59.3</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Former</td>
+                      <td align="char" char="." rowspan="1" colspan="1">382</td>
+                      <td align="char" char="." rowspan="1" colspan="1">26.7</td>
+                      <td align="char" char="." rowspan="1" colspan="1">372</td>
+                      <td align="char" char="." rowspan="1" colspan="1">27.4</td>
+                      <td align="char" char="." rowspan="1" colspan="1">3,043</td>
+                      <td align="char" char="." rowspan="1" colspan="1">29.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">3,716</td>
+                      <td align="char" char="." rowspan="1" colspan="1">26.8</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2,277</td>
+                      <td align="char" char="." rowspan="1" colspan="1">28.1</td>
+                      <td align="char" char="." rowspan="1" colspan="1">191</td>
+                      <td align="char" char="." rowspan="1" colspan="1">29.0</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Current</td>
+                      <td align="char" char="." rowspan="1" colspan="1">119</td>
+                      <td align="char" char="." rowspan="1" colspan="1">13.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">170</td>
+                      <td align="char" char="." rowspan="1" colspan="1">11.0</td>
+                      <td align="char" char="." rowspan="1" colspan="1">699</td>
+                      <td align="char" char="." rowspan="1" colspan="1">8.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1,212</td>
+                      <td align="char" char="." rowspan="1" colspan="1">7.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">575</td>
+                      <td align="char" char="." rowspan="1" colspan="1">7.1</td>
+                      <td align="char" char="." rowspan="1" colspan="1">68</td>
+                      <td align="char" char="." rowspan="1" colspan="1">11.7</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">Alcohol g per month, mean (<italic>SD</italic>)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">399 (1,302)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">380 (919)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">339 (730)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">312 (518)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">292 (473)</td>
+                      <td align="char" char=" " colspan="2" rowspan="1">346 (663)</td>
+                    </tr>
+                    <tr>
+                      <td align="left" colspan="13" rowspan="1">Self‐reported health</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Very good</td>
+                      <td align="char" char="." rowspan="1" colspan="1">233</td>
+                      <td align="char" char="." rowspan="1" colspan="1">15.9</td>
+                      <td align="char" char="." rowspan="1" colspan="1">296</td>
+                      <td align="char" char="." rowspan="1" colspan="1">20.1</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2,637</td>
+                      <td align="char" char="." rowspan="1" colspan="1">26.7</td>
+                      <td align="char" char="." rowspan="1" colspan="1">4,203</td>
+                      <td align="char" char="." rowspan="1" colspan="1">27.9</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2,531</td>
+                      <td align="char" char="." rowspan="1" colspan="1">28.4</td>
+                      <td align="char" char="." rowspan="1" colspan="1">177</td>
+                      <td align="char" char="." rowspan="1" colspan="1">25.8</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Good</td>
+                      <td align="char" char="." rowspan="1" colspan="1">749</td>
+                      <td align="char" char="." rowspan="1" colspan="1">46.3</td>
+                      <td align="char" char="." rowspan="1" colspan="1">748</td>
+                      <td align="char" char="." rowspan="1" colspan="1">53.8</td>
+                      <td align="char" char="." rowspan="1" colspan="1">5,937</td>
+                      <td align="char" char="." rowspan="1" colspan="1">56.3</td>
+                      <td align="char" char="." rowspan="1" colspan="1">7,904</td>
+                      <td align="char" char="." rowspan="1" colspan="1">56.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">4,940</td>
+                      <td align="char" char="." rowspan="1" colspan="1">54.9</td>
+                      <td align="char" char="." rowspan="1" colspan="1">382</td>
+                      <td align="char" char="." rowspan="1" colspan="1">54.3</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Average</td>
+                      <td align="char" char="." rowspan="1" colspan="1">410</td>
+                      <td align="char" char="." rowspan="1" colspan="1">27.0</td>
+                      <td align="char" char="." rowspan="1" colspan="1">290</td>
+                      <td align="char" char="." rowspan="1" colspan="1">21.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1,581</td>
+                      <td align="char" char="." rowspan="1" colspan="1">14.2</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1,754</td>
+                      <td align="char" char="." rowspan="1" colspan="1">13.4</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1,216</td>
+                      <td align="char" char="." rowspan="1" colspan="1">13.4</td>
+                      <td align="char" char="." rowspan="1" colspan="1">130</td>
+                      <td align="char" char="." rowspan="1" colspan="1">17.2</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Poor</td>
+                      <td align="char" char="." rowspan="1" colspan="1">109</td>
+                      <td align="char" char="." rowspan="1" colspan="1">9.4</td>
+                      <td align="char" char="." rowspan="1" colspan="1">55</td>
+                      <td align="char" char="." rowspan="1" colspan="1">3.9</td>
+                      <td align="char" char="." rowspan="1" colspan="1">240</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">240</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1.8</td>
+                      <td align="char" char="." rowspan="1" colspan="1">242</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2.8</td>
+                      <td align="char" char="." rowspan="1" colspan="1">15</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2.1</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Very poor</td>
+                      <td align="char" char="." rowspan="1" colspan="1">14</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1.4</td>
+                      <td align="char" char="." rowspan="1" colspan="1">8</td>
+                      <td align="char" char="." rowspan="1" colspan="1">0.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">25</td>
+                      <td align="char" char="." rowspan="1" colspan="1">0.3</td>
+                      <td align="char" char="." rowspan="1" colspan="1">32</td>
+                      <td align="char" char="." rowspan="1" colspan="1">0.3</td>
+                      <td align="char" char="." rowspan="1" colspan="1">39</td>
+                      <td align="char" char="." rowspan="1" colspan="1">0.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">0.6</td>
+                    </tr>
+                    <tr>
+                      <td align="left" colspan="13" rowspan="1">Physical activity<xref ref-type="fn" rid="jsr12712-note-0003">b</xref>
+</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Low</td>
+                      <td align="char" char="." rowspan="1" colspan="1">563</td>
+                      <td align="char" char="." rowspan="1" colspan="1">34.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">452</td>
+                      <td align="char" char="." rowspan="1" colspan="1">34.1</td>
+                      <td align="char" char="." rowspan="1" colspan="1">4,207</td>
+                      <td align="char" char="." rowspan="1" colspan="1">40.8</td>
+                      <td align="char" char="." rowspan="1" colspan="1">5,834</td>
+                      <td align="char" char="." rowspan="1" colspan="1">43.2</td>
+                      <td align="char" char="." rowspan="1" colspan="1">4,194</td>
+                      <td align="char" char="." rowspan="1" colspan="1">49.0</td>
+                      <td align="char" char="." rowspan="1" colspan="1">290</td>
+                      <td align="char" char="." rowspan="1" colspan="1">43.7</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Medium</td>
+                      <td align="char" char="." rowspan="1" colspan="1">490</td>
+                      <td align="char" char="." rowspan="1" colspan="1">34.7</td>
+                      <td align="char" char="." rowspan="1" colspan="1">467</td>
+                      <td align="char" char="." rowspan="1" colspan="1">34.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">3,493</td>
+                      <td align="char" char="." rowspan="1" colspan="1">35.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">4,951</td>
+                      <td align="char" char="." rowspan="1" colspan="1">35.4</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2,852</td>
+                      <td align="char" char="." rowspan="1" colspan="1">33.1</td>
+                      <td align="char" char="." rowspan="1" colspan="1">212</td>
+                      <td align="char" char="." rowspan="1" colspan="1">31.6</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">High</td>
+                      <td align="char" char="." rowspan="1" colspan="1">410</td>
+                      <td align="char" char="." rowspan="1" colspan="1">30.8</td>
+                      <td align="char" char="." rowspan="1" colspan="1">445</td>
+                      <td align="char" char="." rowspan="1" colspan="1">31.4</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2,278</td>
+                      <td align="char" char="." rowspan="1" colspan="1">23.7</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2,845</td>
+                      <td align="char" char="." rowspan="1" colspan="1">21.4</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1,580</td>
+                      <td align="char" char="." rowspan="1" colspan="1">17.9</td>
+                      <td align="char" char="." rowspan="1" colspan="1">165</td>
+                      <td align="char" char="." rowspan="1" colspan="1">24.7</td>
+                    </tr>
+                    <tr>
+                      <td align="left" colspan="13" rowspan="1">Coffee intake, cups per day</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">None</td>
+                      <td align="char" char="." rowspan="1" colspan="1">122</td>
+                      <td align="char" char="." rowspan="1" colspan="1">11.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">177</td>
+                      <td align="char" char="." rowspan="1" colspan="1">10.8</td>
+                      <td align="char" char="." rowspan="1" colspan="1">915</td>
+                      <td align="char" char="." rowspan="1" colspan="1">12.2</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2,071</td>
+                      <td align="char" char="." rowspan="1" colspan="1">12.4</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1,431</td>
+                      <td align="char" char="." rowspan="1" colspan="1">14.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">68</td>
+                      <td align="char" char="." rowspan="1" colspan="1">10.4</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">1–3</td>
+                      <td align="char" char="." rowspan="1" colspan="1">892</td>
+                      <td align="char" char="." rowspan="1" colspan="1">50.4</td>
+                      <td align="char" char="." rowspan="1" colspan="1">643</td>
+                      <td align="char" char="." rowspan="1" colspan="1">48.1</td>
+                      <td align="char" char="." rowspan="1" colspan="1">5,686</td>
+                      <td align="char" char="." rowspan="1" colspan="1">51.3</td>
+                      <td align="char" char="." rowspan="1" colspan="1">7,060</td>
+                      <td align="char" char="." rowspan="1" colspan="1">52.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">4,823</td>
+                      <td align="char" char="." rowspan="1" colspan="1">53.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">412</td>
+                      <td align="char" char="." rowspan="1" colspan="1">55.5</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">4–6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">491</td>
+                      <td align="char" char="." rowspan="1" colspan="1">31.8</td>
+                      <td align="char" char="." rowspan="1" colspan="1">478</td>
+                      <td align="char" char="." rowspan="1" colspan="1">34.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">3,509</td>
+                      <td align="char" char="." rowspan="1" colspan="1">31.9</td>
+                      <td align="char" char="." rowspan="1" colspan="1">4,479</td>
+                      <td align="char" char="." rowspan="1" colspan="1">31.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2,520</td>
+                      <td align="char" char="." rowspan="1" colspan="1">29.1</td>
+                      <td align="char" char="." rowspan="1" colspan="1">214</td>
+                      <td align="char" char="." rowspan="1" colspan="1">29.6</td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="padding-left:10%" rowspan="1" colspan="1">≥7</td>
+                      <td align="char" char="." rowspan="1" colspan="1">56</td>
+                      <td align="char" char="." rowspan="1" colspan="1">6.2</td>
+                      <td align="char" char="." rowspan="1" colspan="1">103</td>
+                      <td align="char" char="." rowspan="1" colspan="1">6.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">428</td>
+                      <td align="char" char="." rowspan="1" colspan="1">4.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">564</td>
+                      <td align="char" char="." rowspan="1" colspan="1">3.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">235</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2.8</td>
+                      <td align="char" char="." rowspan="1" colspan="1">28</td>
+                      <td align="char" char="." rowspan="1" colspan="1">4.5</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">Nap during day</td>
+                      <td align="char" char="." rowspan="1" colspan="1">161</td>
+                      <td align="char" char="." rowspan="1" colspan="1">8.0</td>
+                      <td align="char" char="." rowspan="1" colspan="1">103</td>
+                      <td align="char" char="." rowspan="1" colspan="1">9.2</td>
+                      <td align="char" char="." rowspan="1" colspan="1">970</td>
+                      <td align="char" char="." rowspan="1" colspan="1">7.0</td>
+                      <td align="char" char="." rowspan="1" colspan="1">590</td>
+                      <td align="char" char="." rowspan="1" colspan="1">6.0</td>
+                      <td align="char" char="." rowspan="1" colspan="1">970</td>
+                      <td align="char" char="." rowspan="1" colspan="1">9.9</td>
+                      <td align="char" char="." rowspan="1" colspan="1">61</td>
+                      <td align="char" char="." rowspan="1" colspan="1">6.5</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">Hypnotics</td>
+                      <td align="char" char="." rowspan="1" colspan="1">565</td>
+                      <td align="char" char="." rowspan="1" colspan="1">28.1</td>
+                      <td align="char" char="." rowspan="1" colspan="1">277</td>
+                      <td align="char" char="." rowspan="1" colspan="1">21.7</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1,712</td>
+                      <td align="char" char="." rowspan="1" colspan="1">13.2</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1,065</td>
+                      <td align="char" char="." rowspan="1" colspan="1">9.6</td>
+                      <td align="char" char="." rowspan="1" colspan="1">884</td>
+                      <td align="char" char="." rowspan="1" colspan="1">9.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">114</td>
+                      <td align="char" char="." rowspan="1" colspan="1">13.3</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">Diabetes</td>
+                      <td align="char" char="." rowspan="1" colspan="1">90</td>
+                      <td align="char" char="." rowspan="1" colspan="1">4.7</td>
+                      <td align="char" char="." rowspan="1" colspan="1">23</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2.0</td>
+                      <td align="char" char="." rowspan="1" colspan="1">291</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2.3</td>
+                      <td align="char" char="." rowspan="1" colspan="1">220</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2.0</td>
+                      <td align="char" char="." rowspan="1" colspan="1">228</td>
+                      <td align="char" char="." rowspan="1" colspan="1">2.5</td>
+                      <td align="char" char="." rowspan="1" colspan="1">31</td>
+                      <td align="char" char="." rowspan="1" colspan="1">3.9</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">Charlson index ≥1</td>
+                      <td align="char" char="." rowspan="1" colspan="1">314</td>
+                      <td align="char" char="." rowspan="1" colspan="1">13.9</td>
+                      <td align="char" char="." rowspan="1" colspan="1">127</td>
+                      <td align="char" char="." rowspan="1" colspan="1">10.7</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1,337</td>
+                      <td align="char" char="." rowspan="1" colspan="1">9.8</td>
+                      <td align="char" char="." rowspan="1" colspan="1">963</td>
+                      <td align="char" char="." rowspan="1" colspan="1">9.7</td>
+                      <td align="char" char="." rowspan="1" colspan="1">1,079</td>
+                      <td align="char" char="." rowspan="1" colspan="1">11.3</td>
+                      <td align="char" char="." rowspan="1" colspan="1">108</td>
+                      <td align="char" char="." rowspan="1" colspan="1">11.6</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot id="jsr12712-ntgp-0001">
+                  <fn id="jsr12712-note-0001">
+                    <p>BMI, body mass index.</p>
+                  </fn>
+                  <fn id="jsr12712-note-0002">
+                    <label>a</label>
+                    <p>Groups are given as weekday‐weekend sleep durations, e.g. short‐medium/long group stands for short sleep during the week and medium or long sleep during the weekend.</p>
+                  </fn>
+                  <fn id="jsr12712-note-0003">
+                    <label>b</label>
+                    <p>High, medium and low total physical activity levels correspond to more than 46.4, 34.3–46.4, and less than 34.3 MET‐hr per day, respectively.</p>
+                  </fn>
+                </table-wrap-foot>
+                <permissions>
+                  <copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder>
+                </permissions>
+              </table-wrap>
+              <sec id="jsr12712-sec-0010">
+                <label>3.1</label>
+                <title>Weekend sleep and mortality</title>
+                <p>Among individuals below the age of 65 years at enrolment (Figure <xref rid="jsr12712-fig-0002" ref-type="fig">2</xref>), short weekend sleep was associated with a significant 52% higher mortality rate (HR 1.52; 95% CI 1.15–2.02) compared with the 7 hr group, while no association was found for long (≥9 hr) weekend sleep. After adjusting for weekday sleep duration, the risk estimate for short sleep decreased, and lost statistical significance (HR 1.40; 95% CI 0.97–2.02). Among individuals ≥65 years, no association was observed. In fully adjusted models, no significant association was detected between weekend sleep duration and cause‐specific hazards for cancer or CVD mortality neither in the younger, nor in the older age group (data not shown).</p>
+                <fig fig-type="Figure" xml:lang="en" id="jsr12712-fig-0002" orientation="portrait" position="float">
+                  <label>Figure 2</label>
+                  <caption>
+                    <p>Forest plots showing multivariate Cox regression analysis of the association of weekend sleep duration with mortality – overall and stratified by age. The model was adjusted for sex, body mass index, smoking status, alcohol consumption, educational level, physical activity, shift work and Charlson index</p>
+                  </caption>
+                  <graphic id="nlm-graphic-3" xlink:href="JSR-28-e12712-g002"/>
+                </fig>
+                <p>When we compared the weekday and weekend mean sleep durations across age groups (using values of 4 and 9 to represent the lowest and the highest sleep duration category separately), the discrepancy between the number of hours slept per night during the week and on days off decreased as age increased, approaching zero for the over 65 years subjects (Figure <xref rid="jsr12712-fig-0003" ref-type="fig">3</xref>a). This is due to a gradual decrease in weekend sleep duration with age, compared with a nearly constant pattern for weekday sleep duration. Figure <xref rid="jsr12712-fig-0003" ref-type="fig">3</xref>b shows that the percentage of individuals rating themselves as not rested on awakening decreased across age groups (<italic>p</italic> &lt; 0.001). Figure <xref rid="jsr12712-fig-0003" ref-type="fig">3</xref>c shows that among those under the age of 65 years there is a quadratic relationship between weekday sleep duration and weekend sleep duration, with a bigger discrepancy between the two measures for subjects with short duration during weekdays. The relationship between weekday sleep duration and weekend sleep duration among those aged 65 years or older seemed to be linear. The Pearson correlation between weekday and weekend sleep duration was <italic>r</italic> = 0.58 (<italic>p</italic> &lt; 0.001) for the whole cohort, <italic>r</italic> = 0.53 (<italic>p</italic> &lt; 0.001) in the youngest group and <italic>r</italic> = 0.85 (<italic>p</italic> &lt; 0.001) in the oldest group.</p>
+                <fig fig-type="Figure" xml:lang="en" id="jsr12712-fig-0003" orientation="portrait" position="float">
+                  <label>Figure 3</label>
+                  <caption>
+                    <p>(a) Mean sleep duration (hr) and 95% confidence intervals (<styled-content style="fixed-case" toggle="no">CI</styled-content>s) during weekdays and weekend stratified by age groups. (b) Percentage rating themselves as not being rested on awakening stratified by age group. Vertical bars represent the number of subjects in each class of age. (c) Mean weekend sleep duration across levels of weekday sleep duration stratified by age (&lt;65 years, ≥65 years). A linear and a quadratic curve is fitted between the two sleep measures among older and younger subjects, respectively. Due to the high number of subjects and the low number of categories, the <styled-content style="fixed-case" toggle="no">CI</styled-content>s are very small and not reported</p>
+                  </caption>
+                  <graphic id="nlm-graphic-5" xlink:href="JSR-28-e12712-g003"/>
+                </fig>
+              </sec>
+              <sec id="jsr12712-sec-0011">
+                <label>3.2</label>
+                <title>Weekday/weekend sleep and mortality</title>
+                <p>The weekday and weekend sleep duration analysis shows that for age &lt;65 years group sleeping 5 hr or less, both during weekdays and weekend (SS), was associated with a 65% higher mortality rate (HR 1.65; 95% CI 1.22–2.23) compared with those consistently sleeping 6 or 7 hr per night (Figure <xref rid="jsr12712-fig-0004" ref-type="fig">4</xref>). A higher risk was also observed for individuals with consistently long sleep (LL; HR 1.25; 95% CI 1.05–1.50). The mortality rate of individuals with short sleep during weekdays, but medium or long sleep over weekends (SML), did not differ from the reference group rate. Among individuals above the age of 65 years, no association between sleep durations and mortality was found. When analysing both age groups together, the PH assumption for sleep durations was not met. The estimated time‐varying HRs for the SS and LL groups decreased with increasing age, while no interaction with the time‐scale was observed for the other three groups (Figure <xref rid="jsr12712-sup-0001" ref-type="supplementary-material">S1</xref>).</p>
+                <fig fig-type="Figure" xml:lang="en" id="jsr12712-fig-0004" orientation="portrait" position="float">
+                  <label>Figure 4</label>
+                  <caption>
+                    <p>Forest plots showing multivariate Cox regression analysis of the association of weekday/weekend sleep duration groups with mortality – overall and stratified by age. The model was adjusted for sex, body mass index, smoking status, alcohol consumption, educational level, physical activity shift work and Charlson index</p>
+                  </caption>
+                  <graphic id="nlm-graphic-7" xlink:href="JSR-28-e12712-g004"/>
+                </fig>
+                <p>When we adjusted our models for sleep quality, snoring, self‐reported sleep medication use, napping, feeling rested at awakening, coffee intake, subjective health and high work demand, the results did not change appreciably. Because of missing values on the newly entered covariates, we lost 421 cases compared with the main model (Table <xref rid="jsr12712-sup-0001" ref-type="supplementary-material">S2</xref>).</p>
+              </sec>
+              <sec id="jsr12712-sec-0012">
+                <label>3.3</label>
+                <title>Quantile regression</title>
+                <p>Quantile regression analysis, in which the time dimension of the association between weekday/weekend sleep duration groups and mortality is investigated, is shown in Table <xref rid="jsr12712-tbl-0002" ref-type="table">2</xref>. Age‐adjusted models showed that at the 25th percentile of age at death subjects with constant short or constant long sleep died approximately 8 months earlier compared with subjects constantly sleeping 6–7 hr. The percentile difference in survival was −5.6 (95% CI −13.0, 1.7) and −5.3 (95% CI −10.1, −0.6) months at the median age at death, respectively. In the fully adjusted model, we observed a significant difference in survival only among short‐short sleepers at the 25th and 50th percentiles of age at death.</p>
+                <table-wrap id="jsr12712-tbl-0002" xml:lang="en" orientation="portrait" position="float">
+                  <label>Table 2</label>
+                  <caption>
+                    <p>Quantile regression analysis for percentile differences (PD) in months in age at death across levels of weekday/weekend sleep duration groups in the Swedish National March Cohort</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <thead valign="top">
+                      <tr style="border-bottom:solid 1px #000000">
+                        <th align="left" rowspan="2" valign="top" colspan="1">Sleep duration, hr per day</th>
+                        <th align="center" rowspan="2" valign="top" colspan="1">No. of deaths</th>
+                        <th align="center" rowspan="2" valign="top" colspan="1">Person‐years</th>
+                        <th align="center" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">25th PD, months</th>
+                        <th align="center" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">50th PD, months</th>
+                        <th align="center" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">75th PD, months</th>
+                      </tr>
+                      <tr style="border-bottom:solid 1px #000000">
+                        <th align="center" valign="top" rowspan="1" colspan="1">PD</th>
+                        <th align="center" valign="top" rowspan="1" colspan="1">95% CI</th>
+                        <th align="center" valign="top" rowspan="1" colspan="1">PD</th>
+                        <th align="center" valign="top" rowspan="1" colspan="1">95% CI</th>
+                        <th align="center" valign="top" rowspan="1" colspan="1">PD</th>
+                        <th align="center" valign="top" rowspan="1" colspan="1">95% CI</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="left" colspan="9" rowspan="1">Model 1<xref ref-type="fn" rid="jsr12712-note-0005">a</xref>
+</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Short‐short</td>
+                        <td align="char" char="." rowspan="1" colspan="1">323</td>
+                        <td align="char" char="." rowspan="1" colspan="1">19,310</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−7.8</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−15.4, −0.2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−5.6</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−13.0, 1.7</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−6.2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−12.7, 0.3</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Short‐medium/long</td>
+                        <td align="char" char="." rowspan="1" colspan="1">85</td>
+                        <td align="char" char="." rowspan="1" colspan="1">18,356</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−8.4</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−21.3, 4.5</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−7.8</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−19.5, 4.0</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−4.5</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−17.1, 8.1</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Medium‐medium</td>
+                        <td align="char" char="." rowspan="1" colspan="1">1,302</td>
+                        <td align="char" char="." rowspan="1" colspan="1">134,434</td>
+                        <td align="char" char="." rowspan="1" colspan="1">0.0</td>
+                        <td align="char" rowspan="1" colspan="1">Reference</td>
+                        <td align="char" char="." rowspan="1" colspan="1">0.0</td>
+                        <td align="char" rowspan="1" colspan="1">Reference</td>
+                        <td align="char" char="." rowspan="1" colspan="1">0.0</td>
+                        <td align="char" rowspan="1" colspan="1">Reference</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Medium‐long</td>
+                        <td align="char" char="." rowspan="1" colspan="1">503</td>
+                        <td align="char" char="." rowspan="1" colspan="1">186,408</td>
+                        <td align="char" char="." rowspan="1" colspan="1">5.5</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−0.9, 12.0</td>
+                        <td align="char" char="." rowspan="1" colspan="1">5.6</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−0.7, 11.9</td>
+                        <td align="char" char="." rowspan="1" colspan="1">6.5</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−0.2, 13.2</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Long‐long</td>
+                        <td align="char" char="." rowspan="1" colspan="1">918</td>
+                        <td align="char" char="." rowspan="1" colspan="1">115,555</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−7.7</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−13.1, −2.2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−5.3</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−10.1, −0.6</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−4.7</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−9.4, 0.0</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Long‐short</td>
+                        <td align="char" char="." rowspan="1" colspan="1">103</td>
+                        <td align="char" char="." rowspan="1" colspan="1">9,078</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−3.9</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−15.4, 7.6</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−7.9</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−17.8, 2.1</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−9.6</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−19.3, 0.0</td>
+                      </tr>
+                      <tr>
+                        <td align="left" colspan="9" rowspan="1">Model 2<xref ref-type="fn" rid="jsr12712-note-0006">b</xref>
+</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Short‐short</td>
+                        <td align="char" char="." rowspan="1" colspan="1">194</td>
+                        <td align="char" char="." rowspan="1" colspan="1">12,565</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−9.2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−18.2, −0.2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−9.7</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−18.6, −0.8</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−7.5</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−16.5, 1.5</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Short‐medium/long</td>
+                        <td align="char" char="." rowspan="1" colspan="1">56</td>
+                        <td align="char" char="." rowspan="1" colspan="1">14,435</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−6.1</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−19.4, 7.2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−3.4</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−20.1, 13.2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−0.1</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−15.5, 15.3</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Medium‐medium</td>
+                        <td align="char" char="." rowspan="1" colspan="1">859</td>
+                        <td align="char" char="." rowspan="1" colspan="1">100,901</td>
+                        <td align="char" char="." rowspan="1" colspan="1">0.0</td>
+                        <td align="char" rowspan="1" colspan="1">Reference</td>
+                        <td align="char" char="." rowspan="1" colspan="1">0.0</td>
+                        <td align="char" rowspan="1" colspan="1">Reference</td>
+                        <td align="char" char="." rowspan="1" colspan="1">0.0</td>
+                        <td align="char" rowspan="1" colspan="1">Reference</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Medium‐long</td>
+                        <td align="char" char="." rowspan="1" colspan="1">384</td>
+                        <td align="char" char="." rowspan="1" colspan="1">154,640</td>
+                        <td align="char" char="." rowspan="1" colspan="1">3.4</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−3.6, 10.5</td>
+                        <td align="char" char="." rowspan="1" colspan="1">2.7</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−4.5, 9.9</td>
+                        <td align="char" char="." rowspan="1" colspan="1">5.4</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−2.4, 13.2</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Long‐long</td>
+                        <td align="char" char="." rowspan="1" colspan="1">623</td>
+                        <td align="char" char="." rowspan="1" colspan="1">89,484</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−5.9</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−12.1, 0.3</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−3.6</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−9.8, 2.5</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−0.3</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−6.0, 5.3</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Long‐short</td>
+                        <td align="char" char="." rowspan="1" colspan="1">62</td>
+                        <td align="char" char="." rowspan="1" colspan="1">6,479</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−3.6</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−16.5, 9.3</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−9.3</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−22.3, 3.6</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−8.2</td>
+                        <td align="char" char="." rowspan="1" colspan="1">−22.2, 5.8</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot id="jsr12712-ntgp-0002">
+                    <fn id="jsr12712-note-0004">
+                      <p>CI, confidence interval; PD, percentile differences.</p>
+                    </fn>
+                    <fn id="jsr12712-note-0005">
+                      <label>a</label>
+                      <p>Estimates were obtained by fitting a Laplace regression on the 25th, 50th and 75th percentiles of age at death adjusted for age at baseline.</p>
+                    </fn>
+                    <fn id="jsr12712-note-0006">
+                      <label>b</label>
+                      <p>The model was further adjusted for sex, BMI, smoking status, alcohol consumption, educational level, physical activity, shift work and Charlson index.</p>
+                    </fn>
+                  </table-wrap-foot>
+                  <permissions>
+                    <copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder>
+                  </permissions>
+                </table-wrap>
+              </sec>
+              <sec id="jsr12712-sec-0013">
+                <label>3.4</label>
+                <title>Sensitivity analyses</title>
+                <p>We observed no major changes when the first 2 years of follow‐up were excluded. Among subjects below the age of 65 years, short weekend sleep was associated with a 46% higher mortality rate (HR 1.46; 95% CI 1.08–1.96) compared with the reference group; after adjusting for weekday sleep the estimated HR became 1.34 (95% CI 0.91–1.98). Long weekend sleep, both in the younger and in the older group, as well as short weekend sleep in the older group were not associated with an increased mortality rate compared with the reference group. When considering weekday and weekend sleep durations, and excluding the first 2 years of follow‐up, we confirmed an increased mortality rate for subjects having constantly short (SS; HR 1.56; 95% CI 1.13–2.15) or constantly long sleep duration (LL; HR 1.23, 95% CI 1.02–1.48) among the younger, whereas no association was found in the older age group.</p>
+                <p>Performing multiple imputations on missing covariates did not alter the results. The estimates found with the imputed data are comparable to those previously reported in the forest plots. Short weekend sleep was associated with mortality only among the youngest (HR 1.48; 95% CI 1.16–1.87), and the estimate remained significant even after adjusting for sleep duration during the week (HR 1.41; 95% CI 1.03–1.92). Long weekend sleep duration was not associated with mortality at any age. Sleeping constantly short or constantly long increased the mortality rate in subjects below the age of 65 years (HR 1.58; 95% CI 1.23–2.04 and HR 1.24, 95% CI 1.07–1.45, respectively). Among the older group, sleeping short during the week and medium or long (SML) during the weekend was associated with a marginally significant higher mortality rate compared with the reference group (HR 1.38; 95% CI 1.00–1.89). Due to the high amount of missingness in the variable occupational status, it was not included in the main analysis. However, it was entered in the model with multiple imputation; the results remained stable.</p>
+              </sec>
+            </sec>
+            <sec id="jsr12712-sec-0014">
+              <label>4</label>
+              <title>DISCUSSION</title>
+              <p>In this large prospective cohort study we found that short, but not long, weekend sleep was associated with an increased mortality risk among subjects below the age of 65 years. Short sleep on both weekdays and weekends, as well as consistently long sleep, were associated with higher mortality risk. Extended weekend sleep after weekday short sleep was not associated with increased mortality. No significant associations between sleep duration and death were observed in those aged 65 years or above.</p>
+              <p>The lack of association between long weekend sleep duration and mortality in the present paper does not appear to align with the meta‐analyses finding a U‐shaped (Cappuccio et al., <xref rid="jsr12712-bib-0006" ref-type="ref">2010</xref>; Gallicchio &amp; Kalesan, <xref rid="jsr12712-bib-0009" ref-type="ref">2009</xref>; Silva et al., <xref rid="jsr12712-bib-0023" ref-type="ref">2016</xref>) or J‐shaped (Liu et al., <xref rid="jsr12712-bib-0021" ref-type="ref">2017</xref>) relationship. One reason for the difference is probably that previous work has focused on weekday sleep only. The two types of sleep may have quite different causes and consequences, and they clearly differ in duration, with the difference strongly dependent on age. Some of these issues are discussed below.</p>
+              <p>The link between sleep duration and mortality seems to be easier to understand when considering the analysis of the joint effects of weekday and weekend sleep. Thus, the results imply that short (weekday) sleep is not a risk factor for mortality if it is combined with a medium or long weekend sleep. This suggests that short weekday sleep may be compensated for during the weekend, and that this has implications for mortality. Similar observations have been made for obesity in children (Wing et al., <xref rid="jsr12712-bib-0025" ref-type="ref">2009</xref>), and hypertension in adults (Hwangbo et al., <xref rid="jsr12712-bib-0014" ref-type="ref">2013</xref>). An alternative, or complementary, interpretation is that the long weekend sleep after short weekday sleep simply demonstrates a healthy sleep pattern that produces longer sleep when factors restricting sleep duration are removed. The role of extended weekend sleep suggests that some of the inconsistencies in previous results (Cappuccio et al., <xref rid="jsr12712-bib-0006" ref-type="ref">2010</xref>; Gallicchio &amp; Kalesan, <xref rid="jsr12712-bib-0009" ref-type="ref">2009</xref>; Kurina et al., <xref rid="jsr12712-bib-0019" ref-type="ref">2013</xref>; Silva et al., <xref rid="jsr12712-bib-0023" ref-type="ref">2016</xref>) could be, at least partly, due to a lack of consideration of compensatory sleep.</p>
+              <p>This interpretation of results on sleep duration in terms of sufficient or insufficient recovery or compensatory sleep is speculative, however. It needs confirmation in studies that link <italic>changes</italic> in sleep duration between weekend and weekday in a longitudinal approach across many weeks. This would tell us if weekday sleep reduction is linked to weekend sleep extensions and, ideally, the data would be able to extend our conclusion if linked to subsequent mortality. With the present approach, with merely one measure of sleep at baseline, we cannot be sure that longer weekend sleep is a true compensation, rather than appetitive behaviour when the sleep opportunity is increased during the weekend.</p>
+              <p>Notwithstanding the observation of compensatory sleep, the results also showed a relatively high correlation between weekday and weekend sleep. Thus, most of the long sleepers during weekdays are long sleepers also during weekends. However, we observed a different trend across ages. The older group had a constant sleeping pattern over weekdays and days off, no matter how many hours they slept during the week, whereas the younger had a quadratic relationship. The mean weekend sleep seemed to be 1 hr or more longer among subjects with short sleep, and almost equal among subjects with long sleep. The reason may be that there is no need for compensatory sleep at sleep durations of 8 hr and above, but this needs empirical support from studies with another design.</p>
+              <p>The gradual reduction of weekend sleep duration as subjects become older might be the reason behind the reduction in HR with increasing age found in our previous study on the same cohort (Akerstedt et al., <xref rid="jsr12712-bib-0002" ref-type="ref">2017</xref>), and confirmed here. A similar age effect was found for short sleep in relation to hypertension, CVD and obesity in the meta‐analysis by Itani et al. (<xref rid="jsr12712-bib-0015" ref-type="ref">2017</xref>). For the younger participants in the present study, the difference between weekday and weekend sleep was large, probably reflecting a relatively consistent sleep deficit that may accumulate and link to mortality, if not sufficiently compensated for. For the older individuals, weekday and weekend sleep were equally short. This leaves the impression that sleep in that age group has become sufficient. The notion of sufficient sleep among older individuals is supported by the decrease across age groups of the percentage of individuals who feel “not rested” after sleep. This could be an effect of biological aging or of reduced demands in life (work, family, etc.). This issue needs further research.</p>
+              <p>The mechanism behind the U‐shaped relationship between mortality and sleep duration has been discussed in many previous studies with no convincing conclusions. Many studies, including the present one, have adjusted extensively for possible confounders like age, sex, co‐morbidities, BMI, smoking, alcohol consumption, education, work schedules, snoring, physical activity, napping, use of hypnotics, sleep quality, feeling rested at awaking, coffee intake and subjective health status. Grandner, Patel, Gehrman, Perlis, and Pack (<xref rid="jsr12712-bib-0011" ref-type="ref">2010</xref>) argued that low‐grade inflammation, increased levels of ghrelin, increased lipid levels, or insulin resistance could be involved in this process. Nevertheless, the mechanism still defies understanding.</p>
+              <p>The strengths of our study include its large size, its prospective design, the length and the completeness of the follow‐up, ascertained through linkages to nationwide registers, the high quality of the baseline data guaranteed by a low level of missing values, and the availability of two separate questions investigating sleep habits during weekdays and weekends/days off.</p>
+              <p>Among the limitations there is the possibility that individuals not working may have misinterpreted the term “day off”; however, the formulation in the first question on sleep duration emphasizes “workday”/“weekday”. This should have led to the interpretation of the second question as referring to weekend by those not working. Another limitation is that sleep duration was self‐reported and assessed only at baseline; therefore, it is not possible to detect changes in sleep habits over time among the subjects included in the study. Thus, for example, the pattern of sleep duration in different age groups presented in the Results section suggests that one should expect a reduction in weekend sleep during the follow‐up period. Changes in sleep duration over time might occur also due to health, work or life cycle changes occurring after the enrollment into the study. The use of repeated measurements through follow‐up questionnaires would have helped keeping track of sleep habits changes.</p>
+              <p>Late rising in older individuals was shown to be related to a higher risk of dementia (Bokenberger et al., <xref rid="jsr12712-bib-0005" ref-type="ref">2017</xref>). Bedtimes and times of rising might also affect mortality, and factors like diurnal type may carry health implications (Roenneberg &amp; Merrow, <xref rid="jsr12712-bib-0022" ref-type="ref">2016</xref>); however, none of these factors were available in the present material. In addition, due to the low number of subjects in the categories SML and LS, we could not differentiate the effect between short sleep during the week and medium or long sleep during the weekend, or between the groups with medium‐short, long‐short and long‐medium sleep during weekdays and weekend. Finally, the present analysis was of a relatively traditional type with a priori determined combinations of weekday and weekend sleep patterns. There is a possibility that other approaches, for example, cluster analysis, would have provided other groups of sleep patterns. This may be an interesting approach for future studies.</p>
+              <p>In conclusion, our findings indicate that mortality is increased when both weekday and weekend sleep are short, or when both are long in subjects below the age of 65 years. However, when weekend sleep is extended after short weekday sleep no association with mortality is seen. We suggest that this may reflect positive effects of compensatory sleep. However, this issue needs to be addressed in longitudinal studies of changes in sleep duration and their link to mortality.</p>
+            </sec>
+            <sec id="jsr12712-sec-0016">
+              <title>DISCLOSURE STATEMENT</title>
+              <p>No authors have declared any conflicts of interest.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supporting information</title>
+              <supplementary-material content-type="local-data" id="jsr12712-sup-0001">
+                <caption>
+                  <p> </p>
+                </caption>
+                <media xlink:href="JSR-28-e12712-s001.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack id="jsr12712-sec-0015">
+              <title>ACKNOWLEDGEMENTS</title>
+              <p>This work was supported by AFA Insurance and the Italian Institute (Stockholm, Sweden).</p>
+            </ack>
+            <ref-list content-type="cited-references" id="jsr12712-bibl-0001">
+              <title>REFERENCES</title>
+              <ref id="jsr12712-bib-0001">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0001"><string-name><surname>Ainsworth</surname>, <given-names>B. E.</given-names></string-name>, <string-name><surname>Haskell</surname>, <given-names>W. L.</given-names></string-name>, <string-name><surname>Leon</surname>, <given-names>A. S.</given-names></string-name>, <string-name><surname>Jacobs</surname>, <given-names>J. D.</given-names></string-name>, <string-name><surname>Montoye</surname>, <given-names>H. J.</given-names></string-name>, <string-name><surname>Sallis</surname>, <given-names>J. F.</given-names></string-name>, &amp; <string-name><surname>Paffenbarger</surname>, <given-names>J. R.</given-names></string-name> (<year>1993</year>). <article-title>Compendium of physical activities: Classification of energy costs of human physical activities</article-title>. <source xml:lang="en">Medicine &amp; Science in Sports &amp; Exercise</source>, <volume>25</volume>, <fpage>71</fpage>–<lpage>80</lpage>.<pub-id pub-id-type="pmid">8292105</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0002">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0002"><string-name><surname>Akerstedt</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Ghilotti</surname>, <given-names>F.</given-names></string-name>, <string-name><surname>Grotta</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Bellavia</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Lagerros</surname>, <given-names>Y. T.</given-names></string-name>, &amp; <string-name><surname>Bellocco</surname>, <given-names>R.</given-names></string-name> (<year>2017</year>). <article-title>Sleep duration, mortality and the influence of age</article-title>. <source xml:lang="en">European Journal of Epidemiology</source>, <volume>32</volume>, <fpage>881</fpage>–<lpage>891</lpage>.<pub-id pub-id-type="pmid">28856478</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0003">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0003"><string-name><surname>Andersen</surname>, <given-names>P. K.</given-names></string-name>, <string-name><surname>Geskus</surname>, <given-names>R. B.</given-names></string-name>, <string-name><surname>De Witte</surname>, <given-names>T.</given-names></string-name>, &amp; <string-name><surname>Putter</surname>, <given-names>H.</given-names></string-name> (<year>2012</year>). <article-title>Competing risks in epidemiology: Possibilities and pitfalls</article-title>. <source xml:lang="en">International Journal of Epidemiology</source>, <volume>41</volume>, <fpage>861</fpage>–<lpage>870</lpage>.<pub-id pub-id-type="pmid">22253319</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0004">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0004"><string-name><surname>Bellavia</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Akerstedt</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Bottai</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Wolk</surname>, <given-names>A.</given-names></string-name>, &amp; <string-name><surname>Orsini</surname>, <given-names>N.</given-names></string-name> (<year>2014</year>). <article-title>Sleep duration and survival percentiles across categories of physical activity</article-title>. <source xml:lang="en">American Journal of Epidemiology</source>, <volume>179</volume>, <fpage>484</fpage>–<lpage>491</lpage>.<pub-id pub-id-type="pmid">24264294</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0005">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0005"><string-name><surname>Bokenberger</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Strom</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Dahl Aslan</surname>, <given-names>A. K.</given-names></string-name>, <string-name><surname>Johansson</surname>, <given-names>A. L.</given-names></string-name>, <string-name><surname>Gatz</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Pedersen</surname>, <given-names>N. L.</given-names></string-name>, &amp; <string-name><surname>Åkerstedt</surname>, <given-names>T.</given-names></string-name> (<year>2017</year>). <article-title>Association between sleep characteristics and incident dementia accounting for baseline cognitive status: A prospective population‐based study</article-title>. <source xml:lang="en">The Journals of Gerontology Series A, Biological Sciences and Medical Sciences</source>, <volume>72</volume>, <fpage>134</fpage>–<lpage>139</lpage>.</mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0006">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0006"><string-name><surname>Cappuccio</surname>, <given-names>F. P.</given-names></string-name>, <string-name><surname>D'elia</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Strazzullo</surname>, <given-names>P.</given-names></string-name>, &amp; <string-name><surname>Miller</surname>, <given-names>M. A.</given-names></string-name> (<year>2010</year>). <article-title>Sleep duration and all‐cause mortality: A systematic review and meta‐analysis of prospective studies</article-title>. <source xml:lang="en">Sleep</source>, <volume>33</volume>, <fpage>585</fpage>–<lpage>592</lpage>.<pub-id pub-id-type="pmid">20469800</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0007">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0007"><string-name><surname>Charlson</surname>, <given-names>M. E.</given-names></string-name>, <string-name><surname>Pompei</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Ales</surname>, <given-names>K. L.</given-names></string-name>, &amp; <string-name><surname>Mackenzie</surname>, <given-names>C. R.</given-names></string-name> (<year>1987</year>). <article-title>A new method of classifying prognostic comorbidity in longitudinal studies: Development and validation</article-title>. <source xml:lang="en">Journal of Chronic Diseases</source>, <volume>40</volume>, <fpage>373</fpage>–<lpage>383</lpage>.<pub-id pub-id-type="pmid">3558716</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0008">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0008"><string-name><surname>Cologne</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Hsu</surname>, <given-names>W. L.</given-names></string-name>, <string-name><surname>Abbott</surname>, <given-names>R. D.</given-names></string-name>, <string-name><surname>Ohishi</surname>, <given-names>W.</given-names></string-name>, <string-name><surname>Grant</surname>, <given-names>E. J.</given-names></string-name>, <string-name><surname>Fujiwara</surname>, <given-names>S.</given-names></string-name>, &amp; <string-name><surname>Cullings</surname>, <given-names>H. M.</given-names></string-name> (<year>2012</year>). <article-title>Proportional hazards regression in epidemiologic follow‐up studies: An intuitive consideration of primary time scale</article-title>. <source xml:lang="en">Epidemiology</source>, <volume>23</volume>, <fpage>565</fpage>–<lpage>573</lpage>.<pub-id pub-id-type="pmid">22517300</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0009">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0009"><string-name><surname>Gallicchio</surname>, <given-names>L.</given-names></string-name>, &amp; <string-name><surname>Kalesan</surname>, <given-names>B.</given-names></string-name> (<year>2009</year>). <article-title>Sleep duration and mortality: A systematic review and meta‐analysis</article-title>. <source xml:lang="en">Journal of Sleep Research</source>, <volume>18</volume>, <fpage>148</fpage>–<lpage>158</lpage>.<pub-id pub-id-type="pmid">19645960</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0010">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0010"><string-name><surname>Grambsch</surname>, <given-names>P. M.</given-names></string-name>, &amp; <string-name><surname>Therneau</surname>, <given-names>T. M.</given-names></string-name> (<year>1994</year>). <article-title>Proportional hazards tests and diagnostics based on weighted residuals</article-title>. <source xml:lang="en">Biometrika</source>, <volume>81</volume>, <fpage>515</fpage>–<lpage>526</lpage>.</mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0011">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0011"><string-name><surname>Grandner</surname>, <given-names>M. A.</given-names></string-name>, <string-name><surname>Patel</surname>, <given-names>N. P.</given-names></string-name>, <string-name><surname>Gehrman</surname>, <given-names>P. R.</given-names></string-name>, <string-name><surname>Perlis</surname>, <given-names>M. L.</given-names></string-name>, &amp; <string-name><surname>Pack</surname>, <given-names>A. I.</given-names></string-name> (<year>2010</year>). <article-title>Problems associated with short sleep: Bridging the gap between laboratory and epidemiological studies</article-title>. <source xml:lang="en">Sleep Medicine Reviews</source>, <volume>14</volume>, <fpage>239</fpage>–<lpage>247</lpage>.<pub-id pub-id-type="pmid">19896872</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0012">
+                <mixed-citation publication-type="book" id="jsr12712-cit-0012"><string-name><surname>Harrell</surname>, <given-names>F. E.</given-names><suffix>Jr</suffix></string-name> (<year>2001</year>). <source xml:lang="en">Regression modeling stratigies: With applications to linear models, logistic regression, and surival analysis</source>. <publisher-loc>New York</publisher-loc>: <publisher-name>Springer</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0013">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0013"><string-name><surname>Heinzl</surname>, <given-names>H.</given-names></string-name>, &amp; <string-name><surname>Kaider</surname>, <given-names>A.</given-names></string-name> (<year>1997</year>). <article-title>Gaining more flexibility in Cox proportional hazards regression models with cubic spline functions</article-title>. <source xml:lang="en">Computer Methods and Programs in Biomedicine</source>, <volume>54</volume>, <fpage>201</fpage>–<lpage>208</lpage>.<pub-id pub-id-type="pmid">9421665</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0014">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0014"><string-name><surname>Hwangbo</surname>, <given-names>Y.</given-names></string-name>, <string-name><surname>Kim</surname>, <given-names>W. J.</given-names></string-name>, <string-name><surname>Chu</surname>, <given-names>M. K.</given-names></string-name>, <string-name><surname>Yun</surname>, <given-names>C. H.</given-names></string-name>, &amp; <string-name><surname>Yang</surname>, <given-names>K. I.</given-names></string-name> (<year>2013</year>). <article-title>Association between weekend catch‐up sleep duration and hypertension in Korean adults</article-title>. <source xml:lang="en">Sleep Medicine</source>, <volume>14</volume>, <fpage>549</fpage>–<lpage>554</lpage>.<pub-id pub-id-type="pmid">23643647</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0015">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0015"><string-name><surname>Itani</surname>, <given-names>O.</given-names></string-name>, <string-name><surname>Jike</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Watanabe</surname>, <given-names>N.</given-names></string-name>, &amp; <string-name><surname>Kaneita</surname>, <given-names>Y.</given-names></string-name> (<year>2017</year>). <article-title>Short sleep duration and health outcomes: A systematic review, meta‐analysis, and meta‐regression</article-title>. <source xml:lang="en">Sleep Medicine</source>, <volume>32</volume>, <fpage>246</fpage>–<lpage>256</lpage>.<pub-id pub-id-type="pmid">27743803</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0016">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0016"><string-name><surname>Jike</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Itani</surname>, <given-names>O.</given-names></string-name>, <string-name><surname>Watanabe</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Buysse</surname>, <given-names>D. J.</given-names></string-name>, &amp; <string-name><surname>Kaneita</surname>, <given-names>Y.</given-names></string-name> (<year>2018</year>). <article-title>Long sleep duration and health outcomes: A systematic review, meta‐analysis and meta‐regression</article-title>. <source xml:lang="en">Sleep Medicine Reviews</source>, <volume>39</volume>, <fpage>25</fpage>–<lpage>36</lpage>.<pub-id pub-id-type="pmid">28890167</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0017">
+                <mixed-citation publication-type="book" id="jsr12712-cit-0017"><string-name><surname>Karasek</surname>, <given-names>R.</given-names></string-name>, &amp; <string-name><surname>Theorell</surname>, <given-names>T.</given-names></string-name> (<year>1990</year>). <source xml:lang="en">Healthy work: Stress, productivity, and the reconstruction of working life</source>. <publisher-loc>New York</publisher-loc>: <publisher-name>Basic Book</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0018">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0018"><string-name><surname>Kripke</surname>, <given-names>D. F.</given-names></string-name>, <string-name><surname>Garfinkel</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Wingard</surname>, <given-names>D. L.</given-names></string-name>, <string-name><surname>Klauber</surname>, <given-names>M. R.</given-names></string-name>, &amp; <string-name><surname>Marler</surname>, <given-names>M. R.</given-names></string-name> (<year>2002</year>). <article-title>Mortality associated with sleep duration and insomnia</article-title>. <source xml:lang="en">Archives of General Psychiatry</source>, <volume>59</volume>, <fpage>131</fpage>–<lpage>136</lpage>.<pub-id pub-id-type="pmid">11825133</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0019">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0019"><string-name><surname>Kurina</surname>, <given-names>L. M.</given-names></string-name>, <string-name><surname>Mcclintock</surname>, <given-names>M. K.</given-names></string-name>, <string-name><surname>Chen</surname>, <given-names>J. H.</given-names></string-name>, <string-name><surname>Waite</surname>, <given-names>L. J.</given-names></string-name>, <string-name><surname>Thisted</surname>, <given-names>R. A.</given-names></string-name>, &amp; <string-name><surname>Lauderdale</surname>, <given-names>D. S.</given-names></string-name> (<year>2013</year>). <article-title>Sleep duration and all‐cause mortality: A critical review of measurement and associations</article-title>. <source xml:lang="en">Annals of Epidemiology</source>, <volume>23</volume>, <fpage>361</fpage>–<lpage>370</lpage>.<pub-id pub-id-type="pmid">23622956</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0020">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0020"><string-name><surname>Lamarca</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>Alonso</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Gomez</surname>, <given-names>G.</given-names></string-name>, &amp; <string-name><surname>Munoz</surname>, <given-names>A.</given-names></string-name> (<year>1998</year>). <article-title>Left‐truncated data with age as time scale: An alternative for survival analysis in the elderly population</article-title>. <source xml:lang="en">The Journals of Gerontology Series A, Biological Sciences and Medical Sciences</source>, <volume>53</volume>, <fpage>M337</fpage>–<lpage>M343</lpage>.</mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0021">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0021"><string-name><surname>Liu</surname>, <given-names>T. Z.</given-names></string-name>, <string-name><surname>Xu</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Rota</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Cai</surname>, <given-names>H.</given-names></string-name>, <string-name><surname>Zhang</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Shi</surname>, <given-names>M. J.</given-names></string-name>, … <string-name><surname>Sun</surname>, <given-names>X.</given-names></string-name> (<year>2017</year>). <article-title>Sleep duration and risk of all‐cause mortality: A flexible, non‐linear, meta‐regression of 40 prospective cohort studies</article-title>. <source xml:lang="en">Sleep Medicine Reviews</source>, <volume>32</volume>, <fpage>28</fpage>–<lpage>36</lpage>.<pub-id pub-id-type="pmid">27067616</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0022">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0022"><string-name><surname>Roenneberg</surname>, <given-names>T.</given-names></string-name>, &amp; <string-name><surname>Merrow</surname>, <given-names>M.</given-names></string-name> (<year>2016</year>). <article-title>The circadian clock and human health</article-title>. <source xml:lang="en">Current Biology</source>, <volume>26</volume>, <fpage>R432</fpage>–<lpage>R443</lpage>.<pub-id pub-id-type="pmid">27218855</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0023">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0023"><string-name><surname>Silva</surname>, <given-names>A. A.</given-names></string-name>, <string-name><surname>Mello</surname>, <given-names>R. G.</given-names></string-name>, <string-name><surname>Schaan</surname>, <given-names>C. W.</given-names></string-name>, <string-name><surname>Fuchs</surname>, <given-names>F. D.</given-names></string-name>, <string-name><surname>Redline</surname>, <given-names>S.</given-names></string-name>, &amp; <string-name><surname>Fuchs</surname>, <given-names>S. C.</given-names></string-name> (<year>2016</year>). <article-title>Sleep duration and mortality in the elderly: A systematic review with meta‐analysis</article-title>. <source xml:lang="en">British Medical Journal Open</source>, <volume>6</volume>, <fpage>e008119</fpage>.</mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0024">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0024"><string-name><surname>Trolle Lagerros</surname>, <given-names>Y.</given-names></string-name>, <string-name><surname>Hantikainen</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Mariosa</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Ye</surname>, <given-names>W.</given-names></string-name>, <string-name><surname>Adami</surname>, <given-names>H. O.</given-names></string-name>, <string-name><surname>Grotta</surname>, <given-names>A.</given-names></string-name>, … <string-name><surname>Bellocco</surname>, <given-names>R.</given-names></string-name> (<year>2017</year>). <article-title>Cohort profile: The Swedish National March Cohort</article-title>. <source xml:lang="en">International Journal of Epidemiology</source>, <volume>46</volume>, <fpage>795</fpage>–<lpage>795e</lpage>.<pub-id pub-id-type="pmid">27649800</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12712-bib-0025">
+                <mixed-citation publication-type="journal" id="jsr12712-cit-0025"><string-name><surname>Wing</surname>, <given-names>Y. K.</given-names></string-name>, <string-name><surname>Li</surname>, <given-names>S. X.</given-names></string-name>, <string-name><surname>Li</surname>, <given-names>A. M.</given-names></string-name>, <string-name><surname>Zhang</surname>, <given-names>J.</given-names></string-name>, &amp; <string-name><surname>Kong</surname>, <given-names>A. P.</given-names></string-name> (<year>2009</year>). <article-title>The effect of weekend and holiday sleep compensation on childhood overweight and obesity</article-title>. <source xml:lang="en">Pediatrics</source>, <volume>124</volume>, <fpage>e994</fpage>–<lpage>e1000</lpage>.<pub-id pub-id-type="pmid">19858153</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

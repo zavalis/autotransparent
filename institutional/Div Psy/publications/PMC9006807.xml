@@ -1,0 +1,1232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:01:12Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9006807" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9006807</identifier>
+        <datestamp>2022-05-02</datestamp>
+        <setSpec>bmjo</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMJ Open</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMJ Open</journal-id>
+              <journal-id journal-id-type="hwp">bmjopen</journal-id>
+              <journal-id journal-id-type="publisher-id">bmjopen</journal-id>
+              <journal-title-group>
+                <journal-title>BMJ Open</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2044-6055</issn>
+              <publisher>
+                <publisher-name>BMJ Publishing Group</publisher-name>
+                <publisher-loc>BMA House, Tavistock Square, London, WC1H 9JR</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9006807</article-id>
+              <article-id pub-id-type="pmcid">PMC9006807</article-id>
+              <article-id pub-id-type="pmc-uid">9006807</article-id>
+              <article-id pub-id-type="pmid">35414549</article-id>
+              <article-id pub-id-type="publisher-id">bmjopen-2021-054512</article-id>
+              <article-id pub-id-type="doi">10.1136/bmjopen-2021-054512</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Epidemiology</subject>
+                </subj-group>
+                <subj-group subj-group-type="hwp-journal-coll">
+                  <subject>1506</subject>
+                  <subject>1692</subject>
+                </subj-group>
+                <series-title>Original research</series-title>
+              </article-categories>
+              <title-group>
+                <article-title>Influence of work ability and smoking on the prognosis of long-duration activity-limiting neck/back pain: a cohort study of a Swedish working population</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="author-36967157" contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-9507-6101</contrib-id>
+                  <name>
+                    <surname>Bohman</surname>
+                    <given-names>Tony</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib id="author-32541176" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-6415-8673</contrib-id>
+                  <name>
+                    <surname>Holm</surname>
+                    <given-names>Lena W</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib id="author-40295582" contrib-type="author">
+                  <name>
+                    <surname>Lekander</surname>
+                    <given-names>Mats</given-names>
+                  </name>
+                  <xref rid="aff3" ref-type="aff">3</xref>
+                  <xref rid="aff4" ref-type="aff">4</xref>
+                </contrib>
+                <contrib id="author-36070698" contrib-type="author">
+                  <name>
+                    <surname>Hallqvist</surname>
+                    <given-names>Johan</given-names>
+                  </name>
+                  <xref rid="aff5" ref-type="aff">5</xref>
+                </contrib>
+                <contrib id="author-25958631" contrib-type="author">
+                  <name>
+                    <surname>Skillgate</surname>
+                    <given-names>Eva</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <xref rid="aff6" ref-type="aff">6</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><label>1</label><institution content-type="department">Institute of Environmental Medicine</institution>, <institution>Karolinska Institutet</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff2"><label>2</label><institution content-type="department">School of Education, Health and Social Studies</institution>, <institution>Dalarna University</institution>, <addr-line content-type="city">Falun</addr-line>, <addr-line content-type="state">Dalarna</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff3"><label>3</label><institution content-type="department">Stress Research Institute</institution>, <institution>Stockholm University</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff4"><label>4</label><institution content-type="department">Department of Clinical Neuroscience</institution>, <institution>Karolinska Institutet</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff5"><label>5</label><institution content-type="department">Department of Public Health and Caring Sciences</institution>, <institution>Uppsala University</institution>, <addr-line content-type="city">Uppsala</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff6"><label>6</label><institution content-type="department">Department of Health Promotion Science</institution>, <institution>Sophiahemmet University</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <author-notes>
+                <corresp><label>Correspondence to</label> Dr Tony Bohman; <email>tony.bohman@ki.se</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>11</day>
+                <month>4</month>
+                <year>2022</year>
+              </pub-date>
+              <volume>12</volume>
+              <issue>4</issue>
+              <elocation-id>e054512</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>14</day>
+                  <month>6</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>25</day>
+                  <month>3</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© Author(s) (or their employer(s)) 2022. Re-use permitted under CC BY-NC. No commercial re-use. See rights and permissions. Published by BMJ.</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <ali:free_to_read/>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbynclicense" start_date="2022-04-11">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref>
+                  <license-p>This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non-commercial. See: <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:title="pdf" xlink:href="bmjopen-2021-054512.pdf"/>
+              <self-uri content-type="reviewers-comments-pdf" xlink:href="bmjopen-2021-054512.reviewer_comments.pdf"/>
+              <self-uri content-type="draft-revisions-pdf" xlink:href="bmjopen-2021-054512.draft_revisions.pdf"/>
+              <abstract>
+                <sec>
+                  <title>Objectives</title>
+                  <p>Long-duration activity-limiting neck/back pain is common, but the knowledge of what work and lifestyle factors that influence the prognosis is sparse. The objective was therefore to evaluate if two factors, good self-perceived work ability and no daily smoking, are associated with a favourable prognosis of long-duration activity-limiting neck/back pain in a working population, and if these exposures have a synergistic prognostic effect.</p>
+                </sec>
+                <sec>
+                  <title>Design</title>
+                  <p>A prospective cohort study based on three subsamples from the Stockholm Public Health Cohort.</p>
+                </sec>
+                <sec>
+                  <title>Settings</title>
+                  <p>A working population in Stockholm County, Sweden.</p>
+                </sec>
+                <sec>
+                  <title>Participants</title>
+                  <p>Individuals, 18–61 years old, reporting long-duration activity-limiting neck/back pain the previous 6 months at baseline in 2010 (n=5177).</p>
+                </sec>
+                <sec>
+                  <title>Measures</title>
+                  <p>The exposures were: self-perceived work ability (categorised into good, moderate and poor) and daily smoking (no/yes). The outcome in 2014 was ‘absence of long-duration activity-limiting neck/back pain’ the previous 6 months representing a favourable prognosis of reported problems at baseline in 2010. Risk ratios (RRs) and risk differences (RDs) with 95% CI was estimated by general linear regressions, and the synergistic effect was estimated by the synergy index (SI) with 95% CI.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p>Participants with moderate or good work ability, respectively, had an adjusted RR for a favourable prognosis of 1.37 (95% CI 1.11 to 1.69), and 1.80 (1.49 to 2.17) in comparison with participants with poor work ability. The corresponding adjusted RD were 0.07 (0.02 to 0.11) and 0.17 (0.12 to 0.22). Participants not smoking on daily basis had an adjusted RR of 1.21 (1.02 to 1.42), and an adjusted RD of 0.05 (0.01 to 0.10) for a favourable outcome compared with daily smokers. The adjusted SI was 0.92 (0.60 to 1.43).</p>
+                </sec>
+                <sec>
+                  <title>Conclusion</title>
+                  <p>For participants with long-duration activity-limiting neck/back pain, moderate or good self-perceived work ability and not being a daily smoker were associated with a favourable prognosis but having both exposures seemed to have no synergistic prognostic effect.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>Musculoskeletal disorders</kwd>
+                <kwd>PUBLIC HEALTH</kwd>
+                <kwd>EPIDEMIOLOGY</kwd>
+                <kwd>Back pain</kwd>
+                <kwd>Spine</kwd>
+              </kwd-group>
+              <funding-group specific-use="FundRef">
+                <award-group id="funding-1">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100002706</institution-id>
+                      <institution>AFA Försäkring</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>170095</award-id>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>special-feature</meta-name>
+                  <meta-value>unlocked</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <boxed-text id="BX1" position="float">
+              <caption>
+                <title>Strengths and limitations of this study</title>
+              </caption>
+              <list list-type="bullet">
+                <list-item>
+                  <p>The longitudinal design ensures temporality and the large number of potential confounders considered supports a possible causal association between the exposures and the outcome.</p>
+                </list-item>
+                <list-item>
+                  <p>The large sample size and robust analyses strengthens the internal validity.</p>
+                </list-item>
+                <list-item>
+                  <p>The main limitations of this study are possible misclassification of the exposures and the outcome, a relatively large loss to follow-up and a possible change of exposure category during the follow-up period of 4 years, although these limitations most probably lead to an underestimation of the associations studied.</p>
+                </list-item>
+                <list-item>
+                  <p>There is a possible risk that reversed causation have influenced the analyses with perceived work ability as exposure, but the additional analyses indicates that this risk is small.</p>
+                </list-item>
+              </list>
+            </boxed-text>
+            <sec sec-type="intro" id="s1">
+              <title>Introduction</title>
+              <p>According to the Global Burden of Disease study, neck pain and back pain are among the top causes for ‘years lived with disability’, with a high and rising prevalence globally.<xref rid="R1" ref-type="bibr">1</xref> Most neck and back problems resolve, but many individuals experience pain for a long time following onset.<xref rid="R2" ref-type="bibr">2 3</xref> Between 17% and 70% of individuals with neck pain report activity-limiting pain.<xref rid="R3" ref-type="bibr">3</xref> Long-duration activity-limiting neck/back pain (LANBP) is most prevalent in working age and often decrease work performance.<xref rid="R2" ref-type="bibr">2 4</xref> From a public health perspective, LANBP adds to the societal and individual burden as it is a common cause for absenteeism and early retirement.<xref rid="R5" ref-type="bibr">5</xref> Still, and in accordance with current recommendations, many individuals with musculoskeletal pain go to work.<xref rid="R4" ref-type="bibr">4</xref></p>
+              <p>One way to address this burden of LANBP is to increase the understanding of modifiable lifestyle and work-related factors associated to a favourable prognosis and their potential interactions. Research about prognosis of LANBP have so far focused on factors of potential importance for the transition from acute/subacute neck and back pain to LANBP, and several biopsychosocial factors are suggested to be associated to such an unfavourable prognosis. Examples of such factors are smoking, low physical activity, depression, anxiety and low work satisfaction.<xref rid="R2" ref-type="bibr">2 6</xref> However, only greater optimism, good social support, positive coping and exercise/sport activities are proposed as factors associated to a favourable prognosis for long-duration and activity-limiting neck pain, and none for back pain.<xref rid="R6" ref-type="bibr">6</xref> Thus, knowledge of if work-related factors and lifestyle factors, other than physical activities, associate to a favourable prognosis of LANBP is lacking.</p>
+              <p>The multidimensional work ability model was introduced in Finland in the 1980s in order to study self-perceived work ability in relation to work disability and health.<xref rid="R7" ref-type="bibr">7 8</xref> According to the model, self-perceived work ability is based on health and functional capacity and built on a balance between a person’s resources such as competence, values, attitudes, motivation and work demands. Self-perceived work ability is commonly assessed by the Work Ability Index (WAI) or by single items of the instrument.<xref rid="R9" ref-type="bibr">9</xref> Work ability is associated with health and health related outcomes, for example, depression, osteoarthritis, neck and back pain, sickness absence and general health.<xref rid="R7" ref-type="bibr">7 10</xref> Furthermore, the total WAI or single WAI items seems to be valuable for predicting sickness absence in healthy as well in unhealthy populations, with good work ability being a protective factor in all diseases studied.<xref rid="R10" ref-type="bibr">10–14</xref> However, work ability in relation to the prognosis of neck/back pain is rarely studied. Nordstoga <italic toggle="yes">et al</italic>,<xref rid="R15" ref-type="bibr">15</xref> studying back pain patients referred to physiotherapy, found no association between baseline work ability and disability or pain 3 months later. Ahlstrom <italic toggle="yes">et al</italic><xref rid="R10" ref-type="bibr">10</xref> followed Swedish female workers on long-term sick leave for 12 months, the majority with neck pain, and found work ability to predict the future degree of neck pain. In a recent study from our group, we found that poor work ability, assessed with the second WAI item (perceived mental and/or physical work ability), increased the risk of LANBP in workers with occasional neck and/or back pain.<xref rid="R16" ref-type="bibr">16</xref></p>
+              <p>So far, we know that smoking is associated with the onset of neck and back pain and with the transition from acute/subacute to long-duration back pain, but we do not know if being a non-smoker is associated with a favourable prognosis of LANBP.<xref rid="R2" ref-type="bibr">2 6</xref> If so, and considering a known association between smoking and poor work ability, examining their potential interaction on the prognosis of LANBP would enhance our understanding and meet the demand for studies examining such interactions from reviews on the prognosis of neck and back pain.<xref rid="R17" ref-type="bibr">17–19</xref></p>
+              <p>Therefore, the objective of this study was to evaluate if good self-perceived work ability and no daily smoking are associated with a favourable prognosis of LANBP in a working population, and if these exposures have a synergistic prognostic effect.</p>
+            </sec>
+            <sec sec-type="methods" id="s2">
+              <title>Methods</title>
+              <sec id="s2-1">
+                <title>Design and study population</title>
+                <p>In this prospective cohort study, we used merged data from three subcohorts of the Stockholm Public Health Cohort (SPHC).<xref rid="R20" ref-type="bibr">20</xref> The SPHC consists of several public health surveys of individuals randomly selected from the adult population of Stockholm County. The first subcohort included individuals selected in 2002 and followed up in 2007, 2010 and 2014. The second cohort included individuals selected in 2006 and followed up in 2010 and 2014, and the third subcohort individuals selected in 2010 and followed up in 2014. Approximately 74 000 individuals from the subcohorts responded to the questionnaire in 2010, which was used as baseline in the present study. Of these, approximately 50 000 individuals (68%) responded to the questionnaire in 2014, used as the follow-up survey in the present study. Of the responders in 2010, 39 704 were 18–61 years of age and were working since at least 12 months, representing our ‘working population’. We chose the age limit of 61 years in 2010 to ensure that most of our population would still be working in 2014 as 65 years was the norm for retirement age in Sweden at the time of the data collection. <xref rid="F1" ref-type="fig">Figure 1</xref> describes the inclusion of participants into the study population and the analyses sample.</p>
+                <fig position="float" id="F1">
+                  <label>Figure 1</label>
+                  <caption>
+                    <p>Flow chart describing the inclusion of participants into the study population and the analyses sample. NP; neck pain, BP; low back pain, PWA; perceived work ability.</p>
+                  </caption>
+                  <graphic xlink:href="bmjopen-2021-054512f01" position="float"/>
+                </fig>
+                <p>Neck and back pain at baseline in 2010 were assessed with the questions: ‘Have you had any pain in your upper back or neck in the preceding 6 months?’ and ‘Have you had any pain in your lower back in the preceding 6 months?’. Both questions were followed by the question, ‘If yes: Do these problems limit your ability to work or carry out other daily activities?’. Individuals answering, ‘Yes, on average, a few days per week or more’ to at least one of the first two questions and then ‘Yes, to a high degree <italic toggle="yes">or</italic> to some degree’ to the following question were considered as having LANBP. The questions defining LANBP incorporates duration, frequency and the impact on daily activity and work, which is recommended when classifying neck and back pain.<xref rid="R18" ref-type="bibr">18 21</xref></p>
+              </sec>
+              <sec id="s2-2">
+                <title>Exposures</title>
+                <p>The exposure ‘self-perceived work ability’ (PWA) was categorised based on the second item of the WAI.<xref rid="R7" ref-type="bibr">7 9 22</xref> The item consists of two questions, one regarding physical demands and one regarding mental demands at work, respectively: ‘How do you rate your current work ability with respect to the <italic toggle="yes">physical demands/mental demands</italic> of your work’. The response alternatives were ‘very good’, ‘rather good’, ‘moderate’, ‘rather poor’ and ‘very poor’. The answers were dichotomised into good (very good or rather good) and poor (moderate, rather poor or very poor) physical and mental work ability, respectively. Finally, PWA was operationalised into three categories: good PWA (good physical <italic toggle="yes">and</italic> good mental work ability), moderate PWA (good physical <italic toggle="yes">or</italic> good mental work ability, but not both) and poor PWA (poor physical <italic toggle="yes">and</italic> poor mental work ability).</p>
+                <p>The WAI is considered an internally coherent, reliable and valid instrument appropriate for use in cross-national research.<xref rid="R9" ref-type="bibr">9 23 24</xref> Most often, the full WAI is used in research, but also single items have been used as measures, for example, the second WAI item used to operationalise the exposure in the present study.<xref rid="R10" ref-type="bibr">10–12 25</xref></p>
+                <p>The exposure ‘daily smoking’ (DS) was dichotomised by the answer yes or no to the question: ‘Do you currently smoke daily or almost daily?’.</p>
+              </sec>
+              <sec id="s2-3">
+                <title>Outcome</title>
+                <p>The outcome ‘absence of long-duration activity-limiting neck/back pain’ in 2014 represents a favourable prognosis of reported problems at baseline in 2010. The definition was based on the same questions used defining the study population. Participants defined as having a favourable prognosis (cases) were those reporting no neck/back pain <italic toggle="yes">or</italic> neck/back pain not limiting their activity in daily life or at work the preceding 6 months. Consequently, non-cases have had pain of any duration and frequency in the neck and/or back that limited activity in daily life or at work to some or to a high degree during the preceding 6 months.</p>
+              </sec>
+              <sec id="s2-4">
+                <title>Potential confounders</title>
+                <p>Potential confounders for the association between the exposure and the outcome were chosen based on literature, theoretical and clinical considerations, and availability in the questionnaire.<xref rid="R2" ref-type="bibr">2 3 6 26</xref> Potential confounders are presented in the <xref rid="SP1" ref-type="supplementary-material">online supplemental appendix</xref>. Most of the items used to measure the potential confounders have regularly been used in Swedish public health surveys since 1975 and since 2002 in the SPHC.<xref rid="R20" ref-type="bibr">20</xref></p>
+                <supplementary-material id="SP1" position="float" content-type="local-data">
+                  <object-id pub-id-type="doi">10.1136/bmjopen-2021-054512.supp1</object-id>
+                  <label>Supplementary data</label>
+                  <p>
+                    <inline-supplementary-material id="SS1" xlink:href="bmjopen-2021-054512supp001.pdf" content-type="local-data"/>
+                  </p>
+                </supplementary-material>
+              </sec>
+              <sec id="s2-5">
+                <title>Statistics</title>
+                <p>Stata V.14.2 (StataCorp) were used for statistical analyses. The association between the exposures and the outcome were estimated using general linear models with a binomial distribution and a log-link and reported as risk ratio (RR) and risk difference (RD) with corresponding 95% CIs. The exposures, PWA and DS were assessed in separate general linear models. Potential confounders were identified by reviewing the literature of prognostic factors, clinical considerations and availability. After careful discussion about if they instead possibly could be intermediators or colliders, the potential confounders were introduced into the crude models one by one. Potential confounders changing the estimated RR by 5% or more were considered confounders and were included in the final adjusted models.<xref rid="R27" ref-type="bibr">27</xref> DS was tested as a confounder in the analyses with PWA as exposure, and PWA was tested as a confounder in the analyses with DS as exposure. A variable indicating subsample participation was included in all models to adjust for potential systematic difference between the subcohorts. The general linear models were performed using complete subject analyses. The χ<sup>2</sup> test was used to test a potential dose–response effect.<xref rid="R28" ref-type="bibr">28</xref></p>
+                <p>To calculate the potential synergistic effect of PWA and DS on the outcome, we used the EpiNET’s epidemiological tool.<xref rid="R29" ref-type="bibr">29</xref> We dichotomised PWA into good PWA and moderate/poor PWA and then combined the dichotomised PWA and DS in a dummy variable, where the reference group was set to those having moderate/poor PWA and being daily smokers. The dummy variable was then used as the independent factor in a crude and an adjusted logistic regression. The results were presented as RR with corresponding 95% CI together with the synergy index (SI) with corresponding 95% CI. An SI &gt;1 indicates a joint effect between two factors greater than the sum of their individual effects.</p>
+              </sec>
+              <sec id="s2-6">
+                <title>Additional analyses</title>
+                <p>Even though all participants reported LANBP at baseline, we had no information on the intensity of LANBP at baseline, which may be an important confounder in the analyses. As poor self-related health may be a consequence of severe pain intensity, we performed the adjusted analyses with PWA as exposure stratified by good (very good/good) and poor (fair/poor/very poor) self-rated health (SRH), as a proxy for the intensity of neck/back pain at baseline.<xref rid="R30" ref-type="bibr">30</xref></p>
+                <p>The potential influence of attrition was assessed by comparing the prevalence of the two exposures among non-responders (n=1865) to the prevalence among responders (n=3312) using χ<sup>2</sup> tests.</p>
+              </sec>
+              <sec id="s2-7">
+                <title>Patient and public involvement</title>
+                <p>Patients or the public were not involved in the design or planning of the study.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="s3">
+              <title>Results</title>
+              <p>Baseline characteristics of the study population are presented in <xref rid="T1" ref-type="table">table 1</xref>. The mean age was 46 years (SD 10) and 66% were women. Eighty per cent reported good or moderate self-perceived work ability and 84% were not smoking daily. Most participants were non-manual workers or self-employed (65%), and the majority lived together with another adult person, with or without children (77%). At follow-up in 2014, 36% of the participants showed a favourable prognosis of LANBP.</p>
+              <table-wrap position="float" id="T1">
+                <label>Table 1</label>
+                <caption>
+                  <p>Baseline characteristics by the exposures perceived work ability (PWA) and daily smoking (DS)</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <thead>
+                    <tr>
+                      <td align="left" valign="bottom" rowspan="2" colspan="1">Baseline characteristics, n (%)</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="3">Perceived work ability<break/>(n=5177)</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="2">Daily smoking<break/>(n=5138)</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">Internal missing<break/>PWA/DS</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">Good</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">Moderate</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">Poor</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">No</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">Yes</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">n/n</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">3076 (59)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1080 (21)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1021 (20)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">4320 (84)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">818 (16)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Sex</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0/0</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Women</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1974 (64)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">734 (68)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">688 (67)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">2840 (66)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">534 (65)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Mean age, years (SD)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">45 (10)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">46 (10)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">47 (10)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">45 (10)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">47 (10)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0/0</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Perceived work ability</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">−/0</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Good</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">2679 (62)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">377 (46)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Moderate</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">888 (21)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">186 (23)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Poor</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">753 (17)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">255 (31)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Daily smoking</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">39/-</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Yes</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">377 (12)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">186 (17)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">255 (25)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">BMI</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">128/127</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Underweight/normal weight</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1550 (51)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">530 (51)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">408 (41)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">2093 (49)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">383 (48)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Overweight/obese</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1457 (49)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">522 (49)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">582 (59)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">2122 (51)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">413 (52)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">SES</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">267/263</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Unskilled/semiskilled worker</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">435 (15)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">219 (22)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">301 (32)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">712 (17)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">236 (30)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Skilled worker</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">393 (13)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">173 (17)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">183 (20)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">566 (14)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">174 (22)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Low level non-manual employees</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">465 (16)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">137 (13)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">120 (13)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">603 (15)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">115 (15)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Middle level non-manual employees</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">806 (27)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">255 (25)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">180 (19)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1111 (27)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">124 (16)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>High level non-manual employees/self-employed</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">849 (29)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">238 (23)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">156 (16)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1103 (27)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">131 (17)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Household</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">40/36</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Living with adult, with/without children</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">2463 (81)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">791 (74)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">685 (68)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">3361 (78)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">555 (68)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Living alone/living with children only</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">601 (19)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">277 (26)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">320 (42)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">928 (22)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">258 (32)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Headache/migraine</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">160/152</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Yes</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1330 (44)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">556 (53)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">631 (66)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">2084 (50)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">416 (53)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Psychological distress</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">25/24</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>No</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">2403 (78)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">596 (56)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">382 (38)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">2876 (67)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">479 (59)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Mild/severe</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">456 (15)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">259 (24)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">263 (26)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">801 (19)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">169 (21)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Severe</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">207 (7)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">217 (20)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">369 (36)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">622 (14)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">167 (20)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Personal support</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">32/28</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>No</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">359 (12)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">219 (20)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">307 (30)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">698 (16)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">182 (22)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Sleep disturbances</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">150/144</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Yes</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1254 (42)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">623 (59)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">744 (76)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">2120 (50)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">480 (61)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Sedentary leisure time</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">35/33</td>
+                    </tr>
+                    <tr>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>&lt;2 hours/day</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1802 (59)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">540 (50)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">502 (50)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">2441 (57)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">385 (48)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>&gt;2 hours/day</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1253 (41)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">536 (50)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">509 (50)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1854 (43)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">425 (52)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Leisure physical activity, moderate intensity</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">52/49</td>
+                    </tr>
+                    <tr>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>&lt;20 min/day</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">977 (32)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">389 (36)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">436 (43)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1435 (34)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">352 (44)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>&gt;20 min/day</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">2073 (68)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">683 (64)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">567 (57)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">2851 (66)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">456 (56)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Leisure physical activity, high intensity</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">45/43</td>
+                    </tr>
+                    <tr>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>&lt;1 hour/week</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1301 (43)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">532 (50)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">562 (56)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1883 (44)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">495 (61)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>&gt;1 hour/week</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1753 (57)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">540 (50)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">444 (44)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">2404 (56)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">313 (39)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Physical workload</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">117/114</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Sedentary at least 50%</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1801 (60)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">537 (51)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">448 (46)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">2410 (57)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">361 (46)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Standing/walking/some lifting</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">727 (24)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">291 (27)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">319 (33)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1094 (26)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">230 (29)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Walking/lifting/heavy work</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">496 (16)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">232 (22)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">209 (21)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">738 (17)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">191 (25)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Subsample participation</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0/0</td>
+                    </tr>
+                    <tr>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>2002/2007/2010/2014</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">781 (25)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">269 (25)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">233 (23)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1106 (26)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">170 (21)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>2006/2010/2014</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1011 (33)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">352 (33)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">346 (34)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1432 (33)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">268 (33)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>2010/2014</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1284 (42)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">459 (42)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">442 (43)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1782 (41)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">380 (46)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Self-rated health</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1">49/48</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Very good</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">293 (9)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">23 (2)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">12 (1)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">302 (7)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">26 (3)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Good</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1801 (59)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">336 (32)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">145 (14)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1982 (46)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">286 (35)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Fair</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">877 (29)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">567 (53)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">536 (53)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1585 (37)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">376 (46)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"><named-content content-type="indent"> </named-content>Poor or very poor</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">82 (3)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">137 (13)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">319 (32)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">408 (10)</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">125 (16)</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <fn id="T1_FN1">
+                    <p>For a description of the variables and their categorisation see the <xref rid="SP1" ref-type="supplementary-material">online supplemental appendix</xref>.</p>
+                  </fn>
+                  <fn id="T1_FN2">
+                    <p>Study population: n=5177.</p>
+                  </fn>
+                  <fn id="T1_FN3">
+                    <p>BMI, body mass index; SES, socioeconomic status.</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+              <p>The crude and adjusted associations between self-perceived work ability, daily smoking and a favourable prognosis of LANBP are presented in <xref rid="T2" ref-type="table">table 2</xref>. Socioeconomic status, headache/migraine and sleep disturbances were identified as confounders in the analyses with self-perceived work ability as exposure, while socioeconomic status, sleep disturbances and self-perceived work ability confounded the association between daily smoking and the outcome.</p>
+              <table-wrap position="float" id="T2">
+                <label>Table 2</label>
+                <caption>
+                  <p>Associations* between the exposures perceived work ability (PWA) and daily smoking (DS) in 2010 and a favourable prognosis of long-duration activity-limiting neck and/or back pain in 2014</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <thead>
+                    <tr>
+                      <td align="left" valign="bottom" rowspan="2" colspan="1">Exposure</td>
+                      <td align="left" valign="bottom" rowspan="2" colspan="1">Cases/total</td>
+                      <td align="left" valign="bottom" colspan="2" rowspan="1">Crude (n=3312)</td>
+                      <td align="left" valign="bottom" colspan="2" rowspan="1">Adjusted† (n=3049)</td>
+                      <td align="left" valign="bottom" colspan="2" rowspan="1">Adjusted†</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">RR</td>
+                      <td align="char" char="." valign="bottom" rowspan="1" colspan="1">95% CI</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">RR</td>
+                      <td align="char" char="." valign="bottom" rowspan="1" colspan="1">95% CI</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">RD</td>
+                      <td align="char" char="." valign="bottom" rowspan="1" colspan="1">95% CI</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Perceived work ability</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> Poor</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">115/596</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> Moderate</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">203/688</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1.53</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1.25 to 1.87</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1.37</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1.11 to 1.69</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">0.07</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">0.02 to 0.11</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> Good</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">873/2028</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">2.23</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1.88 to 2.65</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1.80</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1.49 to 2.17</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">0.17</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">0.12 to 0.22</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table frame="hsides" rules="groups">
+                  <thead>
+                    <tr>
+                      <td align="left" valign="bottom" rowspan="2" colspan="1">Exposure</td>
+                      <td align="left" valign="bottom" rowspan="2" colspan="1">Cases/total</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="2">Crude (n=3292)</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="2">Adjusted‡ (n=3088)</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="2">Adjusted‡</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">RR</td>
+                      <td align="char" char="." valign="bottom" rowspan="1" colspan="1">95% CI</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">RR</td>
+                      <td align="char" char="." valign="bottom" rowspan="1" colspan="1">95% CI</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">RD</td>
+                      <td align="char" char="." valign="bottom" rowspan="1" colspan="1">95% CI</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Daily smoking</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> Yes</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">115/459</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1"> No</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1070/2833</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1.51</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1.28 to 1.78</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1.21</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">1.02 to 1.42</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">0.05</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1">0.01 to 0.10</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <fn id="T2_FN1">
+                    <p>*General linear models with a binomial distribution and a log-link, estimating the risk ratio (RR), or an identity link, estimating the risk difference (RD), with corresponding 95% CIs.</p>
+                  </fn>
+                  <fn id="T2_FN2">
+                    <p>†Adjusted for socioeconomic status, headache/migraine, sleep disturbances and subsample participation.</p>
+                  </fn>
+                  <fn id="T2_FN3">
+                    <p>‡Adjusted for socioeconomic status, sleep disturbances, perceived work ability and subsample participation.</p>
+                  </fn>
+                  <fn id="T2_FN4">
+                    <p>RD, risk difference; RR, risk ratio.</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+              <p>In comparison with participants with poor work ability, participants with moderate or good work ability had an adjusted RR for a favourable prognosis of 1.37 (95% CI 1.11 to 1.69) and 1.80 (1.49 to 2.17), respectively. The corresponding adjusted RD were 0.07 (0.02 to 0.11) and 0.17 (0.12 to 0.22). Participants not smoking on daily basis had an adjusted RR of 1.21 (1.02 to 1.42) and an adjusted RD of 0.05 (0.01 to 0.10) for a favourable outcome compared with daily smokers.</p>
+              <p>The analyses with self-perceived work ability as exposure showed a significant dose–response towards a more favourable prognosis with higher work ability (p&lt;0.001).</p>
+              <p><xref rid="T3" ref-type="table">Table 3</xref> shows the result of the evaluation of the synergistic associations between the exposures and the outcome, resulting in an adjusted SI of 0.92 (95% CI 0.60 to 1.43).</p>
+              <table-wrap position="float" id="T3">
+                <label>Table 3</label>
+                <caption>
+                  <p>Analyses* of the potential synergistic effects of the two exposures perceived work ability (PWA) and daily smoking (DS) on a favourable prognosis of long-duration activity-limiting neck and/or back pain</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <thead>
+                    <tr>
+                      <td align="left" valign="bottom" rowspan="2" colspan="1">Exposure</td>
+                      <td align="left" valign="bottom" rowspan="2" colspan="1">Cases/total</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="2">Crude (n=3312)</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="2">Adjusted† (n=3049)</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">RR</td>
+                      <td align="char" char="." valign="bottom" rowspan="1" colspan="1">95% CI</td>
+                      <td align="left" valign="bottom" rowspan="1" colspan="1">RR</td>
+                      <td align="char" char="." valign="bottom" rowspan="1" colspan="1">95% CI</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Moderate/poor perceived work ability and daily smoking</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">39/253</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Moderate/poor perceived work ability and no daily smoking</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">276/1022</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1.88</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1.32 to 2.66</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1.61</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1.11 to 2.34</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Good perceived work ability and daily smoking</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">76/206</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">2.96</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1.93 to 4.54</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">2.33</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1.49 to 3.66</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">Good perceived work ability and no daily smoking</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">794/1811</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">3.96</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">2.84 to 5.52</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">2.80</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">1.95 to 4.02</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" rowspan="1" colspan="1">
+                        <bold>Synergy index</bold>
+                      </td>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="left" valign="top" rowspan="1" colspan="1"/>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">0.92</td>
+                      <td align="char" char="." valign="top" rowspan="1" colspan="1">0.60 to 1.43</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <fn id="T3_FN1">
+                    <p>*Using EpiNET’s epidemiological tool ‘Epinetcaculation.xlsx’ based on the results from logistic regressions.</p>
+                  </fn>
+                  <fn id="T3_FN2">
+                    <p>†Adjusted for socioeconomic status, headache/migraine, sleep disturbances and subsample participation.</p>
+                  </fn>
+                  <fn id="T3_FN3">
+                    <p>RR, risk ratio.</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+              <sec id="s3-1">
+                <title>Additional results</title>
+                <p>Stratifying the analyses of the exposure self-perceived work ability by good and poor SRH, as a proxy for the intensity of neck/back pain at baseline, resulted in similar adjusted RR for the two strata. The RR for a favourable prognosis of LANBP when reporting moderate work ability showed a similar increase for participants with poor SRH and participants with good SRH, 1.42 (95% CI 0.93 to 2.15) and 1.27 (95% CI 0.98 to 1.63), compared with participants with poor work ability. The RRs were also similar for those reporting good work ability in both strata: 1.72 (95% CI 1.17 to 2.53) and 1.56 (95% CI 1.23 to 1.96), respectively.</p>
+                <p>At baseline in 2010, non-responders had a significantly higher prevalence (p&lt;0.001) of individuals with poor self-perceived work ability and daily smokers (23% and 19%) in comparison with responders (18% and 14%).</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="s4">
+              <title>Discussion</title>
+              <p>In this study, we found an association between self-perceived work ability and a favourable prognosis of LANBP 4 years later. The results revealed that individuals in a working population with moderate self-perceived work ability (either good physical or good mental work ability) had a 37% increased chance of a favourable prognosis of LANBP, compared with individuals with poor self-perceived work ability (poor physical and poor mental work ability). The chance of a favourable prognosis was even higher (80%) for individuals reporting good self-perceived work ability (both good physical and good mental work ability). In addition, the results showed that individuals who did not smoke daily had a 21% higher chance of a favourable prognosis than did daily smokers.</p>
+              <p>A possible synergistic effect on a favourable prognosis for participants reporting good work ability and not smoke on daily basis could not be confirmed.</p>
+              <p>Previously, Nordstoga <italic toggle="yes">et al</italic> found no association between baseline work ability and improvement of back pain or disability in physiotherapy patients with back pain of any duration, which contrasts with our results.<xref rid="R15" ref-type="bibr">15</xref> Their study included patients with back pain of any duration, had a follow-up time of only 3 months and they used the question ‘describe your current work ability compared with the lifetime best (0–10)’ as a measure of self-perceived work ability. More in line with our result, Ahlstrom <italic toggle="yes">et al</italic> found higher baseline work ability, defined by the same question as Nordstoga <italic toggle="yes">et al</italic> and by the full WAI, to predict lower degree of neck pain at six and 12 months among women on long-term sick leave.<xref rid="R10" ref-type="bibr">10</xref> We have not found any previous study of association between smoking and a favourable prognosis, either for neck or for back pain, or on the synergistic effect of work ability and smoking.</p>
+              <p>The mechanism for smoking to affect spinal pain is not yet well understood but increased levels of proinflammatory cytokines, changed pain perception, impaired blood supply and impaired oxygen delivery to tissues caused by increased sympathetic outflow has been suggested.<xref rid="R31" ref-type="bibr">31 32</xref> The latter could be one possible underlying mechanism to the higher prevalence of osteoporosis and lumbar disc disease found in smokers compared with non-smokers.<xref rid="R31" ref-type="bibr">31 32</xref> As the concept of self-perceived work ability incorporate individual factors, work-related factors and environmental factors, a specific mechanism for good self-perceived work ability to associate with a favourable prognosis of LANBP may be difficult to delineate.<xref rid="R7" ref-type="bibr">7</xref></p>
+              <p>The present study has some possible limitations. Clustering individuals with neck and back pain when studying prognostic factors may be questioned, since prognostic factors for neck and back pain may differ. However, as a priori analysis evaluating participants with long-duration activity-limiting neck and back pain separately, resulted in almost identical crude estimates, we decided to merge the data to increase the statistical power.</p>
+              <p>Even though a large number of potential confounders was considered unmeasured confounding could not be ruled out. There is also a risk of residual confounding due to unprecise measure of confounding factors, for example, socioeconomic status. Such bias may have led to underestimation or overestimation of the results. We had no baseline information on pain intensity prior to inclusion into the cohort; therefore, we could not consider pain intensity as a potential confounder. If pain intensity at baseline is associated with the reported levels of PWA at baseline, bias due to reversed causation may be present.<xref rid="R27" ref-type="bibr">27</xref> Then our results may have been overestimated.</p>
+              <p>However, we believe that the risk of reversed causation due to baseline pain intensity is limited as individual self-perceived work ability is most likely a combination of many factors other than pain, for example, content, demands and organisation of work, personal attitudes, motivation, knowledge and skills, and functional capacity.<xref rid="R8" ref-type="bibr">8</xref> Furthermore, given that pain is an important determinator of objective as well as subjective measures of health, the additional analyses stratified by good and poor SRH indicating that good PWA is beneficial no matter the degree of SRH also supports a low risk of bias due to reversed causation.</p>
+              <p>Misclassification of the exposures and outcome needs consideration. Problems to recall and to appraise whether the pain during the preceding 6 months was activity limiting or not may have resulted in non-cases being classified as cases and vice versa. This possible misclassification of the outcome is most probably non-differential potentially leading to a dilution of our associations.<xref rid="R27" ref-type="bibr">27</xref> The exposure PWA was assessed with only one subscale of the WAI. Nonetheless, this subscale from the WAI is found to be internally coherent to the full WAI.<xref rid="R25" ref-type="bibr">25</xref> Furthermore, the operationalisation of the exposure PWA by dichotomising a five-category scales of mental and physical work ability and then combining them may have led to bias due to misclassification. Smoking was measured with a yes/no question about daily smoking, which is a rough measure of such exposure. By categorising former smokers as non-smokers and smokers who only smoke a few cigarettes a day as smokers, we might have introduced a misclassification of this exposure. These potential misclassifications of the exposures most likely is non-differential, thus potentially diluting the associations.</p>
+              <p>As the follow-up period was 4 years, work ability and smoking status may have varied across this period, and participants may have changed jobs or work assignments. If so, this would probably dilute the estimation of the association.</p>
+              <p>With a response rate of 64% between baseline and follow-up, there is a risk of selection bias. Non-responders had a significantly higher proportion of smokers and individuals with poor self-perceived work ability than did responders. If most of these individuals would experience a favourable prognosis of their LANBP, a scenario we find unlikely, our results may be overestimated. The study population in the Stockholm County are mainly non-manual employees and self-employees. The generalisability of the results may be limited in general populations with other socioeconomic status.</p>
+              <p>Strengths of this study are the longitudinal design and a relatively large sample size, allowing evaluation of the outcome along categories of the exposure. However, despite a large sample, the evaluation of synergistic effects may have been hampered by few cases in the reference categories. The dose–response results found support a causal association between self-perceived work ability and LANBP, and the extensive confounder control supports internal validity. We also regard the incorporation of activity limitations in the definition of the baseline pain and in the outcome as a strength. Activity limitations is recommended to be included in measures for neck and back pain, recognised to be of clinical importance, and to have negative consequences for the affected individual and for the society.<xref rid="R1" ref-type="bibr">1 5 18 21</xref></p>
+              <p>To our knowledge, this is the first study assessing self-perceived work ability and smoking focusing on a favourable prognosis of LANBP. Even though more research is needed to confirm our findings, they imply that good work ability and not smoking daily appears to predict a favourable prognosis of LANBP. Thus, interventions to improve physical and mental work ability and reduce smoking may enhance the chance for a favourable prognosis in workers with LANBP. Therefore, further research focusing on such interventions is motivated. Such interventions could be directed towards both the workplace organisation and the individual, possibly resulting in reduced human suffering and societal costs.</p>
+              <sec id="s4-1">
+                <title>Conclusion</title>
+                <p>Having a good physical and/or mental self-perceived work ability as well as not smoking on daily basis is associated to a favourable prognosis in a working population with LANBP. However, fulfilling both criteria seem to have no synergistic prognostic effect.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <supplementary-material content-type="local-data" id="d64e180">
+                <caption>
+                  <title>Reviewer comments</title>
+                </caption>
+                <media xlink:href="bmjopen-2021-054512.reviewer_comments.pdf"/>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="d64e181">
+                <caption>
+                  <title>Author's
+manuscript</title>
+                </caption>
+                <media xlink:href="bmjopen-2021-054512.draft_revisions.pdf"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>Thanks to Peeter Fredlund, Research Statistician at Karolinska Institutet and SLL Centre for Epidemiology and Community Medicine, Stockholm, for providing us with the data.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="other">
+                <p><bold>Contributors:</bold> TB, LWH, ML and ES contributed to the conceptualisation and methodology of the study. JH approved the conceptualisation and method and provided the data resources. Based on a protocol approved by all authors TB made the statistical analyses and wrote the first draft of the manuscript. All authors contributed to the interpretation of the results and critically revised the manuscript and approved the last manuscript version. ES is responsible for the overall content as guarantor.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Funding:</bold> This study was supported by AFA Insurance, grant number 170095.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Disclaimer:</bold> The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p>
+              </fn>
+              <fn fn-type="COI-statement">
+                <p><bold>Competing interests:</bold> None declared.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Patient and public involvement:</bold> Patients and/or the public were not involved in the design, or conduct, or reporting, or dissemination plans of this research.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Provenance and peer review:</bold> Not commissioned; externally peer reviewed.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Supplemental material:</bold> This content has been supplied by the author(s). It has not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been peer-reviewed. Any opinions or recommendations discussed are solely those of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and responsibility arising from any reliance placed on the content. Where the content includes any translated material, BMJ does not warrant the accuracy and reliability of the translations (including but not limited to local regulations, clinical guidelines, terminology, drug names and drug dosages), and is not responsible for any error and/or omissions arising from translation and adaptation or otherwise.</p>
+              </fn>
+            </fn-group>
+            <sec sec-type="data-availability">
+              <title>Data availability statement</title>
+              <p>Data are available upon reasonable request. Due to ethical restrictions and laws (GDPR) of disclosing personal data, authors have to seek permission to allow us to make the data used in this study available. Data will be available upon request after permission is granted from the Karolinska Institutet’s Ethics Review Board in Stockholm. Inquiries for data access shouldfirst be sent to eva.skillgate@ ki.se, who will then contact the ethics board forpermission to openly share the data.</p>
+            </sec>
+            <sec sec-type="ethics-statement">
+              <title>Ethics statements</title>
+              <sec>
+                <title>Patient consent for publication</title>
+                <p content-type="ethics-consent-to-publish">Not applicable.</p>
+              </sec>
+              <sec>
+                <title>Ethics approval</title>
+                <p content-type="ethics-approval">This study involves human participants and was approved by The Regional Ethical Board in Stockholm (Dnr; 2007/545-31, 2013/497-32 and 2015/1204-32). Participants gave informed consent to participate in the study before taking part.</p>
+              </sec>
+            </sec>
+            <ref-list>
+              <title>References</title>
+              <ref id="R1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Vos</surname><given-names>T</given-names></string-name>, <string-name><surname>Abajobir</surname><given-names>AA</given-names></string-name>, <string-name><surname>Abate</surname><given-names>KH</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990–2016: a systematic analysis for the global burden of disease study 2016</article-title>. <source>The Lancet</source><year>2017</year>;<volume>390</volume>:<fpage>1211</fpage>–<lpage>59</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(17)32154-2</pub-id></mixed-citation>
+              </ref>
+              <ref id="R2">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hartvigsen</surname><given-names>J</given-names></string-name>, <string-name><surname>Hancock</surname><given-names>MJ</given-names></string-name>, <string-name><surname>Kongsted</surname><given-names>A</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>What low back pain is and why we need to pay attention</article-title>. <source>Lancet</source><year>2018</year>;<volume>391</volume>:<fpage>2356</fpage>–<lpage>67</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(18)30480-X</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/29573870?><pub-id pub-id-type="pmid">29573870</pub-id></mixed-citation>
+              </ref>
+              <ref id="R3">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hoy</surname><given-names>DG</given-names></string-name>, <string-name><surname>Protani</surname><given-names>M</given-names></string-name>, <string-name><surname>De</surname><given-names>R</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The epidemiology of neck pain</article-title>. <source>Best Pract Res Clin Rheumatol</source><year>2010</year>;<volume>24</volume>:<fpage>783</fpage>–<lpage>92</lpage>. <pub-id pub-id-type="doi">10.1016/j.berh.2011.01.019</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/21665126?><pub-id pub-id-type="pmid">21665126</pub-id></mixed-citation>
+              </ref>
+              <ref id="R4">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Cochrane</surname><given-names>A</given-names></string-name>, <string-name><surname>Higgins</surname><given-names>NM</given-names></string-name>, <string-name><surname>Rothwell</surname><given-names>C</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Work outcomes in patients who stay at work despite musculoskeletal pain</article-title>. <source>J Occup Rehabil</source><year>2018</year>;<volume>28</volume>:<fpage>559</fpage>–<lpage>67</lpage>. <pub-id pub-id-type="doi">10.1007/s10926-017-9748-4</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/29236203?><pub-id pub-id-type="pmid">29236203</pub-id></mixed-citation>
+              </ref>
+              <ref id="R5">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Schofield</surname><given-names>DJ</given-names></string-name>, <string-name><surname>Shrestha</surname><given-names>RN</given-names></string-name>, <string-name><surname>Percival</surname><given-names>R</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Early retirement and the financial assets of individuals with back problems</article-title>. <source>Eur Spine J</source><year>2011</year>;<volume>20</volume>:<fpage>731</fpage>–<lpage>6</lpage>. <pub-id pub-id-type="doi">10.1007/s00586-010-1647-8</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/21132556?><pub-id pub-id-type="pmid">21132556</pub-id></mixed-citation>
+              </ref>
+              <ref id="R6">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Green</surname><given-names>BN</given-names></string-name>, <string-name><surname>Johnson</surname><given-names>CD</given-names></string-name>, <string-name><surname>Haldeman</surname><given-names>S</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>A scoping review of biopsychosocial risk factors and co-morbidities for common spinal disorders</article-title>. <source>PLoS One</source><year>2018</year>;<volume>13</volume>:<elocation-id>e0197987</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0197987</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/29856783?><pub-id pub-id-type="pmid">29856783</pub-id></mixed-citation>
+              </ref>
+              <ref id="R7">
+                <label>7</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Gould</surname><given-names>R</given-names></string-name>, <string-name><surname>Ilmarinen</surname><given-names>J</given-names></string-name>, <string-name><surname>Järvisalo</surname><given-names>J</given-names></string-name>, <etal>et al</etal></person-group>. <source>Dimensions of work ability. Results of the 2000 health survey</source>. <publisher-loc>Waasa Graphics Oy</publisher-loc>: <publisher-name>Vaasa</publisher-name>, <year>2008</year>.</mixed-citation>
+              </ref>
+              <ref id="R8">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ilmarinen</surname><given-names>J</given-names></string-name></person-group>. <article-title>Work ability--a comprehensive concept for occupational health research and prevention</article-title>. <source>Scand J Work Environ Health</source><year>2009</year>;<volume>35</volume>:<fpage>1</fpage>–<lpage>5</lpage>. <pub-id pub-id-type="doi">10.5271/sjweh.1304</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/19277432?><pub-id pub-id-type="pmid">19277432</pub-id></mixed-citation>
+              </ref>
+              <ref id="R9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ilmarinen</surname><given-names>J</given-names></string-name></person-group>. <article-title>The work ability index (WAI)</article-title>. <source>Occup Med</source><year>2006</year>;<volume>57</volume>:<elocation-id>160</elocation-id>. <pub-id pub-id-type="doi">10.1093/occmed/kqm008</pub-id></mixed-citation>
+              </ref>
+              <ref id="R10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ahlstrom</surname><given-names>L</given-names></string-name>, <string-name><surname>Grimby-Ekman</surname><given-names>A</given-names></string-name>, <string-name><surname>Hagberg</surname><given-names>M</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The work ability index and single-item question: associations with sick leave, symptoms, and health--a prospective study of women on long-term sick leave</article-title>. <source>Scand J Work Environ Health</source><year>2010</year>;<volume>36</volume>:<fpage>404</fpage>–<lpage>12</lpage>. <pub-id pub-id-type="doi">10.5271/sjweh.2917</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/20372766?><pub-id pub-id-type="pmid">20372766</pub-id></mixed-citation>
+              </ref>
+              <ref id="R11">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kinnunen</surname><given-names>U</given-names></string-name>, <string-name><surname>Nätti</surname><given-names>J</given-names></string-name></person-group>. <article-title>Work ability score and future work ability as predictors of register-based disability pension and long-term sickness absence: a three-year follow-up study</article-title>. <source>Scand J Public Health</source><year>2018</year>;<volume>46</volume>:<fpage>321</fpage>–<lpage>30</lpage>. <pub-id pub-id-type="doi">10.1177/1403494817745190</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/29212430?><pub-id pub-id-type="pmid">29212430</pub-id></mixed-citation>
+              </ref>
+              <ref id="R12">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lundin</surname><given-names>A</given-names></string-name>, <string-name><surname>Kjellberg</surname><given-names>K</given-names></string-name>, <string-name><surname>Leijon</surname><given-names>O</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The association between Self-Assessed future work ability and long-term sickness absence, disability pension and unemployment in a general working population: a 7-year follow-up study</article-title>. <source>J Occup Rehabil</source><year>2016</year>;<volume>26</volume>:<fpage>195</fpage>–<lpage>203</lpage>. <pub-id pub-id-type="doi">10.1007/s10926-015-9603-4</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26319413?><pub-id pub-id-type="pmid">26319413</pub-id></mixed-citation>
+              </ref>
+              <ref id="R13">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Reeuwijk</surname><given-names>KG</given-names></string-name>, <string-name><surname>Robroek</surname><given-names>SJW</given-names></string-name>, <string-name><surname>Niessen</surname><given-names>MAJ</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The prognostic value of the work ability index for sickness absence among office workers</article-title>. <source>PLoS One</source><year>2015</year>;<volume>10</volume>:<elocation-id>e0126969</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0126969</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26017387?><pub-id pub-id-type="pmid">26017387</pub-id></mixed-citation>
+              </ref>
+              <ref id="R14">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Sundstrup</surname><given-names>E</given-names></string-name>, <string-name><surname>Jakobsen</surname><given-names>MD</given-names></string-name>, <string-name><surname>Mortensen</surname><given-names>OS</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Joint association of multimorbidity and work ability with risk of long-term sickness absence: a prospective cohort study with register follow-up</article-title>. <source>Scand J Work Environ Health</source><year>2017</year>;<volume>43</volume>:<fpage>146</fpage>–<lpage>54</lpage>. <pub-id pub-id-type="doi">10.5271/sjweh.3620</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28060994?><pub-id pub-id-type="pmid">28060994</pub-id></mixed-citation>
+              </ref>
+              <ref id="R15">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Nordstoga</surname><given-names>AL</given-names></string-name>, <string-name><surname>Vasseljen</surname><given-names>O</given-names></string-name>, <string-name><surname>Meisingset</surname><given-names>I</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Improvement in work ability, psychological distress and pain sites in relation to low back pain prognosis: a longitudinal observational study in primary care</article-title>. <source>Spine</source><year>2019</year>;<volume>44</volume>:<fpage>E423</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1097/BRS.0000000000002860</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30234815?><pub-id pub-id-type="pmid">30234815</pub-id></mixed-citation>
+              </ref>
+              <ref id="R16">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Holm</surname><given-names>LW</given-names></string-name>, <string-name><surname>Bohman</surname><given-names>T</given-names></string-name>, <string-name><surname>Lekander</surname><given-names>M</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Risk of transition from occasional neck/back pain to long-duration activity limiting neck/back pain: a cohort study on the influence of poor work ability and sleep disturbances in the working population in Stockholm County</article-title>. <source>BMJ Open</source><year>2020</year>;<volume>10</volume>:<elocation-id>e033946</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmjopen-2019-033946</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/32499260?></mixed-citation>
+              </ref>
+              <ref id="R17">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>van den Berg</surname><given-names>TIJ</given-names></string-name>, <string-name><surname>Elders</surname><given-names>LAM</given-names></string-name>, <string-name><surname>de Zwart</surname><given-names>BCH</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The effects of work-related and individual factors on the work ability index: a systematic review</article-title>. <source>Occup Environ Med</source><year>2009</year>;<volume>66</volume>:<fpage>211</fpage>–<lpage>20</lpage>. <pub-id pub-id-type="doi">10.1136/oem.2008.039883</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/19017690?><pub-id pub-id-type="pmid">19017690</pub-id></mixed-citation>
+              </ref>
+              <ref id="R18">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Carroll</surname><given-names>LJ</given-names></string-name>, <string-name><surname>Hurwitz</surname><given-names>EL</given-names></string-name>, <string-name><surname>Côté</surname><given-names>P</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Research priorities and methodological implications: the bone and joint decade 2000-2010 Task force on neck pain and its associated disorders</article-title>. <source>Spine</source><year>2008</year>;<volume>33</volume>:<fpage>S214</fpage>–<lpage>20</lpage>. <pub-id pub-id-type="doi">10.1097/BRS.0b013e318164462c</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/18204394?><pub-id pub-id-type="pmid">18204394</pub-id></mixed-citation>
+              </ref>
+              <ref id="R19">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hayden</surname><given-names>JA</given-names></string-name>, <string-name><surname>Dunn</surname><given-names>KM</given-names></string-name>, <string-name><surname>van der Windt</surname><given-names>DA</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>What is the prognosis of back pain?</article-title><source>Best Pract Res Clin Rheumatol</source><year>2010</year>;<volume>24</volume>:<fpage>167</fpage>–<lpage>79</lpage>. <pub-id pub-id-type="doi">10.1016/j.berh.2009.12.005</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/20227639?><pub-id pub-id-type="pmid">20227639</pub-id></mixed-citation>
+              </ref>
+              <ref id="R20">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Svensson</surname><given-names>AC</given-names></string-name>, <string-name><surname>Fredlund</surname><given-names>P</given-names></string-name>, <string-name><surname>Laflamme</surname><given-names>L</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Cohort profile: the Stockholm public health cohort</article-title>. <source>Int J Epidemiol</source><year>2013</year>;<volume>42</volume>:<fpage>1263</fpage>–<lpage>72</lpage>. <pub-id pub-id-type="doi">10.1093/ije/dys126</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/23042793?><pub-id pub-id-type="pmid">23042793</pub-id></mixed-citation>
+              </ref>
+              <ref id="R21">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Dionne</surname><given-names>CE</given-names></string-name>, <string-name><surname>Dunn</surname><given-names>KM</given-names></string-name>, <string-name><surname>Croft</surname><given-names>PR</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>A consensus approach toward the standardization of back pain definitions for use in prevalence studies</article-title>. <source>Spine</source><year>2008</year>;<volume>33</volume>:<fpage>95</fpage>–<lpage>103</lpage>. <pub-id pub-id-type="doi">10.1097/BRS.0b013e31815e7f94</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/18165754?><pub-id pub-id-type="pmid">18165754</pub-id></mixed-citation>
+              </ref>
+              <ref id="R22">
+                <label>22</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Tuomi</surname><given-names>K</given-names></string-name>, <string-name><surname>Ilmarinen</surname><given-names>J</given-names></string-name>, <string-name><surname>Jahkola</surname><given-names>A</given-names></string-name>, <etal>et al</etal></person-group>. <source>Work ability index</source>. <edition>2 ed</edition>. <publisher-loc>Helsinki</publisher-loc>: <publisher-name>Finnish Institute of Occupational Health</publisher-name>, <year>1998</year>.</mixed-citation>
+              </ref>
+              <ref id="R23">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>de Zwart</surname><given-names>BCH</given-names></string-name>, <string-name><surname>Frings-Dresen</surname><given-names>MHW</given-names></string-name>, <string-name><surname>van Duivenbooden</surname><given-names>JC</given-names></string-name></person-group>. <article-title>Test-Retest reliability of the work ability index questionnaire</article-title>. <source>Occup Med</source><year>2002</year>;<volume>52</volume>:<fpage>177</fpage>–<lpage>81</lpage>. <pub-id pub-id-type="doi">10.1093/occmed/52.4.177</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/12091582?></mixed-citation>
+              </ref>
+              <ref id="R24">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Radkiewicz</surname><given-names>P</given-names></string-name>, <string-name><surname>Widerszal-Bazyl</surname><given-names>M</given-names></string-name></person-group>. <article-title>Psychometric properties of work ability index in the light of comparative survey study</article-title>. <source>Int Congr Ser</source><year>2005</year>;<volume>1280</volume>:<fpage>304</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1016/j.ics.2005.02.089</pub-id></mixed-citation>
+              </ref>
+              <ref id="R25">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lundin</surname><given-names>A</given-names></string-name>, <string-name><surname>Leijon</surname><given-names>O</given-names></string-name>, <string-name><surname>Vaez</surname><given-names>M</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Predictive validity of the work ability index and its individual items in the general population</article-title>. <source>Scand J Public Health</source><year>2017</year>;<volume>45</volume>:<fpage>350</fpage>–<lpage>6</lpage>. <pub-id pub-id-type="doi">10.1177/1403494817702759</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28385066?><pub-id pub-id-type="pmid">28385066</pub-id></mixed-citation>
+              </ref>
+              <ref id="R26">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Verkerk</surname><given-names>K</given-names></string-name>, <string-name><surname>Luijsterburg</surname><given-names>PAJ</given-names></string-name>, <string-name><surname>Miedema</surname><given-names>HS</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Prognostic factors for recovery in chronic nonspecific low back pain: a systematic review</article-title>. <source>Phys Ther</source><year>2012</year>;<volume>92</volume>:<fpage>1093</fpage>–<lpage>108</lpage>. <pub-id pub-id-type="doi">10.2522/ptj.20110388</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/22595238?><pub-id pub-id-type="pmid">22595238</pub-id></mixed-citation>
+              </ref>
+              <ref id="R27">
+                <label>27</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Lash</surname><given-names>TL</given-names></string-name>, <string-name><surname>VanderWeele</surname><given-names>TJ</given-names></string-name>, <string-name><surname>Haneuse</surname><given-names>S</given-names></string-name>, <etal>et al</etal></person-group>. <source>Modern epidemiology</source>. <publisher-loc>Philadelphia, PA</publisher-loc>: <publisher-name>Wolters Kluwer</publisher-name>, <year>2021</year>.</mixed-citation>
+              </ref>
+              <ref id="R28">
+                <label>28</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Vittinghoff</surname><given-names>E</given-names></string-name>, <string-name><surname>Glidden</surname><given-names>DV</given-names></string-name>, <string-name><surname>Shiboski</surname><given-names>SC</given-names></string-name>, <etal>et al</etal></person-group>. <source>Regression methods in biostatistics, linear, logistic, survival, and repeated measures models</source>. <edition>2nd ed</edition>. <publisher-loc>New York, USA</publisher-loc>: <publisher-name>Springer New York</publisher-name>, <year>2012</year>.</mixed-citation>
+              </ref>
+              <ref id="R29">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Andersson</surname><given-names>T</given-names></string-name>, <string-name><surname>Alfredsson</surname><given-names>L</given-names></string-name>, <string-name><surname>Källberg</surname><given-names>H</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Calculating measures of biological interaction</article-title>. <source>Eur J Epidemiol</source><year>2005</year>;<volume>20</volume>:<fpage>575</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1007/s10654-005-7835-x</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/16119429?><pub-id pub-id-type="pmid">16119429</pub-id></mixed-citation>
+              </ref>
+              <ref id="R30">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Perruccio</surname><given-names>AV</given-names></string-name>, <string-name><surname>Power</surname><given-names>JD</given-names></string-name>, <string-name><surname>Badley</surname><given-names>EM</given-names></string-name></person-group>. <article-title>Arthritis onset and worsening self-rated health: a longitudinal evaluation of the role of pain and activity limitations</article-title>. <source>Arthritis Rheum</source><year>2005</year>;<volume>53</volume>:<fpage>571</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1002/art.21317</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/16082649?><pub-id pub-id-type="pmid">16082649</pub-id></mixed-citation>
+              </ref>
+              <ref id="R31">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Shiri</surname><given-names>R</given-names></string-name>, <string-name><surname>Karppinen</surname><given-names>J</given-names></string-name>, <string-name><surname>Leino-Arjas</surname><given-names>P</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The association between smoking and low back pain: a meta-analysis</article-title>. <source>Am J Med</source><year>2010</year>;<volume>123</volume>:<fpage>87.e7</fpage>–<lpage>87.e35</lpage>. <pub-id pub-id-type="doi">10.1016/j.amjmed.2009.05.028</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/20102998?></mixed-citation>
+              </ref>
+              <ref id="R32">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Shi</surname><given-names>Y</given-names></string-name>, <string-name><surname>Weingarten</surname><given-names>TN</given-names></string-name>, <string-name><surname>Mantilla</surname><given-names>CB</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Smoking and pain: pathophysiology and clinical implications</article-title>. <source>Anesthesiology</source><year>2010</year>;<volume>113</volume>:<fpage>977</fpage>–<lpage>92</lpage>. <pub-id pub-id-type="doi">10.1097/ALN.0b013e3181ebdaf9</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/20864835?><pub-id pub-id-type="pmid">20864835</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

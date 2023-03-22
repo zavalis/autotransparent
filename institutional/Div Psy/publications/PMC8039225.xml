@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:02:29Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8039225" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8039225</identifier>
+        <datestamp>2021-04-26</datestamp>
+        <setSpec>bmjo</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="other">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMJ Open</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMJ Open</journal-id>
+              <journal-id journal-id-type="hwp">bmjopen</journal-id>
+              <journal-id journal-id-type="publisher-id">bmjopen</journal-id>
+              <journal-title-group>
+                <journal-title>BMJ Open</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2044-6055</issn>
+              <publisher>
+                <publisher-name>BMJ Publishing Group</publisher-name>
+                <publisher-loc>BMA House, Tavistock Square, London, WC1H 9JR</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8039225</article-id>
+              <article-id pub-id-type="pmcid">PMC8039225</article-id>
+              <article-id pub-id-type="pmc-uid">8039225</article-id>
+              <article-id pub-id-type="pmid">34155002</article-id>
+              <article-id pub-id-type="publisher-id">bmjopen-2020-041350</article-id>
+              <article-id pub-id-type="doi">10.1136/bmjopen-2020-041350</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Mental Health</subject>
+                </subj-group>
+                <subj-group subj-group-type="hwp-journal-coll">
+                  <subject>1506</subject>
+                  <subject>1712</subject>
+                </subj-group>
+                <series-title>Protocol</series-title>
+              </article-categories>
+              <title-group>
+                <article-title>Help-seeking behaviour and attitudes towards internet-administered psychological support among adolescent and young adults previously treated for cancer during childhood: protocol for a survey and embedded qualitative interview study in Sweden</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="author-44187103" contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5062-6798</contrib-id>
+                  <name>
+                    <surname>Woodford</surname>
+                    <given-names>Joanne</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                </contrib>
+                <contrib id="author-79403478" contrib-type="author">
+                  <name>
+                    <surname>Månberg</surname>
+                    <given-names>Jenny</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                </contrib>
+                <contrib id="author-58861888" contrib-type="author">
+                  <name>
+                    <surname>Cajander</surname>
+                    <given-names>Åsa</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                </contrib>
+                <contrib id="author-72768632" contrib-type="author">
+                  <name>
+                    <surname>Enebrink</surname>
+                    <given-names>Pia</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff4">4</xref>
+                </contrib>
+                <contrib id="author-79408031" contrib-type="author">
+                  <name>
+                    <surname>Harila-Saari</surname>
+                    <given-names>Arja</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff5">5</xref>
+                </contrib>
+                <contrib id="author-79403395" contrib-type="author">
+                  <name>
+                    <surname>Hagström</surname>
+                    <given-names>Josefin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                </contrib>
+                <contrib id="author-79403054" contrib-type="author">
+                  <name>
+                    <surname>Karlsson</surname>
+                    <given-names>Mathilda</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                </contrib>
+                <contrib id="author-79408074" contrib-type="author">
+                  <name>
+                    <surname>Placid Solimena</surname>
+                    <given-names>Hanna</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">6</xref>
+                </contrib>
+                <contrib id="author-61823446" contrib-type="author">
+                  <name>
+                    <surname>von Essen</surname>
+                    <given-names>Louise</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><label>1</label><institution content-type="department">Clinical Psychology in Healthcare, Department of Women’s and Children’s Health</institution>, <institution>Uppsala University</institution>, <addr-line content-type="city">Uppsala</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff2"><label>2</label><institution content-type="department">Child and Adolescent Psychiatry</institution>, <institution>Region Vasternorrland</institution>, <addr-line content-type="city">Sundsvall</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff3"><label>3</label><institution content-type="department">Department of Information Technology</institution>, <institution>Uppsala University</institution>, <addr-line content-type="city">Uppsala</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff4"><label>4</label><institution content-type="department">Department of Clinical Neuroscience</institution>, <institution>Karolinska Institute</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff5"><label>5</label><institution content-type="department">Pediatric Oncology, Department of Women's and Children's Health</institution>, <institution>Uppsala University</institution>, <addr-line content-type="city">Uppsala</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff6"><label>6</label><institution content-type="department">International Maternal and Child Health Care, Department of Women's and Children's Health</institution>, <institution>Uppsala University</institution>, <addr-line content-type="city">Uppsala</addr-line>, <country>Sweden</country></aff>
+              <author-notes>
+                <corresp><label>Correspondence to</label> Dr Joanne Woodford; <email>joanne.woodford@kbh.uu.se</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>8</day>
+                <month>4</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>11</volume>
+              <issue>4</issue>
+              <elocation-id>e041350</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>05</day>
+                  <month>6</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>05</day>
+                  <month>3</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>14</day>
+                  <month>3</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© Author(s) (or their employer(s)) 2021. Re-use permitted under CC BY. Published by BMJ.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="pmc" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open access article distributed in accordance with the Creative Commons Attribution 4.0 Unported (CC BY 4.0) license, which permits others to copy, redistribute, remix, transform and build upon this work for any purpose, provided the original work is properly cited, a link to the licence is given, and indication of whether changes were made. See: <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:title="pdf" xlink:href="bmjopen-2020-041350.pdf"/>
+              <self-uri content-type="reviewers-comments-pdf" xlink:href="bmjopen-2020-041350.reviewer_comments.pdf"/>
+              <self-uri content-type="draft-revisions-pdf" xlink:href="bmjopen-2020-041350.draft_revisions.pdf"/>
+              <abstract>
+                <sec>
+                  <title>Introduction</title>
+                  <p>A subgroup of adolescent and young adult childhood cancer survivors (AYACCS) are at increased risk of psychological distress. Despite this, AYACCS experience difficulties accessing psychological support. E-mental health (e-MH) may offer a solution to reduce this treatment gap. However, research examining e-MH for AYACCS has experienced difficulties with recruitment, retention and adherence. Such difficulties may relate to: (1) help-seeking behaviour and/or (2) e-MH acceptability. The overall study aims are to: (1) examine potential associations between health service use factors, informed by Andersen’s behavioural model of health services use, and help-seeking behaviour; (2) examine attitudes towards e-MH interventions; and (3) explore perceived need for mental health support; past experience of receiving mental health support; preferences for support; and barriers and facilitators to help-seeking.</p>
+                </sec>
+                <sec>
+                  <title>Methods and analysis</title>
+                  <p>An online and paper-based cross-sectional self-report survey (98 items) and embedded qualitative interview study across Sweden, with a target sample size of n=365. Participants are aged 16–39 years, diagnosed with cancer when 0–18 years and have completed successful cancer treatment. The survey examines sociodemographic and clinical characteristics, actual help-seeking behaviour, attitudes towards e-MH, stigma of mental illness, mental health literacy, social support and current symptoms of depression, anxiety, and stress. Survey respondents with past and/or current experience of mental health difficulties are invited into the qualitative interview study to explore: (1) perceived need for mental health support; (2) past experience of receiving mental health support; (3) preferences for support; and (4) barriers and facilitators to help-seeking. Potential associations between health service use factors and help-seeking behaviour are examined using univariable and multivariable logistic regressions. Qualitative interviews are analysed using content analysis.</p>
+                </sec>
+                <sec>
+                  <title>Ethics and dissemination</title>
+                  <p>Ethical approval has been obtained from the Swedish Ethical Review Authority (Dnr: 2020-06271). Results will be disseminated in scientific publications and academic conference presentations.</p>
+                </sec>
+                <sec>
+                  <title>Trial registration number</title>
+                  <p><ext-link ext-link-type="uri" xlink:href="ISRCTN70570236">ISRCTN70570236</ext-link>.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>mental health</kwd>
+                <kwd>paediatric oncology</kwd>
+                <kwd>primary care</kwd>
+                <kwd>child &amp; adolescent psychiatry</kwd>
+                <kwd>qualitative research</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group id="funding-1">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Fredrik O Ingrid Thurings Stiftelse</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>2018-00437</award-id>
+                </award-group>
+                <award-group id="funding-2">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Swedish Research Council</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>2009–1093</award-id>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>special-feature</meta-name>
+                  <meta-value>unlocked</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <boxed-text id="BX1" position="float" orientation="portrait">
+              <caption>
+                <title>Strengths and limitations of this study</title>
+              </caption>
+              <list list-type="bullet">
+                <list-item>
+                  <p>The mixed methods design may aid a rich and insightful understanding of the investigated phenomena.</p>
+                </list-item>
+                <list-item>
+                  <p>Results may be used to inform the development of acceptable, relevant, and accessible mental health interventions for adolescent and young adult childhood cancer survivors.</p>
+                </list-item>
+                <list-item>
+                  <p>Reasons for not receiving a mental health intervention are not explored and only those who report receiving support in the past 6 months are defined as help-seeking.</p>
+                </list-item>
+                <list-item>
+                  <p>This approach may exclude adolescent and young adult childhood cancer survivors who have attempted to seek formal help (help-seeking) but did not receive help.</p>
+                </list-item>
+                <list-item>
+                  <p>No conclusions concerning cause and effect can be drawn given the cross-sectional design.</p>
+                </list-item>
+              </list>
+            </boxed-text>
+            <sec sec-type="intro" id="s1">
+              <title>Introduction</title>
+              <p>Medical improvements have resulted in an overall 5-year survival rate of 81.2% from cancer diagnosed during childhood (0–18 years) in Northern Europe.<xref rid="R1" ref-type="bibr">1</xref> However, significant challenges, such as late effects, remain after treatment completion.<xref rid="R2" ref-type="bibr">2 3</xref> Survivors of childhood cancer report a number of long-term adverse physical and developmental outcomes<xref rid="R4" ref-type="bibr">4–6</xref> and social and economic impacts, including poorer educational and occupational achievements.<xref rid="R7" ref-type="bibr">7 8</xref> A further common late effect is symptoms of psychological distress, for example, post-traumatic stress, anxiety and depression, symptoms of which have been found to persist decades postdiagnosis.<xref rid="R9" ref-type="bibr">9–11</xref> Difficulties with psychological distress are further complicated given that adolescence is a period of increased vulnerability to mental health problems,<xref rid="R12" ref-type="bibr">12</xref> with difficulties such as depression and anxiety commonly first appearing before 24 years of age.<xref rid="R13" ref-type="bibr">13</xref> Indeed, individuals diagnosed with cancer during childhood, adolescence and young adulthood have been found to be at an increased likelihood of being prescribed hypnotics and anxiolytics<xref rid="R14" ref-type="bibr">14 15</xref> of using antidepressant medication over the long-term,<xref rid="R16" ref-type="bibr">16</xref> and are at an elevated risk of suicide.<xref rid="R17" ref-type="bibr">17</xref> As such, adolescent and young adult childhood cancer survivors (AYACCS), commonly defined as cancer survivors diagnosed during childhood currently aged between 15 and 39 years,<xref rid="R18" ref-type="bibr">18</xref> are particularly vulnerable to experiencing adverse psychological and social outcomes, and there is a significant need for long-term care and support.<xref rid="R5" ref-type="bibr">5</xref> However, despite a clear need for the provision of mental health support, a mental health treatment gap remains, with few AYACCS being offered professional psychological support.<xref rid="R19" ref-type="bibr">19–22</xref> Reasons for this treatment gap may pertain to a lack of qualified healthcare professionals, poor service provision, geographical barriers<xref rid="R23" ref-type="bibr">23</xref> and public stigma (eg, the general public holding negative beliefs about cancer survivors, eg, being less competent).<xref rid="R24" ref-type="bibr">24</xref></p>
+              <p>E-mental health (e-MH), defined as the provision of psychological support via information technology and new media (eg, online, smartphone applications, video conferencing),<xref rid="R25" ref-type="bibr">25</xref> may represent a solution to reduce the mental health treatment gap.<xref rid="R26" ref-type="bibr">26</xref> One example of e-MH is internet-administered cognitive behavioural therapy (ICBT). ICBT has been found to be effective for a range of common mental health difficulties, such as depression and anxiety,<xref rid="R27" ref-type="bibr">27</xref> including for young adult populations<xref rid="R28" ref-type="bibr">28</xref> and has been found to be as effective as traditional face-to-face CBT.<xref rid="R29" ref-type="bibr">29</xref> e-MH interventions may help overcome practical barriers associated with accessing traditional face-to-face psychological support (eg, geographical, financial and time-related barriers)<xref rid="R30" ref-type="bibr">30</xref> that have been observed within the AYACCS population.<xref rid="R31" ref-type="bibr">31</xref> Furthermore, e-MH is associated with anonymity and privacy<xref rid="R32" ref-type="bibr">32</xref> thus potentially overcoming barriers associated with public stigma. Indeed, research has identified that the provision of e-MH interventions may be a potential solution for the AYACCS population.<xref rid="R33" ref-type="bibr">33–38</xref> However, research examining e-MH support for an AYACCS population has encountered challenges with recruitment, attrition, and internet use.<xref rid="R34" ref-type="bibr">34 38</xref> For example, one study examining the feasibility and acceptability of e-MH recruited only 28 participants over a 12-month period and experienced almost 30% attrition.<xref rid="R38" ref-type="bibr">38</xref> Another feasibility study of e-MH for adolescents and young adults who had experienced cancer during the adolescent period recruited only 6 participants from a total of 320 potential participants invited into the study, and experienced a 100% attrition rate.<xref rid="R34" ref-type="bibr">34</xref> Indeed, a recent review of e-Health interventions for AYACCS concluded that engaging the population was challenging, and there is currently a lack of literature concerning how to better engage the population.<xref rid="R36" ref-type="bibr">36</xref> However, challenges with recruitment, attrition and internet use are common in the field of e-MH research.<xref rid="R39" ref-type="bibr">39–41</xref> Potentially, challenges with recruitment, attrition and internet use may be related to help-seeking behaviour and the acceptability of e-MH for the population.</p>
+              <sec id="s1-1">
+                <title>Help-seeking behaviour</title>
+                <p>Low rates of formal help-seeking behaviour for mental health difficulties is common among an adolescent and young adult population in general.<xref rid="R42" ref-type="bibr">42</xref> A number of potential barriers to help-seeking have been identified, including stigma, embarrassment, and poor mental health literacy (MHL).<xref rid="R43" ref-type="bibr">43 44</xref> AYACCS report difficulties with stigma and alienation in relation to the cancer disease<xref rid="R45" ref-type="bibr">45</xref> and as such may be reluctant to identify themselves as experiencing mental health difficulties. Furthermore, while social support has been found to facilitate help-seeking behaviour for mental health difficulties in adolescent and young adult populations,<xref rid="R43" ref-type="bibr">43</xref> AYACCS commonly report difficulties with social withdrawal and loneliness.<xref rid="R46" ref-type="bibr">46 47</xref> However, at present there is a lack of research concerning help-seeking behaviour for mental health difficulties experienced by an AYACCS population.</p>
+                <p>A frequently used approach for identifying factors associated with help-seeking is Andersen’s behavioural model of health services use behaviour.<xref rid="R48" ref-type="bibr">48</xref> The model hypothesises a number of factors to be associated with help-seeking behaviour: (1) predisposing factors including sociodemographic variables (eg, age and gender), and health-related beliefs and knowledge<xref rid="R49" ref-type="bibr">49</xref>; (2) enabling factors relating to logistical elements to receiving care and resources (eg, financial factors and social support)<xref rid="R50" ref-type="bibr">50</xref>; (3) external environmental factors (eg, location); and (4) need-related factors (eg, symptoms of psychological distress). Recently, the model has been adopted to examine factors associated with accessing both traditional and e-MH services within a young adult (aged 18–39 years) population.<xref rid="R32" ref-type="bibr">32</xref> Interestingly, the study identified a weaker utilisation of e-MH by young people who had experienced negative childhood experiences during childhood (eg, family conflict, bullying or lack of affection).<xref rid="R32" ref-type="bibr">32</xref> This finding is of particular importance seeing that negative experiences of childhood are normally associated with increased mental healthcare utilisation.<xref rid="R51" ref-type="bibr">51</xref> Furthermore, given evidence to suggest some AYACCS may experience bullying related to their cancer experience<xref rid="R52" ref-type="bibr">52</xref> and poor family functioning for example conflict,<xref rid="R53" ref-type="bibr">53</xref> it may be important to examine whether negative childhood experiences are associated with reduced mental healthcare utilisation in an AYACCS population. Furthermore, to the best of our knowledge, Andersen’s behavioural model of health services use has not yet been applied to an AYACCS population and factors associated with help-seeking in the population remain unclear.</p>
+              </sec>
+              <sec id="s1-2">
+                <title>Acceptability</title>
+                <p>While adolescents appear to consider e-MH interventions to be potentially acceptable, they still report a preference for face-to-face over e-MH interventions.<xref rid="R54" ref-type="bibr">54</xref> Indeed, there is some indication e-MH resources are not widely accessed by young people.<xref rid="R55" ref-type="bibr">55</xref> One potential difficulty may be related to what has been coined the ‘<italic>technology push’</italic>, whereby e-MH solutions are designed to fit available technology, rather than to meet the unmet needs and preferences of end-users.<xref rid="R56" ref-type="bibr">56</xref> Furthermore, research indicates poor uptake and ongoing use of e-MH interventions that have been implemented into healthcare settings within the general population.<xref rid="R57" ref-type="bibr">57</xref> As such, there is a need to understand preferences and attitudes towards e-MH interventions within specific populations, via both quantitative and qualitative research, to inform future e-MH developments.<xref rid="R58" ref-type="bibr">58</xref> To the best of our knowledge, there has been no exploration to date of the attitudes and preferences towards e-MH interventions within an AYACCS population. In addition, tailoring e-MH interventions to specific patient groups has been associated with increased effectiveness<xref rid="R59" ref-type="bibr">59</xref> and adherence.<xref rid="R60" ref-type="bibr">60</xref> Rates of attrition may be reduced, and adherence increased, if the perspective of the population using the intervention is taken into account when developing e-MH interventions.<xref rid="R61" ref-type="bibr">61</xref> Furthermore, research into the psychological needs of an AYACCS population indicates a need for increased focus on the specific psychological and psychosocial needs of the population to enable to provision of more tailored support to the cancer experience.<xref rid="R62" ref-type="bibr">62</xref> As such, there is need to explore AYACCS general preferences for psychological support, including potential intervention content.</p>
+              </sec>
+              <sec id="s1-3">
+                <title>Study aims and research questions</title>
+                <p>The overall aims of the study are to: (1) examine potential associations between health service use factors, informed by Andersen’s behavioural model of health services use, and help-seeking behaviour; (2) examine attitudes towards e-MH interventions; and (3) explore perceived need and past experiences of mental health support, preferences for support, and barriers and facilitators to help-seeking. Specifically, the following research questions will be examined:</p>
+                <list list-type="order">
+                  <list-item>
+                    <p>Are there associations between predisposing, enabling, environmental, and needs-related health service use factors, informed by Andersen’s behavioural model of health, and help-seeking behaviour within an AYACCS population?</p>
+                  </list-item>
+                  <list-item>
+                    <p>What attitudes are held by an AYACCS population towards e-MH interventions?</p>
+                  </list-item>
+                  <list-item>
+                    <p>What is the perceived need for mental health support within an AYACCS population?</p>
+                  </list-item>
+                  <list-item>
+                    <p>What are AYACCS experiences of past receipt of cancer-specific and non-cancer-specific mental health support?</p>
+                  </list-item>
+                  <list-item>
+                    <p>What preferences do an AYACCS population hold towards mental health support related to their cancer experience?</p>
+                  </list-item>
+                  <list-item>
+                    <p>What are the barriers and facilitators do an AYACCS population experience seeking help for mental health support related to their cancer experience?</p>
+                  </list-item>
+                </list>
+              </sec>
+            </sec>
+            <sec id="s2">
+              <title>Method and analysis</title>
+              <sec id="s2-1">
+                <title>Study design</title>
+                <p>An online and paper-based, cross-sectional, self-report survey and embedded qualitative interview study across Sweden. The study has been registered in the ISRCTN clinical trial registry (ISRCTN70570236).</p>
+              </sec>
+              <sec id="s2-2">
+                <title>Eligibility criteria</title>
+                <p>Eligible participants will: (1) be an adolescent or young adult, aged 16–39 years, at study start; (2) have been diagnosed with childhood cancer when 0–18 years; (3) have completed successful cancer treatment (including relapses) at a minimum 3 months ago according to self-report; (4) be able to read and write in Swedish; and (5) currently reside in Sweden.</p>
+              </sec>
+              <sec id="s2-3">
+                <title>Recruitment</title>
+                <p>A multifaceted approach to recruitment will be adopted, using two main strategies.</p>
+                <sec id="s2-3-1">
+                  <title>Swedish Childhood Cancer Registry</title>
+                  <p>Personal identification numbers of AYACCS will be obtained from the Swedish Childhood Cancer Registry (National Quality Registry, initiated in 1982). Next, addresses will be obtained via NAVET, a population registry held by the Swedish Tax Agency. NAVET is continuously updated with important information about the Swedish population, including deaths and can, as such, provide current addresses and information concerning the vital status of AYACCS. The Swedish Tax Agency will provide this information via a secure online file transfer system (e-transport) on the same day information is requested by the study team. Study invitation letters will be sent to AYACCS on the same day that information is provided via e-transport in order to minimise the likelihood of inviting a deceased AYACCS. AYACCS will be invited to participate by the study team on a weekly basis, using blocks of 100 until the target sample size has been reached. Blocks will be selected randomly, with minimisation used to ensure balance between factors that may affect outcomes: sex (male; female); current age (16–24 years; 25–39 years); and age at diagnosis (0–12 years; 13–18 years).</p>
+                  <p>Study invitation packs sent to home addresses will include a study invitation letter, study information, a link to the online survey via the U-CARE portal (<ext-link ext-link-type="uri" xlink:href="www.u-care.se">www.u-care.se</ext-link>), a secure internet research platform to support data collection and provision of e-MH interventions,<xref rid="R63" ref-type="bibr">63</xref> and a study log-in code. All potential participants identified via the Swedish Childhood Cancer Registry and invited via mail-out will be provided with a link to the online survey on the U-CARE portal and a study log-in code. In addition, given evidence to suggest the provision of choice between web-based and paper-based surveys can increase survey response rates among childhood cancer survivors,<xref rid="R64" ref-type="bibr">64</xref> we will include a paper-based survey and freepost envelope with each invitation letter.</p>
+                </sec>
+                <sec id="s2-3-2">
+                  <title>Technology-based approaches</title>
+                  <p>Considering that response rates to mail-out surveys have declined over the past two decades,<xref rid="R65" ref-type="bibr">65</xref> we will also use technology-based recruitment approaches shown to be effective.<xref rid="R66" ref-type="bibr">66</xref> Indeed, social media recruitment is successful in recruiting young adult cancer survivor (aged 20–35 years) populations.<xref rid="R67" ref-type="bibr">67</xref> Specifically, we will identify community-based organisations and support groups with an online presence for AYACCS in Sweden. Examples may include: the Swedish Cancer Foundation and Childhood Cancer Foundation and Young Cancer. Organisations and support groups will be asked to place advertisements on their websites; distribute advertisements via e-mail lists and e-newsletters; and post advertisements on social networking sites (eg, Facebook, Twitter, and Instagram).</p>
+                  <p>Each online advertisement will include brief study information, a link to the online survey on the U-CARE-portal, and a study log-in code unique to each organisation and technologically based recruitment type to allow for the examination of success of each technology-based recruitment strategy. Organisations and support groups using social media will be encouraged to re-post the advertisement at regular intervals following evidence suggesting that re-posting is required to meet recruitment targets.<xref rid="R68" ref-type="bibr">68</xref></p>
+                </sec>
+                <sec id="s2-3-3">
+                  <title>Sample size estimation</title>
+                  <p>The Swedish Childhood Cancer Registry has some 9880 Swedish persons diagnosed when 0–18 years registered since 1982. However, some will have been classified as having a benign tumour, some have been registered twice and some will be deceased. As such, the number of potentially eligible cases will be lower and estimated to be approximately 5745. Sample size calculation indicated that a minimum of 365 participants would be required, with a power of 0.9 and p&lt;0.05 (two-tailed). Assuming a response rate of approximately 40%, as indicated by a systematic review of participation rates in self-administered questionnaire studies with childhood cancer survivors,<xref rid="R69" ref-type="bibr">69</xref> we estimate inviting 913 potential participants to achieve the required sample size.</p>
+                </sec>
+              </sec>
+              <sec id="s2-4">
+                <title>Procedure</title>
+                <sec id="s2-4-1">
+                  <title>Online survey</title>
+                  <p>Potential participants accessing the survey via the U-CARE-portal will be presented with study information in both text and video format. Participants will not be offered any financial reimbursements for taking part in the survey. Those interested will be able to log into the U-CARE portal using a study log-in code and will need to identify themselves via mobile telephone and/or Bank ID (a citizen authentication system). Potential participants will then be able to provide informed consent online and will be presented with brief screening questions asking for: (1) date of birth; (2) age when diagnosed with cancer; (3) date of last cancer treatment completed; (4) able to read and write in Swedish (yes/no); and (5) whether currently residing in Sweden (yes/no). Eligible participants will be provided access to the online survey (see ‘Survey items’ section). The online survey will be open for a period of 6 weeks. Each item completed in the survey is auto-saved and participants are able to select ‘save and continue later’ if they wish to return to the survey before submitting. On completion of the survey, a purposive sample of participants with past and/or present experience of mental health difficulties will be invited to take part in an interview (see ‘Embedded qualitative interview study’ section for further details). These participants will be provided with study information and online consent form, as well as asked to provide contact details.</p>
+                </sec>
+                <sec id="s2-4-2">
+                  <title>Paper-based survey</title>
+                  <p>Potential participants receiving study invitation via mail-out will be able to complete a paper-based survey. The survey includes a written consent form and brief screening questions as the online survey. Participants can return the paper-based survey to the study team using the freepost envelope provided in the study invitation pack. In addition, participants will be asked to provide consent if they agree to be contacted about participation in an interview study.</p>
+                </sec>
+                <sec id="s2-4-3">
+                  <title>Reminders</title>
+                  <p>Reminder study invitation packs will be resent at 2 and 6 weeks after sending the initial study invitation to AYACCS who do respond to the study invitation. It will be clearly stated in the study information sheet that reminder letters will be sent to non-responders. In addition, participants who consent to complete the online survey will receive reminders via SMS and email to complete the survey at 4 weeks, 2 weeks and 2 days prior to the survey closing.</p>
+                </sec>
+              </sec>
+              <sec id="s2-5">
+                <title>Survey items</title>
+                <p>An online and paper-based survey, consisting of 98 items in Swedish. The survey comprises eight subsections: (1) sociodemographic characteristics (11 items); (2) clinical cancer-related characteristics (3 items); (3) actual help-seeking behaviour (2 items); (4) attitudes towards internet-administered interventions (17 items); (5) stigma of mental illness (5 items); (6) MHL (26 items); (7) social support (12 items); and (8) current symptoms of depression, anxiety and stress (21 items). One open question at the end of the survey offers and opportunity to provide any further information concerning emotional distress and preferences for support after childhood cancer. Potential predisposing, enabling, environmental, and need-related factors examined with the survey are summarised in <xref rid="T1" ref-type="table">table 1</xref>.</p>
+                <table-wrap id="T1" orientation="portrait" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Factors to be examined as per Andersen’s behavioural model of health services use</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">Andersen’s behavioural model of health services use</td>
+                        <td align="left" valign="bottom" rowspan="1" colspan="1">Factors*</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Predisposing</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Sex (male/female/other)<break/>Age (16–24/25–39)<break/>Time since first cancer treatment (years)<break/>Place of birth (born in Sweden/born outside of Sweden)<break/>Childhood negative events (yes/no)<break/>Level of education (≤upper secondary school/&gt;upper secondary school)<break/>Public stigma (Stigma Scale for Receiving Psychological Help)<break/>Mental health literacy</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Enabling</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Type of cancer (leukaemia/central nervous system tumour/solid tumour/lymphoma/other)<break/>Relationship status<break/>Employment status (yes/no/studying)<break/>Social support (12-item Interpersonal Support Evaluation List)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Need-related</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Symptoms of depression (DASS-21 depression subscale)<break/>Symptoms of anxiety (DASS-21 anxiety subscale)<break/>Symptoms of stress (DASS-21 stress subscale)<break/>Self-reported experience of mental health difficulties in past 6 months (yes/no)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Environmental</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Region of Sweden (south/mid/north)<break/>Rural or urban area</td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Actual help-seeking behaviour (dependent variable)</td>
+                        <td align="left" valign="top" rowspan="1" colspan="1">Receipt of mental health support in the past 6 months<break/>Type of mental health support received in the past 6 months (formal/technology/informal)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="T1_FN1">
+                      <p>*Outcomes selected informed by previous research.<xref rid="R32" ref-type="bibr">32 42 50 70</xref></p>
+                    </fn>
+                    <fn id="T1_FN2">
+                      <p>DASS-21, Depression Anxiety and Stress Scale.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <sec id="s2-5-1">
+                  <title>Sociodemographic characteristics</title>
+                  <p>Data on the following background and sociodemographic characteristics will be collected: (1) sex; (2) relationship status; (3) having children or not; (4) Swedish county of residence; (5) living in urban or rural area; (6) level of education; (7) employment status; (8) place of birth; (9) mother’s place of birth; (10) father’s place of birth; and (11) childhood negative events (bullying, family conflict, lack of affection).</p>
+                </sec>
+                <sec id="s2-5-2">
+                  <title>Clinical cancer-related characteristics</title>
+                  <p>The following clinical characteristics related to cancer will be collected: (1) type of cancer (leukaemia, central nervous system tumour, solid tumour, lymphoma or other malignancy); (2) number of relapses (0, 1 or &gt;1); and (3) current late effects of cancer (multiple choice listed).</p>
+                </sec>
+                <sec id="s2-5-3">
+                  <title>Actual help-seeking behaviour</title>
+                  <p>The following items will be used to examine actual help-seeking behaviour: (1) emotional health difficulties related to the childhood cancer experience; (2) the type of support received by those who accessed support in the past 6 months and/or in the past (not including the past 6 months): (a) face-to-face individual or group support from mental health professional; (b) face-to-face support from a general practitioner/family doctor; (c) technology-administered mental health support (eg, online therapy programme, smartphone application, video conferencing or teleconferencing); (d) technology-administered support from a general practitioner/family doctor (eg, online, video conferencing or teleconferencing); (e) social media support group; (f) phone help-line; (g) family, partner or friend/s; (h) religious leader; and (i) other. Type of support will be categorised into: (1) face-to-face professional support; (2) technology-administered professional support; and (3) informal support (social media support group, family, partner, friends and religious leader). Those who sought support for mental health difficulties in the past 6 months and received support from a health professional either face-to-face or technology assisted will be defined as ‘help-seeking’.<xref rid="R70" ref-type="bibr">70</xref></p>
+                </sec>
+                <sec id="s2-5-4">
+                  <title>Attitudes towards internet-administered interventions</title>
+                  <p>The 17-item e-Therapy Attitudes Measure (ETAM)<xref rid="R71" ref-type="bibr">71 72</xref> will be adopted to measure attitudes towards internet-administered interventions, however, for the purpose of the present study one item concerning health insurance companies was excluded due to not being relevant in the Swedish context. The questionnaire begins with definitions of three types of internet-administered interventions: (1) unguided internet-administered self-help programmes; (2) therapist-guided internet-administered self-help programmes; and (3) psychological therapy delivered via video conferencing. Subsequently, respondents are required to state which type of internet-administered intervention they would prefer, or state if they would not use internet-administered treatment at all. Subsequently, the ETAM is presented and explores attitudes towards internet-administered interventions. Specifically, respondents are instructed to state whether they agree with each statement on a 5-point rating scale ranging from 0 (‘strongly disagree’) to 4 (‘strongly agree’) and are asked to rate items considering therapist-guided internet-administered self-help programmes. The ETAM has been demonstrated to have good internal-consistency reliability (α=0.89).<xref rid="R72" ref-type="bibr">72</xref></p>
+                </sec>
+                <sec id="s2-5-5">
+                  <title>Symptoms of depression, anxiety and stress</title>
+                  <p>The Swedish version<xref rid="R73" ref-type="bibr">73</xref> of the (7-item depression, 7-item anxiety and 7-item stress subscales) Depression Anxiety and Stress Scale (DASS-21)<xref rid="R74" ref-type="bibr">74 75</xref> will be adopted to examine symptoms of depression, anxiety and stress. The DASS-21 has adequate psychometric properties<xref rid="R76" ref-type="bibr">76</xref> and satisfactory test–retest reliability,<xref rid="R77" ref-type="bibr">77</xref> with support for the factor structure and convergent validity of the Swedish version.<xref rid="R73" ref-type="bibr">73</xref></p>
+                </sec>
+                <sec id="s2-5-6">
+                  <title>Stigma of mental illness</title>
+                  <p>The 5-item Stigma Scale for Receiving Psychological Help (SSRPH)<xref rid="R78" ref-type="bibr">78</xref> will be adopted to measure public stigma, that is, negative perceptions concerning the receipt of mental health services. The measure has demonstrated to be reliable and valid in studies with young adults<xref rid="R79" ref-type="bibr">79</xref> and adolescents.<xref rid="R80" ref-type="bibr">80</xref> Respondents rate degrees of agreement using a 4-point Likert scale ranging from 0 (‘strongly disagree’) to 3 (‘strongly agree’), with a higher score representing a higher level of stigma.</p>
+                </sec>
+                <sec id="s2-5-7">
+                  <title>Social support</title>
+                  <p>The 12-item Interpersonal Support Evaluation List (ISEL-12)<xref rid="R81" ref-type="bibr">81</xref> will be adopted to examine perceptions of social support. Responses are provided on a 4-point Likert scale, ranging from 1 (‘definitely false’) to 4 (‘definitely true’).</p>
+                </sec>
+                <sec id="s2-5-8">
+                  <title>Mental health literacy</title>
+                  <p>A 26-item multicomponent MHL measure, demonstrated to have good internal consistency (of 0.83 of the KR-20 coefficient=0.83),<xref rid="R82" ref-type="bibr">82</xref> will be adopted to assess knowledge-oriented, beliefs-oriented and resource-oriented MHL. The first 22 items examining knowledge-orientated and beliefs-orientated MHL are answered on a 5-point Likert scale ranging from 0 (‘strongly disagree’) to 4 (‘strongly agree’) and the option of “I don’t know”. The response format for the final four items, examining resource-orientated MHL, is ‘yes’ or ‘no’.</p>
+                </sec>
+              </sec>
+              <sec id="s2-6">
+                <title>Translation of English language outcome measurements into Swedish</title>
+                <p>Currently, there are no Swedish versions of the following outcome measurements: (1) ETAM, (3) SSRPH, (4) ISEL, and (5) MLH. The following steps will be taken to translate: (1) one clinical psychologist, native Swedish speaker with advanced knowledge of English, will translate each outcome measurement to Swedish and (2) translations will be reviewed, discussed and revised with a research assistant in our study team who is a native Swedish speaker with advanced knowledge of English. Professional back translation to English and discussion with the original author is out of scope for the present study due to time and resource limitations. However, permission to translate outcome measurements to Swedish will be sought.</p>
+              </sec>
+              <sec id="s2-7">
+                <title>Embedded qualitative interview study</title>
+                <p>An embedded qualitative interview study will be conducted to explore: (1) perceived need for mental health support; (2) past experience of receiving mental health support; (3) preferences for support; and (4) barriers and facilitators to help-seeking. As this study will be examining mental health help-seeking, only respondents meeting the following criteria will be invited into the study: (1) self-reported current and/or past experience of mental health difficulties during life time (yes) and/or (2) DASS-21 depression score ≥5 and/or (3) DASS-21 anxiety score ≥4 and/or DASS-21 stress score ≥8. Respondents will be provided with full study information and an online consent form. Respondents meeting these criteria will be invited consecutively until thematic data saturation is met.<xref rid="R83" ref-type="bibr">83 84</xref> As the decision concerning whether data saturation has been met is made during the analytic process, it is difficult to determine the number of interviews a priori; however, we may anticipate interviewing approximately 20–30 participants.<xref rid="R85" ref-type="bibr">85</xref> As we are interested in both barriers and facilitators to seeking help, we will endeavour to interview participants classified as help-seekers and non-help-seekers. For participants who send the consent form and reply slip via the post, those meeting the inclusion criteria will be contacted by the study team to provide full study information and obtain informed consent. Interviews will be conducted either via the telephone or a secure video conferencing system on the U-CARE portal. Interviews will be audio recorded with informed consent and transcribed with personal information removed. Participants will be informed about the recording and give approval when giving consent to the interview. An interview guide will be developed, consisting of open-ended questions, structured around the third research objective covering the following topics: (1) perceived need for mental health support; (2) past experience of receiving mental health support (formal/informal, cancer-specific/non-cancer-specific); (3) preferences for support (eg, type of support, emotional difficulties to be target and intervention content areas); and (4) barriers and facilitators to help-seeking behaviour (eg, perceived attitudes of peers, knowledge/information, economic resources, geographical location, stigma). The interview guide will be partially informed by emerging survey results and findings from studies examining help-seeking behaviour in young adults.<xref rid="R32" ref-type="bibr">32 42 50 70</xref> Interviews are estimated to last 45–90 min.</p>
+              </sec>
+              <sec id="s2-8">
+                <title>Data analysis</title>
+                <sec id="s2-8-1">
+                  <title>Statistical analysis</title>
+                  <p>All statistical analyses will be conducted using SPSS V.26.0 software (IBM SPSS Statistics for Windows, 2019, Armonk, New York, USA). Sociodemographic and clinical characteristics will be presented with descriptive statistics. The potential association between predicting factors as informed by Andersen’s behavioural model of health services use (predisposing, enabling, environmental, and need-related factors) and the dependent variable help-seeking behaviour, for example, receipt of mental health support in the past 6 months will be examined using univariable and multivariable logistic regressions.<xref rid="R70" ref-type="bibr">70</xref> The non-help-seeking group will used as the reference group.<xref rid="R70" ref-type="bibr">70</xref> First, univariable analyses will be conducted for each predictor separately. Variance inflation factor will be used to examine multicollinearity prior to the regression analysis. A multivariable logistic regression will be performed using stepwise manual backward selection procedure. All predictor variables will initially be included, and non-significant predictors will be eliminated with only variables significantly related to the dependent variable (p&lt;0.05) retained. For both the univariable and multivariable logistic regressions, ORs will be presented, alongside 95% CIs, and p values. Given the heterogeneous nature of the study population, subgroup analysis will be performed by stratifying the population by age and sex. The same method of modelling will be used for the subgroup analyses for age (15–19 years vs 20–29 years vs 30–39 years) and sex (male vs female). The subgroup analysis will be exploratory and with results used to inform subsequent studies.</p>
+                </sec>
+                <sec id="s2-8-2">
+                  <title>Qualitative analysis</title>
+                  <p>Audio recordings will be transcribed verbatim. NVivo V.12 software (NVivo qualitative data analysis software, 2018; QSR International) will be used to assist data analysis. An inductive content analysis approach<xref rid="R86" ref-type="bibr">86</xref> will be adopted to analyse transcriptions. Only manifest content will be analysed and the following steps will be undertaken: (1) each interview transcript will be read multiple times; (2) meaning units will be identified; (3) meaning units will be labelled using descriptive codes; and (4) codes will be sorted into themes and subthemes.<xref rid="R86" ref-type="bibr">86</xref> To ensure trustworthiness,<xref rid="R87" ref-type="bibr">87</xref> the following strategies will be adopted: (1) two members of the research team, one researcher with experience of qualitative research and one research assistant trained in qualitative research will analyse each interview separately with any discrepancies in analysis discussed; (2) discussion of emerging themes with the wider study team; (3) audit trails; (4) triangulation; and (5) disconfirming case analysis.<xref rid="R88" ref-type="bibr">88</xref> Furthermore, extracts of data supporting each theme and subtheme will be presented to further improve the transparency of the analysis.<xref rid="R89" ref-type="bibr">89</xref></p>
+                </sec>
+              </sec>
+              <sec id="s2-9">
+                <title>Patient and public involvement</title>
+                <p>The protocol was developed without patient and public involvement (PPI). However, we will seek to involve AYACCS in pilot-testing the survey and in data interpretation of the content analysis of the embedded semi-structured interviews. Specifically, a consultation approach to PPI will be adopted<xref rid="R90" ref-type="bibr">90</xref> in pilot-testing the survey and a panel of AYACCS research partners will be asked to complete the survey (online and paper based) and comment on the feasibility, acceptability, and relevancy of the survey. Furthermore, results of the content analysis will be presented to the panel to explore whether themes identified by the research team reflect their own experiences. The perspective of the AYACCS research partners will be incorporated into the interpretation of results and their involvement will be reported in accordance with Guidance for Reporting Involvement of Patients and the Public-short form.<xref rid="R91" ref-type="bibr">91</xref></p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="s3">
+              <title>Discussion</title>
+              <p>To the best of our knowledge, this study will be the first study to examine mental health help-seeking behaviour and attitudes towards e-MH support in an AYACCS population. Results will provide an understanding of: (1) potential associations between predisposing, enabling, environmental, needs-related health service use factors, and help-seeking behaviour; (2) attitudes towards e-MH; and (3) perceived need and preferences for mental health support, alongside barriers and facilitators to help seeking in the population. Our study design allows us to collect both qualitative and quantitative data and therefore will provide a more in-depth and rich understanding of mental health help-seeking behaviour and attitudes towards e-MH support in an AYACCS population. The identification of factors both positively and negatively associated with help-seeking behaviour may help identify potential targets to improve help-seeking behaviour in the future. For example, interventions could be developed to target and overcome factors found to be negatively associated with help-seeking<xref rid="R92" ref-type="bibr">92</xref> and subsequently enhance help-seeking behaviours in an AYACCS population in the future. Furthermore, increasing our understanding of attitudes towards e-MH support and preferences regarding the provision of mental health support in the population may inform the development of more acceptable and relevant interventions for this underserved population. In addition, examining preferences for support will enable the development of future psychological interventions that are specifically tailored to and target the needs on an AYACCS population seeking support in relation to their experience of cancer.</p>
+              <p>Despite the strengths of this study, the design presents some limitations. First, only those AYACCS who report receiving mental health support in the past 6 months are defined as help-seeking. However, this approach may lead to the exclusion of AYACCS who have attempted to seek formal help but not accessed. Second, the cross-sectional design does not allow us to draw any conclusions regarding cause and effect. Third, the study does not offer any compensation to participants. Research suggests compensation can facilitate the recruitment of minority populations and those from lower socioeconomic backgrounds.<xref rid="R93" ref-type="bibr">93</xref> Subsequently, this may limit the representativeness of the sample and generalisability of results, especially to marginalised young adults who may already be at an elevated risk of not seeking mental health support.<xref rid="R94" ref-type="bibr">94</xref> Forth, the current study includes a broad age range (16–39 years) and it may be expected that adolescents will have differing needs and preferences to young adults in their 20s or 30s. Indeed, a common limitation of research in the area is the inclusion of heterogeneous samples across different age groups.<xref rid="R95" ref-type="bibr">95</xref> However, the study is designed to be a first step towards developing more acceptable and relevant interventions for the population and may inform future research with specific AYACCS subgroups, taking into account a number of sociodemographic and clinical factors (eg, gender, current age, age at diagnosis, and cancer type). Fifth, the length of the survey may lead to respondent fatigue (eg, lower levels of attention and motivation in later sections of the questionnaire), potentially resulting in poorer quality data or missing data. Finally, we will not evaluate response bias via comparisons of respondents versus non-responders for mailed surveys.</p>
+              <p>In conclusion, results of the study may have the potential to improve access to tailored, relevant, and acceptable mental health support for this currently underserved population.</p>
+            </sec>
+            <sec id="s4">
+              <title>Ethics and dissemination</title>
+              <p>The study is approved by the Swedish Ethical Review Authority (Dnr: 2020-06271). The rights and welfare of participants will be ensured by all research being conducted in accordance with the Helsinki Declaration. Informed consent will be collected, ensuring participants are aware of requirements for study participation. Participants will be free to withdraw from the study at any time, without providing reason. Contact details for the principal investigator (coauthor LvE), the U-CARE Health and Safety Officer and Uppsala University Data Protection Officer will be provided to all participants should there be any cause for concern regarding the conduct of the study.</p>
+              <p>All data will be handled according to the Patient Data Act (2008:355) and General Data Protection Regulation (EU 2016/679). Data collected via the online survey via the U-CARE portal will be securely stored on Uppsala University servers. Data collected via the paper-based survey will be entered into an Access Database, stored on Uppsala University servers. Paper questionnaires will be stored in locked secure filing cabinets, only accessible by authorised members of the study team. Participant contact details for the interview study will be stored separately on a USB stick in a locked secure filing cabinet, separate from study data. Interviews will be audio recorded, with audio files uploaded onto and stored on Uppsala University secure server, using participant identifier numbers and immediately deleted from devices. Interview transcripts will omit any personally identifiable data and will be stored on a secure server.</p>
+              <p>Survey results will be reported in line with the Checklist for Reporting Results of Internet e-Surveys<xref rid="R96" ref-type="bibr">96</xref> and results of the embedded qualitative interview study will be reported in accordance with the Standards for Reporting Qualitative Research.<xref rid="R97" ref-type="bibr">97</xref> Results will be published in scientific publications in peer reviewed journals and conference presentations. Lay language summaries will also be provided to all community-based organisations and support groups who support recruitment into the study.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <supplementary-material content-type="local-data" id="d39e260">
+                <caption>
+                  <title>Reviewer comments</title>
+                </caption>
+                <media mimetype="application" mime-subtype="pdf" xlink:href="bmjopen-2020-041350.reviewer_comments.pdf"/>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="d39e261">
+                <caption>
+                  <title>Author's manuscript</title>
+                </caption>
+                <media mimetype="application" mime-subtype="pdf" xlink:href="bmjopen-2020-041350.draft_revisions.pdf"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn fn-type="other">
+                <p><bold>Contributors:</bold> JW: conceptualisation, methodology, writing—original draft, supervision, project administration, funding acquisition; JM: methodology, resources, writing—original draft, project administration; ÅC: writing—review and editing; PE: writing—review and editing; AH-S: writing—review and editing; JH: resources, writing—review and editing, project administration; MK: methodology, resources, writing—review and editing, project administration; HPS: resources, writing—review and editing, project administration; LvE: conceptualisation, methodology, writing—review and editing, supervision, funding acquisition.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Funding:</bold> This work is supported by U-CARE, which is a Strategic Research environment funded by the Swedish Research Council (Dnr 2009-1093) and Fredrik O Ingrid Thurings Stiftelse (grant number 2018-00437).</p>
+              </fn>
+              <fn fn-type="COI-statement">
+                <p><bold>Competing interests:</bold> None declared.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Patient and public involvement:</bold> Patients and/or the public were not involved in the design, or conduct, or reporting, or dissemination plans of this research.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Provenance and peer review:</bold> Not commissioned; externally peer reviewed.</p>
+              </fn>
+            </fn-group>
+            <ref-list>
+              <title>References</title>
+              <ref id="R1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gatta</surname><given-names>G</given-names></string-name>, <string-name><surname>Botta</surname><given-names>L</given-names></string-name>, <string-name><surname>Rossi</surname><given-names>S</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Childhood cancer survival in Europe 1999–2007: results of EUROCARE-5—a population-based study</article-title>. <source>Lancet Oncol</source><year>2014</year>;<volume>15</volume>:<fpage>35</fpage>–<lpage>47</lpage>. <pub-id pub-id-type="doi">10.1016/S1470-2045(13)70548-5</pub-id><pub-id pub-id-type="pmid">24314616</pub-id></mixed-citation>
+              </ref>
+              <ref id="R2">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Armstrong</surname><given-names>GT</given-names></string-name>, <string-name><surname>Kawashima</surname><given-names>T</given-names></string-name>, <string-name><surname>Leisenring</surname><given-names>W</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Aging and risk of severe, disabling, life-threatening, and fatal events in the childhood cancer Survivor study</article-title>. <source>J Clin Oncol</source><year>2014</year>;<volume>32</volume>:<fpage>1218</fpage>–<lpage>27</lpage>. <pub-id pub-id-type="doi">10.1200/JCO.2013.51.1055</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/24638000?><pub-id pub-id-type="pmid">24638000</pub-id></mixed-citation>
+              </ref>
+              <ref id="R3">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bhakta</surname><given-names>N</given-names></string-name>, <string-name><surname>Liu</surname><given-names>Q</given-names></string-name>, <string-name><surname>Ness</surname><given-names>KK</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The cumulative burden of surviving childhood cancer: an initial report from the ST Jude lifetime cohort study (SJLIFE)</article-title>. <source>The Lancet</source><year>2017</year>;<volume>390</volume>:<fpage>2569</fpage>–<lpage>82</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(17)31610-0</pub-id></mixed-citation>
+              </ref>
+              <ref id="R4">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Chow</surname><given-names>EJ</given-names></string-name>, <string-name><surname>Ness</surname><given-names>KK</given-names></string-name>, <string-name><surname>Armstrong</surname><given-names>GT</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Current and coming challenges in the management of the survivorship population</article-title>. <source>Semin Oncol</source><year>2020</year>;<volume>47</volume>:<fpage>23</fpage>–<lpage>39</lpage>. <pub-id pub-id-type="doi">10.1053/j.seminoncol.2020.02.007</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/32197774?><pub-id pub-id-type="pmid">32197774</pub-id></mixed-citation>
+              </ref>
+              <ref id="R5">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Robison</surname><given-names>LL</given-names></string-name>, <string-name><surname>Hudson</surname><given-names>MM</given-names></string-name></person-group>. <article-title>Survivors of childhood and adolescent cancer: life-long risks and responsibilities</article-title>. <source>Nat Rev Cancer</source><year>2014</year>;<volume>14</volume>:<fpage>61</fpage>–<lpage>70</lpage>. <pub-id pub-id-type="doi">10.1038/nrc3634</pub-id><pub-id pub-id-type="pmid">24304873</pub-id></mixed-citation>
+              </ref>
+              <ref id="R6">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Winick</surname><given-names>N</given-names></string-name></person-group>. <article-title>Neurocognitive outcome in survivors of pediatric cancer</article-title>. <source>Curr Opin Pediatr</source><year>2011</year>;<volume>23</volume>:<fpage>27</fpage>–<lpage>33</lpage>. <pub-id pub-id-type="doi">10.1097/MOP.0b013e32834255e9</pub-id><pub-id pub-id-type="pmid">21157347</pub-id></mixed-citation>
+              </ref>
+              <ref id="R7">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kirchhoff</surname><given-names>AC</given-names></string-name>, <string-name><surname>Krull</surname><given-names>KR</given-names></string-name>, <string-name><surname>Ness</surname><given-names>KK</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Occupational outcomes of adult childhood cancer survivors: a report from the childhood cancer Survivor study</article-title>. <source>Cancer</source><year>2011</year>;<volume>117</volume>:<fpage>3033</fpage>–<lpage>44</lpage>. <pub-id pub-id-type="doi">10.1002/cncr.25867</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/21246530?><pub-id pub-id-type="pmid">21246530</pub-id></mixed-citation>
+              </ref>
+              <ref id="R8">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lancashire</surname><given-names>ER</given-names></string-name>, <string-name><surname>Frobisher</surname><given-names>C</given-names></string-name>, <string-name><surname>Reulen</surname><given-names>RC</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Educational attainment among adult survivors of childhood cancer in Great Britain: a population-based cohort study</article-title>. <source>J Natl Cancer Inst</source><year>2010</year>;<volume>102</volume>:<fpage>254</fpage>–<lpage>70</lpage>. <pub-id pub-id-type="doi">10.1093/jnci/djp498</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/20107164?><pub-id pub-id-type="pmid">20107164</pub-id></mixed-citation>
+              </ref>
+              <ref id="R9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ander</surname><given-names>M</given-names></string-name>, <string-name><surname>Grönqvist</surname><given-names>H</given-names></string-name>, <string-name><surname>Cernvall</surname><given-names>M</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Development of health-related quality of life and symptoms of anxiety and depression among persons diagnosed with cancer during adolescence: a 10-year follow-up study</article-title>. <source>Psychooncology</source><year>2016</year>;<volume>25</volume>:<fpage>582</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1002/pon.3965</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26361085?><pub-id pub-id-type="pmid">26361085</pub-id></mixed-citation>
+              </ref>
+              <ref id="R10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Brinkman</surname><given-names>TM</given-names></string-name>, <string-name><surname>Zhu</surname><given-names>L</given-names></string-name>, <string-name><surname>Zeltzer</surname><given-names>LK</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Longitudinal patterns of psychological distress in adult survivors of childhood cancer</article-title>. <source>Br J Cancer</source><year>2013</year>;<volume>109</volume>:<fpage>1373</fpage>–<lpage>81</lpage>. <pub-id pub-id-type="doi">10.1038/bjc.2013.428</pub-id><pub-id pub-id-type="pmid">23880828</pub-id></mixed-citation>
+              </ref>
+              <ref id="R11">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Seitz</surname><given-names>DCM</given-names></string-name>, <string-name><surname>Besier</surname><given-names>T</given-names></string-name>, <string-name><surname>Debatin</surname><given-names>K-M</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Posttraumatic stress, depression and anxiety among adult long-term survivors of cancer in adolescence</article-title>. <source>Eur J Cancer</source><year>2010</year>;<volume>46</volume>:<fpage>1596</fpage>–<lpage>606</lpage>. <pub-id pub-id-type="doi">10.1016/j.ejca.2010.03.001</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/20381339?><pub-id pub-id-type="pmid">20381339</pub-id></mixed-citation>
+              </ref>
+              <ref id="R12">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Patton</surname><given-names>GC</given-names></string-name>, <string-name><surname>Sawyer</surname><given-names>SM</given-names></string-name>, <string-name><surname>Santelli</surname><given-names>JS</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Our future: a Lancet Commission on adolescent health and wellbeing</article-title>. <source>The Lancet</source><year>2016</year>;<volume>387</volume>:<fpage>2423</fpage>–<lpage>78</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(16)00579-1</pub-id></mixed-citation>
+              </ref>
+              <ref id="R13">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Blakemore</surname><given-names>S-J</given-names></string-name></person-group>. <article-title>Adolescence and mental health</article-title>. <source>The Lancet</source><year>2019</year>;<volume>393</volume>:<fpage>2030</fpage>–<lpage>1</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(19)31013-X</pub-id></mixed-citation>
+              </ref>
+              <ref id="R14">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ahomäki</surname><given-names>R</given-names></string-name>, <string-name><surname>Kero</surname><given-names>A</given-names></string-name>, <string-name><surname>Koivisto</surname><given-names>M</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Purchases of antidepressants after cancer at a young age in Finland</article-title>. <source>Int J Cancer</source><year>2019</year>;<volume>144</volume>:<fpage>1227</fpage>–<lpage>33</lpage>. <pub-id pub-id-type="doi">10.1002/ijc.31942</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30357818?><pub-id pub-id-type="pmid">30357818</pub-id></mixed-citation>
+              </ref>
+              <ref id="R15">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Johannsdottir</surname><given-names>IM</given-names></string-name>, <string-name><surname>Loge</surname><given-names>JH</given-names></string-name>, <string-name><surname>Kiserud</surname><given-names>CE</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Increased prescription rates of anxiolytics and hypnotics to survivors of cancer in childhood, adolescence, and young adulthood-A population-based study</article-title>. <source>Pediatr Blood Cancer</source><year>2018</year>;<volume>65</volume>:<elocation-id>e26860</elocation-id>. <pub-id pub-id-type="doi">10.1002/pbc.26860</pub-id></mixed-citation>
+              </ref>
+              <ref id="R16">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Brinkman</surname><given-names>TM</given-names></string-name>, <string-name><surname>Ullrich</surname><given-names>NJ</given-names></string-name>, <string-name><surname>Zhang</surname><given-names>N</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Prevalence and predictors of prescription psychoactive medication use in adult survivors of childhood cancer: a report from the childhood cancer Survivor study</article-title>. <source>J Cancer Surviv</source><year>2013</year>;<volume>7</volume>:<fpage>104</fpage>–<lpage>14</lpage>. <pub-id pub-id-type="doi">10.1007/s11764-012-0250-x</pub-id><pub-id pub-id-type="pmid">23224753</pub-id></mixed-citation>
+              </ref>
+              <ref id="R17">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gunnes</surname><given-names>MW</given-names></string-name>, <string-name><surname>Lie</surname><given-names>RT</given-names></string-name>, <string-name><surname>Bjørge</surname><given-names>T</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Suicide and violent deaths in survivors of cancer in childhood, adolescence and young adulthood-A national cohort study</article-title>. <source>Int J Cancer</source><year>2017</year>;<volume>140</volume>:<fpage>575</fpage>–<lpage>80</lpage>. <pub-id pub-id-type="doi">10.1002/ijc.30474</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/27750385?><pub-id pub-id-type="pmid">27750385</pub-id></mixed-citation>
+              </ref>
+              <ref id="R18">
+                <label>18</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Bleyer</surname><given-names>A</given-names></string-name>, <string-name><surname>Barr</surname><given-names>R</given-names></string-name>, <string-name><surname>Ries</surname><given-names>L</given-names></string-name></person-group>. <source>Cancer in adolescents and young adults</source>. <publisher-name>Springer International Publishing</publisher-name>, <year>2017</year>.</mixed-citation>
+              </ref>
+              <ref id="R19">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bibby</surname><given-names>H</given-names></string-name>, <string-name><surname>White</surname><given-names>V</given-names></string-name>, <string-name><surname>Thompson</surname><given-names>K</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>What are the unmet needs and care experiences of adolescents and young adults with cancer? A systematic review</article-title>. <source>J Adolesc Young Adult Oncol</source><year>2017</year>;<volume>6</volume>:<fpage>6</fpage>–<lpage>30</lpage>. <pub-id pub-id-type="doi">10.1089/jayao.2016.0012</pub-id><pub-id pub-id-type="pmid">27454408</pub-id></mixed-citation>
+              </ref>
+              <ref id="R20">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kaul</surname><given-names>S</given-names></string-name>, <string-name><surname>Avila</surname><given-names>JC</given-names></string-name>, <string-name><surname>Mutambudzi</surname><given-names>M</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Mental distress and health care use among survivors of adolescent and young adult cancer: a cross-sectional analysis of the National health interview survey</article-title>. <source>Cancer</source><year>2017</year>;<volume>123</volume>:<fpage>869</fpage>–<lpage>78</lpage>. <pub-id pub-id-type="doi">10.1002/cncr.30417</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/27859009?><pub-id pub-id-type="pmid">27859009</pub-id></mixed-citation>
+              </ref>
+              <ref id="R21">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Olsson</surname><given-names>M</given-names></string-name>, <string-name><surname>Jarfelt</surname><given-names>M</given-names></string-name>, <string-name><surname>Pergert</surname><given-names>P</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Experiences of teenagers and young adults treated for cancer in Sweden</article-title>. <source>Eur J Oncol Nurs</source><year>2015</year>;<volume>19</volume>:<fpage>575</fpage>–<lpage>81</lpage>. <pub-id pub-id-type="doi">10.1016/j.ejon.2015.03.003</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/25882549?><pub-id pub-id-type="pmid">25882549</pub-id></mixed-citation>
+              </ref>
+              <ref id="R22">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Svedberg</surname><given-names>P</given-names></string-name>, <string-name><surname>Einberg</surname><given-names>E-L</given-names></string-name>, <string-name><surname>Wärnestål</surname><given-names>P</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Support from healthcare services during transition to adulthood - Experiences of young adult survivors of pediatric cancer</article-title>. <source>Eur J Oncol Nurs</source><year>2016</year>;<volume>21</volume>:<fpage>105</fpage>–<lpage>12</lpage>. <pub-id pub-id-type="doi">10.1016/j.ejon.2016.02.008</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26952685?><pub-id pub-id-type="pmid">26952685</pub-id></mixed-citation>
+              </ref>
+              <ref id="R23">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Rebello</surname><given-names>TJ</given-names></string-name>, <string-name><surname>Marques</surname><given-names>A</given-names></string-name>, <string-name><surname>Gureje</surname><given-names>O</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Innovative strategies for closing the mental health treatment gap globally</article-title>. <source>Curr Opin Psychiatry</source><year>2014</year>;<volume>27</volume>:<fpage>308</fpage>–<lpage>14</lpage>. <pub-id pub-id-type="doi">10.1097/YCO.0000000000000068</pub-id><pub-id pub-id-type="pmid">24840160</pub-id></mixed-citation>
+              </ref>
+              <ref id="R24">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kim</surname><given-names>MA</given-names></string-name>, <string-name><surname>Yi</surname><given-names>J</given-names></string-name></person-group>. <article-title>Life after cancer: how does public stigma increase psychological distress of childhood cancer survivors?</article-title><source>Int J Nurs Stud</source><year>2014</year>;<volume>51</volume>:<fpage>1605</fpage>–<lpage>14</lpage>. <pub-id pub-id-type="doi">10.1016/j.ijnurstu.2014.04.005</pub-id><pub-id pub-id-type="pmid">24880526</pub-id></mixed-citation>
+              </ref>
+              <ref id="R25">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Riper</surname><given-names>H</given-names></string-name>, <string-name><surname>Andersson</surname><given-names>G</given-names></string-name>, <string-name><surname>Christensen</surname><given-names>H</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Theme issue on e-mental health: a growing field in Internet research</article-title>. <source>J Med Internet Res</source><year>2010</year>;<volume>12</volume>:<elocation-id>e74</elocation-id>. <pub-id pub-id-type="doi">10.2196/jmir.1713</pub-id><pub-id pub-id-type="pmid">21169177</pub-id></mixed-citation>
+              </ref>
+              <ref id="R26">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Patel</surname><given-names>V</given-names></string-name>, <string-name><surname>Saxena</surname><given-names>S</given-names></string-name>, <string-name><surname>Lund</surname><given-names>C</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The Lancet Commission on global mental health and sustainable development</article-title>. <source>Lancet</source><year>2018</year>;<volume>392</volume>:<fpage>1553</fpage>–<lpage>98</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(18)31612-X</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30314863?><pub-id pub-id-type="pmid">30314863</pub-id></mixed-citation>
+              </ref>
+              <ref id="R27">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Andersson</surname><given-names>G</given-names></string-name></person-group>. <article-title>Internet interventions: past, present and future</article-title>. <source>Internet Interv</source><year>2018</year>;<volume>12</volume>:<fpage>181</fpage>–<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1016/j.invent.2018.03.008</pub-id><pub-id pub-id-type="pmid">30135782</pub-id></mixed-citation>
+              </ref>
+              <ref id="R28">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bunge</surname><given-names>EL</given-names></string-name>, <string-name><surname>Dickter</surname><given-names>B</given-names></string-name>, <string-name><surname>Jones</surname><given-names>MK</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Behavioral intervention technologies and psychotherapy with youth: a review of the literature</article-title>. <source>Curr Psychiatry Rev</source><year>2016</year>;<volume>12</volume>:<fpage>14</fpage>–<lpage>28</lpage>. <pub-id pub-id-type="doi">10.2174/1573400511666150930232254</pub-id></mixed-citation>
+              </ref>
+              <ref id="R29">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Carlbring</surname><given-names>P</given-names></string-name>, <string-name><surname>Andersson</surname><given-names>G</given-names></string-name>, <string-name><surname>Cuijpers</surname><given-names>P</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Internet-Based vs. face-to-face cognitive behavior therapy for psychiatric and somatic disorders: an updated systematic review and meta-analysis</article-title>. <source>Cogn Behav Ther</source><year>2018</year>;<volume>47</volume>:<fpage>1</fpage>–<lpage>18</lpage>. <pub-id pub-id-type="doi">10.1080/16506073.2017.1401115</pub-id><pub-id pub-id-type="pmid">29215315</pub-id></mixed-citation>
+              </ref>
+              <ref id="R30">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Sansom-Daly</surname><given-names>UM</given-names></string-name>, <string-name><surname>Wakefield</surname><given-names>CE</given-names></string-name>, <string-name><surname>Bryant</surname><given-names>RA</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Online group-based cognitive-behavioural therapy for adolescents and young adults after cancer treatment: a multicenter randomised controlled trial of recapture Life-AYA</article-title>. <source>BMC Cancer</source><year>2012</year>;<volume>12</volume>:<elocation-id>339</elocation-id>. <pub-id pub-id-type="doi">10.1186/1471-2407-12-339</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/22862906?><pub-id pub-id-type="pmid">22862906</pub-id></mixed-citation>
+              </ref>
+              <ref id="R31">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hagström</surname><given-names>J</given-names></string-name>, <string-name><surname>Ander</surname><given-names>M</given-names></string-name>, <string-name><surname>Cernvall</surname><given-names>M</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Heeding the psychological concerns of young cancer survivors: a single-arm feasibility trial of CBT and a cognitive behavioral conceptualization of distress</article-title>. <source>PeerJ</source><year>2020</year>;<volume>8</volume>:<elocation-id>e8714</elocation-id>. <pub-id pub-id-type="doi">10.7717/peerj.8714</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/32219023?><pub-id pub-id-type="pmid">32219023</pub-id></mixed-citation>
+              </ref>
+              <ref id="R32">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Younes</surname><given-names>N</given-names></string-name>, <string-name><surname>Chollet</surname><given-names>A</given-names></string-name>, <string-name><surname>Menard</surname><given-names>E</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>E-mental health care among young adults and help-seeking behaviors: a transversal study in a community sample</article-title>. <source>J Med Internet Res</source><year>2015</year>;<volume>17</volume>:<elocation-id>e123</elocation-id>. <pub-id pub-id-type="doi">10.2196/jmir.4254</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/25979680?><pub-id pub-id-type="pmid">25979680</pub-id></mixed-citation>
+              </ref>
+              <ref id="R33">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ander</surname><given-names>M</given-names></string-name>, <string-name><surname>Wikman</surname><given-names>A</given-names></string-name>, <string-name><surname>Ljótsson</surname><given-names>B</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Guided internet-administered self-help to reduce symptoms of anxiety and depression among adolescents and young adults diagnosed with cancer during adolescence (U-CARE: YoungCan): a study protocol for a feasibility trial</article-title>. <source>BMJ Open</source><year>2017</year>;<volume>7</volume>:<elocation-id>e013906</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmjopen-2016-013906</pub-id></mixed-citation>
+              </ref>
+              <ref id="R34">
+                <label>34</label>
+                <mixed-citation publication-type="web"><person-group person-group-type="author"><string-name><surname>Ander</surname><given-names>M</given-names></string-name></person-group>. <article-title>Cancer during adolescence - psychological consequences and development of psychological treatment</article-title>, <year>2017</year>. Available: <uri xlink:href="http://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1153609&amp;dswid=1594">http://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1153609&amp;dswid=1594</uri></mixed-citation>
+              </ref>
+              <ref id="R35">
+                <label>35</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Barnett</surname><given-names>M</given-names></string-name>, <string-name><surname>McDonnell</surname><given-names>G</given-names></string-name>, <string-name><surname>DeRosa</surname><given-names>A</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Psychosocial outcomes and interventions among cancer survivors diagnosed during adolescence and young adulthood (AYA): a systematic review</article-title>. <source>J Cancer Surviv</source><year>2016</year>;<volume>10</volume>:<fpage>814</fpage>–<lpage>31</lpage>. <pub-id pub-id-type="doi">10.1007/s11764-016-0527-6</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26920873?><pub-id pub-id-type="pmid">26920873</pub-id></mixed-citation>
+              </ref>
+              <ref id="R36">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Devine</surname><given-names>KA</given-names></string-name>, <string-name><surname>Viola</surname><given-names>AS</given-names></string-name>, <string-name><surname>Coups</surname><given-names>EJ</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Digital health interventions for adolescent and young adult cancer survivors</article-title>. <source>JCO Clin Cancer Inform</source><year>2018</year>;<volume>2</volume>:<fpage>1</fpage>–<lpage>15</lpage>. <pub-id pub-id-type="doi">10.1200/CCI.17.00138</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30652583?></mixed-citation>
+              </ref>
+              <ref id="R37">
+                <label>37</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Moody</surname><given-names>L</given-names></string-name>, <string-name><surname>Turner</surname><given-names>A</given-names></string-name>, <string-name><surname>Osmond</surname><given-names>J</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Web-Based self-management for young cancer survivors: consideration of user requirements and barriers to implementation</article-title>. <source>J Cancer Surviv</source><year>2015</year>;<volume>9</volume>:<fpage>188</fpage>–<lpage>200</lpage>. <pub-id pub-id-type="doi">10.1007/s11764-014-0400-4</pub-id><pub-id pub-id-type="pmid">25236685</pub-id></mixed-citation>
+              </ref>
+              <ref id="R38">
+                <label>38</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Seitz</surname><given-names>DCM</given-names></string-name>, <string-name><surname>Knaevelsrud</surname><given-names>C</given-names></string-name>, <string-name><surname>Duran</surname><given-names>G</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Efficacy of an Internet-based cognitive-behavioral intervention for long-term survivors of pediatric cancer: a pilot study</article-title>. <source>Support Care Cancer</source><year>2014</year>;<volume>22</volume>:<fpage>2075</fpage>–<lpage>83</lpage>. <pub-id pub-id-type="doi">10.1007/s00520-014-2193-4</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/24639036?><pub-id pub-id-type="pmid">24639036</pub-id></mixed-citation>
+              </ref>
+              <ref id="R39">
+                <label>39</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>van Ballegooijen</surname><given-names>W</given-names></string-name>, <string-name><surname>Cuijpers</surname><given-names>P</given-names></string-name>, <string-name><surname>van Straten</surname><given-names>A</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Adherence to Internet-based and face-to-face cognitive behavioural therapy for depression: a meta-analysis</article-title>. <source>PLoS One</source><year>2014</year>;<volume>9</volume>:<elocation-id>e100674</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0100674</pub-id><pub-id pub-id-type="pmid">25029507</pub-id></mixed-citation>
+              </ref>
+              <ref id="R40">
+                <label>40</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Nilsson</surname><given-names>A</given-names></string-name>, <string-name><surname>Sörman</surname><given-names>K</given-names></string-name>, <string-name><surname>Klingvall</surname><given-names>J</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>MyCompass in a Swedish context - lessons learned from the transfer of a self-guided intervention targeting mental health problems</article-title>. <source>BMC Psychiatry</source><year>2019</year>;<volume>19</volume>:<elocation-id>51</elocation-id>. <pub-id pub-id-type="doi">10.1186/s12888-019-2039-1</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30704424?><pub-id pub-id-type="pmid">30704424</pub-id></mixed-citation>
+              </ref>
+              <ref id="R41">
+                <label>41</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Woodford</surname><given-names>J</given-names></string-name>, <string-name><surname>Farrand</surname><given-names>P</given-names></string-name>, <string-name><surname>Bessant</surname><given-names>M</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Recruitment into a guided Internet based CBT (iCBT) intervention for depression: lesson learnt from the failure of a prevalence recruitment strategy</article-title>. <source>Contemp Clin Trials</source><year>2011</year>;<volume>32</volume>:<fpage>641</fpage>–<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1016/j.cct.2011.04.013</pub-id><pub-id pub-id-type="pmid">21570485</pub-id></mixed-citation>
+              </ref>
+              <ref id="R42">
+                <label>42</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Rapp</surname><given-names>AM</given-names></string-name>, <string-name><surname>Chavira</surname><given-names>DA</given-names></string-name>, <string-name><surname>Sugar</surname><given-names>CA</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Integrated primary Medical-Behavioral health care for adolescent and young adult depression: predictors of service use in the youth partners in care trial</article-title>. <source>J Pediatr Psychol</source><year>2017</year>;<volume>42</volume>:<fpage>1051</fpage>–<lpage>64</lpage>. <pub-id pub-id-type="doi">10.1093/jpepsy/jsx057</pub-id><pub-id pub-id-type="pmid">28369443</pub-id></mixed-citation>
+              </ref>
+              <ref id="R43">
+                <label>43</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gulliver</surname><given-names>A</given-names></string-name>, <string-name><surname>Griffiths</surname><given-names>KM</given-names></string-name>, <string-name><surname>Christensen</surname><given-names>H</given-names></string-name></person-group>. <article-title>Perceived barriers and facilitators to mental health help-seeking in young people: a systematic review</article-title>. <source>BMC Psychiatry</source><year>2010</year>;<volume>10</volume>. <pub-id pub-id-type="doi">10.1186/1471-244X-10-113</pub-id></mixed-citation>
+              </ref>
+              <ref id="R44">
+                <label>44</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kaess</surname><given-names>M</given-names></string-name>, <string-name><surname>Bauer</surname><given-names>S</given-names></string-name></person-group>. <article-title>Editorial promoting help-seeking using E-Technology for adolescents: the prohead Consortium</article-title>. <source>Trials</source><year>2019</year>;<volume>20</volume>:<elocation-id>72</elocation-id>. <pub-id pub-id-type="doi">10.1186/s13063-018-3162-x</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30670060?><pub-id pub-id-type="pmid">30670060</pub-id></mixed-citation>
+              </ref>
+              <ref id="R45">
+                <label>45</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lehmann</surname><given-names>V</given-names></string-name>, <string-name><surname>Grönqvist</surname><given-names>H</given-names></string-name>, <string-name><surname>Engvall</surname><given-names>G</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Negative and positive consequences of adolescent cancer 10 years after diagnosis: an interview-based longitudinal study in Sweden</article-title>. <source>Psychooncology</source><year>2014</year>;<volume>23</volume>:<fpage>1229</fpage>–<lpage>35</lpage>. <pub-id pub-id-type="doi">10.1002/pon.3549</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/24737637?><pub-id pub-id-type="pmid">24737637</pub-id></mixed-citation>
+              </ref>
+              <ref id="R46">
+                <label>46</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ander</surname><given-names>M</given-names></string-name>, <string-name><surname>Thorsell Cederberg</surname><given-names>J</given-names></string-name>, <string-name><surname>von Essen</surname><given-names>L</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Exploration of psychological distress experienced by survivors of adolescent cancer reporting a need for psychological support</article-title>. <source>PLoS One</source><year>2018</year>;<volume>13</volume>:<elocation-id>e0195899</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0195899</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/29664926?><pub-id pub-id-type="pmid">29664926</pub-id></mixed-citation>
+              </ref>
+              <ref id="R47">
+                <label>47</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Wilford</surname><given-names>J</given-names></string-name>, <string-name><surname>Buchbinder</surname><given-names>D</given-names></string-name>, <string-name><surname>Fortier</surname><given-names>MA</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>“She was a little social butterfly”: A qualitative analysis of parent perception of social functioning in adolescent and young adult brain tumor survivors</article-title>. <source>J Pediatr Oncol Nurs</source><year>2017</year>;<volume>34</volume>:<fpage>239</fpage>–<lpage>49</lpage>. <pub-id pub-id-type="doi">10.1177/1043454216688660</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28615001?><pub-id pub-id-type="pmid">28615001</pub-id></mixed-citation>
+              </ref>
+              <ref id="R48">
+                <label>48</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Andersen</surname><given-names>RM</given-names></string-name></person-group>. <article-title>Revisiting the behavioral model and access to medical care: does it matter?</article-title><source>J Health Soc Behav</source><year>1995</year>;<volume>36</volume>:<fpage>1</fpage>–<lpage>10</lpage>. <pub-id pub-id-type="doi">10.2307/2137284</pub-id><pub-id pub-id-type="pmid">7738325</pub-id></mixed-citation>
+              </ref>
+              <ref id="R49">
+                <label>49</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bock</surname><given-names>J-O</given-names></string-name>, <string-name><surname>Hajek</surname><given-names>A</given-names></string-name>, <string-name><surname>König</surname><given-names>H-H</given-names></string-name></person-group>. <article-title>The longitudinal association between psychological factors and health care use</article-title>. <source>Health Serv Res</source><year>2018</year>;<volume>53</volume>:<fpage>1065</fpage>–<lpage>91</lpage>. <pub-id pub-id-type="doi">10.1111/1475-6773.12679</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28294328?><pub-id pub-id-type="pmid">28294328</pub-id></mixed-citation>
+              </ref>
+              <ref id="R50">
+                <label>50</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gudleski</surname><given-names>GD</given-names></string-name>, <string-name><surname>Satchidanand</surname><given-names>N</given-names></string-name>, <string-name><surname>Dunlap</surname><given-names>LJ</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Predictors of medical and mental health care use in patients with irritable bowel syndrome in the United States</article-title>. <source>Behav Res Ther</source><year>2017</year>;<volume>88</volume>:<fpage>65</fpage>–<lpage>75</lpage>. <pub-id pub-id-type="doi">10.1016/j.brat.2016.07.006</pub-id><pub-id pub-id-type="pmid">28110677</pub-id></mixed-citation>
+              </ref>
+              <ref id="R51">
+                <label>51</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mills</surname><given-names>V</given-names></string-name>, <string-name><surname>Van Hooff</surname><given-names>M</given-names></string-name>, <string-name><surname>Baur</surname><given-names>J</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Predictors of mental health service utilisation in a non-treatment seeking epidemiological sample of Australian adults</article-title>. <source>Community Ment Health J</source><year>2012</year>;<volume>48</volume>:<fpage>511</fpage>–<lpage>21</lpage>. <pub-id pub-id-type="doi">10.1007/s10597-011-9439-0</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/21994023?><pub-id pub-id-type="pmid">21994023</pub-id></mixed-citation>
+              </ref>
+              <ref id="R52">
+                <label>52</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mooney-Somers</surname><given-names>J</given-names></string-name>, <string-name><surname>Lewis</surname><given-names>P</given-names></string-name>, <string-name><surname>Kerridge</surname><given-names>I</given-names></string-name></person-group>. <article-title>Discursive constructions of youth cancer: findings from creative methods research with healthy young people</article-title>. <source>J Cancer Surviv</source><year>2016</year>;<volume>10</volume>:<fpage>427</fpage>–<lpage>36</lpage>. <pub-id pub-id-type="doi">10.1007/s11764-015-0488-1</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26563950?><pub-id pub-id-type="pmid">26563950</pub-id></mixed-citation>
+              </ref>
+              <ref id="R53">
+                <label>53</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Van Schoors</surname><given-names>M</given-names></string-name>, <string-name><surname>Caes</surname><given-names>L</given-names></string-name>, <string-name><surname>Knoble</surname><given-names>NB</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Systematic review: associations between family functioning and child adjustment after pediatric cancer diagnosis: a meta-analysis</article-title>. <source>J Pediatr Psychol</source><year>2017</year>;<volume>42</volume>:<fpage>6</fpage>–<lpage>18</lpage>. <pub-id pub-id-type="doi">10.1093/jpepsy/jsw070</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28173163?><pub-id pub-id-type="pmid">28173163</pub-id></mixed-citation>
+              </ref>
+              <ref id="R54">
+                <label>54</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Sweeney</surname><given-names>GM</given-names></string-name>, <string-name><surname>Donovan</surname><given-names>CL</given-names></string-name>, <string-name><surname>March</surname><given-names>S</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Logging into therapy: adolescent perceptions of online therapies for mental health problems</article-title>. <source>Internet Interv</source><year>2019</year>;<volume>15</volume>:<fpage>93</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1016/j.invent.2016.12.001</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30792959?><pub-id pub-id-type="pmid">30792959</pub-id></mixed-citation>
+              </ref>
+              <ref id="R55">
+                <label>55</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Wetterlin</surname><given-names>FM</given-names></string-name>, <string-name><surname>Mar</surname><given-names>MY</given-names></string-name>, <string-name><surname>Neilson</surname><given-names>EK</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>eMental health experiences and expectations: A survey of youths’ web-based resource preferences in Canada</article-title>. <source>J Med Internet Res</source><year>2014</year>;<volume>16</volume>:<elocation-id>e29</elocation-id>. <pub-id pub-id-type="doi">10.2196/jmir.3526</pub-id><pub-id pub-id-type="pmid">24496094</pub-id></mixed-citation>
+              </ref>
+              <ref id="R56">
+                <label>56</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hollis</surname><given-names>C</given-names></string-name>, <string-name><surname>Morriss</surname><given-names>R</given-names></string-name>, <string-name><surname>Martin</surname><given-names>J</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Technological innovations in mental healthcare: harnessing the digital revolution</article-title>. <source>Br J Psychiatry</source><year>2015</year>;<volume>206</volume>:<fpage>263</fpage>–<lpage>5</lpage>. <pub-id pub-id-type="doi">10.1192/bjp.bp.113.142612</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/25833865?><pub-id pub-id-type="pmid">25833865</pub-id></mixed-citation>
+              </ref>
+              <ref id="R57">
+                <label>57</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Fleming</surname><given-names>T</given-names></string-name>, <string-name><surname>Bavin</surname><given-names>L</given-names></string-name>, <string-name><surname>Lucassen</surname><given-names>M</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Beyond the trial: systematic review of real-world uptake and engagement with digital self-help interventions for depression, low mood, or anxiety</article-title>. <source>J Med Internet Res</source><year>2018</year>;<volume>20</volume>:<elocation-id>e199</elocation-id>. <pub-id pub-id-type="doi">10.2196/jmir.9275</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/29875089?><pub-id pub-id-type="pmid">29875089</pub-id></mixed-citation>
+              </ref>
+              <ref id="R58">
+                <label>58</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Apolinário-Hagen</surname><given-names>J</given-names></string-name>, <string-name><surname>Kemper</surname><given-names>J</given-names></string-name>, <string-name><surname>Stürmer</surname><given-names>C</given-names></string-name></person-group>. <article-title>Public acceptability of e-mental health treatment services for psychological problems: a scoping review</article-title>. <source>JMIR Ment Health</source><year>2017</year>;<volume>4</volume>:<elocation-id>e10</elocation-id>. <pub-id pub-id-type="doi">10.2196/mental.6186</pub-id><pub-id pub-id-type="pmid">28373153</pub-id></mixed-citation>
+              </ref>
+              <ref id="R59">
+                <label>59</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>van Beugen</surname><given-names>S</given-names></string-name>, <string-name><surname>Ferwerda</surname><given-names>M</given-names></string-name>, <string-name><surname>Hoeve</surname><given-names>D</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Internet-Based cognitive behavioral therapy for patients with chronic somatic conditions: a meta-analytic review</article-title>. <source>J Med Internet Res</source><year>2014</year>;<volume>16</volume>:<elocation-id>e88</elocation-id>. <pub-id pub-id-type="doi">10.2196/jmir.2777</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/24675372?><pub-id pub-id-type="pmid">24675372</pub-id></mixed-citation>
+              </ref>
+              <ref id="R60">
+                <label>60</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Radomski</surname><given-names>AD</given-names></string-name>, <string-name><surname>Wozney</surname><given-names>L</given-names></string-name>, <string-name><surname>McGrath</surname><given-names>P</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Design and delivery features that may improve the use of Internet-based cognitive behavioral therapy for children and adolescents with anxiety: a realist literature synthesis with a persuasive systems design perspective</article-title>. <source>J Med Internet Res</source><year>2019</year>;<volume>21</volume>:<elocation-id>e11128</elocation-id>. <pub-id pub-id-type="doi">10.2196/11128</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30720436?><pub-id pub-id-type="pmid">30720436</pub-id></mixed-citation>
+              </ref>
+              <ref id="R61">
+                <label>61</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ferwerda</surname><given-names>M</given-names></string-name>, <string-name><surname>van Beugen</surname><given-names>S</given-names></string-name>, <string-name><surname>van Burik</surname><given-names>A</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>What patients think about E-health: patients' perspective on internet-based cognitive behavioral treatment for patients with rheumatoid arthritis and psoriasis</article-title>. <source>Clin Rheumatol</source><year>2013</year>;<volume>32</volume>:<fpage>869</fpage>–<lpage>73</lpage>. <pub-id pub-id-type="doi">10.1007/s10067-013-2175-9</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/23354514?><pub-id pub-id-type="pmid">23354514</pub-id></mixed-citation>
+              </ref>
+              <ref id="R62">
+                <label>62</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Barakat</surname><given-names>LP</given-names></string-name>, <string-name><surname>Galtieri</surname><given-names>LR</given-names></string-name>, <string-name><surname>Szalda</surname><given-names>D</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Assessing the psychosocial needs and program preferences of adolescents and young adults with cancer</article-title>. <source>Support Care Cancer</source><year>2016</year>;<volume>24</volume>:<fpage>823</fpage>–<lpage>32</lpage>. <pub-id pub-id-type="doi">10.1007/s00520-015-2849-8</pub-id><pub-id pub-id-type="pmid">26190361</pub-id></mixed-citation>
+              </ref>
+              <ref id="R63">
+                <label>63</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Grönqvist</surname><given-names>H</given-names></string-name>, <string-name><surname>Olsson</surname><given-names>EMG</given-names></string-name>, <string-name><surname>Johansson</surname><given-names>B</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Fifteen challenges in establishing a multidisciplinary research program on eHealth research in a university setting: a case study</article-title>. <source>J Med Internet Res</source><year>2017</year>;<volume>19</volume>:<elocation-id>e173</elocation-id>. <pub-id pub-id-type="doi">10.2196/jmir.7310</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28536090?><pub-id pub-id-type="pmid">28536090</pub-id></mixed-citation>
+              </ref>
+              <ref id="R64">
+                <label>64</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kilsdonk</surname><given-names>E</given-names></string-name>, <string-name><surname>van Dulmen-den Broeder</surname><given-names>E</given-names></string-name>, <string-name><surname>van der Pal</surname><given-names>HJ</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Effect of web-based versus paper-based questionnaires and follow-up strategies on participation rates of Dutch childhood cancer survivors: a randomized controlled trial</article-title>. <source>JMIR Cancer</source><year>2015</year>;<volume>1</volume>:<elocation-id>e11</elocation-id>. <pub-id pub-id-type="doi">10.2196/cancer.3905</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28410161?><pub-id pub-id-type="pmid">28410161</pub-id></mixed-citation>
+              </ref>
+              <ref id="R65">
+                <label>65</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Brick</surname><given-names>JM</given-names></string-name>, <string-name><surname>Williams</surname><given-names>D</given-names></string-name></person-group>. <article-title>Explaining rising nonresponse rates in cross-sectional surveys</article-title>. <source>Ann Am Acad Pol Soc Sci</source><year>2013</year>;<volume>645</volume>:<fpage>36</fpage>–<lpage>59</lpage>. <pub-id pub-id-type="doi">10.1177/0002716212456834</pub-id></mixed-citation>
+              </ref>
+              <ref id="R66">
+                <label>66</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Batterham</surname><given-names>PJ</given-names></string-name></person-group>. <article-title>Recruitment of mental health survey participants using Internet advertising: content, characteristics and cost effectiveness</article-title>. <source>Int J Methods Psychiatr Res</source><year>2014</year>;<volume>23</volume>:<fpage>184</fpage>–<lpage>91</lpage>. <pub-id pub-id-type="doi">10.1002/mpr.1421</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/24615785?><pub-id pub-id-type="pmid">24615785</pub-id></mixed-citation>
+              </ref>
+              <ref id="R67">
+                <label>67</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gorman</surname><given-names>JR</given-names></string-name>, <string-name><surname>Roberts</surname><given-names>SC</given-names></string-name>, <string-name><surname>Dominick</surname><given-names>SA</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>A diversified recruitment approach incorporating social media leads to research participation among young adult-aged female cancer survivors</article-title>. <source>J Adolesc Young Adult Oncol</source><year>2014</year>;<volume>3</volume>:<fpage>59</fpage>–<lpage>65</lpage>. <pub-id pub-id-type="doi">10.1089/jayao.2013.0031</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/24940529?><pub-id pub-id-type="pmid">24940529</pub-id></mixed-citation>
+              </ref>
+              <ref id="R68">
+                <label>68</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>O'Connor</surname><given-names>A</given-names></string-name>, <string-name><surname>Jackson</surname><given-names>L</given-names></string-name>, <string-name><surname>Goldsmith</surname><given-names>L</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Can I get a retweet please? Health research recruitment and the Twittersphere</article-title>. <source>J Adv Nurs</source><year>2014</year>;<volume>70</volume>:<fpage>599</fpage>–<lpage>609</lpage>. <pub-id pub-id-type="doi">10.1111/jan.12222</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/23909740?><pub-id pub-id-type="pmid">23909740</pub-id></mixed-citation>
+              </ref>
+              <ref id="R69">
+                <label>69</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kilsdonk</surname><given-names>E</given-names></string-name>, <string-name><surname>Wendel</surname><given-names>E</given-names></string-name>, <string-name><surname>van Dulmen-den Broeder</surname><given-names>E</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Participation rates of childhood cancer survivors to self-administered questionnaires: a systematic review</article-title>. <source>Eur J Cancer Care</source><year>2017</year>;<volume>26</volume>:<elocation-id>e12462</elocation-id>. <pub-id pub-id-type="doi">10.1111/ecc.12462</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26880318?></mixed-citation>
+              </ref>
+              <ref id="R70">
+                <label>70</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Boerema</surname><given-names>AM</given-names></string-name>, <string-name><surname>Kleiboer</surname><given-names>A</given-names></string-name>, <string-name><surname>Beekman</surname><given-names>ATF</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Determinants of help-seeking behavior in depression: a cross-sectional study</article-title>. <source>BMC Psychiatry</source><year>2016</year>;<volume>16</volume>:<elocation-id>78</elocation-id>. <pub-id pub-id-type="doi">10.1186/s12888-016-0790-0</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/27009062?><pub-id pub-id-type="pmid">27009062</pub-id></mixed-citation>
+              </ref>
+              <ref id="R71">
+                <label>71</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Apolinário-Hagen</surname><given-names>J</given-names></string-name>, <string-name><surname>Vehreschild</surname><given-names>V</given-names></string-name>, <string-name><surname>Alkoudmani</surname><given-names>RM</given-names></string-name></person-group>. <article-title>Current views and perspectives on e-mental health: an exploratory survey study for understanding public attitudes toward Internet-based psychotherapy in Germany</article-title>. <source>JMIR Ment Health</source><year>2017</year>;<volume>4</volume>:<elocation-id>e8</elocation-id>. <pub-id pub-id-type="doi">10.2196/mental.6375</pub-id><pub-id pub-id-type="pmid">28232298</pub-id></mixed-citation>
+              </ref>
+              <ref id="R72">
+                <label>72</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Apolinário-Hagen</surname><given-names>J</given-names></string-name>, <string-name><surname>Harrer</surname><given-names>M</given-names></string-name>, <string-name><surname>Kählke</surname><given-names>F</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Public attitudes toward guided Internet-based therapies: web-based survey study</article-title>. <source>JMIR Ment Health</source><year>2018</year>;<volume>5</volume>:<elocation-id>e10735</elocation-id>. <pub-id pub-id-type="doi">10.2196/10735</pub-id><pub-id pub-id-type="pmid">29764797</pub-id></mixed-citation>
+              </ref>
+              <ref id="R73">
+                <label>73</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Alfonsson</surname><given-names>S</given-names></string-name>, <string-name><surname>Wallin</surname><given-names>E</given-names></string-name>, <string-name><surname>Maathz</surname><given-names>P</given-names></string-name></person-group>. <article-title>Factor structure and validity of the depression, anxiety and stress Scale-21 in Swedish translation</article-title>. <source>J Psychiatr Ment Health Nurs</source><year>2017</year>;<volume>24</volume>:<fpage>154</fpage>–<lpage>62</lpage>. <pub-id pub-id-type="doi">10.1111/jpm.12363</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28124410?><pub-id pub-id-type="pmid">28124410</pub-id></mixed-citation>
+              </ref>
+              <ref id="R74">
+                <label>74</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Brown</surname><given-names>TA</given-names></string-name>, <string-name><surname>Chorpita</surname><given-names>BF</given-names></string-name>, <string-name><surname>Korotitsch</surname><given-names>W</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Psychometric properties of the depression anxiety stress scales (DASS) in clinical samples</article-title>. <source>Behav Res Ther</source><year>1997</year>;<volume>35</volume>:<fpage>79</fpage>–<lpage>89</lpage>. <pub-id pub-id-type="doi">10.1016/S0005-7967(96)00068-X</pub-id><pub-id pub-id-type="pmid">9009048</pub-id></mixed-citation>
+              </ref>
+              <ref id="R75">
+                <label>75</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ng</surname><given-names>F</given-names></string-name>, <string-name><surname>Trauer</surname><given-names>T</given-names></string-name>, <string-name><surname>Dodd</surname><given-names>S</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The validity of the 21-item version of the depression anxiety stress scales as a routine clinical outcome measure</article-title>. <source>Acta Neuropsychiatr</source><year>2007</year>;<volume>19</volume>:<fpage>304</fpage>–<lpage>10</lpage>. <pub-id pub-id-type="doi">10.1111/j.1601-5215.2007.00217.x</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/26952943?><pub-id pub-id-type="pmid">26952943</pub-id></mixed-citation>
+              </ref>
+              <ref id="R76">
+                <label>76</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Sinclair</surname><given-names>SJ</given-names></string-name>, <string-name><surname>Siefert</surname><given-names>CJ</given-names></string-name>, <string-name><surname>Slavin-Mulford</surname><given-names>JM</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Psychometric evaluation and normative data for the depression, anxiety, and stress scales-21 (DASS-21) in a nonclinical sample of U.S. adults</article-title>. <source>Eval Health Prof</source><year>2012</year>;<volume>35</volume>:<fpage>259</fpage>–<lpage>79</lpage>. <pub-id pub-id-type="doi">10.1177/0163278711424282</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/22008979?><pub-id pub-id-type="pmid">22008979</pub-id></mixed-citation>
+              </ref>
+              <ref id="R77">
+                <label>77</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bottesi</surname><given-names>G</given-names></string-name>, <string-name><surname>Ghisi</surname><given-names>M</given-names></string-name>, <string-name><surname>Altoè</surname><given-names>G</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>The Italian version of the depression anxiety stress scales-21: factor structure and psychometric properties on community and clinical samples</article-title>. <source>Compr Psychiatry</source><year>2015</year>;<volume>60</volume>:<fpage>170</fpage>–<lpage>81</lpage>. <pub-id pub-id-type="doi">10.1016/j.comppsych.2015.04.005</pub-id><pub-id pub-id-type="pmid">25933937</pub-id></mixed-citation>
+              </ref>
+              <ref id="R78">
+                <label>78</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Komiya</surname><given-names>N</given-names></string-name>, <string-name><surname>Good</surname><given-names>GE</given-names></string-name>, <string-name><surname>Sherrod</surname><given-names>NB</given-names></string-name></person-group>. <article-title>Emotional openness as a predictor of college students’ attitudes toward seeking psychological help</article-title>. <source>J Couns Psychol</source><year>2000</year>;<volume>47</volume>:<fpage>138</fpage>–<lpage>43</lpage>. <pub-id pub-id-type="doi">10.1037/0022-0167.47.1.138</pub-id></mixed-citation>
+              </ref>
+              <ref id="R79">
+                <label>79</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bathje</surname><given-names>G</given-names></string-name>, <string-name><surname>Pryor</surname><given-names>J</given-names></string-name></person-group>. <article-title>The relationships of public and self-stigma to seeking mental health services</article-title>. <source>J Ment Health Couns</source><year>2011</year>;<volume>33</volume>:<fpage>161</fpage>–<lpage>76</lpage>. <pub-id pub-id-type="doi">10.17744/mehc.33.2.g6320392741604l1</pub-id></mixed-citation>
+              </ref>
+              <ref id="R80">
+                <label>80</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Pinto</surname><given-names>MD</given-names></string-name>, <string-name><surname>Greenblatt</surname><given-names>AM</given-names></string-name>, <string-name><surname>Hickman</surname><given-names>RL</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Assessing the critical parameters of eSMART-MH: a promising avatar-based digital therapeutic intervention to reduce depressive symptoms</article-title>. <source>Perspect Psychiatr Care</source><year>2016</year>;<volume>52</volume>:<fpage>157</fpage>–<lpage>68</lpage>. <pub-id pub-id-type="doi">10.1111/ppc.12112</pub-id><pub-id pub-id-type="pmid">25800698</pub-id></mixed-citation>
+              </ref>
+              <ref id="R81">
+                <label>81</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Cohen</surname><given-names>S</given-names></string-name>, <string-name><surname>Mermelstein</surname><given-names>R</given-names></string-name>, <string-name><surname>Kamarck</surname><given-names>T</given-names></string-name></person-group>. <chapter-title>Measuring the functional components of social support</chapter-title>. : <person-group person-group-type="editor"><string-name><surname>Sarason</surname><given-names>IG</given-names></string-name>, <string-name><surname>Sarason</surname><given-names>BR</given-names></string-name></person-group>, . <source>Social support: theory, research, and applications</source>. <publisher-name>Martinus Nijhoff</publisher-name>, <year>1985</year>: <fpage>73</fpage>–<lpage>94</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R82">
+                <label>82</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Jung</surname><given-names>H</given-names></string-name>, <string-name><surname>von Sternberg</surname><given-names>K</given-names></string-name>, <string-name><surname>Davis</surname><given-names>K</given-names></string-name></person-group>. <article-title>Expanding a measure of mental health literacy: development and validation of a multicomponent mental health literacy measure</article-title>. <source>Psychiatry Res</source><year>2016</year>;<volume>243</volume>:<fpage>278</fpage>–<lpage>86</lpage>. <pub-id pub-id-type="doi">10.1016/j.psychres.2016.06.034</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/27423635?><pub-id pub-id-type="pmid">27423635</pub-id></mixed-citation>
+              </ref>
+              <ref id="R83">
+                <label>83</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Fusch</surname><given-names>PI</given-names></string-name>, <string-name><surname>Ness</surname><given-names>LR</given-names></string-name></person-group>. <article-title>Are we there yet? Data saturation in qualitative research</article-title>. <source>Qual Rep</source><year>2015</year>;<volume>20</volume>:<fpage>1408</fpage>–<lpage>16</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R84">
+                <label>84</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Guest</surname><given-names>G</given-names></string-name>, <string-name><surname>Bunce</surname><given-names>A</given-names></string-name>, <string-name><surname>Johnson</surname><given-names>L</given-names></string-name></person-group>. <article-title>How many interviews are enough? an experiment with data saturation and variability</article-title>. <source>Sage journal</source><year>2006</year>;<volume>18</volume>:<fpage>59</fpage>–<lpage>82</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R85">
+                <label>85</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Sim</surname><given-names>J</given-names></string-name>, <string-name><surname>Saunders</surname><given-names>B</given-names></string-name>, <string-name><surname>Waterfield</surname><given-names>J</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Can sample size in qualitative research be determined a priori?</article-title><source>Int J Soc Res Methodol</source><year>2018</year>;<volume>21</volume>:<fpage>619</fpage>–<lpage>34</lpage>. <pub-id pub-id-type="doi">10.1080/13645579.2018.1454643</pub-id></mixed-citation>
+              </ref>
+              <ref id="R86">
+                <label>86</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Elo</surname><given-names>S</given-names></string-name>, <string-name><surname>Kyngäs</surname><given-names>H</given-names></string-name></person-group>. <article-title>The qualitative content analysis process</article-title>. <source>J Adv Nurs</source><year>2008</year>;<volume>62</volume>:<fpage>107</fpage>–<lpage>15</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2648.2007.04569.x</pub-id><pub-id pub-id-type="pmid">18352969</pub-id></mixed-citation>
+              </ref>
+              <ref id="R87">
+                <label>87</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Krefting</surname><given-names>L</given-names></string-name></person-group>. <article-title>Rigor in qualitative research: the assessment of trustworthiness</article-title>. <source>Am J Occup Ther</source><year>1991</year>;<volume>45</volume>:<fpage>214</fpage>–<lpage>22</lpage>. <pub-id pub-id-type="doi">10.5014/ajot.45.3.214</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/2031523?><pub-id pub-id-type="pmid">2031523</pub-id></mixed-citation>
+              </ref>
+              <ref id="R88">
+                <label>88</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Patton</surname><given-names>MQ</given-names></string-name></person-group>. <article-title>Enhancing the quality and credibility of qualitative analysis</article-title>. <source>Health Serv Res</source><year>1999</year>;<volume>34</volume>:<fpage>1189</fpage>–<lpage>208</lpage>.<pub-id pub-id-type="pmid">10591279</pub-id></mixed-citation>
+              </ref>
+              <ref id="R89">
+                <label>89</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Elliott</surname><given-names>R</given-names></string-name>, <string-name><surname>Fischer</surname><given-names>CT</given-names></string-name>, <string-name><surname>Rennie</surname><given-names>DL</given-names></string-name></person-group>. <article-title>Evolving guidelines for publication of qualitative research studies in psychology and related fields</article-title>. <source>Br J Clin Psychol</source><year>1999</year>;<volume>38</volume>:<fpage>215</fpage>–<lpage>29</lpage>. <pub-id pub-id-type="doi">10.1348/014466599162782</pub-id><pub-id pub-id-type="pmid">10532145</pub-id></mixed-citation>
+              </ref>
+              <ref id="R90">
+                <label>90</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Jennings</surname><given-names>H</given-names></string-name>, <string-name><surname>Slade</surname><given-names>M</given-names></string-name>, <string-name><surname>Bates</surname><given-names>P</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Best practice framework for patient and public involvement (PPi) in collaborative data analysis of qualitative mental health research: methodology development and refinement</article-title>. <source>BMC Psychiatry</source><year>2018</year>;<volume>18</volume>. <pub-id pub-id-type="doi">10.1186/s12888-018-1794-8</pub-id></mixed-citation>
+              </ref>
+              <ref id="R91">
+                <label>91</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Staniszewska</surname><given-names>S</given-names></string-name>, <string-name><surname>Brett</surname><given-names>J</given-names></string-name>, <string-name><surname>Simera</surname><given-names>I</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>GRIPP2 reporting checklists: tools to improve reporting of patient and public involvement in research</article-title>. <source>BMJ</source><year>2017</year>;<volume>358</volume>:<elocation-id>j3453</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmj.j3453</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/28768629?><pub-id pub-id-type="pmid">28768629</pub-id></mixed-citation>
+              </ref>
+              <ref id="R92">
+                <label>92</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kauer</surname><given-names>SD</given-names></string-name>, <string-name><surname>Mangan</surname><given-names>C</given-names></string-name>, <string-name><surname>Sanci</surname><given-names>L</given-names></string-name></person-group>. <article-title>Do online mental health services improve help-seeking for young people? A systematic review</article-title>. <source>J Med Internet Res</source><year>2014</year>;<volume>16</volume>:<elocation-id>e66</elocation-id>. <pub-id pub-id-type="doi">10.2196/jmir.3103</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/24594922?><pub-id pub-id-type="pmid">24594922</pub-id></mixed-citation>
+              </ref>
+              <ref id="R93">
+                <label>93</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kost</surname><given-names>RG</given-names></string-name>, <string-name><surname>de Rosa</surname><given-names>JC</given-names></string-name>, <string-name><surname>Correa da Rosa</surname><given-names>J</given-names></string-name></person-group>. <article-title>Impact of survey length and compensation on validity, reliability, and sample characteristics for ultrashort-, short-, and Long-Research participant perception surveys</article-title>. <source>J Clin Trans Sci</source><year>2018</year>;<volume>2</volume>:<fpage>31</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1017/cts.2018.18</pub-id><?supplied-pmid http://www.ncbi.nlm.nih.gov/pubmed/30393572?></mixed-citation>
+              </ref>
+              <ref id="R94">
+                <label>94</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Sapiro</surname><given-names>B</given-names></string-name>, <string-name><surname>Ward</surname><given-names>A</given-names></string-name></person-group>. <article-title>Marginalized youth, mental health, and connection with others: a review of the literature</article-title>. <source>Child Adolesc Soc Work</source><year>2020</year>;<volume>J37</volume>:<fpage>343</fpage>–<lpage>57</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R95">
+                <label>95</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Warner</surname><given-names>EL</given-names></string-name>, <string-name><surname>Kent</surname><given-names>EE</given-names></string-name>, <string-name><surname>Trevino</surname><given-names>KM</given-names></string-name>, <etal>et al</etal></person-group>. <article-title>Social well-being among adolescents and young adults with cancer: a systematic review</article-title>. <source>Cancer</source><year>2016</year>;<volume>122</volume>:<fpage>1029</fpage>–<lpage>37</lpage>. <pub-id pub-id-type="doi">10.1002/cncr.29866</pub-id><pub-id pub-id-type="pmid">26848713</pub-id></mixed-citation>
+              </ref>
+              <ref id="R96">
+                <label>96</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Eysenbach</surname><given-names>G</given-names></string-name></person-group>. <article-title>Improving the quality of web surveys: the checklist for reporting results of Internet e-surveys (cherries)</article-title>. <source>J Med Internet Res</source><year>2004</year>;<volume>6</volume>:<elocation-id>e34</elocation-id>. <pub-id pub-id-type="doi">10.2196/jmir.6.3.e34</pub-id><pub-id pub-id-type="pmid">15471760</pub-id></mixed-citation>
+              </ref>
+              <ref id="R97">
+                <label>97</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>O’Brien</surname><given-names>BC</given-names></string-name>, <string-name><surname>Harris</surname><given-names>IB</given-names></string-name>, <string-name><surname>Beckman</surname><given-names>TJ</given-names></string-name></person-group>. <article-title>Standards for reporting qualitative research: a synthesis of recommendations</article-title>. <source>Academic Medicine</source><year>2014</year>;<volume>89</volume>:<fpage>1245</fpage>–<lpage>51</lpage>.<pub-id pub-id-type="pmid">24979285</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

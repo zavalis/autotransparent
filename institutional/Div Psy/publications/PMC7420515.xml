@@ -1,0 +1,1680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:03:15Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7420515" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7420515</identifier>
+        <datestamp>2020-08-14</datestamp>
+        <setSpec>sleep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sleep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sleep</journal-id>
+              <journal-id journal-id-type="publisher-id">sleep</journal-id>
+              <journal-title-group>
+                <journal-title>Sleep</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0161-8105</issn>
+              <issn pub-type="epub">1550-9109</issn>
+              <publisher>
+                <publisher-name>Oxford University Press</publisher-name>
+                <publisher-loc>US</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7420515</article-id>
+              <article-id pub-id-type="pmcid">PMC7420515</article-id>
+              <article-id pub-id-type="pmc-uid">7420515</article-id>
+              <article-id pub-id-type="pmid">32133531</article-id>
+              <article-id pub-id-type="doi">10.1093/sleep/zsaa033</article-id>
+              <article-id pub-id-type="publisher-id">zsaa033</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Sleep, Health, and Disease</subject>
+                </subj-group>
+                <subj-group subj-group-type="category-taxonomy-collection">
+                  <subject>AcademicSubjects/SCI01870</subject>
+                  <subject>AcademicSubjects/MED00385</subject>
+                  <subject>AcademicSubjects/MED00370</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Sleep and intrusive memories immediately after a traumatic event in emergency department patients</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Porcheret</surname>
+                    <given-names>Kate</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="AF0001">1</xref>
+                  <xref ref-type="aff" rid="AF0002">2</xref>
+                  <xref ref-type="author-notes" rid="fn-0001"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-9957-2214</contrib-id>
+                  <name>
+                    <surname>Iyadurai</surname>
+                    <given-names>Lalitha</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="AF0003">3</xref>
+                  <xref ref-type="aff" rid="AF0005">5</xref>
+                  <xref ref-type="author-notes" rid="fn-0001"/>
+                  <xref ref-type="corresp" rid="c1"/>
+                  <!--<email>lalitha.iyadurai@psych.ox.ac.uk</email>-->
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bonsall</surname>
+                    <given-names>Michael B</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="AF0004">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Goodwin</surname>
+                    <given-names>Guy M</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="AF0003">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-0988-3458</contrib-id>
+                  <name>
+                    <surname>Beer</surname>
+                    <given-names>Sally A</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="AF0005">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Darwent</surname>
+                    <given-names>Melanie</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="AF0005">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-7319-3112</contrib-id>
+                  <name>
+                    <surname>Holmes</surname>
+                    <given-names>Emily A</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="AF0003">3</xref>
+                  <xref ref-type="aff" rid="AF0006">6</xref>
+                  <xref ref-type="aff" rid="AF0007">7</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="AF0001"><label>1</label><institution>Nuffield Department of Clinical Neuroscience, University of Oxford</institution>, Oxford, <country country="GB">UK</country></aff>
+              <aff id="AF0002"><label>2</label><institution>Turner Institute for Brain and Mental Health, Monash University</institution>, Melbourne, <country country="AU">Australia</country></aff>
+              <aff id="AF0003"><label>3</label><institution>Department of Psychiatry, University of Oxford and Oxford Health NHS Foundation Trust</institution>, Oxford, <country country="GB">UK</country></aff>
+              <aff id="AF0004"><label>4</label><institution>Department of Zoology and St. Peter’s College, University of Oxford</institution>, Oxford, <country country="GB">UK</country></aff>
+              <aff id="AF0005"><label>5</label><institution>Emergency Department, Oxford University Hospitals NHS Foundation Trust</institution>, Oxford, <country country="GB">UK</country></aff>
+              <aff id="AF0006"><label>6</label><institution>Department of Psychology, Uppsala University</institution>, Uppsala, <country country="SE">Sweden</country></aff>
+              <aff id="AF0007"><label>7</label><institution>Department of Clinical Neurosciences, Karolinska Institutet</institution>, Uppsala, <country country="SE">Sweden</country></aff>
+              <author-notes>
+                <corresp id="c1">Corresponding author. Lalitha Iyadurai, Department of Psychiatry, University of Oxford, Warneford Hospital, Oxford OX3 7JX, UK. Email: <email>lalitha.iyadurai@psych.ox.ac.uk</email>.</corresp>
+                <fn id="fn-0001">
+                  <p>Kate Porcheret and Lalitha Iyadurai contributed equally to this work.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <month>8</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="epub" iso-8601-date="2020-03-05">
+                <day>05</day>
+                <month>3</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>05</day>
+                <month>3</month>
+                <year>2020</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>. -->
+              <volume>43</volume>
+              <issue>8</issue>
+              <elocation-id>zsaa033</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>02</day>
+                  <month>5</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>11</day>
+                  <month>2</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="corrected-typeset">
+                  <day>27</day>
+                  <month>3</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© Sleep Research Society 2020. Published by Oxford University Press on behalf of the Sleep Research Society.</copyright-statement>
+                <copyright-year>2020</copyright-year>
+                <license license-type="cc-by" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:href="zsaa033.pdf"/>
+              <abstract>
+                <title>Abstract</title>
+                <sec id="s0100">
+                  <title>Study objectives</title>
+                  <p>Intrusive memories of psychological trauma are a core clinical feature of posttraumatic stress disorder (PTSD), and in the early period post-trauma may be a potential target for early intervention. Disrupted sleep in the weeks post-trauma is associated with later PTSD. The impact of sleep and intrusive memories immediately post-trauma, and their relation to later PTSD, is unknown. This study assessed the relationship between sleep duration on the first night following a real-life traumatic event and intrusive memories in the subsequent week, and how these might relate to PTSD symptoms at 2 months.</p>
+                </sec>
+                <sec id="s0101">
+                  <title>Methods</title>
+                  <p>Patients (<italic>n</italic> = 87) recruited in the emergency department completed a sleep and intrusive memory diary from the day of their trauma and for the subsequent week, with optional actigraphy. PTSD, anxiety, and depression symptoms were assessed at 1 week and 2 months.</p>
+                </sec>
+                <sec id="s0102">
+                  <title>Results</title>
+                  <p>A U-shaped relationship was observed between sleep duration on the first night and intrusive memories over the subsequent week: sleeping “too little” or “too much” was associated with more intrusive memories. Individuals who met Clinician-Administered PTSD Scale (CAPS) criteria for PTSD at 2 months had three times more intrusive memories in the first week immediately post-trauma than those who did not (<italic>M</italic> = 28.20 vs 9.96). Post hoc analysis showed that the absence of intrusive memories in the first week post-trauma was only observed in those who did not meet CAPS criteria for PTSD at 2 months.</p>
+                </sec>
+                <sec id="s0103">
+                  <title>Conclusions</title>
+                  <p>Monitoring intrusive memories and sleep in the first week post-trauma, using a simple diary, may help identify individuals more vulnerable to later psychopathology.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>sleep</kwd>
+                <kwd>mental imagery</kwd>
+                <kwd>intrusive memories</kwd>
+                <kwd>trauma</kwd>
+                <kwd>posttraumatic stress disorder</kwd>
+                <kwd>single symptom</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group award-type="grant">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Wellcome Trust</institution>
+                      <institution-id institution-id-type="DOI">10.13039/100010269</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>098461/Z/12/Z</award-id>
+                </award-group>
+                <award-group award-type="grant">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Sleep and Circadian Neuroscience Institute</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+                <award-group award-type="grant">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Swedish Research Council</institution>
+                      <institution-id institution-id-type="DOI">10.13039/501100004359</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>2017-00957</award-id>
+                </award-group>
+                <award-group award-type="grant">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Lupina Foundation</institution>
+                      <institution-id institution-id-type="DOI">10.13039/100010431</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+                <award-group award-type="grant">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Oak Foundation</institution>
+                      <institution-id institution-id-type="DOI">10.13039/100001275</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>OCAY-18-442</award-id>
+                </award-group>
+              </funding-group>
+              <counts>
+                <page-count count="12"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <boxed-text position="float" orientation="portrait">
+              <caption>
+                <title>Statement of Significance</title>
+              </caption>
+              <p>We know little about symptoms <italic>immediately</italic> after psychological trauma. This paper examines a core clinical symptom—intrusive memories of trauma—and sleep in patients recruited in the emergency department. Patients who slept “too much” or “too little” on their first night post-trauma reported more intrusive memories in the subsequent week. Furthermore, patients meeting criteria for posttraumatic stress disorder 2 months post-trauma had approximately three times more intrusive memories in this first week post-trauma. Monitoring sleep and intrusive memories in the first week post-trauma using a simple diary may help identify individuals who could benefit from clinical support.</p>
+            </boxed-text>
+            <sec id="s1">
+              <title>Introduction</title>
+              <p>We know little about symptoms <italic>immediately</italic> after a psychologically traumatic event and how these may relate to longer-term psychopathology. One symptom that may be a potential target for preventative interventions immediately after trauma is intrusive memories of the traumatic event. Intrusive memories are vivid, distressing mental images of the event that spring back to mind involuntarily—for example, vividly seeing in the mind’s eye the white flash of an airbag at the moment of a car crash (mental imagery). Intrusive memories of a traumatic event comprise a core clinical feature of both acute stress disorder (ASD, from 3 days to 1 month after a trauma) and posttraumatic stress disorder (PTSD, from 1 month after a trauma) [<xref rid="CIT0001" ref-type="bibr">1</xref>]. Intrusive memories, as a single symptom (as opposed to a full diagnosis), can be significantly distressing and disrupt everyday functioning as early as the first week after a traumatic event, whether or not someone has a diagnosis of ASD or PTSD [<xref rid="CIT0002" ref-type="bibr">2</xref>]. Furthermore, in the early period (on average 7 days) after trauma, intrusive memories have been centrally linked to other PTSD symptoms [<xref rid="CIT0003" ref-type="bibr">3</xref>]. Indeed, cognitive models of PTSD place intrusive memories at the center of the disorder [<xref rid="CIT0004" ref-type="bibr">4</xref>], potentially driving other symptoms, such as avoidance, negative alterations in cognitions and mood, and hyperarousal. Consequently, it has been suggested that targeting intrusive memories with early interventions may prevent PTSD from developing [<xref rid="CIT0005" ref-type="bibr">5</xref>].</p>
+              <p>Sleep on the first night after a traumatic event may be linked to the development of intrusive memories. Memory consolidation refers to the time-dependent process by which new memories become stable, lasting memories [<xref rid="CIT0006" ref-type="bibr">6</xref>]. Sleep enhances the consolidation of memory, especially emotional memory, in most [<xref rid="CIT0007" ref-type="bibr">7–12</xref>], but not all [<xref rid="CIT0013" ref-type="bibr">13</xref>], studies. Emotional memory has been postulated to comprise a declarative core of the fact/events of the memory and an emotional component of the feelings and emotions related to that memory [<xref rid="CIT0014" ref-type="bibr">14</xref>]. Sleep, especially Rapid Eye Movement (REM) sleep, has been associated with increased consolidation of the declarative core; however, findings are mixed with regard to the emotional component, with REM sleep being associated with both its downregulation [<xref rid="CIT0015" ref-type="bibr">15–19</xref>] and enhancement [<xref rid="CIT0020" ref-type="bibr">20–23</xref>]. The consolidation of memory is thought to occur over a time window of several hours after the event occurs [<xref rid="CIT0006" ref-type="bibr">6</xref>]. This, along with the majority of studies assessing sleep within hours of memory encoding (e.g. [<xref rid="CIT0007" ref-type="bibr">7–12</xref>]), suggest that the first sleep episode following an event may be the most important for its consolidation. Since intrusive memories are emotional memories of a traumatic event, it has been hypothesized that preventing sleep after a trauma could weaken trauma memories [<xref rid="CIT0024" ref-type="bibr">24</xref>, <xref rid="CIT0025" ref-type="bibr">25</xref>].</p>
+              <p>We have shown in a previous study that fewer intrusive memories to an analogue traumatic event (trauma film) were reported over the subsequent week by individuals sleep deprived on the first night following the trauma film, compared to those who slept as usual [<xref rid="CIT0026" ref-type="bibr">26</xref>]. However, subsequent studies have provided mixed findings: total sleep deprivation at home on the first night following a trauma film resulted in fewer intrusive memories on the first day (but not over the first week) after the film, compared to sleep as usual [<xref rid="CIT0027" ref-type="bibr">27</xref>]; women who remained awake (either by staying awake during the day or being sleep deprived overnight) reported more intrusive memories compared to those allowed to sleep as usual overnight [<xref rid="CIT0028" ref-type="bibr">28</xref>]; and finally, individuals who briefly napped immediately following a trauma film reported fewer intrusive memories compared to those who stayed awake [<xref rid="CIT0029" ref-type="bibr">29</xref>]. Although different methodologies make direct comparisons between these studies tentative, they have all shown a difference in the number of intrusive memories reported between individuals allowed to sleep as usual (or nap) and those who stayed awake for at least 12 h following an analogue trauma, albeit in different directions. Animal models also highlight the importance of sleep on the first night following a traumatic event. In rats, freezing to trauma cues and anxiety-like behavior (an index of time spent in the open arm on the elevated plus maze) were attenuated by total sleep deprivation during the first sleep phase (i.e. during the day for nocturnal animals) compared to sleep [<xref rid="CIT0030" ref-type="bibr">30</xref>, <xref rid="CIT0031" ref-type="bibr">31</xref>]. Freezing behavior in a fear-associated memory test during extinction recall was also correlated to less REM sleep [<xref rid="CIT0032" ref-type="bibr">32</xref>]. In humans, following a real-life trauma, sleep disturbance within the first weeks or months is associated with the development of later PTSD [<xref rid="CIT0033" ref-type="bibr">33–35</xref>], and recently sleep disturbance in the first week post-trauma has been associated with having more intrusive memories in that first week, albeit in a post hoc analysis [<xref rid="CIT0036" ref-type="bibr">36</xref>]. What remains unknown is the relationship between sleep <italic>on the first night</italic> following a real-life traumatic event and intrusive memories in the first week post-trauma. Empirical prospective assessment of sleep and intrusive memories immediately following a real-life traumatic event is lacking.</p>
+              <p>As postulated, if sleep on the first night post-trauma is important for the consolidation of the trauma memory, then it may be relevant in the development of later PTSD, as well as early intrusive memories. To date, no studies to our knowledge have examined the relationship between sleep on the first night after a trauma and later PTSD. Furthermore, little is known about the relationship between the number of intrusive memories experienced in the first week from immediately after a trauma and later PTSD, despite the fact that early intrusive memories have been raised as a possible prevention target. This is important given that the assumption underlying recent early intervention studies [<xref rid="CIT0037" ref-type="bibr">37</xref>, <xref rid="CIT0038" ref-type="bibr">38</xref>] is that reducing the number of intrusive memories in the first week post-trauma will be beneficial in reducing the likelihood of later PTSD symptoms.</p>
+              <p>The primary aim of this study was to examine the relationship between sleep duration on the first night following a real-life traumatic event and the number of intrusive memories over the subsequent week, in patients attending a hospital emergency department (ED) on the day of their trauma. Additional exploratory aims were to investigate the relationship between (1) sleep duration on the first night after the trauma and PTSD symptoms 2 months post-trauma and (2) the number of intrusive memories in the first week post-trauma and PTSD symptoms 2 months post-trauma.</p>
+            </sec>
+            <sec sec-type="materials" id="s2">
+              <title>Methods</title>
+              <sec id="s3">
+                <title>Participants</title>
+                <p>Patients presenting to the ED of the John Radcliffe Hospital, Oxford, UK were screened for eligibility by research nurses (weekdays, 08:00 am to 08:00 pm, November 2016 to December 2017; <italic>n</italic> = 976). Inclusion criteria were age at least 18 years, experienced or witnessed a traumatic event (i.e. exposure to actual or threatened death, serious injury, or sexual violence), presented to the ED on the same day as the traumatic event, reported memory of the event, fluent in written and spoken English, and alert and orientated (Glasgow Coma Scale score = 15). Exclusion criteria were loss of consciousness, history of severe mental illness, current intoxication, substance abuse, or neurological condition, or currently suicidal.</p>
+                <p>Eligibility was assessed using medical records and face-to-face interviews. Potentially eligible patients (<italic>n</italic> = 162) were approached about the study, and 62 patients declined to take part. After receiving a description of the study, 100 participants provided written informed consent. One participant was excluded from the study post hoc, due to the disclosure of a neurological condition, giving a final eligible sample of 99 participants.</p>
+                <p>Participant characteristics for those who returned study data (<italic>n</italic> = 87; see the “Procedure” section for further details) are presented in <xref rid="T1" ref-type="table">Table 1</xref> (“All participants”). Psychological responses in the ED, as well as PTSD, anxiety, and depression symptoms at 1 week and 2 months, are given in <xref rid="T2" ref-type="table">Table 2</xref> (“All participants”).</p>
+                <table-wrap id="T1" orientation="portrait" position="float">
+                  <label>Table 1.</label>
+                  <caption>
+                    <p>Participant Characteristics for All Participants Who Returned Data (<italic>n</italic> = 87) and for Those Who Completed the Intrusive Memory Diary, Reporting Zero (<italic>n</italic> = 17) or Some (One or More; <italic>n</italic> = 67) Intrusive Memories (<italic>n</italic> = 84)</p>
+                  </caption>
+                  <table frame="vsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <th align="left" rowspan="1" colspan="1"/>
+                        <th colspan="2" align="left" rowspan="1">All participants (<italic>n</italic> = 87)</th>
+                        <th colspan="2" align="left" rowspan="1">Zero intrusive memories (<italic>n</italic> = 17)</th>
+                        <th colspan="2" align="left" rowspan="1">Some intrusive memories (<italic>n</italic> = 67)</th>
+                        <th align="left" rowspan="1" colspan="1">Test value (zero vs some intrusive memories)</th>
+                        <th align="left" rowspan="1" colspan="1">
+                          <italic>p</italic>
+                        </th>
+                      </tr>
+                      <tr>
+                        <th rowspan="1" colspan="1">Demographic characteristics</th>
+                        <th rowspan="1" colspan="1">Mean (<italic>SD</italic>)</th>
+                        <th rowspan="1" colspan="1"><italic>n</italic>*</th>
+                        <th rowspan="1" colspan="1">Mean (<italic>SD</italic>)</th>
+                        <th rowspan="1" colspan="1"><italic>n</italic>*</th>
+                        <th rowspan="1" colspan="1">Mean (<italic>SD</italic>)</th>
+                        <th rowspan="1" colspan="1"><italic>n</italic>*</th>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <th rowspan="1" colspan="1"> Age (in years)</th>
+                        <th rowspan="1" colspan="1">37.86 (15.21)</th>
+                        <th rowspan="1" colspan="1">87</th>
+                        <th rowspan="1" colspan="1">44.06 (17.23)</th>
+                        <th rowspan="1" colspan="1">17</th>
+                        <th rowspan="1" colspan="1">35.33 (13.71)</th>
+                        <th rowspan="1" colspan="1">67</th>
+                        <th rowspan="1" colspan="1">−1.98<sup>†</sup></th>
+                        <th rowspan="1" colspan="1">0.047</th>
+                      </tr>
+                      <tr>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"><italic>n</italic> (%)</th>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"><italic>n</italic> (%)</th>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"><italic>n</italic> (%)</th>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"/>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Gender (female)</td>
+                        <td rowspan="1" colspan="1">41 (47.13)</td>
+                        <td rowspan="1" colspan="1">87</td>
+                        <td rowspan="1" colspan="1">5 (29.41)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">35 (52.24)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">2.83<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.092</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Ethnic group (White British)</td>
+                        <td rowspan="1" colspan="1">69 (79.31)</td>
+                        <td rowspan="1" colspan="1">87</td>
+                        <td rowspan="1" colspan="1">13 (76.47)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">54 (80.60)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">0.14<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.705</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Marital status (married/cohabiting)</td>
+                        <td rowspan="1" colspan="1">49 (56.32)</td>
+                        <td rowspan="1" colspan="1">87</td>
+                        <td rowspan="1" colspan="1">13 (76.47)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">35 (52.24)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">3.25<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.071</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Employment (employed)</td>
+                        <td rowspan="1" colspan="1">76 (88.37)</td>
+                        <td rowspan="1" colspan="1">86</td>
+                        <td rowspan="1" colspan="1">15 (88.24)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">59 (88.06)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">0.00<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.984</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Education (higher education)</td>
+                        <td rowspan="1" colspan="1">47 (55.29)</td>
+                        <td rowspan="1" colspan="1">85</td>
+                        <td rowspan="1" colspan="1">11 (64.71)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">34 (51.52)</td>
+                        <td rowspan="1" colspan="1">66</td>
+                        <td rowspan="1" colspan="1">0.95<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.330</td>
+                      </tr>
+                      <tr>
+                        <th rowspan="1" colspan="1">Pre-trauma sleep and mental health</th>
+                        <th rowspan="1" colspan="1">Mean (<italic>SD</italic>)</th>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1">Mean (<italic>SD</italic>)</th>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1">Mean (<italic>SD</italic>)</th>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <th rowspan="1" colspan="1"> Pre-trauma sleep quality (PSQI)</th>
+                        <th rowspan="1" colspan="1">4.96 (2.93)</th>
+                        <th rowspan="1" colspan="1">84</th>
+                        <th rowspan="1" colspan="1">5.18 (2.38)</th>
+                        <th rowspan="1" colspan="1">17</th>
+                        <th rowspan="1" colspan="1">4.85 (3.05)</th>
+                        <th rowspan="1" colspan="1">66</th>
+                        <th rowspan="1" colspan="1">−0.83<sup>†</sup></th>
+                        <th rowspan="1" colspan="1">0.405</th>
+                      </tr>
+                      <tr>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"><italic>n</italic> (%)</th>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"><italic>n</italic> (%)</th>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"><italic>n</italic> (%)</th>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Sleep disorder</td>
+                        <td rowspan="1" colspan="1">14 (16.28)</td>
+                        <td rowspan="1" colspan="1">86</td>
+                        <td rowspan="1" colspan="1">3 (17.65)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">10 (14.93)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">0.08<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.782</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Current/past mental illness</td>
+                        <td rowspan="1" colspan="1">27 (31.03)</td>
+                        <td rowspan="1" colspan="1">87</td>
+                        <td rowspan="1" colspan="1">6 (35.29)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">21 (31.34)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">0.10<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.755</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Family history of mental illness</td>
+                        <td rowspan="1" colspan="1">23 (26.74)</td>
+                        <td rowspan="1" colspan="1">86</td>
+                        <td rowspan="1" colspan="1">6 (35.29)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">17 (25.37)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">0.67<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.413</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Prior psychological trauma</td>
+                        <td rowspan="1" colspan="1">57 (66.28)</td>
+                        <td rowspan="1" colspan="1">86</td>
+                        <td rowspan="1" colspan="1">13 (76.47)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">43 (64.18)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">0.92<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.337</td>
+                      </tr>
+                      <tr>
+                        <th colspan="9" rowspan="1">Details of the traumatic event</th>
+                      </tr>
+                      <tr>
+                        <td colspan="9" rowspan="1"> Type of trauma</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Road traffic accident</td>
+                        <td rowspan="1" colspan="1">78 (89.66)</td>
+                        <td rowspan="1" colspan="1">87</td>
+                        <td rowspan="1" colspan="1">15 (88.24)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">61 (91.04)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">0.12<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.725</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Traumatic fall</td>
+                        <td rowspan="1" colspan="1">6 (6.90)</td>
+                        <td rowspan="1" colspan="1">87</td>
+                        <td rowspan="1" colspan="1">2 (11.76)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">3 (4.48)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">1.29<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.257</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Assault</td>
+                        <td rowspan="1" colspan="1">1 (1.15)</td>
+                        <td rowspan="1" colspan="1">87</td>
+                        <td rowspan="1" colspan="1">0 (0.00)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">1 (1.49)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">0.26<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.612</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Other injury</td>
+                        <td rowspan="1" colspan="1">2 (2.30)</td>
+                        <td rowspan="1" colspan="1">87</td>
+                        <td rowspan="1" colspan="1">0 (0.00)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">2 (2.99)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">0.52<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.471</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Brought in by ambulance</td>
+                        <td rowspan="1" colspan="1">49 (56.32)</td>
+                        <td rowspan="1" colspan="1">87</td>
+                        <td rowspan="1" colspan="1">10 (58.82)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">37 (55.22)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">0.07<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.789</td>
+                      </tr>
+                      <tr>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1">Mean (<italic>SD</italic>)</th>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1">Mean (<italic>SD</italic>)</th>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1">Mean (<italic>SD</italic>)</th>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Time of trauma (clock time)</td>
+                        <td rowspan="1" colspan="1">09:24 (2:19)</td>
+                        <td rowspan="1" colspan="1">87</td>
+                        <td rowspan="1" colspan="1">09:38 (2:21)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">09:26 (2:17)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">−0.20<sup>†</sup></td>
+                        <td rowspan="1" colspan="1">0.841</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Pulse rate in ambulance</td>
+                        <td rowspan="1" colspan="1">83.25 (17.59)</td>
+                        <td rowspan="1" colspan="1">44<sup>§</sup></td>
+                        <td rowspan="1" colspan="1">74.67 (15.18)</td>
+                        <td rowspan="1" colspan="1">9</td>
+                        <td rowspan="1" colspan="1">84.79 (17.50)</td>
+                        <td rowspan="1" colspan="1">34</td>
+                        <td rowspan="1" colspan="1">−1.30<sup>†</sup></td>
+                        <td rowspan="1" colspan="1">0.194</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Injury severity score</td>
+                        <td rowspan="1" colspan="1">2.84 (2.96)</td>
+                        <td rowspan="1" colspan="1">87</td>
+                        <td rowspan="1" colspan="1">3.59 (3.36)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">2.63 (2.78)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">−1.20<sup>†</sup></td>
+                        <td rowspan="1" colspan="1">0.231</td>
+                      </tr>
+                      <tr>
+                        <th rowspan="1" colspan="1">Treatment following the traumatic event</th>
+                        <th rowspan="1" colspan="1"><italic>n</italic> (%)</th>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"><italic>n</italic> (%)</th>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"><italic>n</italic> (%)</th>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Admitted as inpatient</td>
+                        <td rowspan="1" colspan="1">8 (9.20)</td>
+                        <td rowspan="1" colspan="1">87</td>
+                        <td rowspan="1" colspan="1">2 (11.76)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">5 (7.46)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">0.33<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.567</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Medication administered in ED</td>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Opioids</td>
+                        <td rowspan="1" colspan="1">33 (37.93)</td>
+                        <td rowspan="1" colspan="1">87</td>
+                        <td rowspan="1" colspan="1">6 (35.29)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">25 (37.31)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">0.02<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.878</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Benzodiazepines</td>
+                        <td rowspan="1" colspan="1">0 (0.00)</td>
+                        <td rowspan="1" colspan="1">87</td>
+                        <td rowspan="1" colspan="1">0 (0.00)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">0 (0.00)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">—</td>
+                        <td rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Other medication</td>
+                        <td rowspan="1" colspan="1">58 (66.67)</td>
+                        <td rowspan="1" colspan="1">87</td>
+                        <td rowspan="1" colspan="1">11 (64.71)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">45 (67.2)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">0.04<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.848</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Medication prescribed in the first week</td>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Opioids</td>
+                        <td rowspan="1" colspan="1">18 (20.69)</td>
+                        <td rowspan="1" colspan="1">87</td>
+                        <td rowspan="1" colspan="1">4 (23.53)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">13 (19.40)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">0.14<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.705</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Benzodiazepines</td>
+                        <td rowspan="1" colspan="1">3 (3.45)</td>
+                        <td rowspan="1" colspan="1">87</td>
+                        <td rowspan="1" colspan="1">1 (5.88)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">2 (2.99)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">0.33<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.565</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Other medication</td>
+                        <td rowspan="1" colspan="1">15 (17.24)</td>
+                        <td rowspan="1" colspan="1">87</td>
+                        <td rowspan="1" colspan="1">4 (23.53)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">11 (16.42)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">0.47<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.494</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="fn-0100">
+                      <p>*Number of participants who completed each measure.</p>
+                    </fn>
+                    <fn id="fn-0101">
+                      <p><sup>†</sup>Mann–Whitney U test <italic>z</italic> score.</p>
+                    </fn>
+                    <fn id="fn-0102">
+                      <p><sup>‡</sup>Pearson’s chi-squared test.</p>
+                    </fn>
+                    <fn id="fn-0103">
+                      <p><sup>§</sup>Of 49 participants who were brought in by ambulance.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <table-wrap id="T2" orientation="portrait" position="float">
+                  <label>Table 2.</label>
+                  <caption>
+                    <p>Psychological Responses Following the Traumatic Event for All Participants Who Returned Data (<italic>n</italic> = 87) and for Those Who Completed the Intrusive Memory Diary, Reporting Zero (<italic>n</italic> = 17) or Some (One or More; <italic>n</italic> = 67) Intrusive Memories (Total <italic>n</italic> = 84).</p>
+                  </caption>
+                  <table frame="vsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <th align="left" rowspan="1" colspan="1"/>
+                        <th colspan="2" align="left" rowspan="1">All participants (<italic>n</italic> = 87)</th>
+                        <th colspan="2" align="left" rowspan="1">Zero intrusive memories (<italic>n</italic> = 17)</th>
+                        <th colspan="2" align="left" rowspan="1">Some intrusive memories (<italic>n</italic> = 67)</th>
+                        <th align="left" rowspan="1" colspan="1">Test value (zero vs. some intrusive memories)</th>
+                        <th align="left" rowspan="1" colspan="1">
+                          <italic>p</italic>
+                        </th>
+                      </tr>
+                      <tr>
+                        <th rowspan="1" colspan="1">In the Emergency Department</th>
+                        <th rowspan="1" colspan="1">Mean (<italic>SD</italic>)</th>
+                        <th rowspan="1" colspan="1"><italic>n</italic>*</th>
+                        <th rowspan="1" colspan="1">Mean (<italic>SD</italic>)</th>
+                        <th rowspan="1" colspan="1"><italic>n</italic>*</th>
+                        <th rowspan="1" colspan="1">Mean (<italic>SD</italic>)</th>
+                        <th rowspan="1" colspan="1"><italic>n</italic>*</th>
+                        <th rowspan="1" colspan="1"/>
+                        <th rowspan="1" colspan="1"/>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Perceived life threat to self</td>
+                        <td rowspan="1" colspan="1">4.83 (3.42)</td>
+                        <td rowspan="1" colspan="1">86</td>
+                        <td rowspan="1" colspan="1">3.82 (2.88)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">5.09 (3.48)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">−1.38<sup>†</sup></td>
+                        <td rowspan="1" colspan="1">0.171</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Perceived life threat to someone else</td>
+                        <td rowspan="1" colspan="1">2.26 (3.44)</td>
+                        <td rowspan="1" colspan="1">86</td>
+                        <td rowspan="1" colspan="1">1.47 (2.40)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">2.52 (3.67)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">−0.89<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.374</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> ISRC score</td>
+                        <td rowspan="1" colspan="1">5.80 (3.80)</td>
+                        <td rowspan="1" colspan="1">84</td>
+                        <td rowspan="1" colspan="1">3.24 (3.40)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">6.45 (3.63)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">−3.30<sup>†</sup></td>
+                        <td rowspan="1" colspan="1">0.001</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> PDEQ score</td>
+                        <td rowspan="1" colspan="1">18.36 (7.66)</td>
+                        <td rowspan="1" colspan="1">86</td>
+                        <td rowspan="1" colspan="1">15.29 (4.58)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">19.36 (8.09)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">−1.92<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.055</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> PDI score</td>
+                        <td rowspan="1" colspan="1">17.35 (10.46)</td>
+                        <td rowspan="1" colspan="1">86</td>
+                        <td rowspan="1" colspan="1">11.12 (7.75)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">19.18 (10.46)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">−3.02<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.003</td>
+                      </tr>
+                      <tr>
+                        <th colspan="9" rowspan="1">In the first week</th>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> Total number of intrusive memories</td>
+                        <td rowspan="1" colspan="1">12.88 (18.83)</td>
+                        <td rowspan="1" colspan="1">84</td>
+                        <td rowspan="1" colspan="1">0.00 (0.00)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">16.14 (19.81)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">−6.37<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">&lt;0.001</td>
+                      </tr>
+                      <tr>
+                        <th colspan="9" rowspan="1">At 1 week</th>
+                      </tr>
+                      <tr>
+                        <td colspan="9" rowspan="1"> Impact of Event Scale−Revised</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Intrusion</td>
+                        <td rowspan="1" colspan="1">10.47 (6.52)</td>
+                        <td rowspan="1" colspan="1">86</td>
+                        <td rowspan="1" colspan="1">4.76 (2.86)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">12.07 (6.38)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">−7.00<sup>†</sup></td>
+                        <td rowspan="1" colspan="1">&lt;0.001</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Avoidance</td>
+                        <td rowspan="1" colspan="1">8.43 (6.87)</td>
+                        <td rowspan="1" colspan="1">86</td>
+                        <td rowspan="1" colspan="1">4.12 (5.51)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">9.63 (6.82)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">−3.40<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.001</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Hyperarousal</td>
+                        <td rowspan="1" colspan="1">7.96 (6.52)</td>
+                        <td rowspan="1" colspan="1">86</td>
+                        <td rowspan="1" colspan="1">3.71 (3.00)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">9.08 (6.82)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">−4.86<sup>†</sup></td>
+                        <td rowspan="1" colspan="1">&lt;0.001</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Total</td>
+                        <td rowspan="1" colspan="1">26.85 (17.68)</td>
+                        <td rowspan="1" colspan="1">86</td>
+                        <td rowspan="1" colspan="1">12.59 (9.00)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">30.78 (17.62)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">−4.25<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">&lt;0.001</td>
+                      </tr>
+                      <tr>
+                        <td colspan="9" rowspan="1"> Hospital Anxiety and Depression Scale</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Anxiety</td>
+                        <td rowspan="1" colspan="1">7.12 (4.81)</td>
+                        <td rowspan="1" colspan="1">86</td>
+                        <td rowspan="1" colspan="1">4.82 (3.34)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">7.84 (4.94)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">−2.38<sup>†</sup></td>
+                        <td rowspan="1" colspan="1">0.020</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Depression</td>
+                        <td rowspan="1" colspan="1">4.65 (4.20)</td>
+                        <td rowspan="1" colspan="1">86</td>
+                        <td rowspan="1" colspan="1">2.71 (3.02)</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">5.13 (4.33)</td>
+                        <td rowspan="1" colspan="1">67</td>
+                        <td rowspan="1" colspan="1">−2.17<sup>†</sup></td>
+                        <td rowspan="1" colspan="1">0.033</td>
+                      </tr>
+                      <tr>
+                        <th colspan="9" rowspan="1">At 2 months</th>
+                      </tr>
+                      <tr>
+                        <td colspan="9" rowspan="1"> Impact of Event Scale—Revised</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Intrusion</td>
+                        <td rowspan="1" colspan="1">5.62 (5.99)</td>
+                        <td rowspan="1" colspan="1">71</td>
+                        <td rowspan="1" colspan="1">3.38 (3.18)</td>
+                        <td rowspan="1" colspan="1">13</td>
+                        <td rowspan="1" colspan="1">6.14 (6.45)</td>
+                        <td rowspan="1" colspan="1">56</td>
+                        <td rowspan="1" colspan="1">−1.26<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.208</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Avoidance</td>
+                        <td rowspan="1" colspan="1">5.65 (6.94)</td>
+                        <td rowspan="1" colspan="1">71</td>
+                        <td rowspan="1" colspan="1">1.77 (3.03)</td>
+                        <td rowspan="1" colspan="1">13</td>
+                        <td rowspan="1" colspan="1">6.61 (7.38)</td>
+                        <td rowspan="1" colspan="1">56</td>
+                        <td rowspan="1" colspan="1">−3.00<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.003</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Hyperarousal</td>
+                        <td rowspan="1" colspan="1">5.15 (5.80)</td>
+                        <td rowspan="1" colspan="1">71</td>
+                        <td rowspan="1" colspan="1">2.77 (2.95)</td>
+                        <td rowspan="1" colspan="1">13</td>
+                        <td rowspan="1" colspan="1">5.64 (6.25)</td>
+                        <td rowspan="1" colspan="1">56</td>
+                        <td rowspan="1" colspan="1">−1.34<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.182</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Total</td>
+                        <td rowspan="1" colspan="1">16.42 (17.27)</td>
+                        <td rowspan="1" colspan="1">71</td>
+                        <td rowspan="1" colspan="1">7.92 (6.79)</td>
+                        <td rowspan="1" colspan="1">13</td>
+                        <td rowspan="1" colspan="1">18.39 (18.60)</td>
+                        <td rowspan="1" colspan="1">56</td>
+                        <td rowspan="1" colspan="1">−1.78<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.076</td>
+                      </tr>
+                      <tr>
+                        <td colspan="9" rowspan="1"> Hospital Anxiety and Depression Scale</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Anxiety</td>
+                        <td rowspan="1" colspan="1">5.11 (4.10)</td>
+                        <td rowspan="1" colspan="1">71</td>
+                        <td rowspan="1" colspan="1">3.15 (3.67)</td>
+                        <td rowspan="1" colspan="1">13</td>
+                        <td rowspan="1" colspan="1">5.55 (4.15)</td>
+                        <td rowspan="1" colspan="1">56</td>
+                        <td rowspan="1" colspan="1">−1.92<sup>†</sup></td>
+                        <td rowspan="1" colspan="1">0.060</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Depression</td>
+                        <td rowspan="1" colspan="1">3.14 (3.93)</td>
+                        <td rowspan="1" colspan="1">71</td>
+                        <td rowspan="1" colspan="1">2.15 (3.02)</td>
+                        <td rowspan="1" colspan="1">13</td>
+                        <td rowspan="1" colspan="1">3.21 (4.03)</td>
+                        <td rowspan="1" colspan="1">56</td>
+                        <td rowspan="1" colspan="1">−1.11<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.267</td>
+                      </tr>
+                      <tr>
+                        <td colspan="9" rowspan="1"> CAPS: severity scores</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Intrusion symptoms</td>
+                        <td rowspan="1" colspan="1">2.40 (2.65)</td>
+                        <td rowspan="1" colspan="1">80</td>
+                        <td rowspan="1" colspan="1">1.33 (2.55)</td>
+                        <td rowspan="1" colspan="1">15</td>
+                        <td rowspan="1" colspan="1">2.60 (2.56)</td>
+                        <td rowspan="1" colspan="1">63</td>
+                        <td rowspan="1" colspan="1">−2.42<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.015</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Avoidance symptoms</td>
+                        <td rowspan="1" colspan="1">1.04 (1.44)</td>
+                        <td rowspan="1" colspan="1">80</td>
+                        <td rowspan="1" colspan="1">0.20 (0.56)</td>
+                        <td rowspan="1" colspan="1">15</td>
+                        <td rowspan="1" colspan="1">1.24 (1.53)</td>
+                        <td rowspan="1" colspan="1">63</td>
+                        <td rowspan="1" colspan="1">−2.71<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.007</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Cognitions and mood symptoms</td>
+                        <td rowspan="1" colspan="1">2.84 (3.91)</td>
+                        <td rowspan="1" colspan="1">80</td>
+                        <td rowspan="1" colspan="1">1.00 (1.56)</td>
+                        <td rowspan="1" colspan="1">15</td>
+                        <td rowspan="1" colspan="1">3.24 (4.17)</td>
+                        <td rowspan="1" colspan="1">63</td>
+                        <td rowspan="1" colspan="1">−2.21<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.027</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Arousal and reactivity symptoms</td>
+                        <td rowspan="1" colspan="1">3.28 (3.01)</td>
+                        <td rowspan="1" colspan="1">80</td>
+                        <td rowspan="1" colspan="1">2.60 (2.59)</td>
+                        <td rowspan="1" colspan="1">15</td>
+                        <td rowspan="1" colspan="1">3.44 (3.14)</td>
+                        <td rowspan="1" colspan="1">63</td>
+                        <td rowspan="1" colspan="1">−0.83<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.405</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">  Total</td>
+                        <td rowspan="1" colspan="1">9.55 (9.11)</td>
+                        <td rowspan="1" colspan="1">80</td>
+                        <td rowspan="1" colspan="1">5.13 (4.88)</td>
+                        <td rowspan="1" colspan="1">15</td>
+                        <td rowspan="1" colspan="1">10.53 (9.55)</td>
+                        <td rowspan="1" colspan="1">63</td>
+                        <td rowspan="1" colspan="1">−2.07<sup>‡</sup></td>
+                        <td rowspan="1" colspan="1">0.038</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"><italic>n</italic> (%)</td>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"><italic>n</italic> (%)</td>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"><italic>n</italic> (%)</td>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"> CAPS: PTSD diagnostic criteria</td>
+                        <td rowspan="1" colspan="1">10.00 (12.50)</td>
+                        <td rowspan="1" colspan="1">80</td>
+                        <td rowspan="1" colspan="1">0.00 (0.00)</td>
+                        <td rowspan="1" colspan="1">15</td>
+                        <td rowspan="1" colspan="1">10.00 (15.87)</td>
+                        <td rowspan="1" colspan="1">63</td>
+                        <td rowspan="1" colspan="1">2.73<sup>§</sup></td>
+                        <td rowspan="1" colspan="1">0.098</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="fn-0104">
+                      <p>*Number of participants who completed each measure.</p>
+                    </fn>
+                    <fn id="fn-0105">
+                      <p><sup>†</sup><italic>t</italic>-test.</p>
+                    </fn>
+                    <fn id="fn-0106">
+                      <p><sup>‡</sup>Mann–Whitney U test <italic>z</italic> score.</p>
+                    </fn>
+                    <fn id="fn-0107">
+                      <p><sup>§</sup>Pearson’s chi-squared test.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec id="s4">
+                <title>Procedure</title>
+                <p>Ethical approval for the study was obtained from East Midlands—Derby National Health Service Research Ethics Committee (reference number: 16/EM/0326). The study was registered in a public trials registry before commencing recruitment (ClinicalTrials.gov Identifier: NCT03012685). After providing written consent to take part in the study, participants were given a study booklet, containing all measures to be completed while in the ED (demographics, physical and mental health, perceived life threat, Peritraumatic Dissociative Experiences Questionnaire-Self Report [PDEQ] [<xref rid="CIT0039" ref-type="bibr">39</xref>], Peritraumatic Distress Inventory [PDI] [<xref rid="CIT0040" ref-type="bibr">40</xref>], Immediate Stress Reaction Checklist [ISRC] [<xref rid="CIT0041" ref-type="bibr">41</xref>], Pittsburgh Sleep Quality Index [PSQI] [<xref rid="CIT0042" ref-type="bibr">42</xref>]); during the first week after the trauma (daily sleep and intrusive memory diary); and at the end of 1 week (Impact of Event Scale—Revised [IES-R] [<xref rid="CIT0043" ref-type="bibr">43</xref>], Hospital Anxiety and Depression Scale [HADS] [<xref rid="CIT0044" ref-type="bibr">44</xref>]). Eighty-seven participants (88%) returned the study booklet. Details of the traumatic event and treatment received following the traumatic event (including inpatient admission and medication administered) were collected from medical records following patient discharge. The severity of the physical injury, indicated by the Injury Severity Score (ISS) (range 0–75), was rated from medical records using the Abbreviated Injury Scale [<xref rid="CIT0045" ref-type="bibr">45</xref>]. Participants were also given the option of wearing an actigraph (a watch-like device assessing activity levels) for the first week after the traumatic event (<italic>n</italic> = 90 took actigraphy; <italic>n</italic> = 80, 81%, completed actigraphy). Participants were sent twice-daily automated text messages (morning and evening) reminding them to fill in the diary and were telephoned by a study investigator at the beginning and end of the first week to reinforce understanding of the study procedure. A study investigator clarified any unclear responses in the study booklet with the participant via telephone where possible. Two months after the traumatic event, participants were contacted by telephone to complete the Clinician-Administered PTSD Scale (CAPS; <italic>n</italic> = 80, 81%, completed) and asked to complete additional self-report questionnaires online or by post (IES-R and HADS; <italic>n</italic> = 71, 72% completed). After receiving the final questionnaires, participants were sent debriefing information about the study by email or post and reimbursed up to £30 (GBP) for their time. A participant flow diagram is shown in <xref ref-type="supplementary-material" rid="sup1">Supplementary Figure S1</xref>). Although sleep was also assessed in the first week following the traumatic event, only sleep on the first night is included in this analysis.</p>
+              </sec>
+              <sec id="s5">
+                <title>Measures</title>
+                <sec id="s6">
+                  <title>Participant characteristics</title>
+                  <p>A self-report questionnaire assessed demographic characteristics, current sleep disorder, current or past mental health problems, family history of mental health problems, and previous experience of psychological trauma.</p>
+                </sec>
+                <sec id="s7">
+                  <title>Perceived life threat</title>
+                  <p>Two items were used to assess perceived life threat during the trauma: “to what extent did you feel your life was in danger?” and “to what extent did you feel that someone else’s life was in danger?” (based on Ref. [<xref rid="CIT0046" ref-type="bibr">46</xref>])—each rated from 0 (not at all) to 10 (extremely).</p>
+                </sec>
+                <sec id="s8">
+                  <title>Peritraumatic Dissociative Experiences Questionnaire-Self Report</title>
+                  <p>Dissociative symptoms during the trauma were assessed using the PDEQ, a 10-item scale, with a summed global score of 10–50 [<xref rid="CIT0039" ref-type="bibr">39</xref>].</p>
+                </sec>
+                <sec id="s9">
+                  <title>Peritraumatic Distress Inventory</title>
+                  <p>Emotional responses during the trauma were assessed using the PDI, a 13-item scale, which gives a summed total score of 0–52 [<xref rid="CIT0040" ref-type="bibr">40</xref>].</p>
+                </sec>
+                <sec id="s10">
+                  <title>Immediate Stress Reaction Checklist</title>
+                  <p>Acute stress responses immediately after the trauma were assessed using the re-experiencing, avoidance and hyperarousal symptom items of the ISRC, with a summed total score ranging 0–18 [<xref rid="CIT0041" ref-type="bibr">41</xref>].</p>
+                </sec>
+                <sec id="s11">
+                  <title>Pittsburgh Sleep Quality Index</title>
+                  <p>Self-reported sleep quality for the month before the trauma, was assessed with this nine-item scale, which gives a global score of 0–21, with a score of 5 or more being indicative of poor sleep [<xref rid="CIT0042" ref-type="bibr">42</xref>].</p>
+                </sec>
+                <sec id="s12">
+                  <title>Sleep diary</title>
+                  <p>The primary measure of sleep duration was a pen-and-paper self-report sleep diary [<xref rid="CIT0047" ref-type="bibr">47</xref>]. Participants were asked to record what time they went to bed (sleep time), how long it took them to fall asleep (sleep latency), what time they woke up (wake time), and how many times they woke during the night and for how long (wake after sleep onset). If any of these items were not completed, sleep duration could not be calculated.</p>
+                </sec>
+                <sec id="s13">
+                  <title>Actigraphy</title>
+                  <p>Participants who opted to wear an actigraph (MotionWare 8; CamNtech Ltd, Cambridge, UK) were instructed to wear it on their non-dominant wrist, though the dominant wrist was used if the non-dominant arm/wrist was injured. Actigraphy data were sampled in 1 min epochs and analyzed with MotionWare software (version 1.2.14, CamNtech Ltd). Activity levels were annotated using the sleep diary data: “bedtime” and “getup time” were manually entered and “sleep start” and “sleep end” calculated automatically using high sensitivity.</p>
+                </sec>
+                <sec id="s14">
+                  <title>Intrusive memory diary</title>
+                  <p>Intrusive memories were recorded in a daily pen-and-paper diary (adapted from Refs [<xref rid="CIT0048" ref-type="bibr">48–50</xref>]) for the first week after the trauma (day 1 to day 8). Participants recorded the occurrence of an intrusive memory by ticking a box for the day and time period (getup time to midday, midday to 05:00 pm, 05:00 pm to bedtime, during the night) on which it occurred or marked “zero” if none were experienced. Intrusive memories were defined in the study booklet as “image-based memories of the incident that pop into your mind without warning. They often take the form of visual pictures in your mind’s eye e.g. like a snapshot image or film clip. They can vary from being vivid and emotional to being very short, fleeting and broken up. They can also include other senses e.g. sounds and smells such as the smell of smoke. They may or may not be triggered by something you are aware of e.g. telling someone about the incident, being back at the scene. They may include fully reliving the incident, and acting or feeling as if it was happening again, which tends to be less common. You may also have nightmares of the incident, these are intrusive memories as well.” Participants were instructed not to record memories that were deliberately recalled or general thoughts about the incident without a mental image. For participants who completed each day of the intrusive memory diary (<italic>n</italic> = 84), the sum number of intrusive memories was calculated for each day and a total number for the week from the day after the trauma (i.e. day 2 to day 8). The day of the traumatic event (day 1) was not included as this preceded sleep on the first night.</p>
+                </sec>
+                <sec id="s15">
+                  <title>Impact of Event Scale—Revised</title>
+                  <p>The IES-R was used to assess the self-reported impact of the trauma [<xref rid="CIT0043" ref-type="bibr">43</xref>]. This 22-item scale assesses symptoms over the previous 7 days. Items were summed for intrusion, avoidance, and hyperarousal subscales and to give a total score ranging from 0 to 88.</p>
+                </sec>
+                <sec id="s16">
+                  <title>Hospital Anxiety and Depression Scale</title>
+                  <p>The HADS was used to assess anxiety and depression symptoms [<xref rid="CIT0044" ref-type="bibr">44</xref>]. It is a 14-item scale (seven items each for anxiety and depression subscales). Each item is scored from 0 to 3, and a summed score ranging from 0 to 21 is calculated for each subscale.</p>
+                </sec>
+                <sec id="s17">
+                  <title>Clinician-Administered PTSD Scale for DSM-5 (CAPS-5 [<xref rid="CIT0051" ref-type="bibr">51</xref>])</title>
+                  <p>PTSD symptom severity and diagnosis were assessed about 2 months (mean 67.5 days, <italic>SD</italic> 20.01, range 53–196) following the traumatic event using the CAPS-5 [<xref rid="CIT0051" ref-type="bibr">51</xref>]. The CAPS-5 is a 30-item structured clinical interview, with a symptom severity score ranging from 0 to 80. Interviews were conducted via telephone, which has been shown to be as reliable as face-to-face interviews [<xref rid="CIT0052" ref-type="bibr">52</xref>] and digitally recorded. A randomly selected 10% of all CAPS interviews were rated by an independent assessor who was blind to the original scoring. Interrater agreement for PTSD diagnosis was 87.5%, and the intraclass correlation coefficient for the total severity score was 0.82, indicating good reliability [<xref rid="CIT0053" ref-type="bibr">53</xref>].</p>
+                </sec>
+              </sec>
+              <sec id="s18">
+                <title>Data analysis</title>
+                <sec id="s19">
+                  <title>Sleep duration calculation</title>
+                  <p>Sleep duration was calculated from self-reported sleep timings from the sleep diary: [(wake time − sleep time) − (sleep latency + wake after sleep onset)]. The primary outcome was sleep duration on the first night after the trauma (SD_N1). In addition, to investigate sleep duration relative to participants’ habitual sleep duration, the change in sleep duration from before the trauma to the first night after the trauma was calculated using question 4 of the PSQI: SD_change = [(sleep duration on first night from sleep diary) − (sleep duration before trauma from PSQI)].</p>
+                  <p>A sleep diary, as opposed to actigraphy, was chosen as the primary measure of sleep duration to limit the confound of participants having restricted movement due to potential physical injuries sustained during the traumatic event. As seen with Insomnia Disorder [<xref rid="CIT0054" ref-type="bibr">54</xref>, <xref rid="CIT0055" ref-type="bibr">55</xref>], this lack of movement could over-inflate the duration of sleep. Actigraphy, however, was used as an optional, additional measure of sleep duration to enable comparison of sleep diary and actigraphy in this population. A moderate positive correlation was found between sleep duration on the first night post-trauma from the sleep diary and from actigraphy (Pearson <italic>r</italic> = 0.462, <italic>p</italic> &lt; 0.001, <italic>n</italic> = 71), which is consistent with correlations seen within a cohort including those with Insomnia Disorder [<xref rid="CIT0055" ref-type="bibr">55</xref>].</p>
+                </sec>
+              </sec>
+              <sec id="s20">
+                <title>Power analysis</title>
+                <p>A medium effect size of <italic>r</italic> = 0.3 [<xref rid="CIT0037" ref-type="bibr">37</xref>] was estimated for the correlation coefficient between sleep duration and the total number of intrusive memories, based on the work of Porcheret et al. [<xref rid="CIT0027" ref-type="bibr">27</xref>], who found a medium effect size of Cohen’s <italic>d</italic> = 0.47 on the number of intrusive memories after experimental trauma. Based on this, the study required 85 participants for 80% power at the 5% significance level, two-tailed. The sample size was increased to 100 participants to allow for 15% attrition.</p>
+              </sec>
+              <sec id="s21">
+                <title>Management of missing data</title>
+                <p>Missing questionnaire items were pro-rated from other items in the same subscale/questionnaire where possible (i.e. mean of other items in the same subscale/questionnaire; 4 data points). Imprecisely reported sleep data (e.g. “a few minutes”) were recorded as an estimated value where appropriate (e.g. 5 min) (22 data points) or recorded as missing if an estimated value was not appropriate (e.g. “ages”) (34 data points). When imprecise intrusive memory data indicating a high number were reported (e.g. “all the time”), the highest value of intrusive memories reported by any participant for one time period was recorded (2 data points). For a missing time of trauma, time admitted to the ED was used (six participants).</p>
+              </sec>
+              <sec id="s22">
+                <title>Statistical Analysis</title>
+                <p>Statistical analyses were performed on the available data for each variable (sample sizes are given in <xref rid="T1" ref-type="table">Tables 1</xref> and <xref rid="T2" ref-type="table">2</xref>). Continuous data were assessed for normality by examining histograms and statistics of skewness and kurtosis [<xref rid="CIT0056" ref-type="bibr">56</xref>]. Parametric or nonparametric tests were used as appropriate. Between-group comparisons (<italic>t</italic>-test or Mann–Whitney U-test for continuous data; chi-squared test for categorical data) and bivariate correlations (Pearson’s or Spearman’s) were performed using SPSS version 25.</p>
+                <p>To investigate the relationship between sleep duration on the first night following the traumatic event and the total number of intrusive memories reported in the subsequent week (day 2 to day 8), we used a mixture model [<xref rid="CIT0057" ref-type="bibr">57</xref>] (in this case a zero-inflated Poisson distributed model), to deal with the greater than expected (overinflation of) zero counts in the intrusive memory data. A mixture model derives the properties of the overall population from subpopulations within the data. This approach allowed non-zero counts (one or more intrusive memories) to be modeled with a Poisson distribution, and zero counts (no intrusive memories) with a Binomial distribution within one model using the following equation:</p>
+                <disp-formula>
+                  <mml:math id="eq1">
+                    <mml:mstyle displaystyle="true">
+                      <mml:mtable columnalign="left" columnspacing="1">
+                        <mml:mtr>
+                          <mml:mtd>
+                            <mml:mstyle displaystyle="true">
+                              <mml:mo form="prefix" movablelimits="true">Pr</mml:mo>
+                              <mml:mrow>
+                                <mml:mo>(</mml:mo>
+                                <mml:mrow>
+                                  <mml:mi mathvariant="normal">I</mml:mi>
+                                  <mml:mi mathvariant="normal">M</mml:mi>
+                                </mml:mrow>
+                                <mml:mo>=</mml:mo>
+                                <mml:mi>j</mml:mi>
+                                <mml:mo>)</mml:mo>
+                              </mml:mrow>
+                              <mml:mo>=</mml:mo>
+                              <mml:mrow>
+                                <mml:mo>{</mml:mo>
+                                <mml:mtable columnalign="left">
+                                  <mml:mtr>
+                                    <mml:mtd>
+                                      <mml:mi>p</mml:mi>
+                                      <mml:mo>+</mml:mo>
+                                      <mml:mrow>
+                                        <mml:mo>(</mml:mo>
+                                        <mml:mn>1</mml:mn>
+                                        <mml:mo>−</mml:mo>
+                                        <mml:mi>p</mml:mi>
+                                        <mml:mo>)</mml:mo>
+                                      </mml:mrow>
+                                      <mml:mi>exp</mml:mi>
+                                      <mml:mrow>
+                                        <mml:mo>(</mml:mo>
+                                        <mml:mo>−</mml:mo>
+                                        <mml:mi>u</mml:mi>
+                                        <mml:mo>)</mml:mo>
+                                      </mml:mrow>
+                                      <mml:mtext> </mml:mtext>
+                                      <mml:mrow>
+                                        <mml:mi mathvariant="normal">i</mml:mi>
+                                        <mml:mi mathvariant="normal">f</mml:mi>
+                                      </mml:mrow>
+                                      <mml:mtext> </mml:mtext>
+                                      <mml:mi>j</mml:mi>
+                                      <mml:mo>=</mml:mo>
+                                      <mml:mn>0</mml:mn>
+                                    </mml:mtd>
+                                  </mml:mtr>
+                                  <mml:mtr>
+                                    <mml:mtd>
+                                      <mml:mo stretchy="false">(</mml:mo>
+                                      <mml:mn>1</mml:mn>
+                                      <mml:mo>−</mml:mo>
+                                      <mml:mi>p</mml:mi>
+                                      <mml:mo stretchy="false">)</mml:mo>
+                                      <mml:mfrac>
+                                        <mml:mrow>
+                                          <mml:mrow>
+                                            <mml:msup>
+                                              <mml:mrow>
+                                                <mml:mi>u</mml:mi>
+                                              </mml:mrow>
+                                              <mml:mrow>
+                                                <mml:mrow>
+                                                  <mml:mi mathvariant="normal">I</mml:mi>
+                                                  <mml:mi mathvariant="normal">M</mml:mi>
+                                                </mml:mrow>
+                                              </mml:mrow>
+                                            </mml:msup>
+                                          </mml:mrow>
+                                          <mml:mrow>
+                                            <mml:mi mathvariant="normal">e</mml:mi>
+                                            <mml:mi mathvariant="normal">x</mml:mi>
+                                            <mml:mi mathvariant="normal">p</mml:mi>
+                                          </mml:mrow>
+                                          <mml:mo stretchy="false">(</mml:mo>
+                                          <mml:mi>u</mml:mi>
+                                          <mml:mo stretchy="false">)</mml:mo>
+                                        </mml:mrow>
+                                        <mml:mrow>
+                                          <mml:mrow>
+                                            <mml:mi mathvariant="normal">I</mml:mi>
+                                            <mml:mi mathvariant="normal">M</mml:mi>
+                                          </mml:mrow>
+                                          <mml:mo>!</mml:mo>
+                                        </mml:mrow>
+                                      </mml:mfrac>
+                                      <mml:mtext> </mml:mtext>
+                                      <mml:mrow>
+                                        <mml:mi mathvariant="normal">i</mml:mi>
+                                        <mml:mi mathvariant="normal">f</mml:mi>
+                                      </mml:mrow>
+                                      <mml:mtext> </mml:mtext>
+                                      <mml:mi>j</mml:mi>
+                                      <mml:mo>=</mml:mo>
+                                      <mml:mn>0</mml:mn>
+                                    </mml:mtd>
+                                  </mml:mtr>
+                                </mml:mtable>
+                              </mml:mrow>
+                              <mml:mfrac>
+                                <mml:mrow>
+                                  <mml:mi>n</mml:mi>
+                                  <mml:mo>!</mml:mo>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>r</mml:mi>
+                                  <mml:mo>!</mml:mo>
+                                  <mml:mrow>
+                                    <mml:mo>(</mml:mo>
+                                    <mml:mi>n</mml:mi>
+                                    <mml:mo>−</mml:mo>
+                                    <mml:mi>r</mml:mi>
+                                    <mml:mo>)</mml:mo>
+                                  </mml:mrow>
+                                  <mml:mo>!</mml:mo>
+                                </mml:mrow>
+                              </mml:mfrac>
+                            </mml:mstyle>
+                          </mml:mtd>
+                        </mml:mtr>
+                      </mml:mtable>
+                    </mml:mstyle>
+                  </mml:math>
+                </disp-formula>
+                <p>where the probability of observing <italic>j</italic> intrusive memories (Pr(IM = <italic>j</italic>)) is split depending on whether <italic>j</italic> = 0 or <italic>j</italic> &gt; 0; different distributions are used to describe the probability of zeros (<italic>j</italic> = 0; a combination of a Binomial distribution and the zeroth term of a Poisson distribution) and the probability of not zeros (<italic>j</italic> &gt; 0; a Poisson distribution), where <italic>p</italic> is the probability of zero intrusive memories (which can occur because of a true count of zero or through other processes) and <italic>u</italic> is the expected (average) number of intrusive memories. The same model was used to investigate the relationship between the change in sleep duration from before the trauma to the first night after the trauma and the total number of intrusive memories in the subsequent week.</p>
+                <p>To investigate the temporal patterns of intrusive memories over the week, we used the mixture model framework to investigate how the number of intrusive memories (IM) on a given day (<italic>t</italic>) was influenced by the (nonlinear relationship of the) number of intrusive memories on the previous day (<italic>t</italic>−1) and sleep (<italic>S</italic>) on the previous day. The full statistical model for the time series analysis is</p>
+                <disp-formula>
+                  <mml:math id="eq2">
+                    <mml:mstyle displaystyle="true">
+                      <mml:mtable columnalign="left" columnspacing="1">
+                        <mml:mtr>
+                          <mml:mtd>
+                            <mml:mstyle displaystyle="true">
+                              <mml:mrow>
+                                <mml:mi mathvariant="normal">I</mml:mi>
+                              </mml:mrow>
+                              <mml:mrow>
+                                <mml:msub>
+                                  <mml:mrow>
+                                    <mml:mrow>
+                                      <mml:mi mathvariant="normal">M</mml:mi>
+                                    </mml:mrow>
+                                  </mml:mrow>
+                                  <mml:mrow>
+                                    <mml:mi>t</mml:mi>
+                                  </mml:mrow>
+                                </mml:msub>
+                              </mml:mrow>
+                              <mml:mo>=</mml:mo>
+                              <mml:mrow>
+                                <mml:mi mathvariant="normal">I</mml:mi>
+                              </mml:mrow>
+                              <mml:mrow>
+                                <mml:msub>
+                                  <mml:mrow>
+                                    <mml:mrow>
+                                      <mml:mi mathvariant="normal">M</mml:mi>
+                                    </mml:mrow>
+                                  </mml:mrow>
+                                  <mml:mrow>
+                                    <mml:mi>t</mml:mi>
+                                    <mml:mo>−</mml:mo>
+                                    <mml:mn>1</mml:mn>
+                                  </mml:mrow>
+                                </mml:msub>
+                              </mml:mrow>
+                              <mml:mo>+</mml:mo>
+                              <mml:mrow>
+                                <mml:msup>
+                                  <mml:mrow>
+                                    <mml:mo stretchy="false">(</mml:mo>
+                                    <mml:mrow>
+                                      <mml:mi mathvariant="normal">I</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                      <mml:msub>
+                                        <mml:mrow>
+                                          <mml:mrow>
+                                            <mml:mi mathvariant="normal">M</mml:mi>
+                                          </mml:mrow>
+                                        </mml:mrow>
+                                        <mml:mrow>
+                                          <mml:mi>t</mml:mi>
+                                          <mml:mo>−</mml:mo>
+                                          <mml:mn>1</mml:mn>
+                                        </mml:mrow>
+                                      </mml:msub>
+                                    </mml:mrow>
+                                    <mml:mo stretchy="false">)</mml:mo>
+                                  </mml:mrow>
+                                  <mml:mrow>
+                                    <mml:mn>2</mml:mn>
+                                  </mml:mrow>
+                                </mml:msup>
+                              </mml:mrow>
+                              <mml:mo>+</mml:mo>
+                              <mml:mrow>
+                                <mml:msub>
+                                  <mml:mrow>
+                                    <mml:mi>S</mml:mi>
+                                  </mml:mrow>
+                                  <mml:mrow>
+                                    <mml:mi>t</mml:mi>
+                                    <mml:mo>−</mml:mo>
+                                    <mml:mn>1</mml:mn>
+                                  </mml:mrow>
+                                </mml:msub>
+                              </mml:mrow>
+                            </mml:mstyle>
+                          </mml:mtd>
+                        </mml:mtr>
+                      </mml:mtable>
+                    </mml:mstyle>
+                  </mml:math>
+                </disp-formula>
+                <p>Mixture models and time series analyses were performed in R [<xref rid="CIT0058" ref-type="bibr">58</xref>].</p>
+                <p>To explore the relationship between sleep duration on the first night and the total number of intrusive memories in the first week with PTSD at 2 months, we used between-groups analyses to compare participants who did and did not meet CAPS PTSD criteria at 2 months on intrusive memories in the first week and sleep duration on the first night.</p>
+                <p>In line with the study of Tabachnick and Fidell [<xref rid="CIT0056" ref-type="bibr">56</xref>], and as in previous studies assessing the number of intrusive memories following real or analogue trauma exposure (e.g. the studies of Iyadurai et al. [<xref rid="CIT0038" ref-type="bibr">38</xref>] and Lau-Zhu et al. [<xref rid="CIT0059" ref-type="bibr">59</xref>], respectively), a data point that was a statistical outlier (defined as those with standardized <italic>z</italic> scores &gt;3.29), but considered to be a real value from the intended population, was retained in the analysis alongside taking a statistical approach to reduce the impact of such cases. In the study of Iyadurai et al. [<xref rid="CIT0038" ref-type="bibr">38</xref>], this was achieved by log transformation of the data and using a <italic>t</italic>-test. In our data, four statistical outliers were identified for the number of intrusive memories and were considered to be from the intended population for the following reasons: values were consistent with those in a previous study of patients recruited from a hospital ED (Ref. [<xref rid="CIT0038" ref-type="bibr">38</xref>], control group); the current study used an unselected population of ED patients exposed to trauma (rather than only those with or without a clinical diagnosis), hence a large variation including some extreme values was to be expected; values were not excessively higher than other high values in the sample; and the four cases were not outliers on other variables, suggesting the participants were not unrepresentative of the population. Our analysis used a mixture model that does not assume a normal distribution and was in fact fitted due to the heterogeneity in the data.</p>
+              </sec>
+            </sec>
+            <sec id="s23">
+              <title>Results</title>
+              <sec id="s24">
+                <title>Sleep duration</title>
+                <p>On the first night after the traumatic event, the mean sleep duration from the sleep diary was 6.98 h (<italic>SD</italic> 2.33, range 1–12.5, <italic>n</italic> = 77). The mean sleep duration prior to the traumatic event was 7.00 h (<italic>SD</italic> 1.09, range 3.5–10, <italic>n =</italic> 85) and the mean change in sleep duration from pre- to post-trauma was −0.42 h (<italic>SD</italic> 2.29, range 0–2.93, <italic>n</italic> = 77). There was no significant difference in sleep duration from pre- to post-trauma (paired <italic>t</italic>-test: <italic>t</italic> = 0.263, <italic>p</italic> = 0.793). Of note, no participants reported complete sleep deprivation on the first night from either the sleep diary or actigraphy.</p>
+              </sec>
+              <sec id="s25">
+                <title>Intrusive memories</title>
+                <p>A mean of 12.88 intrusive memories (<italic>SD</italic> 18.83, range 0–104, <italic>n</italic> = 84) was reported over the week (from the day after the trauma, which is day 2, to day 8). The time series analysis showed a significant decline in the number of intrusive memories over the course of the week: with the number of intrusive memories on one day predicting fewer the next (from day 2 to day 8; <xref ref-type="fig" rid="F1">Figure 1</xref>). For the non-zero counts the best fit time series model was IM<sub><italic>t</italic></sub> = exp (0.045 (<italic>SE</italic> = 0.093) – 0.257 (0.019) IM<sub><italic>t</italic>−1</sub> – 0.006 (0.001) (IM<sub><italic>t</italic>−1</sub>)<sup>2</sup>). For the zero counts the best-fit time series model was IM<sub><italic>t</italic></sub> = logit (1.374 (<italic>SE</italic> = 0.220) – 2.366 (0.461) IM<sub><italic>t</italic>−1</sub> + 0.091 (0.018) (IM<sub><italic>t</italic>−1</sub>)<sup>2</sup>). Sleep on the previous night did not have a significant effect for either the non-zero counts (estimate −0.003 (<italic>SE</italic> = 0.018), <italic>z</italic> = 0.160, <italic>p</italic> = 0.873) or the zero counts of intrusive memories on a given day (estimate −0.069 (<italic>SE</italic> = 0.100), <italic>z</italic> = 0.692, <italic>p</italic> = 0.489).</p>
+                <fig id="F1" orientation="portrait" position="float">
+                  <label>Figure 1.</label>
+                  <caption>
+                    <p>Frequency scattergraph showing the time course of the number of intrusive memories per day for the first week after the day of the traumatic event (day 2 to day 8). The size of the circles represents the number of participants who reported the indicated number of intrusive memories on that particular day. The solid line shows the fit of a mixture model to summarize the number of intrusive memories through the 7-day period.</p>
+                  </caption>
+                  <graphic xlink:href="zsaa033f0001"/>
+                </fig>
+              </sec>
+              <sec id="s26">
+                <title>Relationship between sleep duration and intrusive memories</title>
+                <p>The mixture model revealed a significant positive quadratic (U-shaped) relationship between sleep duration on the first night (sleep diary; SD_N1) and the total number of intrusive memories in the subsequent week for non-zero counts, that is one or more intrusive memories (total IMs = exp (3.384 (<italic>SE</italic> = 0.149) – 0.382 (0.049) SD_N1 + 0.030 (0.004) (SD_N1)<sup>2</sup>), <italic>n</italic> = 76; <xref ref-type="fig" rid="F2">Figure 2</xref>, <xref ref-type="fig" rid="F2">A</xref>), and a nonsignificant (intercept-only) relationship for zero counts, that is no intrusive memories (SD_N1 estimate 0.202 (<italic>SE</italic> = 0.557), <italic>z</italic> = 0.362, <italic>p</italic> = 0.717). This intercept-only relationship for zero counts highlights that the proportion of zeros is the best descriptor of the (over-inflated) zero counts (and it is not necessary to include any additional covariates). Derived from the mixture model, in the non-zero group, the shortest (1 h), 25% quantile (4 h), median (6.9 h), 75% quantile (9.7 h), and longest (12.5 h) sleep durations were associated with 20.74, 10.53, 8.80, 12.02, and 26.78 expected intrusive memories, respectively. The mixture model was a sufficient fit without the need for additional covariates.</p>
+                <fig id="F2" orientation="portrait" position="float">
+                  <label>Figure 2.</label>
+                  <caption>
+                    <p>Scattergraphs showing the relationship between (A) sleep duration on the first night after the traumatic event (sleep diary) and the total number of intrusive memories in the subsequent week (day 2 to day 8), and (B) change in sleep duration from before the trauma to the first night after the trauma and the total number of intrusive memories in the subsequent week (day 2 to day 8). The lines show significant positive quadratic relationships, indicating that (A) a “shorter” and “longer” sleep duration was associated with more intrusive memories than an intermediate sleep duration, and (B) a “decrease” and “increase” in sleep duration was associated with more intrusive memories than no change in sleep duration from before the traumatic event. Participants who met CAPS criteria for PTSD at 2 months are marked in red.</p>
+                  </caption>
+                  <graphic xlink:href="zsaa033f0002"/>
+                </fig>
+                <p>Sleep duration on the first night was also assessed relative to sleep duration prior to the traumatic event (SD_change). From the mixture model, a significant positive quadratic relationship was found for the relationship between the change in sleep duration pre-trauma to sleep duration on the first night after the trauma and the total number of intrusive memories in the subsequent week for non-zero counts (total IMs = exp (2.614 (<italic>SE</italic> = 0.038) – 0.029 (0.009) SD_change + 0.020 (0.002) (SD_change)<sup>2</sup>), <italic>n</italic> = 76; <xref ref-type="fig" rid="F2">Figure 2</xref>, <xref ref-type="fig" rid="F2">B</xref>) and a nonsignificant effect (intercept-only relationship) for zero counts (estimate 0.086 [<italic>SE</italic> = 0.129], <italic>z</italic> = 0.665, <italic>p</italic> = 0.506). Thus, an increase or decrease in sleep duration from pre-trauma to the first night post-trauma was associated with more intrusive memories compared to no change in sleep duration. From this mixture model, for the non-zero group, the predicted number of intrusive memories for the lowest extreme, 25% quantile, median, 75% quantile, and highest extreme in the differences in sleep were 65.75, 14.69, 13.67, 13.72, and 36.25, respectively.</p>
+              </sec>
+              <sec id="s27">
+                <title>Relationship of intrusive memories and sleep duration with CAPS assessment of PTSD at 2 months</title>
+                <p>At 2 months, 10 participants were found to have a CAPS score indicating they met the criteria for a diagnosis of PTSD, shown in red in <xref ref-type="fig" rid="F2">Figure 2</xref>. All participants who met CAPS PTSD criteria (PTSD+) had some intrusive memories in the first week (i.e. none had zero) and reported on average more intrusive memories (day 2 to day 8) than participants who did not meet CAPS PTSD criteria (PTSD−; PTSD + mean = 28.20, <italic>SD</italic> = 28.86, range = 5–104, <italic>n</italic> = 10; PSTD − mean = 9.96, <italic>SD</italic> = 13.88, range = 0–66, <italic>n</italic> = 68; Mann–Whitney U <italic>z</italic> = −3.09, <italic>p</italic> = 0.002, <italic>n</italic> = 68). No difference was seen in mean sleep duration (sleep diary) on the first night after the traumatic event or the change in sleep duration from pre- to post-trauma between participants who did and did not meet CAPS PTSD criteria (first night sleep duration: PTSD + mean = 6.92 h, <italic>SD</italic> = 2.74, <italic>n</italic> = 9; PTSD − mean = 7.03, <italic>SD</italic> = 2.25, <italic>n</italic> = 63; Mann–Whitney U <italic>z</italic> = −0.25, <italic>p</italic> = 0.805, <italic>n</italic> = 72; change in sleep duration: PTSD + mean = −0.61 h, <italic>SD</italic> = 3.25, <italic>n</italic> = 9; PTSD − mean = −0.4 h, <italic>SD</italic> = 2.57, <italic>n</italic> = 63; Mann−Whitney U <italic>z</italic> = −0.034, <italic>p</italic> = 0.973).</p>
+              </sec>
+              <sec id="s28">
+                <title>Post hoc analyses: participants with zero versus some intrusive memories</title>
+                <p>As participants with zero intrusive memories and those with some (one or more) intrusive memories were modeled separately in the mixture model, post hoc analyses were conducted to examine differences in participant characteristics and psychological responses to the trauma between these two groups (see <xref rid="T1" ref-type="table">Table 1</xref> and <xref rid="T2" ref-type="table">Table 2</xref>). Participants with some intrusive memories (<italic>n</italic> = 67), compared to those with zero intrusive memories (<italic>n</italic> = 17), were younger (see <xref rid="T1" ref-type="table">Table 1</xref>). They also had a greater immediate stress response (ISRC score) and emotional response (PDI score) in the ED; greater posttraumatic stress symptoms (IES-R scores) and anxiety and depression symptoms (HADS scores) at 1 week; and greater PTSD symptom severity (CAPS severity scores for intrusion, avoidance, and cognitions and mood symptoms and total CAPS severity score) and avoidance symptoms (IES-R avoidance subscale score) at 2 months (see <xref rid="T2" ref-type="table">Table 2</xref>). No difference was found for the other IES-R subscales (intrusion and hyperarousal) or total score, or for the arousal and reactivity symptom severity score on the CAPS at 2 months.</p>
+              </sec>
+            </sec>
+            <sec id="s29">
+              <title>Discussion</title>
+              <p>This study provides prospective, empirical assessment of sleep duration (on the first night) and intrusive memories (in the subsequent week) immediately after a psychologically traumatic event (one that met DSM-5 criteria, e.g. a traumatic motor vehicle accident, see <xref rid="T1" ref-type="table">Table 1</xref>) and later PTSD symptoms (at 2 months).</p>
+              <sec id="s30">
+                <title>Sleep duration on the first night and intrusive memories in the subsequent week</title>
+                <p>A positive quadratic (U-shaped) relationship was found between sleep duration on the first night after the traumatic event and the number of intrusive memories of that event over the subsequent week: sleeping “too little” or “too much” was associated with having more intrusive memories. Thus, a long (at the extreme 12.5 h) or short (at the extreme 1 h) sleep duration, compared to an intermediate sleep duration (6.9 h), was associated with having 26.78 and 20.74, compared to 8.80, intrusive memories, respectively. A similar pattern was seen when examining the change in sleep duration from pre- to post-trauma, with either an increase or a decrease in sleep duration being associated with more intrusive memories compared to no or little change. This suggests that the <italic>change</italic> in sleep duration compared to usual may be important as well as the overall duration of sleep in influencing the number of intrusive memories.</p>
+                <p>Our results extend findings showing that sleep disturbances <italic>in the weeks</italic> following a real-life traumatic event are associated with early intrusive memories [<xref rid="CIT0036" ref-type="bibr">36</xref>] by showing that the disruption of sleep <italic>from the very first night</italic> following a traumatic event may be associated with increased early posttraumatic symptoms. Direct comparison with experimental studies is limited, as we observed natural variation in sleep duration as opposed to distinct forced wake or sleep periods [<xref rid="CIT0026" ref-type="bibr">26–32</xref>]. Since total sleep deprivation was not seen in this clinical study, less extreme sleep schedules (reflecting natural variation in sleep duration) should be considered in future experimental studies. In comparison with the wider literature, the relationship between sleep duration and other health outcomes also often shows a U-shaped relationship; both long and short sleep durations have been associated with worse physical and mental health outcomes [<xref rid="CIT0060" ref-type="bibr">60–62</xref>]. In contrast to sleep disturbance in the weeks and months following a real-world traumatic event [<xref rid="CIT0033" ref-type="bibr">33–35</xref>], no association was found in this study between sleep duration on the first night following a traumatic event and later PTSD. The reason for this could be that sleep on the first night is not associated with the development of PTSD, or alternatively that its effect is too small to be detected in this population, possibly as a result of limited numbers of participants with extreme sleep durations. Further exploration of the extremes of sleep duration on the first night following a traumatic event could help clarify this issue.</p>
+              </sec>
+              <sec id="s31">
+                <title>Intrusive memories in the first week and CAPS assessment of PTSD at 2 months</title>
+                <p>The number of intrusive memories in the first week after trauma was approximately three times higher in participants meeting the CAPS criteria for PTSD [<xref rid="CIT0051" ref-type="bibr">51</xref>] at 2 months compared with those who did not. All participants meeting CAPS criteria for PTSD at 2 months reported a total of five or more intrusive memories in the first week, that is, none reported zero. These findings offer a first indication of the quantification of the relationship between the <italic>number</italic> of intrusive memories in the first week after trauma and the presence of later PTSD in this population. Examined another way, the absence of intrusive memories in the first week (seen in 20% of participants with intrusive memory data) was only observed in those who did not go on to later meet CAPS criteria for PTSD.</p>
+                <p>Furthermore, post hoc analyses found that participants with zero intrusive memories had lower CAPS severity scores for all PTSD symptom clusters apart from arousal symptoms at 2 months (although we note there was not a corresponding difference in scores on the IES-R intrusion subscale at 2 months, possibly reflecting the different time scales of the IES-R [past week] and CAPS [past month]). These findings must of course be treated cautiously as this study was not powered to look at predictive factors for the development of PTSD, and with only 10 participants meeting CAPS criteria for PTSD at 2 months this study has a limited sample size. Nevertheless, the strength of these observations merits further investigation and is perhaps more clinically striking than the findings on sleep duration.</p>
+                <p>A relationship between the severity of early intrusive memories (mean of 7 days post-trauma), assessed using a retrospective clinical interview, and later PTSD has been reported in previous research with injured trauma survivors [<xref rid="CIT0063" ref-type="bibr">63</xref>]. Our results extend previous findings by showing that the number of intrusive memories in the first week specifically, assessed prospectively from the day after the trauma, is associated with subsequent PTSD symptomatology.</p>
+                <p>Another consideration regarding intrusive memories in the first week and the later development of PTSD symptoms are the other factors known to predict PTSD, in particular immediate psychological reactions to the trauma such as perceived life threat, peritraumatic distress, and peritraumatic dissociation. In this study, perceived life threat was not found to differ between participants who reported some intrusive memories and those who reported zero intrusive memories, while both ISRC and PDI scores were higher in those who reported some intrusive memories. Furthermore, participants who experienced some intrusive memories, compared to none, were found to be younger on average; but other demographics, pre-trauma sleep and mental health, type and severity (as assessed by ISS) of the trauma, and medication were not found to differ between the groups. The influence of such factors should be considered in future studies.</p>
+              </sec>
+              <sec id="s32">
+                <title>Limitations</title>
+                <p>We recognize several limitations to this study. First, although retention was good (88%), it was not possible to examine if the participants who did not return their study booklet differed from the rest of the sample, as baseline data were only recorded in the study booklet. Future studies should collect baseline data before participants leave the hospital. Second, other factors could have affected sleep (e.g. medication, admission to hospital, injury severity), and this could be explored in future studies. Third, although the assessment of sleep before the traumatic event was only possible retrospectively, the use of one item from the PSQI as a comparison to the prospective sleep diary is a limitation in this study. Fourth, even though all types of trauma were eligible for inclusion in the study, road traffic accidents were the most common, limiting generalization to other trauma types. Recruitment was limited to core working hours of the research nurse team, so traumas occurring in the evening and weekends were missed. However, measures of trauma exposure (e.g. perceived life threat, peritraumatic distress) were comparable to other studies of injured patients recruited from a hospital ED [<xref rid="CIT0038" ref-type="bibr">38</xref>, <xref rid="CIT0046" ref-type="bibr">46</xref>]. Fifth, as the study was powered on the assumption of a linear relationship between sleep duration and intrusive memory frequency, we lacked sufficient numbers to examine PTSD rates in participants with extreme (long or short) compared to intermediate sleep durations. Larger studies might seek to examine this, as well as the relative impact of sleep and intrusive memories on PTSD, controlling for other known predictive factors (e.g. peritraumatic distress, peritraumatic dissociation), including age (which was found to differ between those with no vs some intrusive memories). Furthermore, the final sample size for the primary analysis was fewer than required (76 instead of the 85 estimated by the power calculation), hence the obtained power for the primary analysis was approximately 74% compared to the originally anticipated 80%. Finally, sleep characteristics other than sleep duration, for example, nighttime awakenings or REM sleep periods specifically, may be important in the development of intrusive memories, and this needs to be explored further.</p>
+              </sec>
+              <sec id="s33">
+                <title>Implications</title>
+                <p>A notable outcome of this study is that participants who met CAPS criteria for PTSD 2 months post-trauma had <italic>three times more intrusive memories</italic> in the first week post-trauma compared to participants who did not (<italic>M</italic> = 28.20 vs 9.96), and that all these participants reported at least five intrusive memories in this first week. The clinical implication of this is that monitoring intrusive memories in the first week post-trauma, with even a simple diary, may help identify people more likely to be in need of either early intervention or follow-up support. The implication for future research is that intrusive memories might be one potential target for developing early interventions after trauma. One approach to targeting intrusive memories is a brief behavioral procedure, involving a memory reminder cue followed by a visual interference task (playing the computer game Tetris), delivered within the first few hours post-trauma [<xref rid="CIT0049" ref-type="bibr">49</xref>]: recent proof-of-concept trials show a reduction in the number of intrusive memories in the first week [<xref rid="CIT0018" ref-type="bibr">18</xref>, <xref rid="CIT0019" ref-type="bibr">19</xref>]. Conversely, the absence of this core symptom as early as the first week after a traumatic event (i.e. <italic>zero intrusive memories</italic> as seen in 20% of the current sample) may identify those at low risk of later possible PTSD, who do not require early intervention. In this study, no participants with zero intrusive memories in the first week post-trauma went on to meet the CAPS criteria for PTSD at 2 months.</p>
+                <p>Regarding sleep duration immediately after the traumatic event, a very marked <italic>change</italic> in usual sleep duration on the first night post-trauma, both longer and shorter, was associated with developing more intrusive memories. Determination of the precise amount of sleep that is “too little” or “too much” for an individual following a traumatic event will require more extensive research. However, there remains possible clinical relevance for assessing patients in the immediate aftermath of trauma, for example, in acute hospital wards, where patients are already monitored overnight: asking them about sleep duration on the first night after the trauma, and if this has markedly changed compared to usual, may identify those more vulnerable to subsequent symptoms. Simple methods of monitoring sleep, and monitoring intrusive memories, such as using a self-report diary, might even hold potential for identifying those at risk of later psychopathology in the immediate aftermath of widespread global trauma such as terrorist attacks and natural disasters.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <supplementary-material content-type="local-data" id="sup1">
+                <label>zsaa033_suppl_Supplemental_material</label>
+                <media xlink:href="zsaa033_suppl_supplemental_material.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack id="a1">
+              <title>Acknowledgments</title>
+              <p>We thank Holly Coles, Alexis Espinosa, José Martinez, Domonique Georgiou, and Louise Findlay for recruiting participants to the study, Katharina Wulff for early discussions in the conception of the study, and Russell Foster for wider support as part of the Wellcome Trust Strategic Award to the SCNi.</p>
+            </ack>
+            <sec id="s0104">
+              <title>Funding</title>
+              <p>KP and LI were funded by the Wellcome Trust (Strategic Award (098461/Z/12/Z) to the Sleep and Circadian Neuroscience Institute (SCNi) at the University of Oxford to GG and EH). LI conducts occasional teaching and clinical training workshops, some of which include a personal fee. EAH receives support from the Swedish Research Council (VR) (2017-00957), the Lupina Foundation, and the Oak Foundation (OCAY-18-442). EAH receives book royalties from Oxford University Press and Guildford Press, and occasional personal fees from clinical workshops and conference keynotes, outside the submitted work. GMG holds shares in P1vital and has served as consultant, advisor, or CME speaker in the last 3 years for Allergan, Angelini, Compass Pathways, Evopharm, MSD, Janssen, Lundbeck, Medscape, Minervra, P1Vital, Pfizer, Sage, Servier, Shire, Sun Pharma. KP, MBB, SAB, and MD declare no other conflicts of interest.</p>
+              <p>Nonfinancial disclosure statement: LI is on the British Association for Behavioural and Cognitive Psychotherapies Scientific Committee and via this role is funded to attend the Annual Conference. EAH reports serving on the Board of MQ; transforming mental health, on the Editorial Advisory Board of <italic>The Lancet Psychiatry</italic>, and as Associate Editor of <italic>Behaviour Research and Therapy</italic>. GMG is an NIHR Emeritus Senior Investigator. The views expressed are those of the author(s) and not necessarily those of the NHS, the NIHR, or the Department of Health.</p>
+            </sec>
+            <sec id="s0105">
+              <title>Deposit of Material in Data Repository</title>
+              <p>Data will be made publically available via Open Science Framework at <ext-link ext-link-type="uri" xlink:href="https://osf.io/fsn2f/">https://osf.io/fsn2f/</ext-link> (with the exception of potentially identifying patient information).</p>
+            </sec>
+            <notes id="n1">
+              <p>This work was conducted at the Nuffield Department of Clinical Neuroscience and Department of Psychiatry, University of Oxford and the Emergency Department, Oxford University Hospitals NHS Foundation Trust, Oxford.</p>
+            </notes>
+            <ref-list id="r1">
+              <title>References</title>
+              <ref id="CIT0001">
+                <label>1.</label>
+                <mixed-citation publication-type="book"><collab>American Psychiatric Association.</collab><source>Diagnostic and Statistical Manual of Mental Disorders</source>. <edition>5th ed.</edition><publisher-loc>Arlington, VA</publisher-loc>: <publisher-name>American Psychiatric Publishing</publisher-name>; <year>2013</year>.</mixed-citation>
+              </ref>
+              <ref id="CIT0002">
+                <label>2.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Iyadurai</surname><given-names>L</given-names></name>, <etal>et al.</etal></person-group><article-title>Intrusive memories of trauma: a target for research bridging cognitive science and its clinical application</article-title>. <source>Clin Psychol Rev.</source><year>2019</year>;<volume>69</volume>:<fpage>67</fpage>–<lpage>82</lpage>.<pub-id pub-id-type="pmid">30293686</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0003">
+                <label>3.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bryant</surname><given-names>RA</given-names></name>, <etal>et al.</etal></person-group><article-title>Acute and chronic posttraumatic stress symptoms in the emergence of posttraumatic stress disorder: a network analysis</article-title>. <source>JAMA Psychiatry.</source><year>2017</year>;<volume>74</volume>(<issue>2</issue>):<fpage>135</fpage>–<lpage>142</lpage>.<pub-id pub-id-type="pmid">28002832</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0004">
+                <label>4.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Brewin</surname><given-names>CR</given-names></name>, <etal>et al.</etal></person-group><article-title>Psychological theories of posttraumatic stress disorder</article-title>. <source>Clin Psychol Rev.</source><year>2003</year>;<volume>23</volume>(<issue>3</issue>):<fpage>339</fpage>–<lpage>376</lpage>.<pub-id pub-id-type="pmid">12729677</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0005">
+                <label>5.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>McNally</surname><given-names>RJ</given-names></name></person-group><article-title>Networks and nosology in posttraumatic stress disorder</article-title>. <source>JAMA Psychiatry.</source><year>2017</year>;<volume>74</volume>(<issue>2</issue>):<fpage>124</fpage>–<lpage>125</lpage>.<pub-id pub-id-type="pmid">27973667</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0006">
+                <label>6.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>McGaugh</surname><given-names>JL</given-names></name></person-group><article-title>Memory—a century of consolidation</article-title>. <source>Science.</source><year>2000</year>;<volume>287</volume>(<issue>5451</issue>):<fpage>248</fpage>–<lpage>251</lpage>.<pub-id pub-id-type="pmid">10634773</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0007">
+                <label>7.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Wagner</surname><given-names>U</given-names></name>, <etal>et al.</etal></person-group><article-title>Emotional memory formation is enhanced across sleep intervals with high amounts of rapid eye movement sleep</article-title>. <source>Learn Mem.</source><year>2001</year>;<volume>8</volume>(<issue>2</issue>):<fpage>112</fpage>–<lpage>119</lpage>.<pub-id pub-id-type="pmid">11274257</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0008">
+                <label>8.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Nishida</surname><given-names>M</given-names></name>, <etal>et al.</etal></person-group><article-title>REM sleep, prefrontal theta, and the consolidation of human emotional memory</article-title>. <source>Cereb Cortex.</source><year>2009</year>;<volume>19</volume>(<issue>5</issue>):<fpage>1158</fpage>–<lpage>1166</lpage>.<pub-id pub-id-type="pmid">18832332</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0009">
+                <label>9.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Groch</surname><given-names>S</given-names></name>, <etal>et al.</etal></person-group><article-title>The role of REM sleep in the processing of emotional memories: evidence from behavior and event-related potentials</article-title>. <source>Neurobiol Learn Mem.</source><year>2013</year>;<volume>99</volume>:<fpage>1</fpage>–<lpage>9</lpage>.<pub-id pub-id-type="pmid">23123802</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0010">
+                <label>10.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Payne</surname><given-names>JD</given-names></name>, <etal>et al.</etal></person-group><article-title>Sleep preferentially enhances memory for emotional components of scenes</article-title>. <source>Psychol Sci.</source><year>2008</year>;<volume>19</volume>(<issue>8</issue>):<fpage>781</fpage>–<lpage>788</lpage>.<pub-id pub-id-type="pmid">18816285</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0011">
+                <label>11.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Payne</surname><given-names>JD</given-names></name>, <etal>et al.</etal></person-group><article-title>Sleep promotes lasting changes in selective memory for emotional scenes</article-title>. <source>Front Integr Neurosci.</source><year>2012</year>;<volume>6</volume>:<fpage>108</fpage>.<pub-id pub-id-type="pmid">23181013</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0012">
+                <label>12.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ditye</surname><given-names>T</given-names></name>, <etal>et al.</etal></person-group><article-title>Sleep facilitates long-term face adaptation</article-title>. <source>Proc Biol Sci.</source><year>2013</year>;<volume>280</volume>(<issue>1769</issue>):<fpage>20131698</fpage>.<pub-id pub-id-type="pmid">23986109</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0013">
+                <label>13.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ackermann</surname><given-names>S</given-names></name>, <etal>et al.</etal></person-group><article-title>No associations between interindividual differences in sleep parameters and episodic memory consolidation</article-title>. <source>Sleep.</source><year>2015</year>;<volume>38</volume>(<issue>6</issue>):<fpage>951</fpage>–<lpage>959</lpage>.<pub-id pub-id-type="pmid">25325488</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0014">
+                <label>14.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Walker</surname><given-names>MP</given-names></name>, <etal>et al.</etal></person-group><article-title>Overnight therapy? The role of sleep in emotional brain processing</article-title>. <source>Psychol Bull.</source><year>2009</year>;<volume>135</volume>(<issue>5</issue>):<fpage>731</fpage>–<lpage>748</lpage>.<pub-id pub-id-type="pmid">19702380</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0015">
+                <label>15.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Rosales-Lagarde</surname><given-names>A</given-names></name>, <etal>et al.</etal></person-group><article-title>Enhanced emotional reactivity after selective REM sleep deprivation in humans: an fMRI study</article-title>. <source>Front Behav Neurosci.</source><year>2012</year>;<volume>6</volume>:<fpage>25</fpage>.<pub-id pub-id-type="pmid">22719723</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0016">
+                <label>16.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Gujar</surname><given-names>N</given-names></name>, <etal>et al.</etal></person-group><article-title>A role for REM sleep in recalibrating the sensitivity of the human brain to specific emotions</article-title>. <source>Cereb Cortex.</source><year>2011</year>;<volume>21</volume>(<issue>1</issue>):<fpage>115</fpage>–<lpage>123</lpage>.<pub-id pub-id-type="pmid">20421251</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0017">
+                <label>17.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Pace-Schott</surname><given-names>EF</given-names></name>, <etal>et al.</etal></person-group><article-title>Napping promotes inter-session habituation to emotional stimuli</article-title>. <source>Neurobiol Learn Mem.</source><year>2011</year>;<volume>95</volume>(<issue>1</issue>):<fpage>24</fpage>–<lpage>36</lpage>.<pub-id pub-id-type="pmid">20969968</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0018">
+                <label>18.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>van der Helm</surname><given-names>E</given-names></name>, <etal>et al.</etal></person-group><article-title>REM sleep depotentiates amygdala activity to previous emotional experiences</article-title>. <source>Curr Biol.</source><year>2011</year>;<volume>21</volume>(<issue>23</issue>):<fpage>2029</fpage>–<lpage>2032</lpage>.<pub-id pub-id-type="pmid">22119526</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0019">
+                <label>19.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Cunningham</surname><given-names>TJ</given-names></name>, <etal>et al.</etal></person-group><article-title>Psychophysiological arousal at encoding leads to reduced reactivity but enhanced emotional memory following sleep</article-title>. <source>Neurobiol Learn Mem.</source><year>2014</year>;<volume>114</volume>:<fpage>155</fpage>–<lpage>164</lpage>.<pub-id pub-id-type="pmid">24952130</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0020">
+                <label>20.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Werner</surname><given-names>GG</given-names></name>, <etal>et al.</etal></person-group><article-title>Pre- to postsleep change in psychophysiological reactivity to emotional films: late-night REM sleep is associated with attenuated emotional processing</article-title>. <source>Psychophysiology.</source><year>2015</year>;<volume>52</volume>(<issue>6</issue>):<fpage>813</fpage>–<lpage>825</lpage>.<pub-id pub-id-type="pmid">25588962</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0021">
+                <label>21.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Wagner</surname><given-names>U</given-names></name>, <etal>et al.</etal></person-group><article-title>Changes in emotional responses to aversive pictures across periods rich in slow-wave sleep versus rapid eye movement sleep</article-title>. <source>Psychosom Med.</source><year>2002</year>;<volume>64</volume>(<issue>4</issue>):<fpage>627</fpage>–<lpage>634</lpage>.<pub-id pub-id-type="pmid">12140353</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0022">
+                <label>22.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lara-Carrasco</surname><given-names>J</given-names></name>, <etal>et al.</etal></person-group><article-title>Overnight emotional adaptation to negative stimuli is altered by REM sleep deprivation and is correlated with intervening dream emotions</article-title>. <source>J Sleep Res.</source><year>2009</year>;<volume>18</volume>(<issue>2</issue>):<fpage>178</fpage>–<lpage>187</lpage>.<pub-id pub-id-type="pmid">19645964</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0023">
+                <label>23.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Gilson</surname><given-names>M</given-names></name>, <etal>et al.</etal></person-group><article-title>REM-enriched naps are associated with memory consolidation for sad stories and enhance mood-related reactivity</article-title>. <source>Brain Sci</source>. <year>2015</year>;<volume>6</volume>(<issue>1</issue>).:<fpage>1</fpage>–<lpage>18</lpage></mixed-citation>
+              </ref>
+              <ref id="CIT0024">
+                <label>24.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Pace-Schott</surname><given-names>EF</given-names></name></person-group><article-title>Analog flashbacks</article-title>. <source>Sleep.</source><year>2015</year>;<volume>38</volume>(<issue>7</issue>):<fpage>997</fpage>–<lpage>999</lpage>.<pub-id pub-id-type="pmid">26085293</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0025">
+                <label>25.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Wagner</surname><given-names>U</given-names></name>, <etal>et al.</etal></person-group><article-title>Brief sleep after learning keeps emotional memories alive for years</article-title>. <source>Biol Psychiatry.</source><year>2006</year>;<volume>60</volume>(<issue>7</issue>):<fpage>788</fpage>–<lpage>790</lpage>.<pub-id pub-id-type="pmid">16806090</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0026">
+                <label>26.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Porcheret</surname><given-names>K</given-names></name>, <etal>et al.</etal></person-group><article-title>Psychological effect of an analogue traumatic event reduced by sleep deprivation</article-title>. <source>Sleep.</source><year>2015</year>;<volume>38</volume>(<issue>7</issue>):<fpage>1017</fpage>–<lpage>1025</lpage>.<pub-id pub-id-type="pmid">26118556</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0027">
+                <label>27.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Porcheret</surname><given-names>K</given-names></name>, <etal>et al.</etal></person-group><article-title>Investigation of the impact of total sleep deprivation at home on the number of intrusive memories to an analogue trauma</article-title>. <source>Transl Psychiatry.</source><year>2019</year>;<volume>9</volume>(<issue>1</issue>):<fpage>104</fpage>.<pub-id pub-id-type="pmid">30814485</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0028">
+                <label>28.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kleim</surname><given-names>B</given-names></name>, <etal>et al.</etal></person-group><article-title>Effects of sleep after experimental trauma on intrusive emotional memories</article-title>. <source>Sleep.</source><year>2016</year>;<volume>39</volume>(<issue>12</issue>):<fpage>2125</fpage>–<lpage>2132</lpage>.<pub-id pub-id-type="pmid">27748249</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0029">
+                <label>29.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Woud</surname><given-names>ML</given-names></name>, <etal>et al.</etal></person-group><article-title>Does napping enhance the effects of cognitive bias modification-appraisal training? An experimental study</article-title>. <source>PLoS One.</source><year>2018</year>;<volume>13</volume>(<issue>2</issue>):<fpage>e0192837</fpage>.<pub-id pub-id-type="pmid">29447217</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0030">
+                <label>30.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Cohen</surname><given-names>S</given-names></name>, <etal>et al.</etal></person-group><article-title>Preventing sleep on the first resting phase following a traumatic event attenuates anxiety-related responses</article-title>. <source>Behav Brain Res.</source><year>2017</year>;<volume>320</volume>:<fpage>450</fpage>–<lpage>456</lpage>.<pub-id pub-id-type="pmid">27789342</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0031">
+                <label>31.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Cohen</surname><given-names>S</given-names></name>, <etal>et al.</etal></person-group><article-title>Post-exposure sleep deprivation facilitates correctly timed interactions between glucocorticoid and adrenergic systems, which attenuate traumatic stress responses</article-title>. <source>Neuropsychopharmacology.</source><year>2012</year>;<volume>37</volume>(<issue>11</issue>):<fpage>2388</fpage>–<lpage>2404</lpage>.<pub-id pub-id-type="pmid">22713910</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0032">
+                <label>32.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Vanderheyden</surname><given-names>WM</given-names></name>, <etal>et al.</etal></person-group><article-title>Sleep alterations following exposure to stress predict fear-associated memory impairments in a rodent model of PTSD</article-title>. <source>Exp Brain Res.</source><year>2015</year>;<volume>233</volume>(<issue>8</issue>):<fpage>2335</fpage>–<lpage>2346</lpage>.<pub-id pub-id-type="pmid">26019008</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0033">
+                <label>33.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Koren</surname><given-names>D</given-names></name>, <etal>et al.</etal></person-group><article-title>Sleep complaints as early predictors of posttraumatic stress disorder: a 1-year prospective study of injured survivors of motor vehicle accidents</article-title>. <source>Am J Psychiatry.</source><year>2002</year>;<volume>159</volume>(<issue>5</issue>):<fpage>855</fpage>–<lpage>857</lpage>.<pub-id pub-id-type="pmid">11986142</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0034">
+                <label>34.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Mellman</surname><given-names>TA</given-names></name>, <etal>et al.</etal></person-group><article-title>REM sleep and the early development of posttraumatic stress disorder</article-title>. <source>Am J Psychiatry.</source><year>2002</year>;<volume>159</volume>(<issue>10</issue>):<fpage>1696</fpage>–<lpage>1701</lpage>.<pub-id pub-id-type="pmid">12359675</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0035">
+                <label>35.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Mellman</surname><given-names>TA</given-names></name>, <etal>et al.</etal></person-group><article-title>Relationships between REM sleep findings and PTSD symptoms during the early aftermath of trauma</article-title>. <source>J Trauma Stress.</source><year>2007</year>;<volume>20</volume>(<issue>5</issue>):<fpage>893</fpage>–<lpage>901</lpage>.<pub-id pub-id-type="pmid">17955526</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0036">
+                <label>36.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Luik</surname><given-names>AI</given-names></name>, <etal>et al.</etal></person-group><article-title>Sleep disturbance and intrusive memories after presenting to the emergency department following a traumatic motor vehicle accident: an exploratory analysis</article-title>. <source>Eur J Psychotraumatol.</source><year>2019</year>;<volume>10</volume>(<issue>1</issue>):<fpage>1556550</fpage>.<pub-id pub-id-type="pmid">30693073</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0037">
+                <label>37.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Horsch</surname><given-names>A</given-names></name>, <etal>et al.</etal></person-group><article-title>Reducing intrusive traumatic memories after emergency caesarean section: a proof-of-principle randomized controlled study</article-title>. <source>Behav Res Ther.</source><year>2017</year>;<volume>94</volume>:<fpage>36</fpage>–<lpage>47</lpage>.<pub-id pub-id-type="pmid">28453969</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0038">
+                <label>38.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Iyadurai</surname><given-names>L</given-names></name>, <etal>et al.</etal></person-group><article-title>Preventing intrusive memories after trauma via a brief intervention involving Tetris computer game play in the emergency department: a proof-of-concept randomized controlled trial</article-title>. <source>Mol Psychiatry.</source><year>2018</year>;<volume>23</volume>(<issue>3</issue>):<fpage>674</fpage>–<lpage>682</lpage>.<pub-id pub-id-type="pmid">28348380</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0039">
+                <label>39.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Marmar</surname><given-names>CR</given-names></name>, <name name-style="western"><surname>Weiss</surname><given-names>DS</given-names></name>, <name name-style="western"><surname>Metzler</surname><given-names>TJ</given-names></name></person-group><article-title>The peritraumatic dissociative experiences questionnaire</article-title>. In: <person-group person-group-type="editor"><name name-style="western"><surname>Wilson</surname><given-names>JP</given-names></name>, <name name-style="western"><surname>Keane</surname><given-names>TM</given-names></name></person-group>, eds. <source>Assessing Psychological Trauma and PTSD</source>. <publisher-loc>New York, NY</publisher-loc>: <publisher-name>Guilford Press</publisher-name>; <year>1997</year>: <fpage>412</fpage>–<lpage>428</lpage>.</mixed-citation>
+              </ref>
+              <ref id="CIT0040">
+                <label>40.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Brunet</surname><given-names>A</given-names></name>, <etal>et al.</etal></person-group><article-title>The peritraumatic distress inventory: a proposed measure of PTSD criterion A2</article-title>. <source>Am J Psychiatry.</source><year>2001</year>;<volume>158</volume>(<issue>9</issue>):<fpage>1480</fpage>–<lpage>1485</lpage>.<pub-id pub-id-type="pmid">11532735</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0041">
+                <label>41.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Fein</surname><given-names>JA</given-names></name>, <etal>et al.</etal></person-group><article-title>Emergency department evaluation of acute stress disorder symptoms in violently injured youths</article-title>. <source>Ann Emerg Med.</source><year>2001</year>;<volume>38</volume>(<issue>4</issue>):<fpage>391</fpage>–<lpage>396</lpage>.<pub-id pub-id-type="pmid">11574795</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0042">
+                <label>42.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Buysse</surname><given-names>DJ</given-names></name>, <etal>et al.</etal></person-group><article-title>The pittsburgh sleep quality index: a new instrument for psychiatric practice and research</article-title>. <source>Psychiatry Res.</source><year>1989</year>;<volume>28</volume>(<issue>2</issue>):<fpage>193</fpage>–<lpage>213</lpage>.<pub-id pub-id-type="pmid">2748771</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0043">
+                <label>43.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Weiss</surname><given-names>DS</given-names></name>, <name name-style="western"><surname>Marmar</surname><given-names>CR</given-names></name></person-group><article-title>The impact of event scale—revised.</article-title> . In: <person-group person-group-type="editor"><name name-style="western"><surname>Wilson</surname><given-names>JP</given-names></name>, <name name-style="western"><surname>Keane</surname><given-names>TM</given-names></name></person-group>, eds. <source>Assessing Psychological Trauma and PTSD</source>. <publisher-loc>New York, NY</publisher-loc>: <publisher-name>Guilford Press</publisher-name>; <year>1997</year>: <fpage>399</fpage>–<lpage>411</lpage>.</mixed-citation>
+              </ref>
+              <ref id="CIT0044">
+                <label>44.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Zigmond</surname><given-names>AS</given-names></name>, <etal>et al.</etal></person-group><article-title>The hospital anxiety and depression scale</article-title>. <source>Acta Psychiatr Scand.</source><year>1983</year>;<volume>67</volume>(<issue>6</issue>):<fpage>361</fpage>–<lpage>370</lpage>.<pub-id pub-id-type="pmid">6880820</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0045">
+                <label>45.</label>
+                <mixed-citation publication-type="book"><collab>Association of Advancement for Automotive Medicine.</collab><source>The Abbreviated Injury Scale 2005 Update 2008</source>. <publisher-loc>Barrington, IL</publisher-loc>: <publisher-name>Association of Advancement for Automotive Medicine</publisher-name>; <year>2008</year>.</mixed-citation>
+              </ref>
+              <ref id="CIT0046">
+                <label>46.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Blanchard</surname><given-names>EB</given-names></name>, <etal>et al.</etal></person-group><article-title>Psychiatric morbidity associated with motor vehicle accidents</article-title>. <source>J Nerv Ment Dis.</source><year>1995</year>;<volume>183</volume>(<issue>8</issue>):<fpage>495</fpage>–<lpage>504</lpage>.<pub-id pub-id-type="pmid">7643060</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0047">
+                <label>47.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Carney</surname><given-names>CE</given-names></name>, <etal>et al.</etal></person-group><article-title>The consensus sleep diary: standardizing prospective sleep self-monitoring</article-title>. <source>Sleep.</source><year>2012</year>;<volume>35</volume>(<issue>2</issue>):<fpage>287</fpage>–<lpage>302</lpage>.<pub-id pub-id-type="pmid">22294820</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0048">
+                <label>48.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Holmes</surname><given-names>EA</given-names></name>, <etal>et al.</etal></person-group><article-title>Can playing the computer game “Tetris” reduce the build-up of flashbacks for trauma? A proposal from cognitive science</article-title>. <source>PLoS One.</source><year>2009</year>;<volume>4</volume>(<issue>1</issue>):<fpage>e4153</fpage>.<pub-id pub-id-type="pmid">19127289</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0049">
+                <label>49.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Holmes</surname><given-names>EA</given-names></name>, <etal>et al.</etal></person-group><article-title>Key steps in developing a cognitive vaccine against traumatic flashbacks: visuospatial Tetris versus verbal Pub Quiz</article-title>. <source>PLoS One.</source><year>2010</year>;<volume>5</volume>(<issue>11</issue>):<fpage>e13706</fpage>.<pub-id pub-id-type="pmid">21085661</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0050">
+                <label>50.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>James</surname><given-names>EL</given-names></name>, <etal>et al.</etal></person-group><article-title>Computer game play reduces intrusive memories of experimental trauma via reconsolidation-update mechanisms</article-title>. <source>Psychol Sci.</source><year>2015</year>;<volume>26</volume>(<issue>8</issue>):<fpage>1201</fpage>–<lpage>1215</lpage>.<pub-id pub-id-type="pmid">26133572</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0051">
+                <label>51.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Weathers</surname><given-names>FW</given-names></name>, <etal>et al.</etal></person-group><source>The Clinician-Administered PTSD Scale for DSM-5 (CAPS-5)</source> [Assessment]. 2013. Available from <uri xlink:type="simple" xlink:href="http://www.ptsd.va.gov.">www.ptsd.va.gov.</uri></mixed-citation>
+              </ref>
+              <ref id="CIT0052">
+                <label>52.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Aziz</surname><given-names>MA</given-names></name>, <etal>et al.</etal></person-group><article-title>Comparability of telephone and face-to-face interviews in assessing patients with posttraumatic stress disorder</article-title>. <source>J Psychiatr Pract.</source><year>2004</year>;<volume>10</volume>(<issue>5</issue>):<fpage>307</fpage>–<lpage>313</lpage>.<pub-id pub-id-type="pmid">15361745</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0053">
+                <label>53.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Koo</surname><given-names>TK</given-names></name>, <etal>et al.</etal></person-group><article-title>A guideline of selecting and reporting intraclass correlation coefficients for reliability research</article-title>. <source>J Chiropr Med.</source><year>2016</year>;<volume>15</volume>(<issue>2</issue>):<fpage>155</fpage>–<lpage>163</lpage>.<pub-id pub-id-type="pmid">27330520</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0054">
+                <label>54.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Chambers</surname><given-names>MJ</given-names></name></person-group><article-title>Actigraphy and insomnia: a closer look. Part 1</article-title>. <source>Sleep.</source><year>1994</year>;<volume>17</volume>(<issue>5</issue>):<fpage>405</fpage>–<lpage>8</lpage>; <lpage>discussion 408</lpage>.<pub-id pub-id-type="pmid">7880249</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0055">
+                <label>55.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Maich</surname><given-names>KHG</given-names></name>, <etal>et al.</etal></person-group><article-title>Psychometric properties of the consensus sleep diary in those with insomnia disorder</article-title>. <source>Behav Sleep Med.</source><year>2018</year>;<volume>16</volume>(<issue>2</issue>):<fpage>117</fpage>–<lpage>134</lpage>.<pub-id pub-id-type="pmid">27231885</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0056">
+                <label>56.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Tabachnick</surname><given-names>BG</given-names></name>, <etal>et al.</etal></person-group><source>Using Multivariate Statistics</source>. <edition>6th ed.</edition><publisher-loc>Boston, MA</publisher-loc>: <publisher-name>Pearson Education Inc</publisher-name>; <year>2013</year>: <fpage>73</fpage>.</mixed-citation>
+              </ref>
+              <ref id="CIT0057">
+                <label>57.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Cameron</surname><given-names>AC</given-names></name>, <etal>et al.</etal></person-group><source>Regression Analysis of Count Data</source>. <edition>2nd ed.</edition><publisher-loc>Cambridge</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>; <year>2013</year>.</mixed-citation>
+              </ref>
+              <ref id="CIT0058">
+                <label>58.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Team</surname><given-names>RC.</given-names></name></person-group><source>R: A Language and Environment for Statistical Computing</source>. <publisher-loc>Vienna, Austria</publisher-loc>: <publisher-name>R Foundation for Statistical Computing</publisher-name>; <year>2016</year>.</mixed-citation>
+              </ref>
+              <ref id="CIT0059">
+                <label>59.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lau-Zhu</surname><given-names>A</given-names></name>, <etal>et al.</etal></person-group><article-title>Intrusive memories and voluntary memory of a trauma film: differential effects of a cognitive interference task after encoding</article-title>. <source>J Exp Psychol Gen.</source><year>2019</year>;<volume>148</volume>(<issue>12</issue>):<fpage>2154</fpage>–<lpage>2180</lpage>.<pub-id pub-id-type="pmid">31021150</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0060">
+                <label>60.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Watson</surname><given-names>NF</given-names></name>, <etal>et al.</etal></person-group><article-title>Recommended amount of sleep for a healthy adult: a joint consensus statement of the American Academy of Sleep Medicine and Sleep Research Society</article-title>. <source>Sleep.</source><year>2015</year>;<volume>38</volume>(<issue>6</issue>):<fpage>843</fpage>–<lpage>844</lpage>.<pub-id pub-id-type="pmid">26039963</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0061">
+                <label>61.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Stranges</surname><given-names>S</given-names></name>, <etal>et al.</etal></person-group><article-title>Correlates of short and long sleep duration: a cross-cultural comparison between the United Kingdom and the United States: the Whitehall II Study and the Western New York Health Study</article-title>. <source>Am J Epidemiol.</source><year>2008</year>;<volume>168</volume>(<issue>12</issue>):<fpage>1353</fpage>–<lpage>1364</lpage>.<pub-id pub-id-type="pmid">18945686</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0062">
+                <label>62.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Youngstedt</surname><given-names>SD</given-names></name>, <etal>et al.</etal></person-group><article-title>Long sleep and mortality: rationale for sleep restriction</article-title>. <source>Sleep Med Rev.</source><year>2004</year>;<volume>8</volume>(<issue>3</issue>):<fpage>159</fpage>–<lpage>174</lpage>.<pub-id pub-id-type="pmid">15144959</pub-id></mixed-citation>
+              </ref>
+              <ref id="CIT0063">
+                <label>63.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Creamer</surname><given-names>M</given-names></name>, <etal>et al.</etal></person-group><article-title>The relationship between acute stress disorder and posttraumatic stress disorder in severely injured trauma survivors</article-title>. <source>Behav Res Ther.</source><year>2004</year>;<volume>42</volume>(<issue>3</issue>):<fpage>315</fpage>–<lpage>328</lpage>.<pub-id pub-id-type="pmid">14975772</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

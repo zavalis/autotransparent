@@ -1,0 +1,1965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:04:22Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6507069" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6507069</identifier>
+        <datestamp>2019-05-13</datestamp>
+        <setSpec>bmcpsyc</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMC Psychiatry</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMC Psychiatry</journal-id>
+              <journal-title-group>
+                <journal-title>BMC Psychiatry</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1471-244X</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6507069</article-id>
+              <article-id pub-id-type="pmcid">PMC6507069</article-id>
+              <article-id pub-id-type="pmc-uid">6507069</article-id>
+              <article-id pub-id-type="pmid">31072317</article-id>
+              <article-id pub-id-type="publisher-id">2129</article-id>
+              <article-id pub-id-type="doi">10.1186/s12888-019-2129-0</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Study Protocol</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Treating repetitive suicidal intrusions using eye movements: study protocol for a multicenter randomized clinical trial</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>van Bentum</surname>
+                    <given-names>J. S.</given-names>
+                  </name>
+                  <address>
+                    <phone>+31 (0)20 598 5950</phone>
+                    <email>j.s.van.bentum@vu.nl</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Sijbrandij</surname>
+                    <given-names>M.</given-names>
+                  </name>
+                  <address>
+                    <email>e.m.sijbrandij@vu.nl</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kerkhof</surname>
+                    <given-names>A. J. F. M.</given-names>
+                  </name>
+                  <address>
+                    <email>ajfm.kerkhof@vu.nl</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Huisman</surname>
+                    <given-names>A.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Arntz</surname>
+                    <given-names>A. R.</given-names>
+                  </name>
+                  <address>
+                    <email>A.R.Arntz@uva.nl</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Holmes</surname>
+                    <given-names>E. A.</given-names>
+                  </name>
+                  <address>
+                    <email>Emily.holmes@psyk.uu.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Franx</surname>
+                    <given-names>G.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mokkenstorm</surname>
+                    <given-names>J.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Huibers</surname>
+                    <given-names>M. J. H.</given-names>
+                  </name>
+                  <address>
+                    <email>m.j.h.huibers@vu.nl</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff8">8</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1754 9227</institution-id><institution-id institution-id-type="GRID">grid.12380.38</institution-id><institution>Department of Clinical, Neuro- and Developmental Psychology, Amsterdam Public Health Research Institute, </institution><institution>Vrije Universiteit Amsterdam, </institution></institution-wrap>Van der Boechorststraat 7, 1081 BT Amsterdam, The Netherlands </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000000084992262</institution-id><institution-id institution-id-type="GRID">grid.7177.6</institution-id><institution>Department of Clinical Psychology, </institution><institution>Universiteit van Amsterdam, </institution></institution-wrap>Nieuwe Achtergracht 129, 1018 WS Amsterdam, The Netherlands </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1936 9457</institution-id><institution-id institution-id-type="GRID">grid.8993.b</institution-id><institution>Department of Psychology, </institution><institution>University of Uppsala, </institution></institution-wrap>Campus Blåsenhus, Von Kraemers allé 1A och 1C, Uppsala, Sweden </aff>
+                <aff id="Aff4"><label>4</label>Department of Implementation, 113 Suicide Prevention, Paasheuvelweg 25, 1105 BP Amsterdam, The Netherlands </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0435 165X</institution-id><institution-id institution-id-type="GRID">grid.16872.3a</institution-id><institution>Department of Psychiatry, Amsterdam Public Health Research Institute, </institution><institution>Vrije Universiteit Medical Center, </institution></institution-wrap>De Boelelaan 1117, 1081 HV Amsterdam, The Netherlands </aff>
+                <aff id="Aff6"><label>6</label>Department of Research and Innovation, GGZ inGeest, Specialized Mental Health Care, Oldenaller 1, 1081 HJ Amsterdam, Netherlands </aff>
+                <aff id="Aff7"><label>7</label>Department of Research, 113 Suicide Prevention, Paasheuvelweg 25, 1105 BP Amsterdam, The Netherlands </aff>
+                <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1936 8972</institution-id><institution-id institution-id-type="GRID">grid.25879.31</institution-id><institution>Department Psychology, </institution><institution>University of Pennsylvania, </institution></institution-wrap>Stephan A. Levin Building, 425 S. University Ave, Philadelphia, PA 19104-6018 USA </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>9</day>
+                <month>5</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>9</day>
+                <month>5</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2019</year>
+              </pub-date>
+              <volume>19</volume>
+              <elocation-id>143</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>28</day>
+                  <month>3</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="accepted">
+                  <day>26</day>
+                  <month>4</month>
+                  <year>2019</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s). 2019</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold>This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Background</title>
+                  <p id="Par1">Suicide is a major public health problem, and it remains unclear which processes link suicidal ideation and plans to the act of suicide. Growing evidence shows that the majority of suicidal patients diagnosed with major depression or bipolar disorder report repetitive suicide-related images and thoughts (suicidal intrusions). Various studies showed that vividness of negative as well as positive intrusive images may be reduced by dual task (e.g. eye movements) interventions taxing the working memory. We propose that a dual task intervention may also reduce frequency and intensity of suicidal imagery and may be crucial in preventing the transition from suicidal ideation and planning to actual suicidal behaviour. This study aims a) to evaluate the effectiveness of an Eye Movement Dual Task (EMDT) add-on intervention targeting suicidal imagery in depressed patients, b) to explore the role of potential moderators and mediators in explaining the effect of EMDT, and c) to evaluate the cost-effectiveness of EMDT.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p id="Par2">We will conduct a multi-center randomized clinical trial (RCT) evaluating the effects of EMDT in combination with usual care (<italic>n</italic> = 45) compared to usual care alone (n = 45). Participants will fill in multiple online batteries of self-report questionnaires as well as complete a semi-structured interview (Intrusion Interview), and online computer tasks. The primary outcome is the frequency and intrusiveness of suicidal imagery. Furthermore, the vividness, emotionality, and content of the suicidal intrusions are evaluated; secondary outcomes include: suicidal behaviour and suicidal ideation, severity of depression, psychological symptoms, rumination, and hopelessness. Finally, potential moderators and mediators are assessed.</p>
+                </sec>
+                <sec>
+                  <title>Discussion</title>
+                  <p id="Par3">If proven effective, EMDT can be added to regular treatment to reduce the frequency and vividness of suicidal imagery.</p>
+                </sec>
+                <sec>
+                  <title>Trial registration</title>
+                  <p id="Par4">The study has been registered on October 17th, 2018 at the Netherlands Trial Register, part of the Dutch Cochrane Centre (<ext-link ext-link-type="uri" xlink:href="https://www.trialregister.nl/trial/7355">NTR7563</ext-link>).</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Suicide</kwd>
+                <kwd>Suicidal intrusions</kwd>
+                <kwd>Mental imagery</kwd>
+                <kwd>EMDT</kwd>
+                <kwd>Dual tasks</kwd>
+                <kwd>Multicenter randomized controlled trial</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100001826</institution-id>
+                      <institution>ZonMw</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2019</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Background</title>
+              <p id="Par28">Each year, close to 800,000 people worldwide die by suicide, and for every suicide there are many more people who attempt suicide [<xref ref-type="bibr" rid="CR1">1</xref>]. While suicide prevention interventions have been developed, little remains known about which processes link suicidal plans to the act of suicide [<xref ref-type="bibr" rid="CR2">2</xref>, <xref ref-type="bibr" rid="CR3">3</xref>]. However, one recent development in the suicide theory research is the ideation-to-action framework, which suggests that the development of suicidal ideation is distinct from the progression from ideation to suicide attempts [<xref ref-type="bibr" rid="CR4">4</xref>]. One factor that may potentially be of influence on the latter, either directly or indirectly, is the presence of intrusive suicidal imagery (also called: suicidal intrusions). Various studies revealed that the majority of patients diagnosed with major depression or bipolar disorder report repetitive intrusive suicide-related images and thoughts [<xref ref-type="bibr" rid="CR5">5</xref>–<xref ref-type="bibr" rid="CR7">7</xref>]. These images may be both distressing and comforting, as well as compelling [<xref ref-type="bibr" rid="CR8">8</xref>, <xref ref-type="bibr" rid="CR9">9</xref>]. Examples include images of their own suicide (jumping in front of a train, seeing themselves after an overdose) or the aftermath thereof (attending their own funeral, seeing the reaction of their family members).</p>
+              <p id="Par29">Experimental and clinical studies showed that vividness of both negative and positive intrusive images may be reduced by dual task interventions taxing the working memory such as eye movements [<xref ref-type="bibr" rid="CR10">10</xref>]. It is assumed that recalling an emotional image and performing eye movements both require working memory resources. Since the eye movements reduce resources for recall, the image is rendered less intense, even upon recall [<xref ref-type="bibr" rid="CR11">11</xref>]. This may be a novel perspective on how suicidal intrusions may be addressed, so we have developed an Eye Movement Dual Task (EMDT) additive intervention. Currently, Eye Movement Desensitization and Reprocessing (EMDR), an evidence-based dual task-treatment for posttraumatic stress disorder (PTSD) that is characterized by trauma-related intrusions [<xref ref-type="bibr" rid="CR12">12</xref>, <xref ref-type="bibr" rid="CR13">13</xref>] is also being applied in routine clinical practice to treat suicidal images. However, while EMDR has recently been applied effectively in treating other psychiatric disorders such as psychosis [<xref ref-type="bibr" rid="CR14">14</xref>], there is no empirical evidence yet that this technique is effective for suicidal intrusions.</p>
+              <p id="Par30">The relevance of our study is that, if proven effective, the addition of EMDT to regular treatment may reduce the frequency and vividness of suicidal imagery. This paper describes the trial procedures for this study. This multicenter randomized trial aims to evaluate the effectiveness of EMDT in reducing suicidal mental imagery in depressed patients. In addition, we will evaluate the potential mediating effect of suicidal imagery on suicidal ideation, as well as depressive symptoms. Next, we will explore the potential role of the following moderators and mediators in explaining the effect of EMDT itself: a reduction in suicidal ideation, baseline depressive symptom severity, presence of childhood trauma, obsessive-compulsive traits, and potential effects of taxing the working memory. Lastly, we will evaluate the cost-effectiveness of EMDT.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Methods</title>
+              <sec id="Sec3">
+                <title>Study design</title>
+                <p id="Par31">The study is a multicenter randomized clinical two-armed, parallel-designed trial that will evaluate the effects of EMDT in combination with treatment as usual (TAU) compared to TAU alone. The anticipated flow of subject enrolment is graphically shown in Fig. <xref rid="Fig1" ref-type="fig">1</xref>. The primary outcome is the frequency and intrusiveness of suicidal imagery. Furthermore, the vividness, emotionality, and content of suicidal intrusions are evaluated. Secondary outcomes are suicidal ideation, suicidal behaviour, severity of depression, rumination, and hopelessness. Several candidate moderators and mediators of outcome are also assessed alongside the outcome variables. We are looking at variables such as: rumination (Ruminative Response Scale, RRS; [<xref ref-type="bibr" rid="CR15">15</xref>]), childhood trauma (Childhood Trauma Questionnaire, CTQ-SF; [<xref ref-type="bibr" rid="CR16">16</xref>]), obsessive-compulsive traits (Obsessive-Compulsive Inventory, OCI-R; [<xref ref-type="bibr" rid="CR17">17</xref>]), intrusions (Response to Intrusions Questionnaire, RIQ and Breathing Focus Task, BFT; [<xref ref-type="bibr" rid="CR18">18</xref>, <xref ref-type="bibr" rid="CR19">19</xref>]), and imagery (Prospective Imagery Task, PIT; [<xref ref-type="bibr" rid="CR20">20</xref>]). This study protocol followed SPIRIT guidelines and fulfilled the SPIRIT checklist.<fig id="Fig1"><label>Fig. 1</label><caption><p>Flow diagram</p></caption><graphic xlink:href="12888_2019_2129_Fig1_HTML" id="MO1"/></fig></p>
+              </sec>
+              <sec id="Sec4">
+                <title>Ethics and data safety monitoring board (DSMB)</title>
+                <p id="Par32">The Medical Ethics Committee of the VU Medical Center approved the study protocol (registration number 2017.237), after we conducted a small pilot study (<italic>n</italic> = 6) to establish the safety and feasibility of the intervention [<xref ref-type="bibr" rid="CR21">21</xref>]. The study is registered at the Netherlands Trial Register, part of the Dutch Cochrane Centre (NTR7563). Furthermore, an independent DSMB has been established to assess the progress, the safety data, and the critical efficacy endpoints of the study. The DSMB will provide recommendations to the principal investigator and associated project group members about the safety, the study conduct, and the scientific validity and data integrity of the study. Its tasks involve: evaluating the accumulating safety assessments to ensure the ongoing safety of study subjects, and monitoring the conduct of the study including any protocol violations.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Participants</title>
+                <p id="Par33">We aim to include 90 participants that satisfy the following criteria: a. score ≥ 1 on the Suicidal Ideation Attributes Scale (SIDAS; [<xref ref-type="bibr" rid="CR22">22</xref>]); b. score ≥ 20 on Beck’s Depression Inventory II (BDI-II; [<xref ref-type="bibr" rid="CR23">23</xref>]); c. age ≥ 18; d. adequate proficiency in the Dutch language; e. currently receiving treatment as usual (TAU) at a mental health institution; and f. have suicidal intrusions that are experienced as a burden. The participant must answer positive on one of the following questions: ‘do the suicidal intrusions hinder you in your daily life?’ and ‘do you feel tormented by these suicidal intrusions?’</p>
+                <p id="Par34">Patients will be excluded when a. they are diagnosed with at least one of the following disorders: DSM-IV psychotic disorder, DSM-IV depression with psychotic features, or DSM-IV bipolar disorder; b. they have no access to internet; and c. there is high dropout risk (i.e. poor response rate when trying to get in contact with potential participant). The presence of DSM-IV disorders will be indicated by a diagnosis following the Mini International Neuropsychiatric Interview [<xref ref-type="bibr" rid="CR24">24</xref>].</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Sample size</title>
+                <p id="Par35">We cannot provide estimates on the reduction of suicidal intrusions as a result of the study, as we are not aware of similar interventions tested in this population and the outcome measure (Intrusion Interview; [<xref ref-type="bibr" rid="CR6">6</xref>]) does not produce a standardized outcome. Therefore, we based our power analysis on the expectation of a medium to large effect size of 0.7 of TAU + EMDT as compared to TAU at 3 months on the primary outcome (suicidal intrusions). Power calculations suggest a minimum sample size of 38 participants per group (power = 0.85, alpha = 0.05, two-sided). Accounting for 15–20% attrition, we aim to include 45 participants per group. This adds to a total of 90 participants.</p>
+              </sec>
+              <sec id="Sec7">
+                <title>Procedure</title>
+                <p id="Par36">The study will be carried out at various Dutch specialized mental healthcare centers including Arkin (Amsterdam), Altrecht (Utrecht), Dimence (Zwolle), GGZ Oost-Brabant (Oss, Boekel, Helmond, Boxmeer), GGZ Eindhoven, Parnassia Groep (The Hague), Pro Persona (Nijmegen), and the Vincent van Gogh Institute (Venray, Venlo). Each healthcare center will have its own contact person/research assistant, and patients will be recruited within the appropriate department.</p>
+                <p id="Par37">After providing oral and written informed consent, patients will be screened for suicidal ideation (SIDAS), depressive symptoms (BDI-II) and DSM-IV diagnoses (M.I.N.I.). Next, the breathing focus task (BFT) is administered and participants are interviewed (using the Intrusion Interview) by trained staff members of the mental health care institution where they are currently being treated. They are asked to complete a set of (online) self-report instruments and answer the following screening questions: ‘do the suicidal intrusions hinder you in your daily life?’ and ‘do you feel tormented by these suicidal intrusions?’. If they answer yes on at least one of those statements, they are invited for the next appointment. During this appointment, they will provide oral and written informed consent and the schematic overview of the Intrusion Interview is administered. While at home, they are asked to fill in additional questionnaires and perform a computer task (n-back task). Next, the participant is randomized into the intervention group (EMDT + TAU) or the control group (TAU only). Participants in the experimental group will, in addition to their TAU, receive one introduction meeting with an EMDT-therapist, a maximum of six weekly EMDT add-on sessions, and six weekly online assessments (SIDAS, BDI-II). Participants in the control group will, in addition to their TAU, receive the same six weekly online assessments. Additional assessments will be carried out at: pre-treatment (baseline), during treatment, post-treatment (six weeks after baseline), and at 3, 6, 9 and 12 months follow-up.</p>
+                <p id="Par38">During our pilot study, we had evaluated whether the amount of (online) questionnaires was reasonable, and from participants’ feedback we concluded that it was. The self-report assessments will be administered online following standardized time points. Patients who are screened for eligibility but who are not burdened by suicidal intrusions and therefore excluded from trial participation will still be asked to complete an online 12-month follow up assessment. This follow up assessment may provide us with some insight on the potential symptom changes in participants that don’t experience suicidal intrusions as a burden.</p>
+              </sec>
+              <sec id="Sec8">
+                <title>Randomization and blinding</title>
+                <p id="Par39">Randomization will occur following the pre-assessment/baseline assessment. Participants will be randomized on a 1:1 basis (stratified for mental health care institution) into the intervention group (EMDT + TAU) or the control group (TAU). Randomization will be conducted using the stratified block randomization module in an electronic data capture system (Castor EDC). Participants randomized in the EMDT intervention will be allocated to an EMDT therapist at the participating mental health institution. The EMDT therapist will plan six consecutive meetings with the participant. Outcome assessors will be blinded when administering the primary outcome, the table in the appendix of the Intrusion Interview. The participant is informed that the outcome assessor is blinded, and is therefore asked not to disclose whether they have received the EMDT intervention or not.</p>
+              </sec>
+              <sec id="Sec9">
+                <title>Eye movement dual task (EMDT)</title>
+                <p id="Par40">The EMDT protocol has been developed in co-creation with patients, practitioners, and experts in the field of EMDR and suicidality, and builds on earlier work in the field of dual tasks [<xref ref-type="bibr" rid="CR25">25</xref>]. The input of seven (formerly) depressed patients with suicidal ideation was obtained through a focus group. The goal was to provide insight into experiences and ideas of people who had to deal with depression and suicidality in the past. Questions regarding their experiences with suicidal intrusions, treatment for suicidality, and their opinions about the EMDT additive intervention were discussed. In addition, an expert review round was held, in which six different national experts shared comments and suggestions to further optimize the protocol by means of their knowledge. The intervention will be an add-on module that addresses intrusive suicidal images and will run parallel to regular treatment. The EMDT sessions include a dual task component and try and reduce the frequency, vividness, and emotionality of the suicidal intrusions (desensitization). A negative cognition is identified to address the associations of the intrusions. In the well-known EMDR therapy, a positive cognition is also linked to the image [<xref ref-type="bibr" rid="CR25">25</xref>]. The purpose of installing this positive line of thought is to maximize the credibility of this positive cognition. Since our goal is to reduce vividness and emotionality and therefore frequency of the intrusions, the ‘installation’ process is not applicable.</p>
+                <p id="Par41">The intervention will consist of a maximum of six sessions each of approximately 1 h, in the course of six weeks, delivered at the patients’ mental health care center. Each session will consist of the following steps:<list list-type="order"><list-item><p id="Par42">The patient and EMDT therapist discuss and determine which suicidal intrusion will be treated this session. This could either be a) a new suicidal intrusion, b) the intrusion of the last session that needs continued work or c) a last check of an intrusion that ended with a score of 0 on the Subjective Units of Distress Scale (SUDS, scale 0–10) in the previous EMDT session. The SUDS is administered to assess the level of distress during image retrieval. In addition to a clear target image, the associated negative cognition and emotions are put in focus.</p></list-item><list-item><p id="Par43">The patient performs consecutive set of eye movements of 30 s by 10 s breaks. Between the sets, the SUDS is administered.</p></list-item><list-item><p id="Par44">If the image still produces stress, the dual task procedure will be repeated for the target image.</p></list-item><list-item><p id="Par45">This procedure is repeated for all target images until all SUDS are at approximately 0 or no longer diminish.</p></list-item></list></p>
+                <p id="Par46">At the end of each session, the therapist and patient briefly evaluate the most positive or worthwhile part of the session. This is to make sure that the session is not abruptly ended at a high emotional point. Moreover, the therapist and patient create a self-care plan for the rest of the day. All sessions will be recorded on videotape, but only after consent from the participant.</p>
+                <p id="Par47">Therapists carrying out the EMDT intervention have successfully completed a 3,5 to 4-h training, in which suicidal intrusions and the EMDT research protocol were discussed in great detail. In addition, the training included practice rounds. Each EMDT therapist receives supervision sessions per participant from an appointed member of the research project. All EMDT therapists are employed at the participating mental health centers.</p>
+              </sec>
+              <sec id="Sec10">
+                <title>Treatment as usual (TAU)</title>
+                <p id="Par48">TAU for depression and other psychological disorders within the participating mental health care institutions typically consists of (evidence-based) psychotherapy and/or antidepressant treatment. We will ensure that all patients will receive and continue TAU during the course of the study. After each assessment the TAU mental health care provider will be updated on the progress of the patient, with consent of the patient.</p>
+              </sec>
+              <sec id="Sec11">
+                <title>Safety regulations</title>
+                <p id="Par49">Using the results from our small mono-center pilot study, we have created a safety protocol. The purpose is to provide a brief summary of additional requirements that have to be met surrounding the EMDT intervention, to ensure as much safety as possible. It is designed to be a supplement to the EMDT research protocol. The safety protocol states that each participant should have an obligatory safety plan. Furthermore, suicidal ideation is screened during the EMDT and if SIDAS scores reach above a certain cut-off score (&gt; 25), the therapist may be notified. There is an explicit focus on the question: ‘in the past week, how close were you to a suicide attempt?’ (ranging from 0 = not close at all to 10 = I have made a suicide attempt).</p>
+              </sec>
+              <sec id="Sec12">
+                <title>Instruments</title>
+                <p id="Par50">An overview of all patient instruments per assessment is given in Table <xref rid="Tab1" ref-type="table">1</xref>. The duration of the (online) questionnaires range from 10 to 70 min.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Overview of patient instruments per time point</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Instruments</th><th>S</th><th>B</th><th>T1</th><th>T2</th><th>T3</th><th>3</th><th>6</th><th>9</th><th>12</th></tr></thead><tbody><tr><td colspan="10">Suicidal Intrusions</td></tr><tr><td> Intrusion Interview (II)</td><td/><td>•</td><td>•</td><td/><td>•</td><td>•</td><td>•</td><td>•</td><td>•</td></tr><tr><td> Response to Intrusions Questionnaire (RIQ)</td><td/><td>•</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td> Suicidal Intrusions Attributes Scale (SINAS)</td><td/><td>•</td><td/><td/><td>•</td><td>•</td><td>•</td><td>•</td><td>•</td></tr><tr><td colspan="10">Suicidal Ideation</td></tr><tr><td> Suicidal Ideation Attributes Scale (SIDAS)</td><td>•</td><td>•</td><td/><td>•</td><td>•</td><td>•</td><td>•</td><td>•</td><td>•</td></tr><tr><td> Beck Scale for Suicidal Ideation (BSSI)</td><td/><td>•</td><td/><td/><td>•</td><td>•</td><td>•</td><td>•</td><td>•</td></tr><tr><td colspan="10">Depression</td></tr><tr><td> Beck Depression Inventory (BDI-II)</td><td>•</td><td>•</td><td/><td>•</td><td>•</td><td>•</td><td>•</td><td>•</td><td>•</td></tr><tr><td>Quality of life</td><td/><td/><td/><td/><td/><td/><td/><td/><td>•</td></tr><tr><td> EQ-5D-5L</td><td/><td/><td>•</td><td/><td/><td/><td>•</td><td>•</td><td>•</td></tr><tr><td colspan="10">Societal Costs</td></tr><tr><td> Trimbos/iMTA questionnaire for Costs associated with Psychiatric Illness (TiC-P)</td><td/><td/><td>•</td><td/><td/><td>•</td><td/><td/><td>•</td></tr><tr><td colspan="10">Psychological Problems</td></tr><tr><td> Brief Symptom Inventory (BSI)</td><td/><td>•</td><td/><td/><td>•</td><td>•</td><td/><td/><td>•</td></tr><tr><td colspan="10">Rumination</td></tr><tr><td> Ruminative Response Scale (RRS-NL)</td><td/><td>•</td><td/><td/><td>•</td><td>•</td><td/><td/><td>•</td></tr><tr><td colspan="10">Obsessive Compulsive Disorder</td></tr><tr><td> Obsessive Compulsive Inventory – Revised (OCI-R)</td><td/><td>•</td><td/><td/><td>•</td><td>•</td><td/><td/><td>•</td></tr><tr><td colspan="10">Hopelessness</td></tr><tr><td> Beck Hopelessness Scale (BHS)</td><td/><td>•</td><td/><td/><td>•</td><td>•</td><td/><td/><td>•</td></tr><tr><td colspan="10">Childhood trauma</td></tr><tr><td> Childhood Trauma Questionnaire (CTQ-SF)</td><td/><td>•</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td colspan="10">Other measures</td></tr><tr><td> M.I.N.I. Neuropsychiatric Interview</td><td>•</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td> Demographics Questionnaire</td><td/><td>•</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td> N-back Task</td><td/><td/><td>•</td><td/><td>•</td><td/><td/><td/><td/></tr><tr><td> Breathing Focus Task (BFT)</td><td/><td>•</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td> Prospective Imagery Task (PIT)</td><td/><td>•</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td> Care-as-usual Treatment Details</td><td/><td/><td/><td/><td>•</td><td/><td/><td/><td/></tr><tr><td> EMDT Treatment measures</td><td/><td/><td>•</td><td/><td>•</td><td/><td/><td/><td/></tr></tbody></table><table-wrap-foot><p><italic>S</italic> Screening, <italic>B</italic> Baseline assessment, <italic>T1</italic> Pre-treatment assessment, <italic>T2</italic> During treatment, <italic>T3</italic> Post-treatment, <italic>3</italic> 3 month follow-up, <italic>6</italic> 6 month follow-up, <italic>9</italic> 9 month follow-up, <italic>12</italic> 12 month follow-up</p></table-wrap-foot></table-wrap></p>
+                <sec id="Sec13">
+                  <title>Intrusion interview</title>
+                  <p id="Par51">There are currently no formally validated measures available to assess the content and frequency of suicidal intrusions. We will use the most well-established measure available. The semi-structured Intrusion Interview is a translated (and adapted) version of the English Suicidal Cognitions and Flashforwards Interview [<xref ref-type="bibr" rid="CR6">6</xref>] and assesses the content of mental images about suicide and verbal thoughts. The interview consists of 21 items, including a 9-item checklist used to assess and describe in detail the content of cognitions of the most significant intrusion patients experience when they are most despaired. To obtain a clear schematic overview of the frequency and intensity of the current suicidal intrusions experienced by the participant, we slightly adapted the Intrusion Interview by adding a table as an appendix. This table is our primary outcome and measures the frequency, vividness, intrusiveness, and uncontrollability of suicidal intrusions. Patients are asked to recall and report the frequency of intrusions experienced per day for the past week, and rate image distress and burdensomeness on 10-point scales (0 = not at all to 10 = extremely). To clarify, the table is filled in retrospectively with the trained staff member while administering the Intrusion Interview. The schematic overview explicitly focuses on mental images and is based on an intrusion diary [<xref ref-type="bibr" rid="CR26">26</xref>].</p>
+                </sec>
+                <sec id="Sec14">
+                  <title>Suicidal ideation attributes scale (SIDAS; [<xref ref-type="bibr" rid="CR22">22</xref>])</title>
+                  <p id="Par52">The SIDAS is a self-report instrument measuring the presence and severity of suicidal ideation, and can be administered electronically. It contains five items assessing the frequency, controllability, closeness to attempt, distress, and interference with daily activities on 10-point scales over the past month. Total scores are calculated as the sum of the five items, with controllability reverse scored and range between 0 and 50. Scores above 21 indicate a high risk of suicidal behavior. The SIDAS demonstrated high internal consistency (Cronbach’s a 0.91–0.86) and takes between 30 and 60 s to complete.</p>
+                </sec>
+                <sec id="Sec15">
+                  <title>Beck depression inventory (BDI-II; [<xref ref-type="bibr" rid="CR23">23</xref>])</title>
+                  <p id="Par53">The BDI-II is a well established measure of depression and has shown excellent reliability and validity (Dutch version: [<xref ref-type="bibr" rid="CR27">27</xref>]). It contains 21 items, comprising of four self-evaluative statements about a particular symptom of depression, scored 0 to 3, with increasing scores indicating greater depression severity. Total scores range between 0 and 63. Scores above 16 indicate a clinical depression. The time frame of the BDI-II questions comprises two weeks. Reliability and validity of the Dutch version of the BDI-II has been well established [<xref ref-type="bibr" rid="CR27">27</xref>, <xref ref-type="bibr" rid="CR28">28</xref>]. High internal consistency in a clinical population was found (Cronbach’s a 0.92).</p>
+                </sec>
+                <sec id="Sec16">
+                  <title>Mini international neuropsychiatric interview (M.I.N.I.; [<xref ref-type="bibr" rid="CR24">24</xref>])</title>
+                  <p id="Par54">The M.I.N.I. is a short structured psychiatric interview used to assess current and past diagnostic status of DSM-IV disorders. It takes about 15 min to administer. Comparisons of the M.I.N.I. with the Structured Clinical Interview for DSM-II-R (SCID), Composite International Diagnostic Interview (CIDI), Diagnostic Interview Schedule (DIS), and Present Status Examination (PSE) showed that the M.I.N.I. has reasonably high validity and reliability [<xref ref-type="bibr" rid="CR29">29</xref>].</p>
+                </sec>
+                <sec id="Sec17">
+                  <title>Suicidal intrusions attributes scale (SINAS; [<xref ref-type="bibr" rid="CR30">30</xref>])</title>
+                  <p id="Par55">The SINAS is a new scale we developed for the purpose of this study [<xref ref-type="bibr" rid="CR30">30</xref>]. It is based on the SIDAS and measures the characteristics of suicidal intrusions in the past week. It includes 10 items asking about the frequency, intensity, vividness, and uncontrollability of the intrusions. Each item is scored on a 10-point scale (e.g. ‘how often did you experience images about your own suicide’ is scored as 0 = not at all to 10 = constantly), and the total score ranges between 0 and 100.</p>
+                </sec>
+                <sec id="Sec18">
+                  <title>Beck scale for suicide ideation (BSSI; [<xref ref-type="bibr" rid="CR31">31</xref>])</title>
+                  <p id="Par56">The BSSI is a self-report instrument that contains 19 items assessing an individual’s beliefs and attitudes about suicide such as frequency and duration of ideation, specificity of planning, and preparations for death for the past week (including the day of assessment). Each item has three options, which are rated on a 3-point scale from 0 to 2, a higher score indicating a higher level of suicidality. The total score of the BSSI ranges from 0 to 37, with higher scores indicating more severe suicidal ideation. The BSSI has very good internal consistency and convergent validity, and has been found to predict future suicide attempts and death by suicide [<xref ref-type="bibr" rid="CR32">32</xref>]. A validated Dutch version was created [<xref ref-type="bibr" rid="CR33">33</xref>].</p>
+                </sec>
+                <sec id="Sec19">
+                  <title>EQ-5D-5 L [<xref ref-type="bibr" rid="CR34">34</xref>]</title>
+                  <p id="Par57">The EQ-5D-5 L is used to assess quality of life and enables a rudimentary economic evaluation of the effects of the EMDT add-on intervention, weighing costs and effects. It is a generic instrument for describing and valuing health and is based on a descriptive system that defines health in terms of five dimensions: mobility, self-care, usual activities, pain/discomfort, and anxiety/depression. Respondents are asked to indicate their health state by choosing the most appropriate statement in each of the five dimensions. This results in a 1-digit number expressing the level selected for that dimension. In turn, the digits can be combined in a 5-digit number describing the respondents’ health state.</p>
+                </sec>
+                <sec id="Sec20">
+                  <title>Trimbos/iMTA questionnaire for costs associated with psychiatric illness (TiC-P; [<xref ref-type="bibr" rid="CR35">35</xref>])</title>
+                  <p id="Par58">The societal costs during this study will be measured using the TiC-P, which consists of two parts. The first part focuses on the use of (psychiatric) health care including primary and secondary care, complementary care and home care (4 items). The second part focuses on compromising costs due to loss of production including absenteeism from paid and unpaid work, and presenteeism (15 items). The valuation of health care utilization standard prices will be used [<xref ref-type="bibr" rid="CR36">36</xref>], and medication use will be valued using prices of the Royal Dutch Society for Pharmacy (Z-Index, 2006).</p>
+                </sec>
+                <sec id="Sec21">
+                  <title>Brief symptom inventory (BSI; [<xref ref-type="bibr" rid="CR37">37</xref>])</title>
+                  <p id="Par59">The BSI is a 53-item self-report questionnaire that administers a multidimensional complaint list that shows the extent to which a participant suffers from various psychological and physical symptoms. Each item is rated on a 4-point scale (0 = none at all to 4 = a lot) and are divided into nine subscales: somatic complaints, cognitive problems, interpersonal sensitivity, depressed mood, fear, hostility, phobic fear, paranoid thoughts, and psychoticism. A version has been translated to Dutch by de Beurs and Zitman [<xref ref-type="bibr" rid="CR38">38</xref>].</p>
+                </sec>
+                <sec id="Sec22">
+                  <title>Obsessive-compulsive inventory – revised (OCI-R short version; [<xref ref-type="bibr" rid="CR17">17</xref>])</title>
+                  <p id="Par60">The OCI-R is a short version of the original OCI and is a self-report scale for assessing symptoms of Obsessive-Compulsive Disorder (OCD). It contains 19 questions that the participant answers using a 5-point Likert scale. The item scores are added up and the possible range of scores is between 0 and 72. Scores 21 or above indicate the likely presence of OCD. A version has been translated to Dutch by Cordova-Middelbrink, Dek and Engelbarts [<xref ref-type="bibr" rid="CR39">39</xref>].</p>
+                </sec>
+                <sec id="Sec23">
+                  <title>Ruminative response scale (RRS; [<xref ref-type="bibr" rid="CR15">15</xref>])</title>
+                  <p id="Par61">The RRS is a self-report measure that assesses ruminative responses to depressed mood. It is a revision of the original longer Response Styles Questionnaire. It consists of 22 items and measures two aspects of rumination: brooding and reflective pondering. Each item is rated on a 4-point scale (1 = almost never to 4 = almost always), and the possible range of scores is between 22 and 88. The Dutch translation of the scale has been found to be internally consistent (a = .90; [<xref ref-type="bibr" rid="CR40">40</xref>]).</p>
+                </sec>
+                <sec id="Sec24">
+                  <title>Beck hopelessness scale (BHS; [<xref ref-type="bibr" rid="CR41">41</xref>])</title>
+                  <p id="Par62">The BHS is a widely used standardized measure of hopelessness. The BHS consists of 20 ‘true-false’ statements covering positive and negative thoughts about the true-false response. The item scores are added up and the possible range of scores is between 0 and 20. The predictive validity of the BHS for suicide and attempted suicide was supported by the authors of the scale [<xref ref-type="bibr" rid="CR42">42</xref>], and was confirmed by later research [<xref ref-type="bibr" rid="CR43">43</xref>, <xref ref-type="bibr" rid="CR44">44</xref>]. The Dutch translation of the scale has been found to be internally consistent (a = 0.68–0.75; [<xref ref-type="bibr" rid="CR45">45</xref>]).</p>
+                </sec>
+                <sec id="Sec25">
+                  <title>Childhood trauma questionnaire-short form (CTQ-SF; [<xref ref-type="bibr" rid="CR16">16</xref>])</title>
+                  <p id="Par63">The CTQ-SF is a 28-item retrospective self-report questionnaire that is designed to assess five types of negative childhood experiences: emotional neglect, emotional abuse, physical neglect, physical abuse, and sexual abuse. The tendencies to minimize or deny abuse experiences are measured as well. The truth of each statement is rated on a 5-point scale. The CTQ-SF has adequate reliability and validity [<xref ref-type="bibr" rid="CR16">16</xref>].</p>
+                </sec>
+                <sec id="Sec26">
+                  <title>N-back task [<xref ref-type="bibr" rid="CR46">46</xref>]</title>
+                  <p id="Par64">The N-back task is used to measure executive functioning. Patients are asked if the letter on the screen matches a letter previously (0 (baseline), 1, 2, or 3 back) presented. Only when the patient performs well on the 2-back, will he or she be forwarded to the 3-back part of the task. Working memory load increases as the task progresses from 1-back to 3-back and is suggested to require executive processes. The task will take around 15 min and the accuracy of responses and reaction times will be measured.</p>
+                </sec>
+                <sec id="Sec27">
+                  <title>Breathing focus task (BFT; [<xref ref-type="bibr" rid="CR19">19</xref>])</title>
+                  <p id="Par65">The BFT is a measure of the behavioural state related to intrusive thoughts. It consists of 5 min of focus on breathing, where patients are asked 12 times about their current thoughts. Patients briefly describe the current thought in keywords and indicate the emotionality (positive, neutral, negative). After the 5-min breathing focus phase, each of the none-breathing answers (so each intrusion) is discussed with the patient to get more insight on the nature of the thought.</p>
+                </sec>
+                <sec id="Sec28">
+                  <title>Prospective imagery task (PIT; [<xref ref-type="bibr" rid="CR47">47</xref>, <xref ref-type="bibr" rid="CR48">48</xref>])</title>
+                  <p id="Par66">Participants are asked to form a mental image of 10 negative future scenarios and 10 positive future scenarios. These include events such as: ‘you will have a serious disagreement with your friend’ or ‘you will do well on your course’. Images are rated on vividness on a 5-point Likert scale (ranging from 1 = no image at all to 5 = very vivid). The PIT has good internal consistency [<xref ref-type="bibr" rid="CR47">47</xref>]. This task can and will be administered as a questionnaire.</p>
+                </sec>
+                <sec id="Sec29">
+                  <title>Response to intrusions questionnaire – negative appraisal subscale (RIQ; [<xref ref-type="bibr" rid="CR18">18</xref>, <xref ref-type="bibr" rid="CR49">49</xref>])</title>
+                  <p id="Par67">Participants are asked about a negative memory they experienced in the past week. Six items assessing negative appraisals of intrusions are rated on a 7-point Likert scale (ranging from 1 = totally disagree to 7 = totally agree). This subscale is reported to have good internal consistency (a = 0.84; [<xref ref-type="bibr" rid="CR49">49</xref>])<italic>.</italic></p>
+                </sec>
+                <sec id="Sec30">
+                  <title>EMDT treatment measures</title>
+                  <p id="Par68">Various aspects of the intervention preceding and following the EMDT sessions will be administered. Participants will answer six questions about their expectations of the treatment (e.g. thoughts and feelings about the efficacy of the treatment and expectations about recovery). These questions will be answered before being randomized. EMDT-treatment compliance will be operationalized as the amount of no-shows (not showing up without notifying the EMDT therapist), cancelled and replaced appointments. Patients in the intervention group will answer 19 items evaluating the EMDT add-on sessions. Patients are asked to rate aspects of the treatment on a ten-point scale (ranging from 0 = not good at all to 10 = very good) and provide feedback and possible suggestions. An explanation is asked (5 items) why the patient thinks his or her symptoms did (not) improve.</p>
+                </sec>
+                <sec id="Sec31">
+                  <title>Treatment integrity</title>
+                  <p id="Par69">In order to measure therapist adherence to the EMDT treatment protocol, independent raters will review a random selection of videotaped EMDT sessions. For the purpose of this study, we have developed an EMDT-session Checklist that describes the essential parts of each session. The independent raters will use this 12-item dichotomous yes/no checklist, to check therapist adherence to the treatment condition.</p>
+                </sec>
+              </sec>
+              <sec id="Sec32">
+                <title>Data analyses</title>
+                <p id="Par70">Data-analyses will include intention-to-treat analysis and additional subgroup analyses. Missing data will be imputed using multiple imputation. The reduction in frequency of intrusive suicidal imagery is analyzed using hierarchical linear modeling. Between-group scores on secondary measures (like BDI, SIDAS, BSSI, RRS, and BHS) will also be compared using hierarchical linear modeling.</p>
+                <p id="Par71">Latent difference score (LDS) models are used to examine any potential mediation effects of suicidal imagery on suicidal ideation, depression, and hopelessness. LDS models will also be used to investigate a potential underlying mechanism of the intervention itself using the pre- and post-treatment scores on the n-back task. Moderators may play a direct role in elaborating mediators and mechanisms of change [<xref ref-type="bibr" rid="CR50">50</xref>, <xref ref-type="bibr" rid="CR51">51</xref>], thus we are looking at potential (moderated) mediation effects using potential moderating variables such as childhood trauma, rumination, and obsessive-compulsive traits. To examine potential mechanisms of change, both multilevel models and structural equation models (SEM) will be used.</p>
+                <sec id="Sec33">
+                  <title>Cost-effectiveness analyses</title>
+                  <p id="Par72">To analyze the cost-effectiveness of the EMDT add-on treatment, societal costs will be measured using the TiC-P at baseline and after 3, 6, 9, and 12 months. Direct societal costs entail primary and secondary care, complementary and home care. Indirect costs entail absenteeism from paid and unpaid work, and presenteeism. The latter costs will be determined using a friction cost approach. Costs will be related to the following effect measures in the economic evaluation: the decrease in frequency and vividness of suicidal imagery as measured through the schematic overview in the appendix of the Intrusion Interview, and Quality-adjusted-life-years (QALYs) based on the Dutch tariff for the EuroQol (EQ-5D-5L).</p>
+                </sec>
+              </sec>
+              <sec id="Sec34">
+                <title>Data management</title>
+                <p id="Par73">The proceedings of data security and storage are established in a data management plan. This plan was written according to the guidelines of the funding agent ZonMw. For detailed information about this plan, please contact the first author.</p>
+              </sec>
+            </sec>
+            <sec id="Sec35">
+              <title>Discussion</title>
+              <p id="Par74">We presented a study protocol to examine the effectiveness and cost-effectiveness of an EMDT intervention added to regular treatment to reduce the frequency and intrusiveness of suicidal intrusions. This study will be the first to investigate experimental effects of treating suicidal intrusions with a dual task method. Given that prior to a suicide attempt, individuals often have passed through various stages including suicidal ideation, and the presence of these uncontrollable, vivid suicidal intrusions could potentially have an influence on the transition from suicidal ideation to actual suicidal behaviour. The EMDT add-on intervention, if proven effective, may therefore be an innovative way to directly reduce the frequency and burden of suicidal imagery [<xref ref-type="bibr" rid="CR52">52</xref>]. We hope that our study will pave the way for larger studies to evaluate the effectiveness of EMDT on prevention of transition from suicidal ideation to suicidal behavior and on reducing the risk for suicidal behaviour.</p>
+            </sec>
+            <sec id="Sec36">
+              <title>Study status</title>
+              <p id="Par75">This is an ongoing study, and the investigators are currently collecting data. Thus far, we have recruited seven mental health institutions that are willing to participate. Each mental health institution has at least one team/department in which EMDT therapists are trained and patients screened for potential inclusion.</p>
+            </sec>
+          </body>
+          <back>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term>BDI-II</term>
+                  <def>
+                    <p id="Par5">Beck Depression Inventory</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>BFT</term>
+                  <def>
+                    <p id="Par6">Breathing Focus Task</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>BSSI</term>
+                  <def>
+                    <p id="Par7">Beck Scale for Suicidal Ideation</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CTQ-SF</term>
+                  <def>
+                    <p id="Par8">Childhood trauma questionnaire – short form</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>DSMB</term>
+                  <def>
+                    <p id="Par9">Data safety monitoring board</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>DSM-IV</term>
+                  <def>
+                    <p id="Par10">Diagnostic and statistical manual of mental disorders – 4th edition</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>EMDR</term>
+                  <def>
+                    <p id="Par11">Eye movement and desensitization reprocessing</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>EMDT</term>
+                  <def>
+                    <p id="Par12">Eye Movement Dual Task</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>LDS</term>
+                  <def>
+                    <p id="Par13">Latent difference scores</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>M.I.N.I.</term>
+                  <def>
+                    <p id="Par14">Mini international neuropsychiatric interview</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>NTR</term>
+                  <def>
+                    <p id="Par15">Netherlands Trial Register</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>OCI-R</term>
+                  <def>
+                    <p id="Par16">Obsessive compulsive inventory – short version</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>PIT</term>
+                  <def>
+                    <p id="Par17">Prospective Imagery Task</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>PTSD</term>
+                  <def>
+                    <p id="Par18">Posttraumatic stress disorder</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>QALYs</term>
+                  <def>
+                    <p id="Par19">Quality-adjusted-life-years</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>RCT</term>
+                  <def>
+                    <p id="Par20">Randomised controlled trial</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>RIQ</term>
+                  <def>
+                    <p id="Par21">Response to Intrusions Questionnaire</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>RRS</term>
+                  <def>
+                    <p id="Par22">Ruminative Response Scale</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>SIDAS</term>
+                  <def>
+                    <p id="Par23">Suicidal Ideation Attributes Scale</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>SINAS</term>
+                  <def>
+                    <p id="Par24">Suicidal Intrusions Attributes Scale</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>SUDS</term>
+                  <def>
+                    <p id="Par25">Subjective Units of Distress Scale</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>TAU</term>
+                  <def>
+                    <p id="Par26">Treatment as Usual</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>TiC-P</term>
+                  <def>
+                    <p id="Par27">Trimbos/iMTA questionnaire for Costs associated with Psychiatric Illness</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>We would like to acknowledge the invaluable help of the following mental health institutions who have agreed to help us with recruitment and data collection: Arkin, Altrecht, Dimence, GGZ Eindhoven, GGZ inGeest, GGZ Oost-Brabant, Parnassia, Pro Persona, and the Vincent van Gogh Instituut.</p>
+              <sec id="FPar1">
+                <title>Funding</title>
+                <p id="Par76">This project is funded by ZonMw (The Netherlands Organisation for Health Research and Development; info@zonmw.nl; project number 537001003). The publication costs will be covered from this grant. The funding body has no influence on the design study or writing the current manuscript and will not participate in data collection, analysis or interpretation of the data.</p>
+              </sec>
+              <sec id="FPar2" sec-type="data-availability">
+                <title>Availability of data and materials</title>
+                <p id="Par77">The datasets used and/or analyzed during the current study are available from the corresponding author on reasonable request.</p>
+              </sec>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Authors’ contributions</title>
+              <p>MH, MS, AK, and AH initiated the study and AA, EH, GF, and JM were co-applicants. MS and MH received a grant for the study. JB wrote the manuscript, coordinates the recruitment of patients and the data collection, and MH and MS are supervisors. All authors read, contributed, and approved the final manuscript.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <sec id="FPar3">
+                <title>Ethics approval and consent to participate</title>
+                <p>The Medical Ethics Committee (METc) of the VU medical center (VUmc) approved the initial study protocol (registration number 2017.237). After we conducted a small pilot study to establish safety and feasibility of the intervention, Amendment 4 was approved by the METc VUmc (registration A2017.415) on 18 October 2018. The study is registered at the Netherlands Trial Register, part of the Dutch Cochrane Centre (NTR7563).</p>
+                <p>Patients will be approached by a researcher after they have given oral consent. The purpose of the study is explained and they receive a detailed information brochure. After one week they are asked if they want to participate in the study and provide oral and written consent. The participants will be informed that they may withdraw their consent at any time and that this does not affect their position as health care clients.</p>
+              </sec>
+              <sec id="FPar4">
+                <title>Consent for publication</title>
+                <p>Not applicable. Details, images, or videos relating to individual participants will not be published.</p>
+              </sec>
+              <sec id="FPar5">
+                <title>Competing interests</title>
+                <p>The authors declare that they have no competing interests.</p>
+              </sec>
+              <sec id="FPar6">
+                <title>Publisher’s Note</title>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </sec>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <mixed-citation publication-type="other">World Health Organization. WHO: Suicide prevention 2018 [Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/mental_health/suicide-prevention/en/">https://www.who.int/mental_health/suicide-prevention/en/</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nock</surname>
+                      <given-names>MK</given-names>
+                    </name>
+                    <name>
+                      <surname>Borges</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Bromet</surname>
+                      <given-names>EJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Alonso</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Angermeyer</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Beautrais</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Cross-national prevalence and risk factors for suicidal ideation, plans, and attempts</article-title>
+                  <source>Br J Psychiatry</source>
+                  <year>2008</year>
+                  <volume>192</volume>
+                  <fpage>98</fpage>
+                  <lpage>105</lpage>
+                  <pub-id pub-id-type="doi">10.1192/bjp.bp.107.040113</pub-id>
+                  <pub-id pub-id-type="pmid">18245022</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>World Health Organization</collab>
+                  </person-group>
+                  <source>Preventing suicide: a global imperative</source>
+                  <year>2014</year>
+                  <publisher-loc>Geneva</publisher-loc>
+                  <publisher-name>WHO</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Klonsky</surname>
+                      <given-names>ED</given-names>
+                    </name>
+                    <name>
+                      <surname>May</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The three-step theory (3ST): a new theory of suicide rooted in the “ideation-to-action” framework</article-title>
+                  <source>Int J Cogn Ther</source>
+                  <year>2015</year>
+                  <volume>8</volume>
+                  <issue>2</issue>
+                  <fpage>114</fpage>
+                  <lpage>1292</lpage>
+                  <pub-id pub-id-type="doi">10.1521/ijct.2015.8.2.114</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hales</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <name>
+                      <surname>Deeprose</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Goodwin</surname>
+                      <given-names>GM</given-names>
+                    </name>
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cognitions in bipolar affective disorder and unipolar depression: imagining suicide</article-title>
+                  <source>Bipolar Disord</source>
+                  <year>2011</year>
+                  <volume>13</volume>
+                  <issue>7–8</issue>
+                  <fpage>651</fpage>
+                  <lpage>661</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1399-5618.2011.00954.x</pub-id>
+                  <pub-id pub-id-type="pmid">22085478</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                    <name>
+                      <surname>Crane</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Fennell</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Imagery about suicide in depression— “flash-forwards”?</article-title>
+                  <source>J Behav Ther Exp Psychiatry</source>
+                  <year>2007</year>
+                  <volume>38</volume>
+                  <issue>4</issue>
+                  <fpage>423</fpage>
+                  <lpage>434</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jbtep.2007.10.004</pub-id>
+                  <pub-id pub-id-type="pmid">18037390</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ng</surname>
+                      <given-names>RMK</given-names>
+                    </name>
+                    <name>
+                      <surname>Di Simplicio</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>McManus</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Kennerley</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>'Flash-forwards' and suicidal ideation: a prospective investigation of mental imagery, entrapment and defeat in a cohort from the Hong Kong mental morbidity survey</article-title>
+                  <source>Psychiatry Res</source>
+                  <year>2016</year>
+                  <volume>246</volume>
+                  <fpage>453</fpage>
+                  <lpage>460</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.psychres.2016.10.018</pub-id>
+                  <pub-id pub-id-type="pmid">27792974</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Crane</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Barnhofer</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Duggan</surname>
+                      <given-names>DS</given-names>
+                    </name>
+                    <name>
+                      <surname>Eames</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Hepburn</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Shah</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Comfort from suicidal cognition in recurrently depressed patients</article-title>
+                  <source>J Affect Disord</source>
+                  <year>2014</year>
+                  <volume>155</volume>
+                  <fpage>241</fpage>
+                  <lpage>246</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jad.2013.11.006</pub-id>
+                  <pub-id pub-id-type="pmid">24289891</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bentum</surname>
+                      <given-names>Jaël</given-names>
+                    </name>
+                    <name>
+                      <surname>Sijbrandij</surname>
+                      <given-names>Marit</given-names>
+                    </name>
+                    <name>
+                      <surname>Huibers</surname>
+                      <given-names>Marcus</given-names>
+                    </name>
+                    <name>
+                      <surname>Huisman</surname>
+                      <given-names>Annemiek</given-names>
+                    </name>
+                    <name>
+                      <surname>Arntz</surname>
+                      <given-names>Arnoud</given-names>
+                    </name>
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>Emily</given-names>
+                    </name>
+                    <name>
+                      <surname>Kerkhof</surname>
+                      <given-names>Ad</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Treatment of Intrusive Suicidal Imagery Using Eye Movements</article-title>
+                  <source>International Journal of Environmental Research and Public Health</source>
+                  <year>2017</year>
+                  <volume>14</volume>
+                  <issue>7</issue>
+                  <fpage>714</fpage>
+                  <pub-id pub-id-type="doi">10.3390/ijerph14070714</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Engelhard</surname>
+                      <given-names>IM</given-names>
+                    </name>
+                    <name>
+                      <surname>van den Hout</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Dek</surname>
+                      <given-names>EC</given-names>
+                    </name>
+                    <name>
+                      <surname>Giele</surname>
+                      <given-names>CL</given-names>
+                    </name>
+                    <name>
+                      <surname>van der Wielen</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                    <name>
+                      <surname>Reijnen</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Reducing vividness and emotional intensity of recurrent “flashforwards” by taxing working memory: an analogue study</article-title>
+                  <source>J Anxiety Disord</source>
+                  <year>2011</year>
+                  <volume>25</volume>
+                  <issue>4</issue>
+                  <fpage>599</fpage>
+                  <lpage>603</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.janxdis.2011.01.009</pub-id>
+                  <pub-id pub-id-type="pmid">21376527</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>van den Hout</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Engelhard</surname>
+                      <given-names>IM</given-names>
+                    </name>
+                    <name>
+                      <surname>Rijkeboer</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                    <name>
+                      <surname>Koekebakker</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Hornsveld</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Leer</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>EMDR: eye movements superior to beeps in taxing working memory and reducing vividness of recollections</article-title>
+                  <source>Behav Res Ther</source>
+                  <year>2011</year>
+                  <volume>49</volume>
+                  <issue>2</issue>
+                  <fpage>92</fpage>
+                  <lpage>98</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.brat.2010.11.003</pub-id>
+                  <pub-id pub-id-type="pmid">21147478</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <mixed-citation publication-type="other">Bisson J, Andrew M. Psychological treatment of post-traumatic stress disorder (PTSD) (review). Cochrane Database Syst Rev. 2007.</mixed-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>World Health Organization</collab>
+                  </person-group>
+                  <source>Guidelines for the Management of Conditions Specifically Related to stress</source>
+                  <year>2013</year>
+                  <publisher-loc>Geneva</publisher-loc>
+                  <publisher-name>WHO</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>van den Berg</surname>
+                      <given-names>DP</given-names>
+                    </name>
+                    <name>
+                      <surname>de Bont</surname>
+                      <given-names>PA</given-names>
+                    </name>
+                    <name>
+                      <surname>van der Vleugel</surname>
+                      <given-names>BM</given-names>
+                    </name>
+                    <name>
+                      <surname>de Roos</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>de Jongh</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Minnen</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Prolonged exposure vs eye movement desensitization and reprocessing vs waiting list for posttraumatic stress disorder in patients with a psychotic disorder: a randomized clinical trial</article-title>
+                  <source>JAMA Psychiatry</source>
+                  <year>2015</year>
+                  <volume>72</volume>
+                  <issue>3</issue>
+                  <fpage>259</fpage>
+                  <lpage>267</lpage>
+                  <pub-id pub-id-type="doi">10.1001/jamapsychiatry.2014.2637</pub-id>
+                  <pub-id pub-id-type="pmid">25607833</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Treynor</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Gonzalez</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Nolen-Hoeksema</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Rumination reconsidered: a psychometric analysis</article-title>
+                  <source>Cogn Ther Res</source>
+                  <year>2003</year>
+                  <volume>27</volume>
+                  <issue>3</issue>
+                  <fpage>247</fpage>
+                  <lpage>258</lpage>
+                  <pub-id pub-id-type="doi">10.1023/A:1023910315561</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bernstein</surname>
+                      <given-names>DP</given-names>
+                    </name>
+                    <name>
+                      <surname>Stein</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Newcomb</surname>
+                      <given-names>MD</given-names>
+                    </name>
+                    <name>
+                      <surname>Walker</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Pogge</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Ahluvalia</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Development and validation of a brief screening version of the childhood trauma questionnaire</article-title>
+                  <source>Child Abuse Negl</source>
+                  <year>2003</year>
+                  <volume>27</volume>
+                  <issue>2</issue>
+                  <fpage>169</fpage>
+                  <lpage>190</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0145-2134(02)00541-0</pub-id>
+                  <pub-id pub-id-type="pmid">12615092</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Foa</surname>
+                      <given-names>EB</given-names>
+                    </name>
+                    <name>
+                      <surname>Huppert</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Leiberg</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Langner</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Kichic</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Hajcak</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The obsessive-compulsive inventory: development and validation of a short version</article-title>
+                  <source>Psychol Assess</source>
+                  <year>2002</year>
+                  <volume>14</volume>
+                  <fpage>485</fpage>
+                  <lpage>496</lpage>
+                  <pub-id pub-id-type="doi">10.1037/1040-3590.14.4.485</pub-id>
+                  <pub-id pub-id-type="pmid">12501574</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Clohessy</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ehlers</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>PTSD symptoms, response to intrusive memories and coping in ambulance service workerS</article-title>
+                  <source>Br J Clin Psychol</source>
+                  <year>1999</year>
+                  <volume>38</volume>
+                  <issue>pt 3</issue>
+                  <fpage>251</fpage>
+                  <lpage>265</lpage>
+                  <pub-id pub-id-type="doi">10.1348/014466599162836</pub-id>
+                  <pub-id pub-id-type="pmid">10532147</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Borkovec</surname>
+                      <given-names>TD</given-names>
+                    </name>
+                    <name>
+                      <surname>Robinson</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Pruzinksy</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>DePree</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prelimenary exploration of worry: some characteristics and processes</article-title>
+                  <source>Behav Res Ther</source>
+                  <year>1983</year>
+                  <volume>21</volume>
+                  <issue>1</issue>
+                  <fpage>9</fpage>
+                  <lpage>16</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0005-7967(83)90121-3</pub-id>
+                  <pub-id pub-id-type="pmid">6830571</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stöber</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Bittencourt</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Weekly assessment of worry: an adaptation of the Penn State worry questionnaire for monitoring changes during treatment</article-title>
+                  <source>Behav Res Ther</source>
+                  <year>1998</year>
+                  <volume>36</volume>
+                  <issue>6</issue>
+                  <fpage>645</fpage>
+                  <lpage>656</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0005-7967(98)00031-X</pub-id>
+                  <pub-id pub-id-type="pmid">9648338</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <mixed-citation publication-type="other">van Bentum JS, Sijbrandij M, Kerkhof AJFM, van Schaik DJ, Huibers MJH. Eye Movement Dual Task (EMDT) als behandeling van suïcidale intrusies bij depressieve patiënten: pilotstudie naar de veiligheid, verdraagbaarheid en uitvoerbaarheid van de interventie. [Manuscript submitted for publication]. In press 2019.</mixed-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>van Spijker</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Batterham</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Calear</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Farrer</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Christensen</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Reynolds</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The suicidal ideation attributes scale (SIDAS): community-based validation study of a new scale for the measurement of suicidal ideation</article-title>
+                  <source>Suicide Life Threat Behav</source>
+                  <year>2014</year>
+                  <volume>44</volume>
+                  <issue>4</issue>
+                  <fpage>409</fpage>
+                  <lpage>419</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beck</surname>
+                      <given-names>AT</given-names>
+                    </name>
+                    <name>
+                      <surname>Steer</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>GK</given-names>
+                    </name>
+                  </person-group>
+                  <source>Beck depression inventory II: manual</source>
+                  <year>1996</year>
+                  <publisher-loc>San Antonio, TX</publisher-loc>
+                  <publisher-name>The Psychology Corporation</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lecrubier</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Sheehan</surname>
+                      <given-names>DV</given-names>
+                    </name>
+                    <name>
+                      <surname>Weiller</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <collab>AMO</collab>
+                  </person-group>
+                  <article-title>The Mini International Neuropsychiatric Interview (MINI). A Short Diagnostic Structured Interview: Reliability and Validity According to the CDI</article-title>
+                  <source>Eur Psychiatry</source>
+                  <year>1997</year>
+                  <volume>12</volume>
+                  <fpage>224</fpage>
+                  <lpage>231</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0924-9338(97)83296-8</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>de Jongh</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>ten Broeke</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <source>Handboek EMDR. Een geprotocolleerde behandelmethode voor de gevolgen van psychotrauma</source>
+                  <year>2012</year>
+                  <publisher-loc>Amsterdam</publisher-loc>
+                  <publisher-name>Pearson</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>James</surname>
+                      <given-names>EL</given-names>
+                    </name>
+                    <name>
+                      <surname>Lau-Zhu</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Tickle</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Horsch</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Playing the computer game Tetris prior to viewing traumatic film material and subsequent intrusive memories: examining proactive interference</article-title>
+                  <source>J Behav Ther Exp Psychiatry</source>
+                  <year>2016</year>
+                  <volume>53</volume>
+                  <fpage>25</fpage>
+                  <lpage>33</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jbtep.2015.11.004</pub-id>
+                  <pub-id pub-id-type="pmid">27664818</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Van der Does</surname>
+                      <given-names>AJW</given-names>
+                    </name>
+                  </person-group>
+                  <source>Handleiding bij de Nederlandse Versie van Beck Depression Inventory—second edition (BDI-II-NL)</source>
+                  <year>2002</year>
+                  <publisher-loc>Amsterdam, NL</publisher-loc>
+                  <publisher-name>Harcourt</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Osman</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Barrios</surname>
+                      <given-names>FX</given-names>
+                    </name>
+                    <name>
+                      <surname>Gutierrez</surname>
+                      <given-names>PM</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>JE</given-names>
+                    </name>
+                    <name>
+                      <surname>Bailey</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Psychometric properties of the Beck depression inventory-II in nonclinical adolescent samples</article-title>
+                  <source>J Clin Psychol</source>
+                  <year>2008</year>
+                  <volume>64</volume>
+                  <issue>1</issue>
+                  <fpage>83</fpage>
+                  <lpage>102</lpage>
+                  <pub-id pub-id-type="doi">10.1002/jclp.20433</pub-id>
+                  <pub-id pub-id-type="pmid">18161034</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sheehan</surname>
+                      <given-names>DV</given-names>
+                    </name>
+                    <name>
+                      <surname>Lecrubier</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Sheehan</surname>
+                      <given-names>KJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Amorim</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Janavs</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Weiller</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The Mini-international neuropsychiatric interview (M.I.N.I.): the development and validation of a structured diagnostic psychiatric interview for DSM-IV and ICD-10</article-title>
+                  <source>J Clin Psychiatry</source>
+                  <year>1998</year>
+                  <volume>59</volume>
+                  <issue>Suppl 20</issue>
+                  <fpage>22</fpage>
+                  <lpage>33</lpage>
+                  <?supplied-pmid 9881538?>
+                  <pub-id pub-id-type="pmid">9881538</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <mixed-citation publication-type="other">van Bentum JS, Sijbrandij M, Huibers MJH, Kerkhof AJFM. Suicidal Intrusions Attributes Scale. [Manuscript in preparation]. In press 2017.</mixed-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beck</surname>
+                      <given-names>AT</given-names>
+                    </name>
+                    <name>
+                      <surname>Kovacs</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Weissman</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Assessment of suicidal intention: the scale for suicide ideation</article-title>
+                  <source>J Consult Clin Psychol</source>
+                  <year>1979</year>
+                  <volume>47</volume>
+                  <issue>2</issue>
+                  <fpage>343</fpage>
+                  <lpage>352</lpage>
+                  <pub-id pub-id-type="doi">10.1037/0022-006X.47.2.343</pub-id>
+                  <pub-id pub-id-type="pmid">469082</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beck</surname>
+                      <given-names>AT</given-names>
+                    </name>
+                    <name>
+                      <surname>Steer</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                  </person-group>
+                  <source>Manual for the Beck scale for suicide ideation</source>
+                  <year>1991</year>
+                  <publisher-loc>San Antonio, TX</publisher-loc>
+                  <publisher-name>The Psychological Corporation</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>van Spijker</surname>
+                      <given-names>BA</given-names>
+                    </name>
+                    <name>
+                      <surname>van Straten</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Kerkhof</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effectiveness of online self-help for suicidal thoughts: results of a randomised controlled trial</article-title>
+                  <source>PLoS One</source>
+                  <year>2014</year>
+                  <volume>9</volume>
+                  <issue>2</issue>
+                  <fpage>e90118</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0090118</pub-id>
+                  <pub-id pub-id-type="pmid">24587233</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Herdman</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Gudex</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Lloyd</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Janssen</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Kind</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Parkin</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Development and preliminary testing of the new five-level version of EQ-5D (EQ-5D-5L)</article-title>
+                  <source>Qual Life Res</source>
+                  <year>2011</year>
+                  <volume>20</volume>
+                  <issue>10</issue>
+                  <fpage>1727</fpage>
+                  <lpage>1736</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11136-011-9903-x</pub-id>
+                  <pub-id pub-id-type="pmid">21479777</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bouwmans</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>De Jong</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Timman</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Zijlstra-Vlasveld</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>van der Feltz-Cornelis</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Tan Swan</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Feasibility, reliability and validity of a questionnaire on healthcare consumption and productivity loss in patients with a psychiatric disorder (TiC-P)</article-title>
+                  <source>BMC Health Serv Res</source>
+                  <year>2013</year>
+                  <volume>13</volume>
+                  <fpage>217</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1472-6963-13-217</pub-id>
+                  <pub-id pub-id-type="pmid">23768141</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <mixed-citation publication-type="other">Hakkaart-van Roijen L. Handleiding Trimbos/iMTA questionnaire for costs associated with psychiatric illness (TiC-P). Institute for Medical Technology Assessment; 2002.</mixed-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Deragotis</surname>
+                      <given-names>LR</given-names>
+                    </name>
+                  </person-group>
+                  <source>BSI brief symptom inventory: administration, scoring, and procedure manual</source>
+                  <year>1993</year>
+                  <publisher-loc>Minneapolis, MN</publisher-loc>
+                  <publisher-name>National Computer Systems</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>de Beurs</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Zitman</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>De Brief Symptom Inventory (BSI). De betrouwbaarheid en validiteit van een handzaam alternatief voor de SCL-90</article-title>
+                  <source>Maandblad Geestelijke Volksgezondheid</source>
+                  <year>2006</year>
+                  <volume>61</volume>
+                  <fpage>120</fpage>
+                  <lpage>141</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <mixed-citation publication-type="other">Cordova-Middelbrink JA, Dek EC, Engelbarts MMB. Automatisering bij subklinische obsessief-compulsieve stoornis. [Masterthesis]. In press 2007.</mixed-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Raes</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Schoofs</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoes</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Hermans</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Den Eede</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Franck</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>‘Reflection’ en ‘brooding’ als subtypes van rumineren: een herziening van de Ruminative Response Scale</article-title>
+                  <source>Gedragstherapie.</source>
+                  <year>2009</year>
+                  <volume>42</volume>
+                  <fpage>205</fpage>
+                  <lpage>214</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beck</surname>
+                      <given-names>AT</given-names>
+                    </name>
+                    <name>
+                      <surname>Weissman</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Lester</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Trexler</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The measurement of pessimism: the hopelessness scale</article-title>
+                  <source>J Consult Clin Psychol</source>
+                  <year>1974</year>
+                  <volume>42</volume>
+                  <issue>6</issue>
+                  <fpage>851</fpage>
+                  <lpage>865</lpage>
+                  <pub-id pub-id-type="doi">10.1037/h0037562</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beck</surname>
+                      <given-names>AT</given-names>
+                    </name>
+                  </person-group>
+                  <source>Beck hopelessness scale</source>
+                  <year>1988</year>
+                  <publisher-loc>San Antonio, TX</publisher-loc>
+                  <publisher-name>The Psychological Corporation</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Young</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Halper</surname>
+                      <given-names>IS</given-names>
+                    </name>
+                    <name>
+                      <surname>Clark</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Scheftner</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Fawcett</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An item-response theory evaluation of the Beck hopelessness scale</article-title>
+                  <source>Cogn Ther Res</source>
+                  <year>1992</year>
+                  <volume>16</volume>
+                  <issue>5</issue>
+                  <fpage>579</fpage>
+                  <lpage>587</lpage>
+                  <pub-id pub-id-type="doi">10.1007/BF01175143</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Steed</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Further validity and reliability evidence for Beck hopelessness scale scores in a non-clinical sample</article-title>
+                  <source>Educ Psychol Meas</source>
+                  <year>2001</year>
+                  <volume>61</volume>
+                  <issue>2</issue>
+                  <fpage>303</fpage>
+                  <lpage>316</lpage>
+                  <pub-id pub-id-type="doi">10.1177/00131640121971121</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kienhorst</surname>
+                      <given-names>CWM</given-names>
+                    </name>
+                    <name>
+                      <surname>de Wilde</surname>
+                      <given-names>EJ</given-names>
+                    </name>
+                    <name>
+                      <surname>van den Bout</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Diekstra</surname>
+                      <given-names>RFW</given-names>
+                    </name>
+                    <name>
+                      <surname>Wolters</surname>
+                      <given-names>WHG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Characteristics of suicide attempters in a population-based sample of Dutch adolescents</article-title>
+                  <source>Br J Psychiatry</source>
+                  <year>1990</year>
+                  <volume>156</volume>
+                  <fpage>243</fpage>
+                  <lpage>248</lpage>
+                  <pub-id pub-id-type="doi">10.1192/bjp.156.2.243</pub-id>
+                  <pub-id pub-id-type="pmid">2317629</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Braver</surname>
+                      <given-names>TS</given-names>
+                    </name>
+                    <name>
+                      <surname>Cohen</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Nystrom</surname>
+                      <given-names>LE</given-names>
+                    </name>
+                    <name>
+                      <surname>Jonides</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A parametric study of prefrontal cortex involvement in human working memory</article-title>
+                  <source>Neuroimage.</source>
+                  <year>1997</year>
+                  <volume>5</volume>
+                  <issue>1</issue>
+                  <fpage>49</fpage>
+                  <lpage>62</lpage>
+                  <pub-id pub-id-type="doi">10.1006/nimg.1996.0247</pub-id>
+                  <pub-id pub-id-type="pmid">9038284</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                    <name>
+                      <surname>Lang</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Moulds</surname>
+                      <given-names>ML</given-names>
+                    </name>
+                    <name>
+                      <surname>Steele</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prospective and positive mental imagery deficits in dysphoria</article-title>
+                  <source>Behav Res Ther</source>
+                  <year>2008</year>
+                  <volume>46</volume>
+                  <issue>8</issue>
+                  <fpage>976</fpage>
+                  <lpage>981</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.brat.2008.04.009</pub-id>
+                  <pub-id pub-id-type="pmid">18538304</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stöber</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prospective cognitions in anxiety and depression: replication and methodological extension</article-title>
+                  <source>Cognit Emot</source>
+                  <year>2000</year>
+                  <volume>14</volume>
+                  <issue>5</issue>
+                  <fpage>725</fpage>
+                  <lpage>729</lpage>
+                  <pub-id pub-id-type="doi">10.1080/02699930050117693</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Starr</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Moulds</surname>
+                      <given-names>ML</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The role of negative interpretations of intrusive memories in depression</article-title>
+                  <source>J Affect Disord</source>
+                  <year>2006</year>
+                  <volume>93</volume>
+                  <issue>1–3</issue>
+                  <fpage>125</fpage>
+                  <lpage>132</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jad.2006.03.001</pub-id>
+                  <pub-id pub-id-type="pmid">16647140</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kazdin</surname>
+                      <given-names>AE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mediators and mechanisms of change in psychotherapy research</article-title>
+                  <source>Annu Rev Clin Psychol</source>
+                  <year>2007</year>
+                  <volume>3</volume>
+                  <issue>1</issue>
+                  <fpage>1</fpage>
+                  <lpage>27</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev.clinpsy.3.022806.091432</pub-id>
+                  <pub-id pub-id-type="pmid">17716046</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lemmens</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Galindo-Garre</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Arntz</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Peeters</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Hollon</surname>
+                      <given-names>SD</given-names>
+                    </name>
+                    <name>
+                      <surname>DeRubeis</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Exploring mechanisms of change in cognitive therapy and interpersonal psychotherapy for adult depression</article-title>
+                  <source>Behav Res Ther</source>
+                  <year>2017</year>
+                  <volume>94</volume>
+                  <fpage>81</fpage>
+                  <lpage>92</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.brat.2017.05.005</pub-id>
+                  <pub-id pub-id-type="pmid">28544896</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                    <name>
+                      <surname>Ghaderi</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Harmer</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Ramchandani</surname>
+                      <given-names>PG</given-names>
+                    </name>
+                    <name>
+                      <surname>Cuijpers</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Morrison</surname>
+                      <given-names>AP</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The lancet psychiatry commission on psychological treatments research in tomorrow’s science</article-title>
+                  <source>Lancet Psychiatry</source>
+                  <year>2018</year>
+                  <volume>5</volume>
+                  <issue>3</issue>
+                  <fpage>237</fpage>
+                  <lpage>286</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S2215-0366(17)30513-8</pub-id>
+                  <pub-id pub-id-type="pmid">29482764</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

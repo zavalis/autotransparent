@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:02:34Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9134350" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9134350</identifier>
+        <datestamp>2022-05-26</datestamp>
+        <setSpec>nihpa</setSpec>
+        <setSpec>pmc-open</setSpec>
+        <setSpec>manuscript</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-journal-id">8809320</journal-id>
+              <journal-id journal-id-type="pubmed-jr-id">1600</journal-id>
+              <journal-id journal-id-type="nlm-ta">Neuron</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Neuron</journal-id>
+              <journal-title-group>
+                <journal-title>Neuron</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0896-6273</issn>
+              <issn pub-type="epub">1097-4199</issn>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9134350</article-id>
+              <article-id pub-id-type="pmcid">PMC9134350</article-id>
+              <article-id pub-id-type="pmc-uid">9134350</article-id>
+              <article-id pub-id-type="pmid">33561399</article-id>
+              <article-id pub-id-type="pmid">33561399</article-id>
+              <article-id pub-id-type="doi">10.1016/j.neuron.2021.01.016</article-id>
+              <article-id pub-id-type="manuscript">nihpa1808824</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Interhemispheric transfer of working memories</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Brincat</surname>
+                    <given-names>Scott L.</given-names>
+                  </name>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                  <xref rid="A3" ref-type="aff">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Donoghue</surname>
+                    <given-names>Jacob A.</given-names>
+                  </name>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                  <xref rid="A3" ref-type="aff">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mahnke</surname>
+                    <given-names>Meredith K.</given-names>
+                  </name>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kornblith</surname>
+                    <given-names>Simon</given-names>
+                  </name>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lundqvist</surname>
+                    <given-names>Mikael</given-names>
+                  </name>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                  <xref rid="A2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Miller</surname>
+                    <given-names>Earl K.</given-names>
+                  </name>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                  <xref rid="A4" ref-type="aff">4</xref>
+                  <xref rid="CR1" ref-type="corresp">*</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="A1"><label>1</label>The Picower Institute for Learning and Memory and Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, MA 02139 USA</aff>
+              <aff id="A2"><label>2</label>Department of Psychology, Stockholm University, 106 91 Stockholm, Sweden</aff>
+              <aff id="A3"><label>3</label>These authors contributed equally</aff>
+              <aff id="A4"><label>4</label>Lead contact</aff>
+              <author-notes>
+                <fn fn-type="con" id="FN1">
+                  <p id="P1">AUTHOR CONTRIBUTIONS</p>
+                  <p id="P2">J.A.D., S.K., and E.K.M. designed the experiments. J.A.D., M.K.M., and S.K. performed the experiments and recorded the data. S.L.B. curated the data and conceived and performed the analyses. S.L.B., E.K.M., and M.L. wrote the manuscript.</p>
+                </fn>
+                <corresp id="CR1"><label>*</label>Correspondence: <email>ekmiller@mit.edu</email></corresp>
+              </author-notes>
+              <pub-date pub-type="nihms-submitted">
+                <day>19</day>
+                <month>5</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="ppub">
+                <day>17</day>
+                <month>3</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>08</day>
+                <month>2</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>26</day>
+                <month>5</month>
+                <year>2022</year>
+              </pub-date>
+              <volume>109</volume>
+              <issue>6</issue>
+              <fpage>1055</fpage>
+              <lpage>1066.e4</lpage>
+              <permissions>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+                  <license-p>This is an open access article under the CC BY-NC-ND license (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link>).</license-p>
+                </license>
+              </permissions>
+              <abstract id="ABS1">
+                <title>SUMMARY</title>
+                <p id="P3">Visual working memory (WM) storage is largely independent between the left and right visual hemifields/cerebral hemispheres, yet somehow WM feels seamless. We studied how WM is integrated across hemifields by recording neural activity bilaterally from lateral prefrontal cortex. An instructed saccade during the WM delay shifted the remembered location from one hemifield to the other. Before the shift, spike rates and oscillatory power showed clear signatures of memory laterality. After the shift, the lateralization inverted, consistent with transfer of the memory trace from one hemisphere to the other. Transferred traces initially used different neural ensembles from feedforward-induced ones, but they converged at the end of the delay. Around the time of transfer, synchrony between the two prefrontal hemispheres peaked in theta and beta frequencies, with a directionality consistent with memory trace transfer. This illustrates how dynamics between the two cortical hemispheres can stitch together WM traces across visual hemifields.</p>
+              </abstract>
+              <abstract id="ABS2" abstract-type="graphical">
+                <title>Graphical Abstract</title>
+                <p id="P4">
+                  <graphic xlink:href="nihms-1808824-f0001.jpg" position="anchor"/>
+                </p>
+              </abstract>
+              <abstract id="ABS3" abstract-type="summary">
+                <title>In Brief</title>
+                <p id="P5">Brincat et al. use bilateral recording to show working memories transferring between the right and left prefrontal cortex. Transferred memories engage different ensembles than feedforward-induced memory traces. Trace transfer is accompanied by directed interhemispheric theta/beta synchrony.</p>
+              </abstract>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="S1">
+              <title>INTRODUCTION</title>
+              <p id="P6">Imagine driving on the freeway. A car passes you and holds your attention as you wait to see if it will cut in front of you. Even if you briefly close your eyes or shift your gaze elsewhere, you are able to maintain the car’s location in mind and are surprised if it changes unexpectedly. This relies on visual working memory (WM), the ability to maintain images in mind in their absence. Decades of evidence points toward prefrontal cortex (PFC) as a key node in the cortical network underlying WM (<xref rid="R14" ref-type="bibr">D’Esposito and Postle, 2015</xref>; <xref rid="R23" ref-type="bibr">Funahashi et al., 1989</xref>; <xref rid="R25" ref-type="bibr">Fuster and Alexander, 1971</xref>; <xref rid="R41" ref-type="bibr">Miller et al., 1996</xref>; <xref rid="R50" ref-type="bibr">Romo et al., 1999</xref>; <xref rid="R54" ref-type="bibr">Ungerleider et al., 1998</xref>; <xref rid="R57" ref-type="bibr">Voytek and Knight, 2010</xref>).</p>
+              <p id="P7">In both humans and monkeys, visual WM seems largely independent between the left and right visual hemifields, which project to the right and left cerebral hemispheres, respectively. WM has a very limited storage capacity (<xref rid="R34" ref-type="bibr">Luck and Vogel, 1997</xref>, <xref rid="R35" ref-type="bibr">2013</xref>). But the capacity within one visual hemifield is largely unaffected by the number of objects in the other hemifield (<xref rid="R9" ref-type="bibr">Buschman et al., 2011</xref>; <xref rid="R16" ref-type="bibr">Delvenne, 2005</xref>; <xref rid="R53" ref-type="bibr">Umemoto et al., 2010</xref>). Correspondingly, the neural correlates of WM storage and WM load (how many items are held in memory) primarily reflect items within the contralateral hemifield (<xref rid="R24" ref-type="bibr">Funahashi et al., 1990</xref>; <xref rid="R31" ref-type="bibr">Kastner et al., 2007</xref>; <xref rid="R32" ref-type="bibr">Kornblith et al., 2015</xref>; <xref rid="R38" ref-type="bibr">Luria et al., 2016</xref>; <xref rid="R48" ref-type="bibr">Rainer et al., 1998</xref>).</p>
+              <p id="P8">Nevertheless, visual cognition seems seamless across the visual field, even when eye movements switch the remembered location of objects between visual hemifields. In such situations, are memory representations transferred from one cerebral hemisphere to the other, or are they ‘‘bound’’ to the hemisphere where they were initially stored? If transferred, do transferred WMs use the same neural representation as ones induced by feedforward visual inputs, and what are the mechanisms underlying transfer?</p>
+              <p id="P9">We used a novel variant of the delayed nonmatch-to-sample task. A midline-crossing saccade during the memory delay switched the hemifield of a remembered item. We found that WM traces are transferred from one prefrontal hemisphere to the other, that transferred traces recruit neural ensembles distinct from those induced by feedforward inputs, and that this transfer is facilitated by rhythmic coupling between the cerebral hemispheres.</p>
+            </sec>
+            <sec id="S2">
+              <title>RESULTS</title>
+              <p id="P10">Monkeys were trained to perform a modified version of a non-match-to-sample visual WM task (<xref rid="F1" ref-type="fig">Figure 1A</xref>). They fixated on a point on the left or right (50% of trials randomly) of a computer screen. An object briefly appeared as a sample in the center of the screen, thus in the right or left visual hemifield, respectively (<xref rid="F1" ref-type="fig">Figure 1B</xref>, left). The sample could be one of two different objects, at one of two different locations slightly above or below the center of the screen. The monkeys were required to remember both the object identity and location over a blank delay and then compare it with a test object. If it did not match the sample in either identity or upper/lower location, they were trained to saccade directly to it. Otherwise, they held fixation until a second, always non-matching test object appeared.</p>
+              <p id="P11">A random 50% of trials had an uninterrupted delay, with no change in the remembered sample location relative to gaze (‘‘no-swap’’ trials; <xref rid="F1" ref-type="fig">Figure 1A</xref>, left). On the other trials, halfway through the delay the fixation point jumped across the midline to the opposite side, instructing an immediate saccade and refixation on it for the remainder of the delay. This shifted the remembered sample’s retinotopic location to the opposite visual hemifield (‘‘swap’’ trials; <xref rid="F1" ref-type="fig">Figure 1A</xref>, right). Performance was good for all conditions (p ≤ 1 × 10<sup>−4</sup> for all, randomized sign test across 56 sessions), albeit somewhat worse on swap trials (p ≤ 1 × 10<sup>−4</sup>, permutation paired t test; <xref rid="F1" ref-type="fig">Figure 1C</xref>). There were no significant differences in performance when the sample (p = 0.71) or test object (p = 0.10) appeared in the left versus right hemifield, so all results were pooled across them. We recorded multi-unit activity (MUA) and local field potentials (LFPs) from 256 electrodes in four chronic arrays implanted bilaterally in both hemispheres of lateral PFC during task performance (<xref rid="F1" ref-type="fig">Figure 1D</xref>). All presented statistics were based on nonparametric randomization tests across sessions, corrected for multiple comparisons across frequencies and time points (<xref rid="R6" ref-type="bibr">Benjamini and Yekutieli, 2001</xref>; see <xref rid="S8" ref-type="sec">STAR methods</xref> for details).</p>
+              <sec id="S3">
+                <title>Laterality of WM-related activity</title>
+                <p id="P12">We first examined no-swap trials to establish a reliable signature of the laterality of the WM trace. Data from each prefrontal hemisphere and sample object hemifield were analyzed separately, and then results were pooled on the basis of whether the sample was contralateral or ipsilateral to the recorded hemisphere.</p>
+                <p id="P13">Spiking was stronger and more informative for contralateral than ipsilateral objects. Average MUA was significantly higher for contralateral than ipsilateral samples throughout the trial (<xref rid="F2" ref-type="fig">Figure 2A</xref>, stars; p &lt; 0.01, corrected, permutation paired t test). In fact, for ipsilateral samples, MUA was above baseline on average only during the response to the sample presentation and a brief ‘‘ramp-up’’ at the end of the delay (<xref rid="F2" ref-type="fig">Figure 2A</xref>, dots; p &lt; 0.01, corrected, randomized sign test). Ipsilateral samples had only a weak effect on spiking during the delay. Unlike contralateral samples, which increased spiking, ipsilateral samples elicited a balance between increased and decreased spiking relative to baseline (<xref rid="SD1" ref-type="supplementary-material">Figure S1</xref>).</p>
+                <p id="P14">We computed the accuracy of decoding the contents of WM as a measure of information conveyed in the neural population about WMs. We used a linear discriminant classifier to decode object identity and upper/lower location from the pattern of spiking activity across all MUAs within each hemisphere at each time point. Cross-validated decoding accuracy was significantly above chance for both contralateral and ipsilateral sample objects (<xref rid="F2" ref-type="fig">Figure 2B</xref>, dots; p &lt; 0.01, sign test), but it was significantly higher for contralateral (<xref rid="F2" ref-type="fig">Figure 2B</xref>, stars; p &lt; 0.01, paired t test). Thus, prefrontal sensory and memory-related spiking showed a clear contralateral bias in strength and information content, as previously reported (see <xref rid="S7" ref-type="sec">Discussion</xref>).</p>
+                <p id="P15">LFP power also exhibited a contralateral bias, especially for higher frequencies. Gamma power (~40–100 Hz) was significantly elevated relative to baseline during sample object presentation and a ‘‘ramp-up’’ at the end of the delay for both contralateral (<xref rid="F2" ref-type="fig">Figure 2C</xref>) and ipsilateral (<xref rid="F2" ref-type="fig">Figure 2D</xref>) samples (p &lt; 0.01, sign test; summarized in <xref rid="F2" ref-type="fig">Figure 2F</xref>). Gamma power induced by contralateral sample objects was significantly higher than for ipsilateral objects during the sample onset and offset transients and the pre-test ‘‘ramp-up’’ (<xref rid="F2" ref-type="fig">Figure 2E</xref>; p &lt; 0.01, paired t test). Theta power (~3–8 Hz) also showed a contralateral bias during the sample response but not the memory delay (<xref rid="F2" ref-type="fig">Figures 2E</xref> and <xref rid="F2" ref-type="fig">2H</xref>). In contrast, beta power (~10–32 Hz) showed effects in the opposite direction overall: significant decreases in power from baseline during the sample and late delay periods for both contralateral and ipsilateral sample objects (<xref rid="F2" ref-type="fig">Figure 2G</xref>). Like gamma and theta enhancement, beta suppression was significantly stronger for contralateral than ipsilateral samples (<xref rid="F2" ref-type="fig">Figure 2E</xref>) but, like theta power, only during the sample object response. Beta oscillatory burst rates exhibited a stronger and more sustained laterality than beta power, but analysis of LFP bursting produced otherwise similar results (<xref rid="SD1" ref-type="supplementary-material">Figures S2A</xref> and <xref rid="SD1" ref-type="supplementary-material">S2B</xref>). These results indicate that prefrontal LFP power, like spiking activity, exhibits a clear contralateral bias.</p>
+              </sec>
+              <sec id="S4">
+                <title>Transfer of WMs between cerebral hemispheres</title>
+                <p id="P16">We then leveraged the neural signature of WM laterality to examine what happened when the remembered location was shifted by a saccade to the opposite visual hemifield relative to the center of gaze. We propose two alternative hypotheses. On the one hand, a WM trace might be bound to the initial representation induced by visual inputs and might simply remain in the hemisphere where it was originally encoded (<xref rid="F3" ref-type="fig">Figure 3A</xref>). This <italic toggle="yes">stable trace model</italic> predicts no change in neural signatures after the mid-delay saccade (<xref rid="F3" ref-type="fig">Figure 3B</xref>). Alternatively, when the hemifield switches, the neural trace itself might also move from the hemisphere it was originally encoded in to the opposite hemisphere, now contralateral to the remembered location (<xref rid="F3" ref-type="fig">Figure 3C</xref>). This <italic toggle="yes">shifting trace model</italic> predicts neural signatures of laterality in the swap trials will invert after the midline-crossing saccade (<xref rid="F3" ref-type="fig">Figure 3D</xref>).</p>
+                <p id="P17">We found evidence for the shifting trace model, an inversion of neural laterality signatures after the midline-crossing saccade. This was apparent in average MUA rate (<xref rid="F4" ref-type="fig">Figure 4A</xref>) and in information carried by MUA (<xref rid="F4" ref-type="fig">Figure 4B</xref>). As in the no-swap trials (<xref rid="F2" ref-type="fig">Figures 2A</xref> and <xref rid="F2" ref-type="fig">2B</xref>), prefrontal MUA starts the delay with a bias toward the contralateral hemifield (<xref rid="F4" ref-type="fig">Figures 4A</xref> and <xref rid="F4" ref-type="fig">4B</xref>, left; H symbols: p &lt; 0.01, corrected, sample hemifield main effect in hemifield × shift condition permutation two-way ANOVA). But after the saccade (<xref rid="F4" ref-type="fig">Figures 4A</xref> and <xref rid="F4" ref-type="fig">4B</xref>, right), both MUA and decoding accuracy increased for remembered locations that shifted from the ipsilateral to the contralateral hemifield (orange) relative to that for ipsilateral locations on no-swap trials (desaturated brown; brown stars: p &lt; 0.01, paired t test). By contrast, on swap trials when the saccade shifted the remembered location from the contralateral to ipsilateral hemifield (green), there was a decrease compared with the contralateral location on no-swap trials (desaturated green; green stars: p &lt; 0.01). For average MUA (<xref rid="F4" ref-type="fig">Figure 4A</xref>), there was a complete inversion. The spike rates after a saccade that shifted the remembered location into a given hemifield almost exactly matched those for a static memory in the same hemifield. Around the time of the saccade, there was also increased spiking for both swap conditions, relative to the no-swap trials (S symbols: p &lt; 0.01, shift condition main effect). Nevertheless, later in the delay, the predicted inversion effect was dominant (X symbols: p &lt; 0.01, interaction effect). For decoding accuracy (<xref rid="F4" ref-type="fig">Figure 4B</xref>), ipsilateral-shifting trials (green) were near the value of constant ipsilateral trials (desaturated brown). Contralateral-shifting trials (orange) exhibited a bump of increased accuracy after the saccade (brown stars: p &lt; 0.01, paired t test) but subsequently declined and never attained the level of constant contralateral trials (desaturated green). This imperfect transfer of information may explain why behavioral performance was significantly decreased in swap trials.</p>
+                <p id="P18">Similar effects were seen in LFP power (<xref rid="F5" ref-type="fig">Figure 5</xref>). During and just after the saccade, gamma (<xref rid="F5" ref-type="fig">Figures 5A</xref>, <xref rid="F5" ref-type="fig">5B</xref>, and <xref rid="F5" ref-type="fig">5D</xref>) and theta (<xref rid="F5" ref-type="fig">Figures 5A</xref>, <xref rid="F5" ref-type="fig">5B</xref>, and <xref rid="F5" ref-type="fig">5F</xref>) power were stronger overall for swap than no-swap trials. Later in the delay, however, gamma power inverted and became stronger for remembered locations moving from the ipsilateral to the preferred contralateral hemifield (<xref rid="F5" ref-type="fig">Figures 5C</xref> and <xref rid="F5" ref-type="fig">5D</xref>; p &lt; 0.01, hemifield × swap interaction effect) as predicted by the shifting trace model. Theta power showed a similar inversion at the very end of the delay, though this is likely due to temporal smearing of test period effects (<xref rid="F5" ref-type="fig">Figures 5C</xref> and <xref rid="F5" ref-type="fig">5F</xref>; gray regions indicate extent of possible test effects).</p>
+                <p id="P19">Beta power (<xref rid="F5" ref-type="fig">Figures 5A</xref>–<xref rid="F5" ref-type="fig">5C</xref> and <xref rid="F5" ref-type="fig">5E</xref>) exhibited complex multiphasic dynamics on swap trials (<xref rid="F5" ref-type="fig">Figure 5F</xref>). It was suppressed initially after the saccade but later became enhanced, relative to power on no-swap trials (<xref rid="F5" ref-type="fig">Figure 5F</xref>). On top of these overall dynamics, however, beta power on the swap conditions inverted: it became stronger for remembered locations shifting into the ipsilateral hemifield than for those shifting into the contralateral hemifield (<xref rid="F5" ref-type="fig">Figures 5C</xref> and <xref rid="F5" ref-type="fig">5F</xref>). Thus, as for spiking, prefrontal LFP power signatures of WM laterality also exhibited the inversion predicted by the shifting trace model (<xref rid="F3" ref-type="fig">Figure 3D</xref>). These results support the hypothesis that the memory trace is transferred from one cortical hemisphere to the other.</p>
+              </sec>
+              <sec id="S5">
+                <title>Interhemispheric transfer activates novel neural ensembles</title>
+                <p id="P20">A model consistent with the data thus far is that WMs transferred between hemispheres recruit the same neural ensembles as memory traces activated by feedforward visual inputs into the same cortical hemisphere. Under this <italic toggle="yes">generic ensemble model</italic> (<xref rid="F6" ref-type="fig">Figure 6A</xref>), when a given object—say, a banana in the upper location—is held in WM within a cortical hemisphere, it uses the same neural ensemble (i.e., the same pattern of spiking across our electrode arrays) whether it arrived there via feedforward inputs from visual cortex (<xref rid="F6" ref-type="fig">Figure 6A</xref>, left) or via interhemispheric inputs from the contralateral hemisphere (<xref rid="F6" ref-type="fig">Figure 6A</xref>, right). We could test this because the saccade on swap trials brought the remembered sample location to the same retinotopic coordinates where it appeared on the no-swap trials. An alternative model is motivated by the fact that unique prefrontal ensembles are activated by different combinations of input features and task contexts (<xref rid="R49" ref-type="bibr">Rigotti et al., 2013</xref>). Perhaps the same information arriving via different circuits—feedforward (<xref rid="F6" ref-type="fig">Figure 6C</xref>, left) versus interhemispheric (<xref rid="F6" ref-type="fig">Figure 6C</xref>, right)—also activates different ensembles. We call this alternative the <italic toggle="yes">novel ensemble model</italic>.</p>
+                <p id="P21">We used a cross-classification method to adjudicate between the models. We trained a classifier to decode the object identity and its upper/lower location from population spiking at each time point on contralateral no-swap trials. We tested whether these classifiers could predict the same information on ipsilateral-to-contralateral swap trials, which brought that same object to the same location as the contralateral no-swap trials. Note that training and testing were both performed on the same cortical hemisphere—separately for each hemisphere, then results were pooled across them—meaning the cross-classification is across task conditions, not cortical hemispheres. Thus, we tested whether the same information was reflected in the same neural pattern in a given hemisphere, regardless of how it arrived there. If both conditions activate the same ensembles, as assumed by the generic trace model (<xref rid="F6" ref-type="fig">Figure 6A</xref>), then this cross-classification (<xref rid="F6" ref-type="fig">Figure 6B</xref>, orange) should result in high decoding accuracy, similar to that obtained from both training and testing on constant contralateral trials (<xref rid="F6" ref-type="fig">Figure 6B</xref>, desaturated green). If these conditions activate different neural ensembles, as suggested by the novel ensemble model (<xref rid="F6" ref-type="fig">Figure 6C</xref>), then cross-classification accuracy (<xref rid="F6" ref-type="fig">Figure 6D</xref>, orange) should be poor, similar to that obtained from cross-classification testing on constant ipsilateral trials (<xref rid="F6" ref-type="fig">Figure 6D</xref>, desaturated brown). We find evidence for both models at different time points during the post-saccade delay.</p>
+                <p id="P22">For reference, we replot (from <xref rid="F4" ref-type="fig">Figure 4B</xref>) classification accuracy when both training and cross-validated testing were performed on constant contralateral trials (<xref rid="F6" ref-type="fig">Figure 6E</xref>, desaturated green). As a control, we computed cross-classification accuracy when the same no-swap contralateral trained classifiers were tested on no-swap ipsilateral trials (<xref rid="F6" ref-type="fig">Figure 6E</xref>, desaturated brown). This reflects baseline cross-classification generalization due solely to any bilaterality in the prefrontal neural code. This control analysis resulted in poor accuracy, further evidence for independence between the contralateral and ipsilateral hemifields. For most of the post-saccade delay, cross-classification of the contralateral-shift trials (<xref rid="F6" ref-type="fig">Figure 6E</xref>, orange) was also poor and not significantly different from the control (p ≥ 0.01, paired t test). Here, classifier training and testing were performed at the same time points relative to the end of the delay. Similar results were obtained with training and testing at all possible relative times (<xref rid="SD1" ref-type="supplementary-material">Figure S3</xref>), indicating results are not dependent on the specific timing scheme used.</p>
+                <p id="P23">These results mostly support the novel ensemble model. For much of the post-saccade delay, decoders generalized poorly from the constant contralateral trials to those in which it was transferred from the opposite hemisphere (<xref rid="F6" ref-type="fig">Figure 6E</xref>). The initial bump in decoding accuracy seen when the saccade shifted the remembered location from ipsilateral to contralateral (<xref rid="F4" ref-type="fig">Figure 4B</xref>) was not detected using the classifiers from no-swap trials. Thus, different neural ensembles were activated by the same sensory information in WM, depending on whether it arrived via ipsilateral visual inputs or via the contralateral hemisphere. However, near the end of the delay, the cross-classification of contralateral-shift trials increased relative to the control (<xref rid="F6" ref-type="fig">Figure 6E</xref>, p &lt; 0.01, paired t test). This suggests that, in anticipation of using the WM, interhemispherically transferred memory traces converged somewhat toward an ensemble representation similar to feedforward-induced traces.</p>
+              </sec>
+              <sec id="S6">
+                <title>Interhemispheric synchrony during memory transfer</title>
+                <p id="P24">Our results thus far suggest transfer of WM traces between prefrontal hemispheres. If so, we should expect to see evidence of communication between hemispheres around the time of putative transfer. We would further expect signals to flow causally from the hemisphere contralateral to the initial sample hemifield (the ‘‘sender’’) toward the hemisphere contralateral to the post-saccade hemifield (the ‘‘receiver’’). Evidence suggests that phase synchrony between cortical areas helps regulate the flow of information (<xref rid="R22" ref-type="bibr">Fries, 2015</xref>). Thus, we measured oscillatory synchrony between LFPs in the two prefrontal hemispheres using pairwise phase consistency (PPC), an unbiased measure of phase synchrony (<xref rid="F7" ref-type="fig">Figure 7</xref>).</p>
+                <p id="P25">Around the saccade on swap trials—when WM trace transfer putatively occurs—interhemispheric theta (~4–10 Hz) and high-beta (~18–40 Hz) synchrony both exhibited a transient peak (<xref rid="F7" ref-type="fig">Figure 7A</xref>; p &lt; 0.01, paired t test versus pre-sample baseline). No such peaks were observed at analogous time points on no-swap trials (<xref rid="F7" ref-type="fig">Figure 7B</xref>). These differences were confirmed by examining the contrast between swap and no-swap trials (<xref rid="F7" ref-type="fig">Figure 7C</xref>; p &lt; 0.01, paired t test). In contrast, during this period there was a suppression of interhemispheric synchrony relative to baseline within the alpha/low-beta band (~11–17 Hz), which extended into the post-saccade delay period (<xref rid="F7" ref-type="fig">Figure 7C</xref>). Similar results, but with higher frequency positive effects extending into the gamma band (~40–100 Hz), were observed for synchrony between LFPs at distinct sites within each hemisphere (<xref rid="F7" ref-type="fig">Figures 7D</xref>–<xref rid="F7" ref-type="fig">7I</xref>). Theta and gamma increases were stronger in the sender hemisphere (<xref rid="F7" ref-type="fig">Figures 7D</xref>, <xref rid="F7" ref-type="fig">7F</xref>, and 7H). Alpha/beta suppression from baseline, like beta power, was more similar in strength between hemispheres. These results suggest evidence for interhemispheric signal communication underlying memory trace transfer and that communication occurs via theta and high-beta but not alpha/beta synchrony.</p>
+                <p id="P26">To test whether signals flow from the sender to the receiver hemisphere, we measured spectral Granger causality between LFPs in the two prefrontal hemispheres. Granger causality is a measure of how much variance in one signal can be explained by the recent history of another (here, LFPs at distinct sites), beyond what can be explained by the signal’s own dynamics. Spectral Granger causality expresses these causal interactions in the frequency domain (<xref rid="R17" ref-type="bibr">Dhamala et al., 2008</xref>). As predicted, causality was greater in the sender-to-receiver direction (<xref rid="F8" ref-type="fig">Figure 8A</xref>, green) than in the opposite, receiver-to-sender direction (orange). Although this difference was significant for all frequencies from approximately 10–40 Hz (<xref rid="F8" ref-type="fig">Figure 8B</xref>, gray stars; p &lt; 0.01, paired t test), it was greatest at the same high-beta frequencies that synchrony peaked at (~20–40 Hz; <xref rid="F8" ref-type="fig">Figure 8B</xref>, gray curve). This asymmetric directionality was not observed in no-swap trials between sites contralateral and ipsilateral to the sample location (<xref rid="F8" ref-type="fig">Figures 8C</xref> and <xref rid="F8" ref-type="fig">8D</xref>). Between-region differences in signal-to-noise ratio (SNR) can result in false-positive Granger causality. As our results were pooled across left-to-right and right-to-left hemispheres, any between-hemisphere SNR differences should have averaged out. To further rule out this possibility, we recomputed Granger causality on time-reversed data, which preserves SNR differences but should reverse the direction of true causal signal flow (<xref rid="R4" ref-type="bibr">Bastos and Schoffelen, 2016</xref>; <xref rid="R29" ref-type="bibr">Haufe et al., 2013</xref>). This is exactly what we observed (<xref rid="SD1" ref-type="supplementary-material">Figure S4</xref>). These results indicate that during the time period of putative WM trace transfer, signals flow in the predicted direction, from the sender to the receiver hemisphere.</p>
+              </sec>
+            </sec>
+            <sec id="S7">
+              <title>DISCUSSION</title>
+              <p id="P28">Our results suggest that WM traces can be transferred from one prefrontal hemisphere to the other. Previous studies have only provided indirect evidence of this. In WM tasks, when sample and test stimuli appear in opposite visual hemifields, masking during the delay is more effective in the expected test hemifield (<xref rid="R59" ref-type="bibr">Zaksas et al., 2001</xref>). Associative cues presented to one visual hemifield can elicit associated representations in the opposite-hemisphere visual cortex (<xref rid="R51" ref-type="bibr">Tomita et al., 1999</xref>). Here, we provided direct neurophysiological evidence of WM transfer between hemispheres.</p>
+              <p id="P29">A possible anatomical substrate is direct connections between hemispheres via the corpus callosum (<xref rid="R3" ref-type="bibr">Barbas and Pandya, 1984</xref>). Cortical feedforward processing has been shown to be mediated by gamma and theta oscillations while feedback processing is mediated by alpha/beta oscillations (<xref rid="R5" ref-type="bibr">Bastos et al., 2015</xref>; <xref rid="R8" ref-type="bibr">Buschman and Miller, 2007</xref>; <xref rid="R55" ref-type="bibr">van Kerkoerle et al., 2014</xref>). Our results showed increases in interhemispheric theta and high-beta synchrony, and decreases in alpha/low-beta, during the presumed time of memory trace transfer. One possibility is that interhemispheric communication occurs both in frequency bands used by feedforward (theta) and feedback (beta) processing. Perhaps this allows flexible interaction of interhemispheric signals with either feedforward or feedback signals. Another possibility is that higher frequency cortical communication—typically in the traditional gamma band—is shifted slightly downward in frequency (to 40 Hz and lower) to maintain reliable transmission despite the time delays imposed by long callosal axons. Of course, there are other possible routes for interhemispheric transfer other than direct prefrontal callosal connections. Signals might be transferred at some higher level region and then conveyed via feedback to PFC, or conceivably transfer could happen at lower levels and feed forward to PFC. Ultimately, resolving this issue will likely require causal manipulation of connectivity.</p>
+              <p id="P30">Gamma and alpha/beta oscillations have characteristic WM-related temporal dynamics: gamma is elevated and beta suppressed during encoding (sample period) and readout (end-of-delay ‘‘ramp-up’’) of WM, while the opposite is true during WM maintenance (delay period; <xref rid="R36" ref-type="bibr">Lundqvist et al., 2016</xref>, <xref rid="R37" ref-type="bibr">2018</xref>). We replicated these anti-correlated gamma/beta dynamics both when a WM is statically maintained, and when it is transferred between hemispheres. We found that theta dynamics also broadly correlate with gamma and anti-correlate with alpha/beta. We also found similar dynamics in these frequency bands in the synchrony between distinct sites both within a prefrontal hemisphere and between hemispheres, with the exception that synchronization between hemispheres at traditional gamma frequencies was absent.</p>
+              <p id="P31">To better understand the temporal dynamics of interhemispheric WM transfer, we compared the latencies of all studied neural signals (<xref rid="SD1" ref-type="supplementary-material">Figure S5</xref>). The earliest signals after the saccade instruction included beta synchrony within the sender hemisphere and between hemispheres, consistent with the idea that it may be involved in establishing a communication channel for interhemispheric transfer. Beta signals then exhibited a bilateral decrease around the time the receiver hemisphere begins to convey information about the WM trace, consistent with the idea that suppressing beta may disinhibit cortex and allow WMs to be expressed (<xref rid="R36" ref-type="bibr">Lundqvist et al., 2016</xref>). Finally, WM information decreased in the sender hemisphere about 120 ms after the rise in the receiver. Interhemispheric transfer in this task thus involves a ‘‘soft handoff,’’ in which information overlaps in time in both hemispheres before being cleared out of the sending hemisphere. This is similar to what has been found for tracking moving objects across the midline (<xref rid="R19" ref-type="bibr">Drew et al., 2014</xref>).</p>
+              <p id="P32">Another way to think about our results is in terms of reference frames. In a retinotopic (gaze-centered) reference frame, locations are described relative to gaze (<xref rid="SD1" ref-type="supplementary-material">Figure S6A</xref>, top). Virtually all studied areas of visual cortex code in a retinotopic reference frame (<xref rid="SD1" ref-type="supplementary-material">Figure S6B</xref>, top; <xref rid="R12" ref-type="bibr">Cohen and Andersen, 2002</xref>; <xref rid="R26" ref-type="bibr">Golomb and Kanwisher, 2012</xref>). In contrast, a spatiotopic (world-centered) reference frame represents locations in the real world, independent of gaze (<xref rid="SD1" ref-type="supplementary-material">Figures S6A</xref> and <xref rid="SD1" ref-type="supplementary-material">S6B</xref>, bottom). In addition to other more established non-retinotopic spatial coding schemes (<xref rid="R10" ref-type="bibr">Chafee et al., 2007</xref>; <xref rid="R27" ref-type="bibr">Graziano and Gross, 1998</xref>; <xref rid="R43" ref-type="bibr">Olson, 2003</xref>), explicit spatiotopic reference frames may exist in higher level cortex (<xref rid="R15" ref-type="bibr">Dean and Platt, 2006</xref>; <xref rid="R20" ref-type="bibr">Duhamel et al., 1997</xref>).</p>
+              <p id="P33">In our study, whether the eyes were fixated to the left or right, the sample item was always at the same central spatiotopic (real-world) location. Thus, if PFC encoded locations in a spatiotopic reference frame (<xref rid="SD1" ref-type="supplementary-material">Figure S6B</xref>, bottom), its activity should be relatively invariant to the location of the sample object relative to the eyes (<xref rid="SD1" ref-type="supplementary-material">Figure S6C</xref>, bottom row). Arguing against this possibility is the differentiation between contralateral and ipsilateral sample locations in PFC activity (<xref rid="F2" ref-type="fig">Figure 2</xref>). This suggests a retinotopic reference frame (<xref rid="SD1" ref-type="supplementary-material">Figure S6C</xref>, top row). On the other hand, if WM, at the cognitive level, also maintained locations in a retinotopic reference frame, remembered locations would be anchored to the location of gaze and would simply shift around with a saccade (<xref rid="SD1" ref-type="supplementary-material">Figure S6A</xref>, top). This makes predictions (<xref rid="SD1" ref-type="supplementary-material">Figure S6C</xref>, left column) identical to the stable trace model (<xref rid="F2" ref-type="fig">Figures 2A</xref> and <xref rid="F2" ref-type="fig">2C</xref>) (i.e., that the memory trace remains in the original hemisphere). Instead, we found that neural signatures of laterality invert after the saccade (<xref rid="F4" ref-type="fig">Figures 4</xref> and <xref rid="F5" ref-type="fig">5</xref>), ruling out a retinotopic reference frame for WM (<xref rid="SD1" ref-type="supplementary-material">Figure S6C</xref>, left column). Our results are consistent with the remembered location’s being maintained within a spatiotopic reference frame at the cognitive level (<xref rid="R44" ref-type="bibr">Ong et al., 2009</xref>) but within a retinotopic reference frame at the neural level (<xref rid="SD1" ref-type="supplementary-material">Figure S6C</xref>, upper right quadrant).</p>
+              <p id="P34">How can we reconcile this? One possibility is that cognition reflects some putative higher level area with a spatiotopic reference frame that updates the retinotopic representation after each saccade. Arguing against this is the relative paucity of evidence for any explicit spatiotopic representation in the visual cortical hierarchy (<xref rid="R15" ref-type="bibr">Dean and Platt, 2006</xref>; <xref rid="R20" ref-type="bibr">Duhamel et al., 1997</xref>; <xref rid="R26" ref-type="bibr">Golomb and Kanwisher, 2012</xref>). Alternatively, spatiotopic cognition may not rely on an explicit spatiotopic neural representation. It could instead be coded implicitly by a retinotopic representation that is locally updated after a saccade. This would shift a remembered location in the opposite direction of each saccade vector to its new coordinates on the retinotopic map (<xref rid="R47" ref-type="bibr">Pouget and Snyder, 2000</xref>). For a midline-crossing saccade, this would entail transfer of the memory trace between the left and right visual hemifields/hemispheres.</p>
+              <p id="P35">In many areas of visual and visuomotor cortex, receptive fields (RFs) show anticipatory shifts to their future, post-saccadic location even before the onset of a saccade (<xref rid="R13" ref-type="bibr">Colby et al., 1995</xref>). Other studies suggest that during a saccade, RFs contract toward the location of the saccade target then later expand out to their final post-saccadic location (<xref rid="R11" ref-type="bibr">Chen et al., 2018</xref>; <xref rid="R42" ref-type="bibr">Neupane et al., 2016</xref>; <xref rid="R60" ref-type="bibr">Zirnsak et al., 2014</xref>). This implies a change in the population neural code for location around the time of a saccade because the ensemble responsive to a given location during the RF contraction will be different from those responsive to the same location before and after the saccade. This could explain the lack of cross-decoding between static and shifted memory traces (<xref rid="F6" ref-type="fig">Figure 6C</xref>). These dynamics have yet to be demonstrated in PFC, but their properties in other areas argue against a role. RF contraction effects extend to only ~300 ms after a saccade in area V4 (<xref rid="R42" ref-type="bibr">Neupane et al., 2016</xref>) and the frontal eye field (<xref rid="R11" ref-type="bibr">Chen et al., 2018</xref>), whereas poor cross-decoding extends to over 500 ms in our results. Contraction effects in V4 occur mainly for neurons with RFs in the same hemifield as the saccade endpoint (<xref rid="R42" ref-type="bibr">Neupane et al., 2016</xref>), whereas in the key ipsilateral-to-contralateral condition in our results, RFs would be in the opposite hemifield to the saccade.</p>
+              <p id="P36">An alternative account is motivated by findings of ‘‘nonlinear mixed selectivity’’ in PFC (<xref rid="R49" ref-type="bibr">Rigotti et al., 2013</xref>). It suggests that PFC is best understood as a random network, in which unique ensembles are activated by different combinations of input features and task contexts (<xref rid="R7" ref-type="bibr">Bouchacourt and Buschman, 2019</xref>). This predicts distinct ensembles are activated depending on the route by which information arrives, feedforward versus interhemispheric. Regardless of the specific mechanism, our results indicate that just before the memory trace is to be read out for comparison with a test object, its neural code shifts to become more like the ensemble used for static, feedforward-induced memory traces in the same location. This convergence likely facilitates downstream comparison and decision-making processes by allowing similar mechanisms and readout weights for reading the same information out from WM stores.</p>
+              <p id="P37">Processing in most visual cortical areas, including PFC, is strongly biased toward the contralateral visual hemifield (<xref rid="R24" ref-type="bibr">Funahashi et al., 1990</xref>; <xref rid="R28" ref-type="bibr">Hagler and Sereno, 2006</xref>; <xref rid="R31" ref-type="bibr">Kastner et al., 2007</xref>; <xref rid="R40" ref-type="bibr">Medendorp et al., 2007</xref>; <xref rid="R46" ref-type="bibr">Pasternak et al., 2015</xref>; <xref rid="R48" ref-type="bibr">Rainer et al., 1998</xref>; <xref rid="R57" ref-type="bibr">Voytek and Knight, 2010</xref>; <xref rid="R58" ref-type="bibr">Wimmer et al., 2016</xref>). Prefrontal spiking activity (<xref rid="R9" ref-type="bibr">Buschman et al., 2011</xref>) and gamma power (<xref rid="R32" ref-type="bibr">Kornblith et al., 2015</xref>) increase with WM load—the number of items held in memory at one time—but only for items in the contralateral visual hemifield. In contrast, beta power shows increasing suppression for increasing numbers of items in either visual hemifield (<xref rid="R32" ref-type="bibr">Kornblith et al., 2015</xref>; <xref rid="R40" ref-type="bibr">Medendorp et al., 2007</xref>). Our results confirm these findings. This distinction might reflect the fact that beta oscillations are thought to correlate with broadly selective inhibitory processes (<xref rid="R21" ref-type="bibr">Engel and Fries, 2010</xref>; <xref rid="R30" ref-type="bibr">Jensen and Mazaheri, 2010</xref>; <xref rid="R36" ref-type="bibr">Lundqvist et al., 2016</xref>). It might also reflect beta’s having a stronger influence from more bilateral top-down or recurrent signals, while spiking and theta/gamma oscillations are dominated by feedforward signals from strongly lateralized visual cortex (<xref rid="R5" ref-type="bibr">Bastos et al., 2015</xref>; <xref rid="R55" ref-type="bibr">van Kerkoerle et al., 2014</xref>).</p>
+              <p id="P38">A somewhat surprising result of this lateralization is that WM capacity is largely independent between the two visual hemifields. WM has a very limited capacity for holding multiple items at one time (<xref rid="R34" ref-type="bibr">Luck and Vogel, 1997</xref>, <xref rid="R35" ref-type="bibr">2013</xref>). However, in both monkeys (<xref rid="R9" ref-type="bibr">Buschman et al., 2011</xref>) and humans (<xref rid="R16" ref-type="bibr">Delvenne, 2005</xref>; <xref rid="R53" ref-type="bibr">Umemoto et al., 2010</xref>), even when capacity is saturated in one visual hemifield, additional items can be stored in WM if they appear in the opposite hemifield. Similar effects of hemifield independence have been observed with spatial attention (<xref rid="R2" ref-type="bibr">Alvarez et al., 2012</xref>) and attentional tracking of moving objects (<xref rid="R1" ref-type="bibr">Alvarez and Cavanagh, 2005</xref>). This strong hemifield independence, however, seems inconsistent with the apparently seamless nature of visual WM. Our results provide a possible resolution to this paradox. They suggest that, in such situations, the two prefrontal hemispheres briefly sync up using theta and beta oscillations in order to physically transfer a WM trace from one cortical hemisphere to its new location on the retinotopic map in the opposite hemisphere.</p>
+              <p id="P39">We found neural dynamics that could support the seamless transfer of information between the cerebral hemispheres. We expect some of these same mechanisms are also used when interhemispheric communication is required for other cognitive processes, such as tracking moving objects across the midline or comparing visual information between the left and right hemifields. Fast, reliable interhemispheric communication is critical for many real-world behaviors, including sports, driving, and air traffic control. Interhemispheric communication is also thought to be disrupted in some disorders, such as dyslexia (<xref rid="R18" ref-type="bibr">Dhar et al., 2010</xref>). We hope that an understanding of the neural mechanisms of interhemispheric communication may lead to new ways to repair and optimize it.</p>
+            </sec>
+            <sec id="S8">
+              <title>STAR☆METHODS</title>
+              <sec id="S9">
+                <title>RESOURCE AVAILABILITY</title>
+                <sec id="S10">
+                  <title>Lead contact</title>
+                  <p id="P40">Requests for information should be directed to the lead contact, Earl Miller (<email>emkiller@mit.edu</email>).</p>
+                </sec>
+                <sec id="S11">
+                  <title>Materials availability</title>
+                  <p id="P41">This study did not generate new unique reagents.</p>
+                </sec>
+                <sec sec-type="data-availability" id="S12">
+                  <title>Data and code availability</title>
+                  <p id="P42">The neural data and code used in this study will be made available upon reasonable request to the lead contact.</p>
+                </sec>
+              </sec>
+              <sec id="S13">
+                <title>EXPERIMENTAL MODEL AND SUBJECT DETAILS</title>
+                <p id="P43">The nonhuman primate subjects in our experiments were two adult (ages 16 and 9) rhesus macaques (<italic toggle="yes">Macaca mulatta</italic>), one male and one female. All procedures followed the guidelines of the Massachusetts Institute of Technology Committee on Animal Care and the National Institutes of Health.</p>
+              </sec>
+              <sec id="S14">
+                <title>METHOD DETAILS</title>
+                <sec id="S15">
+                  <title>Behavioral paradigm</title>
+                  <p id="P44">Subjects performed a delayed nonmatch-to-sample working memory (WM) task (<xref rid="F1" ref-type="fig">Figure 1A</xref>). They began task trials by holding gaze for 700 ms on a fixation point randomly displayed at 4.5° left or right of the center of a computer screen. A sample object was then shown for 700 ms in the center of the screen, thus in the right or left visual hemifield, respectively. Two sample objects were used each session, chosen from a commercial photo library (Hemera Photo-Objects). Sample objects were displayed in one of two positions, 3.4° above or below the screen center. After a 1.6 s delay, a test object was displayed for 400 ms. The monkeys were required to saccade to it if it did not match the remembered sample in either object identity or upper/lower location. If the test was identical to the sample, they withheld response. Then, after a 100 ms blank period, a nonmatching test object was always shown, which required a saccade. Response to the non-match was rewarded with juice, followed by a 3.2 s inter-trial interval.</p>
+                  <p id="P45">A random 50% of trials had an uninterrupted 1.6 s WM delay (<xref rid="F1" ref-type="fig">Figure 1A</xref>, left). In the other 50%, at 800 ms into the delay, the fixation point jumped to the opposite location on the screen (<xref rid="F1" ref-type="fig">Figure 1A</xref>, right). The monkeys were trained to immediately saccade to it and reacquire fixation. Once fixation was acquired again, the WM delay was continued for another 800 ms, equating the full time of fixated delay period with the no-swap condition.</p>
+                  <p id="P46">All stimuli were displayed on an LCD monitor. An infrared-based eye-tracking system (Eyelink 1000 Plus, SR-Research, Ontario, CA) continuously monitored eye position at 1 kHz.</p>
+                </sec>
+                <sec id="S16">
+                  <title>Electrophysiological data collection</title>
+                  <p id="P47">The subjects were chronically implanted bilaterally in the lateral prefrontal cortex (PFC) with four 8×8 iridium-oxide ‘‘Utah’’ microelectrode arrays (1.0 mm length, 400 µm spacing; Blackrock Microsystems, Salt Lake City, UT), for a total of 256 electrodes (<xref rid="F1" ref-type="fig">Figure 1C</xref>). Arrays were implanted bilaterally, one array in each ventrolateral and dorsolateral PFC. Electrodes in each hemisphere were grounded and referenced to a separate subdural reference wire. LFPs were amplified, low-pass filtered (250 Hz), and recorded at 30 kHz. Spiking activity was amplified, filtered (250–5,000 Hz), and manually thresholded to extract spike waveforms. All threshold-crossing spikes on each electrode were pooled together and analyzed as multi-unit activity (MUA).</p>
+                </sec>
+              </sec>
+              <sec id="S17">
+                <title>QUANTIFICATION AND STATISTICAL ANALYSIS</title>
+                <p id="P49">All correctly performed trials were included in analyses. All analyses of individual MUA and LFP channels were averaged across all electrodes in each hemisphere, and analyses of channel pairs were averaged across all between-hemisphere or all within-hemisphere pairs. Analysis was initially performed separately for each prefrontal hemisphere and sample object hemifield. Results were then pooled based on whether the sample was contralateral or ipsilateral to a given hemisphere by averaging across appropriate hemisphere/hemifield combinations. This resulted in a set of observations for each experimental session. All plots depict means and standard errors across all 56 sessions in this dataset, and all statistics were performed with sessions treated as observations (n = 56). All preprocessing and analysis was performed in Python 3.6 or MATLAB R2019b (The Mathworks, Inc, Natick, MA).</p>
+                <sec id="S18">
+                  <title>Preprocessing</title>
+                  <p id="P50">Spike rates were computed by binning spike timestamps in non-overlapping 50 ms windows. Spike rates were square-root transformed prior to analysis to convert their Poisson-like distributions to approximately normal. LFPs were re-referenced offline to remove any common-source noise by subtracting off the mean across all electrodes in each array. Evoked potentials were removed by subtracting off the mean signal across trials within each condition (object, upper/lower location, and visual hemifield). Thus, all of our analysis is on the remaining induced component. For most analyses, the resulting signals were convolved with a set of complex Morlet wavelets (wavenumber 6). LFP power was log-transformed to render its distribution approximately normal.</p>
+                </sec>
+                <sec id="S19">
+                  <title>Mean activity analysis</title>
+                  <p id="P51">To normalize out any overall differences in activity between neurons and task conditions, we z-scored spike rates to the fixation baseline. Rates were mean-pooled across the 200 ms before sample object onset separately for each neuron and condition, and the mean and standard deviation across all within-condition trials was computed. These were used to z-score rates across all time points and trials for that neuron and condition. The same transformation was used for analysis of LFP power, except it was also computed separately for each frequency, in order to also normalize out the typical 1/<italic toggle="yes">f</italic> distribution of power across frequency.</p>
+                  <p id="P52">To assay for spiking activity changes from baseline in either direction (increases or decreases), we took the absolute value of the measured z-scores for each multi-unit (<xref rid="SD1" ref-type="supplementary-material">Figure S1A</xref>). Significance was evaluated using paired-observation tests relative to baseline. We also measured delay activity separately for subpopulations of multi-units with responses above or below baseline (<xref rid="SD1" ref-type="supplementary-material">Figure S1B</xref>). Since PFC units often have complex dynamics, this segregation into subpopulations was performed independently for each unit and time point. To avoid circularity in the analysis, segregation into subpopulations and computation of mean activity within each subpopulation were performed on odd and even-numbered trials, respectively.</p>
+                </sec>
+                <sec id="S20">
+                  <title>Population decoding analysis</title>
+                  <p id="P53">Spike rates for all multi-units within a given hemisphere were used as independent features in a linear classifier that decoded which of four task conditions—two objects × two upper/lower locations—was present in each trial. Classification was performed independently on spike rate data from each time point (50 ms window). All reported classification accuracies were obtained via 5-fold cross-validation, in which trials were randomly split into five non-overlapping subsets and each classifier was trained on four of these, while its accuracy was evaluated on the final, untrained one. This process was repeated five times with each subset acting as the test set once, and the final results were averaged across the five folds. The same procedure was used for the cross-classification analysis (<xref rid="F6" ref-type="fig">Figure 6</xref>), except that training and testing trials were selected from different task conditions. For the cross-temporal analysis (<xref rid="SD1" ref-type="supplementary-material">Figure S3</xref>), cross-classification was also performed using all possible combinations of pairs of time points for training and testing. All decoding analysis was performed with a linear discriminant classifier with optimal covariance shrinkage (<xref rid="R33" ref-type="bibr">Ledoit and Wolf, 2003</xref>), using the Python scikit-learn library.</p>
+                  <p id="P54">As an alternative measure of difference in neural activity elicited by task conditions, we also computed the mean rate for each multi-unit’s preferred, intermediate, and nonpreferred WM items (objects × upper/lower locations; <xref rid="SD1" ref-type="supplementary-material">Figures S1C</xref> and <xref rid="SD1" ref-type="supplementary-material">S1D</xref>). This was computed separately for each multi-unit and time point, since PFC units often have complex dynamics with different preferences at different time points. To avoid circularity, calculation of item preference and of mean rates for the preference-sorted items was performed on odd and even-numbered trials, respectively.</p>
+                </sec>
+                <sec id="S21">
+                  <title>Synchrony analysis</title>
+                  <p id="P55">LFP-LFP phase synchrony was computed from the phase of the complex wavelet transform, using the pairwise phase consistency (PPC). PPC is a measure of how consistent across trials the relative phase angles between two signals are, independent of their absolute phase. It is an unbiased estimator of the square of the mean vector resultant length (<xref rid="R32" ref-type="bibr">Kornblith et al., 2015</xref>; <xref rid="R56" ref-type="bibr">Vinck et al., 2010</xref>). Presented results represent averages across all electrode pairs between hemispheres (<xref rid="F7" ref-type="fig">Figures 7A</xref>–<xref rid="F7" ref-type="fig">7C</xref>), all electrode pairs within the hemisphere contralateral to the sample hemifield (the ‘‘sender’’ on swap trials; <xref rid="F7" ref-type="fig">Figures 7D</xref>, <xref rid="F7" ref-type="fig">7F</xref>, and <xref rid="F7" ref-type="fig">7H</xref>), and all electrode pairs within the hemisphere ipsilateral to the sample hemifield (‘‘receiver’’ on swap trials: <xref rid="F7" ref-type="fig">Figures 7E</xref>, <xref rid="F7" ref-type="fig">7G</xref>, and <xref rid="F7" ref-type="fig">7I</xref>) within each session. These values were then averaged across all sessions.</p>
+                </sec>
+                <sec id="S22">
+                  <title>Causality analysis</title>
+                  <p id="P57">Directional causal influences between LFPs in the two prefrontal hemispheres were measured using bivariate nonparametric spectral Granger causality (<xref rid="R17" ref-type="bibr">Dhamala et al., 2008</xref>). Traditional Granger causality quantifies how much variance in one signal can be explained by the recent history of another signal, beyond what can be explained by the history of the signal itself. Spectral Granger expresses these causal interactions in the frequency domain. Unlike traditional parametric causality measures, it is estimated directly via factorization of the cross-spectral density matrix, without relying on estimation of a specific autoregressive model. For this analysis only, LFP spectra were computed around the putative trace transfer period (–1 to –0.5 s relative to delay end) via the multitaper method (4 Hz frequency bandwidth, 3 dpss tapers). Trials were balanced across swap and no-swap conditions in each session by sampling a random subset of trials from the larger group. Presented results represent averages across all between-hemisphere electrode pairs within each session, and across all sessions. As a control, this analysis was also performed on data reversed in time (<xref rid="SD1" ref-type="supplementary-material">Figure S4</xref>). This is expected to reverse the direction of true causality, but preserve the direction of any apparent causality due to confounding between-area differences in power or signal-to-noise (<xref rid="R4" ref-type="bibr">Bastos and Schoffelen, 2016</xref>; <xref rid="R29" ref-type="bibr">Haufe et al., 2013</xref>). Inference was based on the conjunction of significance in the standard analysis and significance in the opposite causal direction in the time-reversed analysis. This analysis was performed using the FieldTrip toolbox for MATLAB (<xref rid="R45" ref-type="bibr">Oostenveld et al., 2011</xref>).</p>
+                </sec>
+                <sec id="S23">
+                  <title>Oscillatory burst analysis</title>
+                  <p id="P58">Methods followed those of our previous work on oscillatory bursts (<xref rid="R36" ref-type="bibr">Lundqvist et al., 2016</xref>). Power was computed from a wavelet transform, as described above, and pooled within several frequency ‘‘sub-bands’’: low-beta (10–20 Hz), high-beta (20–32 Hz), low-gamma (40–65 Hz), gamma (55–90 Hz), and high-gamma (70–100 Hz). Within each sub-band, the mean and SD of power across all trials and within-trial time points was computed and used to threshold the data at 2 SDs above the mean. Bursts were defined as periods where power remained above threshold for at least 3 oscillatory cycles (defined at the center frequency of each sub-band). This resulted in a binary representation of time points within versus outside bursts. These were pooled separately within all beta and gamma sub-bands by labeling as bursts time points where a burst occurred within any sub-band (logical OR across sub-bands). Burst rate for each task condition, band, and time point was computed as the proportion of trials containing within-burst time points. Finally, the difference in burst rate at each time point from the fixation baseline was computed and plotted in <xref rid="SD1" ref-type="supplementary-material">Figure S2</xref>.</p>
+                </sec>
+                <sec id="S24">
+                  <title>Latency analysis</title>
+                  <p id="P59">Latencies were measured for all reliable temporal features—points halfway from a baseline to a peak or trough—of neural signals surrounding the epoch of WM trace transfer (<xref rid="SD1" ref-type="supplementary-material">Figure S5</xref>). These were measured on across-session mean neural signals, and their 99% confidence intervals were computed by bootstrapping across sessions 10,000 times. Each bootstrap iteration resampled sessions with replacement, computed the same across-session mean neural signals, and estimated resampled latencies from them.</p>
+                </sec>
+                <sec id="S25">
+                  <title>Postprocessing and plotting</title>
+                  <p id="P60">To clarify trends in the data, all plotted results were smoothed with 1D or 2D Gaussian kernels for plotting purposes only. The Gaussian standard deviations used were 10 ms for all time axes, and 0.05 octaves for all frequency axes.</p>
+                  <p id="P61">The temporal extent over which time-frequency effects due to the test object could possibly extend into the delay period was computed as the time for wavelet power at each frequency to drop by a factor of <italic toggle="yes">e</italic><sup>−2</sup> relative to the test stimulus onset (<xref rid="R52" ref-type="bibr">Torrence and Compo, 1998</xref>). This is a conservative overestimate of the backward extent of test-object effects since it does take any latency of test-evoked neural signals into account. This period is plotted as a transparent gray region at the right of all time-frequency and frequency-band summary plots.</p>
+                  <p id="P62">Due to off-axis diagonal structure in some of the time-frequency data (time-frequency inseparability), it cannot be fully captured in any 1D summary. Thus, all statistical analyses and inference were performed on the full time-frequency data. However, we also include 1D plots of the time course within frequency bands simply to aid in understanding the results. The cutoffs for each frequency band were chosen to approximate values typically used to delineate standard frequency bands in the literature: theta (3–8 Hz), beta (10–32 Hz), and gamma (40–100 Hz).</p>
+                </sec>
+                <sec id="S26">
+                  <title>Hypothesis testing</title>
+                  <p id="P63">All hypothesis tests used non-parametric randomization methods that do not rely on specific assumptions about data distributions (<xref rid="R39" ref-type="bibr">Manly, 2007</xref>). Each session was treated as an observation, and randomizations were performed across sessions. All randomization statistics were resampled 10,000 times and evaluated in a two-tailed fashion. To test whether a mean value differed significantly from baseline, we used a randomized sign test in which a <italic toggle="yes">t</italic>-statistic was computed on both the observed data, and on data where the sign of each baseline-centered observation was randomly flipped.</p>
+                  <p id="P65">To test whether the means of paired observations were significantly different, we used a permutation paired t test, in which a paired-sample <italic toggle="yes">t</italic>-statistic was computed on the observed data, and on data with the labels of each pair of observations randomly swapped. To test significance of multiple main effects and their interaction, we used a permutation 2-way ANOVA in which an <italic toggle="yes">F</italic>-statistic was computed on the observed data, and on data where the multi-factor labels were randomly shuffled as a group across trials. All tests were corrected for multiple comparisons across time points and/or frequencies using a procedure that controls the false discovery rate under arbitrary dependence assumptions (<xref rid="R6" ref-type="bibr">Benjamini and Yekutieli, 2001</xref>) using the Python statsmodels module.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material" id="SM1">
+              <title>Supplementary Material</title>
+              <supplementary-material id="SD1" position="float" content-type="local-data">
+                <label>1</label>
+                <media xlink:href="NIHMS1808824-supplement-1.pdf" id="d64e1041" position="anchor"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack id="S27">
+              <title>ACKNOWLEDGMENTS</title>
+              <p id="P66">We thank Alexa D’Ambra for assistance and Jesus Ballesteros, Andre Bastos, Sayak Bhattacharya, Alex Major, Morteza Moazami, Dimitris Pinotsis, and Jefferson Roy for helpful comments. This work was supported by NIMH R37MH087027, ONR MURI N00014–16-1–2832, the JPB Foundation (E.K.M.), and NIGMS T32GM007753 (J.A.D.).</p>
+            </ack>
+            <fn-group>
+              <fn id="FN2">
+                <p id="P67">SUPPLEMENTAL INFORMATION</p>
+                <p id="P68">Supplemental information can be found online at <ext-link xlink:href="10.1016/j.neuron.2021.01.016" ext-link-type="doi">https://doi.org/10.1016/j.neuron.2021.01.016</ext-link>.</p>
+              </fn>
+              <fn fn-type="COI-statement" id="FN3">
+                <p id="P69">DECLARATION OF INTERESTS</p>
+                <p id="P70">The authors declare no competing interests.</p>
+              </fn>
+            </fn-group>
+            <ref-list>
+              <title>REFERENCES</title>
+              <ref id="R1">
+                <mixed-citation publication-type="journal"><name><surname>Alvarez</surname><given-names>GA</given-names></name>, and <name><surname>Cavanagh</surname><given-names>P</given-names></name> (<year>2005</year>). <article-title>Independent resources for attentional tracking in the left and right visual hemifields.</article-title>
+<source>Psychol. Sci</source>
+<volume>16</volume>, <fpage>637</fpage>–<lpage>643</lpage>.<pub-id pub-id-type="pmid">16102067</pub-id></mixed-citation>
+              </ref>
+              <ref id="R2">
+                <mixed-citation publication-type="journal"><name><surname>Alvarez</surname><given-names>GA</given-names></name>, <name><surname>Gill</surname><given-names>J</given-names></name>, and <name><surname>Cavanagh</surname><given-names>P</given-names></name> (<year>2012</year>). <article-title>Anatomical constraints on attention: hemifield independence is a signature of multifocal spatial selection.</article-title>
+<source>J. Vis</source>
+<volume>12</volume>, <fpage>9</fpage>.</mixed-citation>
+              </ref>
+              <ref id="R3">
+                <mixed-citation publication-type="journal"><name><surname>Barbas</surname><given-names>H</given-names></name>, and <name><surname>Pandya</surname><given-names>DN</given-names></name> (<year>1984</year>). <article-title>Topography of commissural fibers of the prefrontal cortex in the rhesus monkey.</article-title>
+<source>Exp. Brain Res</source>
+<volume>55</volume>, <fpage>187</fpage>–<lpage>191</lpage>.<pub-id pub-id-type="pmid">6745350</pub-id></mixed-citation>
+              </ref>
+              <ref id="R4">
+                <mixed-citation publication-type="journal"><name><surname>Bastos</surname><given-names>AM</given-names></name>, and <name><surname>Schoffelen</surname><given-names>J-M</given-names></name> (<year>2016</year>). <article-title>A tutorial review of functional connectivity analysis methods and their interpretational pitfalls.</article-title>
+<source>Front. Syst. Neurosci</source>
+<volume>9</volume>, <fpage>175</fpage>.<pub-id pub-id-type="pmid">26778976</pub-id></mixed-citation>
+              </ref>
+              <ref id="R5">
+                <mixed-citation publication-type="journal"><name><surname>Bastos</surname><given-names>AM</given-names></name>, <name><surname>Vezoli</surname><given-names>J</given-names></name>, <name><surname>Bosman</surname><given-names>CA</given-names></name>, <name><surname>Schoffelen</surname><given-names>J-M</given-names></name>, <name><surname>Oostenveld</surname><given-names>R</given-names></name>, <name><surname>Dowdall</surname><given-names>JR</given-names></name>, <name><surname>De Weerd</surname><given-names>P</given-names></name>, <name><surname>Kennedy</surname><given-names>H</given-names></name>, and <name><surname>Fries</surname><given-names>P</given-names></name> (<year>2015</year>). <article-title>Visual areas exert feedforward and feedback influences through distinct frequency channels.</article-title>
+<source>Neuron</source>
+<volume>85</volume>, <fpage>390</fpage>–<lpage>401</lpage>.<pub-id pub-id-type="pmid">25556836</pub-id></mixed-citation>
+              </ref>
+              <ref id="R6">
+                <mixed-citation publication-type="journal"><name><surname>Benjamini</surname><given-names>Y</given-names></name>, and <name><surname>Yekutieli</surname><given-names>D</given-names></name> (<year>2001</year>). <article-title>The control of the false discovery rate in multiple testing under dependency.</article-title>
+<source>Ann. Stat</source>
+<volume>29</volume>, <fpage>1165</fpage>–<lpage>1188</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R7">
+                <mixed-citation publication-type="journal"><name><surname>Bouchacourt</surname><given-names>F</given-names></name>, and <name><surname>Buschman</surname><given-names>TJ</given-names></name> (<year>2019</year>). <article-title>A flexible model of working memory.</article-title>
+<source>Neuron</source>
+<volume>103</volume>, <fpage>147</fpage>–<lpage>160</lpage>.<comment>e8.</comment><pub-id pub-id-type="pmid">31103359</pub-id></mixed-citation>
+              </ref>
+              <ref id="R8">
+                <mixed-citation publication-type="journal"><name><surname>Buschman</surname><given-names>TJ</given-names></name>, and <name><surname>Miller</surname><given-names>EK</given-names></name> (<year>2007</year>). <article-title>Top-down versus bottom-up control of attention in the prefrontal and posterior parietal cortices.</article-title>
+<source>Science</source>
+<volume>315</volume>, <fpage>1860</fpage>–<lpage>1862</lpage>.<pub-id pub-id-type="pmid">17395832</pub-id></mixed-citation>
+              </ref>
+              <ref id="R9">
+                <mixed-citation publication-type="journal"><name><surname>Buschman</surname><given-names>TJ</given-names></name>, <name><surname>Siegel</surname><given-names>M</given-names></name>, <name><surname>Roy</surname><given-names>JE</given-names></name>, and <name><surname>Miller</surname><given-names>EK</given-names></name> (<year>2011</year>). <article-title>Neural substrates of cognitive capacity limitations.</article-title>
+<source>Proc. Natl. Acad. Sci. U S A</source>
+<volume>108</volume>, <fpage>11252</fpage>–<lpage>11255</lpage>.<pub-id pub-id-type="pmid">21690375</pub-id></mixed-citation>
+              </ref>
+              <ref id="R10">
+                <mixed-citation publication-type="journal"><name><surname>Chafee</surname><given-names>MV</given-names></name>, <name><surname>Averbeck</surname><given-names>BB</given-names></name>, and <name><surname>Crowe</surname><given-names>DA</given-names></name> (<year>2007</year>). <article-title>Representing spatial relationships in posterior parietal cortex: single neurons code object-referenced position.</article-title>
+<source>Cereb. Cortex</source>
+<volume>17</volume>, <fpage>2914</fpage>–<lpage>2932</lpage>.<pub-id pub-id-type="pmid">17389630</pub-id></mixed-citation>
+              </ref>
+              <ref id="R11">
+                <mixed-citation publication-type="journal"><name><surname>Chen</surname><given-names>X</given-names></name>, <name><surname>Zirnsak</surname><given-names>M</given-names></name>, and <name><surname>Moore</surname><given-names>T</given-names></name> (<year>2018</year>). <article-title>Dissonant representations of visual space in prefrontal cortex during eye movements.</article-title>
+<source>Cell Rep</source>
+<volume>22</volume>, <fpage>2039</fpage>–<lpage>2052</lpage>.<pub-id pub-id-type="pmid">29466732</pub-id></mixed-citation>
+              </ref>
+              <ref id="R12">
+                <mixed-citation publication-type="journal"><name><surname>Cohen</surname><given-names>YE</given-names></name>, and <name><surname>Andersen</surname><given-names>RA</given-names></name> (<year>2002</year>). <article-title>A common reference frame for movement plans in the posterior parietal cortex.</article-title>
+<source>Nat. Rev. Neurosci</source>
+<volume>3</volume>, <fpage>553</fpage>–<lpage>562</lpage>.<pub-id pub-id-type="pmid">12094211</pub-id></mixed-citation>
+              </ref>
+              <ref id="R13">
+                <mixed-citation publication-type="journal"><name><surname>Colby</surname><given-names>CL</given-names></name>, <name><surname>Duhamel</surname><given-names>J-R</given-names></name>, and <name><surname>Goldberg</surname><given-names>ME</given-names></name> (<year>1995</year>). <article-title>Oculocentric spatial representation in parietal cortex.</article-title>
+<source>Cereb. Cortex</source>
+<volume>5</volume>, <fpage>470</fpage>–<lpage>481</lpage>.<pub-id pub-id-type="pmid">8547793</pub-id></mixed-citation>
+              </ref>
+              <ref id="R14">
+                <mixed-citation publication-type="journal"><name><surname>D’Esposito</surname><given-names>M</given-names></name>, and <name><surname>Postle</surname><given-names>BR</given-names></name> (<year>2015</year>). <article-title>The cognitive neuroscience of working memory.</article-title>
+<source>Annu. Rev. Psychol</source>
+<volume>66</volume>, <fpage>115</fpage>–<lpage>142</lpage>.<pub-id pub-id-type="pmid">25251486</pub-id></mixed-citation>
+              </ref>
+              <ref id="R15">
+                <mixed-citation publication-type="journal"><name><surname>Dean</surname><given-names>HL</given-names></name>, and <name><surname>Platt</surname><given-names>ML</given-names></name> (<year>2006</year>). <article-title>Allocentric spatial referencing of neuronal activity in macaque posterior cingulate cortex.</article-title>
+<source>J. Neurosci</source>
+<volume>26</volume>, <fpage>1117</fpage>–<lpage>1127</lpage>.<pub-id pub-id-type="pmid">16436597</pub-id></mixed-citation>
+              </ref>
+              <ref id="R16">
+                <mixed-citation publication-type="journal"><name><surname>Delvenne</surname><given-names>J-F</given-names></name> (<year>2005</year>). <article-title>The capacity of visual short-term memory within and between hemifields.</article-title>
+<source>Cognition</source>
+<volume>96</volume>, <fpage>B79</fpage>–<lpage>B88</lpage>.<pub-id pub-id-type="pmid">15996557</pub-id></mixed-citation>
+              </ref>
+              <ref id="R17">
+                <mixed-citation publication-type="journal"><name><surname>Dhamala</surname><given-names>M</given-names></name>, <name><surname>Rangarajan</surname><given-names>G</given-names></name>, and <name><surname>Ding</surname><given-names>M</given-names></name> (<year>2008</year>). <article-title>Analyzing information flow in brain networks with nonparametric Granger causality.</article-title>
+<source>Neuroimage</source>
+<volume>41</volume>, <fpage>354</fpage>–<lpage>362</lpage>.<pub-id pub-id-type="pmid">18394927</pub-id></mixed-citation>
+              </ref>
+              <ref id="R18">
+                <mixed-citation publication-type="journal"><name><surname>Dhar</surname><given-names>M</given-names></name>, <name><surname>Been</surname><given-names>PH</given-names></name>, <name><surname>Minderaa</surname><given-names>RB</given-names></name>, and <name><surname>Althaus</surname><given-names>M</given-names></name> (<year>2010</year>). <article-title>Reduced interhemispheric coherence in dyslexic adults.</article-title>
+<source>Cortex</source>
+<volume>46</volume>, <fpage>794</fpage>–<lpage>798</lpage>.<pub-id pub-id-type="pmid">19822316</pub-id></mixed-citation>
+              </ref>
+              <ref id="R19">
+                <mixed-citation publication-type="journal"><name><surname>Drew</surname><given-names>T</given-names></name>, <name><surname>Mance</surname><given-names>I</given-names></name>, <name><surname>Horowitz</surname><given-names>TS</given-names></name>, <name><surname>Wolfe</surname><given-names>JM</given-names></name>, and <name><surname>Vogel</surname><given-names>EK</given-names></name> (<year>2014</year>). <article-title>A soft handoff of attention between cerebral hemispheres.</article-title>
+<source>Curr. Biol</source>
+<volume>24</volume>, <fpage>1133</fpage>–<lpage>1137</lpage>.<pub-id pub-id-type="pmid">24768055</pub-id></mixed-citation>
+              </ref>
+              <ref id="R20">
+                <mixed-citation publication-type="journal"><name><surname>Duhamel</surname><given-names>J-R</given-names></name>, <name><surname>Bremmer</surname><given-names>F</given-names></name>, <name><surname>Ben Hamed</surname><given-names>S</given-names></name>, and <name><surname>Graf</surname><given-names>W</given-names></name> (<year>1997</year>). <article-title>Spatial invariance of visual receptive fields in parietal cortex neurons.</article-title>
+<source>Nature</source>
+<volume>389</volume>, <fpage>845</fpage>–<lpage>848</lpage>.<pub-id pub-id-type="pmid">9349815</pub-id></mixed-citation>
+              </ref>
+              <ref id="R21">
+                <mixed-citation publication-type="journal"><name><surname>Engel</surname><given-names>AK</given-names></name>, and <name><surname>Fries</surname><given-names>P</given-names></name> (<year>2010</year>). <article-title>Beta-band oscillations—signalling the status quo?</article-title>
+<source>Curr. Opin. Neurobiol</source>
+<volume>20</volume>, <fpage>156</fpage>–<lpage>165</lpage>.<pub-id pub-id-type="pmid">20359884</pub-id></mixed-citation>
+              </ref>
+              <ref id="R22">
+                <mixed-citation publication-type="journal"><name><surname>Fries</surname><given-names>P</given-names></name> (<year>2015</year>). <article-title>Rhythms for cognition: communication through coherence.</article-title>
+<source>Neuron</source>
+<volume>88</volume>, <fpage>220</fpage>–<lpage>235</lpage>.<pub-id pub-id-type="pmid">26447583</pub-id></mixed-citation>
+              </ref>
+              <ref id="R23">
+                <mixed-citation publication-type="journal"><name><surname>Funahashi</surname><given-names>S</given-names></name>, <name><surname>Bruce</surname><given-names>CJ</given-names></name>, and <name><surname>Goldman-Rakic</surname><given-names>PS</given-names></name> (<year>1989</year>). <article-title>Mnemonic coding of visual space in the monkey’s dorsolateral prefrontal cortex.</article-title>
+<source>J. Neurophysiol</source>
+<volume>61</volume>, <fpage>331</fpage>–<lpage>349</lpage>.<pub-id pub-id-type="pmid">2918358</pub-id></mixed-citation>
+              </ref>
+              <ref id="R24">
+                <mixed-citation publication-type="journal"><name><surname>Funahashi</surname><given-names>S</given-names></name>, <name><surname>Bruce</surname><given-names>CJ</given-names></name>, and <name><surname>Goldman-Rakic</surname><given-names>PS</given-names></name> (<year>1990</year>). <article-title>Visuospatial coding in primate prefrontal neurons revealed by oculomotor paradigms.</article-title>
+<source>J. Neurophysiol</source>
+<volume>63</volume>, <fpage>814</fpage>–<lpage>831</lpage>.<pub-id pub-id-type="pmid">2341879</pub-id></mixed-citation>
+              </ref>
+              <ref id="R25">
+                <mixed-citation publication-type="journal"><name><surname>Fuster</surname><given-names>JM</given-names></name>, and <name><surname>Alexander</surname><given-names>GE</given-names></name> (<year>1971</year>). <article-title>Neuron activity related to short-term memory.</article-title>
+<source>Science</source>
+<volume>173</volume>, <fpage>652</fpage>–<lpage>654</lpage>.<pub-id pub-id-type="pmid">4998337</pub-id></mixed-citation>
+              </ref>
+              <ref id="R26">
+                <mixed-citation publication-type="journal"><name><surname>Golomb</surname><given-names>JD</given-names></name>, and <name><surname>Kanwisher</surname><given-names>N</given-names></name> (<year>2012</year>). <article-title>Higher level visual cortex represents retinotopic, not spatiotopic, object location.</article-title>
+<source>Cereb. Cortex</source>
+<volume>22</volume>, <fpage>2794</fpage>–<lpage>2810</lpage>.<pub-id pub-id-type="pmid">22190434</pub-id></mixed-citation>
+              </ref>
+              <ref id="R27">
+                <mixed-citation publication-type="journal"><name><surname>Graziano</surname><given-names>MS</given-names></name>, and <name><surname>Gross</surname><given-names>CG</given-names></name> (<year>1998</year>). <article-title>Spatial maps for the control of movement.</article-title>
+<source>Curr. Opin. Neurobiol</source>
+<volume>8</volume>, <fpage>195</fpage>–<lpage>201</lpage>.<pub-id pub-id-type="pmid">9635202</pub-id></mixed-citation>
+              </ref>
+              <ref id="R28">
+                <mixed-citation publication-type="journal"><name><surname>Hagler</surname><given-names>DJ</given-names><suffix>Jr.</suffix></name>, and <name><surname>Sereno</surname><given-names>MI</given-names></name> (<year>2006</year>). <article-title>Spatial maps in frontal and prefrontal cortex.</article-title>
+<source>Neuroimage</source>
+<volume>29</volume>, <fpage>567</fpage>–<lpage>577</lpage>.<pub-id pub-id-type="pmid">16289928</pub-id></mixed-citation>
+              </ref>
+              <ref id="R29">
+                <mixed-citation publication-type="journal"><name><surname>Haufe</surname><given-names>S</given-names></name>, <name><surname>Nikulin</surname><given-names>VV</given-names></name>, <name><surname>Müller</surname><given-names>K-R</given-names></name>, and <name><surname>Nolte</surname><given-names>G</given-names></name> (<year>2013</year>). <article-title>A critical assessment of connectivity measures for EEG data: a simulation study.</article-title>
+<source>Neuroimage</source>
+<volume>64</volume>, <fpage>120</fpage>–<lpage>133</lpage>.<pub-id pub-id-type="pmid">23006806</pub-id></mixed-citation>
+              </ref>
+              <ref id="R30">
+                <mixed-citation publication-type="journal"><name><surname>Jensen</surname><given-names>O</given-names></name>, and <name><surname>Mazaheri</surname><given-names>A</given-names></name> (<year>2010</year>). <article-title>Shaping functional architecture by oscillatory alpha activity: gating by inhibition.</article-title>
+<source>Front. Hum. Neurosci</source>
+<volume>4</volume>, <fpage>186</fpage>.<pub-id pub-id-type="pmid">21119777</pub-id></mixed-citation>
+              </ref>
+              <ref id="R31">
+                <mixed-citation publication-type="journal"><name><surname>Kastner</surname><given-names>S</given-names></name>, <name><surname>DeSimone</surname><given-names>K</given-names></name>, <name><surname>Konen</surname><given-names>CS</given-names></name>, <name><surname>Szczepanski</surname><given-names>SM</given-names></name>, <name><surname>Weiner</surname><given-names>KS</given-names></name>, and <name><surname>Schneider</surname><given-names>KA</given-names></name> (<year>2007</year>). <article-title>Topographic maps in human frontal cortex revealed in memory-guided saccade and spatial working-memory tasks.</article-title>
+<source>J. Neurophysiol</source>
+<volume>97</volume>, <fpage>3494</fpage>–<lpage>3507</lpage>.<pub-id pub-id-type="pmid">17360822</pub-id></mixed-citation>
+              </ref>
+              <ref id="R32">
+                <mixed-citation publication-type="journal"><name><surname>Kornblith</surname><given-names>S</given-names></name>, <name><surname>Buschman</surname><given-names>TJ</given-names></name>, and <name><surname>Miller</surname><given-names>EK</given-names></name> (<year>2015</year>). <article-title>Stimulus load and oscillatory activity in higher cortex.</article-title>
+<source>Cereb. Cortex</source>
+<volume>26</volume>, <fpage>3772</fpage>–<lpage>3784</lpage>.<pub-id pub-id-type="pmid">26286916</pub-id></mixed-citation>
+              </ref>
+              <ref id="R33">
+                <mixed-citation publication-type="journal"><name><surname>Ledoit</surname><given-names>O</given-names></name>, and <name><surname>Wolf</surname><given-names>M</given-names></name> (<year>2003</year>). <article-title>Improved estimation of the covariance matrix of stock returns with an application to portfolio selection.</article-title>
+<source>J. Empir. Finance</source>
+<volume>10</volume>, <fpage>603</fpage>–<lpage>621</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R34">
+                <mixed-citation publication-type="journal"><name><surname>Luck</surname><given-names>SJ</given-names></name>, and <name><surname>Vogel</surname><given-names>EK</given-names></name> (<year>1997</year>). <article-title>The capacity of visual working memory for features and conjunctions.</article-title>
+<source>Nature</source>
+<volume>390</volume>, <fpage>279</fpage>–<lpage>281</lpage>.<pub-id pub-id-type="pmid">9384378</pub-id></mixed-citation>
+              </ref>
+              <ref id="R35">
+                <mixed-citation publication-type="journal"><name><surname>Luck</surname><given-names>SJ</given-names></name>, and <name><surname>Vogel</surname><given-names>EK</given-names></name> (<year>2013</year>). <article-title>Visual working memory capacity: from psychophysics and neurobiology to individual differences.</article-title>
+<source>Trends Cogn. Sci</source>
+<volume>17</volume>, <fpage>391</fpage>–<lpage>400</lpage>.<pub-id pub-id-type="pmid">23850263</pub-id></mixed-citation>
+              </ref>
+              <ref id="R36">
+                <mixed-citation publication-type="journal"><name><surname>Lundqvist</surname><given-names>M</given-names></name>, <name><surname>Rose</surname><given-names>J</given-names></name>, <name><surname>Herman</surname><given-names>P</given-names></name>, <name><surname>Brincat</surname><given-names>SL</given-names></name>, <name><surname>Buschman</surname><given-names>TJ</given-names></name>, and <name><surname>Miller</surname><given-names>EK</given-names></name> (<year>2016</year>). <article-title>Gamma and beta bursts underlie working memory.</article-title>
+<source>Neuron</source>
+<volume>90</volume>, <fpage>152</fpage>–<lpage>164</lpage>.<pub-id pub-id-type="pmid">26996084</pub-id></mixed-citation>
+              </ref>
+              <ref id="R37">
+                <mixed-citation publication-type="journal"><name><surname>Lundqvist</surname><given-names>M</given-names></name>, <name><surname>Herman</surname><given-names>P</given-names></name>, <name><surname>Warden</surname><given-names>MR</given-names></name>, <name><surname>Brincat</surname><given-names>SL</given-names></name>, and <name><surname>Miller</surname><given-names>EK</given-names></name> (<year>2018</year>). <article-title>Gamma and beta bursts during working memory readout suggest roles in its volitional control.</article-title>
+<source>Nat. Commun</source>
+<volume>9</volume>, <fpage>394</fpage>.<pub-id pub-id-type="pmid">29374153</pub-id></mixed-citation>
+              </ref>
+              <ref id="R38">
+                <mixed-citation publication-type="journal"><name><surname>Luria</surname><given-names>R</given-names></name>, <name><surname>Balaban</surname><given-names>H</given-names></name>, <name><surname>Awh</surname><given-names>E</given-names></name>, and <name><surname>Vogel</surname><given-names>EK</given-names></name> (<year>2016</year>). <article-title>The contralateral delay activity as a neural measure of visual working memory.</article-title>
+<source>Neurosci. Biobehav. Rev</source>
+<volume>62</volume>, <fpage>100</fpage>–<lpage>108</lpage>.<pub-id pub-id-type="pmid">26802451</pub-id></mixed-citation>
+              </ref>
+              <ref id="R39">
+                <mixed-citation publication-type="book"><name><surname>Manly</surname><given-names>BFJ</given-names></name> (<year>2007</year>). <source>Randomization, Bootstrap, and Monte Carlo Methods in Biology</source> (<publisher-name>Chapman &amp; Hall/CRC</publisher-name>).</mixed-citation>
+              </ref>
+              <ref id="R40">
+                <mixed-citation publication-type="journal"><name><surname>Medendorp</surname><given-names>WP</given-names></name>, <name><surname>Kramer</surname><given-names>GFI</given-names></name>, <name><surname>Jensen</surname><given-names>O</given-names></name>, <name><surname>Oostenveld</surname><given-names>R</given-names></name>, <name><surname>Schoffelen</surname><given-names>J-M</given-names></name>, and <name><surname>Fries</surname><given-names>P</given-names></name> (<year>2007</year>). <article-title>Oscillatory activity in human parietal and occipital cortex shows hemispheric lateralization and memory effects in a delayed double-step saccade task.</article-title>
+<source>Cereb. Cortex</source>
+<volume>17</volume>, <fpage>2364</fpage>–<lpage>2374</lpage>.<pub-id pub-id-type="pmid">17190968</pub-id></mixed-citation>
+              </ref>
+              <ref id="R41">
+                <mixed-citation publication-type="journal"><name><surname>Miller</surname><given-names>EK</given-names></name>, <name><surname>Erickson</surname><given-names>CA</given-names></name>, and <name><surname>Desimone</surname><given-names>R</given-names></name> (<year>1996</year>). <article-title>Neural mechanisms of visual working memory in prefrontal cortex of the macaque.</article-title>
+<source>J. Neurosci</source>
+<volume>16</volume>, <fpage>5154</fpage>–<lpage>5167</lpage>.<pub-id pub-id-type="pmid">8756444</pub-id></mixed-citation>
+              </ref>
+              <ref id="R42">
+                <mixed-citation publication-type="journal"><name><surname>Neupane</surname><given-names>S</given-names></name>, <name><surname>Guitton</surname><given-names>D</given-names></name>, and <name><surname>Pack</surname><given-names>CC</given-names></name> (<year>2016</year>). <article-title>Two distinct types of remapping in primate cortical area V4.</article-title>
+<source>Nat. Commun</source>
+<volume>7</volume>, <fpage>10402</fpage>.<pub-id pub-id-type="pmid">26832423</pub-id></mixed-citation>
+              </ref>
+              <ref id="R43">
+                <mixed-citation publication-type="journal"><name><surname>Olson</surname><given-names>CR</given-names></name> (<year>2003</year>). <article-title>Brain representation of object-centered space in monkeys and humans.</article-title>
+<source>Annu. Rev. Neurosci</source>
+<volume>26</volume>, <fpage>331</fpage>–<lpage>354</lpage>.<pub-id pub-id-type="pmid">12626696</pub-id></mixed-citation>
+              </ref>
+              <ref id="R44">
+                <mixed-citation publication-type="journal"><name><surname>Ong</surname><given-names>WS</given-names></name>, <name><surname>Hooshvar</surname><given-names>N</given-names></name>, <name><surname>Zhang</surname><given-names>M</given-names></name>, and <name><surname>Bisley</surname><given-names>JW</given-names></name> (<year>2009</year>). <article-title>Psychophysical evidence for spatiotopic processing in area MT in a short-term memory for motion task.</article-title>
+<source>J. Neurophysiol</source>
+<volume>102</volume>, <fpage>2435</fpage>–<lpage>2440</lpage>.<pub-id pub-id-type="pmid">19692506</pub-id></mixed-citation>
+              </ref>
+              <ref id="R45">
+                <mixed-citation publication-type="journal"><name><surname>Oostenveld</surname><given-names>R</given-names></name>, <name><surname>Fries</surname><given-names>P</given-names></name>, <name><surname>Maris</surname><given-names>E</given-names></name>, and <name><surname>Schoffelen</surname><given-names>J-M</given-names></name> (<year>2011</year>). <article-title>FieldTrip: open source software for advanced analysis of MEG, EEG, and invasive electrophysiological data.</article-title>
+<source>Comput. Intell. Neurosci</source>
+<volume>2011</volume>, <fpage>156869</fpage>.<pub-id pub-id-type="pmid">21253357</pub-id></mixed-citation>
+              </ref>
+              <ref id="R46">
+                <mixed-citation publication-type="journal"><name><surname>Pasternak</surname><given-names>T</given-names></name>, <name><surname>Lui</surname><given-names>LL</given-names></name>, and <name><surname>Spinelli</surname><given-names>PM</given-names></name> (<year>2015</year>). <article-title>Unilateral prefrontal lesions impair memory-guided comparisons of contralateral visual motion.</article-title>
+<source>J. Neurosci</source>
+<volume>35</volume>, <fpage>7095</fpage>–<lpage>7105</lpage>.<pub-id pub-id-type="pmid">25948260</pub-id></mixed-citation>
+              </ref>
+              <ref id="R47">
+                <mixed-citation publication-type="journal"><name><surname>Pouget</surname><given-names>A</given-names></name>, and <name><surname>Snyder</surname><given-names>LH</given-names></name> (<year>2000</year>). <article-title>Computational approaches to sensorimotor transformations.</article-title>
+<source>Nat. Neurosci</source>
+<volume>3</volume> (<issue>Suppl</issue> ), <fpage>1192</fpage>–<lpage>1198</lpage>.<pub-id pub-id-type="pmid">11127837</pub-id></mixed-citation>
+              </ref>
+              <ref id="R48">
+                <mixed-citation publication-type="journal"><name><surname>Rainer</surname><given-names>G</given-names></name>, <name><surname>Asaad</surname><given-names>WF</given-names></name>, and <name><surname>Miller</surname><given-names>EK</given-names></name> (<year>1998</year>). <article-title>Memory fields of neurons in the primate prefrontal cortex.</article-title>
+<source>Proc. Natl. Acad. Sci. U S A</source>
+<volume>95</volume>, <fpage>15008</fpage>–<lpage>15013</lpage>.<pub-id pub-id-type="pmid">9844006</pub-id></mixed-citation>
+              </ref>
+              <ref id="R49">
+                <mixed-citation publication-type="journal"><name><surname>Rigotti</surname><given-names>M</given-names></name>, <name><surname>Barak</surname><given-names>O</given-names></name>, <name><surname>Warden</surname><given-names>MR</given-names></name>, <name><surname>Wang</surname><given-names>X-J</given-names></name>, <name><surname>Daw</surname><given-names>ND</given-names></name>, <name><surname>Miller</surname><given-names>EK</given-names></name>, and <name><surname>Fusi</surname><given-names>S</given-names></name> (<year>2013</year>). <article-title>The importance of mixed selectivity in complex cognitive tasks.</article-title>
+<source>Nature</source>
+<volume>497</volume>, <fpage>585</fpage>–<lpage>590</lpage>.<pub-id pub-id-type="pmid">23685452</pub-id></mixed-citation>
+              </ref>
+              <ref id="R50">
+                <mixed-citation publication-type="journal"><name><surname>Romo</surname><given-names>R</given-names></name>, <name><surname>Brody</surname><given-names>CD</given-names></name>, <name><surname>Hernández</surname><given-names>A</given-names></name>, and <name><surname>Lemus</surname><given-names>L</given-names></name> (<year>1999</year>). <article-title>Neuronal correlates of parametric working memory in the prefrontal cortex.</article-title>
+<source>Nature</source>
+<volume>399</volume>, <fpage>470</fpage>–<lpage>473</lpage>.<pub-id pub-id-type="pmid">10365959</pub-id></mixed-citation>
+              </ref>
+              <ref id="R51">
+                <mixed-citation publication-type="journal"><name><surname>Tomita</surname><given-names>H</given-names></name>, <name><surname>Ohbayashi</surname><given-names>M</given-names></name>, <name><surname>Nakahara</surname><given-names>K</given-names></name>, <name><surname>Hasegawa</surname><given-names>I</given-names></name>, and <name><surname>Miyashita</surname><given-names>Y</given-names></name> (<year>1999</year>). <article-title>Top-down signal from prefrontal cortex in executive control of memory retrieval.</article-title>
+<source>Nature</source>
+<volume>401</volume>, <fpage>699</fpage>–<lpage>703</lpage>.<pub-id pub-id-type="pmid">10537108</pub-id></mixed-citation>
+              </ref>
+              <ref id="R52">
+                <mixed-citation publication-type="journal"><name><surname>Torrence</surname><given-names>C</given-names></name>, and <name><surname>Compo</surname><given-names>G</given-names></name> (<year>1998</year>). <article-title>A practical guide to wavelet analysis.</article-title>
+<source>Bull. Am. Meteorol. Soc</source>
+<volume>79</volume>, <fpage>61</fpage>–<lpage>78</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R53">
+                <mixed-citation publication-type="journal"><name><surname>Umemoto</surname><given-names>A</given-names></name>, <name><surname>Drew</surname><given-names>T</given-names></name>, <name><surname>Ester</surname><given-names>EF</given-names></name>, and <name><surname>Awh</surname><given-names>E</given-names></name> (<year>2010</year>). <article-title>A bilateral advantage for storage in visual working memory.</article-title>
+<source>Cognition</source>
+<volume>117</volume>, <fpage>69</fpage>–<lpage>79</lpage>.<pub-id pub-id-type="pmid">20659731</pub-id></mixed-citation>
+              </ref>
+              <ref id="R54">
+                <mixed-citation publication-type="journal"><name><surname>Ungerleider</surname><given-names>LG</given-names></name>, <name><surname>Courtney</surname><given-names>SM</given-names></name>, and <name><surname>Haxby</surname><given-names>JV</given-names></name> (<year>1998</year>). <article-title>A neural system for human visual working memory.</article-title>
+<source>Proc. Natl. Acad. Sci. U S A</source>
+<volume>95</volume>, <fpage>883</fpage>–<lpage>890</lpage>.<pub-id pub-id-type="pmid">9448255</pub-id></mixed-citation>
+              </ref>
+              <ref id="R55">
+                <mixed-citation publication-type="journal"><name><surname>van Kerkoerle</surname><given-names>T</given-names></name>, <name><surname>Self</surname><given-names>MW</given-names></name>, <name><surname>Dagnino</surname><given-names>B</given-names></name>, <name><surname>Gariel-Mathis</surname><given-names>M-A</given-names></name>, <name><surname>Poort</surname><given-names>J</given-names></name>, <name><surname>van der Togt</surname><given-names>C</given-names></name>, and <name><surname>Roelfsema</surname><given-names>PR</given-names></name> (<year>2014</year>). <article-title>Alpha and gamma oscillations characterize feedback and feedforward processing in monkey visual cortex.</article-title>
+<source>Proc. Natl. Acad. Sci. U S A</source>
+<volume>111</volume>, <fpage>14332</fpage>–<lpage>14341</lpage>.<pub-id pub-id-type="pmid">25205811</pub-id></mixed-citation>
+              </ref>
+              <ref id="R56">
+                <mixed-citation publication-type="journal"><name><surname>Vinck</surname><given-names>M</given-names></name>, <name><surname>van Wingerden</surname><given-names>M</given-names></name>, <name><surname>Womelsdorf</surname><given-names>T</given-names></name>, <name><surname>Fries</surname><given-names>P</given-names></name>, and <name><surname>Pennartz</surname><given-names>CMA</given-names></name> (<year>2010</year>). <article-title>The pairwise phase consistency: a bias-free measure of rhythmic neuronal synchronization.</article-title>
+<source>Neuroimage</source>
+<volume>51</volume>, <fpage>112</fpage>–<lpage>122</lpage>.<pub-id pub-id-type="pmid">20114076</pub-id></mixed-citation>
+              </ref>
+              <ref id="R57">
+                <mixed-citation publication-type="journal"><name><surname>Voytek</surname><given-names>B</given-names></name>, and <name><surname>Knight</surname><given-names>RT</given-names></name> (<year>2010</year>). <article-title>Prefrontal cortex and basal ganglia contributions to visual working memory.</article-title>
+<source>Proc. Natl. Acad. Sci. U S A</source>
+<volume>107</volume>, <fpage>18167</fpage>–<lpage>18172</lpage>.<pub-id pub-id-type="pmid">20921401</pub-id></mixed-citation>
+              </ref>
+              <ref id="R58">
+                <mixed-citation publication-type="journal"><name><surname>Wimmer</surname><given-names>K</given-names></name>, <name><surname>Spinelli</surname><given-names>P</given-names></name>, and <name><surname>Pasternak</surname><given-names>T</given-names></name> (<year>2016</year>). <article-title>Prefrontal neurons represent motion signals from across the visual field but for memory-guided comparisons depend on neurons providing these signals.</article-title>
+<source>J. Neurosci</source>
+<volume>36</volume>, <fpage>9351</fpage>–<lpage>9364</lpage>.<pub-id pub-id-type="pmid">27605611</pub-id></mixed-citation>
+              </ref>
+              <ref id="R59">
+                <mixed-citation publication-type="journal"><name><surname>Zaksas</surname><given-names>D</given-names></name>, <name><surname>Bisley</surname><given-names>JW</given-names></name>, and <name><surname>Pasternak</surname><given-names>T</given-names></name> (<year>2001</year>). <article-title>Motion information is spatially localized in a visual working-memory task.</article-title>
+<source>J. Neurophysiol</source>
+<volume>86</volume>, <fpage>912</fpage>–<lpage>921</lpage>.<pub-id pub-id-type="pmid">11495960</pub-id></mixed-citation>
+              </ref>
+              <ref id="R60">
+                <mixed-citation publication-type="journal"><name><surname>Zirnsak</surname><given-names>M</given-names></name>, <name><surname>Steinmetz</surname><given-names>NA</given-names></name>, <name><surname>Noudoost</surname><given-names>B</given-names></name>, <name><surname>Xu</surname><given-names>KZ</given-names></name>, and <name><surname>Moore</surname><given-names>T</given-names></name> (<year>2014</year>). <article-title>Visual space is compressed in prefrontal cortex before eye movements.</article-title>
+<source>Nature</source>
+<volume>507</volume>, <fpage>504</fpage>–<lpage>507</lpage>.<pub-id pub-id-type="pmid">24670771</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig position="float" id="F1">
+              <label>Figure 1.</label>
+              <caption>
+                <title>Behavioral and electrophysiological methods</title>
+                <p id="P71">(A) Hemifield-swap working memory (WM) task. Subjects fixated to the left or right while a sample object was presented in the center, placing it in the right or left visual hemifield, respectively. Samples could be one of two objects, presented in one of two locations (above or below center). Both the object and its location needed to be remembered over a blank 1.6 s delay. After the delay, a series of two test objects was displayed, and subjects responded to the one that did not match the sample in object identity or upper/lower location (response to first object shown for brevity). In ‘‘no-swap’’ trials (left), the WM delay was uninterrupted. In ‘‘swap’’ trials (right), subjects were instructed to saccade to the opposite side mid-delay, switching the visual hemifield of the remembered location relative to gaze.</p>
+                <p id="P72">(B) Neural representation of WM in swap trials. The WM trace is initially encoded in the prefrontal hemisphere contralateral to the sample. We tested whether the change in gaze on swap trials caused the WM traces to transfer to the other hemisphere.</p>
+                <p id="P73">(C) Mean performance (± SEM across 56 sessions) for each swap condition and visual hemifield. Monkeys performed the task well (white stars, significant versus chance), with a small but significant decrease (black star) on swap trials.</p>
+                <p id="P74">(D) Electrophysiological signals were recorded bilaterally from 256 electrodes in lateral prefrontal cortex (PFC).</p>
+              </caption>
+              <graphic xlink:href="nihms-1808824-f0002" position="float"/>
+            </fig>
+            <fig position="float" id="F2">
+              <label>Figure 2.</label>
+              <caption>
+                <title>Contralateral bias in prefrontal cortex</title>
+                <p id="P75">(A) Population mean spike rates (multi-unit activity <italic toggle="yes">Z</italic>-scored to baseline, ± SEM across 56 sessions) for sample objects contralateral (green) and ipsilateral (brown) to the recorded prefrontal hemisphere (pooled across left and right). Activity for contralateral samples was greater than baseline (green dots) and greater than activity for ipsilateral samples (stars). See also <xref rid="SD1" ref-type="supplementary-material">Figure S1</xref>.</p>
+                <p id="P76">(B) Mean (± SEM) accuracy for decoding the item held in WM (object identity and upper/lower location) from prefrontal population spike rates, for samples in the contralateral (green) and ipsilateral (brown) visual hemifield. Contralateral decoding accuracy was greater than ipsilateral (stars).</p>
+                <p id="P77">(C and D) Mean time-frequency LFP power (<italic toggle="yes">Z</italic>-scored to baseline) for contralateral (C) and ipsilateral (D) samples. Contours indicate significant change from baseline. Gray regions to right of (C)–(H) indicate time points with possible temporal smearing of test-period effects. Gamma (~40–100 Hz) and theta (~3–8 Hz) power increased from baseline (red), while beta (~10–32 Hz) power was suppressed from baseline (blue).</p>
+                <p id="P78">(E) Contrast (paired-observation t-statistic map) between contralateral and ipsilateral power. Contours indicate significant difference.</p>
+                <p id="P79">(F–H) Summary of LFP power for contralateral (green) and ipsilateral (brown) sample objects, pooled within frequency bands: gamma (F), beta (G), and theta (H). Because of off-axis structure in the time-frequency data, these one-dimensional (1D) plots cannot fully capture it and are thus included only to aid visualization. All modulations from baseline were stronger for contralateral samples, but only gamma showed a difference during the delay period.</p>
+                <p id="P80">See also <xref rid="SD1" ref-type="supplementary-material">Figure S2</xref>.</p>
+              </caption>
+              <graphic xlink:href="nihms-1808824-f0003" position="float"/>
+            </fig>
+            <fig position="float" id="F3">
+              <label>Figure 3.</label>
+              <caption>
+                <title>Competing models of swap effects</title>
+                <p id="P81">(A) The stable trace model posits that once a working memory is encoded in a given cortical hemisphere (left), it will remain there (right), despite the remembered location shifting from one hemifield to the other (inset).</p>
+                <p id="P82">(B) This model predicts that neural signatures of memory trace laterality will be unaltered by the middelay saccade in our task.</p>
+                <p id="P83">(C) The shifting trace model assumes that when the hemifield of the remembered location is swapped, the memory trace will be transferred from one cortical hemisphere to the other.</p>
+                <p id="P84">(D) This model predicts a post-saccadic inversion of the neural signatures of laterality: shifting the remembered location into the contralateral hemifield (orange) should come to approximate the constant contralateral location (desaturated green), while shifting it ipsilateral (green) should come to look like constant ipsilateral trials (desaturated brown).</p>
+              </caption>
+              <graphic xlink:href="nihms-1808824-f0004" position="float"/>
+            </fig>
+            <fig position="float" id="F4">
+              <label>Figure 4.</label>
+              <caption>
+                <title>Evidence for interhemispheric transfer of working memory traces in prefrontal spiking activity</title>
+                <p id="P85">(A) Mean (± SEM) multi-unit spike rates for all trials where the remembered location was constant in the contralateral (desaturated green) or ipsilateral (desaturated brown) hemifield or where it swapped from ipsilateral to contralateral (orange) or from contralateral to ipsilateral (green). Before the mid-delay saccade, there was only a significant effect of the sample hemifield (H symbols). Around the saccade, activity was greater overall for swap than no-swap trials (S symbols). Later, the swap trials inverted and approximated activity in the corresponding no-swap trials (X symbols, significant hemifield × swap condition interaction). Stars indicate significant difference of swap conditions from their respective no-swap baseline.</p>
+                <p id="P86">(B) Mean (± SEM) accuracy for decoding the item held in WM from spike rates. As predicted, post-saccade accuracy decreased in contralateral-to-ipsilateral trials. Decoding on ipsilateral-to-contralateral trials also significantly improved above baseline, but only transiently, and it never reached the level of constant contralateral trials.</p>
+              </caption>
+              <graphic xlink:href="nihms-1808824-f0005" position="float"/>
+            </fig>
+            <fig position="float" id="F5">
+              <label>Figure 5.</label>
+              <caption>
+                <title>Evidence for interhemispheric transfer of working memory traces in prefrontal LFP power</title>
+                <p id="P87">(A and B) Mean time-frequency LFP power for trials where the remembered location shifted from the ipsilateral to contralateral (A) or from the contralateral to ipsilateral (B) hemifield. Contours indicate significant difference from pre-sample baseline. Gray regions at right of all panels indicate time points with possible temporal smearing of test-period effects.</p>
+                <p id="P88">(C) Swap inversion effect. F-statistic map for sample hemifield × swap condition interaction, signed to indicate if power was greater when remembered location ends up in contralateral (green) or ipsilateral (brown) hemifield. Contours indicate significant interaction.</p>
+                <p id="P89">(D–F) Summary of LFP power for ipsilateral-to-contralateral (green) and contralateral-to-ipsilateral (orange) trials, pooled within frequency bands labeled in (A): gamma (D), beta (E), and theta (F). Around the time of the saccade, LFP power in all bands showed strong effects of the swap condition (saccade versus no saccade). Later in the post-saccade delay, signatures in all bands inverted, as predicted by the shifting trace model.</p>
+                <p id="P90">See also <xref rid="SD1" ref-type="supplementary-material">Figure S2</xref>.</p>
+              </caption>
+              <graphic xlink:href="nihms-1808824-f0006" position="float"/>
+            </fig>
+            <fig position="float" id="F6">
+              <label>Figure 6.</label>
+              <caption>
+                <title>Transferred working memory traces used novel ensembles but converged toward visually induced ensembles at delay end</title>
+                <p id="P91">(A) The generic ensemble model assumes that a given memory trace will activate the same neural ensemble (colored neurons) whether it arrives in prefrontal cortex via feedforward inputs from visual cortex (left) or via interhemispheric inputs from the opposite cortical hemisphere (right).</p>
+                <p id="P92">(B) It predicts that a classifier trained to decode working memory traces on constant contralateral trials will also be able to decode contralateral-shifting swap trials (orange).</p>
+                <p id="P93">(C) The novel ensemble model posits that interhemispheric inputs activate a distinct ensemble (right) from visual inputs (left), even for the same memory trace.</p>
+                <p id="P94">(D) It predicts failure of contralateral-trained decoders to generalize to contralateral-shifting trials.</p>
+                <p id="P95">(E) For most of the post-saccadic delay, cross-decoding accuracy for ipsilateral-to-contralateral swap trials (orange) did not significantly differ from constant ipsilateral trials, as predicted by the novel ensemble model. Near the end of the delay, a significant difference emerged (stars), indicating contralateral-shifting trials became more similar to constant contralateral trials, as predicted by the generic ensemble model.</p>
+                <p id="P96">See also <xref rid="SD1" ref-type="supplementary-material">Figure S3</xref>.</p>
+              </caption>
+              <graphic xlink:href="nihms-1808824-f0007" position="float"/>
+            </fig>
+            <fig position="float" id="F7">
+              <label>Figure 7.</label>
+              <caption>
+                <title>Interhemispheric beta/theta synchrony may mediate working memory trace transfer</title>
+                <p id="P97">(A and B) Mean phase synchrony (pairwise phase consistency [PPC]) between all pairs of LFPs in the two prefrontal hemispheres, for swap (A) and no-swap (B) trials, expressed as the change in PPC from the pre-sample fixation-period baseline. Contours indicate significant differences from baseline. Gray regions indicate time points with possible influence of test-period effects.</p>
+                <p id="P98">(C) Contrast (paired t-statistic map) between swap and no-swap conditions. Contours indicate significant between-condition difference. During the time period of putative interhemispheric memory trace transfer (–1 to –0.8 s), there was a significant increase (green) in interhemispheric synchrony in the theta (~4 to 10 Hz) and beta (~18 to 40 Hz) bands and a decrease (brown) in the alpha/low-beta band (~11 to 17 Hz).</p>
+                <p id="P99">(D and E) PPC between LFP pairs within the sender (D) and receiver (E) hemisphere on swap trials.</p>
+                <p id="P100">(F and G) PPC between LFP pairs within the contralateral (F) and ipsilateral (G) hemispheres on no-swap trials.</p>
+                <p id="P101">(H and I) t-Statistic maps for contrasts between swap and no-swap results for each hemisphere. These contrasts represent the effect of a WM trace shifting out of and into (I) a hemisphere.</p>
+              </caption>
+              <graphic xlink:href="nihms-1808824-f0008" position="float"/>
+            </fig>
+            <fig position="float" id="F8">
+              <label>Figure 8.</label>
+              <caption>
+                <title>Granger causality indicates flow between prefrontal hemispheres in same direction as putative memory trace transfer</title>
+                <p id="P102">(A and B) Spectral Granger causality in swap trials during time period of putative memory trace transfer from prefrontal hemisphere contralateral to initial sample location (‘‘sender’’) to hemisphere contralateral to post-saccade location (‘‘receiver’’).</p>
+                <p id="P103">(A) Mean (± SEM) causality in the sender-to-receiver direction (green) and in the receiver-to-sender direction (orange).</p>
+                <p id="P104">(B) t-Statistic for contrast between causal directions. Causality was significantly greater in the sender-to-receiver direction across all frequencies ~10–40 Hz (green stars). This directional asymmetry reversed, as expected, for time-reversed data (orange stars; full results in <xref rid="SD1" ref-type="supplementary-material">Figure S4</xref>). Gray stars indicate frequencies significant for both forward and time-reversed data.</p>
+                <p id="P105">(C and D) No asymmetry in interhemispheric causality was observed during analogous time points (relative to delay end) in no-swap trials between contralateral and ipsilateral hemispheres.</p>
+              </caption>
+              <graphic xlink:href="nihms-1808824-f0009" position="float"/>
+            </fig>
+            <table-wrap position="float" id="T1">
+              <caption>
+                <p id="P106">KEY RESOURCES TABLE</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <colgroup span="1">
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th align="left" valign="top" rowspan="1" colspan="1">REAGENT or RESOURCE</th>
+                    <th align="left" valign="top" rowspan="1" colspan="1">SOURCE</th>
+                    <th align="left" valign="top" rowspan="1" colspan="1">IDENTIFIER</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan="3" align="left" valign="top" rowspan="1">Experimental models: organisms/strains<hr/></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <italic toggle="yes">Macaca mulatta</italic>
+                    </td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">California National Primate Research Center</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <ext-link xlink:href="https://cnprc.ucdavis.edu/" ext-link-type="uri">https://cnprc.ucdavis.edu/</ext-link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="left" valign="top" rowspan="1"><hr/>Software and algorithms<hr/></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Python 3</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Anaconda</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">3.6; RRID: SCR_008394; <ext-link xlink:href="https://www.anaconda.com/" ext-link-type="uri">https://www.anaconda.com/</ext-link></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">scikit-learn</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Anaconda</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">0.22.1; RRID: SCR_002577; <ext-link xlink:href="https://www.anaconda.com/" ext-link-type="uri">https://www.anaconda.com/</ext-link></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">statsmodels</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Anaconda</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">0.11.1; RRID: SCR_016074; <ext-link xlink:href="https://www.anaconda.com/" ext-link-type="uri">https://www.anaconda.com/</ext-link></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">MATLAB</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">The Mathworks Inc.</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">R2019b; RRID: SCR_001622; <ext-link xlink:href="https://www.mathworks.com/" ext-link-type="uri">https://www.mathworks.com/</ext-link></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">FieldTrip</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">FieldTrip developers</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">RRID: SCR_004849; <ext-link xlink:href="https://www.fieldtriptoolbox.org/" ext-link-type="uri">https://www.fieldtriptoolbox.org/</ext-link></td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <boxed-text id="BX1" position="float">
+              <caption>
+                <title>Highlights</title>
+              </caption>
+              <list list-type="bullet" id="L1">
+                <list-item>
+                  <p id="P107">A gaze shift swapped a working memory’s location between visual hemifields</p>
+                </list-item>
+                <list-item>
+                  <p id="P108">This induced transfer of the working memory trace between the right and left PFC</p>
+                </list-item>
+                <list-item>
+                  <p id="P109">Trace transfer was accompanied by directed interhemispheric theta/beta synchrony</p>
+                </list-item>
+                <list-item>
+                  <p id="P110">Transferred traces activated different ensembles than feedforward-induced traces</p>
+                </list-item>
+              </list>
+            </boxed-text>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

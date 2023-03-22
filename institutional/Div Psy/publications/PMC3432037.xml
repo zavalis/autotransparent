@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:09:02Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3432037" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:3432037</identifier>
+        <datestamp>2012-09-05</datestamp>
+        <setSpec>plosone</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+              <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+              <journal-id journal-id-type="publisher-id">plos</journal-id>
+              <journal-id journal-id-type="pmc">plosone</journal-id>
+              <journal-title-group>
+                <journal-title>PLoS ONE</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1932-6203</issn>
+              <publisher>
+                <publisher-name>Public Library of Science</publisher-name>
+                <publisher-loc>San Francisco, USA</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC3432037</article-id>
+              <article-id pub-id-type="pmcid">PMC3432037</article-id>
+              <article-id pub-id-type="pmc-uid">3432037</article-id>
+              <article-id pub-id-type="pmid">22952650</article-id>
+              <article-id pub-id-type="pmid">22952650</article-id>
+              <article-id pub-id-type="publisher-id">PONE-D-12-05237</article-id>
+              <article-id pub-id-type="doi">10.1371/journal.pone.0043221</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v2">
+                  <subject>Biology</subject>
+                  <subj-group>
+                    <subject>Computational Biology</subject>
+                    <subj-group>
+                      <subject>Population Genetics</subject>
+                      <subj-group>
+                        <subject>Genetic Polymorphism</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Genetics</subject>
+                    <subj-group>
+                      <subject>Genetics of Disease</subject>
+                      <subject>Human Genetics</subject>
+                    </subj-group>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Neuroscience</subject>
+                    <subj-group>
+                      <subject>Cognitive Neuroscience</subject>
+                      <subj-group>
+                        <subject>Pain</subject>
+                      </subj-group>
+                    </subj-group>
+                    <subj-group>
+                      <subject>Neurophysiology</subject>
+                      <subject>Sensory Perception</subject>
+                      <subject>Sensory Systems</subject>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Serotonin-1A Receptor Polymorphism (rs6295) Associated with Thermal Pain Perception</article-title>
+                <alt-title alt-title-type="running-head">rs6295 Associated with Thermal Pain Perception</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lindstedt</surname>
+                    <given-names>Fredrik</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="corresp" rid="cor1">
+                    <sup>*</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Karshikoff</surname>
+                    <given-names>Bianka</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Schalling</surname>
+                    <given-names>Martin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff4">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Olgart Höglund</surname>
+                    <given-names>Caroline</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ingvar</surname>
+                    <given-names>Martin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lekander</surname>
+                    <given-names>Mats</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kosek</surname>
+                    <given-names>Eva</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <label>1</label>
+                <addr-line>Osher Center for Integrative Medicine, Karolinska Institutet, Stockholm, Sweden</addr-line>
+              </aff>
+              <aff id="aff2">
+                <label>2</label>
+                <addr-line>Department of Clinical Neuroscience, Karolinska Institutet, Stockholm, Sweden</addr-line>
+              </aff>
+              <aff id="aff3">
+                <label>3</label>
+                <addr-line>Department of Physiology and Pharmacology, Karolinska Institutet, Stockholm, Sweden</addr-line>
+              </aff>
+              <aff id="aff4">
+                <label>4</label>
+                <addr-line>Neurogenetics Unit, Department of Molecular Medicine and Surgery and Center for Molecular Medicine, Karolinska Institutet, Stockholm, Sweden</addr-line>
+              </aff>
+              <aff id="aff5">
+                <label>5</label>
+                <addr-line>Stress Research Institute, Stockholm University, Stockholm, Sweden</addr-line>
+              </aff>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Chialvo</surname>
+                    <given-names>Dante R.</given-names>
+                  </name>
+                  <role>Editor</role>
+                  <xref ref-type="aff" rid="edit1"/>
+                </contrib>
+              </contrib-group>
+              <aff id="edit1">
+                <addr-line>National Research &amp; Technology Council, Argentina</addr-line>
+              </aff>
+              <author-notes>
+                <corresp id="cor1">* E-mail: <email>fredrik.lindstedt@ki.se</email></corresp>
+                <fn fn-type="COI-statement">
+                  <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+                </fn>
+                <fn fn-type="con">
+                  <p>Conceived and designed the experiments: FL EK. Performed the experiments: FL BK. Analyzed the data: FL. Contributed reagents/materials/analysis tools: MS COH MI ML EK. Wrote the paper: FL. Artwork: FL. Contributed to revision of manuscript: FL BK MS COH MI ML EK.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2012</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>31</day>
+                <month>8</month>
+                <year>2012</year>
+              </pub-date>
+              <volume>7</volume>
+              <issue>8</issue>
+              <elocation-id>e43221</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>20</day>
+                  <month>2</month>
+                  <year>2012</year>
+                </date>
+                <date date-type="accepted">
+                  <day>18</day>
+                  <month>7</month>
+                  <year>2012</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2012 Lindstedt et al</copyright-statement>
+                <copyright-year>2012</copyright-year>
+                <copyright-holder>Lindstedt et al</copyright-holder>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <sec>
+                  <title>Background</title>
+                  <p>Serotonin (5-HT) is highly involved in pain regulation and serotonin-1A (5-HT1A) receptors are important in determining central 5-HT tone. Accordingly, variation in the 5-HT1A receptor gene (<italic>HTR1A</italic>) may contribute to inter-individual differences in human pain sensitivity. The minor G-allele of the <italic>HTR1A</italic> single nucleotide polymorphism (SNP) rs6295 attenuates firing of serotonergic neurons and reduces postsynaptic expression of the receptor. Experiments in rodents suggest that 5-HT1A-agonism modulates pain in opposite directions at mild compared to high noxious intensities. Based upon this and several other similar observations, we hypothesized that G-carriers would exhibit a relative hypoalgesia at mild thermal stimuli but tend towards hyperalgesia at higher noxious intensities.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p>Fourty-nine healthy individuals were selectively genotyped for rs6295. Heat- and cold-pain thresholds were assessed along with VAS-ratings of a range of suprathreshold noxious heat intensities (45°C–49°C). Nociceptive-flexion reflex (NFR) thresholds were also assessed.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p>Volunteers did not deviate significantly from Hardy-Weinberg equilibrium. G-carriers were less sensitive to threshold-level thermal pain. This relative hypoalgesia was abolished at suprathreshold noxious intensities where G-carriers instead increased their ratings of heat-pain significantly more than C-homozygotes. No differences with regard to NFR-thresholds emerged.</p>
+                </sec>
+                <sec>
+                  <title>Conclusion/Significance</title>
+                  <p>To the best of our knowledge this is the first study of human pain perception on the basis of variation in <italic>HTR1A</italic>. The results illustrate the importance of including a range of stimulus intensities in assessments of pain sensitivity. In speculation, we propose that an attenuated serotonergic tone may be related to a ‘hypo- to hyperalgesic’ response-pattern. The involved mechanisms could be of clinical interest as variation in pain regulation is known to influence the risk of developing pain pathologies. Further investigations are therefore warranted.</p>
+                </sec>
+              </abstract>
+              <funding-group>
+                <funding-statement>This study was funded by The Karolinska Institute, Swedish Rheumatism Association and Stockholm County Council (EK); The Swedish Research Council (<ext-link ext-link-type="uri" xlink:href="http://www.vr.se">www.vr.se</ext-link>), grant nr 2011-4807 (MS); The Swedish Heart-Lung Foundation (COH); Petrus and Augusta Hedlunds Stiftelse, The Center for Allergy Research, Swedish Heart-Lung Foundation, Swedish Council for Working Life and Social Research, The Swedish Society for Medicine, The National board of Health and Welfare and Stockholm Stress Center (ML). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+              </funding-group>
+              <counts>
+                <page-count count="9"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="s1">
+              <title>Introduction</title>
+              <p>Pain is per definition a subjective experience and the reported pain intensity for a given noxious stimulus varies greatly between subjects <xref rid="pone.0043221-Coghill1" ref-type="bibr">[1]</xref>. Pain sensitivity as well as response to analgesics is influenced by genetics <xref rid="pone.0043221-LaCroixFralish1" ref-type="bibr">[2]</xref>, <xref rid="pone.0043221-Foulkes1" ref-type="bibr">[3]</xref>. Such heritability is of substantial clinical importance as the symptomatic profile of pain syndromes has a strong genetic background <xref rid="pone.0043221-Arnold1" ref-type="bibr">[4]</xref>, <xref rid="pone.0043221-Markkula1" ref-type="bibr">[5]</xref>. Genetic studies of perceptual variation may increase our understanding of the molecular mechanisms underlying the conscious phenomena. Hopefully, such efforts will collectively translate into better targets for treatment and provide new biomarkers to gauge the risk of developing pathological pain <xref rid="pone.0043221-Young1" ref-type="bibr">[6]</xref>.</p>
+              <p>There is increasing evidence that aberrations of regulatory processes contribute to common pain-pathologies <xref rid="pone.0043221-Bingel1" ref-type="bibr">[7]</xref>, <xref rid="pone.0043221-Kosek1" ref-type="bibr">[8]</xref>, <xref rid="pone.0043221-Kosek2" ref-type="bibr">[9]</xref>, <xref rid="pone.0043221-Yarnitsky1" ref-type="bibr">[10]</xref>. The serotonergic system is highly involved in the regulation of affective, homeostatic and pain related mechanisms <xref rid="pone.0043221-Lucki1" ref-type="bibr">[11]</xref>, <xref rid="pone.0043221-Millan1" ref-type="bibr">[12]</xref>. In the central nervous system, serotonin (5-HT) is synthesized in the brainstem’s raphe nuclei. Projections from these nuclei target supraspinal areas related to the perception and regulation of pain. In addition, 5-HT-utilizing descending projections are involved in the pathways known to be important for both inhibition and facilitation of nociceptive signals at the spinal level <xref rid="pone.0043221-Millan1" ref-type="bibr">[12]</xref>, <xref rid="pone.0043221-Sommer1" ref-type="bibr">[13]</xref>, <xref rid="pone.0043221-Benarroch1" ref-type="bibr">[14]</xref>. In other words, 5-HT related mechanisms are involved both in the modulation of early nociceptive signals as well as in imbuing the actual pain experience with an affective content. Genetic variation in the 5-HT system may therefore be of particular relevance to the study of factors contributing to the individual experience of pain.</p>
+              <p>The 5-HT system includes a number of receptors, divided into seven families <xref rid="pone.0043221-Millan1" ref-type="bibr">[12]</xref>. One of the most widely expressed and well-studied is the 5-HT1A receptor. It is a G-protein coupled receptor (GPCR) with predominantly inhibitory effects, mediated partly through inward rectifying potassium channels <xref rid="pone.0043221-Polter1" ref-type="bibr">[15]</xref>, <xref rid="pone.0043221-Ohno1" ref-type="bibr">[16]</xref>. The 5-HT1A-receptor is the main somatodentritic receptor of the 5-HT synthesizing neurons in the raphe nuclei. In this presynaptic location it functions as an autoreceptor <xref rid="pone.0043221-Albert1" ref-type="bibr">[17]</xref>. Activation of these autoreceptors reduce the firing of the 5-HT neurons projecting to the spinal cord and brain <xref rid="pone.0043221-Sprouse1" ref-type="bibr">[18]</xref>. The 5-HT1A receptor is therefore one of the most important for the regulation of central serotonergic tone.</p>
+              <p>A common single nucleotide polymorphism (SNP) of the 5-HT1A-receptor gene (<italic>HTR1A</italic>) <xref rid="pone.0043221-Wu1" ref-type="bibr">[19]</xref>, <xref rid="pone.0043221-Huang1" ref-type="bibr">[20]</xref> has been studied with regard to psychiatric phenotypes <xref rid="pone.0043221-LeFrancois1" ref-type="bibr">[21]</xref>. The SNP (rs6295) consists of a C-to-G mutation at base-pair 1019 of the gene <xref rid="pone.0043221-Wu1" ref-type="bibr">[19]</xref>. Located in the promoter region of the <italic>HTR1A</italic>, the minor G-allele is reported to influence the levels of receptor expression. Due to the differential interaction with transcription factors, the G-allele has opposite effects on the expression level of 5-HT1A receptors in 5-HT-syntesizing (i.e. raphe) compared to non-5-HT synthesizing neurons <xref rid="pone.0043221-Savitz1" ref-type="bibr">[22]</xref>. One well-studied mechanism through which this is achieved is trough a transcription factor called deformed epidermal autoregulatory factor 1 (Deaf1), requiring the C-allele to be functional <xref rid="pone.0043221-Albert1" ref-type="bibr">[17]</xref>. In serotonergic (raphe) neurons, Deaf1 represses the expression of 5-HT1A autoreceptors. In non-5-HT-synthesizing neurons, however, Deaf1 enhances promoter activity, leading to increased transcription. As the presence of the G-allele abrogates the effects of Deaf1, this genetic variant leads to an increase of autoreceptors in the raphe (decreasing the firing of the 5-HT neurons) while also reducing the postsynaptic 5-HT1A expression in areas receiving 5-HT projections <xref rid="pone.0043221-Albert2" ref-type="bibr">[23]</xref>, <xref rid="pone.0043221-Czesak1" ref-type="bibr">[24]</xref>. In sum, the transcriptional effects of the G-allele act in concert to lower central sertonergic tone, as compared to the C-allele.</p>
+              <p>In congruence with the outlined effects, the G-allele has been suggested to increase the risk of depression <xref rid="pone.0043221-Lemonde1" ref-type="bibr">[25]</xref>, possibly impacting the response to antidepressants <xref rid="pone.0043221-Lemonde2" ref-type="bibr">[26]</xref> and related therapies <xref rid="pone.0043221-Malaguti1" ref-type="bibr">[27]</xref>. There is a substantial comorbidity beween affective disorders and chronic pain <xref rid="pone.0043221-Clauw1" ref-type="bibr">[28]</xref>, <xref rid="pone.0043221-Corruble1" ref-type="bibr">[29]</xref>, <xref rid="pone.0043221-Leo1" ref-type="bibr">[30]</xref>, indicating overlapping neurobiological mechanisms. Serotonergic dysregulation is one such mechanism likely to be shared by both affective and pain pathologies <xref rid="pone.0043221-Ruoff1" ref-type="bibr">[31]</xref>. Accordingly, there are good reasons to believe the rs6295 polymorphism may also explain some of the inter-individual variance in pain perception <xref rid="pone.0043221-Savitz1" ref-type="bibr">[22]</xref>. Despite this, the potential influence of variation in the <italic>HTR1A</italic> gene on human pain phenotypes has to the best of our knowledge not previously been assessed.</p>
+              <p>We recently demonstrated associations between another common genetic variant in the 5-HT system and pain. This was done in studies of the so-called tri-allelic 5-HTTLPR, reported to influence the density of 5-HT transporter (5-HTT) <xref rid="pone.0043221-Lindstedt1" ref-type="bibr">[32]</xref>, <xref rid="pone.0043221-Lindstedt2" ref-type="bibr">[33]</xref>, <xref rid="pone.0043221-Kosek3" ref-type="bibr">[34]</xref>. Bearing much similarity to the rs6295 G-allele, a low expression of the 5-HTT has been has been coupled to a panorama of affective disorders including depression <xref rid="pone.0043221-Caspi1" ref-type="bibr">[35]</xref>, <xref rid="pone.0043221-Lesch1" ref-type="bibr">[36]</xref>, <xref rid="pone.0043221-Serretti1" ref-type="bibr">[37]</xref>. Genetically inferred low expression of the 5-HTT was associated with a hypoalgesia for threshold-level thermal pain <xref rid="pone.0043221-Lindstedt1" ref-type="bibr">[32]</xref> but also a steeper stimulus-response curve (tending toward hyperalgesia) for suprathreshold heat-pain (46°C to 48°C) <xref rid="pone.0043221-Lindstedt2" ref-type="bibr">[33]</xref>. Could similar phenotypes emerge from variation in the <italic>HTR1A</italic>? Supporting this idea, the low 5-HTT expressing genotype has been associated with lower 5-HT1A-receptor densities in the human brain <xref rid="pone.0043221-David1" ref-type="bibr">[38]</xref>. Moreover, experiments in rodents suggest 5-HT1A-agonism to have opposite effects on pain at mild versus high noxious intensities <xref rid="pone.0043221-Bardin1" ref-type="bibr">[39]</xref>, <xref rid="pone.0043221-Fasmer1" ref-type="bibr">[40]</xref>, <xref rid="pone.0043221-Bonnefont1" ref-type="bibr">[41]</xref>, representing a possible molecular underpinning of such putative ‘hypo- to hyperalgesic’ phenomena.</p>
+              <p>Therefore, we hypothesized that carriers of the G-allele would display a relative hypoalgesia to mild (i.e. threshold-level) thermal pain but tend towards hyperalgesia as noxious intensities were increased. Thresholds for cold- and heat-pain as well as VAS-ratings of temperatures ranging from 45°C to 49°C were assessed. Thresholds for the nociceptive flexion reflex (NFR), a widely used neurophysiologic measurement of spinal nocifensive activity <xref rid="pone.0043221-Sandrini1" ref-type="bibr">[42]</xref>, <xref rid="pone.0043221-Skljarevski1" ref-type="bibr">[43]</xref>, were also determined as an additional - exploratory - outcome measure. Forty-nine healthy individuals, without any present or previous history of psychiatric disease or pain problems were recruited, underwent behavioral testing and were subsequently genotyped for the rs6295 polymorphism.</p>
+            </sec>
+            <sec sec-type="methods" id="s2">
+              <title>Methods</title>
+              <sec id="s2a">
+                <title>Experimental Overview</title>
+                <p>The study was conducted according to the principles expressed in the Declaration of Helsinki and was approved by the Regional Ethical Review Board in Stockholm. Subjects were recruited by advertising and paid for their participation. Participants provided written informed consent.</p>
+                <p>Anxiety is well known to influence pain. To control for this, participants provided ratings of state anxiety using the State Trait Anxiety Inventory (STAI) immediately prior to sensory testing. The inventory uses a 4 point Lickert scale and increasing scores correlate positively with increasing anxiety about an event.</p>
+                <p>Skin temperature was measured, followed by an assessment of thermal detection and pain thresholds. VAS-ratings of suprathreshold noxious heat, applied in a randomized order, were then collected. This was followed by an assessment of nociceptive flexion reflex (NFR) thresholds. Finally, a venous blood sample for genotyping was obtained. Details are provided below.</p>
+              </sec>
+              <sec id="s2b">
+                <title>Participants</title>
+                <p>Fourty-nine healthy subjects were included in the study (28 females, 21 males). One additional individual was tested but excluded from the analyses as blood for DNA-extraction could not be successfully obtained. The participants had not previously partaken in any of our group’s pain studies. For inclusion, subjects had to be 18–45 years of age. Prior to inclusion subjects were screened to be healthy, without any past or present psychiatric disorder or pain-problems. As part of this screening process, potential subjects were required to have a score of 7 or less on both subscales of the Hospital Anxiety and Depression Scale (HADS) <xref rid="pone.0043221-Snaith1" ref-type="bibr">[44]</xref>. Except for contraceptives, subjects were not included if they were using any pharmaceuticals. Women were tested in the follicular phase (day 2–10), apart from when contraceptives abrogated the menses. The presently reported experiment was the first in a day-long battery of tests unrelated to the present study, involving a subsequent immunological challenge and neuroimaging. Subjects were, therefore, also required to be free from allergies as well as to be right handed. Due to inclusion in an entire test-battery we did not specifically screen for ethnicity. All but two of the participants were of self-reported European decent, however.</p>
+              </sec>
+              <sec id="s2c">
+                <title>Skin-temperature Measurements</title>
+                <p>Prior to sensory testing, skin temperature was measured using an infra-red thermometer (Fluke 63, Fluke Sverige AB, Solna,Sweden) bilaterally over the ventral forearm. An adapter was used to ensure that the distance to the surface of the skin was 5 cm. Similar non-contact procedures of recording skin temperature have been reported to provide accurate measurements <xref rid="pone.0043221-Buono1" ref-type="bibr">[45]</xref>, <xref rid="pone.0043221-Matsukawa1" ref-type="bibr">[46]</xref>.</p>
+              </sec>
+              <sec id="s2d">
+                <title>Thermal Testing</title>
+                <p>A computer controlled Peltier-type thermode with a 30 mm×30 mm surface was used for all thermal testing (PATHWAY model ATS, Medoc, Israel). The baseline temperature of the thermode was set to 32.0°C. Subjects were comfortably seated in a clinical examination-bed with armrests during testing. The thermode was secured to the ventral forearm using a Velcro strap and held in place using a small beanbag.</p>
+                <sec id="s2d1">
+                  <title>Thermal detection and pain thresholds</title>
+                  <p>The method of limits <xref rid="pone.0043221-Yarnitsky2" ref-type="bibr">[47]</xref>, <xref rid="pone.0043221-Neziri1" ref-type="bibr">[48]</xref> was used to assess detection- and pain thresholds. Subjects used a response button held in the right hand. Detection thresholds for warm [change rate = 0.5°C/s] were determined twice, followed by three tests for threshold for heat-pain [change rate  = 1.5°C/s]. This was followed by testing detection thresholds for cold (two times) as well as cold-pain (three times) with the same change rates as for heat. Inter-stimulus-intervals of 15 seconds (end-to-onset) were used for thermal detection, and 30 seconds for pain thresholds. Different skin areas of the lower half of the ventral forearm were used for cold and heat – i.e. the thermode was alternated between a more proximal and a more distal placement using a randomized list. For cold-pain testing, the program returned the thermode temperature to baseline if a temperature of 0°C occurred before pain had been perceived. If this happened, a threshold of 0°C was assigned to the present and any pending trials.</p>
+                </sec>
+                <sec id="s2d2">
+                  <title>Suprathreshold noxious heat</title>
+                  <p>After thresholds had been determined, 5 second long stimuli of noxious heat were applied a total of 5 times. Each temperature was applied once. Temperatures of 45°C, 46°C, 47°C, 48°C and 49°C were thus applied in a randomized order [destination and return rate  = 10°C/s] with an end-to-onset inter-stimulus interval of 30 seconds. Pain was rated as soon as the temperature begun returning to baseline (i.e. after 5 seconds) using 100 mm long VAS-scales ([left] ‘no pain’ – [right]’worst possible pain’).</p>
+                </sec>
+              </sec>
+              <sec id="s2e">
+                <title>Nociceptive Flexion Reflex (NFR) Threshold</title>
+                <p>The skin overlying the right sural nerve was cleaned and abraded using prepping-paper (3 M Red Dot Trace, Cephalon Nørresundby, Denmark). A disposable dual electrode with 20 mm center-to-center distance (Viasys nr 019-429400, Cephalon) was placed in the retromalleolar fossa on the skin overlying the path of the sural nerve. Before placement approximately 0.1 ml of salt-free electrode gel (SpectraH 360, Parker Laboratories Inc, Fairfield, New Jersey, USA) was applied to each of the two foam pads using a syringe. The dual electrode was connected to snapleads (Viasys nr 019-424500, Cephalon) with the cathode placed proximally. The right biceps femoris muscle was used for electromyographic (EMG) measurements and electrodes were placed approximately 10 cm superior to the popliteal fossa and halfway between the lateral aspect and the midline of the leg. The area was shaved if needed and thereafter cleaned and abraded using prepping-paper. Disposable dry foam electrodes (EL509, BIOPAC Systems Inc, Goleta, California, USA) were filled with salt-free electrode gel according to the manufacturer’s instructions and juxtapositioned on the site. An identical electrode for grounding was placed over the right proximal fibula. Shielded leads were connected to the biceps femoris electrodes and connected to an EMG unit (EMG100C and MP150, BIOPAC Systems Inc) with gain set at 5000, 500 Hz low-pass, and 10 Hz high-pass filtering and a sampling rate of 2 kHz.</p>
+                <p>Subjects wore shorts during testing and were comfortably seated in a 3-sectoned neurophysiological examination bed. A cylindrical cushion (20 cm diameter) was placed below the right knee and the leg section lowered to provide a 120°flexon at the knee. A few test-stimuli of 2 mA were applied to aquaint subjects with the sensation and this was followed by a determination of the NFR-threshold.</p>
+                <p>The NFR-apparatus and thresholding program was identical to that described by us elsewhere <xref rid="pone.0043221-Lindstedt2" ref-type="bibr">[33]</xref>. Briefly, a common staircase algorithm <xref rid="pone.0043221-Rhudy1" ref-type="bibr">[49]</xref> was used to determine the NFR-threshold. Each shock consisted of a train of 5 identical square-wave-pulses each 1 ms in duration and spaced 3 ms apart. The time between two shock-trains was randomized (minimum 7 seconds, average 10 seconds). An NFR was identified according to the detection rule suggested by France and co-workers based on the interval-mean of the EMG-signal <xref rid="pone.0043221-Rhudy1" ref-type="bibr">[49]</xref>, <xref rid="pone.0043221-France1" ref-type="bibr">[50]</xref>.</p>
+              </sec>
+              <sec id="s2f">
+                <title>Genotyping</title>
+                <p>Samples for genotyping were obtained after sensory testing. Whole-blood collected in 9 ml EDTA tubes was frozen until DNA-extraction was carried out according to a commonly used procedure <xref rid="pone.0043221-Lindblom1" ref-type="bibr">[51]</xref>. Following extraction, DNA was normalized to 5 µg/ml and 50 µl/well was added to a 96-well plate. For genotyping of the rs6295 (−109C/G) a commercial TaqMan® assay was used. Fluorescence measurements were performed using the ABIHT7900 (Applied Biosystems, Foster City, CA) and allele-calling was performed with the SDS 2.2 software package (Applied Biosystems). We had a clear a priori hypothesis for the current experiment; genotyping was restricted to this SNP, thereby avoiding multiple comparisons. Due to the constrained sample-size and previous reports supporting this approach, we decided a-priori to dichotomize subjects into carriers of the putative risk-allele (G-carriers) and C-homozygotes. Importantly, the work by Lemonde and colleagues indicate that the association with major depressive disorder and suicide is present for both the G-homozygotes and G-carriers <xref rid="pone.0043221-Lemonde1" ref-type="bibr">[25]</xref>.</p>
+              </sec>
+              <sec id="s2g">
+                <title>Statistics</title>
+                <p>SPSS Statistics 17.0 (SPSS Inc, Chicago, USA) was used for all analyses. Data is reported as means ±1 standard deviation (SD). Two-tailed tests were used unless otherwise stated. P-values &lt;0.05 were considered significant. For heat- and cold-pain thresholds we had clear-cut a priori hypotheses and therefore used directional (i.e. one-tailed) tests. An independent-sample t-test was used for comparing average skin temperature and state-STAI scores between genotype groups. VAS-ratings of temperatures from 45°C to 49°C were entered into a factorial repeated-measures ANOVA with gender and genotype as between subject factors, with a particular interest in the linear interaction temperature x genotype. Additionally, a univariate ANOVA with gender and genotype as between subject-factors was used to explore the “span” of the VAS-scale used (i.e. difference in millimeters between VAS-rating for 49°C and VAS-rating for 45°C).Shapiro-Wilk tests were used to assess the assumption of normality and, where appropriate non-parametric tests (exact) were used. Chi-square tests were used to assess deviations from Hardy-Weinberg equilibrium (HWE). Mann-Whitney U tests were used for assessing thermal detection, heat-and cold-pain thresholds as well as NFR-thresholds. Spearman’s rho was used to assess the correlation between cold- and heat-pain thresholds.</p>
+              </sec>
+            </sec>
+            <sec id="s3">
+              <title>Results</title>
+              <sec id="s3a">
+                <title>Genotyping of Participants</title>
+                <p>All subjects were unambiguously genotyped (i.e. 100% call-rate). Twenty subjects were heterozygotes, 18 subjects were homozygous for the major C-allele and the remaining 11 subjects were homozygous for the G-allele. This did not represent a significant deviation from Hardy-Weinberg equilibrium (HWE) [χ<sup>2</sup>(1) = 1.36, p = 0.24]. See <xref ref-type="table" rid="pone-0043221-t001">Table 1</xref>. In our sample, the frequency of the G-allele was 43%. In other samples, G-allele frequencies between 15% <xref rid="pone.0043221-Lemonde1" ref-type="bibr">[25]</xref> and 54% have been reported <xref rid="pone.0043221-Wasserman1" ref-type="bibr">[52]</xref>. The genotype groups did not differ significantly in age [U = 213.5, z = −1.4, p = 0.2]. There were no significant differences in state-anxiety scores provided by the G-carriers (28.2±4.3) compared to the C-homozygotes (30.4±5.4), [t(46) = 1.6, p = 0.13]; one subject excluded from this analysis due to missed items (female G-carrier).</p>
+                <table-wrap id="pone-0043221-t001" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0043221.t001</object-id>
+                  <label>Table 1</label>
+                  <caption>
+                    <title>49 healthy participants were included in the study and genotyped for rs6295.</title>
+                  </caption>
+                  <alternatives>
+                    <graphic id="pone-0043221-t001-1" xlink:href="pone.0043221.t001"/>
+                    <table frame="hsides" rules="groups">
+                      <colgroup span="1">
+                        <col align="left" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td colspan="2" align="left" rowspan="1">C-homozygotes</td>
+                          <td colspan="2" align="left" rowspan="1">G-carriers</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">CC</td>
+                          <td align="center" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">CG</td>
+                          <td align="left" rowspan="1" colspan="1">GG</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Male</td>
+                          <td align="left" rowspan="1" colspan="1">9</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">9</td>
+                          <td align="left" rowspan="1" colspan="1">3</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Female</td>
+                          <td align="left" rowspan="1" colspan="1">9</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">11</td>
+                          <td align="left" rowspan="1" colspan="1">8</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Total</td>
+                          <td align="left" rowspan="1" colspan="1">18</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">20</td>
+                          <td align="left" rowspan="1" colspan="1">11</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td colspan="2" align="left" rowspan="1">18 (9 male)</td>
+                          <td colspan="2" align="left" rowspan="1">31 (12 male)</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                </table-wrap>
+              </sec>
+              <sec id="s3b">
+                <title>Skin Temperature</title>
+                <p>The average temperature of the skin overlying the ventral forearm did not differ significantly between genotype groups [t(47) = −1.3, p = 0.7].</p>
+              </sec>
+              <sec id="s3c">
+                <title>Thermal Detection</title>
+                <p>Thresholds for warm-detection did not differ significantly between C-homozygotes (33.4°C±1.0°C) and G-carriers (33.4°C ±0.7°C), [U = 248.5, z = −0.63, p = 0.53]. Similarly, no significant differences were found with regard to cold-detection between C-homozygotes (30.0°C ±1.0°C) and G-carriers (30.0°C±1.5°C), [U = 227.0, z = −1.1, p = 0.29].</p>
+              </sec>
+              <sec id="s3d">
+                <title>Thermal Pain Thresholds</title>
+                <p>The average heat-pain threshold in the C-homozygotes was 40.8°C ±3.7°C (median = 41.5°C), as compared to 41.9°C ±3.4°C (median = 42.3°C) in the G-carriers. This represented a non-significant trend [U = 210.5, z = −1.4, p = 0.08] congruent with our a-priori hypothesis. See <xref ref-type="fig" rid="pone-0043221-g001">Figure 1</xref>. The average cold-pain threshold in the C-homozygotes was 16.8±10.1 (median  = 23.0), as compared to 10.8±9.4 (median = 7.9), representing a significant difference [U = 201.0, z = −1.66, p&lt;0.05] congruent with our a-priori hypothesis. See <xref ref-type="fig" rid="pone-0043221-g002">Figure 2</xref>.</p>
+                <fig id="pone-0043221-g001" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0043221.g001</object-id>
+                  <label>Figure 1</label>
+                  <caption>
+                    <title>Heat-pain thresholds.</title>
+                    <p>Heat-pain thresholds exhibited a trend-level difference [U = 210.5, z = −1.4, p = 0.08] between genotype groups such that G-carriers were less sensitive (had higher thresholds) compared to C-homozygotes.</p>
+                  </caption>
+                  <graphic xlink:href="pone.0043221.g001"/>
+                </fig>
+                <fig id="pone-0043221-g002" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0043221.g002</object-id>
+                  <label>Figure 2</label>
+                  <caption>
+                    <title>Cold-pain thresholds.</title>
+                    <p>Cold-pain threshold differed significantly [U = 201.0, z = −1.66, p&lt;0.05] between C-homozygotes and G-carriers. The G-carriers exhibited reduced sensitivity, i.e. lower thresholds.</p>
+                  </caption>
+                  <graphic xlink:href="pone.0043221.g002"/>
+                </fig>
+              </sec>
+              <sec id="s3e">
+                <title>Ratings of Suprathreshold Noxious Heat</title>
+                <p>The analysis revealed a significant linear within-subject contrast for the interaction of temperature level and genotype on VAS-ratings [F(1,45) = 5.5, p = 0.02] such that G-carriers increased their temperature ratings more in response to increasing temperatures, as compared to C-homozygotes. See <xref ref-type="fig" rid="pone-0043221-g003">Figure 3</xref>. There was no such significant interaction between temperature and gender, nor was the three-way interaction temperature x genotype x gender significant, [F&lt;1].</p>
+                <fig id="pone-0043221-g003" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0043221.g003</object-id>
+                  <label>Figure 3</label>
+                  <caption>
+                    <title>Interaction between temperature and genotype for VAS-ratings.</title>
+                    <p>G-carriers increased their ratings more than C-homozygotes for increasing temperatures. The linear within-subject contrast for the interaction of temperature level and genotype on VAS-ratings was significant [F(1,45) = 5.5, p = 0.02].</p>
+                  </caption>
+                  <graphic xlink:href="pone.0043221.g003"/>
+                </fig>
+                <p>As a further exploration, the difference between the VAS-rating for 49°C and 45°C was calculated for each individual. This difference represents the “span of the VAS-scale” used by each individual in rating mild to relatively severe suprathreshold thermal stimuli. C-homozygotes had a mean difference of 34 mm ±17 mm (median = 32) as compared to the G-carriers with a mean difference of 47 mm ±17 mm (median = 46). With regard to this derived measurement of pain-reactivity a significant difference between the two genotype groups [F(1,45) = 6.3, p = 0.02] emerged. Neither a main effect of gender nor an interaction between gender and genotype were observed in this measure of pain-reactivity [F&lt;1].</p>
+              </sec>
+              <sec id="s3f">
+                <title>NFR-thresholds</title>
+                <p>The average NFR-threshold of the C-homozygotes was 8.2 mA ±2.6 mA (median = 8.0 mA) as compared to the G-carriers with an average threshold of 7.8 mA ±4.7 mA (median = 7.0 mA). This did not represent a significant difference [U = 234.5, z = −0.92, p = 0.36]. See <xref ref-type="fig" rid="pone-0043221-g004">Figure 4</xref>.</p>
+                <fig id="pone-0043221-g004" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0043221.g004</object-id>
+                  <label>Figure 4</label>
+                  <caption>
+                    <title>NFR-thresholds.</title>
+                    <p>No difference between genotype groups emerged with regard to the threshold of the nociceptive-flexion reflex (NFR) [U = 234.5, z = −0.92, p = 0.36].</p>
+                  </caption>
+                  <graphic xlink:href="pone.0043221.g004"/>
+                </fig>
+              </sec>
+              <sec id="s3g">
+                <title>Correlation between Thresholds for Thermal Pain and the NFR</title>
+                <p>Heat-pain thresholds were highly and significantly inversely correlated to cold-pain thresholds [rho = −0.61, p&lt;0.001]. In other words: the sensitivities were positively correlated. No significant correlation between the NFR and cold-pain [rho = −0.12, p = 0.42] or heat-pain [rho = 0.18, p = 0.21] was observed.</p>
+              </sec>
+            </sec>
+            <sec id="s4">
+              <title>Discussion</title>
+              <sec id="s4a">
+                <title>Summary of Findings</title>
+                <p>To the best of our knowledge this is the first study of human pain perception on the basis of variation in the <italic>HTR1A</italic>. Pain ratings differed significantly between genotype groups. G-carriers exhibited the expected thermal hypoalgesia at threshold-level intensities, as compared to C-homozygotes. As hypothesized, this relative hypoalgesia was abolished at higher intensities where G-carriers instead presented with a significantly steeper stimulus-response curve. These results are congruent with our hypothesis of a ‘hypo-to-hyperalgesic’ response-pattern related to relative attenuations of 5-HT tone. Although our results point to an augmented pain-reactivity in G-carriers, overt hyperalgesia remains to be demonstrated. Such putative hyperalgesia may require higher noxious intensities than those presently assessed.</p>
+                <p>Neither anxiety, the ability to detect innocuous temperatures nor baseline skin temperature are likely to have confounded our results as the groups did not differ with regard to these parameters.</p>
+              </sec>
+              <sec id="s4b">
+                <title>Divergent Threshold Versus Suprathreshold Responses on the Basis of 5-HT Related Mechanisms?</title>
+                <p>It should be noted that association studies do not permit strong conclusions as to underlying biological mechanisms. Yet, a number of animal and human studies lend credence to our hypothesis of a ‘hypo-to-hyperalgesic’ phenomenon on the basis of 5-HT related mechanisms. Although speculative, a discussion of such putative mechanisms could generate clinically relevant hypotheses.</p>
+                <p>The minor G-allele of the rs6295 has previously been associated with lower density of postsynaptic 5-HT1A receptors as well as up-regulation of autoreceptors in brainstem 5-HT synthesizing neurons. These changes are suggested to act in concert to reduce the overall 5-HT tone, as compared to the C-allele <xref rid="pone.0043221-Albert1" ref-type="bibr">[17]</xref>, <xref rid="pone.0043221-LeFrancois1" ref-type="bibr">[21]</xref>. Much like the 5-HT1A receptor, the 5-HT transporter (5-HTT) is positioned to influence 5-HT tone in the central nervous system. We recently demonstrated hypoalgesia to threshold-level thermal pain in individuals with genetically inferred low levels of 5-HTT expression <xref rid="pone.0043221-Lindstedt1" ref-type="bibr">[32]</xref>. In a second experiment, the same individuals presented with a steeper stimulus-response curve for suprathreshold noxiousheat. This was paralleled by a reduced capacity for central suppression of tonic pain <xref rid="pone.0043221-Lindstedt2" ref-type="bibr">[33]</xref>. Low 5-HTT expression is – much like the presently studied rs6295 G-allele – also associated with depressive traits <xref rid="pone.0043221-Caspi1" ref-type="bibr">[35]</xref>, <xref rid="pone.0043221-Lesch1" ref-type="bibr">[36]</xref>, <xref rid="pone.0043221-Serretti1" ref-type="bibr">[37]</xref>. We suggest that these results may help explain the established but somewhat paradoxical finding that depressed individuals exhibit hypoalgesia for <italic>threshold</italic> thermal pain <xref rid="pone.0043221-Dickens1" ref-type="bibr">[53]</xref>, despite being at increased risk of developing chronic pain problems <xref rid="pone.0043221-Corruble1" ref-type="bibr">[29]</xref>, <xref rid="pone.0043221-Aguglia1" ref-type="bibr">[54]</xref>, <xref rid="pone.0043221-Fishbain1" ref-type="bibr">[55]</xref>, <xref rid="pone.0043221-LautenbacherJ1" ref-type="bibr">[56]</xref>, <xref rid="pone.0043221-Ohayon1" ref-type="bibr">[57]</xref>. In fact, such reduced threshold sensitivity in depression has been coined ‘pseudohypoalgesia’ as it appears to be coupled to an otherwise augmented pain perception <xref rid="pone.0043221-Bar1" ref-type="bibr">[58]</xref>. This view is compatible with the presently reported results.</p>
+                <p>The 5-HT system is well-known to interact with the environment <xref rid="pone.0043221-Caspi1" ref-type="bibr">[35]</xref> and chronic stress has been shown to reduce cortical binding to human 5-HT1A receptors as assessed by positron emission tomography (PET) <xref rid="pone.0043221-Jovanovic1" ref-type="bibr">[59]</xref>. It is therefore interesting to note that there are reports of ‘hypo-to-hyper’ phenomena, similar to the presently observed, on the basis of traumatic life-events. In a recent study, Granot and co-workers assessed thermal pain perception in sexually abused women <xref rid="pone.0043221-Granot1" ref-type="bibr">[60]</xref>. Compared to controls, victims of abuse displayed a hypoalgesic response for heat-pain thresholds which turned into hyperalgesia for suprathreshold noxious heat. Kraus and co-workers conducted a similar study on combat veterans <xref rid="pone.0043221-Kraus1" ref-type="bibr">[61]</xref>. Compared to controls, veterans displayed threshold insensitivity for heat-pain. Additionally, veterans with posttraumatic stress disorder (PTSD) presented with a significantly steeper stimulus-response curve for suprathreshold heat compared to non-PTSD controls.</p>
+              </sec>
+              <sec id="s4c">
+                <title>Mechanistic Speculations</title>
+                <p>What mechanisms could underlie the present findings? Whereas the 5-HT1A-receptor is abundant in the central nervous system <xref rid="pone.0043221-Hoyer1" ref-type="bibr">[62]</xref>, its role – and even presence – in the periphery is unclear <xref rid="pone.0043221-Bardin2" ref-type="bibr">[63]</xref>. A number of studies of the receptor’s involvement in nociception and pain lend themselves to the speculation of where and how the putative ‘hypo-to-hyper’ phenomenon arises along the neuraxis.</p>
+                <p>Fasmer and co-workers report of both murine hypo- and hyperalgesia in response to a 5-HT1A agonist. The sign of the effect was dependent on the algesiometric paradigm used <xref rid="pone.0043221-Fasmer1" ref-type="bibr">[40]</xref>. Similarly, Bardin and Colpaert demonstrated a dual role of an 5-HT1A agonist in rats <xref rid="pone.0043221-Bardin1" ref-type="bibr">[39]</xref>. They suggest that 5-HT1A-agonists “cooperate with nociceptive stimulation in producing analgesia” at the level of the spinal cord and that at mild noxious intensities 5-HT1A agonism actually promotes nociception <xref rid="pone.0043221-Bardin1" ref-type="bibr">[39]</xref>. This is supported by studies assessing spinal c-Fos expression in rats <xref rid="pone.0043221-Buritova1" ref-type="bibr">[64]</xref>, <xref rid="pone.0043221-Buritova2" ref-type="bibr">[65]</xref>. Whereas administration of a 5-HT1A-agonist by itself increased c-Fos labeled nuclei, indicative of nocicceptive activity <xref rid="pone.0043221-Coggeshall1" ref-type="bibr">[66]</xref>, administration concomitant with a strong noxious barrage reduced the c-Fos expression below that found for either manipulation alone. Bonnefont and co-workers demonstrate that such differential effects on the spinal processing of noxious stimuli are related to 5-HT1A-expression on GABAergic interneurons in the dorsal horn <xref rid="pone.0043221-Bonnefont1" ref-type="bibr">[41]</xref>. 5-HT1A receptors are highly expressed on GABAergic interneurons in the substantia gelatinosa <xref rid="pone.0043221-Wang1" ref-type="bibr">[67]</xref> and these interneurons are key-players in the immediate modulation of nociception <xref rid="pone.0043221-Zhou1" ref-type="bibr">[68]</xref>. In this view, the pronociceptive properties of spinal 5-HT1A at mild stimulus intensities would occur through a disinhibition of such interneurons.</p>
+                <p>Interestingly,the nociceptive flexion reflex (NFR), an established method of gauging spinal nocifensive properties <xref rid="pone.0043221-Sandrini1" ref-type="bibr">[42]</xref>, did not differ significantly between genotype groups. This could be viewed as evidence in favor of a supraspinal mechanism. However, as we noted in a previous paper <xref rid="pone.0043221-Lindstedt2" ref-type="bibr">[33]</xref> such findings are also quite likely to reflect the fact that the perception of thermal pain is related to activity in superficial lamina <xref rid="pone.0043221-Craig1" ref-type="bibr">[69]</xref>, <xref rid="pone.0043221-Craig2" ref-type="bibr">[70]</xref> whereas the NFR is more dependent on activity in wide-dynamic range (WDR) neurons located in deeper lamina of the dorsal horn <xref rid="pone.0043221-Sandrini1" ref-type="bibr">[42]</xref>. In further support of this view, the expression of the 5-HT1A receptor in the human dorsal horn has been reported to be densely localized to lamina II <xref rid="pone.0043221-Perrin1" ref-type="bibr">[71]</xref>. Regardless of the utility of the NFR in the present study, the existence of spinal and supraspinal effects need not be mutually exclusive. On the contrary, differential effects at the spinal versus supraspinal levels may even contribute to the putative ‘hypo-to-hyperalgesic’ response.</p>
+                <p>As noxious intensities increase, descending pain inhibitory systems become increasingly engaged. In humans, PET imaging of 5-HT1A availability in regions such as the prefrontal cortex (PFC) and insula- areas highly involved in pain regulation- has been associated with the capacity of central suppression of pain <xref rid="pone.0043221-Martikainen1" ref-type="bibr">[72]</xref>. Further attesting to the clinical relevance of such supraspinal 5-HT1A variation, G-carriers were recently reported to experience reduced antidepressant effect of transcranial magnetic stimulation (TMS) focused on the prefrontal cortex (PFC) <xref rid="pone.0043221-Malaguti1" ref-type="bibr">[27]</xref>. These results are paralleled by experiments in rats, where activation of 5-HT1A-receptors in the ventrolateral orbital cortex (VLO) was shown to contribute to descending antinociception <xref rid="pone.0043221-Huo1" ref-type="bibr">[73]</xref>. This occurs through a disinhibition of supraspinal GABAergic interneurons, causing an apparent ‘release’ of descending inhibition <xref rid="pone.0043221-Huo1" ref-type="bibr">[73]</xref>, <xref rid="pone.0043221-Huo2" ref-type="bibr">[74]</xref>. The 5-HT1A receptor is well-expressed on GABAergic interneurons in the prefrontal cortex (PFC), making this is a plausible mechanism in humans as well <xref rid="pone.0043221-deAlmeida1" ref-type="bibr">[75]</xref>. In such areas, human 5-HT1A activity could be involved in removing a cortical ‘break’ placed on antinociceptive pathways. A reduced 5-HT1A-expression on these GABAergic interneurons (as expected in G-carriers) would attenuate the recruitment of descending inhibition. These suggested mechanisms partially mirror the processes expected to occur at the level of the dorsal horn, where similar 5-HT1A-related disinhibition has instead been shown to have pronociceptive effects (as discussed above). Accordingly, GABAergic interneurons at the spinal and supraspinal levels have been shown to differentially modulate pain <xref rid="pone.0043221-Orii1" ref-type="bibr">[76]</xref> – lending further credence to this idea.</p>
+              </sec>
+              <sec id="s4d">
+                <title>Potential Gender Effects</title>
+                <p>We were interested in gender effects as these may be particularly relevant in studies of the 5-HT system <xref rid="pone.0043221-Benicio1" ref-type="bibr">[77]</xref>, <xref rid="pone.0043221-Bouali1" ref-type="bibr">[78]</xref>, <xref rid="pone.0043221-Loucif1" ref-type="bibr">[79]</xref>, <xref rid="pone.0043221-Wst1" ref-type="bibr">[80]</xref>. We previously reported of an interaction between gender and inferred 5-HTT expression for cold-pain thresholds <xref rid="pone.0043221-Lindstedt1" ref-type="bibr">[32]</xref>. The influence of gender may be more apparent on the basis of 5-HTT expression but the lack of such findings in the current setting may of course be due to the relatively small sample size. Additionally, whereas women in our 5-HTT-studies were tested in a balanced fashion throughout their menstrual cycle, they were included in their early follicular phase in the present experiment. Across modalities, women are known to be more sensitive to experimental pain in the luteal phase <xref rid="pone.0043221-Riley1" ref-type="bibr">[81]</xref>.</p>
+              </sec>
+              <sec id="s4e">
+                <title>Subjective Ratings- pitfalls and Possibilities</title>
+                <p>We assumed a linear stimulus-response curve for suprathreshold heat pain. How valid is this approach? Using VAS-ratings of 5 second heat-stimuli with differing intensities, Price and colleagues constructed power functions with predictive properties - providing important evidence for the ratio-scaling properties of visual analogue scales (VAS) <xref rid="pone.0043221-Price1" ref-type="bibr">[82]</xref>. In a subsequent study by Lautenbacher and co-workers, the psychophysics of the transition from pure heat to heat-pain was assessed for stimuli of short duration <xref rid="pone.0043221-Lautenbacher1" ref-type="bibr">[83]</xref>. It was found that the stimulus-response could be equally well modelled by two independent linear regressions (one for sub- and one for suprathreshold heat).</p>
+                <p>Given the subjective nature of pain, it cannot be measured - only rated. It must be acknowledged that the projection of an individual’s pain experience onto a 100 mm line is necessarily insufficient to reflect the full pain experience. Important dimensions may be lost. This limitation aside, there is convincing evidence that VAS-ratings do indeed correlate to pain related brain activity <xref rid="pone.0043221-Coghill1" ref-type="bibr">[1]</xref>, <xref rid="pone.0043221-Coghill2" ref-type="bibr">[84]</xref>. In future studies it would therefore be relevant to further investigate the supraspinal correlates of the interaction of stimulus-response by 5-HT1A-genotype using neuroimaging.</p>
+              </sec>
+              <sec id="s4f">
+                <title>Study Limitations and Future Perspectives</title>
+                <p>An association study should never be taken to imply causality. We did not directly assess receptor expression and, even if this had been feasible, the rs6295 is likely to be in linkage disequlibrium with other SNPs in the <italic>HTR1A</italic>
+<xref rid="pone.0043221-Kato1" ref-type="bibr">[85]</xref>. Ethnicity may influence the currently seen association; the vast majority of our participants were of self-reported European origin. Furthermore, descending 5-HT is known to be co-localized with, for example, substance P and endogenous opioid peptides <xref rid="pone.0043221-Millan2" ref-type="bibr">[86]</xref>. It should also be emphasized that the 5-HT system is highly involved in embryological and neurodevelopmental processes. It is amongst the earliest networks to develop in the embryo, continuing to contribute to neural plasticity in adulthood <xref rid="pone.0043221-Sodhi1" ref-type="bibr">[87]</xref>. Future studies in genetically modified animals may contribute to our understanding of the underlying neurobiological processes. It would be of particular interest to assess pain-related measures in Deaf1-knockout mice, a recently developed model mimicking the transcriptional effects of the human G-allele <xref rid="pone.0043221-Czesak2" ref-type="bibr">[88]</xref>.</p>
+                <p>The sample size was small and the presently reported results therefore need to be corroborated in larger cohorts. By itself the G-allele is probably too common in the population to serve as a clinically relevant predictive biomarker in pain-free individuals. However, the variant may prove to be of pharmacogenomic importance in pain medicine. As suggested for depressive phenotypes, drugs directly aimed at influencing <italic>HTR1A</italic> transcription are certainly interesting in this regard <xref rid="pone.0043221-Albert1" ref-type="bibr">[17]</xref>.</p>
+                <p>As a semantic note, we have used the terms ‘hypoalgesia’ and ‘hyperalgesia’ in the relative sense when comparing genotype groups. The participants were healthy individuals and these terms should not in any way be taken to imply clinically relevant phenomenon in these individuals per se. Evoked pain of short duration is clearly different from that frequently seen in the clinical setting. Although ratings of suprathreshold heat-pain response have been reported to correlate with clinical pain (see e.g. <xref rid="pone.0043221-Valencia1" ref-type="bibr">[89]</xref>), experimental assessment of pain modulation is probably more important in this regard <xref rid="pone.0043221-Granot2" ref-type="bibr">[90]</xref>. We previously demonstrated how low 5-HTT expression was significantly associated with impaired pain regulation in a ‘pain-inhibits pain’ paradigm <xref rid="pone.0043221-Lindstedt2" ref-type="bibr">[33]</xref> (i.e. conditioned pain modulation – CPM <xref rid="pone.0043221-Yarnitsky3" ref-type="bibr">[91]</xref>, <xref rid="pone.0043221-LeBars1" ref-type="bibr">[92]</xref>). Such impaired CPM-efficacy is often seen in chronic pain, such as fibromyalgia <xref rid="pone.0043221-Kosek1" ref-type="bibr">[8]</xref>, and may even predict the development of chronic pain <xref rid="pone.0043221-Yarnitsky1" ref-type="bibr">[10]</xref>. Given the similarity of the present results to those found for the 5-HTT cohort, studies of CPM-efficacy on the basis of 5-HT1A-receptor variation are now warranted. Additionally, it would be relevant to assess any epistatic effects with the tri-allelic 5-HTTLPR.</p>
+              </sec>
+              <sec id="s4g">
+                <title>Conclusions</title>
+                <p>In sum, we provide evidence for an association between human thermal pain perception and a common genetic variant (rs6295) in the gene coding for the human 5-HT1A receptor (<italic>HTR1A</italic>). To the best of our knowledge, this is the first study of human pain in relation to variation in the <italic>HTR1A</italic>. Our results illustrate the importance of including a range of stimulus intensities in assessments of pain sensitivity and we propose the existence of a ‘hypo-to-hyperalgesic’ phenomenon related to attenuations of serotonergic tone. Although speculative, previous experimental finding in a variety of settings lend credence to this idea. The small cohort and correlative nature of the present results call for caution, however. Further studies are therefore warranted before any strong conclusions can be drawn. Hopefully, such genetic dissections of inter-individual variation in pain perception will provide insights into the neurobiology of pathological pain.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>The authors thank Associate Professor John Axelsson for his support.</p>
+            </ack>
+            <ref-list>
+              <title>References</title>
+              <ref id="pone.0043221-Coghill1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><name><surname>Coghill</surname><given-names>RC</given-names></name> (<year>2010</year>) <article-title>Individual differences in the subjective experience of pain: new insights into mechanisms and models</article-title>. <source>Headache</source>
+<volume>50</volume>: <fpage>1531</fpage>–<lpage>1535</lpage>.<pub-id pub-id-type="pmid">20958300</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-LaCroixFralish1">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><name><surname>LaCroix-Fralish</surname><given-names>ML</given-names></name>, <name><surname>Mogil</surname><given-names>JS</given-names></name> (<year>2009</year>) <article-title>Progress in Genetic Studies of Pain and Analgesia</article-title>. <source>Annual Review of Pharmacology and Toxicology</source>
+<volume>49</volume>: <fpage>97</fpage>–<lpage>121</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Foulkes1">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><name><surname>Foulkes</surname><given-names>T</given-names></name>, <name><surname>Wood</surname><given-names>JN</given-names></name> (<year>2008</year>) <article-title>Pain Genes</article-title>. <source>PLoS Genet</source>
+<volume>4</volume>: <fpage>e1000086</fpage>.<pub-id pub-id-type="pmid">18654615</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Arnold1">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><name><surname>Arnold</surname><given-names>LM</given-names></name>, <name><surname>Hudson</surname><given-names>JI</given-names></name>, <name><surname>Hess</surname><given-names>EV</given-names></name>, <name><surname>Ware</surname><given-names>AE</given-names></name>, <name><surname>Fritz</surname><given-names>DA</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>Family study of fibromyalgia</article-title>. <source>Arthritis &amp; Rheumatism</source>
+<volume>50</volume>: <fpage>944</fpage>–<lpage>952</lpage>.<pub-id pub-id-type="pmid">15022338</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Markkula1">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><name><surname>Markkula</surname><given-names>R</given-names></name>, <name><surname>Jarvinen</surname><given-names>P</given-names></name>, <name><surname>Leino-Arjas</surname><given-names>P</given-names></name>, <name><surname>Koskenvuo</surname><given-names>M</given-names></name>, <name><surname>Kalso</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Clustering of symptoms associated with fibromyalgia in a Finnish Twin Cohort</article-title>. <source>Eur J Pain</source>
+<volume>13</volume>: <fpage>744</fpage>–<lpage>750</lpage>.<pub-id pub-id-type="pmid">18938094</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Young1">
+                <label>6</label>
+                <mixed-citation publication-type="other">Young EE, Lariviere WR, Belfer I (2011) Genetic basis of pain variability: recent advances. Journal of Medical Genetics.</mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Bingel1">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><name><surname>Bingel</surname><given-names>U</given-names></name>, <name><surname>Tracey</surname><given-names>I</given-names></name> (<year>2008</year>) <article-title>Imaging CNS Modulation of Pain in Humans</article-title>. <source>Physiology</source>
+<volume>23</volume>: <fpage>371</fpage>–<lpage>380</lpage>.<pub-id pub-id-type="pmid">19074744</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Kosek1">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><name><surname>Kosek</surname><given-names>E</given-names></name>, <name><surname>Hansson</surname><given-names>P</given-names></name> (<year>1997</year>) <article-title>Modulatory influence on somatosensory perception from vibration and heterotopic noxious conditioning stimulation (HNCS) in fibromyalgia patients and healthy subjects</article-title>. <source>Pain</source>
+<volume>70</volume>: <fpage>41</fpage>–<lpage>51</lpage>.<pub-id pub-id-type="pmid">9106808</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Kosek2">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><name><surname>Kosek</surname><given-names>E</given-names></name>, <name><surname>Ordeberg</surname><given-names>G</given-names></name> (<year>2000</year>) <article-title>Lack of pressure pain modulation by heterotopic noxious conditioning stimulation in patients with painful osteoarthritis before, but not following, surgical pain relief</article-title>. <source>Pain</source>
+<volume>88</volume>: <fpage>69</fpage>–<lpage>78</lpage>.<pub-id pub-id-type="pmid">11098101</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Yarnitsky1">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><name><surname>Yarnitsky</surname><given-names>D</given-names></name>, <name><surname>Crispel</surname><given-names>Y</given-names></name>, <name><surname>Eisenberg</surname><given-names>E</given-names></name>, <name><surname>Granovsky</surname><given-names>Y</given-names></name>, <name><surname>Ben-Nun</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>Prediction of chronic post-operative pain: Pre-operative DNIC testing identifies patients at risk</article-title>. <source>Pain</source>
+<volume>138</volume>: <fpage>22</fpage>–<lpage>28</lpage>.<pub-id pub-id-type="pmid">18079062</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Lucki1">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><name><surname>Lucki</surname><given-names>I</given-names></name> (<year>1998</year>) <article-title>The spectrum of behaviors influenced by serotonin</article-title>. <source>Biological Psychiatry</source>
+<volume>44</volume>: <fpage>151</fpage>–<lpage>162</lpage>.<pub-id pub-id-type="pmid">9693387</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Millan1">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><name><surname>Millan</surname><given-names>MJ</given-names></name> (<year>1995</year>) <article-title>Serotonin (5-HT) and pain: A reappraisal of its role in the light of receptor multiplicity</article-title>. <source>Seminars in Neuroscience</source>
+<volume>7</volume>: <fpage>409</fpage>–<lpage>419</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Sommer1">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><name><surname>Sommer</surname><given-names>C</given-names></name> (<year>2006</year>) <article-title>Is serotonin hyperalgesic or analgesic?</article-title>
+<source>Curr Pain Headache Rep</source>
+<volume>10</volume>: <fpage>101</fpage>–<lpage>106</lpage>.<pub-id pub-id-type="pmid">16539862</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Benarroch1">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><name><surname>Benarroch</surname><given-names>EE</given-names></name> (<year>2008</year>) <article-title>Descending monoaminergic pain modulation: bidirectional control and clinical relevance</article-title>. <source>Neurology</source>
+<volume>71</volume>: <fpage>217</fpage>–<lpage>221</lpage>.<pub-id pub-id-type="pmid">18625968</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Polter1">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><name><surname>Polter</surname><given-names>AM</given-names></name>, <name><surname>Li</surname><given-names>X</given-names></name> (<year>2010</year>) <article-title>5-HT1A receptor-regulated signal transduction pathways in brain</article-title>. <source>Cellular Signalling</source>
+<volume>22</volume>: <fpage>1406</fpage>–<lpage>1412</lpage>.<pub-id pub-id-type="pmid">20363322</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Ohno1">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><name><surname>Ohno</surname><given-names>Y</given-names></name> (<year>2010</year>) <article-title>New insight into the therapeutic role of 5-HT1A receptors in central nervous system disorders</article-title>. <source>Cent Nerv Syst Agents Med Chem</source>
+<volume>10</volume>: <fpage>148</fpage>–<lpage>157</lpage>.<pub-id pub-id-type="pmid">20518729</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Albert1">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><name><surname>Albert</surname><given-names>P</given-names></name>, <name><surname>Le Francois</surname><given-names>B</given-names></name>, <name><surname>Millar</surname><given-names>A</given-names></name> (<year>2011</year>) <article-title>Transcriptional dysregulation of 5-HT1A autoreceptors in mental illness</article-title>. <source>Molecular Brain</source>
+<volume>4</volume>: <fpage>21</fpage>.<pub-id pub-id-type="pmid">21619616</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Sprouse1">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><name><surname>Sprouse</surname><given-names>JS</given-names></name>, <name><surname>Aghajanian</surname><given-names>GK</given-names></name> (<year>1987</year>) <article-title>Electrophysiological responses of serotoninergic dorsal raphe neurons to 5-HT1A and 5-HT1B agonists</article-title>. <source>Synapse</source>
+<volume>1</volume>: <fpage>3</fpage>–<lpage>9</lpage>.<pub-id pub-id-type="pmid">3505364</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Wu1">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><name><surname>Wu</surname><given-names>S</given-names></name>, <name><surname>Comings</surname><given-names>DE</given-names></name> (<year>1999</year>) <article-title>A common C-1018G polymorphism in the human 5-HT1A receptor gene</article-title>. <source>Psychiatr Genet</source>
+<volume>9</volume>: <fpage>105</fpage>–<lpage>106</lpage>.<pub-id pub-id-type="pmid">10412191</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Huang1">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><name><surname>Huang</surname><given-names>YY</given-names></name>, <name><surname>Battistuzzi</surname><given-names>C</given-names></name>, <name><surname>Oquendo</surname><given-names>MA</given-names></name>, <name><surname>Harkavy-Friedman</surname><given-names>J</given-names></name>, <name><surname>Greenhill</surname><given-names>L</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>Human 5-HT1A receptor C(-1019)G polymorphism and psychopathology</article-title>. <source>Int J Neuropsychopharmacol</source>
+<volume>7</volume>: <fpage>441</fpage>–<lpage>451</lpage>.<pub-id pub-id-type="pmid">15469667</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-LeFrancois1">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><name><surname>Le Francois</surname><given-names>B</given-names></name>, <name><surname>Czesak</surname><given-names>M</given-names></name>, <name><surname>Steubl</surname><given-names>D</given-names></name>, <name><surname>Albert</surname><given-names>PR</given-names></name> (<year>2008</year>) <article-title>Transcriptional regulation at a HTR1A polymorphism associated with mental illness</article-title>. <source>Neuropharmacology</source>
+<volume>55</volume>: <fpage>977</fpage>–<lpage>985</lpage>.<pub-id pub-id-type="pmid">18639564</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Savitz1">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><name><surname>Savitz</surname><given-names>J</given-names></name>, <name><surname>Lucki</surname><given-names>I</given-names></name>, <name><surname>Drevets</surname><given-names>WC</given-names></name> (<year>2009</year>) <article-title>5-HT(1A) receptor function in major depressive disorder</article-title>. <source>Prog Neurobiol</source>
+<volume>88</volume>: <fpage>17</fpage>–<lpage>31</lpage>.<pub-id pub-id-type="pmid">19428959</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Albert2">
+                <label>23</label>
+                <mixed-citation publication-type="other">Albert PR, Le Fran?ois B (2010) Modifying 5-HT1A receptor gene expression as a new target for antidepressant therapy. Frontiers in Neuroscience 4.</mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Czesak1">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><name><surname>Czesak</surname><given-names>M</given-names></name>, <name><surname>Lemonde</surname><given-names>S</given-names></name>, <name><surname>Peterson</surname><given-names>EA</given-names></name>, <name><surname>Rogaeva</surname><given-names>A</given-names></name>, <name><surname>Albert</surname><given-names>PR</given-names></name> (<year>2006</year>) <article-title>Cell-specific repressor or enhancer activities of Deaf-1 at a serotonin 1A receptor gene polymorphism</article-title>. <source>J Neurosci</source>
+<volume>26</volume>: <fpage>1864</fpage>–<lpage>1871</lpage>.<pub-id pub-id-type="pmid">16467535</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Lemonde1">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><name><surname>Lemonde</surname><given-names>S</given-names></name>, <name><surname>Turecki</surname><given-names>G</given-names></name>, <name><surname>Bakish</surname><given-names>D</given-names></name>, <name><surname>Du</surname><given-names>L</given-names></name>, <name><surname>Hrdina</surname><given-names>PD</given-names></name>, <etal>et al</etal> (<year>2003</year>) <article-title>Impaired repression at a 5-hydroxytryptamine 1A receptor gene polymorphism associated with major depression and suicide</article-title>. <source>J Neurosci</source>
+<volume>23</volume>: <fpage>8788</fpage>–<lpage>8799</lpage>.<pub-id pub-id-type="pmid">14507979</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Lemonde2">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><name><surname>Lemonde</surname><given-names>S</given-names></name>, <name><surname>Du</surname><given-names>L</given-names></name>, <name><surname>Bakish</surname><given-names>D</given-names></name>, <name><surname>Hrdina</surname><given-names>P</given-names></name>, <name><surname>Albert</surname><given-names>PR</given-names></name> (<year>2004</year>) <article-title>Association of the C(-1019)G 5-HT1A functional promoter polymorphism with antidepressant response</article-title>. <source>Int J Neuropsychopharmacol</source>
+<volume>7</volume>: <fpage>501</fpage>–<lpage>506</lpage>.<pub-id pub-id-type="pmid">15447813</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Malaguti1">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><name><surname>Malaguti</surname><given-names>A</given-names></name>, <name><surname>Rossini</surname><given-names>D</given-names></name>, <name><surname>Lucca</surname><given-names>A</given-names></name>, <name><surname>Magri</surname><given-names>L</given-names></name>, <name><surname>Lorenzi</surname><given-names>C</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Role of COMT, 5-HT(1A), and SERT genetic polymorphisms on antidepressant response to Transcranial Magnetic Stimulation</article-title>. <source>Depress Anxiety</source>
+<volume>28</volume>: <fpage>568</fpage>–<lpage>573</lpage>.<pub-id pub-id-type="pmid">21449006</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Clauw1">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><name><surname>Clauw</surname><given-names>DJ</given-names></name> (<year>2009</year>) <article-title>Fibromyalgia: An Overview</article-title>. <source>The American Journal of Medicine</source>
+<volume>122</volume>: <fpage>S3</fpage>–<lpage>S13</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Corruble1">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><name><surname>Corruble</surname><given-names>E</given-names></name>, <name><surname>Guelfi</surname><given-names>JD</given-names></name> (<year>2000</year>) <article-title>Pain Complaints in Depressed Inpatients</article-title>. <source>Psychopathology</source>
+<volume>33</volume>: <fpage>307</fpage>–<lpage>309</lpage>.<pub-id pub-id-type="pmid">11060514</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Leo1">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><name><surname>Leo</surname><given-names>RJ</given-names></name> (<year>2005</year>) <article-title>Chronic pain and comorbid depression</article-title>. <source>Curr Treat Options Neurol</source>
+<volume>7</volume>: <fpage>403</fpage>–<lpage>412</lpage>.<pub-id pub-id-type="pmid">16079044</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Ruoff1">
+                <label>31</label>
+                <mixed-citation publication-type="other">Ruoff GE (1996) Depression in the patient with chronic pain. J Fam Pract 43: S25–33; discussion S34.</mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Lindstedt1">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><name><surname>Lindstedt</surname><given-names>F</given-names></name>, <name><surname>Lonsdorf</surname><given-names>TB</given-names></name>, <name><surname>Schalling</surname><given-names>M</given-names></name>, <name><surname>Kosek</surname><given-names>E</given-names></name>, <name><surname>Ingvar</surname><given-names>M</given-names></name> (<year>2011</year>) <article-title>Perception of thermal pain and the thermal grill illusion is associated with polymorphisms in the serotonin transporter gene</article-title>. <source>PLoS ONE</source>
+<volume>6</volume>: <fpage>e17752</fpage>.<pub-id pub-id-type="pmid">21423614</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Lindstedt2">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><name><surname>Lindstedt</surname><given-names>F</given-names></name>, <name><surname>Berrebi</surname><given-names>J</given-names></name>, <name><surname>Greayer</surname><given-names>E</given-names></name>, <name><surname>Lonsdorf</surname><given-names>TB</given-names></name>, <name><surname>Schalling</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Conditioned pain modulation is associated with common polymorphisms in the serotonin transporter gene</article-title>. <source>PLoS ONE</source>
+<volume>6</volume>: <fpage>e18252</fpage>.<pub-id pub-id-type="pmid">21464942</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Kosek3">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><name><surname>Kosek</surname><given-names>E</given-names></name>, <name><surname>Jensen</surname><given-names>K</given-names></name>, <name><surname>Lonsdorf</surname><given-names>T</given-names></name>, <name><surname>Schalling</surname><given-names>M</given-names></name>, <name><surname>Ingvar</surname><given-names>M</given-names></name> (<year>2009</year>) <article-title>Genetic variation in the serotonin transporter gene (5-HTTLPR, rs25531) influences the analgesic response to the short acting opioid Remifentanil in humans</article-title>. <source>Molecular Pain</source>
+<volume>5</volume>: <fpage>37</fpage>.<pub-id pub-id-type="pmid">19570226</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Caspi1">
+                <label>35</label>
+                <mixed-citation publication-type="journal"><name><surname>Caspi</surname><given-names>A</given-names></name>, <name><surname>Hariri</surname><given-names>AR</given-names></name>, <name><surname>Holmes</surname><given-names>A</given-names></name>, <name><surname>Uher</surname><given-names>R</given-names></name>, <name><surname>Moffitt</surname><given-names>TE</given-names></name> (<year>2010</year>) <article-title>Genetic Sensitivity to the Environment: The Case of the Serotonin Transporter Gene and Its Implications for Studying Complex Diseases and Traits</article-title>. <source>Am J Psychiatry</source>
+<volume>167</volume>: <fpage>509</fpage>–<lpage>527</lpage>.<pub-id pub-id-type="pmid">20231323</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Lesch1">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><name><surname>Lesch</surname><given-names>K-P</given-names></name>, <name><surname>Bengel</surname><given-names>D</given-names></name>, <name><surname>Heils</surname><given-names>A</given-names></name>, <name><surname>Sabol</surname><given-names>S</given-names></name>, <name><surname>Greenberg</surname><given-names>B</given-names></name>, <etal>et al</etal> (<year>1996</year>) <article-title>Association of Anxiety-Related Traits with a Polymorphism in the Serotonin Transporter Gene Regulatory Region</article-title>. <source>Science</source>
+<volume>274</volume>: <fpage>1527</fpage>–<lpage>1531</lpage>.<pub-id pub-id-type="pmid">8929413</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Serretti1">
+                <label>37</label>
+                <mixed-citation publication-type="journal"><name><surname>Serretti</surname><given-names>A</given-names></name>, <name><surname>Calati</surname><given-names>R</given-names></name>, <name><surname>Mandelli</surname><given-names>L</given-names></name>, <name><surname>DeRonchi</surname><given-names>D</given-names></name> (<year>2006</year>) <article-title>Serotonin transporter gene variants and behavior: A comprehensive review</article-title>. <source>Current Drug Targets</source>
+<volume>7</volume>: <fpage>1659</fpage>–<lpage>1669</lpage>.<pub-id pub-id-type="pmid">17168841</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-David1">
+                <label>38</label>
+                <mixed-citation publication-type="journal"><name><surname>David</surname><given-names>S</given-names></name>, <name><surname>Murthy</surname><given-names>N</given-names></name>, <name><surname>Rabiner</surname><given-names>E</given-names></name>, <name><surname>Munafo</surname><given-names>M</given-names></name>, <name><surname>Johnstone</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>A functional genetic variation of the serotonin (5-HT) transporter affects 5-HT1A receptor binding in humans</article-title>. <source>J Neurosci</source>
+<volume>25</volume>: <fpage>2586</fpage>–<lpage>2590</lpage>.<pub-id pub-id-type="pmid">15758168</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Bardin1">
+                <label>39</label>
+                <mixed-citation publication-type="journal"><name><surname>Bardin</surname><given-names>L</given-names></name>, <name><surname>Colpaert</surname><given-names>F</given-names></name> (<year>2004</year>) <article-title>Role of spinal 5-HT1A receptors in morphine analgesia and tolerance in rats</article-title>. <source>Eur J Pain</source>
+<volume>8</volume>: <fpage>253</fpage>–<lpage>261</lpage>.<pub-id pub-id-type="pmid">15109976</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Fasmer1">
+                <label>40</label>
+                <mixed-citation publication-type="journal"><name><surname>Fasmer</surname><given-names>OB</given-names></name>, <name><surname>Berge</surname><given-names>OG</given-names></name>, <name><surname>Post</surname><given-names>C</given-names></name>, <name><surname>Hole</surname><given-names>K</given-names></name> (<year>1986</year>) <article-title>Effects of the putative 5-HT1A receptor agonist 8-OH-2-(di-n-propylamino)tetralin on nociceptive sensitivity in mice</article-title>. <source>Pharmacology Biochemistry and Behavior</source>
+<volume>25</volume>: <fpage>883</fpage>–<lpage>888</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Bonnefont1">
+                <label>41</label>
+                <mixed-citation publication-type="journal"><name><surname>Bonnefont</surname><given-names>J</given-names></name>, <name><surname>Chapuy</surname><given-names>E</given-names></name>, <name><surname>Clottes</surname><given-names>E</given-names></name>, <name><surname>Alloui</surname><given-names>A</given-names></name>, <name><surname>Eschalier</surname><given-names>A</given-names></name> (<year>2005</year>) <article-title>Spinal 5-HT1A receptors differentially influence nociceptive processing according to the nature of the noxious stimulus in rats: effect of WAY-100635 on the antinociceptive activities of paracetamol, venlafaxine and 5-HT</article-title>. <source>Pain</source>
+<volume>114</volume>: <fpage>482</fpage>–<lpage>490</lpage>.<pub-id pub-id-type="pmid">15777873</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Sandrini1">
+                <label>42</label>
+                <mixed-citation publication-type="journal"><name><surname>Sandrini</surname><given-names>G</given-names></name>, <name><surname>Serrao</surname><given-names>M</given-names></name>, <name><surname>Rossi</surname><given-names>P</given-names></name>, <name><surname>Romaniello</surname><given-names>A</given-names></name>, <name><surname>Cruccu</surname><given-names>G</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>The lower limb flexion reflex in humans</article-title>. <source>Progress in Neurobiology</source>
+<volume>77</volume>: <fpage>353</fpage>–<lpage>395</lpage>.<pub-id pub-id-type="pmid">16386347</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Skljarevski1">
+                <label>43</label>
+                <mixed-citation publication-type="journal"><name><surname>Skljarevski</surname><given-names>V</given-names></name>, <name><surname>Ramadan</surname><given-names>NM</given-names></name> (<year>2002</year>) <article-title>The nociceptive flexion reflex in humans - review article</article-title>. <source>Pain</source>
+<volume>96</volume>: <fpage>3</fpage>–<lpage>8</lpage>.<pub-id pub-id-type="pmid">11932055</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Snaith1">
+                <label>44</label>
+                <mixed-citation publication-type="journal"><name><surname>Snaith</surname><given-names>RP</given-names></name> (<year>2003</year>) <article-title>The Hospital Anxiety And Depression Scale</article-title>. <source>Health and Quality of Life Outcomes</source>
+<volume>1</volume>: <fpage>29</fpage>.<pub-id pub-id-type="pmid">12914662</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Buono1">
+                <label>45</label>
+                <mixed-citation publication-type="journal"><name><surname>Buono</surname><given-names>MJ</given-names></name>, <name><surname>Jechort</surname><given-names>A</given-names></name>, <name><surname>Marques</surname><given-names>R</given-names></name>, <name><surname>Smith</surname><given-names>C</given-names></name>, <name><surname>Welch</surname><given-names>J</given-names></name> (<year>2007</year>) <article-title>Comparison of infrared versus contact thermometry for measuring skin temperature during exercise in the heat</article-title>. <source>Physiological Measurement</source>
+<volume>28</volume>: <fpage>855</fpage>.<pub-id pub-id-type="pmid">17664677</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Matsukawa1">
+                <label>46</label>
+                <mixed-citation publication-type="journal"><name><surname>Matsukawa</surname><given-names>T</given-names></name>, <name><surname>Ozaki</surname><given-names>M</given-names></name>, <name><surname>Nishiyama</surname><given-names>T</given-names></name>, <name><surname>Imamura</surname><given-names>M</given-names></name>, <name><surname>Kumazawa</surname><given-names>T</given-names></name> (<year>2000</year>) <article-title>Comparison of infrared thermometer with thermocouple for monitoring skin temperature</article-title>. <source>Crit Care Med</source>
+<volume>2</volume>: <fpage>532</fpage>–<lpage>536</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Yarnitsky2">
+                <label>47</label>
+                <mixed-citation publication-type="journal"><name><surname>Yarnitsky</surname><given-names>D</given-names></name>, <name><surname>Sprecher</surname><given-names>E</given-names></name>, <name><surname>Zaslansky</surname><given-names>R</given-names></name>, <name><surname>Hemli</surname><given-names>JA</given-names></name> (<year>1995</year>) <article-title>Heat pain thresholds: normative data and repeatability</article-title>. <source>Pain</source>
+<volume>60</volume>: <fpage>329</fpage>–<lpage>332</lpage>.<pub-id pub-id-type="pmid">7596629</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Neziri1">
+                <label>48</label>
+                <mixed-citation publication-type="other">Neziri AY, Scaramozzino P, Andersen OK, Dickenson AH, Arendt-Nielsen L, <etal>et al</etal>.. (2010) Reference values of mechanical and thermal pain tests in a pain-free population. European Journal of Pain In Press, Corrected Proof.</mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Rhudy1">
+                <label>49</label>
+                <mixed-citation publication-type="journal"><name><surname>Rhudy</surname><given-names>JL</given-names></name>, <name><surname>France</surname><given-names>CR</given-names></name> (<year>2007</year>) <article-title>Defining the nociceptive flexion reflex (NFR) threshold in human participants: A comparison of different scoring criteria</article-title>. <source>Pain</source>
+<volume>128</volume>: <fpage>244</fpage>–<lpage>253</lpage>.<pub-id pub-id-type="pmid">17070999</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-France1">
+                <label>50</label>
+                <mixed-citation publication-type="journal"><name><surname>France</surname><given-names>CR</given-names></name>, <name><surname>Rhudy</surname><given-names>JL</given-names></name>, <name><surname>McGlone</surname><given-names>S</given-names></name> (<year>2009</year>) <article-title>Using normalized EMG to define the nociceptive flexion reflex (NFR) threshold: Further evaluation of standardized NFR scoring criteria</article-title>. <source>Pain</source>
+<volume>145</volume>: <fpage>211</fpage>–<lpage>218</lpage>.<pub-id pub-id-type="pmid">19595510</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Lindblom1">
+                <label>51</label>
+                <mixed-citation publication-type="journal"><name><surname>Lindblom</surname><given-names>B</given-names></name>, <name><surname>Holmlund</surname><given-names>G</given-names></name> (<year>1988</year>) <article-title>Rapid DNA purification for restriction fragment length polymorphism analysis</article-title>. <source>Gene Anal Tech</source>
+<volume>5</volume>: <fpage>97</fpage>–<lpage>101</lpage>.<pub-id pub-id-type="pmid">2903845</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Wasserman1">
+                <label>52</label>
+                <mixed-citation publication-type="journal"><name><surname>Wasserman</surname><given-names>D</given-names></name>, <name><surname>Geijer</surname><given-names>T</given-names></name>, <name><surname>Sokolowski</surname><given-names>M</given-names></name>, <name><surname>Rozanov</surname><given-names>V</given-names></name>, <name><surname>Wasserman</surname><given-names>J</given-names></name> (<year>2006</year>) <article-title>The serotonin 1A receptor C(-1019)G polymorphism in relation to suicide attempt</article-title>. <source>Behav Brain Funct</source>
+<volume>2</volume>: <fpage>14</fpage>.<pub-id pub-id-type="pmid">16626484</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Dickens1">
+                <label>53</label>
+                <mixed-citation publication-type="journal"><name><surname>Dickens</surname><given-names>C</given-names></name>, <name><surname>McGowan</surname><given-names>L</given-names></name>, <name><surname>Dale</surname><given-names>S</given-names></name> (<year>2003</year>) <article-title>Impact of Depression on Experimental Pain Perception: A Systematic Review of the Literature with Meta-Analysis</article-title>. <source>Psychosom Med</source>
+<volume>65</volume>: <fpage>369</fpage>–<lpage>375</lpage>.<pub-id pub-id-type="pmid">12764209</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Aguglia1">
+                <label>54</label>
+                <mixed-citation publication-type="other">Aguglia A, Salvi V, Maina G, Rossetto I, Aguglia E Fibromyalgia syndrome and depressive symptoms: Comorbidity and clinical correlates. Journal of Affective Disorders In Press, Corrected Proof.</mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Fishbain1">
+                <label>55</label>
+                <mixed-citation publication-type="journal"><name><surname>Fishbain</surname><given-names>D</given-names></name>, <name><surname>Cutler</surname><given-names>R</given-names></name>, <name><surname>Rosomoff</surname><given-names>HL</given-names></name>, <name><surname>Rosomoff</surname><given-names>RS</given-names></name> (<year>1997</year>) <article-title>Chronic Pain-Associated Depression: Antecedent or Consequence of Chronic Pain? A Review</article-title>. <source>The Clinical Journal of Pain</source>
+<volume>13</volume>: <fpage>116</fpage>–<lpage>137</lpage>.<pub-id pub-id-type="pmid">9186019</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-LautenbacherJ1">
+                <label>56</label>
+                <mixed-citation publication-type="journal"><name><surname>Lautenbacher, J</surname><given-names>S</given-names></name>, <name><surname>W</surname><given-names>S</given-names></name>, <name><surname>Krieg</surname><given-names>J</given-names></name> (<year>1998</year>) <article-title>Relationship Between Clinical Pain Complaints and Pain Sensitivity in Patients With Depression and Panic Disorder</article-title>. <source>Psychosomatic Medicine</source>
+<volume>61</volume>: <fpage>822</fpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Ohayon1">
+                <label>57</label>
+                <mixed-citation publication-type="journal"><name><surname>Ohayon</surname><given-names>MM</given-names></name> (<year>2009</year>) <article-title>Pain sensitivity, depression, and sleep deprivation: Links with serotoninergic dysfunction</article-title>. <source>Journal of Psychiatric Research</source>
+<volume>43</volume>: <fpage>1243</fpage>–<lpage>1245</lpage>.<pub-id pub-id-type="pmid">19914447</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Bar1">
+                <label>58</label>
+                <mixed-citation publication-type="journal"><name><surname>Bar</surname><given-names>KJ</given-names></name>, <name><surname>Terhaar</surname><given-names>J</given-names></name>, <name><surname>Boettger</surname><given-names>MK</given-names></name>, <name><surname>Boettger</surname><given-names>S</given-names></name>, <name><surname>Berger</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Pseudohypoalgesia on the skin: a novel view on the paradox of pain perception in depression</article-title>. <source>J Clin Psychopharmacol</source>
+<volume>31</volume>: <fpage>103</fpage>–<lpage>107</lpage>.<pub-id pub-id-type="pmid">21192152</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Jovanovic1">
+                <label>59</label>
+                <mixed-citation publication-type="journal"><name><surname>Jovanovic</surname><given-names>H</given-names></name>, <name><surname>Perski</surname><given-names>A</given-names></name>, <name><surname>Berglund</surname><given-names>H</given-names></name>, <name><surname>Savic</surname><given-names>I</given-names></name> (<year>2011</year>) <article-title>Chronic stress is linked to 5-HT1A receptor changes and functional disintegration of the limbic networks</article-title>. <source>NeuroImage</source>
+<volume>55</volume>: <fpage>1178</fpage>–<lpage>1188</lpage>.<pub-id pub-id-type="pmid">21211567</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Granot1">
+                <label>60</label>
+                <mixed-citation publication-type="other">Granot M, Somer E, Zisman-Ilani Y, Beny A, Sadger R, <etal>et al</etal>.. (2011) Characteristics of Response to Experimental Pain in Sexually Abused Women. Clin J Pain.</mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Kraus1">
+                <label>61</label>
+                <mixed-citation publication-type="journal"><name><surname>Kraus</surname><given-names>A</given-names></name>, <name><surname>Geuze</surname><given-names>E</given-names></name>, <name><surname>Schmahl</surname><given-names>C</given-names></name>, <name><surname>Greffrath</surname><given-names>W</given-names></name>, <name><surname>Treede</surname><given-names>RD</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Differentiation of pain ratings in combat-related posttraumatic stress disorder</article-title>. <source>Pain</source>
+<volume>143</volume>: <fpage>179</fpage>–<lpage>185</lpage>.<pub-id pub-id-type="pmid">19289256</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Hoyer1">
+                <label>62</label>
+                <mixed-citation publication-type="journal"><name><surname>Hoyer</surname><given-names>D</given-names></name>, <name><surname>Pazos</surname><given-names>A</given-names></name>, <name><surname>Probst</surname><given-names>A</given-names></name>, <name><surname>Palacios</surname><given-names>JM</given-names></name> (<year>1986</year>) <article-title>Serotonin receptors in the human brain. I. Characterization and autoradiographic localization of 5-HT1A recognition sites. Apparent absence of 5-HT1B recognition sites</article-title>. <source>Brain Res</source>
+<volume>376</volume>: <fpage>85</fpage>–<lpage>96</lpage>.<pub-id pub-id-type="pmid">3719375</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Bardin2">
+                <label>63</label>
+                <mixed-citation publication-type="journal"><name><surname>Bardin</surname><given-names>L</given-names></name> (<year>2011</year>) <article-title>The complex role of serotonin and 5-HT receptors in chronic pain</article-title>. <source>Behav Pharmacol</source>
+<volume>22</volume>: <fpage>390</fpage>–<lpage>404</lpage>.<pub-id pub-id-type="pmid">21808193</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Buritova1">
+                <label>64</label>
+                <mixed-citation publication-type="journal"><name><surname>Buritova</surname><given-names>J</given-names></name>, <name><surname>Larrue</surname><given-names>S</given-names></name>, <name><surname>Aliaga</surname><given-names>M</given-names></name>, <name><surname>Besson</surname><given-names>JM</given-names></name>, <name><surname>Colpaert</surname><given-names>F</given-names></name> (<year>2005</year>) <article-title>Effects of the high-efficacy 5-HT1A receptor agonist, F 13640 in the formalin pain model: a c-Fos study</article-title>. <source>Eur J Pharmacol</source>
+<volume>514</volume>: <fpage>121</fpage>–<lpage>130</lpage>.<pub-id pub-id-type="pmid">15910798</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Buritova2">
+                <label>65</label>
+                <mixed-citation publication-type="journal"><name><surname>Buritova</surname><given-names>J</given-names></name>, <name><surname>Tarayre</surname><given-names>JP</given-names></name>, <name><surname>Besson</surname><given-names>JM</given-names></name>, <name><surname>Colpaert</surname><given-names>F</given-names></name> (<year>2003</year>) <article-title>The novel analgesic and high-efficacy 5-HT1A receptor agonist, F 13640 induces c-Fos protein expression in spinal cord dorsal horn neurons</article-title>. <source>Brain Res</source>
+<volume>974</volume>: <fpage>212</fpage>–<lpage>221</lpage>.<pub-id pub-id-type="pmid">12742639</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Coggeshall1">
+                <label>66</label>
+                <mixed-citation publication-type="journal"><name><surname>Coggeshall</surname><given-names>R</given-names></name> (<year>2005</year>) <article-title>Fos, nociception and the dorsal horn</article-title>. <source>Prog Neurobiol</source>
+<volume>77</volume>: <fpage>299</fpage>–<lpage>352</lpage>.<pub-id pub-id-type="pmid">16356622</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Wang1">
+                <label>67</label>
+                <mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>YY</given-names></name>, <name><surname>Wei</surname><given-names>YY</given-names></name>, <name><surname>Huang</surname><given-names>J</given-names></name>, <name><surname>Wang</surname><given-names>W</given-names></name>, <name><surname>Tamamaki</surname><given-names>N</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Expression patterns of 5-HT receptor subtypes 1A and 2A on GABAergic neurons within the spinal dorsal horn of GAD67-GFP knock-in mice</article-title>. <source>J Chem Neuroanat</source>
+<volume>38</volume>: <fpage>75</fpage>–<lpage>81</lpage>.<pub-id pub-id-type="pmid">19409978</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Zhou1">
+                <label>68</label>
+                <mixed-citation publication-type="journal"><name><surname>Zhou</surname><given-names>HY</given-names></name>, <name><surname>Zhang</surname><given-names>HM</given-names></name>, <name><surname>Chen</surname><given-names>SR</given-names></name>, <name><surname>Pan</surname><given-names>HL</given-names></name> (<year>2007</year>) <article-title>Increased nociceptive input rapidly modulates spinal GABAergic transmission through endogenously released glutamate</article-title>. <source>J Neurophysiol</source>
+<volume>97</volume>: <fpage>871</fpage>–<lpage>882</lpage>.<pub-id pub-id-type="pmid">17108089</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Craig1">
+                <label>69</label>
+                <mixed-citation publication-type="journal"><name><surname>Craig</surname><given-names>AD</given-names></name> (<year>2003</year>) <article-title>A new view of pain as a homeostatic emotion</article-title>. <source>Trends in Neurosciences</source>
+<volume>26</volume>: <fpage>303</fpage>–<lpage>307</lpage>.<pub-id pub-id-type="pmid">12798599</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Craig2">
+                <label>70</label>
+                <mixed-citation publication-type="journal"><name><surname>Craig</surname><given-names>AD</given-names></name> (<year>2003</year>) <article-title>Pain Mechanisms: Labeled lines versus convergence in central processing</article-title>. <source>Annual Review of Neuroscience</source>
+<volume>26</volume>: <fpage>1</fpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Perrin1">
+                <label>71</label>
+                <mixed-citation publication-type="journal"><name><surname>Perrin</surname><given-names>FE</given-names></name>, <name><surname>Gerber</surname><given-names>YN</given-names></name>, <name><surname>Teigell</surname><given-names>M</given-names></name>, <name><surname>Lonjon</surname><given-names>N</given-names></name>, <name><surname>Boniface</surname><given-names>G</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Anatomical study of serotonergic innervation and 5-HT(1A) receptor in the human spinal cord</article-title>. <source>Cell Death Dis</source>
+<volume>2</volume>: <fpage>e218</fpage>.<pub-id pub-id-type="pmid">21993394</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Martikainen1">
+                <label>72</label>
+                <mixed-citation publication-type="journal"><name><surname>Martikainen</surname><given-names>I</given-names></name>, <name><surname>Hirvonen</surname><given-names>J</given-names></name>, <name><surname>Kajander</surname><given-names>J</given-names></name>, <name><surname>Hagelberg</surname><given-names>N</given-names></name>, <name><surname>Mansikka</surname><given-names>H</given-names></name>, <etal>et al</etal> (<year>2007</year>) <article-title>Correlation of human cold pressor pain responses with 5-HT(1A) receptor binding in the brain</article-title>. <source>Brain res</source>
+<volume>1172</volume>: <fpage>21</fpage>–<lpage>31</lpage>.<pub-id pub-id-type="pmid">17803974</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Huo1">
+                <label>73</label>
+                <mixed-citation publication-type="journal"><name><surname>Huo</surname><given-names>FQ</given-names></name>, <name><surname>Huang</surname><given-names>FS</given-names></name>, <name><surname>Lv</surname><given-names>BC</given-names></name>, <name><surname>Chen</surname><given-names>T</given-names></name>, <name><surname>Feng</surname><given-names>J</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Activation of serotonin 1A receptors in ventrolateral orbital cortex depresses persistent nociception: a presynaptic inhibition mechanism</article-title>. <source>Neurochem Int</source>
+<volume>57</volume>: <fpage>749</fpage>–<lpage>755</lpage>.<pub-id pub-id-type="pmid">20813144</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Huo2">
+                <label>74</label>
+                <mixed-citation publication-type="journal"><name><surname>Huo</surname><given-names>FQ</given-names></name>, <name><surname>Qu</surname><given-names>CL</given-names></name>, <name><surname>Li</surname><given-names>YQ</given-names></name>, <name><surname>Tang</surname><given-names>JS</given-names></name>, <name><surname>Jia</surname><given-names>H</given-names></name> (<year>2008</year>) <article-title>GABAergic modulation is involved in the ventrolateral orbital cortex 5-HT 1A receptor activation-induced antinociception in the rat</article-title>. <source>Pain</source>
+<volume>139</volume>: <fpage>398</fpage>–<lpage>405</lpage>.<pub-id pub-id-type="pmid">18579305</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-deAlmeida1">
+                <label>75</label>
+                <mixed-citation publication-type="journal"><name><surname>de Almeida</surname><given-names>J</given-names></name>, <name><surname>Mengod</surname><given-names>G</given-names></name> (<year>2008</year>) <article-title>Serotonin 1A receptors in human and monkey prefrontal cortex are mainly expressed in pyramidal neurons and in a GABAergic interneuron subpopulation: implications for schizophrenia and its treatment</article-title>. <source>J Neurochem</source>
+<volume>107</volume>: <fpage>488</fpage>–<lpage>496</lpage>.<pub-id pub-id-type="pmid">18761712</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Orii1">
+                <label>76</label>
+                <mixed-citation publication-type="journal"><name><surname>Orii</surname><given-names>R</given-names></name>, <name><surname>Ohashi</surname><given-names>Y</given-names></name>, <name><surname>Halder</surname><given-names>S</given-names></name>, <name><surname>Giombini</surname><given-names>M</given-names></name>, <name><surname>Maze</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2003</year>) <article-title>GABAergic interneurons at supraspinal and spinal levels differentially modulate the antinociceptive effect of nitrous oxide in Fischer rats</article-title>. <source>Anesthesiology</source>
+<volume>98</volume>: <fpage>1223</fpage>–<lpage>1230</lpage>.<pub-id pub-id-type="pmid">12717145</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Benicio1">
+                <label>77</label>
+                <mixed-citation publication-type="journal"><name><surname>Benicio</surname><given-names>NF</given-names></name>, <name><surname>Ivan</surname><given-names>S</given-names></name>, <name><surname>Yojiro</surname><given-names>S</given-names></name>, <name><surname>Masami</surname><given-names>N</given-names></name>, <name><surname>Mirko</surname><given-names>D</given-names></name> (<year>2010</year>) <article-title>Gender differences in α-[11C]MTrp brain trapping, an index of serotonin synthesis, in medication-free individuals with major depressive disorder: A positron emission tomography study</article-title>. <volume>183</volume>: <fpage>157</fpage>–<lpage>166</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Bouali1">
+                <label>78</label>
+                <mixed-citation publication-type="journal"><name><surname>Bouali</surname><given-names>S</given-names></name>, <name><surname>Evrard</surname><given-names>A</given-names></name>, <name><surname>Chastanet</surname><given-names>M</given-names></name>, <name><surname>Lesch</surname><given-names>KP</given-names></name>, <name><surname>Hamon</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2003</year>) <article-title>Sex hormone-dependent desensitization of 5-HT1A autoreceptors in knockout mice deficient in the 5-HT transporter</article-title>. <source>European Journal of Neuroscience</source>
+<volume>18</volume>: <fpage>2203</fpage>–<lpage>2212</lpage>.<pub-id pub-id-type="pmid">14622181</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Loucif1">
+                <label>79</label>
+                <mixed-citation publication-type="journal"><name><surname>Loucif</surname><given-names>AJC</given-names></name>, <name><surname>Bonnavion</surname><given-names>P</given-names></name>, <name><surname>Macri</surname><given-names>B</given-names></name>, <name><surname>Golmard</surname><given-names>JL</given-names></name>, <name><surname>Boni</surname><given-names>C</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Gender-dependent regulation of G-protein-gated inwardly rectifying potassium current in dorsal raphe neurons in knock-out mice devoid of the 5-hydroxytryptamine transporter</article-title>. <source>Journal of Neurobiology</source>
+<volume>66</volume>: <fpage>1475</fpage>–<lpage>1488</lpage>.<pub-id pub-id-type="pmid">17013926</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Wst1">
+                <label>80</label>
+                <mixed-citation publication-type="journal"><name><surname>Wüst</surname><given-names>S</given-names></name>, <name><surname>Kumsta</surname><given-names>R</given-names></name>, <name><surname>Treutlein</surname><given-names>J</given-names></name>, <name><surname>Frank</surname><given-names>J</given-names></name>, <name><surname>Entringer</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Sex-specific association between the 5-HTT gene-linked polymorphic region and basal cortisol secretion</article-title>. <source>Psychoneuroendocrinology</source>
+<volume>34</volume>: <fpage>972</fpage>–<lpage>982</lpage>.<pub-id pub-id-type="pmid">19249159</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Riley1">
+                <label>81</label>
+                <mixed-citation publication-type="journal"><collab>Riley JL, 3rd, Robinson ME, Wise EA, Price DD</collab> (<year>1999</year>) <article-title>A meta-analytic review of pain perception across the menstrual cycle</article-title>. <source>Pain</source>
+<volume>81</volume>: <fpage>225</fpage>–<lpage>235</lpage>.<pub-id pub-id-type="pmid">10431710</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Price1">
+                <label>82</label>
+                <mixed-citation publication-type="journal"><name><surname>Price</surname><given-names>DD</given-names></name>, <name><surname>McGrath</surname><given-names>PA</given-names></name>, <name><surname>Rafii</surname><given-names>A</given-names></name>, <name><surname>Buckingham</surname><given-names>B</given-names></name> (<year>1983</year>) <article-title>The validation of visual analogue scales as ratio scale measures for chronic and experimental pain</article-title>. <source>Pain</source>
+<volume>17</volume>: <fpage>45</fpage>–<lpage>56</lpage>.<pub-id pub-id-type="pmid">6226917</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Lautenbacher1">
+                <label>83</label>
+                <mixed-citation publication-type="journal"><name><surname>Lautenbacher</surname><given-names>S</given-names></name>, <name><surname>Moltner</surname><given-names>A</given-names></name>, <name><surname>Strain</surname><given-names>F</given-names></name> (<year>1992</year>) <article-title>Psychophysical features of the transition from pure heat perception to heat pain perception</article-title>. <source>Percept Psychophys</source>
+<volume>52</volume>: <fpage>685</fpage>–<lpage>690</lpage>.<pub-id pub-id-type="pmid">1287573</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Coghill2">
+                <label>84</label>
+                <mixed-citation publication-type="journal"><name><surname>Coghill</surname><given-names>RC</given-names></name>, <name><surname>McHaffie</surname><given-names>JG</given-names></name>, <name><surname>Yen</surname><given-names>YF</given-names></name> (<year>2003</year>) <article-title>Neural correlates of interindividual differences in the subjective experience of pain</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>100</volume>: <fpage>8538</fpage>–<lpage>8542</lpage>.<pub-id pub-id-type="pmid">12824463</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Kato1">
+                <label>85</label>
+                <mixed-citation publication-type="journal"><name><surname>Kato</surname><given-names>M</given-names></name>, <name><surname>Fukuda</surname><given-names>T</given-names></name>, <name><surname>Wakeno</surname><given-names>M</given-names></name>, <name><surname>Okugawa</surname><given-names>G</given-names></name>, <name><surname>Takekita</surname><given-names>Y</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Effect of 5-HT1A gene polymorphisms on antidepressant response in major depressive disorder</article-title>. <source>Am J Med Genet B Neuropsychiatr Genet</source>
+<volume>150B</volume>: <fpage>115</fpage>–<lpage>123</lpage>.<pub-id pub-id-type="pmid">18484082</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Millan2">
+                <label>86</label>
+                <mixed-citation publication-type="journal"><name><surname>Millan</surname><given-names>M</given-names></name> (<year>2002</year>) <article-title>Descending control of pain</article-title>. <source>Prog Neurobiol</source>
+<volume>66</volume>: <fpage>355</fpage>–<lpage>474</lpage>.<pub-id pub-id-type="pmid">12034378</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Sodhi1">
+                <label>87</label>
+                <mixed-citation publication-type="journal"><name><surname>Sodhi</surname><given-names>MS</given-names></name>, <name><surname>Sanders-Bush</surname><given-names>E</given-names></name> (<year>2004</year>) <article-title>Serotonin and brain development</article-title>. <source>Int Rev Neurobiol</source>
+<volume>59</volume>: <fpage>111</fpage>–<lpage>174</lpage>.<pub-id pub-id-type="pmid">15006487</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Czesak2">
+                <label>88</label>
+                <mixed-citation publication-type="journal"><name><surname>Czesak</surname><given-names>M</given-names></name>, <name><surname>Le Francois</surname><given-names>B</given-names></name>, <name><surname>Millar</surname><given-names>AM</given-names></name>, <name><surname>Deria</surname><given-names>M</given-names></name>, <name><surname>Daigle</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Increased serotonin-1A (5-HT1A) autoreceptor expression and reduced raphe serotonin levels in deformed epidermal autoregulatory factor-1 (Deaf-1) gene knock-out mice</article-title>. <source>J Biol Chem</source>
+<volume>287</volume>: <fpage>6615</fpage>–<lpage>6627</lpage>.<pub-id pub-id-type="pmid">22232550</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Valencia1">
+                <label>89</label>
+                <mixed-citation publication-type="journal"><name><surname>Valencia</surname><given-names>C</given-names></name>, <name><surname>Fillingim</surname><given-names>RB</given-names></name>, <name><surname>George</surname><given-names>SZ</given-names></name> (<year>2011</year>) <article-title>Suprathreshold Heat Pain Response Is Associated With Clinical Pain Intensity for Patients With Shoulder Pain</article-title>. <source>The Journal of Pain</source>
+<volume>12</volume>: <fpage>133</fpage>–<lpage>140</lpage>.<pub-id pub-id-type="pmid">20692209</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Granot2">
+                <label>90</label>
+                <mixed-citation publication-type="journal"><name><surname>Granot</surname><given-names>M</given-names></name> (<year>2009</year>) <article-title>Can we predict persistent postoperative pain by testing preoperative experimental pain?</article-title>
+<source>Curr Opin Anaesthesiol</source>
+<volume>22</volume>: <fpage>425</fpage>–<lpage>430</lpage>.<pub-id pub-id-type="pmid">19352173</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-Yarnitsky3">
+                <label>91</label>
+                <mixed-citation publication-type="journal"><name><surname>Yarnitsky</surname><given-names>D</given-names></name>, <name><surname>Arendt-Nielsen</surname><given-names>L</given-names></name>, <name><surname>Bouhassira</surname><given-names>D</given-names></name>, <name><surname>Edwards</surname><given-names>RR</given-names></name>, <name><surname>Fillingim</surname><given-names>RB</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Recommendations on terminology and practice of psychophysical DNIC testing</article-title>. <source>European Journal of Pain</source>
+<volume>14</volume>: <fpage>339</fpage>–<lpage>339</lpage>.<pub-id pub-id-type="pmid">20227310</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0043221-LeBars1">
+                <label>92</label>
+                <mixed-citation publication-type="journal"><name><surname>Le Bars</surname><given-names>D</given-names></name>, <name><surname>Dickenson</surname><given-names>AH</given-names></name>, <name><surname>Besson</surname><given-names>J-M</given-names></name> (<year>1979</year>) <article-title>Diffuse noxious inhibitory controls (DNIC). I. Effects on dorsal horn convergent neurones in the rat</article-title>. <source>Pain</source>
+<volume>6</volume>: <fpage>283</fpage>–<lpage>304</lpage>.<pub-id pub-id-type="pmid">460935</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,202 +1,1083 @@
-library(ggplot2)
-library(reshape2)
-plotpyear_institution=function(df,indicator,rangelow,rangehigh){#
-  p=ggplot(df, aes(x=Publication.Year, y=.data[[indicator]], fill= short_name)) +#
-    geom_line(aes(color= short_name)) + #
-    geom_point(aes(color = short_name)) + #
-    theme_bw()+ylim(rangelow, rangehigh)#
-    if (grepl('data',indicator))#
-    {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
-              xlab('Year')+ylab('Data sharing (%)'))}#
-  if (grepl('code',indicator))#
-  {return(p+labs(title='Code sharing over time for the Karolinska departments')+#
-            xlab('Year')+ylab('Code sharing (%)'))}#
-  if (grepl('coi',indicator)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments')+#
-                                             xlab('Year')+ylab('COI statement (%)'))}#
-  if (grepl('fund',indicator)){return(p+labs(title='Funding statements over time for the Karolinska departments')+#
-                                        xlab('Year')+ylab('Funding statement (%)'))}#
-  if (grepl('register',indicator)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
-                                            xlab('Year')+ylab('Registrations (%)'))}#
-}
-df=read.delim('./general.csv', header = TRUE, sep=',')
-plotpyear_institution(df,'is_open_data',0,100)
-plotpyear_institution(df,'is_open_code',0,100)
-plotpyear_institution(df,'is_register_pred',0,100)
-plotpyear_institution(df,'is_coi_pred',0,100)
-plotpyear_institution(df,'is_fund_pred',0,100)
-df=read.delim('./ki_nord.csv', header = TRUE, sep=',')
-plotpyear_institution(df,'is_fund_pred',0,100)
-# CHECK OUT HOW TO AFFECT THIS#
-plotpyear_institution=function(df,indicator,rangelow,rangehigh){#
-  p=ggplot(df, aes(x=Publication.Year, y=.data[[indicator]], fill= short_name)) +#
-    geom_line(aes(color= short_name)) + #
-    geom_point(aes(color = short_name)) + #
-    theme_bw()+ylim(rangelow, rangehigh)#
-    if (grepl('data',indicator))#
-    {return(p+labs(title='Data sharing over time for the KI Nord departments')+#
-              xlab('Year')+ylab('Data sharing (%)'))}#
-  if (grepl('code',indicator))#
-  {return(p+labs(title='Code sharing over time for the KI Nord departments')+#
-            xlab('Year')+ylab('Code sharing (%)'))}#
-  if (grepl('coi',indicator)==TRUE){return(p+labs(title='Conflict of interest statements over time for the KI Nord departments')+#
-                                             xlab('Year')+ylab('COI statement (%)'))}#
-  if (grepl('fund',indicator)){return(p+labs(title='Funding statements over time for the KI Nord departments')+#
-                                        xlab('Year')+ylab('Funding statement (%)'))}#
-  if (grepl('register',indicator)){return(p+labs(title='Registrations over time for the KI Nord departments')+#
-                                            xlab('Year')+ylab('Registrations (%)'))}#
-}
-df=read.delim('./ki_nord.csv', header = TRUE, sep=',')
-plotpyear_institution(df,'is_fund_pred',0,100)
-plotpyear_institution(df,'is_coi_pred',0,100)
-plotpyear_institution(df,'is_open_code',0,100)
-plotpyear_institution(df,'is_open_code',15)
-plotpyear_institution(df,'is_open_code',0,15)
-plotpyear_institution(df,'is_open_data',0,15)
-plotpyear_institution(df,'is_open_data',0,45)
-df=read.delim('./ki_syd.csv', header = TRUE, sep=',')
-plotpyear_institution(df,'is_open_data',0,45)
-plotpyear_institution(df,'is_open_data',0,50)
-plotpyear_institution=function(df,indicator,rangelow,rangehigh){#
-  p=ggplot(df, aes(x=Publication.Year, y=.data[[indicator]], fill= short_name)) +#
-    geom_line(aes(color= short_name)) + #
-    geom_point(aes(color = short_name)) + #
-    theme_bw()+ylim(rangelow, rangehigh)#
-    if (grepl('data',indicator))#
-    {return(p+labs(title='Data sharing over time for the KI Syd departments')+#
-              xlab('Year')+ylab('Data sharing (%)'))}#
-  if (grepl('code',indicator))#
-  {return(p+labs(title='Code sharing over time for the KI Syd departments')+#
-            xlab('Year')+ylab('Code sharing (%)'))}#
-  if (grepl('coi',indicator)==TRUE){return(p+labs(title='Conflict of interest statements over time for the KI Syd departments')+#
-                                             xlab('Year')+ylab('COI statement (%)'))}#
-  if (grepl('fund',indicator)){return(p+labs(title='Funding statements over time for the KI Syd departments')+#
-                                        xlab('Year')+ylab('Funding statement (%)'))}#
-  if (grepl('register',indicator)){return(p+labs(title='Registrations over time for the KI Syd departments')+#
-                                            xlab('Year')+ylab('Registrations (%)'))}#
-}
-plotpyear_institution(df,'is_open_data',0,50)
-plotpyear_institution(df,'is_open_code',0,50)
-plotpyear_institution(df,'is_open_code',0,15)
-plotpyear_institution(df,'is_register_pred',0,15)
-plotpyear_institution(df,'is_coi_pred',0,100)
-plotpyear_institution(df,'is_fund_pred',0,100)
-plotpyear_institution=function(df,indicator,rangelow,rangehigh){#
-  p=ggplot(df, aes(x=Publication.Year, y=.data[[indicator]], fill= short_name)) +#
-    geom_line(aes(color= short_name)) + #
-    geom_point(aes(color = short_name)) + #
-    theme_bw()+ylim(rangelow, rangehigh)#
-    if (grepl('data',indicator))#
-    {return(p+labs(title='Data sharing over time for the KI Nord departments')+#
-              xlab('Year')+ylab('Data sharing (%)'))}#
-  if (grepl('code',indicator))#
-  {return(p+labs(title='Code sharing over time for the KI Nord departments')+#
-            xlab('Year')+ylab('Code sharing (%)'))}#
-  if (grepl('coi',indicator)==TRUE){return(p+labs(title='Conflict of interest statements over time for the KI Nord departments')+#
-                                             xlab('Year')+ylab('COI statement (%)'))}#
-  if (grepl('fund',indicator)){return(p+labs(title='Funding statements over time for the KI Nord departments')+#
-                                        xlab('Year')+ylab('Funding statement (%)'))}#
-  if (grepl('register',indicator)){return(p+labs(title='Registrations over time for the KI Nord departments')+#
-                                            xlab('Year')+ylab('Registrations (%)'))}#
-}
-plotpyear_institution(df,'is_register_pred',0,20)
-df=read.delim('./ki_nord.csv', header = TRUE, sep=',')
-plotpyear_institution(df,'is_register_pred',0,20)
-plotpyear_institution(df,'is_register_pred',0,40)
-plotpyear_institution=function(df,indicator,rangelow,rangehigh){#
-  p=ggplot(df, aes(x=Publication.Year, y=.data[[indicator]], fill= short_name)) +#
-    geom_line(aes(color= short_name)) + #
-    geom_point(aes(color = short_name)) + #
-    theme_bw()+ylim(rangelow, rangehigh)#
-    if (grepl('data',indicator))#
-    {return(p+labs(title='Data sharing over time for the KI Solna departments')+#
-              xlab('Year')+ylab('Data sharing (%)'))}#
-  if (grepl('code',indicator))#
-  {return(p+labs(title='Code sharing over time for the KI Solna departments')+#
-            xlab('Year')+ylab('Code sharing (%)'))}#
-  if (grepl('coi',indicator)==TRUE){return(p+labs(title='Conflict of interest statements over time for the KI Solna departments')+#
-                                             xlab('Year')+ylab('COI statement (%)'))}#
-  if (grepl('fund',indicator)){return(p+labs(title='Funding statements over time for the KI Solna departments')+#
-                                        xlab('Year')+ylab('Funding statement (%)'))}#
-  if (grepl('register',indicator)){return(p+labs(title='Registrations over time for the KI Solna departments')+#
-                                            xlab('Year')+ylab('Registrations (%)'))}#
-}
-df=read.delim('./ki_solna.csv', header = TRUE, sep=',')
-plotpyear_institution(df,'is_register_pred',0,40)
-plotpyear_institution(df,'is_register_pred',0,30)
-plotpyear_institution(df,'is_coi_pred',0,100)
-plotpyear_institution(df,'is_fund_pred',0,100)
-plotpyear_institution(df,'is_open_code',0,100)
-plotpyear_institution(df,'is_open_code',30)
-plotpyear_institution(df,'is_open_code',0,30)
-plotpyear_institution(df,'is_open_data',0,30)
-plotpyear_institution(df,'is_open_data',0,40)
-plotpyear_institution(df,'is_open_data',0,50)
-plotpyear_institution(df,'is_open_data',0,70)
-df=read.delim('./general.csv', header = TRUE, sep=',')
-plotpyear_institution(df,'is_coi_pred',0,100)
+library(BEST)
 library(ggplot2)#
 library(reshape2)#
+years=c(2017,2018,2019,2020,2021)#
+karolinska=c(8547,7921,9326,10362,10595)#
+lund=c(4692,6263,4778,5238,5414)#
+orebro=c(855,905,991,1136,1227)#
+umea=c(2288,2023,2212,2371,2487)#
+uppsala=c(5103,5110,5300,5711,5920)#
+linkoping=c(1819,1872,2080,2194,2188)#
+gbg=c(4729,5010,5320,5793,5969)#
 #
-# CHECK OUT HOW TO AFFECT THIS#
-plotpyear_institution=function(df,indicator,rangelow,rangehigh){#
-  p=ggplot(df, aes(x=Publication.Year, y=.data[[indicator]], fill= short_name)) +#
+df=data.frame(Publication_Year=years,karolinska=karolinska,lund=lund,orebro=orebro,umea=umea,uppsala=uppsala,linkoping=linkoping,gbg=gbg)#
+#
+df_melt=melt(df,id='Publication_Year')#
+ggplot(df_melt,aes(x=Publication_Year,y=value))+geom_line(aes(color=variable))
+df_melt
+ggplot(df_melt, aes(Publication_Year, value, color = variable)) +
+ggplot(df_melt, aes(Publication_Year, value, color = variable)) +#
+    geom_line()
+ggplot(df_melt, aes(Publication_Year, value, color = variable)) +geom_line()
+ggplot(df_melt, aes(Publication_Year, value, color = variable)) +geom_line()+xlab('Publication Year')+ylab('No. of Publications')+theme_bw()
+df_melt=melt(df,id='Publication_Year',value.name='Institution')
+ggplot(df_melt, aes(Publication_Year, value, color = Institution)) +geom_line()+xlab('Publication Year')+ylab('No. of Publications')+theme_bw()
+ggplot(df_melt, aes(Publication_Year, Institution, color = variable)) +geom_line()+xlab('Publication Year')+ylab('No. of Publications')+theme_bw()
+ggplot(df_melt, aes(Publication_Year, Institution, color = Institution)) +geom_line()+xlab('Publication Year')+ylab('No. of Publications')+theme_bw()
+df_melt=melt(df,id='Publication_Year',value.name='Number of publications',variable.name('Institution'))
+df_melt=melt(df,id='Publication_Year',variable.name('Institution'))
+ggplot(df_melt, aes(Publication_Year, value, color = Institution)) +geom_line()+xlab('Publication Year')+ylab('No. of Publications')+theme_bw()
+df_melt=melt(df,id='Publication_Year',variable.name('Institution'))
+df_melt=melt(df,id='Publication_Year')
+colnames(df_melt)[3] <- 'Institution'
+ggplot(df_melt, aes(Publication_Year, value, color = Institution)) +geom_line()+xlab('Publication Year')+ylab('No. of Publications')+theme_bw()
+df=data.frame(Publication_Year=years,karolinska=karolinska,lund=lund,orebro=orebro,umea=umea,uppsala=uppsala,linkoping=linkoping,gbg=gbg)
+df_melt=melt(df,id='Publication_Year')
+df_melt
+colnames(df_melt)[3] <- 'Institution'
+df_melt
+df_melt=melt(df,id='Publication_Year')
+colnames(df_melt)[2] <- 'Institution'
+ggplot(df_melt, aes(Publication_Year, value, color = Institution)) +geom_line()+xlab('Publication Year')+ylab('No. of Publications')+theme_bw()
+library(shiny)#
+library( shinyWidgets )#
+library(ggplot2)#
+#
+df=read.delim('./groups_and_institutions.csv', sep=',')#
+runApp(list(#
+  ui = basicPage(#
+    selectInput("select", "Select columns to display",c( 'is_coi_pred','is_register_pred','is_fund_pred','is_open_code','is_open_data'), multiple = FALSE),#
+    selectInput("institutioner", "Select institutions/groups to display",as.list(unique(df$short_name)), multiple = TRUE),#
+    numericInput("rangelow", "What minimum percentage would you like", 10, min = 1, max = 100),#
+	numericInput("rangehigh", "What maximum percentage would you like", 10, min = 1, max = 100),#
+   numericRangeInput(inputId = "my_id", label = "Numeric Range Input:",value = c(0, 100)),#
+#
+    h2('The Karolinska Data'),#
+    plotOutput('PLOT')#
+  ),#
+  server = function(input, output) {#
+output$PLOT = renderPlot({#
+      columns = names(df)#
+      if (!is.null(input$select)) {#
+        columns = input$select#
+      }#
+      rangelow=as.character(input$rangelow)#
+      rangehigh=as.character(input$rangehigh)#
+     df=df[df$short_name %in% input$institutioner, ]#
+     indicator_string=as.character(input$select)#
+  p=ggplot(df, aes(x=Publication.Year, y=.data[[input$select]], fill= short_name)) +#
     geom_line(aes(color= short_name)) + #
     geom_point(aes(color = short_name)) + #
+    xlab('Publication Year')+#
     theme_bw()+ylim(rangelow, rangehigh)#
-    if (grepl('data',indicator))#
-    {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
-              xlab('Year')+ylab('Data sharing (%)'))}#
-  if (grepl('code',indicator))#
+    if (grepl('data',indicator_string))#
+  {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+    if (grepl('code',indicator_string))#
   {return(p+labs(title='Code sharing over time for the Karolinska departments')+#
             xlab('Year')+ylab('Code sharing (%)'))}#
-  if (grepl('coi',indicator)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments')+#
-                                             xlab('Year')+ylab('COI statement (%)'))}#
-  if (grepl('fund',indicator)){return(p+labs(title='Funding statements over time for the Karolinska departments')+#
-                                        xlab('Year')+ylab('Funding statement (%)'))}#
-  if (grepl('register',indicator)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
+  if (grepl('coi', indicator_string)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments') + xlab('Year')#
+                                             +ylab('COI statement (%)'))}#
+  if (grepl('fund', indicator_string)){return(p+labs(title='Funding statements over time for the Karolinska departments')+#
+                                        +ylab('Funding statement (%)'))}#
+  if (grepl('register', indicator_string)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
                                             xlab('Year')+ylab('Registrations (%)'))}#
-}
-df=read.delim('./general.csv', header = TRUE, sep=',')
-plotpyear_institution(df,'is_coi_pred',0,100)
-plotpyear_institution(df,'is_coi_pred',0,100)
-plotpyear_institution=function(df,indicator,rangelow,rangehigh){#
-  p=ggplot(df, aes(x=Publication.Year, y=.data[[indicator]], fill= short_name)) +#
+    print(input$my_id)#
+#
+    }#
+#
+    )#
+  }#
+#
+))#
+#
+# test showing a table as well if possible#
+# create a DF that has the overall groupings AND the separate institutions
+library(shiny)#
+library( shinyWidgets )#
+#
+library(ggplot2)#
+#
+df=read.delim('./groups_and_institutions.csv', sep=',')#
+runApp(list(#
+  ui = basicPage(#
+    selectInput("select", "Select columns to display",c( 'is_coi_pred','is_register_pred','is_fund_pred','is_open_code','is_open_data'), multiple = FALSE),#
+    selectInput("institutioner", "Select institutions/groups to display",as.list(unique(df$short_name)), multiple = TRUE),#
+    numericInput("rangelow", "What minimum percentage would you like", 10, min = 1, max = 100),#
+	numericInput("rangehigh", "What maximum percentage would you like", 10, min = 1, max = 100),#
+#
+    h2('The Karolinska Data'),#
+    plotOutput('PLOT')#
+  ),#
+  server = function(input, output) {#
+    output$PLOT = renderPlot({#
+      columns = names(df)#
+      if (!is.null(input$select)) {#
+        columns = input$select#
+      }#
+      rangelow=as.character(input$rangelow)#
+      rangehigh=as.character(input$rangehigh)#
+     df=df[df$short_name %in% input$institutioner, ]#
+     indicator_string=as.character(input$select)#
+  p=ggplot(df, aes(x=Publication.Year, y=.data[[input$select]], fill= short_name)) +#
     geom_line(aes(color= short_name)) + #
     geom_point(aes(color = short_name)) + #
+    xlab('Publication Year')+#
     theme_bw()+ylim(rangelow, rangehigh)#
-    if (grepl('data',indicator))#
-    {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
-              xlab('Year')+ylab('Data sharing (%)'))}#
-  if (grepl('code',indicator))#
+    if (grepl('data',indicator_string))#
+  {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+    if (grepl('code',indicator_string))#
   {return(p+labs(title='Code sharing over time for the Karolinska departments')+#
             xlab('Year')+ylab('Code sharing (%)'))}#
-  if (grepl('coi',indicator)==TRUE){return(p+labs(title='Conflict of interest statements over time for the KI Solna departments')+#
-                                             xlab('Year')+ylab('COI statement (%)'))}#
-  if (grepl('fund',indicator)){return(p+labs(title='Funding statements over time for the Karolinska departments')+#
-                                        xlab('Year')+ylab('Funding statement (%)'))}#
-  if (grepl('register',indicator)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
+  if (grepl('coi', indicator_string)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments') + xlab('Year')#
+                                             +ylab('COI statement (%)'))}#
+  if (grepl('fund', indicator_string)){return(p+labs(title='Funding statements over time for the Karolinska departments')+#
+                                        +ylab('Funding statement (%)'))}#
+  if (grepl('register', indicator_string)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
                                             xlab('Year')+ylab('Registrations (%)'))}#
-}
-df=read.delim('./ki_solna.csv', header = TRUE, sep=',')
-plotpyear_institution(df,'is_coi_pred',0,100)
-df=read.delim('./general.csv', header = TRUE, sep=',')
-plotpyear_institution=function(df,indicator,rangelow,rangehigh){#
-  p=ggplot(df, aes(x=Publication.Year, y=.data[[indicator]], fill= short_name)) +#
+    })#
+  }#
+))#
+#
+# test showing a table as well if possible#
+# create a DF that has the overall groupings AND the separate institutions
+df=read.delim('./groups_and_institutions.csv', sep=',')
+setwd('~/Documents/GitHub/autotransparent/institutional/karolinska')
+library(shiny)#
+library( shinyWidgets )#
+library(ggplot2)#
+#
+df=read.delim('./groups_and_institutions.csv', sep=',')#
+runApp(list(#
+  ui = basicPage(#
+    selectInput("select", "Select columns to display",c( 'is_coi_pred','is_register_pred','is_fund_pred','is_open_code','is_open_data'), multiple = FALSE),#
+    selectInput("institutioner", "Select institutions/groups to display",as.list(unique(df$short_name)), multiple = TRUE),#
+    numericInput("rangelow", "What minimum percentage would you like", 10, min = 1, max = 100),#
+	numericInput("rangehigh", "What maximum percentage would you like", 10, min = 1, max = 100),#
+   numericRangeInput(inputId = "my_id", label = "Numeric Range Input:",value = c(0, 100)),#
+#
+    h2('The Karolinska Data'),#
+    plotOutput('PLOT')#
+  ),#
+  server = function(input, output) {#
+output$PLOT = renderPlot({#
+      columns = names(df)#
+      if (!is.null(input$select)) {#
+        columns = input$select#
+      }#
+      rangelow=as.character(input$rangelow)#
+      rangehigh=as.character(input$rangehigh)#
+     df=df[df$short_name %in% input$institutioner, ]#
+     indicator_string=as.character(input$select)#
+  p=ggplot(df, aes(x=Publication.Year, y=.data[[input$select]], fill= short_name)) +#
     geom_line(aes(color= short_name)) + #
     geom_point(aes(color = short_name)) + #
+    xlab('Publication Year')+#
     theme_bw()+ylim(rangelow, rangehigh)#
-    if (grepl('data',indicator))#
-    {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
-              xlab('Year')+ylab('Data sharing (%)'))}#
-  if (grepl('code',indicator))#
+    if (grepl('data',indicator_string))#
+  {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+    if (grepl('code',indicator_string))#
   {return(p+labs(title='Code sharing over time for the Karolinska departments')+#
             xlab('Year')+ylab('Code sharing (%)'))}#
-  if (grepl('coi',indicator)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments')+#
-                                             xlab('Year')+ylab('COI statement (%)'))}#
-  if (grepl('fund',indicator)){return(p+labs(title='Funding statements over time for the Karolinska departments')+#
-                                        xlab('Year')+ylab('Funding statement (%)'))}#
-  if (grepl('register',indicator)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
+  if (grepl('coi', indicator_string)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments') + xlab('Year')#
+                                             +ylab('COI statement (%)'))}#
+  if (grepl('fund', indicator_string)){return(p+labs(title='Funding statements over time for the Karolinska departments')+#
+                                        +ylab('Funding statement (%)'))}#
+  if (grepl('register', indicator_string)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
                                             xlab('Year')+ylab('Registrations (%)'))}#
-}
-df=read.delim('./general.csv', header = TRUE, sep=',')
-plotpyear_institution(df,'is_coi_pred',0,100)
+    print(input$my_id)#
+#
+    }#
+#
+    )#
+  }#
+#
+))#
+#
+# test showing a table as well if possible#
+# create a DF that has the overall groupings AND the separate institutions
+library(shiny)#
+library( shinyWidgets )#
+library(ggplot2)#
+#
+df=read.delim('./groups_and_institutions.csv', sep=',')#
+runApp(list(#
+  ui = basicPage(#
+    selectInput("select", "Select columns to display",c( 'is_coi_pred','is_register_pred','is_fund_pred','is_open_code','is_open_data'), multiple = FALSE),#
+    selectInput("institutioner", "Select institutions/groups to display",as.list(unique(df$short_name)), multiple = TRUE),#
+    numericInput("rangelow", "What minimum percentage would you like", 10, min = 1, max = 100),#
+	numericInput("rangehigh", "What maximum percentage would you like", 10, min = 1, max = 100),#
+   numericRangeInput(inputId = "my_id", label = "Numeric Range Input:",value = c(0, 100)),#
+#
+    h2('The Karolinska Data'),#
+    plotOutput('PLOT')#
+  ),#
+  server = function(input, output) {#
+	output$res1 <- renderPrint(input$my_id)#
+  }#
+#
+))
+library(shiny)#
+library( shinyWidgets )#
+library(ggplot2)#
+#
+df=read.delim('./groups_and_institutions.csv', sep=',')#
+runApp(list(#
+  ui = basicPage(#
+    selectInput("select", "Select columns to display",c( 'is_coi_pred','is_register_pred','is_fund_pred','is_open_code','is_open_data'), multiple = FALSE),#
+    selectInput("institutioner", "Select institutions/groups to display",as.list(unique(df$short_name)), multiple = TRUE),#
+    numericInput("rangelow", "What minimum percentage would you like", 10, min = 1, max = 100),#
+	numericInput("rangehigh", "What maximum percentage would you like", 10, min = 1, max = 100),#
+   numericRangeInput(inputId = "my_id", label = "Numeric Range Input:",value = c(0, 100)),#
+#
+    h2('The Karolinska Data'),#
+    plotOutput('PLOT')#
+    plotOutput('res1')#
+  ),#
+  server = function(input, output) {#
+	output$res1 <- renderPrint(input$my_id)#
+  }#
+#
+))
+library(shiny)#
+library( shinyWidgets )#
+library(ggplot2)#
+#
+df=read.delim('./groups_and_institutions.csv', sep=',')#
+runApp(list(#
+  ui = basicPage(#
+    selectInput("select", "Select columns to display",c( 'is_coi_pred','is_register_pred','is_fund_pred','is_open_code','is_open_data'), multiple = FALSE),#
+    selectInput("institutioner", "Select institutions/groups to display",as.list(unique(df$short_name)), multiple = TRUE),#
+    numericInput("rangelow", "What minimum percentage would you like", 10, min = 1, max = 100),#
+	numericInput("rangehigh", "What maximum percentage would you like", 10, min = 1, max = 100),#
+   numericRangeInput(inputId = "my_id", label = "Numeric Range Input:",value = c(0, 100)),#
+#
+    h2('The Karolinska Data'),#
+    plotOutput('PLOT'),#
+    plotOutput('res1')#
+  ),#
+  server = function(input, output) {#
+	output$res1 <- renderPrint(input$my_id)#
+  }#
+#
+))
+library(shiny)#
+library( shinyWidgets )#
+library(ggplot2)#
+#
+df=read.delim('./groups_and_institutions.csv', sep=',')#
+runApp(list(#
+  ui = basicPage(#
+    selectInput("select", "Select columns to display",c( 'is_coi_pred','is_register_pred','is_fund_pred','is_open_code','is_open_data'), multiple = FALSE),#
+    selectInput("institutioner", "Select institutions/groups to display",as.list(unique(df$short_name)), multiple = TRUE),#
+    numericInput("rangelow", "What minimum percentage would you like", 10, min = 1, max = 100),#
+	numericInput("rangehigh", "What maximum percentage would you like", 10, min = 1, max = 100),#
+   numericRangeInput(inputId = "my_id", label = "Numeric Range Input:",value = c(0, 100)),#
+#
+    h2('The Karolinska Data'),#
+    #plotOutput('PLOT'),#
+    plotOutput('res1')#
+  ),#
+  server = function(input, output) {#
+	output$res1 <- renderPrint(input$my_id)#
+  }#
+#
+))#
+#
+# test showing a table as well if possible#
+# create a DF that has the overall groupings AND the separate institutions#
+#
+    output$PLOT = renderPlot({#
+      columns = names(df)#
+      if (!is.null(input$select)) {#
+        columns = input$select#
+      }#
+      rangelow=as.character(input$rangelow)#
+      rangehigh=as.character(input$rangehigh)#
+     df=df[df$short_name %in% input$institutioner, ]#
+     indicator_string=as.character(input$select)#
+  p=ggplot(df, aes(x=Publication.Year, y=.data[[input$select]], fill= short_name)) +#
+    geom_line(aes(color= short_name)) + #
+    geom_point(aes(color = short_name)) + #
+    xlab('Publication Year')+#
+    theme_bw()+ylim(rangelow, rangehigh)#
+    if (grepl('data',indicator_string))#
+  {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+    if (grepl('code',indicator_string))#
+  {return(p+labs(title='Code sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+  if (grepl('coi', indicator_string)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments') + xlab('Year')#
+                                             +ylab('COI statement (%)'))}#
+  if (grepl('fund', indicator_string)){return(p+labs(title='Funding statements over time for the Karolinska departments')+#
+                                        +ylab('Funding statement (%)'))}#
+  if (grepl('register', indicator_string)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
+                                            xlab('Year')+ylab('Registrations (%)'))}#
+    print(input$my_id)#
+#
+    }#
+#
+    )
+library(shiny)#
+library( shinyWidgets )#
+#
+library(ggplot2)#
+#
+df=read.delim('./groups_and_institutions.csv', sep=',')#
+runApp(list(#
+  ui = basicPage(#
+    selectInput("select", "Select columns to display",c( 'is_coi_pred','is_register_pred','is_fund_pred','is_open_code','is_open_data'), multiple = FALSE),#
+    selectInput("institutioner", "Select institutions/groups to display",as.list(unique(df$short_name)), multiple = TRUE),#
+    numericInput("rangelow", "What minimum percentage would you like", 10, min = 1, max = 100),#
+	numericInput("rangehigh", "What maximum percentage would you like", 10, min = 1, max = 100),#
+	downloadButton('foo'),#
+    h2('The Karolinska Data'),#
+    plotOutput('PLOT')#
+  ),#
+  server = function(input, output) {#
+    output$PLOT = renderPlot({#
+      columns = names(df)#
+      if (!is.null(input$select)) {#
+        columns = input$select#
+      }#
+      rangelow=as.character(input$rangelow)#
+      rangehigh=as.character(input$rangehigh)#
+     df=df[df$short_name %in% input$institutioner, ]#
+     indicator_string=as.character(input$select)#
+  p=ggplot(df, aes(x=Publication.Year, y=.data[[input$select]], fill= short_name)) +#
+    geom_line(aes(color= short_name)) + #
+    geom_point(aes(color = short_name)) + #
+    xlab('Publication Year')+#
+    theme_bw()+ylim(rangelow, rangehigh)#
+    if (grepl('data',indicator_string))#
+  {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+    if (grepl('code',indicator_string))#
+  {return(p+labs(title='Code sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+  if (grepl('coi', indicator_string)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments') + xlab('Year')#
+                                             +ylab('COI statement (%)'))}#
+  if (grepl('fund', indicator_string)){return(p+labs(title='Funding statements over time for the Karolinska departments')+#
+                                        +ylab('Funding statement (%)'))}#
+  if (grepl('register', indicator_string)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
+                                            xlab('Year')+ylab('Registrations (%)'))}#
+    }),#
+   output$foo = downloadHandler(#
+    filename = function() { paste(input$select, '.png', sep='') },#
+    content = function(file) {#
+        ggsave(file, plot = plotInput(), device = "png")#
+    }#
+)#
+  }#
+))#
+#
+# test showing a table as well if possible#
+# create a DF that has the overall groupings AND the separate institutions
+library(shiny)#
+library( shinyWidgets )#
+#
+library(ggplot2)#
+#
+df=read.delim('./groups_and_institutions.csv', sep=',')#
+runApp(list(#
+  ui = basicPage(#
+    selectInput("select", "Select columns to display",c( 'is_coi_pred','is_register_pred','is_fund_pred','is_open_code','is_open_data'), multiple = FALSE),#
+    selectInput("institutioner", "Select institutions/groups to display",as.list(unique(df$short_name)), multiple = TRUE),#
+    numericInput("rangelow", "What minimum percentage would you like", 10, min = 1, max = 100),#
+	numericInput("rangehigh", "What maximum percentage would you like", 10, min = 1, max = 100),#
+	downloadButton('foo'),#
+    h2('The Karolinska Data'),#
+    plotOutput('PLOT')#
+  ),#
+  server = function(input, output, session) {#
+    output$PLOT = renderPlot({#
+      columns = names(df)#
+      if (!is.null(input$select)) {#
+        columns = input$select#
+      }#
+      rangelow=as.character(input$rangelow)#
+      rangehigh=as.character(input$rangehigh)#
+     df=df[df$short_name %in% input$institutioner, ]#
+     indicator_string=as.character(input$select)#
+  p=ggplot(df, aes(x=Publication.Year, y=.data[[input$select]], fill= short_name)) +#
+    geom_line(aes(color= short_name)) + #
+    geom_point(aes(color = short_name)) + #
+    xlab('Publication Year')+#
+    theme_bw()+ylim(rangelow, rangehigh)#
+    if (grepl('data',indicator_string))#
+  {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+    if (grepl('code',indicator_string))#
+  {return(p+labs(title='Code sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+  if (grepl('coi', indicator_string)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments') + xlab('Year')#
+                                             +ylab('COI statement (%)'))}#
+  if (grepl('fund', indicator_string)){return(p+labs(title='Funding statements over time for the Karolinska departments')+#
+                                        +ylab('Funding statement (%)'))}#
+  if (grepl('register', indicator_string)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
+                                            xlab('Year')+ylab('Registrations (%)'))}#
+    })#
+  output$foo = downloadHandler(#
+    filename = function() { paste(input$select, '.png', sep='') },#
+    content = function(file) {#
+        ggsave(file, plot = plotInput(), device = "png")#
+    }#
+)#
+  }#
+))#
+#
+# test showing a table as well if possible#
+# create a DF that has the overall groupings AND the separate institutions
+library(shiny)#
+library( shinyWidgets )#
+#
+library(ggplot2)#
+#
+df=read.delim('./groups_and_institutions.csv', sep=',')#
+runApp(list(#
+  ui = basicPage(#
+    selectInput("select", "Select columns to display",c( 'is_coi_pred','is_register_pred','is_fund_pred','is_open_code','is_open_data'), multiple = FALSE),#
+    selectInput("institutioner", "Select institutions/groups to display",as.list(unique(df$short_name)), multiple = TRUE),#
+    numericInput("rangelow", "What minimum percentage would you like", 10, min = 1, max = 100),#
+	numericInput("rangehigh", "What maximum percentage would you like", 10, min = 1, max = 100),#
+	downloadButton('foo'),#
+    h2('The Karolinska Data'),#
+    plotOutput('PLOT')#
+  ),#
+  server = function(input, output, session) {#
+    output$PLOT = renderPlot({#
+      columns = names(df)#
+      if (!is.null(input$select)) {#
+        columns = input$select#
+      }#
+      rangelow=as.character(input$rangelow)#
+      rangehigh=as.character(input$rangehigh)#
+     df=df[df$short_name %in% input$institutioner, ]#
+     indicator_string=as.character(input$select)#
+  p=ggplot(df, aes(x=Publication.Year, y=.data[[input$select]], fill= short_name)) +#
+    geom_line(aes(color= short_name)) + #
+    geom_point(aes(color = short_name)) + #
+    xlab('Publication Year')+#
+    theme_bw()+ylim(rangelow, rangehigh)#
+    if (grepl('data',indicator_string))#
+  {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+    if (grepl('code',indicator_string))#
+  {return(p+labs(title='Code sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+  if (grepl('coi', indicator_string)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments') + xlab('Year')#
+                                             +ylab('COI statement (%)'))}#
+  if (grepl('fund', indicator_string)){return(p+labs(title='Funding statements over time for the Karolinska departments')+#
+                                        +ylab('Funding statement (%)'))}#
+  if (grepl('register', indicator_string)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
+                                            xlab('Year')+ylab('Registrations (%)'))}#
+    })#
+  output$foo = downloadHandler(#
+    filename = function() { paste0(input$select, '.png') },#
+    content = function(file) {#
+        ggsave(#
+        columns = names(df)#
+      if (!is.null(input$select)) {#
+        columns = input$select#
+      }#
+      rangelow=as.character(input$rangelow)#
+      rangehigh=as.character(input$rangehigh)#
+     df=df[df$short_name %in% input$institutioner, ]#
+     indicator_string=as.character(input$select)#
+  p=ggplot(df, aes(x=Publication.Year, y=.data[[input$select]], fill= short_name)) +#
+    geom_line(aes(color= short_name)) + #
+    geom_point(aes(color = short_name)) + #
+    xlab('Publication Year')+#
+    theme_bw()+ylim(rangelow, rangehigh)#
+    if (grepl('data',indicator_string))#
+  {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+    if (grepl('code',indicator_string))#
+  {return(p+labs(title='Code sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+  if (grepl('coi', indicator_string)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments') + xlab('Year')#
+                                             +ylab('COI statement (%)'))}#
+  if (grepl('fund', indicator_string)){return(p+labs(title='Funding statements over time for the Karolinska departments')+#
+                                        +ylab('Funding statement (%)'))}#
+  if (grepl('register', indicator_string)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
+                                            xlab('Year')+ylab('Registrations (%)'))}#
+        )#
+    }#
+)#
+  }#
+))#
+#
+# test showing a table as well if possible#
+# create a DF that has the overall groupings AND the separate institutions
+library(shiny)#
+library( shinyWidgets )#
+#
+library(ggplot2)#
+#
+df=read.delim('./groups_and_institutions.csv', sep=',')#
+runApp(list(#
+  ui = basicPage(#
+    selectInput("select", "Select columns to display",c( 'is_coi_pred','is_register_pred','is_fund_pred','is_open_code','is_open_data'), multiple = FALSE),#
+    selectInput("institutioner", "Select institutions/groups to display",as.list(unique(df$short_name)), multiple = TRUE),#
+    numericInput("rangelow", "What minimum percentage would you like", 10, min = 1, max = 100),#
+	numericInput("rangehigh", "What maximum percentage would you like", 10, min = 1, max = 100),#
+	downloadButton('foo'),#
+    h2('The Karolinska Data'),#
+    plotOutput('PLOT')#
+  ),#
+  server = function(input, output, session) {#
+    output$PLOT = renderPlot({#
+      columns = names(df)#
+      if (!is.null(input$select)) {#
+        columns = input$select#
+      }#
+      rangelow=as.character(input$rangelow)#
+      rangehigh=as.character(input$rangehigh)#
+     df=df[df$short_name %in% input$institutioner, ]#
+     indicator_string=as.character(input$select)#
+  p=ggplot(df, aes(x=Publication.Year, y=.data[[input$select]], fill= short_name)) +#
+    geom_line(aes(color= short_name)) + #
+    geom_point(aes(color = short_name)) + #
+    xlab('Publication Year')+#
+    theme_bw()+ylim(rangelow, rangehigh)#
+    if (grepl('data',indicator_string))#
+  {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+    if (grepl('code',indicator_string))#
+  {return(p+labs(title='Code sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+  if (grepl('coi', indicator_string)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments') + xlab('Year')#
+                                             +ylab('COI statement (%)'))}#
+  if (grepl('fund', indicator_string)){return(p+labs(title='Funding statements over time for the Karolinska departments')+#
+                                        +ylab('Funding statement (%)'))}#
+  if (grepl('register', indicator_string)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
+                                            xlab('Year')+ylab('Registrations (%)'))}#
+    })#
+  output$foo = downloadHandler(#
+    filename = function() { paste0(input$select, '.png') },#
+    content = function(file) {#
+        columns = names(df)#
+      if (!is.null(input$select)) {#
+        columns = input$select#
+      }#
+      rangelow=as.character(input$rangelow)#
+      rangehigh=as.character(input$rangehigh)#
+     df=df[df$short_name %in% input$institutioner, ]#
+     indicator_string=as.character(input$select)#
+#
+        ggsave(#
+        p=ggplot(df, aes(x=Publication.Year, y=.data[[input$select]], fill= short_name)) +#
+    geom_line(aes(color= short_name)) + #
+    geom_point(aes(color = short_name)) + #
+    xlab('Publication Year')+#
+    theme_bw()+ylim(rangelow, rangehigh)#
+    if (grepl('data',indicator_string))#
+  {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+    if (grepl('code',indicator_string))#
+  {return(p+labs(title='Code sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+  if (grepl('coi', indicator_string)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments') + xlab('Year')#
+                                             +ylab('COI statement (%)'))}#
+  if (grepl('fund', indicator_string)){return(p+labs(title='Funding statements over time for the Karolinska departments')+#
+                                        +ylab('Funding statement (%)'))}#
+  if (grepl('register', indicator_string)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
+                                            xlab('Year')+ylab('Registrations (%)'))}#
+        )#
+    }#
+)#
+  }#
+))#
+#
+# test showing a table as well if possible#
+# create a DF that has the overall groupings AND the separate institutions
+library(shiny)#
+library( shinyWidgets )#
+#
+library(ggplot2)#
+#
+df=read.delim('./groups_and_institutions.csv', sep=',')#
+runApp(list(#
+  ui = basicPage(#
+    selectInput("select", "Select columns to display",c( 'is_coi_pred','is_register_pred','is_fund_pred','is_open_code','is_open_data'), multiple = FALSE),#
+    selectInput("institutioner", "Select institutions/groups to display",as.list(unique(df$short_name)), multiple = TRUE),#
+    numericInput("rangelow", "What minimum percentage would you like", 10, min = 1, max = 100),#
+	numericInput("rangehigh", "What maximum percentage would you like", 10, min = 1, max = 100),#
+	downloadButton('foo'),#
+    h2('The Karolinska Data'),#
+    plotOutput('PLOT')#
+  ),#
+  server = function(input, output, session) {#
+#
+ plotInput <- reactive({#
+    columns = names(df)#
+      if (!is.null(input$select)) {#
+        columns = input$select#
+      }#
+      rangelow=as.character(input$rangelow)#
+      rangehigh=as.character(input$rangehigh)#
+     df=df[df$short_name %in% input$institutioner, ]#
+     indicator_string=as.character(input$select)#
+  p=ggplot(df, aes(x=Publication.Year, y=.data[[input$select]], fill= short_name)) +#
+    geom_line(aes(color= short_name)) + #
+    geom_point(aes(color = short_name)) + #
+    xlab('Publication Year')+#
+    theme_bw()+ylim(rangelow, rangehigh)#
+    if (grepl('data',indicator_string))#
+  {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+    if (grepl('code',indicator_string))#
+  {return(p+labs(title='Code sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+  if (grepl('coi', indicator_string)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments') + xlab('Year')#
+                                             +ylab('COI statement (%)'))}#
+  if (grepl('fund', indicator_string)){return(p+labs(title='Funding statements over time for the Karolinska departments')+#
+                                        +ylab('Funding statement (%)'))}#
+  if (grepl('register', indicator_string)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
+                                            xlab('Year')+ylab('Registrations (%)'))}#
+  })#
+    output$PLOT = renderPlot({#
+    print(plotInput())#
+#
+    })#
+  output$foo = downloadHandler(#
+    filename = function() { paste0(input$select, '.png') },#
+    content = function(file) {#
+        ggsave(#
+        )#
+    }#
+)#
+  }#
+))#
+#
+# test showing a table as well if possible#
+# create a DF that has the overall groupings AND the separate institutions
+library(shiny)#
+library( shinyWidgets )#
+#
+library(ggplot2)#
+#
+df=read.delim('./groups_and_institutions.csv', sep=',')#
+runApp(list(#
+  ui = basicPage(#
+    selectInput("select", "Select columns to display",c( 'is_coi_pred','is_register_pred','is_fund_pred','is_open_code','is_open_data'), multiple = FALSE),#
+    selectInput("institutioner", "Select institutions/groups to display",as.list(unique(df$short_name)), multiple = TRUE),#
+    numericInput("rangelow", "What minimum percentage would you like", 10, min = 1, max = 100),#
+	numericInput("rangehigh", "What maximum percentage would you like", 10, min = 1, max = 100),#
+	downloadButton('foo'),#
+    h2('The Karolinska Data'),#
+    plotOutput('PLOT')#
+  ),#
+  server = function(input, output, session) {#
+#
+ plotInput <- reactive({#
+    columns = names(df)#
+      if (!is.null(input$select)) {#
+        columns = input$select#
+      }#
+      rangelow=as.character(input$rangelow)#
+      rangehigh=as.character(input$rangehigh)#
+     df=df[df$short_name %in% input$institutioner, ]#
+     indicator_string=as.character(input$select)#
+  p=ggplot(df, aes(x=Publication.Year, y=.data[[input$select]], fill= short_name)) +#
+    geom_line(aes(color= short_name)) + #
+    geom_point(aes(color = short_name)) + #
+    xlab('Publication Year')+#
+    theme_bw()+ylim(rangelow, rangehigh)#
+    if (grepl('data',indicator_string))#
+  {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+    if (grepl('code',indicator_string))#
+  {return(p+labs(title='Code sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+  if (grepl('coi', indicator_string)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments') + xlab('Year')#
+                                             +ylab('COI statement (%)'))}#
+  if (grepl('fund', indicator_string)){return(p+labs(title='Funding statements over time for the Karolinska departments')+#
+                                        +ylab('Funding statement (%)'))}#
+  if (grepl('register', indicator_string)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
+                                            xlab('Year')+ylab('Registrations (%)'))}#
+  })#
+    output$PLOT = renderPlot({#
+    print(plotInput())#
+#
+    })#
+  output$foo = downloadHandler(#
+    filename = function() { paste0(input$select, '.png') },#
+    content = function(file) {#
+        ggsave(file,plot = plotInput(), device = "png"#
+        )#
+    }#
+)#
+  }#
+))#
+#
+# test showing a table as well if possible#
+# create a DF that has the overall groupings AND the separate institutions
+library(shiny)#
+library( shinyWidgets )#
+#
+library(ggplot2)#
+#
+df=read.delim('./groups_and_institutions.csv', sep=',')#
+runApp(list(#
+  ui = basicPage(#
+    selectInput("select", "Select columns to display",c( 'is_coi_pred','is_register_pred','is_fund_pred','is_open_code','is_open_data'), multiple = FALSE),#
+    selectInput("institutioner", "Select institutions/groups to display",as.list(unique(df$short_name)), multiple = TRUE),#
+    numericInput("rangelow", "What minimum percentage would you like", 10, min = 1, max = 100),#
+	numericInput("rangehigh", "What maximum percentage would you like", 10, min = 1, max = 100),#
+	downloadButton('foo'),#
+    h2('The Karolinska Data'),#
+    plotOutput('PLOT')#
+  ),#
+  server = function(input, output, session) {#
+#
+ plotInput <- reactive({#
+    columns = names(df)#
+      if (!is.null(input$select)) {#
+        columns = input$select#
+      }#
+      rangelow=as.character(input$rangelow)#
+      rangehigh=as.character(input$rangehigh)#
+     df=df[df$short_name %in% input$institutioner, ]#
+     indicator_string=as.character(input$select)#
+  p=ggplot(df, aes(x=Publication.Year, y=.data[[input$select]], fill= short_name)) +#
+    geom_line(aes(color= short_name)) + #
+    geom_point(aes(color = short_name)) + #
+    xlab('Publication Year')+#
+    theme_bw()+ylim(rangelow, rangehigh)#
+    if (grepl('data',indicator_string))#
+  {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+    if (grepl('code',indicator_string))#
+  {return(p+labs(title='Code sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+  if (grepl('coi', indicator_string)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments') + xlab('Year')#
+                                             +ylab('COI statement (%)'))}#
+  if (grepl('fund', indicator_string)){return(p+labs(title='Funding statements over time for the Karolinska departments')+xlab('Year')#
+                                        +ylab('Funding statement (%)'))}#
+  if (grepl('register', indicator_string)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
+                                            xlab('Year')+ylab('Registrations (%)'))}#
+  })#
+    output$PLOT = renderPlot({#
+    print(plotInput())#
+#
+    })#
+  output$foo = downloadHandler(#
+    filename = function() { paste0(input$select, '.png') },#
+    content = function(file) {#
+        ggsave(file,plot = plotInput(), device = "png"#
+        )#
+    }#
+)#
+  }#
+))#
+#
+# test showing a table as well if possible#
+# create a DF that has the overall groupings AND the separate institutions
+library(shiny)#
+library( shinyWidgets )#
+#
+library(ggplot2)#
+#
+df=read.delim('./groups_and_institutions.csv', sep=',')#
+runApp(list(#
+  ui = basicPage(#
+    selectInput("select", "Select columns to display",c( 'is_coi_pred','is_register_pred','is_fund_pred','is_open_code','is_open_data'), multiple = FALSE),#
+    selectInput("institutioner", "Select institutions/groups to display",as.list(unique(df$short_name)), multiple = TRUE),#
+    numericInput("rangelow", "What minimum percentage would you like", 10, min = 1, max = 100),#
+	numericInput("rangehigh", "What maximum percentage would you like", 10, min = 1, max = 100),#
+	downloadButton('foo'),#
+    h2('The Karolinska Data'),#
+    plotOutput('PLOT')#
+  ),#
+  server = function(input, output, session) {#
+#
+ plotInput <- reactive({#
+    columns = names(df)#
+      if (!is.null(input$select)) {#
+        columns = input$select#
+      }#
+      rangelow=as.character(input$rangelow)#
+      rangehigh=as.character(input$rangehigh)#
+     df=df[df$short_name %in% input$institutioner, ]#
+     indicator_string=as.character(input$select)#
+  p=ggplot(df, aes(x=Publication.Year, y=.data[[input$select]], fill= short_name)) +#
+    geom_line(aes(color= short_name)) + #
+    geom_point(aes(color = short_name)) + #
+    xlab('Publication Year')+#
+    theme_bw()+ylim(rangelow, rangehigh)#
+    if (grepl('data',indicator_string))#
+  {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+    if (grepl('code',indicator_string))#
+  {return(p+labs(title='Code sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+  if (grepl('coi', indicator_string)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments') + xlab('Year')#
+                                             +ylab('COI statement (%)'))}#
+  if (grepl('fund', indicator_string)){return(p+labs(title='Funding statements over time for the Karolinska departments')+xlab('Year')#
+                                        +ylab('Funding statement (%)'))}#
+  if (grepl('register', indicator_string)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
+                                            xlab('Year')+ylab('Registrations (%)'))}#
+  })#
+    output$PLOT = renderPlot({#
+    print(plotInput())#
+#
+    })#
+  output$foo = downloadHandler(#
+    filename = function() { paste0(input$select, '.png') },#
+    content = function(file) {#
+        ggsave(file,plot = plotInput(), device = "png",width = 500,  height = 300#
+        )#
+    }#
+)#
+  }#
+))#
+#
+# test showing a table as well if possible#
+# create a DF that has the overall groupings AND the separate institutions
+library(shiny)#
+library( shinyWidgets )#
+#
+library(ggplot2)#
+#
+df=read.delim('./groups_and_institutions.csv', sep=',')#
+runApp(list(#
+  ui = basicPage(#
+    selectInput("select", "Select columns to display",c( 'is_coi_pred','is_register_pred','is_fund_pred','is_open_code','is_open_data'), multiple = FALSE),#
+    selectInput("institutioner", "Select institutions/groups to display",as.list(unique(df$short_name)), multiple = TRUE),#
+    numericInput("rangelow", "What minimum percentage would you like", 10, min = 1, max = 100),#
+	numericInput("rangehigh", "What maximum percentage would you like", 10, min = 1, max = 100),#
+	downloadButton('foo'),#
+    h2('The Karolinska Data'),#
+    plotOutput('PLOT')#
+  ),#
+  server = function(input, output, session) {#
+#
+ plotInput <- reactive({#
+    columns = names(df)#
+      if (!is.null(input$select)) {#
+        columns = input$select#
+      }#
+      rangelow=as.character(input$rangelow)#
+      rangehigh=as.character(input$rangehigh)#
+     df=df[df$short_name %in% input$institutioner, ]#
+     indicator_string=as.character(input$select)#
+  p=ggplot(df, aes(x=Publication.Year, y=.data[[input$select]], fill= short_name)) +#
+    geom_line(aes(color= short_name)) + #
+    geom_point(aes(color = short_name)) + #
+    xlab('Publication Year')+#
+    theme_bw()+ylim(rangelow, rangehigh)#
+    if (grepl('data',indicator_string))#
+  {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+    if (grepl('code',indicator_string))#
+  {return(p+labs(title='Code sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+  if (grepl('coi', indicator_string)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments') + xlab('Year')#
+                                             +ylab('COI statement (%)'))}#
+  if (grepl('fund', indicator_string)){return(p+labs(title='Funding statements over time for the Karolinska departments')+xlab('Year')#
+                                        +ylab('Funding statement (%)'))}#
+  if (grepl('register', indicator_string)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
+                                            xlab('Year')+ylab('Registrations (%)'))}#
+  })#
+    output$PLOT = renderPlot({#
+    print(plotInput())#
+#
+    })#
+  output$foo = downloadHandler(#
+    filename = function() { paste0(input$select, '.png') },#
+    content = function(file) {#
+        ggsave(file,plot = plotInput(), device = "png",width = 3,  height = 1.5#
+        )#
+    }#
+)#
+  }#
+))#
+#
+# test showing a table as well if possible#
+# create a DF that has the overall groupings AND the separate institutions
+library(shiny)#
+library( shinyWidgets )#
+#
+library(ggplot2)#
+#
+df=read.delim('./groups_and_institutions.csv', sep=',')#
+runApp(list(#
+  ui = basicPage(#
+    selectInput("select", "Select columns to display",c( 'is_coi_pred','is_register_pred','is_fund_pred','is_open_code','is_open_data'), multiple = FALSE),#
+    selectInput("institutioner", "Select institutions/groups to display",as.list(unique(df$short_name)), multiple = TRUE),#
+    numericInput("rangelow", "What minimum percentage would you like", 10, min = 1, max = 100),#
+	numericInput("rangehigh", "What maximum percentage would you like", 10, min = 1, max = 100),#
+	downloadButton('foo'),#
+    h2('The Karolinska Data'),#
+    plotOutput('PLOT')#
+  ),#
+  server = function(input, output, session) {#
+#
+ plotInput <- reactive({#
+    columns = names(df)#
+      if (!is.null(input$select)) {#
+        columns = input$select#
+      }#
+      rangelow=as.character(input$rangelow)#
+      rangehigh=as.character(input$rangehigh)#
+     df=df[df$short_name %in% input$institutioner, ]#
+     indicator_string=as.character(input$select)#
+  p=ggplot(df, aes(x=Publication.Year, y=.data[[input$select]], fill= short_name)) +#
+    geom_line(aes(color= short_name)) + #
+    geom_point(aes(color = short_name)) + #
+    xlab('Publication Year')+#
+    theme_bw()+ylim(rangelow, rangehigh)#
+    if (grepl('data',indicator_string))#
+  {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+    if (grepl('code',indicator_string))#
+  {return(p+labs(title='Code sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+  if (grepl('coi', indicator_string)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments') + xlab('Year')#
+                                             +ylab('COI statement (%)'))}#
+  if (grepl('fund', indicator_string)){return(p+labs(title='Funding statements over time for the Karolinska departments')+xlab('Year')#
+                                        +ylab('Funding statement (%)'))}#
+  if (grepl('register', indicator_string)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
+                                            xlab('Year')+ylab('Registrations (%)'))}#
+  })#
+    output$PLOT = renderPlot({#
+    print(plotInput())#
+#
+    })#
+  output$foo = downloadHandler(#
+    filename = function() { paste0(input$select, '.png') },#
+    content = function(file) {#
+        ggsave(file,plot = plotInput(), device = "png",width = 50,  height = 35#
+        )#
+    }#
+)#
+  }#
+))#
+#
+# test showing a table as well if possible#
+# create a DF that has the overall groupings AND the separate institutions
+library(shiny)#
+library( shinyWidgets )#
+#
+library(ggplot2)#
+#
+df=read.delim('./groups_and_institutions.csv', sep=',')#
+runApp(list(#
+  ui = basicPage(#
+    selectInput("select", "Select columns to display",c( 'is_coi_pred','is_register_pred','is_fund_pred','is_open_code','is_open_data'), multiple = FALSE),#
+    selectInput("institutioner", "Select institutions/groups to display",as.list(unique(df$short_name)), multiple = TRUE),#
+    numericInput("rangelow", "What minimum percentage would you like", 10, min = 1, max = 100),#
+	numericInput("rangehigh", "What maximum percentage would you like", 10, min = 1, max = 100),#
+	downloadButton('foo'),#
+    h2('The Karolinska Data'),#
+    plotOutput('PLOT')#
+  ),#
+  server = function(input, output, session) {#
+#
+ plotInput <- reactive({#
+    columns = names(df)#
+      if (!is.null(input$select)) {#
+        columns = input$select#
+      }#
+      rangelow=as.character(input$rangelow)#
+      rangehigh=as.character(input$rangehigh)#
+     df=df[df$short_name %in% input$institutioner, ]#
+     indicator_string=as.character(input$select)#
+  p=ggplot(df, aes(x=Publication.Year, y=.data[[input$select]], fill= short_name)) +#
+    geom_line(aes(color= short_name)) + #
+    geom_point(aes(color = short_name)) + #
+    xlab('Publication Year')+#
+    theme_bw()+ylim(rangelow, rangehigh)#
+    if (grepl('data',indicator_string))#
+  {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+    if (grepl('code',indicator_string))#
+  {return(p+labs(title='Code sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+  if (grepl('coi', indicator_string)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments') + xlab('Year')#
+                                             +ylab('COI statement (%)'))}#
+  if (grepl('fund', indicator_string)){return(p+labs(title='Funding statements over time for the Karolinska departments')+xlab('Year')#
+                                        +ylab('Funding statement (%)'))}#
+  if (grepl('register', indicator_string)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
+                                            xlab('Year')+ylab('Registrations (%)'))}#
+  })#
+    output$PLOT = renderPlot({#
+    print(plotInput())#
+#
+    })#
+  output$foo = downloadHandler(#
+    filename = function() { paste0(input$select, '.png') },#
+    content = function(file) {#
+        ggsave(file,plot = plotInput(), device = "png",width = 49,  height = 35#
+        )#
+    }#
+)#
+  }#
+))#
+#
+# test showing a table as well if possible#
+# create a DF that has the overall groupings AND the separate institutions
+library(shiny)#
+library( shinyWidgets )#
+#
+library(ggplot2)#
+#
+df=read.delim('./groups_and_institutions.csv', sep=',')#
+runApp(list(#
+  ui = basicPage(#
+    selectInput("select", "Select columns to display",c( 'is_coi_pred','is_register_pred','is_fund_pred','is_open_code','is_open_data'), multiple = FALSE),#
+    selectInput("institutioner", "Select institutions/groups to display",as.list(unique(df$short_name)), multiple = TRUE),#
+    numericInput("rangelow", "What minimum percentage would you like", 10, min = 1, max = 100),#
+	numericInput("rangehigh", "What maximum percentage would you like", 10, min = 1, max = 100),#
+	downloadButton('foo'),#
+    h2('The Karolinska Data'),#
+    plotOutput('PLOT')#
+  ),#
+  server = function(input, output, session) {#
+#
+ plotInput <- reactive({#
+    columns = names(df)#
+      if (!is.null(input$select)) {#
+        columns = input$select#
+      }#
+      rangelow=as.character(input$rangelow)#
+      rangehigh=as.character(input$rangehigh)#
+     df=df[df$short_name %in% input$institutioner, ]#
+     indicator_string=as.character(input$select)#
+  p=ggplot(df, aes(x=Publication.Year, y=.data[[input$select]], fill= short_name)) +#
+    geom_line(aes(color= short_name)) + #
+    geom_point(aes(color = short_name)) + #
+    xlab('Publication Year')+#
+    theme_bw()+ylim(rangelow, rangehigh)#
+    if (grepl('data',indicator_string))#
+  {return(p+labs(title='Data sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+    if (grepl('code',indicator_string))#
+  {return(p+labs(title='Code sharing over time for the Karolinska departments')+#
+            xlab('Year')+ylab('Code sharing (%)'))}#
+  if (grepl('coi', indicator_string)==TRUE){return(p+labs(title='Conflict of interest statements over time for the Karolinska departments') + xlab('Year')#
+                                             +ylab('COI statement (%)'))}#
+  if (grepl('fund', indicator_string)){return(p+labs(title='Funding statements over time for the Karolinska departments')+xlab('Year')#
+                                        +ylab('Funding statement (%)'))}#
+  if (grepl('register', indicator_string)){return(p+labs(title='Registrations over time for the Karolinska departments')+#
+                                            xlab('Year')+ylab('Registrations (%)'))}#
+  })#
+    output$PLOT = renderPlot({#
+    print(plotInput())#
+#
+    })#
+  output$foo = downloadHandler(#
+    filename = function() { paste0(input$select, '.png') },#
+    content = function(file) {#
+        ggsave(file,plot = plotInput(), device = "png",width = 10,  height = 7#
+        )#
+    }#
+)#
+  }#
+))#
+#
+# test showing a table as well if possible#
+# create a DF that has the overall groupings AND the separate institutions

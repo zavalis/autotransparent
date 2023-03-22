@@ -1,0 +1,1574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:07:30Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:4262408" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:4262408</identifier>
+        <datestamp>2014-12-15</datestamp>
+        <setSpec>plosone</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+              <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+              <journal-id journal-id-type="publisher-id">plos</journal-id>
+              <journal-id journal-id-type="pmc">plosone</journal-id>
+              <journal-title-group>
+                <journal-title>PLoS ONE</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1932-6203</issn>
+              <publisher>
+                <publisher-name>Public Library of Science</publisher-name>
+                <publisher-loc>San Francisco, USA</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC4262408</article-id>
+              <article-id pub-id-type="pmcid">PMC4262408</article-id>
+              <article-id pub-id-type="pmc-uid">4262408</article-id>
+              <article-id pub-id-type="pmid">25494198</article-id>
+              <article-id pub-id-type="pmid">25494198</article-id>
+              <article-id pub-id-type="publisher-id">PONE-D-14-23366</article-id>
+              <article-id pub-id-type="doi">10.1371/journal.pone.0114102</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v2">
+                  <subject>Medicine and Health Sciences</subject>
+                  <subj-group>
+                    <subject>Epidemiology</subject>
+                    <subj-group>
+                      <subject>Clinical Epidemiology</subject>
+                    </subj-group>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Neurology</subject>
+                    <subj-group>
+                      <subject>Sleep Deprivation</subject>
+                      <subject>Sleep Disorders</subject>
+                    </subj-group>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Public and Occupational Health</subject>
+                    <subj-group>
+                      <subject>Preventive Medicine</subject>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Complaints of Poor Sleep and Risk of Traffic Accidents: A Population-Based Case-Control Study</article-title>
+                <alt-title alt-title-type="running-head">Complaints of Poor Sleep and Risk of Traffic Accidents</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Philip</surname>
+                    <given-names>Pierre</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                  <xref ref-type="corresp" rid="cor1">
+                    <sup>*</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Chaufton</surname>
+                    <given-names>Cyril</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Orriols</surname>
+                    <given-names>Ludivine</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff4">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lagarde</surname>
+                    <given-names>Emmanuel</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff4">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Amoros</surname>
+                    <given-names>Emmanuelle</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Laumon</surname>
+                    <given-names>Bernard</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Akerstedt</surname>
+                    <given-names>Torbjorn</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Taillard</surname>
+                    <given-names>Jacques</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Sagaspe</surname>
+                    <given-names>Patricia</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <label>1</label>
+                <addr-line>Université de Bordeaux, Sommeil, Attention et Neuropsychiatrie, USR SANPSY 3413, F-33000 Bordeaux, France</addr-line>
+              </aff>
+              <aff id="aff2">
+                <label>2</label>
+                <addr-line>CNRS, SANPSY, USR 3413, F-33000 Bordeaux, France</addr-line>
+              </aff>
+              <aff id="aff3">
+                <label>3</label>
+                <addr-line>CHU Pellegrin, F-33076 Bordeaux, France</addr-line>
+              </aff>
+              <aff id="aff4">
+                <label>4</label>
+                <addr-line>INSERM U897, ISPED, Equipe PPCT, Université de Bordeaux, F-33000 Bordeaux, France</addr-line>
+              </aff>
+              <aff id="aff5">
+                <label>5</label>
+                <addr-line>IFSTTAR, TS2, UMRESTTE, F-69500 Bron, France et Université Lyon 1, F-69008 Lyon, France</addr-line>
+              </aff>
+              <aff id="aff6">
+                <label>6</label>
+                <addr-line>Stress Research Institute, Stockholm University, Stockholm, Sweden</addr-line>
+              </aff>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Taniike</surname>
+                    <given-names>Masako</given-names>
+                  </name>
+                  <role>Editor</role>
+                  <xref ref-type="aff" rid="edit1"/>
+                </contrib>
+              </contrib-group>
+              <aff id="edit1">
+                <addr-line>Osaka University, Japan</addr-line>
+              </aff>
+              <author-notes>
+                <corresp id="cor1">* E-mail: <email>pr.philip@free.fr</email></corresp>
+                <fn fn-type="COI-statement">
+                  <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+                </fn>
+                <fn fn-type="con">
+                  <p>Conceived and designed the experiments: PP BL EL TA. Performed the experiments: PP PS CC JT EA. Analyzed the data: PS PP EL. Contributed reagents/materials/analysis tools: PP TA PS EL EA JT. Wrote the paper: PS PP CC LO EL EA BL TA JT.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2014</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>10</day>
+                <month>12</month>
+                <year>2014</year>
+              </pub-date>
+              <volume>9</volume>
+              <issue>12</issue>
+              <elocation-id>e114102</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>3</day>
+                  <month>6</month>
+                  <year>2014</year>
+                </date>
+                <date date-type="accepted">
+                  <day>4</day>
+                  <month>11</month>
+                  <year>2014</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2014 Philip et al</copyright-statement>
+                <copyright-year>2014</copyright-year>
+                <copyright-holder>Philip et al</copyright-holder>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <sec>
+                  <title>Introduction</title>
+                  <p>This study aimed to determine the sleepiness-related factors associated with road traffic accidents.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p>A population based case-control study was conducted in 2 French agglomerations. 272 road accident cases hospitalized in emergency units and 272 control drivers matched by time of day and randomly stopped by police forces were included in the study. Odds ratios were calculated for the risk of road traffic accidents.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p>As expected, the main predictive factor for road traffic accidents was having a sleep episode at the wheel just before the accident (OR 9.97, CI 95%: 1.57–63.50, p&lt;0.05). The increased risk of traffic accidents was 3.35 times higher in subjects who reported very poor quality sleep during the last 3 months (CI 95%: 1.30–8.63, p&lt;0.05), 1.69 times higher in subjects reporting sleeping 6 hours or fewer per night during the last 3 months (CI 95%: 1.00–2.85, p&lt;0.05), 2.02 times higher in subjects reporting symptoms of anxiety or nervousness in the previous day (CI 95%: 1.03–3.97, p&lt;0.05), and 3.29 times higher in subjects reporting taking more than 2 medications in the last 24 h (CI 95%: 1.14–9.44, p&lt;0.05). Chronic daytime sleepiness measured by the Epworth Sleepiness Scale, expressed heavy snoring and nocturnal leg movements did not explain traffic accidents.</p>
+                </sec>
+                <sec>
+                  <title>Conclusion</title>
+                  <p>Physicians should be attentive to complaints of poor sleep quality and quantity, symptoms of anxiety-nervousness and/or drug consumption in regular car drivers.</p>
+                </sec>
+              </abstract>
+              <funding-group>
+                <funding-statement>This research was supported by a grant from DSCR (Délégation à la Sécurité et à la Circulation Routières, Ministère de l'Intérieur, France). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+              </funding-group>
+              <counts>
+                <page-count count="14"/>
+              </counts>
+              <custom-meta-group>
+                <custom-meta id="data-availability">
+                  <meta-name>Data Availability</meta-name>
+                  <meta-value>The authors confirm that all data underlying the findings are fully available without restriction. All relevant data are within the paper and its Supporting Information files.</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+            <notes>
+              <title>Data Availability</title>
+              <p>The authors confirm that all data underlying the findings are fully available without restriction. All relevant data are within the paper and its Supporting Information files.</p>
+            </notes>
+          </front>
+          <body>
+            <sec id="s1">
+              <title>Introduction</title>
+              <p>Driver sleepiness and fatigue are now considered to be important factors contributing to road traffic accidents <xref rid="pone.0114102-Horne1" ref-type="bibr">[1]</xref>, <xref rid="pone.0114102-Stutts1" ref-type="bibr">[2]</xref>, <xref rid="pone.0114102-Philip1" ref-type="bibr">[3]</xref>, <xref rid="pone.0114102-Sagaspe1" ref-type="bibr">[4]</xref>, <xref rid="pone.0114102-Philip2" ref-type="bibr">[5]</xref>. Estimates of the proportion of car crashes attributable to driver sleepiness vary between 6 and 20% in Western countries according to the type of roads and countries.</p>
+              <p>Ten years ago in New Zealand, Connor et al. <xref rid="pone.0114102-Connor1" ref-type="bibr">[6]</xref> assessed the relationship between driver sleepiness and the risk of car accidents in a population-based case-control study that compared 571 car drivers involved in crashes (in which at least one occupant was admitted to hospital or killed) with 588 representative drivers recruited while driving on public roads. The authors found that an increased risk of an injury crash was associated with acute subjective sleepiness immediately before the crash or survey (sleepiness at the wheel), and two determinants of it: acute sleep deprivation (i.e. driving after five hours of sleep or fewer) and time of the day (i.e. driving between 2 am and 5 am). In contrast, no increase in risk was associated with measures of excessive daytime sleepiness, chronic partial sleep deprivation or heavy snoring. Interestingly, sleep-related questions concerned only a small part of the interview and the study did not focus on complaints related to sleep quality and quantity.</p>
+              <p>More recently, two French epidemiological studies confirmed that sleepiness at the wheel was associated with a higher risk of road accidents <xref rid="pone.0114102-Sagaspe1" ref-type="bibr">[4]</xref>, <xref rid="pone.0114102-Philip2" ref-type="bibr">[5]</xref>. They also identified insomnia and mental disorders as new factors associated with an increased risk of road accidents.</p>
+              <p>More than ten years have passed since the Connor study <xref rid="pone.0114102-Connor1" ref-type="bibr">[6]</xref> which has not yet been replicated. In addition, no study to our knowledge has explored the involvement of additional factors such as mental disorders or insomnia in the increase in crash risk by using the same method. Therefore we designed a case-control study whose objective was to examine the relationship between the risk of severe road accidents and classical factors (i.e., sleepiness at the wheel, sleep duration) or new factors unexplored by Connor's study such as sleep complaints and mental disorders.</p>
+            </sec>
+            <sec sec-type="methods" id="s2">
+              <title>Methods</title>
+              <p>We conducted a case-control study between June 15<sup>th</sup>, 2011 and October 31<sup>st</sup> 2012. Data were collected in a large agglomeration (Bordeaux, 750,000 inhabitants) and in a small-sized city (Libourne, 30,000 inhabitants) in the Gironde department, Aquitaine, southwest France. The regions include intra-city road and rural areas.</p>
+              <p>The study population included 544 participants who drove a light 4-wheel vehicle (272 cases and 272 controls). Drivers of trucks, taxis and emergency vehicles were excluded from the study because they may be considered as professional drivers.</p>
+              <p>The study was approved by the local ethics committee (consultative committee for the protection of persons participating in biomedical research [CPP Bordeaux]). Informed consent by participants was not required by the ethics committee because this study was considered as an epidemiological study and not as an interventional one. The database was anonymous according to the recommendations of the French Data Protection Authority which insures the ethical usage of data collected for scientific purpose.</p>
+              <sec id="s2a">
+                <title>Selection of cases</title>
+                <p>We included drivers who were admitted to emergency units after a road traffic accident. They were informed about the aim of the study and interviewed about the circumstances surrounding the accident by a clinical research assistant face-to-face (n = 227/272, 83.5%) or by telephone at home (n = 45/272, 16.5%) when hospitalization was too short.</p>
+                <p>Interviewers had received intensive training with a physician to be able to conduct a clinical interview focused on sleep complaints and sleep disorders. In total, 272 cases (Bordeaux, n = 224, 82.4% and Libourne, n = 48, 17.6%) were included in the study.</p>
+              </sec>
+              <sec id="s2b">
+                <title>Selection of controls</title>
+                <p>Controls were drivers interviewed during road checks randomly carried out by the police forces. The selection of controls was matched on time of day of the accidents with controls. The police stopped cars one by one in intra-city road and rural areas and conducted their routine inspection, which included inspecting the driver's license and sometimes requesting an alcohol breath test. Afterwards a clinical research assistant asked the drivers if they agreed to participate in the present study. If so, they were interviewed at the roadside. In total, 272 controls were included in the study.</p>
+              </sec>
+              <sec id="s2c">
+                <title>Questionnaire administration</title>
+                <p>Participants (i.e., cases and controls) were asked by a research assistant trained in sleep medicine and clinical evaluation to answer a 20-minute questionnaire based on Connor's methodology <xref rid="pone.0114102-Connor1" ref-type="bibr">[6]</xref> at the hospital within the 24 hours following the accident or when stopped by the police. The questionnaire included questions about demographics, working hours, driving habits, accident circumstances, acute measures of sleepiness (including sleep in the last 24 hours), sleep hygiene (sleep-wake schedules), chronic measures of sleepiness (Epworth Sleepiness score <xref rid="pone.0114102-Johns1" ref-type="bibr">[7]</xref>) and sleep disorders (e.g., symptoms of insomnia, sleep apnea and restless legs) in the last three months, self-rated health status and alcohol/drug intake in the last 24 hours. The questions related to how the cases felt immediately before the accidents were worded for the controls as “immediately before being stopped by the police”.</p>
+              </sec>
+              <sec id="s2d">
+                <title>Calculation of sample size</title>
+                <p>Considering the association between the risk of car crash injury and a Stanford Sleepiness score of more than 3 (4–7), the sample size to achieve a sufficient statistical power to demonstrate an OR of 8.2 and more, as estimated by Connor and colleagues <xref rid="pone.0114102-Connor1" ref-type="bibr">[6]</xref> (with an exposure rate among controls of 1%), had to include 90 subjects in each case and control group, with a first and second order risk of 5% (alpha) and 20% (beta). Our sample size therefore allowed for further adjustment on potential confounders.</p>
+              </sec>
+              <sec id="s2e">
+                <title>Statistical analyses</title>
+                <p>Quantitative variables were expressed as mean and standard deviation (SD), and qualitative variables were expressed as relative frequency. The Khi<sup>2</sup> or t-test were used to show significant differences between cases and controls (p&lt;.05).</p>
+                <p>All variables associated with being a case (i.e., having a driving accident) were initially examined separately using univariate models.</p>
+                <p>Multivariate logistic regression analyses were performed for all variables that showed a significant association in univariate models (p&lt;0.05) to control for confounding factors. The referent group for each factor was selected as drivers thought to be at the lowest risk of accidents.</p>
+                <p>A significant association was found between being a case (i.e., having a driving accident) and the following variables:</p>
+                <p>Demographic variables: Age, gender and marital status;</p>
+                <p>Driving variables: Time since acquisition of driver's license, kilometers driven per year and type of road;</p>
+                <p>Legal drug consumption: Medication in the last 24 h, taking hypnotics on the previous day, taking antidepressants on the previous day, number of medications taken with pictogram (medications were labeled with risk levels in the French classification system from 0 “no risk” to 3 “high risk”) in the last 24 h, medications with pictograms 2 (be very careful) or 3 (danger: do not drive) in the last 24 h, taking a treatment against insomnia in the previous week, taking a treatment against anxiety in the previous week, taking a treatment against depression in the previous week and treatment for a sleep disorder;</p>
+                <p>Behavioral variables: Taking a break during the journey, adjusting the radio, GPS or dialing a phone number, and looking at something in the environment;</p>
+                <p>Sleep-related and psychiatric variables: Epworth Sleepiness Scale (ESS) scores <xref rid="pone.0114102-Johns1" ref-type="bibr">[7]</xref>, total sleep time in the last 24 h, sufficient sleep in the previous night, having symptoms of anxiety or nervousness on the previous day, symptoms of depression on the previous day, experience of occupational stress on the previous day, experience of personal stress on the previous day, sleepiness at the wheel 10 min just before the accident, having a sleep episode just before the accident, difficulty falling asleep, repeated awakenings, premature awakening, not being refreshed by sleep, leg movements during sleep in the last three months, sleeping 6 hours of nocturnal sleep or fewer in the last three months, needing to fight against sleep to keep awake, quality of sleep and quantity of sleep.</p>
+                <p>Age, marital status, holding a driving license, kilometers driven per year, type of road, and number of medications in the last 24 h were categorized for statistical analysis. Taking a break during the journey was dichotomized as yes or no. ESS scores were classified as 0–10 or &gt;11. Total sleep time in last 24 h was dichotomized as fewer than 6 hours or more than 6 hours. Sufficient sleep in the previous night, having symptoms of anxiety or nervousness on the previous day, experiencing symptoms of depression on the previous day, experience of occupational stress on the previous day, experience of personal stress on the previous day, taking hypnotics on the previous day, and taking antidepressants on the previous day were dichotomized as yes or no. Number of medications taken with pictogram in the last 24 h was categorized as 0, 1, 2 and ≧3. Medications with pictograms 2 or 3 in the last 24 h, taking a treatment against insomnia in the previous week, taking a treatment against anxiety in the previous week and taking a treatment against depression in the previous week were dichotomized as yes or no. Sleepiness at the wheel 10 min just before the accident was categorized as 1–4, 5–6 and 7–9. Adjusting the radio, GPS or dialing a phone number, looking at something in the environment and having a sleep episode just before the accident were dichotomized as yes or no. Difficulty falling asleep, repeated awakenings, premature awakening, not being refreshed by sleep, leg movements during sleep, sleeping 6 hours or fewer and needing to fight against sleep to keep awake in the last three months were dichotomized as never, rarely/sometimes, often/very often. Quality of sleep in the last three months was dichotomized as very/pretty good, neither good nor bad, pretty/very bad. Quantity of sleep in the last three months was dichotomized as definitely/broadly enough, rather little, clearly/definitely not enough. Treatment for a sleep disorder was dichotomized as yes or no.</p>
+                <p>For statistical analyses, we used self-reported data on alcohol consumption rather than blood alcohol concentrations measured at the emergency unit because the former are far more complete.</p>
+                <p>Statistical tests of odds ratios (ORs) were based on Wald statistics. Odds ratios and their 95% confidence intervals (CIs) are presented to show the association.</p>
+                <p>All analyses were performed with the SPSS statistical software package (SPSS, version12.0, Chicago, IL, USA).</p>
+              </sec>
+            </sec>
+            <sec id="s3">
+              <title>Results</title>
+              <sec id="s3a">
+                <title>Population</title>
+                <p>We assessed 840 cases for eligibility. Out of these 840, 53 were unable to answer (severe injury), 18 refused to participate and 497 subjects were not interviewed (hospitalization &lt;2 h). The final sample for analysis comprised 272 patients (32% of the 840 eligible drivers). Of 272 cases, more than half were females (57.3%). The mean age was 39.8±16.9 for cases and 43.9±16.0 for controls. The Body Mass Index (BMI) ranged from 15.6 to 44.4 kg m<sup>−2</sup> for cases and from 16.8 to 47.8 kg m<sup>−2</sup> for controls (<xref ref-type="table" rid="pone-0114102-t001">Table 1</xref>).</p>
+                <table-wrap id="pone-0114102-t001" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0114102.t001</object-id>
+                  <label>Table 1</label>
+                  <caption>
+                    <title>Demographic characteristics of cases (i.e., drivers admitted to emergency unit at hospital) and controls (i.e., drivers interviewed during road checks carried out by the police).</title>
+                  </caption>
+                  <alternatives>
+                    <graphic id="pone-0114102-t001-1" xlink:href="pone.0114102.t001"/>
+                    <table frame="hsides" rules="groups">
+                      <colgroup span="1">
+                        <col align="left" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <td rowspan="2" align="left" colspan="1">Characteristics</td>
+                          <td colspan="2" align="left" rowspan="1">Percent or Mean ± SD</td>
+                          <td align="left" rowspan="1" colspan="1">Khi<sup>2</sup> or T-test</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Cases (n = 272)</td>
+                          <td align="left" rowspan="1" colspan="1">Controls (n = 272)</td>
+                          <td align="left" rowspan="1" colspan="1"><italic>p</italic> value</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Age (years) (%)</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">.01</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">18–30</td>
+                          <td align="left" rowspan="1" colspan="1">38.6</td>
+                          <td align="left" rowspan="1" colspan="1">24.6</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">31–50</td>
+                          <td align="left" rowspan="1" colspan="1">38.6</td>
+                          <td align="left" rowspan="1" colspan="1">42.5</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">51–65</td>
+                          <td align="left" rowspan="1" colspan="1">12.9</td>
+                          <td align="left" rowspan="1" colspan="1">20.6</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">&gt;65</td>
+                          <td align="left" rowspan="1" colspan="1">9.9</td>
+                          <td align="left" rowspan="1" colspan="1">12.1</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Female (%)</td>
+                          <td align="left" rowspan="1" colspan="1">57.3</td>
+                          <td align="left" rowspan="1" colspan="1">42.6</td>
+                          <td align="left" rowspan="1" colspan="1">.001</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">BMI (kg m<sup>−2</sup>)</td>
+                          <td align="left" rowspan="1" colspan="1">23.8±4.0</td>
+                          <td align="left" rowspan="1" colspan="1">24.5±4.1</td>
+                          <td align="left" rowspan="1" colspan="1">ns</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Marital Status (%)</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">.01</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Married</td>
+                          <td align="left" rowspan="1" colspan="1">50.7</td>
+                          <td align="left" rowspan="1" colspan="1">67.1</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Single</td>
+                          <td align="left" rowspan="1" colspan="1">37.9</td>
+                          <td align="left" rowspan="1" colspan="1">26.8</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Separated, divorced or widowed</td>
+                          <td align="left" rowspan="1" colspan="1">11.4</td>
+                          <td align="left" rowspan="1" colspan="1">7.7</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Occupational status (%)</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">.001</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Active</td>
+                          <td align="left" rowspan="1" colspan="1">67.0</td>
+                          <td align="left" rowspan="1" colspan="1">72.5</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Retired</td>
+                          <td align="left" rowspan="1" colspan="1">11.7</td>
+                          <td align="left" rowspan="1" colspan="1">17.2</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Student</td>
+                          <td align="left" rowspan="1" colspan="1">5.9</td>
+                          <td align="left" rowspan="1" colspan="1">1.8</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Non-active</td>
+                          <td align="left" rowspan="1" colspan="1">9.2</td>
+                          <td align="left" rowspan="1" colspan="1">3.7</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Disabled person</td>
+                          <td align="left" rowspan="1" colspan="1">4.4</td>
+                          <td align="left" rowspan="1" colspan="1">1.1</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Other</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">3.3</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Working period (%)</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">ns</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Diurnal work</td>
+                          <td align="left" rowspan="1" colspan="1">57.9</td>
+                          <td align="left" rowspan="1" colspan="1">63.4</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Shift work without night shift</td>
+                          <td align="left" rowspan="1" colspan="1">5.5</td>
+                          <td align="left" rowspan="1" colspan="1">3.7</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Shift work with night shift</td>
+                          <td align="left" rowspan="1" colspan="1">6.2</td>
+                          <td align="left" rowspan="1" colspan="1">5.1</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Nighttime work</td>
+                          <td align="left" rowspan="1" colspan="1">0.7</td>
+                          <td align="left" rowspan="1" colspan="1">1.1</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Working hours per week (h)</td>
+                          <td align="left" rowspan="1" colspan="1">39.2±11.9</td>
+                          <td align="left" rowspan="1" colspan="1">38.9±9.9</td>
+                          <td align="left" rowspan="1" colspan="1">ns</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Having a driving license (years)</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">.05</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">0–2</td>
+                          <td align="left" rowspan="1" colspan="1">32.3</td>
+                          <td align="left" rowspan="1" colspan="1">22.1</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">&gt;2</td>
+                          <td align="left" rowspan="1" colspan="1">65.1</td>
+                          <td align="left" rowspan="1" colspan="1">75.7</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Kilometers driven per year (%)</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">.001</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">0–5 000</td>
+                          <td align="left" rowspan="1" colspan="1">25.0</td>
+                          <td align="left" rowspan="1" colspan="1">12.1</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">&gt;5 000</td>
+                          <td align="left" rowspan="1" colspan="1">56.6</td>
+                          <td align="left" rowspan="1" colspan="1">77.9</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                  <table-wrap-foot>
+                    <fn id="nt101">
+                      <label/>
+                      <p>BMI, body mass index.</p>
+                    </fn>
+                    <fn id="nt102">
+                      <label/>
+                      <p>Column totals may differ owing to missing data.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec id="s3b">
+                <title>Univariate analyses</title>
+                <sec id="s3b1">
+                  <title>Sleep complaints</title>
+                  <p>Univariate analysis showed that case drivers reported more nocturnal sleep complaints and EDS than control drivers (<xref ref-type="table" rid="pone-0114102-t002">Table 2</xref>). 26.5% of cases and 20.6% of control drivers reported sleeping fewer than 6 hours per night in the last three months.</p>
+                  <table-wrap id="pone-0114102-t002" orientation="portrait" position="float">
+                    <object-id pub-id-type="doi">10.1371/journal.pone.0114102.t002</object-id>
+                    <label>Table 2</label>
+                    <caption>
+                      <title>Sleepiness assessment, symptoms of sleep disorders, psychiatric symptoms, medication consumption and driving conditions for cases (i.e., drivers admitted to emergency unit at hospital) and controls (i.e., drivers interviewed during road checks carried out by the police).</title>
+                    </caption>
+                    <alternatives>
+                      <graphic id="pone-0114102-t002-2" xlink:href="pone.0114102.t002"/>
+                      <table frame="hsides" rules="groups">
+                        <colgroup span="1">
+                          <col align="left" span="1"/>
+                          <col align="center" span="1"/>
+                          <col align="center" span="1"/>
+                          <col align="center" span="1"/>
+                        </colgroup>
+                        <thead>
+                          <tr>
+                            <td rowspan="2" align="left" colspan="1">Characteristics</td>
+                            <td colspan="2" align="left" rowspan="1">Percent or Mean ± SD</td>
+                            <td align="left" rowspan="1" colspan="1">Khi<sup>2</sup> or T-test</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Cases (n = 272)</td>
+                            <td align="left" rowspan="1" colspan="1">Controls (n = 272)</td>
+                            <td align="left" rowspan="1" colspan="1"><italic>p</italic> value</td>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Degree of sleepiness at the wheel 10 min before accident or interview</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1">.01</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">1–4</td>
+                            <td align="left" rowspan="1" colspan="1">89.0</td>
+                            <td align="left" rowspan="1" colspan="1">95.6</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">5–6</td>
+                            <td align="left" rowspan="1" colspan="1">4.4</td>
+                            <td align="left" rowspan="1" colspan="1">3.7</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">7–9</td>
+                            <td align="left" rowspan="1" colspan="1">5.1</td>
+                            <td align="left" rowspan="1" colspan="1">0.7</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Having a sleep episode just before accident or interview</td>
+                            <td align="left" rowspan="1" colspan="1">6.2</td>
+                            <td align="left" rowspan="1" colspan="1">1.1</td>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Being involved in an accident due to sleepiness in the previous year</td>
+                            <td align="left" rowspan="1" colspan="1">3.3</td>
+                            <td align="left" rowspan="1" colspan="1">2.3</td>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">ESS</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1">.05</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">0–10</td>
+                            <td align="left" rowspan="1" colspan="1">86.4</td>
+                            <td align="left" rowspan="1" colspan="1">92.3</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">&gt;11</td>
+                            <td align="left" rowspan="1" colspan="1">13.6</td>
+                            <td align="left" rowspan="1" colspan="1">7.7</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Total sleep time in last 24 h less than 6 hours</td>
+                            <td align="left" rowspan="1" colspan="1">22.4</td>
+                            <td align="left" rowspan="1" colspan="1">15.4</td>
+                            <td align="left" rowspan="1" colspan="1">.05</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Sufficient sleep in previous night</td>
+                            <td align="left" rowspan="1" colspan="1">74.6</td>
+                            <td align="left" rowspan="1" colspan="1">82.0</td>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Had a nap during the day</td>
+                            <td align="left" rowspan="1" colspan="1">7.7</td>
+                            <td align="left" rowspan="1" colspan="1">10.3</td>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Driving duration before accident or interview (min)</td>
+                            <td align="left" rowspan="1" colspan="1">22±24</td>
+                            <td align="left" rowspan="1" colspan="1">28±40</td>
+                            <td align="left" rowspan="1" colspan="1">.056</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Quality of sleep</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Very/pretty good</td>
+                            <td align="left" rowspan="1" colspan="1">73.5</td>
+                            <td align="left" rowspan="1" colspan="1">83.8</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Neither good nor bad</td>
+                            <td align="left" rowspan="1" colspan="1">10.3</td>
+                            <td align="left" rowspan="1" colspan="1">8.2</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Pretty/very bad</td>
+                            <td align="left" rowspan="1" colspan="1">10.7</td>
+                            <td align="left" rowspan="1" colspan="1">6.6</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Quantity of sleep</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Definitely/broadly enough</td>
+                            <td align="left" rowspan="1" colspan="1">59.2</td>
+                            <td align="left" rowspan="1" colspan="1">76.8</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Rather little</td>
+                            <td align="left" rowspan="1" colspan="1">8.1</td>
+                            <td align="left" rowspan="1" colspan="1">10.3</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Clearly/definitely not enough</td>
+                            <td align="left" rowspan="1" colspan="1">32.4</td>
+                            <td align="left" rowspan="1" colspan="1">13.0</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">In the last three months, experienced any of the following symptoms (often/very often)</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Difficulty falling asleep</td>
+                            <td align="left" rowspan="1" colspan="1">29.8</td>
+                            <td align="left" rowspan="1" colspan="1">11.8</td>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Disturbed/restless sleep</td>
+                            <td align="left" rowspan="1" colspan="1">26.1</td>
+                            <td align="left" rowspan="1" colspan="1">15.8</td>
+                            <td align="left" rowspan="1" colspan="1">.01</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Repeated awakenings</td>
+                            <td align="left" rowspan="1" colspan="1">25.0</td>
+                            <td align="left" rowspan="1" colspan="1">12.5</td>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Premature awakening</td>
+                            <td align="left" rowspan="1" colspan="1">26.1</td>
+                            <td align="left" rowspan="1" colspan="1">16.5</td>
+                            <td align="left" rowspan="1" colspan="1">.05</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Not being refreshed by sleep</td>
+                            <td align="left" rowspan="1" colspan="1">21.7</td>
+                            <td align="left" rowspan="1" colspan="1">8.1</td>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Heavy snoring</td>
+                            <td align="left" rowspan="1" colspan="1">13.6</td>
+                            <td align="left" rowspan="1" colspan="1">16.2</td>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Respiratory interruptions during sleep</td>
+                            <td align="left" rowspan="1" colspan="1">1.1</td>
+                            <td align="left" rowspan="1" colspan="1">1.5</td>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Leg movements during sleep</td>
+                            <td align="left" rowspan="1" colspan="1">10.7</td>
+                            <td align="left" rowspan="1" colspan="1">5.5</td>
+                            <td align="left" rowspan="1" colspan="1">.05</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Slept 6 hours or fewer</td>
+                            <td align="left" rowspan="1" colspan="1">26.5</td>
+                            <td align="left" rowspan="1" colspan="1">20.6</td>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Sleepiness at work/leisure</td>
+                            <td align="left" rowspan="1" colspan="1">8.1</td>
+                            <td align="left" rowspan="1" colspan="1">5.1</td>
+                            <td align="left" rowspan="1" colspan="1">.01</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Involuntary sleep episodes at work/leisure</td>
+                            <td align="left" rowspan="1" colspan="1">3.3</td>
+                            <td align="left" rowspan="1" colspan="1">0.7</td>
+                            <td align="left" rowspan="1" colspan="1">.05</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Need to fight against sleep to keep awake</td>
+                            <td align="left" rowspan="1" colspan="1">6.6</td>
+                            <td align="left" rowspan="1" colspan="1">2.9</td>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">On the previous day, symptoms of</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Persistent fatigue</td>
+                            <td align="left" rowspan="1" colspan="1">16.5</td>
+                            <td align="left" rowspan="1" colspan="1">12.9</td>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Severe pain</td>
+                            <td align="left" rowspan="1" colspan="1">3.7</td>
+                            <td align="left" rowspan="1" colspan="1">6.2</td>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Fever/flu symptoms</td>
+                            <td align="left" rowspan="1" colspan="1">1.8</td>
+                            <td align="left" rowspan="1" colspan="1">1.5</td>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Mental fatigue</td>
+                            <td align="left" rowspan="1" colspan="1">18.7</td>
+                            <td align="left" rowspan="1" colspan="1">10.7</td>
+                            <td align="left" rowspan="1" colspan="1">.01</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Anxiety/nervousness</td>
+                            <td align="left" rowspan="1" colspan="1">27.6</td>
+                            <td align="left" rowspan="1" colspan="1">14.7</td>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Depression/low mood</td>
+                            <td align="left" rowspan="1" colspan="1">9.9</td>
+                            <td align="left" rowspan="1" colspan="1">4.0</td>
+                            <td align="left" rowspan="1" colspan="1">.05</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">On the previous day, experience of</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Occupational stress</td>
+                            <td align="left" rowspan="1" colspan="1">12.9</td>
+                            <td align="left" rowspan="1" colspan="1">21.0</td>
+                            <td align="left" rowspan="1" colspan="1">.01</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Personal stress</td>
+                            <td align="left" rowspan="1" colspan="1">19.8</td>
+                            <td align="left" rowspan="1" colspan="1">8.8</td>
+                            <td align="left" rowspan="1" colspan="1">.01</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">On the previous day, taking</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Analgesic/antipyretic medication</td>
+                            <td align="left" rowspan="1" colspan="1">10.6</td>
+                            <td align="left" rowspan="1" colspan="1">10.6</td>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Sedatives</td>
+                            <td align="left" rowspan="1" colspan="1">8.8</td>
+                            <td align="left" rowspan="1" colspan="1">0.4</td>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Hypnotics</td>
+                            <td align="left" rowspan="1" colspan="1">4.0</td>
+                            <td align="left" rowspan="1" colspan="1">0.4</td>
+                            <td align="left" rowspan="1" colspan="1">.05</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Antidepressant medication</td>
+                            <td align="left" rowspan="1" colspan="1">9.6</td>
+                            <td align="left" rowspan="1" colspan="1">0.4</td>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Number of medications in the last 24 h</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">0</td>
+                            <td align="left" rowspan="1" colspan="1">34.9</td>
+                            <td align="left" rowspan="1" colspan="1">51.1</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">1</td>
+                            <td align="left" rowspan="1" colspan="1">28.7</td>
+                            <td align="left" rowspan="1" colspan="1">32.0</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">2</td>
+                            <td align="left" rowspan="1" colspan="1">16.9</td>
+                            <td align="left" rowspan="1" colspan="1">11.8</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">≥3</td>
+                            <td align="left" rowspan="1" colspan="1">19.5</td>
+                            <td align="left" rowspan="1" colspan="1">5.1</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Medications with pictograms 2 or 3in the last 24 h</td>
+                            <td align="left" rowspan="1" colspan="1">19.1</td>
+                            <td align="left" rowspan="1" colspan="1">5.9</td>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">In the previous week, treatment against</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Insomnia</td>
+                            <td align="left" rowspan="1" colspan="1">8.8</td>
+                            <td align="left" rowspan="1" colspan="1">0.4</td>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Sleep apnea</td>
+                            <td align="left" rowspan="1" colspan="1">1.1</td>
+                            <td align="left" rowspan="1" colspan="1">0.0</td>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Restless legs syndrome</td>
+                            <td align="left" rowspan="1" colspan="1">0.4</td>
+                            <td align="left" rowspan="1" colspan="1">0.0</td>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Anxiety</td>
+                            <td align="left" rowspan="1" colspan="1">11.8</td>
+                            <td align="left" rowspan="1" colspan="1">1.8</td>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Depression</td>
+                            <td align="left" rowspan="1" colspan="1">10.7</td>
+                            <td align="left" rowspan="1" colspan="1">0.4</td>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Neurological disease</td>
+                            <td align="left" rowspan="1" colspan="1">1.1</td>
+                            <td align="left" rowspan="1" colspan="1">0.4</td>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Psychiatric disease</td>
+                            <td align="left" rowspan="1" colspan="1">1.8</td>
+                            <td align="left" rowspan="1" colspan="1">0.4</td>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Chronic pain</td>
+                            <td align="left" rowspan="1" colspan="1">6.2</td>
+                            <td align="left" rowspan="1" colspan="1">2.2</td>
+                            <td align="left" rowspan="1" colspan="1">.05</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Headache</td>
+                            <td align="left" rowspan="1" colspan="1">9.2</td>
+                            <td align="left" rowspan="1" colspan="1">7.7</td>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Pericardial disorder</td>
+                            <td align="left" rowspan="1" colspan="1">7.0</td>
+                            <td align="left" rowspan="1" colspan="1">2.2</td>
+                            <td align="left" rowspan="1" colspan="1">.05</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Hypertension</td>
+                            <td align="left" rowspan="1" colspan="1">9.6</td>
+                            <td align="left" rowspan="1" colspan="1">8.5</td>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Treatment for a sleep disorder</td>
+                            <td align="left" rowspan="1" colspan="1">19.8</td>
+                            <td align="left" rowspan="1" colspan="1">8.8</td>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Taking a break during the journey</td>
+                            <td align="left" rowspan="1" colspan="1">9.9</td>
+                            <td align="left" rowspan="1" colspan="1">27.9</td>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Alcohol/illicit substance intake</td>
+                            <td align="left" rowspan="1" colspan="1">23.9</td>
+                            <td align="left" rowspan="1" colspan="1">35.3</td>
+                            <td align="left" rowspan="1" colspan="1">.01</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Type of road</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1">.05</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Intra-city road</td>
+                            <td align="left" rowspan="1" colspan="1">46.7</td>
+                            <td align="left" rowspan="1" colspan="1">57.7</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">2 lanes country roads</td>
+                            <td align="left" rowspan="1" colspan="1">41.2</td>
+                            <td align="left" rowspan="1" colspan="1">36.0</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Highway</td>
+                            <td align="left" rowspan="1" colspan="1">11.8</td>
+                            <td align="left" rowspan="1" colspan="1">6.2</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Time of day of accident or interview</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Day</td>
+                            <td align="left" rowspan="1" colspan="1">70.6</td>
+                            <td align="left" rowspan="1" colspan="1">70.6</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Evening</td>
+                            <td align="left" rowspan="1" colspan="1">11.8</td>
+                            <td align="left" rowspan="1" colspan="1">11.8</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Night</td>
+                            <td align="left" rowspan="1" colspan="1">17.6</td>
+                            <td align="left" rowspan="1" colspan="1">17.6</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Main reasons for driving on road</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Occupational</td>
+                            <td align="left" rowspan="1" colspan="1">5.1</td>
+                            <td align="left" rowspan="1" colspan="1">16.5</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Home – workplace</td>
+                            <td align="left" rowspan="1" colspan="1">26.7</td>
+                            <td align="left" rowspan="1" colspan="1">17.9</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Other</td>
+                            <td align="left" rowspan="1" colspan="1">68.1</td>
+                            <td align="left" rowspan="1" colspan="1">65.2</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Undertaking distracting activities</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Adjusting the radio, GPS or dialing phone number</td>
+                            <td align="left" rowspan="1" colspan="1">1.8</td>
+                            <td align="left" rowspan="1" colspan="1">6.6</td>
+                            <td align="left" rowspan="1" colspan="1">.01</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Reaching for object in the car</td>
+                            <td align="left" rowspan="1" colspan="1">0.7</td>
+                            <td align="left" rowspan="1" colspan="1">0.4</td>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Talking on mobile phone</td>
+                            <td align="left" rowspan="1" colspan="1">0.0</td>
+                            <td align="left" rowspan="1" colspan="1">2.6</td>
+                            <td align="left" rowspan="1" colspan="1">.01</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Reading a map (or something else)</td>
+                            <td align="left" rowspan="1" colspan="1">1.5</td>
+                            <td align="left" rowspan="1" colspan="1">0.0</td>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Looking at something in the environment</td>
+                            <td align="left" rowspan="1" colspan="1">4.4</td>
+                            <td align="left" rowspan="1" colspan="1">0.7</td>
+                            <td align="left" rowspan="1" colspan="1">.01</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Disturbed by a passenger</td>
+                            <td align="left" rowspan="1" colspan="1">1.1</td>
+                            <td align="left" rowspan="1" colspan="1">0.7</td>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </alternatives>
+                  </table-wrap>
+                  <p>50.9% of these drivers reporting 6 hours of sleep per night or fewer during the last 3 months also reported insomniac complaints (experienced often/very often in the last three months: difficulty falling asleep, or disturbed/restless sleep, or repeated awakenings or premature awakening), while 49.1% of the drivers reported a short duration of sleep with no nocturnal complaints, referring more to an insufficient sleep syndrome.</p>
+                </sec>
+                <sec id="s3b2">
+                  <title>Driving accidents and sleepiness</title>
+                  <p>Most cases had minor injuries while severe injuries that prevented interviewing were rare (1.9%). Daily monitoring allowed the inclusion of 71.2% of the potential cases who were admitted to the emergency unit. The most common accidents were single-vehicle accidents (38.2%), collision with vehicle in the rear (23.2%), collision at intersection (12.1%), and collision with vehicle in the front (8.1%). 46.7% of the accidents occurred on intra-city roads, 41.2% on 2 lanes country roads and 11.8% on highways or four-lane roads. The peak accident time was between 06.00 and 12.00 h (44.1% of accidents). Conversely, nighttime accidents occurring between midnight and 06.00 h were rare (6.6% of accidents).</p>
+                  <p>6.2% of the cases experienced a sleep episode just before the accident versus only 1.1% of the 272 control drivers before the interview. 10.3% of the cases reported that sleepiness was a factor contributing to their accident (<xref ref-type="table" rid="pone-0114102-t002">Table 2</xref>).</p>
+                </sec>
+              </sec>
+              <sec id="s3c">
+                <title>Multivariate regression analysis of factors explaining road traffic accidents</title>
+                <sec id="s3c1">
+                  <title>Sociodemographic factors and driving behaviors</title>
+                  <p>Compared with our reference group (51–65-year-old drivers), 18- to 30-year-old drivers' accidental risk was associated with a 3.30-fold increase (CI 95%: 1.12–9.73, p&lt;0.05). Driving on highway/four-lane roads compared to other types of road was also associated with accidental risk (OR 3.77, CI 95%: 1.58–9.02, p&lt;0.01). Drivers who did not take a break during the journey were at higher risk of accidents than those who did (OR 4.04, CI 95%: 2.00–8.18, p&lt;0.001). Experiencing a sleep episode at the wheel just before the accident was associated with a 9.97-fold increase (CI 95%: 1.57–63.50, p&lt;0.05) in driving accident probability.</p>
+                </sec>
+                <sec id="s3c2">
+                  <title>Medical treatments</title>
+                  <p>Drivers who took more than 2 medications in the last 24 h were at higher risk of being involved in a road traffic accident (OR 3.29, CI 95%: 1.14–9.44, p&lt;0.05). Note that the most common associations for a major risk factor of accidents were by ascending order: antidepressant medication and sedatives 15.8% of cases, antidepressant medication and analgesic/antipyretic medication 9.2% of cases, antidepressant medication and hypnotics 7.9% of cases, analgesic/antipyretic medication and sedatives 6.6%, sedatives and hypnotics 5.3% of cases, and hypnotics and analgesic/antipyretic medication 5.3% of cases.</p>
+                </sec>
+                <sec id="s3c3">
+                  <title>Sleep and anxiety complaints</title>
+                  <p>Drivers who claimed to have very poor quality of sleep had a 3.35-fold increase in risk (CI 95%: 1.30–8.63, p&lt;0.05). Drivers who reported 6 hours or fewer of nocturnal sleep during the last 3 months were at significantly increased risk compared to those who had more than 6 hours (OR 1.69, CI 95%: 1.00–2.85, p&lt;0.05). Interestingly, anxiety-nervousness on the previous day was also associated with accidental risk (OR 2.02, CI 95%: 1.03–3.97, p&lt;0.05) but occupational stress was a protective factor (OR 3.60 CI 95%: 1.75–7.41, p&lt;0.001) (<xref ref-type="table" rid="pone-0114102-t003">Table 3</xref>).</p>
+                  <table-wrap id="pone-0114102-t003" orientation="portrait" position="float">
+                    <object-id pub-id-type="doi">10.1371/journal.pone.0114102.t003</object-id>
+                    <label>Table 3</label>
+                    <caption>
+                      <title>Multivariate logistic regression results for prediction of being a case (i.e., having a driving accident).</title>
+                    </caption>
+                    <alternatives>
+                      <graphic id="pone-0114102-t003-3" xlink:href="pone.0114102.t003"/>
+                      <table frame="hsides" rules="groups">
+                        <colgroup span="1">
+                          <col align="left" span="1"/>
+                          <col align="center" span="1"/>
+                          <col align="center" span="1"/>
+                          <col align="center" span="1"/>
+                          <col align="center" span="1"/>
+                          <col align="center" span="1"/>
+                        </colgroup>
+                        <thead>
+                          <tr>
+                            <td rowspan="2" align="left" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td colspan="2" align="left" rowspan="1">Driving accident</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Total <italic>n</italic>
+</td>
+                            <td align="left" rowspan="1" colspan="1">Yes <italic>n</italic>
+</td>
+                            <td align="left" rowspan="1" colspan="1">%</td>
+                            <td align="left" rowspan="1" colspan="1">Odds Ratio (95%CI)</td>
+                            <td align="left" rowspan="1" colspan="1"><italic>p</italic> value</td>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Age (years)</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">51–65</td>
+                            <td align="left" rowspan="1" colspan="1">90</td>
+                            <td align="left" rowspan="1" colspan="1">35</td>
+                            <td align="left" rowspan="1" colspan="1">38.9</td>
+                            <td align="left" rowspan="1" colspan="1">Referent</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">18–30</td>
+                            <td align="left" rowspan="1" colspan="1">172</td>
+                            <td align="left" rowspan="1" colspan="1">105</td>
+                            <td align="left" rowspan="1" colspan="1">61.0</td>
+                            <td align="left" rowspan="1" colspan="1"><bold>3.30</bold> (1.12–9.73)</td>
+                            <td align="left" rowspan="1" colspan="1">.05</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">31–50</td>
+                            <td align="left" rowspan="1" colspan="1">221</td>
+                            <td align="left" rowspan="1" colspan="1">105</td>
+                            <td align="left" rowspan="1" colspan="1">47.5</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">&gt;65</td>
+                            <td align="left" rowspan="1" colspan="1">60</td>
+                            <td align="left" rowspan="1" colspan="1">27</td>
+                            <td align="left" rowspan="1" colspan="1">45.0</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Type of road</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Intra-city road</td>
+                            <td align="left" rowspan="1" colspan="1">284</td>
+                            <td align="left" rowspan="1" colspan="1">127</td>
+                            <td align="left" rowspan="1" colspan="1">44.7</td>
+                            <td align="left" rowspan="1" colspan="1">Referent</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Highway/four-lane roads</td>
+                            <td align="left" rowspan="1" colspan="1">49</td>
+                            <td align="left" rowspan="1" colspan="1">32</td>
+                            <td align="left" rowspan="1" colspan="1">65.3</td>
+                            <td align="left" rowspan="1" colspan="1"><bold>3.77</bold> (1.58–9.02)</td>
+                            <td align="left" rowspan="1" colspan="1">.01</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Ordinary</td>
+                            <td align="left" rowspan="1" colspan="1">210</td>
+                            <td align="left" rowspan="1" colspan="1">112</td>
+                            <td align="left" rowspan="1" colspan="1">53.3</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Medication in the last 24 h</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">0</td>
+                            <td align="left" rowspan="1" colspan="1">319</td>
+                            <td align="left" rowspan="1" colspan="1">133</td>
+                            <td align="left" rowspan="1" colspan="1">41.7</td>
+                            <td align="left" rowspan="1" colspan="1">Referent</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">1</td>
+                            <td align="left" rowspan="1" colspan="1">120</td>
+                            <td align="left" rowspan="1" colspan="1">63</td>
+                            <td align="left" rowspan="1" colspan="1">52.5</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1">ns</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">2</td>
+                            <td align="left" rowspan="1" colspan="1">50</td>
+                            <td align="left" rowspan="1" colspan="1">35</td>
+                            <td align="left" rowspan="1" colspan="1">70.0</td>
+                            <td align="left" rowspan="1" colspan="1"><bold>3.29</bold> (1.14–9.44)</td>
+                            <td align="left" rowspan="1" colspan="1">.05</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">≥3</td>
+                            <td align="left" rowspan="1" colspan="1">49</td>
+                            <td align="left" rowspan="1" colspan="1">39</td>
+                            <td align="left" rowspan="1" colspan="1">79.6</td>
+                            <td align="left" rowspan="1" colspan="1"><bold>3.46</bold> (1.11–10.75)</td>
+                            <td align="left" rowspan="1" colspan="1">.05</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Break during the journey</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Yes</td>
+                            <td align="left" rowspan="1" colspan="1">103</td>
+                            <td align="left" rowspan="1" colspan="1">27</td>
+                            <td align="left" rowspan="1" colspan="1">26.2</td>
+                            <td align="left" rowspan="1" colspan="1">Referent</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">No</td>
+                            <td align="left" rowspan="1" colspan="1">439</td>
+                            <td align="left" rowspan="1" colspan="1">243</td>
+                            <td align="left" rowspan="1" colspan="1">55.3</td>
+                            <td align="left" rowspan="1" colspan="1"><bold>4.04</bold> (2.00–8.18)</td>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Symptoms of anxiety or nervousness on the previous day</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">No</td>
+                            <td align="left" rowspan="1" colspan="1">428</td>
+                            <td align="left" rowspan="1" colspan="1">197</td>
+                            <td align="left" rowspan="1" colspan="1">46.0</td>
+                            <td align="left" rowspan="1" colspan="1">Referent</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Yes</td>
+                            <td align="left" rowspan="1" colspan="1">115</td>
+                            <td align="left" rowspan="1" colspan="1">75</td>
+                            <td align="left" rowspan="1" colspan="1">65.2</td>
+                            <td align="left" rowspan="1" colspan="1"><bold>2.02</bold> (1.03–3.97)</td>
+                            <td align="left" rowspan="1" colspan="1">.05</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Experience of occupational stress on the previous day</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Yes</td>
+                            <td align="left" rowspan="1" colspan="1">92</td>
+                            <td align="left" rowspan="1" colspan="1">35</td>
+                            <td align="left" rowspan="1" colspan="1">38.0</td>
+                            <td align="left" rowspan="1" colspan="1">Referent</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">No</td>
+                            <td align="left" rowspan="1" colspan="1">448</td>
+                            <td align="left" rowspan="1" colspan="1">237</td>
+                            <td align="left" rowspan="1" colspan="1">52.9</td>
+                            <td align="left" rowspan="1" colspan="1"><bold>3.60</bold> (1.75–7.41)</td>
+                            <td align="left" rowspan="1" colspan="1">.001</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Having a sleep episode just before the accident</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">No</td>
+                            <td align="left" rowspan="1" colspan="1">511</td>
+                            <td align="left" rowspan="1" colspan="1">242</td>
+                            <td align="left" rowspan="1" colspan="1">47.3</td>
+                            <td align="left" rowspan="1" colspan="1">Referent</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Yes</td>
+                            <td align="left" rowspan="1" colspan="1">20</td>
+                            <td align="left" rowspan="1" colspan="1">17</td>
+                            <td align="left" rowspan="1" colspan="1">85</td>
+                            <td align="left" rowspan="1" colspan="1"><bold>9.97</bold> (1.57–63.50)</td>
+                            <td align="left" rowspan="1" colspan="1">.05</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Sleeping 6 h or fewer in the last three months</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">≧6 h</td>
+                            <td align="left" rowspan="1" colspan="1">208</td>
+                            <td align="left" rowspan="1" colspan="1">77</td>
+                            <td align="left" rowspan="1" colspan="1">37.0</td>
+                            <td align="left" rowspan="1" colspan="1">Referent</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">&lt;6 h</td>
+                            <td align="left" rowspan="1" colspan="1">336</td>
+                            <td align="left" rowspan="1" colspan="1">195</td>
+                            <td align="left" rowspan="1" colspan="1">58.0</td>
+                            <td align="left" rowspan="1" colspan="1"><bold>1.69</bold> (1.00–2.85)</td>
+                            <td align="left" rowspan="1" colspan="1">.05</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Quality of sleep in the last three months</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Very/pretty good</td>
+                            <td align="left" rowspan="1" colspan="1">410</td>
+                            <td align="left" rowspan="1" colspan="1">181</td>
+                            <td align="left" rowspan="1" colspan="1">44.1</td>
+                            <td align="left" rowspan="1" colspan="1">Referent</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Neither good nor bad</td>
+                            <td align="left" rowspan="1" colspan="1">76</td>
+                            <td align="left" rowspan="1" colspan="1">46</td>
+                            <td align="left" rowspan="1" colspan="1">60.2</td>
+                            <td align="left" rowspan="1" colspan="1"><bold>2.07</bold> (0.99–4.32)</td>
+                            <td align="left" rowspan="1" colspan="1">.052</td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Pretty/very bad</td>
+                            <td align="left" rowspan="1" colspan="1">58</td>
+                            <td align="left" rowspan="1" colspan="1">45</td>
+                            <td align="left" rowspan="1" colspan="1">77.6</td>
+                            <td align="left" rowspan="1" colspan="1"><bold>3.35</bold> (1.30–8.63)</td>
+                            <td align="left" rowspan="1" colspan="1">.05</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </alternatives>
+                    <table-wrap-foot>
+                      <fn id="nt103">
+                        <label/>
+                        <p>Figures are adjusted odds ratios and 95% confidence intervals (CI) for multivariate model *.</p>
+                      </fn>
+                      <fn id="nt104">
+                        <label/>
+                        <p>* Logistic regression analysis included age group, gender, kilometers driven per year, years of having a driving license, type of road and medication in the last 24 hours.</p>
+                      </fn>
+                    </table-wrap-foot>
+                  </table-wrap>
+                  <p>Heavy snoring, nocturnal leg movements and chronic daytime sleepiness measured by the ESS did not remain in the model.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="s4">
+              <title>Discussion</title>
+              <p>This controlled study confirms that sleepiness at the wheel is the strongest predictor of road traffic accidents and that usual short sleep duration (&lt;6 hr), poor sleep quality perception and medicinal drug consumption are associated with the occurrence of road accidents. Interestingly, sleep-related accidents occurred preferentially on the highway irrespective of the time at which the trip occurred. This could be explained by a higher legal speed limit on highways even if the French highways are the safest network for driving (vs. intra-city roads and 2 lanes country roads). Not taking a break during the journey also increases the risk of accidents. Type of roads and how the trip is organized are also clearly associated with the occurrence of sleep-related accidents.</p>
+              <p>Finally, we confirm that accidents mainly involve young people (i.e., 18–30 years old).</p>
+              <p>Our investigations confirm that falling asleep at the wheel is the strongest sleep-related factor associated with accident risk, as shown in previous studies <xref rid="pone.0114102-Sagaspe1" ref-type="bibr">[4]</xref>, <xref rid="pone.0114102-Philip2" ref-type="bibr">[5]</xref>, <xref rid="pone.0114102-Connor1" ref-type="bibr">[6]</xref>. Even if this case control study was not designed to analyze the prevalence of sleep-related accidents, our results corroborate recent French studies showing a prevalence of 6 to 10% of accidents due to sleepiness in a representative population of drivers <xref rid="pone.0114102-Sagaspe1" ref-type="bibr">[4]</xref> and in registered highway drivers <xref rid="pone.0114102-Philip2" ref-type="bibr">[5]</xref>.</p>
+              <p>We also found that less sleep and impaired quality of sleep over the last 3 months were associated with car accidents. There was almost a two-fold increased risk in drivers who reported 6 hours or fewer of nocturnal sleep in the last 3 months. The question arises whether drivers reporting short sleep duration were in fact insomniacs not perceiving their sleep or chronically sleep-deprived subjects suffering from poor sleep hygiene. Interestingly, a little more than half of the drivers reporting insufficient sleep also reported sleep complaints (i.e. Difficulty falling asleep and/or Repeated awakenings and/or Premature awakening). Even if these criteria partially fit the definition of chronic insomnia (based upon DSM-5 or ICSD-3 classifications), our findings suggest that this disorder might be an important factor helping to explain road accidents.</p>
+              <p>Interestingly, anxiety-nervousness was independently associated with accident risk while occupational stress was not associated with accidents. Emotional states such as anger or anxiety lead to negative and dangerous driving pattern <xref rid="pone.0114102-Roidl1" ref-type="bibr">[8]</xref>. Alternatively, the anxiety-nervousness itself may be associated with an increased risk of motor vehicle collisions <xref rid="pone.0114102-Wickens1" ref-type="bibr">[9]</xref>. Moreover, in a previous study, we have shown a significant association between accident risk and intense mind-wandering <xref rid="pone.0114102-Galera1" ref-type="bibr">[10]</xref>. Mind-wandering just before the crash could jeopardize the ability of drivers to incorporate information from the environment. In a recent study <xref rid="pone.0114102-Poerio1" ref-type="bibr">[11]</xref>, both feelings of sadness and anxiety were significantly and positively associated with mind-wandering to relevant life concerns, suggesting that aversive feelings tend to precede mind-wandering to current concerns. Therefore, we suggest that anxiety–nervousness might enhance mind-wandering and/or rumination leading to an increased risk. This finding is important because most studies to date have analyzed the use of psychotropic drugs such as benzodiazepine and accident risk but not the reasons why the drug was taken. Anxiety-nervousness and sleep complaints therefore both appear to be risk factors independently of CNS treatment.</p>
+              <p>In our study, experience of occupational stress on the previous day appeared as a protective factor. A study <xref rid="pone.0114102-Martiniuk1" ref-type="bibr">[12]</xref> found a protective effect of moderate level of psychological distress against crash in young drivers. Interestingly, our group has published a study showing that conversation with a passenger may contribute to safer lane-keeping when driving under a benzodiazepine <xref rid="pone.0114102-Motak1" ref-type="bibr">[13]</xref>. These results are consistent with the hypothesis that moderate level of distress or occupational stress may have a protective effect in encouraging more cautious driving behaviors and resulting in fewer driving accident.</p>
+              <p>Finally, our study shows that having taken 2 or more medications is associated with an increased risk of accidents. Patients treated for illness, injury and/or pain have a higher risk of traffic accidents than patients in good health. We do not know whether side effects of drugs are really involved in this increase in the accident rate or whether the disease itself and/or the pain are confounding factors. Our results confirm that taking psychotropic substances, identified as level 2 or 3 medications, is a risk factor of having an accident. These results illustrate the risk related to level 2 and 3 medications, especially for anti-depressant and hypnotic treatments. We confirm that the ESS is an insensitive measure not associated with accident risk, as previous authors have shown <xref rid="pone.0114102-Connor1" ref-type="bibr">[6]</xref>, <xref rid="pone.0114102-TeranSantos1" ref-type="bibr">[14]</xref>. Unlike for chronic daytime sleepiness, our study shows that situational assessments (e.g., did you have a sleep episode just before the accident?) are more appropriate for evaluating accident risk. It is therefore important to consider sleepiness at the wheel and not simply EDS when evaluating the driving risk in sleepy patients.</p>
+              <p>Our study has some limitations that may have introduced biases. The low response rates (cases 32%, controls 90%) and lack of available information about those who were not interviewed or declined to participate give rise to a sampling bias. Furthermore, the relatively small number of cases compromised the precision of some estimates of interest. However, the vast majority of accidents that were not investigated were due to the fact that the drivers involved were not severely injured and promptly left hospital.</p>
+              <p>The suspected risk factors associated with accidents were entirely based on self-reporting, thus increasing the risk of a recall bias and misclassification. Some factors such as sleep disorders and medications may have been underestimated. Alcohol/illicit substance intake and the use of devices while driving (radio, GPS, phone) were certainly under-reported among the cases because of their illegal status. Similarly, consumption of medication reported by the controls may have been underestimated given the non-medical interview environment. The responses of control drivers may have been somewhat affected by the presence of police at the roadside interviews. Further studies should try to control additional contributing factors to accidents such as speed of driving, season, visibility and road status.</p>
+              <p>The present findings should contribute to knowledge about basic road safety by providing a better understanding of the dangers of sleepiness at the wheel and its behavioral, pathological and iatrogenic origins.</p>
+              <p>Road safety campaigns should encourage drivers to have good sleep hygiene all year long; Physicians should advice their patients reporting poor sleep hygiene on driving risks independently from their medical treatments.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>We thank Doctor J. Connor for helping us to design the study. We thank Dr Michel Thicoipe and Dr Philippe Revel for supporting inclusions in emergency departments. We thank the following clinical research assistants: M. Bacarisse, C. Valtat, A. Boiseau, V. Bibène and A.C. De Grande for collecting and monitoring data and A. Capelli for administrative, technical and logistic support.</p>
+            </ack>
+            <ref-list>
+              <title>References</title>
+              <ref id="pone.0114102-Horne1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><name><surname>Horne</surname><given-names>J</given-names></name>, <name><surname>Reyner</surname><given-names>L</given-names></name> (<year>1999</year>) <article-title>Vehicle accidents related to sleep: a review</article-title>. <source>Occup Environ Med</source>
+<volume>56</volume>:<fpage>289</fpage>–<lpage>294</lpage>.<pub-id pub-id-type="pmid">10472301</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0114102-Stutts1">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><name><surname>Stutts</surname><given-names>JC</given-names></name>, <name><surname>Wilkins</surname><given-names>JW</given-names></name>, <name><surname>Scott Osberg</surname><given-names>J</given-names></name>, <name><surname>Vaughn</surname><given-names>BV</given-names></name> (<year>2003</year>) <article-title>Driver risk factors for sleep-related crashes</article-title>. <source>Accid Anal Prev</source>
+<volume>35</volume>:<fpage>321</fpage>–<lpage>331</lpage>.<pub-id pub-id-type="pmid">12643949</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0114102-Philip1">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><name><surname>Philip</surname><given-names>P</given-names></name>, <name><surname>Vervialle</surname><given-names>F</given-names></name>, <name><surname>Le Breton</surname><given-names>P</given-names></name>, <name><surname>Taillard</surname><given-names>J</given-names></name>, <name><surname>Horne</surname><given-names>JA</given-names></name> (<year>2001</year>) <article-title>Fatigue, alcohol, and serious road crashes in France: factorial study of national data</article-title>. <source>BMJ</source>
+<volume>322</volume>:<fpage>829</fpage>–<lpage>830</lpage>.<pub-id pub-id-type="pmid">11290636</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0114102-Sagaspe1">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><name><surname>Sagaspe</surname><given-names>P</given-names></name>, <name><surname>Taillard</surname><given-names>J</given-names></name>, <name><surname>Bayon</surname><given-names>V</given-names></name>, <name><surname>Lagarde</surname><given-names>E</given-names></name>, <name><surname>Moore</surname><given-names>N</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Sleepiness, near-misses and driving accidents among a representative population of French drivers</article-title>. <source>J Sleep Res</source>
+<volume>19</volume>:<fpage>578</fpage>–<lpage>584</lpage>.<pub-id pub-id-type="pmid">20408921</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0114102-Philip2">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><name><surname>Philip</surname><given-names>P</given-names></name>, <name><surname>Sagaspe</surname><given-names>P</given-names></name>, <name><surname>Lagarde</surname><given-names>E</given-names></name>, <name><surname>Leger</surname><given-names>D</given-names></name>, <name><surname>Ohayon</surname><given-names>MM</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Sleep disorders and accidental risk in a large group of regular registered highway drivers</article-title>. <source>Sleep Med</source>
+<volume>11</volume>:<fpage>973</fpage>–<lpage>979</lpage>.<pub-id pub-id-type="pmid">20961809</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0114102-Connor1">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><name><surname>Connor</surname><given-names>J</given-names></name>, <name><surname>Norton</surname><given-names>R</given-names></name>, <name><surname>Ameratunga</surname><given-names>S</given-names></name>, <name><surname>Robinson</surname><given-names>E</given-names></name>, <name><surname>Civil</surname><given-names>I</given-names></name>, <etal>et al</etal> (<year>2002</year>) <article-title>Driver sleepiness and risk of serious injury to car occupants: population based case control study</article-title>. <source>BMJ</source>
+<volume>324</volume>:<fpage>1125</fpage>.<pub-id pub-id-type="pmid">12003884</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0114102-Johns1">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><name><surname>Johns</surname><given-names>MW</given-names></name> (<year>1991</year>) <article-title>A new method for measuring daytime sleepiness: the Epworth sleepiness scale</article-title>. <source>Sleep</source>
+<volume>14</volume>:<fpage>540</fpage>–<lpage>545</lpage>.<pub-id pub-id-type="pmid">1798888</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0114102-Roidl1">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><name><surname>Roidl</surname><given-names>E</given-names></name>, <name><surname>Frehse</surname><given-names>B</given-names></name>, <name><surname>Hoger</surname><given-names>R</given-names></name> (<year>2014</year>) <article-title>Emotional states of drivers and the impact on speed, acceleration and traffic violations - a simulator study</article-title>. <source>Accid Anal Prev</source>
+<volume>70</volume>:<fpage>282</fpage>–<lpage>292</lpage>.<pub-id pub-id-type="pmid">24836476</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0114102-Wickens1">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><name><surname>Wickens</surname><given-names>CM</given-names></name>, <name><surname>Wiesenthal</surname><given-names>DL</given-names></name>, <name><surname>Hall</surname><given-names>A</given-names></name>, <name><surname>Roseborough</surname><given-names>JE</given-names></name> (<year>2013</year>) <article-title>Driver anger on the information superhighway: A content analysis of online complaints of offensive driver behaviour</article-title>. <source>Accid Anal Prev</source>
+<volume>51</volume>:<fpage>84</fpage>–<lpage>92</lpage>.<pub-id pub-id-type="pmid">23201756</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0114102-Galera1">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><name><surname>Galera</surname><given-names>C</given-names></name>, <name><surname>Orriols</surname><given-names>L</given-names></name>, <name><surname>M'Bailara</surname><given-names>K</given-names></name>, <name><surname>Laborey</surname><given-names>M</given-names></name>, <name><surname>Contrand</surname><given-names>B</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Mind wandering and driving: responsibility case-control study</article-title>. <source>BMJ</source>
+<volume>345</volume>:<fpage>e8105</fpage>.<pub-id pub-id-type="pmid">23241270</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0114102-Poerio1">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><name><surname>Poerio</surname><given-names>GL</given-names></name>, <name><surname>Totterdell</surname><given-names>P</given-names></name>, <name><surname>Miles</surname><given-names>E</given-names></name> (<year>2013</year>) <article-title>Mind-wandering and negative mood: does one thing really lead to another</article-title>? <source>Conscious Cogn</source>
+<volume>22</volume>:<fpage>1412</fpage>–<lpage>1421</lpage>.<pub-id pub-id-type="pmid">24149091</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0114102-Martiniuk1">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><name><surname>Martiniuk</surname><given-names>AL</given-names></name>, <name><surname>Ivers</surname><given-names>RQ</given-names></name>, <name><surname>Glozier</surname><given-names>N</given-names></name>, <name><surname>Patton</surname><given-names>GC</given-names></name>, <name><surname>Senserrick</surname><given-names>T</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Does psychological distress increase the risk for motor vehicle crashes in young people? findings from the DRIVE study</article-title>. <source>J Adolesc Health</source>
+<volume>47</volume>:<fpage>488</fpage>–<lpage>495</lpage>.<pub-id pub-id-type="pmid">20970084</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0114102-Motak1">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><name><surname>Motak</surname><given-names>L</given-names></name>, <name><surname>Bayssac</surname><given-names>L</given-names></name>, <name><surname>Taillard</surname><given-names>J</given-names></name>, <name><surname>Sagaspe</surname><given-names>P</given-names></name>, <name><surname>Huet</surname><given-names>N</given-names></name>, <etal>et al</etal> (<year>2014</year>) <article-title>Naturalistic conversation improves daytime motorway driving performance under a benzodiazepine: A randomised, crossover, double-blind, placebo-controlled study</article-title>. <source>Accid Anal Prev</source>
+<volume>67C</volume>:<fpage>61</fpage>–<lpage>66</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0114102-TeranSantos1">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><name><surname>Teran-Santos</surname><given-names>J</given-names></name>, <name><surname>Jimenez-Gomez</surname><given-names>A</given-names></name>, <name><surname>Cordero-Guevara</surname><given-names>J</given-names></name> (<year>1999</year>) <article-title>The association between sleep apnea and the risk of traffic accidents. Cooperative Group Burgos-Santander</article-title>. <source>N Engl J Med</source>
+<volume>340</volume>:<fpage>847</fpage>–<lpage>851</lpage>.<pub-id pub-id-type="pmid">10080847</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

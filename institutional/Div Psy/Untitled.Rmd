@@ -1,0 +1,85 @@
+
+---
+title: 'CNS Report: Transparency @ the Division of Psychology'
+date: "2023-02-28"
+always_allow_html: true
+output:
+  pdf_document:
+    latex_engine: xelatex
+    keep_tex: yes
+  html_document:
+    df_print: paged
+  word_document: default
+header-includes:
+- \usepackage{fontspec}
+- \setmainfont{DM Sans}
+- \usepackage{sectsty}
+- \usepackage{xcolor}
+- \definecolor{Maroon}{RGB}{103,0,31}
+- \sectionfont{\color{Maroon}\normalfont\selectfont}
+- \subsectionfont{\color{Maroon}\normalfont\selectfont}
+- \subsubsectionfont{\color{Maroon}\normalfont\selectfont}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(dplyr)
+library(kableExtra)
+
+```
+
+# Background
+Sharing of data and of code is totally indispensable for results to be properly evaluated, used, reused, updated, integrated, or compared with other efforts. Without being able to rerun the analysis, it resembles a black box where blind trust is requested on its function and credibility. Moreover, other features of transparency, such as declaration of funding and of potential conflicts of interest (COI) are also important to have since many of papers may be very influential on deciding policy and guidelines with major repercussions. Another feature of transparency that may aid reproducibility and trust in research  is the registration of protocols, ideally in advance of their conduct. Registration is a concept that receives increasing attention in many scientific fields as a safeguard of trust. While it may not be easy or relevant to have for some research, mainly exploratory and iterative such, registration decreases the analytical flexibility which is the space of possible outcomes that may be observed with variation in the statistical model used to analyse data. Registration is quintessential for observational research as well as for systematic reviews and meta-analyses.
+
+# Methods
+Using the rtransparent package (Serghiou et al. 2021 PLoS Bio) the open access subset of publications is searched for statements of transparency and their variations. The transparency indicators selected for this assessment were (1) code sharing, (2) data sharing, (3) registration, (4) COI disclosures, (5) Funding disclosures
+
+# Results
+Important to note: the COI and Funding statements is for this report purely vestigial information and will not be discussed as their informational value (whether information exists and whether the information is true) needs to be evaluated. It is not uncommon with false disclosures in both categories as many have previously shown (for instance Saito et al. 2019 JAMA Network Open). 
+
+## Table 1: Overall transparency in Div Psy OA research
+```{r table1, echo=FALSE }
+table1 <- read.csv("table_transp_overall.csv")
+table1=table1[,2:6]
+
+table12 <- read.csv("table_transp_overall_cns.csv")
+table12=table12[,2:6]
+
+table1=rbind(table1,table12)
+
+rownames(table1) <- c("Div Psy", "CNS excl. Div Psy")
+
+
+kable(table1, col.names = c('Code sharing','Data sharing','Registration','COI statements','Funding statements')) 
+```
+
+## Table 2: Transparency grouped by last author affiliation 
+When investigating whether last authorship affected the transparency of the Division of Psychology papers we see that likely there is a lower code sharing rate (2% lower) and a higher rate of data sharing (6%).
+```{r table2, echo=FALSE}
+table2 <- read.csv("transp_last_au.csv")
+table2=table2[,2:7]
+table2[1,1]='Not Div Psy'
+table2[2,1]='Div Psy'
+
+
+kable(table2, col.names=c('Last author affiliation','Code sharing','Data sharing','Registration','COI statements','Funding statements')) 
+```
+
+
+## Table 3: Transparency over time in DivPsy
+Over time the changes have been quite modes, it is highly difficult to draw any conclusions from this data other than the fact that code sharing has increased as has data sharing; yet this should be interpreted with caution as there are too few publications per year to be able to observe a reliable trend.
+
+
+```{r table3, echo=FALSE,results='asis',fig.show = 'hold'}
+table3 <- read.csv("table_transp_year.csv")
+table3=table3[,2:7]
+table3e=read.csv('year.csv')
+
+table3=merge(table3,table3e[,2:3], by='publication_year')
+
+kable(table3, col.names=c('Publication Year','Code sharing','Data sharing','Registration','COI statements','Funding statements','Total no. of publications')) %>% kable_styling(font_size=8)
+```
+
+
+

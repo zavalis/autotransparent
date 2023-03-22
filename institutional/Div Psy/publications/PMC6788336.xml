@@ -1,0 +1,3091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:04:06Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6788336" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6788336</identifier>
+        <datestamp>2019-10-31</datestamp>
+        <setSpec>jmir</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">J Med Internet Res</journal-id>
+              <journal-id journal-id-type="iso-abbrev">J. Med. Internet Res</journal-id>
+              <journal-id journal-id-type="publisher-id">JMIR</journal-id>
+              <journal-title-group>
+                <journal-title>Journal of Medical Internet Research</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1439-4456</issn>
+              <issn pub-type="epub">1438-8871</issn>
+              <publisher>
+                <publisher-name>JMIR Publications</publisher-name>
+                <publisher-loc>Toronto, Canada</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6788336</article-id>
+              <article-id pub-id-type="pmcid">PMC6788336</article-id>
+              <article-id pub-id-type="pmc-uid">6788336</article-id>
+              <article-id pub-id-type="pmid">31586370</article-id>
+              <article-id pub-id-type="publisher-id">v21i9e14675</article-id>
+              <article-id pub-id-type="doi">10.2196/14675</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Paper</subject>
+                </subj-group>
+                <subj-group subj-group-type="article-type">
+                  <subject>Original Paper</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Cost-Effectiveness of Therapist-Guided Internet-Based Cognitive Behavioral Therapy for Stress-Related Disorders: Secondary Analysis of a Randomized Controlled Trial</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Eysenbach</surname>
+                    <given-names>Gunther</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Romero-Sanchiz</surname>
+                    <given-names>Pablo</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Buntrock</surname>
+                    <given-names>Claudia</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib id="contrib1" contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Lindsäter</surname>
+                    <given-names>Elin</given-names>
+                  </name>
+                  <degrees>MSc</degrees>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2547-9196</contrib-id>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <address>
+                    <institution>Division of Psychology</institution>
+                    <institution>Department of Clinical Neuroscience</institution>
+                    <institution>Karolinska Institutet</institution>
+                    <addr-line>Nobels väg 9</addr-line>
+                    <addr-line>17165 Solna</addr-line>
+                    <addr-line>Stockholm,</addr-line>
+                    <country>Sweden</country>
+                    <phone>46 735635233</phone>
+                    <email>elin.lindsater@ki.se</email>
+                  </address>
+                </contrib>
+                <contrib id="contrib2" contrib-type="author">
+                  <name>
+                    <surname>Axelsson</surname>
+                    <given-names>Erland</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2562-2925</contrib-id>
+                </contrib>
+                <contrib id="contrib3" contrib-type="author">
+                  <name>
+                    <surname>Salomonsson</surname>
+                    <given-names>Sigrid</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6713-5933</contrib-id>
+                </contrib>
+                <contrib id="contrib4" contrib-type="author">
+                  <name>
+                    <surname>Santoft</surname>
+                    <given-names>Fredrik</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0673-6521</contrib-id>
+                </contrib>
+                <contrib id="contrib5" contrib-type="author">
+                  <name>
+                    <surname>Ljótsson</surname>
+                    <given-names>Brjánn</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8086-1668</contrib-id>
+                </contrib>
+                <contrib id="contrib6" contrib-type="author">
+                  <name>
+                    <surname>Åkerstedt</surname>
+                    <given-names>Torbjörn</given-names>
+                  </name>
+                  <degrees>PhD, Prof Dr</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8049-8504</contrib-id>
+                </contrib>
+                <contrib id="contrib7" contrib-type="author">
+                  <name>
+                    <surname>Lekander</surname>
+                    <given-names>Mats</given-names>
+                  </name>
+                  <degrees>PhD, Prof Dr</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <xref ref-type="aff" rid="aff4">4</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3998-1494</contrib-id>
+                </contrib>
+                <contrib id="contrib8" contrib-type="author">
+                  <name>
+                    <surname>Hedman-Lagerlöf</surname>
+                    <given-names>Erik</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff4">4</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7939-9848</contrib-id>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <label>1</label>
+                <institution>Division of Psychology</institution>
+                <institution>Department of Clinical Neuroscience</institution>
+                <institution>Karolinska Institutet</institution>
+                <addr-line>Stockholm</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <aff id="aff2">
+                <label>2</label>
+                <institution>Center for Psychiatry Research</institution>
+                <institution>Department of Clinical Neuroscience</institution>
+                <institution>Karolinska Institutet</institution>
+                <addr-line>Stockholm</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <aff id="aff3">
+                <label>3</label>
+                <institution>Stress Research Institute</institution>
+                <institution>Stockholm University</institution>
+                <addr-line>Stockholm</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <aff id="aff4">
+                <label>4</label>
+                <institution>Osher Center for Integrative Medicine</institution>
+                <institution>Department of Clinical Neuroscience</institution>
+                <institution>Karolinska Institutet</institution>
+                <addr-line>Stockholm</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <author-notes>
+                <corresp>Corresponding Author: Elin Lindsäter
+<email>elin.lindsater@ki.se</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <month>9</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>13</day>
+                <month>9</month>
+                <year>2019</year>
+              </pub-date>
+              <volume>21</volume>
+              <issue>9</issue>
+              <elocation-id>e14675</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>13</day>
+                  <month>5</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="rev-request">
+                  <day>3</day>
+                  <month>6</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>14</day>
+                  <month>7</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="accepted">
+                  <day>27</day>
+                  <month>7</month>
+                  <year>2019</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>©Elin Lindsäter, Erland Axelsson, Sigrid Salomonsson, Fredrik Santoft, Brjánn Ljótsson, Torbjörn Åkerstedt, Mats Lekander, Erik Hedman-Lagerlöf. Originally published in the Journal of Medical Internet Research (http://www.jmir.org), 13.09.2019.</copyright-statement>
+                <copyright-year>2019</copyright-year>
+                <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+                  <license-p><!--CREATIVE COMMONS-->This is an open-access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in the Journal of Medical Internet Research, is properly cited. The complete bibliographic information, a link to the original publication on <ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/">http://www.jmir.org/</ext-link>, as well as this copyright and license information must be included.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:type="simple" xlink:href="https://www.jmir.org/2019/9/e14675"/>
+              <abstract>
+                <sec sec-type="background">
+                  <title>Background</title>
+                  <p>Stress-related disorders are associated with significant suffering, functional impairment, and high societal costs. Internet-based cognitive behavioral therapy (ICBT) is a promising treatment for stress-related disorders but has so far not been subjected to health economic evaluation.</p>
+                </sec>
+                <sec sec-type="objective">
+                  <title>Objective</title>
+                  <p>The objective of this study was to evaluate the cost-effectiveness and cost-utility of ICBT for patients with stress-related disorders in the form of adjustment disorder (AD) or exhaustion disorder (ED). We hypothesized that ICBT, compared with a waitlist control (WLC) group, would generate improvements at low net costs, thereby making it cost-effective.</p>
+                </sec>
+                <sec sec-type="methods">
+                  <title>Methods</title>
+                  <p>Health economic data were obtained in tandem with a randomized controlled trial of a 12-week ICBT in which patients (N=100) were randomized to an ICBT (n=50) or a WLC (n=50) group. Health outcomes and costs were surveyed pre- and posttreatment. We calculated incremental cost-effectiveness ratios (ICERs) based on remission rates and incremental cost-utility ratios (ICURs) based on health-related quality of life. Bootstrap sampling was used to assess the uncertainty of our results.</p>
+                </sec>
+                <sec sec-type="results">
+                  <title>Results</title>
+                  <p>The ICER indicated that the most likely scenario was that ICBT led to higher remission rates compared with the WLC and was associated with slightly larger reductions in costs from pre- to posttreatment. ICBT had a 60% probability of being cost-effective at a willingness to pay (WTP) of US $0 and a 96% probability of being cost-effective at a WTP of US $1000. The ICUR indicated that ICBT also led to improvements in quality of life at no net societal cost. Sensitivity analyses supported the robustness of our results.</p>
+                </sec>
+                <sec sec-type="conclusions">
+                  <title>Conclusions</title>
+                  <p>The results suggest that ICBT is a cost-effective treatment for patients suffering from AD or ED. Compared with no treatment, ICBT for these patients yields large effects at no or minimal societal net costs.</p>
+                </sec>
+                <sec sec-type="Trial Registration">
+                  <title>Trial Registration</title>
+                  <p>ClinicalTrials.gov NCT02540317; https://clinicaltrials.gov/ct2/show/NCT02540317</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>psychological stress</kwd>
+                <kwd>adjustment disorder</kwd>
+                <kwd>exhaustion disorder</kwd>
+                <kwd>cognitive behavioral therapy</kwd>
+                <kwd>cost effectiveness</kwd>
+                <kwd>internet</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="introduction">
+              <title>Introduction</title>
+              <sec>
+                <title>Background</title>
+                <p>Stress is considered to be one of the largest health challenges in the Western world [<xref rid="ref1" ref-type="bibr">1</xref>]. Prolonged or repeated exposure to stress is associated with negative physical and mental health outcomes, decreased quality of life, and functional impairment [<xref rid="ref2" ref-type="bibr">2</xref>,<xref rid="ref3" ref-type="bibr">3</xref>]. The costs for employers and society are large because of high incidence of sickness absence, reduced productivity at work, and significant loss of potential labor supply [<xref rid="ref4" ref-type="bibr">4</xref>]. For the afflicted individual, chronic stress can lead to high costs because of increased medical and insurance expenses and decreased income [<xref rid="ref1" ref-type="bibr">1</xref>]. Taken together, the full scope of chronic stress can negatively impact a country’s gross domestic product, with conservative estimates of annual costs ranging from US $23 billion in the European Union [<xref rid="ref1" ref-type="bibr">1</xref>] to US $42 billion in the United States [<xref rid="ref5" ref-type="bibr">5</xref>].</p>
+                <p>When clinically significant symptoms and functional impairment result as a consequence of chronic or intermittent life stressors, diagnoses such as adjustment disorder (AD) or exhaustion disorder (ED) may be warranted [<xref rid="ref3" ref-type="bibr">3</xref>,<xref rid="ref6" ref-type="bibr">6</xref>]. AD is one of the most commonly used diagnoses by clinical psychologists and psychiatrists worldwide [<xref rid="ref7" ref-type="bibr">7</xref>,<xref rid="ref8" ref-type="bibr">8</xref>], cited by the Diagnostic and Statistical Manual of Mental Disorders, 5th edition (DSM-5) as being the principal diagnosis for 5% to 20% of mental health outpatients [<xref rid="ref9" ref-type="bibr">9</xref>]. ED is a specification of the diagnostic category F43.8 (<italic>other reactions to severe stress</italic>) in the International Statistical Classification of Diseases and Related Health Problems, 10th edition [<xref rid="ref10" ref-type="bibr">10</xref>] that has been accepted as a formal diagnosis by the Swedish National Board of Health and Welfare. Similar to the concepts of clinical burnout and allostatic overload [<xref rid="ref11" ref-type="bibr">11</xref>,<xref rid="ref12" ref-type="bibr">12</xref>], ED is characterized by severe mental and physical exhaustion, cognitive dysfunction, disturbed sleep, and somatoform complaints [<xref rid="ref3" ref-type="bibr">3</xref>]. Compared with AD, ED is a more chronic and debilitating condition [<xref rid="ref13" ref-type="bibr">13</xref>], but both are based on the longitudinal course of symptoms and behavioral changes in the context of stressful life events. Given the strain on health care systems to handle these stress-related disorders, health economic evaluations are important to provide decision makers with information about which treatments give maximum effect in relation to their cost [<xref rid="ref14" ref-type="bibr">14</xref>]. Without knowledge of cost-effectiveness, there is a risk that health care resources are used inefficiently and that fewer can be offered treatment [<xref rid="ref15" ref-type="bibr">15</xref>].</p>
+                <p>Cognitive behavioral therapy (CBT) is the most rigorously evaluated and effective psychological treatment for a range of mental health problems [<xref rid="ref16" ref-type="bibr">16</xref>], including stress and stress-related symptoms [<xref rid="ref17" ref-type="bibr">17</xref>,<xref rid="ref18" ref-type="bibr">18</xref>]. To meet the high demand for CBT, delivering treatment via the internet has emerged as a viable option to increase treatment accessibility and reduce delivery costs. Therapist-guided internet-based CBT (ICBT) has been shown to be highly efficacious for many clinical conditions [<xref rid="ref19" ref-type="bibr">19</xref>], often producing effect sizes in parity with face-to-face treatment while at the same time often requiring less than 10 min of therapist time weekly per patient [<xref rid="ref20" ref-type="bibr">20</xref>]. A recent meta-analyses of Web- and computer-based interventions to reduce stress in diverse samples indicated that ICBT could be effective in reducing stress with small to moderate effect sizes [<xref rid="ref21" ref-type="bibr">21</xref>]. Although these findings cannot be directly generalized to clinical populations suffering from stress-related disorders, we recently presented evidence that ICBT can also be effective in reducing symptoms in a clinical sample diagnosed with AD or ED [<xref rid="ref13" ref-type="bibr">13</xref>].</p>
+                <p>Meta-analyses indicate that ICBT can be a cost-effective alternative for many clinical conditions [<xref rid="ref19" ref-type="bibr">19</xref>,<xref rid="ref22" ref-type="bibr">22</xref>]. Regarding interventions to reduce stress, however, health economic evaluations are scarce and generally suffer from low methodological quality [<xref rid="ref23" ref-type="bibr">23</xref>]. A total of 2 recent studies have conducted health economic evaluations of internet-based stress-management interventions aimed at reducing stress in employees with elevated work-related stress [<xref rid="ref24" ref-type="bibr">24</xref>,<xref rid="ref25" ref-type="bibr">25</xref>]. Both the studies indicated that the interventions were cost-effective compared with waitlist control (WLC) conditions, from an employer’s [<xref rid="ref24" ref-type="bibr">24</xref>] and a full societal perspective [<xref rid="ref25" ref-type="bibr">25</xref>]. Although these results are promising, to the best of our knowledge, no study to date has investigated the cost-effectiveness of ICBT for patients actually diagnosed with stress-related disorders.</p>
+              </sec>
+              <sec>
+                <title>Objectives</title>
+                <p>The aim of this study was to evaluate the cost-effectiveness and cost-utility of ICBT for stress-related disorders within the context of a randomized controlled trial [<xref rid="ref13" ref-type="bibr">13</xref>], using both societal and health care perspectives. We hypothesized that ICBT, compared with a WLC group, would generate improvements at low net costs, thereby making the treatment cost-effective.</p>
+              </sec>
+            </sec>
+            <sec sec-type="methods">
+              <title>Methods</title>
+              <sec>
+                <title>Design</title>
+                <p>Health economic data were collected within a randomized controlled trial [<xref rid="ref13" ref-type="bibr">13</xref>] in which adults suffering from stress-related disorders (N=100) were randomized to either an ICBT (n=50) or a WLC (n=50) group, each of 12 weeks duration. Stress-related disorders were defined as a clinical diagnosis of AD according to DSM-5 [<xref rid="ref9" ref-type="bibr">9</xref>] or ED as defined by the Swedish National Board of Health and Welfare [<xref rid="ref3" ref-type="bibr">3</xref>,<xref rid="ref10" ref-type="bibr">10</xref>]. Randomization was stratified by diagnosis (AD vs ED) and took place after inclusion to prevent allocation bias. Health economic data were collected at pre- and posttreatment assessment (after 12 weeks) as well as at a 6-month follow-up (6MFU). As participants in the WLC were crossed over to treatment after 12 weeks, cost-effectiveness and cost-utility were assessed from the pretreatment to the posttreatment assessment only. However, data from the 6MFU are presented to allow for crude and uncontrolled estimates of stability in clinical outcomes and costs over time. The trial was conducted at Karolinska Institutet, Stockholm, Sweden, between September 2015 and August 2016. It was approved by the Regional Ethics Review Board in Stockholm, Sweden (2015/415-31/5) and preregistered at ClinicalTrials.gov (ID: NCT02540317). All participants provided verbal and written informed consent for study participation. <xref rid="figure1" ref-type="fig">Figure 1</xref> illustrates the trial design and study flow.</p>
+                <fig id="figure1" position="float">
+                  <label>Figure 1</label>
+                  <caption>
+                    <p>Flowchart illustrating trial design, adherence, and attrition. Note: The WLC was crossed over to treatment after the 12-week main phase of the trial and did not take part in the 6-month follow-up assessment. All health economic analyses are, therefore, based on the main phase of the trial. ICBT: internet-based cognitive behavioral therapy; WLC: waitlist control.</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v21i9e14675_fig1"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Study Sample</title>
+                <p>Detailed information about the recruitment procedure can be found in the study by Lindsäter et al [<xref rid="ref13" ref-type="bibr">13</xref>]. The study was advertised through an ad in a national newspaper and through social media. Applicants were self-referred via a study Web portal, and primary inclusion criteria were (1) aged 18 to 65 years; (2) a primary diagnosis of AD or ED; (3) no substance abuse or dependence in the past 6 months; (4) no current or past psychosis or bipolar disorder; (5) no suicidal ideation; (6) if on medication with a monoamine agonist, this had been stable in the past month; and (7) no ongoing psychological treatment. Inclusion criteria were assessed by a licensed psychologist using information collected in a telephone-conducted clinical interview comprising the Mini-International Neuropsychiatric Interview [<xref rid="ref26" ref-type="bibr">26</xref>] and data obtained from a Web-based screening. AD and ED were assessed with a clinical interview developed specifically for the trial that followed diagnostic criteria for respective diagnosis. The included sample consisted of 85% (85/100) women with a mean age of 47 (SD 8.8) years. A majority of patients (73%, 73/100) had a university education of 3 or more years, and 71% (71/100) of patients had a full-time employment at inclusion. Participants had, on average, suffered from their stress-related symptoms for 1.6 (SD 1.3) years. Patients with AD and ED were equally represented in the sample (53% [53/100] and 47% [47/100], respectively).</p>
+              </sec>
+              <sec>
+                <title>Interventions</title>
+                <p>The CBT protocol used in the trial, on which this health economic study is based [<xref rid="ref13" ref-type="bibr">13</xref>], has previously been tested in 2 randomized trials in the form of face-to-face therapy [<xref rid="ref27" ref-type="bibr">27</xref>] and guided self-help [<xref rid="ref28" ref-type="bibr">28</xref>] with promising results. A central component of the treatment was recovery training, which has previously been found to be important both in prevention and rehabilitation of chronic stress [<xref rid="ref29" ref-type="bibr">29</xref>]. The treatment targeted increased recovery through scheduled recuperating activities and psychoeducation about sleep hygiene and stimulus control for improved sleep. Other central aspects of the treatment were behavioral activation [<xref rid="ref30" ref-type="bibr">30</xref>] and exposure [<xref rid="ref31" ref-type="bibr">31</xref>] to help patients break fear-avoidance patterns related to, for example, perfectionism, excessive worry, and assertiveness. Patients were encouraged to plan their days to create a balance between effortful expenditure and recovery.</p>
+                <p>The 12-week ICBT was delivered via a secure (encrypted traffic and 2-factor authentication) Web platform where psychoeducation, worksheets, and exercises were presented primarily through text. Patients received weekly written feedback on their work and progress by a licensed clinical psychologist who gave gradual access to the 12 treatment modules, similar to chapters of a book. Patients could contact their psychologist at any time and expect a reply within 48 business hours. Weekly automated text message reminders were sent to all patients in the ICBT group to log on to the treatment platform and work with the treatment. The average number of completed modules in ICBT was 9.2 (SD 3.2) out of 12, which is typically considered adequate and on par with many other ICBT protocols for common mental health conditions [<xref rid="ref32" ref-type="bibr">32</xref>]. The mean therapist time per patient was 87 (SD 36) min, that is, on average, a little over 7 min weekly per patient.</p>
+                <p>Patients in the WLC group did not receive any treatment during the 12-week experimental phase and were encouraged not to make any changes in psychotropic medication or seek other psychological treatment for their stress-related disorder during that time. After 12 weeks, they were immediately crossed over to treatment.</p>
+              </sec>
+              <sec>
+                <title>Clinical Assessment</title>
+                <p>For the cost-effectiveness analyses, effectiveness was defined as remission rate, estimated based on the 14-item Perceived Stress Scale (PSS) [<xref rid="ref33" ref-type="bibr">33</xref>]. The PSS (which was administered online) measures how often one has perceived life as unpredictable, uncontrollable, and overloading in the past month. Patients respond on a 5-point response scale from 0 (never) to 4 (very often), with a total scale range of 0 to 56 (a higher score indicating higher level of perceived stress). The PSS has good construct validity and sensitivity to change in samples with stress-related disorders [<xref rid="ref34" ref-type="bibr">34</xref>].</p>
+                <p>For the cost-utility analyses, the EuroQol 3L Questionnaire (EQ-5D) was used to assess health-related quality of life [<xref rid="ref35" ref-type="bibr">35</xref>]. The EQ-5D is a nondisease-specific self-assessment questionnaire that measures 5 health domains: mobility, self-care, usual activities, pain and/or discomfort, and anxiety and/or depression [<xref rid="ref36" ref-type="bibr">36</xref>]. An advantage of the EQ-5D is that an overall utility score of quality of life can be obtained, which can facilitate comparisons with trials using other health states and other disease conditions [<xref rid="ref37" ref-type="bibr">37</xref>].</p>
+              </sec>
+              <sec>
+                <title>Economic Evaluation</title>
+                <p>The economic evaluation framework of this study was a within-trial (12-weeks) cost-effectiveness and cost-utility analyses. Cost-effectiveness concerns the association between costs and efficacy (ie, remission rates on PSS), and cost-utility concerns the association between costs and health-related quality of life. Analyses were conducted from a societal perspective, including all direct and indirect medical costs (eg, health care consumption, costs for medicine, supplements, and alternative care/support) as well as nonmedical costs (eg, work cutback, domestic costs, and sick leave). We also conducted separate cost-effectiveness and cost-utility analyses from a health care perspective, based on direct medical costs only.</p>
+                <sec>
+                  <title>Measurement of Resource Utilization</title>
+                  <p>To enable the estimation of costs, resource utilization data were obtained using the self-rated Trimbos and Institute Medical Technology Assessment of Costs Questionnaire for Psychiatry (TIC-P) [<xref rid="ref38" ref-type="bibr">38</xref>]. This instrument measures resource use over the past month (except for medication use, which concerns the past 2 weeks). The TIC-P is used to estimate (1) direct medical costs (ie, health care utilization and medication costs), (2) direct nonmedical costs (eg, use of alternative medicine and medicaments), and (3) indirect nonmedical costs (costs associated with production loss generated by, for example, sick leave or work cutback due to presenteeism). The TIC-P has previously been shown to be a feasible and reliable instrument for collecting data on medical consumption and productivity losses [<xref rid="ref39" ref-type="bibr">39</xref>]. All costs were initially assessed in the local currency (Swedish Krona or SEK) and converted into US Dollars ($) using 2016 as the reference year (yielding 1 SEK equivalent to US $0.1148). Scoring of the TIC-P and transformation of TIC-P scores to costs was done by the first author who, during this process, was blind to patient condition (ICBT vs WLC).</p>
+                </sec>
+                <sec>
+                  <title>Estimation of Costs</title>
+                  <p>We used public health care tariffs to estimate medical cost (see <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref>). For each patient, tariffs were multiplied by the corresponding number of health service units (eg, consultations and sessions) from the TIC-P. Costs for medications (prescription and otherwise) were estimated using market prices in Sweden. As the TIC-P only asks for medication use in the past 2 weeks, these costs were multiplied by 2 to represent a time frame of 1 month. The human capital approach was used to estimate indirect costs of sick leave, unemployment, and work cutback, meaning that lost gross earnings were taken as a measure of production loss [<xref rid="ref37" ref-type="bibr">37</xref>]. Salaries were estimated based on the average monthly earnings in Sweden, stratified by the level of education and gender, as listed by Statistics Sweden for the year 2015. To estimate costs for work cutback, participants reported the number of days worked when ill in the past month and an inefficiency score of how much productivity was reduced as compared with productivity when in good health. Reduced monthly productivity (based on days worked when ill) was multiplied with the percentage of production loss (inefficiency score) and with the estimated daily earning [<xref rid="ref40" ref-type="bibr">40</xref>]. Costs of domestic work cutback and informal care from family and friends was estimated to US $10 per hour based on data from the study by Smit et al [<xref rid="ref41" ref-type="bibr">41</xref>], an estimate that has been used in several recently published health economic trials [<xref rid="ref42" ref-type="bibr">42</xref>,<xref rid="ref43" ref-type="bibr">43</xref>]. Owing to the short period under study (12 weeks), we did not discount costs.</p>
+                  <p>Direct medical costs associated with the intervention mainly comprised the clinician’s time for the 12 weeks of ICBT. Clinician time spent was logged for every contact with a patient and included reviewing the patient’s work and giving written feedback. As clinicians in this study were exclusively licensed psychologists working at a primary health care clinic, we used the cost tariff for a 45-min session with a psychologist within primary health care (US $103) multiplied by the clinician time for each individual patient.</p>
+                </sec>
+              </sec>
+              <sec>
+                <title>Statistical Analysis</title>
+                <p>All analyses adhered to the intention-to-treat principle, meaning that all randomized participants were eligible for analysis. Owing to the low degree of data loss (1 out of 50 in ICBT and 2 out of 50 in the WLC post treatment), no imputation of missing data was deemed necessary (we employed listwise deletion). Analyses were conducted in SPSS 20.0 (IBM) and Stata/IC 14.2 (Stata Corporation).</p>
+                <sec>
+                  <title>Analysis of Remission Rates</title>
+                  <p>Remission was operationalized as clinically significant improvement on the primary outcome PSS. This meant that patients were required to (1) make a reliable change in accordance with the Jacobson and Truax [<xref rid="ref44" ref-type="bibr">44</xref>] criteria (ie, a reduction of 7 units on the PSS) and (2) have a posttreatment rating on PSS that was closer to a normal population than to a clinical population. On the basis of the data from the study by Lavoie and Douglas [<xref rid="ref45" ref-type="bibr">45</xref>], the postrating cutoff was defined as a PSS score &lt;31. We analyzed differences in remission rates pre- to posttreatment using chi-square tests.</p>
+                </sec>
+                <sec>
+                  <title>Analysis of Health-Related Quality of Life</title>
+                  <p>The answers given in EQ-5D were combined to generate a utility score of health states ranging from 0 to 1, with 0 representing death and 1 representing full health [<xref rid="ref36" ref-type="bibr">36</xref>], based on the Swedish experience-based time trade-off value set [<xref rid="ref46" ref-type="bibr">46</xref>]. Owing to the relatively short time perspective (12 weeks), we used the difference in utility scores between the pre- and posttreatment assessment to measure the effect in terms of health-related quality of life in the different cost-utility analyses. To generate a frame of reference, we also conducted a separate cost-utility analysis from a societal perspective in which the utility scores were converted to quality-adjusted life years (QALYs) gained over the 12-week treatment phase. As utility scores demonstrated skewness and kurtosis of residuals, differences between the ICBT and the WLC were analyzed using bootstrapped linear mixed models (5000 replications) where time (pre-to posttreatment), group (ICBT vs WLC), and the time × group interaction were independent variables.</p>
+                </sec>
+                <sec>
+                  <title>Analysis of Cost Changes</title>
+                  <p>As in the case of utility scores, cost residuals were skewed and showed evidence of high kurtosis. We, therefore, analyzed between-group changes in costs (gross and net total costs as well as changes in specific cost-domains) from pre- to posttreatment using bootstrapped linear mixed-models (5000 replications).</p>
+                </sec>
+                <sec>
+                  <title>Analysis of Cost-Effectiveness and Cost-Utility</title>
+                  <p>To estimate cost-effectiveness and cost-utility, we used the incremental cost-effectiveness ratio (ICER) and the incremental cost-utility ratio (ICUR), respectively. These were calculated by taking the net cost difference between conditions (ICBT vs WLC) at posttreatment compared with baseline, divided by the difference in remission rate (ICER) or utility improvement (ICUR) between the groups over the 12-week treatment period [<xref rid="ref14" ref-type="bibr">14</xref>]. In the analysis based on QALYs, the denominator of the ICUR was the ICBT versus WLC difference in per capita QALYs over the 12-week treatment period.</p>
+                </sec>
+                <sec>
+                  <title>Assessment of Uncertainty</title>
+                  <p>As ICER and ICUR point estimates are difficult to interpret [<xref rid="ref14" ref-type="bibr">14</xref>], we modeled the uncertainty of these based on bootstrapping (5000 samples) of the treatment group’s incremental costs and effects (remission rate and utility) as compared with the WLC. The bootstrapped values then formed the basis for cost-effectiveness and cost-utility planes, with effects on the x-axis and costs on the y-axis. Cost-effectiveness and cost-utility planes allow a probabilistic decision-making approach [<xref rid="ref47" ref-type="bibr">47</xref>], where a majority of ICERs or ICURs in the southeast quadrant of these planes indicate a larger effect of ICBT at a lower cost compared with the WLC, and a majority of ICERs or ICURs in the northeast quadrant suggest a larger effect of ICBT at a higher cost compared with the WLC. In the latter case, the amount of money a decision maker is willing to pay for, for example, 1 additional patient in remission, is crucial in determining whether a new treatment is to be adopted or not. Hence, we investigated the probability of the treatment being cost-effective compared with the WLC at a range of different willingness to pay (WTP) scenarios. WTP for an additional responder can be illustrated by the means of cost-effectiveness and cost-utility acceptability curves [<xref rid="ref48" ref-type="bibr">48</xref>].</p>
+                  <p>Additional sensitivity analyses were conducted to further confirm the robustness of results. First, we replaced the intervention cost for each patient in the ICBT group with US $663 (ie, more than thrice the mean intervention cost), based on an estimate of the cost of running ICBT in a psychiatric clinic [<xref rid="ref49" ref-type="bibr">49</xref>]. The new intervention cost included an average therapist time for psychiatric patients in ICBT and costs for assessment procedures, referral and follow-up visits, other health care staff, hospital space, and platform administration [<xref rid="ref49" ref-type="bibr">49</xref>]. Second, as previous investigations have shown that patients with AD and ED differ in symptom severity and functional disability [<xref rid="ref13" ref-type="bibr">13</xref>], we calculated ICERs separately for the diagnostic groups and also constructed cost-effectiveness planes and acceptability curves from a societal perspective. Third, as costs for domestic work and informal care from family and friends are difficult to estimate [<xref rid="ref49" ref-type="bibr">49</xref>], we calculated ICERs and modeled cost-effectiveness planes using 2 different scenarios: (1) a scenario in which we used an updated cost-estimate of US $19 (ie, almost doubling the cost-estimate used in the main analyses), representing the average gross hourly wage earned by a domestic worker as suggested by Bock et al [<xref rid="ref49" ref-type="bibr">49</xref>], and (2) another scenario in which we removed the costs for domestic work and informal care altogether. Finally, although there are indications that production loss because of presenteeism is a major cost driver for a range of disease conditions, comprising on average 52% of total costs [<xref rid="ref50" ref-type="bibr">50</xref>], there is to date no consensus regarding methods to accurately measure and value it. We, therefore, conducted a sensitivity analysis with the purpose of illuminating to what extent cost related to work cutback may impact the total cost-effectiveness of ICBT in our trial. We calculated ICERs and modeled cost-effectiveness planes from a societal perspective, both when excluding work cutback as a cost-domain and when doubling these costs.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec sec-type="results">
+              <title>Results</title>
+              <sec>
+                <title>Data Completion and Receiving Treatment Outside of the Study</title>
+                <p>There was a 100% (100/100) data completion at pretreatment. At posttreatment assessment, data completion was 98% (49/50) in the ICBT group and 96% (48/50) in the WLC. At the 6MFU, 94% (47/50) of patients in the ICBT group completed assessments. A total of 3 patients (6%) in ICBT and 4 (8%) in the WLC reported having received other treatment for stress-related problems during the intervention period. Fisher exact test revealed no significant difference between the groups in this regard (<italic>P=</italic>.47). In the ICBT group, 2 patients received psychological treatment and 1 initiated psychotropic medication. In the WLC, 2 patients received psychological treatment and 2 initiated psychotropic medication.</p>
+              </sec>
+              <sec>
+                <title>Clinical Efficacy: Remission Rates and Utility</title>
+                <p><xref rid="table1" ref-type="table">Table 1</xref> shows means and SDs at pretreatment, posttreatment, and 6MFU for PSS and utility scores. In this study, remission rate on PSS was the main clinical outcome. As previously reported in the main outcome study [<xref rid="ref13" ref-type="bibr">13</xref>], 31 of 50 patients (62%) in the ICBT group were in remission (ie, met criteria for clinically significant improvement) post treatment, as compared with 5 of 50 patients (10%) in the WLC group, which was a statistically significant difference (X<sup>2</sup><sub>1</sub>=29.3; <italic>P</italic>&lt;.001). At the 6MFU, 34 of 50 patients (68%) in the ICBT group were in remission. Regarding utility, patients in the ICBT group significantly increased their health-related quality of life from pre- to posttreatment (beta=.05; 95% CI 0.03 to 0.08; <italic>Z</italic>=3.91; <italic>P</italic>&lt;.001), whereas patients in the WLC group did not (beta=.02; 95% CI −0.01 to 0.05; <italic>Z</italic>=1.41; <italic>P</italic>=.16). However, there was no significant group × time interaction effect on utility from pre- to posttreatment (beta=.03; 95% CI −0.01 to 0.07; <italic>Z</italic>=1.68; <italic>P</italic>=.09). There was no significant change from posttreatment to 6MFU in utility in the ICBT group, indicating stability of improvements (beta=.01; 95% CI −0.02 to 0.04; <italic>Z</italic>=0.51; <italic>P</italic>=.61).</p>
+                <table-wrap id="table1" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Statistical values for primary outcome measure and health-related quality of life.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="30" span="1"/>
+                    <col width="220" span="1"/>
+                    <col width="250" span="1"/>
+                    <col width="250" span="1"/>
+                    <col width="250" span="1"/>
+                    <thead>
+                      <tr valign="top">
+                        <td colspan="2" rowspan="1">Measure and group</td>
+                        <td rowspan="1" colspan="1">Pretreatment, mean (SD)</td>
+                        <td rowspan="1" colspan="1">Posttreatment, mean (SD)</td>
+                        <td rowspan="1" colspan="1">6-month follow-up, mean (SD)</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td colspan="2" rowspan="1">
+                          <bold>Perceived Stress Scale</bold>
+                        </td>
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">ICBT<sup>a</sup></td>
+                        <td rowspan="1" colspan="1">37.2 (7.1)</td>
+                        <td rowspan="1" colspan="1">24.2 (8.6)</td>
+                        <td rowspan="1" colspan="1">21.9 (7.7)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">WLC<sup>b</sup></td>
+                        <td rowspan="1" colspan="1">36.4 (7.3)</td>
+                        <td rowspan="1" colspan="1">33.2 (7.9)</td>
+                        <td rowspan="1" colspan="1">—<sup>c</sup></td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="2" rowspan="1">
+                          <bold>Utility<sup>d</sup></bold>
+                        </td>
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">ICBT</td>
+                        <td rowspan="1" colspan="1">0.82 (0.12)</td>
+                        <td rowspan="1" colspan="1">0.87 (0.09)</td>
+                        <td rowspan="1" colspan="1">0.89 (0.09)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">WLC</td>
+                        <td rowspan="1" colspan="1">0.82 (0.11)</td>
+                        <td rowspan="1" colspan="1">0.84 (0.11)</td>
+                        <td rowspan="1" colspan="1">—</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="table1fn1">
+                      <p><sup>a</sup>ICBT: internet-based cognitive behavioral therapy.</p>
+                    </fn>
+                    <fn id="table1fn2">
+                      <p><sup>b</sup>WLC: waitlist control.</p>
+                    </fn>
+                    <fn id="table1fn3">
+                      <p><sup>c</sup>Not applicable. Patients in the WLC group were crossed over to treatment after the posttreatment assessment.</p>
+                    </fn>
+                    <fn id="table1fn4">
+                      <p><sup>d</sup>Utility scores are based on EuroQol 3L Questionnaire health states.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec>
+                <title>Cost Changes</title>
+                <p><xref rid="table2" ref-type="table">Table 2</xref> presents the per capita costs at the pre- and posttreatment assessment (for spatial reasons, costs at the 6MFU are presented in the <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref>). There was no significant difference between groups from pre- to posttreatment regarding gross total costs (ie, societal costs excluding the intervention costs; beta=−260.22; 95% CI −877.91 to 357.47; <italic>Z</italic>=−0.83; <italic>P</italic>=.41) or net total costs (ie, societal costs including the intervention costs; beta=−57.61; 95% CI −685.67 to 570.45; <italic>Z</italic>=−0.18; <italic>P</italic>=.86). Analyses of specific cost-domains revealed a significant interaction effect between time (from pre- to posttreatment) and group (ICBT vs WLC) regarding costs related to work cutback, where patients in the ICBT group significantly reduced their costs compared with those in the WLC group (beta=−292.24; 95% CI −525.98 to −58.50; <italic>Z</italic>=−2.45; <italic>P</italic>=.014). No other between-group interaction effects were found in specific cost-domains based on the TIC-P. Gross total costs in the ICBT group remained stable between posttreatment and the 6MFU (beta=173.76; 95% CI −383.98 to −731.46; <italic>Z</italic>=0.62; <italic>P</italic>=.54).</p>
+                <table-wrap id="table2" position="float">
+                  <label>Table 2</label>
+                  <caption>
+                    <p>Per capita costs at pre- and posttreatment assessment (all costs are in US dollar, converted from the Swedish Krona).</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="30" span="1"/>
+                    <col width="190" span="1"/>
+                    <col width="110" span="1"/>
+                    <col width="90" span="1"/>
+                    <col width="110" span="1"/>
+                    <col width="90" span="1"/>
+                    <col width="110" span="1"/>
+                    <col width="90" span="1"/>
+                    <col width="110" span="1"/>
+                    <col width="70" span="1"/>
+                    <thead>
+                      <tr valign="bottom">
+                        <td colspan="2" rowspan="1">Cost-domains</td>
+                        <td colspan="4" rowspan="1">Pretreatment<sup>a</sup></td>
+                        <td colspan="4" rowspan="1">Posttreatment</td>
+                      </tr>
+                      <tr valign="bottom">
+                        <td colspan="2" rowspan="1">
+                          <break/>
+                        </td>
+                        <td colspan="2" rowspan="1">ICBT<sup>b</sup>, (n=50)</td>
+                        <td colspan="2" rowspan="1">WLC<sup>c</sup>, (n=50)</td>
+                        <td colspan="2" rowspan="1">ICBT (n=49)</td>
+                        <td colspan="2" rowspan="1">WLC (n=48)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="2" rowspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Mean (SD)</td>
+                        <td rowspan="1" colspan="1">Median</td>
+                        <td rowspan="1" colspan="1">Mean (SD)</td>
+                        <td rowspan="1" colspan="1">Median</td>
+                        <td rowspan="1" colspan="1">Mean (SD)</td>
+                        <td rowspan="1" colspan="1">Median</td>
+                        <td rowspan="1" colspan="1">Mean (SD)</td>
+                        <td rowspan="1" colspan="1">Median</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td colspan="2" rowspan="1">
+                          <bold>Direct medical</bold>
+                        </td>
+                        <td rowspan="1" colspan="1">187 (320)</td>
+                        <td rowspan="1" colspan="1">6</td>
+                        <td rowspan="1" colspan="1">316 (547)</td>
+                        <td rowspan="1" colspan="1">10</td>
+                        <td rowspan="1" colspan="1">172 (255)</td>
+                        <td rowspan="1" colspan="1">41</td>
+                        <td rowspan="1" colspan="1">350 (845)</td>
+                        <td rowspan="1" colspan="1">213</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Health care visits</td>
+                        <td rowspan="1" colspan="1">169 (288)</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">312 (546)</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">166 (254)</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">345 (845)</td>
+                        <td rowspan="1" colspan="1">211</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Medication</td>
+                        <td rowspan="1" colspan="1">18 (83)</td>
+                        <td rowspan="1" colspan="1">2</td>
+                        <td rowspan="1" colspan="1">4 (5)</td>
+                        <td rowspan="1" colspan="1">1</td>
+                        <td rowspan="1" colspan="1">6 (9)</td>
+                        <td rowspan="1" colspan="1">2</td>
+                        <td rowspan="1" colspan="1">5 (7)</td>
+                        <td rowspan="1" colspan="1">3</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="2" rowspan="1">Direct nonmedical</td>
+                        <td rowspan="1" colspan="1">80 (120)</td>
+                        <td rowspan="1" colspan="1">20</td>
+                        <td rowspan="1" colspan="1">160 (445)</td>
+                        <td rowspan="1" colspan="1">35</td>
+                        <td rowspan="1" colspan="1">78 (130)</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">109 (173)</td>
+                        <td rowspan="1" colspan="1">5</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="2" rowspan="1">
+                          <bold>Indirect nonmedical</bold>
+                        </td>
+                        <td rowspan="1" colspan="1">1115 (1436)</td>
+                        <td rowspan="1" colspan="1">579</td>
+                        <td rowspan="1" colspan="1">1043 (1629)</td>
+                        <td rowspan="1" colspan="1">132</td>
+                        <td rowspan="1" colspan="1">884 (1348)</td>
+                        <td rowspan="1" colspan="1">313</td>
+                        <td rowspan="1" colspan="1">1040 (1368)</td>
+                        <td rowspan="1" colspan="1">515</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Unemployment</td>
+                        <td rowspan="1" colspan="1">150 (746)</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">80 (568)</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">182 (910)</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">0 (0)</td>
+                        <td rowspan="1" colspan="1">0</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Sick leave</td>
+                        <td rowspan="1" colspan="1">389 (980)</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">639 (1406)</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">438 (929)</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">624 (1276)</td>
+                        <td rowspan="1" colspan="1">0</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Work cutback<sup>d</sup></td>
+                        <td rowspan="1" colspan="1">408 (636)</td>
+                        <td rowspan="1" colspan="1">149</td>
+                        <td rowspan="1" colspan="1">221 (507)</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">212 (421)</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">317 (463)</td>
+                        <td rowspan="1" colspan="1">178</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Domestic</td>
+                        <td rowspan="1" colspan="1">168 (397)</td>
+                        <td rowspan="1" colspan="1">56</td>
+                        <td rowspan="1" colspan="1">103 (189)</td>
+                        <td rowspan="1" colspan="1">26</td>
+                        <td rowspan="1" colspan="1">53 (78)</td>
+                        <td rowspan="1" colspan="1">13</td>
+                        <td rowspan="1" colspan="1">99 (155)</td>
+                        <td rowspan="1" colspan="1">31</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="2" rowspan="1">Gross total costs</td>
+                        <td rowspan="1" colspan="1">1382 (1533)</td>
+                        <td rowspan="1" colspan="1">843</td>
+                        <td rowspan="1" colspan="1">1518 (2080)</td>
+                        <td rowspan="1" colspan="1">466</td>
+                        <td rowspan="1" colspan="1">1134 (1528)</td>
+                        <td rowspan="1" colspan="1">492</td>
+                        <td rowspan="1" colspan="1">1499 (1841)</td>
+                        <td rowspan="1" colspan="1">762</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="2" rowspan="1">Intervention costs</td>
+                        <td rowspan="1" colspan="1">—<sup>e</sup></td>
+                        <td rowspan="1" colspan="1">—</td>
+                        <td rowspan="1" colspan="1">—</td>
+                        <td rowspan="1" colspan="1">—</td>
+                        <td rowspan="1" colspan="1">203 (78)</td>
+                        <td rowspan="1" colspan="1">205</td>
+                        <td rowspan="1" colspan="1">—</td>
+                        <td rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="2" rowspan="1">Net total costs</td>
+                        <td rowspan="1" colspan="1">1382 (1533)</td>
+                        <td rowspan="1" colspan="1">843</td>
+                        <td rowspan="1" colspan="1">1518 (2080)</td>
+                        <td rowspan="1" colspan="1">466</td>
+                        <td rowspan="1" colspan="1">1314 (1553)</td>
+                        <td rowspan="1" colspan="1">721</td>
+                        <td rowspan="1" colspan="1">1499 (1841)</td>
+                        <td rowspan="1" colspan="1">762</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="table2fn1">
+                      <p><sup>a</sup>There were no significant differences between groups (ICBT vs WLC) in any cost-domain at the pretreatment assessment (<italic>P</italic>=.06-.57).</p>
+                    </fn>
+                    <fn id="table2fn2">
+                      <p><sup>b</sup>ICBT: internet-based cognitive behavioral therapy.</p>
+                    </fn>
+                    <fn id="table2fn3">
+                      <p><sup>c</sup>WLC: waitlist control.</p>
+                    </fn>
+                    <fn id="table2fn4">
+                      <p><sup>d</sup>Significant interaction effect between groups (ICBT vs WLC) from pre- to posttreatment (<italic>P</italic>=.014).</p>
+                    </fn>
+                    <fn id="table2fn5">
+                      <p><sup>e</sup>Not applicable.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec>
+                <title>Societal Perspective: Cost-Effectiveness and Cost-Utility</title>
+                <p>Taking all costs into account (ie, conducting the analysis from a societal perspective), the ICER was −77.24/0.49=−157.63, favoring ICBT over the WLC. This indicates that the most likely scenario was that ICBT led to higher remission rates compared with the WLC and was associated with slightly larger reductions in costs from pre- to posttreatment. <xref rid="figure2" ref-type="fig">Figure 2</xref> (top left) presents the scatter plot of simulated ICERs across the 4 quadrants of the cost-effectiveness plane, illustrating the degree of uncertainty associated with the estimated parameter. A majority of the simulated ICERs (60.86%, 3043/5000) are located within the southeast quadrant (larger effect of ICBT at a lower cost), whereas 39.14% (1957/5000) are located in the northeast quadrant (larger effect of ICBT at a higher cost). This suggests that ICBT is a cost-effective treatment from a societal perspective.</p>
+                <p>To estimate the cost-utility of ICBT relative to the WLC, we repeated the analysis using health-related quality of life (change in utility) as outcome. The ICUR was −77.24/0.03=−2574.67. As illustrated in <xref rid="figure2" ref-type="fig">Figure 2</xref> (bottom left), a majority (57.20%, 2860/5000) of the simulated ICURs are located within the southeast quadrant, indicating that the most likely outcome is that ICBT, in comparison with no treatment, leads to lower net costs while increasing health-related quality of life. When QALYs were instead used as outcome, the ICUR was −77.24/0.0043=−17962.79. Of the simulated ICURs, 48.14% (2407/5000) fell in the southeast quadrant of the cost-utility plane, 34,52% (1726/5000) fell in the northeast quadrant, 11.90% (595/5000) fell in the northwest quadrant, and 5.44% (272/5000) in the southwest quadrant (see <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref> for cost-utility plane). This suggests that the most likely scenario is that the treatment generates more QALYs at lower net costs compared with no treatment.</p>
+                <p><xref rid="figure3" ref-type="fig">Figure 3</xref> illustrates the acceptability curves based on the same data as used above in the cost-effectiveness and cost-utility analyses (using change in utility) from a societal perspective. As can be seen, ICBT has a 60% probability of being cost-effective from pre- to posttreatment if society is willing to pay US $0 for 1 additional case of remission or for increased utility. This was true also when using QALYs as outcome (see <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref>). If society instead were willing to pay US $1000 for 1 additional case of remission, the probability of the treatment being cost-effective would increase to 96% (<xref rid="figure3" ref-type="fig">Figure 3</xref>, top). Assuming a WTP of US $8000, the probability of ICBT being cost-effective with regard to increasing quality of life would increase to 80% (<xref rid="figure3" ref-type="fig">Figure 3</xref>, bottom). Using QALYs as outcome, a WTP of US $25,000 and US $50,000 would increase the probability of 1 QALY gain in ICBT, compared with the WLC, to 71% and 79%, respectively.</p>
+                <fig id="figure2" position="float">
+                  <label>Figure 2</label>
+                  <caption>
+                    <p>Cost-effectiveness (top) and cost-utility (bottom) planes comprising 5000 bootstrapped incremental cost-effectiveness ratios and incremental cost-utility ratios, respectively, comparing internet-based cognitive behavioral therapy with waitlist control over the 12-week treatment period. Remission was operationalized as the proportion of patients who made a clinically significant improvement on the 14-item Perceived Stress Scale (PSS). Utility was based on EuroQol Questionnaire, 3L version (EQ-5D 3L) health states. In the 2 left-hand planes, all costs from a societal perspective are included. The 2 right-hand planes include costs from a health care perspective (ie, using only direct medical costs). Please note that the y-scale of the health care perspective graphs differs from that of the societal perspective graphs.</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v21i9e14675_fig2"/>
+                </fig>
+                <fig id="figure3" position="float">
+                  <label>Figure 3</label>
+                  <caption>
+                    <p>Cost-effectiveness (above) and cost-utility (below) acceptability curves from a societal perspective comparing internet-based cognitive behavioral therapy (ICBT) with waitlist control (WLC) over the 12-week treatment period. Note: Solid lines represent the probability of ICBT being more cost-effective in the standard scenario. Dotted lines represent the probability of ICBT being more cost-effective based on a sensitivity analysis in which a 3-fold higher intervention cost was used (US $663).</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v21i9e14675_fig3"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Health Care Perspective: Cost-Effectiveness and Cost-Utility</title>
+                <p>Taking only the direct medical costs into account, that is, a health care perspective, analysis using remission rate as efficacy measure generated an estimated ICER of 171.12/0.49=349.00. This means that each additional case of remission in ICBT relative to the WLC was associated with a slight increase in health care costs in the ICBT compared with the WLC. When conducting the same analysis using change in utility as outcome, the corresponding ICUR was 171.12/0.03=5704. <xref rid="figure2" ref-type="fig">Figure 2</xref> shows the scatter plots of the simulated ICERs (top right) and ICURs (bottom right) from a health care perspective. Although treatment benefits of ICBT are associated with a cost for the health care provider, the cost-effectiveness acceptability curve (<xref rid="figure4" ref-type="fig">Figure 4</xref>, top) shows that, at a relatively low WTP of US $1000, the probability of ICBT being cost-effective from a health care perspective is 97%. Regarding cost-utility from a health care perspective, the ICBT has a higher probability of cost-utility compared with the WLC at a WTP of approximately US $6000 (<xref rid="figure4" ref-type="fig">Figure 4</xref>, bottom).</p>
+                <fig id="figure4" position="float">
+                  <label>Figure 4</label>
+                  <caption>
+                    <p>Cost-effectiveness (above) and cost-utility (below) acceptability curves from a health care perspective comparing internet-based cognitive behavioral therapy (ICBT) with waitlist control (WLC) over the 12-week treatment period. Note: Solid lines represent the probability of ICBT being more cost-effective in the standard scenario. Dotted lines represent the probability of ICBT being more cost-effective based on a sensitivity analysis in which a 3-fold higher intervention cost was used (US $663).</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v21i9e14675_fig4"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Sensitivity Analyses</title>
+                <p>In the sensitivity analysis in which an intervention cost of US $663 (including, eg, assessment procedure, platform administration, and other health care staff and overhead costs) replaced the intervention cost of ICBT in this study, ICBT remained more likely to be cost-effective from a societal perspective compared with the WLC even at a WTP of US $0 (see <xref rid="figure3" ref-type="fig">Figure 3</xref>, top, dotted line). The cost-utility acceptability curve (<xref rid="figure3" ref-type="fig">Figure 3</xref>, bottom, dotted line) indicates that a WTP of approximately US $17,000 would be required for the ICBT to be preferable to the WLC in terms of cost-utility. From a health care perspective (see <xref rid="figure4" ref-type="fig">Figure 4</xref>, dotted lines), the new intervention cost estimate would require a WTP of approximately US $1500 for ICBT to be more likely than the WLC to be cost-effective from pre- to posttreatment. To render cost-utility of ICBT, compared with the WLC, from a health care perspective, a WTP of US $20,000 would be needed.</p>
+                <p><xref rid="figure5" ref-type="fig">Figure 5</xref> illustrates the cost-effectiveness acceptability curves for the respective diagnostic groups (AD and ED), using remission rate on PSS as efficacy measure. For patients diagnosed with AD, there was a 92% probability that ICBT was more cost-effective than the WLC at a WTP of US $0. For patients diagnosed with ED, there was an 80% probability that ICBT was more cost-effective compared with the WLC at a WTP of US $1000. More information can be found in <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref> about outcomes, costs, and cost-effectiveness planes for AD and ED respectively (<xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref>).</p>
+                <fig id="figure5" position="float">
+                  <label>Figure 5</label>
+                  <caption>
+                    <p>Cost-effectiveness acceptability curve from a societal perspective, comparing patients with adjustment disorder and exhaustion disorder in internet-based cognitive behavioral therapy (ICBT) to their respective wait-list control (WLC) over the 12-week treatment period. Remission is operationalized as clinically significant improvement on the Perceived Stress Scale (PSS).</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v21i9e14675_fig5"/>
+                </fig>
+                <p>The sensitivity analyses investigating different cost scenarios for informal care and domestic work indicated that the overall cost-effectiveness of ICBT remained unchanged when a higher cost-estimate was used and when costs for informal care and domestic work were removed from the total net costs. In the first scenario (where US $19 was used as a cost estimate of the average gross hourly wage earned by a domestic worker), the ICER was −126.69/0.49=−258.55 in favor of the ICBT, with 64.96% (3248/5000) of simulated ICERs falling in the southeast quadrant of the cost-effectiveness plane and 35.04% (1752/5000) falling in the northeast quadrant. In the second scenario (where costs for informal care and domestic work were removed), the ICER was −37.91/0.49=−1.99, supporting the superiority of ICBT with 55.10% (2755/5000) of simulated ICERs in the southeast quadrant and 44.90% (2245/5000) in the northeast quadrant (see <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref> for cost-effectiveness planes). Regarding presenteeism costs, the ICER in which costs for work cutback were removed indicated that each patient in remission was associated with a higher cost in the ICBT compared with the WLC (ICER: 214.43/0.49=437.61), with only 27.02% (1351/5000) of simulated ICERs in the southeast quadrant and 72.98% (3649/5000) in the northeast quadrant. At a WTP of US $2000, however, the probability of ICBT being cost-effective increased to 98% (see <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref>). When costs for presenteeism were doubled, the resulting ICER was −368.91/0.49=−752.8 in favor of the ICBT, with 86.92% (4346/5000) of simulated ICERs in the southeast quadrant and 13.01% (654/5000) in the northeast quadrant, indicating that this scenario would render the treatment highly cost-effective as compared with the WLC. This sensitivity analysis supports that the net difference in these costs is largely in favor of the ICBT and that productivity loss because of presenteeism to a large extent contributes to the high cost-effectiveness of the treatment.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion">
+              <title>Discussion</title>
+              <sec>
+                <title>Principal Findings</title>
+                <p>To our knowledge, this is the first health economic evaluation conducted of an ICBT specifically targeting stress-related disorders in the form of AD and ED. The results showed that ICBT generated higher remission rates compared with the WLC at no additional societal costs. The cost-utility analysis also showed that the ICBT was more likely to be preferable to the WLC from a societal perspective, both when change in utilities and QALYs were used as outcome. Taking a health care perspective (ie, including only direct medical costs in the ICER), there was a 97% probability that ICBT would generate an additional patient in remission compared with the WLC at a WTP of US $1000. A WTP of approximately US $6000 would, however, be required for the ICBT to be preferable to the WLC in terms of cost-utility. The overall indication of treatment cost-effectiveness was supported by sensitivity analyses. In sum, using data from a randomized controlled trial, this study showed that ICBT for stress-related disorders is likely to be a cost-effective treatment compared with no treatment.</p>
+                <p>The results of our study are in line with other health economic evaluations of ICBT for a range of clinical conditions, where ICBT in general has more than 50% probability of being cost-effective compared with no treatment or conventional CBT at a WTP of US $0 for an additional improvement [<xref rid="ref19" ref-type="bibr">19</xref>]. As no previous health economic evaluations of ICBT for patients diagnosed with stress-related disorders have been conducted, to our knowledge, there are no available cost-effectiveness estimates of the target population with which we can directly compare our results. Nevertheless, 2 recently published studies evaluated cost-effectiveness of ICBT for employees with elevated levels of stress, 1 from an employer’s perspective (including only costs relevant for the employer, ie, presenteeism, absenteeism, and treatment costs) [<xref rid="ref24" ref-type="bibr">24</xref>] and 1 adopting a full societal perspective [<xref rid="ref25" ref-type="bibr">25</xref>]. Results of these studies were similar to those found in this study, with probabilities of treatment cost-effectiveness of approximately 70% compared with WLC at a WTP of US $0 [<xref rid="ref24" ref-type="bibr">24</xref>,<xref rid="ref25" ref-type="bibr">25</xref>]. In these studies, as in ours, costs because of presenteeism were large and constituted central cost drivers in the cost-effectiveness analyses. These clinical findings support previous reports stating that presenteeism constitutes a large cost in stress-related mental illness and many other clinical conditions [<xref rid="ref1" ref-type="bibr">1</xref>,<xref rid="ref50" ref-type="bibr">50</xref>], in fact reducing output by at least as much as absenteeism [<xref rid="ref50" ref-type="bibr">50</xref>,<xref rid="ref51" ref-type="bibr">51</xref>]. The indication that ICBT may significantly reduce costs within this domain is encouraging and needs to be further investigated. Although the potential cost savings related to reduced work cutback after ICBT may not directly benefit the health care provider (the payer of the intervention in this study), the low intervention cost and high scalability of ICBT makes the treatment cost-effective also from a health care perspective.</p>
+                <p>Although this study showed that ICBT for stress-related disorders is likely to be cost-effective, the degree of cost-effectiveness and cost-utility versus the WLC was, to some extent, moderated by 3 factors. First, the ICER was slightly more favorable when using a societal perspective compared with a narrower health care perspective. This is reflective of the absence of effect of ICBT on direct medical costs (health care visits and medication), which may be explained by the fact that patients suffering from chronic stress often have comorbid health conditions [<xref rid="ref52" ref-type="bibr">52</xref>] that ICBT would be unlikely to affect in the short term. Second, the ICER (based on remission rates) was somewhat more favorable than the ICUR (based on utility change or QALYs). This was because the controlled effect on the primary outcome PSS was substantially larger than that on EQ-5D. This is expected given the generic nature of EQ-5D, which includes items such as “I am unable to wash and dress myself. <italic>”</italic> Third, even if ICBT was cost-effective for both diagnostic groups, it was more so for patients with AD compared with those with ED. These results can be understood by the fact that, relative to their respective controls, both diagnostic groups made large symptomatic improvements, but cost changes were smaller for patients with ED compared with patients with AD. A possible conclusion that can be drawn is that it is likely beneficial to offer treatment early on in the development of chronic stress (ie, for patients suffering from AD as opposed to ED), as a means of optimizing treatment cost-effectiveness and preventing increased societal costs. Nonetheless, it is encouraging that ICBT is cost-effective even in the very short term also for patients suffering from severe symptoms of chronic stress.</p>
+              </sec>
+              <sec>
+                <title>Limitations and Strengths</title>
+                <p>There are some limitations to this study. First, the use of a WLC that (for ethical reasons) received treatment immediately after the 12-week experimental phase did not allow for between-group comparisons of costs and effects at the 6MFU. Although costs seem to remain stable between posttreatment and 6MFU in the ICBT condition, we do not know whether this is because of treatment or other factors. The reason for using a WLC in the randomized controlled trial was that we judged the intervention research on stress-related disorders to still be in its early stages. In this context, the use of WLC has been suggested to be a viable option because it gives protection against basic threats to internal validity (eg, regression toward the mean and spontaneous remission) and reduces the risk of type-II error, which are central factors in the early phase of treatment development [<xref rid="ref53" ref-type="bibr">53</xref>]. Furthermore, the WLC represents a realistic scenario, given that no established treatment guidelines exist for AD or ED and many suffering individuals never get access to psychological treatment [<xref rid="ref54" ref-type="bibr">54</xref>].</p>
+                <p>A second limitation was that we relied on self-report data to obtain information about costs, which are prone to certain biases (eg, memory bias). Using self-report data to estimate costs in economic evaluations conducted together with randomized trials is, however, the most common procedure [<xref rid="ref55" ref-type="bibr">55</xref>], and the TIC-P has demonstrated reasonable validity and reliability [<xref rid="ref39" ref-type="bibr">39</xref>]. Moreover, there are indications of high convergence between self-report of health care visits and registry data [<xref rid="ref56" ref-type="bibr">56</xref>].</p>
+                <p>A third issue is that of generalizability. In this study, the fact that the treatment was delivered via the internet likely improves generalizability, as it makes the results less dependent on factors such as regional differences in clinical practice and resource use (ie, patients were not tied to any specific setting). However, the high percentage of educated women in our sample limits generalizability to the full spectrum of individuals suffering from stress-related disorders. Even though the effect of gender on outcome in CBT has been found to be limited [<xref rid="ref57" ref-type="bibr">57</xref>], and women with a moderate to high level of education tend to be overrepresented among people who seek health care for stress-related disorders (refer to, eg, the studies by Salomonsson et al [<xref rid="ref27" ref-type="bibr">27</xref>], Heber et al [<xref rid="ref58" ref-type="bibr">58</xref>], and Netterstrom et al [<xref rid="ref59" ref-type="bibr">59</xref>]), more research on the cost-effectiveness of ICBT is needed using different types of patient samples and treatment settings.</p>
+                <p>Central strengths of this study were the randomized design, which enabled control over confounders; low attrition rates; and the use of both societal and health care perspectives in the health economic evaluation. Another central strength was that we used a clinical sample for which no past health economic evaluations have been conducted. We characterized heterogeneity through sensitivity analysis of the diagnostic subgroups AD and ED, which is often overlooked in health economic trials [<xref rid="ref60" ref-type="bibr">60</xref>].</p>
+              </sec>
+              <sec>
+                <title>Conclusions</title>
+                <p>In conclusion, ICBT for the stress-related disorders AD and ED is likely to be a cost-effective treatment compared with WLC. Most probably, ICBT leads to substantial improvements at no net societal costs, meaning that the treatment costs associated with administrating ICBT are likely to be quickly returned to society. In this trial, nearly two-thirds of patients who received ICBT were in remission after 12 weeks. Considering the scalability of this treatment and the low net costs, we believe that if ICBT is implemented in routine health care, it could play an important role in making effective treatment accessible to patients suffering from chronic stress in the form of AD and ED.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>This study was funded by the Doctoral School in Health Care Sciences, Karolinska Institutet, Stockholm Stress Center, and Stockholm County Council. These are public institutions, neither of which had any role in the design, execution, or publication of the study.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="con">
+                <p>Authors' Contributions: All authors made significant contributions to the planning, recruitment, execution, analysis, and publication of this study.</p>
+              </fn>
+              <fn fn-type="COI-statement">
+                <p>Conflicts of Interest: None declared.</p>
+              </fn>
+            </fn-group>
+            <app-group>
+              <app>
+                <title>Appendix</title>
+                <supplementary-material content-type="local-data" id="app1">
+                  <label>Multimedia Appendix 1</label>
+                  <p>Supplementary material presenting estimation of costs, cost-utility analysis based on Quality-Adjusted Life Years, and additional results from sensitivity analyses.</p>
+                  <media xlink:href="jmir_v21i9e14675_app1.docx" xlink:title="DOCX File , 402 KB" xlink:type="simple" id="d35e1504" position="anchor"/>
+                </supplementary-material>
+              </app>
+            </app-group>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term id="abb1">6MFU</term>
+                  <def>
+                    <p>6-month follow-up</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb2">AD</term>
+                  <def>
+                    <p>adjustment disorder</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb3">CBT</term>
+                  <def>
+                    <p>cognitive behavioral therapy</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb4">DSM-5</term>
+                  <def>
+                    <p>Diagnostic and Statistical Manual of Mental Disorders, 5th edition</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb5">ED</term>
+                  <def>
+                    <p>exhaustion disorder</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb6">EQ-5D</term>
+                  <def>
+                    <p>EuroQol 3L Questionnaire</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb7">ICBT</term>
+                  <def>
+                    <p>internet-based cognitive behavioral therapy</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb8">ICER</term>
+                  <def>
+                    <p>incremental cost-effectiveness ratio</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb9">ICUR</term>
+                  <def>
+                    <p>incremental cost-utility ratio</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb10">PSS</term>
+                  <def>
+                    <p>Perceived Stress Scale</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb11">QALY</term>
+                  <def>
+                    <p>quality-adjusted life year</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb12">SEK</term>
+                  <def>
+                    <p>Swedish Krona</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb13">TIC-P</term>
+                  <def>
+                    <p>Trimbos and Institute Medical Technology Assessment of Costs Questionnaire for Psychiatry</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb14">WLC</term>
+                  <def>
+                    <p>waitlist control</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb15">WTP</term>
+                  <def>
+                    <p>willingness to pay</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <ref-list>
+              <ref id="ref1">
+                <label>1</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hassard</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Teoh</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Cox</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Dewe</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Cosmar</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Gründler</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Flemming</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Cosemans</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>van den Broek</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <source>European Agency for Safety and Health at Work</source>
+                  <year>2014</year>
+                  <date-in-citation>2018-02-01</date-in-citation>
+                  <comment>Calculating the Cost of Work-Related Stress And Psychosocial Risks: European Risk Observatory Literature Review
+<ext-link ext-link-type="uri" xlink:href="https://osha.europa.eu/en/publications/literature_reviews/calculating-the-cost-of-work-related-stress-and-psychosocial-risks/view">https://osha.europa.eu/en/publications/literature_reviews/calculating-the-cost-of-work-related-stress-and-psychosocial-risks/view</ext-link></comment>
+                </element-citation>
+              </ref>
+              <ref id="ref2">
+                <label>2</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McEwen</surname>
+                      <given-names>BS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Physiology and neurobiology of stress and adaptation: central role of the brain</article-title>
+                  <source>Physiol Rev</source>
+                  <year>2007</year>
+                  <month>7</month>
+                  <volume>87</volume>
+                  <issue>3</issue>
+                  <fpage>873</fpage>
+                  <lpage>904</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://www.physiology.org/doi/full/10.1152/physrev.00041.2006?url_ver=Z39.88-2003&amp;rfr_id=ori:rid:crossref.org&amp;rfr_dat=cr_pub%3dpubmed"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1152/physrev.00041.2006</pub-id>
+                  <pub-id pub-id-type="medline">17615391</pub-id>
+                  <!--<pub-id pub-id-type="pii">87/3/873</pub-id>-->
+                  <pub-id pub-id-type="pmid">17615391</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref3">
+                <label>3</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Grossi</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Perski</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Osika</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Savic</surname>
+                      <given-names>I</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stress-related exhaustion disorder--clinical manifestation of burnout? A review of assessment methods, sleep impairments, cognitive disturbances, and neuro-biological and physiological changes in clinical burnout</article-title>
+                  <source>Scand J Psychol</source>
+                  <year>2015</year>
+                  <month>12</month>
+                  <volume>56</volume>
+                  <issue>6</issue>
+                  <fpage>626</fpage>
+                  <lpage>36</lpage>
+                  <pub-id pub-id-type="doi">10.1111/sjop.12251</pub-id>
+                  <pub-id pub-id-type="medline">26496458</pub-id>
+                  <pub-id pub-id-type="pmid">26496458</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref4">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Layard</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mental health: the new frontier for labour economics</article-title>
+                  <source>IZA J Labor Policy</source>
+                  <year>2013</year>
+                  <volume>2</volume>
+                  <fpage>2</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://izajolp.springeropen.com/articles/10.1186/2193-9004-2-2"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1186/2193-9004-2-2</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kalia</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Assessing the economic impact of stress--the modern day hidden epidemic</article-title>
+                  <source>Metabolism</source>
+                  <year>2002</year>
+                  <month>6</month>
+                  <volume>51</volume>
+                  <issue>6 Suppl 1</issue>
+                  <fpage>49</fpage>
+                  <lpage>53</lpage>
+                  <pub-id pub-id-type="doi">10.1053/meta.2002.33193</pub-id>
+                  <pub-id pub-id-type="medline">12040542</pub-id>
+                  <!--<pub-id pub-id-type="pii">ameta0510s49</pub-id>-->
+                  <pub-id pub-id-type="pmid">12040542</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Arends</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Bruinvels</surname>
+                      <given-names>DJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Rebergen</surname>
+                      <given-names>DS</given-names>
+                    </name>
+                    <name>
+                      <surname>Nieuwenhuijsen</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Madan</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Neumeyer-Gromen</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Bültmann</surname>
+                      <given-names>Ute</given-names>
+                    </name>
+                    <name>
+                      <surname>Verbeek</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Interventions to facilitate return to work in adults with adjustment disorders</article-title>
+                  <source>Cochrane Database Syst Rev</source>
+                  <year>2012</year>
+                  <month>12</month>
+                  <day>12</day>
+                  <volume>12</volume>
+                  <issue>12</issue>
+                  <fpage>CD006389</fpage>
+                  <pub-id pub-id-type="doi">10.1002/14651858.CD006389.pub2</pub-id>
+                  <pub-id pub-id-type="medline">23235630</pub-id>
+                  <pub-id pub-id-type="pmid">23235630</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Reed</surname>
+                      <given-names>GM</given-names>
+                    </name>
+                    <name>
+                      <surname>Correia</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Esparza</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Saxena</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Maj</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The WPA-WHO global survey of psychiatrists' attitudes towards mental disorders classification</article-title>
+                  <source>World Psychiatry</source>
+                  <year>2011</year>
+                  <month>6</month>
+                  <volume>10</volume>
+                  <issue>2</issue>
+                  <fpage>118</fpage>
+                  <lpage>31</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://onlinelibrary.wiley.com/resolve/openurl?genre=article&amp;sid=nlm:pubmed&amp;issn=1723-8617&amp;date=2011&amp;volume=10&amp;issue=2&amp;spage=118"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1002/j.2051-5545.2011.tb00034.x</pub-id>
+                  <pub-id pub-id-type="medline">21633689</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC3105474</pub-id>-->
+                  <pub-id pub-id-type="pmid">21633689</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Evans</surname>
+                      <given-names>SC</given-names>
+                    </name>
+                    <name>
+                      <surname>Reed</surname>
+                      <given-names>GM</given-names>
+                    </name>
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                    <name>
+                      <surname>Esparza</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Watts</surname>
+                      <given-names>AD</given-names>
+                    </name>
+                    <name>
+                      <surname>Correia</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Ritchie</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Maj</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Saxena</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Psychologists' perspectives on the diagnostic classification of mental disorders: results from the WHO-IUPsyS global survey</article-title>
+                  <source>Int J Psychol</source>
+                  <year>2013</year>
+                  <volume>48</volume>
+                  <issue>3</issue>
+                  <fpage>177</fpage>
+                  <lpage>93</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/23750927"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1080/00207594.2013.804189</pub-id>
+                  <pub-id pub-id-type="medline">23750927</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC3725658</pub-id>-->
+                  <pub-id pub-id-type="pmid">23750927</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref9">
+                <label>9</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>American Psychiatric Association</collab>
+                  </person-group>
+                  <source>Diagnostic and Statistical Manual of Mental Disorders: DSM-5. Fifth Edition</source>
+                  <year>2013</year>
+                  <publisher-loc>Arlington, VA</publisher-loc>
+                  <publisher-name>American Psychiatric Publishing</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref10">
+                <label>10</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>World Health Organization</collab>
+                  </person-group>
+                  <source>The ICD-10 Classification of Mental and Behavioural Disorders: Clinical Description and Diagnostic Guidelines</source>
+                  <year>1992</year>
+                  <publisher-loc>Geneva, Switzerland</publisher-loc>
+                  <publisher-name>World Health Organization</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref11">
+                <label>11</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schaufeli</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Enzmann</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <source>The Burnout Companion To Study And Practice: A Critical Analysis</source>
+                  <year>1998</year>
+                  <publisher-loc>Boca Raton, Florida</publisher-loc>
+                  <publisher-name>CRC Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fava</surname>
+                      <given-names>GA</given-names>
+                    </name>
+                    <name>
+                      <surname>Cosci</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Sonino</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Current psychosomatic practice</article-title>
+                  <source>Psychother Psychosom</source>
+                  <year>2017</year>
+                  <volume>86</volume>
+                  <issue>1</issue>
+                  <fpage>13</fpage>
+                  <lpage>30</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.karger.com?DOI=10.1159/000448856"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1159/000448856</pub-id>
+                  <pub-id pub-id-type="medline">27884006</pub-id>
+                  <!--<pub-id pub-id-type="pii">000448856</pub-id>-->
+                  <pub-id pub-id-type="pmid">27884006</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref13">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lindsäter</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Axelsson</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Salomonsson</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Santoft</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Ejeby</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Åkerstedt</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Lekander</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Hedman-Lagerlöf</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Internet-based cognitive behavioral therapy for chronic stress: a randomized controlled trial</article-title>
+                  <source>Psychother Psychosom</source>
+                  <year>2018</year>
+                  <volume>87</volume>
+                  <issue>5</issue>
+                  <fpage>296</fpage>
+                  <lpage>305</lpage>
+                  <pub-id pub-id-type="doi">10.1159/000490742</pub-id>
+                  <pub-id pub-id-type="medline">30041167</pub-id>
+                  <!--<pub-id pub-id-type="pii">000490742</pub-id>-->
+                  <pub-id pub-id-type="pmid">30041167</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref14">
+                <label>14</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Drummond</surname>
+                      <given-names>MF</given-names>
+                    </name>
+                    <name>
+                      <surname>Sculpher</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Claxton</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Stoddart</surname>
+                      <given-names>GL</given-names>
+                    </name>
+                    <name>
+                      <surname>Torrance</surname>
+                      <given-names>GW</given-names>
+                    </name>
+                  </person-group>
+                  <source>Methods for the Economic Evaluation of Health Care Programmes</source>
+                  <year>2015</year>
+                  <publisher-loc>Oxford</publisher-loc>
+                  <publisher-name>Oxford University Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref15">
+                <label>15</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Saha</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoerger</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Pignone</surname>
+                      <given-names>MP</given-names>
+                    </name>
+                    <name>
+                      <surname>Teutsch</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Helfand</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Mandelblatt</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <collab>Cost Work Group‚ Third US Preventive Services Task Force</collab>
+                  </person-group>
+                  <article-title>The art and science of incorporating cost effectiveness into evidence-based recommendations for clinical preventive services</article-title>
+                  <source>Am J Prev Med</source>
+                  <year>2001</year>
+                  <month>4</month>
+                  <volume>20</volume>
+                  <issue>3 Suppl</issue>
+                  <fpage>36</fpage>
+                  <lpage>43</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0749-3797(01)00260-4</pub-id>
+                  <pub-id pub-id-type="medline">11306230</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0749379701002604</pub-id>-->
+                  <pub-id pub-id-type="pmid">11306230</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref16">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hofmann</surname>
+                      <given-names>SG</given-names>
+                    </name>
+                    <name>
+                      <surname>Asnaani</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Vonk</surname>
+                      <given-names>IJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Sawyer</surname>
+                      <given-names>AT</given-names>
+                    </name>
+                    <name>
+                      <surname>Fang</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The efficacy of cognitive behavioral therapy: a review of meta-analyses</article-title>
+                  <source>Cognit Ther Res</source>
+                  <year>2012</year>
+                  <month>10</month>
+                  <day>1</day>
+                  <volume>36</volume>
+                  <issue>5</issue>
+                  <fpage>427</fpage>
+                  <lpage>40</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/23459093"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1007/s10608-012-9476-1</pub-id>
+                  <pub-id pub-id-type="medline">23459093</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC3584580</pub-id>-->
+                </element-citation>
+              </ref>
+              <ref id="ref17">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bhui</surname>
+                      <given-names>KS</given-names>
+                    </name>
+                    <name>
+                      <surname>Dinos</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Stansfeld</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <name>
+                      <surname>White</surname>
+                      <given-names>PD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A synthesis of the evidence for managing stress at work: a review of the reviews reporting on anxiety, depression, and absenteeism</article-title>
+                  <source>J Environ Public Health</source>
+                  <year>2012</year>
+                  <volume>2012</volume>
+                  <fpage>515874</fpage>
+                  <pub-id pub-id-type="doi">10.1155/2012/515874</pub-id>
+                  <pub-id pub-id-type="doi">10.1155/2012/515874</pub-id>
+                  <pub-id pub-id-type="medline">22496705</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC3306941</pub-id>-->
+                  <pub-id pub-id-type="pmid">22496705</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref18">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Richardson</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Rothstein</surname>
+                      <given-names>HR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of occupational stress management intervention programs: a meta-analysis</article-title>
+                  <source>J Occup Health Psychol</source>
+                  <year>2008</year>
+                  <month>1</month>
+                  <volume>13</volume>
+                  <issue>1</issue>
+                  <fpage>69</fpage>
+                  <lpage>93</lpage>
+                  <pub-id pub-id-type="doi">10.1037/1076-8998.13.1.69</pub-id>
+                  <pub-id pub-id-type="medline">18211170</pub-id>
+                  <!--<pub-id pub-id-type="pii">2008-00533-007</pub-id>-->
+                  <pub-id pub-id-type="pmid">18211170</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref19">
+                <label>19</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hedman</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Lindefors</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cognitive behavior therapy via the internet: a systematic review of applications, clinical efficacy and cost-effectiveness</article-title>
+                  <source>Expert Rev Pharmacoecon Outcomes Res</source>
+                  <year>2012</year>
+                  <month>12</month>
+                  <volume>12</volume>
+                  <issue>6</issue>
+                  <fpage>745</fpage>
+                  <lpage>64</lpage>
+                  <pub-id pub-id-type="doi">10.1586/erp.12.67</pub-id>
+                  <pub-id pub-id-type="medline">23252357</pub-id>
+                  <pub-id pub-id-type="pmid">23252357</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref20">
+                <label>20</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using the internet to provide cognitive behaviour therapy</article-title>
+                  <source>Behav Res Ther</source>
+                  <year>2009</year>
+                  <month>3</month>
+                  <volume>47</volume>
+                  <issue>3</issue>
+                  <fpage>175</fpage>
+                  <lpage>80</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.brat.2009.01.010</pub-id>
+                  <pub-id pub-id-type="medline">19230862</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0005-7967(09)00029-1</pub-id>-->
+                  <pub-id pub-id-type="pmid">19230862</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref21">
+                <label>21</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Heber</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ebert</surname>
+                      <given-names>DD</given-names>
+                    </name>
+                    <name>
+                      <surname>Lehr</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Cuijpers</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Berking</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Nobis</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Riper</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The benefit of web- and computer-based interventions for stress: a systematic review and meta-analysis</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2017</year>
+                  <month>2</month>
+                  <day>17</day>
+                  <volume>19</volume>
+                  <issue>2</issue>
+                  <fpage>e32</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.jmir.org/2017/2/e32/"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/jmir.5774</pub-id>
+                  <pub-id pub-id-type="medline">28213341</pub-id>
+                  <!--<pub-id pub-id-type="pii">v19i2e32</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC5336602</pub-id>-->
+                  <pub-id pub-id-type="pmid">28213341</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref22">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Donker</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Blankers</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Hedman</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Petrie</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Christensen</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Economic evaluations of internet interventions for mental health: a systematic review</article-title>
+                  <source>Psychol Med</source>
+                  <year>2015</year>
+                  <month>12</month>
+                  <volume>45</volume>
+                  <issue>16</issue>
+                  <fpage>3357</fpage>
+                  <lpage>76</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S0033291715001427</pub-id>
+                  <pub-id pub-id-type="medline">26235445</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0033291715001427</pub-id>-->
+                  <pub-id pub-id-type="pmid">26235445</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref23">
+                <label>23</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hamberg-van Reenen</surname>
+                      <given-names>HH</given-names>
+                    </name>
+                    <name>
+                      <surname>Proper</surname>
+                      <given-names>KI</given-names>
+                    </name>
+                    <name>
+                      <surname>van den Berg</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Worksite mental health interventions: a systematic review of economic evaluations</article-title>
+                  <source>Occup Environ Med</source>
+                  <year>2012</year>
+                  <month>11</month>
+                  <volume>69</volume>
+                  <issue>11</issue>
+                  <fpage>837</fpage>
+                  <lpage>45</lpage>
+                  <pub-id pub-id-type="doi">10.1136/oemed-2012-100668</pub-id>
+                  <pub-id pub-id-type="medline">22864248</pub-id>
+                  <!--<pub-id pub-id-type="pii">oemed-2012-100668</pub-id>-->
+                  <pub-id pub-id-type="pmid">22864248</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref24">
+                <label>24</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ebert</surname>
+                      <given-names>DD</given-names>
+                    </name>
+                    <name>
+                      <surname>Kählke</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Buntrock</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Berking</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Smit</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Heber</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Baumeister</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Funk</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Riper</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Lehr</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A health economic outcome evaluation of an internet-based mobile-supported stress management intervention for employees</article-title>
+                  <source>Scand J Work Environ Health</source>
+                  <year>2018</year>
+                  <month>3</month>
+                  <day>1</day>
+                  <volume>44</volume>
+                  <issue>2</issue>
+                  <fpage>171</fpage>
+                  <lpage>82</lpage>
+                  <pub-id pub-id-type="doi">10.5271/sjweh.3691</pub-id>
+                  <pub-id pub-id-type="medline">29144535</pub-id>
+                  <!--<pub-id pub-id-type="pii">3691</pub-id>-->
+                  <pub-id pub-id-type="pmid">29144535</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref25">
+                <label>25</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kählke</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Buntrock</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Smit</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Berking</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Lehr</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Heber</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Funk</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Riper</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Ebert</surname>
+                      <given-names>DD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Economic evaluation of an internet-based stress management intervention alongside a randomized controlled trial</article-title>
+                  <source>JMIR Ment Health</source>
+                  <year>2019</year>
+                  <month>5</month>
+                  <day>15</day>
+                  <volume>6</volume>
+                  <issue>5</issue>
+                  <fpage>e10866</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://mental.jmir.org/2019/5/e10866/"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/10866</pub-id>
+                  <pub-id pub-id-type="medline">31094355</pub-id>
+                  <!--<pub-id pub-id-type="pii">v6i5e10866</pub-id>-->
+                  <pub-id pub-id-type="pmid">31094355</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref26">
+                <label>26</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sheehan</surname>
+                      <given-names>DV</given-names>
+                    </name>
+                    <name>
+                      <surname>Lecrubier</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Sheehan</surname>
+                      <given-names>KH</given-names>
+                    </name>
+                    <name>
+                      <surname>Amorim</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Janavs</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Weiller</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Hergueta</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Baker</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Dunbar</surname>
+                      <given-names>GC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The mini-international neuropsychiatric interview (MINI): the development and validation of a structured diagnostic psychiatric interview for DSM-IV and ICD-10</article-title>
+                  <source>J Clin Psychiatry</source>
+                  <year>1998</year>
+                  <volume>59</volume>
+                  <issue>Suppl 20</issue>
+                  <fpage>22</fpage>
+                  <lpage>33; quiz 34</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://www.psychiatrist.com/jcp/article/pages/1998/v59s20/v59s2005.aspx"/>
+                  </comment>
+                  <pub-id pub-id-type="medline">9881538</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref27">
+                <label>27</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Salomonsson</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Santoft</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Lindsäter</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ejeby</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Öst</surname>
+                      <given-names>LG</given-names>
+                    </name>
+                    <name>
+                      <surname>Ingvar</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Lekander</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Hedman-Lagerlöf</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cognitive-behavioural therapy and return-to-work intervention for patients on sick leave due to common mental disorders: a randomised controlled trial</article-title>
+                  <source>Occup Environ Med</source>
+                  <year>2017</year>
+                  <month>12</month>
+                  <volume>74</volume>
+                  <issue>12</issue>
+                  <fpage>905</fpage>
+                  <lpage>12</lpage>
+                  <pub-id pub-id-type="doi">10.1136/oemed-2017-104342</pub-id>
+                  <pub-id pub-id-type="medline">28756415</pub-id>
+                  <!--<pub-id pub-id-type="pii">oemed-2017-104342</pub-id>-->
+                  <pub-id pub-id-type="pmid">28756415</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref28">
+                <label>28</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Salomonsson</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Santoft</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Lindsäter</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ejeby</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Öst</surname>
+                      <given-names>LG</given-names>
+                    </name>
+                    <name>
+                      <surname>Ingvar</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Lekander</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Hedman-Lagerlöf</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stepped care in primary care - guided self-help and face-to-face cognitive behavioural therapy for common mental disorders: a randomized controlled trial</article-title>
+                  <source>Psychol Med</source>
+                  <year>2018</year>
+                  <month>7</month>
+                  <volume>48</volume>
+                  <issue>10</issue>
+                  <fpage>1644</fpage>
+                  <lpage>54</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S0033291717003129</pub-id>
+                  <pub-id pub-id-type="medline">29095133</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0033291717003129</pub-id>-->
+                  <pub-id pub-id-type="pmid">29095133</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref29">
+                <label>29</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sonnentag</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Venz</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Casper</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Advances in recovery research: what have we learned? What should be done next?</article-title>
+                  <source>J Occup Health Psychol</source>
+                  <year>2017</year>
+                  <month>7</month>
+                  <volume>22</volume>
+                  <issue>3</issue>
+                  <fpage>365</fpage>
+                  <lpage>80</lpage>
+                  <pub-id pub-id-type="doi">10.1037/ocp0000079</pub-id>
+                  <pub-id pub-id-type="medline">28358572</pub-id>
+                  <!--<pub-id pub-id-type="pii">2017-14293-001</pub-id>-->
+                  <pub-id pub-id-type="pmid">28358572</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref30">
+                <label>30</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lejuez</surname>
+                      <given-names>CW</given-names>
+                    </name>
+                    <name>
+                      <surname>Hopko</surname>
+                      <given-names>DR</given-names>
+                    </name>
+                    <name>
+                      <surname>Acierno</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Daughters</surname>
+                      <given-names>SB</given-names>
+                    </name>
+                    <name>
+                      <surname>Pagoto</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Ten year revision of the brief behavioral activation treatment for depression: revised treatment manual</article-title>
+                  <source>Behav Modif</source>
+                  <year>2011</year>
+                  <month>3</month>
+                  <volume>35</volume>
+                  <issue>2</issue>
+                  <fpage>111</fpage>
+                  <lpage>61</lpage>
+                  <pub-id pub-id-type="doi">10.1177/0145445510390929</pub-id>
+                  <pub-id pub-id-type="medline">21324944</pub-id>
+                  <!--<pub-id pub-id-type="pii">35/2/111</pub-id>-->
+                  <pub-id pub-id-type="pmid">21324944</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref31">
+                <label>31</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Abramowitz</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <name>
+                      <surname>Deacon</surname>
+                      <given-names>BJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Whiteside</surname>
+                      <given-names>SP</given-names>
+                    </name>
+                  </person-group>
+                  <source>Exposure Therapy for Anxiety: Principles and Practice</source>
+                  <year>2012</year>
+                  <publisher-loc>New York</publisher-loc>
+                  <publisher-name>Guilford Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref32">
+                <label>32</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>van Ballegooijen</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Cuijpers</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>van Straten</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Karyotaki</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Smit</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <name>
+                      <surname>Riper</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Adherence to internet-based and face-to-face cognitive behavioural therapy for depression: a meta-analysis</article-title>
+                  <source>PLoS One</source>
+                  <year>2014</year>
+                  <volume>9</volume>
+                  <issue>7</issue>
+                  <fpage>e100674</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://dx.plos.org/10.1371/journal.pone.0100674"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0100674</pub-id>
+                  <pub-id pub-id-type="medline">25029507</pub-id>
+                  <!--<pub-id pub-id-type="pii">PONE-D-13-40111</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC4100736</pub-id>-->
+                  <pub-id pub-id-type="pmid">25029507</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref33">
+                <label>33</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cohen</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Kamarck</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Mermelstein</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A global measure of perceived stress</article-title>
+                  <source>J Health Soc Behav</source>
+                  <year>1983</year>
+                  <month>12</month>
+                  <volume>24</volume>
+                  <issue>4</issue>
+                  <fpage>385</fpage>
+                  <lpage>96</lpage>
+                  <pub-id pub-id-type="doi">10.2307/2136404</pub-id>
+                  <pub-id pub-id-type="medline">6668417</pub-id>
+                  <pub-id pub-id-type="pmid">6668417</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref34">
+                <label>34</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Eklund</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Bäckström</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Tuvesson</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Psychometric properties and factor structure of the Swedish version of the perceived stress scale</article-title>
+                  <source>Nord J Psychiatry</source>
+                  <year>2014</year>
+                  <month>10</month>
+                  <volume>68</volume>
+                  <issue>7</issue>
+                  <fpage>494</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="doi">10.3109/08039488.2013.877072</pub-id>
+                  <pub-id pub-id-type="medline">24460116</pub-id>
+                  <pub-id pub-id-type="pmid">24460116</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref35">
+                <label>35</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <collab>EuroQol Group</collab>
+                  </person-group>
+                  <article-title>EuroQol--a new facility for the measurement of health-related quality of life</article-title>
+                  <source>Health Policy</source>
+                  <year>1990</year>
+                  <month>12</month>
+                  <volume>16</volume>
+                  <issue>3</issue>
+                  <fpage>199</fpage>
+                  <lpage>208</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0168-8510(90)90421-9</pub-id>
+                  <pub-id pub-id-type="medline">10109801</pub-id>
+                  <!--<pub-id pub-id-type="pii">0168-8510(90)90421-9</pub-id>-->
+                  <pub-id pub-id-type="pmid">10109801</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref36">
+                <label>36</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rabin</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>de Charro</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>EQ-5D: a measure of health status from the EuroQol group</article-title>
+                  <source>Ann Med</source>
+                  <year>2001</year>
+                  <month>7</month>
+                  <volume>33</volume>
+                  <issue>5</issue>
+                  <fpage>337</fpage>
+                  <lpage>43</lpage>
+                  <pub-id pub-id-type="doi">10.3109/07853890109002087</pub-id>
+                  <pub-id pub-id-type="medline">11491192</pub-id>
+                  <pub-id pub-id-type="pmid">11491192</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref37">
+                <label>37</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Drummond</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Manca</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Sculpher</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Increasing the generalizability of economic evaluations: recommendations for the design, analysis, and reporting of studies</article-title>
+                  <source>Int J Technol Assess Health Care</source>
+                  <year>2005</year>
+                  <volume>21</volume>
+                  <issue>2</issue>
+                  <fpage>165</fpage>
+                  <lpage>71</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S0266462305050221</pub-id>
+                  <pub-id pub-id-type="medline">15921055</pub-id>
+                  <pub-id pub-id-type="pmid">15921055</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref38">
+                <label>38</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Haakkart-van Roijen</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <source>Trimbos/iMTA Questionnaire for Costs Associated with Psychiatric Illness (TiC-P)</source>
+                  <year>2010</year>
+                  <publisher-loc>Rotterdam, Netherlands</publisher-loc>
+                  <publisher-name>Institute for Medical Technology Assessment</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref39">
+                <label>39</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bouwmans</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>de Jong</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Timman</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Zijlstra-Vlasveld</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>van der Feltz-Cornelis</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Swan</surname>
+                      <given-names>ST</given-names>
+                    </name>
+                    <name>
+                      <surname>Hakkaart-van Roijen</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Feasibility, reliability and validity of a questionnaire on healthcare consumption and productivity loss in patients with a psychiatric disorder (TiC-P)</article-title>
+                  <source>BMC Health Serv Res</source>
+                  <year>2013</year>
+                  <month>6</month>
+                  <day>15</day>
+                  <volume>13</volume>
+                  <fpage>217</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://bmchealthservres.biomedcentral.com/articles/10.1186/1472-6963-13-217"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1186/1472-6963-13-217</pub-id>
+                  <pub-id pub-id-type="medline">23768141</pub-id>
+                  <!--<pub-id pub-id-type="pii">1472-6963-13-217</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC3694473</pub-id>-->
+                  <pub-id pub-id-type="pmid">23768141</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref40">
+                <label>40</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Osterhaus</surname>
+                      <given-names>JT</given-names>
+                    </name>
+                    <name>
+                      <surname>Gutterman</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Plachetka</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Healthcare resource and lost labour costs of migraine headache in the US</article-title>
+                  <source>Pharmacoeconomics</source>
+                  <year>1992</year>
+                  <month>7</month>
+                  <volume>2</volume>
+                  <issue>1</issue>
+                  <fpage>67</fpage>
+                  <lpage>76</lpage>
+                  <pub-id pub-id-type="doi">10.2165/00019053-199202010-00008</pub-id>
+                  <pub-id pub-id-type="medline">10146980</pub-id>
+                  <pub-id pub-id-type="pmid">10146980</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref41">
+                <label>41</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Smit</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Willemse</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Koopmanschap</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Onrust</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Cuijpers</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Beekman</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cost-effectiveness of preventing depression in primary care patients: randomised trial</article-title>
+                  <source>Br J Psychiatry</source>
+                  <year>2006</year>
+                  <month>4</month>
+                  <volume>188</volume>
+                  <fpage>330</fpage>
+                  <lpage>6</lpage>
+                  <pub-id pub-id-type="doi">10.1192/bjp.188.4.330</pub-id>
+                  <pub-id pub-id-type="medline">16582059</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0007125000231218</pub-id>-->
+                  <pub-id pub-id-type="pmid">16582059</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref42">
+                <label>42</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Axelsson</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Hedman-Lagerlöf</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cost-effectiveness and long-term follow-up of three forms of minimal-contact cognitive behaviour therapy for severe health anxiety: results from a randomised controlled trial</article-title>
+                  <source>Behav Res Ther</source>
+                  <year>2018</year>
+                  <month>8</month>
+                  <volume>107</volume>
+                  <fpage>95</fpage>
+                  <lpage>105</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.brat.2018.06.002</pub-id>
+                  <pub-id pub-id-type="medline">29936239</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0005-7967(18)30089-5</pub-id>-->
+                  <pub-id pub-id-type="pmid">29936239</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref43">
+                <label>43</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hedman-Lagerlöf</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Hedman-Lagerlöf</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Wicksell</surname>
+                      <given-names>RK</given-names>
+                    </name>
+                    <name>
+                      <surname>Flink</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cost-effectiveness and cost-utility of internet-delivered exposure therapy for fibromyalgia: results from a randomized, controlled trial</article-title>
+                  <source>J Pain</source>
+                  <year>2019</year>
+                  <month>1</month>
+                  <volume>20</volume>
+                  <issue>1</issue>
+                  <fpage>47</fpage>
+                  <lpage>59</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jpain.2018.07.012</pub-id>
+                  <pub-id pub-id-type="medline">30107241</pub-id>
+                  <!--<pub-id pub-id-type="pii">S1526-5900(18)30421-8</pub-id>-->
+                  <pub-id pub-id-type="pmid">30107241</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref44">
+                <label>44</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jacobson</surname>
+                      <given-names>NS</given-names>
+                    </name>
+                    <name>
+                      <surname>Truax</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Clinical significance: a statistical approach to defining meaningful change in psychotherapy research</article-title>
+                  <source>J Consult Clin Psychol</source>
+                  <year>1991</year>
+                  <month>2</month>
+                  <volume>59</volume>
+                  <issue>1</issue>
+                  <fpage>12</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="doi">10.1037//0022-006x.59.1.12</pub-id>
+                  <pub-id pub-id-type="medline">2002127</pub-id>
+                  <pub-id pub-id-type="pmid">2002127</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref45">
+                <label>45</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lavoie</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Douglas</surname>
+                      <given-names>KS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The perceived stress scale: evaluating configural, metric and scalar invariance across mental health status and gender</article-title>
+                  <source>J Psychopathol Behav Assess</source>
+                  <year>2011</year>
+                  <month>11</month>
+                  <day>27</day>
+                  <volume>34</volume>
+                  <issue>1</issue>
+                  <fpage>48</fpage>
+                  <lpage>57</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10862-011-9266-1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref46">
+                <label>46</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Burström</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Gerdtham</surname>
+                      <given-names>UG</given-names>
+                    </name>
+                    <name>
+                      <surname>Henriksson</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Johannesson</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Levin</surname>
+                      <given-names>LA</given-names>
+                    </name>
+                    <name>
+                      <surname>Zethraeus</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Swedish experience-based value sets for EQ-5D health states</article-title>
+                  <source>Qual Life Res</source>
+                  <year>2014</year>
+                  <month>3</month>
+                  <volume>23</volume>
+                  <issue>2</issue>
+                  <fpage>431</fpage>
+                  <lpage>42</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/23975375"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1007/s11136-013-0496-4</pub-id>
+                  <pub-id pub-id-type="medline">23975375</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC3967073</pub-id>-->
+                  <pub-id pub-id-type="pmid">23975375</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref47">
+                <label>47</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>van Hout</surname>
+                      <given-names>BA</given-names>
+                    </name>
+                    <name>
+                      <surname>Al</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Gordon</surname>
+                      <given-names>GS</given-names>
+                    </name>
+                    <name>
+                      <surname>Rutten</surname>
+                      <given-names>FF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Costs, effects and C/E-ratios alongside a clinical trial</article-title>
+                  <source>Health Econ</source>
+                  <year>1994</year>
+                  <volume>3</volume>
+                  <issue>5</issue>
+                  <fpage>309</fpage>
+                  <lpage>19</lpage>
+                  <pub-id pub-id-type="doi">10.1002/hec.4730030505</pub-id>
+                  <pub-id pub-id-type="medline">7827647</pub-id>
+                  <pub-id pub-id-type="pmid">7827647</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref48">
+                <label>48</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fenwick</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Byford</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A guide to cost-effectiveness acceptability curves</article-title>
+                  <source>Br J Psychiatry</source>
+                  <year>2005</year>
+                  <month>8</month>
+                  <volume>187</volume>
+                  <fpage>106</fpage>
+                  <lpage>8</lpage>
+                  <pub-id pub-id-type="doi">10.1192/bjp.187.2.106</pub-id>
+                  <pub-id pub-id-type="medline">16055820</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0007125000167133</pub-id>-->
+                  <pub-id pub-id-type="pmid">16055820</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref49">
+                <label>49</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bock</surname>
+                      <given-names>JO</given-names>
+                    </name>
+                    <name>
+                      <surname>Brettschneider</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Seidl</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Bowles</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Holle</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Greiner</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>König</surname>
+                      <given-names>HH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>[Calculation of standardised unit costs from a societal perspective for health economic evaluation]</article-title>
+                  <source>Gesundheitswesen</source>
+                  <year>2015</year>
+                  <month>1</month>
+                  <volume>77</volume>
+                  <issue>1</issue>
+                  <fpage>53</fpage>
+                  <lpage>61</lpage>
+                  <pub-id pub-id-type="doi">10.1055/s-0034-1374621</pub-id>
+                  <pub-id pub-id-type="medline">25025287</pub-id>
+                  <pub-id pub-id-type="pmid">25025287</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref50">
+                <label>50</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kigozi</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Jowett</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Lewis</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Barton</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Coast</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The estimation and inclusion of presenteeism costs in applied economic evaluation: a systematic review</article-title>
+                  <source>Value Health</source>
+                  <year>2017</year>
+                  <month>3</month>
+                  <volume>20</volume>
+                  <issue>3</issue>
+                  <fpage>496</fpage>
+                  <lpage>506</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://linkinghub.elsevier.com/retrieve/pii/S1098-3015(15)30011-5"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.jval.2016.12.006</pub-id>
+                  <pub-id pub-id-type="medline">28292496</pub-id>
+                  <!--<pub-id pub-id-type="pii">S1098-3015(15)30011-5</pub-id>-->
+                  <pub-id pub-id-type="pmid">28292496</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref51">
+                <label>51</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Layard</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <source>IZA World of Labor</source>
+                  <year>2017</year>
+                  <date-in-citation>2019-02-22</date-in-citation>
+                  <comment>The Economics of Mental Health
+<ext-link ext-link-type="uri" xlink:href="https://wol.iza.org/articles/economics-of-mental-health/long">https://wol.iza.org/articles/economics-of-mental-health/long</ext-link></comment>
+                </element-citation>
+              </ref>
+              <ref id="ref52">
+                <label>52</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McEwen</surname>
+                      <given-names>BS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Epigenetic interactions and the brain-body communication</article-title>
+                  <source>Psychother Psychosom</source>
+                  <year>2017</year>
+                  <volume>86</volume>
+                  <issue>1</issue>
+                  <fpage>1</fpage>
+                  <lpage>4</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.karger.com?DOI=10.1159/000449150"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1159/000449150</pub-id>
+                  <pub-id pub-id-type="medline">27884000</pub-id>
+                  <!--<pub-id pub-id-type="pii">000449150</pub-id>-->
+                  <pub-id pub-id-type="pmid">27884000</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref53">
+                <label>53</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mohr</surname>
+                      <given-names>DC</given-names>
+                    </name>
+                    <name>
+                      <surname>Spring</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Freedland</surname>
+                      <given-names>KE</given-names>
+                    </name>
+                    <name>
+                      <surname>Beckner</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Arean</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Hollon</surname>
+                      <given-names>SD</given-names>
+                    </name>
+                    <name>
+                      <surname>Ockene</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaplan</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The selection and design of control conditions for randomized controlled trials of psychological interventions</article-title>
+                  <source>Psychother Psychosom</source>
+                  <year>2009</year>
+                  <volume>78</volume>
+                  <issue>5</issue>
+                  <fpage>275</fpage>
+                  <lpage>84</lpage>
+                  <pub-id pub-id-type="doi">10.1159/000228248</pub-id>
+                  <pub-id pub-id-type="medline">19602916</pub-id>
+                  <!--<pub-id pub-id-type="pii">000228248</pub-id>-->
+                  <pub-id pub-id-type="pmid">19602916</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref54">
+                <label>54</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Clark</surname>
+                      <given-names>DM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Implementing NICE guidelines for the psychological treatment of depression and anxiety disorders: the IAPT experience</article-title>
+                  <source>Int Rev Psychiatry</source>
+                  <year>2011</year>
+                  <month>8</month>
+                  <volume>23</volume>
+                  <issue>4</issue>
+                  <fpage>318</fpage>
+                  <lpage>27</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/22026487"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.3109/09540261.2011.606803</pub-id>
+                  <pub-id pub-id-type="medline">22026487</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC3212920</pub-id>-->
+                  <pub-id pub-id-type="pmid">22026487</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref55">
+                <label>55</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lensberg</surname>
+                      <given-names>BR</given-names>
+                    </name>
+                    <name>
+                      <surname>Drummond</surname>
+                      <given-names>MF</given-names>
+                    </name>
+                    <name>
+                      <surname>Danchenko</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Despiégel</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>François</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Challenges in measuring and valuing productivity costs, and their relevance in mood disorders</article-title>
+                  <source>Clinicoecon Outcomes Res</source>
+                  <year>2013</year>
+                  <volume>5</volume>
+                  <fpage>565</fpage>
+                  <lpage>73</lpage>
+                  <pub-id pub-id-type="doi">10.2147/CEOR.S44866</pub-id>
+                  <pub-id pub-id-type="doi">10.2147/CEOR.S44866</pub-id>
+                  <pub-id pub-id-type="medline">24273412</pub-id>
+                  <!--<pub-id pub-id-type="pii">ceor-5-565</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC3836685</pub-id>-->
+                  <pub-id pub-id-type="pmid">24273412</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref56">
+                <label>56</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Patel</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Rendu</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Moran</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Leese</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Mann</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Knapp</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A comparison of two methods of collecting economic data in primary care</article-title>
+                  <source>Fam Pract</source>
+                  <year>2005</year>
+                  <month>6</month>
+                  <volume>22</volume>
+                  <issue>3</issue>
+                  <fpage>323</fpage>
+                  <lpage>7</lpage>
+                  <pub-id pub-id-type="doi">10.1093/fampra/cmi027</pub-id>
+                  <pub-id pub-id-type="medline">15824056</pub-id>
+                  <!--<pub-id pub-id-type="pii">cmi027</pub-id>-->
+                  <pub-id pub-id-type="pmid">15824056</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref57">
+                <label>57</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cuijpers</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Weitz</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Twisk</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuehner</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Cristea</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>David</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>DeRubeis</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Dimidjian</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Dunlop</surname>
+                      <given-names>BW</given-names>
+                    </name>
+                    <name>
+                      <surname>Faramarzi</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Hegerl</surname>
+                      <given-names>U</given-names>
+                    </name>
+                    <name>
+                      <surname>Jarrett</surname>
+                      <given-names>RB</given-names>
+                    </name>
+                    <name>
+                      <surname>Kennedy</surname>
+                      <given-names>SH</given-names>
+                    </name>
+                    <name>
+                      <surname>Kheirkhah</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Mergl</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Miranda</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Mohr</surname>
+                      <given-names>DC</given-names>
+                    </name>
+                    <name>
+                      <surname>Segal</surname>
+                      <given-names>ZV</given-names>
+                    </name>
+                    <name>
+                      <surname>Siddique</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Simons</surname>
+                      <given-names>AD</given-names>
+                    </name>
+                    <name>
+                      <surname>Vittengl</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                    <name>
+                      <surname>Hollon</surname>
+                      <given-names>SD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Gender as predictor and moderator of outcome in cognitive behavior therapy and pharmacotherapy for adult depression: an 'individual patient data' meta-analysis</article-title>
+                  <source>Depress Anxiety</source>
+                  <year>2014</year>
+                  <month>11</month>
+                  <volume>31</volume>
+                  <issue>11</issue>
+                  <fpage>941</fpage>
+                  <lpage>51</lpage>
+                  <pub-id pub-id-type="doi">10.1002/da.22328</pub-id>
+                  <pub-id pub-id-type="medline">25407584</pub-id>
+                  <pub-id pub-id-type="pmid">25407584</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref58">
+                <label>58</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Heber</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Lehr</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Ebert</surname>
+                      <given-names>DD</given-names>
+                    </name>
+                    <name>
+                      <surname>Berking</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Riper</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Web-based and mobile stress management intervention for employees: a randomized controlled trial</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2016</year>
+                  <month>1</month>
+                  <day>27</day>
+                  <volume>18</volume>
+                  <issue>1</issue>
+                  <fpage>e21</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.jmir.org/2016/1/e21/"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/jmir.5112</pub-id>
+                  <pub-id pub-id-type="medline">26818683</pub-id>
+                  <!--<pub-id pub-id-type="pii">v18i1e21</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC4749847</pub-id>-->
+                  <pub-id pub-id-type="pmid">26818683</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref59">
+                <label>59</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Netterstrøm</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Friebel</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Ladegaard</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of a multidisciplinary stress treatment programme on patient return to work rate and symptom reduction: results from a randomised, wait-list controlled trial</article-title>
+                  <source>Psychother Psychosom</source>
+                  <year>2013</year>
+                  <volume>82</volume>
+                  <issue>3</issue>
+                  <fpage>177</fpage>
+                  <lpage>86</lpage>
+                  <pub-id pub-id-type="doi">10.1159/000346369</pub-id>
+                  <pub-id pub-id-type="medline">23548852</pub-id>
+                  <!--<pub-id pub-id-type="pii">000346369</pub-id>-->
+                  <pub-id pub-id-type="pmid">23548852</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref60">
+                <label>60</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mihalopoulos</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Chatterton</surname>
+                      <given-names>ML</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Economic evaluations of interventions designed to prevent mental disorders: a systematic review</article-title>
+                  <source>Early Interv Psychiatry</source>
+                  <year>2015</year>
+                  <month>4</month>
+                  <volume>9</volume>
+                  <issue>2</issue>
+                  <fpage>85</fpage>
+                  <lpage>92</lpage>
+                  <pub-id pub-id-type="doi">10.1111/eip.12156</pub-id>
+                  <pub-id pub-id-type="medline">24962626</pub-id>
+                  <pub-id pub-id-type="pmid">24962626</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

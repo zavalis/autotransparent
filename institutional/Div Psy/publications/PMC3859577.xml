@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:08:05Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3859577" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:3859577</identifier>
+        <datestamp>2013-12-13</datestamp>
+        <setSpec>plosone</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+              <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+              <journal-id journal-id-type="publisher-id">plos</journal-id>
+              <journal-id journal-id-type="pmc">plosone</journal-id>
+              <journal-title-group>
+                <journal-title>PLoS ONE</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1932-6203</issn>
+              <publisher>
+                <publisher-name>Public Library of Science</publisher-name>
+                <publisher-loc>San Francisco, USA</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC3859577</article-id>
+              <article-id pub-id-type="pmcid">PMC3859577</article-id>
+              <article-id pub-id-type="pmc-uid">3859577</article-id>
+              <article-id pub-id-type="pmid">24349251</article-id>
+              <article-id pub-id-type="pmid">24349251</article-id>
+              <article-id pub-id-type="publisher-id">PONE-D-13-37212</article-id>
+              <article-id pub-id-type="doi">10.1371/journal.pone.0082291</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Effects of Sustained Sleep Restriction on Mitogen-Stimulated Cytokines, Chemokines and T Helper 1/ T Helper 2 Balance in Humans</article-title>
+                <alt-title alt-title-type="running-head">Insufficient Sleep and T Cell Functioning</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Axelsson</surname>
+                    <given-names>John</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                  <xref ref-type="corresp" rid="cor1">
+                    <sup>*</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rehman</surname>
+                    <given-names>Javaid-ur</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Akerstedt</surname>
+                    <given-names>Torbjorn</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ekman</surname>
+                    <given-names>Rolf</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff4">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Miller</surname>
+                    <given-names>Gregory E.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Höglund</surname>
+                    <given-names>Caroline Olgart</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff7">
+                    <sup>7</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff8">
+                    <sup>8</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lekander</surname>
+                    <given-names>Mats</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff8">
+                    <sup>8</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <label>1</label>
+                <addr-line>Department of Clinical Neuroscience, Karolinska Institutet, Stockholm, Sweden</addr-line>
+              </aff>
+              <aff id="aff2">
+                <label>2</label>
+                <addr-line>Osher Center for Integrative Medicine, Karolinska Institutet, Stockholm, Sweden</addr-line>
+              </aff>
+              <aff id="aff3">
+                <label>3</label>
+                <addr-line>Stress Research Institute, Stockholm University, Stockholm, Sweden</addr-line>
+              </aff>
+              <aff id="aff4">
+                <label>4</label>
+                <addr-line>Institute of Neuroscience and Physiology, University of Gothenburg, Gothenburg, Sweden</addr-line>
+              </aff>
+              <aff id="aff5">
+                <label>5</label>
+                <addr-line>Department of Psychology, University of British Columbia, Vancouver, Canada</addr-line>
+              </aff>
+              <aff id="aff6">
+                <label>6</label>
+                <addr-line>Respiratory Medicine Unit, Department of Medicine Solna and Center for Molecular Medicine, Karolinska Institutet and Karolinska University Hospital, Solna, Stockholm, Sweden</addr-line>
+              </aff>
+              <aff id="aff7">
+                <label>7</label>
+                <addr-line>Department of Physiology and Pharmacology, Karolinska Institutet, Stockholm, Sweden</addr-line>
+              </aff>
+              <aff id="aff8">
+                <label>8</label>
+                <addr-line>Centre for Allergy Research, Karolinska Institutet, Stockholm, Sweden</addr-line>
+              </aff>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Mongrain</surname>
+                    <given-names>Valérie</given-names>
+                  </name>
+                  <role>Editor</role>
+                  <xref ref-type="aff" rid="edit1"/>
+                </contrib>
+              </contrib-group>
+              <aff id="edit1">
+                <addr-line>Hôpital du Sacré-Coeur de Montréal, Canada</addr-line>
+              </aff>
+              <author-notes>
+                <corresp id="cor1">* Email: <email>john.axelsson@ki.se</email></corresp>
+                <fn fn-type="COI-statement">
+                  <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+                </fn>
+                <fn fn-type="con">
+                  <p>Conceived and designed the experiments: JA ML RE COH TA. Performed the experiments: JA. Analyzed the data: JA COH. Contributed reagents/materials/analysis tools: JA ML JR COH RE GEM. Wrote the manuscript: JA ML JR RE GEM COH TA. Interpretation of data: JA ML JR COH RE GEM TA. </p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2013</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>11</day>
+                <month>12</month>
+                <year>2013</year>
+              </pub-date>
+              <volume>8</volume>
+              <issue>12</issue>
+              <elocation-id>e82291</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>6</day>
+                  <month>9</month>
+                  <year>2013</year>
+                </date>
+                <date date-type="accepted">
+                  <day>31</day>
+                  <month>10</month>
+                  <year>2013</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2013 Axelsson et al</copyright-statement>
+                <copyright-year>2013</copyright-year>
+                <copyright-holder>Axelsson et al</copyright-holder>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <sec sec-type="headed">
+                  <title>Background</title>
+                  <p>Recent studies suggest that acute sleep deprivation disrupts cellular immune responses by shifting T helper (Th) cell activity towards a Th2 cytokine profile. Since little is known about more long-term effects, we investigated how five days of sleep restriction would affect pro-inflammatory, chemotactic, Th1- and Th2 cytokine secretion.</p>
+                </sec>
+                <sec sec-type="headed">
+                  <title>Methods</title>
+                  <p>Nine healthy males participated in an experimental sleep protocol with two baseline sleep-wake cycles (sleep 23.00 – 07.00 h) followed by 5 days with restricted sleep (03.00 – 07.00 h). On the second baseline day and on the fifth day with restricted sleep, samples were drawn every third hour for determination of cytokines/chemokines (tumor necrosis factor alpha (TNF-α), interleukin (IL) -1β, IL-2, IL-4 and monocyte chemoattractant protein-1 (MCP-1)) after <italic>in</italic>
+<italic>vitro</italic> stimulation of whole blood samples with the mitogen phytohemagglutinin (PHA). Also leukocyte numbers, mononuclear cells and cortisol were analysed. </p>
+                </sec>
+                <sec sec-type="headed">
+                  <title>Results</title>
+                  <p>5-days of sleep restriction affected PHA-induced immune responses in several ways. There was a general decrease of IL-2 production (p&lt;.05). A shift in Th1/Th2 cytokine balance was also evident, as determined by a decrease in IL2/IL4 ratio. No other main effects of restricted sleep were shown. Two significant interactions showed that restricted sleep resulted in increased TNF-α and MCP-1 in the late evening and early night hours (p’s&lt;.05). In addition, all variables varied across the 24 h day.</p>
+                </sec>
+                <sec sec-type="headed">
+                  <title>Conclusions</title>
+                  <p>5-days of sleep restriction is characterized by a shift towards Th2 activity (i.e. lower 1L-2/IL-4 ratio) which is similar to the effects of acute sleep deprivation and psychological stress. This may have implications for people suffering from conditions characterized by excessive Th2 activity like in allergic disease, such as asthma, for whom restricted sleep could have negative consequences.</p>
+                </sec>
+              </abstract>
+              <funding-group>
+                <funding-statement>This study was supported by the Swedish Tercentary Fund (J2001-0462:1, J2001-0462:3, <ext-link ext-link-type="uri" xlink:href="http://www.rj.se/English">http://www.rj.se/English</ext-link>), the Swedish Working Life Fund (2002-0461, <ext-link ext-link-type="uri" xlink:href="http://www.forte.se">http://www.forte.se</ext-link>/), The Swedish Society for Medical Research (<ext-link ext-link-type="uri" xlink:href="http://www.ssmf.se/in-english">http://www.ssmf.se/in-english</ext-link>), the Swedish Sleep Research Society (<ext-link ext-link-type="uri" xlink:href="http://www.swedishsleepresearch.com">http://www.swedishsleepresearch.com</ext-link>/), the Swedish Heart Lung Foundation (<ext-link ext-link-type="uri" xlink:href="http://www.hjart-lungfonden.se/Om-Hjart-lungfonden/About-HLF">http://www.hjart-lungfonden.se/Om-Hjart-lungfonden/About-HLF</ext-link>/), and the Swedish Asthma and Allergy Association (<ext-link ext-link-type="uri" xlink:href="http://www.astmaoallergiforbundet.se/">http://www.astmaoallergiforbundet.se/</ext-link>). The “Swedish Sleep Research Society” is a non-profit organisation with the purpose to support sleep research in Sweden. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+              </funding-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="introduction" id="s1">
+              <title>Introduction</title>
+              <p>It is commonly believed that sleep supports immune function, and that lack of sleep increases the risk for infections [<xref rid="B1" ref-type="bibr">1</xref>-<xref rid="B3" ref-type="bibr">3</xref>]. In modern society, an increasing proportion of the population sleeps less than 5 or 6 hours [<xref rid="B4" ref-type="bibr">4</xref>], a trend which seems particularly common in the working population [<xref rid="B5" ref-type="bibr">5</xref>]. Despite its societal relevance, there is little understanding of how cumulative sleep restriction affects immune function.</p>
+              <p>There is strong support that lack of sleep disrupts cellular immunity, as seen in studies of acute total sleep deprivation in healthy humans when typically deprived of sleep for one to three days. Many studies indicate that acute sleep deprivation increases natural killer (NK) cell numbers during the night, but that there is a decrease of both numbers and activity the following day [<xref rid="B6" ref-type="bibr">6</xref>-<xref rid="B12" ref-type="bibr">12</xref>]. In contrast, if sleep deprivation persists for 60 hours, both NK cell numbers and NK cell activity are increased [<xref rid="B7" ref-type="bibr">7</xref>]. This suggests that the effects of sleep deprivation on NK function is related to the degree of sleep deprivation. In addition, the type of sleep deprivation is important for its effects. Studies of phytohaemagglutinin (PHA)-stimulated lymphocyte activity show suppressed reactivity [<xref rid="B6" ref-type="bibr">6</xref>,<xref rid="B13" ref-type="bibr">13</xref>] or no effects on T cell function [<xref rid="B7" ref-type="bibr">7</xref>,<xref rid="B9" ref-type="bibr">9</xref>] in response to total sleep deprivation. Naturally occurring short sleep has, on the other hand, been shown to relate to increased T-cell function [<xref rid="B12" ref-type="bibr">12</xref>]. These studies are, however, limited to the acute effects of either restricted or total sleep loss. </p>
+              <p>Relatively few studies have investigated the effects of sustained sleep restriction. These studies indicate a mild inflammatory upregulation (e.g. IL-6) [<xref rid="B14" ref-type="bibr">14</xref>,<xref rid="B15" ref-type="bibr">15</xref>] in response to restricted sleep over time, which partly contradicts findings from studies on acute sleep deprivation [<xref rid="B16" ref-type="bibr">16</xref>] and habitual short sleepers [<xref rid="B17" ref-type="bibr">17</xref>]. Despite some support for a suppressive effects on anti-body production [<xref rid="B18" ref-type="bibr">18</xref>] and an increase of PHA-stimulated interleukin (IL)-17 levels [<xref rid="B19" ref-type="bibr">19</xref>], there is a clear lack of knowledge of how longer periods of insufficient sleep affects immune function. Thus, there is no systematic knowledge of how sustained periods with sleep restriction affects helper T (Th) cell activity. In addition, there is sparse knowledge about how other immune regulatory markers, such as chemokines, are affected by restricted sleep for longer periods.</p>
+              <p>The cytokine profiles of Th lymphocytes are classically classified into two functional subgroups, denoted Th1 and Th2 [<xref rid="B20" ref-type="bibr">20</xref>-<xref rid="B22" ref-type="bibr">22</xref>]. A few studies have found that acute sleep deprivation entails a shift towards Th2 (release of cytokines such as IL-4, IL-5) rather than a Th1 pattern (release of e.g. IFN-γ, IL-2) [<xref rid="B22" ref-type="bibr">22</xref>,<xref rid="B23" ref-type="bibr">23</xref>]. Although clinical findings suggest that disturbed sleep is associated with a Th2 pattern, as seen in in alcoholics (measured with the IL-6/IL-10 ratio) [<xref rid="B24" ref-type="bibr">24</xref>] and insomnia patients (interferon (IFN)-γ/IL-4) [<xref rid="B25" ref-type="bibr">25</xref>], there is a lack of experimental studies on the effects of sustained sleep restriction on Th1- and Th2-related cytokines balance and on inflammatory/chemotactic cytokines. </p>
+              <p>The aim of the present study was to investigate how 5 days with restricted sleep, resembling a work week with short sleep, affects the production of pro-inflammatory and chemotactic (such as MCP-1) cytokines, as well as cytokines associated with Th1 and Th2 activity, among healthy subjects. Moreover, the present study includes a more thorough blood sampling procedure than many previous studies, with the intention to analyse effects across the entire 24h window.</p>
+            </sec>
+            <sec sec-type="materials|methods" id="s2">
+              <title>Materials and Methods</title>
+              <sec id="s2.1">
+                <title>Ethics statement</title>
+                <p>The study was approved by the Regional Ethical Review Board in Stockholm (Dnr 00-238). Written informed consent was obtained from all participants. </p>
+              </sec>
+              <sec id="s2.2">
+                <title>Study subjects</title>
+                <p>Nine healthy males (age range 23-28 yrs) with no physical or mental diseases participated in the study. The inclusion criteria were: being a non-smoking male between 18-40 years of age that had a moderate coffee- and alcohol consumption, and having a habitual sleep need between 7.0 and 8.5 hours. The exclusion criteria were any sleep disorders, psychopathology, somatic/affect disorders, all serious somatic disorders, medications or treatments assumed to affect sleep, severe autoimmune disorders or being obese. Any subjects were also excluded if they had worked nights the last 3 months or travelled across more than 1 time zone the last 4 weeks. Recruitment was based on flyers and posters at 2 major universities in the Stockholm area. Thus, all were non-smokers, non-obese, moderate alcohol and coffee consumers, had a normal sleep need (habitual sleep need ranged between 7.0 and 8.5 hours) and were not under medication. Subjects were compensated economically for participation.</p>
+              </sec>
+              <sec id="s2.3">
+                <title>Sleep protocol</title>
+                <p>Subjects adhered to a sleep schedule with bedtime at 23.00h ± 30min and time of rising at 07.00h ± 30min in their own homes, starting two weeks prior to the first laboratory day (<xref ref-type="fig" rid="pone-0082291-g001">Figure 1</xref>). The subjects spent one habituation day (sleep 23.00–07.00 h) in the sleep laboratory at the National Institute of Psychosocial Medicine to become used to the environment and the measures. This was followed by another 4 study/work days with sleep at home (sleep 23.00–07.00 h). Subsequently, subjects spent 10 days and nights in the sleep laboratory with two baseline days (sleep 23.00-07.00 h), five days with sleep restriction (sleep 03.00–07.00 h) and three recovery days (sleep 23.00-07.00 h). To ensure compliance with the sleep protocol, subjects wore actiwatches (Cambridge Neurotechnology, Cambridge, UK) when sleeping at home. In the sleep laboratory, all sleep periods were polysomnographically recorded, as previously reported [<xref rid="B26" ref-type="bibr">26</xref>]. In the laboratory, subjects had separate sound-insulated bedrooms and could watch video, play games, read books/magazines, use the internet and were allowed light work or studies. Subjects were outdoors at least twice each day (between 08.30 and 21.00 h) to parallel normal behavior. All meals were consumed during the hour subsequent to each daytime blood sample. The subjects were not permitted smoking or alcohol consumption during the entire protocol and refrained from hard physical activity at least two days before coming to the laboratory.</p>
+                <fig id="pone-0082291-g001" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0082291.g001</object-id>
+                  <label>Figure 1</label>
+                  <caption>
+                    <title>Protocol for participants.</title>
+                    <p>Sleep times (white bars with black lines) and blood samplings (circles) during baseline (day 3) and after five days with restricted sleep (day 8). The habituation night (Hab) occurred 4 days prior the data collection period.</p>
+                  </caption>
+                  <graphic xlink:href="pone.0082291.g001"/>
+                </fig>
+              </sec>
+              <sec id="s2.4">
+                <title>Blood sampling procedures</title>
+                <p>An i.v. catheter was inserted 2 h prior to blood sampling in the evening each day. Venous blood was drawn hourly 23.00-08.00 h, and every 3<sup>rd</sup> hour 08.00-23.00 h. To avoid interruptions of sleep, samples taken 23.00-08.00 h were drawn from an adjacent room through an i.v. catheter that was kept patent with a slow infusion of NaCl (0.9%). Subjects had been in a supine position for at least 30 minutes prior to all sampling. </p>
+              </sec>
+              <sec id="s2.5">
+                <title>Analysis of white blood cells</title>
+                <p>EDTA-samples were collected for complete blood counts with leukocyte differentials. Samples were handed to the Karolinska University Laboratory, Solna, Sweden within 4 hours of sampling and analyzed promptly. White blood cell (WBC) count and differential WBC count (which includes lymphocytes and monocytes) were analyzed by flow-cytometry (ADVIA 120/2120, Siemens).</p>
+              </sec>
+              <sec id="s2.6">
+                <title>Cortisol analysis</title>
+                <p>Serum samples were placed in room temperature for 30 minutes before centrifugation at 2,600 x <italic>g</italic> for 7 min at 4 °C. After centrifugation samples were pipetted and frozen at – 70 °C until analyzed. Serum cortisol levels were determined by specific immunofluorometric assay (Autodelphia, Wallac Oy, Turku, Finland) with an intra- and inter assay CV of 3.6 % and 1.9 %, respectively.</p>
+              </sec>
+              <sec id="s2.7">
+                <title>Preparation and stimulation of whole blood</title>
+                <p>Peripheral blood was obtained in heparinized vacutainers every third hour for 24 hours starting at 23.00 h. Whole blood was diluted 1:10 in RPMI 1640, supplemented with 100 U/ml penicillin, 100 μg/mL streptomycin (penicillin-streptomycin), 2 mM L-glutamine (all Sigma-Aldrich, St Louis, MO, USA), and 2 ml blood suspensions were than added to each well in 24-well flat bottom plates (BD Falcon<sup>TM</sup>, Franklin Lakes, NJ, USA). Samples were cultured for 48 h at 37 °C with 5 % CO<sub>2</sub> in the presence of 10 μg/ml phytohemagglutinin (PHA) (L9132) (Sigma-Aldrich) as previously described (de Groote et al., 1992). Cell culture supernatants were then collected, centrifuged at 400 x <italic>g</italic> for 10 min at 4°C, and stored in aliquots at -70°C until analyzed.</p>
+              </sec>
+              <sec id="s2.8">
+                <title>Analysis of cytokines and chemokines</title>
+                <p>Cell culture supernatants were analysed for tumor necrosis factor alpha (TNF-α), interleukin (IL) 1β, IL-2, IL-4 and monocyte chemoattractant protein-1 (MCP-1) with automated biochip immunoassay system – Evidence, Randox Laboratories Ltd (Crumlin, UK) [<xref rid="B27" ref-type="bibr">27</xref>]. No other cytokines were analysed. For the analyses of TNF-α and MCP-1, samples were diluted 20 times to better fit to the specified detection range of these cytokines with this biochip system. The assays were performed on coded samples by investigators who were blinded to experimental category. </p>
+              </sec>
+              <sec id="s2.9">
+                <title>Statistical analysis</title>
+                <p>A mixed effects regression analysis (ANOVA with random effects for individual intercepts) were estimated with STATA 11.1 with the Huyhn-Feldt epsilon correction applied to adjust for violations against the assumption of sphericity. “Condition” (the 2<sup>nd</sup> baseline day vs. the 5<sup>th</sup> day with sleep restriction) and “Time of Day” were within-subject variables. Exploratory t-tests were calculated between corresponding time points if there was a significant main effect or interaction. The purpose of these post-hoc t-tests was, together with the figures, to indicate where the main and interaction effects could be found in the 24-hour window. Skewed variables were (log) transformed before analysis. However, all figures are based on raw data. An alpha level of 0.05 was used to test for significance.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="s3">
+              <title>Results</title>
+              <sec id="s3.1">
+                <title>Cortisol</title>
+                <p>Cortisol showed the expected pattern with significant effects for time of day (p&lt;.0001), with lowest levels at midnight, increasing levels during the latter part of sleep and highest levels at 08.00 h during both conditions (<xref ref-type="fig" rid="pone-0082291-g002">Figure 2A</xref> and <xref rid="pone-0082291-t001" ref-type="table">Table 1</xref>). Overall levels did not differ significantly between conditions, but there was a significant interaction between condition and time of day (p&lt;.05). The figure and the exploratory t-tests indicated that this difference was not related to an altered rhythm, but rather to significantly suppressed levels during the first hours of restricted sleep (03.00-05.00 h), as indicated by t-tests (p&lt;.05), when sleep time was delayed to 03.00 h. The comparison of the evening cortisol samples also indicated a slight increase during the restricted sleep condition at 20.00 h (p&lt;.05).</p>
+                <fig id="pone-0082291-g002" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0082291.g002</object-id>
+                  <label>Figure 2</label>
+                  <caption>
+                    <title>Effects of restricted sleep on cortisol and leukocyte numbers.</title>
+                    <p>Means ± SE numbers of (A) cortisol, (B) lymphocytes and (C) monocytes during a baseline sleep-wake cycle (BL=sleep 23.00–07.00 h) and after five days with restricted sleep (RS=sleep 03.00–07.00 h). Grey lines illustrate adapted cosine curves of confirmed circadian rhythm during baseline; shaded area depicts sleep time during restricted sleep (03.00–07.00 h) and dashed box depicts baseline sleep (23.00–07.00 h).</p>
+                  </caption>
+                  <graphic xlink:href="pone.0082291.g002"/>
+                </fig>
+                <table-wrap id="pone-0082291-t001" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0082291.t001</object-id>
+                  <label>Table 1</label>
+                  <caption>
+                    <title>Effects of restricted sleep on immune cells and stimulated levels of cytokines and chemokines.</title>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <colgroup span="1">
+                      <col span="1"/>
+                      <col span="1"/>
+                      <col span="1"/>
+                      <col span="1"/>
+                      <col span="1"/>
+                    </colgroup>
+                    <thead>
+                      <tr>
+                        <th rowspan="1" colspan="1">Parameters</th>
+                        <th colspan="4" rowspan="1">p-values<hr/>
+</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td rowspan="1" colspan="1">
+                          <italic>
+                            <underline>Hormones</underline>
+                          </italic>
+                        </td>
+                        <td colspan="2" rowspan="1">
+                          <italic>
+                            <underline>Condition</underline>
+                          </italic>
+                        </td>
+                        <td rowspan="1" colspan="1">
+                          <italic>
+                            <underline>Time</underline>
+                            <underline>of</underline>
+                            <underline>day</underline>
+                          </italic>
+                        </td>
+                        <td rowspan="1" colspan="1">
+                          <italic>
+                            <underline>Interaction</underline>
+                          </italic>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Cortisol</td>
+                        <td colspan="2" rowspan="1">0.5752</td>
+                        <td rowspan="1" colspan="1">0.0000</td>
+                        <td rowspan="1" colspan="1">0.0442</td>
+                      </tr>
+                      <tr>
+                        <td colspan="3" rowspan="1">
+                          <italic>
+                            <underline>White</underline>
+                            <underline>blood</underline>
+                            <underline>cells</underline>
+                          </italic>
+                        </td>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Lymphocytes</td>
+                        <td colspan="2" rowspan="1">0.1185</td>
+                        <td rowspan="1" colspan="1">0.0000</td>
+                        <td rowspan="1" colspan="1">0.3556</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Monocytes</td>
+                        <td colspan="2" rowspan="1">0.0641</td>
+                        <td rowspan="1" colspan="1">0.0001</td>
+                        <td rowspan="1" colspan="1">0.0399</td>
+                      </tr>
+                      <tr>
+                        <td colspan="3" rowspan="1">
+                          <italic>
+                            <underline>Cytokines</underline>
+                            <underline>&amp;</underline>
+                            <underline>chemokines</underline>
+                          </italic>
+                        </td>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td colspan="2" rowspan="1">TNF-α</td>
+                        <td rowspan="1" colspan="1">0.6613</td>
+                        <td rowspan="1" colspan="1">0.0000</td>
+                        <td rowspan="1" colspan="1">0.0006</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2" rowspan="1">IL-1β</td>
+                        <td rowspan="1" colspan="1">0.3300</td>
+                        <td rowspan="1" colspan="1">0.0000</td>
+                        <td rowspan="1" colspan="1">0.1851</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2" rowspan="1">MCP-1</td>
+                        <td rowspan="1" colspan="1">0.4038</td>
+                        <td rowspan="1" colspan="1">0.0022</td>
+                        <td rowspan="1" colspan="1">0.0409</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2" rowspan="1">IL-2</td>
+                        <td rowspan="1" colspan="1">0.0414</td>
+                        <td rowspan="1" colspan="1">0.0000</td>
+                        <td rowspan="1" colspan="1">0.0692</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2" rowspan="1">IL-4</td>
+                        <td rowspan="1" colspan="1">0.1583</td>
+                        <td rowspan="1" colspan="1">0.0000</td>
+                        <td rowspan="1" colspan="1">0.1919</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2" rowspan="1">IL-2/IL-4 (ratio)</td>
+                        <td rowspan="1" colspan="1">0.0063</td>
+                        <td rowspan="1" colspan="1">0.0021</td>
+                        <td rowspan="1" colspan="1">0.0322</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn>
+                      <p>P-values for ANOVAs comparing Baseline (sleep 23.00-07.00 h) with the 5th day of sleep restriction (sleep 03.00-07.00 h), with respect to circulating levels of cortisol and number of white blood cells, and cytokines and chemokines released from <italic>in vitro</italic>- stimulated white blood cells.</p>
+                    </fn>
+                    <fn>
+                      <p>TNF-α=tumor necrosis factor alpha, IL=interleukin, MCP-1=monocyte chemoattractant protein 1. ANOVA=analysis of variance. All p-values have been corrected with Huynh-Feldt Epsilon.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec id="s3.2">
+                <title>Lymphocytes and Monocytes</title>
+                <p>As illustrated in <xref rid="pone-0082291-t001" ref-type="table">Table 1</xref> and <xref ref-type="fig" rid="pone-0082291-g002">Figure 2B-C</xref>, the overall levels of circulating lymphocytes and monocytes did not differ significantly between conditions. A significant interaction showed that monocyte numbers were higher during the first part of night during sleep restriction condition (when subjects were awake), and a t-test confirmed that monocytes were higher for the restricted sleep condition at 03.00 h. Both variables showed strong circadian rhythms with the average acrophase for lymphocytes at 02.00 h under both conditions and for monocytes at 24.00 h during baseline and at 01.00 h during restricted sleep condition (a cosinor curve was fit to the data to illustrate the circadian pattern during normal 8 h sleep). </p>
+              </sec>
+              <sec id="s3.3">
+                <title>Levels of cytokines and chemokines after <italic>in vitro</italic> stimulation with <italic>phytohemagglutinin (PHA</italic>)</title>
+                <p>All parameters showed a strong diurnal rhythmicity, which seemed stable during both conditions, perhaps with the exception of MCP-1 (<xref ref-type="fig" rid="pone-0082291-g003">Figure 3</xref> and <xref ref-type="fig" rid="pone-0082291-g004">4</xref>). A significant main effect of condition (p&lt;.05) was observed only for IL-2 (<xref rid="pone-0082291-t001" ref-type="table">Table 1</xref>), levels being lower during restricted sleep (<xref ref-type="fig" rid="pone-0082291-g004">Figure 4A</xref>). The interaction between time and condition were significant for TNF-α and MCP-1 (<xref rid="pone-0082291-t001" ref-type="table">Table 1</xref>), levels being increased when the participants were kept awake (i.e. blood samples taken at 23.00 and .02.00 h) during the restricted sleep condition (<xref ref-type="fig" rid="pone-0082291-g003">Figure 3A and 3C</xref>), as indicated by the figures and the exploratory t-tests. Notably, the figures indicate similar increases of both TNF and MCP-1 in the late evening and early night, although this was only supported by significant post hoc t-tests for TNF-a.</p>
+                <fig id="pone-0082291-g003" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0082291.g003</object-id>
+                  <label>Figure 3</label>
+                  <caption>
+                    <title>Effects of restricted sleep on stimulated levels of cytokines and chemokines.</title>
+                    <p>Means ± SE numbers of (A) tumor necrosis factor alpha (TNF-α), (B) interleukin (IL) 1β and (C) monocyte chemoattractant protein 1 (MCP-1) during a baseline sleep-wake cycle (BL=sleep 23.00–07.00 h) and after five days with restricted sleep (RS=sleep 03.00–07.00 h). Grey lines illustrate adapted cosine curves of confirmed circadian rhythm during baseline; shaded area depicts sleep time during restricted sleep (03.00–07.00 h) and dashed box depicts baseline sleep (23.00–07.00 h).</p>
+                  </caption>
+                  <graphic xlink:href="pone.0082291.g003"/>
+                </fig>
+                <fig id="pone-0082291-g004" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0082291.g004</object-id>
+                  <label>Figure 4</label>
+                  <caption>
+                    <title>Effects of restricted sleep on stimulated levels of cytokines and T helper 1/T helper 2 balance.</title>
+                    <p>Means ± SE numbers of (A) interleukin (IL) 2, (B) IL-4 and (C) IL-2/IL-4 ratio during a baseline sleep-wake cycle (BL=sleep 23.00–07.00 h) and after five days with restricted sleep (RS=sleep 03.00–07.00 h). Grey lines illustrate adapted cosine curves of confirmed circadian rhythm during baseline; shaded area depicts sleep time during restricted sleep (03.00–07.00 h) and dashed box depicts baseline sleep (23.00–07.00 h).</p>
+                  </caption>
+                  <graphic xlink:href="pone.0082291.g004"/>
+                </fig>
+                <p>The IL-2/IL-4 ratio, which gives an indication of the balance between Th1 and Th2 immune balance – was significantly reduced during the restricted sleep condition, particularly during the time awake (<xref rid="pone-0082291-t001" ref-type="table">Table 1</xref>, <xref ref-type="fig" rid="pone-0082291-g004">Figure 4C</xref>). The circadian pattern of the IL-2/IL-4 ratio seen during the baseline day was less obvious during restricted sleep.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="s4">
+              <title>Discussion</title>
+              <p>Five days of sleep restriction affected PHA induced levels of inflammatory mediators. Levels of TNF-α and MCP-1 were elevated across the midnight hours when subjects were kept awake during the fifth day of shortened sleep. The study also demonstrated reduced IL-2 responses, largely confined to daytime, after five days with restricted sleep. This also resulted in a lowered IL-2/IL-4-ratio, suggesting a switch towards Th2 as a result of restricted sleep. The Th2 shift is consonant with findings from acute sleep deprivation [<xref rid="B6" ref-type="bibr">6</xref>,<xref rid="B22" ref-type="bibr">22</xref>,<xref rid="B23" ref-type="bibr">23</xref>] although these studies showed decreased IL-2 responses to PHA during night-time [<xref rid="B6" ref-type="bibr">6</xref>], rather than the day-time. The studies have used slightly different indications of Th2-activity (i.e. IL-10 or IL-4), which could be related to the differences in the timing of the effects. Nevertheless, this study confirms that sustained sleep restriction drives a switch towards Th2 as compared to Th1 cytokines, which is similar to the effect of acute sleep deprivation (24) as well as the naturalistic stress of an academic exam [<xref rid="B28" ref-type="bibr">28</xref>]. The elevated levels of TNF-α and MCP-1 in the present study may be relevant for cardiovascular disease. There is an increasing awareness of a link between insufficient sleep and cardiovascular disease [<xref rid="B29" ref-type="bibr">29</xref>] and it is well known that inflammations are involved in the pathophysiological development of atherosclerosis [<xref rid="B30" ref-type="bibr">30</xref>].</p>
+              <p>There were strong diurnal components for all measured variables. Both TNF-α and IL-1b responses decreased during the night and had their nadirs at 08.00 h during both normal and restricted sleep. The nadir also coincided with the peak of cortisol. The finding that TNF-α responses were particularly high at 23.00 h and 02.00 h, but then fell sharply when subjects slept supports the notion that sleep suppresses TNF-α responses, which is in line with earlier findings [<xref rid="B31" ref-type="bibr">31</xref>]. The MCP-1 response was similar to that of TNF-α, although the circadian pattern was less pronounced. As MCP-1 is an inflammatory chemokine playing an important role in regulation of mononuclear cell trafficking from the blood stream into surrounding tissues, the evening increase during restricted sleep suggests an increased inflammatory response during sleep restriction. The mechanism behind these effects evening effects are unknown, but may relate to cortisol. Cortisol was slightly higher in the evening after restricted sleep, which is in line with earlier findings showing that sleep disturbances are related to increased cortisol the subsequent evening [<xref rid="B32" ref-type="bibr">32</xref>]. In general, immune responses show strong diurnal rhythms [<xref rid="B33" ref-type="bibr">33</xref>], and the mechanisms seem to include sleep dependent aspects (via prolactin), the circadian system (via cortisol) as well as the numbers of natural regulatory T cells and the internal circadian clocks of macrophages [<xref rid="B34" ref-type="bibr">34</xref>,<xref rid="B35" ref-type="bibr">35</xref>].</p>
+              <p>An important finding is that the effects are not present across the entire 24-hour cycle, but instead confined to shorter time periods across the 24-hour window. Hence, most of the time there were no obvious effects of restricted sleep reported. These time contingent effects support the use of a frequent blood sampling procedure in order to find representative effects of putative biological significance for health conditions like asthma or cardiovascular diseases, which are more severe in the early morning hours [<xref rid="B36" ref-type="bibr">36</xref>,<xref rid="B37" ref-type="bibr">37</xref>]. Notably, there were few differences between conditions during the early morning hours (blood samples at 05.00 h), when one would normally expect impact from cortisol and sleep-dependent hormones [<xref rid="B38" ref-type="bibr">38</xref>]. An important note is that the study had a relatively good power to detect main effects and interactions, while the t-tests were carried out in an exploratory manner to indicate where the significant main effects or interactions could be found. The t-tests had a relatively lower power so one should be careful with the interpretations from this study alone with regards to where during the day the effects of sleep restriction are manifest.</p>
+              <p>The inhibitory effects on IL-2 production by five days of restricted sleep were smaller than those of acute total sleep deprivation [<xref rid="B6" ref-type="bibr">6</xref>]. This suggests that a total absence of sleep would suppress the production of IL-2 more vigorously or, alternatively, that compensatory mechanisms are activated to regain homeostasis when sleep is restricted over longer periods. A possible compensatory mechanism may be that T-lymphocytes can, by themselves, produce stimulatory factors in an autocrine or paracrine manner [<xref rid="B39" ref-type="bibr">39</xref>]. Other compensatory mechanisms - with the purpose to protect the functioning of immune system during sleep loss - could involve the release of immunomodulating and sleep-dependent hormones such as GH and prolactin [<xref rid="B40" ref-type="bibr">40</xref>,<xref rid="B41" ref-type="bibr">41</xref>] or up/down regulation of genes [<xref rid="B42" ref-type="bibr">42</xref>]. </p>
+              <p><italic>In vitro</italic> responses are obviously affected by both number and activity of monocytes/lymphocytes in the blood samples [<xref rid="B6" ref-type="bibr">6</xref>]. It is, hence, possible that the increased levels of TNF-α in the evening during restricted sleep were due to increased numbers of leukocytes expressing this molecule. Concurrently, mean numbers of monocytes and lymphocytes were slightly increased during restricted sleep, although not significant. However, the effects on levels of e.g. TNF- α were not changed when compensating statistically for number of monocytes.</p>
+              <p>The shift towards Th2-activity, as indicated by the decreased IL-2/IL-4 ratio, could be viewed as a stress-related shift [<xref rid="B28" ref-type="bibr">28</xref>,<xref rid="B43" ref-type="bibr">43</xref>] or a disturbance of the sleep-induced Th1 stimulation. Particularly early nocturnal sleep is associated with augmented levels of GH and prolactin and suppressed levels of cortisol, aspects that collectively support Th1 activity [<xref rid="B38" ref-type="bibr">38</xref>]. Hence, the supressed Th2 activity may be related to a reduction of sleep related hormones rather than less sleep or stress, <italic>per se</italic>. The cortisol rhythm seemed to be unaltered during restricted sleep, the acrophases occurring at 08.00 h in both conditions. To establish a robust rhythm, the participants spent time outdoors twice each day (once in the morning and once in the afternoon) and were exposed to low light levels (below 40 LUX) only after 22.00 h during all days. However, it is still possible that a slight delay of the rhythms (i.e. smaller than 1 hour) might have occurred, alhtough undetected since blood drawing was limited to hourly sampling. The main effects seen on cortisol were most likely related to the different timing of sleep. Going to bed at 03.00 h instead of 23.00 h resulted in suppressed cortisol levels at 03.00-05.00 h rather than 23.00-01.00 h. This sleep suppressive effects on cortisol the first hours of sleep are consonant with earlier findings [<xref rid="B44" ref-type="bibr">44</xref>]. In addition, restricted sleep resulted in slightly elevated levels in the evening (20.00 h). These cortisol responses mimic a study with similar sleep restriction [<xref rid="B32" ref-type="bibr">32</xref>], but contrast, on the other hand, with a study with more modest sleep restriction [<xref rid="B14" ref-type="bibr">14</xref>], with only six hours of sleep per night. Moreover, the slight increase of cortisol at 20.00 h, during the restricted sleep period, was accompanied by reduced levels of TNF-α. While it is difficult to exclude a more subtle cortisol-driven Th2-shift, a more plausible explanation would be lower levels of sleep-induced hormones, such as prolactin and GH.</p>
+              <p>The present study aimed to use an ecologically valid model, keeping good control over the participants’ sleep over an extended period and combine it with a frequent blood sampling procedure uncovering the circadian rhythmicity of included parameters. The main limitations are the low number of participants, and that only healthy male adults participated. The homogenous group was necessary and the few participants were thoroughly studied in both conditions (8 samples per person in each condition respectively were included). As such, the participants represented their own controls in a repeated measures design, which minimises the interindividual differences. As baseline in all cases was measured before sleep restriction it is possible that order or laboratory effects may have affected our results. To reduce such influence, the participants were acclimatized to the laboratory environment before the start of the baseline measurements, and were also outdoors twice each day (in the morning and the afternoon) to avoid a drift of the circadian system. In addition, the present study design has previously been validated in several previous studies [<xref rid="B14" ref-type="bibr">14</xref>,<xref rid="B45" ref-type="bibr">45</xref>]. </p>
+              <p>The clinical relevance of altered cytokine levels may concern both pathophysiological conditions characterized by disturbed sleep and conditions that involve an altered balance between Th1 and Th2 cytokines. In healthy individuals it has, for example, been shown that self-reported short or disturbed sleep is related to increased risk for virus infections [<xref rid="B2" ref-type="bibr">2</xref>]. The results also have implications for individuals with clinical conditions, particularly for individuals suffering from condition with excessive Th2 activity such as asthma [<xref rid="B46" ref-type="bibr">46</xref>]. Besides the predominant Th2 activity, inflammatory conditions like asthma are also characterized by the upregulation of chemokines like MCP-1 [<xref rid="B47" ref-type="bibr">47</xref>], a trend which is quite evident in our study during the early morning hours when subjects were not allowed to sleep. MCP-1 recruits circulating Th2 cells to the airways and enhances Th2 cell differentiation [<xref rid="B48" ref-type="bibr">48</xref>]. It is thus possible that an upregulation of MCP-1 during restricted sleep may increase risk for asthma related exacerbations and that patients with a propensity for Th2-related conditions like asthma should be careful with insufficient sleep. Moreover, the present data is consonant with the proposition that sleep interventions should be considered in chronic inflammatory conditions characterized with Th2 overactivity [<xref rid="B49" ref-type="bibr">49</xref>]. Besides the growing body of evidence showing that sleep deprivation leads to a Th2 overactivity amongst humans, further studies are needed to investigate whether this may relate to findings (largely limited to animals) that sleep deprivation may also cause an increase of anti-inflammatory cytokines [<xref rid="B16" ref-type="bibr">16</xref>,<xref rid="B50" ref-type="bibr">50</xref>], being immune suppressive [<xref rid="B51" ref-type="bibr">51</xref>,<xref rid="B52" ref-type="bibr">52</xref>] and leading to an incomplete antioxidant protection [<xref rid="B53" ref-type="bibr">53</xref>].</p>
+              <p>In conclusion, we report that repeated sleep restriction was characterized by higher mitogen-stimulated levels of pro-inflammatory agents as TNF-α and MCP-1, and a shift towards Th2 activity, as reflected by an altered Th1/Th2 cytokine balance. These findings corroborate earlier observations displayed after acute sleep deprivation and stress. Consequently, good sleep hygiene may have positive health effects for individuals suffering from conditions characterized by excessive Th2 activity. </p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>We are grateful to all participants of the protocol and to Lennart Svensson and Anne-Cristine Carlsson for the analysis of cytokines/chemokines. We are also thankful to Yvonne Smith and Ghazal for technical assistance and to Michael Ingre for statistical analysis.</p>
+            </ack>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><name><surname>Bryant</surname><given-names>PA</given-names></name>, <name><surname>Trinder</surname><given-names>J</given-names></name>, <name><surname>Curtis</surname><given-names>N</given-names></name> (<year>2004</year>) <article-title>Sick and tired: Does sleep have a vital role in the immune system?</article-title>
+<source>Nat Rev Immunol</source>
+<volume>4</volume>: <fpage>457</fpage>-<lpage>467</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nri1369</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15173834">15173834</ext-link>.<pub-id pub-id-type="pmid">15173834</pub-id></mixed-citation>
+              </ref>
+              <ref id="B2">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><name><surname>Cohen</surname><given-names>S</given-names></name>, <name><surname>Doyle</surname><given-names>WJ</given-names></name>, <name><surname>Alper</surname><given-names>CM</given-names></name>, <name><surname>Janicki-Deverts</surname><given-names>D</given-names></name>, <name><surname>Turner</surname><given-names>RB</given-names></name> (<year>2009</year>) <article-title>Sleep habits and susceptibility to the common cold</article-title>. <source>Arch Intern Med</source>
+<volume>169</volume>: <fpage>62</fpage>-<lpage>67</lpage>. doi:<pub-id pub-id-type="doi">10.1001/archinternmed.2008.505</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19139325">19139325</ext-link>.<pub-id pub-id-type="pmid">19139325</pub-id></mixed-citation>
+              </ref>
+              <ref id="B3">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><name><surname>Mullington</surname><given-names>JM</given-names></name>, <name><surname>Simpson</surname><given-names>NS</given-names></name>, <name><surname>Meier-Ewert</surname><given-names>HK</given-names></name>, <name><surname>Haack</surname><given-names>M</given-names></name> (<year>2010</year>) <article-title>Sleep loss and inflammation</article-title>. <source>Best Pract Res Clin Endocrinol Metab</source>
+<volume>24</volume>: <fpage>775</fpage>-<lpage>784</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.beem.2010.08.014</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21112025">21112025</ext-link>.<pub-id pub-id-type="pmid">21112025</pub-id></mixed-citation>
+              </ref>
+              <ref id="B4">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><name><surname>Knutson</surname><given-names>KL</given-names></name>, <name><surname>Spiegel</surname><given-names>K</given-names></name>, <name><surname>Penev</surname><given-names>P</given-names></name>, <name><surname>Van Cauter</surname><given-names>E</given-names></name> (<year>2007</year>) <article-title>The metabolic consequences of sleep deprivation</article-title>. <source>Sleep Med Rev</source>
+<volume>11</volume>: <fpage>163</fpage>-<lpage>178</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2007.01.002</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17442599">17442599</ext-link>.<pub-id pub-id-type="pmid">17442599</pub-id></mixed-citation>
+              </ref>
+              <ref id="B5">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><name><surname>Kronholm</surname><given-names>E</given-names></name>, <name><surname>Partonen</surname><given-names>T</given-names></name>, <name><surname>Laatikainen</surname><given-names>T</given-names></name>, <name><surname>Peltonen</surname><given-names>M</given-names></name>, <name><surname>Härmä</surname><given-names>M</given-names></name><etal>et al.</etal> (<year>2008</year>) <article-title>Trends in self-reported sleep duration and insomnia-related symptoms in Finland from 1972 to 2005: a comparative review and re-analysis of Finnish population samples</article-title>. <source>J Sleep Res</source>
+<volume>17</volume>: <fpage>54</fpage>-<lpage>62</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2869.2008.00627.x</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/18275555">18275555</ext-link>.<pub-id pub-id-type="pmid">18275555</pub-id></mixed-citation>
+              </ref>
+              <ref id="B6">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><name><surname>Born</surname><given-names>J</given-names></name>, <name><surname>Lange</surname><given-names>T</given-names></name>, <name><surname>Hansen</surname><given-names>K</given-names></name>, <name><surname>Mölle</surname><given-names>M</given-names></name>, <name><surname>Fehm</surname><given-names>HL</given-names></name> (<year>1997</year>) <article-title>Effects of sleep and circadian rhythm on human circulating immune cells</article-title>. <source>J Immunol</source>
+<volume>158</volume>: <fpage>4454</fpage>-<lpage>4464</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/9127011">9127011</ext-link>.<pub-id pub-id-type="pmid">9127011</pub-id></mixed-citation>
+              </ref>
+              <ref id="B7">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><name><surname>Dinges</surname><given-names>DF</given-names></name>, <name><surname>Douglas</surname><given-names>SD</given-names></name>, <name><surname>Hamarman</surname><given-names>S</given-names></name>, <name><surname>Zaugg</surname><given-names>L</given-names></name>, <name><surname>Kapoor</surname><given-names>S</given-names></name> (<year>1995</year>) <article-title>Sleep deprivation and human immune function</article-title>. <source>Adv Neuroimmunol</source>
+<volume>5</volume>: <fpage>97</fpage>-<lpage>110</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0960-5428(95)00002-J</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/7496616">7496616</ext-link>.<pub-id pub-id-type="pmid">7496616</pub-id></mixed-citation>
+              </ref>
+              <ref id="B8">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><name><surname>Heiser</surname><given-names>P</given-names></name>, <name><surname>Dickhaus</surname><given-names>B</given-names></name>, <name><surname>Schreiber</surname><given-names>W</given-names></name>, <name><surname>Clement</surname><given-names>HW</given-names></name>, <name><surname>Hasse</surname><given-names>C</given-names></name><etal>et al.</etal> (<year>2000</year>) <article-title>White blood cells and cortisol after sleep deprivation and recovery sleep in humans</article-title>. <source>Eur Arch Psychiatry Clin Neurosci</source>
+<volume>250</volume>: <fpage>16</fpage>-<lpage>23</lpage>. doi:<pub-id pub-id-type="doi">10.1007/PL00007534</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/10738860">10738860</ext-link>.<pub-id pub-id-type="pmid">10738860</pub-id></mixed-citation>
+              </ref>
+              <ref id="B9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><name><surname>Moldofsky</surname><given-names>H</given-names></name>, <name><surname>Lue</surname><given-names>FA</given-names></name>, <name><surname>Davidson</surname><given-names>JR</given-names></name>, <name><surname>Gorczynski</surname><given-names>R</given-names></name> (<year>1989</year>) <article-title>Effects of sleep deprivation on human immune functions</article-title>. <source>FASEB J</source>
+<volume>3</volume>: <fpage>1972</fpage>-<lpage>1977</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/2785942">2785942</ext-link>.<pub-id pub-id-type="pmid">2785942</pub-id></mixed-citation>
+              </ref>
+              <ref id="B10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><name><surname>Oztürk</surname><given-names>L</given-names></name>, <name><surname>Pelin</surname><given-names>Z</given-names></name>, <name><surname>Karadeniz</surname><given-names>D</given-names></name>, <name><surname>Kaynak</surname><given-names>H</given-names></name>, <name><surname>Cakar</surname><given-names>L</given-names></name><etal>et al.</etal> (<year>1999</year>) <article-title>Effects of 48 hours sleep deprivation on human immune profile</article-title>. <source>Sleep Res Online</source>
+<volume>2</volume>: <fpage>107</fpage>-<lpage>111</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11382891">11382891</ext-link>.<pub-id pub-id-type="pmid">11382891</pub-id></mixed-citation>
+              </ref>
+              <ref id="B11">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><name><surname>Irwin</surname><given-names>M</given-names></name>, <name><surname>McClintick</surname><given-names>J</given-names></name>, <name><surname>Costlow</surname><given-names>C</given-names></name>, <name><surname>Fortner</surname><given-names>M</given-names></name>, <name><surname>White</surname><given-names>J</given-names></name><etal>et al.</etal> (<year>1996</year>) <article-title>Partial night sleep deprivation reduces natural killer and cellular immune responses in humans</article-title>. <source>FASEB J</source>
+<volume>10</volume>: <fpage>643</fpage>-<lpage>653</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/8621064">8621064</ext-link>.<pub-id pub-id-type="pmid">8621064</pub-id></mixed-citation>
+              </ref>
+              <ref id="B12">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><name><surname>Fondell</surname><given-names>E</given-names></name>, <name><surname>Axelsson</surname><given-names>J</given-names></name>, <name><surname>Franck</surname><given-names>K</given-names></name>, <name><surname>Ploner</surname><given-names>A</given-names></name>, <name><surname>Lekander</surname><given-names>M</given-names></name><etal>et al.</etal> (<year>2011</year>) <article-title>Short natural sleep is associated with higher T cell and lower NK cell activities. Brain Behav</article-title>. <source>Immun</source>.</mixed-citation>
+              </ref>
+              <ref id="B13">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><name><surname>Palmblad</surname><given-names>J</given-names></name>, <name><surname>Petrini</surname><given-names>B</given-names></name>, <name><surname>Wasserman</surname><given-names>J</given-names></name>, <name><surname>Akerstedt</surname><given-names>T</given-names></name> (<year>1979</year>) <article-title>Lymphocyte and granulocyte reactions during sleep deprivation</article-title>. <source>Psychosom Med</source>
+<volume>41</volume>: <fpage>273</fpage>-<lpage>278</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/482523">482523</ext-link>.<pub-id pub-id-type="pmid">482523</pub-id></mixed-citation>
+              </ref>
+              <ref id="B14">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><name><surname>Vgontzas</surname><given-names>AN</given-names></name>, <name><surname>Zoumakis</surname><given-names>E</given-names></name>, <name><surname>Bixler</surname><given-names>EO</given-names></name>, <name><surname>Lin</surname><given-names>HM</given-names></name>, <name><surname>Follett</surname><given-names>H</given-names></name><etal>et al.</etal> (<year>2004</year>) <article-title>Adverse effects of modest sleep restriction on sleepiness, performance, and inflammatory cytokines</article-title>. <source>J Clin Endocrinol Metab</source>
+<volume>89</volume>: <fpage>2119</fpage>-<lpage>2126</lpage>. doi:<pub-id pub-id-type="doi">10.1210/jc.2003-031562</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15126529">15126529</ext-link>.<pub-id pub-id-type="pmid">15126529</pub-id></mixed-citation>
+              </ref>
+              <ref id="B15">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><name><surname>Meier-Ewert</surname><given-names>HK</given-names></name>, <name><surname>Ridker</surname><given-names>PM</given-names></name>, <name><surname>Rifai</surname><given-names>N</given-names></name>, <name><surname>Regan</surname><given-names>MM</given-names></name>, <name><surname>Price</surname><given-names>NJ</given-names></name><etal>et al.</etal> (<year>2004</year>) <article-title>Effect of sleep loss on C-reactive protein, an inflammatory marker of cardiovascular risk</article-title>. <source>J Am Coll Cardiol</source>
+<volume>43</volume>: <fpage>678</fpage>-<lpage>683</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jacc.2003.07.050</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/14975482">14975482</ext-link>.<pub-id pub-id-type="pmid">14975482</pub-id></mixed-citation>
+              </ref>
+              <ref id="B16">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><name><surname>Frey</surname><given-names>DJ</given-names></name>, <name><surname>Fleshner</surname><given-names>M</given-names></name>, <name><surname>Wright</surname><given-names>KP</given-names><suffix>Jr.</suffix></name> (<year>2007</year>) <article-title>The effects of 40 hours of total sleep deprivation on inflammatory markers in healthy young adults</article-title>. <source>Brain Behav Immun</source>
+<volume>21</volume>: <fpage>1050</fpage>-<lpage>1057</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bbi.2007.04.003</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17524614">17524614</ext-link>.<pub-id pub-id-type="pmid">17524614</pub-id></mixed-citation>
+              </ref>
+              <ref id="B17">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><name><surname>Patel</surname><given-names>SR</given-names></name>, <name><surname>Zhu</surname><given-names>X</given-names></name>, <name><surname>Storfer-Isser</surname><given-names>A</given-names></name>, <name><surname>Mehra</surname><given-names>R</given-names></name>, <name><surname>Jenny</surname><given-names>NS</given-names></name><etal>et al.</etal> (<year>2009</year>) <article-title>Sleep duration and biomarkers of inflammation</article-title>. <source>Sleep</source>
+<volume>32</volume>: <fpage>200</fpage>-<lpage>204</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19238807">19238807</ext-link>.<pub-id pub-id-type="pmid">19238807</pub-id></mixed-citation>
+              </ref>
+              <ref id="B18">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><name><surname>Spiegel</surname><given-names>K</given-names></name>, <name><surname>Sheridan</surname><given-names>JF</given-names></name>, <name><surname>Van Cauter</surname><given-names>E</given-names></name> (<year>2002</year>) <article-title>Effect of sleep deprivation on response to immunization</article-title>. <source>JAMA</source>
+<volume>288</volume>: <fpage>1471</fpage>-<lpage>1472</lpage>. doi:<pub-id pub-id-type="doi">10.1001/jama.288.12.1469</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/12243633">12243633</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="B19">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><name><surname>van Leeuwen</surname><given-names>WM</given-names></name>, <name><surname>Lehto</surname><given-names>M</given-names></name>, <name><surname>Karisola</surname><given-names>P</given-names></name>, <name><surname>Lindholm</surname><given-names>H</given-names></name>, <name><surname>Luukkonen</surname><given-names>R</given-names></name><etal>et al.</etal> (<year>2009</year>) <article-title>Sleep restriction increases the risk of developing cardiovascular diseases by augmenting proinflammatory responses through IL-17 and CRP</article-title>. <source>PLOS ONE</source>
+<volume>4</volume>: <fpage>e4589</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0004589</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19240794">19240794</ext-link>.<pub-id pub-id-type="pmid">19240794</pub-id></mixed-citation>
+              </ref>
+              <ref id="B20">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><name><surname>Abbas</surname><given-names>AK</given-names></name>, <name><surname>Williams</surname><given-names>ME</given-names></name>, <name><surname>Burstein</surname><given-names>HJ</given-names></name>, <name><surname>Chang</surname><given-names>TL</given-names></name>, <name><surname>Bossu</surname><given-names>P</given-names></name><etal>et al.</etal> (<year>1991</year>) <article-title>Activation and functions of CD4+ T-cell subsets</article-title>. <source>Immunol Rev</source>
+<volume>123</volume>: <fpage>5</fpage>-<lpage>22</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1600-065X.1991.tb00603.x</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/1684783">1684783</ext-link>.<pub-id pub-id-type="pmid">1684783</pub-id></mixed-citation>
+              </ref>
+              <ref id="B21">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><name><surname>Girón-González</surname><given-names>JA</given-names></name>, <name><surname>Moral</surname><given-names>FJ</given-names></name>, <name><surname>Elvira</surname><given-names>J</given-names></name>, <name><surname>García-Gil</surname><given-names>D</given-names></name>, <name><surname>Guerrero</surname><given-names>F</given-names></name><etal>et al.</etal> (<year>2000</year>) <article-title>Consistent production of a higher TH1:TH2 cytokine ratio by stimulated T cells in men compared with women</article-title>. <source>Eur J Endocrinol</source>
+<volume>143</volume>: <fpage>31</fpage>-<lpage>36</lpage>. doi:<pub-id pub-id-type="doi">10.1530/eje.0.1430031</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/10870028">10870028</ext-link>.<pub-id pub-id-type="pmid">10870028</pub-id></mixed-citation>
+              </ref>
+              <ref id="B22">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><name><surname>Dimitrov</surname><given-names>S</given-names></name>, <name><surname>Lange</surname><given-names>T</given-names></name>, <name><surname>Tieken</surname><given-names>S</given-names></name>, <name><surname>Fehm</surname><given-names>HL</given-names></name>, <name><surname>Born</surname><given-names>J</given-names></name> (<year>2004</year>) <article-title>Sleep associated regulation of T helper 1/T helper 2 cytokine balance in humans</article-title>. <source>Brain Behav Immun</source>
+<volume>18</volume>: <fpage>341</fpage>-<lpage>348</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bbi.2003.08.004</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15157951">15157951</ext-link>.<pub-id pub-id-type="pmid">15157951</pub-id></mixed-citation>
+              </ref>
+              <ref id="B23">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><name><surname>Lange</surname><given-names>T</given-names></name>, <name><surname>Dimitrov</surname><given-names>S</given-names></name>, <name><surname>Fehm</surname><given-names>HL</given-names></name>, <name><surname>Westermann</surname><given-names>J</given-names></name>, <name><surname>Born</surname><given-names>J</given-names></name> (<year>2006</year>) <article-title>Shift of monocyte function toward cellular immunity during sleep</article-title>. <source>Arch Intern Med</source>
+<volume>166</volume>: <fpage>1695</fpage>-<lpage>1700</lpage>. doi:<pub-id pub-id-type="doi">10.1001/archinte.166.16.1695</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16983046">16983046</ext-link>.<pub-id pub-id-type="pmid">16983046</pub-id></mixed-citation>
+              </ref>
+              <ref id="B24">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><name><surname>Redwine</surname><given-names>L</given-names></name>, <name><surname>Dang</surname><given-names>J</given-names></name>, <name><surname>Hall</surname><given-names>M</given-names></name>, <name><surname>Irwin</surname><given-names>M</given-names></name> (<year>2003</year>) <article-title>Disordered sleep, nocturnal cytokines, and immunity in alcoholics</article-title>. <source>Psychosom Med</source>
+<volume>65</volume>: <fpage>75</fpage>-<lpage>85</lpage>. doi:<pub-id pub-id-type="doi">10.1097/01.PSY.0000038943.33335.D2</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/12554818">12554818</ext-link>.<pub-id pub-id-type="pmid">12554818</pub-id></mixed-citation>
+              </ref>
+              <ref id="B25">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><name><surname>Sakami</surname><given-names>S</given-names></name>, <name><surname>Ishikawa</surname><given-names>T</given-names></name>, <name><surname>Kawakami</surname><given-names>N</given-names></name>, <name><surname>Haratani</surname><given-names>T</given-names></name>, <name><surname>Fukui</surname><given-names>A</given-names></name><etal>et al.</etal> (<year>2002</year>) <article-title>Coemergence of insomnia and a shift in the Th1/Th2 balance toward Th2 dominance</article-title>. <source>Neuroimmunomodulation</source>
+<volume>10</volume>: <fpage>337</fpage>-<lpage>343</lpage>. doi:<pub-id pub-id-type="doi">10.1159/000071474</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/12907840">12907840</ext-link>.<pub-id pub-id-type="pmid">12907840</pub-id></mixed-citation>
+              </ref>
+              <ref id="B26">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><name><surname>Akerstedt</surname><given-names>T</given-names></name>, <name><surname>Kecklund</surname><given-names>G</given-names></name>, <name><surname>Ingre</surname><given-names>M</given-names></name>, <name><surname>Lekander</surname><given-names>M</given-names></name>, <name><surname>Axelsson</surname><given-names>J</given-names></name> (<year>2009</year>) <article-title>Sleep homeostasis during repeated sleep restriction and recovery: support from EEG dynamics</article-title>. <source>Sleep</source>
+<volume>32</volume>: <fpage>217</fpage>-<lpage>222</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19238809">19238809</ext-link>.<pub-id pub-id-type="pmid">19238809</pub-id></mixed-citation>
+              </ref>
+              <ref id="B27">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><name><surname>Fitzgerald</surname><given-names>SP</given-names></name>, <name><surname>Lamont</surname><given-names>JV</given-names></name>, <name><surname>McConnell</surname><given-names>RI</given-names></name>, <name><surname>Benchikh el</surname><given-names>O</given-names></name> (<year>2005</year>) <article-title>Development of a high-throughput automated analyzer using biochip array technology</article-title>. <source>Clin Chem</source>
+<volume>51</volume>: <fpage>1165</fpage>-<lpage>1176</lpage>. doi:<pub-id pub-id-type="doi">10.1373/clinchem.2005.049429</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15890889">15890889</ext-link>.<pub-id pub-id-type="pmid">15890889</pub-id></mixed-citation>
+              </ref>
+              <ref id="B28">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><name><surname>Höglund</surname><given-names>CO</given-names></name>, <name><surname>Axén</surname><given-names>J</given-names></name>, <name><surname>Kemi</surname><given-names>C</given-names></name>, <name><surname>Jernelöv</surname><given-names>S</given-names></name>, <name><surname>Grunewald</surname><given-names>J</given-names></name><etal>et al.</etal> (<year>2006</year>) <article-title>Changes in immune regulation in response to examination stress in atopic and healthy individuals</article-title>. <source>Clin Exp Allergy</source>
+<volume>36</volume>: <fpage>982</fpage>-<lpage>992</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2222.2006.02529.x</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16911354">16911354</ext-link>.<pub-id pub-id-type="pmid">16911354</pub-id></mixed-citation>
+              </ref>
+              <ref id="B29">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><name><surname>Cappuccio</surname><given-names>FP</given-names></name>, <name><surname>Cooper</surname><given-names>D</given-names></name>, <name><surname>D'Elia</surname><given-names>L</given-names></name>, <name><surname>Strazzullo</surname><given-names>P</given-names></name>, <name><surname>Miller</surname><given-names>MA</given-names></name> (<year>2011</year>) <article-title>Sleep duration predicts cardiovascular outcomes: a systematic review and meta-analysis of prospective studies</article-title>. <source>Eur Heart J</source>
+<volume>32</volume>: <fpage>1484</fpage>-<lpage>1492</lpage>. doi:<pub-id pub-id-type="doi">10.1093/eurheartj/ehr007</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21300732">21300732</ext-link>.<pub-id pub-id-type="pmid">21300732</pub-id></mixed-citation>
+              </ref>
+              <ref id="B30">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><name><surname>Ross</surname><given-names>R</given-names></name> (<year>1999</year>) <article-title>Atherosclerosis--an inflammatory disease</article-title>. <source>N Engl J Med</source>
+<volume>340</volume>: <fpage>115</fpage>-<lpage>126</lpage>. doi:<pub-id pub-id-type="doi">10.1056/NEJM199901143400207</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/9887164">9887164</ext-link>.<pub-id pub-id-type="pmid">9887164</pub-id></mixed-citation>
+              </ref>
+              <ref id="B31">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><name><surname>Uthgenannt</surname><given-names>D</given-names></name>, <name><surname>Schoolmann</surname><given-names>D</given-names></name>, <name><surname>Pietrowsky</surname><given-names>R</given-names></name>, <name><surname>Fehm</surname><given-names>HL</given-names></name>, <name><surname>Born</surname><given-names>J</given-names></name> (<year>1995</year>) <article-title>Effects of sleep on the production of cytokines in humans</article-title>. <source>Psychosom Med</source>
+<volume>57</volume>: <fpage>97</fpage>-<lpage>104</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/7792381">7792381</ext-link>.<pub-id pub-id-type="pmid">7792381</pub-id></mixed-citation>
+              </ref>
+              <ref id="B32">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><name><surname>Spiegel</surname><given-names>K</given-names></name>, <name><surname>Leproult</surname><given-names>R</given-names></name>, <name><surname>L’hermite-Balériaux</surname><given-names>M</given-names></name>, <name><surname>Copinschi</surname><given-names>G</given-names></name>, <name><surname>Penev</surname><given-names>PD</given-names></name><etal>et al.</etal> (<year>2004</year>) <article-title>Leptin levels are dependent on sleep duration: relationships with sympathovagal balance, carbohydrate regulation, cortisol, and thyrotropin</article-title>. <source>J Clin Endocrinol Metab</source>
+<volume>89</volume>: <fpage>5762</fpage>-<lpage>5771</lpage>. doi:<pub-id pub-id-type="doi">10.1210/jc.2004-1003</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15531540">15531540</ext-link>.<pub-id pub-id-type="pmid">15531540</pub-id></mixed-citation>
+              </ref>
+              <ref id="B33">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><name><surname>Petrovsky</surname><given-names>N</given-names></name>, <name><surname>Harrison</surname><given-names>LC</given-names></name> (<year>1998</year>) <article-title>The chronobiology of human cytokine production</article-title>. <source>Int Rev Immunol</source>
+<volume>16</volume>: <fpage>635</fpage>-<lpage>649</lpage>. doi:<pub-id pub-id-type="doi">10.3109/08830189809043012</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/9646180">9646180</ext-link>.<pub-id pub-id-type="pmid">9646180</pub-id></mixed-citation>
+              </ref>
+              <ref id="B34">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><name><surname>Bollinger</surname><given-names>T</given-names></name>, <name><surname>Bollinger</surname><given-names>A</given-names></name>, <name><surname>Naujoks</surname><given-names>J</given-names></name>, <name><surname>Lange</surname><given-names>T</given-names></name>, <name><surname>Solbach</surname><given-names>W</given-names></name> (<year>2010</year>) <article-title>The influence of regulatory T cells and diurnal hormone rhythms on T helper cell activity</article-title>. <source>Immunology</source>
+<volume>131</volume>: <fpage>488</fpage>-<lpage>500</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2567.2010.03320.x</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20646075">20646075</ext-link>.<pub-id pub-id-type="pmid">20646075</pub-id></mixed-citation>
+              </ref>
+              <ref id="B35">
+                <label>35</label>
+                <mixed-citation publication-type="journal"><name><surname>Keller</surname><given-names>M</given-names></name>, <name><surname>Mazuch</surname><given-names>J</given-names></name>, <name><surname>Abraham</surname><given-names>U</given-names></name>, <name><surname>Eom</surname><given-names>GD</given-names></name>, <name><surname>Herzog</surname><given-names>ED</given-names></name><etal>et al.</etal> (<year>2009</year>) <article-title>A circadian clock in macrophages controls inflammatory immune responses</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>106</volume>: <fpage>21407</fpage>-<lpage>21412</lpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.0906361106</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19955445">19955445</ext-link>.<pub-id pub-id-type="pmid">19955445</pub-id></mixed-citation>
+              </ref>
+              <ref id="B36">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><name><surname>Hetzel</surname><given-names>MR</given-names></name>, <name><surname>Clark</surname><given-names>TJ</given-names></name>, <name><surname>Houston</surname><given-names>K</given-names></name> (<year>1977</year>) <article-title>Physiological patterns in early morning asthma</article-title>. <source>Thorax</source>
+<volume>32</volume>: <fpage>418</fpage>-<lpage>423</lpage>. doi:<pub-id pub-id-type="doi">10.1136/thx.32.4.418</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/563112">563112</ext-link>.<pub-id pub-id-type="pmid">563112</pub-id></mixed-citation>
+              </ref>
+              <ref id="B37">
+                <label>37</label>
+                <mixed-citation publication-type="journal"><name><surname>Figueras</surname><given-names>J</given-names></name>, <name><surname>Lidón</surname><given-names>RM</given-names></name> (<year>1995</year>) <article-title>Early morning reduction in ischemic threshold in patients with unstable angina and significant coronary disease</article-title>. <source>Circulation</source>
+<volume>92</volume>: <fpage>1737</fpage>-<lpage>1742</lpage>. doi:<pub-id pub-id-type="doi">10.1161/01.CIR.92.7.1737</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/7671355">7671355</ext-link>.<pub-id pub-id-type="pmid">7671355</pub-id></mixed-citation>
+              </ref>
+              <ref id="B38">
+                <label>38</label>
+                <mixed-citation publication-type="journal"><name><surname>Dimitrov</surname><given-names>S</given-names></name>, <name><surname>Lange</surname><given-names>T</given-names></name>, <name><surname>Fehm</surname><given-names>HL</given-names></name>, <name><surname>Born</surname><given-names>J</given-names></name> (<year>2004</year>) <article-title>A regulatory role of prolactin, growth hormone, and corticosteroids for human T-cell production of cytokines</article-title>. <source>Brain Behav Immun</source>
+<volume>18</volume>: <fpage>368</fpage>-<lpage>374</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bbi.2003.09.014</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15157954">15157954</ext-link>.<pub-id pub-id-type="pmid">15157954</pub-id></mixed-citation>
+              </ref>
+              <ref id="B39">
+                <label>39</label>
+                <mixed-citation publication-type="journal"><name><surname>Pellegrini</surname><given-names>I</given-names></name>, <name><surname>Lebrun</surname><given-names>JJ</given-names></name>, <name><surname>Ali</surname><given-names>S</given-names></name>, <name><surname>Kelly</surname><given-names>PA</given-names></name> (<year>1992</year>) <article-title>Expression of prolactin and its receptor in human lymphoid cells</article-title>. <source>Mol Endocrinol</source>
+<volume>6</volume>: <fpage>1023</fpage>-<lpage>1031</lpage>. doi:<pub-id pub-id-type="doi">10.1210/me.6.7.1023</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/1508218">1508218</ext-link>.<pub-id pub-id-type="pmid">1508218</pub-id></mixed-citation>
+              </ref>
+              <ref id="B40">
+                <label>40</label>
+                <mixed-citation publication-type="journal"><name><surname>Brandenberger</surname><given-names>G</given-names></name>, <name><surname>Gronfier</surname><given-names>C</given-names></name>, <name><surname>Chapotot</surname><given-names>F</given-names></name>, <name><surname>Simon</surname><given-names>C</given-names></name>, <name><surname>Piquard</surname><given-names>F</given-names></name> (<year>2000</year>) <article-title>Effect of sleep deprivation on overall 24 h growth-hormone secretion</article-title>. <source>Lancet</source>
+<volume>356</volume>: <fpage>1408</fpage>. doi:<pub-id pub-id-type="doi">10.1016/S0140-6736(00)02847-6</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11052586">11052586</ext-link>.<pub-id pub-id-type="pmid">11052586</pub-id></mixed-citation>
+              </ref>
+              <ref id="B41">
+                <label>41</label>
+                <mixed-citation publication-type="journal"><name><surname>Murphy</surname><given-names>WJ</given-names></name>, <name><surname>Durum</surname><given-names>SK</given-names></name>, <name><surname>Longo</surname><given-names>DL</given-names></name> (<year>1993</year>) <article-title>Differential effects of growth hormone and prolactin on murine T cell development and function</article-title>. <source>J Exp Med</source>
+<volume>178</volume>: <fpage>231</fpage>-<lpage>236</lpage>. doi:<pub-id pub-id-type="doi">10.1084/jem.178.1.231</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/8315380">8315380</ext-link>.<pub-id pub-id-type="pmid">8315380</pub-id></mixed-citation>
+              </ref>
+              <ref id="B42">
+                <label>42</label>
+                <mixed-citation publication-type="journal"><name><surname>Möller-Levet</surname><given-names>CS</given-names></name>, <name><surname>Archer</surname><given-names>SN</given-names></name>, <name><surname>Bucca</surname><given-names>G</given-names></name>, <name><surname>Laing</surname><given-names>EE</given-names></name>, <name><surname>Slak</surname><given-names>A</given-names></name><etal>et al.</etal> (<year>2013</year>) <article-title>Effects of insufficient sleep on circadian rhythmicity and expression amplitude of the human blood transcriptome</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>110</volume>: <fpage>E1132</fpage>-<lpage>E1141</lpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.1217154110</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/23440187">23440187</ext-link>.<pub-id pub-id-type="pmid">23440187</pub-id></mixed-citation>
+              </ref>
+              <ref id="B43">
+                <label>43</label>
+                <mixed-citation publication-type="journal"><name><surname>Segerstrom</surname><given-names>SC</given-names></name>, <name><surname>Miller</surname><given-names>GE</given-names></name> (<year>2004</year>) <article-title>Psychological stress and the human immune system: a meta-analytic study of 30 years of inquiry</article-title>. <source>Psychol Bull</source>
+<volume>130</volume>: <fpage>601</fpage>-<lpage>630</lpage>. doi:<pub-id pub-id-type="doi">10.1037/0033-2909.130.4.601</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15250815">15250815</ext-link>.<pub-id pub-id-type="pmid">15250815</pub-id></mixed-citation>
+              </ref>
+              <ref id="B44">
+                <label>44</label>
+                <mixed-citation publication-type="journal"><name><surname>Weitzman</surname><given-names>ED</given-names></name>, <name><surname>Zimmerman</surname><given-names>JC</given-names></name>, <name><surname>Czeisler</surname><given-names>CA</given-names></name>, <name><surname>Ronda</surname><given-names>J</given-names></name> (<year>1983</year>) <article-title>Cortisol secretion is inhibited during sleep in normal man</article-title>. <source>J Clin Endocrinol Metab</source>
+<volume>56</volume>: <fpage>352</fpage>-<lpage>358</lpage>. doi:<pub-id pub-id-type="doi">10.1210/jcem-56-2-352</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/6822642">6822642</ext-link>.<pub-id pub-id-type="pmid">6822642</pub-id></mixed-citation>
+              </ref>
+              <ref id="B45">
+                <label>45</label>
+                <mixed-citation publication-type="journal"><name><surname>Spiegel</surname><given-names>K</given-names></name>, <name><surname>Leproult</surname><given-names>R</given-names></name>, <name><surname>Van Cauter</surname><given-names>E</given-names></name> (<year>1999</year>) <article-title>Impact of sleep debt on metabolic and endocrine function</article-title>. <source>Lancet</source>
+<volume>354</volume>: <fpage>1435</fpage>-<lpage>1439</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0140-6736(99)01376-8</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/10543671">10543671</ext-link>.<pub-id pub-id-type="pmid">10543671</pub-id></mixed-citation>
+              </ref>
+              <ref id="B46">
+                <label>46</label>
+                <mixed-citation publication-type="other"><name><surname>Lai</surname><given-names>H</given-names></name>, <name><surname>Rogers</surname><given-names>DF</given-names></name> (<year>2010</year>) <article-title>New pharmacotherapy for airway mucus hypersecretion in asthma and COPD: targeting intracellular signaling pathways</article-title>. <comment>J Aerosol Med Pulm Drug Deliv 23: 219-231</comment>
+</mixed-citation>
+              </ref>
+              <ref id="B47">
+                <label>47</label>
+                <mixed-citation publication-type="journal"><name><surname>Mauad</surname><given-names>T</given-names></name>, <name><surname>Dolhnikoff</surname><given-names>M</given-names></name> (<year>2008</year>) <article-title>Pathologic similarities and differences between asthma and chronic obstructive pulmonary disease</article-title>. <source>Curr Opin Pulm Med</source>
+<volume>14</volume>: <fpage>31</fpage>-<lpage>38</lpage>. doi:<pub-id pub-id-type="doi">10.1097/MCP.0b013e3282f19846</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/18043273">18043273</ext-link>.<pub-id pub-id-type="pmid">18043273</pub-id></mixed-citation>
+              </ref>
+              <ref id="B48">
+                <label>48</label>
+                <mixed-citation publication-type="journal"><name><surname>Cohn</surname><given-names>L</given-names></name>, <name><surname>Elias</surname><given-names>JA</given-names></name>, <name><surname>Chupp</surname><given-names>GL</given-names></name> (<year>2004</year>) <article-title>Asthma: mechanisms of disease persistence and progression</article-title>. <source>Annu Rev Immunol</source>
+<volume>22</volume>: <fpage>789</fpage>-<lpage>815</lpage>. doi:<pub-id pub-id-type="doi">10.1146/annurev.immunol.22.012703.104716</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15032597">15032597</ext-link>.<pub-id pub-id-type="pmid">15032597</pub-id></mixed-citation>
+              </ref>
+              <ref id="B49">
+                <label>49</label>
+                <mixed-citation publication-type="journal"><name><surname>Ranjbaran</surname><given-names>Z</given-names></name>, <name><surname>Keefer</surname><given-names>L</given-names></name>, <name><surname>Stepanski</surname><given-names>E</given-names></name>, <name><surname>Farhadi</surname><given-names>A</given-names></name>, <name><surname>Keshavarzian</surname><given-names>A</given-names></name> (<year>2007</year>) <article-title>The relevance of sleep abnormalities to chronic inflammatory conditions</article-title>. <source>Inflamm Res</source>
+<volume>56</volume>: <fpage>51</fpage>-<lpage>57</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00011-006-0525-7</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17431741">17431741</ext-link>.<pub-id pub-id-type="pmid">17431741</pub-id></mixed-citation>
+              </ref>
+              <ref id="B50">
+                <label>50</label>
+                <mixed-citation publication-type="journal"><name><surname>Weil</surname><given-names>ZM</given-names></name>, <name><surname>Norman</surname><given-names>GJ</given-names></name>, <name><surname>Karelina</surname><given-names>K</given-names></name>, <name><surname>Morris</surname><given-names>JS</given-names></name>, <name><surname>Barker</surname><given-names>JM</given-names></name><etal>et al.</etal> (<year>2009</year>) <article-title>Sleep deprivation attenuates inflammatory responses and ischemic cell death</article-title>. <source>Exp Neurol</source>
+<volume>218</volume>: <fpage>129</fpage>-<lpage>136</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.expneurol.2009.04.018</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19409382">19409382</ext-link>.<pub-id pub-id-type="pmid">19409382</pub-id></mixed-citation>
+              </ref>
+              <ref id="B51">
+                <label>51</label>
+                <mixed-citation publication-type="journal"><name><surname>Lungato</surname><given-names>L</given-names></name>, <name><surname>Gazarini</surname><given-names>ML</given-names></name>, <name><surname>Paredes-Gamero</surname><given-names>EJ</given-names></name>, <name><surname>Tersariol</surname><given-names>IL</given-names></name>, <name><surname>Tufik</surname><given-names>S</given-names></name><etal>et al.</etal> (<year>2012</year>) <article-title>Sleep deprivation impairs calcium signaling in mouse splenocytes and leads to a decreased immune response</article-title>. <source>Biochim Biophys Acta</source>
+<volume>1820</volume>: <fpage>1997</fpage>-<lpage>2006</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bbagen.2012.09.010</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/23000491">23000491</ext-link>.<pub-id pub-id-type="pmid">23000491</pub-id></mixed-citation>
+              </ref>
+              <ref id="B52">
+                <label>52</label>
+                <mixed-citation publication-type="journal"><name><surname>Zielinski</surname><given-names>MR</given-names></name>, <name><surname>Davis</surname><given-names>JM</given-names></name>, <name><surname>Fadel</surname><given-names>JR</given-names></name>, <name><surname>Youngstedt</surname><given-names>SD</given-names></name> (<year>2012</year>) <article-title>Influence of chronic moderate sleep restriction and exercise on inflammation and carcinogenesis in mice</article-title>. <source>Brain Behav Immun</source>
+<volume>26</volume>: <fpage>672</fpage>-<lpage>679</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bbi.2012.03.002</pub-id>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22433899">22433899</ext-link>.<pub-id pub-id-type="pmid">22433899</pub-id></mixed-citation>
+              </ref>
+              <ref id="B53">
+                <label>53</label>
+                <mixed-citation publication-type="journal"><name><surname>Everson</surname><given-names>CA</given-names></name>, <name><surname>Laatsch</surname><given-names>CD</given-names></name>, <name><surname>Hogg</surname><given-names>N</given-names></name> (<year>2005</year>) <article-title>Antioxidant defense responses to sleep loss and sleep recovery</article-title>. <source>Am J Physiol Regul Integr Comp Physiol</source>
+<volume>288</volume>: <fpage>R374</fpage>-<lpage>R383</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15472007">15472007</ext-link>.<pub-id pub-id-type="pmid">15472007</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

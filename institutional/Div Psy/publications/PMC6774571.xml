@@ -1,0 +1,2688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:04:01Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6774571" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6774571</identifier>
+        <datestamp>2019-10-15</datestamp>
+        <setSpec>jmir</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">J Med Internet Res</journal-id>
+              <journal-id journal-id-type="iso-abbrev">J. Med. Internet Res</journal-id>
+              <journal-id journal-id-type="publisher-id">JMIR</journal-id>
+              <journal-title-group>
+                <journal-title>Journal of Medical Internet Research</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1439-4456</issn>
+              <issn pub-type="epub">1438-8871</issn>
+              <publisher>
+                <publisher-name>JMIR Publications</publisher-name>
+                <publisher-loc>Toronto, Canada</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6774571</article-id>
+              <article-id pub-id-type="pmcid">PMC6774571</article-id>
+              <article-id pub-id-type="pmc-uid">6774571</article-id>
+              <article-id pub-id-type="pmid">31573901</article-id>
+              <article-id pub-id-type="publisher-id">v21i10e13602</article-id>
+              <article-id pub-id-type="pmid">31573901</article-id>
+              <article-id pub-id-type="doi">10.2196/13602</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Paper</subject>
+                </subj-group>
+                <subj-group subj-group-type="article-type">
+                  <subject>Original Paper</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>The Internet Intervention Patient Adherence Scale for Guided Internet-Delivered Behavioral Interventions: Development and Psychometric Evaluation</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Eysenbach</surname>
+                    <given-names>Gunther</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Gustafson</surname>
+                    <given-names>Emelie</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Radomski</surname>
+                    <given-names>Ashley</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Young</surname>
+                    <given-names>Claire</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib id="contrib1" contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Lenhard</surname>
+                    <given-names>Fabian</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0930-6412</contrib-id>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <address>
+                    <institution>Centre for Psychiatry Research</institution>
+                    <institution>Department of Clinical Neuroscience</institution>
+                    <institution>Karolinska Institutet, &amp; Stockholm Health Care Services, Stockholm County Council</institution>
+                    <addr-line>CAP Research Centre, Gävlegatan 22</addr-line>
+                    <addr-line>SE-113 30</addr-line>
+                    <addr-line>Stockholm,</addr-line>
+                    <country>Sweden</country>
+                    <phone>46 8 514 522 12</phone>
+                    <email>fabian.lenhard@ki.se</email>
+                  </address>
+                </contrib>
+                <contrib id="contrib2" contrib-type="author">
+                  <name>
+                    <surname>Mitsell</surname>
+                    <given-names>Kajsa</given-names>
+                  </name>
+                  <degrees>MSc</degrees>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9505-8314</contrib-id>
+                </contrib>
+                <contrib id="contrib3" contrib-type="author">
+                  <name>
+                    <surname>Jolstedt</surname>
+                    <given-names>Maral</given-names>
+                  </name>
+                  <degrees>MSc</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9427-295X</contrib-id>
+                </contrib>
+                <contrib id="contrib4" contrib-type="author">
+                  <name>
+                    <surname>Vigerland</surname>
+                    <given-names>Sarah</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6788-3317</contrib-id>
+                </contrib>
+                <contrib id="contrib5" contrib-type="author">
+                  <name>
+                    <surname>Wahlund</surname>
+                    <given-names>Tove</given-names>
+                  </name>
+                  <degrees>MSc</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5123-2392</contrib-id>
+                </contrib>
+                <contrib id="contrib6" contrib-type="author">
+                  <name>
+                    <surname>Nord</surname>
+                    <given-names>Martina</given-names>
+                  </name>
+                  <degrees>MSc</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7023-9012</contrib-id>
+                </contrib>
+                <contrib id="contrib7" contrib-type="author">
+                  <name>
+                    <surname>Bjureberg</surname>
+                    <given-names>Johan</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2747-9990</contrib-id>
+                </contrib>
+                <contrib id="contrib8" contrib-type="author">
+                  <name>
+                    <surname>Sahlin</surname>
+                    <given-names>Hanna</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6353-024X</contrib-id>
+                </contrib>
+                <contrib id="contrib9" contrib-type="author">
+                  <name>
+                    <surname>Andrén</surname>
+                    <given-names>Per</given-names>
+                  </name>
+                  <degrees>MSc</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-1358-0166</contrib-id>
+                </contrib>
+                <contrib id="contrib10" contrib-type="author">
+                  <name>
+                    <surname>Aspvall</surname>
+                    <given-names>Kristina</given-names>
+                  </name>
+                  <degrees>MSc</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2973-6949</contrib-id>
+                </contrib>
+                <contrib id="contrib11" contrib-type="author">
+                  <name>
+                    <surname>Melin</surname>
+                    <given-names>Karin</given-names>
+                  </name>
+                  <degrees>RN, PhD</degrees>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3297-7735</contrib-id>
+                </contrib>
+                <contrib id="contrib12" contrib-type="author">
+                  <name>
+                    <surname>Mataix-Cols</surname>
+                    <given-names>David</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4545-0924</contrib-id>
+                </contrib>
+                <contrib id="contrib13" contrib-type="author">
+                  <name>
+                    <surname>Serlachius</surname>
+                    <given-names>Eva</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7115-6422</contrib-id>
+                </contrib>
+                <contrib id="contrib14" contrib-type="author">
+                  <name>
+                    <surname>Högström</surname>
+                    <given-names>Jens</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5313-8498</contrib-id>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <label>1</label>
+                <institution>Centre for Psychiatry Research</institution>
+                <institution>Department of Clinical Neuroscience</institution>
+                <institution>Karolinska Institutet, &amp; Stockholm Health Care Services, Stockholm County Council</institution>
+                <addr-line>Stockholm</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <aff id="aff2">
+                <label>2</label>
+                <institution>Stockholm Health Care Services, Stockholm County Council</institution>
+                <addr-line>Stockholm</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <aff id="aff3">
+                <label>3</label>
+                <institution>Institute of Neuroscience and Physiology, The Sahlgrenska Academy, University of Gothenburg</institution>
+                <addr-line>Gothenburg</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <author-notes>
+                <corresp>Corresponding Author: Fabian Lenhard
+<email>fabian.lenhard@ki.se</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <month>10</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>1</day>
+                <month>10</month>
+                <year>2019</year>
+              </pub-date>
+              <volume>21</volume>
+              <issue>10</issue>
+              <elocation-id>e13602</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>8</day>
+                  <month>2</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="rev-request">
+                  <day>28</day>
+                  <month>3</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>6</day>
+                  <month>6</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="accepted">
+                  <day>29</day>
+                  <month>6</month>
+                  <year>2019</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>©Fabian Lenhard, Kajsa Mitsell, Maral Jolstedt, Sarah Vigerland, Tove Wahlund, Martina Nord, Johan Bjureberg, Hanna Sahlin, Per Andrén, Kristina Aspvall, Karin Melin, David Mataix-Cols, Eva Serlachius, Jens Högström. Originally published in the Journal of Medical Internet Research (http://www.jmir.org), 01.10.2019</copyright-statement>
+                <copyright-year>2019</copyright-year>
+                <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+                  <license-p><!--CREATIVE COMMONS-->This is an open-access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in the Journal of Medical Internet Research, is properly cited. The complete bibliographic information, a link to the original publication on <ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/">http://www.jmir.org/</ext-link>, as well as this copyright and license information must be included.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:type="simple" xlink:href="https://www.jmir.org/2019/10/e13602"/>
+              <abstract>
+                <sec sec-type="background">
+                  <title>Background</title>
+                  <p>Patient adherence is defined as the extent to which a patient complies with medical or health advice. At present, there is a lack of reliable and valid measures specifically designed to measure adherence to internet-delivered behavioral interventions.</p>
+                </sec>
+                <sec sec-type="objective">
+                  <title>Objective</title>
+                  <p>The objective of this study was to develop and psychometrically evaluate a novel measure of adherence to guided internet-delivered behavioral interventions.</p>
+                </sec>
+                <sec sec-type="methods">
+                  <title>Methods</title>
+                  <p>In collaboration with experienced clinicians and researchers in the field, a 5-item, clinician-rated internet intervention Patient Adherence Scale (iiPAS) was developed. The initial scale was tested in a sample of children and adolescents (N=50) participating in internet-delivered cognitive behavioral therapy (ICBT) studies. A revised version of the iiPAS was then administered to a larger sample of children and adolescents (N=148) with various behavioral problems participating in ICBT trials. The scale was evaluated according to a classical test theory framework.</p>
+                </sec>
+                <sec sec-type="results">
+                  <title>Results</title>
+                  <p>The iiPAS demonstrated excellent internal consistency. Factor analyses revealed one underlying factor, explaining about 80% of the variance, suggesting that the scale captures a homogeneous adherence construct. The iiPAS was strongly associated with objective measures of patient activity in ICBT (number of logins, number of written characters, and completed modules). Furthermore, mid- and posttreatment ratings of the iiPAS were significantly correlated with treatment outcomes. By contrast, objective measures of patient activity in the Web-based platform did not correlate with treatment outcomes.</p>
+                </sec>
+                <sec sec-type="conclusions">
+                  <title>Conclusions</title>
+                  <p>The iiPAS could be a useful tool to measure adherence in a broad range of internet-delivered behavioral interventions.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>patient compliance</kwd>
+                <kwd>eHealth</kwd>
+                <kwd>measure</kwd>
+                <kwd>internet</kwd>
+                <kwd>cognitive behavioral therapy</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="introduction">
+              <title>Introduction</title>
+              <sec>
+                <title>Background</title>
+                <p>Patient adherence, sometimes also termed compliance, is most broadly defined as “the extent to which the patient’s behavior (in terms of taking medications, following diets, or executing other lifestyle changes) coincides with medical or health advice” [<xref rid="ref1" ref-type="bibr">1</xref>]. Within the field of psychotherapy, adherence is usually conceptualized within the therapeutic tradition or according to the target condition that is being studied [<xref rid="ref2" ref-type="bibr">2</xref>]. Accordingly, adherence is measured in various ways, for example, as qualitative or quantitative aspects of homework compliance [<xref rid="ref3" ref-type="bibr">3</xref>], in-session engagement [<xref rid="ref4" ref-type="bibr">4</xref>], or patient-therapist alliance [<xref rid="ref5" ref-type="bibr">5</xref>]. Absence of patient adherence, on the other hand, is often referred to as resistance or ambivalence [<xref rid="ref6" ref-type="bibr">6</xref>,<xref rid="ref7" ref-type="bibr">7</xref>], and there are various therapeutic strategies that are specifically designed to target such resistance or ambivalence, such as motivational interviewing [<xref rid="ref8" ref-type="bibr">8</xref>].</p>
+                <p>One important aspect of patient adherence is the logical assumption that adherent patients will have better treatment outcomes than nonadherent patients, though the evidence has not always supported this assumption. There is, for example, evidence that adherence to homework assignments in cognitive behavioral therapy (CBT) is associated with better outcomes, with a small to large effect of homework quality and quantity, but with substantial heterogeneity between studies [<xref rid="ref3" ref-type="bibr">3</xref>,<xref rid="ref9" ref-type="bibr">9</xref>]. Similarly, adherence to exposure and response prevention homework has been shown to be a strong predictor of short- and long-term outcome in CBT for obsessive-compulsive disorder (OCD) [<xref rid="ref10" ref-type="bibr">10</xref>,<xref rid="ref11" ref-type="bibr">11</xref>]. However, results from the field of pediatric anxiety have failed to establish a clear relationship between homework adherence and treatment outcome [<xref rid="ref12" ref-type="bibr">12</xref>]. For example, in 1 study, neither the number of attended CBT sessions nor completed homework assignments predicted treatment outcome but a 1-item clinician-rated adherence measure did [<xref rid="ref13" ref-type="bibr">13</xref>]. One study of CBT for anxiety disorders applied a combined measure of adherence, consisting of a weekly clinician rating of homework completion and a rating of engagement in the therapy session. The authors found that a combination of high treatment dose (high session attendance and completed exposure exercises) and high engagement predicted better treatment outcomes [<xref rid="ref14" ref-type="bibr">14</xref>]. Importantly, it has been suggested that the adherence-outcome relationship could be affected by the quality of the adherence measure, and thus, reliable and valid measures are essential as research and clinical tools [<xref rid="ref15" ref-type="bibr">15</xref>].</p>
+              </sec>
+              <sec>
+                <title>Internet-Delivered Interventions and Adherence</title>
+                <p>Internet-delivered behavioral interventions have emerged as an interdisciplinary development of psychotherapy and modern information technology. Internet-delivered behavioral interventions share common features as they mirror face-to-face psychotherapy regarding content and therapeutic techniques but are presented online via a personal login to a website or internet portal. The format usually resembles an online course, with instructive texts, pictures, videos, and written exercises, with the content structured similar to a book with chapters or modules. When therapist contact and feedback are involved, the treatment is referred to as guided or clinician-supported and otherwise as unguided or self-help [<xref rid="ref16" ref-type="bibr">16</xref>]. Internet-delivered CBT (ICBT) has been one of the most prominent formats of this novel branch of interventions, with over 100 randomized controlled trials (RCTs) conducted in adults [<xref rid="ref17" ref-type="bibr">17</xref>] and currently 19 RCTs in children and adolescents [<xref rid="ref18" ref-type="bibr">18</xref>].</p>
+                <p>Adherence may be particularly difficult to measure in internet-delivered behavioral interventions [<xref rid="ref19" ref-type="bibr">19</xref>]. In face-to-face treatment, many of the proposed active treatment components, such as behavioral or cognitive strategies, are conducted in-session together with a clinician. In internet-delivered behavioral interventions, the key therapy components are delivered online and practiced without the physical presence of the clinician. Depending on the intervention, the engagement in the active treatment components of the intervention may have low correlation with the number of completed chapters. For instance, patients may go on practicing their homework assignments without necessarily needing to log into the system periodically. Therefore, the number of completed chapters in internet-delivered behavioral interventions is not comparable with the number of completed sessions in face-to-face interventions and, thus, may not be a reliable measure of treatment adherence. As pointed out by Sieverink et al [<xref rid="ref20" ref-type="bibr">20</xref>], the concept of “intended usage” could be a helpful extension of the traditional definition of adherence. Intended usage is defined as “the extent to which individuals  <italic>should</italic> experience the content (of the intervention) to derive maximum benefit from the intervention, as defined or implied by its creators” [<xref rid="ref21" ref-type="bibr">21</xref>].</p>
+                <p>Thus, defining and measuring the core therapeutic concepts and minimal effective use of those strategies may be a vital aspect of any measure of adherence to internet-delivered interventions. However, less than half of the studies in the field apply such a definition, and only few provide a justifiable definition of minimal required usage [<xref rid="ref20" ref-type="bibr">20</xref>]. Currently, the most prevalent operationalizations of adherence are number of treatment modules completed by patients and number of logins [<xref rid="ref20" ref-type="bibr">20</xref>,<xref rid="ref22" ref-type="bibr">22</xref>]. The relationship between adherence and clinical outcome has thus far been limited by inconsistent reporting of adherence and a lack of agreement on measures [<xref rid="ref18" ref-type="bibr">18</xref>,<xref rid="ref22" ref-type="bibr">22</xref>].</p>
+                <p>In summary, there is an important research gap and a need for reliable and valid measures of patient adherence to internet-delivered interventions. We take the perspective that a useful measure of adherence to internet-delivered behavioral interventions should (1) not only capture the structural aspects of the internet format (such as completed chapters or modules) but also consider the intended usage of its central therapeutic aspects (such as use of behavioral strategies) and (2) include relevant, observable behaviors that represent the patients’ adherence in a way that guides clinically meaningful decisions. Thus, the aim of this project was to construct and validate an adherence measure, evaluate its psychometric properties, and establish whether this new measure correlates better with treatment outcome than other traditional measures of adherence (eg, number of logins and completed chapters).</p>
+              </sec>
+            </sec>
+            <sec sec-type="methods">
+              <title>Methods</title>
+              <sec>
+                <title>Scale Construction</title>
+                <p>A novel, clinician-rated measure called internet intervention Patient Adherence Scale (iiPAS) was constructed in a 4-step process following recommendations from the psychometric literature [<xref rid="ref23" ref-type="bibr">23</xref>].</p>
+                <sec>
+                  <title>Step 1: Definition of Construct and Context</title>
+                  <p>The first author (FL) conceptualized the scale and drafted a first version with the aim to measure patient adherence as one homogeneous construct. To ensure feasibility, usability, and precision, the scale was intended to be a short and time-efficient measure and assess patient behaviors that would be observable by clinicians. The context of the scale was defined as a clinician-rated measure to be used within clinician-supported, internet-delivered behavioral interventions. The advantage of a clinician-rated scale, compared with a self-rated measure, was justified by the ability of the clinician to assess the adherence of the patient relative to the intended, optimal use of the intervention, which was assumed crucial for the reliability of the instrument [<xref rid="ref20" ref-type="bibr">20</xref>]. Building on the available evidence presented in the introduction, the scale should include items that capture structural aspects of internet-delivered interventions, equivalent to number of completed chapters, as well as content-related aspects, equivalent to the patients’ engagement in the therapeutic content of the intervention <italic>.</italic></p>
+                </sec>
+                <sec>
+                  <title>Step 2: Response Format and Initial Item Formulation</title>
+                  <p>To ensure optimal content validity, experienced clinicians and researchers with relevant competence (see “Expert Sample”) were involved in choosing the response format and initial item formulation. The initial draft was circulated among the experts in 2 review rounds and edited iteratively by the first author according to suggestions and comments. The preliminary version of the iiPAS included 5 clinician-rated items rated on a 3-point Likert scale, including anchor labels for the end points of the scale (see description under “Measures”).</p>
+                </sec>
+                <sec>
+                  <title>Step 3: Preliminary Data Collection</title>
+                  <p>The preliminary iiPAS was tested in a small sample (“Patient Sample 1”) to provide basic psychometric information as well as to give clinicians the possibility to test the scale and give feedback regarding usability and applicability.</p>
+                </sec>
+                <sec>
+                  <title>Step 4: Preliminary Examination of Psychometric Properties and Scale Revision</title>
+                  <p>On the basis of additional feedback from step 3, the wording of the items was minimally revised for improved clarity. In addition, the 3-point Likert scale was extended to a 5-point scale to increase response variance. A preliminary psychometric analysis was carried out; results are presented below. For the full psychometric evaluation, the revised iiPAS was then administered to participants in several clinical trials of internet-delivered behavioral interventions (“Patient Sample 2”).</p>
+                </sec>
+              </sec>
+              <sec>
+                <title>Participants</title>
+                <sec>
+                  <title>Expert Sample</title>
+                  <p>The expert sample consisted of 8 experienced researchers and clinicians who had been involved in clinical trials of internet-delivered behavioral interventions (coauthors FL, SV, MJ, MN, PA, KA, TW, and JH) within a Swedish research network called the Child Internet Project or Barninternetprojektet (BiP). The experts were involved in the initial scale development.</p>
+                </sec>
+                <sec>
+                  <title>Patient Sample 1</title>
+                  <p>Initial data were collected from 50 patients, of whom 33 (66%) were children participating in a study of ICBT for pediatric anxiety [<xref rid="ref24" ref-type="bibr">24</xref>], and 17 (34%) were adolescents participating in a study of ICBT for pediatric OCD [<xref rid="ref25" ref-type="bibr">25</xref>]. Main inclusion criteria were a primary diagnosis of separation anxiety disorder, social anxiety disorder, generalized anxiety disorder, panic disorder, or specific phobia according to <italic>Diagnostic and Statistical Manual</italic> of Mental Disorders, 4th edition (DSM-IV) and a clinical severity score above 3 on the Clinician Severity Rating (CSR) [<xref rid="ref26" ref-type="bibr">26</xref>] or a primary diagnosis of OCD with a score of 16 or above on Children’s Yale Brown Compulsive Scale [<xref rid="ref27" ref-type="bibr">27</xref>]. Clinicians scoring the iiPAS were the same licensed clinical psychologists (N=13) who provided online support as a part of the ICBT interventions. For more detailed information, see the original publications of the respective trials [<xref rid="ref24" ref-type="bibr">24</xref>,<xref rid="ref25" ref-type="bibr">25</xref>]. The regional ethical review board in Stockholm, Sweden, approved both studies.</p>
+                </sec>
+                <sec>
+                  <title>Patient Sample 2</title>
+                  <p>Patient sample 2 consisted of 148 children and adolescents with various mental disorders, who together with their primary caretakers participated in different clinical trials. Common inclusion criteria within all trials were (1) age within the age interval for the respective trial (see “Interventions”), (2) internet access, (3) absence of suicidality or another severe condition that required immediate attention or higher priority, and (4) the clinical presentation of a mental disorder that was targeted in the specific trial (tic disorder, social anxiety disorder, generalized anxiety disorder, agoraphobia, panic disorder, specific phobia, separation anxiety disorder, OCD, and nonsuicidal self-injury). All conditions were diagnosed by experienced psychologists using semistructured diagnostic interviews based on DSM-5 criteria [<xref rid="ref28" ref-type="bibr">28</xref>]. The iiPAS was scored by the treating clinicians (N=21), of whom 20 were licensed psychologists and a licensed nurse. For more detailed information, see the original publications of each trial [<xref rid="ref24" ref-type="bibr">24</xref>,<xref rid="ref29" ref-type="bibr">29</xref>-<xref rid="ref32" ref-type="bibr">32</xref>]. The regional ethical review board in Stockholm, Sweden, approved all trials.</p>
+                </sec>
+              </sec>
+              <sec>
+                <title>Interventions</title>
+                <p>All interventions were provided by researchers and clinicians associated to the BiP network, a collaboration between the Karolinska Institutet and the Child and Adolescent Mental Health Service in Stockholm, with a main research focus on development and evaluation of internet-delivered interventions for childhood mental disorders. All interventions in the current evaluation were clinician-guided ICBT interventions that also included parent support. Clinician advice, support, and feedback were given predominantly via written messages within the secure internet platform or via occasional telephone calls. For a short summary of the interventions, see <xref rid="table1" ref-type="table">Table 1</xref>. More detailed descriptions can be found in the original publications [<xref rid="ref29" ref-type="bibr">29</xref>-<xref rid="ref33" ref-type="bibr">33</xref>].</p>
+                <table-wrap id="table1" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Summary of the included internet-delivered cognitive behavior therapy interventions.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="180" span="1"/>
+                    <col width="200" span="1"/>
+                    <col width="200" span="1"/>
+                    <col width="200" span="1"/>
+                    <col width="220" span="1"/>
+                    <thead>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Intervention</td>
+                        <td rowspan="1" colspan="1">Target age (years)</td>
+                        <td rowspan="1" colspan="1">Target condition</td>
+                        <td rowspan="1" colspan="1">Number of modules/weeks</td>
+                        <td rowspan="1" colspan="1">Main features</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">BiP<sup>a</sup> TIC [<xref rid="ref29" ref-type="bibr">29</xref>]</td>
+                        <td rowspan="1" colspan="1">7-17</td>
+                        <td rowspan="1" colspan="1">Tourette syndrome/chronic tic disorder</td>
+                        <td rowspan="1" colspan="1">10/10</td>
+                        <td rowspan="1" colspan="1">Habit reversal training or exposure with response prevention</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">BiP SoFT<sup>c</sup> [<xref rid="ref30" ref-type="bibr">30</xref>]</td>
+                        <td rowspan="1" colspan="1">13-17</td>
+                        <td rowspan="1" colspan="1">Social anxiety disorder</td>
+                        <td rowspan="1" colspan="1">9/12</td>
+                        <td rowspan="1" colspan="1">Exposure training and cognitive strategies</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">BiP OCD<sup>b</sup> [<xref rid="ref25" ref-type="bibr">25</xref>,<xref rid="ref31" ref-type="bibr">31</xref>]</td>
+                        <td rowspan="1" colspan="1">7-17</td>
+                        <td rowspan="1" colspan="1">OCD</td>
+                        <td rowspan="1" colspan="1">12/12</td>
+                        <td rowspan="1" colspan="1">Exposure with response prevention and parental coping strategies</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">BiP Anxiety [<xref rid="ref33" ref-type="bibr">33</xref>]</td>
+                        <td rowspan="1" colspan="1">8-12</td>
+                        <td rowspan="1" colspan="1">Mixed anxiety disorders</td>
+                        <td rowspan="1" colspan="1">12/12</td>
+                        <td rowspan="1" colspan="1">Exposure training and child coping strategies</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">BiP ERITA<sup>d</sup>[<xref rid="ref32" ref-type="bibr">32</xref>]</td>
+                        <td rowspan="1" colspan="1">13-17</td>
+                        <td rowspan="1" colspan="1">Self-harm</td>
+                        <td rowspan="1" colspan="1">11/12</td>
+                        <td rowspan="1" colspan="1">Emotion regulation strategies and adaptive parental behaviors</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="table1fn1">
+                      <p><sup>a</sup>BiP: Barninternetprojektet.</p>
+                    </fn>
+                  </table-wrap-foot>
+                  <table-wrap-foot>
+                    <fn id="table1fn2">
+                      <p><sup>b</sup>OCD: obsessive-compulsive disorder.</p>
+                    </fn>
+                    <fn id="table1fn3">
+                      <p><sup>c</sup>SoFT: Social Fobi Tonåring.</p>
+                    </fn>
+                    <fn id="table1fn4">
+                      <p><sup>d</sup>ERITA: Emotion Regulation Individual Therapy for Adolescent.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec>
+                <title>Procedure</title>
+                <p>The included clinical trials applied similar but not identical procedures. A description of the common aspects of the procedures is provided here; for a detailed description, see the respective trial publications. Participants in patient samples 1 and 2 were recruited via clinician- or self-referrals. Selection of eligible participants included both telephone screenings with a clinician and an in-person assessment with the child or adolescent and at least one caregiver. Fulfillment of diagnostic criteria was established by a clinician (most often a clinical psychologist) using the Mini-International Neuropsychiatric Interview child version (MINI Kid [<xref rid="ref34" ref-type="bibr">34</xref>]) or the Anxiety Disorder Interviews Schedule Child and Parent versions (ADIS C/P [<xref rid="ref26" ref-type="bibr">26</xref>]). Decision about inclusion or exclusion of participants was made after the in-person assessment, followed by treatment allocation.</p>
+                <p>The BiP TIC and BiP Anxiety trials had a randomized controlled design [<xref rid="ref24" ref-type="bibr">24</xref>,<xref rid="ref29" ref-type="bibr">29</xref>]. In BiP TIC, participants were randomized to either habit reversal training or exposure and response prevention. In BiP Anxiety, participants were randomized to either ICBT or an active control condition. The remaining trials had an open, within-group design.</p>
+                <p>The clinical outcome measures were assessed at pre- and posttreatment. Activity data from the use of the internet platform (number of logins, written characters, login time duration, and completed treatment chapters) were automatically collected during the treatments. The iiPAS was administered by the clinicians participating in the trials, on 2 separate occasions: halfway through the treatment (iiPAS-mid) and at posttreatment (iiPAS-post).</p>
+              </sec>
+              <sec>
+                <title>Measures</title>
+                <sec>
+                  <title>Internet Intervention Patient Adherence Scale</title>
+                  <p>The iiPAS is a 5-item, clinician-rated measure of patient adherence to internet-delivered behavioral interventions. The 5 items are rated by treating clinicians and cover 5 central aspects of adherence: the patient’s work pace, engagement, communication with the clinician, motivation for change, and login frequency. Each item is rated on a 0 to 4 Likert scale. Thus, the iiPAS-total score ranges from 0 to 20, with 0 indicating no adherence and 20 perfect adherence. The items are designed to generically suit different types of internet-delivered behavioral interventions. A prerequisite, however, is that the intervention is guided, that is, clinician-supported, as opposed to unguided or entirely self-help. The scale is constructed to be applicable to children and adolescents as well as adults. In the case where caregivers are involved in the patient’s treatment, the iiPAS is primarily intended to evaluate the patient’s adherence to treatment rather than the parent’s or carer’s involvement. See <xref ref-type="supplementary-material" rid="app1">Multimedia Appendices 1</xref> and <xref ref-type="supplementary-material" rid="app2">2</xref> for a full copy of iiPAS in Swedish and English and scoring instructions. For permission requests to use or translate the scale, please contact the corresponding author.</p>
+                </sec>
+                <sec>
+                  <title>Clinical Global Impression-Severity</title>
+                  <p>Clinical Global Impression-Severity (CGI-S [<xref rid="ref35" ref-type="bibr">35</xref>]) is a commonly used clinician-rated measure of global illness severity. Clinical severity is rated on a 7-point Likert scale, ranging from “normal, not ill” to “severely ill.” The CGI-S is validated as a measure of clinical effectiveness within clinical trials as well as within routine clinical practice [<xref rid="ref36" ref-type="bibr">36</xref>].</p>
+                </sec>
+                <sec>
+                  <title>Clinician Severity Rating</title>
+                  <p>CSR is rated in conjunction with the clinician-administered ADIS [<xref rid="ref26" ref-type="bibr">26</xref>], which is a semistructured interview and is considered the gold standard in the assessment of pediatric anxiety disorders. The CSR is a clinician rating of clinical severity between 0 and 8, with 0 indicating absence of symptoms (or no disturbance in functioning and/or disability<bold>)</bold>, 8 maximal severity, and 4 the cut-off for clinical severity (ie, meeting diagnostic criteria for the disorder). ADIS has previously shown excellent interrater reliability [<xref rid="ref37" ref-type="bibr">37</xref>] and test-retest reliability [<xref rid="ref38" ref-type="bibr">38</xref>].</p>
+                </sec>
+                <sec>
+                  <title>Platform Usage Variables</title>
+                  <p>The internet treatment platform that the patients logged in to for accessing treatment material (texts, videos, and exercises) provided user data on number of logins to the platform, duration of logged in time, and number of completed chapters and written characters by the patients in communication and exercises. The number of completed chapters was expressed in percentage relative to total number of chapters because of the different number of chapters in different interventions.</p>
+                </sec>
+              </sec>
+              <sec>
+                <title>Statistical Analyses</title>
+                <sec>
+                  <title>Reliability Analyses</title>
+                  <p>Cronbach alpha was calculated as a measure of internal consistency. An exploratory factor analysis (EFA) was conducted regarding the factor structure of the iiPAS, including the Kaiser-Meyer-Olkin (KMO) measure of sampling adequacy to determine the adequacy of the data for factor analysis as well as a Bartlett Test of Sphericity to determine the factorability of the five items.</p>
+                </sec>
+                <sec>
+                  <title>Validity Analyses</title>
+                  <p>Pearson correlations were used to explore convergent validity, defined as the association of the iiPAS with platform usage variables. In variables where outliers with large leverage were identified, Spearman correlation coefficient was used. The intercorrelations of iiPAS between the halfway treatment time point (iiPAS-mid) and at the end of treatment (iiPAS-post) were calculated. For some calculations, an iiPAS total score was used, which is the sum of iiPAS-mid and iiPAS-post, to obtain a measure of adherence that represents the whole treatment period from start to end of treatment. Regarding criterion validity, the association between iiPAS and symptom severity change from pre- to posttreatment was calculated. Because the available measures, CSR (in the BiP Anxiety group) and CGI-S (in the remaining groups), are similar clinician-rated, 1-item Likert scales, but not identical, the CSR and CGI-S change scores were z-transformed and then combined into a single new variable (“symptom severity change”), which was then further used in the analyses. There were only a few missing values in the dataset (2.7%), and missingness was, therefore, not further handled but listwise excluded from the respective analyses. Analyses were conducted in SPSS Statistics version 24 (IBM Corp) and R (R Core Group [<xref rid="ref39" ref-type="bibr">39</xref>]).</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec sec-type="results">
+              <title>Results</title>
+              <sec>
+                <title>Study 1: Initial Evaluation</title>
+                <p>An initial version of the iiPAS was administered to 50 children and adolescents, aged between 7 and 17 years, receiving ICBT for OCD or anxiety disorders. Preliminary analyses of Cronbach alpha indicated excellent internal consistency (alpha=.93).</p>
+              </sec>
+              <sec>
+                <title>Study 2: Full Psychometric Evaluation</title>
+                <sec>
+                  <title>Sample Characteristics</title>
+                  <p>The majority of the 148 participants were female (n=89, 60%), with a mean age of 12.7 years. <xref rid="table2" ref-type="table">Table 2</xref> displays a detailed description of the characteristics of the participants in each trial.</p>
+                  <p><xref rid="table3" ref-type="table">Table 3</xref> presents descriptive statistics for iiPAS at the 2 time points midtreatment and posttreatment and for the summary value, iiPAS-total, as well as platform usage variables.</p>
+                  <table-wrap id="table2" position="float">
+                    <label>Table 2</label>
+                    <caption>
+                      <p>Sample characteristics (N=148).</p>
+                    </caption>
+                    <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                      <col width="30" span="1"/>
+                      <col width="240" span="1"/>
+                      <col width="150" span="1"/>
+                      <col width="120" span="1"/>
+                      <col width="120" span="1"/>
+                      <col width="120" span="1"/>
+                      <col width="100" span="1"/>
+                      <col width="120" span="1"/>
+                      <thead>
+                        <tr valign="top">
+                          <td colspan="2" rowspan="1">Characteristic</td>
+                          <td rowspan="1" colspan="1">BiP TIC (n=23)</td>
+                          <td rowspan="1" colspan="1">BiP SoFT (n=30)</td>
+                          <td rowspan="1" colspan="1">BiP OCD (n=24)</td>
+                          <td rowspan="1" colspan="1">BiP Anxiety (n=46)</td>
+                          <td rowspan="1" colspan="1">BiP ERITA (n=25)</td>
+                          <td rowspan="1" colspan="1">Total</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr valign="top">
+                          <td colspan="8" rowspan="1">
+                            <bold>Age, years:months</bold>
+                          </td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">
+                            <break/>
+                          </td>
+                          <td rowspan="1" colspan="1">Mean (SD)</td>
+                          <td rowspan="1" colspan="1">12:3 (2.56)</td>
+                          <td rowspan="1" colspan="1">15:0 (1.22)</td>
+                          <td rowspan="1" colspan="1">11:5 (2.75)</td>
+                          <td rowspan="1" colspan="1">9:11 (1.36)</td>
+                          <td rowspan="1" colspan="1">15:9 (1.31)</td>
+                          <td rowspan="1" colspan="1">12:7 (2.94)</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">
+                            <break/>
+                          </td>
+                          <td rowspan="1" colspan="1">Min-max</td>
+                          <td rowspan="1" colspan="1">8-17</td>
+                          <td rowspan="1" colspan="1">13-17</td>
+                          <td rowspan="1" colspan="1">8-17</td>
+                          <td rowspan="1" colspan="1">8-12</td>
+                          <td rowspan="1" colspan="1">13-17</td>
+                          <td rowspan="1" colspan="1">8-17</td>
+                        </tr>
+                        <tr valign="top">
+                          <td colspan="8" rowspan="1">
+                            <bold>Sex,</bold>
+                            <bold>n (%)</bold>
+                          </td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">
+                            <break/>
+                          </td>
+                          <td rowspan="1" colspan="1">Female</td>
+                          <td rowspan="1" colspan="1">8 (35)</td>
+                          <td rowspan="1" colspan="1">25 (83)</td>
+                          <td rowspan="1" colspan="1">14 (58)</td>
+                          <td rowspan="1" colspan="1">23 (50)</td>
+                          <td rowspan="1" colspan="1">19 (76)</td>
+                          <td rowspan="1" colspan="1">89 (60.1)</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">
+                            <break/>
+                          </td>
+                          <td rowspan="1" colspan="1">Male</td>
+                          <td rowspan="1" colspan="1">15 (65)</td>
+                          <td rowspan="1" colspan="1">5 (17)</td>
+                          <td rowspan="1" colspan="1">10 (42)</td>
+                          <td rowspan="1" colspan="1">23 (50)</td>
+                          <td rowspan="1" colspan="1">1 (4)</td>
+                          <td rowspan="1" colspan="1">55 (37.1)</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">
+                            <break/>
+                          </td>
+                          <td rowspan="1" colspan="1">Other/nonbinary sex</td>
+                          <td rowspan="1" colspan="1">N/A<sup>a</sup></td>
+                          <td rowspan="1" colspan="1">N/A</td>
+                          <td rowspan="1" colspan="1">N/A</td>
+                          <td rowspan="1" colspan="1">N/A</td>
+                          <td rowspan="1" colspan="1">5 (20)</td>
+                          <td rowspan="1" colspan="1">4 (2.7)</td>
+                        </tr>
+                        <tr valign="top">
+                          <td colspan="8" rowspan="1">
+                            <bold>Principal diagnosis, n (%)</bold>
+                          </td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">
+                            <break/>
+                          </td>
+                          <td rowspan="1" colspan="1">Tourette syndrome/chronic tic disorder</td>
+                          <td rowspan="1" colspan="1">23 (100)</td>
+                          <td rowspan="1" colspan="1">—<sup>b</sup></td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">23 (15.5)</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">
+                            <break/>
+                          </td>
+                          <td rowspan="1" colspan="1">Social anxiety disorder</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">30 (100)</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">5 (11)</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">35 (23.6)</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">
+                            <break/>
+                          </td>
+                          <td rowspan="1" colspan="1">OCD<sup>c</sup></td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">24 (100)</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">24 (16.2)</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">
+                            <break/>
+                          </td>
+                          <td rowspan="1" colspan="1">Separation anxiety disorder</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">17 (37)</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">17 (11.4)</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">
+                            <break/>
+                          </td>
+                          <td rowspan="1" colspan="1">Generalized anxiety disorder</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">12 (26)</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">12 (8.1)</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">
+                            <break/>
+                          </td>
+                          <td rowspan="1" colspan="1">Specific phobia</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">9 (20)</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">9 (6.0)</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">
+                            <break/>
+                          </td>
+                          <td rowspan="1" colspan="1">Panic disorder</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">3 (7)</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">3 (2.0)</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">
+                            <break/>
+                          </td>
+                          <td rowspan="1" colspan="1">Nonsuicidal self-injury</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">25 (100)</td>
+                          <td rowspan="1" colspan="1">25 (16.8)</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table-wrap-foot>
+                      <fn id="table2fn1">
+                        <p><sup>a</sup>N/A: not applicable.</p>
+                      </fn>
+                      <fn id="table2fn2">
+                        <p><sup>b</sup>No occurrence.</p>
+                      </fn>
+                      <fn id="table2fn3">
+                        <p><sup>c</sup>OCD: obsessive-compulsive disorder.</p>
+                      </fn>
+                    </table-wrap-foot>
+                  </table-wrap>
+                  <table-wrap id="table3" position="float">
+                    <label>Table 3</label>
+                    <caption>
+                      <p>Descriptive statistics for internet intervention Patient Adherence Scale and platform usage variables.</p>
+                    </caption>
+                    <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                      <col width="180" span="1"/>
+                      <col width="140" span="1"/>
+                      <col width="130" span="1"/>
+                      <col width="130" span="1"/>
+                      <col width="140" span="1"/>
+                      <col width="140" span="1"/>
+                      <col width="140" span="1"/>
+                      <thead>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">Variable</td>
+                          <td rowspan="1" colspan="1">Mean (SD)</td>
+                          <td colspan="5" rowspan="1">Total score percentiles</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">
+                            <break/>
+                          </td>
+                          <td rowspan="1" colspan="1">
+                            <break/>
+                          </td>
+                          <td rowspan="1" colspan="1">5th</td>
+                          <td rowspan="1" colspan="1">25th</td>
+                          <td rowspan="1" colspan="1">50th</td>
+                          <td rowspan="1" colspan="1">75th</td>
+                          <td rowspan="1" colspan="1">95th</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">iiPAS<sup>a</sup>-mid</td>
+                          <td rowspan="1" colspan="1">13.43 (4.98)</td>
+                          <td rowspan="1" colspan="1">5</td>
+                          <td rowspan="1" colspan="1">10</td>
+                          <td rowspan="1" colspan="1">15</td>
+                          <td rowspan="1" colspan="1">17</td>
+                          <td rowspan="1" colspan="1">20</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">iiPAS-post</td>
+                          <td rowspan="1" colspan="1">11.27 (6.01)</td>
+                          <td rowspan="1" colspan="1">0</td>
+                          <td rowspan="1" colspan="1">7</td>
+                          <td rowspan="1" colspan="1">12</td>
+                          <td rowspan="1" colspan="1">16</td>
+                          <td rowspan="1" colspan="1">19</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">iiPAS-total</td>
+                          <td rowspan="1" colspan="1">24.74 (10.39)</td>
+                          <td rowspan="1" colspan="1">7</td>
+                          <td rowspan="1" colspan="1">17</td>
+                          <td rowspan="1" colspan="1">26</td>
+                          <td rowspan="1" colspan="1">34</td>
+                          <td rowspan="1" colspan="1">39</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">Number of logins</td>
+                          <td rowspan="1" colspan="1">32 (16.49)</td>
+                          <td rowspan="1" colspan="1">—<sup>b</sup></td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">Logged in time (min)</td>
+                          <td rowspan="1" colspan="1">2277<sup>c</sup> (5673.92)</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">Number of written characters</td>
+                          <td rowspan="1" colspan="1">18,135<sup>d</sup> (50,624.17)</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">Completed chapters (%)</td>
+                          <td rowspan="1" colspan="1">74.4 (25.8)</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table-wrap-foot>
+                      <fn id="table3fn1">
+                        <p><sup>a</sup>iiPAS: internet intervention Patient Adherence Scale.</p>
+                      </fn>
+                      <fn id="table3fn2">
+                        <p><sup>b</sup>Percentiles not calculated.</p>
+                      </fn>
+                      <fn id="table3fn3">
+                        <p><sup>c</sup>Median=762.</p>
+                      </fn>
+                      <fn id="table3fn4">
+                        <p><sup>d</sup>Median=5510.</p>
+                      </fn>
+                    </table-wrap-foot>
+                  </table-wrap>
+                </sec>
+                <sec>
+                  <title>Internal Consistency</title>
+                  <p><xref rid="table4" ref-type="table">Table 4</xref> displays Cronbach alpha for iiPAS-mid and iiPAS-post across the included clinical studies. The internal consistency of the iiPAS was excellent at midtreatment as well as at posttreatment.</p>
+                  <table-wrap id="table4" position="float">
+                    <label>Table 4</label>
+                    <caption>
+                      <p>Cronbach alpha for internet intervention Patient Adherence Scale.</p>
+                    </caption>
+                    <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                      <col width="340" span="1"/>
+                      <col width="340" span="1"/>
+                      <col width="320" span="1"/>
+                      <thead>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">Study</td>
+                          <td rowspan="1" colspan="1">iiPAS<sup>a</sup>-mid</td>
+                          <td rowspan="1" colspan="1">iiPAS-post</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">BiP<sup>b</sup> TIC</td>
+                          <td rowspan="1" colspan="1">.90</td>
+                          <td rowspan="1" colspan="1">.95</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">BiP SoFT<sup>c</sup></td>
+                          <td rowspan="1" colspan="1">.96</td>
+                          <td rowspan="1" colspan="1">.96</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">BiP OCD<sup>d</sup></td>
+                          <td rowspan="1" colspan="1">.91</td>
+                          <td rowspan="1" colspan="1">.92</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">BiP Anxiety</td>
+                          <td rowspan="1" colspan="1">.96</td>
+                          <td rowspan="1" colspan="1">.94</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">BiP ERITA<sup>e</sup></td>
+                          <td rowspan="1" colspan="1">.94</td>
+                          <td rowspan="1" colspan="1">.97</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">All trials combined</td>
+                          <td rowspan="1" colspan="1">.93</td>
+                          <td rowspan="1" colspan="1">.95</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table-wrap-foot>
+                      <fn id="table4fn1">
+                        <p><sup>a</sup>iiPAS: internet intervention Patient Adherence Scale.</p>
+                      </fn>
+                      <fn id="table4fn2">
+                        <p><sup>b</sup>BiP<italic>:</italic> Barninternetprojektet</p>
+                      </fn>
+                      <fn id="table4fn3">
+                        <p><sup>c</sup>SoFT<italic>:</italic> Social Fobi Tonåring</p>
+                      </fn>
+                      <fn id="table4fn4">
+                        <p><sup>d</sup>OCD<italic>:</italic> Obsessive Compulsive Disorder</p>
+                      </fn>
+                      <fn id="table4fn5">
+                        <p><sup>e</sup>ERITA<italic>:</italic> Emotion Regulation Individual Therapy for Adolescents</p>
+                      </fn>
+                    </table-wrap-foot>
+                  </table-wrap>
+                </sec>
+                <sec>
+                  <title>Factor Structure</title>
+                  <p>For iiPAS-mid, a KMO=0.89 and Bartlett Test of Sphericity χ<sup>2</sup><sub>10</sub>=578.5, <italic>P</italic>&lt;.001 indicated factorability. The results of the EFA indicated a single factor with an eigenvalue of 3.97 that explained 79.3% of the variance. For iiPAS-post, KMO was 0.85 and Bartlett Test of Sphericity χ<sup>2</sup><sub>10</sub>=787.0, <italic>P</italic>=.001, again indicating factorability. The EFA resulted in a single factor with an eigenvalue of 4.18 that explained 83.6% of the variance. <xref ref-type="supplementary-material" rid="app3">Multimedia Appendix 3</xref> presents communalities and factor loadings in both EFAs.</p>
+                </sec>
+                <sec>
+                  <title>Convergent Validity</title>
+                  <p>iiPAS-mid, iiPAS-post, and iiPAS-total scores were positively and significantly correlated with platform usage variables (<italic>r</italic>=0.25-0.79), apart from nonsignificant correlations between iiPAS and logged in time. There was also a substantial and significant correlation between iiPAS-mid and iiPAS-post (<italic>r</italic>=0.78). Visual inspection of the scatterplots did not indicate any nonlinear associations. <xref rid="table5" ref-type="table">Table 5</xref> presents convergent validity correlations.</p>
+                </sec>
+                <sec>
+                  <title>Criterion Validity</title>
+                  <p>iiPAS-mid, iiPAS-post, and iiPAS-total scores correlated positively and significantly with the standardized symptom severity change score (<italic>r</italic>=0.17-0.19; <xref rid="table5" ref-type="table">Table 5</xref>). In contrast, number of logins, logged in time, written characters, and percentage of completed chapters were not significantly correlated with symptom severity change. A post hoc item-per-item analysis of the iiPAS-mid items regarding the symptom severity change score revealed a significant correlation with 2 of the 5 items, item 2 (“engagement with exercises”; <italic>r</italic>=0.21, <italic>P</italic>=.01), and item 4 (“motivation for change”; <italic>r</italic>=0.19, <italic>P</italic>=.02).</p>
+                  <table-wrap id="table5" position="float">
+                    <label>Table 5</label>
+                    <caption>
+                      <p>Internet intervention Patient Adherence Scale correlations (<italic>P</italic> values) with platform usage variables and symptom severity change.</p>
+                    </caption>
+                    <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                      <col width="160" span="1"/>
+                      <col width="100" span="1"/>
+                      <col width="90" span="1"/>
+                      <col width="100" span="1"/>
+                      <col width="140" span="1"/>
+                      <col width="120" span="1"/>
+                      <col width="140" span="1"/>
+                      <col width="150" span="1"/>
+                      <thead>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">Measure</td>
+                          <td rowspan="1" colspan="1">iiPAS<sup>a</sup>-mid <break/>(<italic>P</italic> value)</td>
+                          <td rowspan="1" colspan="1">iiPAS-post <break/>(<italic>P</italic> value)</td>
+                          <td rowspan="1" colspan="1">iiPAS-total <break/>(<italic>P</italic> value)</td>
+                          <td rowspan="1" colspan="1">Number of logins <break/>(<italic>P</italic> value)</td>
+                          <td rowspan="1" colspan="1">Logged in time <break/>(<italic>P</italic> value)</td>
+                          <td rowspan="1" colspan="1">Written characters <break/>(<italic>P</italic> value)</td>
+                          <td rowspan="1" colspan="1">Completed chapters <break/>(<italic>P</italic> value)</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">iiPAS-post</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>.78<sup>b</sup> (&lt;.001)</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">—<sup>c</sup></td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">iiPAS-total</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>.93 (&lt;.001)</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">
+                            <italic>.95 (&lt;.001)</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">Number of logins</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>.53 (&lt;.001)</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">
+                            <italic>.57 (&lt;.001)</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">
+                            <italic>.59 (&lt;.001)</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">Logged in time</td>
+                          <td rowspan="1" colspan="1">.15 (.07)</td>
+                          <td rowspan="1" colspan="1">.06 (.47)</td>
+                          <td rowspan="1" colspan="1">.11 (.21)</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>.19 (.03)</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">Written characters</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>.25 (.003)</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">
+                            <italic>.31 (&lt;.001)</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">
+                            <italic>.31 (&lt;.001)</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">
+                            <italic>.36 (&lt;.001)</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">.10 (.24)</td>
+                          <td rowspan="1" colspan="1">—</td>
+                          <td rowspan="1" colspan="1">—</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">Completed chapters</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>.70 (&lt;.001)</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">
+                            <italic>.79 (&lt;.001)</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">
+                            <italic>.79 (&lt;.001)</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">
+                            <italic>.58 (&lt;.001)</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">.09 (.29)</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>.26 (&lt;.001)</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">—</td>
+                        </tr>
+                        <tr valign="top">
+                          <td rowspan="1" colspan="1">Symptom severity change</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>.17 (.04)</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">
+                            <italic>.19 (.02)</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">
+                            <italic>.18 (.04)</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">.07 (.40)</td>
+                          <td rowspan="1" colspan="1">−.04 (.61)</td>
+                          <td rowspan="1" colspan="1">−.01 (.94)</td>
+                          <td rowspan="1" colspan="1">.10 (.25)</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table-wrap-foot>
+                      <fn id="table5fn1">
+                        <p><sup>a</sup>iiPAS: internet intervention Patient Adherence Scale.</p>
+                      </fn>
+                      <fn id="table5fn2">
+                        <p><sup>b</sup>Italicized values indicating significant correlations at the &lt;.05 level.</p>
+                      </fn>
+                      <fn id="table5fn3">
+                        <p><sup>c</sup>Not applicable.</p>
+                      </fn>
+                    </table-wrap-foot>
+                  </table-wrap>
+                </sec>
+              </sec>
+            </sec>
+            <sec sec-type="discussion">
+              <title>Discussion</title>
+              <sec>
+                <title>Principal Findings</title>
+                <p>The objective of this project was to develop and psychometrically evaluate a novel measure of patient adherence in internet-delivered behavioral interventions. The measure was designed in close collaboration with experienced clinicians and researchers within the field and resulted in a clinician-rated, 5-item scale that was tested in a sample of children and adolescents with various behavioral disorders. Descriptive statistics indicated an appropriate range and variability of the iiPAS. The scale demonstrated excellent internal consistency. Consistently, factor analyses showed that the iiPAS measures one underlying factor, in agreement with the theoretical assumption that patient adherence within the context of internet interventions can be understood as one homogeneous construct.</p>
+                <p>Objective behavioral data were available through automatically registered internet platform data of number of logins, logged in time, written characters, and percentage of completed chapters. The iiPAS was significantly associated with those objective variables, apart from logged in time, which strongly suggests that the iiPAS indeed measures key aspects of patient adherence. The iiPAS was also significantly associated with symptom severity changes after treatment. Post hoc analyses revealed that 2 of the 5 items at midtreatment, engagement and motivation to change, were particularly associated with a decrease in symptoms. The midtreatment administration of the iiPAS may be especially interesting from a clinical point of view, as half of the internet treatment is still ahead. For example, a low iiPAS midtreatment score could inform the clinician that the adherence of the patient should be addressed for optimal outcome. The strong correlation of the iiPAS-mid and iiPAS-post suggests that little change in adherence is to be expected in the second half of the treatment. This could mean that other interventions such as motivational interventions might be needed to increase adherence, or that the intervention might need to be intensified or augmented with telephone, video calls or in-person therapist support.</p>
+                <p>Interestingly, none of the objective platform usage variables were associated with symptom severity change at posttreatment. This could possibly indicate that the mere adherence to the formal structure of an internet intervention (logging in, writing text, and completing chapters) is less important for the clinical outcome than actively engaging with the therapeutic content that is presented in the intervention (such as testing new behavioral or cognitive strategies and delivering homework exercises with high quality). The existing literature on patient adherence supports that quality of homework exercise completion is a better predictor of treatment outcome than number of completed exercises [<xref rid="ref10" ref-type="bibr">10</xref>,<xref rid="ref13" ref-type="bibr">13</xref>]. However, studies that are specifically designed to clarify the importance of adhering to the formal structure of a treatment in comparison with adhering to the therapeutic content are needed.</p>
+              </sec>
+              <sec>
+                <title>Limitations and Future Directions</title>
+                <p>Our analyses included diverse conditions, ranging from anxiety disorders, OCD, tics/Tourette’s disorder, and self-harming behaviors. Future studies should aim for an even broader evaluation of the iiPAS in additional diagnoses and symptoms that are currently treated with internet interventions, especially in the behavioral medicine field, where about half of the internet treatment trials are conducted [<xref rid="ref18" ref-type="bibr">18</xref>]. Moreover, although the scale was designed to be used across the life span, the age range of the participants is limited. Further validation work in adult samples is warranted. In addition, the iiPAS was evaluated in clinical trials in Sweden and, albeit, with projects from different research groups, all were located at the same university and used the same internet platform, limiting the generalizability to other contexts. Future studies should evaluate the iiPAS in other languages as well as in different cultural, health care, and academic environments.</p>
+                <p>Importantly, the iiPAS was designed to be useful in a wide range of internet-delivered, clinician-supported internet interventions of different therapeutic schools. However, the interventions in this study are all based on a CBT framework. An important next step would be to test the iiPAS in different internet-delivered behavioral interventions. Regarding the reliability analyses, an important aspect that was omitted in this study was the calculation of interrater reliability. Due to the scoring format of the iiPAS, this would require 2 clinicians for each patient, which was not feasible at the current stage of evaluation but would be important to take into account in future studies.</p>
+                <p>Finally, the sample size in this study was big enough for a global evaluation but too small to conduct detailed separate analyses for each specific condition or age group. A larger sample would allow analysis of the association between patient adherence and clinical outcomes in greater detail with regards to specific patient characteristics such as age, comorbidity, and symptom severity at baseline.</p>
+              </sec>
+              <sec>
+                <title>Conclusions</title>
+                <p>To summarize, the iiPAS demonstrated sound psychometric characteristics in a clinical sample of children and adolescents with a broad range of psychiatric and behavioral problems. The iiPAS appears to be a valuable tool to measure and study different aspects of adherence within the context of clinician-guided, internet-delivered behavioral interventions. Further evaluations within different age groups, types of internet-delivered interventions, and patient populations are warranted.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>The project was funded by the Swedish Research Council for Health, Working Life and Welfare (Forte 2014-4052).</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="con">
+                <p>Authors' Contributions: FL initiated the conception of the iiPAS. FL, SV, MJ, MN, PA, KA, TW, JH, and DMC revised the iiPAS and contributed to the final version of the scale; FL, MJ, SV, TW, MN, JB, HS, PA, KA, and KM contributed to the data collection; FL, KM, and JH conducted the statistical analyses; and FL, KM, and JH drafted the initial manuscript. All authors contributed to the revisions of the manuscript and approved the final version.</p>
+              </fn>
+              <fn fn-type="COI-statement">
+                <p>Conflicts of Interest: None declared.</p>
+              </fn>
+            </fn-group>
+            <app-group>
+              <app>
+                <title>Appendix</title>
+                <supplementary-material content-type="local-data" id="app1">
+                  <label>Multimedia Appendix 1</label>
+                  <p>Internet intervention Patient Adherence Scale—Swedish.</p>
+                  <media xlink:href="jmir_v21i10e13602_app1.pdf" xlink:title="PDF File (Adobe PDF File)69 KB" xlink:type="simple" id="d35e1843" position="anchor"/>
+                </supplementary-material>
+                <supplementary-material content-type="local-data" id="app2">
+                  <label>Multimedia Appendix 2</label>
+                  <p>Internet intervention Patient Adherence Scale—English.</p>
+                  <media xlink:href="jmir_v21i10e13602_app2.pdf" xlink:title="PDF File (Adobe PDF File)161 KB" xlink:type="simple" id="d35e1849" position="anchor"/>
+                </supplementary-material>
+                <supplementary-material content-type="local-data" id="app3">
+                  <label>Multimedia Appendix 3</label>
+                  <p>Supplemental tables—factor analyses: communalities and factor loadings.</p>
+                  <media xlink:href="jmir_v21i10e13602_app3.pdf" xlink:title="PDF File (Adobe PDF File)30 KB" xlink:type="simple" id="d35e1855" position="anchor"/>
+                </supplementary-material>
+              </app>
+            </app-group>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term id="abb1">ADIS</term>
+                  <def>
+                    <p>Anxiety Disorders Interview Schedule</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb2">CBT</term>
+                  <def>
+                    <p>cognitive behavioral therapy</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb3">CGI-S</term>
+                  <def>
+                    <p>Clinical Global Impression-Severity</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb4">CSR</term>
+                  <def>
+                    <p>Clinician Severity Rating</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb5">DSM</term>
+                  <def>
+                    <p>Diagnostic and Statistical Manual of Mental Disorders</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb6">EFA</term>
+                  <def>
+                    <p>exploratory factor analysis</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb7">ICBT</term>
+                  <def>
+                    <p>internet-delivered cognitive behavioral therapy</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb8">iiPAS</term>
+                  <def>
+                    <p>internet intervention Patient Adherence Scale</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb9">KMO</term>
+                  <def>
+                    <p>Kaiser-Meyer-Olkin</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb10">OCD</term>
+                  <def>
+                    <p>obsessive-compulsive disorder</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb11">RCT</term>
+                  <def>
+                    <p>randomized controlled trial</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <ref-list>
+              <ref id="ref1">
+                <label>1</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Haynes</surname>
+                      <given-names>BR</given-names>
+                    </name>
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>WD</given-names>
+                    </name>
+                    <name>
+                      <surname>Sackett</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                  </person-group>
+                  <source>Compliance in Health Care</source>
+                  <year>1979</year>
+                  <publisher-loc>Baltimore, Maryland</publisher-loc>
+                  <publisher-name>Johns Hopkins University Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref2">
+                <label>2</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nock</surname>
+                      <given-names>MK</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferriter</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Parent management of attendance and adherence in child and adolescent therapy: a conceptual and empirical review</article-title>
+                  <source>Clin Child Fam Psychol Rev</source>
+                  <year>2005</year>
+                  <month>6</month>
+                  <volume>8</volume>
+                  <issue>2</issue>
+                  <fpage>149</fpage>
+                  <lpage>66</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10567-005-4753-0</pub-id>
+                  <pub-id pub-id-type="medline">15984084</pub-id>
+                  <pub-id pub-id-type="pmid">15984084</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref3">
+                <label>3</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mausbach</surname>
+                      <given-names>BT</given-names>
+                    </name>
+                    <name>
+                      <surname>Moore</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Roesch</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Cardenas</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Patterson</surname>
+                      <given-names>TL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The relationship between homework compliance and therapy outcomes: an updated meta-analysis</article-title>
+                  <source>Cognit Ther Res</source>
+                  <year>2010</year>
+                  <month>10</month>
+                  <volume>34</volume>
+                  <issue>5</issue>
+                  <fpage>429</fpage>
+                  <lpage>38</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/20930925"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1007/s10608-010-9297-z</pub-id>
+                  <pub-id pub-id-type="medline">20930925</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC2939342</pub-id>-->
+                </element-citation>
+              </ref>
+              <ref id="ref4">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jungbluth</surname>
+                      <given-names>NJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Shirk</surname>
+                      <given-names>SR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Therapist strategies for building involvement in cognitive-behavioral therapy for adolescent depression</article-title>
+                  <source>J Consult Clin Psychol</source>
+                  <year>2009</year>
+                  <month>12</month>
+                  <volume>77</volume>
+                  <issue>6</issue>
+                  <fpage>1179</fpage>
+                  <lpage>84</lpage>
+                  <pub-id pub-id-type="doi">10.1037/a0017325</pub-id>
+                  <pub-id pub-id-type="medline">19968393</pub-id>
+                  <!--<pub-id pub-id-type="pii">2009-22711-016</pub-id>-->
+                  <pub-id pub-id-type="pmid">19968393</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>DJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Garske</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Davis</surname>
+                      <given-names>MK</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Relation of the therapeutic alliance with outcome and other variables: a meta-analytic review</article-title>
+                  <source>J Consult Clin Psychol</source>
+                  <year>2000</year>
+                  <month>6</month>
+                  <volume>68</volume>
+                  <issue>3</issue>
+                  <fpage>438</fpage>
+                  <lpage>50</lpage>
+                  <pub-id pub-id-type="doi">10.1037/0022-006X.68.3.438</pub-id>
+                  <pub-id pub-id-type="medline">10883561</pub-id>
+                  <pub-id pub-id-type="pmid">10883561</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beutler</surname>
+                      <given-names>LE</given-names>
+                    </name>
+                    <name>
+                      <surname>Harwood</surname>
+                      <given-names>TM</given-names>
+                    </name>
+                    <name>
+                      <surname>Michelson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Song</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Holman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Resistance/reactance level</article-title>
+                  <source>J Clin Psychol</source>
+                  <year>2011</year>
+                  <month>2</month>
+                  <volume>67</volume>
+                  <issue>2</issue>
+                  <fpage>133</fpage>
+                  <lpage>42</lpage>
+                  <pub-id pub-id-type="doi">10.1002/jclp.20753</pub-id>
+                  <pub-id pub-id-type="medline">21108314</pub-id>
+                  <pub-id pub-id-type="pmid">21108314</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Button</surname>
+                      <given-names>ML</given-names>
+                    </name>
+                    <name>
+                      <surname>Westra</surname>
+                      <given-names>HA</given-names>
+                    </name>
+                    <name>
+                      <surname>Hara</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Aviram</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Disentangling the impact of resistance and ambivalence on therapy outcomes in cognitive behavioural therapy for generalized anxiety disorder</article-title>
+                  <source>Cogn Behav Ther</source>
+                  <year>2015</year>
+                  <volume>44</volume>
+                  <issue>1</issue>
+                  <fpage>44</fpage>
+                  <lpage>53</lpage>
+                  <pub-id pub-id-type="doi">10.1080/16506073.2014.959038</pub-id>
+                  <pub-id pub-id-type="medline">25277366</pub-id>
+                  <pub-id pub-id-type="pmid">25277366</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rubak</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Sandbaek</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Lauritzen</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Christensen</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Motivational interviewing: a systematic review and meta-analysis</article-title>
+                  <source>Br J Gen Pract</source>
+                  <year>2005</year>
+                  <month>4</month>
+                  <volume>55</volume>
+                  <issue>513</issue>
+                  <fpage>305</fpage>
+                  <lpage>12</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://bjgp.org/cgi/pmidlookup?view=long&amp;pmid=15826439"/>
+                  </comment>
+                  <pub-id pub-id-type="medline">15826439</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC1463134</pub-id>-->
+                  <pub-id pub-id-type="pmid">15826439</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kazantzis</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Whittington</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Zelencich</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Kyrios</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Norton</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Hofmann</surname>
+                      <given-names>SG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Quantity and quality of homework compliance: a meta-analysis of relations with outcome in cognitive behavior therapy</article-title>
+                  <source>Behav Ther</source>
+                  <year>2016</year>
+                  <month>9</month>
+                  <volume>47</volume>
+                  <issue>5</issue>
+                  <fpage>755</fpage>
+                  <lpage>72</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.beth.2016.05.002</pub-id>
+                  <pub-id pub-id-type="medline">27816086</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0005-7894(16)30029-6</pub-id>-->
+                  <pub-id pub-id-type="pmid">27816086</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Simpson</surname>
+                      <given-names>HB</given-names>
+                    </name>
+                    <name>
+                      <surname>Maher</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Bao</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Foa</surname>
+                      <given-names>EB</given-names>
+                    </name>
+                    <name>
+                      <surname>Franklin</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Patient adherence predicts outcome from cognitive behavioral therapy in obsessive-compulsive disorder</article-title>
+                  <source>J Consult Clin Psychol</source>
+                  <year>2011</year>
+                  <month>4</month>
+                  <volume>79</volume>
+                  <issue>2</issue>
+                  <fpage>247</fpage>
+                  <lpage>52</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/21355639"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1037/a0022659</pub-id>
+                  <pub-id pub-id-type="medline">21355639</pub-id>
+                  <!--<pub-id pub-id-type="pii">2011-04112-001</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC3891521</pub-id>-->
+                  <pub-id pub-id-type="pmid">21355639</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Simpson</surname>
+                      <given-names>HB</given-names>
+                    </name>
+                    <name>
+                      <surname>Marcus</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Zuckoff</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Franklin</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Foa</surname>
+                      <given-names>EB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Patient adherence to cognitive-behavioral therapy predicts long-term outcome in obsessive-compulsive disorder</article-title>
+                  <source>J Clin Psychiatry</source>
+                  <year>2012</year>
+                  <month>9</month>
+                  <volume>73</volume>
+                  <issue>9</issue>
+                  <fpage>1265</fpage>
+                  <lpage>6</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/23059155"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.4088/JCP.12l07879</pub-id>
+                  <pub-id pub-id-type="medline">23059155</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC3951095</pub-id>-->
+                  <pub-id pub-id-type="pmid">23059155</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hughes</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Kendall</surname>
+                      <given-names>PC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prediction of cognitive behavior treatment outcome for children with anxiety disorders: therapeutic relationship and homework compliance</article-title>
+                  <source>Behav Cogn Psychother</source>
+                  <year>2007</year>
+                  <month>5</month>
+                  <day>25</day>
+                  <volume>35</volume>
+                  <issue>4</issue>
+                  <fpage>487</fpage>
+                  <lpage>94</lpage>
+                  <pub-id pub-id-type="doi">10.1017/s1352465807003761</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref13">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Zehgeer</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Ginsburg</surname>
+                      <given-names>GS</given-names>
+                    </name>
+                    <name>
+                      <surname>McCracken</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Keeton</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Kendall</surname>
+                      <given-names>PC</given-names>
+                    </name>
+                    <name>
+                      <surname>Birmaher</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Sakolsky</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Walkup</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Peris</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Albano</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>Compton</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Child and adolescent adherence with cognitive behavioral therapy for anxiety: predictors and associations with outcomes</article-title>
+                  <source>J Clin Child Adolesc Psychol</source>
+                  <year>2019</year>
+                  <volume>48</volume>
+                  <issue>Sup 1</issue>
+                  <fpage>S215</fpage>
+                  <lpage>26</lpage>
+                  <pub-id pub-id-type="doi">10.1080/15374416.2017.1310046</pub-id>
+                  <pub-id pub-id-type="medline">28448176</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC6541406</pub-id>-->
+                  <pub-id pub-id-type="pmid">28448176</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref14">
+                <label>14</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Glenn</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Golinelli</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Rose</surname>
+                      <given-names>RD</given-names>
+                    </name>
+                    <name>
+                      <surname>Roy-Byrne</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Stein</surname>
+                      <given-names>MB</given-names>
+                    </name>
+                    <name>
+                      <surname>Sullivan</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Bystritksy</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Sherbourne</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Craske</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Who gets the most out of cognitive behavioral therapy for anxiety disorders? The role of treatment dose and patient engagement</article-title>
+                  <source>J Consult Clin Psychol</source>
+                  <year>2013</year>
+                  <month>8</month>
+                  <volume>81</volume>
+                  <issue>4</issue>
+                  <fpage>639</fpage>
+                  <lpage>49</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/23750465"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1037/a0033403</pub-id>
+                  <pub-id pub-id-type="medline">23750465</pub-id>
+                  <!--<pub-id pub-id-type="pii">2013-20193-001</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC3990403</pub-id>-->
+                  <pub-id pub-id-type="pmid">23750465</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref15">
+                <label>15</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>DiMatteo</surname>
+                      <given-names>MR</given-names>
+                    </name>
+                    <name>
+                      <surname>Giordani</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Lepper</surname>
+                      <given-names>HS</given-names>
+                    </name>
+                    <name>
+                      <surname>Croghan</surname>
+                      <given-names>TW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Patient adherence and medical treatment outcomes: a meta-analysis</article-title>
+                  <source>Med Care</source>
+                  <year>2002</year>
+                  <month>9</month>
+                  <volume>40</volume>
+                  <issue>9</issue>
+                  <fpage>794</fpage>
+                  <lpage>811</lpage>
+                  <pub-id pub-id-type="doi">10.1097/01.MLR.0000024612.61915.2D</pub-id>
+                  <pub-id pub-id-type="medline">12218770</pub-id>
+                  <pub-id pub-id-type="pmid">12218770</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref16">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using the internet to provide cognitive behaviour therapy</article-title>
+                  <source>Behav Res Ther</source>
+                  <year>2009</year>
+                  <month>3</month>
+                  <volume>47</volume>
+                  <issue>3</issue>
+                  <fpage>175</fpage>
+                  <lpage>80</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.brat.2009.01.010</pub-id>
+                  <pub-id pub-id-type="medline">19230862</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0005-7967(09)00029-1</pub-id>-->
+                  <pub-id pub-id-type="pmid">19230862</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref17">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hedman</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Lindefors</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cognitive behavior therapy via the internet: a systematic review of applications, clinical efficacy and cost-effectiveness</article-title>
+                  <source>Expert Rev Pharmacoecon Outcomes Res</source>
+                  <year>2012</year>
+                  <month>12</month>
+                  <volume>12</volume>
+                  <issue>6</issue>
+                  <fpage>745</fpage>
+                  <lpage>64</lpage>
+                  <pub-id pub-id-type="doi">10.1586/erp.12.67</pub-id>
+                  <pub-id pub-id-type="medline">23252357</pub-id>
+                  <pub-id pub-id-type="pmid">23252357</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref18">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vigerland</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Lenhard</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Bonnert</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Lalouni</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Hedman</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ahlen</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Olén</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Serlachius</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Internet-delivered cognitive behavior therapy for children and adolescents: a systematic review and meta-analysis</article-title>
+                  <source>Clin Psychol Rev</source>
+                  <year>2016</year>
+                  <month>12</month>
+                  <volume>50</volume>
+                  <fpage>1</fpage>
+                  <lpage>10</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://linkinghub.elsevier.com/retrieve/pii/S0272-7358(15)30090-8"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.cpr.2016.09.005</pub-id>
+                  <pub-id pub-id-type="medline">27668988</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0272-7358(15)30090-8</pub-id>-->
+                  <pub-id pub-id-type="pmid">27668988</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref19">
+                <label>19</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Eysenbach</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The law of attrition</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2005</year>
+                  <month>3</month>
+                  <day>31</day>
+                  <volume>7</volume>
+                  <issue>1</issue>
+                  <fpage>e11</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/2005/1/e11/"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/jmir.7.1.e11</pub-id>
+                  <pub-id pub-id-type="medline">15829473</pub-id>
+                  <!--<pub-id pub-id-type="pii">v7e11</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC1550631</pub-id>-->
+                  <pub-id pub-id-type="pmid">15829473</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref20">
+                <label>20</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sieverink</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Kelders</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>van Gemert-Pijnen</surname>
+                      <given-names>JE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Clarifying the concept of adherence to ehealth technology: systematic review on when usage becomes adherence</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2017</year>
+                  <month>12</month>
+                  <day>6</day>
+                  <volume>19</volume>
+                  <issue>12</issue>
+                  <fpage>e402</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/2017/12/e402/"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/jmir.8578</pub-id>
+                  <pub-id pub-id-type="medline">29212630</pub-id>
+                  <!--<pub-id pub-id-type="pii">v19i12e402</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC5738543</pub-id>-->
+                  <pub-id pub-id-type="pmid">29212630</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref21">
+                <label>21</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kelders</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Kok</surname>
+                      <given-names>RN</given-names>
+                    </name>
+                    <name>
+                      <surname>Ossebaard</surname>
+                      <given-names>HC</given-names>
+                    </name>
+                    <name>
+                      <surname>van Gemert-Pijnen</surname>
+                      <given-names>JE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Persuasive system design does matter: a systematic review of adherence to web-based interventions</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2012</year>
+                  <month>11</month>
+                  <day>14</day>
+                  <volume>14</volume>
+                  <issue>6</issue>
+                  <fpage>e152</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/2012/6/e152/"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/jmir.2104</pub-id>
+                  <pub-id pub-id-type="medline">23151820</pub-id>
+                  <!--<pub-id pub-id-type="pii">v14i6e152</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC3510730</pub-id>-->
+                  <pub-id pub-id-type="pmid">23151820</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref22">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Donkin</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Christensen</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Naismith</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                    <name>
+                      <surname>Neal</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Hickie</surname>
+                      <given-names>IB</given-names>
+                    </name>
+                    <name>
+                      <surname>Glozier</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A systematic review of the impact of adherence on the effectiveness of e-therapies</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2011</year>
+                  <month>8</month>
+                  <day>5</day>
+                  <volume>13</volume>
+                  <issue>3</issue>
+                  <fpage>e52</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/2011/3/e52/"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/jmir.1772</pub-id>
+                  <pub-id pub-id-type="medline">21821503</pub-id>
+                  <!--<pub-id pub-id-type="pii">v13i3e52</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC3222162</pub-id>-->
+                  <pub-id pub-id-type="pmid">21821503</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref23">
+                <label>23</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Furr</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                  </person-group>
+                  <source>Scale Construction and Psychometrics for Social and Personality Psychology</source>
+                  <year>2011</year>
+                  <publisher-loc>London, UK</publisher-loc>
+                  <publisher-name>Sage Publications</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref24">
+                <label>24</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jolstedt</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Wahlund</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Lenhard</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Mataix-Cols</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Nord</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Öst</surname>
+                      <given-names>LG</given-names>
+                    </name>
+                    <name>
+                      <surname>Högström</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Serlachius</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Vigerland</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Efficacy and cost-effectiveness of therapist-guided internet cognitive behavioural therapy for paediatric anxiety disorders: a single-centre, single-blind, randomised controlled trial</article-title>
+                  <source>Lancet Child Adolesc Health</source>
+                  <year>2018</year>
+                  <month>11</month>
+                  <volume>2</volume>
+                  <issue>11</issue>
+                  <fpage>792</fpage>
+                  <lpage>801</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S2352-4642(18)30275-X</pub-id>
+                  <pub-id pub-id-type="medline">30241993</pub-id>
+                  <!--<pub-id pub-id-type="pii">S2352-4642(18)30275-X</pub-id>-->
+                  <pub-id pub-id-type="pmid">30241993</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref25">
+                <label>25</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lenhard</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Mataix-Cols</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Rück</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Vigerland</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Högström</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Hillborg</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Brander</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljungström</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Serlachius</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Therapist-guided, internet-delivered cognitive-behavioral therapy for adolescents with obsessive-compulsive disorder: a randomized controlled trial</article-title>
+                  <source>J Am Acad Child Adolesc Psychiatry</source>
+                  <year>2017</year>
+                  <month>1</month>
+                  <volume>56</volume>
+                  <issue>1</issue>
+                  <fpage>10</fpage>
+                  <lpage>9.e2</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://linkinghub.elsevier.com/retrieve/pii/S0890-8567(16)31857-3"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.jaac.2016.09.515</pub-id>
+                  <pub-id pub-id-type="medline">27993223</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0890-8567(16)31857-3</pub-id>-->
+                  <pub-id pub-id-type="pmid">27993223</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref26">
+                <label>26</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Silverman</surname>
+                      <given-names>WK</given-names>
+                    </name>
+                    <name>
+                      <surname>Albano</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                  </person-group>
+                  <source>Clinical Manual: Anxiety Disorders Interview Schedule for DSM-IV (Child and Parent Versions)</source>
+                  <year>1996</year>
+                  <publisher-loc>New York</publisher-loc>
+                  <publisher-name>Oxford Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref27">
+                <label>27</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Scahill</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Riddle</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>McSwiggin-Hardin</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Ort</surname>
+                      <given-names>SI</given-names>
+                    </name>
+                    <name>
+                      <surname>King</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                    <name>
+                      <surname>Goodman</surname>
+                      <given-names>WK</given-names>
+                    </name>
+                    <name>
+                      <surname>Cicchetti</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Leckman</surname>
+                      <given-names>JF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Children's Yale-brown obsessive compulsive scale: reliability and validity</article-title>
+                  <source>J Am Acad Child Adolesc Psychiatry</source>
+                  <year>1997</year>
+                  <month>6</month>
+                  <volume>36</volume>
+                  <issue>6</issue>
+                  <fpage>844</fpage>
+                  <lpage>52</lpage>
+                  <pub-id pub-id-type="doi">10.1097/00004583-199706000-00023</pub-id>
+                  <pub-id pub-id-type="medline">9183141</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0890-8567(09)66512-6</pub-id>-->
+                  <pub-id pub-id-type="pmid">9183141</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref28">
+                <label>28</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>American Psychiatric Association</collab>
+                  </person-group>
+                  <source>Diagnostic and Statistical Manual of Mental Disorders: DSM-5. Fifth Edition</source>
+                  <year>2013</year>
+                  <publisher-loc>Arlington, VA</publisher-loc>
+                  <publisher-name>American Psychiatric Publishing</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref29">
+                <label>29</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Andrén</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Aspvall</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>de la Cruz</surname>
+                      <given-names>LF</given-names>
+                    </name>
+                    <name>
+                      <surname>Wiktor</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Romano</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Murphy</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Isomura</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Serlachius</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Mataix-Cols</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Therapist-guided and parent-guided internet-delivered behaviour therapy for paediatric Tourette's disorder: a pilot randomised controlled trial with long-term follow-up</article-title>
+                  <source>BMJ Open</source>
+                  <year>2019</year>
+                  <month>2</month>
+                  <day>15</day>
+                  <volume>9</volume>
+                  <issue>2</issue>
+                  <fpage>e024685</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://bmjopen.bmj.com/cgi/pmidlookup?view=long&amp;pmid=30772854"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1136/bmjopen-2018-024685</pub-id>
+                  <pub-id pub-id-type="medline">30772854</pub-id>
+                  <!--<pub-id pub-id-type="pii">bmjopen-2018-024685</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC6398666</pub-id>-->
+                </element-citation>
+              </ref>
+              <ref id="ref30">
+                <label>30</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nordh</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Vigerland</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Öst</surname>
+                      <given-names>LG</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Mataix-Cols</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Serlachius</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Högström</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Therapist-guided internet-delivered cognitive-behavioural therapy supplemented with group exposure sessions for adolescents with social anxiety disorder: a feasibility trial</article-title>
+                  <source>BMJ Open</source>
+                  <year>2017</year>
+                  <month>12</month>
+                  <day>14</day>
+                  <volume>7</volume>
+                  <issue>12</issue>
+                  <fpage>e018345</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://bmjopen.bmj.com/cgi/pmidlookup?view=long&amp;pmid=29247101"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1136/bmjopen-2017-018345</pub-id>
+                  <pub-id pub-id-type="medline">29247101</pub-id>
+                  <!--<pub-id pub-id-type="pii">bmjopen-2017-018345</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC5735402</pub-id>-->
+                </element-citation>
+              </ref>
+              <ref id="ref31">
+                <label>31</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Aspvall</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Andrén</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Lenhard</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Mataix-Cols</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Serlachius</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Internet-delivered cognitive behavioural therapy for young children with obsessive-compulsive disorder: development and initial evaluation of the BIP OCD junior programme</article-title>
+                  <source>BJPsych Open</source>
+                  <year>2018</year>
+                  <month>5</month>
+                  <volume>4</volume>
+                  <issue>3</issue>
+                  <fpage>106</fpage>
+                  <lpage>12</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.cambridge.org/core/product/identifier/S2056472418000108/type/journal_article"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1192/bjo.2018.10</pub-id>
+                  <pub-id pub-id-type="medline">29971153</pub-id>
+                  <!--<pub-id pub-id-type="pii">S2056472418000108</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC6020306</pub-id>-->
+                  <pub-id pub-id-type="pmid">29971153</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref32">
+                <label>32</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bjureberg</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Sahlin</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Hedman-Lagerlöf</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Gratz</surname>
+                      <given-names>KL</given-names>
+                    </name>
+                    <name>
+                      <surname>Tull</surname>
+                      <given-names>MT</given-names>
+                    </name>
+                    <name>
+                      <surname>Jokinen</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Hellner</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Extending research on emotion regulation individual therapy for adolescents (ERITA) with nonsuicidal self-injury disorder: open pilot trial and mediation analysis of a novel online version</article-title>
+                  <source>BMC Psychiatry</source>
+                  <year>2018</year>
+                  <month>10</month>
+                  <day>11</day>
+                  <volume>18</volume>
+                  <issue>1</issue>
+                  <fpage>326</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-018-1885-6"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1186/s12888-018-1885-6</pub-id>
+                  <pub-id pub-id-type="medline">30305103</pub-id>
+                  <!--<pub-id pub-id-type="pii">10.1186/s12888-018-1885-6</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC6180600</pub-id>-->
+                  <pub-id pub-id-type="pmid">30305103</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref33">
+                <label>33</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vigerland</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Thulin</surname>
+                      <given-names>U</given-names>
+                    </name>
+                    <name>
+                      <surname>Öst</surname>
+                      <given-names>LG</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Serlachius</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Internet-delivered cognitive behavioural therapy for children with anxiety disorders: a randomised controlled trial</article-title>
+                  <source>Behav Res Ther</source>
+                  <year>2016</year>
+                  <month>1</month>
+                  <volume>76</volume>
+                  <fpage>47</fpage>
+                  <lpage>56</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://linkinghub.elsevier.com/retrieve/pii/S0005-7967(15)30055-3"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.brat.2015.11.006</pub-id>
+                  <pub-id pub-id-type="medline">26649465</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0005-7967(15)30055-3</pub-id>-->
+                  <pub-id pub-id-type="pmid">26649465</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref34">
+                <label>34</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sheehan</surname>
+                      <given-names>DV</given-names>
+                    </name>
+                    <name>
+                      <surname>Sheehan</surname>
+                      <given-names>KH</given-names>
+                    </name>
+                    <name>
+                      <surname>Shytle</surname>
+                      <given-names>RD</given-names>
+                    </name>
+                    <name>
+                      <surname>Janavs</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Bannon</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Rogers</surname>
+                      <given-names>JE</given-names>
+                    </name>
+                    <name>
+                      <surname>Milo</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Stock</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilkinson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Reliability and validity of the Mini International Neuropsychiatric Interview for Children and Adolescents (MINI-KID)</article-title>
+                  <source>J Clin Psychiatry</source>
+                  <year>2010</year>
+                  <month>3</month>
+                  <volume>71</volume>
+                  <issue>3</issue>
+                  <fpage>313</fpage>
+                  <lpage>26</lpage>
+                  <pub-id pub-id-type="doi">10.4088/JCP.09m05305whi</pub-id>
+                  <pub-id pub-id-type="medline">20331933</pub-id>
+                  <pub-id pub-id-type="pmid">20331933</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref35">
+                <label>35</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Guy</surname>
+                      <given-names>W</given-names>
+                    </name>
+                  </person-group>
+                  <source>Assessment Manual for Psychopharmacology</source>
+                  <year>1976</year>
+                  <publisher-loc>Washington, DC</publisher-loc>
+                  <publisher-name>US Government Printing Office</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref36">
+                <label>36</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Berk</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Ng</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Dodd</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Callaly</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Campbell</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Bernardo</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Trauer</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The validity of the CGI severity and improvement scales as measures of clinical effectiveness suitable for routine clinical use</article-title>
+                  <source>J Eval Clin Pract</source>
+                  <year>2008</year>
+                  <month>12</month>
+                  <volume>14</volume>
+                  <issue>6</issue>
+                  <fpage>979</fpage>
+                  <lpage>83</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1365-2753.2007.00921.x</pub-id>
+                  <pub-id pub-id-type="medline">18462279</pub-id>
+                  <!--<pub-id pub-id-type="pii">JEP921</pub-id>-->
+                  <pub-id pub-id-type="pmid">18462279</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref37">
+                <label>37</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ost</surname>
+                      <given-names>LG</given-names>
+                    </name>
+                    <name>
+                      <surname>Svensson</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Hellström</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Lindwall</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>One-session treatment of specific phobias in youths: a randomized clinical trial</article-title>
+                  <source>J Consult Clin Psychol</source>
+                  <year>2001</year>
+                  <month>10</month>
+                  <volume>69</volume>
+                  <issue>5</issue>
+                  <fpage>814</fpage>
+                  <lpage>24</lpage>
+                  <pub-id pub-id-type="doi">10.1037/a0015158</pub-id>
+                  <pub-id pub-id-type="medline">11680558</pub-id>
+                  <pub-id pub-id-type="pmid">11680558</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref38">
+                <label>38</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Silverman</surname>
+                      <given-names>WK</given-names>
+                    </name>
+                    <name>
+                      <surname>Saavedra</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>Pina</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Test-retest reliability of anxiety symptoms and diagnoses with the anxiety disorders interview schedule for DSM-IV: child and parent versions</article-title>
+                  <source>J Am Acad Child Adolesc Psychiatry</source>
+                  <year>2001</year>
+                  <month>8</month>
+                  <volume>40</volume>
+                  <issue>8</issue>
+                  <fpage>937</fpage>
+                  <lpage>44</lpage>
+                  <pub-id pub-id-type="doi">10.1097/00004583-200108000-00016</pub-id>
+                  <pub-id pub-id-type="medline">11501694</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0890-8567(09)60342-7</pub-id>-->
+                  <pub-id pub-id-type="pmid">11501694</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref39">
+                <label>39</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>R Core Team</collab>
+                  </person-group>
+                  <source>R: A Language and Environment for Statistical Computing</source>
+                  <year>2017</year>
+                  <publisher-loc>Vienna, Austria</publisher-loc>
+                  <publisher-name>R Foundation for Statistical Computing</publisher-name>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

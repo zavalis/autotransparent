@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:01:24Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8827486" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8827486</identifier>
+        <datestamp>2022-02-10</datestamp>
+        <setSpec>ploscomp</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">PLoS Comput Biol</journal-id>
+              <journal-id journal-id-type="iso-abbrev">PLoS Comput Biol</journal-id>
+              <journal-id journal-id-type="publisher-id">plos</journal-id>
+              <journal-title-group>
+                <journal-title>PLoS Computational Biology</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1553-734X</issn>
+              <issn pub-type="epub">1553-7358</issn>
+              <publisher>
+                <publisher-name>Public Library of Science</publisher-name>
+                <publisher-loc>San Francisco, CA USA</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8827486</article-id>
+              <article-id pub-id-type="pmcid">PMC8827486</article-id>
+              <article-id pub-id-type="pmc-uid">8827486</article-id>
+              <article-id pub-id-type="pmid">35089915</article-id>
+              <article-id pub-id-type="pmid">35089915</article-id>
+              <article-id pub-id-type="doi">10.1371/journal.pcbi.1009827</article-id>
+              <article-id pub-id-type="publisher-id">PCOMPBIOL-D-21-01140</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Physical Sciences</subject>
+                  <subj-group>
+                    <subject>Physics</subject>
+                    <subj-group>
+                      <subject>Waves</subject>
+                      <subj-group>
+                        <subject>Traveling Waves</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Neuroscience</subject>
+                    <subj-group>
+                      <subject>Cognitive Science</subject>
+                      <subj-group>
+                        <subject>Cognitive Neuroscience</subject>
+                        <subj-group>
+                          <subject>Working Memory</subject>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Neuroscience</subject>
+                    <subj-group>
+                      <subject>Cognitive Neuroscience</subject>
+                      <subj-group>
+                        <subject>Working Memory</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Neuroscience</subject>
+                    <subj-group>
+                      <subject>Cognitive Science</subject>
+                      <subj-group>
+                        <subject>Cognition</subject>
+                        <subj-group>
+                          <subject>Memory</subject>
+                          <subj-group>
+                            <subject>Working Memory</subject>
+                          </subj-group>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Neuroscience</subject>
+                    <subj-group>
+                      <subject>Learning and Memory</subject>
+                      <subj-group>
+                        <subject>Memory</subject>
+                        <subj-group>
+                          <subject>Working Memory</subject>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Anatomy</subject>
+                    <subj-group>
+                      <subject>Brain</subject>
+                      <subj-group>
+                        <subject>Prefrontal Cortex</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Medicine and Health Sciences</subject>
+                  <subj-group>
+                    <subject>Anatomy</subject>
+                    <subj-group>
+                      <subject>Brain</subject>
+                      <subj-group>
+                        <subject>Prefrontal Cortex</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Anatomy</subject>
+                    <subj-group>
+                      <subject>Brain</subject>
+                      <subj-group>
+                        <subject>Cerebral Hemispheres</subject>
+                        <subj-group>
+                          <subject>Left Hemisphere</subject>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Medicine and Health Sciences</subject>
+                  <subj-group>
+                    <subject>Anatomy</subject>
+                    <subj-group>
+                      <subject>Brain</subject>
+                      <subj-group>
+                        <subject>Cerebral Hemispheres</subject>
+                        <subj-group>
+                          <subject>Left Hemisphere</subject>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Anatomy</subject>
+                    <subj-group>
+                      <subject>Brain</subject>
+                      <subj-group>
+                        <subject>Cerebral Hemispheres</subject>
+                        <subj-group>
+                          <subject>Right Hemisphere</subject>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Medicine and Health Sciences</subject>
+                  <subj-group>
+                    <subject>Anatomy</subject>
+                    <subj-group>
+                      <subject>Brain</subject>
+                      <subj-group>
+                        <subject>Cerebral Hemispheres</subject>
+                        <subj-group>
+                          <subject>Right Hemisphere</subject>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Engineering and Technology</subject>
+                  <subj-group>
+                    <subject>Signal Processing</subject>
+                    <subj-group>
+                      <subject>Signal Filtering</subject>
+                      <subj-group>
+                        <subject>Butterworth Filters</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Neuroscience</subject>
+                    <subj-group>
+                      <subject>Cognitive Science</subject>
+                      <subj-group>
+                        <subject>Cognitive Psychology</subject>
+                        <subj-group>
+                          <subject>Perception</subject>
+                          <subj-group>
+                            <subject>Sensory Perception</subject>
+                          </subj-group>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Psychology</subject>
+                    <subj-group>
+                      <subject>Cognitive Psychology</subject>
+                      <subj-group>
+                        <subject>Perception</subject>
+                        <subj-group>
+                          <subject>Sensory Perception</subject>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Social Sciences</subject>
+                  <subj-group>
+                    <subject>Psychology</subject>
+                    <subj-group>
+                      <subject>Cognitive Psychology</subject>
+                      <subj-group>
+                        <subject>Perception</subject>
+                        <subj-group>
+                          <subject>Sensory Perception</subject>
+                        </subj-group>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Biology and Life Sciences</subject>
+                  <subj-group>
+                    <subject>Neuroscience</subject>
+                    <subj-group>
+                      <subject>Sensory Perception</subject>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v3">
+                  <subject>Physical Sciences</subject>
+                  <subj-group>
+                    <subject>Physics</subject>
+                    <subj-group>
+                      <subject>Waves</subject>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Traveling waves in the prefrontal cortex during working memory</article-title>
+                <alt-title alt-title-type="running-head">Traveling waves in the prefrontal cortex</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bhattacharya</surname>
+                    <given-names>Sayak</given-names>
+                  </name>
+                  <role content-type="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+                  <role content-type="http://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+                  <role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+                  <xref rid="aff001" ref-type="aff"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-7777-7294</contrib-id>
+                  <name>
+                    <surname>Brincat</surname>
+                    <given-names>Scott L.</given-names>
+                  </name>
+                  <role content-type="http://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+                  <role content-type="http://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+                  <role content-type="http://credit.niso.org/contributor-roles/resources/">Resources</role>
+                  <role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+                  <xref rid="aff001" ref-type="aff"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0003-1011-5234</contrib-id>
+                  <name>
+                    <surname>Lundqvist</surname>
+                    <given-names>Mikael</given-names>
+                  </name>
+                  <role content-type="http://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+                  <xref rid="aff001" ref-type="aff"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Miller</surname>
+                    <given-names>Earl K.</given-names>
+                  </name>
+                  <role content-type="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+                  <role content-type="http://credit.niso.org/contributor-roles/funding-acquisition/">Funding acquisition</role>
+                  <role content-type="http://credit.niso.org/contributor-roles/project-administration/">Project administration</role>
+                  <role content-type="http://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+                  <role content-type="http://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+                  <role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+                  <xref rid="cor001" ref-type="corresp">*</xref>
+                  <xref rid="aff001" ref-type="aff"/>
+                </contrib>
+              </contrib-group>
+              <aff id="aff001">
+                <addr-line>The Picower Institute for Learning and Memory and Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, Massachusetts, United States of America</addr-line>
+              </aff>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Plenz</surname>
+                    <given-names>Dietmar</given-names>
+                  </name>
+                  <role>Editor</role>
+                  <xref rid="edit1" ref-type="aff"/>
+                </contrib>
+              </contrib-group>
+              <aff id="edit1">
+                <addr-line>Porter Neuroscience Research Center, National Institute of Mental Health, UNITED STATES</addr-line>
+              </aff>
+              <author-notes>
+                <fn fn-type="COI-statement" id="coi001">
+                  <p>The authors have declared that no competing interests exist.</p>
+                </fn>
+                <corresp id="cor001">* E-mail: <email>ekmiller@mit.edu</email></corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>28</day>
+                <month>1</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>1</month>
+                <year>2022</year>
+              </pub-date>
+              <volume>18</volume>
+              <issue>1</issue>
+              <elocation-id>e1009827</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>21</day>
+                  <month>6</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>11</day>
+                  <month>1</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2022 Bhattacharya et al</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <copyright-holder>Bhattacharya et al</copyright-holder>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf" xlink:href="pcbi.1009827.pdf"/>
+              <abstract>
+                <p>Neural oscillations are evident across cortex but their spatial structure is not well- explored. Are oscillations stationary or do they form “traveling waves”, i.e., spatially organized patterns whose peaks and troughs move sequentially across cortex? Here, we show that oscillations in the prefrontal cortex (PFC) organized as traveling waves in the theta (4-8Hz), alpha (8-12Hz) and beta (12-30Hz) bands. Some traveling waves were planar but most rotated. The waves were modulated during performance of a working memory task. During baseline conditions, waves flowed bidirectionally along a specific axis of orientation. Waves in different frequency bands could travel in different directions. During task performance, there was an increase in waves in one direction over the other, especially in the beta band.</p>
+              </abstract>
+              <abstract abstract-type="summary">
+                <title>Author summary</title>
+                <p>We found that oscillations in the prefrontal cortex form “traveling waves”. Traveling waves are spatially extended patterns in which aligned peaks of activity move sequentially across the cortical surface. Some traveling waves were planar but most rotated. The prefrontal cortex is important for working memory. The traveling waves changed when monkeys performed a working memory task. There was an increase in waves in one direction over the other, especially in the beta band. Traveling waves can serve specific functions. For example, they help maintain network status and help control timing relationships between spikes. Given their functional advantages, a greater understanding of traveling waves should lead to a greater understanding of cortical function.</p>
+              </abstract>
+              <funding-group>
+                <award-group id="award001">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000006</institution-id>
+                      <institution>Office of Naval Research</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>MURI N00014-16-1-2832</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>Earl K.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+                <award-group id="award002">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000025</institution-id>
+                      <institution>National Institute of Mental Health</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>R37MH087027</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>Earl K.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+                <award-group id="award003">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100006919</institution-id>
+                      <institution>Massachusetts Institute of Technology</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>Picower Institute Innovation Fund</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>Earl K.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+                <funding-statement>This work was supported by ONR MURI N00014-16-1-2832 (E.K.M.), NIMH R37MH087027 (E.K.M.), The MIT Picower Institute Innovation Fund (E.K.M.). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+              </funding-group>
+              <counts>
+                <fig-count count="5"/>
+                <table-count count="0"/>
+                <page-count count="22"/>
+              </counts>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>PLOS Publication Stage</meta-name>
+                  <meta-value>vor-update-to-uncorrected-proof</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>Publication Update</meta-name>
+                  <meta-value>2022-02-09</meta-value>
+                </custom-meta>
+                <custom-meta id="data-availability">
+                  <meta-name>Data Availability</meta-name>
+                  <meta-value>Code and preprocessed data are available at: <ext-link xlink:href="https://github.com/sayak66/wM_travelingwaves_code" ext-link-type="uri">https://github.com/sayak66/wM_travelingwaves_code</ext-link>.</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+            <notes>
+              <title>Data Availability</title>
+              <p>Code and preprocessed data are available at: <ext-link xlink:href="https://github.com/sayak66/wM_travelingwaves_code" ext-link-type="uri">https://github.com/sayak66/wM_travelingwaves_code</ext-link>.</p>
+            </notes>
+          </front>
+          <body>
+            <sec sec-type="intro" id="sec001">
+              <title>Introduction</title>
+              <p>Oscillatory dynamics have been linked to a wide range of cortical functions. For example, higher frequency (gamma, &gt;40 Hz) power (and spiking) increases during sensory inputs (and their maintenance) and during motor outputs [<xref rid="pcbi.1009827.ref001" ref-type="bibr">1</xref>–<xref rid="pcbi.1009827.ref005" ref-type="bibr">5</xref>]. Gamma power is anti-correlated with lower frequencies (alpha/beta, 8–30 Hz), whose power is often higher during conditions requiring top-down control (e.g., when attention is directed away, or an action is inhibited) [<xref rid="pcbi.1009827.ref006" ref-type="bibr">6</xref>–<xref rid="pcbi.1009827.ref008" ref-type="bibr">8</xref>]. Such observations have led to a theoretical framework in which oscillatory dynamics regulate neural communication [<xref rid="pcbi.1009827.ref009" ref-type="bibr">9</xref>–<xref rid="pcbi.1009827.ref011" ref-type="bibr">11</xref>].</p>
+              <p>Thus far, most studies of neural oscillations have focused on what we can call “standing wave” properties (e.g., power of and coherence between oscillations at different cortical sites), ignoring any organization of where and when the peaks and troughs of activity appear. However, there is mounting evidence for such organization. Oscillations can take the form of “traveling waves”: Spatially extended patterns in which aligned peaks of activity move sequentially across the cortical surface [<xref rid="pcbi.1009827.ref012" ref-type="bibr">12</xref>,<xref rid="pcbi.1009827.ref013" ref-type="bibr">13</xref>]. This apparent movement of the amplitude peak is facilitated by the existence of a phase gradient along a particular direction, along which the movement occurs. Traveling waves have most often been reported in the lower-frequency bands (&lt;30 Hz). Examples include beta-band (15–30 Hz) traveling waves in motor and visual cortices [<xref rid="pcbi.1009827.ref014" ref-type="bibr">14</xref>,<xref rid="pcbi.1009827.ref015" ref-type="bibr">15</xref>] and theta band (3–5 Hz) traveling waves in the hippocampus [<xref rid="pcbi.1009827.ref016" ref-type="bibr">16</xref>,<xref rid="pcbi.1009827.ref017" ref-type="bibr">17</xref>].</p>
+              <p>Traveling waves are of interest because they have a variety of useful properties for cognition, development, and behavior. They can create timing relationships that foster spike-timing-dependent plasticity and memory encoding [<xref rid="pcbi.1009827.ref014" ref-type="bibr">14</xref>,<xref rid="pcbi.1009827.ref018" ref-type="bibr">18</xref>]. They add information about recent history of activation of local networks [<xref rid="pcbi.1009827.ref019" ref-type="bibr">19</xref>]. They are thought to help “wire” the retina [<xref rid="pcbi.1009827.ref020" ref-type="bibr">20</xref>] and cortical microcircuits during development [<xref rid="pcbi.1009827.ref021" ref-type="bibr">21</xref>]. Their functional relevance in the adult brain is suggested by observations that traveling wave characteristics can be task-dependent and that they impact behavior. For example, EEG recordings have shown that alpha band waves reverse their resting state direction during sensory inputs [<xref rid="pcbi.1009827.ref022" ref-type="bibr">22</xref>]. Behavioral detection of weak visual targets improves when there are well organized low-frequency (5-40Hz) traveling waves in visual cortex vs when there is a weaker, “scattered” organization [<xref rid="pcbi.1009827.ref023" ref-type="bibr">23</xref>].</p>
+              <p>Oscillatory activity in the prefrontal cortex has been linked with cognitive functions like working memory and attention but there has been little examination of whether they form spatio-temporal structures like traveling waves. Most studies have averaged oscillations across spatially distributed electrodes. This increases the “signal” of the oscillations but prohibits analysis of any spatial organization. Thus, we examined their spatial organization from microarray recordings in the PFC of monkeys performing a working memory task. This revealed that low-frequency (beta and lower) traveling waves are common in the PFC. We characterized their speed, direction and their patterns. They often rotated and changed direction during performance of a working memory task.</p>
+            </sec>
+            <sec sec-type="results" id="sec002">
+              <title>Results</title>
+              <p>Two animals performed a delayed match-to-sample task (<xref rid="pcbi.1009827.g001" ref-type="fig">Fig 1A</xref>). They maintained central fixation while a sample object (one of eight used, novel for each session) was briefly shown. After a two-second blank memory delay (with maintained fixation), two different objects (test screen, randomly chosen from the eight) were simultaneously presented at two extrafoveal locations. Then the animals were rewarded for holding fixation on the object that matched the sample. Two 8x8 multi-electrode “Utah” arrays, one in each hemisphere, were used to record local field potentials (LFPs) from the dorsal pre-frontal cortex (dlPFC). All data is from correctly performed trials. We analyzed data from 14 experimental sessions, five from one animal (Animal/Subject 1) and nine from the other (Animal/Subject 2).</p>
+              <fig position="float" id="pcbi.1009827.g001">
+                <object-id pub-id-type="doi">10.1371/journal.pcbi.1009827.g001</object-id>
+                <label>Fig 1</label>
+                <caption>
+                  <p>(A) Delayed-match-to-sample (DMTS) working memory task. The subject fixated at the center for 0.5 s (leftmost panel) before an object (one of eight) were presented at the center for another 0.5 s. There was a 2 s blank memory delay after which a test screen was presented at extrafoveal locations. The subject had to saccade towards the remembered object and hold fixation there (arrow, rightmost panel). (B) Filtered LFP power trends for all electrodes (four arrays), trial-averaged and shown across time with the lines denoting the major trial epochs. Four frequency ranges were chosen–theta (4–8 Hz), alpha (8–12 Hz), beta (12–30 Hz) and gamma (40–120 Hz), with the dots above the curve denoting if the LFP power at that instant is significantly (p&lt;0.01) different from baseline (0.5 before fixation started). (C) Theta LFP organization across the right hemisphere array of Subject 1 of a particular trial. Each tile denotes a recording site on the array (8x8 total) with the color denoting the LFP amplitude at that site. The array position with respect to anatomical brain landmarks is overlaid. Each panel denotes the organization at an instant in time. The black arrow in the second panel indicates the direction of movement of the high amplitude LFPs with time. (D) Voltage traces from the 8 adjacent electrodes (color graded by position) in a row of the array in (C–dashed line). The circles mark the peak positions of the oscillation cycles with the dashed line indicating how the peaks shift gradually in time and space. (E) Phase maps from the corresponding panels in (C) with the color on each tile denoting the phase of the LFP oscillation cycle on that recording site.</p>
+                </caption>
+                <graphic xlink:href="pcbi.1009827.g001" position="float"/>
+              </fig>
+              <sec id="sec003">
+                <title>LFP oscillations formed traveling waves</title>
+                <p>Task-related modulations of LFP power were similar to that seen in previous studies. <xref rid="pcbi.1009827.g001" ref-type="fig">Fig 1B</xref> shows average changes in LFP power from baseline (a 500ms period just before fixation) across all electrodes, all sessions, and both animals as a function of time during the trial. Alpha (8–12 Hz) and beta (12–30 Hz) power decreased during sample presentation and increased during the delay relative to baseline. By contrast, theta (4–8 Hz) and gamma (40–120 Hz) power showed opposite trends. They increased during sample presentation and test screen presentation. Gamma power also ramped up near the end of the delay.</p>
+                <p>These increases in oscillatory power were not equal or simultaneous across the electrode array. Rather, there was a spatio-temporal structure that suggested traveling waves of activity. An example of a beta-band (12–30 Hz) wave during test screen presentation of one trial is shown in <xref rid="pcbi.1009827.g001" ref-type="fig">Fig 1C</xref> (<xref rid="pcbi.1009827.s006" ref-type="supplementary-material">S1 Movie</xref>). The tiles represent the electrodes in the array. The array is oriented relative to its position with respect to anatomical brain landmarks in the dlPFC. The colors show the beta-band signal amplitude at each electrode at different snapshots in time. Note that, at first (t = 0), beta is higher near the top of the array. Then, over time, the higher beta amplitude shifts systematically to the bottom of the array. To illustrate this in another way, <xref rid="pcbi.1009827.g001" ref-type="fig">Fig 1D</xref> shows the filtered LFP traces across one row of the array (dashed line in <xref rid="pcbi.1009827.g001" ref-type="fig">Fig 1C</xref>; the electrodes are plotted on the Y-axis from left to right ascending). The oscillation peaks are marked. A sequential shift of the LFP peak activation across the row of electrodes can be seen. This shifting peak of activity in space with time is characteristic of traveling waves.</p>
+                <p>As a traveling wave moves across cortex, it should produce a phase gradient across adjacent recording sites. This can be seen in <xref rid="pcbi.1009827.g001" ref-type="fig">Fig 1E</xref>. It replots the data from <xref rid="pcbi.1009827.g001" ref-type="fig">Fig 1C</xref> as a phase map. The instantaneous beta-band phase at each electrode is color-coded for each time slice. Zero phase is the peak of each oscillation. Positive values indicate LFPs that were on their way to peak amplitude. Negative values indicate LFPs that have passed the amplitude peak. Note the phase gradient across the array and how it changes over time. At first, positive phase values tend to be higher on the bottom of the array. Then, as the wave travels along the arrow, the phase values on the top become negative (indicating that they are past the peak of the wave), phase values in the bottom shift toward zero over time (indicating the wave approaching peak) followed by a shift to negative values. But, at each point in time, the phase gradient consistently points in the direction of wave propagation. This can also be seen in <xref rid="pcbi.1009827.g001" ref-type="fig">Fig 1D</xref>. At the timepoints when the topmost electrode is at peak phase, the rest of the electrodes form a gradient down the rising phase of the sinusoidal wave. Thus, the instantaneous phase gradient provides a signature of a traveling wave and its direction at each point in time during a wave traversal.</p>
+                <p>A traveling wave was counted when there was a strong phase gradient in a particular direction. We counted the number of traveling waves across all sessions and both arrays in both animals by computing the trial-by-trial correlation between the observed phase map at each time point and a Euclidean distance map (with increasing distance in the direction being checked, see <xref rid="sec012" ref-type="sec">Materials and Methods</xref> and <xref rid="pcbi.1009827.s001" ref-type="supplementary-material">S1A Fig</xref>). Quadrant-based distance maps were used to calculate waves across twelve directions (all pairwise combinations of four quadrants × two directions, see <xref rid="sec012" ref-type="sec">Materials and Methods</xref>). When the correlation between the distance and phase map exceeded a certain threshold, a wave in that direction was counted. This threshold was set such that detected waves were required to have correlations greater than 99% of those obtained by random shuffling of the electrode locations in the array (see <xref rid="sec012" ref-type="sec">Materials and Methods</xref>). We further used simulations to validate our wave classification algorithm (<xref rid="sec012" ref-type="sec">Materials and Methods</xref>). We applied this classification across time in each trial using a shifting 20ms time-interval (short enough to capture anything less than 50Hz), averaging across trials and across all four arrays in the two animals.</p>
+                <p>Waves were apparent throughout the trial, albeit at different times for different frequency bands. <xref rid="pcbi.1009827.g002" ref-type="fig">Fig 2A</xref> shows the wave count (summed across all directions) for the theta, alpha, and beta frequency bands. For all bands, there were consistent increases in wave counts, relative to baseline (a 500ms window before fixation), during fixation, sample and test screen presentations (<xref rid="pcbi.1009827.g002" ref-type="fig">Fig 2A</xref>). They elicited bursts of sharp, consecutive increases and decreases in wave prevalence over time (i.e., significantly above and below baseline values corresponding to a time-locked traveling wave followed by brief pause).</p>
+                <fig position="float" id="pcbi.1009827.g002">
+                  <object-id pub-id-type="doi">10.1371/journal.pcbi.1009827.g002</object-id>
+                  <label>Fig 2</label>
+                  <caption>
+                    <p>(A) Number of wave components observed in the three frequency ranges during the trial. The numbers are trial-averaged across all four arrays. The dots underneath denote if the numbers at that instant are significantly different from baseline (0.5s before fixation). (B) Wave speeds observed across all frequency ranges. Error bars represent SEM. Star indicates statistically significant difference (p&lt;0.01).</p>
+                  </caption>
+                  <graphic xlink:href="pcbi.1009827.g002" position="float"/>
+                </fig>
+                <p>The wave trends over time (<xref rid="pcbi.1009827.g002" ref-type="fig">Fig 2A</xref>) mirrored the power modulations shown in <xref rid="pcbi.1009827.g001" ref-type="fig">Fig 1B</xref>. For the theta and alpha bands, there were significantly higher-than-baseline wave counts in all epochs. Counts peaked during sample presentation (for theta) and test screen presentation (for theta and alpha). Beta waves also increased relative to baseline in all epochs. However, in contrast to alpha and theta bands, beta traveling waves tended to be higher during the memory delay and decreased during sample and test screen presentation. Wave speed ranged from 20–60 cm/sec and increased with increases in frequency band (<xref rid="pcbi.1009827.g002" ref-type="fig">Fig 2B</xref>) as expected [<xref rid="pcbi.1009827.ref015" ref-type="bibr">15</xref>].</p>
+              </sec>
+              <sec id="sec004">
+                <title>Rotating waves</title>
+                <p>We found that the waves often had a rotational component. To determine this, we examined the circular-circular correlation coefficient (ρ<sub>c</sub>) between observed phase maps and rotation maps across different points of the array (see <xref rid="sec012" ref-type="sec">Materials and Methods</xref>). This represented the circular correlation between a rotation map centered around a point on the array and the array phase map for that slice of time. The correlation provided an estimate of the wave direction vector. For example, in <xref rid="pcbi.1009827.g003" ref-type="fig">Fig 3A</xref>, the red arrows showed positive coefficients for the central correlation coefficient (see <xref rid="sec012" ref-type="sec">Materials and Methods</xref>, <xref rid="pcbi.1009827.s001" ref-type="supplementary-material">S1B Fig</xref>).</p>
+                <fig position="float" id="pcbi.1009827.g003">
+                  <object-id pub-id-type="doi">10.1371/journal.pcbi.1009827.g003</object-id>
+                  <label>Fig 3</label>
+                  <caption>
+                    <p>(A) Schematic illustrating the function of the circular-circular correlation coefficient (ρ<sub>c</sub>) around a particular point (yellow circle). Two different positions of the point are shown. A positive ρ<sub>c</sub> is calculated for the waves toward the red part of the array (red vectors), while blue gives a negative ρ<sub>c</sub>. The grey zone denotes wave directions that gave a correlation coefficient value within the “chance zone”. The zones differ with choice of point (right vs left panel) (B) Two broad wave types–planar (left) and rotating (right) waves were classified. Finer distinction possibilities are also shown–different directions (planar) or different spatial wavelengths (rotating). A combination of three coefficient values were used to distinguish between these wave types. The grey circles denote the points on the array around which the coefficient was calculated. (C) Plots showing the number of time instants in which rotating/planar waves were observed across all arrays and trials in the three frequency ranges. Star indicates statistically significant difference (p&lt;0.01). (D) Plots showing the different wavelengths observed for the rotating waves classified in (C). (E) Wave directions (planar and rotating combined) observed across all trials in Subject 2 (left hemisphere) overlaid on the array position with respect to brain landmarks. The three colors denote the three frequency ranges. (F) Wave directions similar to (E), but for all four arrays combined, with each array’s most preferred direction aligned along the 0-degree axis.</p>
+                  </caption>
+                  <graphic xlink:href="pcbi.1009827.g003" position="float"/>
+                </fig>
+                <p>A range of ρ<sub>c</sub> captured a spectrum of wave types, from planar to rotating waves, of different directions and spatial wavelengths (<xref rid="pcbi.1009827.g003" ref-type="fig">Fig 3B</xref>, see <xref rid="sec012" ref-type="sec">Materials and Methods</xref>). A high ρ<sub>c</sub> value indicated a wave moving in a particular direction–but did not distinguish between the type of wave (planar vs rotating, <xref rid="pcbi.1009827.s001" ref-type="supplementary-material">S1C Fig</xref>). To distinguish between planar and rotating waves, we used the circular-circular correlation coefficient across three points of the array (shown by dark circles in <xref rid="pcbi.1009827.g003" ref-type="fig">Fig 3B</xref>). Each of these coefficients had a distinct sensitivity profile to rotational and planar waves. Thus, the combination of the three ρ<sub>c</sub> values provided a fingerprint-like signature that could be used to accurately classify wave types (planar vs rotating) and identify their wavelength and direction (<xref rid="sec012" ref-type="sec">Materials and Methods</xref>). Simulations were used to quantify ρ<sub>c</sub> around the three points for different types of planar and rotating waves (see <xref rid="sec012" ref-type="sec">Materials and Methods</xref>, <xref rid="pcbi.1009827.s001" ref-type="supplementary-material">S1D and S1E Fig</xref>). The set of coefficients computed for the LFP data was then compared with the simulation sets to classify waves based on which set was closest to the LFP coefficients in terms of Euclidean distance (<xref rid="sec012" ref-type="sec">Materials and Methods</xref>). <xref rid="pcbi.1009827.g003" ref-type="fig">Fig 3C</xref> shows the number of planar vs rotating waves observed across all four arrays. Overall, rotational waves were more common than planar waves for all frequency bands in all task epochs. An example theta rotating wave (Subject 1, right dlPFC, memory delay) is shown in <xref rid="pcbi.1009827.s007" ref-type="supplementary-material">S2 Movie</xref>. This method was not constrained by the exact choice of points on the array (<xref rid="sec012" ref-type="sec">Materials and Methods</xref>). Analyzing ρ<sub>c</sub> values around other points on the array (<xref rid="pcbi.1009827.s002" ref-type="supplementary-material">S2A Fig</xref>) showed similar results.</p>
+                <p>Our arrays were relatively small (3x3mm), meaning that it was possible, if not likely, that our arrays were capturing pieces of a larger rotating wave structure. A rotating wave will show different spatial wavelengths (i.e. the spatial distance from one wave peak to the next) depending on the position of the center of the rotating wave relative to the array. As one moves away from the core of the rotating wave, the spatial wavelength increases. We quantified the incidences of waves of different spatial wavelengths (<xref rid="pcbi.1009827.g003" ref-type="fig">Fig 3D</xref>). For all frequency bands, we observed a greater incidence of waves with longer wavelengths. This suggests that, indeed, we were capturing pieces of a larger rotating structure. We will return to this point later.</p>
+              </sec>
+              <sec id="sec005">
+                <title>Waves travelled in preferred directions</title>
+                <p>The waves did not travel in random directions. To check if there were preferred directions of travel along each array, we leveraged a property of the circular-circular coefficient. The coefficient could discriminate between waves in opposing directions (red and blue regions respectively, <xref rid="pcbi.1009827.g003" ref-type="fig">Fig 3A</xref>) along a particular axis. Waves directed towards the positive half (red arrows, <xref rid="pcbi.1009827.g003" ref-type="fig">Fig 3A</xref>) had ρ<sub>c</sub> &gt;0 and vice versa (blue arrows). The orientation of the axes splitting the positive and negative regions depended on the net direction of the rotation map chosen and hence differed with the chosen point on the array (<xref rid="pcbi.1009827.g003" ref-type="fig">Fig 3A</xref>, left vs right, the chosen point shown in yellow). We chose points such that we could split the array into polar segments of around 10–15 degrees each. We confirmed these properties with simulated data (see <xref rid="sec012" ref-type="sec">Materials and Methods</xref>). To test for statistical significance of the correlation obtained, we calculated a ρ<sub>c</sub> threshold beyond which the phase organization exceeded chance (p&lt;0.01, ρ<sub>c</sub> &gt;0.3, random permutation test). This approach allowed us to measure wave directions but did not discriminate between planar and rotating waves.</p>
+                <p><xref rid="pcbi.1009827.g003" ref-type="fig">Fig 3E</xref> shows the placement of one of the arrays relative to the principal and arcuate sulci, with polar histograms of observed wave directions overlaid. Some wave directions were more common than others. This was consistent across the frequency bands. We reoriented the data from all four arrays such that their most preferred direction (for each frequency band) was along the horizontal axis (<xref rid="pcbi.1009827.g003" ref-type="fig">Fig 3F</xref>). The wave counts in each direction were then averaged across trials. Clear directional preferences were seen across all arrays and all frequency bands (theta to beta). Note that the directional preference remained consistent across trials epochs including the baseline (dashed lines). In other words, there were preferred “default” directions. Task performance increased or decreased the probability of waves traveling in those directions. A degree of bimodality was also observed for all frequencies. In addition to the preferred direction at 0° (by definition), there was a secondary preference for directions around 180°. Thus, there was typically a preferred <italic toggle="yes">axis</italic> of wave propagation (dashed arrow, <xref rid="pcbi.1009827.g003" ref-type="fig">Fig 3F</xref>) with an additional preference for one direction over the other along that axis.</p>
+              </sec>
+              <sec id="sec006">
+                <title>Task-related changes in wave direction</title>
+                <p>Though task demands did not change the preferred axis of wave motion, we found that it could alter the balance between opposite directions along that axis. To determine this, we again used the circular-circular correlation analysis. For this purpose, we examined correlation values (ρ<sub>c</sub>) with the rotation map around the point that showed the maximum number of waves for each array, adjusting such that the task-enhanced direction had positive ρ<sub>c</sub>. This approach included both planar and rotating waves. Oppositely directed waves showed opposite signs.</p>
+                <p><xref rid="pcbi.1009827.g004" ref-type="fig">Fig 4A</xref> shows the distribution of ρ<sub>c</sub> values, averaged across all trials and all four arrays in both animals. Results are shown separately for three frequency bands, and for three task epochs (green lines), with each compared to the pre-trial baseline (red lines). The ρ<sub>c</sub> at each time instant was classified as a wave if it exceeded the value expected by chance (indicated by shaded areas of <xref rid="pcbi.1009827.g004" ref-type="fig">Fig 4A</xref>, see <xref rid="sec012" ref-type="sec">Materials and Methods</xref>). Alpha and theta waves showed unimodal ρ<sub>c</sub> histograms centered around zero during baseline and delay epochs. Presentation of the sample or test-array shifted the histogram peak out of the shaded area (indicating increase in wave incidence) but did so in one direction over the opposite. This could be seen in theta and alpha frequency bands (<xref rid="pcbi.1009827.g004" ref-type="fig">Fig 4A</xref>).</p>
+                <fig position="float" id="pcbi.1009827.g004">
+                  <object-id pub-id-type="doi">10.1371/journal.pcbi.1009827.g004</object-id>
+                  <label>Fig 4</label>
+                  <caption>
+                    <p>(A) Histograms quantifying the correlation values seen on average in each trial during the sample, delay, and test-onset intervals (all 0.5 s in length), combined across arrays. A correlation value to the right of the shaded region (positive) denotes waves in a particular direction, while the left means the opposite direction. The shaded region denotes the “chance zone” where no conclusion regarding wave direction can be made. For each frequency range (each row), the red histogram corresponds to the correlations observed in baseline conditions (0.5 s pre-fixation), while the green histogram corresponds to the correlations observed in that epoch (0.5 s). The blue dots denote if the two are significantly different from each other (p&lt;0.01). (B) Quantification of the difference between the green and red curves in (A) for all 0.5 s intervals during each trial. The red line shows difference from baseline for the positive wave direction, while the blue line for the negative wave direction.</p>
+                  </caption>
+                  <graphic xlink:href="pcbi.1009827.g004" position="float"/>
+                </fig>
+                <p>Beta waves showed prominent bidirectionality throughout the trial (<xref rid="pcbi.1009827.g004" ref-type="fig">Fig 4A</xref>, bottom row). During both the baseline (red line) and task performance (green line), the distribution of ρ<sub>c</sub> values for waves in the beta band were bimodal with “bumps” on the ends of the distributions (outside the “chance zone”). This indicates waves in opposite directions. Relative to baseline, during task performance the “bump” on one end of the distribution rose while the other lowered, indicating an increase in waves in one direction and a decrease in the opposite. Baseline ρ<sub>c</sub> values (red lines) for the beta band skewed toward the negative direction indicating a baseline default bias for waves to travel in that direction. During the sample and delay epochs (green lines), waves skewed more toward positive ρ<sub>c</sub> values). After test screen presentation and the monkey’s behavioral response, this reversed back to a skew toward negative ρ<sub>c</sub> values, the baseline direction opposite of that seen in the task.</p>
+                <p>This is illustrated in more detail in <xref rid="pcbi.1009827.g004" ref-type="fig">Fig 4B</xref>. It shows changes in wave direction bias (relative to baseline) over time. For theta and alpha waves, negative ρ<sub>c</sub> values were significantly increased from baseline during the sample (blue line, <xref rid="pcbi.1009827.g004" ref-type="fig">Fig 4B</xref>) and especially after the test screen appeared. Positive ρ<sub>c</sub> values also increased intermittently for these two frequency bands. The beta band showed the most consistent changes in wave direction preference with task performance (<xref rid="pcbi.1009827.g004" ref-type="fig">Fig 4B</xref>, bottom row). During sample presentation and the memory delay, there was an increase of positive ρ<sub>c</sub> values and a decrease in negative ρ<sub>c</sub> values indicating a consistent shift toward waves flowing in one direction over the other. After test screen presentation and the animal’s behavioral response (i.e., post-test), this shift ended. There was a decrease in positive, and an increase in negative ρ<sub>c</sub> values resulting in the mix of the two directions seen during baseline.</p>
+                <p>For this representation, we adjusted the coefficient points such that the enhanced wave direction had positive ρ<sub>c</sub> for all frequencies<sub>.</sub> However, it is important to note that although the waves in different frequency bands had similar preferred direction <italic toggle="yes">axes</italic> (<xref rid="pcbi.1009827.g003" ref-type="fig">Fig 3F</xref>), this did not mean that the waves in different bands traveled in the same directions at the same time, as part of a multiband wave. <xref rid="pcbi.1009827.s003" ref-type="supplementary-material">S3 Fig</xref> shows the correlation coefficient calculated around the central point (4,4) for the left dlPFC array of Animal 2. As can be seen in the histograms (<xref rid="pcbi.1009827.s003" ref-type="supplementary-material">S3A Fig</xref>), theta waves preferred the negative direction during baseline, sample presentation and delay (higher histogram bump towards negative ρ<sub>c</sub> values). By contrast, beta waves preferred the opposite direction, i.e., the higher histogram bump was towards positive ρ<sub>c</sub> values. This is also evident in the quantification of the directional increase during task performance from baseline (<xref rid="pcbi.1009827.s003" ref-type="supplementary-material">S3B Fig</xref>). While the negative direction was enhanced during the task for theta waves, positive values were enhanced for beta waves.</p>
+              </sec>
+              <sec id="sec007">
+                <title>Inferring the larger wave structure from observed dynamics</title>
+                <p>For the analyses above, we aligned the waves along the preferred axis/direction of the waves for each array. In reality, the waves flowed in different anatomical directions across each individual array. This was likely due to different placement of each array relative to a larger wave structure. We used features of rotating waves to infer that larger structure.</p>
+                <p>Rotating waves create a heterogeneous vector field with the following features (illustrated in <xref rid="pcbi.1009827.s001" ref-type="supplementary-material">S1D and S1E Fig</xref>): 1. The local movement of waves from the same rotating structure will flow in different directions in different areas around the center of rotation. 2. Rotating wave organization decays as one moves away from the center causing the wave to lose structure. 3. The spatial wavelength of the wave (the spatial distance from peak to peak) grows as one moves away from the center of rotation. Thus, shorter wavelengths on the array indicated that the rotating wave center was closer to the center of the array and vice versa. We also used our correlations coefficients to quantify the exact direction and type of wave pattern (<xref rid="pcbi.1009827.s002" ref-type="supplementary-material">S2B and S2C Fig</xref>). We estimated the locations of the rotating waves using these two metrics. The three frequency bands had similar wave directions and curvatures. However, the beta band tended to show the highest traveling wave counts (e.g., in <xref rid="pcbi.1009827.g004" ref-type="fig">Fig 4A</xref>). Thus, to make better inferences, we focused on the beta band.</p>
+                <p>The results were consistent with our arrays capturing parts of two oppositely rotating waves. The rotating waves seemed to be located similarly in each hemisphere for both subjects relative to anatomical brain landmarks (the arcuate and the principal sulci). <xref rid="pcbi.1009827.g005" ref-type="fig">Fig 5A</xref> shows the spatial wavelengths recorded for Animal 1, along with the directional histograms for beta-band waves. The array in the right hemisphere recorded more short-wavelength waves than the array in the left hemisphere. The result is a wider ρ<sub>c</sub> histogram spread and stronger directional differences than the left hemisphere array. This would suggest that the rotating wave centers were closer to the array in the right hemisphere, i.e. the recording array captured more of the rotating waves in this hemisphere. Based on the wave features described above (shown as bar graphs), <xref rid="pcbi.1009827.g005" ref-type="fig">Fig 5B</xref> shows hypothesized locations of the larger rotating wave for each rotational direction relative to anatomical landmarks in each hemisphere (see <xref rid="sec012" ref-type="sec">Materials and Methods</xref>).</p>
+                <fig position="float" id="pcbi.1009827.g005">
+                  <object-id pub-id-type="doi">10.1371/journal.pcbi.1009827.g005</object-id>
+                  <label>Fig 5</label>
+                  <caption>
+                    <p>(A) Quantification of the differences observed in beta-band waves between the left and right hemispheres of Subject 1 with regard to spatial wavelengths observed (left), correlation coefficients (center), and wave directional differences (right). (B) Quantification of the levels of different wave types (bar graphs, with the wave type indicated through arrows below the corresponding bar graph) on each array–overlaid with respect to the array position in the brain–for both left and right hemispheres of Subject 1. The red and blue rotating directions indicate the inferred locations of the opposite rotating waves based on the pattern of different wave types observed. (C,D) Same as (A) and (B) but for Subject 2.</p>
+                  </caption>
+                  <graphic xlink:href="pcbi.1009827.g005" position="float"/>
+                </fig>
+                <p><xref rid="pcbi.1009827.g005" ref-type="fig">Fig 5C</xref> shows similar analysis for Animal 2. In this case, the array in the left hemisphere showed significantly stronger effects than the right, indicating the position of the left hemisphere array was closer to the center of rotation. For example, the array in the left hemisphere of Animal 2 recorded the highest number of short spatial wavelengths. Thus, it can be hypothesized that the rotating wave covered the most array area compared to the other three arrays.</p>
+                <p>Additionally, we found a correlation between spike rate and rotating wave organization. Spike rates were higher closer to the center of the rotating wave (<xref rid="pcbi.1009827.s004" ref-type="supplementary-material">S4 Fig</xref>). Shorter wavelengths indicate that the center of the rotating wave is closer to the array (<xref rid="pcbi.1009827.s004" ref-type="supplementary-material">S4A Fig</xref>). We found that shorter wavelengths were associated with higher spike rates (<xref rid="pcbi.1009827.s004" ref-type="supplementary-material">S4B Fig</xref>). This indicates that rotating waves modulate spike rates.</p>
+              </sec>
+            </sec>
+            <sec sec-type="conclusions" id="sec008">
+              <title>Discussion</title>
+              <p>We found that 4–30 Hz (theta, alpha, and beta band) oscillations in the lateral prefrontal cortex organize into traveling waves. Rotating waves outnumbered planar waves. Average spike rates were higher near the rotating wave centers. Before the trial began, traveling waves had a preferred orientation but tended to be bidirectional, flowing in opposite directions randomly. After behavioral trial initiation, there was an increase in waves in one direction. This was especially evident during presentation of a to-be-remembered sample and subsequent presentation of a test screen of two stimuli. Notably, in the beta band, there was a persistent increase in the flow of waves in one direction while waves in the opposite direction decreased during the delay. Our animals were well trained on the task showing correct responses in 87% of the trials. This did not give us enough statistical power to compare traveling wave characteristics in correct vs error trials. Future studies will be needed to address this.</p>
+              <sec id="sec009">
+                <title>The neural infrastructure of traveling waves</title>
+                <p>The existence of traveling waves provides insight into the underlying circuitry. They can be explained by short-range lateral interactions between weakly-coupled oscillators [<xref rid="pcbi.1009827.ref012" ref-type="bibr">12</xref>]. This creates phase gradients, i.e. time lags, between successive regions resulting in a sequential movement of a peak of activity.</p>
+                <p>We found that the waves flowed back and forth in opposite directions. This could be explained by activation of different subsets of neurons with different wave direction preferences. Increasing activation of one network could inhibit the other thus biasing flow in one direction [<xref rid="pcbi.1009827.ref024" ref-type="bibr">24</xref>], as we observed during task performance especially in the beta band. Removal of activation from this network and the corresponding release of inhibition from the other network could explain our observation of a decrease in preferred, and an increase in the non-preferred, wave direction after the trial ended.</p>
+                <p>The mechanism of generating rotating waves is a subject of extensive theoretical research [<xref rid="pcbi.1009827.ref025" ref-type="bibr">25</xref>]. A rotating wave is different from a planar or radial wave. Rotating waves create a heterogeneous vector field, i.e., a different phase-gradient depending on where one is recording [<xref rid="pcbi.1009827.ref026" ref-type="bibr">26</xref>]. It has altered curvature along the arm of the wave. That is, different points along the wave have different curvature, hence different speeds [<xref rid="pcbi.1009827.ref027" ref-type="bibr">27</xref>], rendering it an extra degree of freedom when compared to planar waves. Rotating waves are formed when spatial heterogeneities lead to the formation of phase-singularities. This heterogeneity is mostly caused by a core circuit with altered excitation/inhibition levels around which the wave starts to rotate [<xref rid="pcbi.1009827.ref028" ref-type="bibr">28</xref>]. How this altered core forms varies from field to field [<xref rid="pcbi.1009827.ref029" ref-type="bibr">29</xref>,<xref rid="pcbi.1009827.ref030" ref-type="bibr">30</xref>], and in the context of neural mechanisms, remains an open question.</p>
+                <p>While most studies have reported planar travel waves; a few, like ours, also found rotating waves [<xref rid="pcbi.1009827.ref026" ref-type="bibr">26</xref>,<xref rid="pcbi.1009827.ref031" ref-type="bibr">31</xref>]. Rotating waves span wide expanses of human cortex during sleep spindles, appear in visual cortex of turtles following sensory stimulation, or spontaneously in rodent cortical slices (visual cortex). But as we demonstrated in our analysis, the location of the recording arrays relative to the wave affects observations. Rotating waves also tend to drift around in space, further complicating the consistent capturing of the rotating center on the recording array [<xref rid="pcbi.1009827.ref028" ref-type="bibr">28</xref>]. This is consistent with analyses suggesting that some planar waves might be incomplete observations of parts of rotating waves [<xref rid="pcbi.1009827.ref032" ref-type="bibr">32</xref>]. More accurate assessment of the relative proportions of rotating vs planar waves can be made with larger recording arrays.</p>
+              </sec>
+              <sec id="sec010">
+                <title>Functional role of rotating/traveling waves in working memory</title>
+                <p>One advantage of traveling waves over synchronous oscillations (standing waves) is in maintaining current network status/information. Standing waves result in time periods when all neurons in a network or subnetwork are turned “off”. By contrast, traveling waves ensure that a subset of a given network is always “on” [<xref rid="pcbi.1009827.ref032" ref-type="bibr">32</xref>]. Maintaining “on” states is particularly pertinent for holding items in working memory. Indeed, a recent modeling study shows that segregating memories and maintaining them in neural modules is more robust and stable when the oscillations are phase-shifted among neural ensembles, i.e. manifest as traveling waves [<xref rid="pcbi.1009827.ref033" ref-type="bibr">33</xref>]. Although traveling waves were dominant (<xref rid="pcbi.1009827.s005" ref-type="supplementary-material">S5A Fig</xref>), “standing-wave”-type oscillations were also observed, albeit in much lower numbers. It is important to note that a perfect standing wave (no phase variance) is unlikely. Oscillations could be considered “standing” when there was no clear phase gradient and the phase variance was lower than for a traveling wave (<xref rid="pcbi.1009827.s005" ref-type="supplementary-material">S5 Fig</xref>).</p>
+                <p>Traveling waves may also play a role in a fundamental cortical function: predictive coding. The brain continually generates predictions of immediately forthcoming inputs, to prevent processing of predicted (thus uninformative) inputs, preventing sensory overload [<xref rid="pcbi.1009827.ref034" ref-type="bibr">34</xref>]. Unpredicted/new inputs are allowed to pass as “prediction errors”. A model of the cortex built by VanRullen and colleagues [<xref rid="pcbi.1009827.ref022" ref-type="bibr">22</xref>] shows how alpha-band traveling waves carry “priors” from higher to lower cortex in the absence of sensory inputs. Sensory inputs evoke traveling waves that flow in the opposite direction.</p>
+                <p>Stimulus-evoked traveling waves can add information about time and recent activation history to the network. Muller et al. 2018 [<xref rid="pcbi.1009827.ref019" ref-type="bibr">19</xref>] suggest that traveling waves allow temporal reversibility: One can decode the history of a pattern from the observed spatiotemporal structure. A given pattern of network activations sets up a unique pattern of traveling waves. This temporal sequence can be decoded to track the elapsed time and recent activation patterns. Elapsed time was not behaviorally relevant in our working memory task; animals were cued when to respond. But relevant or not, the brain keeps track of time. A common example is PFC spiking ramping up near the end of a fixed delay interval in expectation of the forthcoming decision or behavioral response [<xref rid="pcbi.1009827.ref009" ref-type="bibr">9</xref>,<xref rid="pcbi.1009827.ref035" ref-type="bibr">35</xref>–<xref rid="pcbi.1009827.ref037" ref-type="bibr">37</xref>]. Recent work has shown PFC neurons track time via neurons that spike at particular times during a memory delay [<xref rid="pcbi.1009827.ref038" ref-type="bibr">38</xref>]. Traveling waves may provide a mechanism of such tracking, through phase-based temporal encoding–i.e. assigning a unique phase map to each instant of time. Tracking time potentially allows neurons to be prepped for future events rendering the cortex with predictive abilities.</p>
+                <p>We did not observe any changes in traveling wave with different sample items. This is consistent with theories that traveling waves have “meta” network functions independent of the items or other content being processed as mentioned above.</p>
+                <p>We found higher firing rates closer to the center of the rotating wave. This modulation may provide computational advantages over its planar counterparts. Rotating waves have been proposed to play a role in organizing and inducing neural plasticity. The repetitive dynamic of the wave caused by the rotating arm coming around in precise time-intervals can create a structure of timing differences in neural activation that induce spiking timing-dependent plasticity (STDP) in specific subsets of a network. A human ECOG study has shown rotating waves during sleep-related memory consolidation with timing differences in STDP range [<xref rid="pcbi.1009827.ref026" ref-type="bibr">26</xref>]. They showed that the coordinated organization of traveling waves is vital in maintaining plasticity. Short-lived (&lt; 1 sec) increases in synaptic weights induced by spiking may aid in WM maintenance [<xref rid="pcbi.1009827.ref039" ref-type="bibr">39</xref>]. Thus, the waves we observed in the PFC may play a role in not only inducing this plasticity but also periodically refresh them (with spiking) so that memories can be held beyond the time constant of the short-term plasticity [<xref rid="pcbi.1009827.ref040" ref-type="bibr">40</xref>].</p>
+              </sec>
+              <sec id="sec011">
+                <title>Summary</title>
+                <p>Neural oscillations in the low frequency ranges have been implicated in a variety of functions, including working memory, attention, and predictive coding [<xref rid="pcbi.1009827.ref041" ref-type="bibr">41</xref>–<xref rid="pcbi.1009827.ref046" ref-type="bibr">46</xref>]. Here, we show that they manifest in the prefrontal cortex as traveling waves that change with task performance. Traveling waves have multiple characteristics–such as direction, phase organization, speed–all of which can serve specific functions, making these waves a potentially powerful computational tool. Given their functional advantages, a greater understanding of traveling waves should lead to a greater understanding of cortical function.</p>
+              </sec>
+            </sec>
+            <sec sec-type="materials|methods" id="sec012">
+              <title>Materials and methods</title>
+              <sec id="sec013">
+                <title>Ethics statement</title>
+                <p>All procedures followed the guidelines of the Massachusetts Institute of Technology Committee on Animal Care and the National Institutes of Health (protocol 0619-035-22, approved by MIT’s Committee on Animal Care on 6/23/21).</p>
+              </sec>
+              <sec id="sec014">
+                <title>Subjects, task and LFP recordings</title>
+                <p>The nonhuman primate subjects in our experiments were two adult males (ages 17 and 8, for Subject 1 and 2 respectively) rhesus macaques (<italic toggle="yes">Macaca mulatta</italic>).</p>
+                <p>Subjects performed a delayed match-to-sample working memory (WM) task. They began task trials by holding gaze for 500 ms on a fixation point randomly displayed at the center of a computer screen. A sample object (one of eight randomly chosen) was then shown for 500 ms at the center of the screen. After a 2 s delay, a test object was displayed. The monkeys were required to saccade to it if it matched the remembered sample. Response to the match was rewarded with juice. All stimuli were displayed on an LCD monitor. An infrared-based eye-tracking system (Eyelink 1000 Plus, SR-Research, Ontario, CA) continuously monitored eye position at 1 kHz.</p>
+                <p>The subjects were chronically implanted in the lateral prefrontal cortex (PFC) with two 8x8 iridium-oxide “Utah” microelectrode arrays (1.0 mm length, 400 μm spacing; Blackrock Microsystems, Salt Lake City, UT). Signals were recorded on a Blackrock Cerebus. Arrays were implanted bilaterally, one array in each dorsolateral PFC. Electrodes in each hemisphere were grounded and referenced to a separate subdural reference wire.</p>
+                <p>LFPs were band-passed from 0.5-300Hz and sampled at 1kHz. There were two filter stages, first a real-time analog filter in the amplifier, then a symmetric digital filter offline in software:</p>
+                <list list-type="alpha-lower">
+                  <list-item>
+                    <p>Analog filter:
+<list list-type="simple"><list-item><p>High-pass: 0.3 Hz 1<sup>st</sup> order Butterworth</p></list-item><list-item><p>Low-pass: 7.5 kHz 3<sup>rd</sup> order Butterworth</p></list-item></list></p>
+                  </list-item>
+                  <list-item>
+                    <p>Digital filter:
+<list list-type="simple"><list-item><p>Low-pass: 300 Hz 3<sup>rd</sup> order Butterworth</p></list-item></list></p>
+                  </list-item>
+                </list>
+                <p>All correctly performed trials were included in analyses. All preprocessing and analysis were performed in Python or MATLAB (The Mathworks, Inc, Natick, MA). For the power analysis, the resulting signals were convolved with a set of complex <ext-link xlink:href="https://www.sciencedirect.com/topics/neuroscience/morlet-wavelet" ext-link-type="uri">Morlet wavelets</ext-link>.</p>
+              </sec>
+              <sec id="sec015">
+                <title>LFP spatial phase maps</title>
+                <p>The raw LFP traces were filtered in the desired frequency range, using a 4<sup>th</sup> order Butterworth filter, forward-reverse in time to prevent phase distortion (see MATLAB function <italic toggle="yes">filtfilt</italic>) and interpolated for missing electrodes. Out of 28 sessions, five had missing electrodes (one electrode missing in 3 sessions, three electrodes missing in 2 sessions). Linear interpolation was done to account for the missing data. Overall as these numbers were a minority, our statistics were not affected. A Hilbert transform was used to obtain the analytical signal for each electrode. The phase of each electrode for the 8x8 array is called the “phase map” for that time instant. These phase maps (unsmoothed) were checked for gradients to identify traveling waves.</p>
+              </sec>
+              <sec id="sec016">
+                <title>Traveling wave identification through linear distance maps</title>
+                <p>Traveling waves were identified at an instant in time when spatial correlation between the phase map at that instant and a Euclidean distance map template (<xref rid="pcbi.1009827.s001" ref-type="supplementary-material">S1A Fig</xref>) in a particular direction exceeds a certain threshold. Pearson correlation coefficients were computed over the full 2-dimensional array of values. The threshold was decided through a shuffling permutation procedure [<xref rid="pcbi.1009827.ref026" ref-type="bibr">26</xref>].</p>
+                <p>The distance map was made for each quadrant of the array, in the particular direction being evaluated (<xref rid="pcbi.1009827.s001" ref-type="supplementary-material">S1A Fig</xref> shows the phase map for a diagonal wave for one quadrant). The distance maps were made such that they always increased towards the edges. So, a wave entering the array from an edge would encounter a direction map in the opposite direction–and hence show a negative correlation, while a wave leaving the array would produce a positive correlation, as it increased towards the edges. A wave thus was counted when one quadrant showed a positive correlation with the phase map, while another showed a negative correlation. Then a wave was counted to have passed from the negative quadrant to the positive quadrant. This method thus identified a wave component in a particular direction–from one quadrant to the other. Four quadrants yielded a total of 12 directions. This quadrant-based method allowed identification of wave fragments even when waves did not have uniform spatio-temporal structure throughout the whole array. So, when one wave passed, multiple direction components could be recorded. This method was verified using simulated waves.</p>
+                <p>Only positive phase values were considered in this method, so as to identify consecutive bursts of traveling wave instances. That is, when two consecutive waves passed, this method showed two peaks (two positive cycles), instead of one continuous high value for both waves. As a consequence, however, this method was restricted to identifying waves that had a long spatial wavelength when compared to the size of the array, to allow for instances where only positive phase values are on the array at one time. This approach was only used for planar wave detection. This approach is consistent with earlier studies that suggest that the spatial wavelength of traveling waves is long compared to the LFP recording array size [<xref rid="pcbi.1009827.ref023" ref-type="bibr">23</xref>].</p>
+              </sec>
+              <sec id="sec017">
+                <title>Wave speed calculation</title>
+                <p>Wave speed at a time instant was calculated from the phases (<italic toggle="yes">p</italic>) by dividing the temporal frequency (∂<italic toggle="yes">p</italic>/∂<italic toggle="yes">t</italic>) at that time with the spatial frequency (∂<italic toggle="yes">p</italic>/∂<italic toggle="yes">x</italic>) [<xref rid="pcbi.1009827.ref016" ref-type="bibr">16</xref>]. The gradients obtained were averaged across electrodes to get the net wave speed for that time instant. Essentially, this calculated, how quickly the oscillation cycle progressed in space versus in time. For a fast wave, points away from each other on the array will reach the same phase within a shorter time period, i.e. a shallow spatial gradient (same ∂<italic toggle="yes">p</italic> for a larger ∂<italic toggle="yes">x</italic> in a certain ∂<italic toggle="yes">t</italic>), when compared to a slower wave. Wave speed was calculated only for waves of long wavelength (majority of wave instants) as spatial frequencies for short wavelength waves could vary along the array.</p>
+              </sec>
+              <sec id="sec018">
+                <title>Shuffling procedure</title>
+                <p>To ensure that the probability of detecting traveling waves exceeded that expected by chance–we performed a random shuffling procedure to establish a threshold for the correlation coefficient–beyond which a traveling wave was counted. This was done by shuffling the phase values on the array randomly (with 25 different types of random permutations) and calculating the correlation coefficient. The 99<sup>th</sup> percentile of the resulting distribution of coefficient values determined a threshold (0.3) above which the correlation exceeded chance.</p>
+                <p>It is important to mention here that characterizing traveling waves through quadrant-based methods or patch-based methods [<xref rid="pcbi.1009827.ref047" ref-type="bibr">47</xref>] for small arrays may lead to erroneous conclusions especially for waves with variable wavelengths or with variable local dynamics. For that purpose, we used our quadrant-based approach only for long wavelength waves which had a consistent structure on the array. To classify rotating wave patterns, we shifted to circular statistics using the whole 8x8 array.</p>
+              </sec>
+              <sec id="sec019">
+                <title>Circular-circular correlation coefficient–planar waves, rotating waves, and net wave directionality</title>
+                <p>We used circular statistics to identify wave patterns. Circular-circular correlation coefficients have been used to classify waves in earlier studies [<xref rid="pcbi.1009827.ref026" ref-type="bibr">26</xref>]. In this study, we demonstrate that the use of circular-circular correlation coefficients can be extended to distinguish between a spectrum of wave types.</p>
+                <p>The circular-circular correlation coefficient reports the spatial gradient similarity between two phase maps that are adjusted to account for circular phase values. Adjusting for circular values reorganizes the circular phases by subtracting the circular mean (so the mean becomes 0, and phases range from -π to π), and then taking the sine, such that increasing values now directly translate to increasing oscillation phase. In our case, we checked spatial gradient similarity between a phase map obtained from the LFP recordings with a rotation map template. The rotation map expressed the polar angle of each point on the array relative to a particular origin point (<xref rid="pcbi.1009827.s001" ref-type="supplementary-material">S1B Fig</xref>). For the signal phase (<italic toggle="yes">φ</italic> at each array coordinate [a,b]) and the rotation angle (<italic toggle="yes">θ</italic>) around the chosen point, the circular-circular correlation coefficient thus was [<xref rid="pcbi.1009827.ref026" ref-type="bibr">26</xref>]:
+<disp-formula id="pcbi.1009827.e001"><alternatives><graphic xlink:href="pcbi.1009827.e001.jpg" id="pcbi.1009827.e001g" position="anchor"/><mml:math id="M1" display="block" overflow="scroll"><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi>c</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mrow><mml:msub><mml:mo stretchy="false">∑</mml:mo><mml:mrow><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mi mathvariant="normal">s</mml:mi><mml:mi mathvariant="normal">i</mml:mi><mml:mi mathvariant="normal">n</mml:mi><mml:mspace width="0.25em"/><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>φ</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>φ</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub><mml:mo>)</mml:mo><mml:mi mathvariant="normal">s</mml:mi><mml:mi mathvariant="normal">i</mml:mi><mml:mi mathvariant="normal">n</mml:mi><mml:mspace width="0.25em"/><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>θ</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>θ</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:msub><mml:mo stretchy="false">∑</mml:mo><mml:mrow><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">s</mml:mi><mml:mi mathvariant="normal">i</mml:mi><mml:mi mathvariant="normal">n</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mspace width="0.25em"/><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>φ</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>φ</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub><mml:mo>)</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="normal">s</mml:mi><mml:mi mathvariant="normal">i</mml:mi><mml:mi mathvariant="normal">n</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mspace width="0.25em"/><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>θ</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>θ</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub><mml:mo>)</mml:mo></mml:msqrt></mml:mrow></mml:mfrac></mml:math></alternatives></disp-formula>
+<disp-formula id="pcbi.1009827.e002"><alternatives><graphic xlink:href="pcbi.1009827.e002.jpg" id="pcbi.1009827.e002g" position="anchor"/><mml:math id="M2" display="block" overflow="scroll"><mml:msub><mml:mrow><mml:mi>θ</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi mathvariant="normal">A</mml:mi><mml:mi mathvariant="normal">r</mml:mi><mml:mi mathvariant="normal">g</mml:mi><mml:mo>(</mml:mo><mml:mrow><mml:munder><mml:mo stretchy="false">∑</mml:mo><mml:mrow><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:munder><mml:mrow><mml:msup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:msub><mml:mrow><mml:mi>θ</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msup></mml:mrow></mml:mrow><mml:mo>)</mml:mo></mml:math></alternatives></disp-formula></p>
+                <sec id="sec020">
+                  <title>Net direction and bisecting axes</title>
+                  <p>A rotation map around a particular point has a particular <italic toggle="yes">net direction</italic> that can be revealed by plotting the phase maps, adjusting for circular values (i.e. subtracting the circular mean and sine transforming). The overall gradient of a phase map can best be appreciated by looking at the circular-adjusted maps. <xref rid="pcbi.1009827.s001" ref-type="supplementary-material">S1B Fig</xref> shows the net directions (solid lines) for rotation maps around three points. This was obtained by summing the gradients in phase across the array as complex vectors–the resultant vector being the net direction. It can be appreciated from this figure that while actual phase values may range anywhere between -pi to pi, the circular adjustment reorients all values from -1 to 1. A positive coefficient value could be obtained by multiple types of waves–rotating waves centered near the chosen point in the direction of the rotation map, or planar waves moving towards the map’s <italic toggle="yes">net direction</italic>. Of course, opposite directions for both would yield negative values. The orthogonal direction would result in a coefficient close to zero–which creates the <italic toggle="yes">bisecting axis</italic>. This approach thus allowed us to classify wave directions into positive and negative halves separated by this bisecting axis (<xref rid="pcbi.1009827.g003" ref-type="fig">Fig 3A</xref>)–taking into account both rotating and planar waves. The axis was dependent on the rotation map, which varied with the chosen point.</p>
+                  <p>Similar to the earlier wave classification–a correlation threshold was chosen below which no conclusions regarding wave directions could be made. This threshold was identified through shuffling the electrodes and ensuring phase gradients did not appear by chance. The 99<sup>th</sup> percentile of the resulting distribution of coefficient values determined a threshold (0.3) above which the correlation exceeded chance. This method allowed us to categorize waves into two opposite directions (<xref rid="pcbi.1009827.g004" ref-type="fig">Fig 4</xref>) and analyze how the directions changed during task performance. For <xref rid="pcbi.1009827.g004" ref-type="fig">Fig 4</xref>, rotation maps were chosen for each array in a way that maximized the number of waves observed for that array, to provide the greatest power to discriminate between opposing directions of wave motion (Subject 1: right array–(4,4), left array–(8,4); Subject 2: right array–(4,1), left array—(4,4)).</p>
+                </sec>
+                <sec id="sec021">
+                  <title>Planar vs rotating waves</title>
+                  <p>To distinguish between planar and rotating waves, however, just one rotation map would not suffice, as the values for a rotating wave and a planar wave with the same net direction could be similar. The coefficient value using a rotation map around a particular point essentially quantifies the gradient vectors seen in that phase map. Considering, for example, a diagonal planar wave from the bottom left to the top right (<xref rid="pcbi.1009827.s001" ref-type="supplementary-material">S1C Fig</xref>, left). The central point (4,4) has a net direction along that diagonal and hence records a high value around 0.9. The point (4,1) has a net direction along the horizontal and records an intermediate value around 0.64. Now, let’s consider a wave that rotates from bottom left to top-right (<xref rid="pcbi.1009827.s001" ref-type="supplementary-material">S1C Fig</xref>, right). The circular-reoriented phase maps for the two waves are shown below. It is evident that the increase toward the top right is still maintained causing the coefficient around (4,4) to remain the same. However, the increase toward the horizontal (towards the right) is less when compared to the diagonal wave case. This reduces the coefficient around (4,1) to 0.52. Thus, while one coefficient could not distinguish the types of waves, a combination of two coefficients in this case was able to do so.</p>
+                </sec>
+                <sec id="sec022">
+                  <title>Wave classification, wavelength and wave structure</title>
+                  <p>In this way, we show using simulations that three coefficients, around points (4,4)–diagonal axis, (1,4)–horizontal axis, and (4,1)–vertical axis, could be leveraged together to distinguish planar and rotating waves. We created simulated datasets for these three coefficients. Waves were simulated using the following equations [<xref rid="pcbi.1009827.ref026" ref-type="bibr">26</xref>]:
+<disp-formula id="pcbi.1009827.e003"><alternatives><graphic xlink:href="pcbi.1009827.e003.jpg" id="pcbi.1009827.e003g" position="anchor"/><mml:math id="M3" display="block" overflow="scroll"><mml:mi>g</mml:mi><mml:mo>(</mml:mo><mml:mrow><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mi>φ</mml:mi></mml:mrow><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mi>A</mml:mi><mml:msup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>(</mml:mo><mml:mi>w</mml:mi><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mi>k</mml:mi><mml:mi>φ</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:mi>σ</mml:mi><mml:mi>γ</mml:mi><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:math></alternatives></disp-formula>
+, where <italic toggle="yes">φ</italic> was the input phase map (rotational or planar), <italic toggle="yes">w</italic> was the temporal frequency and <italic toggle="yes">k</italic> was the spatial wavenumber (1/wavelength). The second term was a Gaussian white noise term, with zero mean and standard deviation <italic toggle="yes">σ</italic>.</p>
+                  <p>Using the above simulation equation, we created a dataset comprised of 32 types of planar waves in all directions, each separated by around 12 degrees, and 40 types of rotating waves of different curvatures and wavelengths (<italic toggle="yes">k</italic> ranging from 0.1 to 0.9) (<xref rid="pcbi.1009827.s001" ref-type="supplementary-material">S1E Fig</xref>). As evidence for the property described in the section above, if one monitors the (4,4) red curve in this figure, it is clear that values change signs between waves directed towards the bisecting axis (top-left to bottom-right diagonal in this case).</p>
+                  <p>A long spatial wavelength (inverse of wavenumber <italic toggle="yes">k</italic>) was chosen for planar waves simulations (<xref rid="pcbi.1009827.s001" ref-type="supplementary-material">S1D Fig</xref>, top), as their wavelength remains constant throughout the wave band. But, rotating waves show different wavelengths at different portions of the wave (<xref rid="pcbi.1009827.s001" ref-type="supplementary-material">S1D Fig</xref>, bottom). As one moves away from the rotating center (white circle), the wavelength increases. Hence, multiple wavelengths were considered while creating the datasets for rotating waves. It is also evident from <xref rid="pcbi.1009827.s001" ref-type="supplementary-material">S1E Fig</xref> that, in the case of rotating waves, as spatial wavelength increases (lower <italic toggle="yes">k</italic>)–all coefficients start to decrease–proving that the wave starts to lose spatio-temporal structure away from the rotating center. An average of 20 simulations (with distinct realization of Gaussian noise) were used to calculate the coefficient for each type of wave. We ensured at least one coefficient value always remained above the chance threshold (0.3) to ensure sufficient wave structure (which is essentially why three points where needed).</p>
+                  <p>We compared the values of three coefficients obtained from each time instant of the working memory trials with the simulated datasets to then automatically classify the type of wave observed, based on the Euclidean distance between a wave type and the observed phase map. Specifically, the three ρ<sub>c</sub> values for each wave type could be represented as a point in three-dimensional space. The Euclidean distances between the corresponding point for an observed phase map and all wave types were computed. The phase map was classified into the wave type from which it was the closest. Coefficient matching with three different maps, allowed for greater accuracy with lesser chances of misclassification.</p>
+                </sec>
+                <sec id="sec023">
+                  <title>Choice of array points for coefficient calculation</title>
+                  <p>Our results were not constrained by the exact choice of points on the array around which the circular-circular correlation coefficient was to be calculated (<xref rid="pcbi.1009827.s002" ref-type="supplementary-material">S2A Fig</xref>). Our intuition for choosing (1,4), (4,1) and (4,4) were based on trying to capturing the whole spectrum of wave types. (1,4) was able to differentiate waves that traveled roughly towards the top-half of the array vs those that traveled towards the bottom-half (<xref rid="pcbi.1009827.s001" ref-type="supplementary-material">S1B Fig</xref>). However, (1,4) had a “chance-zone” along the horizontal axis, i.e. it could not identify waves that traveled in horizontal directions. For that purpose, another coefficient–around (4,1)—was necessary to capture waves that traveled laterally along the array. An extra point (4,4) was added to identify rotating waves that naturally occurred with their center on the array.</p>
+                </sec>
+                <sec id="sec024">
+                  <title>Inferring rotating wave locations</title>
+                  <p>In <xref rid="pcbi.1009827.g005" ref-type="fig">Fig 5B</xref>, the locations of the rotating wave directions were inferred based on the levels of the curvature recorded, the histogram spread observed and the number of short-wavelength waves recorded. For example, in Subject1, the right hemisphere array captured a greater incidence of short-wavelength waves–leading to the conclusion that more of the rotation is on the array—when compared to the left hemisphere. The highest wave levels were closer to the ventral side of the PFC, thus suggesting that the part of the rotation that was outside the array was more towards the ventral side. Following this logic, the rotating directions were placed on the array through a subjective estimation based on a combination of all these results.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="sec025" sec-type="supplementary-material">
+              <title>Supporting information</title>
+              <supplementary-material id="pcbi.1009827.s001" position="float" content-type="local-data">
+                <label>S1 Fig</label>
+                <caption>
+                  <p>(A) Quadrant-based distance map used for traveling wave identification (one quadrant shown for diagonal wave detection). The distance maps would change accordingly for other wave types. (B) Rotation maps around three points on the array (top), adjusted for circular values (mean-centered and sine-transformed; bottom) with the net directions and bisecting axes marked. (C) Example waves (white arrows), with their phase maps (top) adjusted for circular values (bottom) shown with the corresponding coefficient values on the side. (D) Plot illustrating spatial wavelengths for planar and rotating waves. (E) Plot of three correlation coefficient values for different wave types. The region between the dashed horizontal lines denotes the “chance zone”. It was ensured that at least one coefficient for each wave type remained outside this zone.</p>
+                  <p>(EPS)</p>
+                </caption>
+                <media xlink:href="pcbi.1009827.s001.eps">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material id="pcbi.1009827.s002" position="float" content-type="local-data">
+                <label>S2 Fig</label>
+                <caption>
+                  <p>(A) (left) Similar wave classification between planar and rotating waves as <xref rid="pcbi.1009827.g003" ref-type="fig">Fig 3</xref>, with three different points chosen to distinguish between these wave types. The grey circles denote the points on the array around which the coefficient was calculated. (right) Plots showing the number of time instants in which rotating/planar waves were observed across all arrays and trials in the three frequency ranges. (B, C) Number of wave instants observed for different wave types across frequencies and arrays.</p>
+                  <p>(EPS)</p>
+                </caption>
+                <media xlink:href="pcbi.1009827.s002.eps">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material id="pcbi.1009827.s003" position="float" content-type="local-data">
+                <label>S3 Fig</label>
+                <caption>
+                  <p>(A) Histograms quantifying the correlation values seen on average in each trial during the sample, delay, and test-onset intervals (all 0.5 s in length), for the left dlPFC array of Animal 2. A correlation value to the right of the shaded region (positive) denotes waves in a particular direction, while the left means the opposite direction. The shaded region denotes the “chance zone” where no conclusion regarding wave direction can be made. For each frequency range (each row), the red histogram corresponds to the correlations observed in baseline conditions (0.5 s pre-fixation), while the green histogram corresponds to the correlations observed in that epoch (0.5 s). The blue dots denote if the two are significantly different from each other (p&lt;0.01). (B) Quantification of the difference between the green and red curves in (A) for all 0.5 s intervals during each trial. The red line shows difference from baseline for the positive wave direction, while the blue line for the negative wave direction.</p>
+                  <p>(EPS)</p>
+                </caption>
+                <media xlink:href="pcbi.1009827.s003.eps">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material id="pcbi.1009827.s004" position="float" content-type="local-data">
+                <label>S4 Fig</label>
+                <caption>
+                  <p>(A) Illustration of a rotating wave with increasing wavelengths at greater distances from the center of rotation (white circle). (B) Spike rates observed for long and short wavelengths, combined across all arrays for theta (left) and beta (right) traveling waves. Star indicates statistically significant difference (p&lt;0.01).</p>
+                  <p>(EPS)</p>
+                </caption>
+                <media xlink:href="pcbi.1009827.s004.eps">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material id="pcbi.1009827.s005" position="float" content-type="local-data">
+                <label>S5 Fig</label>
+                <caption>
+                  <p>(A) Percentage of wave vs non-wave instants for beta waves combined across arrays. Star indicates statistically significant difference (p&lt;0.01). (B) Plot of the phase standard deviation for wave and non-wave instants (normalized probability) observed for beta waves in the left dlPFC array of Subject 2. The red peak to the left of the blue peak corresponds to the standing wave mode, indicating oscillations that were not traveling waves but had a lower phase variance (than traveling waves) on the array.</p>
+                  <p>(EPS)</p>
+                </caption>
+                <media xlink:href="pcbi.1009827.s005.eps">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material id="pcbi.1009827.s006" position="float" content-type="local-data">
+                <label>S1 Movie</label>
+                <caption>
+                  <title>An example beta-band planar wave on the 8x8 left dlPFC array from a trial in Subject 2, corresponding to the panels in <xref rid="pcbi.1009827.g001" ref-type="fig">Fig 1</xref>.</title>
+                  <p>Each tile marks the LFP oscillation amplitude (warmer colors mean higher amplitude) at that point in time and space.</p>
+                  <p>(MP4)</p>
+                </caption>
+                <media xlink:href="pcbi.1009827.s006.mp4" mimetype="video" mime-subtype="mp4">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material id="pcbi.1009827.s007" position="float" content-type="local-data">
+                <label>S2 Movie</label>
+                <caption>
+                  <title>An example of a theta rotating wave on the 8x8 array, during the memory delay period of a trial in the right dlPFC of Subject 1.</title>
+                  <p>Each tile marks the LFP oscillation amplitude (warmer colors mean higher amplitude) at that point in time and space.</p>
+                  <p>(MP4)</p>
+                </caption>
+                <media xlink:href="pcbi.1009827.s007.mp4" mimetype="video" mime-subtype="mp4">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>We thank Jordan G. DeFarias for his technical assistance and Jesus Ballesteros, Andre Bastos, Alex Major, Morteza Moazami, Dimitris Pinotsis, and Jefferson Roy for helpful comments.</p>
+            </ack>
+            <ref-list>
+              <title>References</title>
+              <ref id="pcbi.1009827.ref001">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><name><surname>Buzsaki</surname><given-names>G.</given-names></name><article-title>Neuronal Oscillations in Cortical Networks</article-title>. <source>Science</source>. <year>2004</year><month>Jun</month><day>25</day>;<volume>304</volume>(<issue>5679</issue>):<fpage>1926</fpage>–<lpage>9</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1126/science.1099745</pub-id>
+<?supplied-pmid 15218136?><pub-id pub-id-type="pmid">15218136</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref002">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><name><surname>Womelsdorf</surname><given-names>T</given-names></name>, <name><surname>Fries</surname><given-names>P</given-names></name>, <name><surname>Mitra</surname><given-names>PP</given-names></name>, <name><surname>Desimone</surname><given-names>R</given-names></name>. <article-title>Gamma-band synchronization in visual cortex predicts speed of change detection</article-title>. <source>Nature</source>. <year>2006</year><month>Feb</month>;<volume>439</volume>(<issue>7077</issue>):<fpage>733</fpage>–<lpage>6</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1038/nature04258</pub-id>
+<?supplied-pmid 16372022?><pub-id pub-id-type="pmid">16372022</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref003">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><name><surname>Fries</surname><given-names>P.</given-names></name><article-title>A mechanism for cognitive dynamics: neuronal communication through neuronal coherence</article-title>. <source>Trends Cogn Sci</source>. <year>2005</year><month>Oct</month><day>1</day>;<volume>9</volume>(<issue>10</issue>):<fpage>474</fpage>–<lpage>80</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1016/j.tics.2005.08.011</pub-id>
+<?supplied-pmid 16150631?><pub-id pub-id-type="pmid">16150631</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref004">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><name><surname>Fries</surname><given-names>P</given-names></name>, <name><surname>Fernández</surname><given-names>G</given-names></name>, <name><surname>Jensen</surname><given-names>O</given-names></name>. <article-title>When neurons form memories</article-title>. <source>Trends Neurosci</source>. <year>2003</year><month>Mar</month><day>1</day>;<volume>26</volume>(<issue>3</issue>):<fpage>123</fpage>–<lpage>4</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1016/S0166-2236(03)00023-7</pub-id>
+<?supplied-pmid 12591213?><pub-id pub-id-type="pmid">12591213</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref005">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><name><surname>Womelsdorf</surname><given-names>T</given-names></name>, <name><surname>Schoffelen</surname><given-names>J-M</given-names></name>, <name><surname>Oostenveld</surname><given-names>R</given-names></name>, <name><surname>Singer</surname><given-names>W</given-names></name>, <name><surname>Desimone</surname><given-names>R</given-names></name>, <name><surname>Engel</surname><given-names>AK</given-names></name>, <etal>et al</etal>. <article-title>Modulation of Neuronal Interactions Through Neuronal Synchronization</article-title>. <source>Science</source>. <year>2007</year><month>Jun</month><day>15</day>;<volume>316</volume>(<issue>5831</issue>):<fpage>1609</fpage>–<lpage>12</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1126/science.1139597</pub-id>
+<?supplied-pmid 17569862?><pub-id pub-id-type="pmid">17569862</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref006">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><name><surname>Bastos</surname><given-names>AM</given-names></name>, <name><surname>Loonis</surname><given-names>R</given-names></name>, <name><surname>Kornblith</surname><given-names>S</given-names></name>, <name><surname>Lundqvist</surname><given-names>M</given-names></name>, <name><surname>Miller</surname><given-names>EK</given-names></name>. <article-title>Laminar recordings in frontal cortex suggest distinct layers for maintenance and control of working memory</article-title>. <source>Proc Natl Acad Sci</source>. <year>2018</year><month>Jan</month><day>30</day>;<volume>115</volume>(<issue>5</issue>):<fpage>1117</fpage>–<lpage>22</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1073/pnas.1710323115</pub-id>
+<?supplied-pmid 29339471?><pub-id pub-id-type="pmid">29339471</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref007">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><name><surname>Helfrich</surname><given-names>RF</given-names></name>, <name><surname>Breska</surname><given-names>A</given-names></name>, <name><surname>Knight</surname><given-names>RT</given-names></name>. <article-title>Neural entrainment and network resonance in support of top-down guided attention</article-title>. <source>Curr Opin Psychol</source>. <year>2019</year><month>Oct</month><day>1</day>;<volume>29</volume>:<fpage>82</fpage>–<lpage>9</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1016/j.copsyc.2018.12.016</pub-id>
+<?supplied-pmid 30690228?><pub-id pub-id-type="pmid">30690228</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref008">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><name><surname>Helfrich</surname><given-names>RF</given-names></name>, <name><surname>Huang</surname><given-names>M</given-names></name>, <name><surname>Wilson</surname><given-names>G</given-names></name>, <name><surname>Knight</surname><given-names>RT</given-names></name>. <article-title>Prefrontal cortex modulates posterior alpha oscillations during top-down guided visual perception</article-title>. <source>Proc Natl Acad Sci</source>. <year>2017</year><month>Aug</month><day>29</day>;<volume>114</volume>(<issue>35</issue>):<fpage>9457</fpage>–<lpage>62</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1073/pnas.1705965114</pub-id>
+<?supplied-pmid 28808023?><pub-id pub-id-type="pmid">28808023</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref009">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><name><surname>Miller</surname><given-names>EK</given-names></name>, <name><surname>Lundqvist</surname><given-names>M</given-names></name>, <name><surname>Bastos</surname><given-names>AM</given-names></name>. <article-title>Working Memory 2.0</article-title>. <source>Neuron</source>. <year>2018</year><month>Oct</month><day>24</day>;<volume>100</volume>(<issue>2</issue>):<fpage>463</fpage>–<lpage>75</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1016/j.neuron.2018.09.023</pub-id>
+<?supplied-pmid 30359609?><pub-id pub-id-type="pmid">30359609</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref010">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><name><surname>Fries</surname><given-names>P.</given-names></name><article-title>Rhythms for Cognition: Communication through Coherence</article-title>. <source>Neuron</source>. <year>2015</year><month>Oct</month><day>7</day>;<volume>88</volume>(<issue>1</issue>):<fpage>220</fpage>–<lpage>35</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1016/j.neuron.2015.09.034</pub-id>
+<?supplied-pmid 26447583?><pub-id pub-id-type="pmid">26447583</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref011">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><name><surname>Gray</surname><given-names>CM</given-names></name>, <name><surname>Singer</surname><given-names>W</given-names></name>. <article-title>Stimulus-specific neuronal oscillations in orientation columns of cat visual cortex</article-title>. <source>Proc Natl Acad Sci</source>. <year>1989</year><month>Mar</month><day>1</day>;<volume>86</volume>(<issue>5</issue>):<fpage>1698</fpage>–<lpage>702</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1073/pnas.86.5.1698</pub-id>
+<?supplied-pmid 2922407?><pub-id pub-id-type="pmid">2922407</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref012">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><name><surname>Kopell</surname><given-names>N</given-names></name>, <name><surname>Ermentrout</surname><given-names>GB</given-names></name>. <article-title>Symmetry and phaselocking in chains of weakly coupled oscillators</article-title>. <source>Commun Pure Appl Math</source>. <year>1986</year>;<volume>39</volume>(<issue>5</issue>):<fpage>623</fpage>–<lpage>60</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref013">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><name><surname>Kopell</surname><given-names>N.</given-names></name>, <article-title>Ermentrout GB. Coupled oscillators and the design of central pattern generators</article-title>. <source>Math Biosci</source>. <year>1988</year><month>Jul</month><day>1</day>;<volume>90</volume>(<issue>1</issue>):<fpage>87</fpage>–<lpage>109</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref014">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><name><surname>Muller</surname><given-names>L</given-names></name>, <name><surname>Reynaud</surname><given-names>A</given-names></name>, <name><surname>Chavane</surname><given-names>F</given-names></name>, <name><surname>Destexhe</surname><given-names>A</given-names></name>. <article-title>The stimulus-evoked population response in visual cortex of awake monkey is a propagating wave</article-title>. <source>Nat Commun</source>. <year>2014</year><month>Apr</month><day>28</day>;<volume>5</volume>(<issue>1</issue>):<fpage>3675</fpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1038/ncomms4675</pub-id><?supplied-pmid 24770473?><pub-id pub-id-type="pmid">24770473</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref015">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><name><surname>Takahashi</surname><given-names>K</given-names></name>, <name><surname>Saleh</surname><given-names>M</given-names></name>, <name><surname>Penn</surname><given-names>RD</given-names></name>, <name><surname>Hatsopoulos</surname><given-names>N</given-names></name>. <article-title>Propagating Waves in Human Motor Cortex.</article-title><source>Front Hum Neurosci.</source><year>2011</year>;<volume>5</volume>:<fpage>40</fpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.3389/fnhum.2011.00040</pub-id><?supplied-pmid 21629859?><pub-id pub-id-type="pmid">21629859</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref016">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><name><surname>Zhang</surname><given-names>H</given-names></name>, <name><surname>Jacobs</surname><given-names>J</given-names></name>. <article-title>Traveling Theta Waves in the Human Hippocampus</article-title>. <source>J Neurosci</source>. <year>2015</year><month>Sep</month><day>9</day>;<volume>35</volume>(<issue>36</issue>):<fpage>12477</fpage>–<lpage>87</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1523/JNEUROSCI.5102-14.2015</pub-id>
+<?supplied-pmid 26354915?><pub-id pub-id-type="pmid">26354915</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref017">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><name><surname>Lubenov</surname><given-names>EV</given-names></name>, <name><surname>Siapas</surname><given-names>AG</given-names></name>. <article-title>Hippocampal theta oscillations are travelling waves</article-title>. <source>Nature</source>. <year>2009</year><month>May</month>;<volume>459</volume>(<issue>7246</issue>):<fpage>534</fpage>–<lpage>9</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1038/nature08010</pub-id>
+<?supplied-pmid 19489117?><pub-id pub-id-type="pmid">19489117</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref018">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><name><surname>Sreekumar</surname><given-names>V</given-names></name>, <name><surname>Wittig</surname><given-names>JH</given-names></name>, <name><surname>Chapeton</surname><given-names>J</given-names></name>, <name><surname>Inati</surname><given-names>SK</given-names></name>, <name><surname>Zaghloul</surname><given-names>KA</given-names></name>. <article-title>Low frequency traveling waves in the human cortex coordinate neural activity across spatial scales</article-title>. <source>BioArxiv</source>; <year>2020</year><month>Mar</month>.</mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref019">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><name><surname>Muller</surname><given-names>L</given-names></name>, <name><surname>Chavane</surname><given-names>F</given-names></name>, <name><surname>Reynolds</surname><given-names>J</given-names></name>, <name><surname>Sejnowski</surname><given-names>TJ</given-names></name>. <article-title>Cortical travelling waves: mechanisms and computational principles</article-title>. <source>Nat Rev Neurosci.</source><year>2018</year><month>May</month>;<volume>19</volume>(<issue>5</issue>):<fpage>255</fpage>–<lpage>68</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1038/nrn.2018.20</pub-id>
+<?supplied-pmid 29563572?><pub-id pub-id-type="pmid">29563572</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref020">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><name><surname>Feller</surname><given-names>MB</given-names></name>, <name><surname>Butts</surname><given-names>DA</given-names></name>, <name><surname>Aaron</surname><given-names>HL</given-names></name>, <name><surname>Rokhsar</surname><given-names>DS</given-names></name>, <name><surname>Shatz</surname><given-names>CJ</given-names></name>. <article-title>Dynamic Processes Shape Spatiotemporal Properties of Retinal Waves</article-title>. <source>Neuron</source>. <year>1997</year><month>Aug</month><day>1</day>;<volume>19</volume>(<issue>2</issue>):<fpage>293</fpage>–<lpage>306</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1016/s0896-6273(00)80940-x</pub-id>
+<?supplied-pmid 9292720?><pub-id pub-id-type="pmid">9292720</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref021">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><name><surname>Watt</surname><given-names>AJ</given-names></name>, <name><surname>Cuntz</surname><given-names>H</given-names></name>, <name><surname>Mori</surname><given-names>M</given-names></name>, <name><surname>Nusser</surname><given-names>Z</given-names></name>, <name><surname>Sjöström</surname><given-names>PJ</given-names></name>, <name><surname>Häusser</surname><given-names>M</given-names></name>. <article-title>Traveling waves in developing cerebellar cortex mediated by asymmetrical Purkinje cell connectivity</article-title>. <source>Nat Neurosci</source>. <year>2009</year><month>Apr</month>;<volume>12</volume>(<issue>4</issue>):<fpage>463</fpage>–<lpage>73</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1038/nn.2285</pub-id>
+<?supplied-pmid 19287389?><pub-id pub-id-type="pmid">19287389</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref022">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><name><surname>Alamia</surname><given-names>A</given-names></name>, <name><surname>VanRullen</surname><given-names>R</given-names></name>. <article-title>Alpha oscillations and traveling waves: Signatures of predictive coding?</article-title><source>PLOS Biol</source>. <year>2019</year><month>Oct</month><day>3</day>;<volume>17</volume>(<issue>10</issue>):<fpage>e3000487</fpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1371/journal.pbio.3000487</pub-id><?supplied-pmid 31581198?><pub-id pub-id-type="pmid">31581198</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref023">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><name><surname>Davis</surname><given-names>ZW</given-names></name>, <name><surname>Muller</surname><given-names>L</given-names></name>, <name><surname>Martinez-Trujillo</surname><given-names>J</given-names></name>, <name><surname>Sejnowski</surname><given-names>T</given-names></name>, <name><surname>Reynolds</surname><given-names>JH</given-names></name>. <article-title>Spontaneous travelling cortical waves gate perception in behaving primates</article-title>. <source>Nature</source>. <year>2020</year><month>Nov</month>;<volume>587</volume>(<issue>7834</issue>):<fpage>432</fpage>–<lpage>6</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1038/s41586-020-2802-y</pub-id>
+<?supplied-pmid 33029013?><pub-id pub-id-type="pmid">33029013</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref024">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><name><surname>Kim</surname><given-names>R</given-names></name>, <name><surname>Sejnowski</surname><given-names>TJ</given-names></name>. <source>Strong inhibitory signaling underlies stable temporal dynamics and working memory in spiking neural networks</source>. <year>2020</year>;<volume>38</volume>.</mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref025">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><name><surname>Keener</surname><given-names>JP</given-names></name>. <article-title>A Geometrical Theory for Spiral Waves in Excitable Media</article-title>. <source>SIAM J Appl Math</source>. <year>1986</year><month>Dec</month>;<volume>46</volume>(<issue>6</issue>):<fpage>1039</fpage>–<lpage>56</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref026">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><name><surname>Muller</surname><given-names>L</given-names></name>, <name><surname>Piantoni</surname><given-names>G</given-names></name>, <name><surname>Koller</surname><given-names>D</given-names></name>, <name><surname>Cash</surname><given-names>SS</given-names></name>, <name><surname>Halgren</surname><given-names>E</given-names></name>, <name><surname>Sejnowski</surname><given-names>TJ</given-names></name>. <article-title>Rotating waves during human sleep spindles organize global patterns of activity that repeat precisely through the night</article-title>. <source>eLife</source>. <year>2016</year>;<volume>5</volume>:<fpage>e17267</fpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.7554/eLife.17267</pub-id><?supplied-pmid 27855061?><pub-id pub-id-type="pmid">27855061</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref027">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><name><surname>Bhattacharya</surname><given-names>S</given-names></name>, <name><surname>Iglesias</surname><given-names>PA</given-names></name>. <article-title>Controlling excitable wave behaviors through the tuning of three parameters</article-title>. <source>Biol Cybern.</source><year>2019</year><month>Apr</month>;<volume>113</volume>(<issue>1–2</issue>):<fpage>61</fpage>–<lpage>70</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1007/s00422-018-0771-0</pub-id>
+<?supplied-pmid 30056608?><pub-id pub-id-type="pmid">30056608</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref028">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><name><surname>Steinbock</surname><given-names>O</given-names></name>, <name><surname>Zykov</surname><given-names>V</given-names></name>, <name><surname>Müller</surname><given-names>SC</given-names></name>. <article-title>Control of spiral-wave dynamics in active media by periodic modulation of excitability</article-title>. <source>Nature</source>. <year>1993</year><month>Dec</month>;<volume>366</volume>(<issue>6453</issue>):<fpage>322</fpage>–<lpage>4</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref029">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><name><surname>Panfilov</surname><given-names>AV</given-names></name>, <name><surname>Müller</surname><given-names>SC</given-names></name>, <name><surname>Zykov</surname><given-names>VS</given-names></name>, <name><surname>Keener</surname><given-names>JP</given-names></name>. <article-title>Elimination of spiral waves in cardiac tissue by multiple electrical shocks</article-title>. <source>Phys Rev E</source>. <year>2000</year><month>Apr</month><day>1</day>;<volume>61</volume>(<issue>4</issue>):<fpage>4644</fpage>–<lpage>7</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1103/physreve.61.4644</pub-id>
+<?supplied-pmid 11088273?><pub-id pub-id-type="pmid">11088273</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref030">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><name><surname>Palsson</surname><given-names>E</given-names></name>, <name><surname>Lee</surname><given-names>KJ</given-names></name>, <name><surname>Goldstein</surname><given-names>RE</given-names></name>, <name><surname>Franke</surname><given-names>J</given-names></name>, <name><surname>Kessin</surname><given-names>RH</given-names></name>, <name><surname>Cox</surname><given-names>EC</given-names></name>. <article-title>Selection for spiral waves in the social amoebae Dictyostelium</article-title>. <source>Proc Natl Acad Sci</source>. <year>1997</year><month>Dec</month><day>9</day>;<volume>94</volume>(<issue>25</issue>):<fpage>13719</fpage>–<lpage>23</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1073/pnas.94.25.13719</pub-id>
+<?supplied-pmid 9391092?><pub-id pub-id-type="pmid">9391092</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref031">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><name><surname>Prechtl</surname><given-names>JC</given-names></name>, <name><surname>Cohen</surname><given-names>LB</given-names></name>, <name><surname>Pesaran</surname><given-names>B</given-names></name>, <name><surname>Mitra</surname><given-names>PP</given-names></name>, <name><surname>Kleinfeld</surname><given-names>D</given-names></name>. <article-title>Visual stimuli induce waves of electrical activity in turtle cortex</article-title>. <source>Proc Natl Acad Sci</source>. <year>1997</year><month>Jul</month><day>8</day>;<volume>94</volume>(<issue>14</issue>):<fpage>7621</fpage>–<lpage>6</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1073/pnas.94.14.7621</pub-id>
+<?supplied-pmid 9207142?><pub-id pub-id-type="pmid">9207142</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref032">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><name><surname>Ermentrout</surname><given-names>GB</given-names></name>, <name><surname>Kleinfeld</surname><given-names>D</given-names></name>. <article-title>Traveling Electrical Waves in Cortex: Insights from Phase Dynamics and Speculation on a Computational Role</article-title>. <source>Neuron</source>. <year>2001</year><month>Jan</month><day>1</day>;<volume>29</volume>(<issue>1</issue>):<fpage>33</fpage>–<lpage>44</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1016/s0896-6273(01)00178-7</pub-id>
+<?supplied-pmid 11182079?><pub-id pub-id-type="pmid">11182079</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref033">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><name><surname>Soroka</surname><given-names>G</given-names></name>, <name><surname>Idiart</surname><given-names>M</given-names></name>. <article-title>Theta, alpha and gamma traveling waves in a multi-item working memory model</article-title>. <source>ArXiv210315266 Phys Q-Bio</source>. <year>2021</year><month>Mar</month><day>28</day>;</mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref034">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><name><surname>Bastos</surname><given-names>AM</given-names></name>, <name><surname>Usrey</surname><given-names>WM</given-names></name>, <name><surname>Adams</surname><given-names>RA</given-names></name>, <name><surname>Mangun</surname><given-names>GR</given-names></name>, <name><surname>Fries</surname><given-names>P</given-names></name>, <name><surname>Friston</surname><given-names>KJ</given-names></name>. <article-title>Canonical Microcircuits for Predictive Coding</article-title>. <source>Neuron</source>. <year>2012</year><month>Nov</month><day>21</day>;<volume>76</volume>(<issue>4</issue>):<fpage>695</fpage>–<lpage>711</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1016/j.neuron.2012.10.038</pub-id>
+<?supplied-pmid 23177956?><pub-id pub-id-type="pmid">23177956</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref035">
+                <label>35</label>
+                <mixed-citation publication-type="journal"><name><surname>Genovesio</surname><given-names>A</given-names></name>, <name><surname>Tsujimoto</surname><given-names>S</given-names></name>, <name><surname>Wise</surname><given-names>SP</given-names></name>. <article-title>Neuronal Activity Related to Elapsed Time in Prefrontal Cortex</article-title>. <source>J Neurophysiol</source>. <year>2006</year><month>May</month><day>1</day>;<volume>95</volume>(<issue>5</issue>):<fpage>3281</fpage>–<lpage>5</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1152/jn.01011.2005</pub-id>
+<?supplied-pmid 16421197?><pub-id pub-id-type="pmid">16421197</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref036">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><name><surname>Narayanan</surname><given-names>NS</given-names></name>. <article-title>Ramping activity is a cortical mechanism of temporal control of action</article-title>. <source>Curr Opin Behav Sci</source>. <year>2016</year><month>Apr</month><day>1</day>;<volume>8</volume>:<fpage>226</fpage>–<lpage>30</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1016/j.cobeha.2016.02.017</pub-id>
+<?supplied-pmid 27171843?><pub-id pub-id-type="pmid">27171843</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref037">
+                <label>37</label>
+                <mixed-citation publication-type="journal"><name><surname>Donnelly</surname><given-names>NA</given-names></name>, <name><surname>Paulsen</surname><given-names>O</given-names></name>, <name><surname>Robbins</surname><given-names>TW</given-names></name>, <name><surname>Dalley</surname><given-names>JW</given-names></name>. <article-title>Ramping single unit activity in the medial prefrontal cortex and ventral striatum reflects the onset of waiting but not imminent impulsive actions</article-title>. <source>Eur J Neurosci</source>. <year>2015</year>;<volume>41</volume>(<issue>12</issue>):<fpage>1524</fpage>–<lpage>37</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1111/ejn.12895</pub-id>
+<?supplied-pmid 25892211?><pub-id pub-id-type="pmid">25892211</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref038">
+                <label>38</label>
+                <mixed-citation publication-type="journal"><name><surname>Tiganj</surname><given-names>Z</given-names></name>, <name><surname>Cromer</surname><given-names>JA</given-names></name>, <name><surname>Roy</surname><given-names>JE</given-names></name>, <name><surname>Miller</surname><given-names>EK</given-names></name>, <name><surname>Howard</surname><given-names>MW</given-names></name>. <article-title>Compressed Timeline of Recent Experience in Monkey Lateral Prefrontal Cortex.</article-title><source>J Cogn Neurosci</source>. <year>2018</year><month>Jul</month><day>1</day>;<volume>30</volume>(<issue>7</issue>):<fpage>935</fpage>–<lpage>50</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1162/jocn_a_01273</pub-id>
+<?supplied-pmid 29698121?><pub-id pub-id-type="pmid">29698121</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref039">
+                <label>39</label>
+                <mixed-citation publication-type="journal"><name><surname>Wasmuht</surname><given-names>DF</given-names></name>, <name><surname>Spaak</surname><given-names>E</given-names></name>, <name><surname>Buschman</surname><given-names>TJ</given-names></name>, <name><surname>Miller</surname><given-names>EK</given-names></name>, <name><surname>Stokes</surname><given-names>MG</given-names></name>. <article-title>Intrinsic neuronal dynamics predict distinct functional roles during working memory</article-title>. <source>Nat Commun</source>. <year>2018</year><month>Aug</month><day>29</day>;<volume>9</volume>(<issue>1</issue>):<fpage>3499</fpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1038/s41467-018-05961-4</pub-id><?supplied-pmid 30158572?><pub-id pub-id-type="pmid">30158572</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref040">
+                <label>40</label>
+                <mixed-citation publication-type="journal"><name><surname>Mongillo</surname><given-names>G</given-names></name>, <name><surname>Barak</surname><given-names>O</given-names></name>, <name><surname>Tsodyks</surname><given-names>M</given-names></name>. <article-title>Synaptic theory of working memory</article-title>. <source>Science</source>. <year>2008</year><month>Mar</month><day>14</day>;<volume>319</volume>(<issue>5869</issue>):<fpage>1543</fpage>–<lpage>6</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1126/science.1150769</pub-id>
+<?supplied-pmid 18339943?><pub-id pub-id-type="pmid">18339943</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref041">
+                <label>41</label>
+                <mixed-citation publication-type="journal"><name><surname>Bastos</surname><given-names>AM</given-names></name>, <name><surname>Lundqvist</surname><given-names>M</given-names></name>, <name><surname>Waite</surname><given-names>AS</given-names></name>, <name><surname>Kopell</surname><given-names>N</given-names></name>, <name><surname>Miller</surname><given-names>EK</given-names></name>. <article-title>Layer and rhythm specificity for predictive routing</article-title>. <source>Proc Natl Acad Sci</source>. <year>2020</year><month>Dec</month><day>8</day>;<volume>117</volume>(<issue>49</issue>):<fpage>31459</fpage>–<lpage>69</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1073/pnas.2014868117</pub-id>
+<?supplied-pmid 33229572?><pub-id pub-id-type="pmid">33229572</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref042">
+                <label>42</label>
+                <mixed-citation publication-type="journal"><name><surname>Buschman</surname><given-names>TJ</given-names></name>, <name><surname>Miller</surname><given-names>EK</given-names></name>. <article-title>Top-Down Versus Bottom-Up Control of Attention in the Prefrontal and Posterior Parietal Cortices</article-title>. <source>Science</source>. <year>2007</year><month>Mar</month><day>30</day>;<volume>315</volume>(<issue>5820</issue>):<fpage>1860</fpage>–<lpage>2</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1126/science.1138071</pub-id>
+<?supplied-pmid 17395832?><pub-id pub-id-type="pmid">17395832</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref043">
+                <label>43</label>
+                <mixed-citation publication-type="journal"><name><surname>Wutz</surname><given-names>A</given-names></name>, <name><surname>Loonis</surname><given-names>R</given-names></name>, <name><surname>Roy</surname><given-names>JE</given-names></name>, <name><surname>Donoghue</surname><given-names>JA</given-names></name>, <name><surname>Miller</surname><given-names>EK</given-names></name>. <article-title>Different Levels of Category Abstraction by Different Dynamics in Different Prefrontal Areas</article-title>. <source>Neuron</source>. <year>2018</year><month>Feb</month><day>7</day>;<volume>97</volume>(<issue>3</issue>):<fpage>716</fpage>–<lpage>726.e8</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1016/j.neuron.2018.01.009</pub-id>
+<?supplied-pmid 29395915?><pub-id pub-id-type="pmid">29395915</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref044">
+                <label>44</label>
+                <mixed-citation publication-type="journal"><name><surname>Lakatos</surname><given-names>P</given-names></name>, <name><surname>Shah</surname><given-names>AS</given-names></name>, <name><surname>Knuth</surname><given-names>KH</given-names></name>, <name><surname>Ulbert</surname><given-names>I</given-names></name>, <name><surname>Karmos</surname><given-names>G</given-names></name>, <name><surname>Schroeder</surname><given-names>CE</given-names></name>. <article-title>An Oscillatory Hierarchy Controlling Neuronal Excitability and Stimulus Processing in the Auditory Cortex</article-title>. <source>J Neurophysiol</source>. <year>2005</year><month>Sep</month>;<volume>94</volume>(<issue>3</issue>):<fpage>1904</fpage>–<lpage>11</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1152/jn.00263.2005</pub-id>
+<?supplied-pmid 15901760?><pub-id pub-id-type="pmid">15901760</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref045">
+                <label>45</label>
+                <mixed-citation publication-type="journal"><name><surname>Womelsdorf</surname><given-names>T</given-names></name>, <name><surname>Fries</surname><given-names>P</given-names></name>. <article-title>The role of neuronal synchronization in selective attention</article-title>. <source>Curr Opin Neurobiol</source>. <year>2007</year><month>Apr</month>;<volume>17</volume>(<issue>2</issue>):<fpage>154</fpage>–<lpage>60</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1016/j.conb.2007.02.002</pub-id>
+<?supplied-pmid 17306527?><pub-id pub-id-type="pmid">17306527</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref046">
+                <label>46</label>
+                <mixed-citation publication-type="journal"><name><surname>Voloh</surname><given-names>B</given-names></name>, <name><surname>Valiante</surname><given-names>TA</given-names></name>, <name><surname>Everling</surname><given-names>S</given-names></name>, <name><surname>Womelsdorf</surname><given-names>T</given-names></name>. <article-title>Theta–gamma coordination between anterior cingulate and prefrontal cortex indexes correct attention shifts</article-title>. <source>Proc Natl Acad Sci</source>. <year>2015</year><month>Jul</month><day>7</day>;<volume>112</volume>(<issue>27</issue>):<fpage>8457</fpage>–<lpage>62</lpage>. <comment>doi: </comment><pub-id pub-id-type="doi">10.1073/pnas.1500438112</pub-id>
+<?supplied-pmid 26100868?><pub-id pub-id-type="pmid">26100868</pub-id></mixed-citation>
+              </ref>
+              <ref id="pcbi.1009827.ref047">
+                <label>47</label>
+                <mixed-citation publication-type="journal"><name><surname>Chemali</surname><given-names>J.</given-names></name><source>Statistical analysis of travelling waves in the monkey primary motor cortex.</source>: <volume>17</volume>.</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

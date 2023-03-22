@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:02:31Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8028113" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8028113</identifier>
+        <datestamp>2021-04-08</datestamp>
+        <setSpec>bmcresnotes</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="brief-report">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMC Res Notes</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMC Res Notes</journal-id>
+              <journal-title-group>
+                <journal-title>BMC Research Notes</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1756-0500</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8028113</article-id>
+              <article-id pub-id-type="pmcid">PMC8028113</article-id>
+              <article-id pub-id-type="pmc-uid">8028113</article-id>
+              <article-id pub-id-type="pmid">33827666</article-id>
+              <article-id pub-id-type="publisher-id">5545</article-id>
+              <article-id pub-id-type="doi">10.1186/s13104-021-05545-4</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Note</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>The new accounting for expected adjusted effect test (AEAE test) has higher positive predictive value than a zero-order significance test</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9930-057X</contrib-id>
+                  <name>
+                    <surname>Sorjonen</surname>
+                    <given-names>Kimmo</given-names>
+                  </name>
+                  <address>
+                    <email>kimmo.sorjonen@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Nilsonne</surname>
+                    <given-names>Gustav</given-names>
+                  </name>
+                  <address>
+                    <email>gustav.nilsonne@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Melin</surname>
+                    <given-names>Bo</given-names>
+                  </name>
+                  <address>
+                    <email>bo.melin@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ingre</surname>
+                    <given-names>Michael</given-names>
+                  </name>
+                  <address>
+                    <email>michael.ingre@psychology.su.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.4714.6</institution-id><institution-id institution-id-type="ISNI">0000 0004 1937 0626</institution-id><institution>Department of Clinical Neuroscience, </institution><institution>Karolinska Institutet, </institution></institution-wrap>Stockholm, Sweden </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.10548.38</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 9377</institution-id><institution>Department of Psychology, </institution><institution>Stockholm University, </institution></institution-wrap>Stockholm, Sweden </aff>
+                <aff id="Aff3"><label>3</label>Institute for Globally Distributed Open Research and Education (IGDORE), Stockholm, Sweden </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>7</day>
+                <month>4</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>7</day>
+                <month>4</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>14</volume>
+              <elocation-id>129</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>29</day>
+                  <month>9</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>26</day>
+                  <month>3</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold>This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated in a credit line to the data.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Objective</title>
+                  <p id="Par1">The present simulation study aimed to assess positive predictive value (PPV) and negative predictive value (NPV) for our newly introduced Accounting for Expected Adjusted Effect test (AEAE test) and compare it to PPV and NPV for a traditional zero-order significance test.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p id="Par2">The AEAE test exhibited greater PPV compared to a traditional zero-order significance test, especially with a strong true adjusted effect, low prior probability, high degree of confounding, large sample size, high reliability in the measurement of predictor X and outcome Y, and low reliability in the measurement of confounder Z. The zero-order significance test, on the other hand, exhibited higher NPV, except for some combinations of high degree of confounding and large sample size, or low reliability in the measurement of Z and high reliability in the measurement of X/Y, in which case the zero-order significance test can be completely uninformative. Taken together, the findings demonstrate desirable statistical properties for the AEAE test compared to a traditional zero-order significance test.</p>
+                </sec>
+                <sec>
+                  <title>Supplementary Information</title>
+                  <p>The online version contains supplementary material available at 10.1186/s13104-021-05545-4.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Accounting for expected effect</kwd>
+                <kwd>Confounding</kwd>
+                <kwd>Negative predictive value</kwd>
+                <kwd>Positive predictive value</kwd>
+                <kwd>Prior probability</kwd>
+                <kwd>Regression analysis</kwd>
+                <kwd>Reliability</kwd>
+                <kwd>Simulation</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>Karolinska Institute</institution>
+                  </funding-source>
+                </award-group>
+                <open-access>
+                  <p>Open access funding provided by Karolinska Institute.</p>
+                </open-access>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par9">In regression analysis, it is common to include covariates to attempt to adjust for confounding variables. However, to the extent that reliability of measurement of the confounding variable is less than perfect, there will be residual confounding due to mismeasurement [<xref ref-type="bibr" rid="CR1">1</xref>–<xref ref-type="bibr" rid="CR4">4</xref>]. We have recently proposed a new test, which formally incorporates the reliability of the confounding variable: the Accounting for the Expected Adjusted Effect test (AEAE test). Using simulations, we showed that traditional regression methods with adjustment for a possible confounder often suffer from a high risk for type 1 errors, especially with large sample size, low reliability in the measurement of the confounder, and high reliability in the measurement of the predictor and the outcome [<xref ref-type="bibr" rid="CR5">5</xref>]. The AEAE test mitigates the risk of type 1 errors by calculating the expected adjusted effect (Equation (Eq. <xref rid="Equ1" ref-type="">1</xref>), where <italic>r</italic><sub><italic>XZ</italic></sub> = correlation between predictor and confounder, <italic>r</italic><sub><italic>YZ</italic></sub> = correlation between outcome and confounder, <italic>r</italic><sup><italic>2</italic></sup><sub><italic>ZZ</italic></sub> = reliability in the measurement of the confounder) and requiring that the observed adjusted effect differs significantly from this expected adjusted effect rather than from zero.<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$E|{\beta }_{XY.Z}|=\frac{{r}_{XZ}{r}_{YZ}(1-{r}_{ZZ}^{2})}{{r}_{ZZ}^{2}(1-{r}_{XZ}^{2})}$$\end{document}</tex-math><mml:math id="M2" display="block"><mml:mrow><mml:mrow><mml:mi>E</mml:mi><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>X</mml:mi><mml:mi>Y</mml:mi><mml:mo>.</mml:mo><mml:mi>Z</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:mo>=</mml:mo></mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi mathvariant="italic">XZ</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi mathvariant="italic">YZ</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msubsup><mml:mi>r</mml:mi><mml:mrow><mml:mi mathvariant="italic">ZZ</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msubsup><mml:mi>r</mml:mi><mml:mrow><mml:mi mathvariant="italic">ZZ</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msubsup><mml:mi>r</mml:mi><mml:mrow><mml:mi mathvariant="italic">XZ</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="13104_2021_5545_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula></p>
+              <p id="Par10">We have previously demonstrated that the AEAE test tends to have lower power than a traditional zero-order significance test (id est (i.e.) a test that expects the adjusted effect to be zero under the null hypothesis) in situations with a weak true adjusted effect. This advantage in power for the zero-order significance test is to a high degree due to its higher risk for type 1 errors. A test that gives significant results, i.e. falls prey to type 1 errors, in for example 80% of cases when the true effect equals zero will, of course, have a power &gt; 80% if the true effect is the tiniest bit stronger than zero. Therefore, high power cannot be seen by itself as an indication of high quality of a test, just like high sensitivity does not guarantee the usefulness of a diagnostic instrument. A similar criticism can be directed at the AEAE-test: Maybe it is good at avoiding type 1 errors (has high specificity) because it has low power to detect weak, but real, true effects. Therefore, we here investigate the predictive properties of the AEAE test.</p>
+              <p id="Par11">Positive Predictive Value (PPV) and Negative Predictive Value (NPV) are measures of the probability that a positive/negative finding indicates a true positive/negative condition, respectively. When it comes to statistical significance testing, positive/negative can be exchanged by significant/non-significant, respectively. Table <xref rid="Tab1" ref-type="table">1</xref> presents how to calculate the probabilities for the four possible outcomes when conducting a statistical significance test of a specific research hypothesis H1. The prior probability represents an estimated probability that the research hypothesis is true before conducting the significance test. This value can vary from very low for highly speculative hypotheses to high for more established and cautious hypotheses. With a significant result the PPV would be calculated as <italic>P(true positive)/(P(true positive)</italic> + <italic>P(false positive))</italic> and with a non-significant result the NPV would be calculated as <italic>P(true negative)/(P(true negative)</italic> + <italic>P(false negative))</italic>.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Probabilities for four possible outcomes in a statistical significance test of a research hypothesis.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" colspan="4">An outcome; P = 1</th></tr><tr><th align="left" colspan="2">H1 true; P = prior</th><th align="left" colspan="2">H1 false; P = 1-prior</th></tr></thead><tbody><tr><td align="left">True positive; P = prior × power</td><td align="left">False negative; P = prior × (1−power)</td><td align="left">False positive; P = (1−prior) × α</td><td align="left">True negative; P = (1−prior) × (1−α)</td></tr></tbody></table><table-wrap-foot><p>P: probability; H1: research hypothesis; α: risk for type 1-error</p></table-wrap-foot></table-wrap></p>
+              <p id="Par12">The objective of the present simulation study was to assess PPV and NPV for our newly introduced test accounting for expected adjusted effect (AEAE test) and compare it to PPV and NPV for a traditional zero-order significance test.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Main text</title>
+              <sec id="Sec3">
+                <title>Method</title>
+                <p id="Par13">The method used in this paper is largely identical to the one used in our previous study, where it is described in greater detail [<xref ref-type="bibr" rid="CR5">5</xref>]. The simulations and analyzes were conducted with R 4.0.2 statistical software [<xref ref-type="bibr" rid="CR6">6</xref>] employing the MASS package [<xref ref-type="bibr" rid="CR7">7</xref>] (see Additional file <xref rid="MOESM1" ref-type="media">1</xref>: Figure S1). In a first set of simulations, virtual participants (<italic>N</italic> = 20, 100, 500, or 2500) were allotted values, drawn from random standard distributions, on true Z, true X, true Y, observed Z, observed X, and observed Y. The true degree of confounding was controlled by manipulating the correlations between true Z (the confounder) and true X (the predictor) and true Y (the outcome). We used 0.1, 0.35, 0.6, or 0.85 as the values for these correlations (same for both) and drew a value from a random uniform distribution between 0 and 1 for the true degree of adjusted effect of true X on true Y. It should be noted that this latter value stands for the size of the true adjusted effect given that there actually is an independent association. However, it is also possible that the null hypothesis is correct. The participants were allotted observed Z, X, and Y values with a population correlation of 0.89 (corresponding to reliability 0.80) with their respective true values. In a second set of simulations, 0.4, 0.6, 0.8, and 0.99 were used as values for the reliabilities in Z and X/Y, 0.5 as the correlation between true X/Y and true Z, and 500 as sample size.</p>
+                <p id="Par14">We ran 1000 simulations for each of the 16 combinations of sample size and true degree of confounding (first set of simulations) and the 16 combinations of reliabilities in the measurement of Z and X/Y (second set), respectively. In each simulation, ordinary least squares regression was used to analyze the observed effect of X on Y, adjusting for Z. Logistic regression was used in each of the 2 × 16 combinations to calculate the function for the association between the true adjusted effect and the probability for a significant (<italic>p</italic> &lt; 0.05) observed adjusted effect. The predicted value from this function equals the risk for type 1 error (α) when true adjusted effect = 0, and equals power when true adjusted effect &gt; 0. For three different prior probabilities (0.1, 0.5, and 0.9), we calculated the probabilities for a true positive, a false negative, a false positive, and a true negative outcome, respectively, in accordance with the formulas in Table <xref rid="Tab1" ref-type="table">1</xref>. In a last step we calculated positive predictive value (PPV) and negative predictive value (NPV) in accordance with formulas mentioned in the introduction.</p>
+                <p id="Par15">The significance of the observed effect of X on Y, adjusting for Z, was calculated in two different ways. In a traditional zero-order significance test (Eq. <xref rid="Equ2" ref-type="">2</xref>), the coefficient for the adjusted effect (β<sub>XY.Z</sub>) is divided by its standard error (<italic>SE</italic>(β<sub>XY.Z</sub>)). This gives a <italic>T</italic>-value and if the corresponding <italic>p</italic>-value is significant (usually defined as <italic>p</italic> &lt; 0.05), an independent association between X and Y adjusting for Z is assumed, i.e. it is assumed to differ from zero. In the test accounting for expected adjusted effect (AEAE test), we have, instead, the difference between the observed and the expected, as given by Eq. <xref rid="Equ1" ref-type="">1</xref>, coefficients for the adjusted effect in the numerator (Eq. <xref rid="Equ3" ref-type="">3</xref>). Here a significant <italic>T</italic>-value would indicate that the observed adjusted effect differs from the expected due to spurious reasons.<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${T}_{0}=\frac{{\beta }_{XY.Z}}{SE({\beta }_{XY.Z})}$$\end{document}</tex-math><mml:math id="M4" display="block"><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>X</mml:mi><mml:mi>Y</mml:mi><mml:mo>.</mml:mo><mml:mi>Z</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mi>S</mml:mi><mml:mi>E</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>X</mml:mi><mml:mi>Y</mml:mi><mml:mo>.</mml:mo><mml:mi>Z</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="13104_2021_5545_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${T}_{AEAE}=\frac{{\beta }_{XY.Z}-E|{\beta }_{XY.Z}|}{SE({\beta }_{XY.Z})}$$\end{document}</tex-math><mml:math id="M6" display="block"><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi mathvariant="italic">AEAE</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>X</mml:mi><mml:mi>Y</mml:mi><mml:mo>.</mml:mo><mml:mi>Z</mml:mi></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:mi>E</mml:mi><mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>X</mml:mi><mml:mi>Y</mml:mi><mml:mo>.</mml:mo><mml:mi>Z</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">|</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>S</mml:mi><mml:mi>E</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>X</mml:mi><mml:mi>Y</mml:mi><mml:mo>.</mml:mo><mml:mi>Z</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="13104_2021_5545_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula></p>
+              </sec>
+              <sec id="Sec4">
+                <title>Results and discussion</title>
+                <sec id="Sec5">
+                  <title>Positive predictive value (PPV)</title>
+                  <p id="Par16">Figures <xref rid="Fig1" ref-type="fig">1</xref> and <xref rid="Fig2" ref-type="fig">2</xref> show that the AEAE test exhibits higher PPV than the zero-order significance test. The difference increases with the size of the true adjusted effect, the degree of confounding, the sample size, and the reliability in the measurement of X/Y, while the difference is attenuated by the prior probability and the reliability in the measurement of Z. For example, in Fig. <xref rid="Fig1" ref-type="fig">1</xref>, with degree of confounding = 0.6, sample size = 500, prior = 0.1, and true adjusted effect (if H1 is true) = 0.4, PPV for the zero-order significance test equals 0.225 while it equals 0.887 for the AEAE test. With a high degree of confounding in combination with a large sample size (lower right panels in Fig. <xref rid="Fig1" ref-type="fig">1</xref>), and a low reliability in the measurement of Z in combination with a high reliability in the measurement of X/Y (lower left panel in Fig. <xref rid="Fig2" ref-type="fig">2</xref>), the zero-order test is completely uninformative, as it always gives significant results irrespective of the size of the true adjusted effect, and PPV is predicted to be the same as the prior. The positive effect of accounting for expected adjusted effect on PPV is not surprising, considering the decreasing effect it was demonstrated to have on the risk for type 1 error in our previous study [<xref ref-type="bibr" rid="CR5">5</xref>].<fig id="Fig1"><label>Fig. 1</label><caption><p>Positive predictive value (PPV) for zero-order significance tests (Eq. <xref rid="Equ2" ref-type="">2</xref>) of the effect of X on Y while adjusting for Z (thick red line) as well as when accounting for the expected adjusted effect (AEAE test, Eqs. <xref rid="Equ1" ref-type="">1</xref>, <xref rid="Equ3" ref-type="">3</xref>, blue line) as functions of the true adjusted effect, separately for three different prior probabilities (different markers), four degrees of confounding (i.e. correlation between true Z and true X/Y, columns) and four sample sizes (rows). The reliability in measurement of X/Y/Z was fixed at 0.8 in these simulations</p></caption><graphic xlink:href="13104_2021_5545_Fig1_HTML" id="MO1"/></fig><fig id="Fig2"><label>Fig. 2</label><caption><p>Positive predictive value (PPV) for zero-order significance tests (Eq. <xref rid="Equ2" ref-type="">2</xref>) of the effect of X on Y while adjusting for Z (thick red line) as well as when accounting for the expected adjusted effect (AEAE test, Eqs. <xref rid="Equ1" ref-type="">1</xref>, <xref rid="Equ3" ref-type="">3</xref>, blue line) as functions of the true adjusted effect, separately for three different prior probabilities (different markers), four degrees of reliability in the measurement of Z (columns) and four degrees of reliability in the measurement of X/Y (rows). The sample size was fixed at 500 and the degree of confounding at 0.5 in these simulations</p></caption><graphic xlink:href="13104_2021_5545_Fig2_HTML" id="MO2"/></fig></p>
+                  <p id="Par17">It can be noted that the traditional zero-order significance test of an adjusted effect works best (has highest PPV) when it is least needed, i.e. with a low degree of true confounding. The AEAE test is much less sensitive to the degree of true confounding. Similarly, the PPV of the AEAE test is less sensitive to the influence of sample size and reliability in the measurements of the outcome, the predictor, and the possible confounder. Somewhat paradoxically, the PPV of the zero-order significance test decreases with an increase in sample size and the reliability in measurement of the outcome and the predictor, reflecting an increase in false positive findings. These results highlight that when the degree of confounding is moderate or high, the AEAE test can mitigate strongly against residual confounding.</p>
+                </sec>
+                <sec id="Sec6">
+                  <title>Negative predictive value (NPV)</title>
+                  <p id="Par18">Although not as large as the difference in PPV, it is apparent in Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Figure S2 and Additional file <xref rid="MOESM3" ref-type="media">3</xref>: Figure S3 that the zero-order significance test tends to have higher NPV compared to the AEAE test, at least with a high prior probability in combination with a high degree of confounding and a smallish sample size, or in combination with a low reliability in the measurement of the confounder Z. These conditions coincide with those indicated to give the zero-order test a power advantage compared to the AEAE test in our previous study [<xref ref-type="bibr" rid="CR5">5</xref>]. For example, in Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Figure S2, with degree of confounding = 0.85, sample size = 100, prior = 0.9, and true adjusted effect (if H1 is true) = 0.4, NPV for the zero-order significance test equals 0.838 while it equals 0.154 for the AEAE test. However, with a high degree of confounding in combination with a large sample size (lower right panels in Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Figure S2), and a low reliability in the measurement of Z in combination with a high reliability in the measurement of predictor X and outcome Y (lower left panel in Additional file <xref rid="MOESM3" ref-type="media">3</xref>: Figure S3), the zero-order test is completely uninformative, as it always gives significant results irrespective of the size of the true adjusted effect, and the NPV cannot be calculated.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="Sec7">
+              <title>Conclusions</title>
+              <p id="Par19">The present study demonstrates a high probability that a statistically significant effect from a traditional zero-order significance test of a predictor X on an outcome Y while adjusting for a possible confounder Z is false, i.e. falling prey to type 1 error and having low positive predictive value (PPV). This finding is consistent with a body of literature demonstrating limited reproducibility in empirical sciences [<xref ref-type="bibr" rid="CR8">8</xref>–<xref ref-type="bibr" rid="CR12">12</xref>]. We further show that this increased risk can be mitigated by calculating the expected adjusted effect and requiring the observed adjusted effect to differ significantly from this expected effect (AEAE test) rather than interpreting directly a significant deviation from zero.</p>
+              <p id="Par20">Taken together, the findings indicate desirable statistical properties for the AEAE test compared to a traditional zero-order significance test, and it is our hope that the AEAE test can contribute to alleviating the reproducibility crisis that psychology and other empirical sciences experience.</p>
+            </sec>
+            <sec id="Sec8">
+              <title>Limitations</title>
+              <p id="Par21">The presented AEAE test is, so far, only applicable to linear regression adjusting for a single confounder. However, future extension to other analyses, for example logistic and Cox regression, and to situations with more than one possible confounder, should not be impossible.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Information</title>
+              <sec id="Sec9">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="13104_2021_5545_MOESM1_ESM.pdf">
+                      <caption>
+                        <p><bold>Additional file 1: Figure S1</bold>. Illustration of the present simulation, with various degrees of confounding effects of true Z on true X/Y, various degrees of true adjusted effects of true X on true Y, and various degrees of reliability in the measurement of Z/X/Y. The significance of the effect of observed X on observed Y while adjusting for observed Z was calculated. Image is adapted from Sorjonen et al. (2020).</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM2">
+                    <media xlink:href="13104_2021_5545_MOESM2_ESM.pdf">
+                      <caption>
+                        <p><bold>Additional file 2: Figure S2</bold>. Negative predictive value (NPV) for zero-order significance tests (Eq. <xref rid="Equ2" ref-type="">2</xref>) of the effect of X on Y while adjusting for Z (thick red line) as well as when accounting for the expected adjusted effect (AEAE test, Eqs. <xref rid="Equ1" ref-type="">1</xref>, <xref rid="Equ3" ref-type="">3</xref>, blue line) as functions of the true adjusted effect, separately for three different prior probabilities (different markers), four degrees of confounding (i.e. correlation between true Z and true X/Y, columns) and four sample sizes (rows). The reliability in measurement of X/Y/Z was fixed at 0.8 in these simulations.</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM3">
+                    <media xlink:href="13104_2021_5545_MOESM3_ESM.pdf">
+                      <caption>
+                        <p><bold>Additional file 3: Figure S3</bold>. Negative predictive value (NPV) for zero-order significance tests (Eq. <xref rid="Equ2" ref-type="">2</xref>) of the effect of X on Y while adjusting for Z (thick red line) as well as when accounting for the expected adjusted effect (AEAE test, Eq. 1 and Eq. <xref rid="Equ3" ref-type="">3</xref>, blue line) as functions of the true adjusted effect, separately for three different prior probabilities (different markers), four degrees of reliability in the measurement of Z (columns) and four degrees of reliability in the measurement of X/Y (rows). The sample size was fixed at 500 and the degree of confounding at 0.5 in these simulations.</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term>AEAE</term>
+                  <def>
+                    <p id="Par3">Accounting for expected adjusted effect</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>Eq.</term>
+                  <def>
+                    <p id="Par4">Equation</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>PPV</term>
+                  <def>
+                    <p id="Par5">Positive predictive value</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>NPV</term>
+                  <def>
+                    <p id="Par6">Negative predictive value</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>i.e.</term>
+                  <def>
+                    <p id="Par7">Id est</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>SE</term>
+                  <def>
+                    <p id="Par8">Standard error</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher's Note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>Not applicable.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Authors' contributions</title>
+              <p>KS, GN, BM, and MI conceived of the presented idea. KS carried out the simulations and analyses, and wrote an initial draft. KS, GN, BM, and MI discussed the results, proposed changes, and contributed to the final manuscript. KS, GN, BM, and MI have approved the final version of the manuscript. All authors read and approved the final manuscript.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>Open access funding provided by Karolinska Institutet.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Availability of data and materials</title>
+              <p>The script, which also generates the data, is available at Open Science Framework at <ext-link ext-link-type="uri" xlink:href="https://osf.io/js3yb/">https://osf.io/js3yb/</ext-link>.</p>
+            </notes>
+            <notes>
+              <title>Declarations</title>
+              <notes>
+                <title>Ethical approval and consent to participate</title>
+                <p id="Par22">Not applicable.</p>
+              </notes>
+              <notes>
+                <title>Consent for publication</title>
+                <p id="Par23">Not applicable.</p>
+              </notes>
+              <notes notes-type="COI-statement">
+                <title>Competing interests</title>
+                <p id="Par24">The authors declare that they have no competing interests.</p>
+              </notes>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Christenfeld</surname>
+                      <given-names>NJS</given-names>
+                    </name>
+                    <name>
+                      <surname>Sloan</surname>
+                      <given-names>RP</given-names>
+                    </name>
+                    <name>
+                      <surname>Carroll</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Greenland</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Risk factors, confounding, and the illusion of statistical control</article-title>
+                  <source>Psychosom Med</source>
+                  <year>2004</year>
+                  <volume>66</volume>
+                  <fpage>868</fpage>
+                  <lpage>875</lpage>
+                  <pub-id pub-id-type="doi">10.1097/01.psy.0000140008.70959.41</pub-id>
+                  <?supplied-pmid 15564351?>
+                  <pub-id pub-id-type="pmid">15564351</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fewell</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Davey Smith</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Sterne</surname>
+                      <given-names>JAC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The impact of residual and unmeasured confounding in epidemiologic studies: a simulation study</article-title>
+                  <source>Am J Epidemiol</source>
+                  <year>2007</year>
+                  <volume>166</volume>
+                  <fpage>646</fpage>
+                  <lpage>655</lpage>
+                  <pub-id pub-id-type="doi">10.1093/aje/kwm165</pub-id>
+                  <?supplied-pmid 17615092?>
+                  <pub-id pub-id-type="pmid">17615092</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Westfall</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Yarkoni</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Statistically controlling for confounding constructs is harder than you think</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2016</year>
+                  <volume>11</volume>
+                  <fpage>e0152719</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0152719</pub-id>
+                  <?supplied-pmid 27031707?>
+                  <pub-id pub-id-type="pmid">27031707</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>D’Onofrio</surname>
+                      <given-names>BM</given-names>
+                    </name>
+                    <name>
+                      <surname>Sjölander</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Lahey</surname>
+                      <given-names>BB</given-names>
+                    </name>
+                    <name>
+                      <surname>Lichtenstein</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Öberg</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Accounting for confounding in observational studies</article-title>
+                  <source>Annu Rev Clin Psychol</source>
+                  <year>2020</year>
+                  <volume>16</volume>
+                  <fpage>25</fpage>
+                  <lpage>48</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev-clinpsy-032816-045030</pub-id>
+                  <?supplied-pmid 32384000?>
+                  <pub-id pub-id-type="pmid">32384000</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sorjonen</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Melin</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Ingre</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Accounting for expected adjusted effect</article-title>
+                  <source>Front Psychol</source>
+                  <year>2020</year>
+                  <volume>11</volume>
+                  <fpage>542082</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fpsyg.2020.542082</pub-id>
+                  <?supplied-pmid 33041911?>
+                  <pub-id pub-id-type="pmid">33041911</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <mixed-citation publication-type="other">R Core Team. R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL <ext-link ext-link-type="uri" xlink:href="https://www.R-project.org/">https://www.R-project.org/</ext-link>. 2020.</mixed-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <mixed-citation publication-type="other">Venables WN, Ripley BD. Modern applied statistics with S. Fourth Ed. New York: New York: Springer; 2002.</mixed-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ingre</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Nilsonne</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimating statistical power, posterior probability and publication bias of psychological research using the observed replication rate</article-title>
+                  <source>R Soc Open Sci</source>
+                  <year>2018</year>
+                  <volume>5</volume>
+                  <fpage>181190</fpage>
+                  <pub-id pub-id-type="doi">10.1098/rsos.181190</pub-id>
+                  <?supplied-pmid 30839704?>
+                  <pub-id pub-id-type="pmid">30839704</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ioannidis</surname>
+                      <given-names>JPA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Why most published research findings are false</article-title>
+                  <source>PLoS Med</source>
+                  <year>2005</year>
+                  <volume>2</volume>
+                  <fpage>e124</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pmed.0020124</pub-id>
+                  <?supplied-pmid 16060722?>
+                  <pub-id pub-id-type="pmid">16060722</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <collab>Open Science Collaboration</collab>
+                  </person-group>
+                  <article-title>Estimating the reproducibility of psychological science</article-title>
+                  <source>Science</source>
+                  <year>2015</year>
+                  <volume>349</volume>
+                  <fpage>aac4716</fpage>
+                  <pub-id pub-id-type="doi">10.1126/science.aac4716</pub-id>
+                  <pub-id pub-id-type="pmid">26315443</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baker</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>1,500 scientists lift the lid on reproducibility</article-title>
+                  <source>Nature</source>
+                  <year>2016</year>
+                  <volume>533</volume>
+                  <fpage>452</fpage>
+                  <lpage>454</lpage>
+                  <pub-id pub-id-type="doi">10.1038/533452a</pub-id>
+                  <?supplied-pmid 27225100?>
+                  <pub-id pub-id-type="pmid">27225100</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Begley</surname>
+                      <given-names>CG</given-names>
+                    </name>
+                    <name>
+                      <surname>Ellis</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Raise standards for preclinical cancer research</article-title>
+                  <source>Nature</source>
+                  <year>2012</year>
+                  <volume>483</volume>
+                  <fpage>531</fpage>
+                  <lpage>533</lpage>
+                  <pub-id pub-id-type="doi">10.1038/483531a</pub-id>
+                  <?supplied-pmid 22460880?>
+                  <pub-id pub-id-type="pmid">22460880</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

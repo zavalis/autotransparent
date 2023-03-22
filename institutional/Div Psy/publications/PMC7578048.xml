@@ -1,0 +1,2062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:03:01Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7578048" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7578048</identifier>
+        <datestamp>2020-10-23</datestamp>
+        <setSpec>scirep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-2322</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7578048</article-id>
+              <article-id pub-id-type="pmcid">PMC7578048</article-id>
+              <article-id pub-id-type="pmc-uid">7578048</article-id>
+              <article-id pub-id-type="pmid">33087746</article-id>
+              <article-id pub-id-type="publisher-id">74489</article-id>
+              <article-id pub-id-type="doi">10.1038/s41598-020-74489-9</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>A combined fMRI and EMG study of emotional contagion following partial sleep deprivation in young and older humans</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Tamm</surname>
+                    <given-names>Sandra</given-names>
+                  </name>
+                  <address>
+                    <email>sandra.tamm@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Schwarz</surname>
+                    <given-names>Johanna</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Thuné</surname>
+                    <given-names>Hanna</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kecklund</surname>
+                    <given-names>Göran</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Petrovic</surname>
+                    <given-names>Predrag</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Åkerstedt</surname>
+                    <given-names>Torbjörn</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Fischer</surname>
+                    <given-names>Håkan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lekander</surname>
+                    <given-names>Mats</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Nilsonne</surname>
+                    <given-names>Gustav</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.10548.38</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 9377</institution-id><institution>Stress Research Institute, Department of Psychology, </institution><institution>Stockholm University, </institution></institution-wrap>Stockholm, Sweden </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.4714.6</institution-id><institution-id institution-id-type="ISNI">0000 0004 1937 0626</institution-id><institution>Department of Clinical Neuroscience, </institution><institution>Karolinska Institutet, </institution></institution-wrap>Stockholm, Sweden </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.8756.c</institution-id><institution-id institution-id-type="ISNI">0000 0001 2193 314X</institution-id><institution>Department of Psychology, </institution><institution>University of Glasgow, </institution></institution-wrap>Glasgow, UK </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.10548.38</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 9377</institution-id><institution>Department of Psychology, </institution><institution>Stockholm University, </institution></institution-wrap>Stockholm, Sweden </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>21</day>
+                <month>10</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>21</day>
+                <month>10</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2020</year>
+              </pub-date>
+              <volume>10</volume>
+              <elocation-id>17944</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>25</day>
+                  <month>6</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>30</day>
+                  <month>9</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2020</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">Sleep deprivation is proposed to inhibit top-down-control in emotion processing, but it is unclear whether sleep deprivation affects emotional mimicry and contagion. Here, we aimed to investigate effects of partial sleep deprivation on emotional contagion and mimicry in young and older humans. Participants underwent partial sleep deprivation (3 h sleep opportunity at the end of night), crossed-over with a full sleep condition in a balanced order, followed by a functional magnetic resonance imaging and electromyography (EMG) experiment with viewing of emotional and neutral faces and ratings of emotional responses. The final sample for main analyses was <italic>n</italic> = 69 (<italic>n</italic> = 36 aged 20–30 years, <italic>n</italic> = 33 aged 65–75 years). Partial sleep deprivation caused decreased activation in fusiform gyri for angry faces and decreased ratings of happiness for all stimuli, but no significant effect on the amygdala. Older participants reported more anger compared to younger participants, but no age differences were seen in brain responses to emotional faces or sensitivity to partial sleep deprivation. No effect of the sleep manipulation was seen on EMG. In conclusion, emotional contagion, but not mimicry, was affected by sleep deprivation. Our results are consistent with the previously reported increased negativity bias after insufficient sleep.</p>
+                <p id="Par2">The Stockholm sleepy brain study: effects of sleep deprivation on cognitive and emotional processing in young and old. <ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT02000076">https://clinicaltrials.gov/ct2/show/NCT02000076</ext-link>.</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Sleep</kwd>
+                <kwd>Sleep deprivation</kwd>
+                <kwd>Amygdala</kwd>
+                <kwd>Human behaviour</kwd>
+                <kwd>Circadian rhythms and sleep</kwd>
+                <kwd>Emotion</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100004047</institution-id>
+                      <institution>Karolinska Institutet</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100004348</institution-id>
+                      <institution>Stockholms Läns Landsting</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>Isabella and Henrik Berg and the Heumanska stiftelsen/Hjärnfonden</institution>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100013346</institution-id>
+                      <institution>Stockholm Stress Center</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100004472</institution-id>
+                      <institution>Riksbankens Jubileumsfond</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100003186</institution-id>
+                      <institution>Fredrik och Ingrid Thurings Stiftelse</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>Karolinska Institute</institution>
+                  </funding-source>
+                </award-group>
+                <open-access>
+                  <p>Open Access funding provided by Karolinska Institute</p>
+                </open-access>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2020</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par3">Sleep problems are widespread, affecting about one third of the general population, of which about one in three reports serious problems<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR2">2</xref></sup>. Epidemiological studies have suggested that poor sleep is prospectively connected to psychiatric morbidity, especially depression<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>, where emotional dysfunction forms part of the symptomatology. Acute experimental sleep deprivation has been associated with decreased social emotional functions, such as slower voluntary facial responsiveness to emotional stimuli<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>, less accuracy in emotional face recognition<sup><xref ref-type="bibr" rid="CR5">5</xref>,<xref ref-type="bibr" rid="CR6">6</xref></sup>, and an increased negativity bias<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>. No study so far has investigated whether any type of sleep restriction affects emotional contagion and mimicry.</p>
+              <p id="Par4">Facial emotional signals play a vital part in human social interplay<sup><xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR9">9</xref></sup>. Lipps suggested that observation of others’ emotional expressions causes mimicry as well as a merging of emotions<sup><xref ref-type="bibr" rid="CR10">10</xref>,<xref ref-type="bibr" rid="CR11">11</xref></sup> and emotional contagion was defined by Hatfield et al.<sup><xref ref-type="bibr" rid="CR12">12</xref></sup> as ‘the tendency to automatically mimic and synchronize expressions, vocalizations, postures, and movements with those of another person and, consequently, to converge emotionally’. In other words, emotional mimicry, which can be studied by recording muscle activity from facial muscles involved in, for example, smiling<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>, constitutes a part of emotional contagion. The facial feedback hypothesis states that the facial muscles function as a feedback system for a person’s own experience of emotion<sup><xref ref-type="bibr" rid="CR14">14</xref>,<xref ref-type="bibr" rid="CR15">15</xref></sup> and it has been suggested that similar feedback signals are involved in perception of others’ emotion<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. Emotional mimicry develops early in infanthood<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>, and even though the empirical base is limited, emotional mimicry has been suggested to constitute one form of empathy<sup><xref ref-type="bibr" rid="CR15">15</xref>,<xref ref-type="bibr" rid="CR18">18</xref></sup>. To understand mechanisms behind the effect of sleep deprivation on complex social emotional functions, it is necessary to investigate both less complex low-level functions, such as emotional mimicry and contagion, and more complex functions such as empathy and emotional regulation. The Stockholm Sleepy Brain study comprised three task fMRI experiments to investigate effects of partial sleep deprivation on emotional mimicry and contagion, empathy, and emotional regulation. Results from the experiments on empathy and emotional regulation have been previously reported<sup><xref ref-type="bibr" rid="CR19">19</xref>,<xref ref-type="bibr" rid="CR20">20</xref></sup>. Here we focus on the effect of partial sleep deprivation on emotional mimicry and contagion.</p>
+              <p id="Par5">Perception and processing of both emotional and non-emotional faces have been studied repeatedly using brain imaging<sup><xref ref-type="bibr" rid="CR21">21</xref>,<xref ref-type="bibr" rid="CR22">22</xref></sup>. Such studies have reliably demonstrated activation during face processing in a set of areas in the occipital and temporal cortex<sup><xref ref-type="bibr" rid="CR23">23</xref></sup>, where the inferior occipital gyrus is related to initial perception of the face, the superior temporal sulcus is proposed to process changeable aspects of the face (lip movement, gaze direction), and the lateral fusiform area is proposed to be involved in the representation of identity<sup><xref ref-type="bibr" rid="CR23">23</xref></sup>. Processing of emotional faces involves additional areas, most importantly the amygdala, reasonably consistently activated for faces expressing fear, anxiety and sadness, but less consistently for happiness<sup><xref ref-type="bibr" rid="CR24">24</xref>–<xref ref-type="bibr" rid="CR26">26</xref></sup>. Therefore, if sleep deprivation affects emotional mimicry, a possible mechanism would be through altered amygdala reactivity, as suggested for other types of emotional processing<sup><xref ref-type="bibr" rid="CR27">27</xref>,<xref ref-type="bibr" rid="CR28">28</xref></sup>.</p>
+              <p id="Par6">In recent years, links between sleep and emotional processing have been studied from several angles, using both behavioural outcomes and neuroimaging. A much-cited neuroimaging finding is that insufficient sleep is associated with increased amygdala reactivity<sup><xref ref-type="bibr" rid="CR27">27</xref>–<xref ref-type="bibr" rid="CR30">30</xref></sup>. This was initially shown with experimental sleep deprivation for negative stimuli<sup><xref ref-type="bibr" rid="CR27">27</xref></sup> and later for fearful faces<sup><xref ref-type="bibr" rid="CR31">31</xref></sup> and a proposed mechanism was decreased connectivity between prefrontal cortex and amygdala<sup><xref ref-type="bibr" rid="CR27">27</xref></sup>. In behavioural studies, sleep deprivation has been shown to cause a negativity bias in a number of studies<sup><xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR32">32</xref>,<xref ref-type="bibr" rid="CR33">33</xref></sup>, i.e., a shift towards more negative and less positive emotion. There are however other results suggesting different interpretations, for example, showing that sleep deprived subjects had lower intensity ratings of both happy and angry faces<sup><xref ref-type="bibr" rid="CR6">6</xref></sup> and similarly, patients with insomnia have been shown to rate lower intensity of fear and sadness expressions in a face task<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. The latter results would suggest a blunting of responses rather than a shift towards negativity. Emotional contagion and mimicry, as defined above, have not been investigated after experimentally manipulating sleep. However, Brand and colleagues suggested that poor sleep as subjectively experienced among adolescents is associated with specific impairments in emotional competence and empathy (as measured with questionnaires)<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>. Moreover, Tempesta and colleagues showed that sleep deprivation was associated with lower scores on the affective and cognitive subscales of Basic Empathy Scale, while no differences were observed for implicit or explicit emotional empathy during the Multifaced Empathy Test<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>. While implicit emotional empathy in that study is relatively similar to emotional contagion, facial mimicry was not recorded.</p>
+              <p id="Par7">Not only responses to others’ faces have been studied after sleep deprivation, but also effects of sleep deprivation on the sleep deprived’s facial expression. In general, sleep deprivation is associated with being perceived as less healthy and attractive<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>. Specifically, sleep deprivation has been shown to be associated with fewer facial movements to sad and amusing film clips<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>, and slower facial electromyographic (EMG) responses to positive and negative scenes, as well as to happy and angry faces<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>. In summary, there is evidence that the perception of emotional faces, as well as facial expressions, might be altered after sleep deprivation. No study has however investigated the effect of <italic>partial</italic> sleep deprivation, an ecologically more valid condition than total sleep deprivation, on perception and responses to emotional faces, and no study has investigated the effect of any sleep manipulation on emotional contagion and mimicry using both functional magnetic resonance imaging (fMRI), ratings and EMG of facial muscles. As indicated above, studying how these low-level emotional functions are affected by short sleep might contribute to the understanding of how social interactions are affected by insufficient sleep, but also potentially contribute to the understanding of how sleep problems can lead to for example depressive symptoms<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>.</p>
+              <p id="Par8">Most studies of sleep deprivation and emotional functioning have been performed in young healthy participants. We have shown in several publications that effects of sleep restriction generalize poorly across age groups<sup><xref ref-type="bibr" rid="CR19">19</xref>,<xref ref-type="bibr" rid="CR20">20</xref>,<xref ref-type="bibr" rid="CR39">39</xref></sup>. Older and younger participants respond differently not only to emotional stimuli per se, but also to a sleep manipulation<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>. Since aging is associated with less accuracy in recognising emotions<sup><xref ref-type="bibr" rid="CR41">41</xref>,<xref ref-type="bibr" rid="CR42">42</xref></sup> and a positivity bias for emotion<sup><xref ref-type="bibr" rid="CR43">43</xref></sup>, as well as entailing decreased sensitivity to sleep deprivation<sup><xref ref-type="bibr" rid="CR44">44</xref></sup>, age differences could also explain some of the inconsistencies in previous data. We here included both younger and older adult participants, to increase generalizability and to explore if aging is associated with changed responses to partial sleep deprivation, for emotional contagion and mimicry. Another factor that might contribute to the inconsistency in previous literature is the use of different types of sleep manipulations, such as partial or total sleep deprivation or correlational analyses based on recordings of habitual sleep. Since partial sleep deprivation might be more similar to common sleep disturbance but still allows experimental control, here we investigated emotional contagion and mimicry after experimentally inducing partial sleep deprivation. Based on the partly inconsistent literature reported above, we expected sleep restriction to be associated with a negativity bias for emotional ratings<sup><xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR32">32</xref></sup>, a less sensitive facial feedback system<sup><xref ref-type="bibr" rid="CR4">4</xref>,<xref ref-type="bibr" rid="CR38">38</xref></sup> and increased amygdala reactivity to emotional faces<sup><xref ref-type="bibr" rid="CR27">27</xref>,<xref ref-type="bibr" rid="CR31">31</xref></sup>.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Aims</title>
+              <p id="Par9">We aimed to investigate the effect of partial sleep deprivation on emotional contagion and facial emotional mimicry. The main hypotheses [a full list of pre-specified hypotheses and an analysis plan can be found at the Open Science Framework (<ext-link ext-link-type="uri" xlink:href="https://osf.io/zuf7t/">https://osf.io/zuf7t/</ext-link>)] were that: (1) Partial sleep deprivation will cause decreased emotional contagion, measured as ratings of happiness and increased ratings of anger in response to emotional faces, i.e. a negativity bias. (2) Partial sleep deprivation will cause decreased emotional mimicry, measured as activity in <italic>M. corrugator</italic> and in <italic>M. zygomaticus</italic> during exposure to both happy and angry faces, i.e. a less sensitive facial feedback system. (3) Angry and happy faces will cause greater blood oxygen dependent (BOLD) responses in the amygdala and fusiform gyrus than neutral faces and PSD will interact with this effect to cause greater increases to angry faces (in line with the findings of Yoo et al.<sup><xref ref-type="bibr" rid="CR27">27</xref></sup> and Motomura et al.<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>), whereas the direction of the interaction effect is not specified for happy faces. Additionally, we aimed to explore the difference between younger and older participants for all the main outcomes as well as the interaction between aging and sleep deprivation for emotional contagion and mimicry.</p>
+            </sec>
+            <sec id="Sec3">
+              <title>Methods</title>
+              <sec id="Sec4">
+                <title>Study design</title>
+                <p id="Par10">The present study reports findings from one of the experimental tasks from the Stockholm Sleepy Brain Study 1. The Stockholm Sleepy Brain Study 1 was an experiment on the effects of partial sleep deprivation (3 h of sleep) in younger (20–30 years) and older (65–75 years) healthy participants, in a randomised cross-over design. We have previously published a detailed description of study procedures and the resulting dataset<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>. Other reports based on the same dataset describe resting state connectivity<sup><xref ref-type="bibr" rid="CR46">46</xref></sup>, polysomnography data<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>, empathy<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>, emotional regulation<sup><xref ref-type="bibr" rid="CR19">19</xref></sup> and morphometry<sup><xref ref-type="bibr" rid="CR47">47</xref></sup>. The study was approved by the Regional Ethics Review board of Stockholm (2012/1565-32 and 2012/1870-32) and all participants gave written informed consent. Experiments were performed in accordance with the Declaration of Helsinki and applicable local regulations. The project was preregistered at clinicaltrials.gov (<ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT02000076">https://clinicaltrials.gov/ct2/show/NCT02000076</ext-link>), registration number NCT02000076, registered on 03/12/2013.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Participants</title>
+                <p id="Par11">As described in Nilsonne et al.<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>, participants were recruited by poster advertising on campus sites in Stockholm, on the studentkaninen.se website, and through newspaper ads. Putative participants were screened for inclusion/exclusion criteria using an online form and eligibility was confirmed in an interview upon arrival to the scanning site. Criteria for inclusion were, first, those required to undergo fMRI procedures and to use the hand-held response box, namely: no ferromagnetic items in body, not claustrophobic, not pregnant, no refractive error exceeding 5 dioptres, not color-blind, and right-handed. In addition, participants were required to be 20–30 or 65–75 years old (inclusive), to have no current or past psychiatric or neurological illness, including addiction, to not have hypertension or diabetes, to not use psychoactive or immune-modulatory drugs, to not use nicotine every day, and to have a habitual daily caffeine intake corresponding to 4 cups of coffee at most. A further criterion was to not study, have studied, or be occupied in the fields of psychology, behavioural science, or medicine, including nursing and other allied fields. The Insomnia Severity Index (ISI)<sup><xref ref-type="bibr" rid="CR48">48</xref>,<xref ref-type="bibr" rid="CR49">49</xref></sup>, the depression subscale of the Hospital Anxiety and Depression scale (HADS)<sup><xref ref-type="bibr" rid="CR50">50</xref>,<xref ref-type="bibr" rid="CR51">51</xref></sup> and the Karolinska Sleep Questionnaire (KSQ)<sup><xref ref-type="bibr" rid="CR52">52</xref></sup> were used to exclude participants with insomnia symptoms or depression, irregular sleep patterns, or excessive snoring. The HADS scale assesses symptoms of depression and anxiety and we excluded anyone reporting ≥ 8 on the depression subscale. The ISI measures insomnia symptoms and we excluded participants rating 15 or above. For KSQ, we excluded all participants reporting snoring or sleep apnea symptoms more than 3 times a week. For practical reasons, participants were also required to understand and speak Swedish fluently and to live in the greater Stockholm area. Participants were paid 2500 SEK (approx. 280 Euro/360 USD), subject to tax. They were also offered taxi travel to and from the MRI imaging centre, in order to avoid traffic incidents following sleep deprivation. The full sample consisted of 47 younger and 39 older participants, but because of drop out after enrolment, data loss (including participants where parts of the amygdala had fallen outside the field of view, see below), unsuccessful interventions (described in detail in Refs.<sup><xref ref-type="bibr" rid="CR20">20</xref>,<xref ref-type="bibr" rid="CR45">45</xref></sup>) and movement in the scanner and failed normalisation (see below) the number of participants included for fMRI analyses of the effect of the intervention was 36 younger and 33 older.</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Sleep measures</title>
+                <p id="Par12">As described in Ref.<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>, healthy volunteers underwent MRI scanning on two occasions approximately one month apart after normal sleep and partial sleep deprivation in a counter-balanced and randomized fashion. In the sleep restriction condition, participants were instructed to sleep 3 h in the end of their normal sleep period. As described in Åkerstedt et al.<sup><xref ref-type="bibr" rid="CR40">40</xref></sup> and in Nilsonne et al.<sup><xref ref-type="bibr" rid="CR45">45</xref>,<xref ref-type="bibr" rid="CR46">46</xref></sup> polysomnography (PSG) recording took place in the homes of the participants during both the experimental and the control nights, using a solid state, portable sleep recorder (Embla system for the majority of recordings and Vitaport system for a few). Standard electrode (silver/silver chloride) montage for EEG sleep recording was used (C3, C4 referenced to the contralateral mastoid). Additionally, two sub-mental electrodes were used for electromyography (EMG) and one electrode at each of the outer canthi of the eyes were used for electrooculography (EOG). Sleep staging and respiratory analyses were performed according to the classification criteria of the AASM<sup><xref ref-type="bibr" rid="CR53">53</xref></sup> and as implemented in the Siesta group computer assisted scoring procedure<sup><xref ref-type="bibr" rid="CR54">54</xref></sup>. For analyses of intervention effects, we only included participants who fulfilled previously reported criteria of having slept &lt; 4 h in the sleep deprivation condition, and a difference between the two conditions &gt; 2 h<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>.</p>
+              </sec>
+              <sec id="Sec7">
+                <title>Experimental paradigm and ratings of happiness and anger</title>
+                <p id="Par13">MRI scanning took place in evening following the sleep intervention and control nights, starting between 5 and 8 p.m. To investigate facial emotional mimicry, participants were presented with images of facial expressions (happy, angry, or neutral), presented in blocks of 20 images (Fig. <xref rid="Fig1" ref-type="fig">1</xref>), using the Presentation software (Neurobehavioural Systems, Berkeley, CA, USA) through goggles (NordicNeuroLab, Bergen, Norway) adjusted for participants’ vision. Each block contained images with the same emotion, and blocks were arranged in sets of three: happy-neutral-happy or angry-neutral-angry. Each block contained 20 images and each stimulus was shown for 0.5 s with a 0.5 s inter-stimulus interval. In total, participants were presented with 12 blocks of images (4 happy, 4 angry and 4 neutral). In this manner, the total number of images with each expression was balanced over the experiment. Between every set of three blocks (i.e. 4 times in total), participants were asked to rate how happy they felt and how angry they felt, using a visual analogue scale ranging from 0 to 100 using a hand-held response box. The questions read “How happy do you feel?” and “How angry do you feel?” respectively. The cursor was initially shown at 0 and the scale was shown until response. The final number of participants for ratings of happiness and anger was 43 young and 34 older participants. Images were from the Karolinska Directed Emotional Faces (KDEF) stimulus set<sup><xref ref-type="bibr" rid="CR55">55</xref></sup>. The same set of stimuli were used for both sleep conditions, but the order of presentation was counter-balanced across participants and conditions. Code for stimulus presentation is available at <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.235595">https://doi.org/10.5281/zenodo.235595</ext-link>. Additionally, participants provided ratings of positive and negative affect, presented in the Supplementary Information.<fig id="Fig1"><label>Figure 1</label><caption><p>Experimental paradigm (adapted from Nilsonne et al. 2016). Between every set of three, participants were asked to rate how happy they felt and how angry they felt, using a visual analogue scale ranging from 0 to 100. The face shown in the figure is one of the stimuli (AF01HAS) from the KDEF data base that was used in the experiment<sup><xref ref-type="bibr" rid="CR55">55</xref></sup>. Written consent exists for the publication of KDEF sample images in scientific papers; see <ext-link ext-link-type="uri" xlink:href="https://www.kdef.se/home/using%20and%20publishing%20kdef%20and%20akdef.html">https://www.kdef.se/home/using%20and%20publishing%20kdef%20and%20akdef.html</ext-link>.</p></caption><graphic xlink:href="41598_2020_74489_Fig1_HTML" id="MO1"/></fig></p>
+              </sec>
+              <sec id="Sec8">
+                <title>Electromyography (EMG)</title>
+                <p id="Par14">EMG was used to measure facial mimicry, i.e. muscle activity corresponding to smiling (major zygomatic muscle) and frowning (superciliary corrugator muscle) in response to emotional faces<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. As reported in Nilsonne et al.,<sup><xref ref-type="bibr" rid="CR45">45</xref></sup> EMG was recorded using pre-gelled circular 1 cm-diameter radiotranslucent electrodes on 3.8 cm circular vinyl backing. Electrodes were placed over the major zygomatic and superciliary corrugator muscles according to established guidelines<sup><xref ref-type="bibr" rid="CR56">56</xref></sup>. Radiotranslucent clip leads were connected through a patch panel connector to Biopac EMG amplifiers in the control room. Following a recently proposed method to remove scanner noise<sup><xref ref-type="bibr" rid="CR57">57</xref></sup>, EMG signals were processed using a comb band stop filter with a base frequency corresponding to the number of slices/TR. Furthermore, a 30–300 Hz band pass filter was applied to exclude electrical activity not originating in muscle, and a 49–51 Hz band stop filter was used to remove line frequency noise. Zygomatic and corrugator signals were orthogonalised onto one another in order to remove overbleed and shared signal artifacts. EMG responses were binned into 1-s intervals during stimulus presentation. We rejected 3 recordings due to missing reference signals for event onsets. Data were inspected, and excessively noisy recordings after orthogonalisation were discarded (zygomatic channel: n = 5, corrugator channel: n = 30). The final sample for analysis of intervention was, for the zygomatic channel, 124 recordings from 67 participants (38 younger and 29 older), and for the corrugator channel, 103 recordings from 64 participants (37 younger and 28 older).</p>
+              </sec>
+              <sec id="Sec9">
+                <title>MRI acquisition</title>
+                <p id="Par15">We used a General Electric Discovery 3 T MRI scanner with an 8-channel head coil. Echo-planar images were acquired using the following settings: flip angle 75, TE 30, TR 2.5 s, field of view 28.8 cm, slice thickness 3 mm, 49 slices, interleaved bottom → up. This sequence was chosen to optimise imaging of the amygdala and did not give whole-brain coverage. As described in Ref.<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>, participants with less than 90% amygdala coverage were not included in this sample. The lowest slice was placed at the superior border of the pons. Five dummy volumes were run before recording began. We used higher-order shimming, where the volume of interest was restricted to a manually defined ellipsoid covering approximately the cerebrum. T1-weighted anatomical scans were acquired with a sagittal BRAVO sequence, field of view 24 cm, slice thickness 1 mm, flip angle 11, inversion time 450, interleaved bottom → up.</p>
+              </sec>
+              <sec id="Sec10">
+                <title>fMRI preprocessing</title>
+                <p id="Par16">Data were preprocessed in SPM12. Functional images were slice time corrected, realigned, normalized using DARTEL<sup><xref ref-type="bibr" rid="CR58">58</xref></sup> and spatially smoothed with a 8 × 8 × 8 mm kernel. One participant was excluded due to excessive head motion and one due to failed normalisation. One subject was excluded due to large signal loss. To reduce the risk of motion confounding, realignment parameters were carried forward as regressors of no interest in 1st-level analyses. Quality control was performed by manual inspection of raw structural and functional images, of segmentation results, and of head motion time courses. The final functional mask did not have full-brain coverage; it may be viewed at <ext-link ext-link-type="uri" xlink:href="https://neurovault.org/collections/RLWUZRQN/images/54122/">https://neurovault.org/collections/RLWUZRQN/images/54122/</ext-link>.</p>
+              </sec>
+              <sec id="Sec11">
+                <title>fMRI analysis</title>
+                <p id="Par17">1st level analyses were performed in SPM12 using linear regression at each voxel, using generalized least squares with a global approximate AR(1) autocorrelation model. The following contrasts were modelled: happy vs neutral, angry vs neutral, happy vs angry, happy versus implicit baseline (IB), i.e. blank screen, fixation cross etc., angry vs IB, neutral vs IB, happy and angry vs IB, and happy, neutral, and angry vs IB, contrasts including an implicit baseline were ad hoc analyses to investigate possible effects related to viewing of faces in general.</p>
+                <p id="Par18">2nd level analyses were performed in SPM12 using linear regression at each voxel, using generalized least squares with a global repeated measures correlation model. To confirm the presence of expected main effects from the experimental paradigm, we first performed whole-brain analyses.</p>
+                <p id="Par19">The main analyses focused on regions of interest (ROI:s) specified in the study preregistration. Amygdalae were defined using the Jülich atlas<sup><xref ref-type="bibr" rid="CR59">59</xref></sup>. Fusiform face area ROI:s were defined based on Henson and Mouchlinaitis<sup><xref ref-type="bibr" rid="CR60">60</xref></sup> as spheres with 6 mm diameter centered on top coordinates. All ROI:s can be visualised and downloaded from <ext-link ext-link-type="uri" xlink:href="https://neurovault.org/collections/RLWUZRQN/">https://neurovault.org/collections/RLWUZRQN/</ext-link>. Mean contrast estimates were determined for each region of interest and contrast of interest [happy vs neutral, angry vs neutral, happy vs angry, happy versus implicit baseline (IB), i.e. blank screen, fixation cross etc., angry vs IB, neutral vs IB, happy and angry vs IB, and happy, neutral, and angry vs IB] and were analysed using mixed-effects models in R, see below.</p>
+                <p id="Par20">As secondary analyses, we investigated whole-brain effects of sleep deprivation and age group. We conducted a paired <italic>t</italic> test comparing the full sleep and sleep deprived conditions across both age groups and a two sample <italic>t</italic> tests to compare younger and older subjects.</p>
+                <p id="Par21">Connectivity was investigated through a psycho-physiological interaction (PPI) approach. Seeds were based in bilateral amygdalae on the top coordinates from the contrast happy, neutral, and angry &gt; baseline in the full sleep condition, with a 6 mm sphere around. Time courses for the BOLD signal were extracted from these seeds and entered into PPI models with the contrast happy, neutral, and angry &gt; baseline and the PPI interaction term at first level. At second level one sample t tests were performed to investigate any change in connectivity related to viewing faces for the two sleep conditions separately. No regions displayed a significant increase in connectivity from amygdala in response to seeing faces and therefore no further analyses of connectivity were performed, since the paradigm was not judged sensitive enough to capture changes in connectivity.</p>
+              </sec>
+              <sec id="Sec12">
+                <title>Pupil diameter and heart rate</title>
+                <p id="Par22">Pupil diameter and heart rate were measured during the experiment as a measure of autonomic activity. Eye-blinks and noise were removed, as described in detail in the supplement and an average response of pupil height and width was analysed for each type of block. Heart rate was determined based on recorded pulse events and time courses were inspected for each participant and recordings judged as excessively noisy were excluded. An average response per block was calculated. Details about the analyses of pupil responses and heart rate, as well as the results from these analyses are presented in the supplement.</p>
+              </sec>
+              <sec id="Sec13">
+                <title>Statistical methods</title>
+                <p id="Par23">For ratings of happiness and anger, one mixed effects model was fitted for each type of emotion (happiness/anger) as the dependent variable, with block type, sleep condition and age group as fixed effects (allowed to interact) and a random intercept for each participant, with session nested within participant. For EMG responses, random intercepts were specified for each block, nested in session, nested in participant. For analyses of ROI data, we built separate models for each ROI contrast value estimate of interest which was included as a dependent variable and sleep condition and age group as fixed effects. A random intercept was included for each participant. Mixed-effects models were used in R<sup><xref ref-type="bibr" rid="CR61">61</xref></sup> with the nlme package<sup><xref ref-type="bibr" rid="CR62">62</xref></sup>. For all mixed-effects models, contrasts were deviation coded. Where preregistered hypotheses predicted directional effects, one-sided <italic>p</italic> values are reported. We used a statistical significance threshold of α = 0.05 throughout because this is a conventional threshold and because we did not have sufficiently quantifiable prior probabilities to differentiate significance thresholds between different hypotheses under investigation. However, we have indicated which of the analyses that represent post-hoc analyses in the tables. All script for analyses of EMG, ratings, heart rate and pupil diameter can be found at: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.3821968">https://doi.org/10.5281/zenodo.3821968</ext-link>.</p>
+              </sec>
+            </sec>
+            <sec id="Sec14">
+              <title>Results</title>
+              <sec id="Sec15">
+                <title>Participants</title>
+                <p id="Par24">The final number of participants available for analyses of fMRI data was 38 young and 34 older participants (for intervention effects 36 young and 33 older participants were included). Demographics are given in Table <xref rid="Tab1" ref-type="table">1</xref>. Results from polysomnography recordings are previously published in Ref.<sup><xref ref-type="bibr" rid="CR40">40</xref></sup> but the information regarding sleep for the current sample is provided in Table <xref rid="Tab1" ref-type="table">1</xref>. As previously reported, sleep deprivation caused a significant increase in self-rated sleepiness<sup><xref ref-type="bibr" rid="CR40">40</xref>,<xref ref-type="bibr" rid="CR46">46</xref></sup>.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Participant characteristics and sleep measures. Sleep measures are shown in minutes except for sleep efficiency that is shown as %. <italic>SD</italic> standard deviation, <italic>BMI</italic> Body Mass Index, <italic>ISI</italic> Insomnia Severity Index, <italic>HADS</italic> Hospital Anxiety and Depression.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">Young</th><th align="left">Older</th></tr></thead><tbody><tr><td align="left">n</td><td align="left">38</td><td align="left">34</td></tr><tr><td align="left">Age, median (range)</td><td align="left">23 (20–29)</td><td align="left">68 (65–75)</td></tr><tr><td align="left">Sex, n male, n female</td><td align="left">17, 21</td><td align="left">15, 19</td></tr><tr><td align="left">BMI at first scanning (mean, SD)</td><td align="left">22.6 (3.3)</td><td align="left">24.7 (3.6)</td></tr><tr><td align="left">Completed primary education (n)</td><td align="left">0</td><td align="left">3</td></tr><tr><td align="left">Completed secondary education (n)</td><td align="left">9</td><td align="left">15</td></tr><tr><td align="left">Currently enrolled in tertiary education (n)</td><td align="left">25</td><td align="left">1</td></tr><tr><td align="left">Completed tertiary education (n)</td><td align="left">4</td><td align="left">15</td></tr><tr><td align="left">ISI (mean, SD)</td><td align="left">10.6 (2.1)</td><td align="left">9.1 (1.5)</td></tr><tr><td align="left">HADS-Depression (mean, SD)</td><td align="left">1.1 (1.4)</td><td align="left">1.1 (1)</td></tr><tr><td align="left">Total sleep time (min), full sleep (mean, SD)</td><td align="left">440.2 (75.1)</td><td align="left">400.3 (62.3)</td></tr><tr><td align="left">Total sleep time (min), partial sleep deprivation (mean, SD)</td><td align="left">180 (23.9)</td><td align="left">158.8 (32.5)</td></tr><tr><td align="left">NREM (min), full sleep (mean, SD)</td><td align="left">353 (58.7)</td><td align="left">321.6 (61.6)</td></tr><tr><td align="left">NREM (min), partial sleep deprivation (mean, SD)</td><td align="left">154.5 (23.1)</td><td align="left">132.8 (29.7)</td></tr><tr><td align="left">N3 (min), full sleep (mean, SD)</td><td align="left">102.9 (33.1)</td><td align="left">44.6 (33.9)</td></tr><tr><td align="left">N3 (min), partial sleep deprivation (mean, SD)</td><td align="left">70.5 (16.7)</td><td align="left">27.2 (24.8)</td></tr><tr><td align="left">N2 (min), full sleep (mean, SD)</td><td align="left">187.8 (50.8)</td><td align="left">187.6 (45)</td></tr><tr><td align="left">N2 (min), partial sleep deprivation (mean, SD)</td><td align="left">65.6 (23)</td><td align="left">72.8 (22.6)</td></tr><tr><td align="left">N1 (min), full sleep (mean, SD)</td><td align="left">62.3 (29.9)</td><td align="left">89.5 (36.6)</td></tr><tr><td align="left">N1 (min), partial sleep deprivation (mean, SD)</td><td align="left">18.4 (9.7)</td><td align="left">32.8 (13.6)</td></tr><tr><td align="left">REM sleep (min), full sleep (mean, SD)</td><td align="left">87.2 (30.4)</td><td align="left">78.7 (35.)</td></tr><tr><td align="left">REM sleep (min), partial sleep deprivation (mean, SD)</td><td align="left">25.5 (12.2)</td><td align="left">26 (18.8)</td></tr><tr><td align="left">Sleep efficiency (%), full sleep (mean, SD)</td><td align="left">93.6 (4.2)</td><td align="left">85.8 (9.2)</td></tr><tr><td align="left">Sleep efficiency (%), partial sleep deprivation (mean, SD)</td><td align="left">94.7 (3.8)</td><td align="left">85.7 (11.8)</td></tr><tr><td align="left">Sleep latency (min), full sleep (mean, SD)</td><td align="left">9 (8.4)</td><td align="left">10.4 (10.1)</td></tr><tr><td align="left">Sleep latency (min), partial sleep deprivation (mean, SD)</td><td align="left">5.2 (4.4)</td><td align="left">9.9 (15.6)</td></tr><tr><td align="left">N3 latency (min), full sleep (mean, SD)</td><td align="left">17.9 (7.3)</td><td align="left">50.4 (65.5)</td></tr><tr><td align="left">N3 latency (min), partial sleep deprivation (mean, SD)</td><td align="left">13.2 (3.1)</td><td align="left">33.9 (31.6)</td></tr><tr><td align="left">REM latency (min), full sleep (mean, SD)</td><td align="left">109.1 (46.1)</td><td align="left">82.1 (40.4)</td></tr><tr><td align="left">REM latency (min), partial sleep deprivation (mean, SD)</td><td align="left">83.7 (34.5)</td><td align="left">63.1 (32.3)</td></tr></tbody></table></table-wrap></p>
+              </sec>
+              <sec id="Sec16">
+                <title>Rated emotional experience</title>
+                <p id="Par25">Participants rated their happiness and anger after blocks of angry and happy faces on a visual analogue scale (0–100). We analysed responses in a mixed-effects regression model with block type, deprivation condition, and age group as fixed effects, and a random-effects intercept for each participant. Happy stimulus blocks caused increased rated happiness compared to angry stimulus blocks (20.6 [95% CI 18.0, 23.2], <italic>p</italic> &lt; 0.0001) and decreased rated anger compared to angry stimulus blocks (− 13.7 [95% CI − 16.2, − 11.1], <italic>p</italic> &lt; 0.0001), as expected, all numbers representing effect estimates in original units with 95% CI.</p>
+                <p id="Par26">The main effect of sleep deprivation on rated happiness was − 4.2 [− 8.3, − 0.1], <italic>p</italic> = 0.02 (one-sided), confirming the hypothesis that sleep deprivation would cause lower ratings of happiness. The main effect of older age group was 3.0 [− 2.8, 8.9], <italic>p</italic> = 0.31, and the interaction between sleep deprivation and age group was 1.3 [− 6.8, 9.5], <italic>p</italic> = 0.74 (Fig. <xref rid="Fig2" ref-type="fig">2</xref>).<fig id="Fig2"><label>Figure 2</label><caption><p>Rated emotional experience, model estimates with 95% confidence estimates.</p></caption><graphic xlink:href="41598_2020_74489_Fig2_HTML" id="MO2"/></fig></p>
+                <p id="Par27">The main effect of sleep deprivation on rated anger was − 0.9 [− 5.5, 3.8], <italic>p</italic> = 0.71, failing to support the hypothesis that sleep deprivation would cause higher ratings of anger. The main effect of older age group on rated anger was 16.7 [10.3, 23.0], <italic>p</italic> &lt; 0.0001; and the interaction between sleep deprivation and age group was 4.8 [− 4.5, 14.0], <italic>p</italic> = 0.31 (Fig. <xref rid="Fig2" ref-type="fig">2</xref>). Analyses of habituation of ratings and possible covariates to the ratings are presented in <xref rid="MOESM1" ref-type="media">Supplementary Information</xref>.</p>
+              </sec>
+              <sec id="Sec17">
+                <title>Mimicry</title>
+                <p id="Par28">As reported in Nilsonne et al.,<sup><xref ref-type="bibr" rid="CR45">45</xref></sup> the effect of happy faces on EMG activity across conditions and age groups over the major zygomatic muscle was 0.0047 µV [0.0001, 0.0093], p = 0.02 (one-sided), and over the corrugator muscle was − 0.0217 µV [− 0.0657, 0.0222], p = 0.17 (one-sided). The effect of angry faces on EMG activity over the major zygomatic muscle was − 0.0002 µV [− 0.0048, 0.0044], p = 0.47 (one-sided), and over the corrugator muscle was 0.0255 [− 0.0185, 0.0695], p = 0.13 (one-sided). These results are consistent with detection of emotional mimicry by EMG during fMRI scanning with this paradigm, particularly for the major zygomatic muscle in response to happy faces.</p>
+                <p id="Par29">In a mixed-effects model with stimulus (happy, neutral, angry), condition (sleep deprivation, full sleep) and age group (young, older) as fixed effects, no strong effects were seen for zygomatic responses except a main effect of happy faces (0.0057 µV [0.0006, 0.0108], <italic>p</italic> = 0.015 (one-sided); Fig. <xref rid="Fig3" ref-type="fig">3</xref>). For corrugator responses, no major effects of sleep deprivation nor of age group were seen. The main effect of angry faces was 0.0254 µV [− 0.0075, 0.0585], <italic>p</italic> = 0.065. Thus, partial sleep deprivation did not affect facial muscle activity in response to emotional or neutral faces. Analyses of habituation of EMG responses and possible covariates to the responses are presented in <xref rid="MOESM1" ref-type="media">Supplementary Information</xref>.<fig id="Fig3"><label>Figure 3</label><caption><p>EMG activity, model estimates with 95% confidence estimates.</p></caption><graphic xlink:href="41598_2020_74489_Fig3_HTML" id="MO3"/></fig></p>
+              </sec>
+              <sec id="Sec18">
+                <title>fMRI main effects of conditions</title>
+                <p id="Par30">We investigated activation of the amygdala and fusiform gyrus in response to emotional faces. Regions of interest are shown in Fig. <xref rid="Fig4" ref-type="fig">4</xref>. We found that angry faces caused increased activation in the fusiform gyrus compared to neutral and happy faces (Table <xref rid="Tab2" ref-type="table">2</xref>) whereas no strong effect was observed in the amygdala (Table <xref rid="Tab3" ref-type="table">3</xref>). As a follow-up analysis focusing on the fusiform gyrus, we also compared the different emotional expressions to implicit baseline, finding strong effects of all contrasts (Table <xref rid="Tab2" ref-type="table">2</xref>). As a post-hoc exploratory analysis, we investigated the same contrasts for the amygdala also, finding similarly strong effects of all contrasts (Table <xref rid="Tab3" ref-type="table">3</xref>). Whole-brain results are reported in Supplementary Table <xref rid="MOESM1" ref-type="media">1</xref>.<fig id="Fig4"><label>Figure 4</label><caption><p>Regions of interest, shown on gray matter mask including only voxels with complete coverage across all participants. Left: amygdala ROI:s from Jülich atlas. Right: fusiform face area ROI:s from Henson and Mouchlinaitis 2007; spherical centered on top coordinates. ROI:s can be visualised and downloaded from <ext-link ext-link-type="uri" xlink:href="https://neurovault.org/collections/RLWUZRQN/">https://neurovault.org/collections/RLWUZRQN/</ext-link>.</p></caption><graphic xlink:href="41598_2020_74489_Fig4_HTML" id="MO4"/></fig><table-wrap id="Tab2"><label>Table 2</label><caption><p>BOLD responses in Fusiform gyrus.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">Intercept [95% CI]</th><th align="left"><italic>p</italic></th><th align="left">Sleep deprivation [95% CI]</th><th align="left"><italic>p</italic></th><th align="left">Older vs younger [95% CI]</th><th align="left"><italic>p</italic></th><th align="left">Sleep deprivation-age group interaction [95% CI]</th><th align="left"><italic>P</italic></th></tr></thead><tbody><tr><td align="left" colspan="9"><bold>Fusiform (left)</bold></td></tr><tr><td align="left"><bold>Happy vs angry</bold></td><td align="left"><bold>− 0.106 [− 0.205; − 0.008]</bold></td><td align="left"><bold>0.035</bold></td><td align="left"><bold>0.097 [− 0.1; 0.294]</bold></td><td align="left"><bold>0.329</bold></td><td align="left"><bold>− 0.032 [− 0.229; 0.165]</bold></td><td align="left"><bold>0.744</bold></td><td align="left"><bold>− 0.181 [− 0.575; 0.213]</bold></td><td align="left"><bold>0.362</bold></td></tr><tr><td align="left"><bold>Happy vs neutral</bold></td><td align="left"><bold>0.037 [− 0.057; 0.132]</bold></td><td align="left"><bold>0.216</bold><sup>a</sup></td><td align="left"><bold>− 0.036 [− 0.201; 0.129]</bold></td><td align="left"><bold>0.667</bold></td><td align="left"><bold>0.021 [− 0.168; 0.21]</bold></td><td align="left"><bold>0.828</bold></td><td align="left"><bold>0.048 [− 0.283; 0.378]</bold></td><td align="left"><bold>0.775</bold></td></tr><tr><td align="left"><bold>Angry vs neutral</bold></td><td align="left"><bold>0.144 [0.064; 0.224]</bold></td><td align="left"><bold>&lt; 0.001</bold><sup><bold>a</bold></sup></td><td align="left"><bold>− 0.133 [− 0.293; 0.027]</bold></td><td align="left"><bold>0.103</bold><sup><bold>b</bold></sup></td><td align="left"><bold>0.053 [− 0.107; 0.213]</bold></td><td align="left"><bold>0.512</bold></td><td align="left"><bold>0.229 [− 0.092; 0.549]</bold></td><td align="left"><bold>0.159</bold></td></tr><tr><td align="left">Happy vs baseline</td><td align="left">0.788 [0.649; 0.927]</td><td align="left">&lt; 0.001</td><td align="left">0.029 [− 0.144; 0.203]</td><td align="left">0.736</td><td align="left">0.157 [− 0.121; 0.435]</td><td align="left">0.264</td><td align="left">− 0.003 [− 0.349; 0.344]</td><td align="left">0.988</td></tr><tr><td align="left">Angry vs baseline</td><td align="left">0.894 [0.758; 1.03]</td><td align="left">&lt; 0.001</td><td align="left">− 0.068 [− 0.239; 0.104]</td><td align="left">0.434</td><td align="left">0.189 [− 0.082; 0.461]</td><td align="left">0.168</td><td align="left">0.178 [− 0.164; 0.521]</td><td align="left">0.303</td></tr><tr><td align="left">Neutral vs baseline</td><td align="left">0.75 [0.648; 0.853]</td><td align="left">&lt; 0.001</td><td align="left">0.065 [− 0.068; 0.199]</td><td align="left">0.334</td><td align="left">0.136 [− 0.069; 0.342]</td><td align="left">0.19</td><td align="left">− 0.05 [− 0.318; 0.217]</td><td align="left">0.709</td></tr><tr><td align="left">Happy and angry vs baseline</td><td align="left">1.682 [1.419; 1.944]</td><td align="left">&lt; 0.001</td><td align="left">− 0.038 [− 0.299; 0.223]</td><td align="left">0.771</td><td align="left">0.347 [− 0.178; 0.871]</td><td align="left">0.192</td><td align="left">0.176 [− 0.346; 0.697]</td><td align="left">0.504</td></tr><tr><td align="left">All vs baseline</td><td align="left">2.432 [2.081; 2.783]</td><td align="left">&lt; 0.001</td><td align="left">0.027 [− 0.329; 0.383]</td><td align="left">0.88</td><td align="left">0.483 [− 0.219; 1.185]</td><td align="left">0.174</td><td align="left">0.125 [− 0.587; 0.838]</td><td align="left">0.727</td></tr><tr><td align="left" colspan="9"><bold>Fusiform (right)</bold></td></tr><tr><td align="left"><bold>Happy vs angry</bold></td><td align="left"><bold>− 0.063 [− 0.161; 0.036]</bold></td><td align="left"><bold>0.209</bold></td><td align="left"><bold>0.185 [− 0.012; 0.382]</bold></td><td align="left"><bold>0.065</bold></td><td align="left"><bold>− 0.024 [− 0.221; 0.173]</bold></td><td align="left"><bold>0.811</bold></td><td align="left"><bold>0.002 [− 0.392; 0.395]</bold></td><td align="left"><bold>0.993</bold></td></tr><tr><td align="left"><bold>Happy vs neutral</bold></td><td align="left"><bold>0.046 [− 0.048; 0.14]</bold></td><td align="left"><bold>0.168</bold><sup><bold>a</bold></sup></td><td align="left"><bold>− 0.014 [− 0.194; 0.167]</bold></td><td align="left"><bold>0.88</bold></td><td align="left"><bold>0.037 [− 0.152; 0.225]</bold></td><td align="left"><bold>0.698</bold></td><td align="left"><bold>0 [− 0.361; 0.361]</bold></td><td align="left"><bold>0.999</bold></td></tr><tr><td align="left"><bold>Angry vs neutral</bold></td><td align="left"><bold>0.108 [0.027; 0.19]</bold></td><td align="left"><bold>0.005</bold><sup><bold>a</bold></sup></td><td align="left"><bold>− 0.199 [− 0.353; − 0.045]</bold></td><td align="left"><bold>0.012</bold><sup><bold>b</bold></sup></td><td align="left"><bold>0.06 [− 0.102; 0.223]</bold></td><td align="left"><bold>0.461</bold></td><td align="left"><bold>− 0.001 [− 0.309; 0.306]</bold></td><td align="left"><bold>0.993</bold></td></tr><tr><td align="left">Happy vs baseline</td><td align="left">1.243 [1.107; 1.379]</td><td align="left">&lt; 0.001</td><td align="left">0.041 [− 0.127; 0.208]</td><td align="left">0.627</td><td align="left">0.007 [− 0.265; 0.278]</td><td align="left">0.961</td><td align="left">− 0.015 [− 0.35; 0.32]</td><td align="left">0.93</td></tr><tr><td align="left">Angry vs baseline</td><td align="left">1.306 [1.161; 1.45]</td><td align="left">&lt; 0.001</td><td align="left">− 0.144 [− 0.297; 0.009]</td><td align="left">0.064</td><td align="left">0.03 [− 0.259; 0.32]</td><td align="left">0.835</td><td align="left">− 0.016 [− 0.322; 0.289]</td><td align="left">0.915</td></tr><tr><td align="left">Neutral vs baseline</td><td align="left">1.197 [1.073; 1.321]</td><td align="left">&lt; 0.001</td><td align="left">0.055 [− 0.091; 0.2]</td><td align="left">0.456</td><td align="left">− 0.03 [− 0.278; 0.218]</td><td align="left">0.809</td><td align="left">− 0.015 [− 0.306; 0.276]</td><td align="left">0.918</td></tr><tr><td align="left">Happy and angry vs baseline</td><td align="left">2.548 [2.284; 2.813]</td><td align="left">&lt; 0.001</td><td align="left">− 0.103 [− 0.35; 0.143]</td><td align="left">0.406</td><td align="left">0.037 [− 0.492; 0.566]</td><td align="left">0.889</td><td align="left">− 0.031 [− 0.524; 0.462]</td><td align="left">0.9</td></tr><tr><td align="left">All vs baseline</td><td align="left">3.746 [3.371; 4.12]</td><td align="left">&lt; 0.001</td><td align="left">− 0.049 [− 0.394; 0.297]</td><td align="left">0.779</td><td align="left">0.007 [− 0.741; 0.755]</td><td align="left">0.985</td><td align="left">− 0.046 [− 0.737; 0.644]</td><td align="left">0.894</td></tr></tbody></table><table-wrap-foot><p>Fusiform gyrus BOLD responses (contrast estimates). Analyses of pre-specified hypotheses are presented in bold and post hoc analyses in normal weight.</p><p><sup>a</sup>One-sided p-value due to directional hypothesis.</p><p><sup>b</sup>Two sided p-value in spite of directional hypothesis, as effect was in the contrary direction.</p></table-wrap-foot></table-wrap><table-wrap id="Tab3"><label>Table 3</label><caption><p>BOLD responses in Amygdala.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" colspan="9">Amygdala (composite)</th></tr><tr><th align="left"/><th align="left">Intercept [95% CI]</th><th align="left"><italic>p</italic></th><th align="left">Sleep deprivation [95% CI]</th><th align="left"><italic>p</italic></th><th align="left">Older vs younger [95% CI]</th><th align="left"><italic>p</italic></th><th align="left">Sleep deprivation-age group interaction [95% CI]</th><th align="left"><italic>p</italic></th></tr></thead><tbody><tr><td align="left"><bold>Happy vs angry</bold></td><td align="left"><bold>− 0.025 [− 0.129; 0.079]</bold></td><td char="." align="char"><bold>0.631</bold></td><td align="left"><bold>0.183 [− 0.025; 0.391]</bold></td><td char="." align="char"><bold>0.083</bold></td><td align="left"><bold>− 0.082 [− 0.29; 0.125]</bold></td><td char="." align="char"><bold>0.432</bold></td><td align="left"><bold>0.006 [− 0.41; 0.421]</bold></td><td char="." align="char"><bold>0.979</bold></td></tr><tr><td align="left"><bold>Happy vs neutral</bold></td><td align="left"><bold>0.037 [− 0.048; 0.122]</bold></td><td char="." align="char"><bold>0.193</bold><sup>a</sup></td><td align="left"><bold>0.049 [− 0.106; 0.205]</bold></td><td char="." align="char"><bold>0.529</bold></td><td align="left"><bold>0.001 [− 0.169; 0.171]</bold></td><td char="." align="char"><bold>0.991</bold></td><td align="left"><bold>0.016 [− 0.295; 0.327]</bold></td><td char="." align="char"><bold>0.918</bold></td></tr><tr><td align="left"><bold>Angry vs neutral</bold></td><td align="left"><bold>0.062 [− 0.025; 0.15]</bold></td><td char="." align="char"><bold>0.081</bold><sup>a</sup></td><td align="left"><bold>− 0.134 [− 0.309; 0.041]</bold></td><td char="." align="char"><bold>0.13</bold><sup><bold>b</bold></sup></td><td align="left"><bold>0.084 [− 0.091; 0.258]</bold></td><td char="." align="char"><bold>0.343</bold></td><td align="left"><bold>0.011 [− 0.339; 0.361]</bold></td><td char="." align="char"><bold>0.949</bold></td></tr><tr><td align="left">Happy vs baseline</td><td align="left">0.337 [0.255; 0.418]</td><td char="." align="char">&lt; 0.001</td><td align="left">0.104 [− 0.059; 0.266]</td><td char="." align="char">0.208</td><td align="left">− 0.156 [− 0.319; 0.006]</td><td char="." align="char">0.059</td><td align="left">− 0.082 [− 0.408; 0.243]</td><td char="." align="char">0.616</td></tr><tr><td align="left">Angry vs baseline</td><td align="left">0.362 [0.282; 0.442]</td><td char="." align="char">&lt; 0.001</td><td align="left">− 0.08 [− 0.24; 0.081]</td><td char="." align="char">0.325</td><td align="left">− 0.074 [− 0.234; 0.086]</td><td char="." align="char">0.36</td><td align="left">− 0.088 [− 0.408; 0.233]</td><td char="." align="char">0.587</td></tr><tr><td align="left">Neutral vs baseline</td><td align="left">0.3 [0.226; 0.374]</td><td char="." align="char">&lt; 0.001</td><td align="left">0.055 [− 0.082; 0.191]</td><td char="." align="char">0.425</td><td align="left">− 0.158 [− 0.305; − 0.01]</td><td char="." align="char">0.036</td><td align="left">− 0.099 [− 0.372; 0.174]</td><td char="." align="char">0.47</td></tr><tr><td align="left">Happy and angry vs baseline</td><td align="left">0.699 [0.571; 0.827]</td><td char="." align="char">&lt; 0.001</td><td align="left">0.025 [− 0.214; 0.263]</td><td char="." align="char">0.837</td><td align="left">− 0.231 [− 0.487; 0.024]</td><td char="." align="char">0.076</td><td align="left">− 0.171 [− 0.649; 0.306]</td><td char="." align="char">0.476</td></tr><tr><td align="left">All vs baseline</td><td align="left">0.998 [0.823; 1.174]</td><td char="." align="char">&lt; 0.001</td><td align="left">0.08 [− 0.252; 0.411]</td><td char="." align="char">0.633</td><td align="left">− 0.389 [− 0.741; − 0.037]</td><td char="." align="char">0.031</td><td align="left">− 0.27 [− 0.933; 0.392]</td><td char="." align="char">0.418</td></tr></tbody></table><table-wrap-foot><p>Amygdala BOLD response (contrast estimates). A composite response variable was constructed by averaging right and left amygdala responses because of their high correlation (Supplementary Table <xref rid="MOESM1" ref-type="media">2</xref>). Analyses of pre-specified hypotheses are presented in bold and post hoc analyses in normal weight.</p><p><sup>a</sup>One-sided p-value due to directional hypothesis.</p><p><sup>b</sup>Two sided p-value in spite of directional hypothesis, as effect was in the contrary direction.</p></table-wrap-foot></table-wrap></p>
+              </sec>
+              <sec id="Sec19">
+                <title>fMRI effects of partial sleep deprivation and age group</title>
+                <p id="Par31">Contrary to our hypothesis, partial sleep deprivation did not cause increased BOLD activation to angry faces, compared to neutral faces, in the fusiform gyrus nor in the amygdalae, using ROI-based analyses. Instead, effects were in the direction of a decrease in all three comparisons, and statistically significant for the right fusiform gyrus (Tables <xref rid="Tab2" ref-type="table">2</xref>, <xref rid="Tab3" ref-type="table">3</xref>). We observed no notable effects of partial sleep deprivation on activation to happy faces (Tables <xref rid="Tab2" ref-type="table">2</xref>, <xref rid="Tab3" ref-type="table">3</xref>). We also did not observe notable effects of age group, nor notable interactions between partial sleep deprivation and age group (Tables <xref rid="Tab2" ref-type="table">2</xref>, <xref rid="Tab3" ref-type="table">3</xref>). Whole-brain analyses showed no effect of partial sleep deprivation (Supplementary Table <xref rid="MOESM1" ref-type="media">3</xref>). For the contrasts angry &gt; neutral and happy &gt; neutral, younger and older participants did not show any significant differences. Age comparisons for all contrasts are presented in Supplementary Table <xref rid="MOESM1" ref-type="media">4</xref>.</p>
+              </sec>
+              <sec id="Sec20" sec-type="data-availability">
+                <title>Data availability</title>
+                <p id="Par32">Behavioural data, including EMG, heart rate and pupil diameter are available within the Zenodo repository: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.3821968">https://doi.org/10.5281/zenodo.3821968</ext-link><sup><xref ref-type="bibr" rid="CR63">63</xref></sup>. Statistical images of main analyses can be found at <ext-link ext-link-type="uri" xlink:href="https://neurovault.org/collections/RLWUZRQN/">https://neurovault.org/collections/RLWUZRQN/</ext-link><sup><xref ref-type="bibr" rid="CR64">64</xref></sup>. Raw imaging data can be found at: <ext-link ext-link-type="uri" xlink:href="https://openneuro.org/datasets/ds000201/">https://openneuro.org/datasets/ds000201/</ext-link><sup><xref ref-type="bibr" rid="CR65">65</xref></sup>.</p>
+              </sec>
+            </sec>
+            <sec id="Sec21">
+              <title>Discussion</title>
+              <p id="Par33">In the present study, effects of partial sleep deprivation on emotional contagion and mimicry were investigated using ratings of subjective emotional experience, EMG and fMRI. Partial sleep deprivation caused decreased ratings of happiness without increased ratings of anger in response to emotional faces, partly consistent with a negativity bias<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>. Contrary to our hypothesis, partial sleep deprivation did not cause an increase in amygdala and fusiform gyrus activity in response to angry compared to neutral faces. Instead, partial sleep deprivation was associated with less activation in the fusiform gyrus (significant for right side) and lower, but not significantly less, activation in the amygdala, for angry compared to neutral faces. No effect of sleep restriction on BOLD responses to happy compared to neutral faces was seen. EMG responses in the zygomatic muscle showed an effect of happy faces, confirming mimicry, but no effect of sleep restriction was seen on facial responses. Thus, the results indicate that there was a shift in emotion towards less positivity after partial sleep deprivation, but do not support the idea of increased amygdala reactivity as the mechanism.</p>
+              <p id="Par34">As noted above, the hypothesis that partial sleep deprivation would cause decreased ratings of happiness and increased ratings of anger, was confirmed for ratings of happiness, but not for anger. The findings are in line with the previously reported negativity bias, with sleep deprivation being shown to primarily affect the response to positive and ambiguous stimuli, that are perceived as more negative<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>. The results are also consistent with a previous study, in which sleep deprivation was associated with lower intensity ratings of happy and angry faces<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>. The lack of effect on rated anger do not support an overall increased emotional reactivity after sleep deprivation, suggested in one previous study comparing staying awake to napping<sup><xref ref-type="bibr" rid="CR66">66</xref></sup>.</p>
+              <p id="Par35">The second hypothesis, that partial sleep deprivation would cause decreased activity in <italic>M. corrugator</italic> and in <italic>M. zygomaticus</italic> during exposure to both happy and angry faces, i.e. a less sensitive facial feedback system, could not be confirmed. To our knowledge, no previous study has examined the effect of sleep deprivation on emotional mimicry using both EMG and fMRI. However, it has previously been reported that sleep deprivation was associated with fewer facial movements to sad and amusing film clips judged by other people (not EMG)<sup><xref ref-type="bibr" rid="CR38">38</xref></sup> but more frowning was seen after wakefulness compared to napping<sup><xref ref-type="bibr" rid="CR67">67</xref></sup>. Also, slower facial (EMG) responses to positive and negative stimuli, including happy and angry faces<sup><xref ref-type="bibr" rid="CR4">4</xref></sup> were reported after a partial sleep deprivation condition compared to a control. The data in the present study were filtered to remove scanner noise. It can therefore not be excluded that some small effects might have been masked during the acquisition or filtering. However, the strong effect of happy faces indicates that EMG during MRI-scanning could indeed be used to study emotional mimicry, and the results indicate that emotional facial mimicry is stable to partial sleep deprivation.</p>
+              <p id="Par36">The third hypothesis concerned the effect of partial sleep deprivation on the BOLD responses in the amygdala and the fusiform gyrus in response to the emotional faces. As hypothesised, angry faces compared to neutral faces caused an increased activity in the fusiform gyrus and a trend significant increase in the amygdala. Unexpectedly, partial sleep deprivation was associated with a decrease in activity in all these areas for the contrast angry vs neutral, but significant only in the right fusiform gyrus. For happy faces compared to neutral, there was no significant increase in activity neither in amygdala nor the fusiform gyrus, and partial sleep deprivation was not associated with any change in the response. The present results stand in contrast to what was found in the studies by Motomura et al.<sup><xref ref-type="bibr" rid="CR31">31</xref></sup> and Yoo et al.<sup><xref ref-type="bibr" rid="CR27">27</xref></sup> A potential shortcoming of the present study was the overall lack of effect in amygdala for emotional versus non-emotional faces, which might question the validity of the paradigm for investigating effects on the amygdala. However, previous studies indicate that also non-emotional faces can cause an increase in amygdala activity<sup><xref ref-type="bibr" rid="CR68">68</xref>–<xref ref-type="bibr" rid="CR70">70</xref></sup>, and in the present study there was indeed a highly significant effect of all faces compared to baseline in the amygdala. Another important difference between the present study and the work by Yoo and Motomura<sup><xref ref-type="bibr" rid="CR27">27</xref>,<xref ref-type="bibr" rid="CR31">31</xref></sup> is the use of partial sleep deprivation as compared to total sleep deprivation, with potentially weaker effects. Some studies have also highlighted the role of REM-sleep for emotional recovery<sup><xref ref-type="bibr" rid="CR29">29</xref>,<xref ref-type="bibr" rid="CR71">71</xref></sup> and allowing participants to sleep in the end of the night might have been sufficient for them to obtain enough of this specific sleep stage. Regardless of which part of sleep that impact reactions to emotional stimuli, a dose–response effect could be likely, explaining the difference between the present study and studies using total sleep deprivation or repeated nights of restricted sleep. However, as mentioned above, the direction of the effects in amygdala and fusiform gyrus was towards a decrease in activity after partial sleep deprivation, i.e. the opposite direction to the previous studies<sup><xref ref-type="bibr" rid="CR27">27</xref>,<xref ref-type="bibr" rid="CR31">31</xref></sup>. As noted in the introduction, the literature on sleep deprivation and emotional functions show some inconsistencies and further work is needed to disentangle potential modifiers of the response as well as to replicate previous findings. Despite the already discussed previous studies showing increased amygdala reactivity to negative stimuli, including fearful faces, after sleep deprivation<sup><xref ref-type="bibr" rid="CR27">27</xref>,<xref ref-type="bibr" rid="CR31">31</xref></sup>, the previous evidence of increased amygdala reactivity and inhibited top-down control after sleep deprivation, is still limited. There is therefore a specific need for large studies with careful monitoring of sleep.</p>
+              <p id="Par37">The present study is to our knowledge the first study showing an effect of sleep deprivation in the fusiform gyrus to emotional faces. As described in the introduction, the fusiform gyrus is not primarily involved in the emotional aspects of face processing<sup><xref ref-type="bibr" rid="CR23">23</xref></sup>. The fusiform face area has however been shown to have higher within-subject reliability than amygdala for face processing<sup><xref ref-type="bibr" rid="CR72">72</xref></sup>. The effect of partial sleep deprivation was seen for the contrast angry vs neutral faces, possibly indicating a specificity for emotion. The findings raise the possibility that the effect of sleep deprivation on emotional processing might be partly dependent on neural structures that are also involved in more general aspects of face processing, such as the fusiform gyri. However, further studies need to replicate this finding.</p>
+              <p id="Par38">A secondary aim in this study was to investigate adult age differences in the context of emotional contagion and mimicry, as well as the response to partial sleep deprivation. In summary, there was no significant differences between younger and older subjects for emotional faces vs neutral, or for the effect of partial sleep deprivation. We have previously shown that there might be differences in how younger and older individuals respond to sleep deprivation for mood and empathy<sup><xref ref-type="bibr" rid="CR20">20</xref>,<xref ref-type="bibr" rid="CR39">39</xref></sup>, but the present data do not suggest this being true for emotional face processing. For the contrasts neutral vs baseline and all faces vs baseline, there was significantly less amygdala responses in older compared to young. This finding is in line with previous studies<sup><xref ref-type="bibr" rid="CR73">73</xref>,<xref ref-type="bibr" rid="CR74">74</xref></sup>, and could possibly be related to amygdala atrophy<sup><xref ref-type="bibr" rid="CR74">74</xref></sup>. Older participants rated higher levels of anger in response to both happy and angry faces. This finding is unexpected and stands in contrast to the previously reported positivity effect in ageing<sup><xref ref-type="bibr" rid="CR43">43</xref>,<xref ref-type="bibr" rid="CR75">75</xref></sup>.</p>
+              <p id="Par39">Limitations in the present study include the sample size and a potential selection bias, specifically for the older group. The sample was relatively large compared to previous studies of sleep and emotion<sup><xref ref-type="bibr" rid="CR27">27</xref>,<xref ref-type="bibr" rid="CR31">31</xref>,<xref ref-type="bibr" rid="CR76">76</xref></sup>, but because the effects of interest could be expected to be small, statistical power might still be too low. As noted above, the present study also used partial sleep deprivation with potentially weaker effects, compared to total sleep deprivation. As described in previous publications from the same sample<sup><xref ref-type="bibr" rid="CR40">40</xref>,<xref ref-type="bibr" rid="CR46">46</xref></sup> some of the participants slept relatively short also in the full sleep condition, further diluting any difference between the conditions. Other limitations include the limited ecological validity (i.e. photographs and not for example real human interaction) of the paradigm and the scanner noise in the EMG-signal. The latter might be of a certain importance, since the main effect of angry faces on corrugator muscle activity was not significant and effects of partial sleep deprivation on facial mimicry should be expected to be even smaller than the main effect of angry faces.</p>
+            </sec>
+            <sec id="Sec22">
+              <title>Conclusion</title>
+              <p id="Par40">In conclusion, the present study further underlines the importance of sleep for basal social emotional abilities related to sharing of emotion, but does not indicate a moderating role of adult ageing. Subjective ratings of emotional experience of less happiness are consistent with an increased negativity bias after partial sleep deprivation. However, brain responses were inconsistent with previously proposed inhibited top-down control and increased amygdala reactivity as a mechanism behind altered emotional contagion after sleep deprivation. To the contrary, the results indicate blunting of the responses, possibly reflecting an increased activation threshold in fusiform gyrus, and potentially also amygdala, as a possible neural mechanism for the behavioural effects of partial sleep deprivation on responses to emotional faces.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary information</title>
+              <sec id="Sec23">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41598_2020_74489_MOESM1_ESM.docx">
+                      <caption>
+                        <p>Supplementary Information.</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher's note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Supplementary information</title>
+              <p> is available for this paper at 10.1038/s41598-020-74489-9.</p>
+            </sec>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>We are thankful to Paolo d’Onofrio, Diana Sanchez Cortes, Danielle Cosme, Birgitta Mannerstedt Fogelfors and Roberta Nagai for assistance with the data collection. We are also thankful to Jonathan Berrebi and Rouslan Sitnikov for technical advice.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>Designed the study: S.T., G.N., J.S., G.K., H.F., T.Å., M.L. Acquired data: S.T., G.N, H.T. Analysed data: S.T., G.N. Interpreted results: S.T., G.N., J.S., H.T., G.K., P.P., H.F., T.Å., M.L. Drafted manuscript: S.T., G.N., M.L. All authors read and approved the final version of the manuscript.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>Open Access funding provided by Karolinska Institute. This work was funded by Stockholm Stress Center, Riksbankens Jubileumsfond, Karolinska Institutet, Stockholm County Council, Isabella and Henrik Berg and the Heumanska stiftelsen/Hjärnfonden, Fredrik and Ingrid Thuring’s Foundation.</p>
+            </notes>
+            <notes id="FPar1" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par41">The authors declare no competing interests.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Leger</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Bayon</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Societal costs of insomnia</article-title>
+                  <source>Sleep Med. Rev.</source>
+                  <year>2010</year>
+                  <volume>14</volume>
+                  <fpage>379</fpage>
+                  <lpage>389</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.smrv.2010.01.003</pub-id>
+                  <?supplied-pmid 20359916?>
+                  <pub-id pub-id-type="pmid">20359916</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Morin</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Insomnia disorder</article-title>
+                  <source>Nat. Rev. Dis. Prim.</source>
+                  <year>2015</year>
+                  <volume>1</volume>
+                  <fpage>15026</fpage>
+                  <pub-id pub-id-type="doi">10.1038/nrdp.2015.26</pub-id>
+                  <?supplied-pmid 27189779?>
+                  <pub-id pub-id-type="pmid">27189779</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baglioni</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Riemann</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Is chronic insomnia a precursor to major depression? Epidemiological and biological findings</article-title>
+                  <source>Curr. Psychiatry Rep.</source>
+                  <year>2012</year>
+                  <volume>14</volume>
+                  <fpage>511</fpage>
+                  <lpage>518</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11920-012-0308-5</pub-id>
+                  <?supplied-pmid 22865155?>
+                  <pub-id pub-id-type="pmid">22865155</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schwarz</surname>
+                      <given-names>JFA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Shortened night sleep impairs facial responsiveness to emotional stimuli</article-title>
+                  <source>Biol. Psychol.</source>
+                  <year>2013</year>
+                  <volume>93</volume>
+                  <fpage>41</fpage>
+                  <lpage>44</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.biopsycho.2013.01.008</pub-id>
+                  <?supplied-pmid 23357729?>
+                  <pub-id pub-id-type="pmid">23357729</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cote</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                    <name>
+                      <surname>Mondloch</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Sergeeva</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Semplonius</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Impact of total sleep deprivation on behavioural neural processing of emotionally expressive faces</article-title>
+                  <source>Exp. Brain Res.</source>
+                  <year>2014</year>
+                  <volume>232</volume>
+                  <fpage>1429</fpage>
+                  <lpage>1442</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00221-013-3780-1</pub-id>
+                  <?supplied-pmid 24317639?>
+                  <pub-id pub-id-type="pmid">24317639</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>van der Helm</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Gujar</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Walker</surname>
+                      <given-names>MP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sleep deprivation impairs the accurate recognition of human emotions</article-title>
+                  <source>Sleep</source>
+                  <year>2010</year>
+                  <volume>33</volume>
+                  <fpage>335</fpage>
+                  <lpage>342</lpage>
+                  <pub-id pub-id-type="doi">10.1093/sleep/33.3.335</pub-id>
+                  <?supplied-pmid 20337191?>
+                  <pub-id pub-id-type="pmid">20337191</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tempesta</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Lack of sleep affects the evaluation of emotional stimuli</article-title>
+                  <source>Brain Res. Bull.</source>
+                  <year>2010</year>
+                  <volume>82</volume>
+                  <fpage>104</fpage>
+                  <lpage>108</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.brainresbull.2010.01.014</pub-id>
+                  <?supplied-pmid 20117179?>
+                  <pub-id pub-id-type="pmid">20117179</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Darwin</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <source>The Expression of the Emotions in Man and Animals</source>
+                  <year>1998</year>
+                  <publisher-loc>Oxford</publisher-loc>
+                  <publisher-name>Oxford University Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Frith</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Role of facial expressions in social interactions</article-title>
+                  <source>Philos. Trans. R. Soc. B Biol. Sci.</source>
+                  <year>2009</year>
+                  <volume>364</volume>
+                  <fpage>3453</fpage>
+                  <lpage>3458</lpage>
+                  <pub-id pub-id-type="doi">10.1098/rstb.2009.0142</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lipps</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Das Wissen von Fremden Ichen</article-title>
+                  <source>Psychol. Untersuchungen</source>
+                  <year>1907</year>
+                  <volume>1</volume>
+                  <fpage>694</fpage>
+                  <lpage>722</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Montag</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Gallinat</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Heinz</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Theodor Lipps and the concept of empathy: 1851–1914</article-title>
+                  <source>Am. J. Psychiatry</source>
+                  <year>2008</year>
+                  <volume>165</volume>
+                  <fpage>1261</fpage>
+                  <lpage>1261</lpage>
+                  <pub-id pub-id-type="doi">10.1176/appi.ajp.2008.07081283</pub-id>
+                  <?supplied-pmid 18829882?>
+                  <pub-id pub-id-type="pmid">18829882</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hatfield</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Cacioppo</surname>
+                      <given-names>JT</given-names>
+                    </name>
+                    <name>
+                      <surname>Rapson</surname>
+                      <given-names>RL</given-names>
+                    </name>
+                  </person-group>
+                  <source>Emotional Contagion</source>
+                  <year>1994</year>
+                  <publisher-loc>Cambridge</publisher-loc>
+                  <publisher-name>Cambridge University Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cacioppo</surname>
+                      <given-names>JT</given-names>
+                    </name>
+                    <name>
+                      <surname>Petty</surname>
+                      <given-names>RE</given-names>
+                    </name>
+                    <name>
+                      <surname>Losch</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>HS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Electromyographic activity over facial muscle regions can differentiate the valence and intensity of affective reactions</article-title>
+                  <source>J. Pers. Soc. Psychol.</source>
+                  <year>1986</year>
+                  <volume>50</volume>
+                  <fpage>260</fpage>
+                  <lpage>268</lpage>
+                  <pub-id pub-id-type="doi">10.1037/0022-3514.50.2.260</pub-id>
+                  <?supplied-pmid 3701577?>
+                  <pub-id pub-id-type="pmid">3701577</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Adelmann</surname>
+                      <given-names>PK</given-names>
+                    </name>
+                    <name>
+                      <surname>Zajonc</surname>
+                      <given-names>RB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Facial efference and the experience of emotion</article-title>
+                  <source>Annu. Rev. Psychol.</source>
+                  <year>1989</year>
+                  <volume>40</volume>
+                  <fpage>249</fpage>
+                  <lpage>280</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev.ps.40.020189.001341</pub-id>
+                  <?supplied-pmid 2648977?>
+                  <pub-id pub-id-type="pmid">2648977</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Meltzoff</surname>
+                      <given-names>AN</given-names>
+                    </name>
+                    <name>
+                      <surname>Decety</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>What imitation tells us about social cognition: A rapprochement between developmental psychology and cognitive neuroscience</article-title>
+                  <source>Philos. Trans. R. Soc. Lond. Ser. B Biol. Sci.</source>
+                  <year>2003</year>
+                  <volume>358</volume>
+                  <fpage>491</fpage>
+                  <lpage>500</lpage>
+                  <pub-id pub-id-type="doi">10.1098/rstb.2002.1261</pub-id>
+                  <pub-id pub-id-type="pmid">12689375</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Neal</surname>
+                      <given-names>DT</given-names>
+                    </name>
+                    <name>
+                      <surname>Chartrand</surname>
+                      <given-names>TL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Embodied emotion perception: Amplifying and dampening facial feedback modulates emotion perception accuracy</article-title>
+                  <source>Soc. Psychol. Personal. Sci.</source>
+                  <year>2011</year>
+                  <volume>2</volume>
+                  <fpage>673</fpage>
+                  <lpage>678</lpage>
+                  <pub-id pub-id-type="doi">10.1177/1948550611406138</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Field</surname>
+                      <given-names>TM</given-names>
+                    </name>
+                    <name>
+                      <surname>Woodson</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Greenberg</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Cohen</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Discrimination and imitation of facial expression by neonates</article-title>
+                  <source>Science</source>
+                  <year>1982</year>
+                  <volume>218</volume>
+                  <fpage>179</fpage>
+                  <lpage>181</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.7123230</pub-id>
+                  <?supplied-pmid 7123230?>
+                  <pub-id pub-id-type="pmid">7123230</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>de Vignemont</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Singer</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The empathic brain: How, when and why?</article-title>
+                  <source>Trends Cogn. Sci.</source>
+                  <year>2006</year>
+                  <volume>10</volume>
+                  <fpage>435</fpage>
+                  <lpage>441</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.tics.2006.08.008</pub-id>
+                  <?supplied-pmid 16949331?>
+                  <pub-id pub-id-type="pmid">16949331</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tamm</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Sleep restriction caused impaired emotional regulation without detectable brain activation changes—A functional magnetic resonance imaging study</article-title>
+                  <source>R. Soc. Open Sci.</source>
+                  <year>2019</year>
+                  <volume>6</volume>
+                  <fpage>181704</fpage>
+                  <pub-id pub-id-type="doi">10.1098/rsos.181704</pub-id>
+                  <?supplied-pmid 31032025?>
+                  <pub-id pub-id-type="pmid">31032025</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tamm</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The effect of sleep restriction on empathy for pain: An fMRI study in younger and older adults</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2017</year>
+                  <volume>7</volume>
+                  <fpage>1</fpage>
+                  <lpage>4</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-017-12098-9</pub-id>
+                  <pub-id pub-id-type="pmid">28127051</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hariri</surname>
+                      <given-names>AR</given-names>
+                    </name>
+                    <name>
+                      <surname>Tessitore</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Mattay</surname>
+                      <given-names>VS</given-names>
+                    </name>
+                    <name>
+                      <surname>Fera</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Weinberger</surname>
+                      <given-names>DR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The amygdala response to emotional stimuli: A comparison of faces and scenes</article-title>
+                  <source>Neuroimage</source>
+                  <year>2002</year>
+                  <volume>17</volume>
+                  <fpage>317</fpage>
+                  <lpage>323</lpage>
+                  <pub-id pub-id-type="doi">10.1006/nimg.2002.1179</pub-id>
+                  <?supplied-pmid 12482086?>
+                  <pub-id pub-id-type="pmid">12482086</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fischer</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Age-differential patterns of brain activation during perception of angry faces</article-title>
+                  <source>Neurosci. Lett.</source>
+                  <year>2005</year>
+                  <volume>386</volume>
+                  <fpage>99</fpage>
+                  <lpage>104</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neulet.2005.06.002</pub-id>
+                  <?supplied-pmid 15993537?>
+                  <pub-id pub-id-type="pmid">15993537</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Haxby</surname>
+                      <given-names>JV</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoffman</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                    <name>
+                      <surname>Gobbini</surname>
+                      <given-names>MI</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The distributed human neural system for face perception</article-title>
+                  <source>Trends Cogn. Sci.</source>
+                  <year>2000</year>
+                  <volume>4</volume>
+                  <fpage>223</fpage>
+                  <lpage>233</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1364-6613(00)01482-0</pub-id>
+                  <?supplied-pmid 10827445?>
+                  <pub-id pub-id-type="pmid">10827445</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vuilleumier</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Armony</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                    <name>
+                      <surname>Driver</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Dolan</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Distinct spatial frequency sensitivities for processing faces and emotional expressions</article-title>
+                  <source>Nat. Neurosci.</source>
+                  <year>2003</year>
+                  <volume>6</volume>
+                  <fpage>624</fpage>
+                  <lpage>631</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nn1057</pub-id>
+                  <?supplied-pmid 12740580?>
+                  <pub-id pub-id-type="pmid">12740580</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Morris</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A neuromodulatory role for the human amygdala in processing emotional facial expressions</article-title>
+                  <source>Brain</source>
+                  <year>1998</year>
+                  <volume>121</volume>
+                  <issue>Pt 1</issue>
+                  <fpage>47</fpage>
+                  <lpage>57</lpage>
+                  <pub-id pub-id-type="doi">10.1093/brain/121.1.47</pub-id>
+                  <?supplied-pmid 9549487?>
+                  <pub-id pub-id-type="pmid">9549487</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Breiter</surname>
+                      <given-names>HC</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Response and habituation of the human amygdala during visual processing of facial expression</article-title>
+                  <source>Neuron</source>
+                  <year>1996</year>
+                  <volume>17</volume>
+                  <fpage>875</fpage>
+                  <lpage>887</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0896-6273(00)80219-6</pub-id>
+                  <?supplied-pmid 8938120?>
+                  <pub-id pub-id-type="pmid">8938120</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yoo</surname>
+                      <given-names>SS</given-names>
+                    </name>
+                    <name>
+                      <surname>Gujar</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Jolesz</surname>
+                      <given-names>FA</given-names>
+                    </name>
+                    <name>
+                      <surname>Walker</surname>
+                      <given-names>MP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The human emotional brain without sleep—A prefrontal amygdala disconnect</article-title>
+                  <source>Curr. Biol.</source>
+                  <year>2007</year>
+                  <volume>17</volume>
+                  <fpage>R877</fpage>
+                  <lpage>R878</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cub.2007.08.007</pub-id>
+                  <?supplied-pmid 17956744?>
+                  <pub-id pub-id-type="pmid">17956744</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Krause</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The sleep-deprived human brain</article-title>
+                  <source>Nat. Rev. Neurosci.</source>
+                  <year>2017</year>
+                  <volume>18</volume>
+                  <fpage>404</fpage>
+                  <lpage>418</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nrn.2017.55</pub-id>
+                  <?supplied-pmid 28515433?>
+                  <pub-id pub-id-type="pmid">28515433</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>van der Helm</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>REM sleep depotentiates amygdala activity to previous emotional experiences</article-title>
+                  <source>Curr. Biol.</source>
+                  <year>2011</year>
+                  <volume>21</volume>
+                  <fpage>2029</fpage>
+                  <lpage>2032</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cub.2011.10.052</pub-id>
+                  <?supplied-pmid 22119526?>
+                  <pub-id pub-id-type="pmid">22119526</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Killgore</surname>
+                      <given-names>WDS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Self-reported sleep correlates with prefrontal-amygdala functional connectivity and emotional functioning</article-title>
+                  <source>Sleep</source>
+                  <year>2013</year>
+                  <volume>36</volume>
+                  <fpage>1597</fpage>
+                  <lpage>1608</lpage>
+                  <pub-id pub-id-type="doi">10.5665/sleep.3106</pub-id>
+                  <?supplied-pmid 24179291?>
+                  <pub-id pub-id-type="pmid">24179291</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Motomura</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Sleepiness induced by sleep-debt enhanced amygdala activity for subliminal signals of fear</article-title>
+                  <source>BMC Neurosci.</source>
+                  <year>2014</year>
+                  <volume>15</volume>
+                  <fpage>97</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2202-15-97</pub-id>
+                  <?supplied-pmid 25134639?>
+                  <pub-id pub-id-type="pmid">25134639</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tempesta</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Socci</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>De Gennaro</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferrara</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sleep and emotional processing</article-title>
+                  <source>Sleep Med. Rev.</source>
+                  <year>2018</year>
+                  <volume>40</volume>
+                  <fpage>183</fpage>
+                  <lpage>195</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.smrv.2017.12.005</pub-id>
+                  <?supplied-pmid 29395984?>
+                  <pub-id pub-id-type="pmid">29395984</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pilcher</surname>
+                      <given-names>JJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Callan</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Posey</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sleep deprivation affects reactivity to positive but not negative stimuli</article-title>
+                  <source>J. Psychosom. Res.</source>
+                  <year>2015</year>
+                  <volume>79</volume>
+                  <fpage>657</fpage>
+                  <lpage>662</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jpsychores.2015.05.003</pub-id>
+                  <?supplied-pmid 26013321?>
+                  <pub-id pub-id-type="pmid">26013321</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kyle</surname>
+                      <given-names>SD</given-names>
+                    </name>
+                    <name>
+                      <surname>Beattie</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Spiegelhalder</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Rogers</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Espie</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Altered emotion perception in insomnia disorder</article-title>
+                  <source>Sleep</source>
+                  <year>2014</year>
+                  <volume>37</volume>
+                  <fpage>775</fpage>
+                  <lpage>783</lpage>
+                  <pub-id pub-id-type="doi">10.5665/sleep.3588</pub-id>
+                  <?supplied-pmid 24899765?>
+                  <pub-id pub-id-type="pmid">24899765</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brand</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Poor sleep is related to lower emotional competence among adolescents</article-title>
+                  <source>Behav. Sleep Med.</source>
+                  <year>2016</year>
+                  <volume>14</volume>
+                  <fpage>602</fpage>
+                  <lpage>614</lpage>
+                  <pub-id pub-id-type="doi">10.1080/15402002.2015.1048450</pub-id>
+                  <?supplied-pmid 26507446?>
+                  <pub-id pub-id-type="pmid">26507446</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Peretti</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The role of sleep in aesthetic perception and empathy: A mediation analysis</article-title>
+                  <source>J. Sleep Res.</source>
+                  <year>2019</year>
+                  <volume>28</volume>
+                  <fpage>e12664</fpage>
+                  <pub-id pub-id-type="doi">10.1111/jsr.12664</pub-id>
+                  <?supplied-pmid 29405533?>
+                  <pub-id pub-id-type="pmid">29405533</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sundelin</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Lekander</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Sorjonen</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Axelsson</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Negative effects of restricted sleep on facial appearance and social appeal</article-title>
+                  <source>R. Soc. Open Sci.</source>
+                  <year>2017</year>
+                  <volume>4</volume>
+                  <fpage>160918</fpage>
+                  <pub-id pub-id-type="doi">10.1098/rsos.160918</pub-id>
+                  <?supplied-pmid 28572989?>
+                  <pub-id pub-id-type="pmid">28572989</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Minkel</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Htaik</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Banks</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Dinges</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Emotional expressiveness in sleep-deprived healthy adults</article-title>
+                  <source>Behav. Sleep Med.</source>
+                  <year>2011</year>
+                  <volume>9</volume>
+                  <fpage>5</fpage>
+                  <lpage>14</lpage>
+                  <pub-id pub-id-type="doi">10.1080/15402002.2011.533987</pub-id>
+                  <?supplied-pmid 21218289?>
+                  <pub-id pub-id-type="pmid">21218289</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schwarz</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Mood impairment is stronger in young than in older adults after sleep deprivation</article-title>
+                  <source>J. Sleep Res.</source>
+                  <year>2018</year>
+                  <pub-id pub-id-type="doi">10.1111/jsr.12801</pub-id>
+                  <?supplied-pmid 30585371?>
+                  <pub-id pub-id-type="pmid">30585371</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Åkerstedt</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Effects of late-night short-sleep on in-home polysomnography: Relation to adult age and sex</article-title>
+                  <source>J. Sleep Res.</source>
+                  <year>2017</year>
+                  <pub-id pub-id-type="doi">10.1111/jsr.12626</pub-id>
+                  <?supplied-pmid 29164796?>
+                  <pub-id pub-id-type="pmid">29164796</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <mixed-citation publication-type="other">Ziaei, M. &amp; Fischer, H. Emotion and aging. In <italic>Neuroimaging Personality, Social Cognition, and Character</italic> 259–278 (Elsevier, Amsterdam, 2016). 10.1016/B978-0-12-800935-2.00013-0.</mixed-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mather</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The emotion paradox in the aging brain</article-title>
+                  <source>Ann. N. Y. Acad. Sci.</source>
+                  <year>2012</year>
+                  <volume>1251</volume>
+                  <fpage>33</fpage>
+                  <lpage>49</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1749-6632.2012.06471.x</pub-id>
+                  <?supplied-pmid 22409159?>
+                  <pub-id pub-id-type="pmid">22409159</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mather</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Carstensen</surname>
+                      <given-names>LL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Aging and motivated cognition: The positivity effect in attention and memory</article-title>
+                  <source>Trends Cogn. Sci.</source>
+                  <year>2005</year>
+                  <volume>9</volume>
+                  <fpage>496</fpage>
+                  <lpage>502</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.tics.2005.08.005</pub-id>
+                  <?supplied-pmid 16154382?>
+                  <pub-id pub-id-type="pmid">16154382</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Scullin</surname>
+                      <given-names>MK</given-names>
+                    </name>
+                    <name>
+                      <surname>Bliwise</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sleep, cognition, and normal aging: Integrating a half century of multidisciplinary research</article-title>
+                  <source>Perspect. Psychol. Sci.</source>
+                  <year>2015</year>
+                  <volume>10</volume>
+                  <fpage>97</fpage>
+                  <lpage>137</lpage>
+                  <pub-id pub-id-type="doi">10.1177/1745691614556680</pub-id>
+                  <?supplied-pmid 25620997?>
+                  <pub-id pub-id-type="pmid">25620997</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <mixed-citation publication-type="other">Nilsonne, G. <italic>et al.</italic> A multimodal brain imaging dataset on sleep deprivation in young and old humans. Preprint at <ext-link ext-link-type="uri" xlink:href="https://openarchive.ki.se/xmlui/handle/10616/45181">https://openarchive.ki.se/xmlui/handle/10616/45181</ext-link> (2017). </mixed-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nilsonne</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Intrinsic brain connectivity after partial sleep deprivation in young and older adults: Results from the Stockholm Sleepy Brain study</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2017</year>
+                  <volume>7</volume>
+                  <fpage>1</fpage>
+                  <lpage>12</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-017-09744-7</pub-id>
+                  <pub-id pub-id-type="pmid">28127051</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Åkerstedt</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Gray matter volume correlates of sleepiness: A voxel-based morphometry study in younger and older adults</article-title>
+                  <source>Nat. Sci. Sleep</source>
+                  <year>2020</year>
+                  <volume>12</volume>
+                  <fpage>289</fpage>
+                  <lpage>298</lpage>
+                  <pub-id pub-id-type="doi">10.2147/NSS.S240493</pub-id>
+                  <?supplied-pmid 32547279?>
+                  <pub-id pub-id-type="pmid">32547279</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bastien</surname>
+                      <given-names>CH</given-names>
+                    </name>
+                    <name>
+                      <surname>Vallières</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Morin</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Validation of the Insomnia Severity Index as an outcome measure for insomnia research</article-title>
+                  <source>Sleep Med.</source>
+                  <year>2001</year>
+                  <volume>2</volume>
+                  <fpage>297</fpage>
+                  <lpage>307</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1389-9457(00)00065-4</pub-id>
+                  <?supplied-pmid 11438246?>
+                  <pub-id pub-id-type="pmid">11438246</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <mixed-citation publication-type="other">Trott, E. En reliabilitets-och validitetsstudie av den svenska versionen av självskattningsformuläret Insomnia Severity Index (ISI). Master thesis, Department of Psychology, Stockholm University. (Stockholm University, Stockholm, 2009).</mixed-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zigmond</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <name>
+                      <surname>Snaith</surname>
+                      <given-names>RP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The hospital anxiety and depression scale</article-title>
+                  <source>Acta Psychiatr. Scand.</source>
+                  <year>1983</year>
+                  <volume>67</volume>
+                  <fpage>361</fpage>
+                  <lpage>370</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1600-0447.1983.tb09716.x</pub-id>
+                  <?supplied-pmid 6880820?>
+                  <pub-id pub-id-type="pmid">6880820</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lisspers</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Nygren</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Söderman</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hospital Anxiety and Depression Scale (HAD): Some psychometric data for a Swedish sample</article-title>
+                  <source>Acta Psychiatr. Scand.</source>
+                  <year>1997</year>
+                  <volume>96</volume>
+                  <fpage>281</fpage>
+                  <lpage>286</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1600-0447.1997.tb10164.x</pub-id>
+                  <?supplied-pmid 9350957?>
+                  <pub-id pub-id-type="pmid">9350957</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nordin</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Åkerstedt</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Nordin</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Psychometric evaluation and normative data for the karolinska sleep questionnaire</article-title>
+                  <source>Sleep Biol. Rhythms</source>
+                  <year>2013</year>
+                  <volume>11</volume>
+                  <fpage>216</fpage>
+                  <lpage>226</lpage>
+                  <pub-id pub-id-type="doi">10.1111/sbr.12024</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR53">
+                <label>53.</label>
+                <mixed-citation publication-type="other">Iber, C., Ancoli-Israel, S., Chesson, A. &amp; Quan, S. The AASM manual for the scoring of sleep and associated events: Rules, terminology, and technical specification. <italic>Westchester Am. Acad. Sleep Med.</italic> (2007).</mixed-citation>
+              </ref>
+              <ref id="CR54">
+                <label>54.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Anderer</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>An E-Health Solution for Automatic Sleep Classification according to Rechtschaffen and Kales: Validation study of the somnolyzer 24 × 7 utilizing the siesta database</article-title>
+                  <source>Neuropsychobiology</source>
+                  <year>2005</year>
+                  <volume>51</volume>
+                  <fpage>115</fpage>
+                  <lpage>133</lpage>
+                  <pub-id pub-id-type="doi">10.1159/000085205</pub-id>
+                  <?supplied-pmid 15838184?>
+                  <pub-id pub-id-type="pmid">15838184</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR55">
+                <label>55.</label>
+                <mixed-citation publication-type="other">Lundqvist, D., Flykt, A. &amp; Öhman, A. Karolinska Directed emotional faces-KDEF. Available for download at <ext-link ext-link-type="uri" xlink:href="https://kdef.se/index.html">https://kdef.se/index.html</ext-link> (1998). </mixed-citation>
+              </ref>
+              <ref id="CR56">
+                <label>56.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fridlund</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Cacioppo</surname>
+                      <given-names>JT</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Guidelines for human electromyographic research</article-title>
+                  <source>Psychophysiology</source>
+                  <year>1986</year>
+                  <volume>23</volume>
+                  <fpage>567</fpage>
+                  <lpage>589</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1469-8986.1986.tb00676.x</pub-id>
+                  <?supplied-pmid 3809364?>
+                  <pub-id pub-id-type="pmid">3809364</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR57">
+                <label>57.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Heller</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <name>
+                      <surname>Greischar</surname>
+                      <given-names>LL</given-names>
+                    </name>
+                    <name>
+                      <surname>Honor</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Anderle</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Davidson</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Simultaneous acquisition of corrugator electromyography and functional magnetic resonance imaging: A new method for objectively measuring affect and neural activity concurrently</article-title>
+                  <source>Neuroimage</source>
+                  <year>2011</year>
+                  <volume>58</volume>
+                  <fpage>930</fpage>
+                  <lpage>934</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2011.06.057</pub-id>
+                  <?supplied-pmid 21742043?>
+                  <pub-id pub-id-type="pmid">21742043</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR58">
+                <label>58.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ashburner</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A fast diffeomorphic image registration algorithm</article-title>
+                  <source>Neuroimage</source>
+                  <year>2007</year>
+                  <volume>38</volume>
+                  <fpage>95</fpage>
+                  <lpage>113</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2007.07.007</pub-id>
+                  <?supplied-pmid 17761438?>
+                  <pub-id pub-id-type="pmid">17761438</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR59">
+                <label>59.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Amunts</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Cytoarchitectonic mapping of the human amygdala, hippocampal region and entorhinal cortex: Intersubject variability and probability maps</article-title>
+                  <source>Anat. Embryol. (Berl)</source>
+                  <year>2005</year>
+                  <volume>210</volume>
+                  <fpage>343</fpage>
+                  <lpage>352</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00429-005-0025-5</pub-id>
+                  <pub-id pub-id-type="pmid">16208455</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR60">
+                <label>60.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Henson</surname>
+                      <given-names>RN</given-names>
+                    </name>
+                    <name>
+                      <surname>Mouchlianitis</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effect of spatial attention on stimulus-specific haemodynamic repetition effects</article-title>
+                  <source>Neuroimage</source>
+                  <year>2007</year>
+                  <volume>35</volume>
+                  <fpage>1317</fpage>
+                  <lpage>1329</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2007.01.019</pub-id>
+                  <?supplied-pmid 17350862?>
+                  <pub-id pub-id-type="pmid">17350862</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR61">
+                <label>61.</label>
+                <mixed-citation publication-type="other">R Core team. R Core Team. <italic>R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing</italic>,<italic> Vienna, Austria. </italic>ISBN 3-900051-07-0, <ext-link ext-link-type="uri" xlink:href="http://www.R-project.org/">https://www.R-project.org/</ext-link>. vol. 55 275–286 (2015).</mixed-citation>
+              </ref>
+              <ref id="CR62">
+                <label>62.</label>
+                <mixed-citation publication-type="other">Pinheiro, J. &amp; Bates, D. <italic>Linear and nonlinear mixed effects models (nlme). Package of the R software for statistical computing on the CRAN repository.</italic> (2015).</mixed-citation>
+              </ref>
+              <ref id="CR63">
+                <label>63.</label>
+                <mixed-citation publication-type="other">Nilsonne, G. &amp; Tamm, S. Sleepy brain: Behavioural data and analyses. 10.5281/zenodo.3821968 (2020).</mixed-citation>
+              </ref>
+              <ref id="CR64">
+                <label>64.</label>
+                <mixed-citation publication-type="other">Tamm, S. <italic>Sleep Deprivation and Emotional Contagion</italic> (Neurovault Collection). <ext-link ext-link-type="uri" xlink:href="https://neurovault.org/collections/RLWUZRQN/">https://neurovault.org/collections/RLWUZRQN/</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR65">
+                <label>65.</label>
+                <mixed-citation publication-type="other">Nilsonne, G. <italic>et al. The Stockholm Sleepy Brain Study: Effects of Sleep Deprivation on Cognitive and Emotional Processing in Young and Old (Data)</italic>. <ext-link ext-link-type="uri" xlink:href="https://openneuro.org/datasets/ds000201/">https://openneuro.org/datasets/ds000201/</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR66">
+                <label>66.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gujar</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>McDonald</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <name>
+                      <surname>Nishida</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Walker</surname>
+                      <given-names>MP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A role for REM sleep in recalibrating the sensitivity of the human brain to specific emotions</article-title>
+                  <source>Cereb. Cortex</source>
+                  <year>2011</year>
+                  <volume>21</volume>
+                  <fpage>115</fpage>
+                  <lpage>123</lpage>
+                  <pub-id pub-id-type="doi">10.1093/cercor/bhq064</pub-id>
+                  <?supplied-pmid 20421251?>
+                  <pub-id pub-id-type="pmid">20421251</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR67">
+                <label>67.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pace-Schott</surname>
+                      <given-names>EF</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Napping promotes inter-session habituation to emotional stimuli</article-title>
+                  <source>Neurobiol. Learn. Mem.</source>
+                  <year>2011</year>
+                  <volume>95</volume>
+                  <fpage>24</fpage>
+                  <lpage>36</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.nlm.2010.10.006</pub-id>
+                  <?supplied-pmid 20969968?>
+                  <pub-id pub-id-type="pmid">20969968</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR68">
+                <label>68.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schwartz</surname>
+                      <given-names>CE</given-names>
+                    </name>
+                    <name>
+                      <surname>Wright</surname>
+                      <given-names>CI</given-names>
+                    </name>
+                    <name>
+                      <surname>Shin</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>Kagan</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Rauch</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Inhibited and uninhibited infants ‘Grown Up’: Adult amygdalar response to novelty</article-title>
+                  <source>Science</source>
+                  <year>2003</year>
+                  <volume>300</volume>
+                  <fpage>1952</fpage>
+                  <lpage>1953</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.1083703</pub-id>
+                  <?supplied-pmid 12817151?>
+                  <pub-id pub-id-type="pmid">12817151</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR69">
+                <label>69.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hart</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Differential response in the human amygdala to racial outgroup vs ingroup face stimuli</article-title>
+                  <source>NeuroReport</source>
+                  <year>2000</year>
+                  <volume>11</volume>
+                  <fpage>2351</fpage>
+                  <lpage>2355</lpage>
+                  <pub-id pub-id-type="doi">10.1097/00001756-200008030-00004</pub-id>
+                  <?supplied-pmid 10943684?>
+                  <pub-id pub-id-type="pmid">10943684</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR70">
+                <label>70.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wright</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neutral faces activate the amygdala during identity matching</article-title>
+                  <source>Neuroimage</source>
+                  <year>2006</year>
+                  <volume>29</volume>
+                  <fpage>628</fpage>
+                  <lpage>636</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2005.07.047</pub-id>
+                  <?supplied-pmid 16143545?>
+                  <pub-id pub-id-type="pmid">16143545</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR71">
+                <label>71.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rosales-Lagarde</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Enhanced emotional reactivity after selective REM sleep deprivation in humans: An fMRI study</article-title>
+                  <source>Front. Behav. Neurosci.</source>
+                  <year>2012</year>
+                  <volume>6</volume>
+                  <fpage>25</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fnbeh.2012.00025</pub-id>
+                  <?supplied-pmid 22719723?>
+                  <pub-id pub-id-type="pmid">22719723</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR72">
+                <label>72.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nord</surname>
+                      <given-names>CL</given-names>
+                    </name>
+                    <name>
+                      <surname>Gray</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Charpentier</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Robinson</surname>
+                      <given-names>OJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Roiser</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Unreliability of putative fMRI biomarkers during emotional face processing</article-title>
+                  <source>Neuroimage</source>
+                  <year>2017</year>
+                  <volume>156</volume>
+                  <fpage>119</fpage>
+                  <lpage>127</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2017.05.024</pub-id>
+                  <?supplied-pmid 28506872?>
+                  <pub-id pub-id-type="pmid">28506872</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR73">
+                <label>73.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>St Jacques</surname>
+                      <given-names>PL</given-names>
+                    </name>
+                    <name>
+                      <surname>Bessette-Symons</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Cabeza</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Functional neuroimaging studies of aging and emotion: Fronto-amygdalar differences during emotional perception and episodic memory</article-title>
+                  <source>J. Int. Neuropsychol. Soc.</source>
+                  <year>2009</year>
+                  <volume>15</volume>
+                  <fpage>819</fpage>
+                  <lpage>825</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S1355617709990439</pub-id>
+                  <?supplied-pmid 19703320?>
+                  <pub-id pub-id-type="pmid">19703320</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR74">
+                <label>74.</label>
+                <mixed-citation publication-type="other">Todorov, A., Fiske, S. &amp; Prentice, D. <italic>Social Neuroscience</italic>. (Oxford University Press, Oxford, 2011). 10.1093/acprof:oso/9780195316872.001.0001.</mixed-citation>
+              </ref>
+              <ref id="CR75">
+                <label>75.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Reed</surname>
+                      <given-names>AE</given-names>
+                    </name>
+                    <name>
+                      <surname>Carstensen</surname>
+                      <given-names>LL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The theory behind the age-related positivity effect</article-title>
+                  <source>Front. Psychol.</source>
+                  <year>2012</year>
+                  <volume>3</volume>
+                  <fpage>1</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="doi">10.3389/fpsyg.2012.00339</pub-id>
+                  <pub-id pub-id-type="pmid">22279440</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR76">
+                <label>76.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gujar</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Yoo</surname>
+                      <given-names>S-S</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Walker</surname>
+                      <given-names>MP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sleep deprivation amplifies reactivity of brain reward networks, biasing the appraisal of positive emotional experiences</article-title>
+                  <source>J. Neurosci.</source>
+                  <year>2011</year>
+                  <volume>31</volume>
+                  <fpage>4466</fpage>
+                  <lpage>4474</lpage>
+                  <pub-id pub-id-type="doi">10.1523/JNEUROSCI.3220-10.2011</pub-id>
+                  <?supplied-pmid 21430147?>
+                  <pub-id pub-id-type="pmid">21430147</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

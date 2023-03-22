@@ -1,0 +1,1736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:03:32Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7238519" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7238519</identifier>
+        <datestamp>2020-05-27</datestamp>
+        <setSpec>bmcpsyc</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMC Psychiatry</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMC Psychiatry</journal-id>
+              <journal-title-group>
+                <journal-title>BMC Psychiatry</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1471-244X</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7238519</article-id>
+              <article-id pub-id-type="pmcid">PMC7238519</article-id>
+              <article-id pub-id-type="pmc-uid">7238519</article-id>
+              <article-id pub-id-type="pmid">32429939</article-id>
+              <article-id pub-id-type="publisher-id">2655</article-id>
+              <article-id pub-id-type="doi">10.1186/s12888-020-02655-4</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Predictors of remission from body dysmorphic disorder after internet-delivered cognitive behavior therapy: a machine learning approach</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2017-3940</contrib-id>
+                  <name>
+                    <surname>Flygare</surname>
+                    <given-names>Oskar</given-names>
+                  </name>
+                  <address>
+                    <email>oskar.flygare@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Enander</surname>
+                    <given-names>Jesper</given-names>
+                  </name>
+                  <address>
+                    <email>jesper.enander@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Andersson</surname>
+                    <given-names>Erik</given-names>
+                  </name>
+                  <address>
+                    <email>erik.m.andersson@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ljótsson</surname>
+                    <given-names>Brjánn</given-names>
+                  </name>
+                  <address>
+                    <email>brjann.ljotsson@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ivanov</surname>
+                    <given-names>Volen Z.</given-names>
+                  </name>
+                  <address>
+                    <email>volen.ivanov@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mataix-Cols</surname>
+                    <given-names>David</given-names>
+                  </name>
+                  <address>
+                    <email>david.mataix.cols@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rück</surname>
+                    <given-names>Christian</given-names>
+                  </name>
+                  <address>
+                    <email>christian.ruck@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label>Centre for Psychiatry Research, Department of Clinical Neuroscience, Karolinska University Hospital, Karolinska Institutet, M46, SE-141 86 Huddinge, Sweden </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.467087.a</institution-id><institution-id institution-id-type="ISNI">0000 0004 0442 1056</institution-id><institution>Stockholm Health Care Services, Region Stockholm, </institution></institution-wrap>Stockholm, Sweden </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.465198.7</institution-id><institution>Division of Psychology, Department of Clinical Neuroscience, </institution><institution>Karolinska Institutet, </institution></institution-wrap>Solna, Sweden </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.467087.a</institution-id><institution-id institution-id-type="ISNI">0000 0004 0442 1056</institution-id><institution>CAP Research Centre, </institution><institution>Stockholm Health Care Services, Region Stockholm, </institution></institution-wrap>Stockholm, Sweden </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>19</day>
+                <month>5</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>19</day>
+                <month>5</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2020</year>
+              </pub-date>
+              <volume>20</volume>
+              <elocation-id>247</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>3</day>
+                  <month>12</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="accepted">
+                  <day>5</day>
+                  <month>5</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2020</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold>This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated in a credit line to the data.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Background</title>
+                  <p id="Par1">Previous attempts to identify predictors of treatment outcomes in body dysmorphic disorder (BDD) have yielded inconsistent findings. One way to increase precision and clinical utility could be to use machine learning methods, which can incorporate multiple non-linear associations in prediction models.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p id="Par2">This study used a random forests machine learning approach to test if it is possible to reliably predict remission from BDD in a sample of 88 individuals that had received internet-delivered cognitive behavioral therapy for BDD. The random forest models were compared to traditional logistic regression analyses.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p id="Par3">Random forests correctly identified 78% of participants as remitters or non-remitters at post-treatment. The accuracy of prediction was lower in subsequent follow-ups (68, 66 and 61% correctly classified at 3-, 12- and 24-month follow-ups, respectively). Depressive symptoms, treatment credibility, working alliance, and initial severity of BDD were among the most important predictors at the beginning of treatment. By contrast, the logistic regression models did not identify consistent and strong predictors of remission from BDD.</p>
+                </sec>
+                <sec>
+                  <title>Conclusions</title>
+                  <p id="Par4">The results provide initial support for the clinical utility of machine learning approaches in the prediction of outcomes of patients with BDD.</p>
+                </sec>
+                <sec>
+                  <title>Trial registration</title>
+                  <p id="Par5">ClinicalTrials.gov ID: <ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT02010619">NCT02010619</ext-link>.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Body dysmorphic disorder</kwd>
+                <kwd>Cognitive behaviour therapy</kwd>
+                <kwd>Internet</kwd>
+                <kwd>Predictor</kwd>
+                <kwd>Machine learning</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100004047</institution-id>
+                      <institution>Karolinska Institutet</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>Clinical Scientist Training Programme</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Flygare</surname>
+                      <given-names>Oskar</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100003186</institution-id>
+                      <institution>Fredrik och Ingrid Thurings Stiftelse</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>2018-00390</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Flygare</surname>
+                      <given-names>Oskar</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2020</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Background</title>
+              <p id="Par24">Body dysmorphic disorder (BDD) has an estimated prevalence of about 2% [<xref ref-type="bibr" rid="CR1">1</xref>, <xref ref-type="bibr" rid="CR2">2</xref>] in the general population, and is characterized by a distressing and impairing preoccupation with perceived defects or flaws in physical appearance that are not noticeable, or only appear slight to others [<xref ref-type="bibr" rid="CR3">3</xref>]. Thoughts about the disliked body parts are perceived as intrusive, difficult to control and time consuming, leading to a disproportionate preoccupation [<xref ref-type="bibr" rid="CR4">4</xref>]. Insight about the perceived defects varies on a continuum from fair to delusional, but is typically poor [<xref ref-type="bibr" rid="CR5">5</xref>, <xref ref-type="bibr" rid="CR6">6</xref>]. Another hallmark of BDD is the presence of repetitive behaviours (such as compulsive mirror gazing, excessive grooming or camouflaging of disliked body areas) in an attempt to hide or control the perceived defects [<xref ref-type="bibr" rid="CR3">3</xref>]. BDD is associated with occupational impairment [<xref ref-type="bibr" rid="CR7">7</xref>], suicidality [<xref ref-type="bibr" rid="CR8">8</xref>], and reduced quality of life [<xref ref-type="bibr" rid="CR9">9</xref>].</p>
+              <p id="Par25">Evidence-based treatments for BDD include selective serotonin re-uptake inhibitors (SSRIs) and cognitive behavioural therapy (CBT). Both treatment modalities are recommended in clinical guidelines [<xref ref-type="bibr" rid="CR10">10</xref>] (published in 2005 and about to be updated) but the current evidence does not allow clinicians to decide which patients should be offered which treatment or whether they should be offered both. Furthermore, while these treatments are efficacious, outcomes are relatively modest, with few patients achieving remission and many requiring long-term treatment. For example, a recent meta-analysis of CBT studies indicated that only 40—54% of patients enrolling in these trials were classified as treatment responders [<xref ref-type="bibr" rid="CR11">11</xref>], which is lower than CBT for obsessive-compulsive disorder where response rates are 62–68% [<xref ref-type="bibr" rid="CR12">12</xref>].</p>
+              <p id="Par26">Identification of reliable predictors of treatment outcome would potentially help guide clinical decision making and reduce the number of treatment failures. In a scenario where the prediction model indicates a low probability of treatment success, a patient could be offered an alternative or adjunct treatment option, or receive additional support from their therapist. Co-morbid depression, high baseline severity of BDD symptoms, and longer duration of BDD, have been found to predict outcomes of CBT for BDD in some studies [<xref ref-type="bibr" rid="CR13">13</xref>, <xref ref-type="bibr" rid="CR14">14</xref>], but a recent meta-analysis on CBT for BDD [<xref ref-type="bibr" rid="CR11">11</xref>] did not find any predictors that consistently predicted outcomes across studies. One possible explanation for these previous mixed results could be that previous studies have used stepwise regression models. Stepwise regression models are prone to bias in regression coefficients [<xref ref-type="bibr" rid="CR15">15</xref>] and are therefore not recommended for prediction in psychiatric research. Despite these limitations, stepwise regression is the most common statistical technique used for prediction (but see [<xref ref-type="bibr" rid="CR16">16</xref>] for a comprehensive review and guide to prediction in psychiatry).</p>
+              <p id="Par27">One way to increase statistical precision and improve clinical utility could be to use machine learning techniques [<xref ref-type="bibr" rid="CR17">17</xref>]. Machine learning uses an iterative approach where the statistical model is evaluated in small subsets of the available data to maximize predictive power. One specific machine learning technique is the random forest algorithm, which can detect and aggregate weak predictors in its statistical model without assumptions of normal distribution [<xref ref-type="bibr" rid="CR18">18</xref>, <xref ref-type="bibr" rid="CR19">19</xref>]. Such techniques can make use of more of the available data compared to regression models, and are therefore ideal when there are many potential predictors relative to the number of participants. Random forests have been used in the prediction of time in remission from obsessive-compulsive disorder with an error rate of 25% [<xref ref-type="bibr" rid="CR20">20</xref>]. Researchers have evaluated four different machine learning methods in the prediction of response to Internet-based CBT (ICBT) for obsessive-compulsive disorder in children and adolescents, with 75 to 83% accuracy (the proportion of correct classifications) [<xref ref-type="bibr" rid="CR21">21</xref>]. Similarly, a combined model of random forest and elastic net algorithms consistently outperformed a traditional linear regression model when predicting results after ICBT for depression [<xref ref-type="bibr" rid="CR22">22</xref>]. These initial results are encouraging and machine learning algorithms such as random forests are yet to be applied to outcome prediction in BDD.</p>
+              <p id="Par28">This study reports on a secondary analysis of data from a recent clinical trial investigating the efficacy of ICBT for adults with BDD [<xref ref-type="bibr" rid="CR23">23</xref>, <xref ref-type="bibr" rid="CR24">24</xref>]. We used random forests machine learning approaches to identify predictors of remission from BDD immediately after treatment and at various follow-up points. For comparison purposes, we also employed traditional logistic regression models. Remission status was chosen as the outcome of interest because it can be assessed in a standardised way and represents a large improvement in well-being that is meaningful for patients. Candidate predictor variables included demographic characteristics, clinical characteristics of BDD and co-occuring disorders, and treatment-related characteristics.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Methods</title>
+              <sec id="Sec3">
+                <title>Study design</title>
+                <p id="Par29">We used data from a previously published RCT [<xref ref-type="bibr" rid="CR23">23</xref>, <xref ref-type="bibr" rid="CR24">24</xref>], registered at <ext-link ext-link-type="uri" xlink:href="http://clinicaltrials.gov">ClinicalTrials.gov</ext-link> (no. NCT02010619), in which 94 participants with a primary diagnosis of BDD were randomized to either BDD-NET (<italic>n</italic> = 47) or online supportive therapy (n = 47) for 12 weeks. Participants who had received supportive therapy were offered BDD-NET after the controlled three month follow-up, which 41/47 (87%) participants accepted. Predictor analyses were thus conducted on the entire sample that received BDD-NET (<italic>n</italic> = 88). Outcome data was gathered at post-treatment, 3-month follow-up, 12-month follow-up, and 24 months after treatment with BDD-NET. For a detailed description of recruitment, participants and procedures of the trial, please refer to the original publications [<xref ref-type="bibr" rid="CR23">23</xref>, <xref ref-type="bibr" rid="CR24">24</xref>].</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Participants</title>
+                <p id="Par30">All participants had a principal diagnosis of BDD according to the DSM-5, and a score of at least 20 on the modified Yale-Brown Obsessive-Compulsive Scale (BDD-YBOCS) [<xref ref-type="bibr" rid="CR25">25</xref>]. Exclusion criteria were psychotropic medication changes within 2 months prior to enrolment, completion of CBT for BDD within the last 12 months, current substance dependence, a history of bipolar disorder or psychosis, acute suicidal ideation, a severe personality disorder that could jeopardize treatment participation (e.g., borderline personality disorder with self-harm), or concurrent psychological treatment.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Predicting variables</title>
+                <p id="Par31">Available predictor variables included demographic characteristics, clinical characteristics of BDD and co-occuring disorders, and treatment-related characteristics.</p>
+                <p id="Par32">Potential <italic>demographic predictors</italic> were gender, age, level of education, occupational status, marital status, and whether participants had children or not.</p>
+                <p id="Par33"><italic>Clinical characteristics</italic> were assessed by both clinicians and participants themselves. Clinicians diagnosed BDD using the structured clinical interview for DSM-IV axis I disorders with an added question about repetitive behaviors to reflect updates to the diagnostic criteria of BDD in DSM-5 (SCID-I), and used the Mini International Diagnostic Interview (MINI [<xref ref-type="bibr" rid="CR26">26</xref>];) to determine whether comorbid conditions were present. Clinicians also assessed BDD symptom severity using the BDD-YBOCS [<xref ref-type="bibr" rid="CR25">25</xref>], level of insight (good, poor, or delusional), clinical severity using the clinical global impression scale (CGI [<xref ref-type="bibr" rid="CR27">27</xref>];), and overall level of functioning (GAF [<xref ref-type="bibr" rid="CR3">3</xref>];). Participants self-reported depressive symptoms on the Montgomery Åsberg Depression Rating Scale (MADRS-S [<xref ref-type="bibr" rid="CR28">28</xref>];), quality of life on the EuroQol 5-dimensions (EQ-5D [<xref ref-type="bibr" rid="CR29">29</xref>];), body areas of concern, duration of BDD, medication with antidepressants, whether they had received previous psychological treatment for BDD, had been in contact with secondary psychiatric care (for any reason), or had undergone previous plastic surgery.</p>
+                <p id="Par34"><italic>Therapy-related predictors</italic> included participant-rated treatment credibility and expectancy of improvement with the Credibility Scale (C-scale [<xref ref-type="bibr" rid="CR30">30</xref>];) at week 2 post-baseline, and working alliance (i.e. agreement on goals, experiencing the therapist as supportive) according to the working alliance inventory short-revised (WAI-SR [<xref ref-type="bibr" rid="CR31">31</xref>];) at week 2 in treatment. At the end of treatment, participants reported the overall time spent on the treatment. The treating therapists reported the number of completed modules.</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Definition of remission</title>
+                <p id="Par35">Based on international expert consensus criteria, remission was defined as no longer fulfilling DSM-5 diagnostic criteria for BDD at the follow-up assessment [<xref ref-type="bibr" rid="CR32">32</xref>].</p>
+              </sec>
+              <sec id="Sec7">
+                <title>Procedure</title>
+                <p id="Par36">Interested individuals registered for the study online and answered a screening questionnaire (demographic variables and clinical characteristics) and MADRS-S via the online platform. Trained assessors then conducted telephone interviews to establish the diagnosis of BDD using the SCID-I and co-morbid conditions using MINI, and rated BDD symptom severity (BDD-YBOCS), clinical severity on the clinical global impression scale (CGI), global assessment of functioning (GAF), and criteria for inclusion and exclusion before enrolment in treatment. At week 2 in treatment, participants rated treatment credibility (C-scale) and working alliance (WAI-SR). At post-treatment and follow-up (3, 12, and 24 months after treatment with BDD-NET) trained assessors conducted telephone assessments similar to the baseline assessment. Self-reported measures (MADRS-S, EQ-5D) were administered using the online platform. Both telephone assessments and self-report measures via the internet have been found to be reliable and valid administration formats [<xref ref-type="bibr" rid="CR33">33</xref>–<xref ref-type="bibr" rid="CR35">35</xref>].</p>
+              </sec>
+              <sec id="Sec8">
+                <title>Treatment</title>
+                <p id="Par37">Therapist guided internet-based cognitive behavioural therapy for body dysmorphic disorder (BDD-NET) was delivered via a tailored online platform using a dedicated hospital server with encrypted traffic and a two-factor authentication (password and single-use code sent via SMS) to guarantee participant confidentiality. The treatment lasted 12-weeks, and none of the participants had any face-to-face contact with a therapist. BDD-NET consists of self-help texts and worksheets that are delivered in eight interactive modules, each devoted to a certain theme. The BDD-NET modules are: 1) psychoeducation, 2) a CBT model for BDD, 3) cognitive restructuring, 4–5) exposure and response prevention and its application, 6) values-based behavior change, 7) difficulties encountered during treatment, and 8) relapse prevention plan. Throughout the treatment, the participant had unlimited access to an identified therapist that could be contacted at any time through the platform’s built in message system. The BDD-NET treatment protocol has been validated in a pilot trial [<xref ref-type="bibr" rid="CR36">36</xref>], and was shown to be efficacious in the randomized controlled trial on which the current study is based [<xref ref-type="bibr" rid="CR23">23</xref>], with gains maintained at 2-year follow-up [<xref ref-type="bibr" rid="CR24">24</xref>].</p>
+              </sec>
+              <sec id="Sec9">
+                <title>Statistical analyses</title>
+                <p id="Par38">The random forest classification model was estimated using 10-fold cross-validation with 10 repeats to increase model stability [<xref ref-type="bibr" rid="CR37">37</xref>]. In 10-fold cross-validation, the model is trained on 90% of the data and evaluated on the remaining 10%. The procedure is repeated for each of the 10 folds and the receiver operating characteristic (sensitivity and specificity) are averaged across repetitions. Random forest classifications were fitted using a maximum of 500 trees and varying the number of predictors used for each split. In random forests, multiple decision trees are created using a random subset of predictors, where the predictor—and its optimal cut-point—that minimizes classification error is chosen at each split. The final model was selected based on the receiver operating characteristic and evaluated by comparing the probability of remission from BDD estimated from the model to the actual remission or non-remission for each patient. Variable importance in the random forest models was determined by their effect on the overall accuracy of the model; more important variables resulted in a bigger accuracy gain when included. The effects of the eight most important individual predictors was investigated using partial dependence plots, where the association between different values of the predictor and the probability of remission is plotted while holding all other predictors constant at their mean value.</p>
+                <p id="Par39">For the logistic regression analyses, we first fitted each predictor variable separately in univariate analyses. Predictors with <italic>p</italic> &lt; .05 were then included in a multiple logistic regression, where we report odds ratios of remission versus non-remission for predictors with <italic>p</italic> &lt; .05. An odds ratio below 1 means lower odds of remission, while an odds ratio higher than 1 indicates higher odds of remission. This procedure is similar to previous work in internet-delivered cognitive behavioural therapy [<xref ref-type="bibr" rid="CR38">38</xref>].</p>
+                <p id="Par40">Predictor variables with high collinearity and with near zero variance were removed prior to modelling, because including them would have made the logistic regression models unstable and provided an unfair advantage for the random forest algorithms. Included variables are marked with an asterisk in Table <xref rid="Tab1" ref-type="table">1</xref>. Missing data was imputed using random forests in the <italic>missForest</italic> package [<xref ref-type="bibr" rid="CR39">39</xref>]. Scripts for data preparation and statistical analyses, as well as detailed results from the random forest and regression analyses, are available on the Open Science Framework (<ext-link ext-link-type="uri" xlink:href="https://osf.io/fu5sj/">https://osf.io/fu5sj/</ext-link>). We used R version 3.5.3 [<xref ref-type="bibr" rid="CR40">40</xref>] for all statistical analyses.
+<table-wrap id="Tab1"><label>Table 1</label><caption><p>Characteristics of study participants used for prediction</p></caption><table frame="hsides" rules="groups"><thead><tr><th><bold>Variable</bold></th><th><bold>No. (%)</bold></th></tr></thead><tbody><tr><td colspan="2"><bold>Sociodemographic variables</bold></td></tr><tr><td colspan="2"><italic>Gender</italic></td></tr><tr><td>  Female<sup>*</sup></td><td>74 (84%)</td></tr><tr><td>  Male<sup>*</sup></td><td>14 (16%)</td></tr><tr><td> Age, mean (SD)<sup>*</sup></td><td>32.48 (11.62)</td></tr><tr><td colspan="2"><italic>Household structure</italic></td></tr><tr><td>  Married<sup>*</sup></td><td>14 (16%)</td></tr><tr><td>  Have children<sup>*</sup></td><td>33 (38%)</td></tr><tr><td colspan="2"><italic>Level of education</italic></td></tr><tr><td>  Primary school<sup>*</sup></td><td>11 (12%)</td></tr><tr><td>  Secondary school<sup>*</sup></td><td>50 (57%)</td></tr><tr><td>  University degree<sup>*</sup></td><td>26 (30%)</td></tr><tr><td>  Doctorate</td><td>1 (1%)</td></tr><tr><td colspan="2"><italic>Occupational status</italic></td></tr><tr><td>  Working<sup>*</sup></td><td>49 (56%)</td></tr><tr><td>  Student<sup>*</sup></td><td>22 (25%)</td></tr><tr><td>  Unemployed<sup>*</sup></td><td>13 (15%)</td></tr><tr><td>  Disability pension</td><td>1 (1%)</td></tr><tr><td>  Retired</td><td>3 (3%)</td></tr><tr><td colspan="2"><bold>Clinical variables</bold></td></tr><tr><td> Years with BDD, mean (SD)<sup>*</sup></td><td>18.83 (13.27)</td></tr><tr><td colspan="2"><italic>Insight</italic></td></tr><tr><td>  Good<sup>*</sup></td><td>46 (52%)</td></tr><tr><td>  Poor<sup>*</sup></td><td>34 (39%)</td></tr><tr><td>  Delusional<sup>*</sup></td><td>8 (9%)</td></tr><tr><td> No. body areas of concern, mean (SD)</td><td>7.67 (4.68)</td></tr><tr><td colspan="2"><italic>Comorbidity</italic></td></tr><tr><td>  Current depressive episode<sup>*</sup></td><td>44 (50%)</td></tr><tr><td>  Panic disorder</td><td>3 (3%)</td></tr><tr><td>  Social anxiety disorder<sup>*</sup></td><td>25 (28%)</td></tr><tr><td>  Obsessive-compulsive disorder<sup>*</sup></td><td>8 (9%)</td></tr><tr><td>  Generalized anxiety disorder<sup>*</sup></td><td>15 (17%)</td></tr><tr><td>  Bulimia nervosa</td><td>9 (10%)</td></tr><tr><td>  ADHD</td><td>2 (2%)</td></tr><tr><td colspan="2"><italic>Medication</italic></td></tr><tr><td>  SSRI<sup>*</sup></td><td>12 (14%)</td></tr><tr><td>  SNRI</td><td>2 (2%)</td></tr><tr><td>  Other antidepressant<sup>*</sup></td><td>7 (8%)</td></tr><tr><td colspan="2"><italic>Previous treatment</italic></td></tr><tr><td>  Cognitive behavioral therapy for BDD<sup>*</sup></td><td>10 (11%)</td></tr><tr><td>  Other psychological treatment<sup>*</sup></td><td>53 (60%)</td></tr><tr><td>  Previous contact with psychiatry<sup>*</sup></td><td>54 (61%)</td></tr><tr><td>  Plastic surgery<sup>*</sup></td><td>21 (24%)</td></tr><tr><td>  No. of plastic surgeries, mean (SD)<sup>*</sup></td><td>0.56 (1.30)</td></tr><tr><td colspan="2"><bold>Baseline measurements</bold></td></tr><tr><td colspan="2"><italic>CGI-Severity</italic></td></tr><tr><td>  2 - Borderline mentally ill</td><td>3 (3%)</td></tr><tr><td>  3 - Mildly ill<sup>*</sup></td><td>13 (15%)</td></tr><tr><td>  4 - Moderately ill<sup>*</sup></td><td>47 (53%)</td></tr><tr><td>  5 - Markedly ill<sup>*</sup></td><td>21 (24%)</td></tr><tr><td>  6 - Severely ill</td><td>3 (3%)</td></tr><tr><td>  7 - Among the most extremely ill patients</td><td>1 (1%)</td></tr><tr><td>GAF, mean (SD)<sup>*</sup></td><td>56.24 (6.67)</td></tr><tr><td>BDD-YBOCS, mean (SD)<sup>*</sup></td><td>27.74 (5.52)</td></tr><tr><td>EQ-5D, mean (SD)<sup>*</sup></td><td>13.06 (3.55)</td></tr><tr><td>MADRS-S, mean (SD)<sup>*</sup></td><td>18.92 (9.05)</td></tr><tr><td colspan="2"><bold>Treatment-related variables</bold></td></tr><tr><td> Treatment credibility, mean (SD)<sup>*</sup></td><td>31.59 (11.51)</td></tr><tr><td> Working alliance inventory, mean (SD)<sup>*</sup></td><td>65.27 (13.15)</td></tr><tr><td> No. modules completed, mean (SD)<sup>*</sup></td><td>6.25 (2.45)</td></tr><tr><td colspan="2"><italic>Time spent on treatment (per week)</italic></td></tr><tr><td>  1 h<sup>*</sup></td><td>16 (18%)</td></tr><tr><td>  2 h<sup>*</sup></td><td>17 (19%)</td></tr><tr><td>  3 h<sup>*</sup></td><td>15 (17%)</td></tr><tr><td>  4 h<sup>*</sup></td><td>6 (7%)</td></tr><tr><td>  5 h<sup>*</sup></td><td>6 (7%)</td></tr><tr><td>  6 h<sup>*</sup></td><td>8 (9%)</td></tr><tr><td>  7 h</td><td>3 (3%)</td></tr><tr><td>  8 h</td><td>5 (6%)</td></tr><tr><td>  9 h or more<sup>*</sup></td><td>12 (14%)</td></tr><tr><td colspan="2"><bold>Outcome: Number of participants in remission</bold></td></tr><tr><td> Post treatment</td><td>27 (31%)</td></tr><tr><td> 3-month follow-up</td><td>37 (42%)</td></tr><tr><td> 12-month follow-up</td><td>41 (47%)</td></tr><tr><td> 24-month follow-up</td><td>53 (60%)</td></tr></tbody></table><table-wrap-foot><p>Abbreviations: <italic>BDD</italic> Body dysmorphic disorder, <italic>ADHD</italic> Attention deficit hyperactivity disorder, <italic>SSRI</italic> Selective serotonin reuptake inhibitor; <italic>SNRI</italic> Serotonin-norepinephrine reuptake inhibitor, <italic>CGI</italic> Clinical global impression scale, <italic>GAF</italic> Global assessment of functioning, <italic>BDD-YBOCS</italic> Yale-Brown obsessive compulsive scale modified for BDD, <italic>EQ-5D</italic> EuroQol 5-dimensions, <italic>MADRS-S</italic> Montgomery-Åsberg depression rating scale-self report</p><p><sup>*</sup>Variable was used in prediction</p></table-wrap-foot></table-wrap></p>
+              </sec>
+            </sec>
+            <sec id="Sec10">
+              <title>Results</title>
+              <p id="Par41">The characteristics of the study participants at baseline and rates of remitted patients at post-treatment and follow-up are presented in Table <xref rid="Tab1" ref-type="table">1</xref>. The sample was predominantly female, highly educated and working or studying. On average, they had had BDD symptoms for over 18 years and their BDD was in the moderately severe range at the time of participation. Slightly over half the sample had good insight. The most common current comorbid condition was depression (50% of participants). The majority of participants had had previous contact with psychiatric services, though few had received evidence-based treatment for BDD. The rates of participants in remission increased from 31% at post-treatment to 60% at 24-month follow-up (bottom of Table <xref rid="Tab1" ref-type="table">1</xref>).</p>
+              <sec id="Sec11">
+                <title>Predictors at post-treatment</title>
+                <p id="Par42">Twenty-seven patients or 31% of the sample were in remission at post-treatment. The random forest model correctly classified 78% of cases. Partial dependence plots for the eight most important predictors of remission status at post-treatment are shown in Fig. <xref rid="Fig1" ref-type="fig">1</xref>. Treatment credibility (Credibility scale) and working alliance (WAI-SR) rated at week 2 in treatment had a positive linear relationship with probability of remission, i.e. a higher score on these measures were associated with a higher probability of remission. Conversely, depressive symptoms (MADRS-S) and BDD symptoms (BDD-YBOCS) were negatively associated with probability of remission. The supplementary materials (<ext-link ext-link-type="uri" xlink:href="https://osf.io/fu5sj/">https://osf.io/fu5sj/</ext-link>) include partial dependence plots for the most important predictors at follow-up.
+<fig id="Fig1"><label>Fig. 1</label><caption><p>Partial dependence plots for remission status at post-treatment. Observed values (black) and LOESS-smoothing (blue) show the effect of each predictor variable when all other predictors are held constant at their mean value. Abbreviations: WAI-SR, Working alliance inventory short-revised; MADRS-S, Montgomery-Åsberg depression rating scale-self report; BDD-YBOCS, Yale-Brown obsessive compulsive scale modified for BDD; GAF, Global assessment of functioning</p></caption><graphic xlink:href="12888_2020_2655_Fig1_HTML" id="MO1"/></fig></p>
+                <p id="Par43">The univariate logistic regression analyses identified 7 significant predictors, but only MADRS-S remained significant in the multivariate analysis (OR = 0.91 [95% CI 0.81–1], <italic>p</italic> = 0.041) after stepwise selection.</p>
+              </sec>
+              <sec id="Sec12">
+                <title>Predictors at follow-up</title>
+                <p id="Par44">Thirty-seven (42%) patients were in remission at the 3-month follow-up. The random forest model correctly classified 68% of cases. Treatment credibility, WAI-SR, MADRS-S and years with BDD were still among the most important variables. The univariate logistic regression analyses identified 8 predictive variables, but but only treatment credibility (C-scale) remained significant in the multivariate analysis (OR = 1.1 [95% CI 1.02–1.18], <italic>p</italic> = 0.019) after stepwise selection.</p>
+                <p id="Par45">Fourty-one (47%) patients were in remission at the 12-month follow-up. The random forest model correctly classified 66% of cases. The most important predictor variable was treatment credibility. WAI-SR, MADRS-S, and BDD-YBOCS—all previously identified—were other important predictors. In the logistic regression, 8 variables passed the <italic>p</italic> &lt; .05 threshold in univariate analyses. Treatment credibility (OR = 1.11 [1.04–1.19], <italic>p</italic> = 0.004) and spending at least 2 h per week on the treatment (OR = 10.99 [9.18–12.8], <italic>p</italic> = 0.009) remained statistically significant in the stepwise multivariate analysis.</p>
+                <p id="Par46">Lastly, at the 24-month follow-up, 53 (60%) patients were in remission and the random forest model correctly classified 61% of cases. The most important predictor variables were MADRS-S, treatment credibility, number of body areas of concern, and BDD-YBOCS. In the logistic regression analyses, 6 variables reached statistical significance in the univariate model but only one remained statistically significant in the stepwise multivariate model: having children was associated with a higher probability of being in remission (OR = 3.59 [2.5–4.69], <italic>p</italic> = 0.022).</p>
+                <p id="Par47">The random forest models were, in general, relatively more sensitive to detecting remitters than they were specific to correctly classifying non-remitters. The exception is at the 24-month follow-up, where the random forest model had high specificity at the expense of sensitivity (see Table <xref rid="Tab2" ref-type="table">2</xref>). Figure <xref rid="Fig2" ref-type="fig">2</xref> depicts model performance in terms of true and false positive rates at various thresholds for estimated probability of remission. The overall performance of the model can then be summarized as the area under the receiver operating characteristics curve (AUC) and compared to chance performance (dashed lines). AUC at post treatment was 0.78 and decreased over time (0.76, 0.73, and 0.63 at subsequent follow-ups), indicating that baseline predictor variables have less predictive power over time.
+<table-wrap id="Tab2"><label>Table 2</label><caption><p>Performance metrics of random forest models</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Time</th><th>ROC</th><th>Sensitivity</th><th>Specificity</th></tr></thead><tbody><tr><td>Post</td><td>0.78</td><td>0.92</td><td>0.43</td></tr><tr><td>3-month</td><td>0.78</td><td>0.82</td><td>0.50</td></tr><tr><td>12-month</td><td>0.73</td><td>0.71</td><td>0.66</td></tr><tr><td>24-month</td><td>0.64</td><td>0.23</td><td>0.88</td></tr></tbody></table><table-wrap-foot><p>Abbreviations: <italic>ROC</italic> Receiver operating characteristics</p></table-wrap-foot></table-wrap><fig id="Fig2"><label>Fig. 2</label><caption><p>ROC-curves for random forest models. True positive and false positive rates at various thresholds</p></caption><graphic xlink:href="12888_2020_2655_Fig2_HTML" id="MO2"/></fig></p>
+              </sec>
+            </sec>
+            <sec id="Sec13">
+              <title>Discussion</title>
+              <p id="Par48">The results in this study indicated that a machine learning random forest algorithm could correctly detect 78% of participants as remitters or non-remitters at post-treatment. Although this accuracy was lower in the subsequent follow-ups, the model did still show acceptable predictive power compared to the traditional stepwise regression approach. The most important predictors were depressive symptoms, treatment credibility, working alliance, and initial severity of BDD. In general, the model was better able to detect true remitters and correctly classifying non-remitters. Although this was only a first ‘proof-of-concept’ study, the reults are encouraging and provide initial support for the use of machine learning algorithms to guide clinical decision making and approach personalized care for adults with BDD.</p>
+              <p id="Par49">Depressive symptoms, measured using the MADRS-S, were consistently among the most important predictors in the random forest models. Previous trials of CBT for BDD using a questionnaire to measure depressive symptoms have found the same pattern [<xref ref-type="bibr" rid="CR14">14</xref>], although a recent meta-analysis did not find that percentage of participants with diagnosed depression or antidepressant medication predicted results across trials [<xref ref-type="bibr" rid="CR11">11</xref>]. Whether depression is measured by depressive symptoms on a severity scale or using a diagnosis of depression could explain the conflicting results; we found that symptoms—but not diagnosis—of depression was an important predictor, which is in line with previous findings [<xref ref-type="bibr" rid="CR13">13</xref>, <xref ref-type="bibr" rid="CR14">14</xref>]. Our preliminary results point to the need for further treatment optimization for patients with co-morbid depressive symptoms, for example by adding specific modules targeting depressive symptoms in BDD-NET, or considering concurrent pharmacological treatment with antidepressants, for those that need it.</p>
+              <p id="Par50">Our results also indicate that baseline severity and chronicity of BDD need to be taken into account. Baseline symptoms of BDD (BDD-YBOCS), number of body areas of concern, and years with BDD emerged as important predictors at every time-point. Initial severity and chronicity of BDD is an important part of the assessment prior to treatment selection, and the results are in line with [<xref ref-type="bibr" rid="CR14">14</xref>], who found that BDD patients referred from secondary or tertiary care were less likely to respond to treatment. Similar observations were made in the early computerized CBT literature, e.g. in anxiety and mood disorders [<xref ref-type="bibr" rid="CR41">41</xref>]. Level of insight into BDD was not an important predictor of remission, which is surprising given that insight is often cited as an important part of the assessment prior to CBT for BDD. However, individuals with low insight do not differ from individuals with adequate insight on most demographic and clinical characteristics [<xref ref-type="bibr" rid="CR42">42</xref>]. Taken together, our results provide support for the idea of using ICBT for mild to moderate cases of BDD in a stepped-care model, where more severe cases receive other, more intensive interventions.</p>
+              <p id="Par51">Treatment-related factors such as working alliance and treatment credibility may also be more important than demographic characteristics in the prediction of remission after ICBT for BDD. Both working alliance (WAI-SR) and treatment credibility (C-scale) emerged as important predictors at all time-points. Conversely, demographic characteristics were not important predictors of remission from BDD at any time-point. Similarly, the number of completed modules did not emerge as an important predictor at any time-point. It should be noted, however, that most participants completed the core modules that introduced exposure with response prevention, and may have continued to practice this technique despite not progressing to subsequent treatment modules. This indicates that success in ICBT for BDD is more likely to be determined by whether the user experiences the treatment as credible and the alliance with their therapist as positive, and that it is potentially helpful regardless of gender, age, family status, level of education or current occupational status.</p>
+              <p id="Par52">Some limitations should be mentioned. First, the original randomized controlled trial consisted of self-referred patients with relatively good insight. Our sample differs slightly from previous trials of CBT for BDD, namely that participants in other clinical trials on BDD, on average, had higher levels of depressive symptoms [<xref ref-type="bibr" rid="CR43">43</xref>, <xref ref-type="bibr" rid="CR44">44</xref>]. Second, although our sample size was relatively large, it was not large enough to divide into training and testing sub-samples that further decrease the possibility of false positive findings. Other measures were taken to reduce the risk of false positives, such as repeated cross-validation and averaging results across repeated models. Third, 41 of the 88 participants had received the supportive therapy control treatment before BDD-NET making the study sample more heterogeneous, as well as introducing potential additive effects after two bouts of treatment. However, only one individual was in remission after supportive therapy and of the 47 individuals initially randomised to supportive therapy 41 accepted BDD-NET as additional treatment [<xref ref-type="bibr" rid="CR23">23</xref>]. Fourth, we do not know if these results will generalize to other treatment modalities for BDD, or whether integrating other sources of data, such as detailed platform usage, could potentially improve predictive accuracy.</p>
+              <p id="Par53">Directions for future research include validating the use of machine learning algorithms in larger samples, developing algorithms that can guide clinical decision making (for example deciding between several available treatment options), and to integrate other kinds of data, e.g. genetic markers in the predictive models. Another suggestion for future research would be to do an experimental test of the clinical utility of machine learning prediction models. For example, patients could be randomized to either treatment as usual or a machine-learning-guided condition where patients at high-risk of non-remission are detected early using machine learning algorithms and offered additional treatment to maximize the chances of remission.</p>
+            </sec>
+            <sec id="Sec14">
+              <title>Conclusions</title>
+              <p id="Par54">The results of this proof-of-concept study show that machine learning algorithms such as random forests can be potentially useful to distinguish remitters from non-remitters after ICBT for BDD and provide initial support for the utility of machine learning techniques in personalized care in the treatment of BDD. Experimental designs testing these novel prediction models are needed.</p>
+            </sec>
+          </body>
+          <back>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term>AUC</term>
+                  <def>
+                    <p id="Par6">Area under the receiver operating characteristics curve</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>BDD</term>
+                  <def>
+                    <p id="Par7">Body dysmorphic disorder</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>BDD-NET</term>
+                  <def>
+                    <p id="Par8">Therapist guided internet-based cognitive behavioural therapy for body dysmorphic disorder</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>BDD-YBOCS</term>
+                  <def>
+                    <p id="Par9">Yale-Brown obsessive compulsive scale modified for BDD</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CBT</term>
+                  <def>
+                    <p id="Par10">Cognitive behaviour therapy</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CGI</term>
+                  <def>
+                    <p id="Par11">Clinical global impression scale</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>C-scale</term>
+                  <def>
+                    <p id="Par12">Treatment credibility scale</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>DSM-5</term>
+                  <def>
+                    <p id="Par13">Diagnostic and Statistical Manual of Mental Disorders, fifth edition</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>EQ-5D</term>
+                  <def>
+                    <p id="Par14">EuroQol 5-dimensions</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>GAF</term>
+                  <def>
+                    <p id="Par15">Global assessment of functioning</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>ICBT</term>
+                  <def>
+                    <p id="Par16">Internet-based cognitive behaviour therapy</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>MADRS-S</term>
+                  <def>
+                    <p id="Par17">Montgomery-Åsberg depression rating scale-self report</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>MINI</term>
+                  <def>
+                    <p id="Par18">Mini International Diagnostic Interview</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>OCD</term>
+                  <def>
+                    <p id="Par19">Obsessive-compulsive disorder</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>RCT</term>
+                  <def>
+                    <p id="Par20">Randomised controlled trial</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>ROC</term>
+                  <def>
+                    <p id="Par21">Receiver-operator characteristics</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>SSRI</term>
+                  <def>
+                    <p id="Par22">Selective serotonin reuptake inhibitor</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>WAI-SR</term>
+                  <def>
+                    <p id="Par23">Working alliance inventory short-revised</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher’s Note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>The authors would like to express their gratitude to the study participants and clinicians involved, they made this research possible.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Authors’ contributions</title>
+              <p>JE and CR designed the randomized controlled trial on which this study is based. OF analyzed the data and drafted the manuscript, which JE, EA, BL, VZI, DMC, and CR revised for important intellectual content. OF and CR have full access to the data and are accountable for the accuracy and integrity of statistical analyses. All authors approved the final version of the manuscript for publication.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>OF was supported by Karolinska Institutet (Clinical Scientist Training Programme) and received funding from Thuringstiftelsen (no. 2018–00390) during the conduct of the study. Funding sponsors did not influence the design, collection, analysis, or interpretation of data, writing the manuscript, or the decision to submit the manuscript for publication. Open access funding provided by Karolinska Institute.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Availability of data and materials</title>
+              <p>The datasets analysed during the current study are not publicly available since they contain sensitive personal identifying information and data sharing was not part of the written informed consent, but are available from the corresponding author on reasonable request. The scripts used for statistical analyses and additional materials are publicly available at (<ext-link ext-link-type="uri" xlink:href="https://osf.io/fu5sj/">https://osf.io/fu5sj/</ext-link>).</p>
+            </notes>
+            <notes id="FPar1">
+              <title>Ethics approval and consent to participate</title>
+              <p id="Par55">The regional ethical review board in Stockholm approved the protocol (registration ID: 2013/1773–31/4) for the clinical trial from where data is analyzed. All participants gave written informed consent.</p>
+            </notes>
+            <notes id="FPar2">
+              <title>Consent for publication</title>
+              <p id="Par56">Not applicable.</p>
+            </notes>
+            <notes id="FPar3" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par57">DMC reports personal fees from Elsevier and personal fees from UpToDate, Inc., outside the submitted work. The other authors declare no potential conflicts of interest.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brohede</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Wijma</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Wingren</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Wijma</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prevalence of body dysmorphic disorder among Swedish women: a population-based study</article-title>
+                  <source>Compr Psychiatry</source>
+                  <year>2015</year>
+                  <volume>58</volume>
+                  <fpage>108</fpage>
+                  <lpage>115</lpage>
+                  <?supplied-pmid 25617963?>
+                  <pub-id pub-id-type="pmid">25617963</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Veale</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Gledhill</surname>
+                      <given-names>LJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Christodoulou</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Hodsoll</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Body dysmorphic disorder in different settings: a systematic review and estimated weighted prevalence</article-title>
+                  <source>Body Image</source>
+                  <year>2016</year>
+                  <volume>18</volume>
+                  <fpage>168</fpage>
+                  <lpage>186</lpage>
+                  <?supplied-pmid 27498379?>
+                  <pub-id pub-id-type="pmid">27498379</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <mixed-citation publication-type="other">American Psychiatric Association, editor. Diagnostic and statistical manual of mental disorders. 5th ed: American Psychiatric Association; 2013.</mixed-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brohede</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Wijma</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Wijma</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Blomberg</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>“I will be at death’s door and realize that I’ve wasted maybe half of my life on one body part”: the experience of living with body dysmorphic disorder</article-title>
+                  <source>Int J Psychiatry Clin Pract</source>
+                  <year>2016</year>
+                  <volume>20</volume>
+                  <fpage>191</fpage>
+                  <lpage>198</lpage>
+                  <?supplied-pmid 27314665?>
+                  <pub-id pub-id-type="pmid">27314665</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Phillips</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                    <name>
+                      <surname>McElroy</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                    <name>
+                      <surname>Keck</surname>
+                      <given-names>PE</given-names>
+                      <suffix>Jr</suffix>
+                    </name>
+                    <name>
+                      <surname>Hudson</surname>
+                      <given-names>JI</given-names>
+                    </name>
+                    <name>
+                      <surname>Pope</surname>
+                      <given-names>HG</given-names>
+                      <suffix>Jr</suffix>
+                    </name>
+                  </person-group>
+                  <article-title>A comparison of delusional and nondelusional body dysmorphic disorder in 100 cases</article-title>
+                  <source>Psychopharmacol Bull</source>
+                  <year>1994</year>
+                  <volume>30</volume>
+                  <fpage>179</fpage>
+                  <lpage>186</lpage>
+                  <?supplied-pmid 7831453?>
+                  <pub-id pub-id-type="pmid">7831453</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Phillips</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Psychosis in body dysmorphic disorder</article-title>
+                  <source>J Psychiatr Res</source>
+                  <year>2004</year>
+                  <volume>38</volume>
+                  <fpage>63</fpage>
+                  <lpage>72</lpage>
+                  <?supplied-pmid 14690771?>
+                  <pub-id pub-id-type="pmid">14690771</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Didie</surname>
+                      <given-names>ER</given-names>
+                    </name>
+                    <name>
+                      <surname>Menard</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Stern</surname>
+                      <given-names>AP</given-names>
+                    </name>
+                    <name>
+                      <surname>Phillips</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Occupational functioning and impairment in adults with body dysmorphic disorder</article-title>
+                  <source>Compr Psychiatry</source>
+                  <year>2008</year>
+                  <volume>49</volume>
+                  <fpage>561</fpage>
+                  <lpage>569</lpage>
+                  <?supplied-pmid 18970904?>
+                  <pub-id pub-id-type="pmid">18970904</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Angelakis</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Gooding</surname>
+                      <given-names>PA</given-names>
+                    </name>
+                    <name>
+                      <surname>Panagioti</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Suicidality in body dysmorphic disorder (BDD): a systematic review with meta-analysis</article-title>
+                  <source>Clin Psychol Rev</source>
+                  <year>2016</year>
+                  <volume>49</volume>
+                  <fpage>55</fpage>
+                  <lpage>66</lpage>
+                  <?supplied-pmid 27607741?>
+                  <pub-id pub-id-type="pmid">27607741</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Phillips</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                    <name>
+                      <surname>Menard</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Fay</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Pagano</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Psychosocial functioning and quality of life in body dysmorphic disorder</article-title>
+                  <source>Compr Psychiatry</source>
+                  <year>2005</year>
+                  <volume>46</volume>
+                  <fpage>254</fpage>
+                  <lpage>260</lpage>
+                  <?supplied-pmid 16175755?>
+                  <pub-id pub-id-type="pmid">16175755</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>National Institute for Clinical Excellence</collab>
+                  </person-group>
+                  <source>Obsessive-compulsive disorder: Core interventions in the treatment of obsessive-compulsive disorder and body dysmorphic disorder</source>
+                  <year>2005</year>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Harrison</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Fernández de la Cruz</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Enander</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Radua</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Mataix-Cols</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cognitive-behavioral therapy for body dysmorphic disorder: a systematic review and meta-analysis of randomized controlled trials</article-title>
+                  <source>Clin Psychol Rev</source>
+                  <year>2016</year>
+                  <volume>48</volume>
+                  <fpage>43</fpage>
+                  <lpage>51</lpage>
+                  <?supplied-pmid 27393916?>
+                  <pub-id pub-id-type="pmid">27393916</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Öst</surname>
+                      <given-names>L-G</given-names>
+                    </name>
+                    <name>
+                      <surname>Havnen</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Hansen</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Kvale</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cognitive behavioral treatments of obsessive–compulsive disorder. A systematic review and meta-analysis of studies published 1993–2014</article-title>
+                  <source>Clin Psychol Rev</source>
+                  <year>2015</year>
+                  <volume>40</volume>
+                  <fpage>156</fpage>
+                  <lpage>169</lpage>
+                  <?supplied-pmid 26117062?>
+                  <pub-id pub-id-type="pmid">26117062</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Phillips</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                    <name>
+                      <surname>Menard</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Quinn</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Didie</surname>
+                      <given-names>ER</given-names>
+                    </name>
+                    <name>
+                      <surname>Stout</surname>
+                      <given-names>RL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A 4-year prospective observational follow-up study of course and predictors of course in body dysmorphic disorder</article-title>
+                  <source>Psychol Med</source>
+                  <year>2013</year>
+                  <volume>43</volume>
+                  <fpage>1109</fpage>
+                  <lpage>1117</lpage>
+                  <?supplied-pmid 23171833?>
+                  <pub-id pub-id-type="pmid">23171833</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Veale</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Miles</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Anson</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Long-term outcome of cognitive behavior therapy for body dysmorphic disorder: a naturalistic case series of 1 to 4 years after a controlled trial</article-title>
+                  <source>Behav Ther</source>
+                  <year>2015</year>
+                  <volume>46</volume>
+                  <fpage>775</fpage>
+                  <lpage>785</lpage>
+                  <?supplied-pmid 26520220?>
+                  <pub-id pub-id-type="pmid">26520220</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Steyerberg</surname>
+                      <given-names>EW</given-names>
+                    </name>
+                    <name>
+                      <surname>Eijkemans</surname>
+                      <given-names>MJC</given-names>
+                    </name>
+                    <name>
+                      <surname>Habbema</surname>
+                      <given-names>JDF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stepwise selection in small data sets: a simulation study of bias in logistic regression analysis</article-title>
+                  <source>J Clin Epidemiol</source>
+                  <year>1999</year>
+                  <volume>52</volume>
+                  <fpage>935</fpage>
+                  <lpage>942</lpage>
+                  <?supplied-pmid 10513756?>
+                  <pub-id pub-id-type="pmid">10513756</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fusar-Poli</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Hijazi</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Stahl</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Steyerberg</surname>
+                      <given-names>EW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The science of prognosis in psychiatry: a review</article-title>
+                  <source>JAMA Psychiatry</source>
+                  <year>2018</year>
+                  <volume>75</volume>
+                  <fpage>1289</fpage>
+                  <lpage>1297</lpage>
+                  <?supplied-pmid 30347013?>
+                  <pub-id pub-id-type="pmid">30347013</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hahn</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Nierenberg</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Whitfield-Gabrieli</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Predictive analytics in mental health: applications, guidelines, challenges and perspectives</article-title>
+                  <source>Mol Psychiatry</source>
+                  <year>2017</year>
+                  <volume>22</volume>
+                  <fpage>37</fpage>
+                  <lpage>43</lpage>
+                  <?supplied-pmid 27843153?>
+                  <pub-id pub-id-type="pmid">27843153</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Biau</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Analysis of a random forests model</article-title>
+                  <source>J Mach Learn Res</source>
+                  <year>2012</year>
+                  <volume>13</volume>
+                  <fpage>1063</fpage>
+                  <lpage>1095</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Malley</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Kruppa</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Dasgupta</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Malley</surname>
+                      <given-names>KG</given-names>
+                    </name>
+                    <name>
+                      <surname>Ziegler</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Probability machines: consistent probability estimation using nonparametric learning machines</article-title>
+                  <source>Methods Inf Med</source>
+                  <year>2012</year>
+                  <volume>51</volume>
+                  <fpage>74</fpage>
+                  <lpage>81</lpage>
+                  <?supplied-pmid 21915433?>
+                  <pub-id pub-id-type="pmid">21915433</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Askland</surname>
+                      <given-names>KD</given-names>
+                    </name>
+                    <name>
+                      <surname>Garnaat</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Sibrava</surname>
+                      <given-names>NJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Boisseau</surname>
+                      <given-names>CL</given-names>
+                    </name>
+                    <name>
+                      <surname>Strong</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Mancebo</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Prediction of remission in obsessive compulsive disorder using a novel machine learning strategy</article-title>
+                  <source>Int J Methods Psychiatr Res</source>
+                  <year>2015</year>
+                  <volume>24</volume>
+                  <fpage>156</fpage>
+                  <lpage>169</lpage>
+                  <?supplied-pmid 25994109?>
+                  <pub-id pub-id-type="pmid">25994109</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lenhard</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Sauer</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Månsson</surname>
+                      <given-names>KN</given-names>
+                    </name>
+                    <name>
+                      <surname>Mataix-Cols</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Rück</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Prediction of outcome in internet-delivered cognitive behaviour therapy for paediatric obsessive-compulsive disorder: a machine learning approach</article-title>
+                  <source>Int J Methods Psychiatr Res</source>
+                  <year>2018</year>
+                  <volume>27</volume>
+                  <fpage>e1576</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pearson</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Pisner</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Meyer</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Shumake</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Beevers</surname>
+                      <given-names>CG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A machine learning ensemble to predict treatment outcomes following an internet intervention for depression</article-title>
+                  <source>Psychol Med</source>
+                  <year>2018</year>
+                  <volume>1</volume>
+                  <fpage>1</fpage>
+                  <lpage>12</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Enander</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Mataix-Cols</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Lichtenstein</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Alström</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Therapist guided internet based cognitive behavioural therapy for body dysmorphic disorder: single blind randomised controlled trial</article-title>
+                  <source>BMJ</source>
+                  <year>2016</year>
+                  <volume>1</volume>
+                  <fpage>i241</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Enander</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Anderhell</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Runeborg</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Flygare</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Cottman</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Long-term outcome of therapist-guided internet-based cognitive behavioural therapy for body dysmorphic disorder (BDD-NET): a naturalistic 2-year follow-up after a randomised controlled trial</article-title>
+                  <source>BMJ Open</source>
+                  <year>2019</year>
+                  <volume>9</volume>
+                  <fpage>e024307</fpage>
+                  <?supplied-pmid 30647044?>
+                  <pub-id pub-id-type="pmid">30647044</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Phillips</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                    <name>
+                      <surname>Hollander</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Rasmussen</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <name>
+                      <surname>Aronowitz</surname>
+                      <given-names>BR</given-names>
+                    </name>
+                    <name>
+                      <surname>DeCaria</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Goodman</surname>
+                      <given-names>WK</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A severity rating scale for body dysmorphic disorder: development, reliability, and validity of a modified version of the Yale-Brown obsessive compulsive scale</article-title>
+                  <source>Psychopharmacol Bull</source>
+                  <year>1997</year>
+                  <volume>33</volume>
+                  <fpage>17</fpage>
+                  <lpage>22</lpage>
+                  <?supplied-pmid 9133747?>
+                  <pub-id pub-id-type="pmid">9133747</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sheehan</surname>
+                      <given-names>DV</given-names>
+                    </name>
+                    <name>
+                      <surname>Lecrubier</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Sheehan</surname>
+                      <given-names>KH</given-names>
+                    </name>
+                    <name>
+                      <surname>Amorim</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Janavs</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Weiller</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The Mini-international neuropsychiatric interview (M.I.N.I.): the development and validation of a structured diagnostic psychiatric interview for DSM-IV and ICD-10</article-title>
+                  <source>J Clin Psychiatry</source>
+                  <year>1998</year>
+                  <volume>59</volume>
+                  <issue>Suppl 20</issue>
+                  <fpage>22</fpage>
+                  <lpage>33</lpage>
+                  <?supplied-pmid 9881538?>
+                  <pub-id pub-id-type="pmid">9881538</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Guy</surname>
+                      <given-names>W</given-names>
+                    </name>
+                  </person-group>
+                  <source>ECDEU assessment manual for psychopharmacology</source>
+                  <year>1976</year>
+                  <publisher-loc>Rockville</publisher-loc>
+                  <publisher-name>US Department of Health, Education, and Welfare, Public Health Service, Alcohol, Drug Abuse, and Mental Health Administration</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Svanborg</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Åsberg</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A new self-rating scale for depression and anxiety states based on the comprehensive psychopathological rating scale</article-title>
+                  <source>Acta Psychiatr Scand</source>
+                  <year>1994</year>
+                  <volume>89</volume>
+                  <fpage>21</fpage>
+                  <lpage>28</lpage>
+                  <?supplied-pmid 8140903?>
+                  <pub-id pub-id-type="pmid">8140903</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rabin</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>de Charro</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>EQ-SD: a measure of health status from the EuroQol group</article-title>
+                  <source>Ann Med</source>
+                  <year>2001</year>
+                  <volume>33</volume>
+                  <fpage>337</fpage>
+                  <lpage>343</lpage>
+                  <?supplied-pmid 11491192?>
+                  <pub-id pub-id-type="pmid">11491192</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Borkovec</surname>
+                      <given-names>TD</given-names>
+                    </name>
+                    <name>
+                      <surname>Nau</surname>
+                      <given-names>SD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Credibility of analogue therapy rationales</article-title>
+                  <source>J Behav Ther Exp Psychiatry</source>
+                  <year>1972</year>
+                  <volume>3</volume>
+                  <fpage>257</fpage>
+                  <lpage>260</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hatcher</surname>
+                      <given-names>RL</given-names>
+                    </name>
+                    <name>
+                      <surname>Gillaspy</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Development and validation of a revised short version of the working alliance inventory</article-title>
+                  <source>Psychother Res</source>
+                  <year>2006</year>
+                  <volume>16</volume>
+                  <fpage>12</fpage>
+                  <lpage>25</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fernández de la Cruz</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Enander</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Rück</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilhelm</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Phillips</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                    <name>
+                      <surname>Steketee</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Empirically defining treatment response and remission in body dysmorphic disorder</article-title>
+                  <source>Psychol Med</source>
+                  <year>2019</year>
+                  <volume>1</volume>
+                  <fpage>1</fpage>
+                  <lpage>7</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Coles</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Cook</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>Blake</surname>
+                      <given-names>TR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Assessing obsessive compulsive symptoms and cognitions on the internet: evidence for the comparability of paper and internet administration</article-title>
+                  <source>Behav Res Ther</source>
+                  <year>2007</year>
+                  <volume>45</volume>
+                  <fpage>2232</fpage>
+                  <lpage>2240</lpage>
+                  <?supplied-pmid 17306222?>
+                  <pub-id pub-id-type="pmid">17306222</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Enander</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaldo</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Lindefors</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Rück</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Internet administration of the dimensional obsessive-compulsive scale: a psychometric evaluation</article-title>
+                  <source>J Obsessive Compuls Relat Disord</source>
+                  <year>2012</year>
+                  <volume>1</volume>
+                  <fpage>325</fpage>
+                  <lpage>330</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rohde</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Lewinsohn</surname>
+                      <given-names>PM</given-names>
+                    </name>
+                    <name>
+                      <surname>Seeley</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparability of telephone and face-to-face interviews in assessing Axis I and II disorders</article-title>
+                  <source>Am J Psychiatry</source>
+                  <year>1997</year>
+                  <volume>154</volume>
+                  <fpage>1593</fpage>
+                  <lpage>1598</lpage>
+                  <?supplied-pmid 9356570?>
+                  <pub-id pub-id-type="pmid">9356570</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Enander</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Ivanov</surname>
+                      <given-names>VZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Mataix-Cols</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Ljótsson</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Rück</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Therapist-guided, internet-based cognitive-behavioural therapy for body dysmorphic disorder (BDD-NET): a feasibility study</article-title>
+                  <source>BMJ Open</source>
+                  <year>2014</year>
+                  <volume>4</volume>
+                  <fpage>e005923</fpage>
+                  <?supplied-pmid 25256187?>
+                  <pub-id pub-id-type="pmid">25256187</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>J-H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimating classification error rate: repeated cross-validation, repeated hold-out and bootstrap</article-title>
+                  <source>Comput Stat Data Anal</source>
+                  <year>2009</year>
+                  <volume>53</volume>
+                  <fpage>3735</fpage>
+                  <lpage>3745</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>de Graaf</surname>
+                      <given-names>LE</given-names>
+                    </name>
+                    <name>
+                      <surname>Hollon</surname>
+                      <given-names>SD</given-names>
+                    </name>
+                    <name>
+                      <surname>Huibers</surname>
+                      <given-names>MJH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Predicting outcome in computerized cognitive behavioral therapy for depression in primary care: a randomized trial</article-title>
+                  <source>J Consult Clin Psychol</source>
+                  <year>2010</year>
+                  <volume>78</volume>
+                  <fpage>184</fpage>
+                  <lpage>189</lpage>
+                  <?supplied-pmid 20350029?>
+                  <pub-id pub-id-type="pmid">20350029</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stekhoven</surname>
+                      <given-names>DJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Buhlmann</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>MissForest–non-parametric missing value imputation for mixed-type data</article-title>
+                  <source>Bioinformatics.</source>
+                  <year>2012</year>
+                  <volume>28</volume>
+                  <fpage>112</fpage>
+                  <lpage>118</lpage>
+                  <?supplied-pmid 22039212?>
+                  <pub-id pub-id-type="pmid">22039212</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>R Core Team</collab>
+                  </person-group>
+                  <source>R: a language and environment for statistical computing</source>
+                  <year>2018</year>
+                  <publisher-loc>Vienna</publisher-loc>
+                  <publisher-name>R Foundation for Statistical Computing</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mataix-Cols</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Marks</surname>
+                      <given-names>IM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Self-help with minimal therapist contact for obsessiveCompulsive disorder: a review</article-title>
+                  <source>Eur Psychiatry</source>
+                  <year>2006</year>
+                  <volume>21</volume>
+                  <fpage>75</fpage>
+                  <lpage>80</lpage>
+                  <?supplied-pmid 16360307?>
+                  <pub-id pub-id-type="pmid">16360307</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Phillips</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                    <name>
+                      <surname>Menard</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Pagano</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Fay</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Stout</surname>
+                      <given-names>RL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Delusional versus nondelusional body dysmorphic disorder: clinical features and course of illness</article-title>
+                  <source>J Psychiatr Res</source>
+                  <year>2006</year>
+                  <volume>40</volume>
+                  <fpage>95</fpage>
+                  <lpage>104</lpage>
+                  <?supplied-pmid 16229856?>
+                  <pub-id pub-id-type="pmid">16229856</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wilhelm</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Phillips</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                    <name>
+                      <surname>Didie</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Buhlmann</surname>
+                      <given-names>U</given-names>
+                    </name>
+                    <name>
+                      <surname>Greenberg</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                    <name>
+                      <surname>Fama</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Modular cognitive-behavioral therapy for body dysmorphic disorder: a randomized controlled trial</article-title>
+                  <source>Behav Ther</source>
+                  <year>2014</year>
+                  <volume>45</volume>
+                  <fpage>314</fpage>
+                  <lpage>327</lpage>
+                  <?supplied-pmid 24680228?>
+                  <pub-id pub-id-type="pmid">24680228</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Veale</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Anson</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Miles</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Pieta</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Costa</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Ellison</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Efficacy of cognitive behaviour therapy versus anxiety Management for Body Dysmorphic Disorder: a randomised controlled trial</article-title>
+                  <source>Psychother Psychosom</source>
+                  <year>2014</year>
+                  <volume>83</volume>
+                  <fpage>341</fpage>
+                  <lpage>353</lpage>
+                  <?supplied-pmid 25323062?>
+                  <pub-id pub-id-type="pmid">25323062</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

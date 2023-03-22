@@ -1,0 +1,2664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:02:00Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8361122" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8361122</identifier>
+        <datestamp>2021-08-17</datestamp>
+        <setSpec>scirep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-2322</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8361122</article-id>
+              <article-id pub-id-type="pmcid">PMC8361122</article-id>
+              <article-id pub-id-type="pmc-uid">8361122</article-id>
+              <article-id pub-id-type="pmid">34385571</article-id>
+              <article-id pub-id-type="publisher-id">95968</article-id>
+              <article-id pub-id-type="doi">10.1038/s41598-021-95968-7</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Acquired olfactory loss alters functional connectivity and morphology</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Iravani</surname>
+                    <given-names>Behzad</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Peter</surname>
+                    <given-names>Moa G.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Arshamian</surname>
+                    <given-names>Artin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Olsson</surname>
+                    <given-names>Mats J.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hummel</surname>
+                    <given-names>Thomas</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kitzler</surname>
+                    <given-names>Hagen H.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Lundström</surname>
+                    <given-names>Johan N.</given-names>
+                  </name>
+                  <address>
+                    <email>johan.lundstrom@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.4714.6</institution-id><institution-id institution-id-type="ISNI">0000 0004 1937 0626</institution-id><institution>Division of Psychology, Department of Clinical Neuroscience, </institution><institution>Karolinska Institutet, </institution></institution-wrap>Nobels väg 9, 171 77 Stockholm, Sweden </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.4488.0</institution-id><institution-id institution-id-type="ISNI">0000 0001 2111 7257</institution-id><institution>Department of Otorhinolaryngology, Smell and Taste Clinic, </institution><institution>TU Dresden, </institution></institution-wrap>Dresden, Germany </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.4488.0</institution-id><institution-id institution-id-type="ISNI">0000 0001 2111 7257</institution-id><institution>Institute of Diagnostic and Interventional Neuroradiology, </institution><institution>TU Dresden, </institution></institution-wrap>Dresden, Germany </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.250221.6</institution-id><institution-id institution-id-type="ISNI">0000 0000 9142 2735</institution-id><institution>Monell Chemical Senses Center, </institution></institution-wrap>Philadelphia, PA USA </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.25879.31</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 8972</institution-id><institution>Department of Psychology, </institution><institution>University of Pennsylvania, </institution></institution-wrap>Philadelphia, PA USA </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.10548.38</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 9377</institution-id><institution>Stockholm University Brain Imaging Centre, </institution><institution>Stockholm University, </institution></institution-wrap>Stockholm, Sweden </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>12</day>
+                <month>8</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>12</day>
+                <month>8</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>11</volume>
+              <elocation-id>16422</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>19</day>
+                  <month>4</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>2</day>
+                  <month>8</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">Removing function from a developed and functional sensory system is known to alter both cerebral morphology and functional connections. To date, a majority of studies assessing sensory-dependent plasticity have focused on effects from either early onset or long-term sensory loss and little is known how the recent sensory loss affects the human brain. With the aim of determining how recent sensory loss affects cerebral morphology and functional connectivity, we assessed differences between individuals with acquired olfactory loss (duration 7–36 months) and matched healthy controls in their grey matter volume, using multivariate pattern analyses, and functional connectivity, using dynamic connectivity analyses, within and from the olfactory cortex. Our results demonstrate that acquired olfactory loss is associated with altered grey matter volume in, among others, posterior piriform cortex, a core olfactory processing area, as well as the inferior frontal gyrus and angular gyrus. In addition, compared to controls, individuals with acquired anosmia displayed significantly stronger dynamic functional connectivity from the posterior piriform cortex to, among others, the angular gyrus, a known multisensory integration area. When assessing differences in dynamic functional connectivity from the angular gyrus, individuals with acquired anosmia had stronger connectivity from the angular gyrus to areas primary responsible for basic visual processing. These results demonstrate that recently acquired sensory loss is associated with both changed cerebral morphology within core olfactory areas and increase dynamic functional connectivity from olfactory cortex to cerebral areas processing multisensory integration.</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Olfactory cortex</kwd>
+                <kwd>Sensory processing</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100004359</institution-id>
+                      <institution>Vetenskapsrådet</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>2018-01603</award-id>
+                  <award-id>2017-02325</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Arshamian</surname>
+                      <given-names>Artin</given-names>
+                    </name>
+                    <name>
+                      <surname>Lundström</surname>
+                      <given-names>Johan N.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100004063</institution-id>
+                      <institution>Knut och Alice Wallenbergs Stiftelse</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>KAW 2018.0152</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Lundström</surname>
+                      <given-names>Johan N.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>Karolinska Institute</institution>
+                  </funding-source>
+                </award-group>
+                <open-access>
+                  <p>Open access funding provided by Karolinska Institute.</p>
+                </open-access>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par2">Sensory loss is thought to alter both functional neural connectivity and morphology within primary sensory-related areas due to the resulting deprivation of input<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. Most evidence of sensory loss-related neuroplasticity originates from the visual and auditory systems where significant effects are demonstrated in primary sensory processing areas<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR3">3</xref></sup>. Studies assessing impact on primary olfactory cortex (piriform cortex) due to loss of the sense of smell (anosmia) have, in contrast, reported either minor<sup><xref ref-type="bibr" rid="CR4">4</xref>–<xref ref-type="bibr" rid="CR7">7</xref></sup> or indiscernible functional or morphological changes<sup><xref ref-type="bibr" rid="CR8">8</xref>–<xref ref-type="bibr" rid="CR12">12</xref></sup>. The vast majority of studies exploring neural impact of acquired visual and auditory sensory loss have focused on adult individuals that experienced their sensory loss early, often before their second year of life, and with many years without sensory function. In contrast, the majority of studies exploring impact from olfactory loss have studied adult individuals with lifelong sensory loss or individuals that, divergent to the sensory loss literature at large, lived very short time with their sensory loss, often within a year of sensory insult.</p>
+              <p id="Par3">As stated above, the vast majority of studies exploring neural impact of acquired visual and auditory sensory loss have focused on adult individuals with either early or lifelong sensory dysfunction. These individuals demonstrate greater behavioral alterations as well as greater functional and structural cortical reorganization, as compared to individuals with a sensory loss acquired later in life<sup><xref ref-type="bibr" rid="CR13">13</xref>,<xref ref-type="bibr" rid="CR14">14</xref></sup>, but see<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>. In essence, it has been suggested that cortical reorganization due to sensory loss is minor if the loss occurred after early childhood. This limited reorganization has been explained by the fact that late sensory loss generally occurs after the so called sensitive periods early in life, during which sensory experience has a strong influence on behavioral and cortical development<sup><xref ref-type="bibr" rid="CR14">14</xref>,<xref ref-type="bibr" rid="CR16">16</xref></sup>. In contrast, sensory ablation studies performed in adult non-human animal models demonstrate that neural reorganization of sensory cortices can be detected after shorter spans of sensory deprivation, as early as 16 days past total sensory loss, even though the animals are clearly past the sensitive periods<sup><xref ref-type="bibr" rid="CR17">17</xref>,<xref ref-type="bibr" rid="CR18">18</xref></sup>. Furthermore, artificially induced, very short sensory deprivation (e.g., by blindfolding, ranging from an hour to a few days) in adult humans has been demonstrated to affect both cortical excitability<sup><xref ref-type="bibr" rid="CR19">19</xref>–<xref ref-type="bibr" rid="CR22">22</xref></sup> and crossmodal processing<sup><xref ref-type="bibr" rid="CR21">21</xref>,<xref ref-type="bibr" rid="CR23">23</xref></sup>. Hence, on the one hand, effects of long lasting late-onset sensory deprivation seem to be small in the visual and auditory systems; on the other hand, significant neural plasticity effects can be demonstrated already after a few hours of artificially induced sensory deprivation.</p>
+              <p id="Par4">Anosmia is primarily a late-onset sensory loss, mainly affecting middle-aged and elderly populations<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>. Combined with the fact that anosmia is our most common sensory loss, affecting an estimated full 5% of the population<sup><xref ref-type="bibr" rid="CR25">25</xref>,<xref ref-type="bibr" rid="CR26">26</xref></sup>, and with the COVID-19 pandemic and its associated olfactory problems potentially significantly increasing these numbers even more<sup><xref ref-type="bibr" rid="CR27">27</xref>,<xref ref-type="bibr" rid="CR28">28</xref></sup>, anosmia is a good model to study the effects of intermediate or late-onset sensory loss on neural plasticity. For morphology, there is clear evidence of structural reorganization following anosmia in large part around the orbitofrontal cortex<sup><xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR10">10</xref>,<xref ref-type="bibr" rid="CR12">12</xref>,<xref ref-type="bibr" rid="CR29">29</xref>,<xref ref-type="bibr" rid="CR30">30</xref></sup> but also in areas outside what is commonly regarded as olfactory processing areas, such as the insula cortex<sup><xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR10">10</xref>,<xref ref-type="bibr" rid="CR11">11</xref>,<xref ref-type="bibr" rid="CR31">31</xref></sup>. In contrast, few studies have explored effects of olfactory sensory loss on functional connectivity from the primary olfactory cortex, the piriform cortex, or functional processing within. Whereas lifelong absence of olfactory input, so-called congenital anosmia, does not seem to alter functional connectivity either within or from piriform cortex during rest<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>, acquired anosmia has been linked to decreased connectivity within the piriform cortex odor- and sniff-induced network<sup><xref ref-type="bibr" rid="CR32">32</xref>,<xref ref-type="bibr" rid="CR33">33</xref></sup>. Moreover, artificially induced short-term olfactory loss by naris occlusion alters odor-related processing in both the posterior piriform cortex and the orbitofrontal cortex<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>; areas linked to the formation of odor representation as well as, among other skills, odor attention<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>. Taken together, although a minor number of publications exist in comparison to the literature covering visual loss, results from odor-based sensory loss studies indicate largely inconsistent results compared to those obtained in studies assessing plastic effects originating from visual deprivation.</p>
+              <p id="Par5">The few studies exploring plastic changes due to acquired anosmia have demonstrated inconsistent changes in cerebral function or structure of the primary olfactory cortex, the piriform cortex. In respect of function, this can be explained by the dearth of studies assessing effects but also potentially by the reliance on task-induced measures for functional connectivity analyses where the latter has been dependent on either odor or active sniff activity. Reliance on these tasks brings with it inherent problems. If odors are presented during data acquisition, healthy individuals will differ from individuals with anosmia in respect of their cognitive odor associations and other odor evaluations that extend beyond basic sensory processing of the presented odor. If a sniff task is used, healthy individuals might differ from individuals with anosmia in their readiness to perceive odors and hence produce expectation, potential search behaviors, or trying to imagine the odors<sup><xref ref-type="bibr" rid="CR36">36</xref>,<xref ref-type="bibr" rid="CR37">37</xref></sup>. On the other hand, functional MRI in the absence of a task, so-called resting-state scanning, shows activation patterns similar to those evident during a task and is correlated with underlying structural connectivity<sup><xref ref-type="bibr" rid="CR38">38</xref>,<xref ref-type="bibr" rid="CR39">39</xref></sup>. Assessing plastic changes due to olfactory sensory loss between individuals with anosmia and healthy individuals using resting-state connectivity in the absence of olfactory stimuli is therefore a method that does not potentially confound results due to the task at hand. It has been hypothesized that the lack of clear sensory loss-related effects in the olfactory system might originate from the fact that the olfactory system is dependent on areas that are more heterogeneous with less sensory specialization than, for example, the visual and auditory systems<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>. If this is the case, multivariate focused analyses methods assessing interconnected changes would be more appropriate to assess potential insults rather than classical analysis methods that assess each analysis unit independently. With a few notable exceptions<sup><xref ref-type="bibr" rid="CR32">32</xref>,<xref ref-type="bibr" rid="CR41">41</xref></sup>, studies assessing plastic changes in morphology and functional connectivity due to olfactory sensory loss have, however, to a large degree relied on individual voxel-dependent changes in morphology and static functional connectivity, respectively, and not network-based analyses where change over multiple voxels or dynamic connectivity are assessed.</p>
+              <p id="Par6">To determine whether olfactory loss within 3 years of the insult, in other words in the time range between immediate and long-term sensory loss, cause neural reorganization, we first assessed potential sensory deprivation-dependent changes in grey matter (GM) volume using a support vector machine with a searchlight procedure to generate a whole-brain map of classification accuracy of differentiating individuals with acquired anosmia from healthy control individuals. In the same individuals, we then assessed potential sensory deprivation-dependent changes in dynamic functional connectivity from olfactory related areas.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Results</title>
+              <sec id="Sec3">
+                <title>Anosmia-associated changes in grey matter volume within olfactory and multisensory processing areas</title>
+                <p id="Par7">We first assessed whether we were able to differentiate between individuals with short-term acquired anosmia and healthy control individuals using a SVM with a searchlight paradigm on their extracted whole-brain gray matter volume. Patterns of GM volume in multiple clusters throughout the brain could differentiate between anosmia from that of control individuals with a classification accuracy up to 86%. The highest accuracy was found for a cluster within the inferior frontal gyrus (x − 47, y 39, z 0) with a classification accuracy of 86%, followed by a cluster within the posterior piriform cortex (PPC) (× 17, y 5, z − 20) with a classification accuracy of 81%; (Fig. <xref rid="Fig1" ref-type="fig">1</xref>). In addition, we found that a cluster within the angular gyrus (x − 49, y − 55, z 48) could significantly dissociate between the two groups with a classification accuracy of 78%; just below the a priori set statistical threshold, there were bilateral clusters within the angular gyrus, Table <xref rid="Tab1" ref-type="table">1</xref> (see Supplementary Fig. <xref rid="MOESM1" ref-type="media">S1</xref> for individual results of permutation testing).<fig id="Fig1"><label>Figure 1</label><caption><p>Multivariate pattern analysis. Multiple clusters were found where grey matter volume patterns differentiated between the two groups with classification accuracies between 76 and 86%. Clusters were found within areas associated with olfactory, motor, and multisensory processing (Table <xref rid="Tab1" ref-type="table">1</xref> and Supplementary Fig. <xref rid="MOESM1" ref-type="media">1</xref>). Color scheme indicates accuracy level and numbers within figure indicate slice in z-coordinate according to the MNI stereotactic coordinate system. Image created using MRICRON <ext-link ext-link-type="uri" xlink:href="https://people.cas.sc.edu/rorden/mricron">https://people.cas.sc.edu/rorden/mricron</ext-link>.</p></caption><graphic xlink:href="41598_2021_95968_Fig1_HTML" id="MO1"/></fig><table-wrap id="Tab1"><label>Table 1</label><caption><p>List of clusters for tenfold cross validation SVM with classification accuracy for individuals with anosmia and healthy aged-matched controls based on their gray matter volume patterns.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Area label</th><th align="left" colspan="3">MNI coordinates</th><th align="left" rowspan="2">Cluster size</th><th align="left" rowspan="2">Accuracy</th><th align="left" rowspan="2"><italic>p</italic> value</th></tr><tr><th align="left"><italic>x</italic></th><th align="left"><italic>y</italic></th><th align="left"><italic>z</italic></th></tr></thead><tbody><tr><td align="left">Inferior frontal gurys (L)</td><td char="." align="char"> − 47</td><td char="." align="char">39</td><td char="." align="char">0</td><td char="." align="char">266</td><td char="." align="char">.86</td><td char="." align="char">.007</td></tr><tr><td align="left">Posterior piriform cortex (R)</td><td char="." align="char">16</td><td char="." align="char">4</td><td char="." align="char"> − 19</td><td char="." align="char">334</td><td char="." align="char">.81</td><td char="." align="char">.0046</td></tr><tr><td align="left">Precuneus (L)</td><td char="." align="char"> − 4</td><td char="." align="char"> − 42</td><td char="." align="char">63</td><td char="." align="char">113</td><td char="." align="char">.79</td><td char="." align="char">.0168</td></tr><tr><td align="left">Superior occipital gyrus (R)</td><td char="." align="char">27</td><td char="." align="char"> − 87</td><td char="." align="char">27</td><td char="." align="char">212</td><td char="." align="char">.79</td><td char="." align="char">.0039</td></tr><tr><td align="left">Posterior temporal pole (L)</td><td char="." align="char"> − 42</td><td char="." align="char"> − 1</td><td char="." align="char"> − 15</td><td char="." align="char">226</td><td char="." align="char">.78</td><td char="." align="char">.0044</td></tr><tr><td align="left">Angular gyrus (L)</td><td char="." align="char"> − 49</td><td char="." align="char"> − 55</td><td char="." align="char">48</td><td char="." align="char">144</td><td char="." align="char">.78</td><td char="." align="char">.0042</td></tr><tr><td align="left">Superior parietal lobula (R)</td><td char="." align="char">10</td><td char="." align="char"> − 61</td><td char="." align="char">61</td><td char="." align="char">218</td><td char="." align="char">.77</td><td char="." align="char">.0106</td></tr></tbody></table><table-wrap-foot><p><italic>p</italic> values are based on permutation tests with 5000 resamplings.</p></table-wrap-foot></table-wrap></p>
+                <p id="Par8">To control for false positive in this analysis we first defined an a priori cluster corrected threshold (ACC &gt; 70%; cluster size of k &gt; 100) for detecting clusters which were different between two groups. Additionally, we performed tenfold cross validation and averaged the accuracy of the classifier across folds to increase generalizability and reduce false positive results. Finally, we performed non-parametric permutation test on the surviving clusters and estimated p-values for each cluster. All p-values for the clusters in Table <xref rid="Tab1" ref-type="table">1</xref> were well below the common significant threshold (&lt; 0.05). We further assessed the morphological change in a univariate setup for the surviving clusters listed in Table <xref rid="Tab1" ref-type="table">1</xref>. In line with the SVM results, we found more GM volume for the Anosmia group within inferior frontal gyrus, <italic>t</italic>(41) = 1.98, <italic>p</italic> &lt; 0.05, <italic>CI</italic> = [0.00, 0.06], PPC, <italic>t</italic>(41) = 2.41, <italic>p</italic> &lt; 0.02, <italic>CI</italic> = [0.01, 0.04] and posterior temporal pole, <italic>t</italic>(41) = 2.37, <italic>p</italic> &lt; 0.02, <italic>CI</italic> = [0.00, 0.04], whereas lower GM volume were found in the angular gyrus <italic>t</italic>(41) = 2.98, <italic>p</italic> &lt; 0.005, <italic>CI</italic> = [0.02, 0.11] when compared to Controls (Supplementary Fig. <xref rid="MOESM1" ref-type="media">S2</xref>A). Moreover, we found that the GM volume in PPC, <italic>r</italic>(40) = − 0.30, <italic>p</italic> &lt; 0.05, and posterior temporal pole, <italic>r</italic>(40) =  − 0.31, <italic>p</italic> &lt; 0.04, was negatively, but the GM in angular gyrus, <italic>r</italic>(40) = 0.39, <italic>p</italic> &lt; 0.01 was positively, correlated with TDI score (Supplementary Fig. <xref rid="MOESM1" ref-type="media">S2</xref>B).</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Anosmia-induced dynamic connectivity shifts from the olfactory cortex</title>
+                <p id="Par9">Having established that short-term acquired anosmia causes differentiable alterations in GM volume in, among others, areas associated with olfactory processing, we next assessed whether there were differences in dynamic functional connectivity (dFC) using fractional connectivity. Here, we focused on dFC from the core olfactory area where we found change in morphology, the posterior piriform cortex. To quantify the fractional connectivity estimated from dFC, we threshold the dFC time series based on critical correlation value equal to <italic>p</italic> &lt; 0.001 and compute the average proportional time when to nodes are connected. We found that there were significant differences in the fractional connectivity between individuals with short-term anosmia and healthy control individuals from the posterior piriform cortex to a range of areas (Fig. <xref rid="Fig2" ref-type="fig">2</xref>). Among others, participants with anosmia demonstrated stronger dFC from the posterior piriform cortex than control individuals with temporal cortex, <italic>t</italic>(41) = 2.73, <italic>p</italic> &lt; 0.009, 95% <italic>CI</italic> = [0.007, 0.044] and, given the morphological results reported above, it is of interest to note that individuals with anosmia also demonstrated larger dFC values between posterior piriform cortex and the angular gyrus, <italic>t</italic>(41) = 2.27, <italic>p</italic> &lt; 0.028, 95% <italic>CI</italic> = [0.001, 0.016]. No significant differences were found from either anterior piriform or orbitofrontal cortex. For the reverse contrast, we did found more connection to visual and lingual areas including fusiform cortex, <italic>t</italic>(41) = 2.36, <italic>p</italic> &lt; 0.023, 95% <italic>CI</italic> = [0.003, 0.035], superior occipital, <italic>t</italic>(41) = 2.14, <italic>p</italic> &lt; 0.038, 95% <italic>CI</italic> = [0.001, 0.022], and lingula cortex, <italic>t</italic>(41) = 2.91, <italic>p</italic> &lt; 0.006, 95% <italic>CI</italic> = [0.007, 0.041], and posterior piriform cortex (Fig. <xref rid="Fig2" ref-type="fig">2</xref>). We also tested the association between dFC of PPC–angular gyrus and TDI score, given that GM of angular gyrus showed the highest correlation with TDI score (Supplementary Fig. <xref rid="MOESM1" ref-type="media">S2</xref>B). We found significant and negative correlation, <italic>rho</italic> = -0.33, <italic>p</italic> &lt; 0.04, between dFC of PPC–angular gyrus and TDI score.<fig id="Fig2"><label>Figure 2</label><caption><p>Dynamic functional connectivity from posterior piriform cortex. Dynamic functional connectivity from the posterior piriform cortex to other cerebral regions of interest with significant differences between groups marked with lines. Color of lines represents <italic>t</italic>-value according to color scale next to each plot. Left side plot shows where individuals with anosmia have stronger inter-regional connectivity and right-side plot shows where healthy control individuals have stronger inter-regional connectivity. Only differences with <italic>p</italic> &lt; .05 are shown. Image created using Matlab (<ext-link ext-link-type="uri" xlink:href="http://www.matworks.com">www.matworks.com</ext-link>) and Photoshop (<ext-link ext-link-type="uri" xlink:href="http://www.adobe.com">www.adobe.com</ext-link>).</p></caption><graphic xlink:href="41598_2021_95968_Fig2_HTML" id="MO2"/></fig></p>
+                <p id="Par10">Past studies have demonstrated that individuals with anosmia are better at extracting information from multisensory stimuli<sup><xref ref-type="bibr" rid="CR42">42</xref></sup> and we recently demonstrated functional gating between posterior piriform cortex and multisensory areas when processing multisensory stimuli<sup><xref ref-type="bibr" rid="CR43">43</xref></sup>. Therefore, given the larger GM volume in the angular gyrus on the one hand, and the stronger connection between posterior piriform cortex and angular gyrus on the other, we next assessed whether there was a difference between groups in dFC from the angular gyrus. We found that individuals with anosmia had significantly stronger dFC than healthy controls, among others, between the angular gyrus and somatosensory association cortex in the parietal cortex, the supramarginal cortex, <italic>t</italic>(41) = 2.23,<italic> p</italic> &lt; 0.031, <italic>95% CI</italic> = [0.002, 0.032], as well as primary visual area, the Calcarine sulcus, <italic>t</italic>(41) = 4.43, <italic>p</italic> &lt; 0.001, 95% <italic>CI</italic> = [0.008, 0.023], superior, <italic>t</italic>(41) = 2.59, <italic>p</italic> &lt; 0.013, <italic>CI</italic> = [0.003, 0.021], and medial, <italic>t</italic>(41) = 3.88, <italic>p</italic> &lt; 0.001, <italic>CI</italic> = [0.014, 0.045], occipital as well as lingual, <italic>t</italic>(41) = 2.60,<italic> p</italic> &lt; 0.013, <italic>CI</italic> = [0.002, 0.013], (Fig. <xref rid="Fig3" ref-type="fig">3</xref>). Finally, in the reverse contrast, we found that healthy controls had only one significantly stronger connections than individuals with anosmia, namely with dorsal lateral prefrontal cortex (dlPFC), <italic>t</italic>(41) = 2.72, <italic>p</italic> &lt; 0.01, 95% <italic>CI</italic> = [0.007, 0.045] (Fig. <xref rid="Fig3" ref-type="fig">3</xref>).<fig id="Fig3"><label>Figure 3</label><caption><p>Dynamic functional connectivity from angular gyrus. Dynamic functional connectivity from the angular gyrus to other cerebral regions of interest with significant differences between groups marked with lines. Color of lines represents <italic>t</italic>-value according to color scale next to each plot. Left side plot shows where individuals with anosmia have stronger inter-regional connectivity and right-side plot shows where healthy control individuals have stronger inter-regional connectivity. Only differences with <italic>p</italic> &lt; .05 are shown. Image created using Matlab (<ext-link ext-link-type="uri" xlink:href="http://www.matworks.com">www.matworks.com</ext-link>) and Photoshop (<ext-link ext-link-type="uri" xlink:href="http://www.adobe.com">www.adobe.com</ext-link>).</p></caption><graphic xlink:href="41598_2021_95968_Fig3_HTML" id="MO3"/></fig></p>
+              </sec>
+            </sec>
+            <sec id="Sec5">
+              <title>Discussion</title>
+              <p id="Par11">Cerebral plasticity after sensory loss has been well documented in respect of visual and auditory loss but less is known about how the adult brain is affected by the loss of olfactory input. Here we demonstrate that losing the sense of smell in adult age triggers neuroplastic effects that affects both GM morphology within, as well as functional connectivity between, cerebral areas. Specifically, we demonstrate that acquired anosmia, i.e., being without olfactory input, during a relatively short time period (average 14 months) is associated with atypical GM volume patterns in cortical areas associated with olfactory processing as well as areas beyond the olfactory system. In addition, we demonstrate that acquired anosmia is associated with atypical dFC from the posterior piriform cortex where the individuals with acquired anosmia displayed significantly stronger connection from the posterior piriform cortex to multiple areas within the temporal cortex as well as an area associated with multisensory integration, the angular gyrus; an area where also GM volume differed between groups. Finally, we demonstrated that individuals with acquired anosmia had stronger dFC from the angular gyrus to areas primary responsible for basic visual processing.</p>
+              <p id="Par12">Compared to the visual system, the olfactory system is dependent on areas that are more wide-spread as well as more heterogeneous<sup><xref ref-type="bibr" rid="CR40">40</xref>,<xref ref-type="bibr" rid="CR44">44</xref></sup>. Sensory deprivation might therefore not have the same effect on olfactory-associated neural areas as areas associated with, for example, visual processing given that the former still receive neural inputs, albeit to a lesser degree, after the sensory loss. Nonetheless, we can here show that several areas demonstrated GM volume alterations. Past studies have demonstrated that acquired anosmia change GM volume or density in olfactory-related areas, such as the piriform cortex and the orbitofrontal cortex, as well as in non-olfactory-related areas, such as the prefrontal cortex<sup><xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR12">12</xref>,<xref ref-type="bibr" rid="CR29">29</xref></sup>. Our findings confirm and extend these findings in that we demonstrate a significant difference in an area associated with multisensory integration processing, the angular gyrus. Studies in model species suggests that sensory deprivation alters neuronal populations in multisensory areas<sup><xref ref-type="bibr" rid="CR45">45</xref>,<xref ref-type="bibr" rid="CR46">46</xref></sup>. Moreover, both deaf and blind individuals demonstrate increased recruitment of multisensory areas, such as the angular gyrus and other areas within the posterior parietal cortex, when processing stimuli from intact senses<sup><xref ref-type="bibr" rid="CR47">47</xref></sup>. Along those lines, we recently demonstrated<sup><xref ref-type="bibr" rid="CR42">42</xref></sup> that individuals with anosmia are better at integrating multisensory information using an audio-visual integration task that has been linked to the angular gyrus<sup><xref ref-type="bibr" rid="CR48">48</xref></sup>, the angular gyrus is a known integration hub of multisensory stimuli<sup><xref ref-type="bibr" rid="CR49">49</xref></sup>, and directly linked to the multisensory visual-based integration of olfactory information<sup><xref ref-type="bibr" rid="CR50">50</xref>–<xref ref-type="bibr" rid="CR52">52</xref></sup>. One could therefore hypothesize that a lack of olfactory input to these parietal multisensory areas may change the neuronal constellation and promote a more efficient multisensory-based integration of visual and auditory sensory modalities for individuals with anosmia. Measures assessing functional processing of multisensory stimuli were not acquired in the present study but we demonstrate that individuals with anosmia have stronger functional connectivity from the angular gyrus with areas associated with primary visual processing, thus suggesting a functional reorganization that might facilitate improved multisensory processing, much like our past study demonstrated<sup><xref ref-type="bibr" rid="CR42">42</xref></sup>. Although it is worth noting that the demonstrated enhancement is of a multisensory nature<sup><xref ref-type="bibr" rid="CR42">42</xref></sup> and that there is no evidence that anosmia facilitates improved acuity for unisensory visual or auditory stimuli, reduced acuity for unisensory taste<sup><xref ref-type="bibr" rid="CR53">53</xref>–<xref ref-type="bibr" rid="CR55">55</xref></sup> and trigeminal sensations<sup><xref ref-type="bibr" rid="CR56">56</xref>,<xref ref-type="bibr" rid="CR57">57</xref></sup> in individuals with either congenital anosmia or olfactory dysfunction does, however, exist. In light of this, it may be speculated that the increase individuals with acquired anosmia demonstrate in dynamic functional connectivity between the angular gyrus and the operculum, an area linked to both basic taste and trigeminal processing<sup><xref ref-type="bibr" rid="CR58">58</xref>,<xref ref-type="bibr" rid="CR59">59</xref></sup>, is a so-called hyper-connectivity that in blind individuals is thought to act as a sensory compensatory mechanism<sup><xref ref-type="bibr" rid="CR60">60</xref>–<xref ref-type="bibr" rid="CR62">62</xref></sup>. Increased functional connectivity in response to neurological disruptions may serve as a compensatory mechanism to regulate physiological disturbances, particularly so for hub regions with high connectedness, such as the angular gyrus<sup><xref ref-type="bibr" rid="CR63">63</xref>,<xref ref-type="bibr" rid="CR64">64</xref></sup>. Indeed, a recent whole-brain modelling study assessing effects of simulated gray matter lesions predicted that, among others, the angular gyrus has a strong hyper-connectivity risk, i.e. would demonstrate an increase in functional connectivity if the whole-brain network faces failures<sup><xref ref-type="bibr" rid="CR65">65</xref></sup>. Nonetheless, the direct link between neuroplastic reorganization of posterior parietal cortical areas in acquired anosmia and behavioral improvement in extracting information from multisensory stimuli remains to be confirmed by direct comparisons within a single study.</p>
+              <p id="Par13">It is currently not clear what the underlying mechanisms of differences in dFC represent. Whereas static functional connectivity between areas has been demonstrated to be related to high-gamma (~ 50–150 Hz) inter-regional activity in electrophysiological recordings, dFC seems to reflect connectivity across multiple frequency bands and primarily driven by periods of coordinated high-amplitude co-activation between areas<sup><xref ref-type="bibr" rid="CR66">66</xref>,<xref ref-type="bibr" rid="CR67">67</xref></sup>. It has further been suggested that an increase in dynamic functional connectivity between areas is represented by an increase in cross-frequency coupling that is responsible for the integration of distributed neural networks<sup><xref ref-type="bibr" rid="CR68">68</xref></sup>. Cross-frequency coupling is strongly linked to perceptual task performance<sup><xref ref-type="bibr" rid="CR69">69</xref></sup> which is of interest given that dFC has been shown to be a better correlate of behavioral performance than static connectivity<sup><xref ref-type="bibr" rid="CR70">70</xref></sup>. This suggests that differences in dFC between the two populations in the current study could have behavioral implications that should be assessed in future studies combining behavioral and neuroimaging measures. However, whereas the dFC on the individual level was corrected using a conservative critical value and several of the outcomes were supported by analogue morphological findings, the results in the reported dFC group analyses were not corrected for multiple comparisons given the multitude of tests. It is therefore important that these results are replicated before they are extended to future findings. However, in the current work we took three steps to minimize the false positive rate for dFC analysis. First, we performed dFC analysis only on the ROIs where we found morphological changes. Second, to identify the significant intervals of dFC time-series when two regions are connected, we used a conservative threshold based on the critical correlation value equivalent to <italic>p</italic> &lt; 0.001. Thirdly, averaging over two hemispheres allowed us to increase the statistical power as well as decrease the number of tests and subsequently the false positive rate in this analysis.</p>
+              <p id="Par14">Individuals with anosmia also demonstrated increased dFC with multiple areas within the temporal cortex. Monosynaptic afferent connections between piriform cortex and the temporal cortex have been demonstrated<sup><xref ref-type="bibr" rid="CR71">71</xref></sup> and the inferior temporal cortex and nearby temporal areas have been linked to behavioral performance in tasks tapping object naming and recognition<sup><xref ref-type="bibr" rid="CR72">72</xref></sup>, odor-visual matching<sup><xref ref-type="bibr" rid="CR73">73</xref></sup>, and odor familiarity<sup><xref ref-type="bibr" rid="CR74">74</xref>–<xref ref-type="bibr" rid="CR76">76</xref></sup>. It is not clear what the potential behavioral implications of this demonstrated stronger dFC connection to multiple areas around in temporal cortex could be for individuals with anosmia; future studies assessing whether acquired anosmia improves behavioral performance in visual object naming and recognition is warranted.</p>
+              <p id="Par15">A problem with determining the onset of non-traumatic-dependent olfactory sensory loss is that especially patients with idiopathic olfactory loss have difficulties providing an exact time for when they lost their sense of smell. This means that the anosmia duration stated by the participants should be viewed as an approximation. Nonetheless, on the other extreme of the time-spectra lie individuals who are born without a sense of smell and who can serve as a theoretical contrast to assess potential effects of time. In line with this assumption, and in contradiction with the present results, we recently showed that the piriform cortex in individuals with congenital anosmia did not differ from healthy controls in either gray matter volume, cortical thickness, or functional connectivity to olfactory-associated areas<sup><xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR9">9</xref></sup>, but see<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>. Why there is more evidence of reorganization in primary olfactory regions in individuals with shorter olfactory sensory loss, here with an average of 14 months without olfactory inputs, than in individual with long-term sensory loss is not known. One significant difference between lifelong and acquired anosmia is that the former is characterized by absent or aplastic olfactory bulbs<sup><xref ref-type="bibr" rid="CR77">77</xref></sup> whereas the latter demonstrates reduced, yet remaining, olfactory bulbs<sup><xref ref-type="bibr" rid="CR78">78</xref></sup>. In animal models, ablation of the olfactory bulb has an age-dependent effect on downstream development of the piriform cortex. Ablating the olfactory bulb at birth, hence removing afferent input to the piriform cortex and creating an early olfactory sensory deprivation, has little to no effect on the cortical thickness of the piriform cortex whereas a later removal leads to a significant thinning of the piriform cortex<sup><xref ref-type="bibr" rid="CR79">79</xref>–<xref ref-type="bibr" rid="CR81">81</xref></sup>. This suggest that differences in the degree of neural plasticity of the piriform cortex between lifelong and acquired anosmia might be linked to the individual’s olfactory bulbs. Whether this hypothesis can be confirmed, and what the potential implications are, need to be studied in model organisms.</p>
+              <p id="Par16">In conclusion, our results demonstrate that short-term acquired anosmia is associated with altered GM volume in both cortical areas associated with olfactory processing and multisensory integration, as well as increases the dynamic functional connectivity between these areas.</p>
+            </sec>
+            <sec id="Sec6">
+              <title>Methods</title>
+              <sec id="Sec7">
+                <title>Participants</title>
+                <p id="Par17">A total of 43 participants were included whereof 20 participants were diagnosed with functional anosmia (hereafter called anosmia; median age 56, SD 10.38; 11 women) and 23 where healthy controls (median age 55, SD 7.89; 12 women). There was no significant difference between the groups in age, <italic>t</italic>(41) = 0.52,<italic> p &gt; 0.60, CI</italic> = [− 4.17, 7.10]. Only patients with an anosmia duration longer than 6 months, but shorter than 3 years, were included (median duration: 14 months; SD: 9.86; range 7–36 months). Moreover, all patients with anosmia had prior to inclusion in the study been evaluated by an Ear-Nose-Throat (ENT) medical specialist and diagnosed with either post-infectious or idiopathic anosmia. All participants declared themselves as right-handed, without a condition requiring medication, no documented history of neurological diseases, neurodegenerative disorders, or a history of depression, ever experienced head trauma leading to even brief unconsciousness, or had any indication of past trauma based on their in-study acquired T1 image.</p>
+                <p id="Par18">Written informed consent was obtained from all participants before inclusion in the study and all aspects of the study were pre-approved by both the ethical review board of the Dresden Medical University (location of data acquisition) and the regional Stockholm ethical review board (analyses location). All procedures were in accordance with the Helsinki Declaration of 1975, and the applicable revisions at the time of the investigation.</p>
+              </sec>
+              <sec id="Sec8">
+                <title>Olfactory performance test</title>
+                <p id="Par19">On the day of scanning, all participants (anosmia and control groups) were tested for olfactory performance to assure either functional anosmia or healthy olfactory functions. Individual olfactory performance was assessed using measures of odor detection threshold, cued olfactory identification, and olfactory quality discrimination using the Sniffin’ Sticks testing set<sup><xref ref-type="bibr" rid="CR82">82</xref>,<xref ref-type="bibr" rid="CR83">83</xref></sup>. The Sniffin’ Sticks consist of felt-tipped pens filled with the odorant in question, as described below. Odor detection threshold was assessed for phenylethyl alcohol (PEA), an odorant often used in measures of absolute sensitivity due to its low level of trigeminal irritation<sup><xref ref-type="bibr" rid="CR84">84</xref></sup>, using seven reversals, three-alternative, forced-choice ascending staircase procedure in a 16-step binary dilution series. The arithmetic mean of the four last reversal points was calculated as the individual’s threshold score. For odor quality discrimination, sixteen individual triplets of pens were presented: each consisting of two pens with identical odorants and one with an odorant of different quality (target). Participant’s task was to discriminate the pen containing the odorant different in quality from the other two in a forced-choice task. In the cued odor identification task, olfactory identification performance was assessed with a four-alternative forced-choice cued identification task for sixteen odorants. All three individual tests had a maximum score of 16 and the sum score of the three (TDI, maximum score of 48) was used as a global estimate of olfactory functioning. Three control participants had previously been tested using the same identification test and were therefore not assessed due to the significant recollection of test items; all three had scored within normosmic range and declared as normosmic. As expected, an independent sample Student’s <italic>t</italic>-test demonstrated that there was a significant difference between the two groups in respect of their TDI olfactory performance scores where individuals with anosmia scored an average of 13.35 (± 0.50 SEM; range 7–16.25) and controls an average of 35.21 (± 0.65 SEM; range 29.5–40.5), <italic>t</italic> (39) = 25.36, <italic>p</italic> &lt; 0.0001, 95% <italic>CI</italic> = [20.12, 23.60].</p>
+              </sec>
+              <sec id="Sec9">
+                <title>Image acquisition, data processing, and statistical analyses</title>
+                <sec id="Sec10">
+                  <title>MRI data acquisition parameters</title>
+                  <p id="Par20">All imaging data were acquired on a Siemens 3 T Verio scanner with a 32-channel head coil. A structural T1 weighted scan was acquired (TR 2300, TE 2.89, flip angle 93.8°, field of view 256 × 256, voxel size 1 × 1 × 1 mm) together with a 9 min long resting state fMRI block consisting of single shot EPI sequences (TR 2300, TE 22 ms, flip angle 90°, Field of view 240 × 240, voxel size 2.5 × 2.5 × 2.5 mm) rendering a total of 216 volumes per participant. All participants were instructed to focus their eyes on a marked dot on the scanner boar ceiling, to let their mind wander, and to breathe through their mouth.</p>
+                </sec>
+                <sec id="Sec11">
+                  <title>Multivariate pattern analysis of voxel wise morphology</title>
+                  <p id="Par21">We assessed whether the gray matter morphology between Anosmia and heathy Controls differ using a multivariate approach. Initially, MRI T1-weighted images were bias corrected and segmented to different tissues, including gray matter, white matter, and cerebrospinal fluid using a unified segmentation approach<sup><xref ref-type="bibr" rid="CR85">85</xref></sup>, carried out in the toolbox of Statistical Parametric Mapping software (SPM12). Next, the segmented gray matter (GM) images were iteratively deformed to their mean within the DARTEL framework<sup><xref ref-type="bibr" rid="CR86">86</xref></sup>. These images were thereafter spatially normalized to MNI space and modulated to preserve the amount GM in the original image. Because we wanted to assess differences of the patterns within regions rather than voxel-based assessments, we used multivariate pattern analysis with a searchlight approach. Specifically, in the first step, GM images were divided into spherical clusters with a radius of 6 mm and a linear support vector machine (SVM) was trained for each cluster to generate a whole-brain map of classification accuracy to show how accurately individuals were classified as belonging to the designated Anosmia and Control group (Fig. <xref rid="Fig4" ref-type="fig">4</xref>A). To produce a generalizable result, we applied a cross-validation with 10 folds which in each fold, the classifier was trained on 38 subjects (half Anosmic and half Control) and tested on the last pair. To avoid biased, the number of individuals in the two groups were equalized. Consequently, for training of a SVM in each fold 19 individuals were semi-randomly selected from a total of 23 controls to match the number of anosmics training samples. At the end of the 10-folds, all individuals (i.e., 20 anosmics and 23 controls) were used at least once to train the SVM. All the training, testing, and k-fold cross validation were implemented in CoSMOS MVPA toolbox<sup><xref ref-type="bibr" rid="CR87">87</xref></sup> within Matlab 2018a. An a priori defined statistical threshold for classification accuracy (ACC &gt; 70%; cluster size of k &gt; 100) was applied to detect significant voxels. Post-hoc permutation tests with 5000 resamplings were performed on the clusters surviving the tenfold cross-validation and <italic>p</italic>-values calculated as the probability of observed accuracy against permuted accuracy.<fig id="Fig4"><label>Figure 4</label><caption><p>General overview of analysis pipelines. (<bold>A</bold>) Anatomical images were pre-processed and voxel-wise gray matter volume values were computed. Group classification accuracy was assessed using a support vector machine with a searchlight approach moving throughout the brain. (<bold>B</bold>) The fMRI time series was subdivided into 96 individual ROIs covering the whole-brain. From these ROIs, time series were extracted and temporal correlations from olfactory ROIs to remaining areas were computed within each hemisphere and subsequently averaged between hemispheres. Measure of dynamical functional connectivity was derived from the fraction of the averaged dwelling time to the total scan time. Image created using Matlab (<ext-link ext-link-type="uri" xlink:href="http://www.matworks.com">www.matworks.com</ext-link>) and Photoshop (<ext-link ext-link-type="uri" xlink:href="http://www.adobe.com">www.adobe.com</ext-link>).</p></caption><graphic xlink:href="41598_2021_95968_Fig4_HTML" id="MO4"/></fig></p>
+                </sec>
+                <sec id="Sec12">
+                  <title>Resting state fMRI</title>
+                  <sec id="Sec14">
+                    <title>Pre-processing</title>
+                    <p>We performed a standard preprocessing pipeline for fMRI data which began with realignment, in which the functional time-series was first realigned to the mean functional image. We then co-registered the structural image to the mean functional image to be able to spatially normalize the functional images, via DARTEL, to MNI-space. The mean functional images delivered the priors for a unified segmentation process and was non-linearly segmented. This yielded the normalization parameters which were applied to all images. All pre-processing steps used the standard SPM12 routines. In addition, beyond using motion parameters as regressors of no interest, we also assessed potential differences between groups in movement throughout the session using frame-wise displacement (FD)<sup><xref ref-type="bibr" rid="CR88">88</xref></sup>. FD is an index that assesses motion of the head between one imaging volume to the next and is estimated as the sum of the absolute values of the differentiated realignment estimate at every time point<sup><xref ref-type="bibr" rid="CR89">89</xref></sup>. A Student’s <italic>t</italic>-test indicated that there was a nominal, but not significant according to a priory defined statistical threshold, difference between groups in FD values, <italic>t</italic>(41) = 1.92, <italic>p</italic> &gt; 0.06, 95% <italic>CI</italic> = [− 0.002, 0.085] (mean FD index control: 0.120, SD 0.05; mean FD index anosmia: 0.162, SD 0.09). Note, however, that the confidence interval includes the no difference value.</p>
+                  </sec>
+                  <sec id="Sec15">
+                    <title>BOLD time series extraction</title>
+                    <p>First, we created anatomical regions of interest (ROI) to support further analyses. A total of 90 regions of interests (ROI) were extracted from the AAL atlas<sup><xref ref-type="bibr" rid="CR90">90</xref></sup> to cover the full brain. In addition, we specifically sought to assess processing within key areas associated with olfactory processing, namely the anterior piriform cortex (APC), posterior piriform cortex (PPC), and the olfactory orbitofrontal cortex (OFC), areas that are poorly defined in the AAL atlas. To this end, we manually created 6 ROIs of the olfactory areas (left and right of APC, PPC, and OFC). The APC and PPC ROIs were based on manual drawings on normalized T1 images from 60 individuals, unrelated to the individuals in this study, using MRICroN<sup><xref ref-type="bibr" rid="CR91">91</xref></sup>. Delineation of the piriform cortex was divided into anterior and posterior based on separation between temporal and frontal areas. Mean images of each hemisphere and area were created using the imcalc function within SPM 12 and subsequently binarized. For the OFC ROI, we used a functional mask based on a previously published activation likelihood estimate study of neural odor processing; the creation of which is described in detail elsewhere<sup><xref ref-type="bibr" rid="CR92">92</xref></sup>. Finally, overlapping voxels were removed from the AAL ROIs using the imcalc function (SPM12). This resulted in a total of 96 ROIs. BOLD activation of each ROI was band-passed filtered [0.01–0.1 Hz] and averaged across all the voxels within a ROI.</p>
+                  </sec>
+                  <sec id="Sec16">
+                    <title>Dynamic functional network assessments</title>
+                    <p>Previously, it has been shown that time-resolved resting state brain networks provides a good foundation to further our understanding of dynamic information processing in the brain<sup><xref ref-type="bibr" rid="CR93">93</xref>,<xref ref-type="bibr" rid="CR94">94</xref></sup>. We sought to determine potential dissimilarities in the functional neural processing at rest between Anosmia and Control using a sliding window paradigm to create inter-regional dynamic functional connectivity (dFC) from the extracted BOLD signal. To remove a potential dependency originating from selected window width, we used a range of windows with different width and averaged the results. We considered windows with width from 5 to 60 TRs (i.e., 11.5 s to 92 s width) with a step of 2 time points to estimate the dFC for the same ROIs as described above. We also controlled the nuisance effect of movement by regressing out variance that were associated with FD values. Then, dFCs were Fisher Z-transformed to Z-values and to determine significant intervals of connectivity between regions, we applied a threshold on the dFCs where the cutoff value was set based on the critical correlation (rho<sub>crtical</sub> = 0.64; <italic>p</italic> &lt; 0.001); i.e., only connectivity above this value was considered. The fractional connectivity, derived from the threshold dFCs, was calculated for both groups as following: the total interval of dFCs above the threshold was divided by the total length recording within each hemisphere and subsequently averaged across hemispheres for each ROI. Finally, we compared the fractional connectivity across groups from three olfactory regions (APC, PPC, OFC) to the rest of the brain using independent Student’s <italic>t</italic>-test (Fig. <xref rid="Fig4" ref-type="fig">4</xref>B).</p>
+                  </sec>
+                </sec>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Information</title>
+              <sec id="Sec13">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41598_2021_95968_MOESM1_ESM.pdf">
+                      <caption>
+                        <p>Supplementary Information.</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher's note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+              <fn>
+                <p>These authors jointly supervised this work: Hagen H. Kitzler and Johan N. Lundström.</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Supplementary Information</title>
+              <p>The online version contains supplementary material available at 10.1038/s41598-021-95968-7.</p>
+            </sec>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>Funding provided by the Knut and Alice Wallenberg Foundation (KAW 2018.0152) as well as the Swedish Research Council (2017-02325), awarded to JNL. AA is supported by a Grant from the Swedish Research Council (2018-01603).</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>T.H., M.J.O., and J.N.L. Designed the study; B.I. and H.H.K. Performed research; B.I. Analyzed data; J.N.L., B.I., and M.G.P. Drafted the paper; All authors contributed to the critical discussion of the results, commented, reviewed, and approved the final manuscript.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>Open access funding provided by Karolinska Institute.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data availability</title>
+              <p>The data that support the findings of this study are available on request from the corresponding author. The data are not publicly available due to privacy or ethical restrictions because of limitations set in the original ethical permits.</p>
+            </notes>
+            <notes id="FPar1" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par25">The authors declare no competing interests.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Frasnelli</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Collignon</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Voss</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Lepore</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Crossmodal plasticity in sensory loss</article-title>
+                  <source>Prog. Brain Res.</source>
+                  <year>2011</year>
+                  <volume>191</volume>
+                  <fpage>233</fpage>
+                  <lpage>249</lpage>
+                  <pub-id pub-id-type="doi">10.1016/B978-0-444-53752-2.00002-3</pub-id>
+                  <?supplied-pmid 21741555?>
+                  <pub-id pub-id-type="pmid">21741555</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <mixed-citation publication-type="other">Röder, B., &amp; Rösler, F. Compensatory Plasticity as a Consequence of Sensory Loss. In <italic>The handbook of multisensory processes</italic>, (Eds Calvert, G. A. <italic>et al.</italic>), 719–747 (MIT Press, 2004).</mixed-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fine</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>J-M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Blindness and human brain plasticity</article-title>
+                  <source>Annu. Rev. Vis. Sci.</source>
+                  <year>2018</year>
+                  <volume>4</volume>
+                  <fpage>337</fpage>
+                  <lpage>356</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev-vision-102016-061241</pub-id>
+                  <?supplied-pmid 29975591?>
+                  <pub-id pub-id-type="pmid">29975591</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Frasnelli</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Fark</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Lehmann</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Gerber</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Hummel</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Brain structure is changed in congenital anosmia</article-title>
+                  <source>Neuroimage</source>
+                  <year>2013</year>
+                  <volume>83</volume>
+                  <fpage>1074</fpage>
+                  <lpage>1080</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2013.07.070</pub-id>
+                  <?supplied-pmid 23927902?>
+                  <pub-id pub-id-type="pmid">23927902</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Reichert</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                    <name>
+                      <surname>Schöpf</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Olfactory loss and regain: Lessons for neuroplasticity</article-title>
+                  <source>Neuroscientist</source>
+                  <year>2018</year>
+                  <volume>24</volume>
+                  <fpage>22</fpage>
+                  <lpage>35</lpage>
+                  <pub-id pub-id-type="doi">10.1177/1073858417703910</pub-id>
+                  <?supplied-pmid 28459173?>
+                  <pub-id pub-id-type="pmid">28459173</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Karstensen</surname>
+                      <given-names>HG</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Congenital olfactory impairment is linked to cortical changes in prefrontal and limbic brain regions</article-title>
+                  <source>Brain Imaging Behav.</source>
+                  <year>2018</year>
+                  <volume>12</volume>
+                  <fpage>1569</fpage>
+                  <lpage>1582</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11682-017-9817-5</pub-id>
+                  <?supplied-pmid 29442274?>
+                  <pub-id pub-id-type="pmid">29442274</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Peng</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A voxel-based morphometry study of anosmic patients</article-title>
+                  <source>Br. J. Radiol.</source>
+                  <year>2013</year>
+                  <volume>86</volume>
+                  <fpage>20130207</fpage>
+                  <pub-id pub-id-type="doi">10.1259/bjr.20130207</pub-id>
+                  <?supplied-pmid 24133057?>
+                  <pub-id pub-id-type="pmid">24133057</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Peter</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Normal olfactory functional connectivity despite lifelong absence of olfactory experiences</article-title>
+                  <source>Cereb. Cortex</source>
+                  <year>2021</year>
+                  <volume>31</volume>
+                  <fpage>159</fpage>
+                  <lpage>168</lpage>
+                  <pub-id pub-id-type="doi">10.1093/cercor/bhaa217</pub-id>
+                  <?supplied-pmid 32810869?>
+                  <pub-id pub-id-type="pmid">32810869</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Peter</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Morphological changes in secondary, but not primary, sensory cortex in individuals with life-long olfactory sensory deprivation</article-title>
+                  <source>Neuroimage</source>
+                  <year>2020</year>
+                  <volume>218</volume>
+                  <fpage>117005</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2020.117005</pub-id>
+                  <?supplied-pmid 32485304?>
+                  <pub-id pub-id-type="pmid">32485304</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Han</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Olfactory brain gray matter volume reduction in patients with chronic rhinosinusitis</article-title>
+                  <source>Int. Forum Allergy Rhinol.</source>
+                  <year>2017</year>
+                  <volume>7</volume>
+                  <fpage>551</fpage>
+                  <lpage>556</lpage>
+                  <pub-id pub-id-type="doi">10.1002/alr.21922</pub-id>
+                  <?supplied-pmid 28383208?>
+                  <pub-id pub-id-type="pmid">28383208</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Han</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Alterations of brain gray matter density and olfactory bulb volume in patients with olfactory loss after traumatic brain injury</article-title>
+                  <source>J. Neurotrauma</source>
+                  <year>2018</year>
+                  <volume>35</volume>
+                  <fpage>2632</fpage>
+                  <lpage>2640</lpage>
+                  <pub-id pub-id-type="doi">10.1089/neu.2017.5393</pub-id>
+                  <?supplied-pmid 29699465?>
+                  <pub-id pub-id-type="pmid">29699465</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yao</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Olfactory cortex and Olfactory bulb volume alterations in patients with post-infectious Olfactory loss</article-title>
+                  <source>Brain Imaging Behav.</source>
+                  <year>2018</year>
+                  <volume>12</volume>
+                  <fpage>1355</fpage>
+                  <lpage>1362</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11682-017-9807-7</pub-id>
+                  <?supplied-pmid 29234959?>
+                  <pub-id pub-id-type="pmid">29234959</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gougoux</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Neuropsychology: Pitch discrimination in the early blind</article-title>
+                  <source>Nature</source>
+                  <year>2004</year>
+                  <volume>430</volume>
+                  <fpage>309</fpage>
+                  <pub-id pub-id-type="doi">10.1038/430309a</pub-id>
+                  <?supplied-pmid 15254527?>
+                  <pub-id pub-id-type="pmid">15254527</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Voss</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sensitive and critical periods in visual sensory deprivation</article-title>
+                  <source>Front. Psychol.</source>
+                  <year>2013</year>
+                  <volume>4</volume>
+                  <fpage>664</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fpsyg.2013.00664</pub-id>
+                  <?supplied-pmid 24133469?>
+                  <pub-id pub-id-type="pmid">24133469</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Goldreich</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Kanics</surname>
+                      <given-names>IM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Tactile acuity is enhanced in blindness</article-title>
+                  <source>J. Neurosci.</source>
+                  <year>2003</year>
+                  <volume>23</volume>
+                  <fpage>3439</fpage>
+                  <lpage>3445</lpage>
+                  <pub-id pub-id-type="doi">10.1523/JNEUROSCI.23-08-03439.2003</pub-id>
+                  <?supplied-pmid 12716952?>
+                  <pub-id pub-id-type="pmid">12716952</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Singh</surname>
+                      <given-names>AK</given-names>
+                    </name>
+                    <name>
+                      <surname>Phillips</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Merabet</surname>
+                      <given-names>LB</given-names>
+                    </name>
+                    <name>
+                      <surname>Sinha</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Why does the cortex reorganize after sensory loss?</article-title>
+                  <source>Trends Cogn. Sci. (Regul. Ed.)</source>
+                  <year>2018</year>
+                  <volume>22</volume>
+                  <fpage>569</fpage>
+                  <lpage>582</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.tics.2018.04.004</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Allman</surname>
+                      <given-names>BL</given-names>
+                    </name>
+                    <name>
+                      <surname>Keniston</surname>
+                      <given-names>LP</given-names>
+                    </name>
+                    <name>
+                      <surname>Meredith</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Adult deafness induces somatosensory conversion of ferret auditory cortex</article-title>
+                  <source>Proc. Natl. Acad. Sci. USA</source>
+                  <year>2009</year>
+                  <volume>106</volume>
+                  <fpage>5925</fpage>
+                  <lpage>5930</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.0809483106</pub-id>
+                  <?supplied-pmid 19307553?>
+                  <pub-id pub-id-type="pmid">19307553</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Buonomano</surname>
+                      <given-names>DV</given-names>
+                    </name>
+                    <name>
+                      <surname>Merzenich</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cortical plasticity: From synapses to maps</article-title>
+                  <source>Annu. Rev. Neurosci.</source>
+                  <year>1998</year>
+                  <volume>21</volume>
+                  <fpage>149</fpage>
+                  <lpage>186</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev.neuro.21.1.149</pub-id>
+                  <?supplied-pmid 9530495?>
+                  <pub-id pub-id-type="pmid">9530495</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Boroojerdi</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Enhanced excitability of the human visual cortex induced by short-term light deprivation</article-title>
+                  <source>Cereb. Cortex</source>
+                  <year>2000</year>
+                  <volume>10</volume>
+                  <fpage>529</fpage>
+                  <lpage>534</lpage>
+                  <pub-id pub-id-type="doi">10.1093/cercor/10.5.529</pub-id>
+                  <?supplied-pmid 10847602?>
+                  <pub-id pub-id-type="pmid">10847602</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pitskel</surname>
+                      <given-names>NB</given-names>
+                    </name>
+                    <name>
+                      <surname>Merabet</surname>
+                      <given-names>LB</given-names>
+                    </name>
+                    <name>
+                      <surname>Ramos-Estebanez</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Kauffman</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Pascual-Leone</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Time-dependent changes in cortical excitability after prolonged visual deprivation</article-title>
+                  <source>NeuroReport</source>
+                  <year>2007</year>
+                  <volume>18</volume>
+                  <fpage>1703</fpage>
+                  <lpage>1707</lpage>
+                  <pub-id pub-id-type="doi">10.1097/WNR.0b013e3282f0d2c1</pub-id>
+                  <?supplied-pmid 17921872?>
+                  <pub-id pub-id-type="pmid">17921872</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fierro</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Modulatory effects of low- and high-frequency repetitive transcranial magnetic stimulation on visual cortex of healthy subjects undergoing light deprivation</article-title>
+                  <source>J. Physiol. (Lond)</source>
+                  <year>2005</year>
+                  <volume>565</volume>
+                  <fpage>659</fpage>
+                  <lpage>665</lpage>
+                  <pub-id pub-id-type="doi">10.1113/jphysiol.2004.080184</pub-id>
+                  <pub-id pub-id-type="pmid">15760946</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Leon-Sarmiento</surname>
+                      <given-names>FE</given-names>
+                    </name>
+                    <name>
+                      <surname>Bara-Jimenez</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Wassermann</surname>
+                      <given-names>EM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Visual deprivation effects on human motor cortex excitability</article-title>
+                  <source>Neurosci. Lett.</source>
+                  <year>2005</year>
+                  <volume>389</volume>
+                  <fpage>17</fpage>
+                  <lpage>20</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neulet.2005.06.061</pub-id>
+                  <?supplied-pmid 16040193?>
+                  <pub-id pub-id-type="pmid">16040193</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pascual-Leone</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Hamilton</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The metamodal organization of the brain</article-title>
+                  <source>Prog. Brain Res.</source>
+                  <year>2001</year>
+                  <volume>134</volume>
+                  <fpage>427</fpage>
+                  <lpage>445</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0079-6123(01)34028-1</pub-id>
+                  <?supplied-pmid 11702559?>
+                  <pub-id pub-id-type="pmid">11702559</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Boesveldt</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Anosmia—A clinical review</article-title>
+                  <source>Chem. Senses</source>
+                  <year>2017</year>
+                  <volume>42</volume>
+                  <fpage>513</fpage>
+                  <lpage>523</lpage>
+                  <pub-id pub-id-type="doi">10.1093/chemse/bjx025</pub-id>
+                  <?supplied-pmid 28531300?>
+                  <pub-id pub-id-type="pmid">28531300</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brämerson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Johansson</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Ek</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Nordin</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Bende</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prevalence of olfactory dysfunction: The skövde population-based study</article-title>
+                  <source>Laryngoscope</source>
+                  <year>2004</year>
+                  <volume>114</volume>
+                  <fpage>733</fpage>
+                  <lpage>737</lpage>
+                  <pub-id pub-id-type="doi">10.1097/00005537-200404000-00026</pub-id>
+                  <?supplied-pmid 15064632?>
+                  <pub-id pub-id-type="pmid">15064632</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Landis</surname>
+                      <given-names>BN</given-names>
+                    </name>
+                    <name>
+                      <surname>Konnerth</surname>
+                      <given-names>CG</given-names>
+                    </name>
+                    <name>
+                      <surname>Hummel</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A study on the frequency of olfactory dysfunction</article-title>
+                  <source>Laryngoscope</source>
+                  <year>2004</year>
+                  <volume>114</volume>
+                  <fpage>1764</fpage>
+                  <lpage>1769</lpage>
+                  <pub-id pub-id-type="doi">10.1097/00005537-200410000-00017</pub-id>
+                  <?supplied-pmid 15454769?>
+                  <pub-id pub-id-type="pmid">15454769</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Iravani</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Relationship between odor intensity estimates and COVID-19 prevalence prediction in a Swedish population</article-title>
+                  <source>Chem. Senses</source>
+                  <year>2020</year>
+                  <volume>45</volume>
+                  <fpage>449</fpage>
+                  <lpage>456</lpage>
+                  <pub-id pub-id-type="doi">10.1093/chemse/bjaa034</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Parma</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>More Than Smell-COVID-19 Is associated with severe impairment of smell, taste, and chemesthesis</article-title>
+                  <source>Chem. Senses</source>
+                  <year>2020</year>
+                  <volume>45</volume>
+                  <fpage>609</fpage>
+                  <lpage>622</lpage>
+                  <pub-id pub-id-type="doi">10.1093/chemse/bjaa041</pub-id>
+                  <?supplied-pmid 32564071?>
+                  <pub-id pub-id-type="pmid">32564071</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bitter</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Anosmia leads to a loss of gray matter in cortical brain areas</article-title>
+                  <source>Chem. Senses</source>
+                  <year>2010</year>
+                  <volume>35</volume>
+                  <fpage>407</fpage>
+                  <lpage>415</lpage>
+                  <pub-id pub-id-type="doi">10.1093/chemse/bjq028</pub-id>
+                  <?supplied-pmid 20231262?>
+                  <pub-id pub-id-type="pmid">20231262</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>C-W</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Anosmia and olfactory tract neuropathy in a case of COVID-19</article-title>
+                  <source>J. Microbiol. Immunol. Infect.</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1016/j.jmii.2020.05.017</pub-id>
+                  <?supplied-pmid 32861625?>
+                  <pub-id pub-id-type="pmid">32861625</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yao</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Gray matter volume reduction of olfactory cortices in patients with idiopathic olfactory loss</article-title>
+                  <source>Chem. Senses</source>
+                  <year>2014</year>
+                  <volume>39</volume>
+                  <fpage>755</fpage>
+                  <lpage>760</lpage>
+                  <pub-id pub-id-type="doi">10.1093/chemse/bju047</pub-id>
+                  <?supplied-pmid 25240014?>
+                  <pub-id pub-id-type="pmid">25240014</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kollndorfer</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Jakab</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Mueller</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                    <name>
+                      <surname>Trattnig</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Schöpf</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of chronic peripheral olfactory loss on functional brain networks</article-title>
+                  <source>Neuroscience</source>
+                  <year>2015</year>
+                  <volume>310</volume>
+                  <fpage>589</fpage>
+                  <lpage>599</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroscience.2015.09.045</pub-id>
+                  <?supplied-pmid 26415766?>
+                  <pub-id pub-id-type="pmid">26415766</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Reichert</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Severity of olfactory deficits is reflected in functional brain networks-An fMRI study</article-title>
+                  <source>Hum. Brain Mapp.</source>
+                  <year>2018</year>
+                  <volume>39</volume>
+                  <fpage>3166</fpage>
+                  <lpage>3177</lpage>
+                  <pub-id pub-id-type="doi">10.1002/hbm.24067</pub-id>
+                  <?supplied-pmid 29602198?>
+                  <pub-id pub-id-type="pmid">29602198</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>KN</given-names>
+                    </name>
+                    <name>
+                      <surname>Tan</surname>
+                      <given-names>BK</given-names>
+                    </name>
+                    <name>
+                      <surname>Howard</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Conley</surname>
+                      <given-names>DB</given-names>
+                    </name>
+                    <name>
+                      <surname>Gottfried</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Olfactory input is critical for sustaining odor quality codes in human orbitofrontal cortex</article-title>
+                  <source>Nat. Neurosci.</source>
+                  <year>2012</year>
+                  <volume>15</volume>
+                  <fpage>1313</fpage>
+                  <lpage>1319</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nn.3186</pub-id>
+                  <?supplied-pmid 22885850?>
+                  <pub-id pub-id-type="pmid">22885850</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lundström</surname>
+                      <given-names>JN</given-names>
+                    </name>
+                    <name>
+                      <surname>Boesveldt</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Albrecht</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Central processing of the chemical senses: An overview</article-title>
+                  <source>ACS Chem. Neurosci.</source>
+                  <year>2011</year>
+                  <volume>2</volume>
+                  <fpage>5</fpage>
+                  <lpage>16</lpage>
+                  <pub-id pub-id-type="doi">10.1021/cn1000843</pub-id>
+                  <?supplied-pmid 21503268?>
+                  <pub-id pub-id-type="pmid">21503268</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Arshamian</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Larsson</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Same same but different: The case of olfactory imagery</article-title>
+                  <source>Front. Psychol.</source>
+                  <year>2014</year>
+                  <volume>5</volume>
+                  <fpage>34</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fpsyg.2014.00034</pub-id>
+                  <?supplied-pmid 24550862?>
+                  <pub-id pub-id-type="pmid">24550862</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zelano</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Attentional modulation in human primary olfactory cortex</article-title>
+                  <source>Nat. Neurosci.</source>
+                  <year>2005</year>
+                  <volume>8</volume>
+                  <fpage>114</fpage>
+                  <lpage>120</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nn1368</pub-id>
+                  <?supplied-pmid 15608635?>
+                  <pub-id pub-id-type="pmid">15608635</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Honey</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Predicting human resting-state functional connectivity from structural connectivity</article-title>
+                  <source>Proc. Natl. Acad. Sci. USA</source>
+                  <year>2009</year>
+                  <volume>106</volume>
+                  <fpage>2035</fpage>
+                  <lpage>2040</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.0811168106</pub-id>
+                  <?supplied-pmid 19188601?>
+                  <pub-id pub-id-type="pmid">19188601</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hermundstad</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Structural foundations of resting-state and task-based functional connectivity in the human brain</article-title>
+                  <source>Proc. Natl. Acad. Sci. USA</source>
+                  <year>2013</year>
+                  <volume>110</volume>
+                  <fpage>6169</fpage>
+                  <lpage>6174</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.1219562110</pub-id>
+                  <?supplied-pmid 23530246?>
+                  <pub-id pub-id-type="pmid">23530246</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Small</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Crossmodal integration–insights from the chemical senses</article-title>
+                  <source>Trends Neurosci.</source>
+                  <year>2004</year>
+                  <volume>27</volume>
+                  <fpage>120</fpage>
+                  <lpage>123</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.tins.2004.01.002</pub-id>
+                  <?supplied-pmid 15046082?>
+                  <pub-id pub-id-type="pmid">15046082</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Aberrancies of brain network structures in patients with anosmia</article-title>
+                  <source>Brain Topogr</source>
+                  <year>2020</year>
+                  <volume>33</volume>
+                  <fpage>403</fpage>
+                  <lpage>411</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10548-020-00769-2</pub-id>
+                  <?supplied-pmid 32297077?>
+                  <pub-id pub-id-type="pmid">32297077</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Peter</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                    <name>
+                      <surname>Porada</surname>
+                      <given-names>DK</given-names>
+                    </name>
+                    <name>
+                      <surname>Regenbogen</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Olsson</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Lundström</surname>
+                      <given-names>JN</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sensory loss enhances multisensory integration performance</article-title>
+                  <source>Cortex</source>
+                  <year>2019</year>
+                  <volume>120</volume>
+                  <fpage>116</fpage>
+                  <lpage>130</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cortex.2019.06.003</pub-id>
+                  <?supplied-pmid 31299497?>
+                  <pub-id pub-id-type="pmid">31299497</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lundström</surname>
+                      <given-names>JN</given-names>
+                    </name>
+                    <name>
+                      <surname>Regenbogen</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Ohla</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Seubert</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prefrontal control over occipital responses to crossmodal overlap varies across the congruency spectrum</article-title>
+                  <source>Cereb. Cortex</source>
+                  <year>2018</year>
+                  <pub-id pub-id-type="doi">10.1093/cercor/bhy168</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mainland</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Lundström</surname>
+                      <given-names>JN</given-names>
+                    </name>
+                    <name>
+                      <surname>Reisert</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Lowe</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>From molecule to mind: an integrative perspective on odor intensity</article-title>
+                  <source>Trends Neurosci.</source>
+                  <year>2014</year>
+                  <volume>37</volume>
+                  <fpage>443</fpage>
+                  <lpage>454</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.tins.2014.05.005</pub-id>
+                  <?supplied-pmid 24950600?>
+                  <pub-id pub-id-type="pmid">24950600</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hyvärinen</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Hyvärinen</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Linnankoski</surname>
+                      <given-names>I</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modification of parietal association cortex and functional blindness after binocular deprivation in young monkeys</article-title>
+                  <source>Exp. Brain Res.</source>
+                  <year>1981</year>
+                  <volume>42</volume>
+                  <fpage>1</fpage>
+                  <lpage>8</lpage>
+                  <pub-id pub-id-type="doi">10.1007/BF00235723</pub-id>
+                  <?supplied-pmid 7215506?>
+                  <pub-id pub-id-type="pmid">7215506</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Carriere</surname>
+                      <given-names>BN</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Visual deprivation alters the development of cortical multisensory integration</article-title>
+                  <source>J. Neurophysiol.</source>
+                  <year>2007</year>
+                  <volume>98</volume>
+                  <fpage>2858</fpage>
+                  <lpage>2867</lpage>
+                  <pub-id pub-id-type="doi">10.1152/jn.00587.2007</pub-id>
+                  <?supplied-pmid 17728386?>
+                  <pub-id pub-id-type="pmid">17728386</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bavelier</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Impact of early deafness and early exposure to sign language on the cerebral organization for motion processing</article-title>
+                  <source>J. Neurosci.</source>
+                  <year>2001</year>
+                  <volume>21</volume>
+                  <fpage>8931</fpage>
+                  <lpage>8942</lpage>
+                  <pub-id pub-id-type="doi">10.1523/JNEUROSCI.21-22-08931.2001</pub-id>
+                  <?supplied-pmid 11698604?>
+                  <pub-id pub-id-type="pmid">11698604</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zmigrod</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Zmigrod</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Zapping the gap: Reducing the multisensory temporal binding window by means of transcranial direct current stimulation (tDCS)</article-title>
+                  <source>Conscious. Cogn.</source>
+                  <year>2015</year>
+                  <volume>35</volume>
+                  <fpage>143</fpage>
+                  <lpage>149</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.concog.2015.05.012</pub-id>
+                  <?supplied-pmid 26036834?>
+                  <pub-id pub-id-type="pmid">26036834</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Regenbogen</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The intraparietal sulcus governs multisensory integration of audiovisual information based on task difficulty</article-title>
+                  <source>Hum. Brain Mapp.</source>
+                  <year>2018</year>
+                  <volume>39</volume>
+                  <fpage>1313</fpage>
+                  <lpage>1326</lpage>
+                  <pub-id pub-id-type="doi">10.1002/hbm.23918</pub-id>
+                  <?supplied-pmid 29235185?>
+                  <pub-id pub-id-type="pmid">29235185</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gottfried</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Dolan</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The nose smells what the eye sees: Crossmodal visual facilitation of human olfactory perception</article-title>
+                  <source>Neuron</source>
+                  <year>2003</year>
+                  <volume>39</volume>
+                  <fpage>375</fpage>
+                  <lpage>386</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0896-6273(03)00392-1</pub-id>
+                  <?supplied-pmid 12873392?>
+                  <pub-id pub-id-type="pmid">12873392</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Boyle</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Frasnelli</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Gerber</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Heinke</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Hummel</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cross-modal integration of intranasal stimuli: A functional magnetic resonance imaging study</article-title>
+                  <source>Neuroscience</source>
+                  <year>2007</year>
+                  <volume>149</volume>
+                  <fpage>223</fpage>
+                  <lpage>231</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroscience.2007.06.045</pub-id>
+                  <?supplied-pmid 17869005?>
+                  <pub-id pub-id-type="pmid">17869005</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Regenbogen</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Behavioral and neural correlates to multisensory detection of sick humans</article-title>
+                  <source>Proc. Natl. Acad. Sci. USA</source>
+                  <year>2017</year>
+                  <volume>114</volume>
+                  <fpage>6400</fpage>
+                  <lpage>6405</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.1617357114</pub-id>
+                  <?supplied-pmid 28533402?>
+                  <pub-id pub-id-type="pmid">28533402</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR53">
+                <label>53.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Landis</surname>
+                      <given-names>BN</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Chemosensory interaction: Acquired olfactory impairment is associated with decreased taste function</article-title>
+                  <source>J. Neurol.</source>
+                  <year>2010</year>
+                  <volume>257</volume>
+                  <fpage>1303</fpage>
+                  <lpage>1308</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00415-010-5513-8</pub-id>
+                  <?supplied-pmid 20221768?>
+                  <pub-id pub-id-type="pmid">20221768</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR54">
+                <label>54.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gudziol</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Rahneberg</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Burkert</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Anosmics are more poorly able to taste than normal persons</article-title>
+                  <source>Laryngorhinootologie</source>
+                  <year>2007</year>
+                  <volume>86</volume>
+                  <fpage>640</fpage>
+                  <lpage>643</lpage>
+                  <pub-id pub-id-type="doi">10.1055/s-2007-966228</pub-id>
+                  <?supplied-pmid 17806002?>
+                  <pub-id pub-id-type="pmid">17806002</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR55">
+                <label>55.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gagnon</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Neural correlates of taste perception in congenital olfactory impairment</article-title>
+                  <source>Neuropsychologia</source>
+                  <year>2014</year>
+                  <volume>62</volume>
+                  <fpage>297</fpage>
+                  <lpage>305</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuropsychologia.2014.07.018</pub-id>
+                  <?supplied-pmid 25080191?>
+                  <pub-id pub-id-type="pmid">25080191</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR56">
+                <label>56.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hummel</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Loss of olfactory function leads to a decrease of trigeminal sensitivity</article-title>
+                  <source>Chem. Senses</source>
+                  <year>1996</year>
+                  <volume>21</volume>
+                  <fpage>75</fpage>
+                  <lpage>79</lpage>
+                  <pub-id pub-id-type="doi">10.1093/chemse/21.1.75</pub-id>
+                  <?supplied-pmid 8646495?>
+                  <pub-id pub-id-type="pmid">8646495</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR57">
+                <label>57.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Frasnelli</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Hummel</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Interactions between the chemical senses: Trigeminal function in patients with olfactory loss</article-title>
+                  <source>Int. J. Psychophysiol.</source>
+                  <year>2007</year>
+                  <volume>65</volume>
+                  <fpage>177</fpage>
+                  <lpage>181</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ijpsycho.2007.03.007</pub-id>
+                  <?supplied-pmid 17434636?>
+                  <pub-id pub-id-type="pmid">17434636</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR58">
+                <label>58.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Veldhuizen</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Identification of human gustatory cortex by activation likelihood estimation</article-title>
+                  <source>Hum. Brain Mapp.</source>
+                  <year>2011</year>
+                  <volume>32</volume>
+                  <fpage>2256</fpage>
+                  <lpage>2266</lpage>
+                  <pub-id pub-id-type="doi">10.1002/hbm.21188</pub-id>
+                  <?supplied-pmid 21305668?>
+                  <pub-id pub-id-type="pmid">21305668</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR59">
+                <label>59.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Albrecht</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The neuronal correlates of intranasal trigeminal function-an ALE meta-analysis of human functional brain imaging data</article-title>
+                  <source>Brain Res. Rev.</source>
+                  <year>2010</year>
+                  <volume>62</volume>
+                  <fpage>183</fpage>
+                  <lpage>196</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.brainresrev.2009.11.001</pub-id>
+                  <?supplied-pmid 19913573?>
+                  <pub-id pub-id-type="pmid">19913573</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR60">
+                <label>60.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Burton</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Snyder</surname>
+                      <given-names>AZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Raichle</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Resting state functional connectivity in early blind humans</article-title>
+                  <source>Front. Syst. Neurosci.</source>
+                  <year>2014</year>
+                  <volume>8</volume>
+                  <fpage>51</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fnsys.2014.00051</pub-id>
+                  <?supplied-pmid 24778608?>
+                  <pub-id pub-id-type="pmid">24778608</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR61">
+                <label>61.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Altered resting-state network connectivity in congenital blind</article-title>
+                  <source>Hum. Brain Mapp.</source>
+                  <year>2014</year>
+                  <volume>35</volume>
+                  <fpage>2573</fpage>
+                  <lpage>2581</lpage>
+                  <pub-id pub-id-type="doi">10.1002/hbm.22350</pub-id>
+                  <?supplied-pmid 24038713?>
+                  <pub-id pub-id-type="pmid">24038713</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR62">
+                <label>62.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Abboud</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Cohen</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Distinctive interaction between cognitive networks and the visual cortex in early blind individuals</article-title>
+                  <source>Cereb. Cortex</source>
+                  <year>2019</year>
+                  <volume>29</volume>
+                  <fpage>4725</fpage>
+                  <lpage>4742</lpage>
+                  <pub-id pub-id-type="doi">10.1093/cercor/bhz006</pub-id>
+                  <?supplied-pmid 30715236?>
+                  <pub-id pub-id-type="pmid">30715236</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR63">
+                <label>63.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hillary</surname>
+                      <given-names>FG</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The rich get richer: brain injury elicits hyperconnectivity in core subnetworks</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2014</year>
+                  <volume>9</volume>
+                  <fpage>e104021</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0104021</pub-id>
+                  <?supplied-pmid 25121760?>
+                  <pub-id pub-id-type="pmid">25121760</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR64">
+                <label>64.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kaboodvand</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>van den Heuvel</surname>
+                      <given-names>MP</given-names>
+                    </name>
+                    <name>
+                      <surname>Fransson</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Adaptive frequency-based modeling of whole-brain oscillations: Predicting regional vulnerability and hazardousness rates</article-title>
+                  <source>Network Neurosci.</source>
+                  <year>2019</year>
+                  <volume>3</volume>
+                  <fpage>1094</fpage>
+                  <lpage>1120</lpage>
+                  <pub-id pub-id-type="doi">10.1162/netn_a_00104</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR65">
+                <label>65.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kaboodvand</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>van den Heuvel</surname>
+                      <given-names>MP</given-names>
+                    </name>
+                    <name>
+                      <surname>Fransson</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Adaptive frequency-based modeling of whole-brain oscillations: Predicting regional vulnerability and hazardousness rates</article-title>
+                  <source>Netw. Neurosci.</source>
+                  <year>2019</year>
+                  <volume>3</volume>
+                  <fpage>1094</fpage>
+                  <lpage>1120</lpage>
+                  <pub-id pub-id-type="doi">10.1162/netn_a_00104</pub-id>
+                  <?supplied-pmid 31637340?>
+                  <pub-id pub-id-type="pmid">31637340</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR66">
+                <label>66.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Thompson</surname>
+                      <given-names>GJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neural and metabolic basis of dynamic resting state fMRI</article-title>
+                  <source>Neuroimage</source>
+                  <year>2018</year>
+                  <volume>180</volume>
+                  <fpage>448</fpage>
+                  <lpage>462</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2017.09.010</pub-id>
+                  <?supplied-pmid 28899744?>
+                  <pub-id pub-id-type="pmid">28899744</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR67">
+                <label>67.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Karahanoğlu</surname>
+                      <given-names>FI</given-names>
+                    </name>
+                    <name>
+                      <surname>Van De Ville</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Transient brain activity disentangles fMRI resting-state dynamics in terms of spatially and temporally overlapping networks</article-title>
+                  <source>Nat. Commun.</source>
+                  <year>2015</year>
+                  <volume>6</volume>
+                  <fpage>7751</fpage>
+                  <pub-id pub-id-type="doi">10.1038/ncomms8751</pub-id>
+                  <?supplied-pmid 26178017?>
+                  <pub-id pub-id-type="pmid">26178017</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR68">
+                <label>68.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hutchison</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Dynamic functional connectivity: Promise, issues, and interpretations</article-title>
+                  <source>Neuroimage</source>
+                  <year>2013</year>
+                  <volume>80</volume>
+                  <fpage>360</fpage>
+                  <lpage>378</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2013.05.079</pub-id>
+                  <?supplied-pmid 23707587?>
+                  <pub-id pub-id-type="pmid">23707587</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR69">
+                <label>69.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fiebelkorn</surname>
+                      <given-names>IC</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Cortical cross-frequency coupling predicts perceptual outcomes</article-title>
+                  <source>Neuroimage</source>
+                  <year>2013</year>
+                  <volume>69</volume>
+                  <fpage>126</fpage>
+                  <lpage>137</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2012.11.021</pub-id>
+                  <?supplied-pmid 23186917?>
+                  <pub-id pub-id-type="pmid">23186917</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR70">
+                <label>70.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liégeois</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Resting brain dynamics at different timescales capture distinct aspects of human behavior</article-title>
+                  <source>Nat. Commun.</source>
+                  <year>2019</year>
+                  <volume>10</volume>
+                  <fpage>2317</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41467-019-10317-7</pub-id>
+                  <?supplied-pmid 6534566?>
+                  <pub-id pub-id-type="pmid">31127095</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR71">
+                <label>71.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Morán</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Mufson</surname>
+                      <given-names>EJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Mesulam</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neural inputs into the temporopolar cortex of the rhesus monkey</article-title>
+                  <source>J. Comp. Neurol.</source>
+                  <year>1987</year>
+                  <volume>256</volume>
+                  <fpage>88</fpage>
+                  <lpage>103</lpage>
+                  <pub-id pub-id-type="doi">10.1002/cne.902560108</pub-id>
+                  <?supplied-pmid 3819040?>
+                  <pub-id pub-id-type="pmid">3819040</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR72">
+                <label>72.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tsapkini</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Frangakis</surname>
+                      <given-names>CE</given-names>
+                    </name>
+                    <name>
+                      <surname>Hillis</surname>
+                      <given-names>AE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The function of the left anterior temporal pole: Evidence from acute stroke and infarct volume</article-title>
+                  <source>Brain</source>
+                  <year>2011</year>
+                  <volume>134</volume>
+                  <fpage>3094</fpage>
+                  <lpage>3105</lpage>
+                  <pub-id pub-id-type="doi">10.1093/brain/awr050</pub-id>
+                  <?supplied-pmid 21685458?>
+                  <pub-id pub-id-type="pmid">21685458</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR73">
+                <label>73.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Olofsson</surname>
+                      <given-names>JK</given-names>
+                    </name>
+                    <name>
+                      <surname>Rogalski</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Harrison</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Mesulam</surname>
+                      <given-names>M-M</given-names>
+                    </name>
+                    <name>
+                      <surname>Gottfried</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A cortical pathway to olfactory naming: Evidence from primary progressive aphasia</article-title>
+                  <source>Brain</source>
+                  <year>2013</year>
+                  <volume>136</volume>
+                  <fpage>1245</fpage>
+                  <lpage>1259</lpage>
+                  <pub-id pub-id-type="doi">10.1093/brain/awt019</pub-id>
+                  <?supplied-pmid 23471695?>
+                  <pub-id pub-id-type="pmid">23471695</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR74">
+                <label>74.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Seo</surname>
+                      <given-names>H-S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A salty-congruent odor enhances saltiness: functional magnetic resonance imaging study</article-title>
+                  <source>Hum. Brain Mapp.</source>
+                  <year>2013</year>
+                  <volume>34</volume>
+                  <fpage>62</fpage>
+                  <lpage>76</lpage>
+                  <pub-id pub-id-type="doi">10.1002/hbm.21414</pub-id>
+                  <?supplied-pmid 22020878?>
+                  <pub-id pub-id-type="pmid">22020878</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR75">
+                <label>75.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lundström</surname>
+                      <given-names>JN</given-names>
+                    </name>
+                    <name>
+                      <surname>Boyle</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Zatorre</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Jones-Gotman</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Functional neuronal processing of body odors differs from that of similar common odors</article-title>
+                  <source>Cereb. Cortex</source>
+                  <year>2008</year>
+                  <volume>18</volume>
+                  <fpage>1466</fpage>
+                  <lpage>1474</lpage>
+                  <pub-id pub-id-type="doi">10.1093/cercor/bhm178</pub-id>
+                  <?supplied-pmid 17934190?>
+                  <pub-id pub-id-type="pmid">17934190</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR76">
+                <label>76.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Royet</surname>
+                      <given-names>J-P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>True and false recognition memories of odors induce distinct neural signatures</article-title>
+                  <source>Front. Hum. Neurosci.</source>
+                  <year>2011</year>
+                  <volume>5</volume>
+                  <fpage>65</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fnhum.2011.00065</pub-id>
+                  <?supplied-pmid 21811450?>
+                  <pub-id pub-id-type="pmid">21811450</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR77">
+                <label>77.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Abolmaali</surname>
+                      <given-names>ND</given-names>
+                    </name>
+                    <name>
+                      <surname>Hietschold</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Vogl</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Hüttenbrink</surname>
+                      <given-names>K-B</given-names>
+                    </name>
+                    <name>
+                      <surname>Hummel</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>MR evaluation in patients with isolated anosmia since birth or early childhood</article-title>
+                  <source>AJNR Am. J. Neuroradiol.</source>
+                  <year>2002</year>
+                  <volume>23</volume>
+                  <fpage>157</fpage>
+                  <lpage>164</lpage>
+                  <?supplied-pmid 11827889?>
+                  <pub-id pub-id-type="pmid">11827889</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR78">
+                <label>78.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huart</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Rombaux</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Hummel</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neural plasticity in developing and adult olfactory pathways—Focus on the human olfactory bulb</article-title>
+                  <source>J. Bioenerg. Biomembr.</source>
+                  <year>2019</year>
+                  <volume>51</volume>
+                  <fpage>77</fpage>
+                  <lpage>87</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10863-018-9780-x</pub-id>
+                  <?supplied-pmid 30604090?>
+                  <pub-id pub-id-type="pmid">30604090</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR79">
+                <label>79.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Friedman</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Price</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Age-dependent cell death in the olfactory cortex: Lack of transneuronal degeneration in neonates</article-title>
+                  <source>J. Comp. Neurol.</source>
+                  <year>1986</year>
+                  <volume>246</volume>
+                  <fpage>20</fpage>
+                  <lpage>31</lpage>
+                  <pub-id pub-id-type="doi">10.1002/cne.902460103</pub-id>
+                  <?supplied-pmid 3700716?>
+                  <pub-id pub-id-type="pmid">3700716</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR80">
+                <label>80.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Friedman</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Price</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Plasticity in the olfactory cortex: Age-dependent effects of deafferentation</article-title>
+                  <source>J. Comp. Neurol.</source>
+                  <year>1986</year>
+                  <volume>246</volume>
+                  <fpage>1</fpage>
+                  <lpage>19</lpage>
+                  <pub-id pub-id-type="doi">10.1002/cne.902460102</pub-id>
+                  <?supplied-pmid 3700712?>
+                  <pub-id pub-id-type="pmid">3700712</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR81">
+                <label>81.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Westrum</surname>
+                      <given-names>LE</given-names>
+                    </name>
+                    <name>
+                      <surname>Bakay</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Plasticity in the rat olfactory cortex</article-title>
+                  <source>J. Comp. Neurol.</source>
+                  <year>1986</year>
+                  <volume>243</volume>
+                  <fpage>195</fpage>
+                  <lpage>206</lpage>
+                  <pub-id pub-id-type="doi">10.1002/cne.902430205</pub-id>
+                  <?supplied-pmid 3944276?>
+                  <pub-id pub-id-type="pmid">3944276</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR82">
+                <label>82.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hummel</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Sekinger</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Wolf</surname>
+                      <given-names>SR</given-names>
+                    </name>
+                    <name>
+                      <surname>Pauli</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Kobal</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>“Sniffin’sticks”: olfactory performance assessed by the combined testing of odor identification, odor discrimination and olfactory threshold</article-title>
+                  <source>Chem. Senses</source>
+                  <year>1997</year>
+                  <volume>22</volume>
+                  <fpage>39</fpage>
+                  <lpage>52</lpage>
+                  <pub-id pub-id-type="doi">10.1093/chemse/22.1.39</pub-id>
+                  <?supplied-pmid 9056084?>
+                  <pub-id pub-id-type="pmid">9056084</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR83">
+                <label>83.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kobal</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>“Sniffin’sticks”: screening of olfactory performance</article-title>
+                  <source>Rhinology</source>
+                  <year>1996</year>
+                  <volume>34</volume>
+                  <fpage>222</fpage>
+                  <lpage>226</lpage>
+                  <?supplied-pmid 9050101?>
+                  <pub-id pub-id-type="pmid">9050101</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR84">
+                <label>84.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wysocki</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Cowart</surname>
+                      <given-names>BJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Radil</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Nasal trigeminal chemosensitivity across the adult life span</article-title>
+                  <source>Percept. Psychophys.</source>
+                  <year>2003</year>
+                  <volume>65</volume>
+                  <fpage>115</fpage>
+                  <lpage>122</lpage>
+                  <pub-id pub-id-type="doi">10.3758/BF03194788</pub-id>
+                  <?supplied-pmid 12699314?>
+                  <pub-id pub-id-type="pmid">12699314</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR85">
+                <label>85.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ashburner</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Friston</surname>
+                      <given-names>KJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Unified segmentation</article-title>
+                  <source>Neuroimage</source>
+                  <year>2005</year>
+                  <volume>26</volume>
+                  <fpage>839</fpage>
+                  <lpage>851</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2005.02.018</pub-id>
+                  <?supplied-pmid 15955494?>
+                  <pub-id pub-id-type="pmid">15955494</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR86">
+                <label>86.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ashburner</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A fast diffeomorphic image registration algorithm</article-title>
+                  <source>Neuroimage</source>
+                  <year>2007</year>
+                  <volume>38</volume>
+                  <fpage>95</fpage>
+                  <lpage>113</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2007.07.007</pub-id>
+                  <?supplied-pmid 17761438?>
+                  <pub-id pub-id-type="pmid">17761438</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR87">
+                <label>87.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Oosterhof</surname>
+                      <given-names>NN</given-names>
+                    </name>
+                    <name>
+                      <surname>Connolly</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <name>
+                      <surname>Haxby</surname>
+                      <given-names>JV</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>CoSMoMVPA: Multi-modal multivariate pattern analysis of neuroimaging data in Matlab/GNU Octave</article-title>
+                  <source>Front. Neuroinform.</source>
+                  <year>2016</year>
+                  <volume>10</volume>
+                  <fpage>27</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fninf.2016.00027</pub-id>
+                  <?supplied-pmid 27499741?>
+                  <pub-id pub-id-type="pmid">27499741</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR88">
+                <label>88.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Power</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Methods to detect, characterize, and remove motion artifact in resting state fMRI</article-title>
+                  <source>Neuroimage</source>
+                  <year>2014</year>
+                  <volume>84</volume>
+                  <fpage>320</fpage>
+                  <lpage>341</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2013.08.048</pub-id>
+                  <?supplied-pmid 23994314?>
+                  <pub-id pub-id-type="pmid">23994314</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR89">
+                <label>89.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Power</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Barnes</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                    <name>
+                      <surname>Snyder</surname>
+                      <given-names>AZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Schlaggar</surname>
+                      <given-names>BL</given-names>
+                    </name>
+                    <name>
+                      <surname>Petersen</surname>
+                      <given-names>SE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spurious but systematic correlations in functional connectivity MRI networks arise from subject motion</article-title>
+                  <source>Neuroimage</source>
+                  <year>2012</year>
+                  <volume>59</volume>
+                  <fpage>2142</fpage>
+                  <lpage>2154</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2011.10.018</pub-id>
+                  <?supplied-pmid 22019881?>
+                  <pub-id pub-id-type="pmid">22019881</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR90">
+                <label>90.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tzourio-Mazoyer</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Automated anatomical labeling of activations in SPM using a macroscopic anatomical parcellation of the MNI MRI single-subject brain</article-title>
+                  <source>Neuroimage</source>
+                  <year>2002</year>
+                  <volume>15</volume>
+                  <fpage>273</fpage>
+                  <lpage>289</lpage>
+                  <pub-id pub-id-type="doi">10.1006/nimg.2001.0978</pub-id>
+                  <?supplied-pmid 11771995?>
+                  <pub-id pub-id-type="pmid">11771995</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR91">
+                <label>91.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rorden</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Karnath</surname>
+                      <given-names>H-O</given-names>
+                    </name>
+                    <name>
+                      <surname>Bonilha</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Improving lesion-symptom mapping</article-title>
+                  <source>J. Cogn. Neurosci.</source>
+                  <year>2007</year>
+                  <volume>19</volume>
+                  <fpage>1081</fpage>
+                  <lpage>1088</lpage>
+                  <pub-id pub-id-type="doi">10.1162/jocn.2007.19.7.1081</pub-id>
+                  <?supplied-pmid 17583985?>
+                  <pub-id pub-id-type="pmid">17583985</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR92">
+                <label>92.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Seubert</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Freiherr</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Frasnelli</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Hummel</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Lundström</surname>
+                      <given-names>JN</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Orbitofrontal cortex and olfactory bulb volume predict distinct aspects of olfactory performance in healthy subjects</article-title>
+                  <source>Cereb. Cortex</source>
+                  <year>2013</year>
+                  <volume>23</volume>
+                  <fpage>2448</fpage>
+                  <lpage>2456</lpage>
+                  <pub-id pub-id-type="doi">10.1093/cercor/bhs230</pub-id>
+                  <?supplied-pmid 22875864?>
+                  <pub-id pub-id-type="pmid">22875864</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR93">
+                <label>93.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zalesky</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Fornito</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Cocchi</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Gollo</surname>
+                      <given-names>LL</given-names>
+                    </name>
+                    <name>
+                      <surname>Breakspear</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Time-resolved resting-state brain networks</article-title>
+                  <source>Proc. Natl. Acad. Sci. USA</source>
+                  <year>2014</year>
+                  <volume>111</volume>
+                  <fpage>10341</fpage>
+                  <lpage>10346</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.1400181111</pub-id>
+                  <?supplied-pmid 24982140?>
+                  <pub-id pub-id-type="pmid">24982140</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR94">
+                <label>94.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kaboodvand</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Iravani</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Fransson</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dynamic synergetic configurations of resting-state networks in ADHD</article-title>
+                  <source>Neuroimage</source>
+                  <year>2020</year>
+                  <volume>207</volume>
+                  <fpage>116347</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2019.116347</pub-id>
+                  <?supplied-pmid 31715256?>
+                  <pub-id pub-id-type="pmid">31715256</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

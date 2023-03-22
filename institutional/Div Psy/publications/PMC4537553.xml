@@ -1,0 +1,2174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:07:09Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:4537553" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:4537553</identifier>
+        <datestamp>2015-08-16</datestamp>
+        <setSpec>implemsci</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Implement Sci</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Implement Sci</journal-id>
+              <journal-title-group>
+                <journal-title>Implementation Science : IS</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1748-5908</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC4537553</article-id>
+              <article-id pub-id-type="pmcid">PMC4537553</article-id>
+              <article-id pub-id-type="pmc-uid">4537553</article-id>
+              <article-id pub-id-type="pmid">26276443</article-id>
+              <article-id pub-id-type="publisher-id">305</article-id>
+              <article-id pub-id-type="doi">10.1186/s13012-015-0305-2</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Health system context and implementation of evidence-based practices—development and validation of the Context Assessment for Community Health (COACH) tool for low- and middle-income settings</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Bergström</surname>
+                    <given-names>Anna</given-names>
+                  </name>
+                  <address>
+                    <email>anna.bergstrom@kbh.uu.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" equal-contrib="yes">
+                  <name>
+                    <surname>Skeen</surname>
+                    <given-names>Sarah</given-names>
+                  </name>
+                  <address>
+                    <email>skeen@sun.ac.za</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" equal-contrib="yes">
+                  <name>
+                    <surname>Duc</surname>
+                    <given-names>Duong M.</given-names>
+                  </name>
+                  <address>
+                    <email>dmd@hsph.edu.vn</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Blandon</surname>
+                    <given-names>Elmer Zelaya</given-names>
+                  </name>
+                  <address>
+                    <email>fundchica@gmail.com</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Estabrooks</surname>
+                    <given-names>Carole</given-names>
+                  </name>
+                  <address>
+                    <email>carole.estabrooks@ualberta.ca</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Gustavsson</surname>
+                    <given-names>Petter</given-names>
+                  </name>
+                  <address>
+                    <email>petter.gustavsson@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hoa</surname>
+                    <given-names>Dinh Thi Phuong</given-names>
+                  </name>
+                  <address>
+                    <email>phuonghoa55@yahoo.com</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Källestål</surname>
+                    <given-names>Carina</given-names>
+                  </name>
+                  <address>
+                    <email>carina.kallestal@kbh.uu.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Målqvist</surname>
+                    <given-names>Mats</given-names>
+                  </name>
+                  <address>
+                    <email>mats.malqvist@kbh.uu.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Nga</surname>
+                    <given-names>Nguyen Thu</given-names>
+                  </name>
+                  <address>
+                    <email>nga.nguyen@kbh.uu.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Persson</surname>
+                    <given-names>Lars-Åke</given-names>
+                  </name>
+                  <address>
+                    <email>lars-ake.persson@kbh.uu.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Pervin</surname>
+                    <given-names>Jesmin</given-names>
+                  </name>
+                  <address>
+                    <email>jpervin@icddrb.org</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff8">8</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Peterson</surname>
+                    <given-names>Stefan</given-names>
+                  </name>
+                  <address>
+                    <email>stefan.peterson@kbh.uu.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff9">9</xref>
+                  <xref ref-type="aff" rid="Aff10">10</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rahman</surname>
+                    <given-names>Anisur</given-names>
+                  </name>
+                  <address>
+                    <email>arahman@icddrb.org</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff8">8</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Selling</surname>
+                    <given-names>Katarina</given-names>
+                  </name>
+                  <address>
+                    <email>katarina.selling@kbh.uu.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Squires</surname>
+                    <given-names>Janet E.</given-names>
+                  </name>
+                  <address>
+                    <email>jasquires@ohri.ca</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff11">11</xref>
+                  <xref ref-type="aff" rid="Aff12">12</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Tomlinson</surname>
+                    <given-names>Mark</given-names>
+                  </name>
+                  <address>
+                    <email>markt@sun.ac.za</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Waiswa</surname>
+                    <given-names>Peter</given-names>
+                  </name>
+                  <address>
+                    <email>pwaiswa2001@yahoo.com</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff9">9</xref>
+                  <xref ref-type="aff" rid="Aff10">10</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wallin</surname>
+                    <given-names>Lars</given-names>
+                  </name>
+                  <address>
+                    <email>lars.wallin@du.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff13">13</xref>
+                  <xref ref-type="aff" rid="Aff14">14</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label>International Maternal and Child Health, Department of Women’s and Children’s Health, Uppsala University, Uppsala, Sweden </aff>
+                <aff id="Aff2"><label>2</label>Department of Psychology, Stellenbosch University, Stellenbosch, South Africa </aff>
+                <aff id="Aff3"><label>3</label>Hanoi School of Public Health, Hanoi, Vietnam </aff>
+                <aff id="Aff4"><label>4</label>Fundacion Coordinación de Hermanamientos e Iniciativas de Cooperación CHICA, León, Nicaragua </aff>
+                <aff id="Aff5"><label>5</label>Faculty of Nursing, University of Alberta, Edmonton, Canada </aff>
+                <aff id="Aff6"><label>6</label>Department of Clinical Neuroscience, Division of Psychology, Karolinska Institutet, Stockholm, Sweden </aff>
+                <aff id="Aff7"><label>7</label>Research Institute for Child Health, National Hospital of Paediatrics, Hanoi, Vietnam </aff>
+                <aff id="Aff8"><label>8</label>Centre for Reproductive Health, International Centre for Diarrhoeal Disease Research, Dhaka, Bangladesh </aff>
+                <aff id="Aff9"><label>9</label>Department of Public Health Sciences, Karolinska Institutet, Stockholm, Sweden </aff>
+                <aff id="Aff10"><label>10</label>School of Public Health, Makerere University College of Health Sciences, Kampala, Uganda </aff>
+                <aff id="Aff11"><label>11</label>Ottawa Hospital Research Institute, Ottawa, Canada </aff>
+                <aff id="Aff12"><label>12</label>School of Nursing, Faculty of Health Sciences, University of Ottawa, Ottawa, Canada </aff>
+                <aff id="Aff13"><label>13</label>School of Education, Health and Social Studies, Dalarna University, Falun, Sweden </aff>
+                <aff id="Aff14"><label>14</label>Department of Neurobiology, Care Sciences and Society, Division of Nursing, Karolinska Institutet, Stockholm, Sweden </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>15</day>
+                <month>8</month>
+                <year>2015</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>15</day>
+                <month>8</month>
+                <year>2015</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2015</year>
+              </pub-date>
+              <volume>10</volume>
+              <elocation-id>120</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>27</day>
+                  <month>10</month>
+                  <year>2014</year>
+                </date>
+                <date date-type="accepted">
+                  <day>5</day>
+                  <month>8</month>
+                  <year>2015</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© Bergström et al. 2015</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold>This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Background</title>
+                  <p>The gap between what is known and what is practiced results in health service users not benefitting from advances in healthcare, and in unnecessary costs. A supportive context is considered a key element for successful implementation of evidence-based practices (EBP). There were no tools available for the systematic mapping of aspects of organizational context influencing the implementation of EBPs in low- and middle-income countries (LMICs). Thus, this project aimed to develop and psychometrically validate a tool for this purpose.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p>The development of the Context Assessment for Community Health (COACH) tool was premised on the context dimension in the Promoting Action on Research Implementation in Health Services framework, and is a derivative product of the Alberta Context Tool. Its development was undertaken in Bangladesh, Vietnam, Uganda, South Africa and Nicaragua in six phases: (1) defining dimensions and draft tool development, (2) content validity amongst in-country expert panels, (3) content validity amongst international experts, (4) response process validity, (5) translation and (6) evaluation of psychometric properties amongst 690 health workers in the five countries.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p>The tool was validated for use amongst physicians, nurse/midwives and community health workers. The six phases of development resulted in a good fit between the theoretical dimensions of the COACH tool and its psychometric properties. The tool has 49 items measuring eight aspects of context: Resources, Community engagement, Commitment to work, Informal payment, Leadership, Work culture, Monitoring services for action and Sources of knowledge.</p>
+                </sec>
+                <sec>
+                  <title>Conclusions</title>
+                  <p>Aspects of organizational context that were identified as influencing the implementation of EBPs in high-income settings were also found to be relevant in LMICs. However, there were additional aspects of context of relevance in LMICs specifically Resources, Community engagement, Commitment to work and Informal payment. Use of the COACH tool will allow for systematic description of the local healthcare context prior implementing healthcare interventions to allow for tailoring implementation strategies or as part of the evaluation of implementing healthcare interventions and thus allow for deeper insights into the process of implementing EBPs in LMICs.</p>
+                </sec>
+                <sec>
+                  <title>Electronic supplementary material</title>
+                  <p>The online version of this article (doi:10.1186/s13012-015-0305-2) contains supplementary material, which is available to authorized users.</p>
+                </sec>
+              </abstract>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2015</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1" sec-type="introduction">
+              <title>Background</title>
+              <p>The 2012 World Health Report <italic>No Health Without Research</italic> emphasized the importance of implementing research into policy and practice as a means of achieving universal and equitable access to healthcare [<xref ref-type="bibr" rid="CR1">1</xref>]. This highlights the challenges to determine the most effective implementation strategies for interventions, how to understand which strategies work where and why, and in doing so, promoting the better use of research [<xref ref-type="bibr" rid="CR2">2</xref>–<xref ref-type="bibr" rid="CR4">4</xref>].</p>
+              <p>In order to move from ‘what works’ to ‘what works where and why’, there is a need to generate evidence of what facilitates successful implementation. The Promoting Action on Research Implementation in Health Services (PARIHS) framework was developed to provide a framework to understand implementation as a multifaceted process [<xref ref-type="bibr" rid="CR5">5</xref>]. The framework emphasizes the strength of and interplay between the following: (a) the nature of the <italic>evidenc</italic>e being used, (b) the quality of the <italic>context</italic> in terms of coping with change and (c) the <italic>facilitation</italic> relevant for a successful change process [<xref ref-type="bibr" rid="CR6">6</xref>, <xref ref-type="bibr" rid="CR7">7</xref>]. Thus, in addition to the availability of evidence for a certain innovation or practice and facilitation as a strategy used to implement this evidence, the context in which the evidence is implemented matters. Hence, there is a need to go beyond measuring the ‘hardware’ of the health system to capturing the ‘software’, i.e. contextual issues, including the ideas, values, norms and power relations that determine health system performance [<xref ref-type="bibr" rid="CR8">8</xref>]. Context, in relation to implementing EBPs in healthcare settings, has been defined as ‘the environment or setting in which the proposed change is to be implemented’ [<xref ref-type="bibr" rid="CR5">5</xref>]. Understanding the socio-political nature of health systems, the organization’s readiness to change and the role of tailored implementation is regarded as a priority field in implementation science, including the need to systematically study the attributes of context influencing this process [<xref ref-type="bibr" rid="CR9">9</xref>–<xref ref-type="bibr" rid="CR16">16</xref>].</p>
+              <p>The importance of understanding context prior to and during the evaluation of the implementation of EBPs has led to the development of three quantitative tools aimed at assessing healthcare context, all of which have been developed based on the PARIHS framework [<xref ref-type="bibr" rid="CR17">17</xref>–<xref ref-type="bibr" rid="CR19">19</xref>]. Out of the three tools, the Alberta Context Tool (ACT) is the one that has been most widely used and has been subjected to the most rigorous evaluation of validity and reliability [<xref ref-type="bibr" rid="CR13">13</xref>, <xref ref-type="bibr" rid="CR20">20</xref>–<xref ref-type="bibr" rid="CR24">24</xref>]. The tool was developed in Canada, has been psychometrically tested also in other countries and is presently used in several large studies in high-income settings [<xref ref-type="bibr" rid="CR20">20</xref>, <xref ref-type="bibr" rid="CR25">25</xref>–<xref ref-type="bibr" rid="CR27">27</xref>]. The ACT contains eight dimensions measuring (1) leadership, (2) culture, (3) feedback, (4) connection amongst people, (5) formal interactions, (6) informal interactions, (7) structural and electronic resources and (8) organizational slack (sub-divided into staffing, space and time) [<xref ref-type="bibr" rid="CR19">19</xref>].</p>
+              <p>The three available tools were developed for, and validated in, high-income settings [<xref ref-type="bibr" rid="CR17">17</xref>–<xref ref-type="bibr" rid="CR19">19</xref>, <xref ref-type="bibr" rid="CR25">25</xref>, <xref ref-type="bibr" rid="CR26">26</xref>]. There has been no tool readily available for use in low- and middle-income countries (LMICs), where contextual issues influencing efforts to implement EBPs might include other aspects than those in high-income settings [<xref ref-type="bibr" rid="CR28">28</xref>, <xref ref-type="bibr" rid="CR29">29</xref>]. The objective of the Context Assessment for Community Health (COACH) project was to develop and psychometrically validate a tool for LMICs to assess aspects of context influencing the implementation of evidence-based practices (EBP) [<xref ref-type="bibr" rid="CR30">30</xref>] that could be used to achieve better insights into the process of implementing EBPs. The name of the tool was chosen to reflect the focus of the project in terms of understanding how health systems context relates to the provision of care to community members. The purpose of the tool is to (1) enhance the opportunities to act on locally identified shortcomings of the health system to increase effectiveness, (2) guide planning and promote adaptation of implementation strategies to the local context and (3) link contextual characteristics to outcome indicators of healthcare interventions. Out of the three developed tools developed for high-income settings, the Organizational Readiness to Change Assessment [<xref ref-type="bibr" rid="CR17">17</xref>] assesses all three components of the PARIHS model, i.e. evidence, facilitation and context, and the Context Assessment Index [<xref ref-type="bibr" rid="CR18">18</xref>] has a stronger focus on the individual health worker. Thus, the ACT, which has a stronger focus on assessing organizational aspects of context were perceived to be a suitable tool to depart from. Also, similarly to the ACT, we aimed to develop a tool that focused on modifiable aspects of context, i.e. that could be intervened upon [<xref ref-type="bibr" rid="CR19">19</xref>].</p>
+            </sec>
+            <sec id="Sec2" sec-type="materials|methods">
+              <title>Methods</title>
+              <p>This project was developed within an informal network, which had a focus on implementation research and the ‘know-do-gap’ in relation to the millennium development goals 4–6 [<xref ref-type="bibr" rid="CR31">31</xref>]. In a network meeting in 2010, a member of the network identified the need for a tool to assess local organizational context in LMICs as context was seen as an important variable influencing the implementation of health interventions. Thus, the network formed a core group to carry out the COACH project including health services researchers from Bangladesh, Vietnam, Uganda, South Africa, Nicaragua and Sweden having extensive experience from working in LMICs and implementing EBPs in these settings. Early in the development, we initiated collaboration with two Canadian researchers who lead the development of the ACT. The rationale for forming this multi-country team was our common interest in context as an explanatory factor influencing the implementation of health interventions.</p>
+              <sec id="Sec3">
+                <title>Study settings and design</title>
+                <p>The COACH tool development has gone through six different phases resulting in five different versions of the COACH tool (see Fig. <xref rid="Fig1" ref-type="fig">1</xref>). Findings from one phase fed into the development of the next version of the tool including deletion of items, revisions of items and development of new items. Our approach was guided by the <italic>Standards for Educational and Psychological Testing</italic> [<xref ref-type="bibr" rid="CR32">32</xref>] considered best practice in the field of psychometrics. Study sites were involved at similar stages of the project: Bangladesh (phases II, V, VI); Vietnam (phases II, V, VI); Uganda (phases II, V, VI); South Africa (phases IV, V, VI); and Nicaragua (phases II, V, VI).<fig id="Fig1"><label>Fig. 1</label><caption><p>Summary of the COACH tool development</p></caption><graphic xlink:href="13012_2015_305_Fig1_HTML" id="d30e708"/></fig></p>
+              </sec>
+              <sec id="Sec4">
+                <title>Ethical approvals</title>
+                <p>Ethical approval was obtained from the Ethical Review Committee of the International Centre for Diarrhoeal Disease Research, Bangladesh (icddr,b), the Ethical Scientific Committee at Ministry of Health in Vietnam, León Medical Faculty Ethical Board in Nicaragua, Health Research Ethics Committee at Stellenbosch University in South Africa and Uppsala Regional Ethical Review Board in Sweden. In Uganda, ethical approval was obtained from the Makerere University School of Public Health Institutional Review Board and Uganda National Council of Science and Technology.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Phase I: defining dimensions and developing a draft version of the COACH tool</title>
+                <p>Defining the main dimensions (constructs) to be measured by the tool and developing items under each dimension was a key first step in the development of the COACH tool [<xref ref-type="bibr" rid="CR33">33</xref>]. The process was iterative in that it was initiated during phase I, but further informed and revised by the findings from latter phases.</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Dimensions</title>
+                <p>Initially, we reviewed studies focusing on how context influences the implementation of EBPs in healthcare [<xref ref-type="bibr" rid="CR28">28</xref>, <xref ref-type="bibr" rid="CR29">29</xref>, <xref ref-type="bibr" rid="CR34">34</xref>–<xref ref-type="bibr" rid="CR42">42</xref>], and the interconnected health system building blocks as presented by the WHO [<xref ref-type="bibr" rid="CR43">43</xref>]. Furthermore, we considered and concluded that the ACT was a suitable starting point. Based on an agreement with the developers of the ACT, we thereinafter initiated the process of identifying constructs to be included in the new tool by reviewing dimensions in the ACT, which were found to have good psychometric properties in different settings [<xref ref-type="bibr" rid="CR20">20</xref>–<xref ref-type="bibr" rid="CR22">22</xref>]. Following that, we identified aspects of context that were not explicitly stated in the ACT dimensions, but perceived to be of relevance for a tool for LMICs.</p>
+              </sec>
+              <sec id="Sec7">
+                <title>Items</title>
+                <p>We agreed that all dimensions in the ACT were relevant for testing in LMIC settings, and thus, all ACT items were included in the first version of the COACH tool. In order to capture re-defined and newly developed dimensions, we went through a process of developing items based on these new dimensions through iterative discussions.</p>
+                <p>Phase I resulted in the development of COACH version I tool.</p>
+              </sec>
+              <sec id="Sec8">
+                <title>Phase II: testing content validity in country panels</title>
+                <p>Content validity allows for an identified panel of 8–12 individuals to assess the perceived relevance of each item in a tool [<xref ref-type="bibr" rid="CR44">44</xref>]. Experts rated the relevance of each item (<italic>n</italic> = 94 items) in the COACH tool as 1 = not relevant, 2 = somewhat relevant, 3 = quite relevant and 4 = highly relevant [<xref ref-type="bibr" rid="CR44">44</xref>]. Based on panels’ assessments, the item-content validity index (I-CVI), a measure of the proportion of raters in agreement of relevance per item and two types of scale-content validity indices (S-CVI), measuring the relevance of each dimension [<xref ref-type="bibr" rid="CR44">44</xref>, <xref ref-type="bibr" rid="CR45">45</xref>] were calculated.</p>
+                <p>In phase II, content validity assessment was undertaken using the English version of the COACH version I tool amongst identified panel subjects in Bangladesh (<italic>n</italic> = 11), Vietnam (<italic>n</italic> = 8), Uganda (<italic>n</italic> = 11) and Nicaragua (<italic>n</italic> = 11). Panels included participants with contextual expertise and with the following characteristics: (1) researchers/managers or programmers with experience of large-scale implementation of healthcare interventions and (2) health workers in decision-making positions with experience of leading implementation of healthcare interventions. To explore additional factors that might influence implementation of EBPs in the current settings, we conducted focus group discussions with each of the panels on the content of the tool (see Table <xref rid="Tab1" ref-type="table">1</xref> for the semi-structured guide).<table-wrap id="Tab1"><label>Table 1</label><caption><p>The focus group discussion guide used following the individual content validity testing in Bangladesh, Vietnam, Uganda and Nicaragua, phase II</p></caption><table frame="hsides" rules="groups"><tbody><tr><td><italic>1. In terms of uptake of new knowledge, what are your thoughts around this dimension as a whole?</italic></td></tr><tr><td><italic>2. How well do you find these items to reflect the dimension as a whole?</italic></td></tr><tr><td><italic>3. If we look at the individual items, what are your thoughts about them?</italic></td></tr><tr><td><italic>4. Do you believe that any of the three targeted types of healthcare providers will find it difficult to answer to any of the items in the dimension and if so, why?</italic></td></tr><tr><td><italic>5. Are there any aspects you missed? As you read these items now, do you see any reason to remove any item? Would it require any other item? What would it then cover?</italic></td></tr></tbody></table></table-wrap></p>
+                <p>A COACH version II tool was developed based on findings from phase II.</p>
+              </sec>
+              <sec id="Sec9">
+                <title>Phase III: testing content validity in an international panel</title>
+                <p>Using a similar method to the content validity procedure in Phase II, we undertook a second set of content validity assessments with this version with eight international experts with extensive experience in undertaking research on the implementation of health interventions in LMICs. Content validity was assessed using an online console where experts could enter additional comments about each dimension in addition to rating the perceived relevance of items.</p>
+                <p>A COACH version III tool was developed based on findings from phase III.</p>
+              </sec>
+              <sec id="Sec10">
+                <title>Phase IV: investigating and analysing the response process validity</title>
+                <p>To understand how target group respondents perceived and understood the COACH version III tool, we investigated the response process with community health workers (CHWs) (<italic>n</italic> = 6), nurse/midwives (<italic>n</italic> = 3) and physicians (<italic>n</italic> = 2) in South Africa. Response process interviews using the ‘think aloud’ method [<xref ref-type="bibr" rid="CR46">46</xref>] were conducted in English in order to achieve a solid English version of the tool ahead of translations. The method implies that respondents verbally report their thinking whilst answering survey questions [<xref ref-type="bibr" rid="CR47">47</xref>]. Response process data were analysed using Conrad and Blair’s taxonomy [<xref ref-type="bibr" rid="CR47">47</xref>] addressing the following: lexical problems, inclusion/exclusion problems, temporal problems, logical problems and computational problems.</p>
+                <p>A COACH version IV tool was developed based on findings from phase IV.</p>
+              </sec>
+              <sec id="Sec11">
+                <title>Phase V: translation of the draft COACH IV tool</title>
+                <p>As the tool aims to be utilized in settings where the majority of respondents do not understand English, the COACH version IV tool was translated from English into Bangla (Bangladesh), Vietnamese (Vietnam), Lusoga (Uganda), isiXhosa (South Africa) and Spanish (Nicaragua) ahead of field-testing. The process of translation followed Brislin’s model which has been summarized by Yu et al. [<xref ref-type="bibr" rid="CR48">48</xref>] and included <italic>forward translation</italic> by bilingual individual, <italic>review</italic> of the translated tool by monolingual reviewer, <italic>backward translation</italic> by bilingual individual and <italic>comparison</italic> of the original version and the backward translated version focusing on conceptual clarity. Hence, the English COACH version IV tool was carefully compared with each of the backward-translated versions in several rounds to identify where and why the versions did not conform. In all settings, the country-specific researcher(s) undertook the forward translation, whereas professional translators undertook the backward translation.</p>
+              </sec>
+              <sec id="Sec12">
+                <title>Phase VI: investigating internal structure and reliability</title>
+                <p>To investigate internal structure, it is advised to have a sample of 100–200 eligible respondents [<xref ref-type="bibr" rid="CR49">49</xref>]. In the assessment of internal structure and reliability, we strived to include an equal number of respondents across the three healthcare professional groups (CHWs, nurse/midwives and physicians) and the five countries. Hence, the translated version of COACH version IV was administered to eligible respondents in Bangladesh (<italic>n</italic> = 71), Vietnam (<italic>n</italic> = 195), Uganda (<italic>n</italic> = 134), South Africa (<italic>n</italic> = 162) and Nicaragua (<italic>n</italic> = 150) (see Table <xref rid="Tab2" ref-type="table">2</xref>). Information about the project was given and informed consent obtained prior to participation. In addition to the 68 tested COACH version IV items, we included seven demographic questions. Participants filled in the questionnaire on paper. The exception to this was the CHW group in Nicaragua who requested that a data collector interview them and then fill in the form on their behalf.<table-wrap id="Tab2"><label>Table 2</label><caption><p>Demographic characteristics of study population phase VI</p></caption><table frame="hsides" rules="groups"><tbody><tr><td>Country</td><td>Included respondents (<italic>n</italic>)</td><td>Excluded respondents (<italic>n</italic>)</td><td>Total (<italic>n</italic>)</td></tr><tr><td> Bangladesh</td><td>71</td><td>0</td><td>71</td></tr><tr><td> Vietnam</td><td>183</td><td>12</td><td>195</td></tr><tr><td> Uganda</td><td>134</td><td>0</td><td>134</td></tr><tr><td> South Africa</td><td>161</td><td>1</td><td>162</td></tr><tr><td> Nicaragua</td><td>141</td><td>9</td><td>150</td></tr><tr><td>Study population</td><td>690</td><td>22</td><td>712</td></tr><tr><td>Sex</td><td/><td/><td/></tr><tr><td> Female</td><td>508</td><td>16</td><td>524</td></tr><tr><td> Male</td><td>167</td><td>4</td><td>171</td></tr><tr><td> Missing</td><td>15</td><td>2</td><td>17</td></tr><tr><td>Age by group</td><td/><td/><td/></tr><tr><td> &lt;25</td><td>47</td><td>1</td><td>48</td></tr><tr><td> 25–29</td><td>93</td><td>0</td><td>93</td></tr><tr><td> 30–34</td><td>121</td><td>2</td><td>123</td></tr><tr><td> 35–39</td><td>81</td><td>2</td><td>83</td></tr><tr><td> 40–44</td><td>103</td><td>1</td><td>104</td></tr><tr><td> 45–49</td><td>85</td><td>4</td><td>89</td></tr><tr><td> 50–54</td><td>86</td><td>3</td><td>89</td></tr><tr><td> 55–59</td><td>48</td><td>5</td><td>53</td></tr><tr><td> ≥ 60</td><td>17</td><td>3</td><td>20</td></tr><tr><td> Missing</td><td>9</td><td>1</td><td>10</td></tr><tr><td>Health professional category</td><td/><td/><td/></tr><tr><td> Physician</td><td>215</td><td>4</td><td>219</td></tr><tr><td> Nurses/midwives</td><td>247</td><td>0</td><td>247</td></tr><tr><td> CHWs</td><td>224</td><td>15</td><td>239</td></tr><tr><td> Missing</td><td>4</td><td>3</td><td>7</td></tr></tbody></table></table-wrap></p>
+                <p>Data were entered manually in Excel or by using an online data capturing form. Cases that had ≥20 missing values on the 68 context items were deleted [<xref ref-type="bibr" rid="CR50">50</xref>]. A principal component analysis (PCA), using listwise deletion, was used to extract the major contributing factors and a Varimax rotation (orthogonal) was performed using SPSS (version 20) to identify the common factors. Factors with eigenvalues greater than 1 were also extracted. A factor loading greater than 0.40 was regarded as ‘practically significant’ in accordance with Hair et al. [<xref ref-type="bibr" rid="CR51">51</xref>]. The rationale for choosing PCA was that the assessment was of exploratory nature. To render partial drop-out, k-nearest neighbour imputation was undertaken [<xref ref-type="bibr" rid="CR52">52</xref>]. Following exclusion (see Table <xref rid="Tab2" ref-type="table">2</xref>), the total number of respondents was 690: Bangladesh (<italic>n</italic> = 71), Vietnam (<italic>n</italic> = 183), Uganda (<italic>n</italic> = 134), South Africa (<italic>n</italic> = 161) and Nicaragua (<italic>n</italic> = 141). The PCA was undertaken on the pooled dataset, per country and per health worker category. Factors were identified using the 1.0 eigenvalue cut-off rule and Scree test [<xref ref-type="bibr" rid="CR33">33</xref>]. We agreed that the following criteria for acceptable level of internal structure and reliability should be met:<list list-type="order"><list-item><p>The item should have a factor loading &gt;0.4 on the pooled dataset, and items belonging to the same theoretical dimension should load on the same factor.</p></list-item><list-item><p>The item should have a factor loading of &gt;0.4, and items belonging to the same theoretical dimension should load on the same factor in the majority of settings (i.e. at least in three out of five settings).</p></list-item><list-item><p>The item should have a factor loading of &gt;0.4, and items belonging to the same theoretical dimension should load on the same factor in the majority of health professional groups (i.e. at least in two of three health professional groups).</p></list-item><list-item><p>The factor should have a Cronbach’s Alpha coefficient of ≥0.7 [<xref ref-type="bibr" rid="CR53">53</xref>].</p></list-item></list></p>
+                <p>The criteria assisted in the retention of items and thus established an acceptable internal structure of the tool. Following retention of items, we examined corrected total item correlation and average inter-item correlation [<xref ref-type="bibr" rid="CR53">53</xref>, <xref ref-type="bibr" rid="CR54">54</xref>].</p>
+              </sec>
+            </sec>
+            <sec id="Sec13" sec-type="results">
+              <title>Results</title>
+              <p>Findings from the six phases of development are presented below. Findings from each phase resulted in revisions on the tested COACH tool draft version that was then assessed in the next phase (see Fig. <xref rid="Fig1" ref-type="fig">1</xref>).</p>
+              <sec id="Sec14">
+                <title>Phase I: defining dimensions and developing a draft version of the COACH tool</title>
+                <p>The definition of the dimensions and development of corresponding items was an iterative process whereby we initially included all eight dimensions in the ACT (<italic>n</italic> = 58 items) as well as additional dimensions thought to be relevant for LMIC settings. Our initial discussions resulted in definitions of some of the original ACT dimensions remaining ‘intact’ whilst others were adapted and included (see Additional file <xref rid="MOESM1" ref-type="media">1</xref>). In some cases, for existing ACT dimensions, new items were developed that were relevant for LMIC settings. Finally, three new dimensions, <italic>Organizational resources</italic>, <italic>Community engagement</italic> and <italic>Commitment</italic>, believed to be of importance for LMICs were developed specifically for the COACH tool, and new items were also developed for these dimensions. For example, to capture the proposed new dimension <italic>Commitment</italic>, we reviewed literature and opted to use parts of the Organizational Commitment Questionnaire (OCQ) and the Affective Commitment Scale (ACS) [<xref ref-type="bibr" rid="CR55">55</xref>, <xref ref-type="bibr" rid="CR56">56</xref>] to cover the given definition of the dimension (see Additional file <xref rid="MOESM1" ref-type="media">1</xref>). In this paper, items that were originally developed by us are referred to as the COACH items, whilst the items from established tools such as the ACT, OCQ and ACS are referred to using their original instrument abbreviation.</p>
+                <p>Each item on all dimensions measured the extent to which a respondent agreed or disagreed with the statement on a 5-point Likert-type scale (Strongly disagree, Disagree, Neither agree nor disagree, Agree or Strongly agree). The one exception to this was the <italic>Sources of knowledge</italic> dimension, which measured how often respondents used different sources of knowledge in a typical month which was rated using another Likert-type scale (Not available; Never, 0 times; Rarely, 1–5 times; Occasionally, 6–10 times; Frequently, 11–15 times; and Almost always, 16 times or more). In terms of general terminology used in the COACH tool, the ACT term ‘organization/unit’ was replaced by the term ‘unit’ as it was identified as the level of organizational context of interest.</p>
+              </sec>
+              <sec id="Sec15">
+                <title>Phase II: testing content validity in country panels</title>
+                <p>For the content validity exercise with the English version of the COACH version I tool, none of the dimensions reached the generally accepted threshold scale-content validity index/average (S-CVI/Ave) ≥0.9 or scale-content validity index/universal agreement (S-CVI/UA) ≥0.8 in all of the four settings [<xref ref-type="bibr" rid="CR45">45</xref>]. However, several dimensions reached S-CVI/Ave of 0.9 in one or more of the settings. Panel participants from all settings were in agreement regarding relevance of 31/94 items across all dimensions (I-CVI &gt;0.78) (see Additional file <xref rid="MOESM2" ref-type="media">2</xref>).</p>
+                <p>In spite of the mixed results in the CVI assessment, panellists in all settings considered that all dimensions were relevant in the qualitative component of this phase. In particular, <italic>Leadership</italic>, <italic>Resources</italic> and <italic>Work culture</italic> were identified as important contextual influences that affect the implementation of EBPs in health settings. In addition to the dimensions presented to panellists in COACH version I tool, informal payment and nepotism were thought to be issues that influence the process of implementing EBPs in these settings. Examples of informal payment included the sale of drugs and services to patients that should be available free of charge. Participants also brought up the existence of ‘informal systems’ whereby health workers, primarily physicians, made decisions concerning healthcare delivery on the basis of payments into their own pocket, e.g. allowing one’s private patient to bypass the queue in a government healthcare facility.</p>
+                <p>The development of the COACH version II tool was based on findings from the content validity assessment from country panels. Some examples of revisions included the following. (1) Items relating to technological resources under <italic>Sources of knowledge</italic> were retained although they had not been found to be relevant as these resources are quickly becoming common in many parts of the world. (2) Under <italic>Organizational resources</italic>, items relating to <italic>Financing</italic> were added to assess an organization’s ability to autonomously manage their funds, as this had been identified as likely to impact upon the implementation of EBPs. (3) Items belonging to the dimension of <italic>Feedback</italic> were well understood and perceived as important but it was felt that the dimension had a broader focus and was more directed towards the continuous monitoring of services in order to inform implementation activities—thus, the dimension was renamed to <italic>Monitoring services for action.</italic> (4) As <italic>Culture</italic> and <italic>Community engagement</italic> were perceived as two important aspects of context, we developed additional items for these two dimensions. (5) <italic>Formal</italic> and <italic>Informal interactions</italic> were merged into one dimension of context, namely <italic>Interaction between members of the unit.</italic></p>
+                <p>There was consensus that the language in the tool needed to be simplified for ease of understanding for all types of healthcare providers. Hence, during the development of COACH version II, we consulted the Language Centre at Stellenbosch University who converted the English version of the tool into plain language, which was deemed to be appropriate for the target audience’s average language proficiency and grasp of terminology.</p>
+              </sec>
+              <sec id="Sec16">
+                <title>Phase III: testing content validity in an international panel</title>
+                <p>For the second set of content validity assessments with COACH version II, none of the concepts reached S-CVI/Ave ≥0.9 or S-CVI/UA ≥0.8. In total, 44 of the tested 78 items reached I-CVI of 0.78 (see Additional file <xref rid="MOESM3" ref-type="media">3</xref>). In order to keep the dimension of <italic>Sources of knowledge</italic>, where only one item reached the desired I-CVI of 0.78, we decided to keep all items with an I-CVI above 0.67 although this decision implied a diversion from the generally acceptable I-CVI score. The rationale for this decision was that several of the experts stated that some of the electronic sources of knowledge were currently not available in all the LMICs they had experiences from and thus not perceived as relevant. They did, however, also comment that these resources are very quickly becoming more common. Furthermore, we concluded that a change in I-CVI threshold should be consistent throughout the tool. Hence, in total, 63/78 items reached I-CVI of 0.67 (see Additional file <xref rid="MOESM3" ref-type="media">3</xref>). Based on comments made by the participating experts, some linguistic revisions were undertaken to single items [<xref ref-type="bibr" rid="CR57">57</xref>]. Further development based on findings from phase III resulted in the COACH version III tool.</p>
+              </sec>
+              <sec id="Sec17">
+                <title>Phase IV: investigating and analysing response process data</title>
+                <p>The response process investigation in South Africa revealed that most items were understandable without difficulty. Most items did not need any revisions. Minor revisions included changing an item such as <italic>My unit has adequate space to provide services</italic> to <italic>My unit has enough space to provide healthcare services.</italic> It was however noted that about 10 of the items were challenging for respondents to understand. For example, respondent reacted to items using words that were considered ambiguous. One such example was an item under the <italic>Informal payment</italic> dimension: <italic>It is possible for staff to earn extra income from other work or engagements during ordinary working hours</italic>. The concept of ‘other work engagements’ was perceived as too complicated, and respondents needed further explanation in order to respond to the item. In order to simplify the final version of that item, it became <italic>Health workers are sometimes absent from work earning money at other places</italic> [<xref ref-type="bibr" rid="CR57">57</xref>].</p>
+                <p>Based on findings from the response process, further linguistic adaptations were made in collaboration with the Language Centre at Stellenbosch University. These adjustments resulted in the COACH version IV tool that was then considered ready for field-testing.</p>
+              </sec>
+              <sec id="Sec18">
+                <title>Phase V: translation of the draft COACH IV tool</title>
+                <p>The COACH version IV tool in English and the five backward translated tools were carefully compared focusing on conceptual clarity in order to identify where and why the tools did not conform. One dimension that was challenging to translate was the one of <italic>Informal payment</italic>. As an example, the phenomenon in the introduction to the dimension was translated to <italic>money and gift</italic> (<italic>‘envelope’ payments</italic>) in Vietnam. Reaching to contextually adapted translations that reflected the intended construct needed thorough discussions.</p>
+              </sec>
+              <sec id="Sec19">
+                <title>Phase VI: investigating internal structure and reliability</title>
+                <p>Following the administration of the translated version of COACH version IV in the five country settings, we investigated the internal structure and reliability of the tool. In conclusion, the analysis and parallel refining work resulted in the COACH version V having a good fit between the theoretical constructs and results from factor analysis. Cleaned data were merged from all settings into one file where descriptive statistics were examined and found satisfactory. The factor analysis revealed that an 11-factor structure accounted for 63.6 % of the variance in the pooled dataset. These 11 factors did relatively well represent the theoretical dimensions that the development of the instrument departed from (Table <xref rid="Tab3" ref-type="table">3</xref>). None of the items cross-loaded &gt;0.4 on two factors in the pooled dataset, but a few items cross-loaded &gt;0.4 on two factors in the analysis made per country and healthcare professional group. Table <xref rid="Tab3" ref-type="table">3</xref> provides the result from the factor analysis and Cronbach’s alpha coefficient per theoretical dimension in the pooled data set. Table <xref rid="Tab4" ref-type="table">4</xref> provides a detailed description of the proportion of items reaching the set criteria for factor loadings per country and per professional group and summarizes the extent to which items in theoretical dimension loaded on the same factor in the different sub-analyses.<table-wrap id="Tab3"><label>Table 3</label><caption><p>Internal structure and internal consistency for COACH version V tool, phase VI</p></caption><table frame="hsides" rules="groups"><thead><tr><th/><th/><th/><th colspan="11">Rotated component matrix<sup>a</sup></th><th>Cronbach’s alpha</th><th>Corrected total item correlation</th><th>Average inter-item correlation</th></tr><tr><th/><th/><th/><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th>11</th><th/><th/><th/></tr></thead><tbody><tr><td rowspan="11">Resources</td><td>My unit has enough workers with the right training and skills to do everything that needs to be done</td><td>Human resources</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>0.84</td><td rowspan="11">0.84</td><td rowspan="11">0.40–0.66</td><td rowspan="11">0.32</td></tr><tr><td>My unit has enough workers with the right training and skills to do their job in the best possible way</td><td>Human resources</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>0.86</td></tr><tr><td>My unit has enough space to provide healthcare services</td><td>Space</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>0.47</td></tr><tr><td>My unit has access to the transport and fuel that are needed to provide healthcare services</td><td>Communication and transport</td><td/><td/><td/><td/><td/><td>0.66</td><td/><td/><td/><td/><td/></tr><tr><td>My unit has access to the communication tools (e.g. telephones or radios) that are needed to provide healthcare services</td><td>Communication and transport</td><td/><td/><td/><td/><td/><td>0.72</td><td/><td/><td/><td/><td/></tr><tr><td>My unit receives money according to a budget</td><td>Financing</td><td/><td/><td/><td/><td/><td>0.52</td><td/><td/><td/><td/><td/></tr><tr><td>My unit has money that we can decide how to use</td><td>Financing</td><td/><td/><td/><td/><td/><td>0.57</td><td/><td/><td/><td/><td/></tr><tr><td>My unit has enough medicine to provide healthcare services</td><td>Medicines and equipment</td><td/><td/><td/><td/><td/><td/><td>0.80</td><td/><td/><td/><td/></tr><tr><td>My unit has enough functional equipment to provide healthcare services</td><td>Medicines and equipment</td><td/><td/><td/><td/><td/><td/><td>0.76</td><td/><td/><td/><td/></tr><tr><td>My unit has enough disposable medical equipment, such as syringes, gloves and needles to provide healthcare services</td><td>Medicines and equipment</td><td/><td/><td/><td/><td/><td/><td>0.76</td><td/><td/><td/><td/></tr><tr><td>If the workload increases, my unit can get additional resources such as medicine and equipment</td><td>Medicines and equipment</td><td/><td/><td/><td/><td/><td/><td>0.70</td><td/><td/><td/><td/></tr><tr><td rowspan="5">Community engagement</td><td>In my unit, we ask community members what they think about the healthcare services that we provide</td><td/><td/><td/><td/><td>0.72</td><td/><td/><td/><td/><td/><td/><td/><td rowspan="5">0.83</td><td rowspan="5">0.58–0.66</td><td rowspan="5">0.49</td></tr><tr><td>In my unit, we listen to what community members think about the healthcare services we provide</td><td/><td/><td/><td/><td>0.72</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>In my unit, we have meetings with community members to discuss health matters</td><td/><td/><td/><td/><td>0.75</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>In my unit, we encourage community members to contribute to improving the health of the community</td><td/><td/><td/><td/><td>0.74</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>In my unit, we encourage other organizations to contribute to improving the health of the community</td><td/><td/><td/><td/><td>0.67</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td rowspan="5">Monitoring services for action</td><td>I receive regular updates about my unit’s performance based on information/data collected from our unit</td><td/><td/><td/><td/><td/><td>0.70</td><td/><td/><td/><td/><td/><td/><td rowspan="5">0.84</td><td rowspan="5">0.57–0.70</td><td rowspan="5">0.53</td></tr><tr><td>My unit discusses information/data from our unit in a regular, formal way, such as in regularly scheduled meetings</td><td/><td/><td/><td/><td/><td>0.70</td><td/><td/><td/><td/><td/><td/></tr><tr><td>My unit regularly uses unit information/data to make plans for improving its healthcare services</td><td/><td/><td/><td/><td/><td>0.67</td><td/><td/><td/><td/><td/><td/></tr><tr><td>My unit regularly monitors its work by comparing it with the unit’s action plans</td><td/><td/><td/><td/><td/><td>0.70</td><td/><td/><td/><td/><td/><td/></tr><tr><td>My unit regularly compares its work with national or other guidelines</td><td/><td/><td/><td/><td/><td>0.68</td><td/><td/><td/><td/><td/><td/></tr><tr><td rowspan="5">Sources of knowledge</td><td>Clinical practice guidelines</td><td>Structural sources</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>0.78</td><td/><td rowspan="5">0.69</td><td rowspan="5">0.38–0.49</td><td rowspan="5">0.31</td></tr><tr><td>Other printed material for work (e.g. textbooks, journals)</td><td>Structural sources</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>0.73</td><td/></tr><tr><td>In-service training/ workshops/courses</td><td>Structural sources</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>0.69</td><td/></tr><tr><td>The Internet</td><td>E-health</td><td/><td/><td/><td/><td/><td>0.71</td><td/><td/><td/><td/><td/></tr><tr><td>Electronic decision support (e.g. mobile phone applications or other electronic devices to assist with care and decision-making)</td><td>E-health</td><td/><td/><td/><td/><td/><td>0.65</td><td/><td/><td/><td/><td/></tr><tr><td rowspan="3">Commitment to work</td><td>I am proud to work in this unit.</td><td/><td/><td/><td/><td/><td/><td/><td/><td>0.70</td><td/><td/><td/><td rowspan="3">0.76</td><td rowspan="3">0.55–0.62</td><td rowspan="3">0.52</td></tr><tr><td>I am satisfied to work in this unit.</td><td/><td/><td/><td/><td/><td/><td/><td/><td>0.76</td><td/><td/><td/></tr><tr><td>I feel encouraged to do my very best at work.</td><td/><td/><td/><td/><td/><td/><td/><td/><td>0.72</td><td/><td/><td/></tr><tr><td rowspan="6">Work culture</td><td>My unit is willing to use new healthcare practices such as guidelines and recommendations</td><td>Culture of learning and change</td><td/><td/><td>0.69</td><td/><td/><td/><td/><td/><td/><td/><td/><td rowspan="6">0.83</td><td rowspan="6">0.56–0.65</td><td rowspan="6">0.45</td></tr><tr><td>My unit helps me to improve and develop my skills</td><td>Culture of learning and change</td><td/><td/><td>0.57</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>I am encouraged to seek new information on healthcare practices</td><td>Culture of learning and change</td><td/><td/><td>0.75</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>My unit works for the good of the clients and puts their needs first</td><td>Culture of responsibility</td><td/><td/><td>0.65</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Members of the unit feel personally responsible for improving healthcare services</td><td>Culture of responsibility</td><td/><td/><td>0.59</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Members of the unit approach clients with respect</td><td>Culture of responsibility</td><td/><td/><td>0.54</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td rowspan="6">Leadership</td><td>I trust the unit leader.</td><td/><td>0.59</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td rowspan="6">0.89</td><td rowspan="6">0.61–0.80</td><td rowspan="6">0.59</td></tr><tr><td>The leader handles stressful situations calmly.</td><td/><td>0.80</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>The leader actively listens, acknowledges, and then responds to requests and concerns.</td><td/><td>0.82</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>The leader effectively resolves any conflicts that arise.</td><td/><td>0.80</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>The leader encourages the introduction of new ideas and practices.</td><td/><td>0.75</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>The leader makes things happen.</td><td/><td>0.73</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td rowspan="7">Informal payment</td><td>Clients must always give informal payment to health workers to access healthcare services</td><td>Informal payment</td><td/><td>0.78</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td rowspan="7">0.77</td><td rowspan="7">0.31–0.60</td><td rowspan="7">0.32</td></tr><tr><td>Clients are treated more quickly if they make informal payments to health workers</td><td>Informal payment</td><td/><td>0.83</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Medicines or equipment that should be available for free to clients have been sold in my unit</td><td>Informal payment</td><td/><td>0.78</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Health workers are sometimes absent from work earning money at other places</td><td>Informal payment</td><td/><td>0.73</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Health workers in my unit give healthcare services to friends and family first</td><td>Nepotism</td><td/><td>0.68</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Health workers in my unit give jobs or other benefits to friends and family first</td><td>Nepotism</td><td/><td>0.64</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Efforts are made to stop clients from providing informal payment to get appropriate healthcare services</td><td>Accountability</td><td/><td/><td/><td/><td/><td/><td/><td/><td>0.87</td><td/><td/></tr><tr><td/><td>Efforts are made to stop health workers from asking clients for informal payment</td><td>Accountability</td><td/><td/><td/><td/><td/><td/><td/><td/><td>0.86</td><td/><td/><td/><td/><td/></tr></tbody></table><table-wrap-foot><p>Extraction method: principal component analysis. Rotation method: Varimax with Kaiser Normalization</p><p><sup>a</sup>Rotation converged in eight iterations</p></table-wrap-foot></table-wrap><table-wrap id="Tab4"><label>Table 4</label><caption><p>Summary internal structure analysis per country and health professional group, phase VI</p></caption><graphic xlink:href="13012_2015_305_Figa_HTML"/><table-wrap-foot><p>Y = item loading &gt;0.4</p><p>∎ = item loading &lt;0.4</p></table-wrap-foot></table-wrap></p>
+                <p>Reliability of the COACH version V tool was examined, and all dimensions but one reached acceptable Cronbach’s alpha levels of ≥0.70 (ranging between 0.76 and 0.89) [<xref ref-type="bibr" rid="CR53">53</xref>], whilst <italic>Sources of knowledge</italic> reached a Cronbach’s alpha of 0.69. Corrected total item correlation and average inter-item correlation &gt;0.3 was judged as good [<xref ref-type="bibr" rid="CR53">53</xref>, <xref ref-type="bibr" rid="CR54">54</xref>]. All items in the dimensions had a corrected total item correlation of &gt;0.3, and all dimensions had an average inter-item correlation of &gt;0.3 <underline>(</underline>Table <xref rid="Tab3" ref-type="table">3</xref>).</p>
+                <p>To summarize the field test, the COACH tool was investigated for internal structure in (1) the five different settings, (2) in three professional groups (pooled from the different settings) and (3) on the pooled dataset. The investigation of validity and reliability reduced the number of items from 67 to 49 measuring eight hypothesized contextual dimensions: <italic>Resources</italic>, <italic>Community engagement</italic>, <italic>Monitoring services for action</italic>, <italic>Sources of knowledge</italic>, <italic>Commitment to work</italic>, <italic>Work culture</italic>, <italic>Leadership and Informal payment.</italic> In applying our criteria for acceptable internal structure, the dimension of <italic>Interaction among people</italic> was excluded. Cronbach’s alpha, corrected total item correlation and average inter-item correlation provided evidence of reliability for the proposed eight-factor structure. As a consequence of the development process, the definitions of the dimensions were carefully scrutinized in the end of the project. The final definitions of dimensions are found in Table <xref rid="Tab5" ref-type="table">5</xref>, which constitutes the final COACH (version V) tool (see Tables <xref rid="Tab3" ref-type="table">3</xref> and <xref rid="Tab4" ref-type="table">4</xref>). The complete tool is available (see <ext-link ext-link-type="uri" xlink:href="http://www.kbh.uu.se/IMCH/COACH">http://www.kbh.uu.se/IMCH/COACH</ext-link>).<table-wrap id="Tab5"><label>Table 5</label><caption><p>Definitions of dimensions of COACH tool version V</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Dimension</th><th>Definition</th></tr></thead><tbody><tr><td>Organizational resources</td><td>The availability of resources that allow an organization (unit) to adapt successfully to internal and external pressures</td></tr><tr><td>Community engagement</td><td>The mutual communication, deliberation and activities that occur between community members and an organization (unit)</td></tr><tr><td>Monitoring services for action</td><td>The process of using locally derived data to assess performance and plan how to improve outcomes in an organization (unit)</td></tr><tr><td>Sources of knowledge</td><td>The availability and use of sources of knowledge in an organization (unit) to facilitate best practice</td></tr><tr><td>Commitment to work</td><td>The individual’s identification with and involvement in a particular organization (unit)</td></tr><tr><td>Work culture</td><td>The way ‘we do things’ in an organization (unit) reflecting a supportive work culture</td></tr><tr><td>Leadership</td><td>The actions of a formal leader in an organization (unit) to influence change and excellence in practice achieved through clarity and engagement</td></tr><tr><td>Informal payment</td><td>Payments or benefits given to individual(s) in an organization (unit), which are made outside the officially accepted arrangements, to acquire an advantage or service</td></tr></tbody></table></table-wrap></p>
+              </sec>
+            </sec>
+            <sec id="Sec20" sec-type="discussion">
+              <title>Discussion</title>
+              <p>We have developed a new tool for assessing the context of healthcare organizations in LMIC settings with promising psychometric characteristics that provides insight into factors influencing the implementation of EBPs. The development of the COACH tool resulted in a tool covering eight dimensions of context and comprising 49 items. Currently, the tool is available in six languages. Whilst many of the dimensions of context that are central in high-income settings are also relevant in LMIC, also other dimensions (such as <italic>Informal payment</italic>, <italic>Commitment to work</italic> and <italic>Community engagement</italic>) were found to have particular resonance in LMICs and which are the focus of this discussion.</p>
+              <p><italic>Informal payment</italic> is an influential factor in the implementation and provision of EBPs. The shifting of priorities in healthcare delivery, such as prioritizing the provision of healthcare to clients who can offer payment as opposed to those in greatest need has been reported [<xref ref-type="bibr" rid="CR58">58</xref>–<xref ref-type="bibr" rid="CR61">61</xref>]. It is important to get a better understanding of how much of a barrier informal payment is, especially in settings where policies of free provision of health services for vulnerable groups exist [<xref ref-type="bibr" rid="CR62">62</xref>]. Informal payment may lead to limited availability of health services for those in need but may also be an important aspect of health workers’ motivation and retention in settings with widespread demoralization and demotivation due to low wages and poor human resource management [<xref ref-type="bibr" rid="CR62">62</xref>, <xref ref-type="bibr" rid="CR63">63</xref>].</p>
+              <p>Previously, we have described that some health workers in Uganda had to provide informal payments in order to obtain employment, and then again to get on the payroll once having acquired a position [<xref ref-type="bibr" rid="CR29">29</xref>]. In that case, informal payment is imposed from above and there is a risk that such behaviour will continue down the health system’s hierarchy [<xref ref-type="bibr" rid="CR64">64</xref>]. In the settings where the COACH tool was developed, the Global Corruption Barometer 2013 has found that 9–43 % of respondents had paid bribes to medical and health services within the last 12 months, and 33–58 % perceived that medical and health services are corrupt (data for Nicaragua was not available) [<xref ref-type="bibr" rid="CR65">65</xref>]. The effects of informal payments and nepotism remain silent and provide an ongoing threat to achieving continued progress in global health [<xref ref-type="bibr" rid="CR66">66</xref>].</p>
+              <p>A further aspect of context that is included in the COACH tool but that has not been a part of other tools is <italic>Commitment to work</italic>. A recent review focusing on mechanisms for the successful implementation of support strategies for healthcare practitioners in rural and remote contexts found that strong organizational commitment is linked to greater participation levels, change in organizational culture, sustainable programmes and improved patient outcomes and quality of provided services [<xref ref-type="bibr" rid="CR35">35</xref>]. From an equity perspective, poor clients in high-mortality countries often experience neglect, abuse, and marginalization by the health system by overworked and demotivated and uncommitted health workers [<xref ref-type="bibr" rid="CR63">63</xref>, <xref ref-type="bibr" rid="CR67">67</xref>]. Motivation and staff satisfaction have been shown to be critical elements in improving the efficiency and effectiveness of health system performance, amongst mid-level providers in Malawi [<xref ref-type="bibr" rid="CR68">68</xref>]. Commonly, competencies are assessed ahead of implementing EBPs. Mapping of individual health workers organizational commitment, motivation and barriers to good performance would also benefit our understanding of performance.</p>
+              <p>Another characteristic of context that was important in study countries was <italic>Community engagement</italic>. Central to the WHO health system building blocks model is the role of people not only as beneficiaries, but also as active drivers of the health system [<xref ref-type="bibr" rid="CR43">43</xref>]. For example, strengthening the linkage between primary health centres and the community and reinforcing the power and involvement of community members in health service delivery appear to have contributed to a 33 % reduction in under-five mortality in Uganda [<xref ref-type="bibr" rid="CR69">69</xref>], a 50 % reduction in neonatal mortality in Vietnam [<xref ref-type="bibr" rid="CR70">70</xref>] and a significant reduction in child mortality in Nicaragua [<xref ref-type="bibr" rid="CR71">71</xref>].</p>
+              <p>The impact of <italic>Work culture</italic> on the implementation of EBPs has led to calls to understand the culture in which a particular innovation will be implemented prior to its implementation [<xref ref-type="bibr" rid="CR72">72</xref>–<xref ref-type="bibr" rid="CR74">74</xref>]. In the case of the COACH tool, two separate aspects of culture were found to influence the implementation of EBPs: (1) working within a culture valuing learning and (2) harbouring a sense of responsibility to improve healthcare. Similar to other studies [<xref ref-type="bibr" rid="CR74">74</xref>–<xref ref-type="bibr" rid="CR77">77</xref>], we found that workplace culture in general, and teamwork in particular, was perceived to be an important contributing factor for health worker motivation, with poor teamwork being associated with difficulties in implementing change.</p>
+              <p><italic>Leadership</italic> and the ability of the leader to create an environment of teamwork was emphasized by panellists in phase II–III. In addition, trust was described as a factor influencing leaders’ ability to form a culture where the implementation of EBPs would occur more effectively. Individuals’ trust in supervisors was related to personal behaviour, and supervisors’ actions might affirm or undermine the trust in the organization [<xref ref-type="bibr" rid="CR78">78</xref>]. Panellists believed that lack of trust, either personal or professional, affected the organization’s readiness to adapt to changes. The importance of leadership and teamwork for the implementation of EBPs to occur has been described in other studies from low-income settings [<xref ref-type="bibr" rid="CR77">77</xref>, <xref ref-type="bibr" rid="CR79">79</xref>–<xref ref-type="bibr" rid="CR81">81</xref>].</p>
+            </sec>
+            <sec id="Sec21">
+              <title>Methodological considerations</title>
+              <p>Challenges in the development of a generic instrument to assess context in LMIC included whether the instrument was broad enough to include common aspects of context, but also specific with regard to including contextual elements of importance for implementation. Throughout the project, the research team has strived not to be too radical and delete items too quickly, but rather keep items and reduce the number of items with caution. One reflection of this is the lowering of cut-off for I-CVI from 0.78 to 0.67 during phase III in order to keep several of the items under the <italic>Sources of knowledge</italic> dimension. Different from the other dimensions asking about agreement, this dimension asks for <italic>how often different sources of knowledge are used in a normal month</italic>. It should however be noted that the experts were not seeing the answering options the way that they are presented in the tool—instead, they were subjected to a scale where they could rate their level of agreement with the relevance of the item. As some experts noted that these sources of knowledge were not currently available, without knowing that <italic>Resource not available</italic> is one of the answering options in the tool, we judged that the experts might have rated the relevance of these items different had they known that the scale had that option.</p>
+              <p>With regard to the findings for the two phases of content validity assessment (phase II–III), it was not surprising that none of the dimensions reached S-CVI/UA ≥0.8 across all settings since it requires unanimity amongst all raters. Furthermore, S-CVI/UA has been criticized to be ‘too stringent’, especially when used with larger groups [<xref ref-type="bibr" rid="CR44">44</xref>].</p>
+              <p>Careful translations and backward translation was of uttermost importance. In translating the English version of the tool, we strived to be loyal to the meaning of the text (semantics) and to enable adaption for the translation to fit (context) [<xref ref-type="bibr" rid="CR48">48</xref>]. In order to do this, it is essential that the parties working with the translation have a common language and that the communication allows for semantic discussions throughout the process. Although the translation process was time consuming, its importance was confirmed by the factor analysis which showed that the items within each dimension fitted well together across all countries, suggesting that the translated items measure the same concepts.</p>
+              <p>The <italic>Sources of knowledge</italic> dimension was not rated as relevant by international experts and lead us to lower the level of acceptable I-CVI score. One reason for this was low scoring of e-health and m-health items due to the unavailability of this type of technical devices. We, however, opted to keep these items as the development and utilization of technology is rapidly changing. We aimed to include dimensions reaching a Cronbach’s alpha coefficients of ≥0.7. Although the dimension of <italic>Sources of knowledge</italic> did not meet this criterion, the availability and usage of information were considered important, and as there is no cut-off that exactly determines the reliability of instrument dimensions, we decided to remain this dimension with its five items for future evaluations of its reliability.</p>
+              <p>Although there were many similarities in the psychometric evaluation of the tool across settings and occupational groups, some differences were also present on country/professional level. Similarly, some items cross-loaded on analysis per country and health professional group. The items that were cross-loading were, however, not consistent between groups (countries and health professional groups), and we therefore decided to retain the cross-loading items based on results from the analysis made on the pooled dataset. Further evaluation of the tool will show if keeping these cross-loading items was an appropriate decision.</p>
+            </sec>
+            <sec id="Sec22" sec-type="conclusion">
+              <title>Conclusion</title>
+              <p>The newly developed COACH tool specifically aims to assess the context of healthcare organizations in LMIC settings, thereby providing increased potential for insight into factors influencing the implementation of EBPs in these settings. Whilst we departed from the ACT in developing a tool that would be suitable in LMICs, the COACH tool shares some content with the ACT and is a derivative product of the ACT. Although many of the organizational context concepts recognized in high-income healthcare settings were found to be relevant also in LMICs, we identified additional aspects of context significant for the implementation of EBPs in LMICs. We foresee alternative ways of applying the COACH tool as means of characterizing context ahead of implementing health interventions, as a method for tailoring an implementation strategy to suit a certain context and for deepening the understanding of the outcomes of implementation efforts. All these applications have the potential to generate better understanding of the process of implementing EBPs.</p>
+            </sec>
+          </body>
+          <back>
+            <app-group>
+              <app id="App1">
+                <sec id="Sec23">
+                  <title>Additional files</title>
+                  <p>
+                    <media position="anchor" xlink:href="13012_2015_305_MOESM1_ESM.docx" id="MOESM1">
+                      <label>Additional file 1:</label>
+                      <caption>
+                        <p><bold>Definitions of dimensions of COACH tool draft version I, phase I.</bold> (PDF 446 bytes)</p>
+                      </caption>
+                    </media>
+                    <media position="anchor" xlink:href="13012_2015_305_MOESM2_ESM.docx" id="MOESM2">
+                      <label>Additional file 2:</label>
+                      <caption>
+                        <p><bold>Outcomes of content validity assessment in Bangladesh, Vietnam, Uganda and Nicaragua, phase II.</bold> (PDF 153 kb)</p>
+                      </caption>
+                    </media>
+                    <media position="anchor" xlink:href="13012_2015_305_MOESM3_ESM.docx" id="MOESM3">
+                      <label>Additional file 3:</label>
+                      <caption>
+                        <p><bold>Outcomes of content validity assessment amongst international experts, phase III.</bold> (PDF 6.55 kb)</p>
+                      </caption>
+                    </media>
+                  </p>
+                </sec>
+              </app>
+            </app-group>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term>ACS</term>
+                  <def>
+                    <p>Affective Commitment Scale</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>ACT</term>
+                  <def>
+                    <p>Alberta Context Tool</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CHW</term>
+                  <def>
+                    <p>community health worker</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>COACH</term>
+                  <def>
+                    <p>Context Assessment for Community Health</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>EBP</term>
+                  <def>
+                    <p>evidence-based practice</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>iccdr,b</term>
+                  <def>
+                    <p>International Centre for Diarrhoeal Disease Research, Bangladesh</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>I-CVI</term>
+                  <def>
+                    <p>item-content validity index</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>OCQ</term>
+                  <def>
+                    <p>Organizational Commitment Questionnaire</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>PARIHS</term>
+                  <def>
+                    <p>Promoting Action on Research Implementation in Health Services</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>PCA</term>
+                  <def>
+                    <p>principal component analysis</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>S-CVI/Ave</term>
+                  <def>
+                    <p>scale-content validity index/average</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>S-CVI/UA</term>
+                  <def>
+                    <p>scale-content validity index/universal agreement</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>WHO</term>
+                  <def>
+                    <p>World Health Organization</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <fn-group>
+              <fn>
+                <p>Sarah Skeen and Duong M. Duc contributed equally to this work.</p>
+              </fn>
+              <fn>
+                <p>
+                  <bold>Competing interests</bold>
+                </p>
+                <p>The authors declare that they have no competing interests.</p>
+              </fn>
+              <fn>
+                <p>
+                  <bold>Authors’ contributions</bold>
+                </p>
+                <p>LÅP and LW conceptualized the study. AB was responsible for coordinating the project. AB, PG, KS and LW partook in designing the analytic plan for the analyses presented in this paper. EZB, DMD, DTPH, NTN, JP, AR, SS, MT and PW were responsible for the data collection and translation of the tool in the five study settings. AB and KS conducted the statistical analysis. AB, EZB, DMD, DTPH, CK, MM, NTN, LÅP, JP, SP, AR, KS, SS, MT and LW partook in interpreting the findings from the different phases of the development. The manuscript was drafted by AB, DMD, LW and SS. All researchers involved in the development of the tool and the data collection, together with CE and JES provided comments on the manuscript and approved the final version.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>We wish to thank the Swedish International Development Cooperation Agency (Sida) for funding this project. Also, we wish to acknowledge Dr Estabrooks, Principal Investigator of the Knowledge Utilization Studies Program at University of Alberta, for the permission to use the Alberta Context Tool (Professional Nurse—Long-term Care Version) ©Estabrooks (2007) as a point of departure in the development of a context assessment tool for LMICs.</p>
+              <p>We also wish to thank Debra Jackson (University of Western Cape), Alexander K. Rowe (Centers for Disease Control and Prevention), Nana Twum-Danso (Bill &amp; Melinda Gates Foundation), Tanya Doherty (University of the Western Cape), Abbas Bhuiya (iccdr,b), Mike English (University of Oxford), Kate Gerrish (University of Sheffield), Lars Lindholm (Umeå University) and David Sanders (University of the Western Cape) for contributing phase III of the development.</p>
+            </ack>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>WHO</collab>
+                  </person-group>
+                  <source>The World Health report 2012: no health without research</source>
+                  <year>2011</year>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Santesso</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Tugwell</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Knowledge translation in developing countries</article-title>
+                  <source>J Contin Educ Health Prof</source>
+                  <year>2006</year>
+                  <volume>26</volume>
+                  <issue>1</issue>
+                  <fpage>87</fpage>
+                  <lpage>96</lpage>
+                  <pub-id pub-id-type="doi">10.1002/chp.55</pub-id>
+                  <?supplied-pmid 16557514?>
+                  <pub-id pub-id-type="pmid">16557514</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sanders</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Haines</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Implementation research is needed to achieve international health goals</article-title>
+                  <source>PLoS Med</source>
+                  <year>2006</year>
+                  <volume>3</volume>
+                  <issue>6</issue>
+                  <fpage>e186</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pmed.0030186</pub-id>
+                  <?supplied-pmid 16729844?>
+                  <pub-id pub-id-type="pmid">16729844</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wallin</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Knowledge translation and implementation research in nursing</article-title>
+                  <source>Int J Nurs Stud</source>
+                  <year>2009</year>
+                  <volume>46</volume>
+                  <issue>4</issue>
+                  <fpage>576</fpage>
+                  <lpage>87</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ijnurstu.2008.05.006</pub-id>
+                  <?supplied-pmid 18674761?>
+                  <pub-id pub-id-type="pmid">18674761</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kitson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Harvey</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>McCormack</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Enabling the implementation of evidence based practice: a conceptual framework</article-title>
+                  <source>Qual Health Care</source>
+                  <year>1998</year>
+                  <volume>7</volume>
+                  <issue>3</issue>
+                  <fpage>149</fpage>
+                  <lpage>58</lpage>
+                  <pub-id pub-id-type="doi">10.1136/qshc.7.3.149</pub-id>
+                  <?supplied-pmid 10185141?>
+                  <pub-id pub-id-type="pmid">10185141</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kitson</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Evaluating the successful implementation of evidence into practice using the PARiHS framework: theoretical and practical challenges</article-title>
+                  <source>Implement Sci</source>
+                  <year>2008</year>
+                  <volume>3</volume>
+                  <fpage>1</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1748-5908-3-1</pub-id>
+                  <?supplied-pmid 18179688?>
+                  <pub-id pub-id-type="pmid">18179688</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rycroft-Malone</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Ingredients for change: revisiting a conceptual framework</article-title>
+                  <source>Qual Saf Health Care</source>
+                  <year>2002</year>
+                  <volume>11</volume>
+                  <issue>2</issue>
+                  <fpage>174</fpage>
+                  <lpage>80</lpage>
+                  <pub-id pub-id-type="doi">10.1136/qhc.11.2.174</pub-id>
+                  <?supplied-pmid 12448812?>
+                  <pub-id pub-id-type="pmid">12448812</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sheikh</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Building the field of health policy and systems research: framing the questions</article-title>
+                  <source>PLoS Med</source>
+                  <year>2011</year>
+                  <volume>8</volume>
+                  <issue>8</issue>
+                  <fpage>e1001073</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pmed.1001073</pub-id>
+                  <?supplied-pmid 21857809?>
+                  <pub-id pub-id-type="pmid">21857809</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McCoy</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Maternal, neonatal and child health interventions and services: moving from knowledge of what works to systems that deliver</article-title>
+                  <source>Int Health</source>
+                  <year>2010</year>
+                  <volume>2</volume>
+                  <issue>2</issue>
+                  <fpage>87</fpage>
+                  <lpage>98</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.inhe.2010.03.005</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Siddiqi</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Newell</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Robinson</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Getting evidence into practice: what works in developing countries?</article-title>
+                  <source>Int J Qual Health Care</source>
+                  <year>2005</year>
+                  <volume>17</volume>
+                  <issue>5</issue>
+                  <fpage>447</fpage>
+                  <lpage>54</lpage>
+                  <pub-id pub-id-type="doi">10.1093/intqhc/mzi051</pub-id>
+                  <?supplied-pmid 15872024?>
+                  <pub-id pub-id-type="pmid">15872024</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dieleman</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Gerretsen</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>van der Wilt</surname>
+                      <given-names>GJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Human resource management interventions to improve health workers’ performance in low and middle income countries: a realist review</article-title>
+                  <source>Health Res Policy Syst</source>
+                  <year>2009</year>
+                  <volume>7</volume>
+                  <fpage>7</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1478-4505-7-7</pub-id>
+                  <?supplied-pmid 19374734?>
+                  <pub-id pub-id-type="pmid">19374734</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>English</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Health systems research in a low-income country: easier said than done</article-title>
+                  <source>Arch Dis Child</source>
+                  <year>2008</year>
+                  <volume>93</volume>
+                  <issue>6</issue>
+                  <fpage>540</fpage>
+                  <lpage>4</lpage>
+                  <pub-id pub-id-type="doi">10.1136/adc.2007.126466</pub-id>
+                  <?supplied-pmid 18495913?>
+                  <pub-id pub-id-type="pmid">18495913</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cummings</surname>
+                      <given-names>GG</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The relationship between characteristics of context and research utilization in a pediatric setting</article-title>
+                  <source>BMC Health Serv Res</source>
+                  <year>2010</year>
+                  <volume>10</volume>
+                  <fpage>168</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1472-6963-10-168</pub-id>
+                  <?supplied-pmid 20565714?>
+                  <pub-id pub-id-type="pmid">20565714</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Attieh</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Organizational readiness for knowledge translation in chronic care: a review of theoretical components</article-title>
+                  <source>Implement Sci</source>
+                  <year>2013</year>
+                  <volume>8</volume>
+                  <fpage>138</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1748-5908-8-138</pub-id>
+                  <?supplied-pmid 24283365?>
+                  <pub-id pub-id-type="pmid">24283365</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Moat</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                    <name>
+                      <surname>Lavis</surname>
+                      <given-names>JN</given-names>
+                    </name>
+                    <name>
+                      <surname>Abelson</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>How contexts and issues influence the use of policy-relevant research syntheses: a critical interpretive synthesis</article-title>
+                  <source>Milbank Q</source>
+                  <year>2013</year>
+                  <volume>91</volume>
+                  <issue>3</issue>
+                  <fpage>604</fpage>
+                  <lpage>48</lpage>
+                  <pub-id pub-id-type="doi">10.1111/1468-0009.12026</pub-id>
+                  <?supplied-pmid 24028700?>
+                  <pub-id pub-id-type="pmid">24028700</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shaw</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Tailored interventions to overcome identified barriers to change: effects on professional practice and health care outcomes</article-title>
+                  <source>Cochrane Database Syst Rev</source>
+                  <year>2005</year>
+                  <volume>3</volume>
+                  <fpage>CD005470</fpage>
+                  <?supplied-pmid 16034980?>
+                  <pub-id pub-id-type="pmid">16034980</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Helfrich</surname>
+                      <given-names>CD</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Organizational readiness to change assessment (ORCA): development of an instrument based on the Promoting Action on Research in Health Services (PARIHS) framework</article-title>
+                  <source>Implement Sci</source>
+                  <year>2009</year>
+                  <volume>4</volume>
+                  <fpage>38</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1748-5908-4-38</pub-id>
+                  <?supplied-pmid 19594942?>
+                  <pub-id pub-id-type="pmid">19594942</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McCormack</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Development and testing of the Context Assessment Index (CAI)</article-title>
+                  <source>Worldviews Evid Based Nurs</source>
+                  <year>2009</year>
+                  <volume>6</volume>
+                  <issue>1</issue>
+                  <fpage>27</fpage>
+                  <lpage>35</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1741-6787.2008.00130.x</pub-id>
+                  <?supplied-pmid 19207560?>
+                  <pub-id pub-id-type="pmid">19207560</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Estabrooks</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Development and assessment of the Alberta Context Tool</article-title>
+                  <source>BMC Health Serv Res</source>
+                  <year>2009</year>
+                  <volume>9</volume>
+                  <fpage>234</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1472-6963-9-234</pub-id>
+                  <?supplied-pmid 20003531?>
+                  <pub-id pub-id-type="pmid">20003531</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Eldh</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Translating and testing the Alberta context tool for use among nurses in Swedish elder care</article-title>
+                  <source>BMC Health Serv Res</source>
+                  <year>2013</year>
+                  <volume>13</volume>
+                  <fpage>68</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1472-6963-13-68</pub-id>
+                  <?supplied-pmid 23421736?>
+                  <pub-id pub-id-type="pmid">23421736</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Estabrooks</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Advancing the argument for validity of the Alberta Context Tool with healthcare aides in residential long-term care</article-title>
+                  <source>BMC Med Res Methodol</source>
+                  <year>2011</year>
+                  <volume>11</volume>
+                  <fpage>107</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2288-11-107</pub-id>
+                  <?supplied-pmid 21767378?>
+                  <pub-id pub-id-type="pmid">21767378</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Estabrooks</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Assessment of variation in the Alberta Context Tool: the contribution of unit level contextual factors and specialty in Canadian pediatric acute care settings</article-title>
+                  <source>BMC Health Serv Res</source>
+                  <year>2011</year>
+                  <volume>11</volume>
+                  <fpage>251</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1472-6963-11-251</pub-id>
+                  <?supplied-pmid 21970404?>
+                  <pub-id pub-id-type="pmid">21970404</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hoben</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Linguistic validation of the Alberta Context Tool and two measures of research use, for German residential long term care</article-title>
+                  <source>BMC Res Notes</source>
+                  <year>2014</year>
+                  <volume>7</volume>
+                  <fpage>67</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1756-0500-7-67</pub-id>
+                  <?supplied-pmid 24479645?>
+                  <pub-id pub-id-type="pmid">24479645</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mallidou</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Staff, space, and time as dimensions of organizational slack: a psychometric assessment</article-title>
+                  <source>Health Care Manage Rev</source>
+                  <year>2011</year>
+                  <volume>36</volume>
+                  <issue>3</issue>
+                  <fpage>252</fpage>
+                  <lpage>64</lpage>
+                  <pub-id pub-id-type="doi">10.1097/HMR.0b013e318208ccf8</pub-id>
+                  <?supplied-pmid 21646884?>
+                  <pub-id pub-id-type="pmid">21646884</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Estabrooks</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Study protocol for the translating research in elder care (TREC): building context—an organizational monitoring program in long-term care project (project one)</article-title>
+                  <source>Implement Sci</source>
+                  <year>2009</year>
+                  <volume>4</volume>
+                  <fpage>52</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1748-5908-4-52</pub-id>
+                  <?supplied-pmid 19671166?>
+                  <pub-id pub-id-type="pmid">19671166</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Seers</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>FIRE (Facilitating Implementation of Research Evidence): a study protocol</article-title>
+                  <source>Implement Sci</source>
+                  <year>2012</year>
+                  <volume>7</volume>
+                  <issue>1</issue>
+                  <fpage>25</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1748-5908-7-25</pub-id>
+                  <?supplied-pmid 22453077?>
+                  <pub-id pub-id-type="pmid">22453077</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cummings</surname>
+                      <given-names>GG</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Influence of organizational characteristics and context on research utilization</article-title>
+                  <source>Nurs Res</source>
+                  <year>2007</year>
+                  <volume>56</volume>
+                  <issue>4 Suppl</issue>
+                  <fpage>S24</fpage>
+                  <lpage>39</lpage>
+                  <pub-id pub-id-type="doi">10.1097/01.NNR.0000280629.63654.95</pub-id>
+                  <?supplied-pmid 17625471?>
+                  <pub-id pub-id-type="pmid">17625471</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <mixed-citation publication-type="other">Duc, D. <italic>et al.</italic> Exploring the influence of context in a community-based facilitation intervention on neonatal mortality in Vietnam. <italic>PLoS Medicine</italic>. 2013;10(5):e1001445. doi:10.1371/journal.pmed.1001445</mixed-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bergström</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Knowledge translation in Uganda: a qualitative study of perceptions among midwives and managers of the influence of contextual factors</article-title>
+                  <source>Implement Sci</source>
+                  <year>2012</year>
+                  <volume>7</volume>
+                  <issue>1</issue>
+                  <fpage>117</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1748-5908-7-117</pub-id>
+                  <?supplied-pmid 23206670?>
+                  <pub-id pub-id-type="pmid">23206670</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>DiCenso</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Guyatt</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Ciliska</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <source>Evidence-based nursing: a guide to clinical practice</source>
+                  <year>2005</year>
+                  <publisher-loc>London</publisher-loc>
+                  <publisher-name>Mosby Inc</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <mixed-citation publication-type="other">United Nations. Millenium Development Goals. 2004; Available from: [<ext-link ext-link-type="uri" xlink:href="http://www.un.org/millenniumgoals/">http://www.un.org/millenniumgoals/</ext-link>].</mixed-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>American Educational Research Association, American Psychological Association, and National Council on Measurement in Education</collab>
+                  </person-group>
+                  <source>Standards for educational and psychological testing</source>
+                  <year>1999</year>
+                  <publisher-loc>Washington, D.C</publisher-loc>
+                  <publisher-name>American Educational Research Association</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <mixed-citation publication-type="other">Furr, M.R, B. V.R. Psychometrics: An introduction. 2008, California: Sage Publications, Inc</mixed-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Moran</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Benchmarks to measure readiness to integrate and scale up newborn survival interventions</article-title>
+                  <source>Health Policy Plan</source>
+                  <year>2012</year>
+                  <volume>27</volume>
+                  <issue>Suppl 3</issue>
+                  <fpage>iii29</fpage>
+                  <lpage>39</lpage>
+                  <pub-id pub-id-type="doi">10.1093/heapol/czs046</pub-id>
+                  <?supplied-pmid 22692414?>
+                  <pub-id pub-id-type="pmid">22692414</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Moran</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Supervision, support and mentoring interventions for health practitioners in rural and remote contexts: an integrative review and thematic synthesis of the literature to identify mechanisms for successful outcomes</article-title>
+                  <source>Hum Resour Health</source>
+                  <year>2014</year>
+                  <volume>12</volume>
+                  <fpage>10</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1478-4491-12-10</pub-id>
+                  <?supplied-pmid 24521004?>
+                  <pub-id pub-id-type="pmid">24521004</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <mixed-citation publication-type="other">The CDI Study Group. Community-directed interventions for priority health problems in Africa: results of a multicountry study. Bull World Health Organ, 2010. 88(7): 509-18.</mixed-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>English</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Designing a theory-informed, contextually appropriate intervention strategy to improve delivery of paediatric services in Kenyan hospitals</article-title>
+                  <source>Implement Sci</source>
+                  <year>2013</year>
+                  <volume>8</volume>
+                  <fpage>39</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1748-5908-8-39</pub-id>
+                  <?supplied-pmid 23537192?>
+                  <pub-id pub-id-type="pmid">23537192</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kamuzora</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Promoting community participation in priority setting in district health systems: experiences from Mbarali district</article-title>
+                  <source>Glob Health Action</source>
+                  <year>2013</year>
+                  <volume>6</volume>
+                  <fpage>22669</fpage>
+                  <?supplied-pmid 24280341?>
+                  <pub-id pub-id-type="pmid">24280341</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Briggs</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Garner</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Strategies for integrating primary health services in middle- and low-income countries at the point of delivery</article-title>
+                  <source>Cochrane Database Syst Rev</source>
+                  <year>2006</year>
+                  <volume>2</volume>
+                  <fpage>CD003318</fpage>
+                  <?supplied-pmid 16625576?>
+                  <pub-id pub-id-type="pmid">16625576</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jamtvedt</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Audit and feedback: effects on professional practice and health care outcomes</article-title>
+                  <source>Cochrane Database Syst Rev</source>
+                  <year>2006</year>
+                  <volume>2</volume>
+                  <fpage>CD000259</fpage>
+                  <?supplied-pmid 16625533?>
+                  <pub-id pub-id-type="pmid">16625533</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Forsetlund</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Continuing education meetings and workshops: effects on professional practice and health care outcomes</article-title>
+                  <source>Cochrane Database Syst Rev</source>
+                  <year>2009</year>
+                  <volume>2</volume>
+                  <fpage>CD003030</fpage>
+                  <?supplied-pmid 19370580?>
+                  <pub-id pub-id-type="pmid">19370580</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>O’Brien</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Educational outreach visits: effects on professional practice and health care outcomes</article-title>
+                  <source>Cochrane Database Syst Rev</source>
+                  <year>2007</year>
+                  <volume>4</volume>
+                  <fpage>CD000409</fpage>
+                  <?supplied-pmid 17943742?>
+                  <pub-id pub-id-type="pmid">17943742</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Savigny</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Adam</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <source>Systems thinking for health systems strengthening</source>
+                  <year>2009</year>
+                  <publisher-loc>Geneva</publisher-loc>
+                  <publisher-name>WHO</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Polit</surname>
+                      <given-names>DF</given-names>
+                    </name>
+                    <name>
+                      <surname>Beck</surname>
+                      <given-names>CT</given-names>
+                    </name>
+                    <name>
+                      <surname>Owen</surname>
+                      <given-names>SV</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Is the CVI an acceptable indicator of content validity? Appraisal and recommendations</article-title>
+                  <source>Res Nurs Health</source>
+                  <year>2007</year>
+                  <volume>30</volume>
+                  <issue>4</issue>
+                  <fpage>459</fpage>
+                  <lpage>67</lpage>
+                  <pub-id pub-id-type="doi">10.1002/nur.20199</pub-id>
+                  <?supplied-pmid 17654487?>
+                  <pub-id pub-id-type="pmid">17654487</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Polit</surname>
+                      <given-names>DF</given-names>
+                    </name>
+                    <name>
+                      <surname>Beck</surname>
+                      <given-names>CT</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The content validity index: are you sure you know what’s being reported? Critique and recommendations</article-title>
+                  <source>Res Nurs Health</source>
+                  <year>2006</year>
+                  <volume>29</volume>
+                  <issue>5</issue>
+                  <fpage>489</fpage>
+                  <lpage>97</lpage>
+                  <pub-id pub-id-type="doi">10.1002/nur.20147</pub-id>
+                  <?supplied-pmid 16977646?>
+                  <pub-id pub-id-type="pmid">16977646</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sudman</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Bradburn</surname>
+                      <given-names>NM</given-names>
+                    </name>
+                    <name>
+                      <surname>Schwarz</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <source>Thinking about answers: the application of cognitive processes to survey methodology</source>
+                  <year>1996</year>
+                  <publisher-loc>San Francisco</publisher-loc>
+                  <publisher-name>Jossey-Bass</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Conrad</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Blair</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>From impression to data: increasing the objectivity of cognitive interviews</article-title>
+                  <source>Survey research methods section</source>
+                  <year>1996</year>
+                  <publisher-loc>Alexandria</publisher-loc>
+                  <publisher-name>American Statistical Association</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>DS</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>DT</given-names>
+                    </name>
+                    <name>
+                      <surname>Woo</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Issues and challenges of instrument translation</article-title>
+                  <source>West J Nurs Res</source>
+                  <year>2004</year>
+                  <volume>26</volume>
+                  <issue>3</issue>
+                  <fpage>307</fpage>
+                  <lpage>20</lpage>
+                  <pub-id pub-id-type="doi">10.1177/0193945903260554</pub-id>
+                  <?supplied-pmid 15068554?>
+                  <pub-id pub-id-type="pmid">15068554</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <mixed-citation publication-type="other">Spector, P. ed. Summated rating scale construction: an introduction. Quantitative Applications in Social Science ed. Lewis-Beck M. 1992, McCune Miller S,: Iowa City.</mixed-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fox-Wasylyshyn</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>El-Masri</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Handling missing data in self-report measures</article-title>
+                  <source>Res Nurs Health</source>
+                  <year>2005</year>
+                  <volume>28</volume>
+                  <issue>6</issue>
+                  <fpage>488</fpage>
+                  <lpage>95</lpage>
+                  <pub-id pub-id-type="doi">10.1002/nur.20100</pub-id>
+                  <?supplied-pmid 16287052?>
+                  <pub-id pub-id-type="pmid">16287052</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hair</surname>
+                      <given-names>JF</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <source>Multivariate data analysis</source>
+                  <year>2009</year>
+                  <edition>7</edition>
+                  <publisher-loc>London</publisher-loc>
+                  <publisher-name>Prentice Hall</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <mixed-citation publication-type="other">Jönsson P, Wohlin C. An evaluation of k-nearest neighbour imputation using Likert data. in Proceedings of the 10th International Symposium on Software Metrics. 2004:108–18. doi10.1109/METRIC.2004.1357895.</mixed-citation>
+              </ref>
+              <ref id="CR53">
+                <label>53.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nunnally</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Bernstein</surname>
+                      <given-names>I</given-names>
+                    </name>
+                  </person-group>
+                  <source>Psychometric theory</source>
+                  <year>1994</year>
+                  <publisher-loc>New York</publisher-loc>
+                  <publisher-name>McGraw-Hill</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR54">
+                <label>54.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>DeVon</surname>
+                      <given-names>HA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A psychometric toolbox for testing validity and reliability</article-title>
+                  <source>J Nurs Scholarsh</source>
+                  <year>2007</year>
+                  <volume>39</volume>
+                  <issue>2</issue>
+                  <fpage>155</fpage>
+                  <lpage>64</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1547-5069.2007.00161.x</pub-id>
+                  <?supplied-pmid 17535316?>
+                  <pub-id pub-id-type="pmid">17535316</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR55">
+                <label>55.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mowday</surname>
+                      <given-names>RT</given-names>
+                    </name>
+                    <name>
+                      <surname>Steers</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Porter</surname>
+                      <given-names>LW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Measurement of organizational commitment</article-title>
+                  <source>J Vocat Behav</source>
+                  <year>1979</year>
+                  <volume>14</volume>
+                  <issue>2</issue>
+                  <fpage>224</fpage>
+                  <lpage>47</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0001-8791(79)90072-1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR56">
+                <label>56.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Allen</surname>
+                      <given-names>NJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Meyer</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The measurement and antecedents of affective, continuance and normative commitment to the organization</article-title>
+                  <source>Br Psych Soc</source>
+                  <year>1990</year>
+                  <volume>63</volume>
+                  <fpage>1</fpage>
+                  <lpage>18</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR57">
+                <label>57.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bergström</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <source>Context Assessment for Community Health (COACH)—technical report</source>
+                  <year>2014</year>
+                  <publisher-loc>Uppsala</publisher-loc>
+                  <publisher-name>Department of Women’s and Children’s Health</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR58">
+                <label>58.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Saba Arbache</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <source>Silent and lethal: how quiet corruption undermines Africa’s development efforts. Africa development indicators 2010</source>
+                  <year>2010</year>
+                  <publisher-loc>Washington DC</publisher-loc>
+                  <publisher-name>The World Bank</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR59">
+                <label>59.</label>
+                <mixed-citation publication-type="other">Gauthier B, Montreal HEC. PETS-QSDS in Sub-Saharan Africa: a stocktaking study. Washington, DC: World Bank. 2010. Available from: <ext-link ext-link-type="uri" xlink:href="http://documents.worldbank.org/curated/en/2010/07/16505739/pets-qsds-subsaharan-africa-stocktaking-study">http://documents.worldbank.org/curated/en/2010/07/16505739/pets-qsds-subsaharan-africa-stocktaking-study</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR60">
+                <label>60.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McPake</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Informal economic activities of public health workers in Uganda: implications for quality and accessibility of care</article-title>
+                  <source>Soc Sci Med</source>
+                  <year>1999</year>
+                  <volume>49</volume>
+                  <issue>7</issue>
+                  <fpage>849</fpage>
+                  <lpage>65</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0277-9536(99)00144-6</pub-id>
+                  <?supplied-pmid 10468391?>
+                  <pub-id pub-id-type="pmid">10468391</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR61">
+                <label>61.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dieleman</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Shaw</surname>
+                      <given-names>DM</given-names>
+                    </name>
+                    <name>
+                      <surname>Zwanikken</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Improving the implementation of health workforce policies through governance: a review of case studies</article-title>
+                  <source>Hum Resour Health</source>
+                  <year>2011</year>
+                  <volume>9</volume>
+                  <fpage>10</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1478-4491-9-10</pub-id>
+                  <?supplied-pmid 21486438?>
+                  <pub-id pub-id-type="pmid">21486438</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR62">
+                <label>62.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Parkhurst</surname>
+                      <given-names>JO</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Health systems factors influencing maternal health services: a four-country comparison</article-title>
+                  <source>Health Policy</source>
+                  <year>2005</year>
+                  <volume>73</volume>
+                  <issue>2</issue>
+                  <fpage>127</fpage>
+                  <lpage>38</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.healthpol.2004.11.001</pub-id>
+                  <?supplied-pmid 15978956?>
+                  <pub-id pub-id-type="pmid">15978956</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR63">
+                <label>63.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Freedman</surname>
+                      <given-names>LP</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Transforming health systems to improve the lives of women and children</article-title>
+                  <source>Lancet</source>
+                  <year>2005</year>
+                  <volume>365</volume>
+                  <issue>9463</issue>
+                  <fpage>997</fpage>
+                  <lpage>1000</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(05)71090-4</pub-id>
+                  <?supplied-pmid 15767003?>
+                  <pub-id pub-id-type="pmid">15767003</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR64">
+                <label>64.</label>
+                <mixed-citation publication-type="other">Schaaf, M., Freedman, L.P. Unmasking the open secret of posting and transfer practices in the health sector. Health Policy Plan, 2013</mixed-citation>
+              </ref>
+              <ref id="CR65">
+                <label>65.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>International</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <source>Global corruption barometer 2013</source>
+                  <year>2013</year>
+                </element-citation>
+              </ref>
+              <ref id="CR66">
+                <label>66.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mackey</surname>
+                      <given-names>TK</given-names>
+                    </name>
+                    <name>
+                      <surname>Liang</surname>
+                      <given-names>BA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Combating healthcare corruption and fraud with improved global health governance</article-title>
+                  <source>BMC Int Health Hum Rights</source>
+                  <year>2012</year>
+                  <volume>12</volume>
+                  <fpage>23</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1472-698X-12-23</pub-id>
+                  <?supplied-pmid 23088820?>
+                  <pub-id pub-id-type="pmid">23088820</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR67">
+                <label>67.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jewkes</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Abrahams</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Mvo</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Why do nurses abuse patients? Reflections from South African obstetric services</article-title>
+                  <source>Soc Sci Med</source>
+                  <year>1998</year>
+                  <volume>47</volume>
+                  <issue>11</issue>
+                  <fpage>1781</fpage>
+                  <lpage>95</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0277-9536(98)00240-8</pub-id>
+                  <?supplied-pmid 9877348?>
+                  <pub-id pub-id-type="pmid">9877348</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR68">
+                <label>68.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McAuliffe</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Measuring and managing the work environment of the mid-level provider—the neglected human resource</article-title>
+                  <source>Hum Resour Health</source>
+                  <year>2009</year>
+                  <volume>7</volume>
+                  <fpage>13</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1478-4491-7-13</pub-id>
+                  <?supplied-pmid 19228391?>
+                  <pub-id pub-id-type="pmid">19228391</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR69">
+                <label>69.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Björkman</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Svensson</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Power to the people: evidence from a randomized field experiment on community-based monitoring in Uganda</article-title>
+                  <source>Q J Econ</source>
+                  <year>2009</year>
+                  <volume>124</volume>
+                  <issue>2</issue>
+                  <fpage>735</fpage>
+                  <lpage>69</lpage>
+                  <pub-id pub-id-type="doi">10.1162/qjec.2009.124.2.735</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR70">
+                <label>70.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Persson</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Effect of facilitation of local maternal-and-newborn stakeholder groups on neonatal mortality: cluster-randomized controlled trial</article-title>
+                  <source>PLoS Med</source>
+                  <year>2013</year>
+                  <volume>10</volume>
+                  <issue>5</issue>
+                  <fpage>e1001445</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pmed.1001445</pub-id>
+                  <?supplied-pmid 23690755?>
+                  <pub-id pub-id-type="pmid">23690755</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR71">
+                <label>71.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sandiford</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Why do child mortality rates fall? An analysis of the Nicaraguan experience</article-title>
+                  <source>Am J Public Health</source>
+                  <year>1991</year>
+                  <volume>81</volume>
+                  <issue>1</issue>
+                  <fpage>30</fpage>
+                  <lpage>7</lpage>
+                  <pub-id pub-id-type="doi">10.2105/AJPH.81.1.30</pub-id>
+                  <?supplied-pmid 1983913?>
+                  <pub-id pub-id-type="pmid">1983913</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR72">
+                <label>72.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wallin</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Understanding work contextual factors: a short-cut to evidence-based practice? Worldviews on evidence-based nursing/Sigma Theta Tau International</article-title>
+                  <source>Honor Soc Nursing</source>
+                  <year>2006</year>
+                  <volume>3</volume>
+                  <issue>4</issue>
+                  <fpage>153</fpage>
+                  <lpage>64</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR73">
+                <label>73.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Austin</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Claassen</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Impact of organizational change on organizational culture: implications for introducing evidence-based practice</article-title>
+                  <source>J Evidence Based Social Work</source>
+                  <year>2008</year>
+                  <volume>5</volume>
+                  <issue>1-2</issue>
+                  <fpage>321</fpage>
+                  <lpage>59</lpage>
+                  <pub-id pub-id-type="doi">10.1300/J394v05n01_12</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR74">
+                <label>74.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>VJ</given-names>
+                    </name>
+                    <name>
+                      <surname>McCormack</surname>
+                      <given-names>BG</given-names>
+                    </name>
+                    <name>
+                      <surname>Ives</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Understanding the workplace culture of a special care nursery</article-title>
+                  <source>J Adv Nurs</source>
+                  <year>2005</year>
+                  <volume>50</volume>
+                  <issue>1</issue>
+                  <fpage>27</fpage>
+                  <lpage>38</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1365-2648.2004.03346.x</pub-id>
+                  <?supplied-pmid 15788063?>
+                  <pub-id pub-id-type="pmid">15788063</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR75">
+                <label>75.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>King</surname>
+                      <given-names>TM</given-names>
+                    </name>
+                    <name>
+                      <surname>Muzaffar</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>George</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The role of clinic culture in implementation of primary care interventions: the case of reach out and read</article-title>
+                  <source>Acad Pediatr</source>
+                  <year>2009</year>
+                  <volume>9</volume>
+                  <issue>1</issue>
+                  <fpage>40</fpage>
+                  <lpage>6</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.acap.2008.10.004</pub-id>
+                  <?supplied-pmid 19329090?>
+                  <pub-id pub-id-type="pmid">19329090</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR76">
+                <label>76.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mbindyo</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Contextual influences on health worker motivation in district hospitals in Kenya</article-title>
+                  <source>Implement Sci</source>
+                  <year>2009</year>
+                  <volume>4</volume>
+                  <fpage>43</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1748-5908-4-43</pub-id>
+                  <?supplied-pmid 19627590?>
+                  <pub-id pub-id-type="pmid">19627590</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR77">
+                <label>77.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Puoane</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Why do some hospitals achieve better care of severely malnourished children than others? Five-year follow-up of rural hospitals in Eastern Cape</article-title>
+                  <source>South Africa Health Policy Plan</source>
+                  <year>2008</year>
+                  <volume>23</volume>
+                  <issue>6</issue>
+                  <fpage>428</fpage>
+                  <lpage>37</lpage>
+                  <pub-id pub-id-type="doi">10.1093/heapol/czn036</pub-id>
+                  <?supplied-pmid 18796499?>
+                  <pub-id pub-id-type="pmid">18796499</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR78">
+                <label>78.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Goold</surname>
+                      <given-names>SD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Trust and the ethics of health care institutions</article-title>
+                  <source>Hast Cent Rep</source>
+                  <year>2001</year>
+                  <volume>31</volume>
+                  <issue>6</issue>
+                  <fpage>26</fpage>
+                  <lpage>33</lpage>
+                  <pub-id pub-id-type="doi">10.2307/3527779</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR79">
+                <label>79.</label>
+                <mixed-citation publication-type="other">Lawn J, McCarthy BJ, Ross SR. The Healthy Newborn: A Reference Guide for Program Managers. Centers for Disease Control and Prevention, 2001: Atlanta.</mixed-citation>
+              </ref>
+              <ref id="CR80">
+                <label>80.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>WHO</collab>
+                  </person-group>
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Simmons</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Fajans</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Ghiron</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <source>Scaling up health service delivery: from pilot innovations to policies and programmes</source>
+                  <year>2008</year>
+                  <publisher-loc>Geneva</publisher-loc>
+                  <publisher-name>World Health Organization</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR81">
+                <label>81.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mathauer</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Imhoff</surname>
+                      <given-names>I</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Health worker motivation in Africa: the role of non-financial incentives and human resource management tools</article-title>
+                  <source>Hum Resour Health</source>
+                  <year>2006</year>
+                  <volume>4</volume>
+                  <fpage>24</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1478-4491-4-24</pub-id>
+                  <?supplied-pmid 16939644?>
+                  <pub-id pub-id-type="pmid">16939644</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

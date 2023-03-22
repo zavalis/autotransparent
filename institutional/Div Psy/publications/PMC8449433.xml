@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:01:49Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8449433" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8449433</identifier>
+        <datestamp>2021-09-20</datestamp>
+        <setSpec>bmcpsychol</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMC Psychol</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMC Psychol</journal-id>
+              <journal-title-group>
+                <journal-title>BMC Psychology</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2050-7283</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8449433</article-id>
+              <article-id pub-id-type="pmcid">PMC8449433</article-id>
+              <article-id pub-id-type="pmc-uid">8449433</article-id>
+              <article-id pub-id-type="pmid">34537086</article-id>
+              <article-id pub-id-type="publisher-id">653</article-id>
+              <article-id pub-id-type="doi">10.1186/s40359-021-00653-z</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Dangers of residual confounding: a cautionary tale featuring cognitive ability, socioeconomic background, and education</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Sorjonen</surname>
+                    <given-names>Kimmo</given-names>
+                  </name>
+                  <address>
+                    <email>kimmo.sorjonen@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Falkstedt</surname>
+                    <given-names>Daniel</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wallin</surname>
+                    <given-names>Alma Sörberg</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Melin</surname>
+                    <given-names>Bo</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Nilsonne</surname>
+                    <given-names>Gustav</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.4714.6</institution-id><institution-id institution-id-type="ISNI">0000 0004 1937 0626</institution-id><institution>Division of Psychology, Department of Clinical Neuroscience, </institution><institution>Karolinska Institutet, </institution></institution-wrap>171 77 Stockholm, Sweden </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.4714.6</institution-id><institution-id institution-id-type="ISNI">0000 0004 1937 0626</institution-id><institution>Institute of Environmental Medicine, </institution><institution>Karolinska Institutet, </institution></institution-wrap>Stockholm, Sweden </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.4714.6</institution-id><institution-id institution-id-type="ISNI">0000 0004 1937 0626</institution-id><institution>Department of Global Public Health, </institution><institution>Karolinska Institutet, </institution></institution-wrap>Stockholm, Sweden </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.10548.38</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 9377</institution-id><institution>Department of Psychology, </institution><institution>Stockholm University, </institution></institution-wrap>Stockholm, Sweden </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>18</day>
+                <month>9</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>18</day>
+                <month>9</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>9</volume>
+              <elocation-id>145</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>3</day>
+                  <month>7</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>13</day>
+                  <month>9</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold>This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated in a credit line to the data.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Background</title>
+                  <p id="Par1">Cognitive ability and socioeconomic background (SEB) have been previously identified as determinants of achieved level of education. According to a “discrimination hypothesis”, higher cognitive ability is required from those with lower SEB in order to achieve the same level of education as those with higher SEB. Support for this hypothesis has been claimed from the observation of a positive association between SEB and achieved level of education when adjusting for cognitive ability. We propose a competing hypothesis that the observed association is due to residual confounding.
+</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p id="Par2">To adjudicate between the discrimination and the residual confounding hypotheses, data from the 1997 National Longitudinal Survey of Youth (NLSY97, <italic>N</italic> = 8984) was utilized, including a check of the logic where we switched predictor and outcome variables.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p id="Par3">The expected positive association between SEB and achieved level of education when adjusting for cognitive ability (predicted by both hypotheses) was found, but a positive association between cognitive ability and SEB when adjusting for level of education (predicted only by the residual confounding hypothesis) was also observed.</p>
+                </sec>
+                <sec>
+                  <title>Conclusions</title>
+                  <p id="Par4">These results highlight the potential use of reversing predictors and outcomes to test the logic of hypothesis testing, and support a residual confounding hypothesis over a discrimination hypothesis in explaining associations between SEB, cognitive ability, and educational outcome.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Cognitive ability</kwd>
+                <kwd>Discrimination</kwd>
+                <kwd>Education</kwd>
+                <kwd>Residual confounding</kwd>
+                <kwd>Socioeconomic background</kwd>
+                <kwd>Switching predictors and outcomes</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>Karolinska Institute</institution>
+                  </funding-source>
+                </award-group>
+                <open-access>
+                  <p>Open access funding provided by Karolinska Institute.</p>
+                </open-access>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par5">Studies have found an association between individuals’ socioeconomic background (SEB) and achieved level of education or socioeconomic position even when adjusting for cognitive ability [e.g. <xref ref-type="bibr" rid="CR1">1</xref>, <xref ref-type="bibr" rid="CR2">2</xref>]. Some researchers have explained this association with negative social expectations and discrimination against people from humbler origins and favoritism of the highborn. The persistence of this association when adjusting for cognitive ability has been interpreted to mean that higher cognitive ability is required from someone with a lower SEB in order to achieve the same level of education or socioeconomic position as someone with a higher SEB, or alternatively that high SEB can compensate for a lack in cognitive ability [<xref ref-type="bibr" rid="CR1">1</xref>, <xref ref-type="bibr" rid="CR3">3</xref>, <xref ref-type="bibr" rid="CR4">4</xref>]. However, other studies have found that when adjusting for achieved socioeconomic position, a positive association between SEB and cognitive ability as well as achieved level of education can be observed [<xref ref-type="bibr" rid="CR5">5</xref>–<xref ref-type="bibr" rid="CR10">10</xref>]. If using the same logic as above, a contradictory interpretation would emerge: higher cognitive ability is required from individuals with high SEB in order to achieve the same socioeconomic position as someone with lower SEB, i.e. there is societal discrimination against the highborn.</p>
+              <p id="Par6">An alternative explanation, which could account for the above-mentioned seemingly contradictory associations, is residual confounding. Confounding in a statistical analysis occurs when a variable (Z) influences both the dependent variable (Y) and the independent variable (X) [<xref ref-type="bibr" rid="CR11">11</xref>]. It is common to adjust for potential confounding variables by including them as covariates in an analysis, in order to reduce the risk of spurious associations. However, the influence of the confounding variable may not be fully attenuated by such adjustment [<xref ref-type="bibr" rid="CR12">12</xref>–<xref ref-type="bibr" rid="CR16">16</xref>]. Residual confounding refers to confounding which remains despite adjustment. The impact of residual confounding is increased by higher true degree of confounding, larger sample size, and higher reliability in the measurements of X and Y, while it is attenuated by a high reliability in the measurement of Z [<xref ref-type="bibr" rid="CR12">12</xref>–<xref ref-type="bibr" rid="CR16">16</xref>]. With these factors in place, even if entities/individuals have the same value on observed Z they will tend to differ in their true Z and this may result in an association between observed X and observed Y even if adjusting for observed Z. For example, even if achieved socioeconomic position or level of education has been rated as the same, the actual/true position or level may be higher for those with high SEB compared to those with lower SEB. Similarly, even if observed cognitive ability is the same, true ability may tend to be higher for those with high SEB. This could explain why high SEB is associated with a higher achieved socioeconomic position and level of education, even when adjusting for observed ability.
+</p>
+              <p id="Par7">The expected standardized effect of measured SEB on true cognitive ability when adjusting for measured cognitive ability is given by Eq. (<xref rid="Equ1" ref-type="">1</xref>) (see “<xref rid="App1" ref-type="app">Appendix</xref>” for derivation). Assuming that cognitive ability is not measured completely without reliability (<italic>r</italic><sub>TrCA,CA</sub> ≠ 0) and that the correlation between observed ability and SEB does not equal unity (<italic>r</italic><sub>CA,SEB</sub> ≠ 1), we see that the effect of observed SEB on true cognitive ability when adjusting for observed ability is expected to be zero only if the correlation between observed cognitive ability and SEB equals zero (<italic>r</italic><sub>CA,SEB</sub> = 0) or if cognitive ability is measured with perfect reliability (<italic>r</italic><sub>TrCA,CA</sub> = 1). Consequently, observed SEB is expected to be associated with whatever true cognitive ability is associated with, e.g. achieved level of education, even when adjusting for measured cognitive ability. It should be noted that in the present context, the term “reliability” should be interpreted more broadly than just, for example, homogeneity. If some research participants would not take the measurement of cognitive ability seriously, e.g. due to low motivation, this could actually strengthen the correlations between scores on subtests and, consequently, the homogeneity of the tests. However, such lack of earnestness among some participants would tend to weaken the correlation between true and measured cognitive ability.<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$E|{\beta}_{SEB,TrCA.CA}|=\frac{{r}_{CA,SEB}\times (1-{r}_{TrCA,CA}^{2})}{{r}_{TrCA,CA}\times (1-{r}_{CA,SEB}^{2})}$$\end{document}</tex-math><mml:math id="M2" display="block"><mml:mrow><mml:mrow><mml:mi>E</mml:mi><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>S</mml:mi><mml:mi>E</mml:mi><mml:mi>B</mml:mi><mml:mo>,</mml:mo><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>C</mml:mi><mml:mi>A</mml:mi><mml:mo>.</mml:mo><mml:mi>C</mml:mi><mml:mi>A</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:mo>=</mml:mo></mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>C</mml:mi><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>S</mml:mi><mml:mi>E</mml:mi><mml:mi>B</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msubsup><mml:mi>r</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>C</mml:mi><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>C</mml:mi><mml:mi>A</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>C</mml:mi><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>C</mml:mi><mml:mi>A</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msubsup><mml:mi>r</mml:mi><mml:mrow><mml:mi>C</mml:mi><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>S</mml:mi><mml:mi>E</mml:mi><mml:mi>B</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="40359_2021_653_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula></p>
+              <p id="Par8">According to a “discrimination hypothesis”, a positive association between SEB and achieved level of education is expected to persist when adjusting for cognitive ability [<xref ref-type="bibr" rid="CR1">1</xref>, although they do not use the term “discrimination hypothesis”]. However, when adjusting for achieved level of education, the discrimination hypothesis predicts a negative association between SEB and cognitive ability, indicating that higher ability was required from those with lower SEB in order to achieve the same level of education as those with higher SEB. We propose the competing “residual confounding hypothesis”, which implies that any two of cognitive ability, SEB, and achieved level of education will be positively associated even when adjusting for the third, due to imperfect measurement. Furthermore, the discrimination hypothesis predicts that a difference score between achieved level of education and cognitive ability (both variables standardized) will be positively associated with SEB. This difference score is a measure of the degree to which participants are, in a manner of speaking, more educated than intelligent. The residual confounding hypothesis does not imply any association between the difference score and SEB.</p>
+              <sec id="Sec2">
+                <title>Aims</title>
+                <p id="Par9">This study aimed to investigate:<list list-type="bullet"><list-item><p id="Par10">whether the discrimination hypothesis or the residual confounding hypothesis is best supported by empirical data.</p></list-item><list-item><p id="Par11">whether, in the present case, reversing the predictors and outcomes yields a viable test of the logic of inference.</p></list-item></list>
+To the best of our knowledge, this is the first explicit investigation of the possibility that adjusted associations between SEB, cognitive ability, and achieved level of education may be due to residual confounding rather than discrimination.</p>
+              </sec>
+            </sec>
+            <sec id="Sec3">
+              <title>Method</title>
+              <sec id="Sec4">
+                <title>Respondents</title>
+                <p id="Par12">Publicly available data from the 1997 National Longitudinal Survey of Youth (NLSY97), collected from 8984 US youths (4385 women and 4599 men) born between 1980 and 1984, were used for the present analyses. This dataset is suitable for the present investigation as it is large, nationally representative, contains appropriate measures of all three constructs under investigation, and has been widely used in past research.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Measurements</title>
+                <p id="Par13">Most respondents (complete data available for 7008 individuals) took 12 Armed Services Vocational Aptitude Battery (ASVAB) tests in 1997–1998, when they were between 12 and 18 years old: (1) general science; (2) arithmetic reasoning; (3) word knowledge; (4) paragraph comprehension; (5) numerical operations; (6) coding speed; (7) auto information; (8) shop information; (9) mathematical knowledge; (10) mechanical comprehension; (11) electronics information; (12) assembling objects.</p>
+                <p id="Par14">We operationalized SEB as parental income, consistent with common practice in the field [<xref ref-type="bibr" rid="CR17">17</xref>–<xref ref-type="bibr" rid="CR19">19</xref>]. Total parental income for the years 1997 and 1998, when the respondents were between 12 and 18 years old, was calculated and the natural logarithm of the mean of these two values was used as the indicator of SEB. An income of zero was treated as a missing value and data were available for 7302 respondents.</p>
+                <p id="Par15">In 2017, when they were between 32 and 37 years old, respondents were asked about their highest academic degree received, with the values: (0) None, <italic>n</italic> = 515, (1) General educational development, <italic>n</italic> = 862, (2) High school diploma, <italic>n</italic> = 2692, (3) Associate/junior college, <italic>n</italic> = 598, (4) Bachelor’s degree, <italic>n</italic> = 1352, (5) Master’s degree, <italic>n</italic> = 540, (6) Professional degree/PhD, <italic>n</italic> = 149. Degree was treated as a continuous variable and data were available for 6708 respondents.</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Statistical analyses</title>
+                <p id="Par16">Factor scores on the first unrotated factor in an analysis of all 12 ASVAB tests was used as an estimate of the respondents’ cognitive ability. The effects of cognitive ability, SEB (operationalized as parental income, see above), and academic degree on each other were calculated with ordinary least squares regression. All three variables were standardized before the analyses. In an additional analysis, the difference between academic degree and cognitive ability was predicted from SEB. The final sample size for the regression analyses was 4654. Data processing and analyses were conducted with R 4.1.0 statistical software [<xref ref-type="bibr" rid="CR20">20</xref>] employing the psych package [<xref ref-type="bibr" rid="CR21">21</xref>]. Data and scripts are available at <ext-link ext-link-type="uri" xlink:href="https://osf.io/cwn5u/">https://osf.io/cwn5u/</ext-link>.</p>
+              </sec>
+            </sec>
+            <sec id="Sec7">
+              <title>Results</title>
+              <p id="Par17">Table <xref rid="Tab1" ref-type="table">1</xref> shows descriptive statistics for SEB, cognitive ability, and academic degree, as well as correlations between these three variables and standardized adjusted regression effects. All correlations and regression effects were positive. Academic degree and cognitive ability were more strongly associated with each other, adjusted or not, than with SEB. We also see that the association between SEB and academic degree when adjusting for cognitive ability was weaker (no overlap of confidence intervals) than the association between SEB and cognitive ability when adjusting for academic degree.
+<table-wrap id="Tab1"><label>Table 1</label><caption><p>Descriptive statistics for, correlations between, and regression effects of the study variables</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Predictor</th><th align="left" rowspan="2"><italic>M</italic> (<italic>SD</italic>)</th><th align="left" colspan="2"><italic>r</italic></th><th align="left" colspan="3">Standardized adjusted effect (95% CI) on</th></tr><tr><th align="left">CA</th><th align="left">Degree</th><th align="left">SEB</th><th align="left">CA</th><th align="left">Degree</th></tr></thead><tbody><tr><td align="left">1. SEB</td><td char="(" align="char">47.0 (45.4)<sup>a</sup></td><td align="left">0.395</td><td align="left">0.353</td><td align="left">–</td><td align="left">0.258 (0.232; 0.285)</td><td align="left">0.186 (0.159; 0.214)</td></tr><tr><td align="left">2. CA</td><td char="(" align="char">0 (1)</td><td align="left">–</td><td align="left">0.508</td><td align="left">0.278 (0.249; 0.306)</td><td align="left">–</td><td align="left">0.429 (0.403; 0.455)</td></tr><tr><td align="left">3. Degree</td><td char="(" align="char">2.54 (1.46)</td><td align="left"/><td align="left">–</td><td align="left">0.200 (0.170; 0.229)</td><td align="left">0.428 (0.402; 0.454)</td><td align="left">–</td></tr></tbody></table><table-wrap-foot><p><sup>a</sup>Mean of parents’ total income in 1997 and 1998, in 1000 USD. Log-transformed before the analyses</p></table-wrap-foot></table-wrap></p>
+              <p id="Par18">The adjusted associations, i.e. associations between residuals, are illustrated in Fig. <xref rid="Fig1" ref-type="fig">1</xref>. We see that those with higher cognitive ability than predicted from their SEB also tended to have a higher academic degree, and vice versa (panel A); those with higher SEB than predicted from their cognitive ability also tended to have a higher academic degree, and vice versa (panel B); those with higher SEB than predicted from their academic degree also tended to have higher cognitive ability, and vice versa (panel C).<fig id="Fig1"><label>Fig. 1</label><caption><p><bold>A</bold> Association between residual cognitive ability and residual academic degree, both adjusted for SEB; <bold>B</bold> association between residual SEB and residual academic degree, both adjusted for cognitive ability; <bold>C</bold> association between residual SEB and residual cognitive ability, both adjusted for academic degree</p></caption><graphic xlink:href="40359_2021_653_Fig1_HTML" id="MO1"/></fig></p>
+              <p id="Par19">The difference between the respondents’ academic degree and cognitive ability was weakly negatively associated with SEB (β =  − 0.051, 95% CI − 0.081; − 0.021, <italic>p</italic> &lt; 0.001, Fig. <xref rid="Fig2" ref-type="fig">2</xref>), indicating that those with high SEB did not tend to have a higher standardized score on education than on cognitive ability.<fig id="Fig2"><label>Fig. 2</label><caption><p>Association between SEB and the difference between academic degree and cognitive ability</p></caption><graphic xlink:href="40359_2021_653_Fig2_HTML" id="MO2"/></fig></p>
+            </sec>
+            <sec id="Sec8">
+              <title>Discussion</title>
+              <p id="Par20">This study aimed to investigate whether the discrimination hypothesis or the residual confounding hypothesis was best supported by empirical data, and whether, in the present case, reversing the predictors and outcomes yielded a viable test of the logic of inference. We show that any two of the variables cognitive ability, SEB, and achieved level of education were positively associated with each other while adjusting for the third variable. A positive association between SEB and education when adjusting for cognitive ability has been observed before and interpreted as indicating that higher cognitive ability is required from those with low SEB in order to achieve the same level of education as those with higher SEB (what we refer to as a discrimination hypothesis, e.g. [<xref ref-type="bibr" rid="CR1">1</xref>]). However, according to the same logic, the positive association between cognitive ability and SEB when adjusting for level of education would indicate that higher cognitive ability is required from those with high SEB in order to achieve the same level of education as those with lower SEB. In the present data, the adjusted association between cognitive ability and SEB was stronger than the adjusted association between SEB and education. Moreover, and in contradiction to the discrimination hypothesis, no positive association was observed between SEB and the difference between the respondents’ academic degree and their cognitive ability, a measure that indicates to what degree the respondents tend to have a higher standardized score on education than on cognitive ability.</p>
+              <p id="Par21">Instead of interpreting these results to indicate simultaneous discrimination of those with low and high SEB, a competing interpretation is that observed associations are due to residual confounding. For example, when adjusting for each other, residual cognitive ability and residual SEB are expected to have, in accordance with Eq. (<xref rid="Equ1" ref-type="">1</xref>), positive associations with their respective true scores and also with the true score on the other variable (e.g. residual SEB has a positive association with true cognitive ability) which, for both variables, results in a positive adjusted association with level of education. Consequently, if two individuals with high and low SEB have the same measured cognitive ability but the former achieves a higher level of education, this does not necessarily indicate that individuals with high and low SEB are privileged and discriminated against, respectively. Alternatively, the former individual may have a higher true cognitive ability, i.e. a more negative residual in measured ability, and this is the reason why he/she achieves a higher level of education.</p>
+              <p id="Par22">In the present study, the association between cognitive ability and SEB when adjusting for education was stronger than the association between SEB and education when adjusting for cognitive ability. This does not necessarily indicate that those with high SEB are more discriminated against than those with low SEB. Instead, this discrepancy could be due to lower reliability in the measurement of education compared with the measurement of cognitive ability. Although individuals may formally have achieved the same academic degree there may nonetheless be differences e.g. in the prestige of the university from which they graduated. We predict that on average, those with more prestigious degrees probably have higher SEB and maybe also higher cognitive ability than those with less prestigious degrees.</p>
+              <p id="Par23">The present results do not disprove the existence of discrimination on the basis of SEB in processes leading to educational attainment. Rather, the reasoning and evidence presented here is a criticism of one line of evidence that has been advanced in support of a discrimination hypothesis. Causal inference from observational data is fraught with difficulties, of which residual confounding is one [<xref ref-type="bibr" rid="CR22">22</xref>].</p>
+              <sec id="Sec9">
+                <title>Limitations</title>
+                <p id="Par24">There are several well-established measures of cognitive ability, e.g. the Wechsler Adult Intelligence Scale (WAIS), Raven’s Progressive Matrices (RPM), and the Stanford-Binet Intelligence Scales, and it is possible that these measures would have given slightly different results compared with ASVAB, used in the present study. However, previous research has shown high correlations between different measures of cognitive ability, including Armed Forces Qualification Test (AFQT) score, which is extracted from ASVAB, and classic IQ tests such as California Test of Mental Maturity and Otis-Lennon Mental Ability Test (<italic>r</italic> = 0.81 for both [<xref ref-type="bibr" rid="CR23">23</xref>]). Parental income represents only one facet of SEB; it is however commonly used and correlated to other facets of SEB such as educational and occupational status [<xref ref-type="bibr" rid="CR2">2</xref>, <xref ref-type="bibr" rid="CR23">23</xref>].</p>
+                <p id="Par25">The main message of the present paper is that adjustment for possible confounders can, due to residual confounding, leave room for spurious findings. However, this point does not apply if the observed correlation between the predictor and the possible confounder equals zero or if the possible confounder is measured with perfect reliability (see Eq. (<xref rid="Equ1" ref-type="">1</xref>)). For the application in the present paper, this would mean that with a perfectly reliable measure of cognitive ability, an observed association between SEB and achieved level of education while adjusting for cognitive ability could not be due to residual confounding. The same would be true if the correlation between the measures of cognitive ability and SEB were to equal zero.</p>
+              </sec>
+            </sec>
+            <sec id="Sec10">
+              <title>Conclusions</title>
+              <p id="Par26">An observed association between two variables, X and Y, while adjusting for a third variable, Z, may be due to residual confounding due to error in the measurement of Z rather than due to a true independent association between X and Y. In our analyses reported here, any two of the variables cognitive ability, socioeconomic background, and achieved level of education were positively associated with each other while adjusting for the third variable. We propose that the most likely explanation for the adjusted associations is residual confounding rather than discrimination. Changing the place of predictors and outcome variables in analyses, to see if results concur with interpretations of the original results, is a simple yet possibly revealing method to validate interpretations. We recommend researchers to use this method and to beware of the dangers of residual confounding.
+</p>
+            </sec>
+          </body>
+          <back>
+            <app-group>
+              <app id="App1">
+                <sec id="Sec11">
+                  <title>Appendix</title>
+                  <p id="Par30">The expected effect of Y on True X when adjusting for X is given by (<xref rid="Equ2" ref-type="">2</xref>) [<xref ref-type="bibr" rid="CR11">11</xref>]:<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\beta }_{Y,TrX.X}=\frac{{r}_{Y,TrX}-{r}_{X,Y}{ \times r}_{TrX,X}}{1-{r}_{X,Y}^{2}}$$\end{document}</tex-math><mml:math id="M4" display="block"><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>Y</mml:mi><mml:mo>,</mml:mo><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>.</mml:mo><mml:mi>X</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>Y</mml:mi><mml:mo>,</mml:mo><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>Y</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mo>×</mml:mo><mml:mi>r</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>X</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msubsup><mml:mi>r</mml:mi><mml:mrow><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>Y</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="40359_2021_653_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula></p>
+                  <p id="Par31">If data is generated as in Fig. <xref rid="Fig3" ref-type="fig">3</xref>, correlations between Y and True X and between X and Y, respectively, are expected to be:<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${r}_{Y,TrX}={r}_{TrX,TrY}\times {r}_{TrY,Y}$$\end{document}</tex-math><mml:math id="M6" display="block"><mml:mrow><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>Y</mml:mi><mml:mo>,</mml:mo><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>Y</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>Y</mml:mi><mml:mo>,</mml:mo><mml:mi>Y</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math><graphic xlink:href="40359_2021_653_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${r}_{X,Y}={r}_{TrX,TrY}\times {r}_{TrY,Y}{\times r}_{TrX,X}$$\end{document}</tex-math><mml:math id="M8" display="block"><mml:mrow><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>Y</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>Y</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>Y</mml:mi><mml:mo>,</mml:mo><mml:mi>Y</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mo>×</mml:mo><mml:mi>r</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>X</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math><graphic xlink:href="40359_2021_653_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula></p>
+                  <p id="Par32">We can replace terms in (<xref rid="Equ2" ref-type="">2</xref>) with (<xref rid="Equ3" ref-type="">3</xref>) and (<xref rid="Equ4" ref-type="">4</xref>):<disp-formula id="Equ5"><label>5</label><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\beta }_{Y,TrX.X}=\frac{{r}_{TrX,TrY}\times {r}_{TrY,Y}-{r}_{TrX,TrY}\times {r}_{TrY,Y}{\times r}_{TrX,X}{ \times r}_{TrX,X}}{1-{r}_{X,Y}^{2}}$$\end{document}</tex-math><mml:math id="M10" display="block"><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>Y</mml:mi><mml:mo>,</mml:mo><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>.</mml:mo><mml:mi>X</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>Y</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>Y</mml:mi><mml:mo>,</mml:mo><mml:mi>Y</mml:mi></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>Y</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>Y</mml:mi><mml:mo>,</mml:mo><mml:mi>Y</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mo>×</mml:mo><mml:mi>r</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>X</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mo>×</mml:mo><mml:mi>r</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>X</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msubsup><mml:mi>r</mml:mi><mml:mrow><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>Y</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="40359_2021_653_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula></p>
+                  <p id="Par33">(<xref rid="Equ5" ref-type="">5</xref>) simplifies to:<disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\beta }_{Y,TrX.X}=\frac{{r}_{TrX,TrY}\times {r}_{TrY,Y}\times (1-{r}_{TrX,X}^{2})}{1-{r}_{X,Y}^{2}}$$\end{document}</tex-math><mml:math id="M12" display="block"><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>Y</mml:mi><mml:mo>,</mml:mo><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>.</mml:mo><mml:mi>X</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>Y</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>Y</mml:mi><mml:mo>,</mml:mo><mml:mi>Y</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msubsup><mml:mi>r</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>X</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msubsup><mml:mi>r</mml:mi><mml:mrow><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>Y</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="40359_2021_653_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula></p>
+                  <p id="Par34">We can multiply the numerator and the denominator in (<xref rid="Equ6" ref-type="">6</xref>) by <italic>r</italic><sub><italic>TrX,X</italic></sub>:<disp-formula id="Equ7"><label>7</label><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\beta }_{Y,TrX.X}=\frac{{{r}_{TrX,X}\times r}_{TrX,TrY}\times {r}_{TrY,Y}\times (1-{r}_{TrX,X}^{2})}{{r}_{TrX,X}\times (1-{r}_{X,Y}^{2})}$$\end{document}</tex-math><mml:math id="M14" display="block"><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>Y</mml:mi><mml:mo>,</mml:mo><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>.</mml:mo><mml:mi>X</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>X</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:mi>r</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>Y</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>Y</mml:mi><mml:mo>,</mml:mo><mml:mi>Y</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msubsup><mml:mi>r</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>X</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>X</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msubsup><mml:mi>r</mml:mi><mml:mrow><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>Y</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="40359_2021_653_Article_Equ7.gif" position="anchor"/></alternatives></disp-formula></p>
+                  <p id="Par35">The left part of the numerator in (<xref rid="Equ7" ref-type="">7</xref>) equals <italic>r</italic><sub><italic>X,Y</italic></sub> (see (<xref rid="Equ4" ref-type="">4</xref>)) and we can simplify:<disp-formula id="Equ8"><label>8</label><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\beta }_{Y,TrX.X}=\frac{{r}_{X,Y}\times (1-{r}_{TrX,X}^{2})}{{r}_{TrX,X}\times (1-{r}_{X,Y}^{2})}$$\end{document}</tex-math><mml:math id="M16" display="block"><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>Y</mml:mi><mml:mo>,</mml:mo><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>.</mml:mo><mml:mi>X</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>Y</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msubsup><mml:mi>r</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>X</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msub><mml:mi>r</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mi>r</mml:mi><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>X</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msubsup><mml:mi>r</mml:mi><mml:mrow><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>Y</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="40359_2021_653_Article_Equ8.gif" position="anchor"/></alternatives></disp-formula></p>
+                  <p id="Par36">(<xref rid="Equ8" ref-type="">8</xref>) is identical to Eq. (<xref rid="Equ1" ref-type="">1</xref>) in the introduction.<fig id="Fig3"><label>Fig. 3</label><caption><p>Assumed data generation (solid arrows) and analyzed adjusted effects (dashed arrows)</p></caption><graphic position="anchor" xlink:href="40359_2021_653_Fig3_HTML" id="MO3"/></fig></p>
+                </sec>
+              </app>
+            </app-group>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher's Note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>Not applicable.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Authors' contributions</title>
+              <p>KS, DF, ASW, BM, and GN conceived of the study; KS acquired data, carried out the statistical analyses and wrote an initial draft with assistance from GN; KS, DF, ASW, BM, and GN critically revised the manuscript; KS, DF, ASW, BM, and GN gave final approval for publication and agree to be held accountable for the work performed therein. All authors read and approved the final manuscript.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>Open access funding provided by Karolinska Institute.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Availability of data and materials</title>
+              <p>The script and data are available at Open Science Framework at <ext-link ext-link-type="uri" xlink:href="https://osf.io/cwn5u/">https://osf.io/cwn5u/</ext-link>.</p>
+            </notes>
+            <notes>
+              <title>Declarations</title>
+              <notes>
+                <title>Ethical approval and consent to participate</title>
+                <p id="Par27">In the present study, we have used the openly accessible 1997 National Longitudinal Survey of Youth (NLSY97) dataset. According to the homepage of the National Longitudinal Surveys (NLS, see link below), “The NLS program has established set procedures for ensuring respondent confidentiality and obtaining informed consent. These procedures comply with Federal law and the policies and guidelines of the U.S. Office of Management and Budget (OMB) and the U.S. Bureau of Labor Statistics … The U.S. Office of Management and Budget (OMB) reviews the procedures and questionnaires for each NLSY round”. <ext-link ext-link-type="uri" xlink:href="https://www.nlsinfo.org/content/cohorts/nlsy97/intro-to-the-sample/confidentiality-informed-consent">https://www.nlsinfo.org/content/cohorts/nlsy97/intro-to-the-sample/confidentiality-informed-consent</ext-link>.</p>
+              </notes>
+              <notes>
+                <title>Consent for publication</title>
+                <p id="Par28">Not applicable.</p>
+              </notes>
+              <notes id="FPar1" notes-type="COI-statement">
+                <title>Competing interests</title>
+                <p id="Par29">The authors declare that they have no competing interests.</p>
+              </notes>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Paulus</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Spinath</surname>
+                      <given-names>FM</given-names>
+                    </name>
+                    <name>
+                      <surname>Hahn</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>How do educational inequalities develop? The role of socioeconomic status, cognitive ability, home environment, and self-efficacy along the educational path</article-title>
+                  <source>Intelligence</source>
+                  <year>2021</year>
+                  <volume>86</volume>
+                  <fpage>101528</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.intell.2021.101528</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sorjonen</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Hemmingsson</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Lundin</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Falkstedt</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Melin</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Intelligence, socioeconomic background, emotional capacity, and level of education as predictors of attained socioeconomic position in a cohort of Swedish men</article-title>
+                  <source>Intelligence</source>
+                  <year>2012</year>
+                  <volume>40</volume>
+                  <fpage>269</fpage>
+                  <lpage>277</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.intell.2012.02.009</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Breen</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Goldthorpe</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Class inequality and meritocracy: a critique of Saunders and an alternative analysis1</article-title>
+                  <source>Br J Sociol</source>
+                  <year>1999</year>
+                  <volume>50</volume>
+                  <fpage>1</fpage>
+                  <lpage>27</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1468-4446.1999.00001.x</pub-id>
+                  <?supplied-pmid 15266672?>
+                  <pub-id pub-id-type="pmid">15266672</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Breen</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Goldthorpe</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Class, mobility and merit</article-title>
+                  <source>Eur Sociol Rev</source>
+                  <year>2001</year>
+                  <volume>17</volume>
+                  <fpage>81</fpage>
+                  <lpage>101</lpage>
+                  <pub-id pub-id-type="doi">10.1093/esr/17.2.81</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Blane</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>GD</given-names>
+                    </name>
+                    <name>
+                      <surname>Hart</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Some social and physical correlates of intergenerational social mobility: evidence from the west of Scotland collaborative study</article-title>
+                  <source>Sociology</source>
+                  <year>1999</year>
+                  <volume>33</volume>
+                  <fpage>169</fpage>
+                  <lpage>183</lpage>
+                  <pub-id pub-id-type="doi">10.1177/S0038038599000097</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Deary</surname>
+                      <given-names>IJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>MD</given-names>
+                    </name>
+                    <name>
+                      <surname>Hart</surname>
+                      <given-names>CL</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>GD</given-names>
+                    </name>
+                    <name>
+                      <surname>Blane</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Intergenerational social mobility and mid-life status attainment: influences of childhood intelligence, childhood social factors, and education</article-title>
+                  <source>Intelligence</source>
+                  <year>2005</year>
+                  <volume>33</volume>
+                  <fpage>455</fpage>
+                  <lpage>472</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.intell.2005.06.003</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Johnson</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Brett</surname>
+                      <given-names>CE</given-names>
+                    </name>
+                    <name>
+                      <surname>Deary</surname>
+                      <given-names>IJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The pivotal role of education in the association between ability and social class attainment: a look across three generations</article-title>
+                  <source>Intelligence</source>
+                  <year>2010</year>
+                  <volume>38</volume>
+                  <fpage>55</fpage>
+                  <lpage>65</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.intell.2009.11.008</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nettle</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Intelligence and class mobility in the British population</article-title>
+                  <source>Br J Psychol</source>
+                  <year>2003</year>
+                  <volume>94</volume>
+                  <fpage>551</fpage>
+                  <lpage>561</lpage>
+                  <pub-id pub-id-type="doi">10.1348/000712603322503097</pub-id>
+                  <?supplied-pmid 14687461?>
+                  <pub-id pub-id-type="pmid">14687461</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Saunders</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Social mobility in Britain: an empirical evaluation of two competing explanations</article-title>
+                  <source>Sociology</source>
+                  <year>1997</year>
+                  <volume>31</volume>
+                  <fpage>261</fpage>
+                  <lpage>288</lpage>
+                  <pub-id pub-id-type="doi">10.1177/0038038597031002005</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sorjonen</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Hemmingsson</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Lundin</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Melin</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>How social position of origin relates to intelligence and level of education when adjusting for attained social position</article-title>
+                  <source>Scand J Psychol</source>
+                  <year>2011</year>
+                  <volume>52</volume>
+                  <fpage>277</fpage>
+                  <lpage>281</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1467-9450.2010.00871.x</pub-id>
+                  <?supplied-pmid 21255022?>
+                  <pub-id pub-id-type="pmid">21255022</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cohen</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Cohen</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>West</surname>
+                      <given-names>SG</given-names>
+                    </name>
+                    <name>
+                      <surname>Aiken</surname>
+                      <given-names>LS</given-names>
+                    </name>
+                  </person-group>
+                  <source>Applied multiple regression/correlation analysis for the behavioral sciences</source>
+                  <year>2003</year>
+                  <edition>3</edition>
+                  <publisher-loc>Mahwah</publisher-loc>
+                  <publisher-name>Lawrence Erlbaum Associates</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Christenfeld</surname>
+                      <given-names>NJS</given-names>
+                    </name>
+                    <name>
+                      <surname>Sloan</surname>
+                      <given-names>RP</given-names>
+                    </name>
+                    <name>
+                      <surname>Carroll</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Greenland</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Risk factors, confounding, and the illusion of statistical control</article-title>
+                  <source>Psychosom Med</source>
+                  <year>2004</year>
+                  <volume>66</volume>
+                  <fpage>868</fpage>
+                  <lpage>875</lpage>
+                  <pub-id pub-id-type="doi">10.1097/01.psy.0000140008.70959.41</pub-id>
+                  <?supplied-pmid 15564351?>
+                  <pub-id pub-id-type="pmid">15564351</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>D’Onofrio</surname>
+                      <given-names>BM</given-names>
+                    </name>
+                    <name>
+                      <surname>Sjölander</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Lahey</surname>
+                      <given-names>BB</given-names>
+                    </name>
+                    <name>
+                      <surname>Lichtenstein</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Öberg</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Accounting for confounding in observational studies</article-title>
+                  <source>Annu Rev Clin Psychol</source>
+                  <year>2020</year>
+                  <volume>16</volume>
+                  <fpage>25</fpage>
+                  <lpage>48</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev-clinpsy-032816-045030</pub-id>
+                  <?supplied-pmid 32384000?>
+                  <pub-id pub-id-type="pmid">32384000</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fewell</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Davey Smith</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Sterne</surname>
+                      <given-names>JAC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The impact of residual and unmeasured confounding in epidemiologic studies: a simulation study</article-title>
+                  <source>Am J Epidemiol</source>
+                  <year>2007</year>
+                  <volume>166</volume>
+                  <fpage>646</fpage>
+                  <lpage>655</lpage>
+                  <pub-id pub-id-type="doi">10.1093/aje/kwm165</pub-id>
+                  <?supplied-pmid 17615092?>
+                  <pub-id pub-id-type="pmid">17615092</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sorjonen</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Melin</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Ingre</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Accounting for expected adjusted effect</article-title>
+                  <source>Front Psychol</source>
+                  <year>2020</year>
+                  <volume>11</volume>
+                  <fpage>542082</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fpsyg.2020.542082</pub-id>
+                  <?supplied-pmid 33041911?>
+                  <pub-id pub-id-type="pmid">33041911</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Westfall</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Yarkoni</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Statistically controlling for confounding constructs is harder than you think</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2016</year>
+                  <volume>11</volume>
+                  <fpage>e0152719</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0152719</pub-id>
+                  <?supplied-pmid 27031707?>
+                  <pub-id pub-id-type="pmid">27031707</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dickinson</surname>
+                      <given-names>ER</given-names>
+                    </name>
+                    <name>
+                      <surname>Adelson</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Exploring the limitations of measures of students’ socioeconomic status (SES)</article-title>
+                  <source>Pract Assess Res Eval</source>
+                  <year>2014</year>
+                  <volume>19</volume>
+                  <fpage>1</fpage>
+                  <pub-id pub-id-type="doi">10.7275/mkna-d373</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Peng</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Luo</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The relation between family socioeconomic status and academic achievement in china: a meta-analysis</article-title>
+                  <source>Educ Psychol Rev</source>
+                  <year>2020</year>
+                  <volume>32</volume>
+                  <fpage>49</fpage>
+                  <lpage>76</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10648-019-09494-0</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sirin</surname>
+                      <given-names>SR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Socioeconomic status and academic achievement: a meta-analytic review of research</article-title>
+                  <source>Rev Educ Res</source>
+                  <year>2005</year>
+                  <volume>75</volume>
+                  <fpage>417</fpage>
+                  <lpage>453</lpage>
+                  <pub-id pub-id-type="doi">10.3102/00346543075003417</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <mixed-citation publication-type="other">R Core Team. R: a language and environment for statistical computing. Vienna: R Foundation for Statistical Computing. 2021. <ext-link ext-link-type="uri" xlink:href="https://www.R-project.org/">https://www.R-project.org/</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <mixed-citation publication-type="other">Revelle W. psych: procedures for personality and psychological research. Evanston: Northwestern University. 2020. <ext-link ext-link-type="uri" xlink:href="https://CRAN.R-project.org/package=psych">https://CRAN.R-project.org/package=psych</ext-link> Version = 2.0.7. </mixed-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pearl</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <source>Causality: models, reasoning and inference</source>
+                  <year>2009</year>
+                  <edition>2</edition>
+                  <publisher-loc>Cambridge</publisher-loc>
+                  <publisher-name>Cambridge University Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Herrnstein</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Murray</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                  </person-group>
+                  <source>The Bell curve: intelligence and class structure in American Life</source>
+                  <year>1994</year>
+                  <publisher-loc>New York</publisher-loc>
+                  <publisher-name>Free Press</publisher-name>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

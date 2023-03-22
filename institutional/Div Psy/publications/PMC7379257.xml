@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:04:46Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7379257" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7379257</identifier>
+        <datestamp>2020-07-24</datestamp>
+        <setSpec>blackwellopen</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">J Sleep Res</journal-id>
+              <journal-id journal-id-type="iso-abbrev">J Sleep Res</journal-id>
+              <journal-id journal-id-type="doi">10.1111/(ISSN)1365-2869</journal-id>
+              <journal-id journal-id-type="publisher-id">JSR</journal-id>
+              <journal-title-group>
+                <journal-title>Journal of Sleep Research</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0962-1105</issn>
+              <issn pub-type="epub">1365-2869</issn>
+              <publisher>
+                <publisher-name>John Wiley and Sons Inc.</publisher-name>
+                <publisher-loc>Hoboken</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7379257</article-id>
+              <article-id pub-id-type="pmcid">PMC7379257</article-id>
+              <article-id pub-id-type="pmc-uid">7379257</article-id>
+              <article-id pub-id-type="pmid">30091275</article-id>
+              <article-id pub-id-type="doi">10.1111/jsr.12744</article-id>
+              <article-id pub-id-type="publisher-id">JSR12744</article-id>
+              <article-categories>
+                <subj-group subj-group-type="overline">
+                  <subject>Regular Research Paper</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Sleep, Sleep Deprivation, Napping and Memory</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Effect of sleep deprivation on emotional working memory</article-title>
+                <alt-title alt-title-type="left-running-head">GERHARDSSON et al.</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="jsr12744-cr-0001" contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Gerhardsson</surname>
+                    <given-names>Andreas</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-1087-5519</contrib-id>
+                  <xref ref-type="aff" rid="jsr12744-aff-0001">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="jsr12744-aff-0002">
+                    <sup>2</sup>
+                  </xref>
+                  <address>
+                    <email>andreas.gerhardsson@su.se</email>
+                  </address>
+                </contrib>
+                <contrib id="jsr12744-cr-0002" contrib-type="author">
+                  <name>
+                    <surname>Åkerstedt</surname>
+                    <given-names>Torbjörn</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-8049-8504</contrib-id>
+                  <xref ref-type="aff" rid="jsr12744-aff-0002">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="jsr12744-aff-0003">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib id="jsr12744-cr-0003" contrib-type="author">
+                  <name>
+                    <surname>Axelsson</surname>
+                    <given-names>John</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="jsr12744-aff-0002">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="jsr12744-aff-0003">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib id="jsr12744-cr-0004" contrib-type="author">
+                  <name>
+                    <surname>Fischer</surname>
+                    <given-names>Håkan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="jsr12744-aff-0001">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib id="jsr12744-cr-0005" contrib-type="author">
+                  <name>
+                    <surname>Lekander</surname>
+                    <given-names>Mats</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="jsr12744-aff-0002">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="jsr12744-aff-0003">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib id="jsr12744-cr-0006" contrib-type="author">
+                  <name>
+                    <surname>Schwarz</surname>
+                    <given-names>Johanna</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="jsr12744-aff-0002">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="jsr12744-aff-0001">
+                <label>
+                  <sup>1</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Psychology</named-content>
+                <institution>Stockholm University</institution>
+                <city>Stockholm</city>
+                <country country="SE">Sweden</country>
+              </aff>
+              <aff id="jsr12744-aff-0002">
+                <label>
+                  <sup>2</sup>
+                </label>
+                <institution>Stress Research Institute, Stockholm University</institution>
+                <city>Stockholm</city>
+                <country country="SE">Sweden</country>
+              </aff>
+              <aff id="jsr12744-aff-0003">
+                <label>
+                  <sup>3</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Clinical Neuroscience</named-content>
+                <institution>Karolinska Institute</institution>
+                <city>Stockholm</city>
+                <country country="SE">Sweden</country>
+              </aff>
+              <author-notes>
+                <corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Andreas Gerhardsson, Frescati Hagväg 14, 106 91 Stockholm, Sweden.<break/>
+Email: <email>andreas.gerhardsson@su.se</email><break/></corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>08</day>
+                <month>8</month>
+                <year>2018</year>
+              </pub-date>
+              <pub-date pub-type="ppub">
+                <month>2</month>
+                <year>2019</year>
+              </pub-date>
+              <volume>28</volume>
+              <issue>1</issue>
+              <issue-id pub-id-type="doi">10.1111/jsr.2019.28.issue-1</issue-id>
+              <elocation-id>e12744</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>04</day>
+                  <month>12</month>
+                  <year>2017</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>04</day>
+                  <month>5</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="accepted">
+                  <day>28</day>
+                  <month>6</month>
+                  <year>2018</year>
+                </date>
+              </history>
+              <permissions>
+                <!--<copyright-statement content-type="issue-copyright"> Copyright &#x000a9; 2019 European Sleep Research Society <copyright-statement>-->
+                <copyright-statement content-type="article-copyright">© 2018 The Authors. <italic>Journal of Sleep Research</italic> published by John Wiley &amp; Sons Ltd on behalf of European Sleep Research Society.</copyright-statement>
+                <license license-type="creativeCommonsBy-nc">
+                  <license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes.</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf" xlink:href="file:JSR-28-e12744.pdf"/>
+              <abstract id="jsr12744-abs-0001">
+                <title>Abstract</title>
+                <p>The emotional dysregulation and impaired working memory found after sleep loss can have severe implications for our daily functioning. Considering the intertwined relationship between emotion and cognition in stimuli processing, there could be further implications of sleep deprivation in high‐complex emotional situations. Although studied separately, this interaction between emotion and cognitive processes has been neglected in sleep research. The aim of the present study was to investigate the effect of 1 night of sleep deprivation on emotional working memory. Sixty‐one healthy participants (mean age: 23.4 years) were either sleep deprived for 1 night (<italic>n </italic>= 30) or had a normal night’s sleep (<italic>n </italic>= 31). They performed an <italic>N‐</italic>back task with two levels of working memory load (1‐back and 3‐back) using positive, neutral and negative picture scenes. Sleep deprivation, compared with full night sleep, impaired emotional working memory accuracy, but not reaction times<italic>.</italic> The sleep‐deprived participants, but not the controls, responded faster to positive than to negative and neutral pictures. The effect of sleep deprivation was similar for both high and low working memory loads. The results showed that although detrimental in terms of accuracy, sleep deprivation did not impair working memory speed. In fact, our findings indicate that positive stimuli may facilitate working memory processing speed after sleep deprivation.</p>
+              </abstract>
+              <kwd-group kwd-group-type="author-generated">
+                <kwd id="jsr12744-kwd-0001">affective significance</kwd>
+                <kwd id="jsr12744-kwd-0002">executive functions</kwd>
+                <kwd id="jsr12744-kwd-0003">positivity effect</kwd>
+                <kwd id="jsr12744-kwd-0004">sleep loss</kwd>
+                <kwd id="jsr12744-kwd-0005">sustained wakefulness</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group id="funding-0001">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Riksbankens Jubileumsfond (Swedish Foundation for Humanities and Social Sciences) </institution>
+                      <institution-id institution-id-type="open-funder-registry">10.13039/501100004472</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>P13-0649:1</award-id>
+                </award-group>
+              </funding-group>
+              <counts>
+                <fig-count count="2"/>
+                <table-count count="2"/>
+                <page-count count="8"/>
+                <word-count count="11977"/>
+              </counts>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>source-schema-version-number</meta-name>
+                  <meta-value>2.0</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>cover-date</meta-name>
+                  <meta-value>February 2019</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>details-of-publishers-convertor</meta-name>
+                  <meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.8.5 mode:remove_FC converted:24.07.2020</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+            <notes>
+              <p content-type="self-citation">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-1001"><string-name><surname>Gerhardsson</surname><given-names>A</given-names></string-name>, <string-name><surname>Åkerstedt</surname><given-names>T</given-names></string-name>, <string-name><surname>Axelsson</surname><given-names>J</given-names></string-name>, et al. <article-title>Effect of sleep deprivation on emotional working memory</article-title>. <source xml:lang="en">J Sleep Res</source>. <year>2019</year>;<volume>28</volume>:<elocation-id>e12744</elocation-id><pub-id pub-id-type="doi">10.1111/jsr.12744</pub-id><pub-id pub-id-type="pmid">30091275</pub-id></mixed-citation>
+              </p>
+            </notes>
+          </front>
+          <body id="jsr12744-body-0001">
+            <sec id="jsr12744-sec-0001">
+              <label>1</label>
+              <title>INTRODUCTION</title>
+              <p>
+                <disp-quote content-type="quotation" id="jsr12744-blkfxd-0001">
+                  <p>May I say that I have not thoroughly enjoyed serving with humans? I find their illogic and foolish emotions a constant irritant. <named-content content-type="attribution">(Spock, Star Trek, 1968)</named-content>
+</p>
+                </disp-quote>
+              </p>
+              <p>According to the alien character Spock, having emotions that interfere with reasoning is a typical human trait. This trait may be even more prominent after a night without sleep as sleep deprivation causes cognitive and emotional dysfunction (Goldstein &amp; Walker, <xref rid="jsr12744-bib-0009" ref-type="ref">2014</xref>; Lim &amp; Dinges, <xref rid="jsr12744-bib-0018" ref-type="ref">2010</xref>) that could impair everyday activities and work performance. Although studied separately, the integrative effect of sleep deprivation on cognition and emotion has received little attention.</p>
+              <p>Sleep deprivation has detrimental effects on a wide array of cognitive functioning, with an especially high impact on sustained attention and working memory tasks as shown in a meta‐analysis (Lim &amp; Dinges, <xref rid="jsr12744-bib-0018" ref-type="ref">2010</xref>). Working memory comprises both executive and non‐executive components, and to fully understand the effects of sleep deprivation on working memory these components must be disentangled (Whitney &amp; Hinson, <xref rid="jsr12744-bib-0035" ref-type="ref">2010</xref>). By using two levels of working memory load, recent work shows that sleep deprivation mainly impairs the non‐executive processes of working memory such as vigilance and attention (Lo et al., <xref rid="jsr12744-bib-0020" ref-type="ref">2012</xref>; Tucker, Whitney, Belenky, Hinson, &amp; Van Dongen, <xref rid="jsr12744-bib-0032" ref-type="ref">2010</xref>). A reason for this may be an activation of compensatory mechanisms associated with increased task demands (Drummond, Brown, Salamat, &amp; Gillin, <xref rid="jsr12744-bib-0007" ref-type="ref">2004</xref>).</p>
+              <p>Sleep deprivation is also associated with emotional dysregulation (Goldstein &amp; Walker, <xref rid="jsr12744-bib-0009" ref-type="ref">2014</xref>). Neural evidence of this dysregulation indicates both an increased emotional reactivity and decreased cognitive control of the emotional reaction towards positive and negative affective stimuli (Gujar, Yoo, Hu, &amp; Walker, <xref rid="jsr12744-bib-0010" ref-type="ref">2011</xref>; Yoo, Gujar, Hu, Jolesz, &amp; Walker, <xref rid="jsr12744-bib-0036" ref-type="ref">2007</xref>). This emotional dysregulation has been further supported by behavioural findings of impulsivity (Anderson &amp; Platten, <xref rid="jsr12744-bib-0002" ref-type="ref">2011</xref>), increased attention towards negative stimuli (Cote, Jancsar, &amp; Hunt, <xref rid="jsr12744-bib-0005" ref-type="ref">2015</xref>), increased negativity towards neutral stimuli (Tempesta et al., <xref rid="jsr12744-bib-0030" ref-type="ref">2010</xref>), less decrease in emotional response (Van Der Helm et al., <xref rid="jsr12744-bib-0033" ref-type="ref">2011</xref>) and higher distractibility by negative images during working memory performance (Chuah et al., <xref rid="jsr12744-bib-0004" ref-type="ref">2010</xref>) following sleep deprivation. Sleep deprivation has also been found to increase neural activity in reward networks when presented with positive pictures (Gujar et al., <xref rid="jsr12744-bib-0010" ref-type="ref">2011</xref>). On the other hand, some evidence points to a dampened emotional response after sleep deprivation (Pilcher, Callan, &amp; Posey, <xref rid="jsr12744-bib-0027" ref-type="ref">2015</xref>). Taken together, previous research shows emotional dysregulation after sleep deprivation. However, it is less known how that impacts higher cognitive functions after sleep loss.</p>
+              <p>Non‐sleep‐related affective psychology research shows that emotional stimuli are prioritized in attentional processing, which in turn can impair or facilitate cognitive functions (Pessoa, <xref rid="jsr12744-bib-0026" ref-type="ref">2009</xref>). It has been reported that both positive and negative affective picture stimuli improve working memory performance (Levens &amp; Phelps, <xref rid="jsr12744-bib-0017" ref-type="ref">2008</xref>; Lindström &amp; Bohlin, <xref rid="jsr12744-bib-0019" ref-type="ref">2011</xref>). Other studies have found that while positive stimuli are beneficial for working memory performance, negative stimuli impair it (Osaka, Yaoi, Minamoto, &amp; Osaka, <xref rid="jsr12744-bib-0023" ref-type="ref">2013</xref>; Perlstein, Elbert, &amp; Stenger, <xref rid="jsr12744-bib-0025" ref-type="ref">2002</xref>). A reason for the diverging results might be that when stimuli are perceived as threatening, the attentional resources are directed towards the threat, disrupting working memory performance (Pessoa, <xref rid="jsr12744-bib-0026" ref-type="ref">2009</xref>). On the other hand, a high level of working memory load may absorb more attentional resources and reduce the impact of a distracting emotional component (Hur, Iordan, Dolcos, &amp; Berenbaum, <xref rid="jsr12744-bib-0013" ref-type="ref">2016</xref>). Given an emotional dysregulation after sleep deprivation (Gujar et al., <xref rid="jsr12744-bib-0010" ref-type="ref">2011</xref>; Yoo et al., <xref rid="jsr12744-bib-0036" ref-type="ref">2007</xref>), working memory performance could be further modulated by emotional content.</p>
+              <p>To the best of our knowledge, the effects of sleep deprivation on emotional working memory have only been investigated once and the study reported no significant effects of valence after a full night of sleep deprivation (Tempesta, De Gennaro, Presaghi, &amp; Ferrara, <xref rid="jsr12744-bib-0031" ref-type="ref">2014</xref>). The authors used a task with a single working memory load (2‐back), thus the dissociation between executive and non‐executive components (Tucker et al., <xref rid="jsr12744-bib-0032" ref-type="ref">2010</xref>) of emotional working memory following sleep deprivation has not previously been addressed. The aim of the present study was to examine the emotion–working memory interaction after 1 night of sleep deprivation by using positive, negative and neutral pictures in a task with two levels of working memory load.</p>
+            </sec>
+            <sec id="jsr12744-sec-0002">
+              <label>2</label>
+              <title>Materials and methods</title>
+              <sec id="jsr12744-sec-0003">
+                <label>2.1</label>
+                <title>Participants</title>
+                <p>Data were collected from 61 healthy participants (age: M<italic> = </italic>23.4 years, SD<italic> = </italic>3.4 years, range = 18–30 years, 40% women). The participants were randomized to a control or a total sleep deprivation (TSD) condition as part of a larger project (Schwarz et al., <xref rid="jsr12744-bib-5000" ref-type="ref">2018</xref>). Here, we focused on the young sample (see Table <xref rid="jsr12744-tbl-0001" ref-type="table">1</xref> for demographics and sleep characteristics). Before inclusion, all participants filled in online screening questionnaires assessing demography, health, sleep habits and sleep disorders. The included individuals had no current or previous psychiatric disorders, where besides self‐assessment we used the Hospital Anxiety and Depression Scale (Zigmond &amp; Snaith, <xref rid="jsr12744-bib-0037" ref-type="ref">1983</xref>) with exclusion criteria set to 11 or above. They reported no severe illness and no sleep disorders. Recruitment was done via an online platform, paper notes at public places and newspaper advertisement. Participants who fulfilled the inclusion criteria were invited to the lab approximately 1 week before testing for a screening interview and to get familiarized with the task. Participants were instructed to keep a regular sleep schedule (bedtime 21:30–00:30 hours and wake‐up time no later than 08:00 hours) the week before coming to the lab, and to refrain from caffeine, alcohol and training 24 hrs before the test session, which started 13:00 hours for half of the group and 16:00 hours for the other half (balanced across the sleep conditions) and lasted for 3 hrs in total. The emotional working memory task was performed 2 hrs into the test session (15:00 hours/18:00 hours). Sleeping habits were monitored by sleep diary and wrist actigraphy (Cambridge Neurotechnology®, Cambridge, UK) for 3 days prior to the experiment (Table <xref rid="jsr12744-tbl-0001" ref-type="table">1</xref>). All participants signed a written informed consent and were economically compensated for participating. The study was approved by the Regional Ethical Review Board in Stockholm.</p>
+                <table-wrap id="jsr12744-tbl-0001" xml:lang="en" orientation="portrait" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Descriptive table of age and sleep</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <thead valign="top">
+                      <tr style="border-bottom:solid 1px #000000">
+                        <th align="left" rowspan="2" valign="top" colspan="1"/>
+                        <th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">Control</th>
+                        <th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">Sleep deprivation</th>
+                        <th align="left" rowspan="2" valign="top" colspan="1">Test statistics</th>
+                      </tr>
+                      <tr style="border-bottom:solid 1px #000000">
+                        <th align="left" valign="top" rowspan="1" colspan="1">
+                          <italic>N</italic>
+                        </th>
+                        <th align="left" valign="top" rowspan="1" colspan="1">Mean (<italic>SD</italic>)</th>
+                        <th align="left" valign="top" rowspan="1" colspan="1">
+                          <italic>N</italic>
+                        </th>
+                        <th align="left" valign="top" rowspan="1" colspan="1">Mean (<italic>SD</italic>)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Age (years)</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Women</td>
+                        <td align="left" rowspan="1" colspan="1">14</td>
+                        <td align="left" rowspan="1" colspan="1">25.14 (3.48)</td>
+                        <td align="left" rowspan="1" colspan="1">12</td>
+                        <td align="left" rowspan="1" colspan="1">22.75 (3.49)</td>
+                        <td align="left" rowspan="1" colspan="1"><italic>t </italic>= 1.74</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Men</td>
+                        <td align="left" rowspan="1" colspan="1">17</td>
+                        <td align="left" rowspan="1" colspan="1">22.00 (3.18)</td>
+                        <td align="left" rowspan="1" colspan="1">18</td>
+                        <td align="left" rowspan="1" colspan="1">23.72 (3.06)</td>
+                        <td align="left" rowspan="1" colspan="1"><italic>t</italic> = −1.63</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Total</td>
+                        <td align="left" rowspan="1" colspan="1">31</td>
+                        <td align="left" rowspan="1" colspan="1">23.42 (3.63)</td>
+                        <td align="left" rowspan="1" colspan="1">30</td>
+                        <td align="left" rowspan="1" colspan="1">23.33 (3.22)</td>
+                        <td align="left" rowspan="1" colspan="1"><italic>t</italic> = 0.10</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Education (%)</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1">χ<sup>2</sup> = 3.12</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Secondary school</td>
+                        <td align="left" rowspan="1" colspan="1">0</td>
+                        <td align="left" rowspan="1" colspan="1">0.00%</td>
+                        <td align="left" rowspan="1" colspan="1">1</td>
+                        <td align="left" rowspan="1" colspan="1">1.64%</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">High school</td>
+                        <td align="left" rowspan="1" colspan="1">13</td>
+                        <td align="left" rowspan="1" colspan="1">21.31%</td>
+                        <td align="left" rowspan="1" colspan="1">13</td>
+                        <td align="left" rowspan="1" colspan="1">21.31%</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">University &lt; 2.5 years</td>
+                        <td align="left" rowspan="1" colspan="1">8</td>
+                        <td align="left" rowspan="1" colspan="1">13.11%</td>
+                        <td align="left" rowspan="1" colspan="1">11</td>
+                        <td align="left" rowspan="1" colspan="1">18.03%</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">University &gt; 3 years</td>
+                        <td align="left" rowspan="1" colspan="1">10</td>
+                        <td align="left" rowspan="1" colspan="1">16.39%</td>
+                        <td align="left" rowspan="1" colspan="1">5</td>
+                        <td align="left" rowspan="1" colspan="1">8.20%</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Habitual sleep (hh:mm)</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Work sleep time</td>
+                        <td align="left" rowspan="1" colspan="1">31</td>
+                        <td align="left" rowspan="1" colspan="1">23:12 (00:50)</td>
+                        <td align="left" rowspan="1" colspan="1">30</td>
+                        <td align="left" rowspan="1" colspan="1">23:29 (00:49)</td>
+                        <td align="left" rowspan="1" colspan="1"><italic>t</italic> = −1.30</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Work wake time</td>
+                        <td align="left" rowspan="1" colspan="1">31</td>
+                        <td align="left" rowspan="1" colspan="1">07:29 (01:02)</td>
+                        <td align="left" rowspan="1" colspan="1">30</td>
+                        <td align="left" rowspan="1" colspan="1">07:40 (01:13)</td>
+                        <td align="left" rowspan="1" colspan="1"><italic>t</italic> = −0.59</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Work sleep duration</td>
+                        <td align="left" rowspan="1" colspan="1">31</td>
+                        <td align="left" rowspan="1" colspan="1">08:17 (00:59)</td>
+                        <td align="left" rowspan="1" colspan="1">30</td>
+                        <td align="left" rowspan="1" colspan="1">08:11 (01:06)</td>
+                        <td align="left" rowspan="1" colspan="1"><italic>t</italic><italic> = </italic>0.38</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Free sleep time</td>
+                        <td align="left" rowspan="1" colspan="1">31</td>
+                        <td align="left" rowspan="1" colspan="1">00:02 (00:57)</td>
+                        <td align="left" rowspan="1" colspan="1">30</td>
+                        <td align="left" rowspan="1" colspan="1">00:35 (01:01)</td>
+                        <td align="left" rowspan="1" colspan="1"><italic>t</italic> = −2.16<xref ref-type="fn" rid="jsr12744-note-0003">*</xref>
+</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Free wake time</td>
+                        <td align="left" rowspan="1" colspan="1">31</td>
+                        <td align="left" rowspan="1" colspan="1">08:44 (01:05)</td>
+                        <td align="left" rowspan="1" colspan="1">30</td>
+                        <td align="left" rowspan="1" colspan="1">09:19 (00:56)</td>
+                        <td align="left" rowspan="1" colspan="1"><italic>t</italic> = −2.24<xref ref-type="fn" rid="jsr12744-note-0003">*</xref>
+</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Free sleep duration</td>
+                        <td align="left" rowspan="1" colspan="1">31</td>
+                        <td align="left" rowspan="1" colspan="1">08:41 (01:07)</td>
+                        <td align="left" rowspan="1" colspan="1">30</td>
+                        <td align="left" rowspan="1" colspan="1">08:43 (00:59)</td>
+                        <td align="left" rowspan="1" colspan="1"><italic>t</italic> = −0.14</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Actiwatch (assumed sleep)</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Nights 2 &amp; 3 before</td>
+                        <td align="left" rowspan="1" colspan="1">29</td>
+                        <td align="left" rowspan="1" colspan="1">07:50 (00:55)</td>
+                        <td align="left" rowspan="1" colspan="1">28</td>
+                        <td align="left" rowspan="1" colspan="1">07:50 (00:56)</td>
+                        <td align="left" rowspan="1" colspan="1"><italic>t</italic> = −0.03</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Night before</td>
+                        <td align="left" rowspan="1" colspan="1">29</td>
+                        <td align="left" rowspan="1" colspan="1">07:53 (01:02)</td>
+                        <td align="left" rowspan="1" colspan="1">–</td>
+                        <td align="left" rowspan="1" colspan="1">–</td>
+                        <td align="left" rowspan="1" colspan="1">–</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Sleep measures</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">ISI</td>
+                        <td align="left" rowspan="1" colspan="1">31</td>
+                        <td align="left" rowspan="1" colspan="1">3.77 (2.59)</td>
+                        <td align="left" rowspan="1" colspan="1">30</td>
+                        <td align="left" rowspan="1" colspan="1">3.30 (2.41)</td>
+                        <td align="left" rowspan="1" colspan="1"><italic>t</italic> = 0.74</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">KSQ sleepiness</td>
+                        <td align="left" rowspan="1" colspan="1">31</td>
+                        <td align="left" rowspan="1" colspan="1">5.39 (0.47)</td>
+                        <td align="left" rowspan="1" colspan="1">30</td>
+                        <td align="left" rowspan="1" colspan="1">5.38 (0.38)</td>
+                        <td align="left" rowspan="1" colspan="1"><italic>t</italic> = 0.06</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">ESS</td>
+                        <td align="left" rowspan="1" colspan="1">31</td>
+                        <td align="left" rowspan="1" colspan="1">4.87 (2.51)</td>
+                        <td align="left" rowspan="1" colspan="1">30</td>
+                        <td align="left" rowspan="1" colspan="1">5.53 (2.85)</td>
+                        <td align="left" rowspan="1" colspan="1"><italic>t</italic> = −0.96</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot id="jsr12744-ntgp-0001">
+                    <fn id="jsr12744-note-0001">
+                      <p>ESS, Epworth Sleepiness Scale; ISI: Insomnia Severity Index; KSQ: Karolinska Sleep Questionnaire.</p>
+                    </fn>
+                    <fn id="jsr12744-note-0002">
+                      <p>Four participants were omitted from actigraphy analysis due to technical issues. Actiwatch assumed sleep: nights 2 &amp; 3 before: mean of 2 nights prior to the night before the experiment.</p>
+                    </fn>
+                    <fn id="jsr12744-note-0003">
+                      <label>*</label>
+                      <p><italic>p </italic>&lt; 0.05.</p>
+                    </fn>
+                  </table-wrap-foot>
+                  <permissions>
+                    <copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder>
+                  </permissions>
+                </table-wrap>
+              </sec>
+              <sec id="jsr12744-sec-0004">
+                <label>2.2</label>
+                <title>Design and procedure</title>
+                <sec id="jsr12744-sec-0005">
+                  <label>2.2.1</label>
+                  <title>Total sleep deprivation</title>
+                  <p>Participants in the TSD condition arrived at the laboratory at 22:00 hours after being awake during the day, and stayed until the end of the test session the following day. During the night, participants performed cognitive tests every other hour, and rated their sleepiness using the Karolinska Sleepiness Scale (KSS; Åkerstedt &amp; Gillberg, <xref rid="jsr12744-bib-0001" ref-type="ref">1990</xref>) The majority of the time was spent doing low‐demanding leisure activities. From 07:00 hours until the testing session started, no cognitive tests were administered and participants were allowed to take a shower in the morning and a short walk outdoors with a research assistant. Window blinds were used during the night to keep light conditions constant. In addition to the actigraphs, participants were monitored by the experimenters. Standardized meals and snacks were provided throughout their time in the laboratory. No food was allowed from 1 hr before the start of the test session until the end of the session.</p>
+                </sec>
+                <sec id="jsr12744-sec-0006">
+                  <label>2.2.2</label>
+                  <title>Sleep control</title>
+                  <p>Participants in the control condition slept at home the night before the test session, monitored by wrist actigraphy (Table <xref rid="jsr12744-tbl-0001" ref-type="table">1</xref>). They were instructed not to engage in any stressful activities 24 hrs before the test session and had been given a standardized lunch to be eaten at home, but were asked to refrain from eating from 1 hr before the start of the test session.</p>
+                </sec>
+              </sec>
+              <sec id="jsr12744-sec-0007">
+                <label>2.3</label>
+                <title>Apparatus</title>
+                <p>The task was performed on a 17.3‐inch display laptop with a NVIDA GeForce GTX 850M graphics card (resolution 1,920 × 1,080). Response keys (A and L on the keyboard) were marked with a red and a green sticker, respectively.</p>
+              </sec>
+              <sec id="jsr12744-sec-0008">
+                <label>2.4</label>
+                <title>Emotional <italic>N</italic>‐back task</title>
+                <p>The <italic>N‐</italic>back task (Figure <xref rid="jsr12744-fig-0001" ref-type="fig">1</xref>) is a common and valid measure of working memory where participants are to respond to whether a current stimulus matches the one presented <italic>N</italic> steps back in the sequence. The task was designed with two levels of working memory load (1‐back and 3‐back). Stimuli consisted of positive, neutral and negative scenes from the International Affective Picture System (Lang, Bradley, &amp; Cuthbert, <xref rid="jsr12744-bib-0015" ref-type="ref">2008</xref>). Emotional pictures were matched on arousal (Negative: 4.93 ± 0.57; Positive: 4.63 <italic>± </italic>0.64, <italic>t</italic>
+<sub>46 </sub>= 1.65, <italic>p </italic>&gt; 0.05) and differed significantly compared with the neutral pictures (3.84 ± 0.82, <italic>p </italic>&lt; 0.001; Table <xref rid="jsr12744-sup-0001" ref-type="supplementary-material">S1</xref>). In order to try to isolate the emotional component of the pictures, food items and close‐up faces were not used. Each trial consisted of a stimulus that was presented for 900 ms followed by an interstimulus interval of 1,000 ms. Participants were instructed to respond (as fast and correct as possible) within the full trial duration (1,900 ms) if the current stimulus was the same as the one <italic>N</italic> steps back in the sequence, by pressing the L‐key for YES and the A‐key for NO on the keyboard. Each participant performed a 1‐back block and a 3‐back block twice, that was either neutral‐negative or neutral‐positive (balanced). This was done because working memory updating has been found to be affected by switching between valences (Levens &amp; Gotlib, <xref rid="jsr12744-bib-0016" ref-type="ref">2010</xref>). Each block consisted of 72 trials, which means that they performed 288 trials in total. Order and block valence was balanced between participants. Within each block, stimulus order was pseudo‐randomized so that each stimulus (<italic>n </italic>= 24) functioned as a probe, target and a non‐target (no inference trials were included) an equal number of times within each block. The picture sets were unique for each block. Before starting the experiment task, participants were shown a demonstration and performed two shorter training blocks. The entire test took about 12 min to complete. Reaction time (RT) and response (yes, no or missed) were registered; the task was programmed using PsychoPy (Peirce, <xref rid="jsr12744-bib-0024" ref-type="ref">2007</xref>).</p>
+                <fig fig-type="Figure" xml:lang="en" id="jsr12744-fig-0001" orientation="portrait" position="float">
+                  <label>Figure 1</label>
+                  <caption>
+                    <p>Emotional pictures and correct responses. NO responses were made on A‐key and YES on the L‐key on the keyboard. ISI = inter‐stimulus interval. Response was recorded during the entire trial duration (picture + ISI, 1900ms). Pictures are examples from www.pixabay.com, not used in experiment</p>
+                  </caption>
+                  <graphic id="nlm-graphic-1" xlink:href="JSR-28-e12744-g001"/>
+                </fig>
+              </sec>
+              <sec id="jsr12744-sec-0009">
+                <label>2.5</label>
+                <title>Subjective measures</title>
+                <p>Emotional state was assessed before the task using the Positive and Negative Affect Schedule (PANAS), a two‐dimensional affective state scale with scores ranging from 10 to 50 (Watson, Clark, &amp; Tellegen, <xref rid="jsr12744-bib-0034" ref-type="ref">1988</xref>). Subjective sleepiness before the task was measured with the KSS (Åkerstedt &amp; Gillberg, <xref rid="jsr12744-bib-0001" ref-type="ref">1990</xref>).</p>
+              </sec>
+              <sec id="jsr12744-sec-0010">
+                <label>2.6</label>
+                <title>Statistical analysis</title>
+                <p>As a measure of accuracy, we performed a 2 × 2 × 3 mixed analysis of variance (ANOVA) for d′ and omissions, with sleep as a between‐subjects variable (TSD, Control), and load (1‐back, 3‐back) and valence (positive, negative, neutral) as within‐subject variables. We excluded three participants that had all missing answers in at least one condition to avoid causing unbalance in the mixed ANOVA. Hence, data from 58 participants were used in the analysis (TSD: 27; Control: 31). When calculating the d′ we adjusted for extreme proportions by adding 0.5 to the sum of each cell and 1.0 to the sum of each row (Hautus, <xref rid="jsr12744-bib-0012" ref-type="ref">1995</xref>). Moreover, we did not include omissions in the d′‐calculation, but treated omission percent as a separate outcome. d′ accounts for any response bias tendency, from the difference between the standardized hit rate and false alarm rate (Macmillan &amp; Kaplan, <xref rid="jsr12744-bib-0022" ref-type="ref">1985</xref>). RTs were analysed using mixed‐effects modelling (Bates, Maechler, Bolker, &amp; Walker, <xref rid="jsr12744-bib-0003" ref-type="ref">2015</xref>), with sleep, load and valence as fixed factors. Before model fitting, responses faster than 200 ms (<italic>n </italic>= 6; 0.14%) were omitted. RTs were log‐transformed to meet normality assumption, and only correct responses to target stimuli were used for the analysis. We applied a forward model selection procedure for the random effects structure, adding random parameters to a model that contained all fixed factors until the model was no longer significantly improved (Table <xref rid="jsr12744-sup-0001" ref-type="supplementary-material">S2</xref>). The best fitting model included a random intercept for participant, a random intercept for picture and a random slope for load within participant, as well as the covariance between load and the participant intercept. Including picture as a random variable was done to improve the generalizability of the picture sample to a population of pictures (Bates et al., <xref rid="jsr12744-bib-0003" ref-type="ref">2015</xref>). The model was trimmed by removing data points exceeding 2.5 standard deviations (<italic>n </italic>= 78; 1.87%) from the residual mean and refitted with the trimmed data set (<italic>n </italic>= 4,094) using a restricted maximal likelihood estimation (DeVaan, Schreuder, &amp; Baayen, <xref rid="jsr12744-bib-0006" ref-type="ref">2007</xref>). We performed a full contrast analysis and post hoc <italic>t</italic>‐tests with a Kenward–Rogers degrees of freedom approximation for estimation of <italic>p</italic>‐values (Halekoh &amp; Højsgaard, <xref rid="jsr12744-bib-0011" ref-type="ref">2014</xref>). Welch <italic>t</italic>‐test were used for KSS and PANAS. Analyses were performed in R (R Core Team, <xref rid="jsr12744-bib-0028" ref-type="ref">2016</xref>). Data are presented as <italic>M</italic> ± <italic>SD</italic> unless stated otherwise.</p>
+              </sec>
+            </sec>
+            <sec id="jsr12744-sec-0011">
+              <label>3</label>
+              <title>RESULTS</title>
+              <sec id="jsr12744-sec-0012">
+                <label>3.1</label>
+                <title>Subjective measures</title>
+                <p>Karolinska Sleepiness Scale ratings showed that the TSD group was significantly sleepier (8.1 ± 1.2) than the control group (4.7 ± 1.9, <italic>t</italic>
+<sub>51.1 </sub>= 8.2, <italic>p </italic>&lt; 0.001). PANAS scores rated before the test indicated that the TSD group was less positive (22.9 ± 8.4) than the control group (28.8 ± 6.6, <italic>t</italic>
+<sub>47.5 </sub>= 2.9, <italic>p </italic>= 0.006). There was no significant difference in negative affect between the two groups (Control: 10.9 ± 1.6; TSD: 11.2 ± 2.3, <italic>p </italic>= 0.53).</p>
+              </sec>
+              <sec id="jsr12744-sec-0013">
+                <label>3.2</label>
+                <title>Emotional working memory</title>
+                <p>Table <xref rid="jsr12744-tbl-0002" ref-type="table">2</xref> shows the results from the full mixed ANOVAs and the contrast analysis of the mixed‐effects model. Means for all outcomes are visualized in Figure <xref rid="jsr12744-fig-0002" ref-type="fig">2</xref>, for main and simple effects see Figure <xref rid="jsr12744-sup-0001" ref-type="supplementary-material">S1</xref>. The TSD group was less accurate (d′) (2.21 ± 0.93) than the control group (2.64 ± 0.80, <italic>F</italic>
+<sub>1,56 </sub>= 7.85, <italic>p </italic>= 0.007), and the TSD group had a higher omissions percentage (8.57 ± 16.10%) than the control group (0.78 ± 2.65%, <italic>F</italic>
+<sub>1,56 </sub>= 8.00, <italic>p </italic>= 0.006). The accuracy (d′) for 1‐back was higher (2.87 ± 0.76) than for the 3‐back (2.00 ± 0.79, <italic>F</italic>
+<sub>1,56 </sub>= 116.02, <italic>p </italic>&lt; 0.001). No other statistically significant main or interaction effects on accuracy (d′) or omission percent were evident.</p>
+                <table-wrap id="jsr12744-tbl-0002" xml:lang="en" orientation="portrait" position="float">
+                  <label>Table 2</label>
+                  <caption>
+                    <p>ANOVA style contrast table of outcome variables with degrees of freedom estimated from Kenward–Roger approximations</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <thead valign="top">
+                      <tr style="border-bottom:solid 1px #000000">
+                        <th align="left" rowspan="2" valign="top" colspan="1"/>
+                        <th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1"><italic>d</italic>′</th>
+                        <th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">Omissions (%)</th>
+                        <th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">RT (log)</th>
+                      </tr>
+                      <tr style="border-bottom:solid 1px #000000">
+                        <th align="left" valign="top" rowspan="1" colspan="1"><italic>F</italic> (df)</th>
+                        <th align="left" valign="top" rowspan="1" colspan="1">
+                          <italic>p</italic>
+                        </th>
+                        <th align="left" valign="top" rowspan="1" colspan="1"><italic>F</italic> (df)</th>
+                        <th align="left" valign="top" rowspan="1" colspan="1">
+                          <italic>p</italic>
+                        </th>
+                        <th align="left" valign="top" rowspan="1" colspan="1"><italic>F</italic> (df)</th>
+                        <th align="left" valign="top" rowspan="1" colspan="1">
+                          <italic>p</italic>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Sleep</td>
+                        <td align="left" rowspan="1" colspan="1">
+                          <bold>7.85 (1, 56)</bold>
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                          <bold>0.007</bold>
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                          <bold>8.00 (1, 56)</bold>
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                          <bold>0.006</bold>
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">0.28 (1, 56.6)</td>
+                        <td align="left" rowspan="1" colspan="1">0.601</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Load</td>
+                        <td align="left" rowspan="1" colspan="1">
+                          <bold>116.02 (1, 56)</bold>
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                          <bold>&lt;0.001</bold>
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">0.59 (1, 56)</td>
+                        <td align="left" rowspan="1" colspan="1">0.445</td>
+                        <td align="left" rowspan="1" colspan="1">
+                          <bold>278.02 (1, 58.5)</bold>
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                          <bold>&lt;0.001</bold>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Valence</td>
+                        <td align="left" rowspan="1" colspan="1">2.24 (2, 112)</td>
+                        <td align="left" rowspan="1" colspan="1">0.112</td>
+                        <td align="left" rowspan="1" colspan="1">0.08 (2, 112)</td>
+                        <td align="left" rowspan="1" colspan="1">0.924</td>
+                        <td align="left" rowspan="1" colspan="1">
+                          <bold>6.35 (2, 96)</bold>
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                          <bold>0.003</bold>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Sleep × load</td>
+                        <td align="left" rowspan="1" colspan="1">0.83 (1, 56)</td>
+                        <td align="left" rowspan="1" colspan="1">0.367</td>
+                        <td align="left" rowspan="1" colspan="1">0.12 (1, 56)</td>
+                        <td align="left" rowspan="1" colspan="1">0.732</td>
+                        <td align="left" rowspan="1" colspan="1">2.54 (1, 58.4)</td>
+                        <td align="left" rowspan="1" colspan="1">0.116</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Sleep × valence</td>
+                        <td align="left" rowspan="1" colspan="1">1.6 (2, 112)</td>
+                        <td align="left" rowspan="1" colspan="1">0.206</td>
+                        <td align="left" rowspan="1" colspan="1">0.39 (2, 112)</td>
+                        <td align="left" rowspan="1" colspan="1">0.681</td>
+                        <td align="left" rowspan="1" colspan="1">
+                          <bold>5.55 (2, 3,916.3)</bold>
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                          <bold>0.004</bold>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Load × valence</td>
+                        <td align="left" rowspan="1" colspan="1">1.37 (2, 112)</td>
+                        <td align="left" rowspan="1" colspan="1">0.259</td>
+                        <td align="left" rowspan="1" colspan="1">0.7 (2, 112)</td>
+                        <td align="left" rowspan="1" colspan="1">0.498</td>
+                        <td align="left" rowspan="1" colspan="1">
+                          <bold>3.53 (2, 3,954)</bold>
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                          <bold>0.029</bold>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Sleep × load × valence</td>
+                        <td align="left" rowspan="1" colspan="1">0.06 (2, 112)</td>
+                        <td align="left" rowspan="1" colspan="1">0.946</td>
+                        <td align="left" rowspan="1" colspan="1">0.34 (2, 112)</td>
+                        <td align="left" rowspan="1" colspan="1">0.713</td>
+                        <td align="left" rowspan="1" colspan="1">0.25 (2, 3,928.3)</td>
+                        <td align="left" rowspan="1" colspan="1">0.781</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot id="jsr12744-ntgp-0002">
+                    <fn id="jsr12744-note-0004">
+                      <p>RT: reaction time.</p>
+                    </fn>
+                    <fn id="jsr12744-note-0005">
+                      <p>The number of observations is larger for RT as it was calculated using a mixed model design without aggregated means. Significant effects are marked in bold font.</p>
+                    </fn>
+                  </table-wrap-foot>
+                  <permissions>
+                    <copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder>
+                  </permissions>
+                </table-wrap>
+                <fig fig-type="Figure" xml:lang="en" id="jsr12744-fig-0002" orientation="portrait" position="float">
+                  <label>Figure 2</label>
+                  <caption>
+                    <p>Performance on emotional N‐back task. Panels display (a) accuracy, (b) omission percent and (c) reaction time for Control and sleep deprivation (TSD) condition on negative (Neg), neutral (Neu) and positive (Pos) pictures, by 1‐back (blue, solid) and 3‐back (red, dashed) load. Error bars represent 95% CI</p>
+                  </caption>
+                  <graphic id="nlm-graphic-3" xlink:href="JSR-28-e12744-g002"/>
+                </fig>
+                <p>There was no overall significant difference in mean RT between the TSD (610.86 ± 150.72 ms) and Control (618.00 ± 151.40 ms) conditions. RTs were slower for 3‐back (696.80 ± 192.28 ms) than for 1‐back (553.17 ± 151.50 ms, <italic>F</italic>
+<sub>2,58.5 </sub>
+<italic>= </italic>278.02, <italic>p </italic>&lt; .001). There was a main effect of valence (<italic>F</italic>
+<sub>2,96 </sub>= 6.35, <italic>p </italic>= 0.003). However, following up a significant sleep × valence interaction (<italic>F</italic>
+<sub>2,3916.3 </sub>= 5.55, <italic>p </italic>= 0.004) revealed that the effect of valence was only present in the sleep deprivation group (<italic>F</italic>
+<sub>2,90.3 </sub>
+<italic>= </italic>10.91,<italic> p &lt; </italic>0.001; Control: <italic>F</italic>
+<sub>2,91.0 </sub>=<sub> </sub>0.68, <italic>p </italic>= 0.51), with responses to positive pictures (590.46 ± 160.93 ms) being faster than to neutral (612.44 ± 175.53 ms, <italic>t</italic>
+<sub>88.6 </sub>= 3.27, <italic>p </italic>= .002) and negative pictures (628.76 ± 169.31 ms, <italic>t</italic>
+<sub>90.1 </sub>= 4.61, <italic>p </italic>&lt; 0.001), and a significant difference between neutral and negative pictures (<italic>t</italic>
+<sub>92.3 </sub>= 2.05, <italic>p </italic>= 0.043). Additionally, there was a significant load × valence interaction (<italic>F</italic>
+<sub>2,3,954 </sub>= 3.53, <italic>p </italic>= 0.029), indicating that in the 3‐back load responses were faster for positive compared with neutral and with negative pictures (<italic>p </italic>&lt; .05), with no significant difference between neutral and negative (<italic>p </italic>= 0.99). In the 1‐back load the positive and neutral were faster than the negative (<italic>p </italic>&lt; .01), with no significant difference between neutral and positive pictures (<italic>p </italic>= 0.79).</p>
+                <p>An exploratory analysis showed no support for a speed–accuracy trade‐off in the present data as RT was not significantly correlated with d′ within each cell in the 2 × 2 × 3 model (<italic>p </italic>&gt; 0.05).</p>
+              </sec>
+            </sec>
+            <sec id="jsr12744-sec-0014">
+              <label>4</label>
+              <title>DISCUSSION</title>
+              <p>In the present study, we investigated if emotional content modulates the effect of TSD on two levels of working memory load. Our results showed that 1 night of sleep deprivation impaired working memory accuracy and omission rate, but not RTs, with similar effects for high and low working memory load. The finding that the sleep‐deprived group had faster RTs to positive pictures than to neutral, which in turn were faster than to negative pictures indicates that consequences of sleep loss may depend on emotional content.</p>
+              <p>Using two levels of working memory load, we found an impairment in working memory accuracy and omission rate following sleep deprivation which is in line with previous research (Lim &amp; Dinges, <xref rid="jsr12744-bib-0018" ref-type="ref">2010</xref>). The lack of interaction effect between sleep deprivation and load is also in agreement with previous research using non‐emotional working memory tasks (Lo et al., <xref rid="jsr12744-bib-0020" ref-type="ref">2012</xref>; Tucker et al., <xref rid="jsr12744-bib-0032" ref-type="ref">2010</xref>), suggesting that impairments after sleep deprivation are more likely to be related to non‐executive components common to both high and low working memory load, such as vigilance and attention.</p>
+              <p>The impaired accuracy and omission rate after sleep deprivation did not depend on valence. These findings are in line with previous research on emotional working memory after a full night of sleep deprivation (Tempesta et al., <xref rid="jsr12744-bib-0031" ref-type="ref">2014</xref>). Sleep deprivation has previously been found to cause increased interference by negative pictures on working memory when the pictures were used as distractors (Chuah et al., <xref rid="jsr12744-bib-0004" ref-type="ref">2010</xref>). However, integrating the emotional stimuli in the task we found no such interference effect on accuracy. Moreover, our results do not corroborate non‐sleep‐related findings of emotional stimuli facilitating working memory accuracy (Lindström &amp; Bohlin, <xref rid="jsr12744-bib-0019" ref-type="ref">2011</xref>). One reason could be that compared with this study we used negative and positive pictures that had an average lower normative arousal score.</p>
+              <p>We did not find a main effect of sleep deprivation on RT, but an interaction between sleep deprivation and valence. While sleep deprivation has been found to impair RT in many working memory tasks (Lim &amp; Dinges, <xref rid="jsr12744-bib-0018" ref-type="ref">2010</xref>), studies that use tasks that require more complex stimuli processing do not show a consistent effect of sleep deprivation on RT (Anderson &amp; Platten, <xref rid="jsr12744-bib-0002" ref-type="ref">2011</xref>; Tempesta et al., <xref rid="jsr12744-bib-0031" ref-type="ref">2014</xref>)<italic>.</italic> For example, Maccari et al. (<xref rid="jsr12744-bib-0021" ref-type="ref">2014</xref>) demonstrated that the difference in RTs between sleep‐deprived and controls were less for face stimuli compared with word stimuli, and that there was no difference between the groups for the positive faces. Further research is needed to investigate how stimulus type and emotional content modulate working memory processing speed after sleep deprivation. The contrasting effects of sleep deprivation on accuracy and RT did not appear to be biased by a speed accuracy trade‐off, which is in line with previous experimental findings (Tucker et al., <xref rid="jsr12744-bib-0032" ref-type="ref">2010</xref>) and fits with the conclusions from a recent meta‐analysis (Lim &amp; Dinges, <xref rid="jsr12744-bib-0018" ref-type="ref">2010</xref>).</p>
+              <p>Emotional stimuli are considered to be more salient and therefore requiring more attentional resources, which, when triggering a reward state, could lead to enhanced executive processing or, when signalling threat, be disruptive (Pessoa, <xref rid="jsr12744-bib-0026" ref-type="ref">2009</xref>). This pattern was indeed found for the RTs in the sleep‐deprived group, with faster responses to positive pictures compared with neutral pictures, which in turn were faster than with negative pictures. The increased amygdala activity and disability to regulate emotional response after sleep deprivation (Gujar et al., <xref rid="jsr12744-bib-0010" ref-type="ref">2011</xref>; Yoo et al., <xref rid="jsr12744-bib-0036" ref-type="ref">2007</xref>) could therefore have acted beneficial for positive stimuli and disruptive for negative stimuli. However, further imaging studies are needed to determine if these neural responses after sleep deprivation can be directly linked to emotional working memory processing speed. Unlike Tempesta et al. (<xref rid="jsr12744-bib-0031" ref-type="ref">2014</xref>), we used positive and negative pictures in separate blocks to avoid possible carry‐over effects between positive and negative stimuli (Levens &amp; Gotlib, <xref rid="jsr12744-bib-0016" ref-type="ref">2010</xref>). This block separation is likely to have made the distinction between the two valences more pronounced. Whereas RTs to positive and negative pictures were consistent, the RTs to neutral pictures varied between the loads. Responses were faster for positive compared with neutral and negative pictures in the 3‐back condition, and responses to positive and neutral pictures were faster compared with negative pictures in the 1‐back condition. These results do not alter our conclusions that positive stimuli promoted faster responses and negative stimuli promoted slower responses after sleep deprivation. Worth noting is that as there were no significant differences between the valences in accuracy or omission rate, the effect on RT is not likely to have been at the expense of these other performance measures (Levens &amp; Phelps, <xref rid="jsr12744-bib-0017" ref-type="ref">2008</xref>). Instead, we believe that the change in RT represents a change in working memory processing speed of positive and negative pictures after sleep deprivation. Tempesta et al. (<xref rid="jsr12744-bib-0031" ref-type="ref">2014</xref>) found improved performance to negative pictures during the night, but no effect of valence after a full night of sleep deprivation. As we found changes in RTs related to picture valence after a full night of sleep deprivation, it seems important to replicate the findings in future studies.</p>
+              <p>Both groups were less accurate and slower on the 3‐back compared with the 1‐back task, but with similar levels of omission. In addition to the impaired performance in terms of working memory accuracy, the participants in the sleep group were sleepier and less positive but not more negative, which is in line with previous research (Franzen, Buysse, Dahl, Thompson, &amp; Siegle, <xref rid="jsr12744-bib-0008" ref-type="ref">2009</xref>). A somewhat speculative interpretation of our findings is that the decreased positivity affect after sleep deprivation lowered the expectation of a rewarding stimulus (positive picture), which generated a positive prediction error associated with increased dopamine release (Schultz, <xref rid="jsr12744-bib-0029" ref-type="ref">2016</xref>).</p>
+              <p>One possible limitation of the current study is that participants in the sleep control condition as compared with those that were sleep deprived did not spend the night or the daytime before the test session under full supervision, but were asked to sleep as usual at home and were monitored by actigraphy. On the other hand, it is likely that they had better sleep than if they would have slept in the lab (Iber et al., <xref rid="jsr12744-bib-0014" ref-type="ref">2004</xref>). Moreover, they were instructed not to engage in any stressful activity 24 hrs before the test, and the 2 hrs before the start of the emotional working memory task was standardized for all participants. Although full control would have been preferable, our actigraphy data of the night before the test session indicated that subjects were compliant. Another limitation, common to much research, is that we used data from a young healthy sample (18–30 years), thus generalizing our findings to a broader age span or to an unhealthy population might be difficult. Moreover, it should be noted that we compensated the use of a between‐subjects design with a large sample size to reduce the risk of insufficient power. Because sleeping a few hours or at odd (not night) hours is also common in the general population, more research is needed to see how emotion and working memory interacts after other types of insufficient sleep and sleep disturbances compared with a full night of sleep deprivation.</p>
+              <p>To conclude, our results support the notion that sleep deprivation has detrimental effects on working memory accuracy and omission rate, and that this effect is independent of working memory load and emotional valence. Moreover, our study showed that sleep deprivation can have effects on emotional working memory processing speed that are beneficial for positive, but harmful for negative picture scenes. The findings contribute to a better understanding of how emotional valence influences working memory in sleep‐deprived individuals.</p>
+            </sec>
+            <sec sec-type="COI-statement" id="jsr12744-sec-0016">
+              <title>CONFLICT OF INTEREST</title>
+              <p>The authors have no conflict of interest to report.</p>
+            </sec>
+            <sec id="jsr12744-sec-0017">
+              <title>AUTHOR CONTRIBUTIONS</title>
+              <p>Study design: AG, TÅ, JA, HF, ML, JS; data collection: AG, JS; data analysis: AG, JS; interpretation of results: AG, TÅ, JA, HF, ML, JS; preparation of manuscript: AG, TÅ, JA, HF, ML, JS.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supporting information</title>
+              <supplementary-material content-type="local-data" id="jsr12744-sup-0001">
+                <caption>
+                  <p> </p>
+                </caption>
+                <media xlink:href="JSR-28-e12744-s001.pdf">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack id="jsr12744-sec-0015">
+              <title>ACKNOWLEDGEMENTS</title>
+              <p>This study was funded through a grant from the Riksbankens Jubileumsfond (Swedish Foundation for Humanities and Social Sciences) (P13‐0649:1). The authors also would like to thank their research assistants and colleagues for their invaluable work in conducting the study, day and night.</p>
+            </ack>
+            <ref-list content-type="cited-references" id="jsr12744-bibl-0001">
+              <title>REFERENCES</title>
+              <ref id="jsr12744-bib-0001">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0001"><string-name><surname>Åkerstedt</surname>, <given-names>T.</given-names></string-name> &amp; <string-name><surname>Gillberg</surname>, <given-names>M.</given-names></string-name> (<year>1990</year>). <article-title>Subjective and objective sleepiness in the active individual</article-title>. <source xml:lang="en">International Journal of Neuroscience</source>, <volume>1</volume>, <fpage>29</fpage>–<lpage>37</lpage>. <pub-id pub-id-type="doi">10.3109/00207459008994241</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0002">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0002"><string-name><surname>Anderson</surname>, <given-names>C.</given-names></string-name> &amp; <string-name><surname>Platten</surname>, <given-names>C. R.</given-names></string-name> (<year>2011</year>). <article-title>Sleep deprivation lowers inhibition and enhances impulsivity to negative stimuli</article-title>. <source xml:lang="en">Behavioral Brain Research</source>, <volume>217</volume>, <fpage>463</fpage>–<lpage>466</lpage>. <pub-id pub-id-type="doi">10.1016/j.bbr.2010.09.020</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0003">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0003"><string-name><surname>Bates</surname>, <given-names>D. M.</given-names></string-name>, <string-name><surname>Maechler</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Bolker</surname>, <given-names>B.</given-names></string-name>, &amp; <string-name><surname>Walker</surname>, <given-names>S.</given-names></string-name> (<year>2015</year>). <article-title>Fitting linear mixed‐effects models using lme4</article-title>. <source xml:lang="en">Journal of Statistical Software</source>, <volume>67</volume>, <fpage>1</fpage>–<lpage>48</lpage>.</mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0004">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0004"><string-name><surname>Chuah</surname>, <given-names>L. Y. M.</given-names></string-name>, <string-name><surname>Dolcos</surname>, <given-names>F.</given-names></string-name>, <string-name><surname>Chen</surname>, <given-names>A. K.</given-names></string-name>, <string-name><surname>Zheng</surname>, <given-names>H.</given-names></string-name>, <string-name><surname>Parimal</surname>, <given-names>S.</given-names></string-name>, &amp; <string-name><surname>Chee</surname>, <given-names>M. W. L.</given-names></string-name> (<year>2010</year>). <article-title>Sleep deprivation and interference by emotional distracters</article-title>. <source xml:lang="en">Sleep</source>, <volume>33</volume>, <fpage>1,305</fpage>–<lpage>1,313</lpage>. <pub-id pub-id-type="doi">10.1093/sleep/33.10.1305</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0005">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0005"><string-name><surname>Cote</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Jancsar</surname>, <given-names>C.</given-names></string-name>, &amp; <string-name><surname>Hunt</surname>, <given-names>B.</given-names></string-name> (<year>2015</year>). <article-title>Event‐related neural response to emotional picture stimuli following sleep deprivation</article-title>. <source xml:lang="en">Psychology &amp; Neuroscience</source>, <volume>8</volume>, <fpage>102</fpage>–<lpage>113</lpage>. <pub-id pub-id-type="doi">10.1037/h0100354</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0006">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0006"><string-name><surname>DeVaan</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Schreuder</surname>, <given-names>R.</given-names></string-name>, &amp; <string-name><surname>Baayen</surname>, <given-names>R. H.</given-names></string-name> (<year>2007</year>). <article-title>Regular morphologically complex neologisms leave detectable traces in the mental lexicon</article-title>. <source xml:lang="en">The Mental Lexicon</source>, <volume>2</volume>, <fpage>1</fpage>–<lpage>23</lpage>. <pub-id pub-id-type="doi">10.1075/ml.2.1.02vaa</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0007">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0007"><string-name><surname>Drummond</surname>, <given-names>S. P. A.</given-names></string-name>, <string-name><surname>Brown</surname>, <given-names>G. G.</given-names></string-name>, <string-name><surname>Salamat</surname>, <given-names>J. S.</given-names></string-name>, &amp; <string-name><surname>Gillin</surname>, <given-names>J. C.</given-names></string-name> (<year>2004</year>). <article-title>Increasing task difficulty facilitates the cerebral compensatory response to total sleep deprivation</article-title>. <source xml:lang="en">Sleep</source>, <volume>27</volume>, <fpage>445</fpage>–<lpage>451</lpage>.<pub-id pub-id-type="pmid">15164897</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0008">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0008"><string-name><surname>Franzen</surname>, <given-names>P. L.</given-names></string-name>, <string-name><surname>Buysse</surname>, <given-names>D. J.</given-names></string-name>, <string-name><surname>Dahl</surname>, <given-names>R. E.</given-names></string-name>, <string-name><surname>Thompson</surname>, <given-names>W.</given-names></string-name>, &amp; <string-name><surname>Siegle</surname>, <given-names>G. J.</given-names></string-name> (<year>2009</year>). <article-title>Sleep deprivation alters pupillary reactivity to emotional stimuli in healthy young adults</article-title>. <source xml:lang="en">Biological Psychology</source>, <volume>80</volume>, <fpage>300</fpage>–<lpage>305</lpage>. <pub-id pub-id-type="doi">10.1016/j.biopsycho.2008.10.010</pub-id>
+<pub-id pub-id-type="pmid">19041689</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0009">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0009"><string-name><surname>Goldstein</surname>, <given-names>A. N.</given-names></string-name> &amp; <string-name><surname>Walker</surname>, <given-names>M. P.</given-names></string-name> (<year>2014</year>). <article-title>The role of sleep in emotional brain function</article-title>. <source xml:lang="en">Annual Review of Clinical Psychology</source>, <volume>10</volume>, <fpage>679</fpage>–<lpage>708</lpage>. <pub-id pub-id-type="doi">10.1146/annurev-clinpsy-032813-153716</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0010">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0010"><string-name><surname>Gujar</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Yoo</surname>, <given-names>S.‐S.</given-names></string-name>, <string-name><surname>Hu</surname>, <given-names>P.</given-names></string-name>, &amp; <string-name><surname>Walker</surname>, <given-names>M.</given-names></string-name> (<year>2011</year>). <article-title>Sleep deprivation amplifies reactivity of brain reward networks, biasing the appraisal of positive emotional experiences</article-title>. <source xml:lang="en">Journal of Neuroscience</source>, <volume>31</volume>, <fpage>4,466</fpage>–<lpage>4,474</lpage>. <pub-id pub-id-type="doi">10.1523/JNEUROSCI.3220-10.2011</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0011">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0011"><string-name><surname>Halekoh</surname>, <given-names>U.</given-names></string-name> &amp; <string-name><surname>Højsgaard</surname>, <given-names>S.</given-names></string-name> (<year>2014</year>). <article-title>A Kenward‐Roger approximation and parametric bootstrap methods for tests in linear mixed models ‐ The R Package pbkrtest</article-title>. <source xml:lang="en">Journal of Statistical Software</source>, <volume>59</volume>, <fpage>1</fpage>–<lpage>32</lpage>. <pub-id pub-id-type="doi">10.18637/jss.v059.i09</pub-id>
+<pub-id pub-id-type="pmid">26917999</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0012">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0012"><string-name><surname>Hautus</surname>, <given-names>M. J.</given-names></string-name> (<year>1995</year>). <article-title>Corrections for extreme proportions and their biasing effects on estimated values of d′</article-title>. <source xml:lang="en">Behavior Research Methods, Instruments, &amp; Computers</source>, <volume>27</volume>, <fpage>46</fpage>–<lpage>51</lpage>. <pub-id pub-id-type="doi">10.3758/BF03203619</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0013">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0013"><string-name><surname>Hur</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Iordan</surname>, <given-names>A. D.</given-names></string-name>, <string-name><surname>Dolcos</surname>, <given-names>F.</given-names></string-name>, &amp; <string-name><surname>Berenbaum</surname>, <given-names>H.</given-names></string-name> (<year>2016</year>). <article-title>Emotional influences on perception and working memory</article-title>. <source xml:lang="en">Cognition and Emotion</source>, <volume>9,931</volume>, <fpage>1</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1080/02699931.2016.1213703</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0014">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0014"><string-name><surname>Iber</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Redline</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Kaplan Gilpin</surname>, <given-names>A. M.</given-names></string-name>, <string-name><surname>Quan</surname>, <given-names>S. F.</given-names></string-name>, <string-name><surname>Zhang</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Gottlieb</surname>, <given-names>D. J.</given-names></string-name>, … <string-name><surname>Smith</surname>, <given-names>P.</given-names></string-name> (<year>2004</year>). <article-title>Polysomnography performed in the unattended home versus the attended laboratory setting–Sleep Heart Health Study methodology</article-title>. <source xml:lang="en">Sleep</source>, <volume>27</volume>, <fpage>536</fpage>–<lpage>540</lpage>. <pub-id pub-id-type="doi">10.1093/sleep/27.3.536</pub-id>
+<pub-id pub-id-type="pmid">15164911</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0015">
+                <mixed-citation publication-type="book" id="jsr12744-cit-0015"><string-name><surname>Lang</surname>, <given-names>P. J.</given-names></string-name>, <string-name><surname>Bradley</surname>, <given-names>M. M.</given-names></string-name>, &amp; <string-name><surname>Cuthbert</surname>, <given-names>B. N.</given-names></string-name> (<year>2008</year>). <chapter-title>International affective picture system (IAPS): Affective ratings of pictures and instruction manual. Technical Report A‐8</chapter-title>
+<publisher-name>University of Florida</publisher-name>, <publisher-loc>Gainesville, FL</publisher-loc>.</mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0016">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0016"><string-name><surname>Levens</surname>, <given-names>S. M.</given-names></string-name> &amp; <string-name><surname>Gotlib</surname>, <given-names>I. H.</given-names></string-name> (<year>2010</year>). <article-title>Updating positive and negative stimuli in working memory in depression</article-title>. <source xml:lang="en">Journal of Experimental Psychology: General</source>, <volume>139</volume>, <fpage>654</fpage>–<lpage>664</lpage>. <pub-id pub-id-type="doi">10.1037/a0020283</pub-id>
+<pub-id pub-id-type="pmid">21038984</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0017">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0017"><string-name><surname>Levens</surname>, <given-names>S. M.</given-names></string-name> &amp; <string-name><surname>Phelps</surname>, <given-names>E. A.</given-names></string-name> (<year>2008</year>). <article-title>Emotion processing effects on interference resolution in working memory</article-title>. <source xml:lang="en">Emotion</source>, <volume>8</volume>, <fpage>267</fpage>–<lpage>280</lpage>. <pub-id pub-id-type="doi">10.1037/1528-3542.8.2.267</pub-id>
+<pub-id pub-id-type="pmid">18410200</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0018">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0018"><string-name><surname>Lim</surname>, <given-names>J.</given-names></string-name> &amp; <string-name><surname>Dinges</surname>, <given-names>D. F.</given-names></string-name> (<year>2010</year>). <article-title>A meta‐analysis of the impact of short‐term sleep deprivation on cognitive variables</article-title>. <source xml:lang="en">Psychological Bulletin</source>, <volume>136</volume>, <fpage>375</fpage>–<lpage>389</lpage>. <pub-id pub-id-type="doi">10.1037/a0018883</pub-id>
+<pub-id pub-id-type="pmid">20438143</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0019">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0019"><string-name><surname>Lindström</surname>, <given-names>B. R.</given-names></string-name> &amp; <string-name><surname>Bohlin</surname>, <given-names>G.</given-names></string-name> (<year>2011</year>). <article-title>Emotion processing facilitates working memory performance</article-title>. <source xml:lang="en">Cognition and Emotion</source>, <volume>25</volume>, <fpage>1,196</fpage>–<lpage>1,204</lpage>. <pub-id pub-id-type="doi">10.1080/02699931.2010.527703</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0020">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0020"><string-name><surname>Lo</surname>, <given-names>J. C.</given-names></string-name>, <string-name><surname>Groeger</surname>, <given-names>J. A.</given-names></string-name>, <string-name><surname>Santhi</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Arbon</surname>, <given-names>E. L.</given-names></string-name>, <string-name><surname>Lazar</surname>, <given-names>A. S.</given-names></string-name>, <string-name><surname>Hasan</surname>, <given-names>S.</given-names></string-name>, … <string-name><surname>Dijk</surname>, <given-names>D.‐J.</given-names></string-name> (<year>2012</year>). <article-title>Effects of partial and acute total sleep deprivation on performance across cognitive domains, individuals and circadian phase</article-title>. <source xml:lang="en">PLoS One</source>, <volume>7</volume>, <fpage>e45987</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0045987</pub-id>
+<pub-id pub-id-type="pmid">23029352</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0021">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0021"><string-name><surname>Maccari</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Martella</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Marotta</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Sebastiani</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Banaj</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Fuentes</surname>, <given-names>L. J.</given-names></string-name>, &amp; <string-name><surname>Casagrande</surname>, <given-names>M.</given-names></string-name> (<year>2014</year>). <article-title>Effects of sleep loss on emotion recognition: A dissociation between face and word stimuli</article-title>. <source xml:lang="en">Experimental Brain Research</source>, <volume>232</volume>, <fpage>3,147</fpage>–<lpage>3,157</lpage>. <pub-id pub-id-type="doi">10.1007/s00221-014-3995-9</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0022">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0022"><string-name><surname>Macmillan</surname>, <given-names>N. A.</given-names></string-name> &amp; <string-name><surname>Kaplan</surname>, <given-names>H. L.</given-names></string-name> (<year>1985</year>). <article-title>Detection theory analysis of group data: Estimating sensitivity from average hit and false‐alarm rates</article-title>. <source xml:lang="en">Psychological Bulletin</source>, <volume>98</volume>, <fpage>185</fpage>–<lpage>199</lpage>. <pub-id pub-id-type="doi">10.1037/0033-2909.98.1.185</pub-id>
+<pub-id pub-id-type="pmid">4034817</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0023">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0023"><string-name><surname>Osaka</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Yaoi</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Minamoto</surname>, <given-names>T.</given-names></string-name>, &amp; <string-name><surname>Osaka</surname>, <given-names>N.</given-names></string-name> (<year>2013</year>). <article-title>When do negative and positive emotions modulate working memory performance?</article-title>
+<source xml:lang="en">Scientific Reports</source>, <volume>3</volume>, <fpage>1,375</fpage>
+<pub-id pub-id-type="doi">10.1038/srep01375</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0024">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0024"><string-name><surname>Peirce</surname>, <given-names>J. W.</given-names></string-name> (<year>2007</year>). <article-title>PsychoPy—Psychophysics software in Python</article-title>. <source xml:lang="en">Journal of Neuroscience Methods</source>, <volume>162</volume>, <fpage>8</fpage>–<lpage>13</lpage>. <pub-id pub-id-type="doi">10.1016/j.jneumeth.2006.11.017</pub-id>
+<pub-id pub-id-type="pmid">17254636</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0025">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0025"><string-name><surname>Perlstein</surname>, <given-names>W. M.</given-names></string-name>, <string-name><surname>Elbert</surname>, <given-names>T.</given-names></string-name>, &amp; <string-name><surname>Stenger</surname>, <given-names>V. A.</given-names></string-name> (<year>2002</year>). <article-title>Dissociation in human prefrontal cortex of affective influences on working memory‐related activity</article-title>. <source xml:lang="en">Proceedings of the National Academy of Sciences</source>, <volume>99</volume>, <fpage>1,736</fpage>–<lpage>1,741</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.241650598</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0026">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0026"><string-name><surname>Pessoa</surname>, <given-names>L.</given-names></string-name> (<year>2009</year>). <article-title>How do emotion and motivation direct executive control?</article-title>
+<source xml:lang="en">Trends in Cognitive Sciences</source>, <volume>13</volume>, <fpage>160</fpage>–<lpage>166</lpage>. <pub-id pub-id-type="doi">10.1016/j.tics.2009.01.006</pub-id>
+<pub-id pub-id-type="pmid">19285913</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0027">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0027"><string-name><surname>Pilcher</surname>, <given-names>J. J.</given-names></string-name>, <string-name><surname>Callan</surname>, <given-names>C.</given-names></string-name>, &amp; <string-name><surname>Posey</surname>, <given-names>J. L.</given-names></string-name> (<year>2015</year>). <article-title>Sleep deprivation affects reactivity to positive but not negative stimuli</article-title>. <source xml:lang="en">Journal of Psychosomatic Research</source>, <volume>79</volume>, <fpage>657</fpage>–<lpage>662</lpage>. <pub-id pub-id-type="doi">10.1016/j.jpsychores.2015.05.003</pub-id>
+<pub-id pub-id-type="pmid">26013321</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0028">
+                <mixed-citation publication-type="miscellaneous" id="jsr12744-cit-0028"><collab collab-type="authors">R Core Team</collab>
+(<year>2016</year>). <article-title>R: A Language and Environment for Statistical Computing</article-title>. Retrieved from <ext-link ext-link-type="uri" xlink:href="https://www.r-project.org/">https://www.r-project.org/</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0029">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0029"><string-name><surname>Schultz</surname>, <given-names>W.</given-names></string-name> (<year>2016</year>). <article-title>Dopamine reward prediction error coding</article-title>. <source xml:lang="en">Dialogues in Clinical Neuroscience</source>, <volume>18</volume>, <fpage>23</fpage>–<lpage>32</lpage>.<pub-id pub-id-type="pmid">27069377</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-5000">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-5000"><string-name><surname>Schwarz</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Gerhardsson</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>van Leeuwen</surname>, <given-names>W.</given-names></string-name>, et al. (<year>2018</year>). <article-title>Does sleep deprivation increase the vulnerability to acute psychosocial stress in young and older adults?</article-title><source xml:lang="en">Psychoneuroendocrinology</source>, <volume>96</volume>, <fpage>155</fpage>–<lpage>165</lpage>.<pub-id pub-id-type="pmid">29982098</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0030">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0030"><string-name><surname>Tempesta</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Couyoumdjian</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Curcio</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Moroni</surname>, <given-names>F.</given-names></string-name>, <string-name><surname>Marzano</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>DeGennaro</surname>, <given-names>L.</given-names></string-name>, &amp; <string-name><surname>Ferrara</surname>, <given-names>M.</given-names></string-name> (<year>2010</year>). <article-title>Lack of sleep affects the evaluation of emotional stimuli</article-title>. <source xml:lang="en">Brain Research Bulletin</source>, <volume>82</volume>, <fpage>104</fpage>–<lpage>108</lpage>. <pub-id pub-id-type="doi">10.1016/j.brainresbull.2010.01.014</pub-id>
+<pub-id pub-id-type="pmid">20117179</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0031">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0031"><string-name><surname>Tempesta</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>De Gennaro</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Presaghi</surname>, <given-names>F.</given-names></string-name>, &amp; <string-name><surname>Ferrara</surname>, <given-names>M.</given-names></string-name> (<year>2014</year>). <article-title>Emotional working memory during sustained wakefulness</article-title>. <source xml:lang="en">Journal of Sleep Research</source>, <volume>23</volume>, <fpage>646</fpage>–<lpage>656</lpage>. <pub-id pub-id-type="doi">10.1111/jsr.12170</pub-id>
+<pub-id pub-id-type="pmid">24905752</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0032">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0032"><string-name><surname>Tucker</surname>, <given-names>A. M.</given-names></string-name>, <string-name><surname>Whitney</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Belenky</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Hinson</surname>, <given-names>J. M.</given-names></string-name>, &amp; <string-name><surname>Van Dongen</surname>, <given-names>H. P. A.</given-names></string-name> (<year>2010</year>). <article-title>Effects of sleep deprivation on dissociated components of executive functioning</article-title>. <source xml:lang="en">Sleep</source>, <volume>33</volume>, <fpage>47</fpage>–<lpage>57</lpage>. <pub-id pub-id-type="doi">10.1093/sleep/33.1.47</pub-id>
+<pub-id pub-id-type="pmid">20120620</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0033">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0033"><string-name><surname>Van Der Helm</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Yao</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Dutt</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Rao</surname>, <given-names>V.</given-names></string-name>, <string-name><surname>Saletin</surname>, <given-names>J. M.</given-names></string-name>, &amp; <string-name><surname>Walker</surname>, <given-names>M. P.</given-names></string-name> (<year>2011</year>). <article-title>REM sleep depotentiates amygdala activity to previous emotional experiences</article-title>. <source xml:lang="en">Current Biology</source>, <volume>21</volume>, <fpage>2,029</fpage>–<lpage>2,032</lpage>. <pub-id pub-id-type="doi">10.1016/j.cub.2011.10.052</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0034">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0034"><string-name><surname>Watson</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Clark</surname>, <given-names>L. A.</given-names></string-name>, &amp; <string-name><surname>Tellegen</surname>, <given-names>A.</given-names></string-name> (<year>1988</year>). <article-title>Development and validation of brief measures of positive and negative affect: The PANAS scales</article-title>. <source xml:lang="en">Journal of Personality and Social Psychology</source>, <volume>54</volume>, <fpage>1,063</fpage>–<lpage>1,070</lpage>. <pub-id pub-id-type="doi">10.1037/0022-3514.54.6.1063</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0035">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0035"><string-name><surname>Whitney</surname>, <given-names>P.</given-names></string-name> &amp; <string-name><surname>Hinson</surname>, <given-names>J. M.</given-names></string-name> (<year>2010</year>). <article-title>Measurement of cognition in studies of sleep deprivation</article-title>. <source xml:lang="en">Progress in Brain Research</source>, <volume>185</volume>, <fpage>37</fpage>–<lpage>48</lpage>.<pub-id pub-id-type="pmid">21075232</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0036">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0036"><string-name><surname>Yoo</surname>, <given-names>S.‐S.</given-names></string-name>, <string-name><surname>Gujar</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Hu</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Jolesz</surname>, <given-names>F. A.</given-names></string-name>, &amp; <string-name><surname>Walker</surname></string-name>, <string-name><given-names>M. P.</given-names></string-name> (<year>2007</year>). <article-title>The human emotional brain without sleep – a prefrontal amygdala disconnect</article-title>. <source xml:lang="en">Current Biology</source>, <volume>17</volume>, <fpage>R877</fpage>–<lpage>R878</lpage>. <pub-id pub-id-type="doi">10.1016/j.cub.2007.08.007</pub-id>
+<pub-id pub-id-type="pmid">17956744</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12744-bib-0037">
+                <mixed-citation publication-type="journal" id="jsr12744-cit-0037"><string-name><surname>Zigmond</surname>, <given-names>A. S.</given-names></string-name> &amp; <string-name><surname>Snaith</surname>, <given-names>R. P.</given-names></string-name> (<year>1983</year>). <article-title>The hospital anxiety and depression scale</article-title>. <source xml:lang="en">Acta Psychiatrica Scandinavica</source>, <volume>67</volume>, <fpage>361</fpage>–<lpage>370</lpage>. <pub-id pub-id-type="doi">10.1111/j.1600-0447.1983.tb09716.x</pub-id>
+<pub-id pub-id-type="pmid">6880820</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,2711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:07:37Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:4222599" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:4222599</identifier>
+        <datestamp>2014-11-09</datestamp>
+        <setSpec>elsevierwt</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Behav Res Ther</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Behav Res Ther</journal-id>
+              <journal-title-group>
+                <journal-title>Behaviour Research and Therapy</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0005-7967</issn>
+              <issn pub-type="epub">1873-622X</issn>
+              <publisher>
+                <publisher-name>Elsevier Science</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC4222599</article-id>
+              <article-id pub-id-type="pmcid">PMC4222599</article-id>
+              <article-id pub-id-type="pmc-uid">4222599</article-id>
+              <article-id pub-id-type="pmid">25151915</article-id>
+              <article-id pub-id-type="pii">S0005-7967(14)00113-2</article-id>
+              <article-id pub-id-type="doi">10.1016/j.brat.2014.07.010</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>First steps in using machine learning on fMRI data to predict intrusive memories of traumatic film footage</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" id="au1">
+                  <name>
+                    <surname>Clark</surname>
+                    <given-names>Ian A.</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">a</xref>
+                  <xref rid="fn1" ref-type="fn">1</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au2">
+                  <name>
+                    <surname>Niehaus</surname>
+                    <given-names>Katherine E.</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">b</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au3">
+                  <name>
+                    <surname>Duff</surname>
+                    <given-names>Eugene P.</given-names>
+                  </name>
+                  <xref rid="aff3" ref-type="aff">c</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au4">
+                  <name>
+                    <surname>Di Simplicio</surname>
+                    <given-names>Martina C.</given-names>
+                  </name>
+                  <xref rid="aff4" ref-type="aff">d</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au5">
+                  <name>
+                    <surname>Clifford</surname>
+                    <given-names>Gari D.</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">b</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au6">
+                  <name>
+                    <surname>Smith</surname>
+                    <given-names>Stephen M.</given-names>
+                  </name>
+                  <xref rid="aff3" ref-type="aff">c</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au7">
+                  <name>
+                    <surname>Mackay</surname>
+                    <given-names>Clare E.</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">a</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au8">
+                  <name>
+                    <surname>Woolrich</surname>
+                    <given-names>Mark W.</given-names>
+                  </name>
+                  <xref rid="aff5" ref-type="aff">e</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au9">
+                  <name>
+                    <surname>Holmes</surname>
+                    <given-names>Emily A.</given-names>
+                  </name>
+                  <email>emily.holmes@mrc-cbu.cam.ac.uk</email>
+                  <xref rid="aff4" ref-type="aff">d</xref>
+                  <xref rid="aff6" ref-type="aff">f</xref>
+                  <xref rid="cor1" ref-type="corresp">∗</xref>
+                </contrib>
+                <aff id="aff1"><label>a</label>University Department of Psychiatry, Warneford Hospital, University of Oxford, United Kingdom</aff>
+                <aff id="aff2"><label>b</label>Institute of Biomedical Engineering, Department of Engineering Science, University of Oxford, United Kingdom</aff>
+                <aff id="aff3"><label>c</label>FMRIB Centre, Nuffield Department of Clinical Neurosciences, John Radcliffe Hospital, University of Oxford, United Kingdom</aff>
+                <aff id="aff4"><label>d</label>Medical Research Council Cognition and Brain Sciences Unit, 15 Chaucer Road, Cambridge CB2 7EF, United Kingdom</aff>
+                <aff id="aff5"><label>e</label>Oxford Centre for Human Brain Activity (OHBA), Department of Psychiatry, Warneford Hospital, University of Oxford, United Kingdom</aff>
+                <aff id="aff6"><label>f</label>Department of Clinical Neuroscience, Karolinska Institutet, Stockholm, Sweden</aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="cor1"><label>∗</label>Corresponding author. <email>emily.holmes@mrc-cbu.cam.ac.uk</email></corresp>
+                <fn id="fn1">
+                  <label>1</label>
+                  <p id="ntpara0010">Present address: Wellcome Trust Centre for Neuroimaging, Institute of Neurology, University College London, 12 Queen Square, London WC1N 3BG, United Kingdom.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="pmc-release">
+                <day>1</day>
+                <month>11</month>
+                <year>2014</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="ppub">.-->
+              <pub-date pub-type="ppub">
+                <month>11</month>
+                <year>2014</year>
+              </pub-date>
+              <volume>62</volume>
+              <fpage>37</fpage>
+              <lpage>46</lpage>
+              <history>
+                <date date-type="received">
+                  <day>31</day>
+                  <month>3</month>
+                  <year>2014</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>4</day>
+                  <month>7</month>
+                  <year>2014</year>
+                </date>
+                <date date-type="accepted">
+                  <day>16</day>
+                  <month>7</month>
+                  <year>2014</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2014 The Authors</copyright-statement>
+                <copyright-year>2014</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/3.0/</ali:license_ref>
+                  <license-p>This work is licensed under a <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="abs0010">
+                <p>After psychological trauma, why do some only some parts of the traumatic event return as intrusive memories while others do not? Intrusive memories are key to cognitive behavioural treatment for post-traumatic stress disorder, and an aetiological understanding is warranted. We present here analyses using multivariate pattern analysis (MVPA) and a machine learning classifier to investigate whether peri-traumatic brain activation was able to <italic>predict</italic> later intrusive memories (i.e. before they had happened). To provide a methodological basis for understanding the context of the current results, we first show how functional magnetic resonance imaging (fMRI) <italic>during</italic> an experimental analogue of trauma (a trauma film) via a prospective event-related design was able to capture an individual's later intrusive memories. Results showed widespread increases in brain activation at encoding when viewing a scene in the scanner that would later return as an intrusive memory in the real world. These fMRI results were replicated in a second study. While traditional mass univariate regression analysis highlighted an association between brain processing and symptomatology, this is not the same as prediction. Using MVPA and a machine learning classifier, it was possible to predict later intrusive memories across participants with 68% accuracy, and within a participant with 97% accuracy; i.e. the classifier could identify out of multiple scenes those that would later return as an intrusive memory. We also report here brain networks key in intrusive memory prediction. MVPA opens the possibility of decoding brain activity to reconstruct idiosyncratic cognitive events with relevance to understanding and predicting mental health symptoms.</p>
+              </abstract>
+              <abstract abstract-type="author-highlights" id="abs0015">
+                <title>Highlights</title>
+                <p>
+                  <list list-type="simple" id="ulist0010">
+                    <list-item id="u0010">
+                      <label>•</label>
+                      <p id="p0010">Why only some moments within a trauma intrude while others do not is unclear.</p>
+                    </list-item>
+                    <list-item id="u0015">
+                      <label>•</label>
+                      <p id="p0015">Neuroimaging may provide further clues as to why this is the case.</p>
+                    </list-item>
+                    <list-item id="u0020">
+                      <label>•</label>
+                      <p id="p0020">Multivariate pattern analysis, a recent neuroimaging analysis tool, was able to predict intrusive memories.</p>
+                    </list-item>
+                    <list-item id="u0025">
+                      <label>•</label>
+                      <p id="p0025">Those brain networks involved in intrusive memory prediction are presented.</p>
+                    </list-item>
+                    <list-item id="u0030">
+                      <label>•</label>
+                      <p id="p0030">Multivariate pattern analysis may inform future innovation in mental health.</p>
+                    </list-item>
+                  </list>
+                </p>
+              </abstract>
+              <kwd-group id="kwrds0010">
+                <title>Keywords</title>
+                <kwd>Intrusive memories</kwd>
+                <kwd>Trauma</kwd>
+                <kwd>Flashback</kwd>
+                <kwd>MVPA</kwd>
+                <kwd>Machine learning</kwd>
+                <kwd>Functional magnetic resonance imaging</kwd>
+                <kwd>Mental imagery</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="sec1">
+              <title>Introduction</title>
+              <p id="p0035">The focus of the current paper is on using neuroimaging to understand the development of intrusive memories of trauma, that is “recurrent, involuntary and intrusive distressing memories of the traumatic event” (The Diagnostic and Statistical Manual of Mental Disorders, 5th ed.; DSM-5; <xref rid="bib2" ref-type="bibr">American Psychiatric Association, 2013</xref>). Intrusive memories are a hallmark symptom from the re-experiencing cluster of Post-Traumatic Stress Disorder (PTSD). They have previously been defined as involuntary mental images that occur in a waking state (<xref rid="bib26" ref-type="bibr">Frankel, 1994</xref>, <xref rid="bib44" ref-type="bibr">Jones et al., 2003</xref>). Thus, key features of intrusive memories are that they are involuntary rather than deliberately retrieved, i.e. apparently spontaneous (<xref rid="bib51" ref-type="bibr">Kvavilashvili, 2014</xref>); include perceptual aspects of the traumatic event, i.e. involve mental imagery rather than only verbal thought (<xref rid="bib38" ref-type="bibr">Holmes, Grey, &amp; Young, 2005</xref>); are in line with episodic and memory recall more broadly (<xref rid="bib16" ref-type="bibr">Conway, 2001</xref>), and have distressing, i.e. emotional content (<xref rid="bib29" ref-type="bibr">Hackmann, Ehlers, Speckens, &amp; Clark, 2004</xref>). For example, after a motor vehicle accident, seeing scaffolding smashing through the car windscreen (see <xref rid="bib28" ref-type="bibr">Grey and Holmes, 2008</xref>, <xref rid="bib38" ref-type="bibr">Holmes et al., 2005</xref> for further examples). In their most extreme form, re-experiencing symptoms can present as so-called dissociative ‘flashbacks’ where patients relive past events as if they are happening in the present (<xref rid="bib2" ref-type="bibr">American Psychiatric Association, 2013</xref>). In contrast, during the experience of an intrusive memory the past events are spontaneously remembered while awareness of the present is maintained.</p>
+              <p id="p0040">Due to the nature of this special issue, “<italic>How neuroscience informs behavioural treatment</italic>” within <italic>Behaviour Research and Therapy</italic>, we appreciate that many readers may not have a detailed understanding of neuroimaging terms and techniques. We therefore present a slightly longer than normal introduction to guide the reader through the steps taken before performing the main predictive analysis presented here. We first describe our initial study using traditional neuroimaging analysis techniques (<xref rid="bib4" ref-type="bibr">Bourne, Mackay, &amp; Holmes, 2013</xref>) and its subsequent replication (<xref rid="bib13" ref-type="bibr">Clark, Holmes, Woolrich, &amp; Mackay, submitted for publication</xref>). We then introduce the ideas of multivariate pattern analysis (MVPA) and machine learning, before next describing how we utilised these techniques in the current experiment. The aim of this is to provide a methodological basis for understanding the context of the current results and show that these findings are both replicable and reliable. We believe that by using neuroimaging techniques in addition to behavioural, cognitive and psychophysiological experiments we may be able to identify those neural and cognitive functions that are critical for intrusive memory formation. Understanding how intrusive memories are formed from multiple perspectives may allow future work to improve the ability to refine treatments which target the underlying mechanisms of intrusive memory (i.e. symptom) development. Indeed, by gaining the most comprehensive understanding of differences at an individual level, we may be able to open future possibilities of early screening for risk of PTSD, as well as the development of preventative approaches in the immediate aftermath of trauma and for targeted early interventions.</p>
+              <p id="p0045">We also note that many different approaches to machine learning and MVPA are evolving, including (but not limited to) Random Forest Theory (<xref rid="bib5" ref-type="bibr">Breiman, 2001</xref>), Graph theory (<xref rid="bib72" ref-type="bibr">Power et al., 2011</xref>, <xref rid="bib85" ref-type="bibr">Sporns, 2014</xref>) and Representational Similarity Analysis (<xref rid="bib49" ref-type="bibr">Kriegeskorte, Mur, &amp; Bandettini, 2008</xref>), in addition to that used here, a Support Vector Machine classifier (<xref rid="bib68" ref-type="bibr">Pereira, Mitchell, &amp; Botvinick, 2009</xref>). The current work represents only first steps in applying neuroimaging techniques to understand the neural impact of witnessing trauma and to inform behavioural treatment. We finish by exploring how such techniques might have implications for future cognitive behavioural therapy.</p>
+              <sec id="sec1.1">
+                <title>Intrusive memories and PTSD</title>
+                <p id="p0050">Most people will experience a traumatic event during the course of their lifetime and a significant minority will go on to develop PTSD (<xref rid="bib6" ref-type="bibr">Breslau et al., 1998</xref>, <xref rid="bib46" ref-type="bibr">Kessler et al., 1995</xref>). We have successful treatments for the full blown disorder, those recommended by clinical guidelines (e.g. <xref rid="bib61" ref-type="bibr">National Institute for Health and Clinical Excellence, 2005</xref>) are Cognitive Behavioural Therapy (CBT; e.g. <xref rid="bib20" ref-type="bibr">Ehlers and Clark, 2000</xref>, <xref rid="bib23" ref-type="bibr">Foa and Rothbaum, 1998</xref>) and Eye Movement Desensitisation and Reprocessing (EMDR; <xref rid="bib78" ref-type="bibr">Shapiro, 1995</xref>). However, satisfactory preventative treatments against PTSD development are lacking (<xref rid="bib76" ref-type="bibr">Roberts, Kitchiner, Kenardy, &amp; Bisson, 2009</xref>). A greater understanding of the brain mechanisms that lead to the development of intrusive memories may help guide effective preventative interventions for the early aftermath of trauma.</p>
+                <p id="p0055">We know little, in particular in terms of neuroscience, about why only certain events within a trauma return as intrusive memories when others do not. Processing at the time of trauma (peri-traumatic) is implicated in PTSD development (e.g. <xref rid="bib7" ref-type="bibr">Brewin, 2014</xref>, <xref rid="bib20" ref-type="bibr">Ehlers and Clark, 2000</xref>, <xref rid="bib66" ref-type="bibr">Ozer et al., 2003</xref>). Additionally, experimental findings implicate heightened emotional processing at the time of the event in intrusive memory development (<xref rid="bib14" ref-type="bibr">Clark et al., 2013</xref>, <xref rid="bib15" ref-type="bibr">Clark et al., 2014</xref>). Interestingly, dissociation, defined within the DSM 5 as “a disruption of and/or discontinuity in the normal integration of consciousness, memory, identity, emotion …” (<xref rid="bib2" ref-type="bibr">American Psychiatric Association, 2013</xref>, p. 291), can be a reaction to extreme emotion, and peri-traumatic dissociation has also been associated with intrusive memory formation (e.g. <xref rid="bib17" ref-type="bibr">Daniels et al., 2012</xref>, <xref rid="bib37" ref-type="bibr">Holmes et al., 2004</xref>). Seminal work on ‘flashbulb’ memories, defined as ‘memories for the circumstances in which one first learned of a very surprising and consequential (or emotionally arousing) event’ (<xref rid="bib8" ref-type="bibr">Brown &amp; Kulik, 1977</xref>) may also illuminate some of the mechanisms involved in intrusive memory formation. While flashbulb memories are a distinct phenomenon (and not exclusive to trauma, but part of autobiographical memory more generally), they may lie on a continuum with intrusive memories. Research suggests that memories that end up as flashbulb memories are psychophysiologically arousing, personally salient and unexpected and sudden (<xref rid="bib8" ref-type="bibr">Brown &amp; Kulik, 1977</xref>). Indeed, psychophysiology has been associated with intrusive memory development; at the time of viewing a specific film scene that is later recalled as an intrusive memory, heart rate has been shown to drop in comparison to the rest of film viewing (<xref rid="bib12" ref-type="bibr">Chou et al., 2014</xref>, <xref rid="bib37" ref-type="bibr">Holmes et al., 2004</xref>). Understanding the neural processes involved in intrusive memory formation adds another level of comprehension of this complex phenomenon.</p>
+              </sec>
+              <sec id="sec1.2">
+                <title>Neuroimaging and established PTSD</title>
+                <p id="p0060">The majority of studies using neuroimaging to investigate PTSD have done so once symptoms are already established in patients (<xref rid="bib25" ref-type="bibr">Francati et al., 2007</xref>, <xref rid="bib41" ref-type="bibr">Hughes and Shin, 2011</xref>, <xref rid="bib69" ref-type="bibr">Pitman et al., 2012</xref>). Neurocircuitry models suggest that PTSD is characterised by reduced activity in the ventromedial prefrontal cortex, which is associated with decision making and emotional response inhibition, and increased activation in the amygdala and other limbic areas, which are associated with emotional processing (e.g. <xref rid="bib73" ref-type="bibr">Rauch et al., 2006</xref>, <xref rid="bib74" ref-type="bibr">Rauch et al., 1998</xref>). A further recent model suggests that abnormalities in the amygdala and dorsal anterior cingulate cortex are pre-disposing, while abnormal interactions between the hippocampus and ventromedial prefrontal cortex arise after developing PTSD (<xref rid="bib1" ref-type="bibr">Admon, Milad, &amp; Hendler, 2013</xref>). While informative for understanding PTSD as a whole, these studies cannot tell us specifically about intrusive memories, that is, those events we need to target within a CBT treatment (e.g. <xref rid="bib20" ref-type="bibr">Ehlers and Clark, 2000</xref>, <xref rid="bib22" ref-type="bibr">Foa et al., 2007</xref>). Further, studying symptoms once they are already established tells us little about the neural processes involved in intrusive memory <italic>formation</italic> (aetiology).</p>
+              </sec>
+              <sec id="sec1.3">
+                <title>The trauma film paradigm: an experimental psychopathology approach</title>
+                <p id="p0065">Electronic media offers a way to use neuroimaging to investigate the brain responses to experimental analogue trauma exposure and intrusive memory formation. Recent work has examined the effects of electronic media, for example television news film footage, on the development of PTSD symptoms. Individuals exposed for prolonged hours to media footage of terrorist attacks have been shown to present higher scores on stress and trauma related symptom scales both a month after the attack (<xref rid="bib35" ref-type="bibr">Holman, Garfin, &amp; Silver, 2014</xref>) and 2–3 years after the attack (<xref rid="bib81" ref-type="bibr">Silver et al., 2013</xref>). Additionally, the DSM 5 (<xref rid="bib2" ref-type="bibr">American Psychiatric Association, 2013</xref>) now includes exposure to trauma through electronic media in the definition of a traumatic event, with the caveat that the exposure is work related. Together, this suggests that traumatic events transmitted through electronic media footage have the potential to induce PTSD-like symptomatology.</p>
+                <p id="p0070">The trauma film paradigm is widely used as an experimental analogue of psychological trauma (see <xref rid="bib36" ref-type="bibr">Holmes and Bourne, 2008</xref>, <xref rid="bib54" ref-type="bibr">Lazarus, 1964</xref>) and involves healthy participants viewing traumatic footage in line with DSM 5 criteria for a traumatic event (e.g. real life footage depicting actual or threatened death and serious injury; <xref rid="bib2" ref-type="bibr">American Psychiatric Association, 2013</xref>). The paradigm has been most commonly used in behavioural experiments. Examples include the investigation of cognitive tasks to reduce intrusive memory frequency (e.g. Tetris; <xref rid="bib39" ref-type="bibr">Holmes, James, Coode-Bate, &amp; Deeprose, 2009</xref>) or vulnerability factors for intrusive memory development (<xref rid="bib53" ref-type="bibr">Laposa and Alden, 2008</xref>, <xref rid="bib89" ref-type="bibr">Wessel et al., 2008</xref>).</p>
+                <p id="p0075">Recently, we conducted the first study, to our knowledge, to combine the trauma film paradigm with functional Magnetic Resonance Imaging (fMRI) (<xref rid="bib4" ref-type="bibr">Bourne et al., 2013</xref>; <italic>n</italic> = 22). This provided a prospective measure of the brain activation at the moment of viewing a film scene that would later return as an intrusive memory during the following week. We then replicated this experiment, finding a near identical pattern of results (<xref rid="bib13" ref-type="bibr">Clark et al., submitted for publication</xref>; <italic>n</italic> = 35). The importance of such replication studies has been particularly noted recently within the field of fMRI (e.g. <xref rid="bib11" ref-type="bibr">Carp, 2013</xref>, <xref rid="bib21" ref-type="bibr">Fletcher and Grafton, 2013</xref>).</p>
+                <p id="p0080">In these studies, unlike most fMRI designs, we could not specify our neuroimaging ‘events’ of interest in advance (i.e. the specific time within stimuli presentation when brain activation is selected to be compared to the rest of stimuli presentation). This is due to intrusive memories being highly idiosyncratic; thus we did not know which scenes in the film would return involuntarily for each individual (just as after a real trauma we do not know which moments will be the hotspots and intrude). The film was created to include 20 scenes that had previously been found to induce intrusive memories. Participants recorded their intrusive memories (defined as mental images of the film content that involuntarily come to mind) for one week in daily life using a pen-and-paper diary. From written descriptions in the intrusive memory diary, intrusions were matched to specific scenes within the film (e.g. the car rolling over the hedge hitting the boy playing football in his garden). Film scenes were then classified on an individual participant basis as either ‘Flashback scenes’ – emotional scenes that returned as an intrusive memory for that individual, or ‘Potential scenes’ – emotional scenes that did not return as an intrusive memory for that individual, but did in other participants (see <xref rid="fig1" ref-type="fig">Fig. 1</xref>). On average, 3 of the possible 20 scenes became intrusive memories for each participant; a similar frequency to the number of different events experienced as intrusions after real life trauma (<xref rid="bib28" ref-type="bibr">Grey and Holmes, 2008</xref>, <xref rid="bib38" ref-type="bibr">Holmes et al., 2005</xref>).<fig id="fig1"><label>Fig. 1</label><caption><p>Procedure diagram. Participants viewed traumatic footage while undergoing fMRI. Specific scenes in the film were determined to be ‘Possible’ scenes (scenes that had previously caused intrusive memories in other studies). As intrusive memories are idiosyncratic, Possible scenes became either ‘Flashback’ scenes or ‘Potential’ scenes for each individual. Scene type was determined for each participant retrospectively from the 1 week intrusive memory diaries.</p></caption><graphic xlink:href="gr1"/></fig></p>
+                <p id="p0085">Using a standard statistical mass univariate regression analysis approach (i.e. the analysis currently most used for fMRI data) we found that Flashback scenes, in comparison to Potential scenes, were characterised by widespread increases in brain activity including the anterior cingulate cortex, thalamus, putamen, insula, amygdala, ventral occipital cortex, left inferior frontal gyrus and bilateral middle temporal gyrus. In brief, brain regions that have previously been associated with emotional processing, visual/mental imagery and memory (see <xref rid="bib4" ref-type="bibr">Bourne et al., 2013</xref> for discussion). These results provided, to our knowledge, the first evidence of a ‘neural signature’ at the time of intrusive memory formation.</p>
+              </sec>
+              <sec id="sec1.4">
+                <title>Predicting from fMRI; multivariate pattern analysis (MVPA) and machine learning</title>
+                <p id="p0090">However, traditional univariate fMRI analysis only highlights an association of peri-traumatic brain responses with later intrusive memories <italic>across a group</italic> of individuals (see for details <xref rid="bib43" ref-type="bibr">Jezzard et al., 2001</xref>, <xref rid="bib84" ref-type="bibr">Smith et al., 2004</xref>). Additionally, traditional fMRI analysis relies on the self-report diary to identify the scene type. It would be useful to know the extent to which brain responses during exposure to analogue trauma can actually <italic>predict</italic> a specific moment of the traumatic footage that would later become an intrusive memory, for example, to inform preventative interventions against intrusive memory formation.</p>
+                <p id="p0095">Machine learning and multivariate pattern analysis (MVPA) are neuroimaging analysis techniques that can be used to measure prediction accuracy. MVPA makes use of multivariate, spatially extensive patterns of activation across the brain. The patterns of activation across these larger regions can be “learned” through approaches from the field of machine learning. Supervised machine learning techniques optimise input “features” to best separate or describe the two labelled classes of data (i.e. Flashback scene or Potential scene). These “features” are simply summary measures of some aspects of the data. It is through these optimisation steps that machine learning approaches “learn” the patterns that best describe each class of data. Once the patterns have been identified, they can be used to predict the behaviour of new, previously unseen participants. Such approaches can provide greater discriminative ability than spatially localised mass-univariate regression analyses (see for further details, <xref rid="bib33" ref-type="bibr">Haxby, 2012</xref>, <xref rid="bib34" ref-type="bibr">Haynes and Rees, 2006</xref>, <xref rid="bib57" ref-type="bibr">McIntosh and Mišić, 2013</xref>, <xref rid="bib60" ref-type="bibr">Mur et al., 2009</xref>, <xref rid="bib65" ref-type="bibr">Norman et al., 2006</xref>). Machine learning can then be used to learn these patterns of activity to accurately predict the occurrence of a new, unseen example of the same event (<xref rid="bib55" ref-type="bibr">Lemm et al., 2011</xref>, <xref rid="bib68" ref-type="bibr">Pereira et al., 2009</xref>).</p>
+                <p id="p0100">To highlight just a few examples of MVPA techniques applied to fMRI, neural patterns identified by MVPA while participants were exposed to a shock during the presentation of picture stimuli have predicted the later behavioural expression of fear memory (pupil dilation response) between 2 and 6 weeks after encoding (<xref rid="bib87" ref-type="bibr">Visser, Scholte, Beemsterboer, &amp; Kindt, 2013</xref>). Additionally, MVPA techniques have identified patterns of activation at encoding that can predict later deliberate memory recall (see <xref rid="bib75" ref-type="bibr">Rissman &amp; Wagner, 2012</xref>).</p>
+                <p id="p0105">We hypothesised that machine learning may be able to predict an intrusive memory from just the peri-traumatic brain activation. We aimed first, to investigate whether specific scenes in the film could be identified as later becoming intrusive memories solely from brain activation at the time of viewing traumatic footage by applying machine learning with MVPA. Second, we explore which brain networks are key in MVPA-based prediction of intrusive memory formation, and when the activation of these brain networks in relation to the timing of the intrusive memory scene is important.</p>
+              </sec>
+            </sec>
+            <sec id="sec2">
+              <title>Methods</title>
+              <sec id="sec2.1">
+                <title>Overview</title>
+                <p id="p0110">To investigate whether differences in brain activation during the encoding of the trauma film stimuli could predict later intrusive memories of the film, we first trained a machine learning classifier (a support vector machine, SVM) to identify the specific brain activation pattern associated with viewing a film scene that was later involuntarily recalled as an intrusive memory. To do this, the classifier was provided with the timings of the intrusions (from scenes within the original film footage) from the diary data (i.e. from the intrusion content description once we knew which section(s) of the film became an intrusive memory for a given participant). We used a SVM since this approach has been shown to be reliable across multiple studies (see <xref rid="bib59" ref-type="bibr">Mourão-Miranda et al., 2005</xref>, <xref rid="bib68" ref-type="bibr">Pereira et al., 2009</xref>). We tested a number of pre-processing and feature generation methods, as these choices have been shown to impact prediction accuracy more consistently than the choice of classifier (<xref rid="bib19" ref-type="bibr">Duff et al., 2012</xref>, <xref rid="bib50" ref-type="bibr">Ku et al., 2008</xref>).</p>
+                <p id="p0115">Following training, the SVM was used to examine novel data – i.e. brain activation data from a new participant viewing traumatic footage – to pick out the scenes(s) in the footage which would be later experienced as an intrusive memory. Accuracy of prediction was evaluated by the classifiers predictions to those events reported in the participant's diary. Analysis was performed on our previously collected fMRI data (<xref rid="bib4" ref-type="bibr">Bourne et al., 2013</xref>, <xref rid="bib13" ref-type="bibr">Clark et al., submitted for publication</xref>).</p>
+                <p id="p0120">What is key here is the prediction of which scenes in the film will later return as an intrusive memory in a <italic>new</italic> participant (something even the participant themselves cannot know at this point in time since they have not yet lived the week in which they will experience an intrusive memory). For details of the engineering aspects of the machine learning classifier development we refer the reader to <xref rid="bib62" ref-type="bibr">Niehaus et al. (2014)</xref>.</p>
+              </sec>
+              <sec id="sec2.2">
+                <title>Participants</title>
+                <p id="p0125">Participants were recruited from the local community separately for the two studies. Twenty-two participants took part in <xref rid="bib4" ref-type="bibr">Bourne et al. (2013</xref>; mean age = 22 years, SD = 3.08; 17 female), and 35 in <xref rid="bib13" ref-type="bibr">Clark et al. (submitted for publication</xref>; mean age = 22.43 years, SD = 7.58; 29 female). Inclusion criteria were: participants were aged over 18, had no metal implants, had not taken part in a similar study involving viewing traumatic footage and declared no previous or current psychiatric illness. In the <xref rid="bib13" ref-type="bibr">Clark et al. (submitted for publication)</xref> study, data could not be analysed for additionally recruited participants where 0 intrusive memories were reported in the diary (<italic>n</italic> = 2) or insufficient performance on a visual recognition memory test (<italic>n</italic> = 1). For 3 further participants the full data was not acquired due to one participant stopping the scan during film viewing, one failing to return to follow up and for one technical issues stopped the scan before film completion. Recruitment material contained information about the potentially distressing content of the film material. Ethical approval was received from NHS Oxfordshire Research Ethics Committee ‘B’ (<xref rid="bib4" ref-type="bibr">Bourne et al., 2013</xref>) and the University of Oxford Central University Research Ethics Committee (<xref rid="bib13" ref-type="bibr">Clark et al., submitted for publication</xref>). All participants provided written informed consent and were reimbursed £25 (US $40).</p>
+              </sec>
+              <sec id="sec2.3">
+                <title>Data acquisition</title>
+                <p id="p0130">fMRI imaging data were acquired on a 3-T Siemens TIM Trio System with a 12-channel head coil [voxel resolution = 3 × 3 × 3 mm<sup>3</sup>; repetition time (TR) = 3 s, echo time (TE) = 30 ms]. T1-weighted structural images were acquired for subject registration using a magnetisation prepared rapid gradient echo (MPRAGE) sequence (voxel resolution = 1 × 1 × 1 mm<sup>3</sup>; TR = 2040 ms; TE = 4.7 ms]. Field maps were obtained for <xref rid="bib13" ref-type="bibr">Clark et al. (submitted for publication)</xref> with .49 ms echo spacing and 22 ms TE.</p>
+              </sec>
+              <sec id="sec2.4">
+                <title>Pre-processing</title>
+                <p id="p0135">Data was pre-processed using FEAT (part of FSL – FMRIB's Software Library) version 6.0 (<ext-link ext-link-type="uri" xlink:href="http://www.fmrib.ox.ac.uk/fsl" id="intref0010">www.fmrib.ox.ac.uk/fsl</ext-link>). Brain extraction was performed using BET (<xref rid="bib82" ref-type="bibr">Smith, 2002</xref>). High pass filtering was applied with a 100-s cut-off and spatial smoothing with a 5 mm full width half maximum Gaussian kernel. Motion correction was applied with MCFLIRT (<xref rid="bib42" ref-type="bibr">Jenkinson, Bannister, Brady, &amp; Smith, 2002</xref>). Field map based unwarping was applied to the data from <xref rid="bib13" ref-type="bibr">Clark et al. (submitted for publication)</xref>. Independent Component Analysis (ICA) was performed on all data using MELODIC. Components likely due to noise were removed by the FSL tool FIX. Images were registered to Montreal Neurological Institute (MNI) standard space.</p>
+              </sec>
+              <sec id="sec2.5">
+                <title>The machine learning classifier</title>
+                <sec id="sec2.5.1">
+                  <title>Classifier input features</title>
+                  <p id="p0140">The raw data from an fMRI study consists of activation levels for each voxel in the brain at every time-point during the study (here, images were captured every 3 s). In order to examine patterns across wider spatial regions, a group level Independent Component Analysis (ICA) was conducted. ICA is a statistical technique that separates the brain signals into independent spatial maps, clustering areas characterised by concurrent activation. This produces independent networks of brain regions that may be activated differentially during different tasks. The group ICA performed here is different to the ICA MELODIC analysis conducted during pre-processing as it identifies regions of concurrent activity across all participants rather than for individual participants (<xref rid="bib3" ref-type="bibr">Beckmann &amp; Smith, 2004</xref>). Following ICA decomposition, the spatial independent components (ICs) were projected back onto each participant to obtain participant-specific activation levels throughout the spatial region of each IC. The number of ICs was varied to determine the optimal number for predicting flashbacks (detailed in <xref rid="bib62" ref-type="bibr">Niehaus et al., 2014</xref>). These steps produced a set of activation time-courses for each IC for each participant.</p>
+                  <p id="p0145">In order to further summarise this data across time, the average level of activation was calculated for three different time periods for each scene type (i.e., for all Flashback and all Potential scenes): the first 6 s of each scene, the remaining duration of the scene, and the 12 s following the conclusion of the scene. In other words, this produced a set of (number of ICs)*(3) values, for each participant, which were used as input features into the machine learning classifiers.</p>
+                </sec>
+                <sec id="sec2.5.2">
+                  <title>Classifier optimisation</title>
+                  <p id="p0150">The support vector machine (SVM) classifier was first optimised on the larger of the 2 data sets (<xref rid="bib13" ref-type="bibr">Clark et al., submitted for publication</xref>; 35 participants). A labelled sequence of Flashback and Potential scene time points in the film was created from the diaries for each individual participant (as each person may have different intrusions). The input features detailed above, reflecting activation across the brain, were extracted from the fMRI data during these Flashback and Potential time points (see <xref rid="bib62" ref-type="bibr">Niehaus et al., 2014</xref> for details). The SVM was then trained on this data to learn the patterns for both scene types, using a leave-one-out methodology to provide a test case: for 1 participant brain activation was not included in the training. Based upon the learned patterns of activity from all other participants, the classifier then attempted to identify the film scenes that later induced intrusive memories for the left-out participant. Identification based on brain activation patterns was the checked against the participant's diary entries (see <xref rid="fig2" ref-type="fig">Fig. 2</xref>). This leave-one-out ‘cross-validation loop’ was conducted 35 times, each one with a different participant left out of the training set. Results were averaged over the performance of the SVM on the left-out participant.<fig id="fig2"><label>Fig. 2</label><caption><p>Illustration of the prediction aspect of the machine learning analysis. a. Shows the training element of the machine learning approach. The classifier was provided with information concerning the timing of the Flashback scenes (emotional scenes that returned as a intrusive memory for that individual) and Potential scenes (emotional scenes that did not return as a intrusive memory for that individual, but did in other participants) from which to learn the patterns of brain activation for each scene type. Training was performed on all but 1 participant. b. Shows the predictive element of the machine learning approach. For the 1 participant not included in training the machine learning classifier goes through the brain activation data and attempts to identify the Flashback and Potential scenes.</p></caption><graphic xlink:href="gr2"/></fig></p>
+                  <p id="p0155">Various parameters were examined in order to optimise the predictive ability of the classifier. We compared both linear discriminant analysis and support vector machines as classifiers. Other supervised learning classifiers, such as random forests, could also have been employed, but here we limited our focus for this initial study. Due to the large number of Potential scenes in comparison to the number of Flashback scenes (approximately 5:1), we also compared various balancing techniques. Discussion of classifier optimisation is detailed in <xref rid="bib62" ref-type="bibr">Niehaus et al. (2014)</xref>.</p>
+                  <p id="p0160">As accuracy alone is not a good indicator of performance within imbalanced data sets (the classifier could achieve high accuracy by always classifying scenes as Potentials) we also assessed sensitivity. We define sensitivity here as the number of true Flashback scenes identified by the classifier out of the total number of Flashback scenes for that participant.</p>
+                  <p id="p0165">We then tested our ability to predict intrusive memories on our other data set (<xref rid="bib4" ref-type="bibr">Bourne et al., 2013</xref>; 22 participants). Given our small number of participants, this step was important to test whether prediction performance would generalise to a separate data set.</p>
+                  <p id="p0170">Finally, we investigated the ability of machine learning to predict intrusive memory formation within a single participant. This within-participant analysis used only those participants within <xref rid="bib13" ref-type="bibr">Clark et al. (submitted for publication)</xref> that experienced 4 or more different intrusive memories (<italic>n</italic> = 16; mean age 23 years, SD = 7.16; 13 female) leaving one Flashback scene and one Potential scene out for each participant. For within participant analysis, activation levels within individual voxels were used as input features. Voxels were selected with a <italic>t</italic>-test, and brain activity levels were averaged across the entire duration of each scene.</p>
+                </sec>
+              </sec>
+              <sec id="sec2.6">
+                <title>Identification of brain network functions</title>
+                <p id="p0175">Possible functions of the networks identified in the input features (i.e. the ICA components at specific time points), and the names used to describe the cognitive functions of these networks were identified from <xref rid="bib83" ref-type="bibr">Smith et al. (2009)</xref>. <xref rid="bib83" ref-type="bibr">Smith et al. (2009)</xref> utilised an online repository of published neuroimaging results containing around 30,000 participants from over 1600 published articles (the BrainMap database; <xref rid="bib24" ref-type="bibr">Fox and Lancaster, 2002</xref>, <xref rid="bib52" ref-type="bibr">Laird et al., 2005</xref>) to map behavioural tasks (and their proposed corresponding cognitive functions) onto brain regions and networks.</p>
+              </sec>
+            </sec>
+            <sec id="sec3">
+              <title>Results</title>
+              <sec id="sec3.1">
+                <title>Prediction accuracy</title>
+                <p id="p0180">In the original training data set the average accuracy of classification within each left-out participant (averaged across the training loops) was 70.1% (SE = 1.8%) with a sensitivity of 60.0% (SE = 5.9%). During replication in the second data set (<xref rid="bib4" ref-type="bibr">Bourne et al., 2013</xref>); the classifier had a leave-one-out average performance accuracy of 68.0% (SE = 2.4%) and sensitivity of 58.7% (SE = 7.0%). Within a given participant the average accuracy was 97.3% (SE = .93%) and sensitivity of 90.3% (SE = 3.07%).</p>
+                <p id="p0185">The best performance for predicting the scenes that would later become intrusive memories was found by using a linear discriminate analysis classifier with 39 independent components. It was found that predictive accuracy significantly decreased when the number of ICs was reduced to below 10 or increased to greater than 70. The best approach for managing the unbalanced class sizes was to apply an increased cost weighting for misclassifying Flashback scenes.</p>
+                <p id="p0190">The best performance for predicting which scenes would become intrusive memories within participants was with a support vector machine classifier using 1000 voxels as input features.</p>
+              </sec>
+              <sec id="sec3.2">
+                <title>Network identification</title>
+                <p id="p0195">A total of 117 input features (i.e. averaged activation across the 39 ICA brain networks during the 3 defined time points of the scenes; the initial 6 s of the scene, the remaining duration of the scene after the initial 6 s, and the 12 s post scene) contributed to intrusive memory scene prediction. Below we describe the top weighted input features of the classifier for predicting Flashback versus Potential events (i.e. the features contributing most strongly towards prediction in terms of their weighting within the classifier). We also note their possible cognitive function. While these networks are those top weighted by the classifier, this is not a statistical measure and can only provide a guide towards their predictive contribution. There are 2 components of each feature; the location in the brain (i.e. the ICA component) and the timing of activation. The top weighted input features comprise 8 ICA components, 3 of which were important for intrusive memory prediction at 2 time points (see <xref rid="fig3" ref-type="fig">Fig. 3</xref>; ICA components (a–h) are displayed according to their weighting, activation time points are displayed in brackets).<fig id="fig3"><label>Fig. 3</label><caption><p>The top weighted input features compromising 8 ICA components (a–h) and their corresponding time points (in brackets) involved in the prediction of a Flashback scene at the time of viewing traumatic footage. The ICA components are presented in the weighted order of the features used in the classifier. Features could be involved at 1 or all of 3 time points; i) the initial 6 s of the Flashback scene, ii) the remainder of the Flashback scene or iii) the 12 s post Flashback scene. Proposed functions of networks within the feature are included to provide a guide to their potential role in intrusive memory formation with names taken from <xref rid="bib83" ref-type="bibr">Smith et al. (2009)</xref>. 6 images are taken for each ICA component and are shown in the axial plane with their corresponding <italic>z</italic> coordinate. The underlying image is the Montreal Neurological Institute (MNI) 152 template, <italic>z</italic>-statistic images are thresholded at <italic>z</italic> &gt; 2.3. <italic>z</italic>-Statistic range is represented by the change in colour.</p></caption><graphic xlink:href="gr3"/></fig></p>
+                <p id="p0200">The number of ICA brain networks included in the classifier was restricted so that maximum predictive ability was obtained (increasing from 39 to 70 independent components decreased sensitivity to 47.3%, SE = 7.27). This resulted in relatively widespread brain networks rather than specific brain areas, for which it is harder to attribute a specific function.</p>
+                <p id="p0205">The highest weighted input feature (<xref rid="fig3" ref-type="fig">Fig. 3</xref>(a)), included the lingual gyrus, left hippocampus, middle temporal cortex, inferior frontal gyrus, supramarginal gyrus, left thalamus, precuneus, middle frontal cortex, left superior frontal cortex and posterior cingulate cortex. Networks within this feature (identified using <xref rid="bib83" ref-type="bibr">Smith et al., 2009</xref>) have been previously associated with Cognition–Language–Semantics, Cognition–Language–Phonology and Cognition–Memory–Explicit. Activation of this input feature was important for prediction during the remaining duration of the scene (after the initial 6 s) and the 12 s post scene.</p>
+                <p id="p0210">The next weighted feature (<xref rid="fig3" ref-type="fig">Fig. 3</xref>(b)) included the frontal orbital cortex, insula, frontal, central and parietal operculum, putamen, inferior frontal gyrus, anterior cingulate cortex, thalamus, supramarginal gyrus, middle frontal cortex, pre central cortex and the lateral occipital cortex. Networks within the feature have been associated with a number of functions termed ‘Executive Control’ in addition to Emotion, Perception–Somesthesis–Pain and Action–Inhibition (<xref rid="fig3" ref-type="fig">Fig. 3</xref>(b)). Activation of the feature was important for prediction during the initial 6 s of the scene.</p>
+                <p id="p0215">The third weighted feature (<xref rid="fig3" ref-type="fig">Fig. 3</xref>(c)), involved the thalamus, insula, central and parietal operculum, putamen, inferior frontal gyrus and the anterior and posterior cingulate cortex. Networks in these areas have been associated with Emotion and Perception–Somesthesis–Pain. The feature was predictive in the 12 s post scene.</p>
+                <p id="p0220">The fourth weighted feature (<xref rid="fig3" ref-type="fig">Fig. 3</xref>(d)) involved the lateral occipital cortex, occipital fusiform, amygdala, right putamen, right inferior frontal gyrus, right insula, right thalamus and occipital pole. Networks in the feature have been associated with Perception–Vision–Shape and Emotion. Activation levels were important for prediction during the remaining duration of the scene (after the initial 6 s) and the 12 s post scene.</p>
+                <p id="p0225">The fifth feature (<xref rid="fig3" ref-type="fig">Fig. 3</xref>(e)) predominantly involved occipital fusiform gyrus, temporal occipital fusiform gyrus, lateral occipital cortex, occipital pole and intracalcarine cortex. This network has been associated with Perception–Vision–Shape. Activation of the feature was important for prediction in the 12 s post scene.</p>
+                <p id="p0230">The sixth weighted feature (<xref rid="fig3" ref-type="fig">Fig. 3</xref>(f)) involved a wide range of regions including the parahippocampal gyrus, middle temporal cortex, right hippocampus, insula, thalamus, lingual gyrus, occipital pole, putamen, precuneus, frontal operculum, middle frontal cortex, left inferior frontal gyrus, angular gyrus, lateral occipital cortex, supramarginal gyrus and the anterior and posterior cingulate. Networks involved have been associated with Cognition–Language–Semantics, Cognition–Language–Phonology, Cognition–Memory–Explicit, Emotion, and the Default Mode Network. Activation of the feature was important for prediction during the remaining duration of the scene (after the initial 6 s).</p>
+                <p id="p0235">The seventh weighted feature (<xref rid="fig3" ref-type="fig">Fig. 3</xref>(g)) involved the insula, left parahippocampus, left hippocampus left middle temporal cortex, planum polare (part of Wernicke's area), thalamus, posterior cingulate cortex and lateral occipital cortex. Networks have been associated with Emotion and Cognition–Memory–Explicit. Activation was important during the initial 6 s of the scene and the remaining duration of the scene (after the initial 6 s).</p>
+                <p id="p0240">The final feature shown here (<xref rid="fig3" ref-type="fig">Fig. 3</xref>(h)) involved the lateral occipital cortex, amygdala, thalamus, accumbens, putamen, frontal operculum, inferior frontal gyrus, supramarginal gyrus, superior and middle frontal cortices, and the precuneus. Networks have been associated with Cognition–Language–Semantics, Cognition–Language–Phonology, Cognition–Memory–Explicit and Perception–Somesthesis–Pain. Activation of the feature was important for prediction in the 12 s post scene.</p>
+              </sec>
+            </sec>
+            <sec id="sec4">
+              <title>Discussion</title>
+              <p id="p0245">Intrusive memories are a target in CBT for Post-Traumatic Stress Disorder. This paper has presented an experimental psychopathology approach to understanding the underlying neural mechanisms of intrusive memories using recent advances in brain imaging analysis techniques. Here we show that intrusive memory formation (that is, which moments within an analogue trauma will be spontaneously recalled in the week after viewing the trauma) can be <italic>predicted</italic> solely from brain activation at the time of viewing the traumatic film footage. Intrusive memories are highly idiosyncratic; on average 3 of a possible 20 scenes within the trauma film returned as an intrusive memory, but which 3 varied according to each individual. The machine learning (Support Vector Machine) classifier, using MVPA for the input variables, was able to predict the later occurrence of a specific intrusive memory in an unseen participant from the data set with 70.1% accuracy and 60% sensitivity. This generalised to a novel data set of new participants with 68% accuracy and 58.7% sensitivity showing good replication. Further, we could predict intrusive memory development within a given participant with 97% accuracy and 90.3% sensitivity (i.e. if we know someone's brain reaction associated with intrusive memory development within the trauma trained on all their intrusions except one, we could then accurately predict a new example of intrusive memory formation – the missing intrusion).</p>
+              <p id="p0250">These results provide support for a hypothesised ‘intrusive memory signature’ within brain activation at the time of the original analogue trauma encoding (<xref rid="bib4" ref-type="bibr">Bourne et al., 2013</xref>, <xref rid="bib13" ref-type="bibr">Clark et al., submitted for publication</xref>. Our results suggest that not only is brain activation at encoding <italic>associated</italic> with the occurrence of intrusive memories, but we can measure the accuracy with which brain activity can be used to <italic>predict</italic> specific scenes that will become intrusive memories. That is, a specific pattern of brain response during trauma exposure contributes to determining if a certain moment during the trauma will be later re-experienced as an intrusive memory or not. A related effect has previously been noted in the non-clinical memory literature, called the subsequent memory effect (<xref rid="bib18" ref-type="bibr">Dobbins and Wagner, 2005</xref>, <xref rid="bib67" ref-type="bibr">Paller and Wagner, 2002</xref>, <xref rid="bib75" ref-type="bibr">Rissman and Wagner, 2012</xref>) albeit for non-intrusive types of memory.</p>
+              <p id="p0255">Our data indicate a number of brain networks where analogue peri-traumatic activation appears crucial for intrusive memory prediction. The networks used by the machine learning classifier for intrusive memory prediction are in line with neurocircuitry models of PTSD patients (<xref rid="bib1" ref-type="bibr">Admon et al., 2013</xref>, <xref rid="bib73" ref-type="bibr">Rauch et al., 2006</xref>): hyper-responsivity in the amygdala and associated limbic regions involved in emotional processing and the dorsal anterior cingulate cortex have been found in PTSD samples. These regions are also active in the networks implicated in the current machine learning analysis. In particular, increased activation in emotional processing regions was involved in 5 of our 8 top weighted networks used to predict intrusive memory formation after analogue trauma. Findings are in line with fMRI results for pre-disposing factors for later clinical PTSD symptom development (see <xref rid="bib1" ref-type="bibr">Admon et al., 2013</xref>).</p>
+              <p id="p0260">Interestingly, both our univariate and multivariate analyses highlight the involvement of possible language related networks in intrusive memory formation. This is interesting clinically since early Positron Emission Tomography (PET) studies on Vietnam veterans revealed decreased activation in Broca's area (<xref rid="bib79" ref-type="bibr">Shin et al., 1997</xref>, <xref rid="bib80" ref-type="bibr">Shin et al., 1999</xref>). As cognitive behavioural therapies are language based, further understanding of the involvement of language in intrusive sensory memory development may be relevant to optimising therapeutic interventions. Additionally, it may help us to experimentally explore why some early aftermath counselling interventions, such as critical incident stress debriefing, have been found to be harmful (<xref rid="bib76" ref-type="bibr">Roberts et al., 2009</xref>, <xref rid="bib77" ref-type="bibr">Rose et al., 2002</xref>).</p>
+              <p id="p0265">Overall, our results suggest that we were able to so-called ‘mind read’ (<xref rid="bib65" ref-type="bibr">Norman et al., 2006</xref>), or in more literal terms decode the brain activity during film viewing to identify which scenes of the film would later intrude. This new approach of using machine learning and MVPA strengthens our understanding of neural mechanisms underpinning intrusive memory formation with clinical relevance. At a general process level we can derive information from the specific brain networks predictive of intrusive memories, suggesting which cognitive functions may be most relevant for intrusive memory formation, and present possible mechanistic targets for preventative interventions. Additionally, differences at an individual level may open future possibilities of early screening for risk of PTSD development in the immediate aftermath of trauma for targeted early intervention. A trauma film paradigm with fMRI might even be developed for use prior to real trauma exposure for identifying those who may be more vulnerable to trauma generally (e.g. within army recruits or emergency personnel).</p>
+              <sec id="sec4.1">
+                <title>Future work applying machine learning and fMRI to clinical psychology more broadly</title>
+                <p id="p0270">How else may we be able to use advanced neuroimaging techniques within clinical psychology? MVPA predictive techniques may be able to use neuroimaging data to predict (among others) likelihood of illness occurrence in at-risk groups. For example, in depression, meta-analysis of fMRI studies indicates abnormal activity across various brain regions (e.g. amygdala, dorsal anterior cingulate cortex, insula) in depressed patients compared to healthy controls in response to negative stimuli (<xref rid="bib32" ref-type="bibr">Hamilton et al., 2012</xref>). Machine learning classifiers have been able to utilise these differences to predict whether participants are grouped as patients or healthy controls solely from differences in brain activity at the time of viewing sad faces (<xref rid="bib27" ref-type="bibr">Fu et al., 2008</xref>). Extending this to at-risk groups may help target resources and treatments, and possibly in the future could even aid diagnosis. Above, for example, we have suggested how our line of enquiry could be developed to aid identification those of at risk for PTSD, e.g. in emergency personnel.</p>
+                <p id="p0275">Cognitive Bias Modification (CBM) is a procedure which aims to retune dysfunctional attentional and emotional biases (e.g. <xref rid="bib9" ref-type="bibr">Browning et al., 2010</xref>, <xref rid="bib56" ref-type="bibr">Mathews and MacLeod, 2005</xref>, <xref rid="bib63" ref-type="bibr">Niles et al., 2013</xref>, <xref rid="bib88" ref-type="bibr">Waters et al., 2013</xref>). However, we lack objective methods to test whether an individual has altered their cognitive bias. If machine learning were able to classify cognitive biases it may be possible for the therapist to objectively observe whether a patient is able to modulate and reduce a cognitive bias by observing alterations in the underpinning brain response. Future studies could readily apply work to this area given the ease of studying cognitive bias modification during fMRI (<xref rid="bib10" ref-type="bibr">Browning, Holmes, Murphy, Goodwin, &amp; Harmer, 2010</xref>).</p>
+                <p id="p0280">Further work using MVPA and machine learning may be able to identify brain activity at an individual participant level. Understanding the presentation of symptoms at an individual level may help assess the effects of a treatment for that patient by performing neuroimaging before and after treatments (e.g. exposure based therapy; <xref rid="bib22" ref-type="bibr">Foa et al., 2007</xref>). MVPA techniques could compare brain response to trauma related stimuli, hypothesising that successful treatment would be signalled by a change in brain activation patterns compared to pre-treatment in those specific networks that were predictive of intrusive memory formation (e.g. as in <xref rid="bib47" ref-type="bibr">Kriegeskorte, 2009</xref>, <xref rid="bib48" ref-type="bibr">Kriegeskorte, 2011</xref>). This may also be applicable to fear extinction and return of fear; while initial fear extinction is relatively easy to induce, ensuring that the extinction remains permanent is more difficult (<xref rid="bib86" ref-type="bibr">Vervliet, Craske, &amp; Hermans, 2013</xref>). MVPA utilising the brain activations involved in extinction (e.g. recruitment of the ventromedial prefrontal cortex and hippocampus; <xref rid="bib58" ref-type="bibr">Milad et al., 2007</xref>) may be able to suggest whether a fear memory has undergone permanent extinction.</p>
+                <p id="p0285">Advanced neuroimaging techniques may provide an avenue to overcome the occasional limitations of subjective reports of symptomatology, such as in patients who are mute, or difficulties that some patients have with verbally describing their precise symptoms. For example, work outside of clinical psychology has demonstrated the potential of MVPA to identify a specific image seen by a participant undergoing fMRI (<xref rid="bib45" ref-type="bibr">Kay, Naselaris, Prenger, &amp; Gallant, 2008</xref>). After examining the brain activity associated with viewing neutral images (picture stills), of which the content was known to the computer model, the model was able to pick out, from a large set of new picture stimuli, which specific image was seen by the participant. More recently, this technique was extended to film stimuli, following the same procedure but using dynamic neutral movies (<xref rid="bib64" ref-type="bibr">Nishimoto et al., 2011</xref>). Further, by comparing brain activity identified to specific visual content and the brain activity during sleep, it has been possible to describe the content of a participant's dream (<xref rid="bib40" ref-type="bibr">Horikawa, Tamaki, Miyawaki, &amp; Kamitani, 2013</xref>).</p>
+              </sec>
+              <sec id="sec4.2">
+                <title>Methodological and conceptual limitations</title>
+                <p id="p0290">Viewing traumatic film footage is not the same as experiencing an actual trauma and findings need to be extended to clinical samples. However, we note that intrusive memories experienced after traumatic events and intrusive memories in everyday life (such as those in our experimental procedure) can be considered on a continuum (<xref rid="bib51" ref-type="bibr">Kvavilashvili, 2014</xref>). Additionally, PTSD symptoms have been reported following exposure to traumatic media footage (<xref rid="bib35" ref-type="bibr">Holman et al., 2014</xref>, <xref rid="bib81" ref-type="bibr">Silver et al., 2013</xref>). Changes to DSM 5 (<xref rid="bib2" ref-type="bibr">American Psychiatric Association, 2013</xref>) now include exposure to traumatic content via electronic media (e.g. films) as sufficient for a diagnosis when the exposure is work related which suggests, at least at times, film footage can create real PTSD symptoms.</p>
+                <p id="p0295">Additionally, we note that our study has other limitations. The number of participants was limited, reducing the extent it was possible to test different machine learning strategies. The unusual scarce-event study design meant that it was nevertheless crucial to test and optimise pre-processing and feature generation approaches on the first study participants, and then test the optimised approach on the independent sample.</p>
+                <p id="p0300">Links between brain activations and cognitive function have been made here with what is termed in the fMRI literature as ‘reverse inference’, i.e. a brain region is identified as being predictive of a later event (e.g. an intrusive memory); in other studies that region was active when participants were performing a task engaging a particular cognitive process; it is therefore likely that this cognitive process is involved in intrusive memory formation (see <xref rid="bib70" ref-type="bibr">Poldrack, 2006</xref>, <xref rid="bib71" ref-type="bibr">Poldrack, 2011</xref>). However, the problem arises as to the specificity of the identified region in that specific cognitive process – it is unlikely that a brain region has just one cognitive function. On the other hand, we note that the predictive capabilities of the machine learning are not in question, only potential interpretations of the brain regions involved.</p>
+                <p id="p0305">Finally, the DSM-5 distinguishes between intrusive memories and dissociative ‘flashbacks’. Dissociation has been studied previously in behavioural experiments using the trauma film paradigm (e.g. <xref rid="bib30" ref-type="bibr">Hagenaars and Krans, 2010</xref>, <xref rid="bib31" ref-type="bibr">Hagenaars et al., 2008</xref>, <xref rid="bib37" ref-type="bibr">Holmes et al., 2004</xref>). However, no measure of dissociation was taken in the current study and thus we could not examine any possible effects of dissociation to the current work. A continuum has been proposed ranging from involuntary autobiographical memories in everyday life to recurrent intrusive memories and in the most extreme (and rarest) form dissociative flashbacks (<xref rid="bib51" ref-type="bibr">Kvavilashvili, 2014</xref>). Investigating dissociation in combination with fMRI is therefore an important step for future work (e.g. <xref rid="bib17" ref-type="bibr">Daniels et al., 2012</xref>).</p>
+              </sec>
+            </sec>
+            <sec id="sec5">
+              <title>Conclusions</title>
+              <p id="p0310">Using machine learning and MVPA on fMRI data of trauma film encoding, we have demonstrated that peri-traumatic brain activation is able to <italic>predict</italic> moments that would later return as an intrusive memory with 68% accuracy across participants and within a given participant with 97% accuracy. Here, we make an attempt to import ideas from basic neuroscience to contribute to an area of mental health – intrusive trauma memories. We suggest certain advance neuroimaging techniques may even be developed for use in studying relatively infrequently occurring and idiosyncratic events in mental health symptomatology (such as intrusive memories) and be used to predict individual's future symptom response.</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list id="cebib0010">
+              <title>References</title>
+              <ref id="bib1">
+                <element-citation publication-type="journal" id="sref1">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Admon</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Milad</surname>
+                      <given-names>M.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hendler</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A causal model of post-traumatic stress disorder: disentangling predisposed from acquired neural abnormalities</article-title>
+                  <source>Trends in Cognitive Sciences</source>
+                  <volume>17</volume>
+                  <issue>7</issue>
+                  <year>2013</year>
+                  <fpage>337</fpage>
+                  <lpage>347</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.tics.2013.05.005</pub-id>
+                  <pub-id pub-id-type="pmid">23768722</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib2">
+                <element-citation publication-type="book" id="sref2">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>American Psychiatric Association</surname>
+                    </name>
+                  </person-group>
+                  <part-title>Diagnostic and statistical manual of mental disorders</part-title>
+                  <edition>5th ed.</edition>
+                  <year>2013</year>
+                  <publisher-name>American Psychiatric Association</publisher-name>
+                  <publisher-loc>Washington D.C.</publisher-loc>
+                </element-citation>
+              </ref>
+              <ref id="bib3">
+                <element-citation publication-type="journal" id="sref3">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beckmann</surname>
+                      <given-names>C.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Probabilistic independent component analysis for functional magnetic resonance imaging</article-title>
+                  <source>IEEE Transactions on Medical Imaging</source>
+                  <volume>23</volume>
+                  <issue>2</issue>
+                  <year>2004</year>
+                  <fpage>137</fpage>
+                  <lpage>152</lpage>
+                  <pub-id pub-id-type="doi">10.1109/tmi.2003.822821</pub-id>
+                  <pub-id pub-id-type="pmid">14964560</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib4">
+                <element-citation publication-type="journal" id="sref4">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bourne</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mackay</surname>
+                      <given-names>C.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The neural basis of flashback formation: the impact of viewing trauma</article-title>
+                  <source>Psychological Medicine</source>
+                  <volume>43</volume>
+                  <issue>7</issue>
+                  <year>2013</year>
+                  <fpage>1521</fpage>
+                  <lpage>1533</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S0033291712002358</pub-id>
+                  <pub-id pub-id-type="pmid">23171530</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib5">
+                <element-citation publication-type="journal" id="sref5">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Breiman</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Random forests</article-title>
+                  <source>Machine Learning</source>
+                  <volume>45</volume>
+                  <issue>1</issue>
+                  <year>2001</year>
+                  <fpage>5</fpage>
+                  <lpage>32</lpage>
+                  <pub-id pub-id-type="doi">10.1023/A:1010933404324</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib6">
+                <element-citation publication-type="journal" id="sref6">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Breslau</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kessler</surname>
+                      <given-names>R.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chilcoat</surname>
+                      <given-names>H.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schultz</surname>
+                      <given-names>L.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Davis</surname>
+                      <given-names>G.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Andreski</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Trauma and posttraumatic stress disorder in the community</article-title>
+                  <source>Archives of General Psychiatry</source>
+                  <volume>55</volume>
+                  <issue>7</issue>
+                  <year>1998</year>
+                  <fpage>626</fpage>
+                  <lpage>632</lpage>
+                  <pub-id pub-id-type="pmid">9672053</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib7">
+                <element-citation publication-type="journal" id="sref7">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brewin</surname>
+                      <given-names>C.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Episodic memory, perceptual memory, and their interaction: foundations for a theory of posttraumatic stress disorder</article-title>
+                  <source>Psychological Bulletin</source>
+                  <volume>140</volume>
+                  <issue>1</issue>
+                  <year>2014</year>
+                  <fpage>69</fpage>
+                  <lpage>97</lpage>
+                  <pub-id pub-id-type="doi">10.1037/a0033722</pub-id>
+                  <pub-id pub-id-type="pmid">23914721</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib8">
+                <element-citation publication-type="journal" id="sref8">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kulik</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Flashbulb memories</article-title>
+                  <source>Cognition</source>
+                  <volume>5</volume>
+                  <year>1977</year>
+                  <fpage>73</fpage>
+                  <lpage>99</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib9">
+                <element-citation publication-type="journal" id="sref9">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Browning</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Harmer</surname>
+                      <given-names>C.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The modification of attentional bias to emotional information: a review of techniques, mechanisms and relevance to emotional disorders</article-title>
+                  <source>Cognitive, Affective and Behavioral Neuroscience</source>
+                  <volume>10</volume>
+                  <issue>1</issue>
+                  <year>2010</year>
+                  <fpage>8</fpage>
+                  <lpage>20</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib10">
+                <element-citation publication-type="journal" id="sref10">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Browning</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Murphy</surname>
+                      <given-names>S.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Goodwin</surname>
+                      <given-names>G.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Harmer</surname>
+                      <given-names>C.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Lateral prefrontal cortex mediates the cognitive modification of attentional bias</article-title>
+                  <source>Biological Psychiatry</source>
+                  <volume>67</volume>
+                  <issue>10</issue>
+                  <year>2010</year>
+                  <fpage>919</fpage>
+                  <lpage>925</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.biopsych.2009.10.031</pub-id>
+                  <pub-id pub-id-type="pmid">20034617</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib11">
+                <element-citation publication-type="journal" id="sref11">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Carp</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Better living through transparency: improving the reproducibility of fMRI results through comprehensive methods reporting</article-title>
+                  <source>Cognitive, Affective, &amp; Behavioral Neuroscience</source>
+                  <volume>13</volume>
+                  <issue>3</issue>
+                  <year>2013</year>
+                  <fpage>660</fpage>
+                  <lpage>666</lpage>
+                  <pub-id pub-id-type="doi">10.3758/s13415-013-0188-0</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib12">
+                <element-citation publication-type="journal" id="sref12">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chou</surname>
+                      <given-names>C.-Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Marca</surname>
+                      <given-names>R.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Steptoe</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brewin</surname>
+                      <given-names>C.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Heart rate, startle response, and intrusive trauma memories</article-title>
+                  <source>Psychophysiology</source>
+                  <volume>51</volume>
+                  <issue>3</issue>
+                  <year>2014</year>
+                  <fpage>236</fpage>
+                  <lpage>246</lpage>
+                  <pub-id pub-id-type="doi">10.1111/psyp.12176</pub-id>
+                  <pub-id pub-id-type="pmid">24397333</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib13">
+                <mixed-citation publication-type="other" id="oref1">Clark, I. A., Holmes, E. A., Woolrich, M. W., &amp; Mackay, C. E. The neural basis of the encoding and involuntary recall of intrusive memories to traumatic footage (submitted for publication).</mixed-citation>
+              </ref>
+              <ref id="bib14">
+                <element-citation publication-type="journal" id="sref13">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Clark</surname>
+                      <given-names>I.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mackay</surname>
+                      <given-names>C.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Positive involuntary autobiographical memories: you first have to live them</article-title>
+                  <source>Consciousness and Cognition</source>
+                  <volume>22</volume>
+                  <issue>2</issue>
+                  <year>2013</year>
+                  <fpage>402</fpage>
+                  <lpage>406</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.concog.2013.01.008</pub-id>
+                  <pub-id pub-id-type="pmid">23416539</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib15">
+                <element-citation publication-type="journal" id="sref14">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Clark</surname>
+                      <given-names>I.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mackay</surname>
+                      <given-names>C.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Low emotional response to traumatic footage is associated with an absence of analogue flashbacks: An individual participant data meta-analysis of 16 trauma film paradigm experiments</article-title>
+                  <source>Cognition and Emotion</source>
+                  <year>2014</year>
+                  <comment>Advance online publication </comment>
+                  <pub-id pub-id-type="doi">10.1080/02699931.2014.926861</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib16">
+                <element-citation publication-type="journal" id="sref15">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Conway</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sensory-perceptual episodic memory and its context: autobiographical memory</article-title>
+                  <source>Philosophical Transactions of the Royal Society of London Series B – Biological Sciences</source>
+                  <volume>356</volume>
+                  <issue>1413</issue>
+                  <year>2001</year>
+                  <fpage>1375</fpage>
+                  <lpage>1384</lpage>
+                  <pub-id pub-id-type="pmid">11571029</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib17">
+                <element-citation publication-type="journal" id="sref16">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Daniels</surname>
+                      <given-names>J.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Coupland</surname>
+                      <given-names>N.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hegadoren</surname>
+                      <given-names>K.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rowe</surname>
+                      <given-names>B.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Densmore</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Neufeld</surname>
+                      <given-names>R.W.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neural and behavioral correlates of peritraumatic dissociation in an acutely traumatized sample</article-title>
+                  <source>Journal of Clinical Psychiatry</source>
+                  <volume>73</volume>
+                  <issue>4</issue>
+                  <year>2012</year>
+                  <fpage>420</fpage>
+                  <lpage>426</lpage>
+                  <pub-id pub-id-type="doi">10.4088/JCP.10m06642</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib18">
+                <element-citation publication-type="journal" id="sref17">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dobbins</surname>
+                      <given-names>I.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wagner</surname>
+                      <given-names>A.D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Domain-general and domain-sensitive prefrontal mechanisms for recollecting events and detecting novelty</article-title>
+                  <source>Cerebral Cortex</source>
+                  <volume>15</volume>
+                  <issue>11</issue>
+                  <year>2005</year>
+                  <fpage>1768</fpage>
+                  <lpage>1778</lpage>
+                  <pub-id pub-id-type="doi">10.1093/cercor/bhi054</pub-id>
+                  <pub-id pub-id-type="pmid">15728740</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib19">
+                <element-citation publication-type="journal" id="sref18">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Duff</surname>
+                      <given-names>E.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Trachtenberg</surname>
+                      <given-names>A.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mackay</surname>
+                      <given-names>C.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Howard</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Task-driven ICA feature generation for accurate and interpretable prediction using fMRI</article-title>
+                  <source>NeuroImage</source>
+                  <volume>60</volume>
+                  <issue>1</issue>
+                  <year>2012</year>
+                  <fpage>189</fpage>
+                  <lpage>203</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2011.12.053</pub-id>
+                  <pub-id pub-id-type="pmid">22227050</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib20">
+                <element-citation publication-type="journal" id="sref19">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ehlers</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Clark</surname>
+                      <given-names>D.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A cognitive model of posttraumatic stress disorder</article-title>
+                  <source>Behaviour Research and Therapy</source>
+                  <volume>38</volume>
+                  <issue>4</issue>
+                  <year>2000</year>
+                  <fpage>319</fpage>
+                  <lpage>345</lpage>
+                  <pub-id pub-id-type="pmid">10761279</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib21">
+                <element-citation publication-type="journal" id="sref20">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fletcher</surname>
+                      <given-names>P.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grafton</surname>
+                      <given-names>S.T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Repeat after me: replication in clinical neuroimaging is critical</article-title>
+                  <source>NeuroImage: Clinical</source>
+                  <volume>2</volume>
+                  <issue>0</issue>
+                  <year>2013</year>
+                  <fpage>247</fpage>
+                  <lpage>248</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.nicl.2013.01.007</pub-id>
+                  <pub-id pub-id-type="pmid">24179778</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib22">
+                <element-citation publication-type="book" id="sref21">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Foa</surname>
+                      <given-names>E.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hembree</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rothbaum</surname>
+                      <given-names>B.O.</given-names>
+                    </name>
+                  </person-group>
+                  <part-title>Prolonged exposure therapy for PTSD: Emotional processing of traumatic experiences</part-title>
+                  <year>2007</year>
+                  <publisher-name>Oxford University Press</publisher-name>
+                  <publisher-loc>NY</publisher-loc>
+                </element-citation>
+              </ref>
+              <ref id="bib23">
+                <element-citation publication-type="book" id="sref22">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Foa</surname>
+                      <given-names>E.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rothbaum</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                  </person-group>
+                  <part-title>Treating the trauma of rape: Cognitive-behavioral therapy for PTSD</part-title>
+                  <year>1998</year>
+                  <publisher-name>Guilford Press</publisher-name>
+                  <publisher-loc>New York</publisher-loc>
+                </element-citation>
+              </ref>
+              <ref id="bib24">
+                <element-citation publication-type="journal" id="sref23">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fox</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lancaster</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mapping context and content: the BrainMap model</article-title>
+                  <source>Nature Reviews Neuroscience</source>
+                  <volume>3</volume>
+                  <issue>4</issue>
+                  <year>2002</year>
+                  <fpage>319</fpage>
+                  <lpage>321</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nrn789</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib25">
+                <element-citation publication-type="journal" id="sref24">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Francati</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vermetten</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bremner</surname>
+                      <given-names>J.D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Functional neuroimaging studies in posttraumatic stress disorder: review of current methods and findings</article-title>
+                  <source>Depression and Anxiety</source>
+                  <volume>24</volume>
+                  <issue>1</issue>
+                  <year>2007</year>
+                  <fpage>202</fpage>
+                  <lpage>218</lpage>
+                  <pub-id pub-id-type="pmid">16960853</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib26">
+                <element-citation publication-type="journal" id="sref25">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Frankel</surname>
+                      <given-names>F.H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The concept of flashbacks in historical perspective</article-title>
+                  <source>International Journal of Clinical and Experimental Hypnosis</source>
+                  <volume>42</volume>
+                  <issue>4</issue>
+                  <year>1994</year>
+                  <fpage>321</fpage>
+                  <lpage>336</lpage>
+                  <pub-id pub-id-type="doi">10.1080/00207149408409362</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib27">
+                <element-citation publication-type="journal" id="sref26">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fu</surname>
+                      <given-names>C.H.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mourao-Miranda</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Costafreda</surname>
+                      <given-names>S.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Khanna</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Marquand</surname>
+                      <given-names>A.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>S.C.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Pattern classification of sad facial processing: toward the development of neurobiological markers in depression</article-title>
+                  <source>Biological Psychiatry</source>
+                  <volume>63</volume>
+                  <issue>7</issue>
+                  <year>2008</year>
+                  <fpage>656</fpage>
+                  <lpage>662</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.biopsych.2007.08.020</pub-id>
+                  <pub-id pub-id-type="pmid">17949689</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib28">
+                <element-citation publication-type="journal" id="sref27">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Grey</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>“Hotspots” in trauma memories in the treatment of post-traumatic stress disorder: a replication</article-title>
+                  <source>Memory</source>
+                  <volume>16</volume>
+                  <issue>7</issue>
+                  <year>2008</year>
+                  <fpage>788</fpage>
+                  <lpage>796</lpage>
+                  <pub-id pub-id-type="pmid">18720224</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib29">
+                <element-citation publication-type="journal" id="sref28">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hackmann</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ehlers</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Speckens</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Clark</surname>
+                      <given-names>D.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Characteristics and content of intrusive memories in PTSD and their changes with treatment</article-title>
+                  <source>Journal of Traumatic Stress</source>
+                  <volume>17</volume>
+                  <issue>3</issue>
+                  <year>2004</year>
+                  <fpage>231</fpage>
+                  <lpage>240</lpage>
+                  <pub-id pub-id-type="pmid">15253095</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib30">
+                <element-citation publication-type="journal" id="sref29">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hagenaars</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Krans</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Trait and state dissociation in the prediction of intrusive images</article-title>
+                  <source>International Journal of Cognitive Therapy</source>
+                  <year>2010</year>
+                </element-citation>
+              </ref>
+              <ref id="bib31">
+                <element-citation publication-type="journal" id="sref30">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hagenaars</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>van Minnen</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brewin</surname>
+                      <given-names>C.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoogduin</surname>
+                      <given-names>K.A.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effect of hypnotically induced somatoform dissociation on the development of intrusions after an aversive film</article-title>
+                  <source>Cognition &amp; Emotion</source>
+                  <volume>22</volume>
+                  <issue>5</issue>
+                  <year>2008</year>
+                  <fpage>944</fpage>
+                  <lpage>963</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib32">
+                <element-citation publication-type="journal" id="sref31">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hamilton</surname>
+                      <given-names>J.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Etkin</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Furman</surname>
+                      <given-names>D.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lemus</surname>
+                      <given-names>M.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Johnson</surname>
+                      <given-names>R.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gotlib</surname>
+                      <given-names>I.H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Functional neuroimaging of major depressive disorder: a meta-analysis and new integration of base line activation and neural response data</article-title>
+                  <source>The American Journal of Psychiatry</source>
+                  <volume>169</volume>
+                  <issue>7</issue>
+                  <year>2012</year>
+                  <fpage>693</fpage>
+                  <lpage>703</lpage>
+                  <pub-id pub-id-type="pmid">22535198</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib33">
+                <element-citation publication-type="journal" id="sref32">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Haxby</surname>
+                      <given-names>J.V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Multivariate pattern analysis of fMRI: the early beginnings</article-title>
+                  <source>NeuroImage</source>
+                  <volume>62</volume>
+                  <issue>2</issue>
+                  <year>2012</year>
+                  <fpage>852</fpage>
+                  <lpage>855</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2012.03.016</pub-id>
+                  <pub-id pub-id-type="pmid">22425670</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib34">
+                <element-citation publication-type="journal" id="sref33">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Haynes</surname>
+                      <given-names>J.-D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rees</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Decoding mental states from brain activity in humans</article-title>
+                  <source>Nature Reviews Neuroscience</source>
+                  <volume>7</volume>
+                  <issue>7</issue>
+                  <year>2006</year>
+                  <fpage>523</fpage>
+                  <lpage>534</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nrn1931</pub-id>
+                  <pub-id pub-id-type="pmid">16791142</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib35">
+                <element-citation publication-type="journal" id="sref34">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Holman</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Garfin</surname>
+                      <given-names>D.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Silver</surname>
+                      <given-names>R.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Media's role in broadcasting acute stress following the Boston Marathon bombings</article-title>
+                  <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+                  <volume>111</volume>
+                  <issue>1</issue>
+                  <year>2014</year>
+                  <fpage>93</fpage>
+                  <lpage>98</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.1316265110</pub-id>
+                  <pub-id pub-id-type="pmid">24324161</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib36">
+                <element-citation publication-type="journal" id="sref35">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bourne</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Inducing and modulating intrusive emotional memories: a review of the trauma film paradigm</article-title>
+                  <source>Acta Psychologica</source>
+                  <volume>127</volume>
+                  <issue>3</issue>
+                  <year>2008</year>
+                  <fpage>553</fpage>
+                  <lpage>566</lpage>
+                  <pub-id pub-id-type="pmid">18234153</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib37">
+                <element-citation publication-type="journal" id="sref36">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brewin</surname>
+                      <given-names>C.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hennessy</surname>
+                      <given-names>R.G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Trauma films, information processing, and intrusive memory development</article-title>
+                  <source>Journal of Experimental Psychology: General</source>
+                  <volume>133</volume>
+                  <issue>1</issue>
+                  <year>2004</year>
+                  <fpage>3</fpage>
+                  <lpage>22</lpage>
+                  <pub-id pub-id-type="pmid">14979748</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib38">
+                <element-citation publication-type="journal" id="sref37">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grey</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Young</surname>
+                      <given-names>K.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Intrusive images and “hotspots” of trauma memories in posttraumatic stress disorder: an exploratory investigation of emotions and cognitive themes</article-title>
+                  <source>Journal of Behavior Therapy and Experimental Psychiatry</source>
+                  <volume>36</volume>
+                  <issue>1</issue>
+                  <year>2005</year>
+                  <fpage>3</fpage>
+                  <lpage>17</lpage>
+                  <pub-id pub-id-type="pmid">15687006</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib39">
+                <element-citation publication-type="journal" id="sref38">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>James</surname>
+                      <given-names>E.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Coode-Bate</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Deeprose</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Can playing the computer game ‘Tetris’ reduce the build-up of flashbacks for trauma? A proposal from cognitive science</article-title>
+                  <source>PLoS ONE</source>
+                  <volume>4</volume>
+                  <issue>1</issue>
+                  <year>2009</year>
+                  <fpage>e4153</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0004153</pub-id>
+                  <pub-id pub-id-type="pmid">19127289</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib40">
+                <element-citation publication-type="journal" id="sref39">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Horikawa</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tamaki</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Miyawaki</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kamitani</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neural decoding of visual imagery during sleep</article-title>
+                  <source>Science</source>
+                  <volume>340</volume>
+                  <issue>6132</issue>
+                  <year>2013</year>
+                  <fpage>639</fpage>
+                  <lpage>642</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.1234330</pub-id>
+                  <pub-id pub-id-type="pmid">23558170</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib41">
+                <element-citation publication-type="journal" id="sref40">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hughes</surname>
+                      <given-names>K.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shin</surname>
+                      <given-names>L.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Functional neuroimaging studies of post-traumatic stress disorder</article-title>
+                  <source>Expert Review of Neurotherapeutics</source>
+                  <volume>11</volume>
+                  <year>2011</year>
+                  <fpage>275</fpage>
+                  <lpage>285</lpage>
+                  <pub-id pub-id-type="doi">10.1586/ern.10.198</pub-id>
+                  <pub-id pub-id-type="pmid">21306214</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib42">
+                <element-citation publication-type="journal" id="sref41">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jenkinson</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bannister</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brady</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Improved optimization for the robust and accurate linear registration and motion correction of brain images</article-title>
+                  <source>NeuroImage</source>
+                  <volume>17</volume>
+                  <issue>2</issue>
+                  <year>2002</year>
+                  <fpage>825</fpage>
+                  <lpage>841</lpage>
+                  <pub-id pub-id-type="doi">10.1006/nimg.2002.1132</pub-id>
+                  <pub-id pub-id-type="pmid">12377157</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib43">
+                <element-citation publication-type="book" id="sref42">
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Jezzard</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Matthews</surname>
+                      <given-names>P.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Functional MRI: An introduction to methods</source>
+                  <year>2001</year>
+                  <publisher-name>Oxford University Press</publisher-name>
+                  <publisher-loc>Oxford</publisher-loc>
+                </element-citation>
+              </ref>
+              <ref id="bib44">
+                <element-citation publication-type="journal" id="sref43">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jones</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hodgins Vermaas</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>McCartney</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Beech</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Palmer</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hyams</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Flashbacks and post-traumatic stress disorder: the genesis of a 20th-century diagnosis</article-title>
+                  <source>The British Journal of Psychiatry</source>
+                  <volume>182</volume>
+                  <year>2003</year>
+                  <fpage>158</fpage>
+                  <lpage>163</lpage>
+                  <pub-id pub-id-type="doi">10.1192/bjp.02.231</pub-id>
+                  <pub-id pub-id-type="pmid">12562745</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib45">
+                <element-citation publication-type="journal" id="sref44">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kay</surname>
+                      <given-names>K.N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Naselaris</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Prenger</surname>
+                      <given-names>R.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gallant</surname>
+                      <given-names>J.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Identifying natural images from human brain activity</article-title>
+                  <source>Nature</source>
+                  <volume>452</volume>
+                  <issue>7185</issue>
+                  <year>2008</year>
+                  <fpage>352</fpage>
+                  <lpage>355</lpage>
+                  <ext-link ext-link-type="uri" xlink:href="http://www.nature.com/nature/journal/v452/n7185/suppinfo/nature06713_S1.html" id="intref0045">http://www.nature.com/nature/journal/v452/n7185/suppinfo/nature06713_S1.html</ext-link>
+                  <pub-id pub-id-type="pmid">18322462</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib46">
+                <element-citation publication-type="journal" id="sref45">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kessler</surname>
+                      <given-names>R.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sonnega</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bromet</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hughes</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nelson</surname>
+                      <given-names>C.B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Posttraumatic stress disorder in the national comorbidity survey</article-title>
+                  <source>Archives of General Psychiatry</source>
+                  <volume>52</volume>
+                  <issue>12</issue>
+                  <year>1995</year>
+                  <fpage>1048</fpage>
+                  <lpage>1060</lpage>
+                  <pub-id pub-id-type="pmid">7492257</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib47">
+                <element-citation publication-type="journal" id="sref46">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kriegeskorte</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Relating population-code representations between man, monkey, and computational models</article-title>
+                  <source>Frontiers in Neuroscience</source>
+                  <volume>3</volume>
+                  <year>2009</year>
+                  <pub-id pub-id-type="doi">10.3389/neuro.01.035.2009</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib48">
+                <element-citation publication-type="journal" id="sref47">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kriegeskorte</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Pattern-information analysis: from stimulus decoding to computational-model testing</article-title>
+                  <source>NeuroImage</source>
+                  <volume>56</volume>
+                  <issue>2</issue>
+                  <year>2011</year>
+                  <fpage>411</fpage>
+                  <lpage>421</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2011.01.061</pub-id>
+                  <pub-id pub-id-type="pmid">21281719</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib49">
+                <element-citation publication-type="journal" id="sref48">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kriegeskorte</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mur</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bandettini</surname>
+                      <given-names>P.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Representational similarity analysis – connecting the branches of systems neuroscience</article-title>
+                  <source>Frontiers in Systems Neuroscience</source>
+                  <volume>2</volume>
+                  <year>2008</year>
+                  <pub-id pub-id-type="doi">10.3389/neuro.06.004.2008</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib50">
+                <element-citation publication-type="journal" id="sref49">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ku</surname>
+                      <given-names>S.-P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gretton</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Macke</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Logothetis</surname>
+                      <given-names>N.K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparison of pattern recognition methods in classifying high-resolution BOLD signals obtained at high magnetic field in monkeys</article-title>
+                  <source>Magnetic Resonance Imaging</source>
+                  <volume>26</volume>
+                  <issue>7</issue>
+                  <year>2008</year>
+                  <fpage>1007</fpage>
+                  <lpage>1014</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.mri.2008.02.016</pub-id>
+                  <pub-id pub-id-type="pmid">18691999</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib51">
+                <element-citation publication-type="journal" id="sref50">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kvavilashvili</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Solving the mystery of intrusive flashbacks in posttraumatic stress disorder: comment on Brewin</article-title>
+                  <source>Psychological Bulletin</source>
+                  <volume>140</volume>
+                  <issue>1</issue>
+                  <year>2014</year>
+                  <fpage>98</fpage>
+                  <lpage>104</lpage>
+                  <pub-id pub-id-type="doi">10.1037/a0034677</pub-id>
+                  <pub-id pub-id-type="pmid">24364748</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib52">
+                <element-citation publication-type="journal" id="sref51">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Laird</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lancaster</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fox</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>BrainMap</article-title>
+                  <source>Neuroinformatics</source>
+                  <volume>3</volume>
+                  <issue>1</issue>
+                  <year>2005</year>
+                  <fpage>65</fpage>
+                  <lpage>77</lpage>
+                  <pub-id pub-id-type="doi">10.1385/ni:3:1:065</pub-id>
+                  <pub-id pub-id-type="pmid">15897617</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib53">
+                <element-citation publication-type="journal" id="sref52">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Laposa</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alden</surname>
+                      <given-names>L.E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effects of pre-existing vulnerability factors on laboratory analogue trauma experience</article-title>
+                  <source>Journal of Behavior Therapy and Experimental Psychiatry</source>
+                  <volume>39</volume>
+                  <issue>4</issue>
+                  <year>2008</year>
+                  <fpage>424</fpage>
+                  <lpage>435</lpage>
+                  <pub-id pub-id-type="pmid">18294615</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib54">
+                <element-citation publication-type="journal" id="sref53">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lazarus</surname>
+                      <given-names>R.S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A laboratory approach to the dynamics of psychological stress</article-title>
+                  <source>American Psychologist</source>
+                  <volume>19</volume>
+                  <issue>6</issue>
+                  <year>1964</year>
+                  <fpage>400</fpage>
+                  <lpage>411</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib55">
+                <element-citation publication-type="journal" id="sref54">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lemm</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Blankertz</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dickhaus</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Müller</surname>
+                      <given-names>K.-R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Introduction to machine learning for brain imaging</article-title>
+                  <source>NeuroImage</source>
+                  <volume>56</volume>
+                  <issue>2</issue>
+                  <year>2011</year>
+                  <fpage>387</fpage>
+                  <lpage>399</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2010.11.004</pub-id>
+                  <pub-id pub-id-type="pmid">21172442</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib56">
+                <element-citation publication-type="journal" id="sref55">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mathews</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>MacLeod</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cognitive vulnerability to emotional disorder</article-title>
+                  <source>Annual Review of Clinical Psychology</source>
+                  <volume>1</volume>
+                  <year>2005</year>
+                  <fpage>167</fpage>
+                  <lpage>195</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev.clinpsy.1.102803.143916</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib57">
+                <element-citation publication-type="journal" id="sref56">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McIntosh</surname>
+                      <given-names>A.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mišić</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Multivariate statistical analyses for neuroimaging data</article-title>
+                  <source>Annual Review of Psychology</source>
+                  <volume>64</volume>
+                  <issue>1</issue>
+                  <year>2013</year>
+                  <fpage>499</fpage>
+                  <lpage>525</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev-psych-113011-143804</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib58">
+                <element-citation publication-type="journal" id="sref57">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Milad</surname>
+                      <given-names>M.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wright</surname>
+                      <given-names>C.I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Orr</surname>
+                      <given-names>S.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pitman</surname>
+                      <given-names>R.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Quirk</surname>
+                      <given-names>G.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rauch</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Recall of fear extinction in humans activates the ventromedial prefrontal cortex and hippocampus in concert</article-title>
+                  <source>Biological Psychiatry</source>
+                  <volume>62</volume>
+                  <issue>5</issue>
+                  <year>2007</year>
+                  <fpage>446</fpage>
+                  <lpage>454</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.biopsych.2006.10.011</pub-id>
+                  <pub-id pub-id-type="pmid">17217927</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib59">
+                <element-citation publication-type="journal" id="sref58">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mourão-Miranda</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bokde</surname>
+                      <given-names>A.L.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Born</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hampel</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stetter</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Classifying brain states and determining the discriminating activation patterns: support vector machine on functional MRI data</article-title>
+                  <source>NeuroImage</source>
+                  <volume>28</volume>
+                  <issue>4</issue>
+                  <year>2005</year>
+                  <fpage>980</fpage>
+                  <lpage>995</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2005.06.070</pub-id>
+                  <pub-id pub-id-type="pmid">16275139</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib60">
+                <element-citation publication-type="journal" id="sref59">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mur</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bandettini</surname>
+                      <given-names>P.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kriegeskorte</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Revealing representational content with pattern-information fMRI—an introductory guide</article-title>
+                  <source>Social Cognitive and Affective Neuroscience</source>
+                  <volume>4</volume>
+                  <issue>1</issue>
+                  <year>2009</year>
+                  <fpage>101</fpage>
+                  <lpage>109</lpage>
+                  <pub-id pub-id-type="doi">10.1093/scan/nsn044</pub-id>
+                  <pub-id pub-id-type="pmid">19151374</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib61">
+                <element-citation publication-type="other" id="sref60">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>National Institute for Health and Clinical Excellence</surname>
+                    </name>
+                  </person-group>
+                  <article-title>Post-traumatic stress disorder (PTSD): the management of PTSD in adults and children in primary and secondary care</article-title>
+                  <comment>From</comment>
+                  <ext-link ext-link-type="uri" xlink:href="http://www.nice.org.uk/CG26" id="intref0075">http://www.nice.org.uk/CG26</ext-link>
+                  <year>2005</year>
+                </element-citation>
+              </ref>
+              <ref id="bib62">
+                <element-citation publication-type="book" id="sref61">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Niehaus</surname>
+                      <given-names>K.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Clark</surname>
+                      <given-names>I.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bourne</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mackay</surname>
+                      <given-names>C.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                  </person-group>
+                  <part-title>MVPA to enhance the study of rare cognitive events: An investigation of experimental PTSD</part-title>
+                  <year>2014</year>
+                  <comment>Paper presented at the Pattern Recognition in Neuroimaging, Tubingen, Germany</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib63">
+                <element-citation publication-type="journal" id="sref62">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Niles</surname>
+                      <given-names>A.N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mesri</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Burklund</surname>
+                      <given-names>L.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lieberman</surname>
+                      <given-names>M.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Craske</surname>
+                      <given-names>M.G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Attentional bias and emotional reactivity as predictors and moderators of behavioral treatment for social phobia</article-title>
+                  <source>Behaviour Research and Therapy</source>
+                  <volume>51</volume>
+                  <issue>10</issue>
+                  <year>2013</year>
+                  <fpage>669</fpage>
+                  <lpage>679</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.brat.2013.06.005</pub-id>
+                  <pub-id pub-id-type="pmid">23933107</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib64">
+                <element-citation publication-type="journal" id="sref63">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nishimoto</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vu</surname>
+                      <given-names>An T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Naselaris</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Benjamini</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gallant</surname>
+                      <given-names>J.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Reconstructing visual experiences from brain activity evoked by natural movies</article-title>
+                  <source>Current Biology</source>
+                  <volume>21</volume>
+                  <issue>19</issue>
+                  <year>2011</year>
+                  <fpage>1641</fpage>
+                  <lpage>1646</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cub.2011.08.031</pub-id>
+                  <pub-id pub-id-type="pmid">21945275</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib65">
+                <element-citation publication-type="journal" id="sref64">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Norman</surname>
+                      <given-names>K.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Polyn</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Detre</surname>
+                      <given-names>G.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Haxby</surname>
+                      <given-names>J.V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Beyond mind-reading: multi-voxel pattern analysis of fMRI data</article-title>
+                  <source>Trends in Cognitive Sciences</source>
+                  <volume>10</volume>
+                  <issue>9</issue>
+                  <year>2006</year>
+                  <fpage>424</fpage>
+                  <lpage>430</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.tics.2006.07.005</pub-id>
+                  <pub-id pub-id-type="pmid">16899397</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib66">
+                <element-citation publication-type="journal" id="sref65">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ozer</surname>
+                      <given-names>E.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Best</surname>
+                      <given-names>S.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipsey</surname>
+                      <given-names>T.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Weiss</surname>
+                      <given-names>D.S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Predictors of posttraumatic stress disorder and symptoms in adults: a meta-analysis</article-title>
+                  <source>Psychological Bulletin</source>
+                  <volume>129</volume>
+                  <issue>1</issue>
+                  <year>2003</year>
+                  <fpage>52</fpage>
+                  <lpage>73</lpage>
+                  <pub-id pub-id-type="pmid">12555794</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib67">
+                <element-citation publication-type="journal" id="sref66">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Paller</surname>
+                      <given-names>K.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wagner</surname>
+                      <given-names>A.D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Observing the transformation of experience into memory</article-title>
+                  <source>Trends in Cognitive Science</source>
+                  <volume>6</volume>
+                  <issue>2</issue>
+                  <year>2002</year>
+                  <fpage>93</fpage>
+                  <lpage>102</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib68">
+                <element-citation publication-type="journal" id="sref67">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pereira</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mitchell</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Botvinick</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Machine learning classifiers and fMRI: a tutorial overview</article-title>
+                  <source>NeuroImage</source>
+                  <volume>45</volume>
+                  <issue>1 Suppl. 1</issue>
+                  <year>2009</year>
+                  <fpage>S199</fpage>
+                  <lpage>S209</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2008.11.007</pub-id>
+                  <pub-id pub-id-type="pmid">19070668</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib69">
+                <element-citation publication-type="journal" id="sref68">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pitman</surname>
+                      <given-names>R.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rasmusson</surname>
+                      <given-names>A.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Koenen</surname>
+                      <given-names>K.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shin</surname>
+                      <given-names>L.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Orr</surname>
+                      <given-names>S.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gilbertson</surname>
+                      <given-names>M.W.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Biological studies of post-traumatic stress disorder</article-title>
+                  <source>Nature Reviews Neuroscience</source>
+                  <volume>13</volume>
+                  <issue>11</issue>
+                  <year>2012</year>
+                  <fpage>769</fpage>
+                  <lpage>787</lpage>
+                  <pub-id pub-id-type="pmid">23047775</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib70">
+                <element-citation publication-type="journal" id="sref69">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Poldrack</surname>
+                      <given-names>R.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Can cognitive processes be inferred from neuroimaging data?</article-title>
+                  <source>Trends in Cognitive Sciences</source>
+                  <volume>10</volume>
+                  <issue>2</issue>
+                  <year>2006</year>
+                  <fpage>59</fpage>
+                  <lpage>63</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.tics.2005.12.004</pub-id>
+                  <pub-id pub-id-type="pmid">16406760</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib71">
+                <element-citation publication-type="journal" id="sref70">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Poldrack</surname>
+                      <given-names>R.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Inferring mental states from neuroimaging data: from reverse inference to large-scale decoding</article-title>
+                  <source>Neuron</source>
+                  <volume>72</volume>
+                  <issue>5</issue>
+                  <year>2011</year>
+                  <fpage>692</fpage>
+                  <lpage>697</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuron.2011.11.001</pub-id>
+                  <pub-id pub-id-type="pmid">22153367</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib72">
+                <element-citation publication-type="journal" id="sref71">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Power</surname>
+                      <given-names>J.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cohen</surname>
+                      <given-names>A.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nelson</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wig</surname>
+                      <given-names>G.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Barnes</surname>
+                      <given-names>K.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Church</surname>
+                      <given-names>J.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Functional network organization of the human brain</article-title>
+                  <source>Neuron</source>
+                  <volume>72</volume>
+                  <issue>4</issue>
+                  <year>2011</year>
+                  <fpage>665</fpage>
+                  <lpage>678</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuron.2011.09.006</pub-id>
+                  <pub-id pub-id-type="pmid">22099467</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib73">
+                <element-citation publication-type="journal" id="sref72">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rauch</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shin</surname>
+                      <given-names>L.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Phelps</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neurocircuitry models of posttraumatic stress disorder and extinction: human neuroimaging research – past, present, and future</article-title>
+                  <source>Biological Psychiatry</source>
+                  <volume>60</volume>
+                  <issue>4</issue>
+                  <year>2006</year>
+                  <fpage>376</fpage>
+                  <lpage>382</lpage>
+                  <pub-id pub-id-type="pmid">16919525</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib74">
+                <element-citation publication-type="journal" id="sref73">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rauch</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shin</surname>
+                      <given-names>L.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Whalen</surname>
+                      <given-names>P.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pitman</surname>
+                      <given-names>R.K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neuroimaging and the neuroanatomy of PTSD</article-title>
+                  <source>CNS Spectrums</source>
+                  <volume>3</volume>
+                  <issue>Suppl. 2</issue>
+                  <year>1998</year>
+                  <fpage>30</fpage>
+                  <lpage>41</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib75">
+                <element-citation publication-type="journal" id="sref74">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rissman</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wagner</surname>
+                      <given-names>A.D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Distributed representations in memory: insights from functional brain imaging</article-title>
+                  <source>Annual Review of Psychology</source>
+                  <volume>63</volume>
+                  <issue>1</issue>
+                  <year>2012</year>
+                  <fpage>101</fpage>
+                  <lpage>128</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev-psych-120710-100344</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib76">
+                <element-citation publication-type="journal" id="sref75">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>N.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kitchiner</surname>
+                      <given-names>N.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kenardy</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bisson</surname>
+                      <given-names>J.I.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Multiple session early psychological interventions for the prevention of post-traumatic stress disorder</article-title>
+                  <source>Cochrane Database of Systematic Reviews</source>
+                  <issue>3</issue>
+                  <year>2009</year>
+                  <pub-id pub-id-type="doi">10.1002/14651858.CD006869.pub2</pub-id>
+                  <ext-link ext-link-type="uri" xlink:href="http://www.mrw.interscience.wiley.com/cochrane/clsysrev/articles/CD006869/frame.html" id="intref0110">http://www.mrw.interscience.wiley.com/cochrane/clsysrev/articles/CD006869/frame.html</ext-link>
+                </element-citation>
+              </ref>
+              <ref id="bib77">
+                <element-citation publication-type="journal" id="sref76">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rose</surname>
+                      <given-names>S.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bisson</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Churchill</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wessely</surname>
+                    </name>
+                  </person-group>
+                  <article-title>Psychological debriefing for preventing post traumatic stress disorder (PTSD)</article-title>
+                  <source>Cochrane Database of Systematic Reviews</source>
+                  <issue>2</issue>
+                  <year>2002</year>
+                  <pub-id pub-id-type="doi">10.1002/14651858.CD000560</pub-id>
+                  <comment>Art. no.: CD000560</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib78">
+                <element-citation publication-type="book" id="sref77">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shapiro</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                  </person-group>
+                  <part-title>Eye movement desensitization and reprocessing: Basic principles, protocols and procedures</part-title>
+                  <year>1995</year>
+                  <publisher-name>Guilford Press</publisher-name>
+                  <publisher-loc>New York</publisher-loc>
+                </element-citation>
+              </ref>
+              <ref id="bib79">
+                <element-citation publication-type="journal" id="sref78">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shin</surname>
+                      <given-names>L.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kosslyn</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>McNally</surname>
+                      <given-names>R.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alpert</surname>
+                      <given-names>N.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Thompson</surname>
+                      <given-names>W.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rauch</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Visual imagery and perception in posttraumatic stress disorder. A positron emission tomographic investigation</article-title>
+                  <source>Archives of General Psychiatry</source>
+                  <volume>54</volume>
+                  <issue>3</issue>
+                  <year>1997</year>
+                  <fpage>233</fpage>
+                  <lpage>241</lpage>
+                  <pub-id pub-id-type="pmid">9075464</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib80">
+                <element-citation publication-type="journal" id="sref79">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shin</surname>
+                      <given-names>L.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>McNally</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kosslyn</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Thompson</surname>
+                      <given-names>W.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rauch</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alpert</surname>
+                      <given-names>N.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Regional cerebral blood flow during script-driven imagery in childhood sexual abuse-related PTSD: a PET investigation</article-title>
+                  <source>American Journal of Psychiatry</source>
+                  <volume>156</volume>
+                  <issue>4</issue>
+                  <year>1999</year>
+                  <fpage>575</fpage>
+                  <lpage>584</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib81">
+                <element-citation publication-type="journal" id="sref80">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Silver</surname>
+                      <given-names>R.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Holman</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersen</surname>
+                      <given-names>J.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Poulin</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>McIntosh</surname>
+                      <given-names>D.N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gil-Rivas</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mental- and physical-health effects of acute exposure to media images of the September 11, 2001, attacks and the Iraq war</article-title>
+                  <source>Psychological Science</source>
+                  <volume>24</volume>
+                  <issue>9</issue>
+                  <year>2013</year>
+                  <fpage>1623</fpage>
+                  <lpage>1634</lpage>
+                  <pub-id pub-id-type="doi">10.1177/0956797612460406</pub-id>
+                  <pub-id pub-id-type="pmid">23907546</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib82">
+                <element-citation publication-type="journal" id="sref81">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Fast robust automated brain extraction</article-title>
+                  <source>Human Brain Mapping</source>
+                  <volume>17</volume>
+                  <issue>3</issue>
+                  <year>2002</year>
+                  <fpage>143</fpage>
+                  <lpage>155</lpage>
+                  <pub-id pub-id-type="doi">10.1002/hbm.10062</pub-id>
+                  <pub-id pub-id-type="pmid">12391568</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib83">
+                <element-citation publication-type="journal" id="sref82">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fox</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Glahn</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fox</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mackay</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Correspondence of the brain's functional architecture during activation and rest</article-title>
+                  <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+                  <volume>106</volume>
+                  <issue>31</issue>
+                  <year>2009</year>
+                  <fpage>13040</fpage>
+                  <lpage>13045</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.0905267106</pub-id>
+                  <comment>citeulike-article-id: 5282790</comment>
+                  <pub-id pub-id-type="pmid">19620724</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib84">
+                <element-citation publication-type="journal" id="sref83">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jenkinson</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Woolrich</surname>
+                      <given-names>M.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Beckmann</surname>
+                      <given-names>C.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Behrens</surname>
+                      <given-names>T.E.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Johansen-Berg</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Advances in functional and structural MR image analysis and implementation as FSL</article-title>
+                  <source>NeuroImage</source>
+                  <volume>23</volume>
+                  <issue>Suppl. 1</issue>
+                  <year>2004</year>
+                  <fpage>S208</fpage>
+                  <lpage>S219</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2004.07.051</pub-id>
+                  <pub-id pub-id-type="pmid">15501092</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib85">
+                <element-citation publication-type="journal" id="sref84">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sporns</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Contributions and challenges for network models in cognitive neuroscience</article-title>
+                  <source>Nature Neuroscience</source>
+                  <volume>17</volume>
+                  <issue>5</issue>
+                  <year>2014</year>
+                  <fpage>652</fpage>
+                  <lpage>660</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nn.3690</pub-id>
+                  <pub-id pub-id-type="pmid">24686784</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib86">
+                <element-citation publication-type="journal" id="sref85">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vervliet</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Craske</surname>
+                      <given-names>M.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hermans</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Fear extinction and relapse: state of the art</article-title>
+                  <source>Annual Review of Clinical Psychology</source>
+                  <volume>9</volume>
+                  <issue>1</issue>
+                  <year>2013</year>
+                  <fpage>215</fpage>
+                  <lpage>248</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev-clinpsy-050212-185542</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib87">
+                <element-citation publication-type="journal" id="sref86">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Visser</surname>
+                      <given-names>R.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Scholte</surname>
+                      <given-names>H.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Beemsterboer</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kindt</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neural pattern similarity predicts long-term fear memory</article-title>
+                  <source>Nature Neuroscience</source>
+                  <volume>16</volume>
+                  <issue>4</issue>
+                  <year>2013</year>
+                  <fpage>388</fpage>
+                  <lpage>390</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nn.3345</pub-id>
+                  <pub-id pub-id-type="pmid">23434912</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib88">
+                <element-citation publication-type="journal" id="sref87">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Waters</surname>
+                      <given-names>A.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pittaway</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mogg</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bradley</surname>
+                      <given-names>B.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pine</surname>
+                      <given-names>D.S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Attention training towards positive stimuli in clinically anxious children</article-title>
+                  <source>Developmental Cognitive Neuroscience</source>
+                  <volume>4</volume>
+                  <issue>0</issue>
+                  <year>2013</year>
+                  <fpage>77</fpage>
+                  <lpage>84</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.dcn.2012.09.004</pub-id>
+                  <pub-id pub-id-type="pmid">23063461</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib89">
+                <element-citation publication-type="journal" id="sref88">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wessel</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Overwijk</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Verwoerd</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>de Vrieze</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Pre-stressor cognitive control is related to intrusive cognition of a stressful film</article-title>
+                  <source>Behavioural Research and Therapy</source>
+                  <volume>46</volume>
+                  <issue>4</issue>
+                  <year>2008</year>
+                  <fpage>496</fpage>
+                  <lpage>513</lpage>
+                </element-citation>
+              </ref>
+            </ref-list>
+            <ack id="ack0010">
+              <title>Acknowledgements</title>
+              <p id="p0315">Ian Clark is supported by a <funding-source id="gs1">United Kingdom Medical Research Council Centenary Early Career Award</funding-source>. Katherine Niehaus is supported by the <funding-source id="gs2">Rhodes Trust</funding-source> and the <funding-source id="gs3">RCUK Digital Economy Programme</funding-source> [EP/G036861/1]. Mark Woolrich is supported by the <funding-source id="gs4"><institution-wrap><institution-id institution-id-type="doi">10.13039/100004440</institution-id><institution>Wellcome Trust</institution></institution-wrap></funding-source>; the <funding-source id="gs5">MRC/EPSRC UK MEG Partnership award</funding-source>. Emily Holmes is supported by the <funding-source id="gs6">United Kingdom Medical Research Council intramural programme</funding-source> [MC-A060-5PR50]; a <funding-source id="gs7">Wellcome Trust Clinical Fellowship</funding-source> [WT088217]. Clare Mackay, Emily Holmes, Mark Woolrich are supported by the <funding-source id="gs8">National Institute for Health Research (NIHR) Oxford Biomedical Research Programme</funding-source>. The views expressed are those of the author(s) and not necessarily those of the Rhodes Trust, RCUK, NHS, NIHR or the Department of Health. Funding to pay the Open Access publication charges for this article are provided by the United Kingdom Medical Research Council. None of the authors have any financial interest or benefit arising from the direct applications of their research.</p>
+            </ack>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

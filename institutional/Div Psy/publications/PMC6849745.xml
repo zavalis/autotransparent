@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:04:10Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6849745" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6849745</identifier>
+        <datestamp>2019-11-15</datestamp>
+        <setSpec>blackwellopen</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">J Sleep Res</journal-id>
+              <journal-id journal-id-type="iso-abbrev">J Sleep Res</journal-id>
+              <journal-id journal-id-type="doi">10.1111/(ISSN)1365-2869</journal-id>
+              <journal-id journal-id-type="publisher-id">JSR</journal-id>
+              <journal-title-group>
+                <journal-title>Journal of Sleep Research</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0962-1105</issn>
+              <issn pub-type="epub">1365-2869</issn>
+              <publisher>
+                <publisher-name>John Wiley and Sons Inc.</publisher-name>
+                <publisher-loc>Hoboken</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6849745</article-id>
+              <article-id pub-id-type="pmcid">PMC6849745</article-id>
+              <article-id pub-id-type="pmc-uid">6849745</article-id>
+              <article-id pub-id-type="pmid">30609172</article-id>
+              <article-id pub-id-type="doi">10.1111/jsr.12812</article-id>
+              <article-id pub-id-type="publisher-id">JSR12812</article-id>
+              <article-categories>
+                <subj-group subj-group-type="overline">
+                  <subject>Regular Research Paper</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Sleep, Sleep Disturbances and Exercise, Cognitive Performance and Obesity</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Short sleep—poor sleep? A polysomnographic study in a large population‐based sample of women</article-title>
+                <alt-title alt-title-type="left-running-head">ÅKERSTEDT et al.</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="jsr12812-cr-0001" contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Åkerstedt</surname>
+                    <given-names>Torbjörn</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8049-8504</contrib-id>
+                  <xref ref-type="aff" rid="jsr12812-aff-0001">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="jsr12812-aff-0002">
+                    <sup>2</sup>
+                  </xref>
+                  <address>
+                    <email>torbjorn.akerstedt@ki.se</email>
+                  </address>
+                </contrib>
+                <contrib id="jsr12812-cr-0002" contrib-type="author">
+                  <name>
+                    <surname>Schwarz</surname>
+                    <given-names>Johanna</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9873-2506</contrib-id>
+                  <xref ref-type="aff" rid="jsr12812-aff-0001">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="jsr12812-aff-0002">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib id="jsr12812-cr-0003" contrib-type="author">
+                  <name>
+                    <surname>Gruber</surname>
+                    <given-names>Georg</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="jsr12812-aff-0003">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib id="jsr12812-cr-0004" contrib-type="author">
+                  <name>
+                    <surname>Theorell‐Haglöw</surname>
+                    <given-names>Jenny</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2819-2799</contrib-id>
+                  <xref ref-type="aff" rid="jsr12812-aff-0004">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib id="jsr12812-cr-0005" contrib-type="author">
+                  <name>
+                    <surname>Lindberg</surname>
+                    <given-names>Eva</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="jsr12812-aff-0004">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="jsr12812-aff-0001">
+                <label>
+                  <sup>1</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Clinical Neuroscience</named-content>
+                <institution>Karolinska Institute</institution>
+                <city>Stockholm</city>
+                <country country="SE">Sweden</country>
+              </aff>
+              <aff id="jsr12812-aff-0002">
+                <label>
+                  <sup>2</sup>
+                </label>
+                <named-content content-type="organisation-division">Stress Research Institute</named-content>
+                <institution>Stockholm University</institution>
+                <city>Stockholm</city>
+                <country country="SE">Sweden</country>
+              </aff>
+              <aff id="jsr12812-aff-0003">
+                <label>
+                  <sup>3</sup>
+                </label>
+                <institution>The Siesta Group</institution>
+                <city>Vienna</city>
+                <country country="AT">Austria</country>
+              </aff>
+              <aff id="jsr12812-aff-0004">
+                <label>
+                  <sup>4</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Medical Sciences</named-content>
+                <named-content content-type="organisation-division">Respiratory, Allergy and Sleep Research</named-content>
+                <institution>Uppsala University</institution>
+                <city>Uppsala</city>
+                <country country="SE">Sweden</country>
+              </aff>
+              <author-notes>
+                <corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Torbjörn Åkerstedt, Department of Clinical Neuroscience, Karolinska Institute, Stockholm, Sweden.<break/>
+Email: <email>torbjorn.akerstedt@ki.se</email><break/></corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>04</day>
+                <month>1</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="ppub">
+                <month>8</month>
+                <year>2019</year>
+              </pub-date>
+              <volume>28</volume>
+              <issue>4</issue>
+              <issue-id pub-id-type="doi">10.1111/jsr.2019.28.issue-4</issue-id>
+              <elocation-id>e12812</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>19</day>
+                  <month>11</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="accepted">
+                  <day>20</day>
+                  <month>11</month>
+                  <year>2018</year>
+                </date>
+              </history>
+              <permissions>
+                <!--<copyright-statement content-type="issue-copyright"> Copyright &#x000a9; 2019 European Sleep Research Society <copyright-statement>-->
+                <copyright-statement content-type="article-copyright">© 2019 The Authors. <italic>Journal of Sleep Research</italic> published by John Wiley &amp; Sons Ltd on behalf of European Sleep Research Society.</copyright-statement>
+                <license license-type="creativeCommonsBy-nc">
+                  <license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes.</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf" xlink:href="file:JSR-28-na.pdf"/>
+              <abstract id="jsr12812-abs-0001">
+                <title>Abstract</title>
+                <p>There is a lack of studies on the association between total sleep time (<styled-content style="fixed-case" toggle="no">TST</styled-content>) and other polysomnographical parameters. A key question is whether a short sleep is an expression of habitual short sleep, or whether it reflects temporary impairment. The purpose of the present study was to investigate the association between <styled-content style="fixed-case" toggle="no">TST</styled-content> and amount of sleep stages and sleep continuity measures, in a large population‐based sample of women (<italic>n</italic> = 385), sleeping at home in a normal daily life setting. The results show that sleep efficiency, N1 (min), N2 (min), <styled-content style="fixed-case" toggle="no">REM</styled-content> (min), <styled-content style="fixed-case" toggle="no">REM</styled-content>% and proportion of long sleep segments, increased with increasing <styled-content style="fixed-case" toggle="no">TST</styled-content>, whereas the number of awakenings/hr, the number of arousals/hr, N1% and <styled-content style="fixed-case" toggle="no">REM</styled-content> intensity decreased. In addition, longer sleep was more associated with <styled-content style="fixed-case" toggle="no">TST</styled-content> being perceived as of “usual” duration and with better subjective sleep quality. <styled-content style="fixed-case" toggle="no">TST</styled-content> was not associated with habitual reported sleep duration. It was concluded that short <styled-content style="fixed-case" toggle="no">TST</styled-content> of a recorded sleep in a real‐life context may be an indicator of poor objective sleep quality for that particular sleep episode. Because individuals clearly perceived this reduction, it appears that self‐reports of poor sleep quality often may be seen as indicators of poor sleep quality. It is also concluded that <styled-content style="fixed-case" toggle="no">PSG</styled-content>‐recorded sleep duration does not reflect habitual reported sleep duration in the present real‐life context.</p>
+              </abstract>
+              <kwd-group kwd-group-type="author-generated">
+                <kwd id="jsr12812-kwd-0001">delta dominance</kwd>
+                <kwd id="jsr12812-kwd-0002">REM density</kwd>
+                <kwd id="jsr12812-kwd-0003">REM intensity</kwd>
+                <kwd id="jsr12812-kwd-0004">sleep spindles</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group id="funding-0001">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>The Swedish Research Council for Health, Working Life and Welfare </institution>
+                      <institution-id institution-id-type="open-funder-registry">10.13039/501100006636</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+                <award-group id="funding-0002">
+                  <funding-source>The Swedish Heart Lung Foundation</funding-source>
+                </award-group>
+              </funding-group>
+              <counts>
+                <fig-count count="2"/>
+                <table-count count="1"/>
+                <page-count count="7"/>
+                <word-count count="4894"/>
+              </counts>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>source-schema-version-number</meta-name>
+                  <meta-value>2.0</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>cover-date</meta-name>
+                  <meta-value>August 2019</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>details-of-publishers-convertor</meta-name>
+                  <meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.7.1 mode:remove_FC converted:12.11.2019</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+            <notes>
+              <p content-type="self-citation">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-1001"><string-name><surname>Åkerstedt</surname><given-names>T</given-names></string-name>, <string-name><surname>Schwarz</surname><given-names>J</given-names></string-name>, <string-name><surname>Gruber</surname><given-names>G</given-names></string-name>, <string-name><surname>Theorell‐Haglöw</surname><given-names>J</given-names></string-name>, <string-name><surname>Lindberg</surname><given-names>E</given-names></string-name>. <article-title>Short sleep—poor sleep? A polysomnographic study in a large population‐based sample of women</article-title>. <source xml:lang="en">J Sleep Res</source>. <year>2019</year>;<volume>28</volume>:<elocation-id>e12812</elocation-id><pub-id pub-id-type="doi">10.1111/jsr.12812</pub-id><pub-id pub-id-type="pmid">30609172</pub-id></mixed-citation>
+              </p>
+              <fn-group id="jsr12812-ntgp-0001">
+                <fn fn-type="funding" id="jsr12812-note-0001">
+                  <p>
+                    <bold>Funding information</bold>
+                  </p>
+                  <p>The study was supported by The Swedish Research Council for Health, Working Life and Welfare, and by the Swedish Heart Lung Foundation.</p>
+                </fn>
+              </fn-group>
+            </notes>
+          </front>
+          <body id="jsr12812-body-0001">
+            <sec id="jsr12812-sec-0001">
+              <label>1</label>
+              <title>INTRODUCTION</title>
+              <p>Both long and short sleep have been associated with increased mortality and a number of other health problems (Cappuccio, Cooper, D'elia, Strazzullo, &amp; Miller, <xref rid="jsr12812-bib-0011" ref-type="ref">2011</xref>; Cappuccio, D'elia, Strazzullo, &amp; Miller, <xref rid="jsr12812-bib-0012" ref-type="ref">2010a</xref>, <xref rid="jsr12812-bib-0013" ref-type="ref">2010b</xref> ; Leng et al., <xref rid="jsr12812-bib-0018" ref-type="ref">2015</xref>). Short and long sleep are also associated with obesity (Theorell‐Haglow, Berne, Janson, Sahlin, &amp; Lindberg, <xref rid="jsr12812-bib-0022" ref-type="ref">2010</xref>; Theorell‐Haglow &amp; Lindberg, <xref rid="jsr12812-bib-0023" ref-type="ref">2016</xref>).</p>
+              <p>Despite the apparent importance of sleep duration there have been very few studies describing the polysomnographical content of short and long sleep. In one study it was found that long sleepers with &gt;8.5 hr of sleep had more REM sleep, but did not differ from short sleepers with respect to minutes of slow wave sleep (SWS) (Webb &amp; Agnew, <xref rid="jsr12812-bib-0025" ref-type="ref">1970</xref>; Webb &amp; Friel, <xref rid="jsr12812-bib-0026" ref-type="ref">1970</xref>), although the published tables suggest that the percentage of SWS should have been higher among the short sleepers. It was suggested that the increased REM may be a result of the dependence of REM sleep on sleep duration. Benoit, Foret, and Bouard (<xref rid="jsr12812-bib-0009" ref-type="ref">1983</xref>) confirmed the previous findings; so did Aeschbach, Cajochen, Landolt, and Borbély (<xref rid="jsr12812-bib-0001" ref-type="ref">1996</xref>), who found equal amounts of SWS (in minutes) in short and long sleepers, but also demonstrated a significantly higher percentage in short sleepers. REM sleep was longer in long sleepers and also higher in percent. No other studies seem to be available on the polysomnography of habitual short and long sleep.</p>
+              <p>The studies of sleep duration discussed above were set in a laboratory environment, isolated from the influences of daily life, and optimized to promote sleep. These optimal sleep conditions may not be entirely representative of real‐life sleep. In addition, the participants were students and in good health. This raises the question of what sleep would look like in a representative sample, on a normal night, recorded at home, in a setting of daily life chores before and after the recorded sleep. Would long and short sleep differ in sleep continuity or sleep stage content? This is quite a different question from that of how <italic>habitual</italic> long and short sleep differ. There is no previous work on this issue, but it might be the case that short sleep could indicate poor sleep in the sense of containing much superficial sleep and/or many awakenings. This hypothesis is based on our previous observation that low subjective sleep quality in the morning was closely related to short total sleep time (TST), low sleep efficiency and many awakenings (Akerstedt, Schwarz, Gruber, Lindberg, &amp; Theorell‐Haglow, <xref rid="jsr12812-bib-0004" ref-type="ref">2016</xref>). We did not find any relation between sleep quality ratings and REM or SWS, and have difficulties formulating a definite hypothesis, but if short sleep indicates poor sleep, one may expect both SWS and REM to be reduced.</p>
+              <p>In addition, it might be of interest to investigate variables that represent sleep micro‐architecture in relation to TST. Among them are arousals, power density in the delta band and other bands, sleep spindles and rapid eye movements (density and amplitude) (Feige et al., <xref rid="jsr12812-bib-0014" ref-type="ref">2013</xref>). REM density is increased in depression, a disorder highly correlated with poor/disturbed sleep, but very little is known about REM intensity (Feige et al., <xref rid="jsr12812-bib-0014" ref-type="ref">2013</xref>).</p>
+              <p>The purpose of the present study was to investigate the association between total sleep time (TST) and amount of sleep stages and sleep continuity measures, in a large cross‐sectional sample of women, sleeping at home in a normal daily life setting. Women were selected for study because of their higher prevalence of sleep complaints.</p>
+            </sec>
+            <sec id="jsr12812-sec-0002">
+              <label>2</label>
+              <title>METHODS</title>
+              <sec id="jsr12812-sec-0003">
+                <label>2.1</label>
+                <title>Design and participants</title>
+                <p>The study used a subsample of the Sleep and Health in Women (SHE) study (Sahlin, Franklin, Stenlund, &amp; Lindberg, <xref rid="jsr12812-bib-0020" ref-type="ref">2009</xref>). Within the SHE study as a whole, a representative sample of 10,000 women was randomly selected from the population registry of the City of Uppsala. These received a sleep/health questionnaire (response rate, 71.6%) and a second random sample of 400 (snorers were oversampled) was selected for polysomnography (PSG) recordings, (Theorell‐Haglow, Berne, Janson, &amp; Lindberg, <xref rid="jsr12812-bib-0021" ref-type="ref">2008</xref>). Home PSG (including recording of obstructive sleep apnea [OSA] variables) was carried out for the 400 women. The mean age was 49.3 ± 11.2 (<italic>SD</italic>) years (22–72 years); the BMI was 25.3 ± 4.2, 73% were married/cohabiting, 51.7% had children at home, 44.2% had passed the menopause and 24.2% had received hormone treatment (ever). Fifteen participants turned out to have missing data on some central variables and thus 385 participants remained.</p>
+                <p>Treatment for sleep apnea (continuous positive airway pressure [CPAP] and oral appliances) was withdrawn for ≥3 nights preceding the PSG. This concerned only five cases. The original cohort has been reported on as a study of normative data on female sleep (Sahlin et al., <xref rid="jsr12812-bib-0020" ref-type="ref">2009</xref>).</p>
+              </sec>
+              <sec id="jsr12812-sec-0004">
+                <label>2.2</label>
+                <title>Self‐report variables</title>
+                <p>For information on subjective habitual sleep the Uppsala Sleep Questionnaire (Hetta, Broman, &amp; Mallon, <xref rid="jsr12812-bib-0015" ref-type="ref">1999</xref>) was used, with the following items: difficulties initiating sleep (DIS), difficulties maintaining sleep (DMS), early morning awakening (EMA), sleepy daytime, and tired daytime. The response was given on a scale from “none” to “very big problem” (1–5). Frequency of snoring was assessed by questions adopted from the Nordic Basic Sleep Questionnaire (Partinen &amp; Gislason, <xref rid="jsr12812-bib-0019" ref-type="ref">1995</xref>), with response options 1 (never) to 5 (every or almost every night). Daytime sleepiness was also assessed through the Epworth Sleepiness Scale (ESS) (Johns, <xref rid="jsr12812-bib-0017" ref-type="ref">1991</xref>). The questionnaire also contained questions on the time of “lights out” and “time of awakening”. For anxiety and depression, the Hospital Anxiety and Depression Scale (HAD) (Zigmond &amp; Snaith, <xref rid="jsr12812-bib-0028" ref-type="ref">1983</xref>) was used. Depression and anxiety subscales ranged from 1 to 28. Use of hypnotics was rated on a scale from 1 to 5 (‘’never’’ to ‘’most days’’). Menopausal stage was rated through the question “Have you entered or passed menopause?”, with the response alternatives “yes”, “no” and “don't know”. “Yes” and “don't know” were combined in the analyses.</p>
+                <p>Upon awakening after the recorded sleep, participants rated: “Quality of sleep”, ranging from 0 to 100 (“good” to “bad”); “Sleep duration as usual” (0 to 100; “shorter” to “longer”); “Sleep quality as usual” (0–100; “better” to “worse”); and “Did anything happen during the day that may have disturbed sleep?’’ (0–1; “no” and “yes”).</p>
+              </sec>
+              <sec id="jsr12812-sec-0005">
+                <label>2.3</label>
+                <title>PSG recording</title>
+                <p>The PSG recording took place in the homes of the participants, using a solid‐state portable sleep recorder (Embla, Flaga, Iceland). A standard electrode (silver/silver chloride) montage was used (C3, C4), referenced versus the contralateral mastoids, and in addition two submental electrodes and electrodes at the outer canthi of the eyes were used. To adapt to AASM scoring, F4 was interpolated. Further sensors included electrodes for bilateral anterior tibialis muscles, airflow with a three‐port oronasal thermistor and a nasal flow pressure sensor, respiratory effort from piezo‐electric belts (Resp‐EZ, EPM Systems Midlothian, VA, USA), finger pulse oximetry (Embla A10 flex Sensor), electrocardiograms (V5), a piezo vibration sensor for snoring and a body position sensor. A research nurse applied the electrodes, connected the equipment, gave instructions in the early evening, and set the recording to start at an agreed‐on time before the estimated time of retiring. The equipment was retrieved the next morning by an experimenter. Data were lost for 1.5% (six of 400) of the participants but recording was repeated within a short period of time. Diary information was used to establish times for lights out and lights on.</p>
+                <p>Sleep staging and respiratory and arousal analysis were performed according to the classification criteria of the American Academy of Sleep Medicine (Iber, Ancoli‐Israel, Chesson, Quan, &amp; Medicine, <xref rid="jsr12812-bib-0016" ref-type="ref">2007</xref>) using the computer‐assisted sleep classification system Somnolyzer 24 × 7 (Anderer et al., <xref rid="jsr12812-bib-0006" ref-type="ref">2005</xref>, <xref rid="jsr12812-bib-0007" ref-type="ref">2010</xref>). All scoring was checked by a licensed sleep technician. Here, the terminology N1, N2 and N3 are used for sleep stages 1–3. Shift from any of the sleep stages to wake is expressed as awakenings per hour. Apnea was defined as a cessation of airflow for at least 10 s and hypopnea was defined as at least 10 s of 50% reduced nasal pressure, together with at least 3% desaturation. The apnea–hypopnea index (AHI) was defined as the mean number of apneas and hypopneas per hour of sleep. We also introduced a new variable to represent low frequency (0.5–4 Hz or delta) power. It was defined as the number of 30‐s scoring epochs that contained ≥65% delta power (of total power in the 0.5–32 Hz band) in the epoch, expressed in percent TST. This variable was labelled delta dominance ≥65% (DD65%).</p>
+              </sec>
+              <sec id="jsr12812-sec-0006">
+                <label>2.4</label>
+                <title>Statistical analysis</title>
+                <p>Six categories of TST were formed: ≤5.5 hr (<italic>n</italic> = 74), 5.6–6.0 hr (<italic>n</italic> = 79), 6.1–6.5 hr (<italic>n</italic> = 71), 6.6–7.0 hr (<italic>n</italic> = 78), 7.1–8 hr (<italic>n</italic> = 53) and &gt;8 hr (<italic>n</italic> = 23). The TST categories formed the fixed factor in a one‐way analysis of variance, adjusted for age, BMI, somatic disease and use of medication (no adjusting for AHI). Trends across sleep durations were investigated through linear and quadratic contrasts. Analyses were carried out using SPSS, version 24. The significance level was set at <italic>p</italic> &lt; 0.05. For some participants, the actual bedtime occurred somewhat before the recording started and these participants were excluded when computing the sleep latency, leaving <italic>n</italic> = 310 for that variable.</p>
+              </sec>
+            </sec>
+            <sec id="jsr12812-sec-0007">
+              <label>3</label>
+              <title>RESULTS</title>
+              <p>The results show that sleep efficiency, N1 (min), N2 (min), REM (min), REM%, proportion of long sleep segments, delta dominance, N3 latency and REM latency increased with increasing TST, whereas the number of awakenings/hr, the number of arousals/hr, N1% and REM intensity decreased (Figures <xref rid="jsr12812-fig-0001" ref-type="fig">1</xref> and <xref rid="jsr12812-fig-0002" ref-type="fig">2</xref>, Table <xref rid="jsr12812-tbl-0001" ref-type="table">1</xref>). Of note is that N1 and N1% showed significant opposite trends, N1 increasing and N1% decreasing with increasing sleep duration. All significant <italic>F</italic>‐ratios had a linear trend (<italic>p</italic> &lt; 0.05). Sleep efficiency, % sleep segments ≥ 10 minutes and % wake segments ≥10 minutes all had significant quadratic trends in addition to the linear trends.</p>
+              <fig fig-type="Figure" xml:lang="en" id="jsr12812-fig-0001" orientation="portrait" position="float">
+                <label>Figure 1</label>
+                <caption>
+                  <p>Total sleep time (TST) versus sleep continuity variables and ratings. Mean ± <italic>SE</italic>. SleepSeg10min = sleep segments ≥ 10 min; WakeSeg10min = wake segments ≥ 10 min</p>
+                </caption>
+                <graphic id="nlm-graphic-1" xlink:href="JSR-28-na-g001"/>
+              </fig>
+              <fig fig-type="Figure" xml:lang="en" id="jsr12812-fig-0002" orientation="portrait" position="float">
+                <label>Figure 2</label>
+                <caption>
+                  <p>Total sleep time (TST) versus sleep stages, sleep timing, rapid eye movement (<styled-content style="fixed-case" toggle="no">REM)</styled-content> intensity and delta dominance. Mean ± <italic>SE</italic>. SleepSeg10min = sleep segments ≥ 10 min; WakeSeg10min = wake segments ≥ 10 min</p>
+                </caption>
+                <graphic id="nlm-graphic-3" xlink:href="JSR-28-na-g002"/>
+              </fig>
+              <table-wrap id="jsr12812-tbl-0001" xml:lang="en" orientation="portrait" position="float">
+                <label>Table 1</label>
+                <caption>
+                  <p>Results from ANOVA of polysomnography (PSG) variables and self‐reported data versus sleep duration. Adjusted for age, body mass index (BMI), disease and medication. <italic>df</italic> = 3/382, except for sleep latency (<italic>df</italic> = 3/307)</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <col style="border-right:solid 1px #000000" span="1"/>
+                  <col style="border-right:solid 1px #000000" span="1"/>
+                  <col style="border-right:solid 1px #000000" span="1"/>
+                  <col style="border-right:solid 1px #000000" span="1"/>
+                  <col style="border-right:solid 1px #000000" span="1"/>
+                  <col style="border-right:solid 1px #000000" span="1"/>
+                  <thead valign="top">
+                    <tr style="border-bottom:solid 1px #000000">
+                      <th align="left" valign="top" rowspan="1" colspan="1">Variables</th>
+                      <th align="left" valign="top" rowspan="1" colspan="1"><italic>F</italic>‐ratio</th>
+                      <th align="left" valign="top" rowspan="1" colspan="1"><italic>p</italic>=</th>
+                      <th align="left" valign="top" rowspan="1" colspan="1">Variables</th>
+                      <th align="left" valign="top" rowspan="1" colspan="1"><italic>F</italic>‐ratio</th>
+                      <th align="left" valign="top" rowspan="1" colspan="1"><italic>p</italic>=</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">Sleep efficiency</td>
+                      <td align="left" rowspan="1" colspan="1">56.2</td>
+                      <td align="left" rowspan="1" colspan="1">0.000<xref ref-type="fn" rid="jsr12812-note-0004">*</xref>
+</td>
+                      <td align="left" rowspan="1" colspan="1">Delta dominance</td>
+                      <td align="left" rowspan="1" colspan="1">6.1</td>
+                      <td align="left" rowspan="1" colspan="1">0.000</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">WTSP</td>
+                      <td align="left" rowspan="1" colspan="1">22.7</td>
+                      <td align="left" rowspan="1" colspan="1">0.000</td>
+                      <td align="left" rowspan="1" colspan="1">REM density</td>
+                      <td align="left" rowspan="1" colspan="1">1.3</td>
+                      <td align="left" rowspan="1" colspan="1">0.263</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">Awakenings/hr</td>
+                      <td align="left" rowspan="1" colspan="1">7.1</td>
+                      <td align="left" rowspan="1" colspan="1">0.000</td>
+                      <td align="left" rowspan="1" colspan="1">REM intensity</td>
+                      <td align="left" rowspan="1" colspan="1">8.2</td>
+                      <td align="left" rowspan="1" colspan="1">0.000</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">Arousals/hr</td>
+                      <td align="left" rowspan="1" colspan="1">4.2</td>
+                      <td align="left" rowspan="1" colspan="1">0.001</td>
+                      <td align="left" rowspan="1" colspan="1">% Sleep segments ≥ 10 min</td>
+                      <td align="left" rowspan="1" colspan="1">4.5</td>
+                      <td align="left" rowspan="1" colspan="1">0.005<xref ref-type="fn" rid="jsr12812-note-0004">*</xref>
+</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">AHI/hr</td>
+                      <td align="left" rowspan="1" colspan="1">1.1</td>
+                      <td align="left" rowspan="1" colspan="1">0.356</td>
+                      <td align="left" rowspan="1" colspan="1">% Wake segments ≥ 10 min</td>
+                      <td align="left" rowspan="1" colspan="1">5.1</td>
+                      <td align="left" rowspan="1" colspan="1">0.000<xref ref-type="fn" rid="jsr12812-note-0004">*</xref>
+</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">Sleep latency/ min</td>
+                      <td align="left" rowspan="1" colspan="1">7.5</td>
+                      <td align="left" rowspan="1" colspan="1">0.000</td>
+                      <td align="left" rowspan="1" colspan="1">
+                        <italic>Self‐reported:</italic>
+                      </td>
+                      <td align="left" rowspan="1" colspan="1"/>
+                      <td align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">N3 latency</td>
+                      <td align="left" rowspan="1" colspan="1">3.7</td>
+                      <td align="left" rowspan="1" colspan="1">0.003</td>
+                      <td align="left" rowspan="1" colspan="1">Quality of rec. sleep</td>
+                      <td align="left" rowspan="1" colspan="1">7.0</td>
+                      <td align="left" rowspan="1" colspan="1">0.000<xref ref-type="fn" rid="jsr12812-note-0004">*</xref>
+</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">REM latency</td>
+                      <td align="left" rowspan="1" colspan="1">3.0</td>
+                      <td align="left" rowspan="1" colspan="1">0.012</td>
+                      <td align="left" rowspan="1" colspan="1">PSG affected sleep</td>
+                      <td align="left" rowspan="1" colspan="1">0.9</td>
+                      <td align="left" rowspan="1" colspan="1">0.465</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">N1</td>
+                      <td align="left" rowspan="1" colspan="1">2.7</td>
+                      <td align="left" rowspan="1" colspan="1">0.019</td>
+                      <td align="left" rowspan="1" colspan="1">Habitual/usual sleep duration</td>
+                      <td align="left" rowspan="1" colspan="1">1.3</td>
+                      <td align="left" rowspan="1" colspan="1">0.239</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">N1%</td>
+                      <td align="left" rowspan="1" colspan="1">4.2</td>
+                      <td align="left" rowspan="1" colspan="1">0.001</td>
+                      <td align="left" rowspan="1" colspan="1">Sleep duration different from usual</td>
+                      <td align="left" rowspan="1" colspan="1">26.9</td>
+                      <td align="left" rowspan="1" colspan="1">0.000</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">N2</td>
+                      <td align="left" rowspan="1" colspan="1">65.9</td>
+                      <td align="left" rowspan="1" colspan="1">0.000</td>
+                      <td align="left" rowspan="1" colspan="1">Sleep quality different from usual</td>
+                      <td align="left" rowspan="1" colspan="1">4.0</td>
+                      <td align="left" rowspan="1" colspan="1">0.002<xref ref-type="fn" rid="jsr12812-note-0004">*</xref>
+</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">N2%</td>
+                      <td align="left" rowspan="1" colspan="1">0.2</td>
+                      <td align="left" rowspan="1" colspan="1">0.756</td>
+                      <td align="left" rowspan="1" colspan="1">Habitual sleep medication</td>
+                      <td align="left" rowspan="1" colspan="1">0.7</td>
+                      <td align="left" rowspan="1" colspan="1">0.613</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">N3</td>
+                      <td align="left" rowspan="1" colspan="1">4,7</td>
+                      <td align="left" rowspan="1" colspan="1">0.000</td>
+                      <td align="left" rowspan="1" colspan="1">Habitual sleep quality</td>
+                      <td align="left" rowspan="1" colspan="1">1.4</td>
+                      <td align="left" rowspan="1" colspan="1">0.224</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">N3%</td>
+                      <td align="left" rowspan="1" colspan="1">0.4</td>
+                      <td align="left" rowspan="1" colspan="1">0.835</td>
+                      <td align="left" rowspan="1" colspan="1">HAD anxiety</td>
+                      <td align="left" rowspan="1" colspan="1">3.0</td>
+                      <td align="left" rowspan="1" colspan="1">0.011</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">REM/min</td>
+                      <td align="left" rowspan="1" colspan="1">51.7</td>
+                      <td align="left" rowspan="1" colspan="1">0.000</td>
+                      <td align="left" rowspan="1" colspan="1">HAD depression</td>
+                      <td align="left" rowspan="1" colspan="1">0.9</td>
+                      <td align="left" rowspan="1" colspan="1">0.487</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">REM%</td>
+                      <td align="left" rowspan="1" colspan="1">10.3</td>
+                      <td align="left" rowspan="1" colspan="1">0.000</td>
+                      <td align="left" rowspan="1" colspan="1">Lights out</td>
+                      <td align="left" rowspan="1" colspan="1">14.2</td>
+                      <td align="left" rowspan="1" colspan="1">0.000</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">Fast spindles/hr N2</td>
+                      <td align="left" rowspan="1" colspan="1">1.2</td>
+                      <td align="left" rowspan="1" colspan="1">0.296</td>
+                      <td align="left" rowspan="1" colspan="1">Time of awakening</td>
+                      <td align="left" rowspan="1" colspan="1">8.8</td>
+                      <td align="left" rowspan="1" colspan="1">0.000</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">Slow spindles/hr N2</td>
+                      <td align="left" rowspan="1" colspan="1">1.2</td>
+                      <td align="left" rowspan="1" colspan="1">0.303</td>
+                      <td align="left" rowspan="1" colspan="1"/>
+                      <td align="left" rowspan="1" colspan="1"/>
+                      <td align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot id="jsr12812-ntgp-0002">
+                  <fn id="jsr12812-note-0002">
+                    <p><italic>Note</italic>. AHI, apnea–hypopnea index; PSG, polysomnography; HAD, Hospital Anxiety and Depression Scale; WTSP, wake time during total sleep period; REM, rapid eye movement sleep.</p>
+                  </fn>
+                  <fn id="jsr12812-note-0003">
+                    <p>All significant <italic>F</italic>‐ratios showed a significant linear contrast at &lt;0.002, except for HAD depression (with <italic>p </italic>= 0.011).</p>
+                  </fn>
+                  <fn id="jsr12812-note-0004">
+                    <label>*</label>
+                    <p><italic>F</italic>‐ratios with a significant quadratic contrast at <italic>p</italic> &lt; 0.05.</p>
+                  </fn>
+                </table-wrap-foot>
+                <permissions>
+                  <copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder>
+                </permissions>
+              </table-wrap>
+              <p>In addition, long sleep was associated with higher‐rated sleep quality, and ratings of relatively usual sleep duration and sleep quality (Figure <xref rid="jsr12812-fig-0001" ref-type="fig">1</xref> and Table <xref rid="jsr12812-tbl-0001" ref-type="table">1</xref>). Long sleep was associated with early time for “lights out” and late times of rising. Having experienced something during the day that may have disturbed sleep (scored yes/no) showed a χ<sup>2</sup> of 8.7 (<italic>p</italic> = 0.123) All significant <italic>F</italic>‐ratios had a significant linear trend at <italic>p</italic> &lt; 0.002, except for HAD depression (with <italic>p</italic> = 0.011). Quality of recovery sleep and sleep quality different from usual sleep also had significant quadratic trends (<italic>p</italic> &lt; 0.05), in addition to the linear trends.</p>
+              <p>Habitual sleep quality (mean of three items) was not associated with TST, nor was HAD score for depression. HAD score for anxiety was lower in long TST, but this was almost entirely driven by the group of long sleepers (Table <xref rid="jsr12812-tbl-0001" ref-type="table">1</xref>, Figure <xref rid="jsr12812-fig-0001" ref-type="fig">1</xref>).</p>
+            </sec>
+            <sec id="jsr12812-sec-0008">
+              <label>4</label>
+              <title>DISCUSSION</title>
+              <p>The results show that sleep efficiency, N1 (min), N2 (min), REM (min), REM% and proportion of long sleep segments increased with increasing TST, whereas the number of awakenings/hr, the number of arousals/hr, N1%, sleep latency and REM intensity decreased. In addition, long sleep was more associated with sleep duration being perceived as a “usual” sleep duration and with better quality. Long sleep was associated with earlier time for “lights out” and later time of awakening.</p>
+              <p>There are no previous studies of the cross‐sectional relation between TST and polysomnographical variables to make comparisons with. However, in a previous study on the same study population we found that poor subjective sleep quality was related to short TST, low sleep efficiency, more awakenings and fewer arousals (Akerstedt, Schwarz, Gruber, Theorell‐Haglow, &amp; Lindberg, <xref rid="jsr12812-bib-0005" ref-type="ref">2018</xref>), which are in line with the present results, even if TST was never related to other PSG variables. Similarly, a meta‐analysis has demonstrated impaired sleep continuity, and reduced SWS% and REM%, as well as lower TST (Baglioni et al., <xref rid="jsr12812-bib-0008" ref-type="ref">2014</xref>), in insomniacs. The present study, however, directly links short sleep to (dis)continuity variables (sleep efficiency, sleep latency, awakenings, arousals and short segments of continuous sleep), but also to increased N1%, which may be interpreted as an indicator of poor sleep. The observation of N1 in minutes being lower for short sleep probably reflects that shorter TST gives less room for N1 or any other sleep stage.</p>
+              <p>One could also compare the present findings with what is seen in experimental partial sleep deprivation; that is, increased sleep continuity and N3%, and decreased REM% and N1% across 5 days of only 4 hr sleep per day (Akerstedt, Kecklund, Ingre, Lekander, &amp; Axelsson, <xref rid="jsr12812-bib-0002" ref-type="ref">2009</xref>). The 4‐hr duration corresponds to the shortest sleep in the present study. A similar reduction of N1 and REM was seen in another study of partial sleep deprivation (Brunner, Dijk, Tobler, &amp; Borbély, <xref rid="jsr12812-bib-0010" ref-type="ref">1990</xref>). In addition, a sudden delay of bedtime by 4 hr led to decreased N3 and REM in minutes and in percent REM, but N3% increased significantly (Åkerstedt et al., <xref rid="jsr12812-bib-0003" ref-type="ref">2018</xref>). Although TST in that study (3 hr) was similar to that of the short sleepers in the present study, the delay of bedtime was only about 45 minutes; that is, very modest partial sleep deprivation.</p>
+              <p>The present study is, however, quite different from studies of experimental sleep deprivation and the results suggest a temporary impairment of sleep in the short sleepers on the recorded night. This interpretation of the main results seems relatively straightforward, in the sense that not only sleep continuity and N1% were affected, but also the morning sleep quality ratings showed considerable impairment. In contrast, habitual sleep quality bore no relation to PSG, indicating that the recorded sleep may not have been representative of habitual sleep quality. Thus, the short sleepers do not seem to have been insomniacs, but rather individuals who experienced a transient bout of poor sleep. This is supported by the ratings of the recorded sleep having been shorter and poorer “than usual”.</p>
+              <p>Apparently, the recorded sleep deviated from normal sleep quality and sleep duration for unknown reasons. One reason could have been that the sleep recording itself had disturbed sleep, but this was not reported by the participants. Neither was TST associated with ratings of “anything special having happened during the day that may have affected sleep”. Still, there may have been effects of the recording or of other external factors without the participants recognizing this. At present, this question remains unanswered and should be a topic for further research. Furthermore, the lack of association with depression and the weak association with anxiety suggests that the TST groups did not differ emotionally. Taken together, the results suggest that a short sleep may be an indicator of a temporary poor sleep, at least in individuals who are otherwise normal sleepers and who have their sleep recorded in a normal daily life setting outside the sleep laboratory.</p>
+              <p>The result also suggests that the TST of a recorded night of sleep may not be representative of reports of “habitual” sleep duration or quality, at least not when recorded under real‐life circumstances in a representative sample of women. Previous studies of long and short sleep have carried out recordings under well‐controlled laboratory conditions without any obvious curtailment of sleep (and in young male students) (Aeschbach et al., <xref rid="jsr12812-bib-0001" ref-type="ref">1996</xref>; Benoit et al., <xref rid="jsr12812-bib-0009" ref-type="ref">1983</xref>; Webb &amp; Friel, <xref rid="jsr12812-bib-0026" ref-type="ref">1970</xref>). This is unlikely to produce results representative of a real‐life sleep episode. This raises the question of what habitual sleep duration represents. One possibility is that it represents an integration of “normal” sleep across long periods of time and that occasional impaired sleep episodes may not be included in this estimate.</p>
+              <p>Apart from sleep continuity, REM sleep in minutes strongly increased with sleep duration. This is a finding that goes back to the time of the first polysomnographical studies (Aeschbach et al., <xref rid="jsr12812-bib-0001" ref-type="ref">1996</xref>; Benoit et al., <xref rid="jsr12812-bib-0009" ref-type="ref">1983</xref>; Webb &amp; Friel, <xref rid="jsr12812-bib-0026" ref-type="ref">1970</xref>), and may simply reflect the fact that REM appears with regular intervals during sleep, and thus correlates highly with sleep duration. However, also the relative amounts of REM (%) increased with TST in the present population. This probably reflects the increase in REM presence with increasing sleep duration, but may also reflect a sensitivity of REM to poor sleep continuity as REM% is reduced in insomniacs (Baglioni et al., <xref rid="jsr12812-bib-0008" ref-type="ref">2014</xref>). Furthermore, recent findings have identified “restless REM” (fragmented REM with a high frequency of eye movements) as an important marker of insomnia (Wassing et al., <xref rid="jsr12812-bib-0024" ref-type="ref">2016</xref>). Interestingly, in the present study REM intensity (the amplitude of rapid eye movements) decreased markedly with increased TST. The interpretation of this finding is not clear and needs replication. The finding of a higher REM density in the study by Wassing et al. (<xref rid="jsr12812-bib-0024" ref-type="ref">2016</xref>), which together with REM arousals was strongly associated with slow dissolution of emotional distress, concerned insomniacs and it is not clear if this was related to TST or other PSG parameters.</p>
+              <p>The association between N3 duration and TST was expected, because longer sleep would allow more room for N3. However, percent N3 was not related to TST, presumably because N3 is present only in the first cycles of sleep (Williams, Karacan, &amp; Hursch, <xref rid="jsr12812-bib-0027" ref-type="ref">1974</xref>), and with each minute of sleep beyond that the denominator of the sleep percentage ratio would increase, thus decreasing the percentage. Our new variable, delta dominance, was particularly low in the group with shortest TST. This variable was developed in an attempt to standardize for differences between individuals in anatomical structures that might affect the EEG amplitude in the 0.5–4‐Hz band. The impression is, therefore, that slow wave sleep was particularly impaired in the group with the shortest sleep (and with the highest level of sleep discontinuity), despite the observation of no association between TST and N3%.</p>
+              <p>This is a study with a large sample and with good representativeness of women in a Swedish city. However, there are limitations. There was only one night being recorded and it would have been of interest to study several nights in order to investigate whether short/poor sleep was a temporary phenomenon. Only women were studied and it would have been an advantage to include also men. The present study also failed to find an explanation for impaired sleep for the short sleepers. This seems to be an important topic for future studies. Presently, we assume that short/poor sleep was temporary, based on the report of such sleep being unusually poor and short, and on habitual sleep quality or duration having no association with the PSG measures.</p>
+              <p>In conclusion, the present study demonstrates that short TST in a recorded sleep in a real‐life context may be an indicator of poor objective (and subjective) sleep quality for that particular sleep episode. Because individuals clearly perceived this reduction, it appears that self‐reports of poor sleep quality often may be seen as indicators of poor sleep quality.</p>
+            </sec>
+            <sec sec-type="COI-statement" id="jsr12812-sec-0009">
+              <title>CONFLICT OF INTEREST</title>
+              <p>No author has reported a conflict of interest.</p>
+            </sec>
+            <sec id="jsr12812-sec-0010">
+              <title>AUTHOR CONTRIBUTION</title>
+              <p>Eva Lindberg and Jenny Theorell‐Haglöw initiated the study, led the data collection and contributed to the writing of the paper. Torbjörn Åkerstedt wrote the paper and analyzed the data. Johanna Schwarz coordinated the data management and contributed to the writing of the paper. Georg Gruber led the computer‐based sleep scoring and contributed to the writing of the paper.</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list content-type="cited-references" id="jsr12812-bibl-0001">
+              <title>REFERENCES</title>
+              <ref id="jsr12812-bib-0001">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0001"><string-name><surname>Aeschbach</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Cajochen</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Landolt</surname>, <given-names>H.</given-names></string-name>, &amp; <string-name><surname>Borbély</surname>, <given-names>A. A.</given-names></string-name> (<year>1996</year>). <article-title>Homeostatic sleep regulation in habitual short sleepers and long sleepers</article-title>. <source xml:lang="en">American Journal of Physiology</source>, <volume>270</volume>, <fpage>R41</fpage>–<lpage>R53</lpage>.<pub-id pub-id-type="pmid">8769783</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0002">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0002"><string-name><surname>Akerstedt</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Kecklund</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Ingre</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Lekander</surname>, <given-names>M.</given-names></string-name>, &amp; <string-name><surname>Axelsson</surname>, <given-names>J.</given-names></string-name> (<year>2009</year>). <article-title>Sleep homeostasis during repeated sleep restriction and recovery: Support from EEG dynamics</article-title>. <source xml:lang="en">Sleep</source>, <volume>32</volume>, <fpage>217</fpage>–<lpage>222</lpage>.<pub-id pub-id-type="pmid">19238809</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0003">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0003"><string-name><surname>Åkerstedt</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Lekander</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Nilsonne</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Tamm</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>D'onofrio</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Kecklund</surname>, <given-names>G.</given-names></string-name>, … <string-name><surname>Schwarz</surname>, <given-names>J.</given-names></string-name> (<year>2018</year>). <article-title>Effects of late‐night short‐sleep on in‐home polysomnography: Relation to adult age and sex</article-title>. <source xml:lang="en">Journal of Sleep Research</source>, <volume>27</volume>, <fpage>e12626</fpage>.<pub-id pub-id-type="pmid">29082633</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0004">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0004"><string-name><surname>Akerstedt</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Schwarz</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Gruber</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Lindberg</surname>, <given-names>E.</given-names></string-name>, &amp; <string-name><surname>Theorell‐Haglow</surname>, <given-names>J.</given-names></string-name> (<year>2016</year>). <article-title>The relation between polysomnography and subjective sleep and its dependence on age ‐ poor sleep may become good sleep</article-title>. <source xml:lang="en">Journal of Sleep Research</source>, <volume>25</volume>, <fpage>565</fpage>–<lpage>570</lpage>.<pub-id pub-id-type="pmid">27122391</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0005">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0005"><string-name><surname>Akerstedt</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Schwarz</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Gruber</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Theorell‐Haglow</surname>, <given-names>J.</given-names></string-name>, &amp; <string-name><surname>Lindberg</surname>, <given-names>E.</given-names></string-name> (<year>2018</year>). <article-title>Women with both sleep problems and snoring show objective impairment of sleep</article-title>. <source xml:lang="en">Sleep Medicine</source>, <volume>51</volume>, <fpage>80</fpage>–<lpage>84</lpage>.<pub-id pub-id-type="pmid">30099355</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0006">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0006"><string-name><surname>Anderer</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Gruber</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Parapatics</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Woertz</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Miazhynskaia</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Klösch</surname>, <given-names>G.</given-names></string-name>, … <string-name><surname>Himanen</surname>, <given-names>S. L.</given-names></string-name> (<year>2005</year>). <article-title>An E‐health solution for automatic sleep classification according to Rechtschaffen and Kales: Validation study of the Somnolyzer 24 × 7 utilizing the Siesta database</article-title>. <source xml:lang="en">Neuropsychobiology</source>, <volume>51</volume>, <fpage>115</fpage>–<lpage>133</lpage>.<pub-id pub-id-type="pmid">15838184</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0007">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0007"><string-name><surname>Anderer</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Moreau</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Woertz</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Ross</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Gruber</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Parapatics</surname>, <given-names>S.</given-names></string-name>, … <string-name><surname>Moser</surname>, <given-names>D.</given-names></string-name> (<year>2010</year>). <article-title>Computer‐assisted sleep classification according to the standard of the American Academy of Sleep Medicine: Validation study of the AASM version of the Somnolyzer 24 × 7</article-title>. <source xml:lang="en">Neuropsychobiology</source>, <volume>62</volume>, <fpage>250</fpage>–<lpage>264</lpage>.<pub-id pub-id-type="pmid">20829636</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0008">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0008"><string-name><surname>Baglioni</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Regen</surname>, <given-names>W.</given-names></string-name>, <string-name><surname>Teghen</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Spiegelhalder</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Feige</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Nissen</surname>, <given-names>C.</given-names></string-name>, &amp; <string-name><surname>Riemann</surname>, <given-names>D.</given-names></string-name> (<year>2014</year>). <article-title>Sleep changes in the disorder of insomnia: a meta‐analysis of polysomnographic studies</article-title>. <source xml:lang="en">Sleep Medicine Reviews</source>, <volume>18</volume>, <fpage>195</fpage>–<lpage>213</lpage>.<pub-id pub-id-type="pmid">23809904</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0009">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0009"><string-name><surname>Benoit</surname>, <given-names>O.</given-names></string-name>, <string-name><surname>Foret</surname>, <given-names>J.</given-names></string-name>, &amp; <string-name><surname>Bouard</surname>, <given-names>G.</given-names></string-name> (<year>1983</year>). <article-title>The time course of slow wave sleep and REM sleep in habitual long and short sleepers: Effect of prior wakefulness</article-title>. <source xml:lang="en">Human Neurobiology</source>, <volume>2</volume>, <fpage>91</fpage>–<lpage>96</lpage>.<pub-id pub-id-type="pmid">6629878</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0010">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0010"><string-name><surname>Brunner</surname>, <given-names>D. P.</given-names></string-name>, <string-name><surname>Dijk</surname>, <given-names>D.‐J.</given-names></string-name>, <string-name><surname>Tobler</surname>, <given-names>I.</given-names></string-name>, &amp; <string-name><surname>Borbély</surname>, <given-names>A. A.</given-names></string-name> (<year>1990</year>). <article-title>Effect of partial sleep deprivation on sleep stages and EEG power spectra: Evidence for non‐REM and REM sleep homeostasis</article-title>. <source xml:lang="en">Electroencephalography and Clinical Neurophysiology</source>, <volume>75</volume>, <fpage>492</fpage>–<lpage>499</lpage>.<pub-id pub-id-type="pmid">1693894</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0011">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0011"><string-name><surname>Cappuccio</surname>, <given-names>F. P.</given-names></string-name>, <string-name><surname>Cooper</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>D'elia</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Strazzullo</surname>, <given-names>P.</given-names></string-name>, &amp; <string-name><surname>Miller</surname>, <given-names>M. A.</given-names></string-name> (<year>2011</year>). <article-title>Sleep duration predicts cardiovascular outcomes: A systematic review and meta‐analysis of prospective studies</article-title>. <source xml:lang="en">European Heart Journal</source>, <volume>32</volume>, <fpage>1484</fpage>–<lpage>1492</lpage>.<pub-id pub-id-type="pmid">21300732</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0012">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0012"><string-name><surname>Cappuccio</surname>, <given-names>F. P.</given-names></string-name>, <string-name><surname>D'elia</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Strazzullo</surname>, <given-names>P.</given-names></string-name>, &amp; <string-name><surname>Miller</surname>, <given-names>M. A.</given-names></string-name> (<year>2010a</year>). <article-title>Quantity and quality of sleep and incidence of type 2 diabetes: A systematic review and meta‐analysis</article-title>. <source xml:lang="en">Diabetes Care</source>, <volume>33</volume>, <fpage>414</fpage>–<lpage>420</lpage>.<pub-id pub-id-type="pmid">19910503</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0013">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0013"><string-name><surname>Cappuccio</surname>, <given-names>F. P.</given-names></string-name>, <string-name><surname>D'elia</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Strazzullo</surname>, <given-names>P.</given-names></string-name>, &amp; <string-name><surname>Miller</surname>, <given-names>M. A.</given-names></string-name> (<year>2010b</year>). <article-title>Sleep duration and all‐cause mortality: A systematic review and meta‐analysis of prospective studies</article-title>. <source xml:lang="en">Sleep</source>, <volume>33</volume>, <fpage>585</fpage>–<lpage>592</lpage>.<pub-id pub-id-type="pmid">20469800</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0014">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0014"><string-name><surname>Feige</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Baglioni</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Spiegelhalder</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Hirscher</surname>, <given-names>V.</given-names></string-name>, <string-name><surname>Nissen</surname>, <given-names>C.</given-names></string-name>, &amp; <string-name><surname>Riemann</surname>, <given-names>D.</given-names></string-name> (<year>2013</year>). <article-title>The microstructure of sleep in primary insomnia: An overview and extension</article-title>. <source xml:lang="en">International Journal of Psychophysiology</source>, <volume>89</volume>, <fpage>171</fpage>–<lpage>180</lpage>.<pub-id pub-id-type="pmid">23583625</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0015">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0015"><string-name><surname>Hetta</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Broman</surname>, <given-names>J.‐E.</given-names></string-name>, &amp; <string-name><surname>Mallon</surname>, <given-names>L.</given-names></string-name> (<year>1999</year>). <article-title>Evaluation of severe insomnia in the general population ‐ implications for the management of insomnia: Insomnia, quality of life and healthcare consumption in Sweden</article-title>. <source xml:lang="en">Journal of Psychopharmacology</source>, <volume>13</volume>, <fpage>S35</fpage>–<lpage>S36</lpage>.<pub-id pub-id-type="pmid">10667458</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0016">
+                <mixed-citation publication-type="book" id="jsr12812-cit-0016"><string-name><surname>Iber</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Ancoli‐Israel</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Chesson</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Quan</surname>, <given-names>S.</given-names></string-name>, &amp; <string-name><surname>Medicine</surname>, <given-names>F. T. A. A. O. S</given-names></string-name>. (<year>2007</year>). <source xml:lang="en">The AASM manual for the scoring of sleep and associated events: Rules, terminology and technical specifications</source>, <edition designator="1">1st edition</edition>
+<publisher-name>American Academy of Sleep Medicine</publisher-name>, <publisher-loc>Westchester</publisher-loc>.</mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0017">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0017"><string-name><surname>Johns</surname>, <given-names>M. W.</given-names></string-name> (<year>1991</year>). <article-title>A new method for measuring daytime sleepiness: The Epworth sleepiness scale</article-title>. <source xml:lang="en">Sleep</source>, <volume>14</volume>, <fpage>540</fpage>–<lpage>545</lpage>.<pub-id pub-id-type="pmid">1798888</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0018">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0018"><string-name><surname>Leng</surname>, <given-names>Y.</given-names></string-name>, <string-name><surname>Cappuccio</surname>, <given-names>F. P.</given-names></string-name>, <string-name><surname>Wainwright</surname>, <given-names>N. W.</given-names></string-name>, <string-name><surname>Surtees</surname>, <given-names>P. G.</given-names></string-name>, <string-name><surname>Luben</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>Brayne</surname>, <given-names>C.</given-names></string-name>, &amp; <string-name><surname>Khaw</surname>, <given-names>K. T.</given-names></string-name> (<year>2015</year>). <article-title>Sleep duration and risk of fatal and nonfatal stroke: a prospective study and meta‐analysis</article-title>. <source xml:lang="en">Neurology</source>, <volume>84</volume>, <fpage>1072</fpage>–<lpage>1079</lpage>.<pub-id pub-id-type="pmid">25716357</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0019">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0019"><string-name><surname>Partinen</surname>, <given-names>M.</given-names></string-name>, &amp; <string-name><surname>Gislason</surname>, <given-names>T.</given-names></string-name> (<year>1995</year>). <article-title>Basic Nordic Sleep Questionnaire (BNSQ): A quantitated measure of subjective sleep complaints</article-title>. <source xml:lang="en">Journal of Sleep Research</source>, <volume>4</volume>, <fpage>150</fpage>–<lpage>155</lpage>.</mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0020">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0020"><string-name><surname>Sahlin</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Franklin</surname>, <given-names>K. A.</given-names></string-name>, <string-name><surname>Stenlund</surname>, <given-names>H.</given-names></string-name>, &amp; <string-name><surname>Lindberg</surname>, <given-names>E.</given-names></string-name> (<year>2009</year>). <article-title>Sleep in women: Normal values for sleep stages and position and the effect of age, obesity, sleep apnea, smoking, alcohol and hypertension</article-title>. <source xml:lang="en">Sleep Medicine</source>, <volume>10</volume>, <fpage>1025</fpage>–<lpage>1030</lpage>.<pub-id pub-id-type="pmid">19345643</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0021">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0021"><string-name><surname>Theorell‐Haglow</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Berne</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Janson</surname>, <given-names>C.</given-names></string-name>, &amp; <string-name><surname>Lindberg</surname>, <given-names>E.</given-names></string-name> (<year>2008</year>). <article-title>Obstructive sleep apnoea is associated with decreased insulin sensitivity in females</article-title>. <source xml:lang="en">European Respiratory Journal</source>, <volume>31</volume>, <fpage>1054</fpage>–<lpage>1060</lpage>.<pub-id pub-id-type="pmid">18184681</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0022">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0022"><string-name><surname>Theorell‐Haglow</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Berne</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Janson</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Sahlin</surname>, <given-names>C.</given-names></string-name>, &amp; <string-name><surname>Lindberg</surname>, <given-names>E.</given-names></string-name> (<year>2010</year>). <article-title>Associations between short sleep duration and central obesity in women</article-title>. <source xml:lang="en">Sleep</source>, <volume>33</volume>, <fpage>593</fpage>–<lpage>598</lpage>.<pub-id pub-id-type="pmid">20469801</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0023">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0023"><string-name><surname>Theorell‐Haglow</surname>, <given-names>J.</given-names></string-name>, &amp; <string-name><surname>Lindberg</surname>, <given-names>E.</given-names></string-name> (<year>2016</year>). <article-title>Sleep duration and obesity in adults: What are the connections?</article-title>
+<source xml:lang="en">Current Obesity Reports</source>, <volume>5</volume>, <fpage>333</fpage>–<lpage>343</lpage>.<pub-id pub-id-type="pmid">27372108</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0024">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0024"><string-name><surname>Wassing</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>Benjamins</surname>, <given-names>J. S.</given-names></string-name>, <string-name><surname>Dekker</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Moens</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Spiegelhalder</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Feige</surname>, <given-names>B.</given-names></string-name>, … <string-name><surname>Walker</surname>, <given-names>M. P.</given-names></string-name> (<year>2016</year>). <article-title>Slow dissolving of emotional distress contributes to hyperarousal</article-title>. <source xml:lang="en">Proceedings of the National Academy of Sciences United States of America</source>, <volume>113</volume>, <fpage>2538</fpage>–<lpage>2543</lpage>.</mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0025">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0025"><string-name><surname>Webb</surname>, <given-names>W. B.</given-names></string-name>, &amp; <string-name><surname>Agnew</surname>, <given-names>H. W.</given-names></string-name> (<year>1970</year>). <article-title>Sleep stage characteristics of long and short sleepers</article-title>. <source xml:lang="en">Science</source>, <volume>168</volume>, <fpage>146</fpage>–<lpage>147</lpage>.<pub-id pub-id-type="pmid">4313684</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0026">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0026"><string-name><surname>Webb</surname>, <given-names>W. B.</given-names></string-name>, &amp; <string-name><surname>Friel</surname>, <given-names>J.</given-names></string-name> (<year>1970</year>). <article-title>Characteristics of “natural” long and short sleepers: A preliminary report</article-title>. <source xml:lang="en">Psychological Reports</source>, <volume>27</volume>, <fpage>63</fpage>–<lpage>66</lpage>.<pub-id pub-id-type="pmid">5454124</pub-id></mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0027">
+                <mixed-citation publication-type="book" id="jsr12812-cit-0027"><string-name><surname>Williams</surname>, <given-names>R. L.</given-names></string-name>, <string-name><surname>Karacan</surname>, <given-names>I.</given-names></string-name>, &amp; <string-name><surname>Hursch</surname>, <given-names>C. J</given-names></string-name>. (<year>1974</year>). <source xml:lang="en">EEG of human sleep</source>. <publisher-name>John Wiley and Sons</publisher-name>, <publisher-loc>New York</publisher-loc>.</mixed-citation>
+              </ref>
+              <ref id="jsr12812-bib-0028">
+                <mixed-citation publication-type="journal" id="jsr12812-cit-0028"><string-name><surname>Zigmond</surname>, <given-names>A. S.</given-names></string-name>, &amp; <string-name><surname>Snaith</surname>, <given-names>R. P.</given-names></string-name> (<year>1983</year>). <article-title>The hospital anxiety and depression scale</article-title>. <source xml:lang="en">Acta Psychiatry Scandinavia</source>, <volume>67</volume>, <fpage>361</fpage>–<lpage>370</lpage>.</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

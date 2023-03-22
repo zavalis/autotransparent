@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:04:33Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6410767" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6410767</identifier>
+        <datestamp>2019-03-13</datestamp>
+        <setSpec>pnas</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Proc Natl Acad Sci U S A</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Proc. Natl. Acad. Sci. U.S.A</journal-id>
+              <journal-id journal-id-type="hwp">pnas</journal-id>
+              <journal-id journal-id-type="pmc">pnas</journal-id>
+              <journal-id journal-id-type="publisher-id">PNAS</journal-id>
+              <journal-title-group>
+                <journal-title>Proceedings of the National Academy of Sciences of the United States of America</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0027-8424</issn>
+              <issn pub-type="epub">1091-6490</issn>
+              <publisher>
+                <publisher-name>National Academy of Sciences</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6410767</article-id>
+              <article-id pub-id-type="pmcid">PMC6410767</article-id>
+              <article-id pub-id-type="pmc-uid">6410767</article-id>
+              <article-id pub-id-type="pmid">30760585</article-id>
+              <article-id pub-id-type="publisher-id">201810180</article-id>
+              <article-id pub-id-type="doi">10.1073/pnas.1810180116</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Biological Sciences</subject>
+                  <subj-group>
+                    <subject>Psychological and Cognitive Sciences</subject>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Social Sciences</subject>
+                  <subj-group>
+                    <subject>Psychological and Cognitive Sciences</subject>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Social threat learning transfers to decision making in humans</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lindström</surname>
+                    <given-names>Björn</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>a</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>b</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>c</sup>
+                  </xref>
+                  <xref ref-type="corresp" rid="cor1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Golkar</surname>
+                    <given-names>Armita</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>c</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff4">
+                    <sup>d</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Jangard</surname>
+                    <given-names>Simon</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>c</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Tobler</surname>
+                    <given-names>Philippe N.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>b</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Olsson</surname>
+                    <given-names>Andreas</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>c</sup>
+                  </xref>
+                </contrib>
+                <aff id="aff1"><sup>a</sup>Department of Social Psychology, <institution>University of Amsterdam</institution>, 1018 WT Amsterdam, <country>The Netherlands</country>;</aff>
+                <aff id="aff2"><sup>b</sup>Laboratory for Social and Neural Systems Research, Department of Economics, <institution>University of Zürich</institution>, 8001 Zürich, <country>Switzerland</country>;</aff>
+                <aff id="aff3"><sup>c</sup>Section for Psychology, Department of Clinical Neuroscience, <institution>Karolinska Institutet</institution>, 171 77 Stockholm, <country>Sweden</country>;</aff>
+                <aff id="aff4"><sup>d</sup>Department of Clinical Psychology, <institution>University of Amsterdam</institution>, 1018 WT Amsterdam, <country>The Netherlands</country></aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="cor1"><sup>1</sup>To whom correspondence should be addressed. Email: <email>bjorn.r.lindstrom@gmail.com</email>.</corresp>
+                <fn fn-type="edited-by">
+                  <p>Edited by Susan T. Fiske, Princeton University, Princeton, NJ, and approved January 15, 2019 (received for review June 18, 2018)</p>
+                </fn>
+                <fn fn-type="con">
+                  <p>Author contributions: B.L., A.G., P.N.T., and A.O. designed research; B.L. and S.J. performed research; B.L. contributed new reagents/analytic tools; B.L. analyzed data; and B.L., A.G., P.N.T., and A.O. wrote the paper.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="ppub">
+                <day>5</day>
+                <month>3</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>13</day>
+                <month>2</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>13</day>
+                <month>2</month>
+                <year>2019</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>. -->
+              <volume>116</volume>
+              <issue>10</issue>
+              <fpage>4732</fpage>
+              <lpage>4737</lpage>
+              <permissions>
+                <copyright-statement>Copyright © 2019 the Author(s). Published by PNAS.</copyright-statement>
+                <copyright-year>2019</copyright-year>
+                <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+                  <ali:license_ref specific-use="vor"/>
+                  <license-p>This open access article is distributed under <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0 (CC BY-NC-ND)</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:title="pdf" xlink:href="pnas.201810180.pdf"/>
+              <abstract abstract-type="executive-summary">
+                <title>Significance</title>
+                <p>In today’s world, indirect exposure to threatening situations is more common than ever, as illustrated by footage of terror and disaster in social media. How do such social threat learning experiences shape our decisions? We found that learning about threats from both observation and verbal information strongly influenced decision making. As with learning from our own experience, this influence could be either adaptive or maladaptive depending on whether the social information provided accurate expectations about the environment. Our findings can help explain both adaptive and pathological behaviors resulting from the indirect exposure to threatening events.</p>
+              </abstract>
+              <abstract>
+                <p>In today’s world, mass-media and online social networks present us with unprecedented exposure to second-hand, vicarious experiences and thereby the chance of forming associations between previously innocuous events (e.g., being in a subway station) and aversive outcomes (e.g., footage or verbal reports from a violent terrorist attack) without direct experience. Such social threat, or fear, learning can have dramatic consequences, as manifested in acute stress symptoms and maladaptive fears. However, most research has so far focused on socially acquired threat responses that are expressed as increased arousal rather than active behavior. In three experiments (<italic>n</italic> = 120), we examined the effect of indirect experiences on behaviors by establishing a link between social threat learning and instrumental decision making. We contrasted learning from direct experience (i.e., Pavlovian conditioning) (experiment 1) against two common forms of social threat learning—social observation (experiment 2) and verbal instruction (experiment 3)—and how this learning transferred to subsequent instrumental decision making using behavioral experiments and computational modeling. We found that both types of social threat learning transfer to decision making in a strong and surprisingly inflexible manner. Notably, computational modeling indicated that the transfer of observational and instructed threat learning involved different computational mechanisms. Our results demonstrate the strong influence of others’ expressions of fear on one’s own decisions and have important implications for understanding both healthy and pathological human behaviors resulting from the indirect exposure to threatening events.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>social learning</kwd>
+                <kwd>decision making</kwd>
+                <kwd>Pavlovian instrumental transfer</kwd>
+                <kwd>fear</kwd>
+                <kwd>reinforcement learning</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group id="gs1">
+                  <funding-source id="sp1">European Research Council</funding-source>
+                  <award-id rid="sp1">284366</award-id>
+                  <principal-award-recipient>Andreas Olsson</principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <counts>
+                <page-count count="6"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <p content-type="flushleft">Pavlovian threat conditioning (<xref rid="r1" ref-type="bibr">1</xref>), based on the formation of predictive associations between personally experienced stimuli, has long been the standard model of how humans acquire threat associations and learn to avoid threatening and fear-inducing outcomes (<xref rid="r2" ref-type="bibr">2</xref>). However, in today’s ultra-social world, mass-media and online social networks expose us to unprecedented quantities of second-hand violence (<xref rid="r3" ref-type="bibr">3</xref>) and thereby the chance of indirectly forming threat associations between previously innocuous situations (e.g., a subway station) and unpleasant outcomes (e.g., newsreels including cell phone videos of bloody and screaming people after a terrorist attack) without direct experience. Such media-based exposure to violence and trauma is now known to be associated with significant negative psychological outcomes (<xref rid="r3" ref-type="bibr">3</xref>). For example, a recent study showed that extended exposure to television newsreels from the Boston Marathon bombings resulted in higher levels of acute stress and PTSD-like symptoms than actually having personally experienced the bombings (<xref rid="r4" ref-type="bibr">4</xref>).</p>
+            <p>This sensitivity to second-hand forms of threat suggests that modern media piggyback on a well-established capacity for social learning, an adaption that allows the organism to avoid the dangers, such as predation, associated with individual learning (<xref rid="r5" ref-type="bibr">5</xref><xref rid="r6" ref-type="bibr"/>–<xref rid="r7" ref-type="bibr">7</xref>). This capacity may cut across species. For example, rhesus monkeys who observed conspecifics behaving fearfully toward snakes readily acquired fear of snakes (<xref rid="r8" ref-type="bibr">8</xref>). Although rapid progress has been made toward understanding the mechanisms underlying social threat learning processes (<xref rid="r9" ref-type="bibr">9</xref>, <xref rid="r10" ref-type="bibr">10</xref>), these studies have typically focused on passive emotional arousal responses (as in Pavlovian conditioning), and the relevance of such learning for human instrumental decision making is therefore unknown. In real life, threat associations that are socially acquired are likely to shape behavior: we might, for example, decide to avoid a certain subway station because we saw it paired with threat reactions on the news.</p>
+            <p>Here, we describe this crucial link between social threat learning and instrumental decision making and provide a mechanistic framework for understanding how different types of social information (e.g., video vs. verbal) influence behavior. To experimentally model the social threat learning, we used well-validated paradigms based on threat conditioning (<xref rid="r11" ref-type="bibr">11</xref>, <xref rid="r12" ref-type="bibr">12</xref>) rather than more naturalistic material (e.g., actual news reels), as this allowed for a high degree of experimental control while still capturing the “one-to-many” transmission characteristic of mass-media and social networks.</p>
+            <p>We contrasted the influence of threat learning from direct aversive experience (Pavlovian threat conditioning, experiment 1) against two common forms of social threat learning in human culture—social observation (observational threat learning, experiment 2) and verbal instruction (instructed threat learning, experiment 3)—on subsequent decision making using behavioral experiments and computational modeling. Together, these types of learning correspond to the three archetypal pathways to human fears and phobias as described in the clinical literature (<xref rid="r13" ref-type="bibr">13</xref><xref rid="r14" ref-type="bibr"/>–<xref rid="r15" ref-type="bibr">15</xref>) and reliably induce conditioned physiological and neural threat responses in humans (<xref rid="r11" ref-type="bibr">11</xref>).</p>
+            <p>Despite their apparent similarity, the mechanisms underlying the two types of social threat learning—observational and instructed—might be very different (<xref rid="r11" ref-type="bibr">11</xref>). While learning via observation of conspecifics is phylogenetically widespread and conserved (<xref rid="r9" ref-type="bibr">9</xref>), linguistically mediated learning is unique to humans. Indeed, instruction can flexibly modify learned associations. For example, verbal instructions about changed threat contingencies can cause rapid updating of conditioned physiological responses (<xref rid="r16" ref-type="bibr">16</xref>, <xref rid="r17" ref-type="bibr">17</xref>), which is reflected by prefrontal cortex activity (while, in contrast, the amygdala tracks direct experience) (<xref rid="r17" ref-type="bibr">17</xref>). Misleading advice, however, can result in long-lasting maladaptive influences on reward-based decision making, which are thought to be underpinned by prefrontal and hippocampal influences on the striatum (<xref rid="r18" ref-type="bibr">18</xref>).Whether such putative differences in the mechanisms underlying the two forms of social threat learning are expressed as different influences on decision making is currently unknown.</p>
+            <p>Computational learning theory provides a framework for predicting how different learning mechanisms should affect decision making. An influential account posits that behavior is controlled by at least two interacting valuation systems (henceforth “controllers”) with distinct properties (<xref rid="r19" ref-type="bibr">19</xref><xref rid="r20" ref-type="bibr"/><xref rid="r21" ref-type="bibr"/>–<xref rid="r22" ref-type="bibr">22</xref>). The Pavlovian controller assigns value to a limited number of behaviors, such as avoidance, in response to biologically relevant stimuli (e.g., pain) (<xref rid="r20" ref-type="bibr">20</xref>, <xref rid="r22" ref-type="bibr">22</xref>, <xref rid="r23" ref-type="bibr">23</xref>). In classical conditioning, the Pavlovian controller learns to predict the outcome [the unconditioned stimulus (US), e.g., an electric shock] from a cue [the conditioned stimulus (CS)]. Characteristic conditioned responses (such as increased arousal) reflect these predictions (<xref rid="r19" ref-type="bibr">19</xref>). In contrast, the instrumental controller flexibly assigns value to arbitrary actions based on their reinforcement history to guide adaptive selection of the most appropriate action (<xref rid="r21" ref-type="bibr">21</xref>). The interaction of these systems is revealed, for example, in the phenomenon of Pavlovian Instrumental Transfer (PIT) (<xref rid="r24" ref-type="bibr">24</xref><xref rid="r25" ref-type="bibr"/><xref rid="r26" ref-type="bibr"/>–<xref rid="r27" ref-type="bibr">27</xref>), where the presentation of a Pavlovian CS comes to bias instrumental behavior. Importantly, if the response tendency of the Pavlovian controller (e.g., avoidance) and the optimal instrumental action are a mismatch, this interaction can cause maladaptive consequences (<xref rid="r20" ref-type="bibr">20</xref>, <xref rid="r28" ref-type="bibr">28</xref>).</p>
+            <p>Notably, recent studies have demonstrated strong similarities in the neural and computational mechanisms involved in Pavlovian and observational threat learning (<xref rid="r10" ref-type="bibr">10</xref>), suggesting that these forms of learning are based on the same computational system (<xref rid="r9" ref-type="bibr">9</xref>, <xref rid="r11" ref-type="bibr">11</xref>). By extension, biases arising from the Pavlovian controller might transfer to decisions involving observationally conditioned cues. We therefore predicted that observational threat learning, in analogy to direct Pavlovian conditioning (<xref rid="r29" ref-type="bibr">29</xref>), would transfer to later instrumental decision making. In contrast, instructed threat conditioning, which by definition entails an explicit “model” of the environment (<xref rid="r30" ref-type="bibr">30</xref>, <xref rid="r31" ref-type="bibr">31</xref>), is thought to be based on mechanisms that are distinct from basic Pavlovian computations (<xref rid="r11" ref-type="bibr">11</xref>, <xref rid="r31" ref-type="bibr">31</xref><xref rid="r32" ref-type="bibr"/>–<xref rid="r33" ref-type="bibr">33</xref>). We therefore expected that threatening information learned via verbal instruction would be more flexibly adjusted to match changing contingencies, as observed in learning about both threats and rewards (<xref rid="r17" ref-type="bibr">17</xref>, <xref rid="r34" ref-type="bibr">34</xref>, <xref rid="r35" ref-type="bibr">35</xref>). We tested these predictions in three main experiments, and several control experiments, using a novel version of a PIT task (<xref rid="r27" ref-type="bibr">27</xref>, <xref rid="r29" ref-type="bibr">29</xref>).</p>
+            <sec sec-type="results" id="s1">
+              <title>Results</title>
+              <p content-type="flushleft">In our experiments, participants first underwent a conditioning block (with two cues, yellow and blue shapes serving as CSs) and subsequently an instrumental decision-making block, involving the same two cues as the conditioning block (<xref ref-type="fig" rid="fig01">Fig. 1</xref>). The decisions were probabilistically punished with electric shocks. For half of the participants, the environment was stable: the same cue was most likely to be paired with shocks in both parts of the experiment (No Change groups). For the other half, the environment changed: the cue most likely to be paired with shocks differed between the two parts of the experiment (Change groups) (<xref ref-type="fig" rid="fig01">Fig. 1<italic>A</italic></xref>). Our experiments build on the logic of PIT paradigms, but differ in several important ways from previous studies. These studies typically either measured the Pavlovian influence in the absence of external reinforcement (i.e., in extinction) (<xref rid="r25" ref-type="bibr">25</xref><xref rid="r26" ref-type="bibr"/>–<xref rid="r27" ref-type="bibr">27</xref>, <xref rid="r36" ref-type="bibr">36</xref>) or arranged the task so that specific actions (e.g., withholding a response to get a reward) revealed the Pavlovian influence indirectly (<xref rid="r22" ref-type="bibr">22</xref>). In contrast, manipulating whether Pavlovian associations were reliable or outdated allowed us to use a standard probabilistic two-choice decision-making task with tangible reinforcement (electric shocks) that provided a direct and general measure of the maladaptiveness/adaptiveness of Pavlovian transfer. To derive clear predictions for when and how learned Pavlovian associations should influence decision-making, we first developed a simple formal model (see <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link> available online for details), building on previous models of PIT (<xref rid="r20" ref-type="bibr">20</xref>, <xref rid="r28" ref-type="bibr">28</xref>, <xref rid="r36" ref-type="bibr">36</xref>),</p>
+              <fig id="fig01" fig-type="featured" orientation="portrait" position="float">
+                <label>Fig. 1.</label>
+                <caption>
+                  <p>Experimental design. We conducted three independent experiments, in which a conditioning block (<italic>A</italic>–<italic>C</italic>) was followed by a decision making block (<italic>D</italic> and <italic>E</italic>). The conditioning block of the experiments consisted of (<italic>A</italic>) Pavlovian (classical) threat conditioning (experiment 1), (<italic>B</italic>) observational threat learning (experiment 2), or (<italic>C</italic>) instructed threat learning (experiment 3). In the conditioning block, one stimulus (CS+), but not another (CS−), was paired with shocks for the participant (experiment 1), for another person (experiment 2), or verbally associated with the possibility of shock (experiment 3) (<xref ref-type="sec" rid="s7"><italic>Methods</italic></xref>). Next, participants made 70 decisions between the same two cues (CS+, CS−), which were both probabilistically punished with electric shocks to the participants (see <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic>, Fig. S1</ext-link> for a trial timeline). In each experiment, the participants were divided into two subgroups. The shock probabilities differed between the (<italic>D</italic>) No Change groups, and (<italic>E</italic>) the Change groups. In the No Change groups, the CS+ from the conditioning block had a higher probability of being followed by shocks in the Transfer phase of the decision making block, while in the Change groups, the CS+ had a lower probability of being followed by shocks. After 35 trials, the outcome contingences reversed (Reversal phase). CS, conditioned stimulus.</p>
+                </caption>
+                <graphic id="gra1" xlink:href="pnas.1810180116fig01"/>
+              </fig>
+              <p>Our competing systems model assumes that the Pavlovian and instrumental controllers learn independently (<xref ref-type="fig" rid="fig02">Fig. 2</xref>) (<xref rid="r20" ref-type="bibr">20</xref>, <xref rid="r36" ref-type="bibr">36</xref>). The Pavlovian controller learns about the predictive value of cues (e.g., CSs) during conditioning, and the instrumental controller learns about the expected value of choices (e.g., between the same CSs) during decision making. Finally, the learned cue values (<italic>V</italic><sub>Pavlovian</sub> and <italic>Q</italic><sub>Instrumental</sub>) from both systems compete to determine choices because the decision cues have both Pavlovian and instrumental values. The relative influence of the Pavlovian controller is determined by a weight (<italic>ω</italic>, 0 ≤ ω ≤ 1) (<xref rid="r20" ref-type="bibr">20</xref>). If this weight is positive, the Pavlovian value associated with a cue will bias the probability of choosing it. The model predicts that changing the environment, as for the Change groups in our experimental task, will result in impaired decision making (<xref ref-type="fig" rid="fig02">Fig. 2<italic>C</italic></xref>), as the Pavlovian associations then are outdated, relative to a stable environment (see <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link> for data and simulations assessing the influence of Pavlovian transfer relative to a control condition without conditioning preceding decision making).</p>
+              <fig id="fig02" fig-type="figure" orientation="portrait" position="float">
+                <label>Fig. 2.</label>
+                <caption>
+                  <p>Model framework for the influence of Pavlovian control on decision making. The structure of the competing systems model, involving a Pavlovian and one instrumental controller. The controllers were implemented as simple, independent reinforcement learning algorithms (see <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link> for details). (<italic>A</italic>) The Pavlovian controller learns to predict outcomes from cues during conditioning. (<italic>B</italic>) During decision making, the Pavlovian and instrumental controller compete for control of behavior (see <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link> for details) because the decision cues have both Pavlovian and instrumental values. Only the instrumental values are differentially updated based on the outcome of the decision. The Pavlovian values are updated together, which in practice results in an unchanged Pavlovian influence during decision making (denoted by the dashed gray line). (<italic>C</italic>) Predictions of the competing systems model. A priori asymptotic model predictions (<ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link>) for the No Change and Change conditions. The Pavlovian weight ω was fixed to 0.5 (equal influence of both controllers on decision making). The dashed vertical line denotes the reversal point. If Pavlovian associations transfer from the conditioning to the decision-making block, the model predicts that the performance in Change groups will be reduced relative to the No Change group. After the reversal of the outcome probabilities (Reversal phase), the model predicts that this group difference should be reversed.</p>
+                </caption>
+                <graphic id="gra2" xlink:href="pnas.1810180116fig02"/>
+              </fig>
+              <p>Furthermore, because our implementation of the competing systems model predicts that the magnitude of Pavlovian transfer should be largely unchanged throughout the decision-making block (<ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link>), we included an additional experimental manipulation that provided a strong test of this prediction: after the first 35 decision trials (Transfer phase), the outcome probabilities were suddenly reversed (Reversal phase). If the Pavlovian influence is constant, as predicted by the model, a reversal of the contingencies should lead to a reversal of this influence (see <xref ref-type="fig" rid="fig02">Fig. 2<italic>C</italic></xref> for model-based predictions and <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic>, Figs. S4 and S5</ext-link>). In contrast, if the underlying computational mechanisms are more flexible—which would be the case if, for example, the same controller system were learned during both conditioning and decision making—the reversal should attenuate the difference between the groups (<ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic>, Fig. S3</ext-link>, shows how a one-system model predicts a diminishing difference between groups during the transfer phase and no difference in the reversal phase). Finally, the competing systems model also provides a framework for interpreting differences between the two types of social learning (observation vs. instruction). To this end, we quantitatively compare the competing systems model with previously established models of social influences on decision making, which are based on non-Pavlovian mechanisms (<xref rid="r18" ref-type="bibr">18</xref>, <xref rid="r34" ref-type="bibr">34</xref>, <xref rid="r37" ref-type="bibr">37</xref>).</p>
+              <sec id="s2">
+                <title>Pavlovian Threat Conditioning Transfers to Decision making.</title>
+                <p>The first experiment (<italic>n</italic> = 40) verified that Pavlovian threat conditioning transfers to decision making, which is required for evaluating the predictions about the transfer of social threat learning. The participants first underwent Pavlovian (classical) threat conditioning, where one (CS+), but not the other (CS−), stimulus was followed by electric shocks. This procedure is the quintessential example of Pavlovian learning in the aversive domain. Skin-conductance responses (SCR), a standard measure of autonomic arousal, demonstrated successful threat conditioning [CS+ &gt; CS−, one sample <italic>t</italic> test: <italic>t</italic>(38) = 2.33, <italic>P</italic> = 0.025].</p>
+                <p>To test the core prediction that Pavlovian threat learning would transfer to decision making, we first focused on the performance during the Transfer phase of the decision-making block. As outlined (cf. <xref ref-type="fig" rid="fig02">Fig. 2<italic>C</italic></xref>), our model (building on previous PIT research) predicts that transfer of Pavlovian threat conditioning should lead to impaired decision making (i.e., more shocks) if the environment changes between the conditioning and decision-making blocks. Indeed, the Change group had a much decreased probability of making the optimal (with lowest probability of shock) decision relative to the No Change group [random-effects logistic regression: β = −1.28, SE = 0.34, <italic>z</italic> = −3.81, <italic>P</italic> = 0.0001, 95% CI (−1.94, −0.62) (<xref ref-type="fig" rid="fig03">Fig. 3<italic>A</italic></xref>)]. These results are predicted by previous work on PIT (<xref rid="r25" ref-type="bibr">25</xref>, <xref rid="r36" ref-type="bibr">36</xref>) and thereby validate our experimental model. In <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link>, we in addition compare Pavlovian transfer to a control experiment without a conditioning block preceding the decision making and find that Pavlovian transfer has both beneficial (No Change group) and maladaptive (Change group) effects on decision making relative to this baseline. In other words, the relative difference between the Change and No Change groups reflects the combined effect of these influences.</p>
+                <fig id="fig03" fig-type="figure" orientation="portrait" position="float">
+                  <label>Fig. 3.</label>
+                  <caption>
+                    <p>Pavlovian threat conditioning transfers to decision making (experiment 1). (<italic>A</italic>) Probability of selecting the optimal action (i.e., CS with the lowest probability of shock) for No Change and Change groups during the decision-making block. Bullet points indicate the a priori predictions from the competing systems model (<ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link>). Error bars are 95% parameter CI from the GLMM. (<italic>B</italic>) Higher fraction of optimal action selection during the Transfer phase by No Change group (trials 1–35, <xref ref-type="fig" rid="fig01">Fig. 1</xref>) was reversed during the Reversal phase (trials 36–70). The solid colored lines show the a priori predictions from the competing systems model (<ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link>).</p>
+                  </caption>
+                  <graphic id="gra3" xlink:href="pnas.1810180116fig03"/>
+                </fig>
+                <p>Next, we tested the strong model prediction that the difference between the Change and No Change groups would be reversed when the outcome probabilities were reversed after the first 35 decision-making trials (<xref ref-type="fig" rid="fig02">Fig. 2<italic>C</italic></xref>). As shown in <xref ref-type="fig" rid="fig03">Fig. 3<italic>A</italic></xref>, the data (bullet points) confirmed this prediction: the difference between the No Change and Change groups reversed after the contingency reversal [Group*Reversal interaction: χ<sup>2</sup>(1) = 6.86, <italic>P</italic> = 0.009, simple effects contrast Change &gt; No Change in Transfer phase: β = 0.62, SE = 0.34, <italic>z</italic> = 1.86, <italic>P</italic> = 0.06, 95% CI (−0.033, 1.29)]. The magnitude of the transfer was not explained by individual differences in conditioned threat responses (<ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link>).</p>
+                <p>To verify that these results cannot be accounted for simply by a difference in the expected values at the outset of the decision-making phase, we next turned to quantitative model comparison. We contrasted the competing systems model with the alternative models that postulated only one system that learned during both conditioning and decision making (cf. <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic>, Fig. S3</ext-link>). However, these models provided an inferior quantitative account of the data, corroborating the involvement of Pavlovian mechanisms (<ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic>, Table S1</ext-link>).</p>
+                <p>Taken together, these results show that Pavlovian threat learning transfers to decision making in line with theoretical predictions and previous research. The results of experiment 1 thereby provide a baseline for evaluating Pavlovian transfer of social threat learning to decision making.</p>
+              </sec>
+              <sec id="s3">
+                <title>Observational Threat Learning Transfers to Decision making.</title>
+                <p>Having established that Pavlovian threat conditioning transfers to decision making as expected by PIT theory, we next compared the two paradigmatic types of social threat learning—observational (experiment 2) and instructed learning (experiment 3)—against this Pavlovian baseline.</p>
+                <p>In experiment 2 (<italic>n</italic> = 40), we tested our hypothesis that observational threat learning would transfer to, and thereby bias, decision making in the same way as Pavlovian learning. Experiment 2 was identical to experiment 1 apart from one key difference: instead of directly experiencing shocks during conditioning, participants underwent a standard observational threat learning procedure (<xref rid="r12" ref-type="bibr">12</xref>), where a video depicted how one (CS+), but not the other (CS−), stimulus was followed by electric shocks to another person, the demonstrator (<xref ref-type="fig" rid="fig01">Fig. 1<italic>A</italic></xref>). Mean SCRs across the conditioning block were higher during presentation of the social CS+ than CS−, confirming social threat learning [one-sample <italic>t</italic> test: <italic>t</italic>(38) = 2.36, <italic>P</italic> = 0.02, 95% CI (0.054, 0.7)].</p>
+                <p>We next tested our central prediction that observationally learned threat associations would transfer to decision making. In analogy to the analyses for experiment 1 (above), we first contrasted decision-making performance between the No Change and Change groups. Mirroring the results from experiment 1, transfer from observational threat learning to decision making resulted in markedly impaired decision making when the environment had changed, relative to if it was stable [β = −1.73, SE = 0.32, <italic>z</italic> = −5.38, <italic>P</italic> &lt; 0.0001, 95% CI (−2.36, −1.1) (<xref ref-type="fig" rid="fig04">Fig. 4<italic>A</italic></xref>)]. Accordingly, the Change group received 20.4% more shocks during the Transfer phase than the No Change group (two-sample Wilcox test: <italic>W</italic> = 295.5, <italic>P</italic> = 0.009) (see also <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link> for comparison with a control experiment without a conditioning phase preceding decision making). As for experiment 1, the magnitude of the transfer was not explained by individual differences in conditioned defensive responses (<ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link>). However, individual differences in empathy with the demonstrator, and the subjective unpleasantness of observing the demonstrator receive electric shocks, slightly moderated transfer strength (<ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link>).</p>
+                <fig id="fig04" fig-type="figure" orientation="portrait" position="float">
+                  <label>Fig. 4.</label>
+                  <caption>
+                    <p>Observational threat learning transfers to decision making (experiment 2). (<italic>A</italic>) Probability of selecting the optimal action for No Change and Change groups during the decision-making block (i.e., CS with the lowest probability of shock). Bullet points indicate the a priori predictions from the competing systems model (<ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link>). Error bars are 95% parameter CI from the GLMM. (<italic>B</italic>) As in experiment 1, the higher fraction of optimal action selection during the Transfer phase (trials 1–35, <xref ref-type="fig" rid="fig01">Fig. 1</xref>) was reversed during the Reversal phase (trials 36–70). The solid colored lines show the a priori predictions from the competing systems model (<ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link>).</p>
+                  </caption>
+                  <graphic id="gra4" xlink:href="pnas.1810180116fig04"/>
+                </fig>
+                <p>Finally, we tested the prediction that the effect of transfer would be reversed after reversing the outcome contingencies during decision making (cf. <xref ref-type="fig" rid="fig02">Fig. 2<italic>C</italic></xref>) as in experiment 1. The data agreed with this prediction [Group*Reversal interaction: χ<sup>2</sup>(1) = 18.54, <italic>P</italic> &lt; 0.0001, simple effects contrast of Change &gt; No Change in the Reversal phase: β = 1.09, SE = 0.40, <italic>z</italic> = 2.72, <italic>P</italic> = 0.007, 95% CI (0.31, 1.88) (<xref ref-type="fig" rid="fig04">Fig. 4<italic>B</italic></xref>)].</p>
+                <p>Moreover, in line with our hypothesis that Pavlovian and observational threat learning are driven by the same Pavlovian controller, there were no reliable differences in the size of the transfer effect [Group*Experiment interaction in Transfer phase: χ<sup>2</sup>(1) = 1.39, <italic>P</italic> = 0.24] or its reversal [Group*Reversal*Experiment: χ<sup>2</sup>(1) = 1.72, <italic>P</italic> = 0.19] between experiments 1 and 2. Quantitative estimation of the Pavlovian weight (ω) parameter showed that it was highly similar in both experiments [experiment 1: <italic>M</italic> = 0.49, experiment 2: <italic>M</italic> = 0.5, <italic>t</italic>(76.13), <italic>P</italic> = 0.96] and in neither was different from 0.5 (smallest <italic>P</italic> = 0.49). As for experiment 1, we also used a quantitative model comparison to verify that these results are not well described by a one-system model (<ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic>, Table S2</ext-link>). Together, these results show how observationally acquired threat associations can transfer to, and thereby bias, decision making.</p>
+              </sec>
+              <sec id="s4">
+                <title>Instructed Threat Learning Transfers to Decision making.</title>
+                <p>In our third experiment (<italic>n</italic> = 40), we tested how the second paradigmatic type of social threat learning—instructed threat learning—influenced subsequent decision making. We predicted that this type of social threat learning would not transfer to decision making because it is likely not based on the Pavlovian controller (<xref rid="r11" ref-type="bibr">11</xref>, <xref rid="r32" ref-type="bibr">32</xref>).</p>
+                <p>At the start of the experiment, and before each trial, participants were instructed that one (CS+), but not the other (CS−), cue would be followed by shocks. To avoid extinction of the instructed threat expectancy, which is crucial for comparison with experiment 2, participants were never exposed to the CS cues during the conditioning block. Instead, they saw two control stimuli (<xref ref-type="sec" rid="s7"><italic>Methods</italic></xref> and <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link> for control experiment 3B that indicates that this design feature is important). In the subsequent decision-making block, participants made choices between the instructed CS cues as in experiments 1–2. In contrast to our prediction, we observed a clear transfer [β = −1.56, SE = 0.32, <italic>z</italic> = −4.85, <italic>P</italic> &lt; 0.0001, 95% CI (−2.19, −0.93)] and reversal [Group*Reversal: χ<sup>2</sup>(1) = 19.6, <italic>P</italic> &lt; 0.0001] of instructed threat learning to decision making (<xref ref-type="fig" rid="fig05">Fig. 5</xref>). The magnitude of these effects was comparable to experiment 2 [Group*Reversal*Experiment: χ<sup>2</sup>(1) = 0.22, <italic>P</italic> = 0.64]. In an additional control experiment, we evaluated the effect of combining threat instruction and experienced shocks (experiment 3C) and found results comparable to experiment 3 (<ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link>).</p>
+                <fig id="fig05" fig-type="figure" orientation="portrait" position="float">
+                  <label>Fig. 5.</label>
+                  <caption>
+                    <p>Instructed threat learning transfers to decision making (experiment 3). (<italic>A</italic>) Probability of selecting the optimal action for No Change and Change groups during the decision-making block. Bullet points indicate the a priori predictions from the competing systems model (<ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link>). Error bars are 95% parameter CI from the GLMM model. (<italic>B</italic>) The higher fraction of optimal action selection during the Transfer phase (trials 1–35, <xref ref-type="fig" rid="fig01">Fig. 1</xref>) was reversed during the Reversal phase (trials 36–70). The solid colored lines show the a priori predictions from the competing systems model (<ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link>).</p>
+                  </caption>
+                  <graphic id="gra5" xlink:href="pnas.1810180116fig05"/>
+                </fig>
+              </sec>
+              <sec id="s5">
+                <title>Computational Modeling Indicates That Observational and Instructed Threat Learning Rest on Distinct Computational Mechanisms.</title>
+                <p>Our account predicts that the influence of observational threat learning on decision making emerges from the competition between competing Pavlovian and instrumental controllers (<xref ref-type="fig" rid="fig02">Fig. 2</xref>), while instructed threat learning might rest on other mechanisms (<xref rid="r17" ref-type="bibr">17</xref>). The overt similarity in how observational and instructed threat learning affects decision making might, in other words, reflect the contribution of distinct underlying computational mechanisms.</p>
+                <p>To test this, we compared the quantitative fit of the competing systems model to a set of prominent previous models of how social advice influences monetary decision making (as there are no previous studies of transfer of social threat learning to decision making). These models assume that advice either leads to a more favorable processing of advice-congruent outcomes [outcome bonus (<xref rid="r34" ref-type="bibr">34</xref>, <xref rid="r37" ref-type="bibr">37</xref>), instructed learning D (<xref rid="r18" ref-type="bibr">18</xref>), and confirmation bias (<xref rid="r35" ref-type="bibr">35</xref>)] or acts as a prior at the outset of decision making [prior model (<xref rid="r34" ref-type="bibr">34</xref>, <xref rid="r37" ref-type="bibr">37</xref>)]. In line with our predictions and preceding results (e.g., <xref ref-type="fig" rid="fig04">Figs. 4</xref> and <xref ref-type="fig" rid="fig05">5</xref>), quantitative model comparison showed that the competing systems model explained the transfer of observational threat learning to decision making (experiment 2) better than these alternative models (<xref ref-type="fig" rid="fig06">Fig. 6<italic>A</italic></xref>). In contrast, the influence of instructed threat learning on decision making was best explained by a model where instruction functions as a prior on instrumental action values (<xref ref-type="fig" rid="fig06">Fig. 6<italic>B</italic></xref>; see <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link> for converging results using Bayesian model comparison and additional details about, and analysis of, the prior model) (<xref rid="r37" ref-type="bibr">37</xref>). In the prior model, the threat instruction directly (adjusted by a free parameter) determines the instrumental action values at the outset of the decision-making block, so that the cues have a differential value in the absence of direct experience. In turn, this promotes avoidance of the CS+ cue. This result was replicated in experiment 3B (<ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link>). Together, these results indicate that, despite similar effects on average behavior, the two forms of social threat learning rest on distinct underlying computational mechanisms.</p>
+                <fig id="fig06" fig-type="figure" orientation="portrait" position="float">
+                  <label>Fig. 6.</label>
+                  <caption>
+                    <p>Model comparison demonstrates that observational and instructed threat learning rest on distinct computational mechanisms. (<italic>A</italic>) Observational threat learning (experiment 2). Model comparison showed that the competing systems model explained the results of experiment 2 better than the alternative social learning models (derived from the literature), which did not posit a competition between systems. (<italic>B</italic>) Instructed threat learning (experiment 3). In contrast to observational threat learning (experiment 2), model comparison showed that a model where instruction functions as a prior on decision making explained the results of experiment 3 better than alternative social learning models (<ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link>). Akaike Information Criterion (AIC) weights (<italic>wAIC</italic>) can be interpreted as the probability that the model provides the best explanation of the data in the candidate set (see <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link> for results based on Bayesian random effects model comparison). The dotted green line denotes <italic>wAIC</italic> = 0.95. IL-D, instructed learning D model.</p>
+                  </caption>
+                  <graphic id="gra6" xlink:href="pnas.1810180116fig06"/>
+                </fig>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="s6">
+              <title>Discussion</title>
+              <p content-type="flushleft">We investigated if, and how, socially acquired threat associations would transfer to instrumental decision making. We demonstrate that associations acquired both by social observation (e.g., through video) and by instruction (e.g., through spoken language) strongly transfers to decision making. Notably, this transfer led to maladaptive decisions when socially acquired associations were outdated rather than valid. Our findings present documentation of how social threat learning transfers to human decision making and present the extension of the concept of PIT to social learning.</p>
+              <p>While the two types of social threat learning had similar effects on decision making, our modeling results indicate that this similarity arose from two distinct computational mechanisms. The transfer of observational threat learning to decision making could, in the same way as Pavlovian conditioning, be explained by competition between a Pavlovian and an instrumental controller system (<xref ref-type="fig" rid="fig02">Fig. 2</xref>). In contrast, model comparison suggested that instructed threat functioned as a prior on the instrumental controller in a similar manner to verbal advice (<xref rid="r34" ref-type="bibr">34</xref>, <xref rid="r35" ref-type="bibr">35</xref>, <xref rid="r37" ref-type="bibr">37</xref>). This difference in underlying mechanisms might be crucial for understanding how the two types of social threat learning influence behavior and, in extension, how this influence can be counteracted. For example, whereas the competing systems model suggests that Pavlovian counterconditioning or extinction is needed for overcoming the bias elicited by observational threat learning, the prior model implies that sufficient divergent instrumental experience is enough for overcoming the influence of instruction on decision making. Evaluating such predictions is an important goal for future research.</p>
+              <p>Our findings confirm that social threat learning generalizes beyond the passive expression of emotional responses, as has typically been the focus of previous research on both observational and instructed threat learning, and thereby provide clear evidence that these paradigms have broad explanatory value for understanding the social transmission of fear and avoidance (<xref rid="r12" ref-type="bibr">12</xref>). Furthermore, given the central role of the amygdala in both observational and direct threat conditioning across species (<xref rid="r10" ref-type="bibr">10</xref>, <xref rid="r11" ref-type="bibr">11</xref>), characterizing the role of this brain region in the transfer of social learning to decision making is an important goal for future research. However, because instructed threat learning also involves the amygdala (<xref rid="r38" ref-type="bibr">38</xref>, <xref rid="r39" ref-type="bibr">39</xref>), it is likely that different patterns of connectivity in overlapping neural networks (<xref rid="r10" ref-type="bibr">10</xref>), or multivariate response patterns (<xref rid="r33" ref-type="bibr">33</xref>), underpin the difference between observational and instructed threat learning.</p>
+              <p>In summary, our findings show that threats acquired through observation and instruction can transfer to, and thereby bias, decision making. Furthermore, we show that the transfer of observational and instructed threat learning on decision making rests on different underlying computational mechanisms. We hope that these findings will be valuable for understanding both adaptive and maladaptive human behavior and for informing policy, as well as therapeutic, applications designed to prevent the transmission of human fears.</p>
+            </sec>
+            <sec sec-type="methods" id="s7">
+              <title>Methods</title>
+              <sec id="s8">
+                <title>Participants.</title>
+                <p>One-hundred twenty-one participants [69 females, mean age = 26 y (experiment 1 = 26.7, experiment 2 = 25.9, experiment 3 = 25)] took part in the study and provided written consent. One participant was excluded due to a technical failure. Participants received two movie vouchers for their participation. In addition, 25 participants took part in a control experiment where decision making was not preceded by a conditioning block and 80 participants in control experiments 3B–C (see <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link> for details). All procedures were approved by the local ethics committee at Karolinska Institutet.</p>
+              </sec>
+              <sec id="s9">
+                <title>Task and Procedure.</title>
+                <p>The experiments consisted of two blocks (<xref ref-type="fig" rid="fig01">Fig. 1</xref>). The content of the first block (conditioning) was the only difference between experiments 1–3 (see <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link> for details). In the subsequent decision making block (<xref ref-type="fig" rid="fig01">Fig. 1</xref>), which was identical for all experiments, the participants made 70 choices between the same two stimuli (i.e., CS+/CS−) that were presented during the conditioning block (see <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic>, Fig. S1</ext-link>, for an overview of the trial time line). The participants were asked to learn to avoid shocks, but were not given any information about the shock probabilities. The decision-making block consisted of two phases: a Transfer phase and a Reversal phase. The Transfer phase tested the direct effect of conditioning on decision making. We use the No Change condition as baseline for estimating the Pavlovian influence in the Change condition. Therefore, all comparisons reported in the main text are relative (in the <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link>, in addition we compare the results to the baseline control experiment). In the Reversal phase, which occurred unsignaled after half the experiment, the contingencies between choice stimuli and shocks reversed (<xref ref-type="fig" rid="fig01">Fig. 1 <italic>D</italic> and <italic>E</italic></xref>). The participants were not informed about the contingency reversal.</p>
+              </sec>
+              <sec id="s10">
+                <title>Statistical Analyses.</title>
+                <p>Logistic Generalized Linear Mixed Models (GLMMs) with by-subject random intercept and by-subject random slopes for all fixed effects were used to analyze the choice data (see <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new"><italic>SI Appendix</italic></ext-link> for additional details). Data are available at <ext-link ext-link-type="uri" xlink:href="https://osf.io/xfe72/" xlink:show="new">https://osf.io/xfe72/</ext-link>.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <supplementary-material content-type="local-data">
+                <label>Supplementary File</label>
+                <media xlink:href="pnas.1810180116.sapp.pdf"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>We thank Marc Guitart-Masip, Ida Selbing, and Philip Pärnamets for comments on an earlier version of the manuscript and Tove Hensler, Diana Diaz Del Castillo, and Erik Enström for help with data collection. This research was supported by Knut and Alice Wallenberg Foundation Grant KAW 2014.0237; Riksbankens Jubileumsfond Grant P11-1017; and Independent Starting Grant 284366 (Emotional Learning in Social Interaction project) from the European Research Council (to A.O.). B.L. was supported by Forte Grant COFAS2: 2014-2785 FOIP; A.G. was supported by Swedish Research Council Grant 2015-00312; and P.N.T. was supported by Swiss National Science Foundation Grants 100014_165884 and 100019_176016.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="COI-statement">
+                <p>The authors declare no conflict of interest.</p>
+              </fn>
+              <fn fn-type="other">
+                <p>This article is a PNAS Direct Submission.</p>
+              </fn>
+              <fn fn-type="supplementary-material">
+                <p>This article contains supporting information online at <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental" xlink:show="new">www.pnas.org/lookup/suppl/doi:10.1073/pnas.1810180116/-/DCSupplemental</ext-link>.</p>
+              </fn>
+            </fn-group>
+            <ref-list>
+              <ref id="r1">
+                <label>1</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>LeDoux</surname>
+                      <given-names>JE</given-names>
+                    </name>
+                  </person-group>
+                  <year>2017</year>
+                  <article-title>Semantics, surplus meaning, and the science of fear</article-title>
+                  <source>Trends Cogn Sci</source>
+                  <volume>21</volume>
+                  <fpage>303</fpage>
+                  <lpage>306</lpage>
+                  <pub-id pub-id-type="pmid">28318937</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r2">
+                <label>2</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Beckers</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Krypotos</surname>
+                      <given-names>A-M</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Boddez</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Effting</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Kindt</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <year>2013</year>
+                  <article-title>What’s wrong with fear conditioning?</article-title>
+                  <source>Biol Psychol</source>
+                  <volume>92</volume>
+                  <fpage>90</fpage>
+                  <lpage>96</lpage>
+                  <pub-id pub-id-type="pmid">22223096</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r3">
+                <label>3</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Hopwood</surname>
+                      <given-names>TL</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Schutte</surname>
+                      <given-names>NS</given-names>
+                    </name>
+                  </person-group>
+                  <year>2017</year>
+                  <article-title>Psychological outcomes in reaction to media exposure to disasters and large-scale violence: A meta-analysis</article-title>
+                  <source>Psychol Violence</source>
+                  <volume>7</volume>
+                  <fpage>316</fpage>
+                  <lpage>327</lpage>
+                </element-citation>
+              </ref>
+              <ref id="r4">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Holman</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Garfin</surname>
+                      <given-names>DR</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Silver</surname>
+                      <given-names>RC</given-names>
+                    </name>
+                  </person-group>
+                  <year>2014</year>
+                  <article-title>Media’s role in broadcasting acute stress following the Boston Marathon bombings</article-title>
+                  <source>Proc Natl Acad Sci USA</source>
+                  <volume>111</volume>
+                  <fpage>93</fpage>
+                  <lpage>98</lpage>
+                  <pub-id pub-id-type="pmid">24324161</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Laland</surname>
+                      <given-names>KN</given-names>
+                    </name>
+                  </person-group>
+                  <year>2004</year>
+                  <article-title>Social learning strategies</article-title>
+                  <source>Learn Behav</source>
+                  <volume>32</volume>
+                  <fpage>4</fpage>
+                  <lpage>14</lpage>
+                  <pub-id pub-id-type="pmid">15161136</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Lindström</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Selbing</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Olsson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <year>2016</year>
+                  <article-title>Co-evolution of social learning and evolutionary preparedness in dangerous environments</article-title>
+                  <source>PLoS One</source>
+                  <volume>11</volume>
+                  <fpage>e0160245</fpage>
+                  <pub-id pub-id-type="pmid">27487079</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Lindström</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Olsson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <year>2015</year>
+                  <article-title>Mechanisms of social avoidance learning can explain the emergence of adaptive and arbitrary behavioral traditions in humans</article-title>
+                  <source>J Exp Psychol Gen</source>
+                  <volume>144</volume>
+                  <fpage>688</fpage>
+                  <lpage>703</lpage>
+                  <pub-id pub-id-type="pmid">25867224</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Cook</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Mineka</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <year>1989</year>
+                  <article-title>Observational conditioning of fear to fear-relevant versus fear-irrelevant stimuli in rhesus monkeys</article-title>
+                  <source>J Abnorm Psychol</source>
+                  <volume>98</volume>
+                  <fpage>448</fpage>
+                  <lpage>459</lpage>
+                  <pub-id pub-id-type="pmid">2592680</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Debiec</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Olsson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <year>2017</year>
+                  <article-title>Social fear learning: From animal models to human function</article-title>
+                  <source>Trends Cogn Sci</source>
+                  <volume>21</volume>
+                  <fpage>546</fpage>
+                  <lpage>555</lpage>
+                  <pub-id pub-id-type="pmid">28545935</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Lindström</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Haaker</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Olsson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <year>2018</year>
+                  <article-title>A common neural network differentially mediates direct and social fear learning</article-title>
+                  <source>Neuroimage</source>
+                  <volume>167</volume>
+                  <fpage>121</fpage>
+                  <lpage>129</lpage>
+                  <pub-id pub-id-type="pmid">29170069</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Olsson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Phelps</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                  </person-group>
+                  <year>2007</year>
+                  <article-title>Social learning of fear</article-title>
+                  <source>Nat Neurosci</source>
+                  <volume>10</volume>
+                  <fpage>1095</fpage>
+                  <lpage>1102</lpage>
+                  <pub-id pub-id-type="pmid">17726475</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Haaker</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Golkar</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Selbing</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Olsson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <year>2017</year>
+                  <article-title>Assessment of social transmission of threats in humans using observational fear conditioning</article-title>
+                  <source>Nat Protoc</source>
+                  <volume>12</volume>
+                  <fpage>1378</fpage>
+                  <lpage>1386</lpage>
+                  <pub-id pub-id-type="pmid">28617449</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r13">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Rachman</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <year>1977</year>
+                  <article-title>The conditioning theory of fear-acquisition: A critical examination</article-title>
+                  <source>Behav Res Ther</source>
+                  <volume>15</volume>
+                  <fpage>375</fpage>
+                  <lpage>387</lpage>
+                  <pub-id pub-id-type="pmid">612338</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r14">
+                <label>14</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Askew</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Field</surname>
+                      <given-names>AP</given-names>
+                    </name>
+                  </person-group>
+                  <year>2008</year>
+                  <article-title>The vicarious learning pathway to fear 40 years on</article-title>
+                  <source>Clin Psychol Rev</source>
+                  <volume>28</volume>
+                  <fpage>1249</fpage>
+                  <lpage>1265</lpage>
+                  <pub-id pub-id-type="pmid">18614263</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r15">
+                <label>15</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Cameron</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Roche</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Schlund</surname>
+                      <given-names>MW</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Dymond</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <year>2016</year>
+                  <article-title>Learned, instructed and observed pathways to fear and avoidance</article-title>
+                  <source>J Behav Ther Exp Psychiatry</source>
+                  <volume>50</volume>
+                  <fpage>106</fpage>
+                  <lpage>112</lpage>
+                  <pub-id pub-id-type="pmid">26143446</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r16">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Atlas</surname>
+                      <given-names>LY</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Phelps</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                  </person-group>
+                  <year>2018</year>
+                  <article-title>Prepared stimuli enhance aversive learning without weakening the impact of verbal instructions</article-title>
+                  <source>Learn Mem</source>
+                  <volume>25</volume>
+                  <fpage>100</fpage>
+                  <lpage>104</lpage>
+                  <pub-id pub-id-type="pmid">29339561</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r17">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Atlas</surname>
+                      <given-names>LY</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Doll</surname>
+                      <given-names>BB</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Li</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Daw</surname>
+                      <given-names>ND</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Phelps</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                  </person-group>
+                  <year>2016</year>
+                  <article-title>Instructed knowledge shapes feedback-driven aversive learning in striatum and orbitofrontal cortex, but not the amygdala</article-title>
+                  <source>eLife</source>
+                  <volume>5</volume>
+                  <fpage>12964</fpage>
+                  <lpage>12977</lpage>
+                </element-citation>
+              </ref>
+              <ref id="r18">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Doll</surname>
+                      <given-names>BB</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Jacobs</surname>
+                      <given-names>WJ</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Sanfey</surname>
+                      <given-names>AG</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Frank</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                  </person-group>
+                  <year>2009</year>
+                  <article-title>Instructional control of reinforcement learning: A behavioral and neurocomputational investigation</article-title>
+                  <source>Brain Res</source>
+                  <volume>1299</volume>
+                  <fpage>74</fpage>
+                  <lpage>94</lpage>
+                  <pub-id pub-id-type="pmid">19595993</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r19">
+                <label>19</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Bach</surname>
+                      <given-names>DR</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Dayan</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <year>2017</year>
+                  <article-title>Algorithms for survival: A comparative perspective on emotions</article-title>
+                  <source>Nat Rev Neurosci</source>
+                  <volume>18</volume>
+                  <fpage>311</fpage>
+                  <lpage>319</lpage>
+                  <pub-id pub-id-type="pmid">28360419</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r20">
+                <label>20</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Dayan</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Niv</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Seymour</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Daw</surname>
+                      <given-names>ND</given-names>
+                    </name>
+                  </person-group>
+                  <year>2006</year>
+                  <article-title>The misbehavior of value and the discipline of the will</article-title>
+                  <source>Neural Netw</source>
+                  <volume>19</volume>
+                  <fpage>1153</fpage>
+                  <lpage>1160</lpage>
+                  <pub-id pub-id-type="pmid">16938432</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r21">
+                <label>21</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Rangel</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Camerer</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Montague</surname>
+                      <given-names>PR</given-names>
+                    </name>
+                  </person-group>
+                  <year>2008</year>
+                  <article-title>A framework for studying the neurobiology of value-based decision making</article-title>
+                  <source>Nat Rev Neurosci</source>
+                  <volume>9</volume>
+                  <fpage>545</fpage>
+                  <lpage>556</lpage>
+                  <pub-id pub-id-type="pmid">18545266</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r22">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Guitart-Masip</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Duzel</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Dolan</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Dayan</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <year>2014</year>
+                  <article-title>Action versus valence in decision making</article-title>
+                  <source>Trends Cogn Sci</source>
+                  <volume>18</volume>
+                  <fpage>194</fpage>
+                  <lpage>202</lpage>
+                  <pub-id pub-id-type="pmid">24581556</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r23">
+                <label>23</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Clark</surname>
+                      <given-names>JJ</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Hollon</surname>
+                      <given-names>NG</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Phillips</surname>
+                      <given-names>PE</given-names>
+                    </name>
+                  </person-group>
+                  <year>2012</year>
+                  <article-title>Pavlovian valuation systems in learning and decision making</article-title>
+                  <source>Curr Opin Neurobiol</source>
+                  <volume>22</volume>
+                  <fpage>1054</fpage>
+                  <lpage>1061</lpage>
+                  <pub-id pub-id-type="pmid">22749132</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r24">
+                <label>24</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Rescorla</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Solomon</surname>
+                      <given-names>RL</given-names>
+                    </name>
+                  </person-group>
+                  <year>1967</year>
+                  <article-title>Two-process learning theory: Relationships between Pavlovian conditioning and instrumental learning</article-title>
+                  <source>Psychol Rev</source>
+                  <volume>74</volume>
+                  <fpage>151</fpage>
+                  <lpage>182</lpage>
+                  <pub-id pub-id-type="pmid">5342881</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r25">
+                <label>25</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Lewis</surname>
+                      <given-names>AH</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Niznikiewicz</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Delamater</surname>
+                      <given-names>AR</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Delgado</surname>
+                      <given-names>MR</given-names>
+                    </name>
+                  </person-group>
+                  <year>2013</year>
+                  <article-title>Avoidance-based human Pavlovian-to-instrumental transfer</article-title>
+                  <source>Eur J Neurosci</source>
+                  <volume>38</volume>
+                  <fpage>3740</fpage>
+                  <lpage>3748</lpage>
+                  <pub-id pub-id-type="pmid">24118624</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r26">
+                <label>26</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Talmi</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Seymour</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Dayan</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Dolan</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                  </person-group>
+                  <year>2008</year>
+                  <article-title>Human Pavlovian-instrumental transfer</article-title>
+                  <source>J Neurosci</source>
+                  <volume>28</volume>
+                  <fpage>360</fpage>
+                  <lpage>368</lpage>
+                  <pub-id pub-id-type="pmid">18184778</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r27">
+                <label>27</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Cartoni</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Balleine</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Baldassarre</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <year>2016</year>
+                  <article-title>Appetitive Pavlovian-instrumental transfer: A review</article-title>
+                  <source>Neurosci Biobehav Rev</source>
+                  <volume>71</volume>
+                  <fpage>829</fpage>
+                  <lpage>848</lpage>
+                  <pub-id pub-id-type="pmid">27693227</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r28">
+                <label>28</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Lindström</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Golkar</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Olsson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <year>2015</year>
+                  <article-title>A clash of values: Fear-relevant stimuli can enhance or corrupt adaptive behavior through competition between Pavlovian and instrumental valuation systems</article-title>
+                  <source>Emotion</source>
+                  <volume>15</volume>
+                  <fpage>668</fpage>
+                  <lpage>676</lpage>
+                  <pub-id pub-id-type="pmid">25893448</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r29">
+                <label>29</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Geurts</surname>
+                      <given-names>DEM</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Huys</surname>
+                      <given-names>QJM</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>den Ouden</surname>
+                      <given-names>HEM</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Cools</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <year>2013</year>
+                  <article-title>Aversive Pavlovian control of instrumental behavior in humans</article-title>
+                  <source>J Cogn Neurosci</source>
+                  <volume>25</volume>
+                  <fpage>1428</fpage>
+                  <lpage>1441</lpage>
+                  <pub-id pub-id-type="pmid">23691985</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r30">
+                <label>30</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Huang</surname>
+                      <given-names>T-R</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Hazy</surname>
+                      <given-names>TE</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Herd</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>O’Reilly</surname>
+                      <given-names>RC</given-names>
+                    </name>
+                  </person-group>
+                  <year>2013</year>
+                  <article-title>Assembling old tricks for new tasks: A neural model of instructional learning and control</article-title>
+                  <source>J Cogn Neurosci</source>
+                  <volume>25</volume>
+                  <fpage>843</fpage>
+                  <lpage>851</lpage>
+                  <pub-id pub-id-type="pmid">23384191</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r31">
+                <label>31</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Koban</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Jepma</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Geuter</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Wager</surname>
+                      <given-names>TD</given-names>
+                    </name>
+                  </person-group>
+                  <year>2017</year>
+                  <article-title>What’s in a word? How instructions, suggestions, and social information change pain and emotion</article-title>
+                  <source>Neurosci Biobehav Rev</source>
+                  <volume>81</volume>
+                  <fpage>29</fpage>
+                  <lpage>42</lpage>
+                  <pub-id pub-id-type="pmid">29173508</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r32">
+                <label>32</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Olsson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Phelps</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                  </person-group>
+                  <year>2004</year>
+                  <article-title>Learned fear of “unseen” faces after Pavlovian, observational, and instructed fear</article-title>
+                  <source>Psychol Sci</source>
+                  <volume>15</volume>
+                  <fpage>822</fpage>
+                  <lpage>828</lpage>
+                  <pub-id pub-id-type="pmid">15563327</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r33">
+                <label>33</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Braem</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>2017</year>
+                  <article-title>Pattern analyses reveal separate experience-based fear memories in the human right amygdala</article-title>
+                  <source>J Neurosci</source>
+                  <volume>37</volume>
+                  <fpage>8116</fpage>
+                  <lpage>8130</lpage>
+                  <pub-id pub-id-type="pmid">28733358</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r34">
+                <label>34</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Biele</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Rieskamp</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Gonzalez</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <year>2009</year>
+                  <article-title>Computational models for the combination of advice and individual learning</article-title>
+                  <source>Cogn Sci</source>
+                  <volume>33</volume>
+                  <fpage>206</fpage>
+                  <lpage>242</lpage>
+                  <pub-id pub-id-type="pmid">21585468</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r35">
+                <label>35</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Li</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Delgado</surname>
+                      <given-names>MR</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Phelps</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                  </person-group>
+                  <year>2011</year>
+                  <article-title>How instructed knowledge modulates the neural systems of reward learning</article-title>
+                  <source>Proc Natl Acad Sci USA</source>
+                  <volume>108</volume>
+                  <fpage>55</fpage>
+                  <lpage>60</lpage>
+                  <pub-id pub-id-type="pmid">21173266</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r36">
+                <label>36</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Huys</surname>
+                      <given-names>QJM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>2011</year>
+                  <article-title>Disentangling the roles of approach, activation and valence in instrumental and Pavlovian responding</article-title>
+                  <source>PLOS Comput Biol</source>
+                  <volume>7</volume>
+                  <fpage>e1002028</fpage>
+                  <pub-id pub-id-type="pmid">21556131</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r37">
+                <label>37</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Biele</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Rieskamp</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Krugel</surname>
+                      <given-names>LK</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Heekeren</surname>
+                      <given-names>HR</given-names>
+                    </name>
+                  </person-group>
+                  <year>2011</year>
+                  <article-title>The neural basis of following advice</article-title>
+                  <source>PLoS Biol</source>
+                  <volume>9</volume>
+                  <fpage>e1001089</fpage>
+                  <pub-id pub-id-type="pmid">21713027</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r38">
+                <label>38</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Phelps</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>2001</year>
+                  <article-title>Activation of the left amygdala to a cognitive representation of fear</article-title>
+                  <source>Nat Neurosci</source>
+                  <volume>4</volume>
+                  <fpage>437</fpage>
+                  <lpage>441</lpage>
+                  <pub-id pub-id-type="pmid">11276236</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="r39">
+                <label>39</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name name-style="western">
+                      <surname>Funayama</surname>
+                      <given-names>ES</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Grillon</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Davis</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name name-style="western">
+                      <surname>Phelps</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                  </person-group>
+                  <year>2001</year>
+                  <article-title>A double dissociation in the affective modulation of startle in humans: Effects of unilateral temporal lobectomy</article-title>
+                  <source>J Cogn Neurosci</source>
+                  <volume>13</volume>
+                  <fpage>721</fpage>
+                  <lpage>729</lpage>
+                  <pub-id pub-id-type="pmid">11564317</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

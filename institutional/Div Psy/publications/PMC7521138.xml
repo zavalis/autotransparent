@@ -1,0 +1,1685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:03:10Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7521138" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7521138</identifier>
+        <datestamp>2020-10-09</datestamp>
+        <setSpec>frontpubhealth</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Front Public Health</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Front Public Health</journal-id>
+              <journal-id journal-id-type="publisher-id">Front. Public Health</journal-id>
+              <journal-title-group>
+                <journal-title>Frontiers in Public Health</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2296-2565</issn>
+              <publisher>
+                <publisher-name>Frontiers Media S.A.</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7521138</article-id>
+              <article-id pub-id-type="pmcid">PMC7521138</article-id>
+              <article-id pub-id-type="pmc-uid">7521138</article-id>
+              <article-id pub-id-type="pmid">33042933</article-id>
+              <article-id pub-id-type="doi">10.3389/fpubh.2020.00415</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Public Health</subject>
+                  <subj-group>
+                    <subject>Original Research</subject>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>The Association Between Shift Work and Immunological Biomarkers in Nurses</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bjorvatn</surname>
+                    <given-names>Bjørn</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="corresp" rid="c001">
+                    <sup>*</sup>
+                  </xref>
+                  <uri xlink:type="simple" xlink:href="http://loop.frontiersin.org/people/451314/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Axelsson</surname>
+                    <given-names>John</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff4">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Pallesen</surname>
+                    <given-names>Ståle</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff5">
+                    <sup>5</sup>
+                  </xref>
+                  <uri xlink:type="simple" xlink:href="http://loop.frontiersin.org/people/262889/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Waage</surname>
+                    <given-names>Siri</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <uri xlink:type="simple" xlink:href="http://loop.frontiersin.org/people/494851/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Vedaa</surname>
+                    <given-names>Øystein</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff7">
+                    <sup>7</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Blytt</surname>
+                    <given-names>Kjersti M.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff8">
+                    <sup>8</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Buchvold</surname>
+                    <given-names>Hogne V.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <uri xlink:type="simple" xlink:href="http://loop.frontiersin.org/people/730522/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Moen</surname>
+                    <given-names>Bente E.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <uri xlink:type="simple" xlink:href="http://loop.frontiersin.org/people/497637/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Thun</surname>
+                    <given-names>Eirunn</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><sup>1</sup><institution>Department of Global Public Health and Primary Care, University of Bergen</institution>, <addr-line>Bergen</addr-line>, <country>Norway</country></aff>
+              <aff id="aff2"><sup>2</sup><institution>Norwegian Competence Center for Sleep Disorders, Haukeland University Hospital</institution>, <addr-line>Bergen</addr-line>, <country>Norway</country></aff>
+              <aff id="aff3"><sup>3</sup><institution>Stress Research Institute, Stockholm University</institution>, <addr-line>Stockholm</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff4"><sup>4</sup><institution>Department of Clinical Neuroscience, Karolinska Institute</institution>, <addr-line>Stockholm</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff5"><sup>5</sup><institution>Department of Psychosocial Science, University of Bergen</institution>, <addr-line>Bergen</addr-line>, <country>Norway</country></aff>
+              <aff id="aff6"><sup>6</sup><institution>Department of Health Promotion, National Institute of Public Health</institution>, <addr-line>Bergen</addr-line>, <country>Norway</country></aff>
+              <aff id="aff7"><sup>7</sup><institution>Department of Mental Health, Norwegian University of Science and Technology</institution>, <addr-line>Trondheim</addr-line>, <country>Norway</country></aff>
+              <aff id="aff8"><sup>8</sup><institution>Department of Health and Caring Sciences, Western Norway University of Applied Sciences</institution>, <addr-line>Bergen</addr-line>, <country>Norway</country></aff>
+              <author-notes>
+                <fn fn-type="edited-by">
+                  <p>Edited by: Amy L. Hall, Veterans Affairs Canada, Canada</p>
+                </fn>
+                <fn fn-type="edited-by">
+                  <p>Reviewed by: Jelle Vlaanderen, Utrecht University, Netherlands; Kyriaki Papantoniou, Medical University Vienna, Austria</p>
+                </fn>
+                <corresp id="c001">*Correspondence: Bjørn Bjorvatn <email>bjorn.bjorvatn@uib.no</email></corresp>
+                <fn fn-type="other" id="fn001">
+                  <p>This article was submitted to Occupational Health and Safety, a section of the journal Frontiers in Public Health</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>14</day>
+                <month>9</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2020</year>
+              </pub-date>
+              <volume>8</volume>
+              <elocation-id>415</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>08</day>
+                  <month>4</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>10</day>
+                  <month>7</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright © 2020 Bjorvatn, Axelsson, Pallesen, Waage, Vedaa, Blytt, Buchvold, Moen and Thun.</copyright-statement>
+                <copyright-year>2020</copyright-year>
+                <copyright-holder>Bjorvatn, Axelsson, Pallesen, Waage, Vedaa, Blytt, Buchvold, Moen and Thun</copyright-holder>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p><bold>Objectives:</bold> Shift work is associated with several negative health effects. The underlying pathophysiological mechanisms are unclear, but low-grade inflammation has been suggested to play a role. This project aimed to determine whether levels of immunological biomarkers differ depending on work schedule, self-reported sleep duration, self-reported sleep quality, and presence of shift work disorder (study 1). Furthermore, we aimed to determine whether these biomarkers differ after a night of sleep vs. at the end of a night or a day shift (study 2).</p>
+                <p><bold>Methods:</bold> In study 1, 390 nurses provided blood samples after a night of sleep with the dried blood spot method. In study 2, a subset of 55 nurses also provided blood samples after a day shift and after a night shift. The following biomarkers were measured: interleukin-1alpha, interleukin-1beta, interleukin-4, interleukin-6, interleukin-8, interleukin-10, interleukin-13, monocyte chemoattractant protein-1, interferon-gamma, and tumor necrosis factor-alpha. Multiple linear regressions with adjustment for age, sex and body mass index (study 1) and ANOVAs with repeated measures (study 2) were conducted.</p>
+                <p><bold>Results:</bold> In study 1, neither work schedule, number of night shifts, number of quick returns (&lt;11 h between consecutive shifts), sleep duration, poor sleep quality, nor shift work disorder were systematically associated with most of these biomarkers. Compared with day only work, day-evening work was associated with higher levels of IL-1alpha and IL-13, quick returns were associated with higher levels of IL-1beta and MCP-1, short sleep duration (&lt;6 h) was associated with lower levels of IL-1beta and higher levels of TNF-alpha, and long sleep duration (8+ h) was associated with higher levels of IL-13. In study 2, IL-1beta levels were higher (large effect size) both after a day shift (14% increase) and a night shift (75% increase) compared with levels after a night of sleep. Similarly, TNF-alpha levels were higher (moderate-large effect size) after a day shift (50% increase) compared to after a night of sleep. In contrast, MCP-1 levels were lower (large effect size) both after a day shift (22% decrease) and a night shift (12% decrease) compared with after a night of sleep.</p>
+                <p><bold>Conclusions:</bold> We found some indications that shift work influenced immunological biomarkers. The results should be interpreted with caution due to limitations, e.g., related to the sampling procedure and to low levels of biomarkers in the blood samples.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>shift work disorder</kwd>
+                <kwd>immunity</kwd>
+                <kwd>inflammatory biomarkers</kwd>
+                <kwd>cytokines</kwd>
+                <kwd>interleukin</kwd>
+                <kwd>tumor necrosis factor-alpha</kwd>
+                <kwd>monocyte chemoattractant protein-1</kwd>
+                <kwd>blood spot method</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source id="cn001">NordForsk<named-content content-type="fundref-id">10.13039/501100004785</named-content></funding-source>
+                </award-group>
+              </funding-group>
+              <counts>
+                <fig-count count="0"/>
+                <table-count count="5"/>
+                <equation-count count="0"/>
+                <ref-count count="24"/>
+                <page-count count="9"/>
+                <word-count count="6958"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="s1">
+              <title>Introduction</title>
+              <p>Shift work is associated with a number of negative health effects, e.g., cardiovascular disorders and cancer (<xref rid="B1" ref-type="bibr">1</xref>, <xref rid="B2" ref-type="bibr">2</xref>). Still, the underlying pathophysiological mechanisms are unclear. However, several studies suggest that low-grade inflammation may play a role. Both short sleep and sleep disturbances are associated with increased levels of pro-inflammatory biomarkers such as interleukin-1 (IL-1), interleukin-6 (IL-6) and tumor necrosis factor (TNF) (<xref rid="B3" ref-type="bibr">3</xref>, <xref rid="B4" ref-type="bibr">4</xref>). Despite short sleep and sleep disturbances being common amongst shift workers (<xref rid="B1" ref-type="bibr">1</xref>), there is dearth of studies investigating the association between shift work and immunological biomarkers.</p>
+              <p>Studies investigating the link between shift work and immunity are few and show conflicting results. In a cross-sectional study among airline employees, Puttonen et al. (<xref rid="B5" ref-type="bibr">5</xref>) found that rotating shift work was associated with increased systemic inflammation. In a longitudinal study among 68 nurses with shift work and 28 nurses with daytime work, IL-1beta and TNF-alpha were significantly lower among shift workers at baseline, but not at 12 months follow-up. Furthermore, no effect of shift work on immunological biomarkers was present at 12 months follow-up when baseline values and job seniority were adjusted for (<xref rid="B6" ref-type="bibr">6</xref>). Another study among nurses showed that natural killer (NK) cell activity was reduced following night work compared to day work (<xref rid="B7" ref-type="bibr">7</xref>). Furthermore, a study comparing day workers with rotating shift workers showed higher levels of leucocytes in the latter group (<xref rid="B8" ref-type="bibr">8</xref>). The authors suggested that this reflected systemic inflammation, but since leukocyte levels vary extensively across time of day (<xref rid="B9" ref-type="bibr">9</xref>), it may also be attributed to group differences in circadian phase at the time of sampling. When comparing 225 shift workers with 137 day workers, no differences in IL-6, TNF-alpha, or lymphocyte count were found (<xref rid="B10" ref-type="bibr">10</xref>). Also, in a recent study comparing 254 night shift workers with 57 non-shift workers, no association in relation to work status was detected on a range of cytokines. However, night work was associated with increased number of monocytes and lymphocytes (<xref rid="B11" ref-type="bibr">11</xref>). In a clinical review, Faraut et al. (<xref rid="B12" ref-type="bibr">12</xref>) addressed the issue of shift work and immunity, and suggested several lines of further studies (e.g., use of non-invasive biological markers, conduct more longitudinal studies) to delineate the pathways by which circadian misalignment and short sleep may influence immunological mechanisms.</p>
+              <p>Much of the literature concerning sleep and shift work has focused on pro-inflammatory cytokines such as IL-1, IL-6, and TNF-alpha. However, the immune system serves many other functions, and there is a need to measure additional immunological biomarkers to better understand whether the interplay and complexity of immune functions are involved in how shift work may affect health outcomes. For example, there is limited knowledge about how shift work affects anti-inflammatory cytokines, such as IL-4 and IL-10, or other cytokines, such as IL-13 and interferon (IFN), which may have sleep regulatory properties (<xref rid="B4" ref-type="bibr">4</xref>). One complicating issue when studying healthy humans is that the blood concentrations of most cytokines are very low, and often not detectable (<xref rid="B4" ref-type="bibr">4</xref>).</p>
+              <p>In the present project, we collected blood from shift working nurses using the dried blood spot technique (<xref rid="B13" ref-type="bibr">13</xref>). This is a minimally invasive method in which blood may be collected at home or at the workplace, and by the participants themselves. This blood collection technique analyzed with quantitative antibody array technology allows for quantification of several cytokines from the same sample. By using this technique, we were able to quantify the following immunological biomarkers: IL-1alfa, IL-1beta, IL-4, IL-6, IL-8, IL-10, IL-13, monocyte chemoattractant protein (MCP)-1, IFN-gamma, and TNF-alpha.</p>
+              <p>This project consists of two studies, with two different aims. Aim of study 1: To determine whether levels of immunological biomarkers differ between nurses (<italic>n</italic> = 390) (a) on different shift schedules, (b) working different number of night shifts, (c) working different number of quick returns (defined as &lt;11 h between consecutive shifts), (d) with short or long vs. normal self-reported sleep duration and (e) with good vs. poor self-reported sleep quality. Furthermore, (f) to determine whether levels of immunological biomarkers differ between nurses with and without shift work disorder. Aim of study 2: In nurses rotating between night and day work (<italic>n</italic> = 55), determine whether levels of immunological biomarkers differ after a night of sleep compared with levels after a night shift (both blood samples taken at about the same time) and after a day shift (blood sample taken at about 3 p.m.). Using these within-subject data, an additional aim was to study the diurnal influence on these immunological biomarkers.</p>
+            </sec>
+            <sec sec-type="materials and methods" id="s2">
+              <title>Materials and Methods</title>
+              <sec>
+                <title>Participants</title>
+                <p>Nurses were asked if they wanted to participate in this immunological project when completing a questionnaire in the ongoing cohort study “SUrvey of Shift work, Sleep, and Health (SUSSH)” (<xref rid="B14" ref-type="bibr">14</xref>). In the first immunological project (study 1), 485 nurses received the necessary equipment and instructions for sampling blood using the blood spot technique by postal mail. Only nurses who were working either day shifts only, a two-rotational schedule (day and evening shifts) or a three-rotational schedule (day, evening, and night shifts) were invited to participate. They were asked to take fasting blood samples when waking up the morning after a night of sleep, but before the start of the day shift. The participants were instructed to refrain from taking and sending samples if they had been ill or experienced fever during the last 3 days. Furthermore, nurses were asked not to take samples if they were pregnant. A total of 375 nurses returned blood samples together with a short questionnaire in which they answered questions about sleep duration and sleep quality (very good, pretty good, indifferent, pretty bad, and very bad) the night before blood sampling. Thus, response rate was 77.3%. Due to poor quality of some blood samples (insufficient magnitude; 224 samples) and missing questionnaires (4 samples), 228 nurses were sent new blood sample equipment and questionnaire. Still, not all nurses provided satisfactory blood samples, and the final number of samples with sufficient quality for analyses was 334. All nurses who participated in study 1 received a compensation of about EUR 40.</p>
+                <p>In study 2, 99 nurses working three-rotational shifts were sent blood sampling equipment. Besides the fasting blood samples taken in the morning after a night of sleep, these nurses also provided non-fasting blood samples right after the following day shift (at about 3 p.m.) and immediately after a night shift (taken at about the same time as the blood sample after a night of sleep). These nurses were also instructed not to take any samples if being ill or having fever during the last 3 days, as well as not taking samples if they were pregnant. Sixty-four nurses returned the blood samples together with a similar questionnaire as in study 1, in which the nurses answered questions about sleep duration and sleep quality the night before the first blood sample. Response rate was 64.6% in this study. Due to poor quality of some of the blood samples (27 samples) or lack of completed questionnaire (1 sample), 28 nurses were sent new blood sample equipment and questionnaire. Still, some of the samples had poor quality, resulting in data from a total of 56 participants having three samples each to be analyzed. One participant was excluded from the within-subject analyses due to sleeping during the night shift. Sample 1 from the 56 participants in study 2 was included with the samples in study 1, as all these samples were taken in the morning after a night of sleep. Each nurse in study 2 received a compensation of about EUR 100.</p>
+                <p>The most common work hours for the Norwegian nursing population are 07:00–15:00 (day shifts), 14:30–22:00 (evening shifts), and 22:00–07:30 (night shifts). Nurses working in outpatient clinics or administratively may work 08:00–16:00. Shift workers have a 35.5 h workweek, while day workers have a 37.5 h workweek.</p>
+              </sec>
+              <sec>
+                <title>Blood Sampling Procedure</title>
+                <p>The dried blood spot method was used for sampling blood. This procedure is minimally invasive and considered to be easy to administer. The nurses pricked their finger with a lancet, and after removing the first blood drop, they applied a small amount of blood on four marked circles on Whatman 903 Protein Saver Snap Apart Cards. To be qualified as a good quality blood sample, the blood should fill the whole circle and should be drenched through to the back of the card. After blood collection, the filter cards were dried in room temperature for 12–24 h, and then returned to the researchers in sealed plastic bags with silica gels to prevent humidity. The filter cards were stored at −70°C until analysis.</p>
+              </sec>
+              <sec>
+                <title>Blood Sample Preparation and Microarray Analyses</title>
+                <p>To elute cytokines from the dry blood samples, one circle (12.5 mm) was punched out of the blood card, minced and put into a 1.5 ml Eppendorf tube containing 150 μl 1× PBS. The Eppendorf tube was placed on gentle shaking for 4 h in room temperature. The filter paper was removed, and the sample was centrifuged 13,000 RPM for 3 min. Then 80 μl eluate was pipetted onto the antibody array slide Quantibody<sup>®</sup> Human inflammation Array 1 (RayBiotech, Inc., Norcross, GA, USA) and analyzed according to the manufacturer's instructions. After analysis the antibody array slides were stored at 4°C and sent to RayBiotech Life, Inc, USA, for scanning (Innopsys Innoscan 710), data extraction and calculation of the concentration of each cytokine in pg/ml.</p>
+                <p>Quantibody<sup>®</sup> uses the principle of microarray (forward phase) and enables the detection of several different proteins. In the current project, the following immunological biomarkers were measured: IL-1alpha, IL-1beta, IL-4, IL-6, IL-8, IL-10, IL-13, MCP-1, IFN-gamma, and TNF-alpha. <xref rid="T1" ref-type="table">Table 1</xref> shows the limit of detection (LOD) (provided by RayBiotech Life) of the analyses for each immunological parameter. Most proteins, with the exception of MCP-1, had a high percentage of values below LOD. However, as the data are epidemiological, we kept all data, as suggested by Whitcomb and Schisterman (<xref rid="B15" ref-type="bibr">15</xref>). In cases were protein levels were not detected (=0), we substituted 0 with a random number between 0 and the lowest value detected for each specific protein. The statistical results remained the same irrespective of imputation or no imputation.</p>
+                <table-wrap id="T1" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Statistics of the limit of detection (LOD) for each immunological biomarker.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <th valign="top" align="left" rowspan="1" colspan="1">
+                          <bold>Biomarker</bold>
+                        </th>
+                        <th valign="top" align="center" rowspan="1" colspan="1">
+                          <bold>LOD (pg/ml)</bold>
+                        </th>
+                        <th valign="top" align="center" rowspan="1" colspan="1">
+                          <bold>% below LOD</bold>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">IL-1alpha</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">9.1</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">73.9</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">IL-1beta</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">3.2</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">38.7</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">IL-4</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">3.3</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">78.4</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">IL-6</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">4.7</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">92.0</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">IL-8</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">9.7</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">84.1</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">IL-10</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.3</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">85.6</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">IL-13</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1.1</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">85.1</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">MCP-1</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">3.6</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.2</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">IFN-gamma</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.8</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">64.6</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">TNF-alpha</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2.3</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">77.4</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <p><italic>IL, interleukin; MCP, monocyte chemoattractant protein; IFN, interferon; TNF, tumor necrosis factor. Based on samples from 390 nurses</italic>.</p>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec>
+                <title>Questionnaire</title>
+                <p>We collected data on self-reported sleep duration and sleep quality the night before blood sampling from a short questionnaire sent out together with the blood sampling equipment. Furthermore, we had data from the invitation questionnaire of the SUSSH cohort. From that questionnaire we collected information about the nurses' age, sex, marital status, work time equivalent, weight, height, work schedule, number of night shifts worked the last year, and number of quick returns worked the last year. In addition, presence of shift work disorder (SWD) was measured with three questions based on the criteria from the third edition of the International Classification of Sleep Disorders [ICSD-3; (<xref rid="B16" ref-type="bibr">16</xref>)]. The questions were: (a) Do you have a work schedule that sometimes overlap with the time you usually sleep?, (b) If yes, does this cause insomnia and/or excessive sleepiness due to reduced amount of sleep?, (c) If yes, has this lasted for at least 3 months? Participants were classified as having SWD if they responded “yes” to all three questions. Body mass index was calculated as weight (kg) divided by the square of height (meters).</p>
+              </sec>
+              <sec>
+                <title>Statistics</title>
+                <p>The statistical analyses were conducted with IBM SPSS Statistics 25 for Windows. Due to positive skewness, all statistical analyses were conducted with log-transformed cytokine values. In study 1, multiple linear regressions were conducted with the different immunological biomarkers as dependent variables, and with adjustment for age, sex, and body mass index [since these variables are shown to influence cytokine levels (<xref rid="B17" ref-type="bibr">17</xref>)]. Predictors were work schedule [day only (reference), two-shift rotation, three-shift rotation], number of night shifts during the last year [0 (reference), 1–30, &gt;30], number of quick returns during the last year [0 (reference), 1–30, &gt;30], sleep duration [&lt;6 h, 6–7.9 h (reference), 8+ h], sleep quality [very good/pretty good (reference), indifferent/pretty bad/very bad], and shift work disorder [no (reference), yes]. In study 2, one-way ANOVAs for repeated measures (Wilks' Lambda) with <italic>post-hoc</italic> LSD tests and effect sizes (multivariate partial eta squared in which 0.01, 0.06, and 0.14 suggest small, moderate, and large effect sizes, respectively) were used to compare intra-individual values of the different immunological biomarkers after a night of sleep, after a day shift, and after a night shift. Significance level was set to 0.05.</p>
+              </sec>
+              <sec>
+                <title>Ethics</title>
+                <p>The study was approved by the Regional Committee for Medical and Health Research Ethics of Western Norway (REK-West, no 088.08). Informed consent in written form was obtained from all participants.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="s3">
+              <title>Results</title>
+              <p>Most of the immunological biomarkers, with the exception of IL-1beta and MCP-1, were present in very low amounts, and with a high percentage of values below LOD (<xref rid="T1" ref-type="table">Table 1</xref>). Histograms showing the values for the different cytokines are available as a <xref ref-type="supplementary-material" rid="SM1">Supplementary File</xref>.</p>
+              <p>The participants in study 1 (<italic>n</italic> = 390) were on average 40.5 years (SD = 8.5), and 93.6% were females. Other demographic information as well as data regarding body mass index, work schedule characteristics, number of night shifts worked the last year, number of quick returns worked the last year, self-reported sleep duration and sleep quality, and shift work disorder are provided in <xref rid="T2" ref-type="table">Table 2</xref>.</p>
+              <table-wrap id="T2" position="float">
+                <label>Table 2</label>
+                <caption>
+                  <p>Questionnaire data among shift working nurses (<italic>n</italic> = 390) participating in study 1.</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <thead>
+                    <tr>
+                      <th rowspan="1" colspan="1"/>
+                      <th valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>Mean (SD)</bold>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">Age (missing = 0)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">40.5 (8.5)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">Body mass index (BMI) (missing = 2)</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">25.1 (4.5)</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>% (</bold>
+                        <italic>
+                          <bold>n</bold>
+                        </italic>
+                        <bold>)</bold>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>Sex (missing</bold>
+                        <bold>=</bold>
+                        <bold>1)</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">    Female</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">93.6 (364)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">   Male</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">6.4 (25)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>Marital status (missing</bold>
+                        <bold>=</bold>
+                        <bold>1)</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">   Married/cohabiting</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">76.6 (298)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">   Single</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">23.4 (91)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>Work time equivalent (missing</bold>
+                        <bold>=</bold>
+                        <bold>1)</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">    &lt;50%</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0.0 (0)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">   50–75%</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">15.4 (60)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">   76–90%</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">18.8 (73)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">   &gt;90%</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">65.8 (256)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>Work schedule (missing</bold>
+                        <bold>=</bold>
+                        <bold>1)</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">   Day only</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">27.8 (108)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">   Day-evening</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">33.9 (132)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">   Day-evening-night</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">38.3 (149)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>Number of night shifts last year (missing</bold>
+                        <bold>=</bold>
+                        <bold>1)</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">    0</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">51.7 (201)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">   1–30</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">26.2 (102)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">   &gt;30</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">22.1 (86)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>Number of quick returns last year (missing</bold>
+                        <bold>=</bold>
+                        <bold>5)</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">   0</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">22.9 (88)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">   1–30</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">38.7 (149)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">   &gt;30</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">38.4 (148)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>Sleep duration</bold>
+                        <bold>
+                          <xref ref-type="table-fn" rid="TN1">
+                            <sup>a</sup>
+                          </xref>
+                        </bold>
+                        <bold>(missing</bold>
+                        <bold>=</bold>
+                        <bold>3)</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">    &lt;6 h</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">25.6 (99)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">   6–7.9 h</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">62.3 (241)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">   8+ h</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">12.1 (47)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>Sleep quality</bold>
+                        <bold>
+                          <xref ref-type="table-fn" rid="TN1">
+                            <sup>a</sup>
+                          </xref>
+                        </bold>
+                        <bold>(missing</bold>
+                        <bold>=</bold>
+                        <bold>3)</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">   Very good/pretty good</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">69.8 (270)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">   Indifferent/pretty bad/very bad</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">30.2 (117)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>Shift work disorder (missing</bold>
+                        <bold>=</bold>
+                        <bold>6)</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">   Yes</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">33.1 (127)</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">   No</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1">66.9 (257)</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <fn id="TN1">
+                    <label>a</label>
+                    <p><italic>The night before blood sampling</italic>.</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+              <p><xref rid="T3" ref-type="table">Table 3</xref> presents the levels of the immunological biomarkers in relation to different groups of the shift working nurses (study 1). In relation to work schedule, day-evening work was associated with significantly higher levels of IL-1alpha and IL-13 than day only work (<xref rid="T4" ref-type="table">Table 4</xref>). In relation to number of nights worked last year, working more than 30 night shifts last year was associated with a near-significant higher MCP-1 level than not working night shifts (<xref rid="T4" ref-type="table">Table 4</xref>). In relation to number of quick returns worked last year, nurses working between 1 and 30 quick returns last year had higher IL-1beta levels, and nurses working more than 30 quick returns had higher MCP-1 levels in comparison to not working quick returns (<xref rid="T4" ref-type="table">Table 4</xref>). In relation to sleep duration the night before blood sampling, short sleep duration (&lt;6 h) was associated with lower IL-1beta levels and higher TNF-alpha levels, in comparison to a sleep duration of 6–7.9 h (<xref rid="T4" ref-type="table">Table 4</xref>). Furthermore, long sleep duration (8+ h) was associated with higher IL-13 levels. In relation to sleep quality the night before blood sampling and in relation to shift work disorder, no association to levels of cytokines was found (<xref rid="T4" ref-type="table">Table 4</xref>).</p>
+              <table-wrap id="T3" position="float">
+                <label>Table 3</label>
+                <caption>
+                  <p>Levels of immunological biomarkers in pg/ml after a night of sleep among different groups of shift working nurses (<italic>n</italic> = 390).</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <thead>
+                    <tr>
+                      <th rowspan="1" colspan="1"/>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>IL-1alpha</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>IL-1beta</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>IL-4</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>IL-6</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>IL-8</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>IL-10</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>IL-13</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>MCP-1</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>IFN-gamma</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>TNF-alpha</bold>
+                      </th>
+                    </tr>
+                    <tr>
+                      <th rowspan="1" colspan="1"/>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>Median, IQR</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>Median, IQR</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>Median, IQR</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>Median, IQR</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>Median, IQR</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>Median, IQR</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>Median, IQR</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>Median, IQR</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>Median, IQR</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>Median, IQR</bold>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>Cytokine levels</bold>
+                      </td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">3.95, 9.45</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.65, 8.70</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.80, 3.03</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.40, 2.54</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.75, 6.97</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.06</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.08, 0.56</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">174.55, 122.08</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.10, 1.55</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.50, 2.04</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>Work schedule</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">Day only</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">2.50, 9.02</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.15, 7.10</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.50, 2.65</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.30, 2.32</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.30, 5.83</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.06</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.08, 0.37</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">171.00, 132.13</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.10, 1.26</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.30, 1.74</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">Day-evening</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">5.10, 9.15</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.55, 8.17</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.10, 3.30</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.70, 2.53</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">2.15, 7.71</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.08, 0.17</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.10, 0.75</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">164.70, 129.78</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.25, 1.65</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.65, 2.04</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">Day-evening-night</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">3.70, 10.29</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.80, 10.55</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.70, 3.18</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.20, 2.69</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.10, 7.20</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.07</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.08, 0.46</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">184.70, 108.35</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.10, 1.45</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.60, 2.45</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>NN last year</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.20, 9.64</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.00, 7.60</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.00, 3.04</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.50, 2.64</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.10, 6.85</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.06</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.08, 0.66</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">166.00, 129.55</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.20, 1.65</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.40, 2.03</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1–30</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">3.35, 7.43</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.55, 10.03</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.45, 2.23</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.20, 2.29</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.15, 7.98</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.07</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.08, 0.57</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">176.55, 127.83</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.10, 1.06</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.40, 1.60</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&gt;30</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">3.85, 12.16</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">5.70, 10.77</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.95, 3.44</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.40, 2.62</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.30, 7.33</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.06</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.09, 0.46</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">185.50, 97.28</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.10, 1.67</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.80, 2.87</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>QR last year</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">2.60, 9.23</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">3.35, 7.05</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.45, 2.85</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.20, 2.62</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.09, 5.71</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.06</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.08, 0.44</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">164.85, 134.70</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.10, 1.41</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.30, 2.10</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1–30</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.40, 9.92</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">5.30, 12.15</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.00, 2.78</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.40, 2.48</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.20, 7.55</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.06</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.09, 0.56</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">170.60, 114.40</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.10, 1.55</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.40, 2.55</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&gt;30</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">3.95, 9.83</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">3.85, 8.98</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.85, 3.44</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.40, 2.69</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.35, 7.89</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.07</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.09, 0.73</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">179.20, 128.75</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.10, 1.45</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.70, 1.95</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>Sleep duration</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">6.0– &lt;8 h</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">3.90, 9.52</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.90, 9.60</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.70, 2.69</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.30, 2.49</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.40, 6.85</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.06</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.08, 0.46</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">176.00, 115.55</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.10, 1.45</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.40, 1.99</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;6 h</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.40, 9.55</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.00, 10.62</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.00, 3.36</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.60, 3.14</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.40, 7.55</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.07</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.08, 0.66</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">170.60, 132.30</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.30, 1.65</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.10, 3.02</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">8+ h</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">3.50, 9.42</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.00, 6.50</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.10, 3.52</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.30, 2.34</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.80, 8.13</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.06</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.20, 0.72</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">154.20, 141.10</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.10, 1.86</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.09, 1.36</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>Sleep quality</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">Good</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">3.65, 9.38</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.40, 7.82</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.75, 2.93</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.30, 2.46</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.55, 7.08</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.06</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.08, 0.56</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">174.85, 120.90</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.10, 1.55</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.40, 2.04</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">Indifferent/bad</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.40, 9.75</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">5.50, 11.95</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.90, 3.19</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.60, 2.84</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.80, 6.99</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.06</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.10, 0.56</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">176.90, 119.10</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.20, 1.50</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.70, 2.49</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>SWD</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">No</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.30, 9.47</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.80, 8.60</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.80, 2.83</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.40, 2.74</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.70, 7.60</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.06</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.08, 0.66</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">174.50, 124.35</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.10, 1.55</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.50, 1.94</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">Yes</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">3.70, 10.23</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.40, 10.40</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.90, 3.74</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.40, 2.14</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.90, 6.44</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.07</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.08, 0.46</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">175.50, 118.00</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.10, 1.56</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.40, 2.15</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <p><italic>IL, interleukin; MCP, monocyte chemoattractant protein; IFN, interferon; TNF, tumor necrosis factor; NN, night shifts; QR, quick returns; IQR, interquartile range; SWD, shift work disorder</italic>.</p>
+                </table-wrap-foot>
+              </table-wrap>
+              <table-wrap id="T4" position="float">
+                <label>Table 4</label>
+                <caption>
+                  <p>Results from multiple linear regression analyses with different work characteristics, sleep duration, sleep quality, and shift work disorder as predictors, with adjustment for age, sex, and body mass index.</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <thead>
+                    <tr>
+                      <th rowspan="1" colspan="1"/>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>IL-1alpha</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>IL-1beta</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>IL-4</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>IL-6</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>IL-8</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>IL-10</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>IL-13</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>MCP-1</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>IFN-gamma</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>TNF-alpha</bold>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td rowspan="1" colspan="1"/>
+                      <td valign="top" align="center" rowspan="1" colspan="1">β, <italic>p</italic>-value</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">β, <italic>p</italic>-value</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">β, <italic>p</italic>-value</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">β, <italic>p</italic>-value</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">β, <italic>p</italic>-value</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">β, <italic>p</italic>-value</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">β, <italic>p</italic>-value</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">β, <italic>p</italic>-value</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">β, <italic>p</italic>-value</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">β, <italic>p</italic>-value</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>Work schedule</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">Day only (ref)</td>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">Day–evening</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>0.14, 0.020</bold>
+                      </td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.04, 0.479</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.11, 0.071</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.08, 0.196</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.10, 0.095</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.09, 0.154</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>0.13, 0.036</bold>
+                      </td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.02, 0.746</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.271</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.09, 0.168</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">Day–evening–night</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.272</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.01, 0.823</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.05, 0.438</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.00, 0.946</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.02, 0.813</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.01, 0.821</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.03, 0.625</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.08, 0.184</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.01, 0.879</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.06, 0.345</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>NN last year</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0 (ref)</td>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1–30</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.05, 0.347</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.01, 0.895</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.04, 0.467</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.02, 0.707</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.05, 0.319</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.06, 0.272</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.07, 0.176</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.168</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.09, 0.104</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.05, 0.362</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&gt;30</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.02, 0.726</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.02, 0.687</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.01, 0.829</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.04, 0.473</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.04, 0.456</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.04, 0.462</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.03, 0.635</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.10, 0.051</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.03, 0.635</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.05, 0.388</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>QR last year</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">0 (ref)</td>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">1–30</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.11, 0.110</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>0.14, 0.034</bold>
+                      </td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.05, 0.451</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.02, 0.751</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.04, 0.543</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.03, 0.670</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.00, 0.982</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.09, 0.177</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.00, 0.962</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.00, 0.983</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&gt;30</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.09, 0.191</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.02, 0.725</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.264</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.04, 0.559</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.10, 0.143</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.04, 0.519</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.282</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>0.13, 0.043</bold>
+                      </td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.02, 0.787</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.02, 0.743</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>Sleep duration</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">6.0– &lt;8 h (ref)</td>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">&lt;6 h</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.01, 0.890</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>−0.11, 0.041</bold>
+                      </td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.04, 0.430</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.03, 0.573</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.01, 0.856</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.02, 0.693</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.00, 0.987</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.03, 0.615</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.04, 0.493</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>0.11, 0.040</bold>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">8+ h</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.00, 0.940</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.02, 0.679</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.08, 0.144</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.02, 0.702</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.178</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.04, 0.407</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>0.11, 0.030</bold>
+                      </td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.05, 0.367</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.03, 0.638</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.06, 0.232</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>Sleep quality</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">Good (ref)</td>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">Indifferent/bad</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.172</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.00, 0.938</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.03, 0.507</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.02, 0.770</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.03, 0.532</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.02, 0.654</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.04, 0.429</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.03, 0.584</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.01, 0.840</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.07, 0.165</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>SWD</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">No (ref)</td>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                      <td rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">Yes</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.01, 0.929</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.04, 0.492</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.01, 0.858</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.02, 0.652</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.02, 0.663</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.06, 0.287</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.03, 0.531</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.02, 0.655</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.05, 0.298</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−0.01, 0.790</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <p><italic>IL, interleukin; MCP, monocyte chemoattractant protein; IFN, interferon; TNF, tumor necrosis factor; NN, night shifts; QR, quick returns; Ref, reference group; SWD, shift work disorder; β, standardized beta. Significant findings in bold. All regressions were conducted with log-transformed cytokine values due to positive skewness</italic>.</p>
+                </table-wrap-foot>
+              </table-wrap>
+              <p>In study 2 (subset with <italic>n</italic> = 55), the participants were 39.0 years (SD = 8.1) and 94.4% were females. <xref rid="T5" ref-type="table">Table 5</xref> presents the levels of the immunological biomarkers after a night of sleep, after a day shift, and after a night shift within the same nurses. There were significant ANOVAs for IL-1beta, MCP-1 and TNF-alpha. Partial eta squared indicated large effect sizes for IL-1beta and MCP-1, and moderate to large effect size for TNF-alpha (<xref rid="T5" ref-type="table">Table 5</xref>). <italic>Post-hoc</italic> tests showed that IL-1beta levels were higher after a day shift and after a night shift in comparison to levels after a night of sleep. In contrast, MCP-1 levels were lower after a day shift and after a night shift compared with after a night of sleep. For TNF-alpha, <italic>post-hoc</italic> tests showed that the level was higher after a day shift compared to after a night of sleep (<xref rid="T5" ref-type="table">Table 5</xref>).</p>
+              <table-wrap id="T5" position="float">
+                <label>Table 5</label>
+                <caption>
+                  <p>Levels of immunological biomarkers in pg/ml after a night of sleep (morning fasting), after a day shift (afternoon not fasting), and after a night shift (morning not fasting) among shift working nurses (<italic>n</italic> = 55) in a within-subject design.</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <thead>
+                    <tr>
+                      <th rowspan="1" colspan="1"/>
+                      <th valign="top" align="center" colspan="2" style="border-bottom: thin solid #000000;" rowspan="1">
+                        <bold>After sleep (morning sample)</bold>
+                      </th>
+                      <th valign="top" align="center" colspan="2" style="border-bottom: thin solid #000000;" rowspan="1">
+                        <bold>After day shift (afternoon sample)</bold>
+                      </th>
+                      <th valign="top" align="center" colspan="2" style="border-bottom: thin solid #000000;" rowspan="1">
+                        <bold>After night shift (morning sample)</bold>
+                      </th>
+                      <th rowspan="1" colspan="1"/>
+                      <th rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <th rowspan="1" colspan="1"/>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>Mean</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>SD</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>Mean</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>SD</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>Mean</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>SD</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>Wilks' Lamda</bold>
+                        <bold><xref ref-type="table-fn" rid="TN2"><sup>a</sup></xref><italic>F</italic>(2,53)</bold>
+                      </th>
+                      <th valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>Partial Eta squared</bold>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">IL-1alpha</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.6</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">6.4</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.9</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">5.4</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">6.4</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">10.2</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.99, <italic>p</italic> = 0.68</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.015</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">IL-1beta</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">7.2</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">12.2</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">8.2<xref ref-type="table-fn" rid="TN4"><sup>**</sup></xref></td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">10.0</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">12.6<xref ref-type="table-fn" rid="TN4"><sup>**</sup></xref></td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">18.2</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1"><bold>0.83</bold>, <italic><bold>p</bold></italic><bold>=</bold><bold>0.007</bold></td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>0.172</bold>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">IL-4</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.5</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">2.4</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.0</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.6</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.5</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">2.8</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.99, <italic>p</italic> = 0.69</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.014</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">IL-6</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.1</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.8</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.1</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.8</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.1</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.7</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.97, <italic>p</italic> = 0.40</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.034</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">IL-8</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.4</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">7.4</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.8</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">7.6</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">4.5</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">8.1</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.95, <italic>p</italic> = 0.26</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.049</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">IL-10</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.3</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.3</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.2</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.2</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.2</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.3</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.99, <italic>p</italic> = 0.69</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.014</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">IL-13</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.3</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.5</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.5</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.9</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.5</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.1</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.98, <italic>p</italic> = 0.59</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.020</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">MCP-1</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">190.9</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">103.3</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">149.8<xref ref-type="table-fn" rid="TN4"><sup>**</sup></xref></td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">88.2</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">167.5<xref ref-type="table-fn" rid="TN3"><sup>*</sup></xref></td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">92.5</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1"><bold>0.86</bold>, <italic><bold>p</bold></italic><bold>=</bold><bold>0.02</bold></td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>0.144</bold>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">IFN-gamma</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">.6</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.0</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.0</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.5</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">.9</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">2.1</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.96, <italic>p</italic> = 0.32</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.042</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">TNF-alpha</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.0</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.5</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.5<xref ref-type="table-fn" rid="TN3"><sup>*</sup></xref></td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.8</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.2</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">1.7</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1"><bold>0.88</bold>, <italic><bold>p</bold></italic><bold>=</bold><bold>0.04</bold></td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">
+                        <bold>0.118</bold>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <p><italic>IL, interleukin; MCP, monocyte chemoattractant protein; IFN, interferon; TNF, tumor necrosis factor; SD, standard deviation</italic>.</p>
+                  <fn id="TN2">
+                    <label>a</label>
+                    <p><italic>Analyses were conducted with log-transformed cytokine values due to positive skewness</italic>.</p>
+                  </fn>
+                  <fn id="TN3">
+                    <label>*</label>
+                    <p><italic>p &lt; 0.05 vs. “After sleep” on post-hoc Least Significant Difference (LSD)</italic>.</p>
+                  </fn>
+                  <fn id="TN4">
+                    <label>**</label>
+                    <p><italic>p &lt; 0.01 vs. “After sleep” on post-hoc LSD</italic>.</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+            </sec>
+            <sec sec-type="discussion" id="s4">
+              <title>Discussion</title>
+              <p>We anticipated (aim of study 1) that there would be differences in several immunological biomarkers depending on work schedule, number of night shifts and quick returns, and depending on sleep duration, sleep quality, and shift work disorder. This notion was partially supported, as levels of IL-1alpha (work schedule), IL-1beta (quick returns and sleep duration), IL-13 (work schedule and sleep duration), MCP-1 (number of night shifts and number of quick returns), and TNF-alpha (sleep duration) differed between the respective groups. However, considering the approach to analyze many biomarkers, the results may indicate that neither shift work, sleep duration nor sleep quality strongly affect immunological biomarkers.</p>
+              <p>The aim of study 2 was to explore whether the measured immunological biomarkers would differ after a night of sleep compared with after a day shift and after a night shift – in a within-subject design. IL-1beta, TNF-alpha, and MCP-1 significantly differed depending on sample occasion. <italic>Post-hoc</italic> tests showed higher IL-1beta and TNF-alpha levels after the shifts (for TNF-alpha only after a day shift) compared with after a night of sleep, whereas MCP-1 levels were lower after the work shifts compared to after a night of sleep. Thus, there was no clear influence on the majority of these immunological biomarkers depending on whether the blood sample was taken after sleep or after work periods. It is important to note that the blood samples taken after the day shift and after the night shift were non-fasting, as compared to the fasting blood sample taken after a night of sleep. How this may have affected the results is unclear. Also, diurnal influences may have impacted the results. However, there is poor understanding of the diurnal variation of most cytokines (<xref rid="B2" ref-type="bibr">2</xref>, <xref rid="B18" ref-type="bibr">18</xref>, <xref rid="B19" ref-type="bibr">19</xref>). Most evidence concerns IL-6 where a recent meta-analysis showed levels to be lower in the morning (<xref rid="B20" ref-type="bibr">20</xref>). Unfortunately, in the present study most IL-6 data were under the LOD and we could not make any clear conclusions as to whether shift workers suffered from a systemic inflammation with regard to IL-6 or whether there was an alteration seen after a night shift.</p>
+              <p>With respect to the previous literature on how shift work and sleep relate to cytokines, our findings are partially in contrast with several previous studies (<xref rid="B5" ref-type="bibr">5</xref>, <xref rid="B7" ref-type="bibr">7</xref>, <xref rid="B8" ref-type="bibr">8</xref>, <xref rid="B12" ref-type="bibr">12</xref>, <xref rid="B21" ref-type="bibr">21</xref>) but in agreement with others (<xref rid="B6" ref-type="bibr">6</xref>, <xref rid="B10" ref-type="bibr">10</xref>, <xref rid="B11" ref-type="bibr">11</xref>). In a systematic review and meta-analysis on the link between sleep disturbance, sleep duration and inflammation, Irwin et al. (<xref rid="B3" ref-type="bibr">3</xref>) found 72 studies assessing IL-6, TNF-alpha, and C-reactive protein (CRP). It was reported that TNF-alpha was not associated with neither sleep disturbances nor sleep duration, whereas IL-6 was associated with sleep disturbance (higher values) but not short sleep duration, partially lending support to the present findings. Irwin et al. (<xref rid="B3" ref-type="bibr">3</xref>) also reported that sleep disturbance and short sleep duration were associated with higher levels of CRP, however, that inflammatory biomarker was not measured in the present study. Furthermore, neither experimental sleep deprivation nor sleep restriction have been found to be associated with IL-6, TNF-alpha, or CRP (<xref rid="B3" ref-type="bibr">3</xref>). The authors concluded that sleep disturbance, but not short sleep duration, was associated with higher levels of markers of systemic inflammation (<xref rid="B3" ref-type="bibr">3</xref>). In another systematic review, it was concluded that acute or chronic sleep loss do not influence levels of IL-4 and IL-10 (<xref rid="B4" ref-type="bibr">4</xref>). In the present study, short sleep duration (&lt;6 h) was associated with lower IL-1beta levels and higher TNF-alpha levels, whereas long sleep duration (8+ h) was associated with higher IL-13 levels. However, we found no association between the immunological biomarkers and sleep quality or shift work disorder. Our findings therefore extend current knowledge of the rather weak associations between shift work, sleep, and immune functioning.</p>
+              <p>One of the findings in study 2 was reduced levels of MCP-1 after a day shift and in the morning after a night shift compared with morning levels after a night of sleep. MCP-1 is a chemo-attractant and one of the key cytokines that regulate migration and infiltration of monocytes and macrophages into different tissues around the body. It is believed to play a role in the development of atherosclerosis and probably also in autoimmune disease (<xref rid="B22" ref-type="bibr">22</xref>, <xref rid="B23" ref-type="bibr">23</xref>). Our finding with regard to MCP-1 using a within-subject study design is novel. Further studies are needed to clarify the importance of MCP-1 in shift work.</p>
+              <sec>
+                <title>Strengths and Limitations</title>
+                <p>This present project has several limitations and strengths. The blood spot method allowed the nurses to take samples in their home environment, thus facilitating blood sampling after waking up in the morning after sleep. Also, the antibody array method allowed us to analyze ten different biomarkers from the same sample, which is considered to be a major strength. Furthermore, another asset was that we were able to compare levels of immunological biomarkers at the same time points (after sleep vs. after night work), as well as compare levels at different time points (sample taken in the afternoon vs. morning samples after sleep/after night shift). While participants may have been measured at different circadian phases—due to differences between individuals in terms of diurnal type or alterations within individuals across the work schedule—the present approach should be seen as pragmatic, in order to limit influence from the circadian system when frequent samples covering the entire 24 h window could not be done. The relatively large group of nurses with acceptable response rates is also an asset. Furthermore, we believe our assessment of the exposure to a number of shift work characteristics is a strength. For example, the number of night shifts and quick returns are known to contribute to circadian disruption and are also seen as risk factors for adverse health. Another strength was that we adjusted for age, sex, and body mass index in the group comparisons, as these variables are shown to influence cytokine levels (<xref rid="B17" ref-type="bibr">17</xref>). A major limitation with this self-performed blood sampling procedure was that many of the initial samples were of poor quality, usually due to blood not covering the whole circle of the filter cards. Considering that these participants were nurses who are trained to handle blood, it is to be expected that such a sampling procedure may be even more difficult in other populations. Another concern relates to the low levels of immunological biomarkers in the blood samples. For all biomarkers except for MCP-1 and IL-1beta, most of the samples had levels that were below the detection limit. This is however common when measuring cytokines in circulation but is clearly a limitation with the chosen method since other methods are more sensitive with regards to detecting systemic cytokines, such as IL-6. The definition of limit of detection (LOD) is the concentration or the quantity that can be detected with reasonable certainty for a given analytical procedure (<xref rid="B15" ref-type="bibr">15</xref>). To avoid biasing estimates it is recommended to use all data including those below LOD in epidemiological studies like the present investigation (<xref rid="B15" ref-type="bibr">15</xref>). Also, it is important to note that the concentration of most cytokines in healthy individuals is very low and not always detectable even with more sensitive methods (<xref rid="B4" ref-type="bibr">4</xref>). The results are likely to be most robust for the IL-1beta and MCP-1 findings, since more than 61 and 99% of the values were above LOD, respectively. For the other cytokines, many samples were below the lower detection level, and the results regarding these should therefore be interpreted with caution. Another limitation with the approach to include many cytokines is the risk of conducting type-I errors. We did not apply any corrections to reduce the risk for false positive findings as such an approach would have reduced the statistical power, hence increasing the risk of making type-II errors. We believe that these estimates could give directionality for future studies, e.g., as priors in a Bayesian statistic. Still, the fact that the cytokine levels were generally low, suggests that shift work does not strongly affect immunity. Still, it should be noted that some of the group comparisons may have been influenced (e.g., comparing day only to shift worker) by “the healthy shift worker effect” (<xref rid="B24" ref-type="bibr">24</xref>). Also, the day only group included nurses with previous shift work experience. How and if this may have affected the results however, is unclear.</p>
+                <p>Based on previous literature and the present findings, one cannot make strong conclusions regarding how shift work affects immunity. An important step in solving this issue will be to merge data from several studies (e.g., by meta-analytical approaches), increasing the power to make more accurate estimates of possible effects.</p>
+                <p>In conclusion, the present findings showed some indications of shift workers to have higher levels of inflammatory biomarkers. However, neither work schedule, number of night shifts, number of quick returns, short sleep duration, poor sleep quality, nor having shift work disorder seemed to have a major impact on the levels of a multitude of immunological biomarkers. Yet, levels of IL-1beta and TNF-alpha were higher after a day shift, levels of IL-1beta were higher after a night shift, and levels of MCP-1 were lower both after a day shift and after a night shift, in comparison with morning levels after a night of sleep, respectively, which suggests that work may acutely impact immune function.</p>
+              </sec>
+            </sec>
+            <sec sec-type="data-availability" id="s5">
+              <title>Data Availability Statement</title>
+              <p>Data cannot be released into a publicly accessible repository in accordance with national guidelines and local legislation due to concerns regarding participant anonymity as raised by the Regional Committee for Medical and Health Research Ethics of Western Norway (REK-West).</p>
+            </sec>
+            <sec id="s6">
+              <title>Ethics Statement</title>
+              <p>The studies involving human participants were reviewed and approved by The Regional Committee for Medical and Health Research Ethics of Western Norway (REK-West, no 088.08). The patients/participants provided their written informed consent to participate in this study.</p>
+            </sec>
+            <sec id="s7">
+              <title>Author Contributions</title>
+              <p>BB: collecting the data, design of the study, data analysis, interpretation of the results, and drafting the paper. SP, SW, BM, and ET: collecting the data, design of the study, interpretation of the results, and critical review of the paper. JA, ØV, KB, and HB: design of the study, interpretation of the results, and critical review of the paper.</p>
+            </sec>
+            <sec id="s8">
+              <title>Conflict of Interest</title>
+              <p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>These studies were carried out with technical assistance of Anne Marie Kinn Rød and Nina Harkestad, Department of Biological and Medical Psychology, University of Bergen.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="financial-disclosure">
+                <p><bold>Funding.</bold> The studies were partly funded (payment for the equipment and analyses of the cytokines) from Nordforsk, Nordic Program on Health and Welfare (74809).</p>
+              </fn>
+            </fn-group>
+            <sec sec-type="supplementary-material" id="s9">
+              <title>Supplementary Material</title>
+              <p>The Supplementary Material for this article can be found online at: <ext-link ext-link-type="uri" xlink:href="https://www.frontiersin.org/articles/10.3389/fpubh.2020.00415/full#supplementary-material">https://www.frontiersin.org/articles/10.3389/fpubh.2020.00415/full#supplementary-material</ext-link></p>
+              <supplementary-material content-type="local-data" id="SM1">
+                <media xlink:href="Data_Sheet_1.PDF">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1">
+                <label>1.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kecklund</surname><given-names>G</given-names></name><name><surname>Axelsson</surname><given-names>J</given-names></name></person-group>. <article-title>Health consequences of shift work and insufficient sleep</article-title>. <source>BMJ.</source> (<year>2016</year>) <volume>355</volume>:<fpage>i5210</fpage>. <pub-id pub-id-type="doi">10.1136/bmj.i5210</pub-id><?supplied-pmid 27803010?><pub-id pub-id-type="pmid">27803010</pub-id></mixed-citation>
+              </ref>
+              <ref id="B2">
+                <label>2.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Morris</surname><given-names>CJ</given-names></name><name><surname>Purvis</surname><given-names>TE</given-names></name><name><surname>Hu</surname><given-names>K</given-names></name><name><surname>Scheer</surname><given-names>FA</given-names></name></person-group>. <article-title>Circadian misalignment increases cardiovascular disease risk factors in humans</article-title>. <source>Proc Natl Acad Sci U S A.</source> (<year>2016</year>) <volume>113</volume>:<fpage>E1402</fpage>–<lpage>11</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1516953113</pub-id><?supplied-pmid 26858430?><pub-id pub-id-type="pmid">26858430</pub-id></mixed-citation>
+              </ref>
+              <ref id="B3">
+                <label>3.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Irwin</surname><given-names>MR</given-names></name><name><surname>Olmstead</surname><given-names>R</given-names></name><name><surname>Carroll</surname><given-names>JE</given-names></name></person-group>. <article-title>Sleep disturbance, sleep duration, and inflammation: a systematic review and meta-analysis of cohort studies and experimental sleep deprivation</article-title>. <source>Biol Psychiatry.</source> (<year>2016</year>) <volume>80</volume>:<fpage>40</fpage>–<lpage>52</lpage>. <pub-id pub-id-type="doi">10.1016/j.biopsych.2015.05.014</pub-id><?supplied-pmid 26140821?><pub-id pub-id-type="pmid">26140821</pub-id></mixed-citation>
+              </ref>
+              <ref id="B4">
+                <label>4.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Besedovsky</surname><given-names>L</given-names></name><name><surname>Lange</surname><given-names>T</given-names></name><name><surname>Haack</surname><given-names>M</given-names></name></person-group>. <article-title>The sleep-immune crosstalk in health and disease</article-title>. <source>Physiol Rev.</source> (<year>2019</year>) <volume>99</volume>:<fpage>1325</fpage>–<lpage>80</lpage>. <pub-id pub-id-type="doi">10.1152/physrev.00010.2018</pub-id><?supplied-pmid 30920354?><pub-id pub-id-type="pmid">30920354</pub-id></mixed-citation>
+              </ref>
+              <ref id="B5">
+                <label>5.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Puttonen</surname><given-names>S</given-names></name><name><surname>Viitasalo</surname><given-names>K</given-names></name><name><surname>Harma</surname><given-names>M</given-names></name></person-group>. <article-title>Effect of shiftwork on systemic markers of inflammation</article-title>. <source>Chronobiol Int.</source> (<year>2011</year>) <volume>28</volume>:<fpage>528</fpage>–<lpage>35</lpage>. <pub-id pub-id-type="doi">10.3109/07420528.2011.580869</pub-id><?supplied-pmid 21797781?><pub-id pub-id-type="pmid">21797781</pub-id></mixed-citation>
+              </ref>
+              <ref id="B6">
+                <label>6.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Copertaro</surname><given-names>A</given-names></name><name><surname>Bracci</surname><given-names>M</given-names></name><name><surname>Gesuita</surname><given-names>R</given-names></name><name><surname>Carle</surname><given-names>F</given-names></name><name><surname>Amati</surname><given-names>M</given-names></name><name><surname>Baldassari</surname><given-names>M</given-names></name><etal/></person-group>. <article-title>Influence of shift-work on selected immune variables in nurses</article-title>. <source>Ind Health.</source> (<year>2011</year>) <volume>49</volume>:<fpage>597</fpage>–<lpage>604</lpage>. <pub-id pub-id-type="doi">10.2486/indhealth.MS1210</pub-id><?supplied-pmid 21804267?><pub-id pub-id-type="pmid">21804267</pub-id></mixed-citation>
+              </ref>
+              <ref id="B7">
+                <label>7.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Nagai</surname><given-names>M</given-names></name><name><surname>Morikawa</surname><given-names>Y</given-names></name><name><surname>Kitaoka</surname><given-names>K</given-names></name><name><surname>Nakamura</surname><given-names>K</given-names></name><name><surname>Sakurai</surname><given-names>M</given-names></name><name><surname>Nishijo</surname><given-names>M</given-names></name><etal/></person-group>. <article-title>Effects of fatigue on immune function in nurses performing shift work</article-title>. <source>J Occup Health.</source> (<year>2011</year>) <volume>53</volume>:<fpage>312</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1539/joh.10-0072-OA</pub-id><?supplied-pmid 21778660?><pub-id pub-id-type="pmid">21778660</pub-id></mixed-citation>
+              </ref>
+              <ref id="B8">
+                <label>8.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sookoian</surname><given-names>S</given-names></name><name><surname>Gemma</surname><given-names>C</given-names></name><name><surname>Fernandez Gianotti</surname><given-names>T</given-names></name><name><surname>Burgueno</surname><given-names>A</given-names></name><name><surname>Alvarez</surname><given-names>A</given-names></name><name><surname>Gonzalez</surname><given-names>CD</given-names></name><etal/></person-group>. <article-title>Effects of rotating shift work on biomarkers of metabolic syndrome and inflammation</article-title>. <source>J Intern Med.</source> (<year>2007</year>) <volume>261</volume>:<fpage>285</fpage>–<lpage>92</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2796.2007.01766.x</pub-id><?supplied-pmid 17305651?><pub-id pub-id-type="pmid">17305651</pub-id></mixed-citation>
+              </ref>
+              <ref id="B9">
+                <label>9.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lasselin</surname><given-names>J</given-names></name><name><surname>Rehman</surname><given-names>JU</given-names></name><name><surname>Akerstedt</surname><given-names>T</given-names></name><name><surname>Lekander</surname><given-names>M</given-names></name><name><surname>Axelsson</surname><given-names>J</given-names></name></person-group>. <article-title>Effect of long-term sleep restriction and subsequent recovery sleep on the diurnal rhythms of white blood cell subpopulations</article-title>. <source>Brain Behav Immun.</source> (<year>2015</year>) <volume>47</volume>:<fpage>93</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1016/j.bbi.2014.10.004</pub-id><?supplied-pmid 25451611?><pub-id pub-id-type="pmid">25451611</pub-id></mixed-citation>
+              </ref>
+              <ref id="B10">
+                <label>10.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>van Mark</surname><given-names>A</given-names></name><name><surname>Weiler</surname><given-names>SW</given-names></name><name><surname>Schroder</surname><given-names>M</given-names></name><name><surname>Otto</surname><given-names>A</given-names></name><name><surname>Jauch-Chara</surname><given-names>K</given-names></name><name><surname>Groneberg</surname><given-names>DA</given-names></name><etal/></person-group>. <article-title>The impact of shift work induced chronic circadian disruption on IL-6 and TNF-alpha immune responses</article-title>. <source>J Occup Med Toxicol.</source> (<year>2010</year>) <volume>5</volume>:<fpage>18</fpage>. <pub-id pub-id-type="doi">10.1186/1745-6673-5-18</pub-id><?supplied-pmid 20602750?><pub-id pub-id-type="pmid">20602750</pub-id></mixed-citation>
+              </ref>
+              <ref id="B11">
+                <label>11.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Loef</surname><given-names>B</given-names></name><name><surname>Nanlohy</surname><given-names>NM</given-names></name><name><surname>Jacobi</surname><given-names>RHJ</given-names></name><name><surname>van de Ven</surname><given-names>C</given-names></name><name><surname>Mariman</surname><given-names>R</given-names></name><name><surname>van der Beek</surname><given-names>AJ</given-names></name><etal/></person-group>. <article-title>Immunological effects of shift work in healthcare workers</article-title>. <source>Sci Rep.</source> (<year>2019</year>) <volume>9</volume>:<fpage>18220</fpage>. <pub-id pub-id-type="doi">10.1038/s41598-019-54816-5</pub-id><?supplied-pmid 31796836?><pub-id pub-id-type="pmid">31796836</pub-id></mixed-citation>
+              </ref>
+              <ref id="B12">
+                <label>12.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Faraut</surname><given-names>B</given-names></name><name><surname>Bayon</surname><given-names>V</given-names></name><name><surname>Leger</surname><given-names>D</given-names></name></person-group>. <article-title>Neuroendocrine, immune and oxidative stress in shift workers</article-title>. <source>Sleep Med Rev.</source> (<year>2013</year>) <volume>17</volume>:<fpage>433</fpage>–<lpage>44</lpage>. <pub-id pub-id-type="doi">10.1016/j.smrv.2012.12.006</pub-id><?supplied-pmid 23618533?><pub-id pub-id-type="pmid">23618533</pub-id></mixed-citation>
+              </ref>
+              <ref id="B13">
+                <label>13.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Jiang</surname><given-names>W</given-names></name><name><surname>Mao</surname><given-names>YQ</given-names></name><name><surname>Huang</surname><given-names>R</given-names></name><name><surname>Duan</surname><given-names>C</given-names></name><name><surname>Xi</surname><given-names>Y</given-names></name><name><surname>Yang</surname><given-names>K</given-names></name><etal/></person-group>. <article-title>Protein expression profiling by antibody array analysis with use of dried blood spot samples on filter paper</article-title>. <source>J Immunol Methods.</source> (<year>2014</year>) <volume>403</volume>:<fpage>79</fpage>–<lpage>86</lpage>. <pub-id pub-id-type="doi">10.1016/j.jim.2013.11.016</pub-id><?supplied-pmid 24287424?><pub-id pub-id-type="pmid">24287424</pub-id></mixed-citation>
+              </ref>
+              <ref id="B14">
+                <label>14.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bjorvatn</surname><given-names>B</given-names></name><name><surname>Pallesen</surname><given-names>S</given-names></name><name><surname>Moen</surname><given-names>BE</given-names></name><name><surname>Waage</surname><given-names>S</given-names></name><name><surname>Kristoffersen</surname><given-names>ES</given-names></name></person-group>. <article-title>Migraine, tension-type headache and medication-overuse headache in a large population of shift working nurses: a cross-sectional study in Norway</article-title>. <source>BMJ Open.</source> (<year>2018</year>) <volume>8</volume>:<fpage>e022403</fpage>. <pub-id pub-id-type="doi">10.1136/bmjopen-2018-022403</pub-id><?supplied-pmid 30455385?><pub-id pub-id-type="pmid">30455385</pub-id></mixed-citation>
+              </ref>
+              <ref id="B15">
+                <label>15.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Whitcomb</surname><given-names>BW</given-names></name><name><surname>Schisterman</surname><given-names>EF</given-names></name></person-group>. <article-title>Assays with lower detection limits: implications for epidemiological investigations</article-title>. <source>Paediatr Perinat Epidemiol.</source> (<year>2008</year>) <volume>22</volume>:<fpage>597</fpage>–<lpage>602</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-3016.2008.00969.x</pub-id><?supplied-pmid 19000298?><pub-id pub-id-type="pmid">19000298</pub-id></mixed-citation>
+              </ref>
+              <ref id="B16">
+                <label>16.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><collab>American Academy of Sleep Medicine</collab></person-group><source>The International Classification of Sleep Disorders</source>, <edition>3rd ed</edition><publisher-loc>Darien, IL</publisher-loc>: <publisher-name>Diagnostic and coding manual</publisher-name> (<year>2014</year>).</mixed-citation>
+              </ref>
+              <ref id="B17">
+                <label>17.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Li</surname><given-names>Y</given-names></name><name><surname>Oosting</surname><given-names>M</given-names></name><name><surname>Smeekens</surname><given-names>SP</given-names></name><name><surname>Jaeger</surname><given-names>M</given-names></name><name><surname>Aguirre-Gamboa</surname><given-names>R</given-names></name><name><surname>Le</surname><given-names>KTT</given-names></name><etal/></person-group>. <article-title>A functional genomics approach to understand variation in cytokine production in humans</article-title>. <source>Cell.</source> (<year>2016</year>) <volume>167</volume>:<fpage>1099</fpage>–<lpage>110</lpage>.e14. <pub-id pub-id-type="doi">10.1016/j.cell.2016.10.017</pub-id><?supplied-pmid 27814507?><pub-id pub-id-type="pmid">27814507</pub-id></mixed-citation>
+              </ref>
+              <ref id="B18">
+                <label>18.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cuesta</surname><given-names>M</given-names></name><name><surname>Boudreau</surname><given-names>P</given-names></name><name><surname>Dubeau-Laramee</surname><given-names>G</given-names></name><name><surname>Cermakian</surname><given-names>N</given-names></name><name><surname>Boivin</surname><given-names>DB</given-names></name></person-group>. <article-title>Simulated night shift disrupts circadian rhythms of immune functions in humans</article-title>. <source>J Immunol.</source> (<year>2016</year>) <volume>196</volume>:<fpage>2466</fpage>–<lpage>75</lpage>. <pub-id pub-id-type="doi">10.4049/jimmunol.1502422</pub-id><?supplied-pmid 26873990?><pub-id pub-id-type="pmid">26873990</pub-id></mixed-citation>
+              </ref>
+              <ref id="B19">
+                <label>19.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Geiger</surname><given-names>SS</given-names></name><name><surname>Fagundes</surname><given-names>CT</given-names></name><name><surname>Siegel</surname><given-names>RM</given-names></name></person-group>. <article-title>Chrono-immunology: progress and challenges in understanding links between the circadian and immune systems</article-title>. <source>Immunology.</source> (<year>2015</year>) <volume>146</volume>:<fpage>349</fpage>–<lpage>58</lpage>. <pub-id pub-id-type="doi">10.1111/imm.12525</pub-id><?supplied-pmid 26301993?><pub-id pub-id-type="pmid">26301993</pub-id></mixed-citation>
+              </ref>
+              <ref id="B20">
+                <label>20.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Nilsonne</surname><given-names>G</given-names></name><name><surname>Lekander</surname><given-names>M</given-names></name><name><surname>Akerstedt</surname><given-names>T</given-names></name><name><surname>Axelsson</surname><given-names>J</given-names></name><name><surname>Ingre</surname><given-names>M</given-names></name></person-group>. <article-title>Diurnal variation of circulating interleukin-6 in humans: a meta-analysis</article-title>. <source>PLoS One.</source> (<year>2016</year>) <volume>11</volume>:<fpage>e0165799</fpage>. <pub-id pub-id-type="doi">10.1371/journal.pone.0165799</pub-id><?supplied-pmid 27832117?><pub-id pub-id-type="pmid">27832117</pub-id></mixed-citation>
+              </ref>
+              <ref id="B21">
+                <label>21.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wright</surname><given-names>KP</given-names><suffix>Jr</suffix></name><name><surname>Drake</surname><given-names>AL</given-names></name><name><surname>Frey</surname><given-names>DJ</given-names></name><name><surname>Fleshner</surname><given-names>M</given-names></name><name><surname>Desouza</surname><given-names>CA</given-names></name><name><surname>Gronfier</surname><given-names>C</given-names></name><etal/></person-group>. <article-title>Influence of sleep deprivation and circadian misalignment on cortisol, inflammatory markers, and cytokine balance</article-title>. <source>Brain Behav Immun.</source> (<year>2015</year>) <volume>47</volume>:<fpage>24</fpage>–<lpage>34</lpage>. <pub-id pub-id-type="doi">10.1016/j.bbi.2015.01.004</pub-id><?supplied-pmid 25640603?><pub-id pub-id-type="pmid">25640603</pub-id></mixed-citation>
+              </ref>
+              <ref id="B22">
+                <label>22.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rana</surname><given-names>AK</given-names></name><name><surname>Li</surname><given-names>Y</given-names></name><name><surname>Dang</surname><given-names>Q</given-names></name><name><surname>Yang</surname><given-names>F</given-names></name></person-group>. <article-title>Monocytes in rheumatoid arthritis: circulating precursors of macrophages and osteoclasts and, their heterogeneity and plasticity role in RA pathogenesis</article-title>. <source>Int Immunopharmacol.</source> (<year>2018</year>) <volume>65</volume>:<fpage>348</fpage>–<lpage>59</lpage>. <pub-id pub-id-type="doi">10.1016/j.intimp.2018.10.016</pub-id><?supplied-pmid 30366278?><pub-id pub-id-type="pmid">30366278</pub-id></mixed-citation>
+              </ref>
+              <ref id="B23">
+                <label>23.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Miller</surname><given-names>ED</given-names></name><name><surname>Dziedzic</surname><given-names>A</given-names></name><name><surname>Saluk-Bijak</surname><given-names>J</given-names></name><name><surname>Bijak</surname><given-names>M</given-names></name></person-group>. <article-title>A review of various antioxidant compounds and their potential utility as complementary therapy in multiple sclerosis</article-title>. <source>Nutrients.</source> (<year>2019</year>) <volume>11</volume>:<fpage>1528</fpage>. <pub-id pub-id-type="doi">10.3390/nu11071528</pub-id><?supplied-pmid 31284389?><pub-id pub-id-type="pmid">31284389</pub-id></mixed-citation>
+              </ref>
+              <ref id="B24">
+                <label>24.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Knutsson</surname><given-names>A</given-names></name></person-group>. <article-title>Methodological aspects of shift-work research</article-title>. <source>Chronobiol Int.</source> (<year>2004</year>) <volume>21</volume>:<fpage>1037</fpage>–<lpage>47</lpage>. <pub-id pub-id-type="doi">10.1081/CBI-200038525</pub-id><?supplied-pmid 15646248?><pub-id pub-id-type="pmid">15646248</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

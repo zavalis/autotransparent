@@ -1,0 +1,1846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:07:20Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:4404057" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:4404057</identifier>
+        <datestamp>2015-05-02</datestamp>
+        <setSpec>plosone</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+              <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+              <journal-id journal-id-type="publisher-id">plos</journal-id>
+              <journal-id journal-id-type="pmc">plosone</journal-id>
+              <journal-title-group>
+                <journal-title>PLoS ONE</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1932-6203</issn>
+              <publisher>
+                <publisher-name>Public Library of Science</publisher-name>
+                <publisher-loc>San Francisco, CA USA</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC4404057</article-id>
+              <article-id pub-id-type="pmcid">PMC4404057</article-id>
+              <article-id pub-id-type="pmc-uid">4404057</article-id>
+              <article-id pub-id-type="pmid">25893687</article-id>
+              <article-id pub-id-type="pmid">25893687</article-id>
+              <article-id pub-id-type="doi">10.1371/journal.pone.0124258</article-id>
+              <article-id pub-id-type="publisher-id">PONE-D-14-48828</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Predictors of Symptomatic Change and Adherence in Internet-Based Cognitive Behaviour Therapy for Social Anxiety Disorder in Routine Psychiatric Care</article-title>
+                <alt-title alt-title-type="running-head">Predictors of ICBT for Social Anxiety Disorder</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>El Alaoui</surname>
+                    <given-names>Samir</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff001">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="cor001" ref-type="corresp">*</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ljótsson</surname>
+                    <given-names>Brjánn</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff001">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff003">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hedman</surname>
+                    <given-names>Erik</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff001">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff002">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff003">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kaldo</surname>
+                    <given-names>Viktor</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff001">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Andersson</surname>
+                    <given-names>Evelyn</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff001">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rück</surname>
+                    <given-names>Christian</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff001">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Andersson</surname>
+                    <given-names>Gerhard</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff001">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff004">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lindefors</surname>
+                    <given-names>Nils</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff001">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff001">
+                <label>1</label>
+                <addr-line>Department of Clinical Neuroscience, Division of Psychiatry, Karolinska Institutet, Stockholm, Sweden</addr-line>
+              </aff>
+              <aff id="aff002">
+                <label>2</label>
+                <addr-line>Department of Clinical Neuroscience, Osher Center for Integrative Medicine, Karolinska Institutet, Stockholm, Sweden</addr-line>
+              </aff>
+              <aff id="aff003">
+                <label>3</label>
+                <addr-line>Department of Clinical Neuroscience, Division of Psychology, Karolinska Institutet, Stockholm, Sweden</addr-line>
+              </aff>
+              <aff id="aff004">
+                <label>4</label>
+                <addr-line>Department of Behavioural Sciences and Learning, Linköping University, Linköping, Sweden</addr-line>
+              </aff>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Norberg</surname>
+                    <given-names>Melissa</given-names>
+                  </name>
+                  <role>Academic Editor</role>
+                  <xref ref-type="aff" rid="edit1"/>
+                </contrib>
+              </contrib-group>
+              <aff id="edit1">
+                <addr-line>Macquarie University, AUSTRALIA</addr-line>
+              </aff>
+              <author-notes>
+                <fn fn-type="COI-statement" id="coi001">
+                  <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+                </fn>
+                <fn fn-type="con" id="contrib001">
+                  <p>Conceived and designed the experiments: SEA BL EH VK EA CR GA NL. Performed the experiments: SEA BL EH VK EA CR GA NL. Analyzed the data: SEA BL EH VK EA CR GA NL. Contributed reagents/materials/analysis tools: SEA BL EH VK EA CR GA NL. Wrote the paper: SEA BL EH VK EA CR GA NL.</p>
+                </fn>
+                <corresp id="cor001">* E-mail: <email>samir.el.alaoui@ki.se</email></corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>20</day>
+                <month>4</month>
+                <year>2015</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2015</year>
+              </pub-date>
+              <volume>10</volume>
+              <issue>4</issue>
+              <elocation-id>e0124258</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>4</day>
+                  <month>11</month>
+                  <year>2014</year>
+                </date>
+                <date date-type="accepted">
+                  <day>11</day>
+                  <month>3</month>
+                  <year>2015</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2015 El Alaoui et al</copyright-statement>
+                <copyright-year>2015</copyright-year>
+                <copyright-holder>El Alaoui et al</copyright-holder>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf" xlink:type="simple" xlink:href="pone.0124258.pdf"/>
+              <abstract>
+                <sec id="sec001">
+                  <title>Objective</title>
+                  <p>A central goal of health care is to improve patient outcomes. Although several studies have demonstrated the effectiveness of therapist guided internet-based cognitive behaviour therapy (ICBT) for social anxiety disorder (SAD), a significant proportion of patients do not respond to treatment. Consequently, the aim of this study was to identify individual characteristics and treatment program related factors that could help clinicians predict treatment outcomes and adherence for individuals with SAD.</p>
+                </sec>
+                <sec id="sec002">
+                  <title>Method</title>
+                  <p>The sample comprised longitudinal data collected during a 4-year period of adult individuals (N = 764) treated for SAD at a public service psychiatric clinic. Weekly self-rated Liebowitz Social Anxiety Scale (LSAS-SR) scores were provided. Rates of symptomatic change during treatment and adherence levels were analysed using multilevel modelling. The following domains of prognostic variables were examined: (a) socio-demographic variables; (b) clinical characteristics; (c) family history of mental illness; and (d) treatment-related factors.</p>
+                </sec>
+                <sec id="sec003">
+                  <title>Results</title>
+                  <p>Higher treatment credibility and adherence predicted a faster rate of improvement during treatment, whereas higher overall functioning level evidenced a slower rate of improvement. Treatment credibility was the strongest predictor of greater adherence. Having a family history of SAD-like symptoms was also associated with greater adherence, whereas Attention-Deficit/Hyperactivity Disorder (ADHD)-like symptoms, male gender, and family history of minor depression predicted lower adherence. Also, the amount of therapist time spent per treatment module was negatively associated with adherence.</p>
+                </sec>
+                <sec id="sec004">
+                  <title>Conclusions</title>
+                  <p>Results from a large clinical sample indicate that the credibility of ICBT is the strongest prognostic factor explaining individual differences in both adherence level and symptomatic improvement. Early screening of ADHD-like symptoms may help clinicians identify patients who might need extra support or an adjusted treatment. Therapist behaviours that promote adherence may be important for treatment response, although more research is needed in order to determine what type of support would be most beneficial.</p>
+                </sec>
+              </abstract>
+              <funding-group>
+                <funding-statement>This study was supported by research grants from Stockholm County Council (Nils Lindefors). The main funding organization is a public institution, and neither of the funding organizations had any role in the design and conduct of the study; in the collection, management, and analysis of the data; or in the preparation, review, and approval of the manuscript.</funding-statement>
+              </funding-group>
+              <counts>
+                <fig-count count="3"/>
+                <table-count count="7"/>
+                <page-count count="18"/>
+              </counts>
+              <custom-meta-group>
+                <custom-meta id="data-availability">
+                  <meta-name>Data Availability</meta-name>
+                  <meta-value>Study data are stored at the repository of Karolinska Institutet. Data are not freely accessible, but each request is assessed by Karolinska Institutet ethics committee, and approval of data access can be given after this assessment. To request data, contact either Samir El Alaoui at <email>samir.el.alaoui@ki.se</email>, or Karolinska institutet by e-mail at <email>info@ki.se</email>, or at Karolinska Institutet, SE-171 77, Stockholm, Sweden.</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+            <notes>
+              <title>Data Availability</title>
+              <p>Study data are stored at the repository of Karolinska Institutet. Data are not freely accessible, but each request is assessed by Karolinska Institutet ethics committee, and approval of data access can be given after this assessment. To request data, contact either Samir El Alaoui at <email>samir.el.alaoui@ki.se</email>, or Karolinska institutet by e-mail at <email>info@ki.se</email>, or at Karolinska Institutet, SE-171 77, Stockholm, Sweden.</p>
+            </notes>
+          </front>
+          <body>
+            <sec sec-type="intro" id="sec005">
+              <title>Introduction</title>
+              <p>Social anxiety disorder (SAD) is one of the most common anxiety disorders [<xref rid="pone.0124258.ref001" ref-type="bibr">1</xref>] and is often described as following a chronic course if untreated. SAD is characterized by an intense fear in social situations and is associated with significant costs, both for the affected individuals and for society [<xref rid="pone.0124258.ref002" ref-type="bibr">2</xref>]. The effectiveness of cognitive behavioural therapy (CBT) in the treatment of SAD is well established [<xref rid="pone.0124258.ref003" ref-type="bibr">3</xref>]. To increase accessibility to CBT, guided internet-based CBT (ICBT) has been developed with outcomes comparable with face-to-face CBT [<xref rid="pone.0124258.ref004" ref-type="bibr">4</xref>]. However, a significant proportion of patients do not achieve clinically significant improvement, irrespective of treatment modality. For example, it has been reported that up to 50% of patients do not respond to first-line treatments such as CBT or pharmacotherapy [<xref rid="pone.0124258.ref005" ref-type="bibr">5</xref>]. Also, in a study on ICBT, 23% of subjects did not improve on any measure [<xref rid="pone.0124258.ref006" ref-type="bibr">6</xref>]. When ICBT is considered for dissemination within regular clinical practice, identifying prognostic factors that explain individual differences in how patients respond to ICBT when administered within the context of routine care could lead to improvements in treatment delivery. Specifically, this may help clinicians better predict how different subgroups of patients with SAD are likely to respond to ICBT. Such knowledge could contribute to treatment modifications that decrease outcome variability and increase treatment effectiveness for a wider range of patients.</p>
+              <p>There are few studies on outcome predictors of ICBT for SAD and little consensus regarding the evidence of these. This might be due to several reasons such as differences in samples size, sample characteristics and statistical methods for analysing the prognostic value of baseline variables. Therefore, our selection of outcome predictors was not restricted to internet interventions but refers to the larger literature of CBT for SAD [<xref rid="pone.0124258.ref007" ref-type="bibr">7</xref>,<xref rid="pone.0124258.ref008" ref-type="bibr">8</xref>] and is guided by previous research in this area [<xref rid="pone.0124258.ref009" ref-type="bibr">9</xref>,<xref rid="pone.0124258.ref010" ref-type="bibr">10</xref>]. In line with a number of recent outcome prediction studies on SAD [<xref rid="pone.0124258.ref011" ref-type="bibr">11</xref>–<xref rid="pone.0124258.ref014" ref-type="bibr">14</xref>] and constrained by available patient data routinely collected within the clinic, variables with potential prognostic value were categorized into four domains: (1) socio-demographic variables (e.g. age, gender), (2) clinical characteristics (e.g. illness severity, comorbidity), (3) family history of mental illness and (4) treatment-related factors (e.g. adherence, treatment credibility and amount of therapist support).</p>
+              <p>Examples of identified outcome predictors within the socio-demographic domain that have been found to be associated with a positive outcome in ICBT for SAD are employment status (i.e. working full-time) and having children [<xref rid="pone.0124258.ref013" ref-type="bibr">13</xref>]. In regard to clinical characteristics, illness severity and number of comorbid diagnosis have also been identified as significant outcome predictors [<xref rid="pone.0124258.ref015" ref-type="bibr">15</xref>]. Also, although comorbid depression has been related to lower treatment response during both CBT [<xref rid="pone.0124258.ref016" ref-type="bibr">16</xref>,<xref rid="pone.0124258.ref017" ref-type="bibr">17</xref>] and ICBT [<xref rid="pone.0124258.ref013" ref-type="bibr">13</xref>] for SAD and higher illness severity after treatment [<xref rid="pone.0124258.ref017" ref-type="bibr">17</xref>,<xref rid="pone.0124258.ref018" ref-type="bibr">18</xref>], several studies have not been able to link comorbid depression to the rate of symptomatic change during treatment (e.g. [<xref rid="pone.0124258.ref018" ref-type="bibr">18</xref>,<xref rid="pone.0124258.ref019" ref-type="bibr">19</xref>]), and a recent study found no predictive value of comorbid depression [<xref rid="pone.0124258.ref015" ref-type="bibr">15</xref>]. In regard to treatment-related factors, treatment credibility and adherence have been identified as being of special relevance to the effectiveness of self-help interventions such as ICBT [<xref rid="pone.0124258.ref020" ref-type="bibr">20</xref>,<xref rid="pone.0124258.ref021" ref-type="bibr">21</xref>]. Several studies have found that credibility of ICBT [<xref rid="pone.0124258.ref013" ref-type="bibr">13</xref>,<xref rid="pone.0124258.ref014" ref-type="bibr">14</xref>] and adherence to either face-to-face CBT or ICBT [<xref rid="pone.0124258.ref006" ref-type="bibr">6</xref>,<xref rid="pone.0124258.ref013" ref-type="bibr">13</xref>,<xref rid="pone.0124258.ref014" ref-type="bibr">14</xref>,<xref rid="pone.0124258.ref022" ref-type="bibr">22</xref>,<xref rid="pone.0124258.ref023" ref-type="bibr">23</xref>] is associated with treatment outcome. However, since adherence is measured during or after treatment completion, it may be of limited clinical use as a pre-treatment prognostic predictor. Therefore, examining adherence not only as an outcome predictor but also as an outcome itself has been identified as an aspect of prediction research on ICBT that needs more attention [<xref rid="pone.0124258.ref024" ref-type="bibr">24</xref>]. We are only aware of one study that has examined this relationship in regard to ICBT for SAD specifically, where treatment credibility was found to predict adherence in unguided self-help, but not in guided self-help.</p>
+              <p>The aim of this study was to examine individual differences in response to ICBT for SAD and to facilitate possible future identification of patients who might need additional support during treatment. To identify predictors of symptomatic change and adherence of ICBT within the context of a routine clinical setting, we explored effectiveness data obtained at a publicly funded psychiatric clinic specialized in delivering ICBT. Based on findings in previous research on ICBT, we hypothesized that treatment credibility and adherence would have prognostic value also in a naturalistic setting, where higher levels of these factors would likely be associated with a more favourable outcome. To analyse the data, multilevel modelling techniques were used. These statistical methods take advantage of all available data collected during the study period and have been shown to produce more precise parameter estimates and require fewer statistical assumptions [<xref rid="pone.0124258.ref025" ref-type="bibr">25</xref>,<xref rid="pone.0124258.ref026" ref-type="bibr">26</xref>]. A stepwise procedure adopted by Fournier et al. [<xref rid="pone.0124258.ref027" ref-type="bibr">27</xref>] was followed where predictor domains (socio-demographic variables, clinical variables, family history and treatment factors) were first examined separately. This allowed us to determine the predictive value of each variable while controlling for the other variables within each domain. Then, a final model was tested where only those variables identified as significant outcome predictors within each domain were simultaneously included.</p>
+            </sec>
+            <sec sec-type="materials|methods" id="sec006">
+              <title>Materials and Methods</title>
+              <sec id="sec007">
+                <title>Participants</title>
+                <p>The study sample consisted of 764 adult patients, all of which had a principal diagnosis of SAD and had undergone treatment as part of routine outpatient psychiatric care at a specialized public ICBT clinic at the time of data extraction (i.e. patients having completed treatment between October 2010 and October 2014). Patients were admitted to treatment either through self-referral or through referral from psychiatric or primary care. All patients first completed an on-line screening battery of self-report questionnaires. Then, clinician administered assessments were conducted before admittance where the Mini-International Neuropsychiatric Interview (MINI) [<xref rid="pone.0124258.ref028" ref-type="bibr">28</xref>] diagnostic interview was used by psychiatrists (or resident physicians supervised by psychiatrists) to diagnose Axis I DSM-IV disorders.</p>
+              </sec>
+              <sec id="sec008">
+                <title>Ethics Statement</title>
+                <p>The study, including its consent procedure, was approved by the Regional Ethical Review Board in Stockholm, Sweden (no 2011/2091-31/3). Since this research was conducted as a retrospective cohort study, active informed consent was not required and therefore not obtained. However, as required by the ethics committee, a letter explaining the study was sent to all participants prior to data collection providing a choice of participation. Thus, participation in the study was obtained through an opt-out methodology. This approach (i.e. passive consent) is considered to be the most efficient procedure for registry data that does not violate the option of providing choice [<xref rid="pone.0124258.ref029" ref-type="bibr">29</xref>] and also increases the likelihood of having a more representative sample [<xref rid="pone.0124258.ref030" ref-type="bibr">30</xref>].</p>
+              </sec>
+              <sec id="sec009">
+                <title>Study Design and Treatment</title>
+                <p>Over the study period, approximately 25 different psychologists delivered the treatments. These were trained in CBT and either licensed or occasionally resident psychologists under clinical supervision. Therapists followed a treatment manual originally developed by Andersson and colleagues [<xref rid="pone.0124258.ref031" ref-type="bibr">31</xref>] with documented effects in several randomized controlled trials [<xref rid="pone.0124258.ref032" ref-type="bibr">32</xref>] adhering to Clark and Wells’ [<xref rid="pone.0124258.ref033" ref-type="bibr">33</xref>] cognitive model of social phobia developed for individual therapy of SAD. Non-inferiority of the treatment compared to conventional group-based CBT has previously been documented within the context of routine psychiatric care [<xref rid="pone.0124258.ref034" ref-type="bibr">34</xref>].</p>
+                <p>Treatment modules consisted of psycho-educative text and supporting figures, complemented with homework assignments. This is similar to self-help books used in bibliotherapy, with the difference that the material was accessed online after logging in to a secure treatment website. In ICBT, treatment modules are the equivalence of sessions in conventional CBT. However, since the treatment content was presented in text form, patients were able to learn at their own convenience. Similar to sessions in CBT, modules were administered sequentially; after completion of a module and its homework assignment, the subsequent module was activated by the therapist. This meant that patients had to complete a module in order to get access to the following module.</p>
+                <p>The first module introduced patients to CBT for SAD providing rationale for the treatment. This was followed by exercises in cognitive restructuring to help patients understand how SAD is maintained and learn how to recognize maladaptive or negative automatic thoughts with the aid of a detailed review of Clark &amp; Wells’ cognitive model. Patients were also taught how to challenge negative thoughts and encouraged to reflect on treatment goals. In the next phase of treatment, behavioural experiments were introduced, including gradual exposure to feared situations. During these modules, patients learned about the function of safety behaviours and experimented with attentional refocussing to enhance the effect of exposure. The final modules contained material on developing communication and social skills and relapse prevention strategies. The last module encouraged patients to review what they had learned throughout the treatment, and to make a plan for continued improvements and how to manage setbacks.</p>
+                <p>The role of the therapists was to guide patients through each treatment module. This was conducted through online written conversations within the secure treatment platform. This included not only providing feedback on homework assignments, but prompting patients when they were inactive or helping them with problem solving when experiencing difficulties. Thus, more therapist time tended to be allocated to patients having a greater need for support and guidance.</p>
+              </sec>
+              <sec id="sec010">
+                <title>Outcome Measures</title>
+                <p>The primary outcome measure was the self-rated version of the Liebowitz Social Anxiety Scale, LSAS-SR [<xref rid="pone.0124258.ref035" ref-type="bibr">35</xref>]. The LSAS-SR has reported strong psychometric properties with an internal consistency of <italic>α</italic> =. 95 and a 12-week test-retest reliability of <italic>r</italic> =. 83 [<xref rid="pone.0124258.ref035" ref-type="bibr">35</xref>,<xref rid="pone.0124258.ref036" ref-type="bibr">36</xref>]. The LSAS has also been evaluated for internet administration with a reported internal consistency of <italic>α</italic> =. 94 [<xref rid="pone.0124258.ref037" ref-type="bibr">37</xref>]. For the current sample, Cronbach's alpha of the LSAS-SR at pre-treatment was. 95. Besides at pre- and post-treatment, social anxiety was measured weekly throughout the active treatment phase. The secondary outcome measure was treatment adherence, operationalized as the number of activated modules.</p>
+              </sec>
+              <sec id="sec011">
+                <title>Potential Predictor Variables</title>
+                <p>All potential predictors of symptomatic change and adherence were measured at baseline except for treatment program factors, which were measured during treatment (e.g. treatment credibility was assessed during the second week) or after treatment (e.g. adherence). Each variable was assigned to one of the following four domains: socio-demographic variables, clinical characteristics, family history of mental illness and treatment-related factors.</p>
+                <sec id="sec012">
+                  <title>Socio-demographic variables</title>
+                  <p>This domain comprised 6 variables: age, gender, level of education, employment status (dichotomized; i.e. working part- or full-time or student vs. unemployed, part- or full-time sick leave or disability retirement), cohabitation status (dichotomized; i.e. single, divorced, widowed, or separated vs. married or living with partner) and having children.</p>
+                </sec>
+                <sec id="sec013">
+                  <title>Clinical characteristics</title>
+                  <p>The clinical domain consisted of 14 variables: Clinical Global Impression—Severity Scale [<xref rid="pone.0124258.ref038" ref-type="bibr">38</xref>] which was rated on a 7-point scale; co-morbid depressive symptoms were measured at baseline using the self-rated Montgomery-Åsberg Depression Rating Scale (MADRS-S) [<xref rid="pone.0124258.ref039" ref-type="bibr">39</xref>]; the Alcohol Use Disorders Identification Test (AUDIT) [<xref rid="pone.0124258.ref040" ref-type="bibr">40</xref>] was used prior to treatment to screen for alcohol problems and the Drug Use Disorders Identification Test (DUDIT) [<xref rid="pone.0124258.ref041" ref-type="bibr">41</xref>] was used to screen for drug misuse; the Adult ADHD Self-Report Scale-V1.1 (ASRS) was used as a short screening instrument for adult ADHD-like symptoms [<xref rid="pone.0124258.ref042" ref-type="bibr">42</xref>]; the number of co-morbid diagnoses was assessed during the clinician diagnostic interview using the MINI; the Global Assessment of Functioning (GAF) was used to assess social, occupational, and psychological functioning; years since onset of symptoms was assessed during the clinical interview; age of onset of symptoms was calculated by subtracting the reported number of years since onset of symptoms from the patient’s age at the time of treatment; generalized beliefs of self-efficacy was assessed using the General Self-Efficacy Scale (GSES) [<xref rid="pone.0124258.ref043" ref-type="bibr">43</xref>]; concurrent psychotropic medication, history of depression, history of inpatient psychiatric care and history of attempted suicide were assessed during the diagnostic interview.</p>
+                </sec>
+                <sec id="sec014">
+                  <title>Family history of mental illness</title>
+                  <p>The family history domain consisted of 14 variables reporting occurrence of family history of mental illness: family history of social anxiety disorder, social anxiety disorder-like symptoms, anxiety, depression, minor depression, panic disorder, neuropsychiatric condition, psychosis, bipolar disorder, dependence / substance abuse, suicide attempts and family history of completed suicide. These were assessed during the diagnostic interview by a clinician prior to treatment as part of the intake assessment process at the clinic in the form of a checklist. As such, the measure of family history was created for this study as a categorical variable.</p>
+                </sec>
+                <sec id="sec015">
+                  <title>Treatment-related factors</title>
+                  <p>The treatment domain consisted of 9 variables: adherence, operationalized as the number of activated treatment modules; treatment credibility, operationalized as the total score of the credibility/expectancy scale [<xref rid="pone.0124258.ref044" ref-type="bibr">44</xref>] where patients’ attitudes to the credibility of the treatment and expectancy regarding treatment effectiveness were rated on a 10-point scale (0 = not at all to 10 = very much) after the first week of the treatment; therapist time (hours); therapist time per module (minutes); patients’ logged time online; patients’ number of logins; patients’ number of mouse clicks; patients’ number of sent messages and patients’ number of posted messages on a common discussion forum within the treatment platform.</p>
+                </sec>
+              </sec>
+              <sec id="sec016">
+                <title>Data Analysis</title>
+                <sec id="sec017">
+                  <title>Multilevel model of symptomatic change</title>
+                  <p>When analysing predictors of symptomatic improvement during the course of treatment, a longitudinal multilevel framework was applied using the linear mixed-effects models procedure in SPSS version 21. All available data was used in a full intent-to-treat analysis approach with full maximum likelihood estimation procedures for all multilevel models. The objective of using multilevel modelling was to model change in social anxiety over the treatment period and to examine the influence of predictors on this trajectory. This was studied by testing the interaction effect of each predictor × time product; i.e. whether the effect of time on social anxiety varied depending on the value of the predictor variable.</p>
+                  <p>Due to the relatively large number of potential predictor variables, these were grouped into the four domains described above. As such, all variables were first tested in separate models before building a final model of change that included significant variables from all domains. Each domain of predictors were explored in a stepwise manner following the procedure adopted by Fournier et al. [<xref rid="pone.0124258.ref027" ref-type="bibr">27</xref>] and Amir et al. [<xref rid="pone.0124258.ref011" ref-type="bibr">11</xref>]. In Step 1, each model therefore included all variables of that domain, which were then screened in regard to their significance levels. Since the main interest of the study was in the factors that have an effect on the rate of symptomatic improvement, potential prognostic variables were required to have a significant interaction with time in order to progress to the next step. However, each consecutive model still included both the main effect (i.e. the effect on post-treatment level of social anxiety) of each added predictor as well as its interaction with time (i.e. the effect on the rate of change). Those that were found to be significant at <italic>p</italic> &lt;. 2 in Step 1 were tested again in a second model (Step 2). Increasingly stricter significance levels were applied at each step and this screening procedure was repeated at <italic>p</italic> &lt;. 10 (Step 3) and at <italic>p</italic> &lt;. 05 (Step 4). Only those variables that remained significant at Step 4 (<italic>p</italic> &lt;. 05) within each domain were included in a final model where the effect of each predictor was tested while simultaneously controlling for the effects of the others.</p>
+                  <p>Each multilevel model consisted of two levels, where Level 1 was the repeated measurements describing the linear change of social anxiety within patients over the course of treatment (a quadric change trajectory was also tested, but because it did not significantly describe the shape of change over time it was not included in the models) and Level 2 consisted of the patients with their socio-demographic, family history, clinical and treatment-related characteristics. In line with the approach described by Smits and colleagues [<xref rid="pone.0124258.ref012" ref-type="bibr">12</xref>], the time variable was re-centred at post-treatment; estimates of the intercept therefore reflect the predicted level of social anxiety at post-treatment. We also chose to recode the time variable between -1and 0 as proposed by Heck et al. [<xref rid="pone.0124258.ref045" ref-type="bibr">45</xref>]. This coding has the benefit that the estimated coefficients reflect the magnitude of change in social anxiety achieved over the entire treatment period (as opposed to the amount of weekly change). Therefore, since there were 12 measurement occasions, the distance between each step was 0.083; the time variable was therefore coded as -1, -0.92, -0.83, -0.67, -0.58, -0.50, -0.42, -0.33, -0.25, -0.17, -0.08 and 0. Finally, to facilitate comparison of coefficients for predictors measured on different scales, we followed the approach by Smits and colleagues [<xref rid="pone.0124258.ref012" ref-type="bibr">12</xref>] where predictor variables were standardized into <italic>z</italic>-scores prior to analysis.</p>
+                </sec>
+                <sec id="sec018">
+                  <title>Analysing adherence as outcome</title>
+                  <p>In the case of analysing adherence as an outcome, selection of variables to enter into the mixed-effects regression model was based on the same stepwise procedure described above. However, in the treatment factors domain, only treatment credibility and therapist time per module were tested since patient activity such as number of logins, mouse clicks, messages and time online were variables highly correlated with adherence (<italic>p</italic> &lt;. 001).</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="sec019">
+              <title>Results</title>
+              <sec id="sec020">
+                <title>Descriptive Statistics of the Data</title>
+                <p>Descriptive patient characteristics are presented in Tables <xref rid="pone.0124258.t001" ref-type="table">1</xref>–<xref rid="pone.0124258.t004" ref-type="table">4</xref>. Means for the main outcome measure, standard deviations and missing data for each measurement occasion are presented in <xref rid="pone.0124258.t005" ref-type="table">Table 5</xref>.</p>
+                <table-wrap id="pone.0124258.t001" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0124258.t001</object-id>
+                  <label>Table 1</label>
+                  <caption>
+                    <title>Descriptive statistics of examined predictor variables within the socio-demographic domain.</title>
+                  </caption>
+                  <alternatives>
+                    <graphic id="pone.0124258.t001g" xlink:href="pone.0124258.t001"/>
+                    <table frame="hsides" rules="groups">
+                      <colgroup span="1">
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th colspan="2" align="center" rowspan="1">95% Confidence Interval</th>
+                        </tr>
+                        <tr>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th align="left" rowspan="1" colspan="1">N</th>
+                          <th align="left" rowspan="1" colspan="1">Mean</th>
+                          <th align="left" rowspan="1" colspan="1">Std. Deviation</th>
+                          <th align="left" rowspan="1" colspan="1">Std. Error Mean</th>
+                          <th align="left" rowspan="1" colspan="1">Lower</th>
+                          <th align="left" rowspan="1" colspan="1">Upper</th>
+                        </tr>
+                        <tr>
+                          <th colspan="7" align="center" rowspan="1">Socio-demographic variables</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Age (years)</td>
+                          <td align="left" rowspan="1" colspan="1">764</td>
+                          <td align="left" rowspan="1" colspan="1">32.51</td>
+                          <td align="char" char="." rowspan="1" colspan="1">8.98</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.33</td>
+                          <td align="char" char="." rowspan="1" colspan="1">31.88</td>
+                          <td align="char" char="." rowspan="1" colspan="1">33.15</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Gender (% women)<xref rid="t001fn001" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">764</td>
+                          <td align="left" rowspan="1" colspan="1">46%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.50</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.02</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.42</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.49</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Level of education<xref rid="t001fn002" ref-type="table-fn"><sup>b</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">726</td>
+                          <td align="left" rowspan="1" colspan="1">5.77</td>
+                          <td align="char" char="." rowspan="1" colspan="1">1.33</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.05</td>
+                          <td align="char" char="." rowspan="1" colspan="1">5.68</td>
+                          <td align="char" char="." rowspan="1" colspan="1">5.87</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Employment<xref rid="t001fn001" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">85%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.35</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.83</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.88</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Married / cohabiting<xref rid="t001fn001" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">726</td>
+                          <td align="left" rowspan="1" colspan="1">54%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.50</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.02</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.50</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.58</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Have children<xref rid="t001fn001" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">32%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.47</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.02</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.29</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.35</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                  <table-wrap-foot>
+                    <fn id="t001fn001">
+                      <p><sup>a</sup> Valid percent is reported, i.e. the rate of those who provided data.</p>
+                    </fn>
+                    <fn id="t001fn002">
+                      <p><sup>b</sup> Level of education was rated on a 7-point scale (1 = less than 7–9 years in school; 2 = 7–9 years in school; 3 = incomplete vocational or secondary school; 4 = vocational school; 5 = secondary school; 6 = university, started but not completed studies; 7 = completed university studies).</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <table-wrap id="pone.0124258.t002" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0124258.t002</object-id>
+                  <label>Table 2</label>
+                  <caption>
+                    <title>Descriptive statistics of examined predictor variables within the family history of mental illness domain.</title>
+                  </caption>
+                  <alternatives>
+                    <graphic id="pone.0124258.t002g" xlink:href="pone.0124258.t002"/>
+                    <table frame="hsides" rules="groups">
+                      <colgroup span="1">
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th colspan="2" align="center" rowspan="1">95% Confidence Interval</th>
+                        </tr>
+                        <tr>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th align="left" rowspan="1" colspan="1">N</th>
+                          <th align="left" rowspan="1" colspan="1">Mean</th>
+                          <th align="left" rowspan="1" colspan="1">Std. Deviation</th>
+                          <th align="left" rowspan="1" colspan="1">Std. Error Mean</th>
+                          <th align="left" rowspan="1" colspan="1">Lower</th>
+                          <th align="left" rowspan="1" colspan="1">Upper</th>
+                        </tr>
+                        <tr>
+                          <th colspan="7" align="center" rowspan="1">Family history of mental illness</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Family history of social anxiety disorder<xref rid="t002fn001" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">5%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.22</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.04</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.07</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Family history of social anxiety disorder-like symptoms<xref rid="t002fn001" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">20%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.40</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.02</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.17</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.23</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Family history of anxiety<xref rid="t002fn001" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">7%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.26</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.05</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.09</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Family history of depression<xref rid="t002fn001" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">18%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.39</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.15</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.21</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Family history of minor depression<xref rid="t002fn001" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">9%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.29</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.07</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.11</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Family history of panic disorder<xref rid="t002fn001" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">3%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.16</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.02</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.04</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Family history of neuropsychiatric condition<xref rid="t002fn001" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">4%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.20</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.03</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.06</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Family history of psychosis<xref rid="t002fn001" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">3%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.18</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.02</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.05</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Family history of bipolar disorder<xref rid="t002fn001" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">6%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.23</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.04</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.07</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Family history of dependence / substance abuse<xref rid="t002fn001" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">13%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.34</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.11</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.16</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Family history of suicide attempts<xref rid="t002fn001" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">4%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.20</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.03</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.06</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Family history of suicide completed<xref rid="t002fn001" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">5%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.23</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.04</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.07</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                  <table-wrap-foot>
+                    <fn id="t002fn001">
+                      <p><sup>a</sup> Valid percent is reported, i.e. the rate of those who provided data.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <table-wrap id="pone.0124258.t003" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0124258.t003</object-id>
+                  <label>Table 3</label>
+                  <caption>
+                    <title>Descriptive statistics of examined predictor variables within the clinical characteristics domain.</title>
+                  </caption>
+                  <alternatives>
+                    <graphic id="pone.0124258.t003g" xlink:href="pone.0124258.t003"/>
+                    <table frame="hsides" rules="groups">
+                      <colgroup span="1">
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th colspan="2" align="center" rowspan="1">95% Confidence Interval</th>
+                        </tr>
+                        <tr>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th align="left" rowspan="1" colspan="1">N</th>
+                          <th align="left" rowspan="1" colspan="1">Mean</th>
+                          <th align="left" rowspan="1" colspan="1">Std. Deviation</th>
+                          <th align="left" rowspan="1" colspan="1">Std. Error Mean</th>
+                          <th align="left" rowspan="1" colspan="1">Lower</th>
+                          <th align="left" rowspan="1" colspan="1">Upper</th>
+                        </tr>
+                        <tr>
+                          <th colspan="7" align="center" rowspan="1">Clinical characteristics</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Baseline LSAS-SR (self-rated)</td>
+                          <td align="left" rowspan="1" colspan="1">764</td>
+                          <td align="left" rowspan="1" colspan="1">71.23</td>
+                          <td align="char" char="." rowspan="1" colspan="1">24.57</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.89</td>
+                          <td align="left" rowspan="1" colspan="1">69.48</td>
+                          <td align="left" rowspan="1" colspan="1">72.97</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Baseline LSAS (clinician rated)</td>
+                          <td align="left" rowspan="1" colspan="1">690</td>
+                          <td align="left" rowspan="1" colspan="1">68.16</td>
+                          <td align="char" char="." rowspan="1" colspan="1">23.04</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.88</td>
+                          <td align="left" rowspan="1" colspan="1">66.44</td>
+                          <td align="left" rowspan="1" colspan="1">69.88</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">CGI-S</td>
+                          <td align="left" rowspan="1" colspan="1">708</td>
+                          <td align="left" rowspan="1" colspan="1">3.79</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.83</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.03</td>
+                          <td align="left" rowspan="1" colspan="1">3.73</td>
+                          <td align="left" rowspan="1" colspan="1">3.85</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">GAF</td>
+                          <td align="left" rowspan="1" colspan="1">606</td>
+                          <td align="left" rowspan="1" colspan="1">61.33</td>
+                          <td align="char" char="." rowspan="1" colspan="1">7.78</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.32</td>
+                          <td align="left" rowspan="1" colspan="1">60.71</td>
+                          <td align="left" rowspan="1" colspan="1">61.95</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Comorbidity<xref rid="t003fn002" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">29%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.57</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.02</td>
+                          <td align="left" rowspan="1" colspan="1">0.25</td>
+                          <td align="left" rowspan="1" colspan="1">0.34</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Comorbid panic disorder<xref rid="t003fn002" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">5%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.21</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="left" rowspan="1" colspan="1">0.03</td>
+                          <td align="left" rowspan="1" colspan="1">0.06</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Comorbid agoraphobia<xref rid="t003fn002" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">4%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.20</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="left" rowspan="1" colspan="1">0.03</td>
+                          <td align="left" rowspan="1" colspan="1">0.06</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Comorbid mild depressive episode<xref rid="t003fn002" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">4%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.20</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="left" rowspan="1" colspan="1">0.03</td>
+                          <td align="left" rowspan="1" colspan="1">0.05</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Comorbid moderate depressive episode<xref rid="t003fn002" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">3%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.18</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="left" rowspan="1" colspan="1">0.02</td>
+                          <td align="left" rowspan="1" colspan="1">0.04</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Comorbid severe depressive episode<xref rid="t003fn002" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">0%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.00</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.00</td>
+                          <td align="left" rowspan="1" colspan="1">-</td>
+                          <td align="left" rowspan="1" colspan="1">-</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Comorbid recurrent mild depressive episode<xref rid="t003fn002" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">4%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.19</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="left" rowspan="1" colspan="1">0.02</td>
+                          <td align="left" rowspan="1" colspan="1">0.05</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Comorbid recurrent moderate depressive episode<xref rid="t003fn002" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">5%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.21</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="left" rowspan="1" colspan="1">0.03</td>
+                          <td align="left" rowspan="1" colspan="1">0.06</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Comorbid recurrent severe depressive episode<xref rid="t003fn002" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">0%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.04</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.00</td>
+                          <td align="left" rowspan="1" colspan="1">0.00</td>
+                          <td align="left" rowspan="1" colspan="1">0.00</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Comorbid recurrent depression without current symptoms<xref rid="t003fn002" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">4%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.20</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="left" rowspan="1" colspan="1">0.03</td>
+                          <td align="left" rowspan="1" colspan="1">0.05</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Comorbid dysthymia<xref rid="t003fn002" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">1%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.10</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.00</td>
+                          <td align="left" rowspan="1" colspan="1">0.00</td>
+                          <td align="left" rowspan="1" colspan="1">0.02</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">MADRS-S</td>
+                          <td align="left" rowspan="1" colspan="1">745</td>
+                          <td align="left" rowspan="1" colspan="1">14.70</td>
+                          <td align="char" char="." rowspan="1" colspan="1">7.81</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.29</td>
+                          <td align="left" rowspan="1" colspan="1">14.14</td>
+                          <td align="left" rowspan="1" colspan="1">15.26</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">ASRS</td>
+                          <td align="left" rowspan="1" colspan="1">386</td>
+                          <td align="left" rowspan="1" colspan="1">2.57</td>
+                          <td align="char" char="." rowspan="1" colspan="1">1.76</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.09</td>
+                          <td align="left" rowspan="1" colspan="1">2.39</td>
+                          <td align="left" rowspan="1" colspan="1">2.75</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">AUDIT</td>
+                          <td align="left" rowspan="1" colspan="1">726</td>
+                          <td align="left" rowspan="1" colspan="1">5.60</td>
+                          <td align="char" char="." rowspan="1" colspan="1">4.96</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.18</td>
+                          <td align="left" rowspan="1" colspan="1">5.24</td>
+                          <td align="left" rowspan="1" colspan="1">5.97</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">DUDIT</td>
+                          <td align="left" rowspan="1" colspan="1">726</td>
+                          <td align="left" rowspan="1" colspan="1">0.57</td>
+                          <td align="char" char="." rowspan="1" colspan="1">2.67</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.10</td>
+                          <td align="left" rowspan="1" colspan="1">0.37</td>
+                          <td align="left" rowspan="1" colspan="1">0.76</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Age of onset of symptoms</td>
+                          <td align="left" rowspan="1" colspan="1">660</td>
+                          <td align="left" rowspan="1" colspan="1">16.52</td>
+                          <td align="char" char="." rowspan="1" colspan="1">8.44</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.33</td>
+                          <td align="left" rowspan="1" colspan="1">15.88</td>
+                          <td align="left" rowspan="1" colspan="1">17.17</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Years since onset of symptoms</td>
+                          <td align="left" rowspan="1" colspan="1">660</td>
+                          <td align="left" rowspan="1" colspan="1">15.95</td>
+                          <td align="char" char="." rowspan="1" colspan="1">10.99</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.43</td>
+                          <td align="left" rowspan="1" colspan="1">15.11</td>
+                          <td align="left" rowspan="1" colspan="1">16.79</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Concurrent psychotropic medication</td>
+                          <td align="left" rowspan="1" colspan="1">378</td>
+                          <td align="left" rowspan="1" colspan="1">68%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.47</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.02</td>
+                          <td align="left" rowspan="1" colspan="1">0.64</td>
+                          <td align="left" rowspan="1" colspan="1">0.73</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">General self-efficacy</td>
+                          <td align="left" rowspan="1" colspan="1">634</td>
+                          <td align="left" rowspan="1" colspan="1">26.33</td>
+                          <td align="char" char="." rowspan="1" colspan="1">5.52</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.22</td>
+                          <td align="left" rowspan="1" colspan="1">25.90</td>
+                          <td align="left" rowspan="1" colspan="1">26.76</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">History of inpatient psychiatric care<xref rid="t003fn002" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">4%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.20</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="left" rowspan="1" colspan="1">0.03</td>
+                          <td align="left" rowspan="1" colspan="1">0.06</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">History of depression<xref rid="t003fn002" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">48%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.50</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.02</td>
+                          <td align="left" rowspan="1" colspan="1">0.45</td>
+                          <td align="left" rowspan="1" colspan="1">0.52</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Attempted suicide<xref rid="t003fn002" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">729</td>
+                          <td align="left" rowspan="1" colspan="1">6%</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.24</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                          <td align="left" rowspan="1" colspan="1">0.04</td>
+                          <td align="left" rowspan="1" colspan="1">0.08</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                  <table-wrap-foot>
+                    <fn id="t003fn001">
+                      <p>Note. LSAS-SR; Liebowitz Social Anxiety Disorder Scale—self-rated. MADRS-S; Montgomery–Asberg Depression Rating Scale score—self-rated. ASRS; Adult ADHD Self-Report Scale. DUDIT; Drug Use Disorder Identification Test. AUDIT; Alcohol Use Disorders Identification Test. CGI-S; The Clinical Global Impression—Severity scale.</p>
+                    </fn>
+                    <fn id="t003fn002">
+                      <p><sup>a</sup> Valid percent is reported, i.e. the rate of those who provided data.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <table-wrap id="pone.0124258.t004" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0124258.t004</object-id>
+                  <label>Table 4</label>
+                  <caption>
+                    <title>Descriptive statistics of examined predictor variables within the treatment-related factors domain.</title>
+                  </caption>
+                  <alternatives>
+                    <graphic id="pone.0124258.t004g" xlink:href="pone.0124258.t004"/>
+                    <table frame="hsides" rules="groups">
+                      <colgroup span="1">
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th colspan="2" align="center" rowspan="1">95% Confidence Interval</th>
+                        </tr>
+                        <tr>
+                          <th align="left" rowspan="1" colspan="1"/>
+                          <th align="left" rowspan="1" colspan="1">N</th>
+                          <th align="left" rowspan="1" colspan="1">Mean</th>
+                          <th align="left" rowspan="1" colspan="1">Std. Deviation</th>
+                          <th align="left" rowspan="1" colspan="1">Std. Error Mean</th>
+                          <th align="left" rowspan="1" colspan="1">Lower</th>
+                          <th align="left" rowspan="1" colspan="1">Upper</th>
+                        </tr>
+                        <tr>
+                          <th colspan="7" align="center" rowspan="1">Treatment-related factors</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Adherence<xref rid="t004fn001" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">764</td>
+                          <td align="char" char="." rowspan="1" colspan="1">7.72</td>
+                          <td align="char" char="." rowspan="1" colspan="1">3.36</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.12</td>
+                          <td align="char" char="." rowspan="1" colspan="1">7.48</td>
+                          <td align="char" char="." rowspan="1" colspan="1">7.96</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Treatment credibility</td>
+                          <td align="left" rowspan="1" colspan="1">633</td>
+                          <td align="char" char="." rowspan="1" colspan="1">36.20</td>
+                          <td align="char" char="." rowspan="1" colspan="1">7.42</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.30</td>
+                          <td align="char" char="." rowspan="1" colspan="1">35.62</td>
+                          <td align="char" char="." rowspan="1" colspan="1">36.78</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Therapist time per module (minutes)</td>
+                          <td align="left" rowspan="1" colspan="1">764</td>
+                          <td align="char" char="." rowspan="1" colspan="1">20.58</td>
+                          <td align="char" char="." rowspan="1" colspan="1">11.24</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.41</td>
+                          <td align="char" char="." rowspan="1" colspan="1">19.78</td>
+                          <td align="char" char="." rowspan="1" colspan="1">21.38</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Therapist time (hours)</td>
+                          <td align="left" rowspan="1" colspan="1">764</td>
+                          <td align="char" char="." rowspan="1" colspan="1">2.52</td>
+                          <td align="char" char="." rowspan="1" colspan="1">1.51</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.05</td>
+                          <td align="char" char="." rowspan="1" colspan="1">2.41</td>
+                          <td align="char" char="." rowspan="1" colspan="1">2.63</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Patient logged time online (hours)</td>
+                          <td align="left" rowspan="1" colspan="1">764</td>
+                          <td align="char" char="." rowspan="1" colspan="1">33.27</td>
+                          <td align="char" char="." rowspan="1" colspan="1">32.48</td>
+                          <td align="char" char="." rowspan="1" colspan="1">1.17</td>
+                          <td align="char" char="." rowspan="1" colspan="1">30.96</td>
+                          <td align="char" char="." rowspan="1" colspan="1">35.58</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Patient number of logins</td>
+                          <td align="left" rowspan="1" colspan="1">764</td>
+                          <td align="char" char="." rowspan="1" colspan="1">41.50</td>
+                          <td align="char" char="." rowspan="1" colspan="1">26.67</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.97</td>
+                          <td align="char" char="." rowspan="1" colspan="1">39.61</td>
+                          <td align="char" char="." rowspan="1" colspan="1">43.39</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Patient number of mouse clicks</td>
+                          <td align="left" rowspan="1" colspan="1">764</td>
+                          <td align="char" char="." rowspan="1" colspan="1">795.44</td>
+                          <td align="char" char="." rowspan="1" colspan="1">496.58</td>
+                          <td align="char" char="." rowspan="1" colspan="1">17.97</td>
+                          <td align="char" char="." rowspan="1" colspan="1">760.17</td>
+                          <td align="char" char="." rowspan="1" colspan="1">830.71</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Patient number of sent messages</td>
+                          <td align="left" rowspan="1" colspan="1">764</td>
+                          <td align="char" char="." rowspan="1" colspan="1">14.78</td>
+                          <td align="char" char="." rowspan="1" colspan="1">8.16</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.30</td>
+                          <td align="char" char="." rowspan="1" colspan="1">14.20</td>
+                          <td align="char" char="." rowspan="1" colspan="1">15.36</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Patient number of posted messages on forum</td>
+                          <td align="left" rowspan="1" colspan="1">764</td>
+                          <td align="char" char="." rowspan="1" colspan="1">1.81</td>
+                          <td align="char" char="." rowspan="1" colspan="1">4.49</td>
+                          <td align="char" char="." rowspan="1" colspan="1">0.16</td>
+                          <td align="char" char="." rowspan="1" colspan="1">1.49</td>
+                          <td align="char" char="." rowspan="1" colspan="1">2.13</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                  <table-wrap-foot>
+                    <fn id="t004fn001">
+                      <p><sup>a</sup> Adherence was operationalized as the number of activated treatment modules.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <table-wrap id="pone.0124258.t005" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0124258.t005</object-id>
+                  <label>Table 5</label>
+                  <caption>
+                    <title>LSAS-SR means and missing data for each measurement occasion.</title>
+                  </caption>
+                  <alternatives>
+                    <graphic id="pone.0124258.t005g" xlink:href="pone.0124258.t005"/>
+                    <table frame="hsides" rules="groups">
+                      <colgroup span="1">
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                        <col align="left" valign="middle" span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th align="left" rowspan="1" colspan="1">Time</th>
+                          <th align="left" rowspan="1" colspan="1">N (%)</th>
+                          <th align="left" rowspan="1" colspan="1">Missing (%)</th>
+                          <th align="left" rowspan="1" colspan="1">Mean</th>
+                          <th align="left" rowspan="1" colspan="1">Std. Deviation</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>Pre-treatment</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">764 (100%)</td>
+                          <td align="left" rowspan="1" colspan="1">0 (0%)</td>
+                          <td align="char" char="." rowspan="1" colspan="1">71.23</td>
+                          <td align="char" char="." rowspan="1" colspan="1">24.57</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>Week 1</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">674 (88%)</td>
+                          <td align="left" rowspan="1" colspan="1">90 (12%)</td>
+                          <td align="char" char="." rowspan="1" colspan="1">69.27</td>
+                          <td align="char" char="." rowspan="1" colspan="1">24.66</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>Week 2</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">687 (90%)</td>
+                          <td align="left" rowspan="1" colspan="1">77 (10%)</td>
+                          <td align="char" char="." rowspan="1" colspan="1">67.04</td>
+                          <td align="char" char="." rowspan="1" colspan="1">25.10</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>Week 3</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">668 (87%)</td>
+                          <td align="left" rowspan="1" colspan="1">96 (13%)</td>
+                          <td align="char" char="." rowspan="1" colspan="1">64.96</td>
+                          <td align="char" char="." rowspan="1" colspan="1">25.04</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>Week 4</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">659 (86%)</td>
+                          <td align="left" rowspan="1" colspan="1">105 (14%)</td>
+                          <td align="char" char="." rowspan="1" colspan="1">63.46</td>
+                          <td align="char" char="." rowspan="1" colspan="1">25.17</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>Week 5</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">613 (80%)</td>
+                          <td align="left" rowspan="1" colspan="1">151 (20%)</td>
+                          <td align="char" char="." rowspan="1" colspan="1">61.41</td>
+                          <td align="char" char="." rowspan="1" colspan="1">25.60</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>Week 6</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">582 (76%)</td>
+                          <td align="left" rowspan="1" colspan="1">182 (24%)</td>
+                          <td align="char" char="." rowspan="1" colspan="1">59.65</td>
+                          <td align="char" char="." rowspan="1" colspan="1">25.84</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>Week 7</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">571 (75%)</td>
+                          <td align="left" rowspan="1" colspan="1">193 (25%)</td>
+                          <td align="char" char="." rowspan="1" colspan="1">57.83</td>
+                          <td align="char" char="." rowspan="1" colspan="1">25.14</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>Week 8</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">546 (71%)</td>
+                          <td align="left" rowspan="1" colspan="1">218 (29%)</td>
+                          <td align="char" char="." rowspan="1" colspan="1">56.34</td>
+                          <td align="char" char="." rowspan="1" colspan="1">25.91</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>Week 9</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">536 (70%)</td>
+                          <td align="left" rowspan="1" colspan="1">228 (30%)</td>
+                          <td align="char" char="." rowspan="1" colspan="1">53.68</td>
+                          <td align="char" char="." rowspan="1" colspan="1">25.32</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>Week 10</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">502 (66%)</td>
+                          <td align="left" rowspan="1" colspan="1">262 (34%)</td>
+                          <td align="char" char="." rowspan="1" colspan="1">51.57</td>
+                          <td align="char" char="." rowspan="1" colspan="1">25.17</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>Post-treatment</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">657 (86%)</td>
+                          <td align="left" rowspan="1" colspan="1">107 (14%)</td>
+                          <td align="char" char="." rowspan="1" colspan="1">50.57</td>
+                          <td align="char" char="." rowspan="1" colspan="1">25.40</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                </table-wrap>
+                <p>Since the study mainly relies on self-reported outcomes, a bivariate correlation analysis was performed to assess the relationship between self-reported and clinician-rated measures. Self-rated and clinician-rated LSAS scores were highly correlated; <italic>r</italic> = 0.86, <italic>n</italic> = 690, <italic>p</italic> &lt; 0.001, although a dependent-samples t-test detected a significant difference between the clinician-rated scores (<italic>M</italic> = 68.16, <italic>SD</italic> = 23.04) and self-rated scores (<italic>M</italic> = 70.75, <italic>SD</italic> = 24.20); <italic>t</italic>(689) = 5.32, <italic>p</italic> &lt;.001, suggesting that patient ratings tend to be systematically higher than clinician ratings.</p>
+              </sec>
+              <sec id="sec021">
+                <title>Stepwise Analyses</title>
+                <p>Results of the stepwise analyses for each domain exploring predictors of symptomatic change are provided in <xref rid="pone.0124258.s001" ref-type="supplementary-material">S1 Table</xref>. <xref rid="pone.0124258.s002" ref-type="supplementary-material">S2 Table</xref> presents the results of these procedures for predicting adherence levels.</p>
+                <sec id="sec022">
+                  <title>Socio-demographic variables</title>
+                  <p>In the final step for the socio-demographic domain, having a higher age and being employed were both associated with a slower rate of improvement in social anxiety, although these factors were also associated with lower post-treatment LSAS-SR scores (see <xref rid="pone.0124258.s001" ref-type="supplementary-material">S1 Table</xref>). In other words, these change trajectories were lower and flatter when compared with younger or unemployed subjects. Regarding predictors of treatment adherence, male gender was associated with lower adherence, whereas the level of education was positively associated with adherence (see <xref rid="pone.0124258.s002" ref-type="supplementary-material">S2 Table</xref>).</p>
+                </sec>
+                <sec id="sec023">
+                  <title>Family history of mental illness</title>
+                  <p>In the final step for the family history domain, none of the conditions were related to the rate of symptomatic improvement or post-treatment LSAS-SR scores (see <xref rid="pone.0124258.s001" ref-type="supplementary-material">S1 Table</xref>). However, three of the conditions in this domain were significantly associated with adherence; having a family history of social anxiety predicted a higher level of adherence, whereas having a family history of depression or minor depression predicted lower adherence (see <xref rid="pone.0124258.s002" ref-type="supplementary-material">S2 Table</xref>).</p>
+                </sec>
+                <sec id="sec024">
+                  <title>Clinical characteristics</title>
+                  <p>In the final step of the clinical characteristics domain, only GAF had a significant effect on the rate of improvement, where having a higher level of functioning was associated with slower improvement (see <xref rid="pone.0124258.s001" ref-type="supplementary-material">S1 Table</xref>). GAF was also associated with a lower post-treatment LSAS-SR score, indicative of a lower and flatter change trajectory. Finally, having more ADHD-like symptoms (higher ASRS scores) was associated with lower adherence (see <xref rid="pone.0124258.s002" ref-type="supplementary-material">S2 Table</xref>).</p>
+                </sec>
+                <sec id="sec025">
+                  <title>Treatment-related factors</title>
+                  <p>In the final step for the treatment-related factors domain, higher adherence and higher perceived treatment credibility both predicted a faster rate of improvement and less social anxiety after treatment (see <xref rid="pone.0124258.s001" ref-type="supplementary-material">S1 Table</xref>).</p>
+                  <p>In the final step in predicting adherence, treatment credibility predicted a higher level of adherence, whereas a higher amount of therapist time spent per module was associated with lower levels of adherence (see <xref rid="pone.0124258.s002" ref-type="supplementary-material">S2 Table</xref>).</p>
+                </sec>
+              </sec>
+              <sec id="sec026">
+                <title>Final Models Including All Significant Prognostic Variables</title>
+                <p>The final multilevel models predicting rate of improvement and level of adherence included simultaneous entry of those significant prognostic variables that had been identified in the stepwise analyses of each domain. As such, the effect of each variable was evaluated while controlling for the effects of the other variables.</p>
+                <sec id="sec027">
+                  <title>Predictors of symptomatic change</title>
+                  <p>The results of the longitudinal growth model predicting symptomatic improvement are presented in <xref rid="pone.0124258.t006" ref-type="table">Table 6</xref> and in Figs <xref rid="pone.0124258.g001" ref-type="fig">1</xref>, <xref rid="pone.0124258.g002" ref-type="fig">2</xref> and <xref rid="pone.0124258.g003" ref-type="fig">3</xref>. For illustrative purposes, a categorization was performed to depict predicted growth curves for patients scoring high and low on each predictor variable, where a “high” score was operationalized as one standard deviation above the mean and a “low” score as one standard deviation below the mean. According to the final model, age and employment status did not have an effect on improvement when controlling for patients’ overall functioning level, treatment credibility ratings and adherence levels. Specifically, a high level of perceived treatment credibility was associated with a faster rate of improvement and lower social anxiety after treatment (see <xref rid="pone.0124258.g001" ref-type="fig">Fig 1</xref>). Also, a high level of adherence was associated with a greater improvement rate and lower post-treatment LSAS-SR scores (see <xref rid="pone.0124258.g002" ref-type="fig">Fig 2</xref>). Patients with a higher overall functioning level also evidenced lower post-treatment LSAS-SR scores, although these individuals had a slower rate of improvement (see <xref rid="pone.0124258.g003" ref-type="fig">Fig 3</xref>).</p>
+                  <fig id="pone.0124258.g001" orientation="portrait" position="float">
+                    <object-id pub-id-type="doi">10.1371/journal.pone.0124258.g001</object-id>
+                    <label>Fig 1</label>
+                    <caption>
+                      <title>Predicted symptomatic improvement based on individual differences in perceived treatment credibility.</title>
+                      <p>For illustrative purposes, a categorization was performed to depict predicted growth curves for patients scoring high and low on credibility. High credibility was operationalized as 1 standard deviation above the mean score on the treatment credibility scale and low credibility as 1 standard deviation below the mean. Mean treatment credibility was 36.20 (SD = 7.42). Error bars are displayed with 95% confidence intervals.</p>
+                    </caption>
+                    <graphic xlink:href="pone.0124258.g001"/>
+                  </fig>
+                  <fig id="pone.0124258.g002" orientation="portrait" position="float">
+                    <object-id pub-id-type="doi">10.1371/journal.pone.0124258.g002</object-id>
+                    <label>Fig 2</label>
+                    <caption>
+                      <title>Predicted symptomatic improvement based on individual differences in treatment adherence.</title>
+                      <p>For illustrative purposes, a categorization was performed to depict predicted growth curves for patients with high and low adherence. High adherence was operationalized as 1 standard deviation above the mean activated number of treatment modules and low adherence as 1 standard deviation below the mean number of modules. Mean adherence was 7.72 (SD = 3.36). Error bars are displayed with 95% confidence intervals.</p>
+                    </caption>
+                    <graphic xlink:href="pone.0124258.g002"/>
+                  </fig>
+                  <fig id="pone.0124258.g003" orientation="portrait" position="float">
+                    <object-id pub-id-type="doi">10.1371/journal.pone.0124258.g003</object-id>
+                    <label>Fig 3</label>
+                    <caption>
+                      <title>Predicted symptomatic improvement based on individual differences in overall functioning level.</title>
+                      <p>Overall level of functioning was as measured with the Global Assessment of Functioning (GAF). For illustrative purposes, a categorization was performed to depict predicted growth curves for patients with high and low levels of functioning. High GAF was operationalized as 1 standard deviation above the mean and low GAF as 1 standard deviation below the mean. Mean GAF was 61.33 (SD = 7.78). Error bars are displayed with 95% confidence intervals.</p>
+                    </caption>
+                    <graphic xlink:href="pone.0124258.g003"/>
+                  </fig>
+                  <table-wrap id="pone.0124258.t006" orientation="portrait" position="float">
+                    <object-id pub-id-type="doi">10.1371/journal.pone.0124258.t006</object-id>
+                    <label>Table 6</label>
+                    <caption>
+                      <title>Final model of predictors’ influence on the rate of symptomatic change and post-treatment level of social anxiety.</title>
+                    </caption>
+                    <alternatives>
+                      <graphic id="pone.0124258.t006g" xlink:href="pone.0124258.t006"/>
+                      <table frame="hsides" rules="groups">
+                        <colgroup span="1">
+                          <col align="left" valign="middle" span="1"/>
+                          <col align="left" valign="middle" span="1"/>
+                          <col align="left" valign="middle" span="1"/>
+                          <col align="left" valign="middle" span="1"/>
+                          <col align="left" valign="middle" span="1"/>
+                        </colgroup>
+                        <thead>
+                          <tr>
+                            <th align="left" rowspan="1" colspan="1"/>
+                            <th colspan="2" align="center" rowspan="1">Change over time</th>
+                            <th colspan="2" align="center" rowspan="1">Post-treatment score</th>
+                          </tr>
+                          <tr>
+                            <th align="left" rowspan="1" colspan="1"/>
+                            <th align="left" rowspan="1" colspan="1"><italic>b</italic> (SE)<xref rid="t006fn005" ref-type="table-fn"><sup>a</sup></xref>
+</th>
+                            <th align="left" rowspan="1" colspan="1">
+                              <italic>p</italic>
+                            </th>
+                            <th align="left" rowspan="1" colspan="1"><italic>b</italic> (SE)<xref rid="t006fn006" ref-type="table-fn"><sup>b</sup></xref>
+</th>
+                            <th align="left" rowspan="1" colspan="1">
+                              <italic>p</italic>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">
+                              <bold>Outcome</bold>
+                            </td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Social anxiety (LSAS-SR)</td>
+                            <td align="left" rowspan="1" colspan="1">-19.00 (.90)</td>
+                            <td align="left" rowspan="1" colspan="1">
+                              <xref rid="t006fn002" ref-type="table-fn">***</xref>
+                            </td>
+                            <td align="left" rowspan="1" colspan="1">51.97 (1.10)</td>
+                            <td align="left" rowspan="1" colspan="1">
+                              <xref rid="t006fn002" ref-type="table-fn">***</xref>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">
+                              <bold>Predictor</bold>
+                            </td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Age</td>
+                            <td align="left" rowspan="1" colspan="1">1.34 (1.12)</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1">-1.39 (.91)</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Employment</td>
+                            <td align="left" rowspan="1" colspan="1">.46 (1.16)</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                            <td align="left" rowspan="1" colspan="1">-2.29 (.95)</td>
+                            <td align="left" rowspan="1" colspan="1">
+                              <xref rid="t006fn004" ref-type="table-fn">*</xref>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">GAF</td>
+                            <td align="left" rowspan="1" colspan="1">3.35 (1.16)</td>
+                            <td align="left" rowspan="1" colspan="1">
+                              <xref rid="t006fn002" ref-type="table-fn">***</xref>
+                            </td>
+                            <td align="left" rowspan="1" colspan="1">-7.97 (.95)</td>
+                            <td align="left" rowspan="1" colspan="1">
+                              <xref rid="t006fn002" ref-type="table-fn">***</xref>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Adherence</td>
+                            <td align="left" rowspan="1" colspan="1">-4.02 (1.26)</td>
+                            <td align="left" rowspan="1" colspan="1">
+                              <xref rid="t006fn002" ref-type="table-fn">***</xref>
+                            </td>
+                            <td align="left" rowspan="1" colspan="1">-5.95 (1.04)</td>
+                            <td align="left" rowspan="1" colspan="1">
+                              <xref rid="t006fn002" ref-type="table-fn">***</xref>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Treatment credibility</td>
+                            <td align="left" rowspan="1" colspan="1">-4.15 (1.14)</td>
+                            <td align="left" rowspan="1" colspan="1">
+                              <xref rid="t006fn002" ref-type="table-fn">***</xref>
+                            </td>
+                            <td align="left" rowspan="1" colspan="1">-3.06 (.93)</td>
+                            <td align="left" rowspan="1" colspan="1">
+                              <xref rid="t006fn003" ref-type="table-fn">**</xref>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </alternatives>
+                    <table-wrap-foot>
+                      <fn id="t006fn001">
+                        <p>Note. Significant effects on outcome are denoted as:</p>
+                      </fn>
+                      <fn id="t006fn002">
+                        <p>***, <italic>p</italic> &lt; ∙001;</p>
+                      </fn>
+                      <fn id="t006fn003">
+                        <p>**, <italic>p</italic> &lt; ∙01 and</p>
+                      </fn>
+                      <fn id="t006fn004">
+                        <p>*, <italic>p</italic> &lt; ∙05.</p>
+                      </fn>
+                      <fn id="t006fn005">
+                        <p><sup>a</sup> Values represent standardized beta coefficients predicting the rate of change (slope) in self-rated Liebowitz Social Anxiety Scale (LSAS-SR) scores over assessment occasions. Coefficients therefore represent the interaction of the predictor with time. Negative values indicate greater change during treatment.</p>
+                      </fn>
+                      <fn id="t006fn006">
+                        <p><sup>b</sup> Values represent standardized beta coefficients predicting LSAS-SR at post-treatment. Negative values indicate lower estimated post-treatment scores.</p>
+                      </fn>
+                    </table-wrap-foot>
+                  </table-wrap>
+                </sec>
+                <sec id="sec028">
+                  <title>Predictors of treatment adherence</title>
+                  <p>Results from the model predicting adherence are presented in <xref rid="pone.0124258.t007" ref-type="table">Table 7</xref>. Specifically, a high level of treatment credibility was associated with higher adherence. Also, those patients who had a family history of SAD-like symptoms evidenced a greater level of adherence, whereas having a family history of minor depression was associated with a lower adherence. The amount of therapist time spent per module was associated with a lower level of adherence. Finally, having more ADHD-like symptoms, as measured with the ASRS, was associated with lower adherence, as was being male.</p>
+                  <table-wrap id="pone.0124258.t007" orientation="portrait" position="float">
+                    <object-id pub-id-type="doi">10.1371/journal.pone.0124258.t007</object-id>
+                    <label>Table 7</label>
+                    <caption>
+                      <title>Final model of predictors of treatment adherence.</title>
+                    </caption>
+                    <alternatives>
+                      <graphic id="pone.0124258.t007g" xlink:href="pone.0124258.t007"/>
+                      <table frame="hsides" rules="groups">
+                        <colgroup span="1">
+                          <col align="left" valign="middle" span="1"/>
+                          <col align="left" valign="middle" span="1"/>
+                          <col align="left" valign="middle" span="1"/>
+                        </colgroup>
+                        <thead>
+                          <tr>
+                            <th align="left" rowspan="1" colspan="1"/>
+                            <th colspan="2" align="center" rowspan="1">Level of adherence</th>
+                          </tr>
+                          <tr>
+                            <th align="left" rowspan="1" colspan="1"/>
+                            <th align="left" rowspan="1" colspan="1"><italic>b</italic> (SE)<xref rid="t007fn005" ref-type="table-fn"><sup>a</sup></xref>
+</th>
+                            <th align="left" rowspan="1" colspan="1">
+                              <italic>p</italic>
+                            </th>
+                          </tr>
+                          <tr>
+                            <th align="left" rowspan="1" colspan="1">Predictor</th>
+                            <th align="left" rowspan="1" colspan="1"/>
+                            <th align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Male gender</td>
+                            <td align="left" rowspan="1" colspan="1">-.42 (.14)</td>
+                            <td align="left" rowspan="1" colspan="1">
+                              <xref rid="t007fn003" ref-type="table-fn">**</xref>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Level of education</td>
+                            <td align="left" rowspan="1" colspan="1">.17 (.14)</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Family history of social anxiety</td>
+                            <td align="left" rowspan="1" colspan="1">.35 (.14)</td>
+                            <td align="left" rowspan="1" colspan="1">
+                              <xref rid="t007fn004" ref-type="table-fn">*</xref>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Family history of depression</td>
+                            <td align="left" rowspan="1" colspan="1">-.25 (.15)</td>
+                            <td align="left" rowspan="1" colspan="1"/>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Family history of minor depression</td>
+                            <td align="left" rowspan="1" colspan="1">-.28 (.14)</td>
+                            <td align="left" rowspan="1" colspan="1">
+                              <xref rid="t007fn004" ref-type="table-fn">*</xref>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">ASRS</td>
+                            <td align="left" rowspan="1" colspan="1">-.56 (.14)</td>
+                            <td align="left" rowspan="1" colspan="1">
+                              <xref rid="t007fn002" ref-type="table-fn">***</xref>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Treatment credibility</td>
+                            <td align="left" rowspan="1" colspan="1">.72 (.15)</td>
+                            <td align="left" rowspan="1" colspan="1">
+                              <xref rid="t007fn002" ref-type="table-fn">***</xref>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" rowspan="1" colspan="1">Therapist time (min) per module</td>
+                            <td align="left" rowspan="1" colspan="1">-1.01 (.14)</td>
+                            <td align="left" rowspan="1" colspan="1">
+                              <xref rid="t007fn002" ref-type="table-fn">***</xref>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </alternatives>
+                    <table-wrap-foot>
+                      <fn id="t007fn001">
+                        <p>Note. Significant effects on outcome are denoted as:</p>
+                      </fn>
+                      <fn id="t007fn002">
+                        <p>***, <italic>p</italic> &lt; ∙001;</p>
+                      </fn>
+                      <fn id="t007fn003">
+                        <p>**, <italic>p</italic> &lt; ∙01</p>
+                      </fn>
+                      <fn id="t007fn004">
+                        <p>and *, <italic>p</italic> &lt; ∙05.</p>
+                      </fn>
+                      <fn id="t007fn005">
+                        <p><sup>a</sup> Values represent standardized beta coefficients predicting treatment adherence (operationalized as number of modules) at post-treatment. Positive values indicate higher estimated adherence.</p>
+                      </fn>
+                    </table-wrap-foot>
+                  </table-wrap>
+                </sec>
+              </sec>
+            </sec>
+            <sec sec-type="conclusions" id="sec029">
+              <title>Discussion</title>
+              <p>The aim of the present study was to identify predictors of symptomatic improvement and adherence to ICBT for SAD within the context of routine psychiatric outpatient care. On average, patients improved at a rate of 20 points on the LSAS-SR during the treatment. Although this demonstrates significant symptomatic improvements, it is worth noting that the average post-treatment LSAS-SR score was approximately 50 (see <xref rid="pone.0124258.t005" ref-type="table">Table 5</xref>), which is well over the LSAS-SR total score ≤ 30 criteria for remission from SAD as proposed by Mennin [<xref rid="pone.0124258.ref046" ref-type="bibr">46</xref>] and Rytwinski [<xref rid="pone.0124258.ref047" ref-type="bibr">47</xref>]. This indicates that most patients still had at least mild SAD after treatment.</p>
+              <p>Treatment credibility and adherence emerged as significant predictors of a faster rate of improvement during the course of treatment, whereas those patients presenting with a higher overall level of functioning prior to treatment experienced a slower rate of improvement, possibly reflecting a floor effect. Further, treatment credibility and having earlier experience of SAD-like symptoms within the family was associated with increased treatment adherence, whereas ADHD-like symptoms, being male and having a family history of minor depression emerged as factors associated with lower adherence. Finally, the amount of time therapists spent with patients on each treatment module was negatively associated with adherence; however, the most likely explanation for this observation is simply that therapists spent more time with patients who had difficulties complying with the treatment rather than that therapist contact in itself would be a predictor of poor adherence.</p>
+              <p>Probably the most interesting finding in this study was that patients’ beliefs and expectations towards the treatment seem to be more critical for a successful intervention than clinical or demographic factors. The association between treatment credibility and adherence might indicate that when patients feel confident that the treatment will be helpful, they may be more willing to engage in the treatment, consequently being more exposed to effective components of the CBT protocol (e.g. confronting feared thoughts and situations). Indeed, treatment credibility has previously been identified as a factor that plays a significant role in the effectiveness of ICBT interventions [<xref rid="pone.0124258.ref013" ref-type="bibr">13</xref>,<xref rid="pone.0124258.ref014" ref-type="bibr">14</xref>]. Although a high level of treatment credibility appears to be the most important prognostic factor for adherence, one must be cautious to conclude that this is a causal relationship, given that treatment credibility was not measured until the second week of treatment; it might have been influenced by early response which also seems to be a strong outcome predictor. The relation between early response and outcome of ICBT for SAD has recently been studied in detail elsewhere [<xref rid="pone.0124258.ref048" ref-type="bibr">48</xref>]. One final remark on treatment credibility is that since this study was done on a sample where participants had specifically applied for an ICBT interventions, it is interesting that the effect of treatment credibility still appear to be such a strong predictor. It would be interesting to compare its effect with a sample at a regular primary care clinic where patients have no preference on the delivery modality of CBT.</p>
+              <sec id="sec030">
+                <title>Strengths and Limitations</title>
+                <p>The main benefit of this study was the size of the sample and the routine care setting of treatment delivery. This increases the likelihood of the results being generalizable to similar clinical contexts were ICBT for SAD is being considered for dissemination. Additionally, outcome assessments were administered systematically and frequently and inclusion of patients spanned over several years.</p>
+                <p>A discussion on the limitations of the study is warranted. Probably the most evident limitation is the lack of a comparison group, which introduces the inability to control for natural temporal trends as a potential explanation for the observed change in SAD symptoms occurring during the course of treatment. This is often a common issue in effectiveness studies in clinical settings. In this case, the aim of the study was to explore differences in treatment outcome within the context of a regular care clinic, effectively evaluating all patients who had received treatment for SAD over the course of a longer time frame. In such a naturalistic setting, there would have been additional ethical considerations of implementing a wait-list condition since there are also operational demands in regard to process lead times and improvement efforts of health care quality (e.g. decreasing time to wait between applying for treatment and receiving adequate care). Also, to measure adherence, we used the number of activated treatment modules, which means that we do not know whether patients actually completed the last activated module or not. This is apparently a limitation in measurement reliability. Since adherence in conventional face-to-face CBT typically refer to both in-session and out of session behaviour, the remote therapist guidance inherent in the ICBT delivery format makes it more challenging to have full insight into the actual (as opposed to reported) level of compliance in each module. Of course, tracking actual homework compliance in face-to-face CBT may be equally challenging, given the dependency on patients’ self-reports of out of session behaviour. Another limitation concerns the heavy reliance on subjective self-report data, since this could potentially introduce response bias. As was reported above, self-reported LSAS scores were systematically higher that clinician ratings. However, such a small mean difference (2.59 points) might not be clinically relevant. Further, clinician- and self-rated versions of the LSAS were found to be highly correlated (see also Fresco et al. [<xref rid="pone.0124258.ref049" ref-type="bibr">49</xref>]), which strengthens the assumed validity of the used self-report measurements. Finally, a note on generalizability of these results is that although the generalizability may be higher than would be the case of an RCT, these results might not apply to all primary care clinics settings, since patients included in this sample have actively sought out this treatment rather than being referred by a GP or primary care. Therefore, it might be argued that patients recruited in internet-based intervention studies may not be representative for the typical routine mental health care patient.</p>
+              </sec>
+              <sec id="sec031">
+                <title>Clinical Implications</title>
+                <p>The findings of the present study highlight the importance of not only therapeutic compliance but also patients’ beliefs and expectations about the treatment. This study, then, raises the question of how to promote these factors. For example, could the provision of extra support to identified subgroups at risk of low adherence increase the probability of therapeutic compliance (and ultimately treatment response)? Although patients who showed signs of inactivity and lower adherence generally would receive reminders and supportive messages from their therapist in order to help them to stay engaged in the treatment, it is not clear whether these therapist behaviours significantly increased compliance. [<xref rid="pone.0124258.ref014" ref-type="bibr">14</xref>]. Indeed, the importance of therapist support in ICBT is not yet established [<xref rid="pone.0124258.ref050" ref-type="bibr">50</xref>]. For example, it has been observed in several studies of ICBT that more therapist support is associated with both increased adherence and larger treatment effects [<xref rid="pone.0124258.ref051" ref-type="bibr">51</xref>]. On the other hand, in a study where effectiveness and adherence was compared between guided and unguided ICBT for SAD, it was found that therapist guidance increased the likelihood of completing the treatment and that treatment effects were similar among those who completed the treatment regardless of whether they had received guidance or not [<xref rid="pone.0124258.ref052" ref-type="bibr">52</xref>]. Also, in a study comparing three levels of therapist guidance in ICBT for SAD, it was observed that the treatment was equally effective regardless of the amount of guidance patients received [<xref rid="pone.0124258.ref050" ref-type="bibr">50</xref>]. Although it cannot be concluded from the present study that the amount of time that therapists invest in guidance increases patients’ compliance or response to treatment in general, therapists might still be able to better support those patients seeking treatment for SAD who also presents with ADHD-like symptoms (e.g. by using similar organizational strategies that are used to aid patients with ADHD [<xref rid="pone.0124258.ref053" ref-type="bibr">53</xref>]).</p>
+              </sec>
+            </sec>
+            <sec sec-type="conclusions" id="sec032">
+              <title>Conclusions</title>
+              <p>Prediction research is ultimately a tool to help clinicians make informed decisions prior to treatment. Results from this relatively large clinical sample indicate that expectation of treatment effectiveness and adhering to the treatment are critical factors for treatment success in ICBT for SAD. Clinicians might therefore benefit from early identification of probable “low-responders” and to test added measures that could increase therapeutic compliance and credibility. For example, clearly explaining the rationale for and communicating confidence in the treatment might increase patients’ willingness to engage and consequently increase the likelihood of treatment effectiveness. Also, since having ADHD-like symptoms seems to be associated with somewhat lower adherence, patients presenting with these additional challenges might benefit from extra support when working with CBT components central for treatment success. However, more research is needed in order to determine not only what type of support that would be most useful but also what level of guidance would be optimal in terms of providing effective treatments with efficient use of healthcare resources [<xref rid="pone.0124258.ref054" ref-type="bibr">54</xref>].</p>
+              <p>In sum, ICBT is an effective treatment for individuals suffering from SAD and high treatment credibility and adherence are strong predictors for greater rate of improvement. With the current dissemination of ICBT in regular care as an innovative and cost-effective way of increasing access to evidence based psychotherapy, the online delivery-format of ICBT may have several advantages over conventional CBT, especially for individuals with more severe social anxiety who might fear face-to-face interactions [<xref rid="pone.0124258.ref006" ref-type="bibr">6</xref>,<xref rid="pone.0124258.ref054" ref-type="bibr">54</xref>]. ICBT may therefore be a preferable treatment option for individuals who might otherwise avoid seeking help.</p>
+            </sec>
+            <sec sec-type="supplementary-material" id="sec033">
+              <title>Supporting Information</title>
+              <supplementary-material content-type="local-data" id="pone.0124258.s001">
+                <label>S1 Table</label>
+                <caption>
+                  <title>Step-wise analyses of predictors of symptomatic change.</title>
+                  <p>(DOCX)</p>
+                </caption>
+                <media xlink:href="pone.0124258.s001.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="pone.0124258.s002">
+                <label>S2 Table</label>
+                <caption>
+                  <title>Step-wise analyses of predictors of treatment adherence.</title>
+                  <p>(DOCX)</p>
+                </caption>
+                <media xlink:href="pone.0124258.s002.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>We wish to express our great appreciation of Monica Hellberg for administrative assistance.</p>
+            </ack>
+            <ref-list>
+              <title>References</title>
+              <ref id="pone.0124258.ref001">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><name><surname>Kessler</surname><given-names>RC</given-names></name>, <name><surname>Berglund</surname><given-names>P</given-names></name>, <name><surname>Demler</surname><given-names>O</given-names></name>, <name><surname>Jin</surname><given-names>R</given-names></name>, <name><surname>Merikangas</surname><given-names>KR</given-names></name>, <name><surname>Walters</surname><given-names>EE</given-names></name> (<year>2005</year>) <article-title>Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the National Comorbidity Survey Replication</article-title>. <source>Arch Gen Psychiatry</source>
+<volume>62</volume>: <fpage>593</fpage>–<lpage>602</lpage>.
+<?supplied-pmid 15939837?><pub-id pub-id-type="pmid">15939837</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref002">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><name><surname>Stein</surname><given-names>MB</given-names></name>, <name><surname>Stein</surname><given-names>DJ</given-names></name> (<year>2008</year>) <article-title>Social anxiety disorder</article-title>. <source>Lancet</source>
+<volume>371</volume>: <fpage>1115</fpage>–<lpage>1125</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(08)60488-2</pub-id>
+<?supplied-pmid 18374843?><pub-id pub-id-type="pmid">18374843</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref003">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><name><surname>Hofmann</surname><given-names>SG</given-names></name>, <name><surname>Smits</surname><given-names>JA</given-names></name> (<year>2008</year>) <article-title>Cognitive-behavioral therapy for adult anxiety disorders: a meta-analysis of randomized placebo-controlled trials</article-title>. <source>J Clin Psychiatry</source>
+<volume>69</volume>: <fpage>621</fpage>–<lpage>632</lpage>.
+<?supplied-pmid 18363421?><pub-id pub-id-type="pmid">18363421</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref004">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><name><surname>Andersson</surname><given-names>G</given-names></name>, <name><surname>Titov</surname><given-names>N</given-names></name> (<year>2014</year>) <article-title>Advantages and limitations of Internet-based interventions for common mental disorders</article-title>. <source>World Psychiatry</source>
+<volume>13</volume>: <fpage>4</fpage>–<lpage>11</lpage>. <pub-id pub-id-type="doi">10.1002/wps.20083</pub-id>
+<?supplied-pmid 24497236?><pub-id pub-id-type="pmid">24497236</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref005">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><name><surname>Mululo</surname><given-names>SC</given-names></name>, <name><surname>Menezes</surname><given-names>GB</given-names></name>, <name><surname>Vigne</surname><given-names>P</given-names></name>, <name><surname>Fontenelle</surname><given-names>LF</given-names></name> (<year>2012</year>) <article-title>A review on predictors of treatment outcome in social anxiety disorder</article-title>. <source>Rev Bras Psiquiatr</source>
+<volume>34</volume>: <fpage>92</fpage>–<lpage>100</lpage>.
+<?supplied-pmid 22392395?><pub-id pub-id-type="pmid">22392395</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref006">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><name><surname>Furmark</surname><given-names>T</given-names></name>, <name><surname>Carlbring</surname><given-names>P</given-names></name>, <name><surname>Hedman</surname><given-names>E</given-names></name>, <name><surname>Sonnenstein</surname><given-names>A</given-names></name>, <name><surname>Clevberger</surname><given-names>P</given-names></name>, <name><surname>Bohman</surname><given-names>B</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Guided and unguided self-help for social anxiety disorder: randomised controlled trial</article-title>. <source>Br J Psychiatry</source>
+<volume>195</volume>: <fpage>440</fpage>–<lpage>447</lpage>. <pub-id pub-id-type="doi">10.1192/bjp.bp.108.060996</pub-id>
+<?supplied-pmid 19880935?><pub-id pub-id-type="pmid">19880935</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref007">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><name><surname>Hofmann</surname><given-names>SG</given-names></name> (<year>2000</year>) <article-title>Treatment of Social Phobia: Potential Mediators and Moderators</article-title>. <source>Clin Psychol (New York)</source>
+<volume>7</volume>: <fpage>3</fpage>–<lpage>16</lpage>.<pub-id pub-id-type="pmid">16799697</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref008">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><name><surname>Rodebaugh</surname><given-names>TL</given-names></name>, <name><surname>Holaway</surname><given-names>RM</given-names></name>, <name><surname>Heimberg</surname><given-names>RG</given-names></name> (<year>2004</year>) <article-title>The treatment of social anxiety disorder</article-title>. <source>Clin Psychol Rev</source>
+<volume>24</volume>: <fpage>883</fpage>–<lpage>908</lpage>.
+<?supplied-pmid 15501560?><pub-id pub-id-type="pmid">15501560</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref009">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><name><surname>Kazdin</surname><given-names>AE</given-names></name> (<year>2008</year>) <article-title>Evidence-based treatment and practice: new opportunities to bridge clinical research and practice, enhance the knowledge base, and improve patient care</article-title>. <source>Am Psychol</source>
+<volume>63</volume>: <fpage>146</fpage>–<lpage>159</lpage>. <pub-id pub-id-type="doi">10.1037/0003-066X.63.3.146</pub-id>
+<?supplied-pmid 18377105?><pub-id pub-id-type="pmid">18377105</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref010">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><name><surname>Kraemer</surname><given-names>HC</given-names></name>, <name><surname>Wilson</surname><given-names>GT</given-names></name>, <name><surname>Fairburn</surname><given-names>CG</given-names></name>, <name><surname>Agras</surname><given-names>WS</given-names></name> (<year>2002</year>) <article-title>Mediators and moderators of treatment effects in randomized clinical trials</article-title>. <source>Arch Gen Psychiatry</source>
+<volume>59</volume>: <fpage>877</fpage>–<lpage>883</lpage>.
+<?supplied-pmid 12365874?><pub-id pub-id-type="pmid">12365874</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref011">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><name><surname>Amir</surname><given-names>N</given-names></name>, <name><surname>Taylor</surname><given-names>CT</given-names></name>, <name><surname>Donohue</surname><given-names>MC</given-names></name> (<year>2011</year>) <article-title>Predictors of response to an attention modification program in generalized social phobia</article-title>. <source>J Consult Clin Psychol</source>
+<volume>79</volume>: <fpage>533</fpage>–<lpage>541</lpage>. <pub-id pub-id-type="doi">10.1037/a0023808</pub-id>
+<?supplied-pmid 21707134?><pub-id pub-id-type="pmid">21707134</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref012">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><name><surname>Smits</surname><given-names>JA</given-names></name>, <name><surname>Hofmann</surname><given-names>SG</given-names></name>, <name><surname>Rosenfield</surname><given-names>D</given-names></name>, <name><surname>DeBoer</surname><given-names>LB</given-names></name>, <name><surname>Costa</surname><given-names>PT</given-names></name>, <name><surname>Simon</surname><given-names>NM</given-names></name>, <etal>et al</etal> (<year>2013</year>) <article-title>D-cycloserine augmentation of cognitive behavioral group therapy of social anxiety disorder: prognostic and prescriptive variables</article-title>. <source>J Consult Clin Psychol</source>
+<volume>81</volume>: <fpage>1100</fpage>–<lpage>1112</lpage>. <pub-id pub-id-type="doi">10.1037/a0034120</pub-id>
+<?supplied-pmid 23937345?><pub-id pub-id-type="pmid">23937345</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref013">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><name><surname>Hedman</surname><given-names>E</given-names></name>, <name><surname>Andersson</surname><given-names>E</given-names></name>, <name><surname>Ljotsson</surname><given-names>B</given-names></name>, <name><surname>Andersson</surname><given-names>G</given-names></name>, <name><surname>Andersson</surname><given-names>E</given-names></name>, <name><surname>Schalling</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Clinical and genetic outcome determinants of internet- and group-based cognitive behavior therapy for social anxiety disorder</article-title>. <source>Acta Psychiatr Scand</source>
+<volume>126</volume>: <fpage>126</fpage>–<lpage>136</lpage>. <pub-id pub-id-type="doi">10.1111/j.1600-0447.2012.01834.x</pub-id>
+<?supplied-pmid 22320999?><pub-id pub-id-type="pmid">22320999</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref014">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><name><surname>Nordgreen</surname><given-names>T</given-names></name>, <name><surname>Havik</surname><given-names>OE</given-names></name>, <name><surname>Ost</surname><given-names>LG</given-names></name>, <name><surname>Furmark</surname><given-names>T</given-names></name>, <name><surname>Carlbring</surname><given-names>P</given-names></name>, <name><surname>Andersson</surname><given-names>G</given-names></name> (<year>2012</year>) <article-title>Outcome predictors in guided and unguided self-help for social anxiety disorder</article-title>. <source>Behav Res Ther</source>
+<volume>50</volume>: <fpage>13</fpage>–<lpage>21</lpage>. <pub-id pub-id-type="doi">10.1016/j.brat.2011.10.009</pub-id>
+<?supplied-pmid 22134140?><pub-id pub-id-type="pmid">22134140</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref015">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><name><surname>McEvoy</surname><given-names>PM</given-names></name>, <name><surname>Nathan</surname><given-names>P</given-names></name>, <name><surname>Rapee</surname><given-names>RM</given-names></name>, <name><surname>Campbell</surname><given-names>BN</given-names></name> (<year>2012</year>) <article-title>Cognitive behavioural group therapy for social phobia: evidence of transportability to community clinics</article-title>. <source>Behav Res Ther</source>
+<volume>50</volume>: <fpage>258</fpage>–<lpage>265</lpage>. <pub-id pub-id-type="doi">10.1016/j.brat.2012.01.009</pub-id>
+<?supplied-pmid 22394493?><pub-id pub-id-type="pmid">22394493</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref016">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><name><surname>Chambless</surname><given-names>DL</given-names></name>, <name><surname>Tran</surname><given-names>GQ</given-names></name>, <name><surname>Glass</surname><given-names>CR</given-names></name> (<year>1997</year>) <article-title>Predictors of response to cognitive-behavioral group therapy for social phobia</article-title>. <source>J Anxiety Disord</source>
+<volume>11</volume>: <fpage>221</fpage>–<lpage>240</lpage>.
+<?supplied-pmid 9220298?><pub-id pub-id-type="pmid">9220298</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref017">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><name><surname>Ledley</surname><given-names>DR</given-names></name>, <name><surname>Huppert</surname><given-names>JD</given-names></name>, <name><surname>Foa</surname><given-names>EB</given-names></name>, <name><surname>Davidson</surname><given-names>JR</given-names></name>, <name><surname>Keefe</surname><given-names>FJ</given-names></name>, <name><surname>Potts</surname><given-names>NL</given-names></name> (<year>2005</year>) <article-title>Impact of depressive symptoms on the treatment of generalized social anxiety disorder</article-title>. <source>Depress Anxiety</source>
+<volume>22</volume>: <fpage>161</fpage>–<lpage>167</lpage>.
+<?supplied-pmid 16175565?><pub-id pub-id-type="pmid">16175565</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref018">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><name><surname>Erwin</surname><given-names>BA</given-names></name>, <name><surname>Heimberg</surname><given-names>RG</given-names></name>, <name><surname>Juster</surname><given-names>H</given-names></name>, <name><surname>Mindlin</surname><given-names>M</given-names></name> (<year>2002</year>) <article-title>Comorbid anxiety and mood disorders among persons with social anxiety disorder</article-title>. <source>Behav Res Ther</source>
+<volume>40</volume>: <fpage>19</fpage>–<lpage>35</lpage>.
+<?supplied-pmid 11762424?><pub-id pub-id-type="pmid">11762424</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref019">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><name><surname>Turner</surname><given-names>SM</given-names></name>, <name><surname>Beidel</surname><given-names>DC</given-names></name>, <name><surname>Wolff</surname><given-names>PL</given-names></name>, <name><surname>Spaulding</surname><given-names>S</given-names></name>, <name><surname>Jacob</surname><given-names>RG</given-names></name> (<year>1996</year>) <article-title>Clinical features affecting treatment outcome in social phobia</article-title>. <source>Behav Res Ther</source>
+<volume>34</volume>: <fpage>795</fpage>–<lpage>804</lpage>.
+<?supplied-pmid 8952122?><pub-id pub-id-type="pmid">8952122</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref020">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><name><surname>Geraghty</surname><given-names>AW</given-names></name>, <name><surname>Wood</surname><given-names>AM</given-names></name>, <name><surname>Hyland</surname><given-names>ME</given-names></name> (<year>2010</year>) <article-title>Attrition from self-directed interventions: investigating the relationship between psychological predictors, intervention content and dropout from a body dissatisfaction intervention</article-title>. <source>Soc Sci Med</source>
+<volume>71</volume>: <fpage>30</fpage>–<lpage>37</lpage>. <pub-id pub-id-type="doi">10.1016/j.socscimed.2010.03.007</pub-id>
+<?supplied-pmid 20400220?><pub-id pub-id-type="pmid">20400220</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref021">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><name><surname>Aydos</surname><given-names>L</given-names></name>, <name><surname>Titov</surname><given-names>N</given-names></name>, <name><surname>Andrews</surname><given-names>G</given-names></name> (<year>2009</year>) <article-title>Shyness 5: the clinical effectiveness of Internet-based clinician-assisted treatment of social phobia</article-title>. <source>Australas Psychiatry</source>
+<volume>17</volume>: <fpage>488</fpage>–<lpage>492</lpage>.
+<?supplied-pmid 20001373?><pub-id pub-id-type="pmid">20001373</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref022">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><name><surname>Rapee</surname><given-names>RM</given-names></name>, <name><surname>Abbott</surname><given-names>MJ</given-names></name>, <name><surname>Baillie</surname><given-names>AJ</given-names></name>, <name><surname>Gaston</surname><given-names>JE</given-names></name> (<year>2007</year>) <article-title>Treatment of social phobia through pure self-help and therapist-augmented self-help</article-title>. <source>Br J Psychiatry</source>
+<volume>191</volume>: <fpage>246</fpage>–<lpage>252</lpage>.
+<?supplied-pmid 17766766?><pub-id pub-id-type="pmid">17766766</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref023">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><name><surname>Hilvert-Bruce</surname><given-names>Z</given-names></name>, <name><surname>Rossouw</surname><given-names>PJ</given-names></name>, <name><surname>Wong</surname><given-names>N</given-names></name>, <name><surname>Sunderland</surname><given-names>M</given-names></name>, <name><surname>Andrews</surname><given-names>G</given-names></name> (<year>2012</year>) <article-title>Adherence as a determinant of effectiveness of internet cognitive behavioural therapy for anxiety and depressive disorders</article-title>. <source>Behav Res Ther</source>
+<volume>50</volume>: <fpage>463</fpage>–<lpage>468</lpage>. <pub-id pub-id-type="doi">10.1016/j.brat.2012.04.001</pub-id>
+<?supplied-pmid 22659155?><pub-id pub-id-type="pmid">22659155</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref024">
+                <label>24</label>
+                <mixed-citation publication-type="other">Andersson G, Hedman E (2013) Effectiveness of guided Internet-delivered cognitive behaviour therapy in regular clinical settings. Verhaltenstherapie: 140–148.</mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref025">
+                <label>25</label>
+                <mixed-citation publication-type="book"><name><surname>Raudenbush</surname><given-names>SW</given-names></name>, <name><surname>Bryk</surname><given-names>AS</given-names></name> (<year>2002</year>) <chapter-title>Hiearchial linear models</chapter-title>
+<publisher-loc>Thousand Oaks, CA</publisher-loc>: <publisher-name>Sage</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref026">
+                <label>26</label>
+                <mixed-citation publication-type="book"><name><surname>Singer</surname><given-names>JD</given-names></name>, <name><surname>Willett</surname><given-names>JB</given-names></name> (<year>2003</year>) <chapter-title>Applied longitudinal data analysis: modeling change and event occurrence</chapter-title>
+<publisher-loc>Oxford; New York</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>
+<volume>xx</volume>, 644 p. p.</mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref027">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><name><surname>Fournier</surname><given-names>JC</given-names></name>, <name><surname>DeRubeis</surname><given-names>RJ</given-names></name>, <name><surname>Shelton</surname><given-names>RC</given-names></name>, <name><surname>Hollon</surname><given-names>SD</given-names></name>, <name><surname>Amsterdam</surname><given-names>JD</given-names></name>, <name><surname>Gallop</surname><given-names>R</given-names></name> (<year>2009</year>) <article-title>Prediction of response to medication and cognitive therapy in the treatment of moderate to severe depression</article-title>. <source>J Consult Clin Psychol</source>
+<volume>77</volume>: <fpage>775</fpage>–<lpage>787</lpage>. <pub-id pub-id-type="doi">10.1037/a0015401</pub-id>
+<?supplied-pmid 19634969?><pub-id pub-id-type="pmid">19634969</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref028">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><name><surname>Sheehan</surname><given-names>DV</given-names></name>, <name><surname>Lecrubier</surname><given-names>Y</given-names></name>, <name><surname>Sheehan</surname><given-names>KH</given-names></name>, <name><surname>Amorim</surname><given-names>P</given-names></name>, <name><surname>Janavs</surname><given-names>J</given-names></name>, <name><surname>Weiller</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>1998</year>) <article-title>The Mini-International Neuropsychiatric Interview (M.I.N.I.): the development and validation of a structured diagnostic psychiatric interview for DSM-IV and ICD-10</article-title>. <source>J Clin Psychiatry</source>
+<volume>59</volume>
+<issue>Suppl 20</issue>: <fpage>22</fpage>–<lpage>33</lpage>;quiz 34–57.
+<?supplied-pmid 9881538?><pub-id pub-id-type="pmid">9881538</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref029">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><name><surname>Clark</surname><given-names>AM</given-names></name>, <name><surname>Jamieson</surname><given-names>R</given-names></name>, <name><surname>Findlay</surname><given-names>IN</given-names></name> (<year>2004</year>) <article-title>Registries and informed consent</article-title>. <source>N Engl J Med</source>
+<volume>351</volume>: <fpage>612</fpage>–<lpage>614</lpage>; author reply 612–614.
+<?supplied-pmid 15297993?><pub-id pub-id-type="pmid">15297993</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref030">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><name><surname>Cassell</surname><given-names>J</given-names></name>, <name><surname>Young</surname><given-names>A</given-names></name> (<year>2002</year>) <article-title>Why we should not seek individual informed consent for participation in health services research</article-title>. <source>J Med Ethics</source>
+<volume>28</volume>: <fpage>313</fpage>–<lpage>317</lpage>.
+<?supplied-pmid 12356960?><pub-id pub-id-type="pmid">12356960</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref031">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><name><surname>Andersson</surname><given-names>G</given-names></name>, <name><surname>Carlbring</surname><given-names>P</given-names></name>, <name><surname>Holmstrom</surname><given-names>A</given-names></name>, <name><surname>Sparthan</surname><given-names>E</given-names></name>, <name><surname>Furmark</surname><given-names>T</given-names></name>, <name><surname>Nilsson-Ihrfelt</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Internet-based self-help with therapist feedback and in vivo group exposure for social phobia: a randomized controlled trial</article-title>. <source>J Consult Clin Psychol</source>
+<volume>74</volume>: <fpage>677</fpage>–<lpage>686</lpage>.
+<?supplied-pmid 16881775?><pub-id pub-id-type="pmid">16881775</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref032">
+                <label>32</label>
+                <mixed-citation publication-type="book"><name><surname>Andersson</surname><given-names>G</given-names></name>, <name><surname>Carlbring</surname><given-names>P</given-names></name>, <name><surname>Furmark</surname><given-names>T</given-names></name> (<year>2014</year>) <chapter-title>Internet-delivered treatments for social anxiety disorder</chapter-title> In: <name><surname>Weeks</surname><given-names>J</given-names></name>, editor. <source>Handbook of Social Anxiety Disorder</source>
+<publisher-loc>New York</publisher-loc>: <publisher-name>Wiley-Blackwell</publisher-name> pp. <fpage>569</fpage>–<lpage>587</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref033">
+                <label>33</label>
+                <mixed-citation publication-type="book"><name><surname>Clark</surname><given-names>DM</given-names></name>, <name><surname>Wells</surname><given-names>A</given-names></name> (<year>1995</year>) <chapter-title>A cognitive model of social phobia</chapter-title>
+<source>Social phobia: Diagnosis, assessment and treatment</source>. <publisher-loc>New York</publisher-loc>: <publisher-name>Guilford press</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref034">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><name><surname>Hedman</surname><given-names>E</given-names></name>, <name><surname>Andersson</surname><given-names>G</given-names></name>, <name><surname>Ljotsson</surname><given-names>B</given-names></name>, <name><surname>Andersson</surname><given-names>E</given-names></name>, <name><surname>Ruck</surname><given-names>C</given-names></name>, <name><surname>Mortberg</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Internet-based cognitive behavior therapy vs. cognitive behavioral group therapy for social anxiety disorder: a randomized controlled non-inferiority trial</article-title>. <source>PLoS One</source>
+<volume>6</volume>: <fpage>e18001</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0018001</pub-id>
+<?supplied-pmid 21483704?><pub-id pub-id-type="pmid">21483704</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref035">
+                <label>35</label>
+                <mixed-citation publication-type="journal"><name><surname>Baker</surname><given-names>SL</given-names></name>, <name><surname>Heinrichs</surname><given-names>N</given-names></name>, <name><surname>Kim</surname><given-names>HJ</given-names></name>, <name><surname>Hofmann</surname><given-names>SG</given-names></name> (<year>2002</year>) <article-title>The liebowitz social anxiety scale as a self-report instrument: a preliminary psychometric analysis</article-title>. <source>Behav Res Ther</source>
+<volume>40</volume>: <fpage>701</fpage>–<lpage>715</lpage>.
+<?supplied-pmid 12051488?><pub-id pub-id-type="pmid">12051488</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref036">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><name><surname>Heimberg</surname><given-names>RG</given-names></name>, <name><surname>Horner</surname><given-names>KJ</given-names></name>, <name><surname>Juster</surname><given-names>HR</given-names></name>, <name><surname>Safren</surname><given-names>SA</given-names></name>, <name><surname>Brown</surname><given-names>EJ</given-names></name>, <name><surname>Schneier</surname><given-names>FR</given-names></name>, <etal>et al</etal> (<year>1999</year>) <article-title>Psychometric properties of the Liebowitz Social Anxiety Scale</article-title>. <source>Psychol Med</source>
+<volume>29</volume>: <fpage>199</fpage>–<lpage>212</lpage>.
+<?supplied-pmid 10077308?><pub-id pub-id-type="pmid">10077308</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref037">
+                <label>37</label>
+                <mixed-citation publication-type="journal"><name><surname>Hedman</surname><given-names>E</given-names></name>, <name><surname>Ljotsson</surname><given-names>B</given-names></name>, <name><surname>Ruck</surname><given-names>C</given-names></name>, <name><surname>Furmark</surname><given-names>T</given-names></name>, <name><surname>Carlbring</surname><given-names>P</given-names></name>, <name><surname>Lindefors</surname><given-names>N</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Internet administration of self-report measures commonly used in research on social anxiety disorder: A psychometric evaluation</article-title>. <source>Computers in Human Behavior</source>
+<volume>26</volume>: <fpage>736</fpage>–<lpage>740</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref038">
+                <label>38</label>
+                <mixed-citation publication-type="book"><name><surname>Guy</surname><given-names>W</given-names></name> (<year>1976</year>) <chapter-title>Clinical Global Impressions</chapter-title>
+<source>ECDEU Manual</source>. <publisher-loc>Rockville, MD</publisher-loc>: <publisher-name>NIMH: US Dept of Health and Human Services</publisher-name> pp. <fpage>217</fpage>–<lpage>222</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref039">
+                <label>39</label>
+                <mixed-citation publication-type="journal"><name><surname>Svanborg</surname><given-names>P</given-names></name>, <name><surname>Asberg</surname><given-names>M</given-names></name> (<year>1994</year>) <article-title>A new self-rating scale for depression and anxiety states based on the Comprehensive Psychopathological Rating Scale</article-title>. <source>Acta Psychiatr Scand</source>
+<volume>89</volume>: <fpage>21</fpage>–<lpage>28</lpage>.
+<?supplied-pmid 8140903?><pub-id pub-id-type="pmid">8140903</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref040">
+                <label>40</label>
+                <mixed-citation publication-type="journal"><name><surname>Allen</surname><given-names>JP</given-names></name>, <name><surname>Reinert</surname><given-names>DF</given-names></name>, <name><surname>Volk</surname><given-names>RJ</given-names></name> (<year>2001</year>) <article-title>The alcohol use disorders identification test: an aid to recognition of alcohol problems in primary care patients</article-title>. <source>Prev Med</source>
+<volume>33</volume>: <fpage>428</fpage>–<lpage>433</lpage>.
+<?supplied-pmid 11676584?><pub-id pub-id-type="pmid">11676584</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref041">
+                <label>41</label>
+                <mixed-citation publication-type="journal"><name><surname>Berman</surname><given-names>AH</given-names></name>, <name><surname>Bergman</surname><given-names>H</given-names></name>, <name><surname>Palmstierna</surname><given-names>T</given-names></name>, <name><surname>Schlyter</surname><given-names>F</given-names></name> (<year>2005</year>) <article-title>Evaluation of the Drug Use Disorders Identification Test (DUDIT) in criminal justice and detoxification settings and in a Swedish population sample</article-title>. <source>Eur Addict Res</source>
+<volume>11</volume>: <fpage>22</fpage>–<lpage>31</lpage>.
+<?supplied-pmid 15608468?><pub-id pub-id-type="pmid">15608468</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref042">
+                <label>42</label>
+                <mixed-citation publication-type="journal"><name><surname>Kessler</surname><given-names>RC</given-names></name>, <name><surname>Adler</surname><given-names>L</given-names></name>, <name><surname>Ames</surname><given-names>M</given-names></name>, <name><surname>Demler</surname><given-names>O</given-names></name>, <name><surname>Faraone</surname><given-names>S</given-names></name>, <name><surname>Hiripi</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>The World Health Organization Adult ADHD Self-Report Scale (ASRS): a short screening scale for use in the general population</article-title>. <source>Psychol Med</source>
+<volume>35</volume>: <fpage>245</fpage>–<lpage>256</lpage>.
+<?supplied-pmid 15841682?><pub-id pub-id-type="pmid">15841682</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref043">
+                <label>43</label>
+                <mixed-citation publication-type="other">Sherer MM, J.E.; Mercandante, B.; Prentice-Dunn, S.; Jacobs, B.; Rogers, R.W. (1982) The self-efficacy scale: Construction and validation. Psychological Reports: 663–671.</mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref044">
+                <label>44</label>
+                <mixed-citation publication-type="journal"><name><surname>Borkovec</surname><given-names>TD</given-names></name>, <name><surname>Nau</surname><given-names>SD</given-names></name> (<year>1972</year>) <article-title>Credibility of analogue therapy rationales</article-title>. <source>J Behav Ther Exp Psychiatry</source>
+<volume>3</volume>: <fpage>257</fpage>–<lpage>260</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref045">
+                <label>45</label>
+                <mixed-citation publication-type="book"><name><surname>Heck</surname><given-names>RH</given-names></name>, <name><surname>Thomas</surname><given-names>SL</given-names></name>, <name><surname>Tabata</surname><given-names>LN</given-names></name> (<year>2013</year>) <chapter-title>Multilevel and longitudinal modeling with IBM SPSS</chapter-title>
+<publisher-loc>New York, NY</publisher-loc>: <publisher-name>Routledge</publisher-name>. pages cm. p.</mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref046">
+                <label>46</label>
+                <mixed-citation publication-type="journal"><name><surname>Mennin</surname><given-names>DS</given-names></name>, <name><surname>Fresco</surname><given-names>DM</given-names></name>, <name><surname>Heimberg</surname><given-names>RG</given-names></name>, <name><surname>Schneier</surname><given-names>FR</given-names></name>, <name><surname>Davies</surname><given-names>SO</given-names></name>, <name><surname>Liebowitz</surname><given-names>MR</given-names></name> (<year>2002</year>) <article-title>Screening for social anxiety disorder in the clinical setting: using the Liebowitz Social Anxiety Scale</article-title>. <source>J Anxiety Disord</source>
+<volume>16</volume>: <fpage>661</fpage>–<lpage>673</lpage>.
+<?supplied-pmid 12405524?><pub-id pub-id-type="pmid">12405524</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref047">
+                <label>47</label>
+                <mixed-citation publication-type="journal"><name><surname>Rytwinski</surname><given-names>NK</given-names></name>, <name><surname>Fresco</surname><given-names>DM</given-names></name>, <name><surname>Heimberg</surname><given-names>RG</given-names></name>, <name><surname>Coles</surname><given-names>ME</given-names></name>, <name><surname>Liebowitz</surname><given-names>MR</given-names></name>, <name><surname>Cissell</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Screening for Social Anxiety Disorder with the Self-Report Version of the Liebowitz Social Anxiety Scale</article-title>. <source>Depression and Anxiety</source>
+<volume>26</volume>: <fpage>34</fpage>–<lpage>38</lpage>. <pub-id pub-id-type="doi">10.1002/da.20503</pub-id>
+<?supplied-pmid 18781659?><pub-id pub-id-type="pmid">18781659</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref048">
+                <label>48</label>
+                <mixed-citation publication-type="journal"><name><surname>Schibbye</surname><given-names>P</given-names></name>, <name><surname>Ghaderi</surname><given-names>A</given-names></name>, <name><surname>Ljotsson</surname><given-names>B</given-names></name>, <name><surname>Hedman</surname><given-names>E</given-names></name>, <name><surname>Lindefors</surname><given-names>N</given-names></name>, <name><surname>Ruck</surname><given-names>C</given-names></name>, <etal>et al</etal> (<year>2014</year>) <article-title>Using Early Change to Predict Outcome in Cognitive Behaviour Therapy: Exploring Timeframe, Calculation Method, and Differences of Disorder-Specific versus General Measures</article-title>. <source>Plos One</source>
+<volume>9</volume>.</mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref049">
+                <label>49</label>
+                <mixed-citation publication-type="journal"><name><surname>Fresco</surname><given-names>DM</given-names></name>, <name><surname>Coles</surname><given-names>ME</given-names></name>, <name><surname>Heimberg</surname><given-names>RG</given-names></name>, <name><surname>Liebowitz</surname><given-names>MR</given-names></name>, <name><surname>Hami</surname><given-names>S</given-names></name>, <name><surname>Stein</surname><given-names>MB</given-names></name>, <etal>et al</etal> (<year>2001</year>) <article-title>The Liebowitz Social Anxiety Scale: a comparison of the psychometric properties of self-report and clinician-administered formats</article-title>. <source>Psychol Med</source>
+<volume>31</volume>: <fpage>1025</fpage>–<lpage>1035</lpage>.
+<?supplied-pmid 11513370?><pub-id pub-id-type="pmid">11513370</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref050">
+                <label>50</label>
+                <mixed-citation publication-type="journal"><name><surname>Berger</surname><given-names>T</given-names></name>, <name><surname>Caspar</surname><given-names>F</given-names></name>, <name><surname>Richardson</surname><given-names>R</given-names></name>, <name><surname>Kneubuhler</surname><given-names>B</given-names></name>, <name><surname>Sutter</surname><given-names>D</given-names></name>, <name><surname>Andersson</surname><given-names>G</given-names></name> (<year>2011</year>) <article-title>Internet-based treatment of social phobia: A randomized controlled trial comparing unguided with two types of guided self-help</article-title>. <source>Behaviour Research and Therapy</source>
+<volume>49</volume>: <fpage>158</fpage>–<lpage>169</lpage>. <pub-id pub-id-type="doi">10.1016/j.brat.2010.12.007</pub-id>
+<?supplied-pmid 21255767?><pub-id pub-id-type="pmid">21255767</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref051">
+                <label>51</label>
+                <mixed-citation publication-type="journal"><name><surname>Spek</surname><given-names>V</given-names></name>, <name><surname>Cuijpers</surname><given-names>P</given-names></name>, <name><surname>Nyklicek</surname><given-names>I</given-names></name>, <name><surname>Riper</surname><given-names>H</given-names></name>, <name><surname>Keyzer</surname><given-names>J</given-names></name>, <name><surname>Pop</surname><given-names>V</given-names></name> (<year>2007</year>) <article-title>Internet-based cognitive behaviour therapy for symptoms of depression and anxiety: a meta-analysis</article-title>. <source>Psychol Med</source>
+<volume>37</volume>: <fpage>319</fpage>–<lpage>328</lpage>.
+<?supplied-pmid 17112400?><pub-id pub-id-type="pmid">17112400</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref052">
+                <label>52</label>
+                <mixed-citation publication-type="journal"><name><surname>Titov</surname><given-names>N</given-names></name>, <name><surname>Andrews</surname><given-names>G</given-names></name>, <name><surname>Choi</surname><given-names>I</given-names></name>, <name><surname>Schwencke</surname><given-names>G</given-names></name>, <name><surname>Mahoney</surname><given-names>A</given-names></name> (<year>2008</year>) <article-title>Shyness 3: randomized controlled trial of guided versus unguided Internet-based CBT for social phobia</article-title>. <source>Australian and New Zealand Journal of Psychiatry</source>
+<volume>42</volume>: <fpage>1030</fpage>–<lpage>1040</lpage>. <pub-id pub-id-type="doi">10.1080/00048670802512107</pub-id>
+<?supplied-pmid 19016091?><pub-id pub-id-type="pmid">19016091</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref053">
+                <label>53</label>
+                <mixed-citation publication-type="journal"><name><surname>Sprich</surname><given-names>SE</given-names></name>, <name><surname>Knouse</surname><given-names>LE</given-names></name>, <name><surname>Cooper-Vince</surname><given-names>C</given-names></name>, <name><surname>Burbridge</surname><given-names>J</given-names></name>, <name><surname>Safren</surname><given-names>SA</given-names></name> (<year>2012</year>) <article-title>Description and Demonstration of CBT for ADHD in Adults</article-title>. <source>Cogn Behav Pract</source>
+<volume>17</volume>
+<pub-id pub-id-type="doi">10.1016/j.cbpra.2009.09.002</pub-id>
+<?supplied-pmid 24379644?><pub-id pub-id-type="pmid">24379644</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0124258.ref054">
+                <label>54</label>
+                <mixed-citation publication-type="journal"><name><surname>Mewton</surname><given-names>L</given-names></name>, <name><surname>Smith</surname><given-names>J</given-names></name>, <name><surname>Rossouw</surname><given-names>P</given-names></name>, <name><surname>Andrews</surname><given-names>G</given-names></name> (<year>2014</year>) <article-title>Current perspectives on Internet-delivered cognitive behavioral therapy for adults with anxiety and related disorders</article-title>. <source>Psychol Res Behav Manag</source>
+<volume>7</volume>: <fpage>37</fpage>–<lpage>46</lpage>. <pub-id pub-id-type="doi">10.2147/PRBM.S40879</pub-id>
+<?supplied-pmid 24511246?><pub-id pub-id-type="pmid">24511246</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:05:08Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6042580" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6042580</identifier>
+        <datestamp>2018-07-16</datestamp>
+        <setSpec>bmjo</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="protocol">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMJ Open</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMJ Open</journal-id>
+              <journal-id journal-id-type="hwp">bmjopen</journal-id>
+              <journal-id journal-id-type="publisher-id">bmjopen</journal-id>
+              <journal-title-group>
+                <journal-title>BMJ Open</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2044-6055</issn>
+              <publisher>
+                <publisher-name>BMJ Publishing Group</publisher-name>
+                <publisher-loc>BMA House, Tavistock Square, London, WC1H 9JR</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6042580</article-id>
+              <article-id pub-id-type="pmcid">PMC6042580</article-id>
+              <article-id pub-id-type="pmc-uid">6042580</article-id>
+              <article-id pub-id-type="pmid">29961004</article-id>
+              <article-id pub-id-type="publisher-id">bmjopen-2017-019964</article-id>
+              <article-id pub-id-type="doi">10.1136/bmjopen-2017-019964</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Mental Health</subject>
+                  <subj-group>
+                    <subject>Protocol</subject>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="hwp-journal-coll">
+                  <subject>1506</subject>
+                  <subject>1712</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Augmenting inpatient treatment for post-traumatic stress disorder with a computerised cognitive bias modification procedure targeting appraisals (CBM-App): protocol for a randomised controlled trial</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="author-58190269" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-4974-505X</contrib-id>
+                  <name>
+                    <surname>Woud</surname>
+                    <given-names>Marcella L</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                </contrib>
+                <contrib id="author-58029100" contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-3313-7084</contrib-id>
+                  <name>
+                    <surname>Blackwell</surname>
+                    <given-names>Simon E</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                </contrib>
+                <contrib id="author-58190363" contrib-type="author">
+                  <name>
+                    <surname>Cwik</surname>
+                    <given-names>Jan C</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                </contrib>
+                <contrib id="author-47586211" contrib-type="author">
+                  <name>
+                    <surname>Margraf</surname>
+                    <given-names>Jürgen</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                </contrib>
+                <contrib id="author-58190404" contrib-type="author">
+                  <name>
+                    <surname>Holmes</surname>
+                    <given-names>Emily A</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                </contrib>
+                <contrib id="author-58190455" contrib-type="author">
+                  <name>
+                    <surname>Steudte-Schmiedgen</surname>
+                    <given-names>Susann</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <xref ref-type="aff" rid="aff4">4</xref>
+                </contrib>
+                <contrib id="author-44406743" contrib-type="author">
+                  <name>
+                    <surname>Herpertz</surname>
+                    <given-names>Stephan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff5">5</xref>
+                </contrib>
+                <contrib id="author-58190471" contrib-type="author">
+                  <name>
+                    <surname>Kessler</surname>
+                    <given-names>Henrik</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff5">5</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><label>1</label><institution content-type="department">Department of Psychology</institution>, <institution>Mental Health Research and Treatment Center, Ruhr-Universität Bochum</institution>, <addr-line content-type="city">Bochum</addr-line>, <country>Germany</country></aff>
+              <aff id="aff2"><label>2</label><institution content-type="department">Department for Clinical Neuroscience</institution>, <institution>Karolinska Institutet</institution>, <addr-line content-type="city">Stockholm</addr-line>, <country>Sweden</country></aff>
+              <aff id="aff3"><label>3</label><institution content-type="department">Department of Psychology</institution>, <institution>Technische Universität Dresden</institution>, <addr-line content-type="city">Dresden</addr-line>, <country>Germany</country></aff>
+              <aff id="aff4"><label>4</label><institution content-type="department">Department of Psychotherapy and Psychosomatic Medicine</institution>, <institution>Technische Universität Dresden</institution>, <addr-line content-type="city">Dresden</addr-line>, <country>Germany</country></aff>
+              <aff id="aff5"><label>5</label><institution content-type="department">Department of Psychosomatic Medicine and Psychotherapy</institution>, <institution>LWL-University Hospital, Ruhr-Universität Bochum</institution>, <addr-line content-type="city">Bochum</addr-line>, <country>Germany</country></aff>
+              <author-notes>
+                <corresp><label>Correspondence to</label> Dr Marcella L Woud; <email>marcella.woud@rub.de</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2018</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>30</day>
+                <month>6</month>
+                <year>2018</year>
+              </pub-date>
+              <volume>8</volume>
+              <issue>6</issue>
+              <elocation-id>e019964</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>05</day>
+                  <month>10</month>
+                  <year>2017</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>06</day>
+                  <month>3</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="accepted">
+                  <day>15</day>
+                  <month>5</month>
+                  <year>2018</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© Article author(s) (or their employer(s) unless otherwise stated in the text of the article) 2018. All rights reserved. No commercial use is permitted unless otherwise expressly granted.</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <license license-type="open-access">
+                  <license-p>This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited and the use is non-commercial. See: <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link></license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:title="pdf" xlink:href="bmjopen-2017-019964.pdf"/>
+              <self-uri content-type="reviewers-comments-pdf" xlink:href="bmjopen-2017-019964.reviewer_comments.pdf"/>
+              <self-uri content-type="draft-revisions-pdf" xlink:href="bmjopen-2017-019964.draft_revisions.pdf"/>
+              <abstract>
+                <sec>
+                  <title>Introduction</title>
+                  <p>Influential theories of post-traumatic stress disorder (PTSD) suggest that dysfunctional appraisals of trauma play a key role in the maintenance of symptoms, and this suggestion is increasingly supported by research. Experimental studies have indicated that a simple computerised cognitive training procedure, here termed cognitive bias modification-appraisals (CBM-App), can modify trauma-relevant appraisals and reduce analogue trauma symptoms among healthy volunteers. This suggests the possibility that CBM-App could improve outcomes in PTSD via targeting the key process of dysfunctional appraisals, for example, if applied as an adjunct to treatment.</p>
+                </sec>
+                <sec>
+                  <title>Methods and analysis</title>
+                  <p>The study is a randomised controlled trial with two parallel arms. It is planned to randomise 80 patients admitted for treatment for PTSD to an inpatient treatment clinic to complete either sessions of CBM-App or a sham-training control condition, the peripheral vision task. Both interventions comprise eight sessions scheduled over a 2-week period and are completed in addition to the standard treatment programme in the clinic. Outcome assessment occurs pretraining, after 1 week of training, post-training, at discharge from the inpatient clinic and 6 weeks and 3 months postdischarge. The primary outcome is dysfunctional trauma-relevant appraisals at post-training, measured using a scenario completion task. Secondary outcomes include symptom measures and hair cortisol. Outcome analyses will be primarily via mixed linear models and conducted with both intention to treat and per protocol samples.</p>
+                </sec>
+                <sec>
+                  <title>Ethics and dissemination</title>
+                  <p>The trial has been approved by the Ethics Committee for the Faculty of Psychology, Ruhr-Universität Bochum (approval no 204) and the Ethics Committee for the Faculty of Medicine, Ruhr-Universität Bochum (approval no 15-5477). Results will be published in peer-reviewed journals and will inform future clinical and experimental studies into targeting maladaptive appraisals for the reduction of PTSD symptoms.</p>
+                </sec>
+                <sec>
+                  <title>Trial registration number</title>
+                  <p><ext-link ext-link-type="uri" xlink:href="NCT02687555">NCT02687555</ext-link>.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>cognitive bias modification</kwd>
+                <kwd>ptsd</kwd>
+                <kwd>appraisal</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group id="funding-1">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100001659</institution-id>
+                      <institution>Deutsche Forschungsgemeinschaft</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+                <award-group id="funding-2">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100002974</institution-id>
+                      <institution>Daimler und Benz Stiftung</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>special-feature</meta-name>
+                  <meta-value>unlocked</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <boxed-text id="BX1" position="float" orientation="portrait">
+              <caption>
+                <title>Strengths and limitations of this study</title>
+              </caption>
+              <list list-type="bullet">
+                <list-item>
+                  <p>The experimental cognitive bias modification-appraisal (CBM-App) is tested in a real-world clinical setting as an adjunct to inpatient treatment for patients with post-traumatic stress disorder (PTSD).</p>
+                </list-item>
+                <list-item>
+                  <p>Participants and outcome assessors (for face-to-face post-treatment outcome assessment) are blind to participant allocation.</p>
+                </list-item>
+                <list-item>
+                  <p>Outcome measurement includes a 3-month follow-up and a biological index of stress (hair cortisol).</p>
+                </list-item>
+                <list-item>
+                  <p>Results may not generalise to non-inpatient PTSD treatment settings.</p>
+                </list-item>
+                <list-item>
+                  <p>Results would need replication in a larger sample before recommendations for CBM-App as a treatment adjunct in inpatient PTSD settings could be made.</p>
+                </list-item>
+              </list>
+            </boxed-text>
+            <sec sec-type="intro" id="s1">
+              <title>Introduction</title>
+              <p>Post-traumatic stress disorder (PTSD) is a psychological reaction that can occur after experiencing one or several traumatic events. According to the Diagnostic and Statistical Manual of Mental Disorders-5th edition (DSM-5),<xref rid="R1" ref-type="bibr">1</xref> PTSD is characterised by four symptom clusters: (1) involuntary memories of the trauma (eg, intrusions and nightmares), (2) persistent avoidance of trauma-related stimuli, (3) negative alterations in cognitions and mood that began or worsened after the traumatic event, and (4) alterations in arousal and reactivity that are associated with the trauma. To elucidate the contribution of cognitive factors to the development and maintenance of PTSD, several information processing theories have been proposed.<xref rid="R2" ref-type="bibr">2–6</xref> These theories have put forward that PTSD symptoms can be explained best by dysfunctions in cognitive processing, such as biases in attention, interpretation, and memory (for reviews, see references<xref rid="R7" ref-type="bibr">7 8</xref>).</p>
+              <p>Biases in appraisals, that is, the tendency for individuals with persistent PTSD to appraise the trauma event and/or its consequences in a highly dysfunctional manner, have been operationalised as a core element in the cognitive model of Ehlers and Clark.<xref rid="R4" ref-type="bibr">4</xref> More specifically, the model puts forward that dysfunctional appraisals (for example, ‘Having this flashback must mean I’m going mad’ or ‘In a crisis I won’t react adequately’) contribute to a ‘a sense of current serious threat’ (p320<xref rid="R4" ref-type="bibr">4</xref>). That is, the patients’ anxiety is the result of appraisals that are related to potential, future threats. Once this current sense of threat is activated, PTSD-related symptoms are triggered, such as intrusions, arousal and strong negative emotions. The model’s assumption has been supported by a large body of empirical research showing that dysfunctional appraisals are indeed a correlate and predictor of PTSD/post-traumatic stress symptoms.<xref rid="R9" ref-type="bibr">9–14</xref> Hence, changing dysfunctional appraisals is a standard component of cognitive behavioural therapy approaches, for example, in cognitive therapy<xref rid="R4" ref-type="bibr">4</xref> and cognitive processing therapy<xref rid="R6" ref-type="bibr">6</xref> (for recent meta-analyses, see references<xref rid="R15" ref-type="bibr">15 16</xref>). However, present treatments vary in their efficacy,<xref rid="R17" ref-type="bibr">17</xref> and with only about 50% of patients benefiting in some cases.<xref rid="R18" ref-type="bibr">18 19</xref> Following this, there is clear room to improve and to complement present therapeutic approaches in PTSD.</p>
+              <p>A promising candidate in this context is a method developed within the cognitive bias modification (CBM) literature,<xref rid="R20" ref-type="bibr">20 21</xref> namely a computerised training procedure specifically designed to target dysfunctional appraisals (CBM-appraisal, CBM-App). The training is a simple computer-based paradigm, which participants work through at their own pace. During training, participants are presented with ambiguous trauma-relevant sentences, which end with a word fragment. Completing the word fragment resolves the sentence’s ambiguity in a benign or positive manner. Via repeated training sentences, participants are systematically trained to appraise trauma-relevant information in a positive or benign manner (depending on the training condition). The CBM-App studies by Woud <italic>et al</italic>
+<xref rid="R22" ref-type="bibr">22 23</xref> trained healthy participants to adopt a positive or negative appraisal style towards an analogue stressful event (highly distressing films, for review, see reference<xref rid="R24" ref-type="bibr">24</xref>). The training was applied after<xref rid="R22" ref-type="bibr">22</xref> or before the distressing event.<xref rid="R23" ref-type="bibr">23</xref> Results showed that CBM-App training induced training-congruent appraisal styles: those trained positively appraised novel ambiguous, trauma-related scenarios more functionally than those trained negatively. Further, those who were trained to adopt a positive appraisal style reported reduced analogue trauma symptoms such as intrusion frequency and intrusion distress compared with those trained to adopt a negative appraisal style (for similar results in the context of experimental research on appraisal training, see references<xref rid="R25" ref-type="bibr">25 26</xref> and for a review on CBM techniques in PTSD, see reference<xref rid="R27" ref-type="bibr">27</xref>).</p>
+              <p>Given these promising findings from the lab, the current study aims to test whether CBM-App can be applied as an adjunct to treatment for PTSD, specifically an inpatient-based 8-week treatment programme, when carried out alongside the start of the treatment. There are many ways in which CBM modules could be added to treatments, for example, beforehand<xref rid="R28" ref-type="bibr">28</xref> or alongside,<xref rid="R29" ref-type="bibr">29</xref> although such combinations have not always had successful outcomes.<xref rid="R30" ref-type="bibr">30</xref> In this early stage of clinical translation, an inpatient treatment programme has many advantages in terms of investigating potential adjunctive use of CBM paradigms. The inpatient setting gives greater control over timing and administration of training sessions and thus can increase our confidence that participants are engaging in the training in the required way (which can be more difficult to assess for, eg, remotely delivered training schedules). The treatment is also relatively standardised in content and schedule, reducing some of the variance in outcomes. There is some evidence that CBM paradigms can be successfully applied alongside inpatient treatment programmes, although for specific disorders/training paradigms (eg, approach–avoidance training for alcohol dependence<xref rid="R29" ref-type="bibr">29 31</xref>).</p>
+              <p>The primary aim of the study is to test whether the CBM-App can successfully reduce dysfunctional appraisals in the context of an inpatient PTSD treatment programme. Secondary aims include investigating whether engaging in the CBM-App training leads to better clinical outcomes, such as reduced symptoms of PTSD, and whether effects of training can still be detected 3 months after discharge from the inpatient unit. The study further aims to collect data about acceptability of the CBM-App intervention to inform further adaptations for future research and potential clinical implementation.</p>
+            </sec>
+            <sec id="s2">
+              <title>Methods and analysis</title>
+              <sec id="s2a">
+                <title>Trial design</title>
+                <p>The design is a double-blind (participant and outcome assessor) randomised controlled superiority trial with two parallel arms, comparing CBM-App to a ‘sham-training’ control condition, the peripheral vision task (PVT). Participants are scheduled to complete eight sessions of either the active or sham training (~20 min per session) over a 2-week period.</p>
+              </sec>
+              <sec id="s2b">
+                <title>Study setting</title>
+                <p>The trial takes place in the inpatient ward of the clinic for Psychosomatic Medicine and Psychotherapy, LWL-University Clinic of Ruhr-Universität Bochum, Germany. This is a specialist inpatient unit providing multimodal treatment for PTSD, with inpatient admissions generally lasting about 8 weeks. A standardised treatment package delivered to all inpatients, including each week one session of individual therapy, three sessions of trauma-focussed group therapy, two sessions of trauma stabilisation group therapy, two sessions of kinesiotherapy, two sessions of art therapy, physiotherapy, clinical rounds and daily short sessions with a nurse. The study is timed such that a 2-week training phase takes place during the first phase of the inpatient treatment.</p>
+              </sec>
+              <sec id="s2c">
+                <title>Participants and recruitment</title>
+                <p>Participants are 80 adult inpatients admitted to the inpatient ward during the recruitment period who meet the eligibility criteria and consent to take part in the study. Inclusion criteria are as follows: primary diagnosis of post-traumatic stress disorder (PTSD), according to the International Classification of Diseases (ICD-10, F43.1), and according to DSM-5, as assessed via a structured clinical interview (Clinician Administered PTSD Scale for DSM-5, CAPS-5<xref rid="R32" ref-type="bibr">32</xref>; German translation<xref rid="R33" ref-type="bibr">33</xref>); motivated and willing to take part in the study (including questionnaire measures, computer training, delivery of a hair sample and filling out questionnaires after discharge); aged 18–60 years, male or female and fluent in German. Exclusion criteria are: substance abuse/substance dependence currently or in the past 6 months, active suicidal thoughts or intentions, psychotic disorder (past or present), learning disability/intellectual impairment and red-green colour blindness. The latter criteria were needed since the control task (ie, the PVT<xref rid="R34" ref-type="bibr">34</xref>) requires participants to discriminate coloured stimuli.</p>
+                <p>All patients admitted to the inpatient unit are seen by the senior clinician (HK) for an initial interview, and as part of this, they are provided with initial information about the study. Those patients who are potentially eligible and interested in the study are then allocated to an initial study appointment. During this eligibility appointment, the diagnosis is rechecked with the CAPS-5<xref rid="R32" ref-type="bibr">32</xref> (German translation).<xref rid="R33" ref-type="bibr">33</xref> Further, the researchers provide additional written and verbal information, and if the participant wishes to take part in the study, they provide written informed consent and are assessed for further eligibility. Eligible participants will receive individualised time tables including all training and assessment appointments.</p>
+                <p>The inclusion criterion of primary diagnosis of ICD-10 PTSD (F43.1) and exclusion criteria of substance abuse/dependence, psychotic disorder, learning disability/intellectual impairment are assessed by a clinician prior to and on admission, as these also determine eligibility for admission to the inpatient unit (ie, they are not part of the study procedures). Other eligibility criteria are established at the eligibility assessment: DSM-5 PTSD via the CAPS interview, adequate German language via ability to complete the eligibility interview and questionnaires, no red-green colour-blindness (which would make completing the PVT not possible) via patient self-report and active suicidal thoughts or intentions via a score of ≥2 on item 9 of the Beck Depression Inventory-III (BDI-II), confirmed by subsequent clinical assessment. Motivation and willingness to complete the study procedures is assessed via self-report during the informed consent procedure, by emphasising to patients the demands of the study, in terms of time and effort, and asking them to confirm whether they think this will be possible for them, and whether they still wish to take part.</p>
+              </sec>
+              <sec id="s2d">
+                <title>Randomisation</title>
+                <p>Randomisation is stratified by score on the post-traumatic cognitions inventory (PTCI<xref rid="R9" ref-type="bibr">9</xref>), using two strata (&lt;165 vs ≥165, based on pilot data gathered from patients in the inpatient clinic). The allocation sequence was generated by a researcher independent from and not involved in the study using a true randomisation process (<ext-link ext-link-type="uri" xlink:href="http://www.random.org">http://www.random.org</ext-link>). A variable block length was used so that participant allocation remains unpredictable to research staff involved in participant enrolment and assessment. During the study, randomisation is centrally administered by a researcher not involved in participant enrolment or assessment (SEB). The participant is allocated to condition immediately prior to starting the first intervention session, via the researcher conducting the session telephoning to confirm the participant’s enrolment and participant number, and at that point receiving the allocated condition via telephone.</p>
+              </sec>
+              <sec id="s2e">
+                <title>Interventions</title>
+                <sec id="s2e1">
+                  <title>Cognitive bias modification—appraisals</title>
+                  <p>The CBM-App training is a computerised cognitive training procedure adapted from previous experimental work,<xref rid="R22" ref-type="bibr">22 23</xref> which was derived from the interpretation training paradigm developed by Mathews and Mackintosh.<xref rid="R35" ref-type="bibr">35</xref> Training stimuli consist of ambiguous trauma-relevant sentences, which end with an incomplete word fragment. Completing the word fragment resolves the ambiguity in a benign or positive manner. Participants are instructed to complete the word fragment by pressing the first missing letter on the keyboard. If the letter is correct, the resolved word will appear on the screen. If an incorrect letter is pressed, the participant has to try again until the correct letter is pressed. The training material was derived from the content of the self subscale of the PTCI.<xref rid="R9" ref-type="bibr">9 36</xref> For example, based on the PTCI items about ‘I can’t trust that I will do the right thing’, the following training stimulus was created: ‘In a crisis, I predict my responses will be h-lpf-l’ (word fragment: helpful). Each training session comprises 66 trauma-relevant stimuli and 15 neutral stimuli. A small number of trauma-relevant stimuli are followed by a comprehension question to reinforce processing the resolutions (eg, ‘Do you believe you will be able to respond in a useful way when there is a crisis?’). The training schedule comprises eight sessions over 2 weeks, each designed to take about 20 min. The endings for the scenarios become gradually more positive over the course of the training, starting by being non-negative and progressing to be positive by the final sessions, in order to ease patients into the positive resolutions (similar to the procedure of reference<xref rid="R37" ref-type="bibr">37</xref>). The training is programmed by Inquisit<xref rid="R38" ref-type="bibr">38</xref> and conducted on a study-specific laptop in a private room in the clinic.</p>
+                </sec>
+              </sec>
+              <sec id="s2f">
+                <title>Peripheral vision task</title>
+                <p>The PVT is adapted from that used by Calkins <italic>et al</italic>.<xref rid="R34" ref-type="bibr">34</xref> Participants see an outer circle consisting of 15 smaller grey circles. In the middle of the outer circle, there is a fixation cross. Participants are instructed to focus their attention on this fixation cross during the whole task, but also to pay attention to the smaller circles. One small circle is highlighted and indicates the starting point of the task. Next, a tone with the same pitch is presented a random number of times (between 1 and 9). Each time the participants hear the tone, they are instructed to shift their peripheral vision to the next circle. When the tone changes its pitch, the circles change to become coloured, and the participants have to name the colour of the current circle, on which their peripheral vision is located. Participants receive feedback as to whether their answer was correct or not. The task is adaptive in that after four consecutive correct answers, an additional circle is added to the screen, with the circles becoming smaller in size, and after four consecutive incorrect answers, a circle is removed from the screen, with the remaining circles becoming larger in size. Each training session comprises 6 blocks of 16 trials, to produce a session matched in length to the CBM-App sessions (approximately 20 min). The training schedule comprises eight sessions over 2 weeks. Participants are instructed to treat the first block of the first session as a ‘practice’ block to get used to the task, so, for example, for this block only, they can use their finger to trace the ‘steps’ around the circle as the tone sounds. The PVT task is programmed in Java and conducted on a study-specific laptop in a private room in the clinic.</p>
+                <p>The PVT was used as a control condition to provide an approximation to a ‘placebo’ sham-training condition, in that it matches the CBM-App on non-specific aspects of the intervention (ie, cognitive engagement in a computerised task requiring concentration, schedule and session length), but does not include the specific aspects of the intervention, that is, the actual content of the training sessions (cf. the definition of placebo as suggested by reference<xref rid="R39" ref-type="bibr">39</xref>). With the PVT, the intention was to replace the content of the training session with something that would be, as far as possible, psychologically ‘inert’ in relation to the target processes under investigation, yet retain credibility as a ‘brain training’ programme. Many studies investigating CBM interventions in clinical samples have used adapted versions of the training programmes, for example, exposure to ambiguous training scenarios without the ambiguity being resolved or being resolved positively and negatively equally often. While such conditions may provide a tight control for elucidating specific effects of one or more aspects of the training intervention, if an estimate of efficacy versus placebo is required, then they are less suitable (cf. reference<xref rid="R40" ref-type="bibr">40 41</xref>). Further, in an inpatient setting in which participants may talk with each other about the study and potentially compare and contrast their respective training conditions, having one training condition that may clearly be identified as a weak version of the other would compromise the trial. Therefore, having two very distinct training programmes was thought to have a greater chance of preserving participant blinding.</p>
+              </sec>
+              <sec id="s2g">
+                <title>Blinding</title>
+                <p>The trial has a double-blind design. Participants will be blind as to whether they have been allocated to the experimental or control intervention, and the researchers carrying out outcome assessment during face-to-face assessment sessions will be blind to participant allocation. To facilitate participant blinding, the study is explained in terms of training concentration, with one computer training version using words (CBM-App) and the other using visual patterns (PVT). Outcome assessor blinding is achieved via having a researcher carrying out the outcome assessment who was not involved in administering intervention sessions and requesting participants not to divulge information as to which training they had received during the assessments. Lapses in blinding, for example, due to participant disclosure, will be recorded. Staff working in the inpatient clinic will not be informed about the participants’ allocated conditions. The researcher introducing the intervention and administering the intervention sessions is by necessity not blind to participant allocation. The trial database is maintained blind until immediately prior to conducting analyses.</p>
+              </sec>
+              <sec id="s2h">
+                <title>Outcome assessment</title>
+                <p>Measurement will take place at the following time points: baseline, mid-intervention (~1 week postbaseline), postintervention (~2 weeks postbaseline), end of inpatient admission (~6 weeks postbaseline), 6 weeks postdischarge and 3 months postdischarge (see <xref rid="T1" ref-type="table">table 1</xref> for the study’s schedule). All assessments are conducted at the LWL clinic by a researcher following a standardised protocol, except for the postdischarge assessments, which are completed by patients from home and returned by post. If the postdischarge assessments are not returned within the scheduled time frame, participants will receive reminders via email and/or telephone.</p>
+                <table-wrap id="T1" orientation="portrait" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Study schedule of measurement and testing</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <td valign="bottom" rowspan="2" align="left" colspan="1">Approximate time since baseline</td>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">Eligibility</td>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">Baseline</td>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">First training session</td>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">Mid-training</td>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">Post-training</td>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">End of admission</td>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">6 weeks postdischarge</td>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">3 months postdischarge</td>
+                      </tr>
+                      <tr>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">–</td>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">–</td>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1"/>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">1 week</td>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">2 weeks</td>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">6 weeks</td>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">12 weeks</td>
+                        <td valign="bottom" align="left" rowspan="1" colspan="1">18 weeks</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Consent</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Demographics</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">CAPS</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">BDI-II</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">BAI</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Treatment information</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Intrusion questionnaire</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"> Additional suicide/self-harm questions</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Scenario task</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">PTCI</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">PCL-5</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Hair cortisol</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Feedback</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">IAT</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">CEQ</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">X</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="tblfn1">
+                      <p>BAI, Beck Anxiety Inventory; BDI-II, Beck Depression Inventory; CAPS, Clinician Administered PTSD Scale; CEQ, Credibility-Expectancy Questionnaire; IAT, Implicit Association Test; PCL-5, PTSD Checklist for DSM-5; PTCI, post-traumatic cognitions inventory.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec id="s2i">
+                <title>Primary outcome: dysfunctional appraisals (scenario task)</title>
+                <p>The primary outcome is dysfunctional trauma-relevant appraisal bias, operationalised as the number of the scenarios completed with a trauma-relevant interpretation, at post-training assessment (relative to pretraining). In this task, participants receive a booklet containing open-ended trauma-related scenarios, and participants have to complete the scenario. An example: ‘Today I think differently about my resilience. My strength is…’. Participants are asked to write down the first ending that comes automatically to mind. Responses can be classed as a trauma-related or not trauma-related interpretation. This will be assessed by independent coders, blind to participant condition. Trauma-relevant interpretations are coded as ‘1’ and non-trauma-relevant interpretations coded as ‘0’. All values ​​are added, and this results in a total value for the automatic dysfunctional cognitions. The booklet includes 10 trauma-related scenarios, based on items of PTCI.<xref rid="R9" ref-type="bibr">9</xref> Like the CBM-App training, the scenarios have the potential to be interpreted more positively over the course of the study. In addition, there are four filler scenarios, which are general ambiguous scenarios (eg, ‘I cook something to eat. It tastes…’).</p>
+              </sec>
+              <sec id="s2j">
+                <title>Secondary outcomes</title>
+                <p>The secondary outcomes are:</p>
+                <p><italic>Dysfunctional trauma-relevant appraisals (scenario task)</italic>. In addition to baseline and post-training, the scenario task is administered at mid-training, at the end of the inpatient treatment, then 6 weeks and 3 months following the end of the inpatient admission.</p>
+                <p><italic>PTCI</italic><xref rid="R9" ref-type="bibr">9</xref><italic>(German translation</italic><xref rid="R36" ref-type="bibr">36</xref>). The PTCI is a self-report measure assessing post-traumatic cognitions. It consists of 33 trauma-relevant statements whereon participants have to give their agreement on a 7-point Likert scale referring to the last week (eg, ‘If I think about the event, I will not be able to handle it’). It is administered at baseline mid-training, end of training, end of inpatient admission and at a 6-week and 3-month follow-up.</p>
+                <p><italic>PTSD Checklist for DSM-5 (PCL-5,</italic><xref rid="R42" ref-type="bibr">42</xref><italic>German translation</italic><xref rid="R43" ref-type="bibr">43</xref>). The PCL-5 is a self-report measure containing 20 items to assess PTSD symptoms based on the DSM-5 criteria. Participants indicate on a 5-point Likert scale how much a specific symptom applies to them (eg, ‘Repeated, disturbing, and unwanted memories of the stressful experience.’). It is administered at baseline, mid-training, end of training, end of inpatient admission and at a 6-week and 3-month follow-up.</p>
+                <p><italic>Implicit Association Test (IAT</italic><xref rid="R44" ref-type="bibr">44</xref>). The IAT is a word categorisation task to assess the strength of associations. Participants are instructed to sort words, which are presented consecutively in the middle of the screen. In this study, the four categories from the traumatised self IAT<xref rid="R45" ref-type="bibr">45</xref> were employed: words from the category ‘me’ (eg, self and me) and ‘not me’ (eg, other and them) represent the target words. Words from the category ‘traumatised’ (eg, damaged and broken) and healthy (eg, capable and whole) represent the attribute words. In the critical blocks, one target word and one attribute word share a response key. Thus, two conditions emerge: during the first condition, participants react to words from the categories ‘me’ and ‘traumatised’ with one response key and to words from the categories ‘not me’ and ‘healthy’ on the other response key. In the second condition, it is vice versa. The reaction times index the associative strength between the target and attribute categories. For example, if participants associate themselves more as traumatised than healthy, they will categorise the words in the condition faster, in which ‘me’ and ‘traumatised’ share a response key, than in the condition, in which ‘me’ and ‘healthy’ share a response key. It is administered at baseline and post-training.</p>
+                <p><italic>Intrusion questionnaire</italic>. The intrusion questionnaire assesses the frequency, distress and vividness of intrusions during the previous 7 days. Further, it asks whether there is a specific, distressing flashback that keeps on reoccurring. If answered with ‘yes’, participants have to rate the intrusion’s distress and vividness. The intrusion questionnaire is administered at baseline, mid-training, end of training, end of inpatient admission and at a 6-week and 3-month follow-up. During the inpatient measurements, this questionnaire contains an additional question about suicidal thoughts (question nine from the BDI-II) and one question about self-harming behaviour, in order to increase the chance of detecting potential adverse events.</p>
+                <p><italic>Hair cortisol analysis</italic>. To analyse long-term changes in cortisol, we will conduct a steroid hormone determination from human hair (for a review on the long-term endocrine correlates of PTSD, see reference<xref rid="R46" ref-type="bibr">46</xref>). For this purpose, several thin strands of hair (total diameter approx. 3 mm) are cut-off from the participants’ posterior vertex region of the occiput. After discharge, participants are asked to cut this hair off by themselves (or with help from a friend/partner). To do so, participants received an instruction via video. The steroid concentrations are analysed in the first scalp-near 3 cm hair segment close to the head. Based on an average hair growth rate of 1 cm per month,<xref rid="R47" ref-type="bibr">47</xref> this segment should have grown in the 3 months between the measurements and therefore reflect the cumulative steroid secretion over this period. Cortisol is measured at baseline, end of inpatient stay and a 3-month follow-up.</p>
+                <sec id="s2j1">
+                  <title>Additional measures</title>
+                  <p>The CAPS-5<xref rid="R33" ref-type="bibr">33</xref> is a structured interview used for PTSD diagnostics. Symptoms can be assessed in relation to the whole life, the last month or the last week. In the current study, symptoms in relation to the past month are examined. The CAPS-5 also provides information about the onset and duration of the symptoms, and social and occupational impairments as well as subjective distress. Further, it is possible to obtain information about the general severity of the PTSD, the dissociative subtype, the response validity and symptom changes compared with a previous CAPS measurement. The interview consists of 30 items (eg, “In the past month, have you had any unwanted memories of (EVENT) while you were awake, so not counting dreams?) and takes 45 to 60 min. It is conducted during the eligibility assessment (ie, prebaseline) to check whether participants meet DSM-5 criteria for PTSD (a study inclusion criterion).</p>
+                  <p><italic>BDI-II</italic><xref rid="R48" ref-type="bibr">48</xref><italic>(German translation</italic><xref rid="R49" ref-type="bibr">49</xref>). The BDI-II is used to evaluate depression severity. The questionnaire contains 21 items, which refer to the last 2 weeks. Each item consists of four statements, and participants have to select the most matching one. It is administered at the eligibility appointment only.</p>
+                  <p><italic>Beck Anxiety Inventory (BAI</italic><xref rid="R50" ref-type="bibr">50</xref>; <italic>German translation</italic><xref rid="R51" ref-type="bibr">51</xref>). The BAI is a commonly used questionnaire to measure severity of anxiety symptoms. Twenty-one descriptive statements about anxiety symptoms are presented, and participants are asked to evaluate their symptom severity with reference to the last 7 days on a 4-point Likert scale (eg, ‘Numbness or tingling’). It is administered at the eligibility appointment only.</p>
+                  <p><italic>Demographic information</italic>. The demographic questionnaire contains questions about participants’ gender, age, educational background, occupation and family status and further questions about migration background and duration of German language speaking to help inform judgement of participants’ German language fluency. It is administered at the eligibility appointment only.</p>
+                  <p><italic>Treatment information</italic>. This questionnaire is used to collected information about participants’ medication, including dose. It is administered at the eligibility appointment, end of training and end of inpatient admission.</p>
+                  <p><italic>Credibility-Expectancy Questionnaire</italic><xref rid="R52" ref-type="bibr">52</xref>). This questionnaire is used to assess the participants’ views on the computer training and their expectation of a symptom reduction achieved by the training. In this way, it is possible to evaluate whether the credibility/expectancy is balanced between the groups. Out of six questions, three questions assess the credibility of the intervention (eg, ‘At this point, how logical does the computer training seem to you?’). The other three questions measure the expectancy of the trauma symptom reduction (‘What do you really feel, how much improvement of your impairments due to the trauma symptoms will occur?’). A German version, which was translated by Riecke <italic>et al</italic>,<xref rid="R53" ref-type="bibr">53</xref> was adapted for this study. It is administered prior to first training session once the content of the training has been explained.</p>
+                  <p><italic>Feedback questionnaire</italic>. This questionnaire offers the participants to give feedback about the study and the computer tasks. For example, it measures how useful they found the computer training, and whether they would recommend the training to a friend in a similar situation. Moreover, some open questions are included to provide the option to give detailed feedback (eg, ‘How do you think, did the computer training help you?’). The feedback questionnaire is administered at a 3-month follow-up.</p>
+                </sec>
+              </sec>
+              <sec id="s2k">
+                <title>Sample size</title>
+                <p>Sample size was informed by a power calculation to find a between-group effect of <italic>d</italic>=0.70, with 80% power at p=0.05. A meta-analysis by Hallion and Ruscio<xref rid="R54" ref-type="bibr">54</xref> found an effect size of <italic>g</italic>=0.81 for the effect of CBM on interpretation bias. We took a more conservative estimate of <italic>d</italic>=0.70, requiring 35 participants per group. To allow for up to 15% attrition, we planned to recruit 80 participants.</p>
+              </sec>
+              <sec id="s2l">
+                <title>Data collection and management</title>
+                <p>Data collection is initially on paper or on dedicated study computers at the LWL clinic. Paper data are initially stored at the LWL clinic until the participant has been discharged, at which point it is transferred to a locked filing cabinet in Ruhr-Universität Bochum offices. Data will be entered into an electronic database on an ongoing basis, and the database and output from computer tasks will be regularly backed up to a remote server. Further, paper pencil data will be scanned and saved on a computer. The computer databases do not contain information about participant condition, which will be added only as required prior to analysis. Data completeness is monitored by a research assistant while the study is ongoing, and incomplete data queried with the relevant researcher. Any patient identifiable data will be stored separately from research data and accessible only to members of the research team. Hair samples taken for cortisol measurement will be stored with the other research data in a locked filing cabinet and sent together for analysis after completion of the study. The databases are initially managed and maintained by research assistants/student researchers carrying out data collection while data collection in ongoing. The principal investigator (MLW) will have primary responsibility for verifying the completeness and integrity of the database prior to data analysis and will be responsible for managing and maintaining the database after analyses have been completed.</p>
+                <p>Prior to carrying out the study analyses, 100% of the primary outcome and 15% of other outcome data will be independently re-entered and checked against the source data by a researcher blind to participant condition. If an error rate of &gt;1% is found, 100% of the outcome data will be re-entered.</p>
+                <p>It is planned to share anonymous outcome data from the study on publication of study results, via a suitable repository such as the Open Science Framework (osf.io).</p>
+              </sec>
+              <sec id="s2m">
+                <title>Trial management and monitoring</title>
+                <p>The principal investigator (MLW) has overall primary responsibility for the conduct of the trial. Ongoing management and oversight of trial conduct is via regular meetings with the researchers involved in data collection. Owing to the size and nature of the trial, a data monitoring committee was not judged to be required. The trial management group is composed of MLW, SEB, JCC and HK, and these researchers with JM also take responsibility for trial steering.</p>
+              </sec>
+            </sec>
+            <sec id="s3">
+              <title>Patient and public involvement</title>
+              <p>Patients and/or public were not involved.</p>
+              <sec id="s3a">
+                <title>Adverse event monitoring</title>
+                <p>Adverse events will be monitored by trial researchers on an ongoing basis and on completion of the study, recorded on an adverse event checklist completed for each participant. Based on the participant population, the following possible adverse events were defined prior to commencement of the trial: suicidal ideation (indicated by score of ≥2 on item 9 of the BDI-II, confirmed by follow-up clinical assessment), self-harm (indicated by self-harm item on the intrusion questionnaire, confirmed by clinical assessment), worsening of PTSD symptoms (indicated by deterioration on the PCL-5 greater than a ‘reliable change index’ calculated from the study baseline data), dropping out of inpatient treatment against medical advice, terminating the study due to feeling participation is having an adverse effect on recovery, readmission to the inpatient unit following discharge during the follow-up period of the study, self-reported adverse effects of the training (via the feedback questionnaire completed at the end of the study) and other adverse events not defined here. Queries about classification of adverse events will be discussed by the trial management group (MLW, HK, JCC and SEB). For each adverse event, the relationship of the event to the intervention (CBM-App or PVT) will be decided by the trial management group and rated on a scale from ‘unrelated’ to ‘definitely related’.</p>
+              </sec>
+              <sec id="s3b">
+                <title>Data analysis</title>
+                <p>The primary analysis will be conducted as intention to treat, that is, all participants randomised to either condition will be included in the analysis regardless of completion of training sessions or outcome measures. Secondary analyses will be conducted both intention to treat and in a ‘per protocol’ sample, defined as those participants who complete 4 out of 8 training sessions and who provide complete outcome data for the relevant measure. Adherence to the training schedule is verified by the researcher who is present at the training session.</p>
+                <p>Intention to treat analyses will be conducted using linear mixed models to allow inclusion of all participants regardless of data completeness. A mixed-model repeated measures analysis of variance will be fitted over all time points, and this overall model will be used to provide estimates of within and between-group effect sizes (Cohen’s d) and contrasts (provided as a t value) at each measurement timepoint. Thus, the primary outcome (the scenario task at post-training) is derived from a mixed-model fitted over all six timepoints, with the statistical significance and between-group effect size for the primary outcome provided by the contrast between the baseline to post-training change in dysfunctional appraisals between the two groups as derived from the fixed-effects estimates for this model. Per protocol analyses will be conducted using similar mixed-model repeated-measures analysis of variances.</p>
+                <p>Potential group imbalances at baseline will be tested via t-tests for continuous variables and Χ<sup>2</sup> tests for categorical variables. Exploratory analyses will investigate the potential relevance of any baseline imbalances on potentially prognostic variables on outcomes by including these variables as covariates in the outcome analyses.</p>
+                <p>As much of the testing is carried out by students as part of their research project for a Masters degree, subsets of the data will be analysed by these students for the purposes of their Masters thesis prior to trial completion. It is not intended to make any decision, for example, to procedures/trial continuation on the basis of these analyses.</p>
+              </sec>
+              <sec id="s3c">
+                <title>Ethics and dissemination</title>
+                <p>The study was approved by the ethics committee for the Faculty of Psychology, Ruhr-Universität Bochum (204) and the ethics committee for the Faculty of Medicine, Ruhr-Universität Bochum (15-5477). The main ethical issues are: informed consent, use of sham-training control and anonymity in the follow-up period. Participants are informed in full about what the study procedure involves prior to deciding to take part and can discuss this with both the head doctor for the clinic (HK) and the researchers involved in taking consent. Use of a ‘sham-training’ control requires half of the study participants to spend time engaged in a sham-training task, which places more participant burden than a weaker control such as simply treatment as usual. However, a sham-training control was preferred as without controlling for non-specific effects of CBM-App, such as expectancy, researcher contact, distraction and general cognitive engagement, it would not be possible to draw any conclusions about the reasons for differential improvement observed. The control condition chosen is one that has been used in other clinical studies (eg,<xref rid="R34" ref-type="bibr">34</xref>) and thus appears acceptable to clinical populations. In order to not bias participants towards one or other of the training conditions, they are both presented as training concentration, and thus as in most experimental studies, some specific aims of the trial (investigating/training appraisals) are not provided to participants at the start of the trial. However, appropriate to the lack of evidence for beneficial effects of CBM-App in clinical populations, the potential benefits of taking part in the study are not emphasised in participant information. If evidence for specificity of effects is provided in this trial, then future trials could compare the CBM-App to other potential clinical interventions (cf. reference<xref rid="R41" ref-type="bibr">41</xref>). In relation to anonymity in the follow-up period, following discharge from the ward, participants are sent follow-up questionnaires via post and are asked to return these and a hair sample. Plain envelopes without visible clinic logos are used in order to reduce the risk of participation in the trial being inadvertently disclosed. Patient contact details such as addresses are destroyed after completion of the trial.</p>
+                <p>The results of the trial will be disseminated primarily via publications submitted to peer-reviewed journals, following International Committee of Medical Journal Editors authorship eligibility guidelines, and via conference presentations at both national and international conferences. All study materials will be available on request from the first author. If the primary hypothesis is confirmed, that is, if participants receiving CBM-App show a greater reduction in dysfunctional appraisals than those in the control condition, and the pattern of change on secondary outcomes suggests that CBM-App could provide a useful treatment adjunct to treatments for PTSD, further funding will be sought to carry out larger randomised controlled trials (RCTs) powered to find differences in longer-term PTSD outcomes. Conversely, a null result for the primary hypothesis would indicate that further clinical applications of CBM-App as implemented in this study would not be indicated, unless other further development work indicated increased potential efficacy.</p>
+                <p>To summarise, there is clear theoretical and empirical evidence for the crucial role of dysfunctional appraisals in PTSD. Furthermore, experimental studies have shown that CBM-App can modify such appraisals and reduce analogue trauma symptoms. The present RCT sets out to test the effect of the training in a clinical context. If successful, CBM-App may be a useful and efficient adjunct to current treatments of PTSD.</p>
+              </sec>
+              <sec id="s3d">
+                <title>Trial progress</title>
+                <p>The trial is currently in the active recruitment phase (started February 2016; first study assessment on 29 February 2016). This is Protocol V.2.1, 14 February 2018. Substantial protocol amendments will be communicated to investigators via email and to other parties as required. Amendments to the study protocol will be reported in publications reporting the study outcomes.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <supplementary-material id="d35e255" content-type="local-data">
+                <caption>
+                  <title>Reviewer comments</title>
+                </caption>
+                <media mimetype="application" mime-subtype="pdf" xlink:href="bmjopen-2017-019964.reviewer_comments.pdf"/>
+              </supplementary-material>
+              <supplementary-material id="d35e256" content-type="local-data">
+                <caption>
+                  <title>Author's manuscript</title>
+                </caption>
+                <media mimetype="application" mime-subtype="pdf" xlink:href="bmjopen-2017-019964.draft_revisions.pdf"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>We thank Lorika Shkreli, Julia Schubert and Felix Würtz for their help with the study preparations and coordination and in preparing the current manuscript. We acknowledge support by the Open Access Publication Funds of the Ruhr University Bochum.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="other">
+                <p><bold>Contributors:</bold> MLW conceived the study and acquired funding. MLW and SEB wrote the initial study protocol. All authors contributed to the study design and to the refinements and approved the final version of the protocol.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Funding:</bold> The work was supported by the Daimler and Benz Foundation, Dr Carl-Benz-Platz 2, 68526 Ladenburg, Germany, grant no 32-12/4, awarded to MLW. The sponsor is Ruhr-Universität Bochum, Universitätsstraße 150, 44801 Bochum, Germany. MLW is additionally funded by the Deutsche Forschungsgemeinschaft (DFG; WO2018/2-1).</p>
+              </fn>
+              <fn fn-type="COI-statement">
+                <p><bold>Competing interests:</bold> None declared.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Patient consent:</bold> Obtained.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Ethics approval:</bold> Ethics Committee for the Faculty of Psychology, Ruhr-Universität Bochum (approval no 204) and Ethics Committee for the Faculty of Medicine, Ruhr-Universität Bochum (approval no 15-5477).</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Provenance and peer review:</bold> Not commissioned; externally peer reviewed.</p>
+              </fn>
+              <fn fn-type="other">
+                <p><bold>Data sharing statement:</bold> No additional data are available.</p>
+              </fn>
+            </fn-group>
+            <ref-list>
+              <title>References</title>
+              <ref id="R1">
+                <label>1.</label>
+                <mixed-citation publication-type="book"><collab>American Psychiatric Association</collab>. <source>Diagnostic and statistical manual of mental disorders: DSM-5</source>. <edition>5th Edn</edition><publisher-loc>Washington, DC</publisher-loc>: <publisher-name>American Psychiatric Publishing</publisher-name>, <year>2013</year>.</mixed-citation>
+              </ref>
+              <ref id="R2">
+                <label>2.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Brewin</surname><given-names>CR</given-names></name>, <name name-style="western"><surname>Dalgleish</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Joseph</surname><given-names>S</given-names></name></person-group><article-title>A dual representation theory of posttraumatic stress disorder</article-title>. <source>Psychol Rev</source><year>1996</year>;<volume>103</volume>:<fpage>670</fpage>–<lpage>86</lpage>. <pub-id pub-id-type="doi">10.1037/0033-295X.103.4.670</pub-id>
+<pub-id pub-id-type="pmid">8888651</pub-id></mixed-citation>
+              </ref>
+              <ref id="R3">
+                <label>3.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Dalgleish</surname><given-names>T</given-names></name></person-group><article-title>Cognitive approaches to posttraumatic stress disorder: the evolution of multirepresentational theorizing</article-title>. <source>Psychol Bull</source><year>2004</year>;<volume>130</volume>:<fpage>228</fpage>–<lpage>60</lpage>. <pub-id pub-id-type="doi">10.1037/0033-2909.130.2.228</pub-id>
+<pub-id pub-id-type="pmid">14979771</pub-id></mixed-citation>
+              </ref>
+              <ref id="R4">
+                <label>4.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ehlers</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Clark</surname><given-names>DM</given-names></name></person-group><article-title>A cognitive model of posttraumatic stress disorder</article-title>. <source>Behav Res Ther</source><year>2000</year>;<volume>38</volume>:<fpage>319</fpage>–<lpage>45</lpage>. <pub-id pub-id-type="doi">10.1016/S0005-7967(99)00123-0</pub-id>
+<pub-id pub-id-type="pmid">10761279</pub-id></mixed-citation>
+              </ref>
+              <ref id="R5">
+                <label>5.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Foa</surname><given-names>EB</given-names></name>, <name name-style="western"><surname>Steketee</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Rothbaum</surname><given-names>BO</given-names></name></person-group><article-title>Behavioral/cognitive conceptualizations of post-traumatic stress disorder</article-title>. <source>Behav Ther</source><year>1989</year>;<volume>20</volume>:<fpage>155</fpage>–<lpage>76</lpage>. <pub-id pub-id-type="doi">10.1016/S0005-7894(89)80067-X</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="R6">
+                <label>6.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Resick</surname><given-names>PA</given-names></name>, <name name-style="western"><surname>Schnicke</surname><given-names>MK</given-names></name></person-group><article-title>Cognitive processing therapy for sexual assault victims</article-title>. <source>J Consult Clin Psychol</source><year>1992</year>;<volume>60</volume>:<fpage>748</fpage>–<lpage>56</lpage>. <pub-id pub-id-type="doi">10.1037/0022-006X.60.5.748</pub-id>
+<pub-id pub-id-type="pmid">1401390</pub-id></mixed-citation>
+              </ref>
+              <ref id="R7">
+                <label>7.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Buckley</surname><given-names>TC</given-names></name>, <name name-style="western"><surname>Blanchard</surname><given-names>EB</given-names></name>, <name name-style="western"><surname>Neill</surname><given-names>WT</given-names></name></person-group><article-title>Information processing and PTSD: a review of the empirical literature</article-title>. <source>Clin Psychol Rev</source><year>2000</year>;<volume>20</volume>:<fpage>1041</fpage>–<lpage>65</lpage>. <pub-id pub-id-type="doi">10.1016/S0272-7358(99)00030-6</pub-id>
+<pub-id pub-id-type="pmid">11098399</pub-id></mixed-citation>
+              </ref>
+              <ref id="R8">
+                <label>8.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Johnson</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Bomyea</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Lang</surname><given-names>A</given-names></name></person-group><article-title>Information Processing in PTSD: evidence for biased attentional, interpretation, and memory processes</article-title>. <source>Psychopathol Rev</source>. <comment>In Press</comment><pub-id pub-id-type="doi">10.5127/pr.037214</pub-id></mixed-citation>
+              </ref>
+              <ref id="R9">
+                <label>9.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Foa</surname><given-names>EB</given-names></name>, <name name-style="western"><surname>Ehlers</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Clark</surname><given-names>DM</given-names></name>, <etal>et al</etal></person-group><article-title>The Posttraumatic Cognitions Inventory (PTCI): development and validation</article-title>. <source>Psychol Assess</source><year>1999</year>;<volume>11</volume>:<fpage>303</fpage>–<lpage>14</lpage>. <pub-id pub-id-type="doi">10.1037/1040-3590.11.3.303</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="R10">
+                <label>10.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bryant</surname><given-names>RA</given-names></name>, <name name-style="western"><surname>Guthrie</surname><given-names>RM</given-names></name></person-group><article-title>Maladaptive appraisals as a risk factor for posttraumatic stress: <italic>a study of trainee</italic> firefighters</article-title>. <source>Psychol Sci</source><year>2005</year>;<volume>16</volume>:<fpage>749</fpage>–<lpage>52</lpage>. <pub-id pub-id-type="doi">10.1111/j.1467-9280.2005.01608.x</pub-id>
+<pub-id pub-id-type="pmid">16181434</pub-id></mixed-citation>
+              </ref>
+              <ref id="R11">
+                <label>11.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bryant</surname><given-names>RA</given-names></name>, <name name-style="western"><surname>Guthrie</surname><given-names>RM</given-names></name></person-group><article-title>Maladaptive self-appraisals before trauma exposure predict posttraumatic stress disorder</article-title>. <source>J Consult Clin Psychol</source><year>2007</year>;<volume>75</volume>:<fpage>812</fpage>–<lpage>5</lpage>. <pub-id pub-id-type="doi">10.1037/0022-006X.75.5.812</pub-id>
+<pub-id pub-id-type="pmid">17907863</pub-id></mixed-citation>
+              </ref>
+              <ref id="R12">
+                <label>12.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ehring</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Ehlers</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Glucksman</surname><given-names>E</given-names></name></person-group><article-title>Do cognitive models help in predicting the severity of posttraumatic stress disorder, phobia, and depression after motor vehicle accidents? A prospective longitudinal study</article-title>. <source>J Consult Clin Psychol</source><year>2008</year>;<volume>76</volume>:<fpage>219</fpage>–<lpage>30</lpage>. <pub-id pub-id-type="doi">10.1037/0022-006X.76.2.219</pub-id>
+<pub-id pub-id-type="pmid">18377119</pub-id></mixed-citation>
+              </ref>
+              <ref id="R13">
+                <label>13.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kleim</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Ehlers</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Glucksman</surname><given-names>E</given-names></name></person-group><article-title>Early predictors of chronic post-traumatic stress disorder in assault survivors</article-title>. <source>Psychol Med</source><year>2007</year>;<volume>37</volume>:<fpage>1457</fpage>–<lpage>67</lpage>. <pub-id pub-id-type="doi">10.1017/S0033291707001006</pub-id>
+<pub-id pub-id-type="pmid">17588274</pub-id></mixed-citation>
+              </ref>
+              <ref id="R14">
+                <label>14.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kleim</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Grey</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Wild</surname><given-names>J</given-names></name>, <etal>et al</etal></person-group><article-title>Cognitive change predicts symptom reduction with cognitive therapy for posttraumatic stress disorder</article-title>. <source>J Consult Clin Psychol</source><year>2013</year>;<volume>81</volume>:<fpage>383</fpage>–<lpage>93</lpage>. <pub-id pub-id-type="doi">10.1037/a0031290</pub-id>
+<pub-id pub-id-type="pmid">23276122</pub-id></mixed-citation>
+              </ref>
+              <ref id="R15">
+                <label>15.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Cusack</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Jonas</surname><given-names>DE</given-names></name>, <name name-style="western"><surname>Forneris</surname><given-names>CA</given-names></name>, <etal>et al</etal></person-group><article-title>Psychological treatments for adults with posttraumatic stress disorder: A systematic review and meta-analysis</article-title>. <source>Clin Psychol Rev</source><year>2016</year>;<volume>43</volume>:<fpage>128</fpage>–<lpage>41</lpage>. <pub-id pub-id-type="doi">10.1016/j.cpr.2015.10.003</pub-id>
+<pub-id pub-id-type="pmid">26574151</pub-id></mixed-citation>
+              </ref>
+              <ref id="R16">
+                <label>16.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ehring</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Welboren</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Morina</surname><given-names>N</given-names></name>, <etal>et al</etal></person-group><article-title>Meta-analysis of psychological treatments for posttraumatic stress disorder in adult survivors of childhood abuse</article-title>. <source>Clin Psychol Rev</source><year>2014</year>;<volume>34</volume>:<fpage>645</fpage>–<lpage>57</lpage>. <pub-id pub-id-type="doi">10.1016/j.cpr.2014.10.004</pub-id>
+<pub-id pub-id-type="pmid">25455628</pub-id></mixed-citation>
+              </ref>
+              <ref id="R17">
+                <label>17.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bisson</surname><given-names>JI</given-names></name>, <name name-style="western"><surname>Roberts</surname><given-names>NP</given-names></name>, <name name-style="western"><surname>Andrew</surname><given-names>M</given-names></name>, <etal>et al</etal></person-group><article-title>Psychological therapies for chronic post-traumatic stress disorder (PTSD) in adults</article-title>. <source>Cochrane Database Syst Rev</source><year>2013</year>:<fpage>CD003388</fpage><pub-id pub-id-type="doi">10.1002/14651858.CD003388.pub4</pub-id><pub-id pub-id-type="pmid">24338345</pub-id></mixed-citation>
+              </ref>
+              <ref id="R18">
+                <label>18.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bryant</surname><given-names>RA</given-names></name>, <name name-style="western"><surname>Felmingham</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Kemp</surname><given-names>A</given-names></name>, <etal>et al</etal></person-group><article-title>Amygdala and ventral anterior cingulate activation predicts treatment response to cognitive behaviour therapy for post-traumatic stress disorder</article-title>. <source>Psychol Med</source><year>2008</year>;<volume>38</volume>:<fpage>555</fpage>–<lpage>61</lpage>. <pub-id pub-id-type="doi">10.1017/S0033291707002231</pub-id>
+<pub-id pub-id-type="pmid">18005496</pub-id></mixed-citation>
+              </ref>
+              <ref id="R19">
+                <label>19.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Schottenbauer</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Glass</surname><given-names>CR</given-names></name>, <name name-style="western"><surname>Arnkoff</surname><given-names>DB</given-names></name>, <etal>et al</etal></person-group><article-title>Nonresponse and dropout rates in outcome studies on PTSD: review and methodological considerations</article-title>. <source>Psychiatry</source><year>2008</year>;<volume>71</volume>:<fpage>134</fpage>–<lpage>68</lpage>. <pub-id pub-id-type="doi">10.1521/psyc.2008.71.2.134</pub-id>
+<pub-id pub-id-type="pmid">18573035</pub-id></mixed-citation>
+              </ref>
+              <ref id="R20">
+                <label>20.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Koster</surname><given-names>EH</given-names></name>, <name name-style="western"><surname>Fox</surname><given-names>E</given-names></name>, <name name-style="western"><surname>MacLeod</surname><given-names>C</given-names></name></person-group><article-title>Introduction to the special section on cognitive bias modification in emotional disorders</article-title>. <source>J Abnorm Psychol</source><year>2009</year>;<volume>118</volume>:<fpage>1</fpage>–<lpage>4</lpage>. <pub-id pub-id-type="doi">10.1037/a0014379</pub-id>
+<pub-id pub-id-type="pmid">19222308</pub-id></mixed-citation>
+              </ref>
+              <ref id="R21">
+                <label>21.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Woud</surname><given-names>ML</given-names></name>, <name name-style="western"><surname>Becker</surname><given-names>ES</given-names></name></person-group><article-title>Editorial for the special issue on cognitive bias modification techniques: an introduction to a time traveller’s tale</article-title>. <source>Cognit Ther Res</source><year>2014</year>;<volume>38</volume>:<fpage>83</fpage>–<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1007/s10608-014-9605-0</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="R22">
+                <label>22.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Woud</surname><given-names>ML</given-names></name>, <name name-style="western"><surname>Holmes</surname><given-names>EA</given-names></name>, <name name-style="western"><surname>Postma</surname><given-names>P</given-names></name>, <etal>et al</etal></person-group><article-title>Ameliorating intrusive memories of distressing experiences using computerized reappraisal training</article-title>. <source>Emotion</source><year>2012</year>;<volume>12</volume>:<fpage>778</fpage>–<lpage>84</lpage>. <pub-id pub-id-type="doi">10.1037/a0024992</pub-id>
+<pub-id pub-id-type="pmid">21859193</pub-id></mixed-citation>
+              </ref>
+              <ref id="R23">
+                <label>23.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Woud</surname><given-names>ML</given-names></name>, <name name-style="western"><surname>Postma</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Holmes</surname><given-names>EA</given-names></name>, <etal>et al</etal></person-group><article-title>Reducing analogue trauma symptoms by computerized reappraisal training - considering a cognitive prophylaxis?</article-title><source>J Behav Ther Exp Psychiatry</source><year>2013</year>;<volume>44</volume>:<fpage>312</fpage>–<lpage>5</lpage>. <pub-id pub-id-type="doi">10.1016/j.jbtep.2013.01.003</pub-id>
+<pub-id pub-id-type="pmid">23454552</pub-id></mixed-citation>
+              </ref>
+              <ref id="R24">
+                <label>24.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>James</surname><given-names>EL</given-names></name>, <name name-style="western"><surname>Lau-Zhu</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Clark</surname><given-names>IA</given-names></name>, <etal>et al</etal></person-group><article-title>The trauma film paradigm as an experimental psychopathology model of psychological trauma: intrusive memories and beyond</article-title>. <source>Clin Psychol Rev</source><year>2016</year>;<volume>47</volume>:<fpage>106</fpage>–<lpage>42</lpage>. <pub-id pub-id-type="doi">10.1016/j.cpr.2016.04.010</pub-id>
+<pub-id pub-id-type="pmid">27289421</pub-id></mixed-citation>
+              </ref>
+              <ref id="R25">
+                <label>25.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Cheung</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Bryant</surname><given-names>RA</given-names></name></person-group><article-title>The impact of appraisals on intrusive memories</article-title>. <source>J Behav Ther Exp Psychiatry</source><year>2017</year>;<volume>54</volume>:<fpage>108</fpage>–<lpage>11</lpage>. <pub-id pub-id-type="doi">10.1016/j.jbtep.2016.07.005</pub-id>
+<pub-id pub-id-type="pmid">27459692</pub-id></mixed-citation>
+              </ref>
+              <ref id="R26">
+                <label>26.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Schartau</surname><given-names>PE</given-names></name>, <name name-style="western"><surname>Dalgleish</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Dunn</surname><given-names>BD</given-names></name></person-group><article-title>Seeing the bigger picture: training in perspective broadening reduces self-reported affect and psychophysiological response to distressing films and autobiographical memories</article-title>. <source>J Abnorm Psychol</source><year>2009</year>;<volume>118</volume>:<fpage>15</fpage>–<lpage>27</lpage>. <pub-id pub-id-type="doi">10.1037/a0012906</pub-id>
+<pub-id pub-id-type="pmid">19222310</pub-id></mixed-citation>
+              </ref>
+              <ref id="R27">
+                <label>27.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Woud</surname><given-names>ML</given-names></name>, <name name-style="western"><surname>Verwoerd</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Krans</surname><given-names>J</given-names></name></person-group><article-title>Modification of cognitive biases related to posttraumatic stress: A systematic review and research agenda</article-title>. <source>Clin Psychol Rev</source><year>2017</year>;<volume>54</volume>:<fpage>81</fpage>–<lpage>95</lpage>. <pub-id pub-id-type="doi">10.1016/j.cpr.2017.04.003</pub-id>
+<pub-id pub-id-type="pmid">28445840</pub-id></mixed-citation>
+              </ref>
+              <ref id="R28">
+                <label>28.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Williams</surname><given-names>AD</given-names></name>, <name name-style="western"><surname>Blackwell</surname><given-names>SE</given-names></name>, <name name-style="western"><surname>Mackenzie</surname><given-names>A</given-names></name>, <etal>et al</etal></person-group><article-title>Combining imagination and reason in the treatment of depression: a randomized controlled trial of internet-based cognitive-bias modification and internet-CBT for depression</article-title>. <source>J Consult Clin Psychol</source><year>2013</year>;<volume>81</volume>:<fpage>793</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1037/a0033247</pub-id>
+<pub-id pub-id-type="pmid">23750459</pub-id></mixed-citation>
+              </ref>
+              <ref id="R29">
+                <label>29.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Wiers</surname><given-names>RW</given-names></name>, <name name-style="western"><surname>Eberl</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Rinck</surname><given-names>M</given-names></name>, <etal>et al</etal></person-group><article-title>Retraining automatic action tendencies changes alcoholic patients' approach bias for alcohol and improves treatment outcome</article-title>. <source>Psychol Sci</source><year>2011</year>;<volume>22</volume>:<fpage>490</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1177/0956797611400615</pub-id>
+<pub-id pub-id-type="pmid">21389338</pub-id></mixed-citation>
+              </ref>
+              <ref id="R30">
+                <label>30.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Rapee</surname><given-names>RM</given-names></name>, <name name-style="western"><surname>MacLeod</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Carpenter</surname><given-names>L</given-names></name>, <etal>et al</etal></person-group><article-title>Integrating cognitive bias modification into a standard cognitive behavioural treatment package for social phobia: a randomized controlled trial</article-title>. <source>Behav Res Ther</source><year>2013</year>;<volume>51</volume>:<fpage>207</fpage>–<lpage>15</lpage>. <pub-id pub-id-type="doi">10.1016/j.brat.2013.01.005</pub-id>
+<pub-id pub-id-type="pmid">23435121</pub-id></mixed-citation>
+              </ref>
+              <ref id="R31">
+                <label>31.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Eberl</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Wiers</surname><given-names>RW</given-names></name>, <name name-style="western"><surname>Pawelczack</surname><given-names>S</given-names></name>, <etal>et al</etal></person-group><article-title>Approach bias modification in alcohol dependence: do clinical effects replicate and for whom does it work best?</article-title><source>Dev Cogn Neurosci</source><year>2013</year>;<volume>4</volume>:<fpage>38</fpage>–<lpage>51</lpage>. <pub-id pub-id-type="doi">10.1016/j.dcn.2012.11.002</pub-id>
+<pub-id pub-id-type="pmid">23218805</pub-id></mixed-citation>
+              </ref>
+              <ref id="R32">
+                <label>32.</label>
+                <mixed-citation publication-type="web"><person-group person-group-type="author"><name name-style="western"><surname>Weathers</surname><given-names>FW</given-names></name>, <name name-style="western"><surname>Blake</surname><given-names>DD</given-names></name>, <name name-style="western"><surname>Schnurr</surname><given-names>PP</given-names></name>, <etal>et al</etal></person-group><article-title>The Clinician-Administered PTSD Scale for DSM-5 (CAPS-5): Interview</article-title>. <year>2013</year><uri xlink:href="www.ptsd.va.gov">www.ptsd.va.gov</uri></mixed-citation>
+              </ref>
+              <ref id="R33">
+                <label>33.</label>
+                <mixed-citation publication-type="web"><person-group person-group-type="author"><name name-style="western"><surname>Cwik</surname><given-names>JC</given-names></name>, <name name-style="western"><surname>Woud</surname><given-names>ML</given-names></name></person-group><article-title>German version of the Clinician-Administered PTSD Scale for DSM-5 (CAPS-5): Interview</article-title>. <year>2015</year><uri xlink:href="http://www.kli.psy.ruhr-uni-bochum.de">http://www.kli.psy.ruhr-uni-bochum.de</uri></mixed-citation>
+              </ref>
+              <ref id="R34">
+                <label>34.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Calkins</surname><given-names>AW</given-names></name>, <name name-style="western"><surname>McMorran</surname><given-names>KE</given-names></name>, <name name-style="western"><surname>Siegle</surname><given-names>GJ</given-names></name>, <etal>et al</etal></person-group><article-title>The effects of computerized cognitive control training on community adults with depressed mood</article-title>. <source>Behav Cogn Psychother</source><year>2015</year>;<volume>43</volume>:<fpage>578</fpage>–<lpage>89</lpage>. <pub-id pub-id-type="doi">10.1017/S1352465814000046</pub-id>
+<pub-id pub-id-type="pmid">24589123</pub-id></mixed-citation>
+              </ref>
+              <ref id="R35">
+                <label>35.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Mathews</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Mackintosh</surname><given-names>B</given-names></name></person-group><article-title>Induced emotional interpretation bias and anxiety</article-title>. <source>J Abnorm Psychol</source><year>2000</year>;<volume>109</volume>:<fpage>602</fpage>–<lpage>15</lpage>. <pub-id pub-id-type="doi">10.1037/0021-843X.109.4.602</pub-id>
+<pub-id pub-id-type="pmid">11195984</pub-id></mixed-citation>
+              </ref>
+              <ref id="R36">
+                <label>36.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Ehlers</surname><given-names>A</given-names></name></person-group><source>Posttraumatische Belastungsstörungen</source>. <publisher-loc>Göttingen</publisher-loc>: <publisher-name>Hogrefe</publisher-name>, <year>1999</year>.</mixed-citation>
+              </ref>
+              <ref id="R37">
+                <label>37.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Mathews</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Ridgeway</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Cook</surname><given-names>E</given-names></name>, <etal>et al</etal></person-group><article-title>Inducing a benign interpretational bias reduces trait anxiety</article-title>. <source>J Behav Ther Exp Psychiatry</source><year>2007</year>;<volume>38</volume>:<fpage>225</fpage>–<lpage>36</lpage>. <pub-id pub-id-type="doi">10.1016/j.jbtep.2006.10.011</pub-id>
+<pub-id pub-id-type="pmid">17141179</pub-id></mixed-citation>
+              </ref>
+              <ref id="R38">
+                <label>38.</label>
+                <mixed-citation publication-type="web"><collab>Inquisit 4</collab>. <article-title>Precision software for cognitive, social, neurophysiological, and online psychological experiments</article-title>. <year>2015</year><uri xlink:href="http://www.millisecond.com">http://www.millisecond.com</uri></mixed-citation>
+              </ref>
+              <ref id="R39">
+                <label>39.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Howick</surname><given-names>J</given-names></name></person-group><article-title>The relativity of ’placebos': defending a modified version of Grünbaum’s definition</article-title>. <source>Synthese</source><year>2016</year>.</mixed-citation>
+              </ref>
+              <ref id="R40">
+                <label>40.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Blackwell</surname><given-names>SE</given-names></name>, <name name-style="western"><surname>Browning</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Mathews</surname><given-names>A</given-names></name>, <etal>et al</etal></person-group><article-title>Positive imagery-based cognitive bias modification as a web-based treatment tool for depressed adults: a randomized controlled trial</article-title>. <source>Clin Psychol Sci</source><year>2015</year>;<volume>3</volume>:<fpage>91</fpage>–<lpage>111</lpage>. <pub-id pub-id-type="doi">10.1177/2167702614560746</pub-id>
+<pub-id pub-id-type="pmid">25984421</pub-id></mixed-citation>
+              </ref>
+              <ref id="R41">
+                <label>41.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Blackwell</surname><given-names>SE</given-names></name>, <name name-style="western"><surname>Woud</surname><given-names>ML</given-names></name>, <name name-style="western"><surname>MacLeod</surname><given-names>C</given-names></name></person-group><article-title>A question of control? Examining the role of control conditions in experimental psychopathology using the example of cognitive bias modification research</article-title>. <source>Span J Psychol</source><year>2017</year>;<volume>20</volume>:<fpage>E54</fpage><pub-id pub-id-type="doi">10.1017/sjp.2017.41</pub-id><pub-id pub-id-type="pmid">29072159</pub-id></mixed-citation>
+              </ref>
+              <ref id="R42">
+                <label>42.</label>
+                <mixed-citation publication-type="web"><person-group person-group-type="author"><name name-style="western"><surname>Weathers</surname><given-names>FW</given-names></name>, <name name-style="western"><surname>Litz</surname><given-names>BT</given-names></name>, <name name-style="western"><surname>Keane</surname><given-names>TM</given-names></name>, <etal>et al</etal></person-group><article-title>The PTSD Checklist for DSM-5 (PCL-5): scale</article-title>. <year>2013</year><uri xlink:href="www.ptsd.va.gov">www.ptsd.va.gov</uri></mixed-citation>
+              </ref>
+              <ref id="R43">
+                <label>43.</label>
+                <mixed-citation publication-type="other"><person-group person-group-type="author"><name name-style="western"><surname>Krüger-Gottschalk</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Knaevelsrud</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Rau</surname><given-names>H</given-names></name>, <etal>et al</etal></person-group><article-title>The German version of the posttraumatic stress disorder checkliste for DSM-5 (PCL-5): psychometric properties and diagnostic utility manuscript submitted for publication</article-title>. <year>2017</year>.</mixed-citation>
+              </ref>
+              <ref id="R44">
+                <label>44.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Greenwald</surname><given-names>AG</given-names></name>, <name name-style="western"><surname>McGhee</surname><given-names>DE</given-names></name>, <name name-style="western"><surname>Schwartz</surname><given-names>JL</given-names></name></person-group><article-title>Measuring individual differences in implicit cognition: the implicit association test</article-title>. <source>J Pers Soc Psychol</source><year>1998</year>;<volume>74</volume>:<fpage>1464</fpage>–<lpage>80</lpage>. <pub-id pub-id-type="doi">10.1037/0022-3514.74.6.1464</pub-id>
+<pub-id pub-id-type="pmid">9654756</pub-id></mixed-citation>
+              </ref>
+              <ref id="R45">
+                <label>45.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lindgren</surname><given-names>KP</given-names></name>, <name name-style="western"><surname>Kaysen</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Werntz</surname><given-names>AJ</given-names></name>, <etal>et al</etal></person-group><article-title>Wounds that can’t be seen: implicit trauma associations predict posttraumatic stress disorder symptoms</article-title>. <source>J Behav Ther Exp Psychiatry</source><year>2013</year>;<volume>44</volume>:<fpage>368</fpage>–<lpage>75</lpage>. <pub-id pub-id-type="doi">10.1016/j.jbtep.2013.03.003</pub-id>
+<pub-id pub-id-type="pmid">23624314</pub-id></mixed-citation>
+              </ref>
+              <ref id="R46">
+                <label>46.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Steudte-Schmiedgen</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Kirschbaum</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Alexander</surname><given-names>N</given-names></name>, <etal>et al</etal></person-group><article-title>An integrative model linking traumatization, cortisol dysregulation and posttraumatic stress disorder: Insight from recent hair cortisol findings</article-title>. <source>Neurosci Biobehav Rev</source><year>2016</year>;<volume>69</volume>:<fpage>124</fpage>–<lpage>35</lpage>. <pub-id pub-id-type="doi">10.1016/j.neubiorev.2016.07.015</pub-id>
+<pub-id pub-id-type="pmid">27443960</pub-id></mixed-citation>
+              </ref>
+              <ref id="R47">
+                <label>47.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Wennig</surname><given-names>R</given-names></name></person-group><article-title>Potential problems with the interpretation of hair analysis results</article-title>. <source>Forensic Sci Int</source><year>2000</year>;<volume>107</volume>:<fpage>5</fpage>–<lpage>12</lpage>. <pub-id pub-id-type="doi">10.1016/S0379-0738(99)00146-2</pub-id>
+<pub-id pub-id-type="pmid">10689559</pub-id></mixed-citation>
+              </ref>
+              <ref id="R48">
+                <label>48.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Beck</surname><given-names>AT</given-names></name>, <name name-style="western"><surname>Steer</surname><given-names>RA</given-names></name>, <name name-style="western"><surname>Brown</surname><given-names>GK</given-names></name></person-group><source>Beck depression inventory-II manual</source>. <edition>2nd ed</edition><publisher-loc>San Antonio, TX</publisher-loc>: <publisher-name>The Psychological Corporation</publisher-name>, <year>1996</year>.</mixed-citation>
+              </ref>
+              <ref id="R49">
+                <label>49.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Hautzinger</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Keller</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Kühner</surname><given-names>C</given-names></name></person-group><source>BDI II – Beck depressions-inventar</source>. <publisher-loc>Frankfurt am Main</publisher-loc>: <publisher-name>Pearson</publisher-name>, <year>2006</year>.</mixed-citation>
+              </ref>
+              <ref id="R50">
+                <label>50.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Beck</surname><given-names>AT</given-names></name>, <name name-style="western"><surname>Epstein</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Brown</surname><given-names>G</given-names></name>, <etal>et al</etal></person-group><article-title>An inventory for measuring clinical anxiety: psychometric properties</article-title>. <source>J Consult Clin Psychol</source><year>1988</year>;<volume>56</volume>:<fpage>893</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1037/0022-006X.56.6.893</pub-id>
+<pub-id pub-id-type="pmid">3204199</pub-id></mixed-citation>
+              </ref>
+              <ref id="R51">
+                <label>51.</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Ehlers</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Margraf</surname><given-names>J</given-names></name></person-group><source>Beck-Angst-Inventar</source>. <publisher-loc>Frankfurt am Main</publisher-loc>: <publisher-name>Pearson</publisher-name>, <year>2007</year>.</mixed-citation>
+              </ref>
+              <ref id="R52">
+                <label>52.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Devilly</surname><given-names>GJ</given-names></name>, <name name-style="western"><surname>Borkovec</surname><given-names>TD</given-names></name></person-group><article-title>Psychometric properties of the credibility/expectancy questionnaire</article-title>. <source>J Behav Ther Exp Psychiatry</source><year>2000</year>;<volume>31</volume>:<fpage>73</fpage>–<lpage>86</lpage>. <pub-id pub-id-type="doi">10.1016/S0005-7916(00)00012-4</pub-id>
+<pub-id pub-id-type="pmid">11132119</pub-id></mixed-citation>
+              </ref>
+              <ref id="R53">
+                <label>53.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Riecke</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Holzapfel</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Rief</surname><given-names>W</given-names></name>, <etal>et al</etal></person-group><article-title>Evaluation and implementation of graded in vivo exposure for chronic low back pain in a German outpatient setting: a study protocol of a randomized controlled trial</article-title>. <source>Trials</source><year>2013</year>;<volume>14</volume>:<elocation-id>203</elocation-id><uri xlink:href="https://doi.org/">https://doi.org/</uri><pub-id pub-id-type="doi">10.1186/1745-6215-14-203</pub-id><pub-id pub-id-type="pmid">23837551</pub-id></mixed-citation>
+              </ref>
+              <ref id="R54">
+                <label>54.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hallion</surname><given-names>LS</given-names></name>, <name name-style="western"><surname>Ruscio</surname><given-names>AM</given-names></name></person-group><article-title>A meta-analysis of the effect of cognitive bias modification on anxiety and depression</article-title>. <source>Psychol Bull</source><year>2011</year>;<volume>137</volume>:<fpage>940</fpage>–<lpage>58</lpage>. <pub-id pub-id-type="doi">10.1037/a0024355</pub-id>
+<pub-id pub-id-type="pmid">21728399</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

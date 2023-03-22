@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:00:51Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9790702" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9790702</identifier>
+        <datestamp>2022-12-28</datestamp>
+        <setSpec>blackwellopen</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" id="bjc12365" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Br J Clin Psychol</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Br J Clin Psychol</journal-id>
+              <journal-id journal-id-type="doi">10.1111/(ISSN)2044-8260</journal-id>
+              <journal-id journal-id-type="publisher-id">BJC</journal-id>
+              <journal-title-group>
+                <journal-title>The British Journal of Clinical Psychology</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0144-6657</issn>
+              <issn pub-type="epub">2044-8260</issn>
+              <publisher>
+                <publisher-name>John Wiley and Sons Inc.</publisher-name>
+                <publisher-loc>Hoboken</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9790702</article-id>
+              <article-id pub-id-type="pmcid">PMC9790702</article-id>
+              <article-id pub-id-type="pmc-uid">9790702</article-id>
+              <article-id pub-id-type="pmid">35315523</article-id>
+              <article-id pub-id-type="pmid">35315523</article-id>
+              <article-id pub-id-type="doi">10.1111/bjc.12365</article-id>
+              <article-id pub-id-type="publisher-id">BJC12365</article-id>
+              <article-categories>
+                <subj-group subj-group-type="overline">
+                  <subject>Article</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Articles</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Implementing therapist‐guided internet‐delivered cognitive behaviour therapy for obsessive–compulsive disorder in the UK’s IAPT programme: A pilot trial</article-title>
+                <alt-title alt-title-type="right-running-head">ICBT for OCD in IAPT</alt-title>
+                <alt-title alt-title-type="left-running-head">FLYGARE et al.</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="bjc12365-cr-0001" contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Flygare</surname>
+                    <given-names>Oskar</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2017-3940</contrib-id>
+                  <xref rid="bjc12365-aff-0001" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="bjc12365-aff-0002" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <address>
+                    <email>oskar.flygare@ki.se</email>
+                  </address>
+                </contrib>
+                <contrib id="bjc12365-cr-0002" contrib-type="author">
+                  <name>
+                    <surname>Lundström</surname>
+                    <given-names>Lina</given-names>
+                  </name>
+                  <xref rid="bjc12365-aff-0001" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="bjc12365-aff-0002" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib id="bjc12365-cr-0003" contrib-type="author">
+                  <name>
+                    <surname>Andersson</surname>
+                    <given-names>Erik</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0088-8719</contrib-id>
+                  <xref rid="bjc12365-aff-0001" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="bjc12365-aff-0002" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib id="bjc12365-cr-0004" contrib-type="author">
+                  <name>
+                    <surname>Mataix‐Cols</surname>
+                    <given-names>David</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4545-0924</contrib-id>
+                  <xref rid="bjc12365-aff-0001" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="bjc12365-aff-0002" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <xref rid="bjc12365-aff-0003" ref-type="aff">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib id="bjc12365-cr-0005" contrib-type="author">
+                  <name>
+                    <surname>Rück</surname>
+                    <given-names>Christian</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8742-0168</contrib-id>
+                  <xref rid="bjc12365-aff-0001" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="bjc12365-aff-0002" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="bjc12365-aff-0001">
+                <label>
+                  <sup>1</sup>
+                </label>
+                <institution-wrap>
+                  <institution-id institution-id-type="ringgold">27106</institution-id>
+                </institution-wrap>
+                <named-content content-type="organisation-division">Department of Clinical Neuroscience</named-content>
+                <named-content content-type="organisation-division">Centre for Psychiatry Research</named-content>
+                <institution>Karolinska Institutet</institution>
+                <city>Stockholm</city>
+                <country country="SE">Sweden</country>
+              </aff>
+              <aff id="bjc12365-aff-0002">
+                <label>
+                  <sup>2</sup>
+                </label>
+                <institution>Stockholm Health Care Services</institution>
+                <city>Stockholm</city>
+                <country country="SE">Sweden</country>
+              </aff>
+              <aff id="bjc12365-aff-0003">
+                <label>
+                  <sup>3</sup>
+                </label>
+                <named-content content-type="organisation-division">CAP Research Centre</named-content>
+                <institution>Stockholm Health Care Services</institution>
+                <city>Stockholm</city>
+                <country country="SE">Sweden</country>
+              </aff>
+              <author-notes>
+                <corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Oskar Flygare, M46, Karolinska University Hospital, SE‐141 86 Huddinge, Sweden.<break/>
+Email: <email>oskar.flygare@ki.se</email>
+<break/>
+</corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>22</day>
+                <month>3</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="ppub">
+                <month>11</month>
+                <year>2022</year>
+              </pub-date>
+              <volume>61</volume>
+              <issue seq="30">4</issue>
+              <issue-id pub-id-type="doi">10.1111/bjc.v61.4</issue-id>
+              <fpage>895</fpage>
+              <lpage>910</lpage>
+              <history>
+                <date date-type="received">
+                  <day>13</day>
+                  <month>12</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>03</day>
+                  <month>3</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <!--Copyright &#x000a9; 2022 The British Psychological Society-->
+                <copyright-statement content-type="article-copyright">© 2022 The Authors. <italic toggle="yes">British Journal of Clinical Psychology</italic> published by John Wiley &amp; Sons Ltd on behalf of British Psychological Society.</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf" xlink:href="file:BJC-61-895.pdf"/>
+              <abstract id="bjc12365-abs-0001">
+                <title>Abstract</title>
+                <sec id="bjc12365-sec-0001">
+                  <title>Objectives</title>
+                  <p>Digital therapies such as internet‐delivered cognitive behaviour therapy (ICBT) can improve treatment access for patients with common mental disorders, but are rarely used in the Improving Access to Psychological Therapies (IAPT) programme in the United Kingdom. The objective of this study was to evaluate an evidence‐based ICBT intervention for obsessive‐compulsive disorder (OCD‐NET) in three IAPT services in an open trial.</p>
+                </sec>
+                <sec id="bjc12365-sec-0002">
+                  <title>Methods</title>
+                  <p>Consecutively referred patients with a primary diagnosis of OCD (<italic toggle="yes">n </italic>= 474) were offered OCD‐NET. Symptoms of OCD, depression, anxiety, and level of functioning were measured weekly throughout treatment.</p>
+                </sec>
+                <sec id="bjc12365-sec-0003">
+                  <title>Results</title>
+                  <p>In the full intention to treat sample (<italic toggle="yes">n </italic>= 474), the intervention was associated with large reductions in self‐reported OCD symptoms (<italic toggle="yes">d</italic> = 1.77), anxiety (<italic toggle="yes">d</italic> = 1.55) and depression (<italic toggle="yes">d</italic> = 0.8), as well as improvements in functional impairment (<italic toggle="yes">d</italic> = 0.51 to 0.72). Further, 35% of participants were in recovery at their last assessment, 25% achieved reliable improvement and 15% met criteria for both recovery and improvement. Among participants completing at least 4 modules (<italic toggle="yes">n </italic>= 261), corresponding to an adequate ‘dose’ of treatment, the rates of recovery (44%), reliable improvement (34%) and reliable recovery (21%) were higher. A majority of participants were satisfied with the online treatment and found the online materials helpful.</p>
+                </sec>
+                <sec id="bjc12365-sec-0004">
+                  <title>Conclusions</title>
+                  <p>OCD‐NET is an effective treatment when delivered in regular care within the IAPT system. Challenges associated with implementing ICBT in regular health care are discussed.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd id="bjc12365-kwd-0001">internet‐delivered cognitive behaviour therapy</kwd>
+                <kwd id="bjc12365--kwd-0002">obsessive‐compuslive disorder</kwd>
+                <kwd id="bjc12365-kwd-0003">Improving Access to Psychological Therapies</kwd>
+                <kwd id="bjc12365-kwd-0005">OCD‐NET</kwd>
+              </kwd-group>
+              <counts>
+                <fig-count count="3"/>
+                <table-count count="1"/>
+                <page-count count="16"/>
+                <word-count count="7734"/>
+              </counts>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>source-schema-version-number</meta-name>
+                  <meta-value>2.0</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>cover-date</meta-name>
+                  <meta-value>November 2022</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>details-of-publishers-convertor</meta-name>
+                  <meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.2.3 mode:remove_FC converted:25.12.2022</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+            <notes>
+              <p content-type="self-citation">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-1001"><string-name><surname>Flygare</surname>, <given-names>O.</given-names></string-name>, <string-name><surname>Lundström</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Andersson</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Mataix‐Cols</surname>, <given-names>D.</given-names></string-name>, &amp; <string-name><surname>Rück</surname>, <given-names>C.</given-names></string-name> (<year>2022</year>). <article-title>Implementing therapist‐guided internet‐delivered cognitive behaviour therapy for obsessive–compulsive disorder in the UK’s IAPT programme: A pilot trial</article-title>. <source>British Journal of Clinical Psychology</source>, <volume>61</volume>, <fpage>895</fpage>–<lpage>910</lpage>. <pub-id pub-id-type="doi">10.1111/bjc.12365</pub-id>
+<pub-id pub-id-type="pmid">35315523</pub-id></mixed-citation>
+              </p>
+              <fn-group id="bjc12365-ntgp-0001">
+                <fn fn-type="funding" id="bjc12365-note-0001">
+                  <p>Funding information</p>
+                  <p>This project was supported by development funding from NHS England, used for the development of the platform and project management during the evaluation in practice. Because OCD‐NET was evaluated within the IAPT system, NHS England provided guidance on the standard IAPT questionnaires so that data could be used for internal evaluation. The funders had no role in the analyses presented herein, decision to publish, or preparation of the manuscript.</p>
+                </fn>
+              </fn-group>
+            </notes>
+          </front>
+          <body id="bjc12365-body-0001">
+            <p>
+              <boxed-text position="anchor" content-type="box" id="bjc12365-blkfxd-0001">
+                <caption>
+                  <title>Practitioner Points</title>
+                </caption>
+                <p>
+                  <list list-type="bullet" id="bjc12365-list-0001">
+                    <list-item>
+                      <p>Internet‐delivered cognitive behaviour therapy is an effective treatment option for individuals with obsessive–compulsive disorder.</p>
+                    </list-item>
+                    <list-item>
+                      <p>Health care providers should ensure that therapists receive adequate training and support to deliver internet‐based treatment effectively.</p>
+                    </list-item>
+                  </list>
+                </p>
+              </boxed-text>
+            </p>
+            <sec id="bjc12365-sec-0006">
+              <title>INTRODUCTION</title>
+              <p>Obsessive–compulsive disorder (OCD) is characterized by intrusive and unwanted thoughts (obsessions), and repetitive behaviours or mental acts aimed at neutralizing the anxiety caused by intrusive thoughts (compulsions) (American Psychiatric Association, <xref rid="bjc12365-bib-0003" ref-type="bibr">2013</xref>). OCD has a lifetime prevalence of 1.3% and typically onsets before the age of 25 years (Fawcett et al., <xref rid="bjc12365-bib-0014" ref-type="bibr">2020</xref>; Fullana et al., <xref rid="bjc12365-bib-0017" ref-type="bibr">2009</xref>). It is often chronic if left untreated (Mataix‐Cols et al., <xref rid="bjc12365-bib-0027" ref-type="bibr">2002</xref>; Skoog &amp; Skoog, <xref rid="bjc12365-bib-0039" ref-type="bibr">1999</xref>) and is associated with pervasive educational impairment (Pérez‐Vigil et al., <xref rid="bjc12365-bib-0033" ref-type="bibr">2018</xref>), labour market marginalization (Pérez‐Vigil et al., <xref rid="bjc12365-bib-0034" ref-type="bibr">2018</xref>), and low quality of life (Huppert et al., <xref rid="bjc12365-bib-0022" ref-type="bibr">2009</xref>).</p>
+              <p>Cognitive behaviour therapy (CBT) is a recommended first‐line treatment for OCD (OCD, <xref rid="bjc12365-bib-0030" ref-type="bibr">2005</xref>; Öst et al., <xref rid="bjc12365-bib-0031" ref-type="bibr">2015</xref>), but only a minority of patients receive this treatment (Goodwin et al., <xref rid="bjc12365-bib-0019" ref-type="bibr">2002</xref>; Marques et al., <xref rid="bjc12365-bib-0026" ref-type="bibr">2010</xref>). Common barriers to treatment include logistic and financial barriers (e.g., problems with transportation or scheduling), stigma and shame (e.g., being afraid of what others would think), lack of access to adequately trained therapists, and concerns about the cost of treatment (Goodwin et al., <xref rid="bjc12365-bib-0019" ref-type="bibr">2002</xref>; Marques et al., <xref rid="bjc12365-bib-0026" ref-type="bibr">2010</xref>). Digital therapies such as internet‐delivered CBT (ICBT) are able to overcome several barriers to treatment as they can be delivered remotely and at flexible times. For therapists and health care services, the structured format of ICBT means that less therapist time is required per patient, making it a cost‐effective alternative or complement to conventional in‐person therapies (Andersson et al., <xref rid="bjc12365-bib-0006" ref-type="bibr">2015</xref>; Hedman et al., <xref rid="bjc12365-bib-0020" ref-type="bibr">2012</xref>). In the last 10 years, multiple ICBT programmes for OCD have been developed (Schröder et al., <xref rid="bjc12365-bib-0038" ref-type="bibr">2020</xref>; Vogel et al., <xref rid="bjc12365-bib-0046" ref-type="bibr">2014</xref>; Wootton et al., <xref rid="bjc12365-bib-0047" ref-type="bibr">2013</xref>) and evaluated in clinical practice (Lovell et al., <xref rid="bjc12365-bib-0024" ref-type="bibr">2017</xref>; Luu et al., <xref rid="bjc12365-bib-0025" ref-type="bibr">2020</xref>; Titov et al., <xref rid="bjc12365-bib-0044" ref-type="bibr">2017</xref>; Wootton et al., <xref rid="bjc12365-bib-0048" ref-type="bibr">2021</xref>). A recent meta‐analysis concluded that ICBT is an efficacious and promising treatment option for individuals with OCD (Hoppen et al., <xref rid="bjc12365-bib-0021" ref-type="bibr">2021</xref>). Among these, a Swedish internet‐delivered CBT programme called OCD‐NET has been extensively evaluated in multiple open (Andersson et al., <xref rid="bjc12365-bib-0007" ref-type="bibr">2011</xref>; Patel et al., <xref rid="bjc12365-bib-0032" ref-type="bibr">2018</xref>) and randomized controlled trials (Andersson et al., <xref rid="bjc12365-bib-0004" ref-type="bibr">2012</xref>, <xref rid="bjc12365-bib-0005" ref-type="bibr">2015</xref>), with sustained gains up to 2 years after treatment (Andersson et al., <xref rid="bjc12365-bib-0008" ref-type="bibr">2014</xref>).</p>
+              <p>The Improving Access to Psychological Therapies (IAPT) programme aims to increase access to evidence‐based treatment for depression and anxiety disorders in the United Kingdom by training new therapists and deploying them in services focused on mental health (Clark, <xref rid="bjc12365-bib-0010" ref-type="bibr">2011</xref>, <xref rid="bjc12365-bib-0011" ref-type="bibr">2018</xref>). Since its inception in 2008, IAPT has expanded to treat over 600,000 patients yearly with evidence‐based psychological treatments, of which 19,000 received treatment for OCD in 2019–2020 (Team I &amp; Digital N, <xref rid="bjc12365-bib-0041" ref-type="bibr">2020</xref>). An important feature of IAPT is that therapy outcomes are scored using validated questionnaires, with 98% of patients having pre‐treatment and post‐assessment data. IAPT also provides publicly available outcome data (Clark et al., <xref rid="bjc12365-bib-0012" ref-type="bibr">2018</xref>). A survey of 191 IAPT services found that only 24% were using digital treatments recommended by the National Institute for Health and Care Excellence (NICE) (Bennion et al., <xref rid="bjc12365-bib-0009" ref-type="bibr">2017</xref>). Further, among the 600,000 treatments completed in 2019–2020, only 7,600 (or 1.3%) were therapist‐guided ICBT treatments (Team I &amp; Digital N, <xref rid="bjc12365-bib-0041" ref-type="bibr">2020</xref>). Initiatives are now underway to evaluate several ICBT treatments within IAPT, and potentially improve treatment access further (Richards et al., <xref rid="bjc12365-bib-0036" ref-type="bibr">2018</xref>). Key considerations for evaluations of ICBT in IAPT are (1) choosing the right interventions (i.e., those that have a solid evidence‐base and are easy to use), (2) ensuring adequate therapist training, and (3) practical and organizational factors related to the implementation of the digital treatments (Thew, <xref rid="bjc12365-bib-0043" ref-type="bibr">2020</xref>).</p>
+              <p>This study piloted the implementation of OCD‐NET at three IAPT services during 2019–2021. Prior to the evaluation in practice, OCD‐NET underwent a rigorous evaluation by NICE where the scientific evidence, intended place in therapy, key uncertainties, as well as costs and resource impact were evaluated (NICE, <xref rid="bjc12365-bib-0029" ref-type="bibr">2019</xref>). OCD‐NET was found to be suitable for evaluation in practice within the IAPT system, the key uncertainty in evidence being that there were no direct comparisons with face‐to‐face CBT. OCD‐NET was appraised to lead to cost savings compared to individual CBT (NICE, <xref rid="bjc12365-bib-0029" ref-type="bibr">2019</xref>). This study describes the effectiveness and acceptability of OCD‐NET when implemented at three IAPT services, and discusses practical and organizational factors from the evaluation.</p>
+            </sec>
+            <sec sec-type="methods" id="bjc12365-sec-0007">
+              <title>METHODS</title>
+              <sec id="bjc12365-sec-0008">
+                <title>Study design</title>
+                <p>This study was an open trial of the effectiveness of OCD‐NET when delivered at three IAPT services: Steps2Wellbeing Dorset, Let's Talk Gloucestershire, and Let's Talk Haringey in London. Participants obtained information about the study, what was involved in participating, the treatment, and how to proceed with participation in telephone screenings at the three services. Participants also provided written informed consent for participating in the evaluation when accessing the OCD‐NET platform for the first time.</p>
+              </sec>
+              <sec id="bjc12365-sec-0009">
+                <title>Procedure</title>
+                <p>After evaluation of the evidence for OCD‐NET and development of the therapy platform to meet usability and security standards by NICE and IAPT, a 2‐year evaluation in practice took place between September 2019 and September 2021 (NICE, <xref rid="bjc12365-bib-0029" ref-type="bibr">2019</xref>). In August 2019, 1‐day training sessions were held by authors OF and CR at the three services selected to participate. The training included information about OCD‐NET and the techniques used, mainly exposure with response prevention. Further, therapists and clinical leads were given access to therapist accounts and test patient accounts to practice the day‐to‐day use of the treatment platform. These were presented as clinical scenarios which included writing and responding to messages, reviewing homework and worksheets, managing suicidal ideation notifications, and methods for supervision on the platform. A comprehensive online therapist manual was also developed where therapists could learn more about using the platform and best practices in ICBT. Additional training sessions were held remotely via videoconferencing with the project leader (OF) as needed, for example, due to therapist turnover or lack of previous experience in treating OCD among newly trained therapists. Throughout the evaluation, OCD‐NET therapists were supervised via the platform and bi‐weekly supervision sessions were held via videoconferencing where therapists could discuss issues related to using the platform as well as questions or difficulties in the ongoing treatments. As therapists gained more experience using the treatment platform and providing effective support to patients, videoconference supervision was stepped down to occur once per month.</p>
+              </sec>
+              <sec id="bjc12365-sec-0010">
+                <title>Participants</title>
+                <p>Consecutively referred patients at the three sites with a primary diagnosis of OCD were offered OCD‐NET as a treatment option after undergoing a standardized IAPT assessment. The assessment includes information about the IAPT service, exploration of the patient's presenting problem(s), identification of the appropriate problem descriptors using ICD‐10 codes, a standardized risk assessment, and completion of the IAPT Data Set including diagnosis‐specific outcome measures. The assessments were conducted by Psychological Well‐being Practitioners (PWPs) or High‐Intensity CBT therapists (The National Collaborating Centre for Mental Health, <xref rid="bjc12365-bib-0042" ref-type="bibr">2021</xref>). There were no restrictions regarding psychotropic medication, the severity of OCD symptoms, or comorbidity with depression or anxiety disorders as long as OCD was the primary diagnosis. Exclusion criteria were moderate to high suicidal ideation that would require frequent follow‐up (i.e., clear plans or intent to act on suicidal thoughts), low motivation to participate (e.g., does not believe the therapy will be helpful at all) or attention deficits that would interfere with reading the treatment texts (e.g, unmedicated attention deficit hyperactivity disorder, self‐reported difficulties reading books or newspapers), insufficient time to work on the treatment (about 45 minutes per day in the most intense phase), severe depression (i.e., PHQ‐9 total score 20–27 with marked loss of daily functioning), another ongoing psychological treatment or prior treatment for OCD at the service, or a severe mental disorder that would interfere with treatment (e.g., unmedicated psychosis or bipolar disorder and untreated substance use disorder).</p>
+              </sec>
+              <sec id="bjc12365-sec-0011">
+                <title>Therapist eligibility</title>
+                <p>All interested therapists were eligible to participate, regardless of prior experience using digital therapies or treating OCD. Prior to the OCD‐NET evaluation, the services had treated OCD at step 2 using PWPs at the Dorset service or step 3 using high‐intensity CBT therapists (HI‐CBT) at the Gloucestershire and Haringey services, and the therapists involved in the evaluation were thus a mix of PWPs and HI‐CBT therapists. To facilitate the development of skills and efficient use of the platform, it was recommended that each therapist had a case‐load of 4–8 concurrent patients in OCD‐NET. The therapists had been working within the IAPT system between 1 and 12 years (mean = 4 years). Previous experience in treating OCD varied by level of training with 71% of PWPs in Dorset having treated no or fewer than five OCD patients, while all HI‐CBT therapists in Gloucestershire and Haringey had treated OCD and 38% of therapists had seen more than ten patients prior to this study.</p>
+              </sec>
+              <sec id="bjc12365-sec-0012">
+                <title>Intervention</title>
+                <p>OCD‐NET is a 10‐week therapist‐guided, internet‐delivered intervention for OCD. There are 10 treatment modules that include texts and images (e.g., what is OCD, introduction to exposure with response prevention), along with homework assignments and worksheets. As with validated treatment protocols of face‐to‐face CBT for OCD, the emphasis is on exposure with response prevention (Foa et al., <xref rid="bjc12365-bib-0016" ref-type="bibr">2012</xref>), and the difference is in the mode of delivery rather than content. To access OCD‐NET, patients log on to a secure website where they can read module texts, respond to questionnaires and homework exercises, fill out worksheets (e.g., evaluating an exposure task), as well as write and respond to messages from the therapist. Therapists provide daily support by writing and responding to messages, reviewing homework assignments and worksheet entries, and prompting the patients to engage with exposure tasks. For more information regarding the treatment, please see descriptions in previous randomized controlled trials of OCD‐NET (Andersson et al., <xref rid="bjc12365-bib-0004" ref-type="bibr">2012</xref>, <xref rid="bjc12365-bib-0005" ref-type="bibr">2015</xref>; Rück et al., <xref rid="bjc12365-bib-0037" ref-type="bibr">2018</xref>).</p>
+              </sec>
+              <sec id="bjc12365-sec-0013">
+                <title>Primary outcome measure</title>
+                <p>The primary outcome measure was the Obsessive–Compulsive Inventory‐Revised (OCI‐R), a self‐rated questionnaire consisting of 18 items assessing various domains of OCD symptoms (Foa et al., <xref rid="bjc12365-bib-0015" ref-type="bibr">2002</xref>). Each item is scored 0–4 on a 5‐point Likert scale, yielding a total score of 0–72. The OCI‐R has adequate internal validity (Cronbach's <mml:math id="jats-math-1"><mml:mi>α</mml:mi></mml:math> = .81), a 2‐week test–retest reliability of 0.82, as well as a moderate convergent validity with the clinician‐rated Yale‐Brown Obsessive–Compulsive Scale (Goodman et al., <xref rid="bjc12365-bib-0018" ref-type="bibr">1989</xref>) of <italic toggle="yes">r</italic> = .53 (Foa et al., <xref rid="bjc12365-bib-0015" ref-type="bibr">2002</xref>). In the current sample, the internal validity was good (<mml:math id="jats-math-2"><mml:mi>α</mml:mi></mml:math> = .87 [95% CI 0.86 to 0.89]). The OCI‐R is sensitive to changes in OCD symptoms during treatment (Abramowitz et al., <xref rid="bjc12365-bib-0002" ref-type="bibr">2005</xref>) and it can distinguish between patients diagnosed with OCD from those with other anxiety disorders (AUC = 0.81) (Abramowitz &amp; Deacon, <xref rid="bjc12365-bib-0001" ref-type="bibr">2006</xref>). A cut‐off of 17 was used as the threshold for recovery in this trial, based on previous analyses of IAPT data (Veale et al., <xref rid="bjc12365-bib-0045" ref-type="bibr">2016</xref>) and the threshold for a reliable change was 13 points (Veale et al., <xref rid="bjc12365-bib-0045" ref-type="bibr">2016</xref>). The OCI‐R was administered via the treatment platform pre‐treatment, weekly during treatment, as well as post‐treatment.</p>
+              </sec>
+              <sec id="bjc12365-sec-0014">
+                <title>Secondary outcome measures</title>
+                <p>The Patient Health Questionnaire‐9 (PHQ‐9), Generalized Anxiety Disorder 7‐item scale (GAD‐7), and Work and Social Adjustment Scale (WSAS) are included in the IAPT outcome monitoring system. National averages in pre‐treatment and post‐treatment values as well as effect sizes are available as benchmarks (England PH, <xref rid="bjc12365-bib-0013" ref-type="bibr">2021</xref>). A modified version of the Patient Experience Questionnaire (PEQ) that includes additional questions regarding digital therapy was included post‐treatment.</p>
+                <sec id="bjc12365-sec-0015">
+                  <title>Patient health questionnaire‐9</title>
+                  <p>The PHQ‐9 is a self‐rated questionnaire for major depressive disorder (Kroenke et al., <xref rid="bjc12365-bib-0023" ref-type="bibr">2001</xref>). Nine items (e.g., little interest in doing things) are scored on a scale from 0 ‘not at all’ to 3 ‘nearly every day’ during the last 2 weeks, yielding a total score of 0–27 (Kroenke et al., <xref rid="bjc12365-bib-0023" ref-type="bibr">2001</xref>). The PHQ‐9 has excellent internal validity (Cronbach's <mml:math id="jats-math-3"><mml:mi>α</mml:mi></mml:math> = .89) (Kroenke et al., <xref rid="bjc12365-bib-0023" ref-type="bibr">2001</xref>), which was also seen in the current sample (<mml:math id="jats-math-4"><mml:mi>α</mml:mi></mml:math> = .86 [95% CI 0.84 to 0.88]). A cut‐off of ≥10 points distinguishes patients with major depressive disorder with a sensitivity of 88% and a specificity of 88% and was used as the cut‐off for recovery in this trial (Kroenke et al., <xref rid="bjc12365-bib-0023" ref-type="bibr">2001</xref>). The threshold for reliable change was 6 points. In this trial, the PHQ‐9 was administered at pre‐treatment, weekly throughout treatment, and post‐treatment.</p>
+                </sec>
+                <sec id="bjc12365-sec-0016">
+                  <title>Generalized anxiety disorder 7</title>
+                  <p>The GAD‐7 is a 7‐item anxiety scale that measures common symptoms associated with generalized anxiety disorder in the last 2 weeks (Spitzer et al., <xref rid="bjc12365-bib-0040" ref-type="bibr">2006</xref>). Each item ranges from 0 ‘not at all’ to 3 ‘nearly every day’, resulting in a total score of 0–21. The GAD‐7 has excellent internal consistency (Cronbach's <mml:math id="jats-math-5"><mml:mi>α</mml:mi></mml:math> = .92) and convergent validity (correlation with the Beck Anxiety Inventory <italic toggle="yes">r</italic> = .72) (Spitzer et al., <xref rid="bjc12365-bib-0040" ref-type="bibr">2006</xref>). In the current sample, internal consistency on the GAD‐7 was excellent (<mml:math id="jats-math-6"><mml:mi>α</mml:mi></mml:math> = .87 [95% CI 0.85 to 0.89]). A score of ≥8 was used as the cut‐off for caseness, and the reliable change threshold was 4 points. The GAD‐7 was administered at pre‐treatment, weekly throughout treatment, and post‐treatment.</p>
+                </sec>
+                <sec id="bjc12365-sec-0017">
+                  <title>Work and social adjustment scale</title>
+                  <p>The WSAS measures functional impairment in five domains: work, home management, social leisure activities, private leisure activities, and close relationships (Mundt et al., <xref rid="bjc12365-bib-0028" ref-type="bibr">2002</xref>). Each domain is scored from 0 ‘no impairment’ to 8 ‘very severe impairment’. Internal consistency ranges from Cronbach's <mml:math id="jats-math-7"><mml:mi>α</mml:mi></mml:math> 0.70–0.94 for the separate items (<mml:math id="jats-math-8"><mml:mi>α</mml:mi></mml:math> ranged from 0.76 to 0.82 in the current sample), and the 2‐week test–retest reliability is <italic toggle="yes">r</italic> = .73 (Mundt et al., <xref rid="bjc12365-bib-0028" ref-type="bibr">2002</xref>). Similar to the other self‐rated measures, the WSAS was administered weekly from pre‐treatment to post‐treatment.</p>
+                </sec>
+                <sec id="bjc12365-sec-0018">
+                  <title>Patient experience questionnaire</title>
+                  <p>The modified version of the PEQ evaluates patients’ experiences with the IAPT service in general, with additional questions about the online therapy in particular. First, patients answer five questions regarding the service on a 5‐point Likert scale ranging from ‘At all Times’ to ‘Never’, for example, ‘Did you feel involved in making choices about your treatment and care?’ Next, patients rate their satisfaction with the online therapy on a 5‐point Likert scale, ranging from ‘Completely Satisfied’ to ‘Not at All Satisfied’. The four questions included are ‘How satisfied were you with your online therapy?’, ‘How helpful did you find the online self‐help materials?’, ‘How easy was the online therapy to use?’, and ‘How easy was it to communicate with your therapist?’. The PEQ was administered at post‐treatment.</p>
+                </sec>
+                <sec id="bjc12365-sec-0019">
+                  <title>Recovery, improvement, and deterioration</title>
+                  <p>A common measure of treatment effects in the IAPT system is recovery rates, which is how many patients score above <italic toggle="yes">caseness</italic>, for example, scoring 17 or more on the OCI‐R, at pre‐treatment and have a score below the caseness threshold on their last appointment. The overall goal is that 50% of patients reach recovery after treatment (Clark, <xref rid="bjc12365-bib-0011" ref-type="bibr">2018</xref>). In this trial, a patient was considered to be in recovery if they had completed at least two weekly assessments and the last available total scores on the OCI‐R and PHQ‐9 were both below caseness cut‐offs (The National Collaborating Centre for Mental Health, <xref rid="bjc12365-bib-0042" ref-type="bibr">2021</xref>).</p>
+                  <p>Reliable improvement is defined as a clinically significant reduction in symptoms between the first and last scores, and deterioration occurs when there is a clinically significant increase in symptoms. To meet IAPT criteria for reliable improvement or deterioration, at least one of OCI‐R or PHQ‐9 has to move into the range for improvement/deterioration while the other measure moves in the same direction or is unchanged. No reliable change occurs when one measurement meets criteria for reliable improvement and the other meets criteria for reliable deterioration, or when neither measure has a change that exceeds the reliable change threshold (The National Collaborating Centre for Mental Health, <xref rid="bjc12365-bib-0042" ref-type="bibr">2021</xref>).</p>
+                  <p>Recovery and reliable improvement can be combined to create an overall measure of <italic toggle="yes">reliable recovery</italic>, that is, patients that meet criteria for both recovery and reliable improvement (The National Collaborating Centre for Mental Health, <xref rid="bjc12365-bib-0042" ref-type="bibr">2021</xref>).</p>
+                </sec>
+                <sec id="bjc12365-sec-0020">
+                  <title>Engagement and satisfaction</title>
+                  <p>Participant engagement was measured by counting the number of messages sent and received by participants, as well as module completion (i.e., whether participants read the main text of a certain module during treatment). Participants who reached module 4 were classified as treatment completers since they had reached the core intervention exposure with response prevention.</p>
+                  <p>A modified version of the PEQ was included in the post‐treatment assessment, with added questions about the digital therapy (The National Collaborating Centre for Mental Health, <xref rid="bjc12365-bib-0042" ref-type="bibr">2021</xref>). Participants were asked to rate satisfaction with the online therapy, whether the online materials were helpful, to what degree the online therapy was easy to use, and the ease of communicating with their therapist using the online therapy. Each question was rated on a 5‐point Likert scale ranging from ‘Completely Satisfied’ to ‘Not at All Satisfied’.</p>
+                </sec>
+              </sec>
+              <sec id="bjc12365-sec-0021">
+                <title>Risk management</title>
+                <p>Therapists monitored weekly responses to questionnaires throughout treatment and discussed any unexpected changes with patients (e.g., a sudden increase in OCD symptoms). Further, if a participant indicated heightened suicidal ideation on the PHQ‐9 question 9 (‘Thoughts that you would be better off dead or of hurting yourself in some way’) by responding ‘More than half the days’ or ‘Nearly every day’, an automatic monitoring system on the treatment platform flagged the patient and therapists conducted a structured suicide risk assessment via telephone. After the structured suicide risk assessment, the participant received additional calls as needed to monitor risk and was otherwise managed according to local routines in place at each IAPT service.</p>
+              </sec>
+              <sec id="bjc12365-sec-0022">
+                <title>Statistical analyses</title>
+                <p>The primary and secondary outcomes were fitted using mixed‐effects linear regression models with a fixed effect of time and a random intercept for each participant. These models included all participants according to intention to treat, and missing data was estimated using maximum likelihood. Standardized effect sizes were calculated based on the least‐squares means using the residual standard deviation of the random effects as sigma. Recovery, reliable improvement, and reliable recovery were calculated based on the first and last assessments for participants who had responded to questionnaires on two or more occasions. Post‐hoc tests for site differences on baseline characteristics were conducted using analysis of variance for continuous variables and chi‐square test of independence for categorical variables. Sensitivity analyses were conducted on treatment completers (i.e., participants who reached module 4). Because the amount of previous experience treating OCD varied by level of training, post‐hoc analyses were done by including therapist training as a covariate in the main OCI‐R model, as well as comparing the OCI‐R improvement between the first five and subsequent participants for each therapist to evaluate the effect of becoming more experienced in using OCD‐NET. R version 4.0.5 was used for statistical analyses (R Core Team. R, <xref rid="bjc12365-bib-0035" ref-type="bibr">2021</xref>). The scripts used for statistical analyses are available on the Open Science Framework (<ext-link xlink:href="https://osf.io/cakxb/" ext-link-type="uri">https://osf.io/cakxb/</ext-link>).</p>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="bjc12365-sec-0023">
+              <title>RESULTS</title>
+              <sec id="bjc12365-sec-0024">
+                <title>Participant characteristics</title>
+                <p>The majority of participants were female and reported clinically significant symptoms of OCD for 8 years prior to participating in the study. The most common comorbid condition was major depressive disorder and 29% of participants were taking antidepressant medication (see Table <xref rid="bjc12365-tbl-0001" ref-type="table">1</xref>). Post‐hoc analyses of site differences showed that participants at the Haringey site were more likely to not be in a relationship (<italic toggle="yes">p</italic> = .002), and had higher educational attainment (<italic toggle="yes">p </italic>&lt; .001) compared to the other two sites. Having a diagnosis of post‐traumatic stress disorder was more common at the Gloucestershire site (6.5%) compared to Dorset (1%) and Haringey (2.8%) (<italic toggle="yes">p</italic> = .008) and participants at the Gloucestershire site were also more likely to be currently taking antidepressant medication with selective serotonin reuptake inhibitor (38.9%) compared to the Dorset (27.6%) and Haringey (19.4%) sites (<italic toggle="yes">p</italic> = .013). One participant ended treatment prematurely due to a sudden increase in suicidal ideation and was moved to face‐to‐face treatment with more frequent follow‐up.</p>
+                <table-wrap position="float" id="bjc12365-tbl-0001" content-type="TABLE">
+                  <label>TABLE 1</label>
+                  <caption>
+                    <p>Participant characteristics</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <col style="border-right:solid 1px #000000" span="1"/>
+                    <thead valign="top">
+                      <tr style="border-bottom:solid 1px #000000">
+                        <th align="left" valign="top" rowspan="1" colspan="1"/>
+                        <th align="left" valign="top" rowspan="1" colspan="1"><italic toggle="yes">n</italic> (%)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Age in years, mean (<italic toggle="yes">SD</italic>)</td>
+                        <td align="left" rowspan="1" colspan="1">30.02 (10.62)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Sex, female</td>
+                        <td align="left" rowspan="1" colspan="1">303 (73%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Relationship status</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Single</td>
+                        <td align="left" rowspan="1" colspan="1">194 (41%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Partner or married</td>
+                        <td align="left" rowspan="1" colspan="1">207 (44%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Divorced</td>
+                        <td align="left" rowspan="1" colspan="1">6 (1%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Other or prefer not to answer</td>
+                        <td align="left" rowspan="1" colspan="1">67 (14%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Occupational status</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Working</td>
+                        <td align="left" rowspan="1" colspan="1">290 (70%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Student</td>
+                        <td align="left" rowspan="1" colspan="1">61 (15%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Retired</td>
+                        <td align="left" rowspan="1" colspan="1">3 (1%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Unemployed</td>
+                        <td align="left" rowspan="1" colspan="1">59 (14%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Disability pension</td>
+                        <td align="left" rowspan="1" colspan="1">1</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Currently on sick leave</td>
+                        <td align="left" rowspan="1" colspan="1">26 (6%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Highest attained education</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Primary school</td>
+                        <td align="left" rowspan="1" colspan="1">4 (1%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">High school</td>
+                        <td align="left" rowspan="1" colspan="1">146 (35%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Bachelor's degree</td>
+                        <td align="left" rowspan="1" colspan="1">223 (54%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Master's degree</td>
+                        <td align="left" rowspan="1" colspan="1">37 (9%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Doctorate</td>
+                        <td align="left" rowspan="1" colspan="1">4 (1%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Years with OCD, mean (SD)</td>
+                        <td align="left" rowspan="1" colspan="1">8.13 (8.55)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Previous CBT for OCD</td>
+                        <td align="left" rowspan="1" colspan="1">107 (26%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Comorbid disorders</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Major depressive disorder</td>
+                        <td align="left" rowspan="1" colspan="1">106 (22%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Generalized anxiety disorder</td>
+                        <td align="left" rowspan="1" colspan="1">20 (4%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Social anxiety disorder</td>
+                        <td align="left" rowspan="1" colspan="1">4 (1%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Panic disorder</td>
+                        <td align="left" rowspan="1" colspan="1">14 (3%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">PTSD</td>
+                        <td align="left" rowspan="1" colspan="1">12 (3%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Autism spectrum disorder</td>
+                        <td align="left" rowspan="1" colspan="1">12 (3%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">ADHD</td>
+                        <td align="left" rowspan="1" colspan="1">5 (1%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Anorexia</td>
+                        <td align="left" rowspan="1" colspan="1">9 (2%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Bulimia</td>
+                        <td align="left" rowspan="1" colspan="1">5 (1%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Other<xref rid="bjc12365-note-0003" ref-type="table-fn"><sup>a</sup></xref>
+</td>
+                        <td align="left" rowspan="1" colspan="1">15 (3%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Current medication</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">SSRI</td>
+                        <td align="left" rowspan="1" colspan="1">137 (29%)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" style="padding-left:10%" rowspan="1" colspan="1">Other<xref rid="bjc12365-note-0004" ref-type="table-fn"><sup>b</sup></xref>
+</td>
+                        <td align="left" rowspan="1" colspan="1">13 (3%)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot id="bjc12365-ntgp-0002">
+                    <fn id="bjc12365-note-0002">
+                      <p>Abbreviations: ADHD, attention‐deficit hyperactivity disorder; CBT, cognitive behaviour therapy; OCD, obsessive–compulsive disorder; PTSD, post‐traumatic stress disorder; SSRI, selective serotonin reuptake inhibitor.</p>
+                    </fn>
+                    <fn id="bjc12365-note-0003">
+                      <label>
+                        <sup>a</sup>
+                      </label>
+                      <p>Other disorders include (<italic toggle="yes">n</italic>): Agoraphobia (1), Body dysmorphic disorder (2), Bipolar disorder (3), Borderline personality disorder (2), Emetophobia (2), Health anxiety disorder (2), Insomnia (1), Schizophrenia (1), Tic disorder (1).</p>
+                    </fn>
+                    <fn id="bjc12365-note-0004">
+                      <label>
+                        <sup>b</sup>
+                      </label>
+                      <p>Other medications include (<italic toggle="yes">n</italic>): Other antidepressants such as Selective Noradrenaline Reuptake Inhibitors (6), Beta‐adrenergic blocking agents (3), Bensodiazepines (2), Central stimulants (1), Anti‐psychotic medication (1).</p>
+                    </fn>
+                  </table-wrap-foot>
+                  <permissions>
+                    <copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder>
+                  </permissions>
+                </table-wrap>
+              </sec>
+              <sec id="bjc12365-sec-0025">
+                <title>Module completion</title>
+                <p>A total of 261 (55%) participants were considered treatment completers as exposure with response prevention is first introduced in Module 4. The number of participants who accessed each module during the treatment period is shown in Figure <xref rid="bjc12365-fig-0001" ref-type="fig">1</xref>.</p>
+                <fig position="float" fig-type="FIGURE" id="bjc12365-fig-0001">
+                  <label>FIGURE 1</label>
+                  <caption>
+                    <p>Participant flow through the study</p>
+                  </caption>
+                  <graphic xlink:href="BJC-61-895-g002" position="anchor" id="jats-graphic-1"/>
+                </fig>
+              </sec>
+              <sec id="bjc12365-sec-0026">
+                <title>Primary outcome</title>
+                <p>In ITT analyses (<italic toggle="yes">n</italic> = 474), the OCI‐R decreased from 31.1 at pre‐treatment to 21.07 at post‐treatment (mean reduction −10.04 points, <italic toggle="yes">d</italic> = 1.77 [1.58 to 1.97]), a reduction that was statistically significant (<italic toggle="yes">F</italic> [11, 2644.45] = 77.49, <italic toggle="yes">p</italic> &lt; .001). Sensitivity analyses were conducted on the 261 participants who reached module 4 within the treatment period and were considered completers as they had been introduced to exposure with response prevention. The estimated pre–post change was larger among treatment completers (mean reduction −11.1 points, <italic toggle="yes">d</italic> = 2.04 [1.83 to 2.26]).</p>
+                <p>Post‐hoc analyses showed that therapist training, but not increased experience in using OCD‐NET, moderated results. There was a statistically significant interaction effect between level of therapist training and weekly reduction of OCI‐R scores, indicating that participants receiving treatment from PWP therapists improved significantly less over time (Z = 0.45, 95% CI 0.32 to 0.58, <italic toggle="yes">p</italic> &lt; .001) as seen in Figure <xref rid="bjc12365-fig-0002" ref-type="fig">2a</xref>. In contrast, there was no statistically significant effect of experience with using OCD‐NET as outcomes were identical when comparing the first 5 to subsequent patients for each therapist (Z = −0.04, 95% CI −0.18 to 0.1, <italic toggle="yes">p</italic> = .58), see Figure <xref rid="bjc12365-fig-0002" ref-type="fig">2b</xref>.</p>
+                <fig position="float" fig-type="FIGURE" id="bjc12365-fig-0002">
+                  <label>FIGURE 2</label>
+                  <caption>
+                    <p>(a) OCI‐R reduction over time by level of therapist training. (b) OCI‐R reduction over time by level of therapist experience with OCD‐NET. Abbreviations: HICBT, High‐Intensity CBT therapist; OCI‐R, Obsessive–compulsive Inventory‐Revised; PWP, Psychological Well‐being Practitioner</p>
+                  </caption>
+                  <graphic xlink:href="BJC-61-895-g003" position="anchor" id="jats-graphic-3"/>
+                </fig>
+              </sec>
+              <sec id="bjc12365-sec-0027">
+                <title>Secondary outcomes</title>
+                <p>Symptoms of anxiety on the GAD‐7 also decreased during treatment, from 13.16 at pre‐treatment to 8.7 after treatment. The mean reduction was −4.46 points (<italic toggle="yes">d</italic> = 1.55 [1.36 to 1.73]) in the full sample and −4.93 points (<italic toggle="yes">d</italic> = 1.71 [1.5 to 1.92]) when only analysing participants classified as treatment completers. This reduction can be compared to publicly available data on OCD patients in all of IAPT, which reported a mean reduction from 15.1 to 8.8 (<italic toggle="yes">d</italic> = 1.5) (Team I &amp; Digital N, <xref rid="bjc12365-bib-0041" ref-type="bibr">2020</xref>).</p>
+                <p>The average PHQ‐9 score at pre‐treatment was 11.47 and decreased to 8.32 at post‐treatment (mean reduction −3.15, <italic toggle="yes">d</italic> = 1.04 [0.85 to 1.23]). Among treatment completers, the mean pre–post reduction was −3.65 (<italic toggle="yes">d</italic> = 1.24 [1.03 to 1.45]). The corresponding reduction for all OCD patients in IAPT is from 13.5 at pre‐treatment to 8.3 at post‐treatment (<italic toggle="yes">d</italic> = 0.8) (Team I &amp; Digital N, <xref rid="bjc12365-bib-0041" ref-type="bibr">2020</xref>).</p>
+                <p>Functional impairment measured on the WSAS was reduced in all domains between pre‐treatment and post‐treatment, with comparable effect sizes to the publicly available reference data from IAPT (all diagnoses combined) (Team I &amp; Digital N, <xref rid="bjc12365-bib-0041" ref-type="bibr">2020</xref>). In the work domain, impairment decreased from 3.04 at pre‐treatment to 2.19 at post‐treatment (<italic toggle="yes">d</italic> = 0.72 [0.54 to 0.91]), compared to a reduction from 4.2 to 2.7 (<italic toggle="yes">d</italic> = 0.6) in IAPT reference data. Home management impairment decreased from 3.35 to 2.77 (<italic toggle="yes">d</italic> = 0.52 [0.33 to 0.7]), and the reduction in the reference IAPT database was 3.5 to 2.5 (<italic toggle="yes">d</italic> = 0.4). Impairment in social leisure activities decreased from 3.65 to 2.84 (<italic toggle="yes">d</italic> = 0.71 [0.53 to 0.9]), compared to a reduction from 4.3 to 2.9 (<italic toggle="yes">d</italic> = 0.6) in IAPT reference data. Private leisure activities impairment decreased from 3.17 to 2.39 (<italic toggle="yes">d</italic> = 0.68 [0.5 to 0.87]), whereas the reduction in IAPT reference data was from 3.5 to 2.4 (<italic toggle="yes">d</italic> = 0.5). Finally, impairment in close relationships decreased from 3.05 to 2.49 (<italic toggle="yes">d</italic> = 0.51 [0.32 to 0.69]), compared to a decrease from 3.8 to 2.6 (<italic toggle="yes">d</italic> = 0.5) in the IAPT reference data.</p>
+              </sec>
+              <sec id="bjc12365-sec-0028">
+                <title>Recovery, improvement, and deterioration</title>
+                <p>A total of 404 participants provided at least two assessments. Among them, 138 (34.6%) were in recovery at their last assessment, that is, moving below the threshold for caseness on both the OCI‐R and PHQ‐9. The corresponding number for reliable improvement was 99 participants (24.5%), where the criteria were that either the OCI‐R or PHQ‐9 exceeds the threshold for reliable improvement while the other is also improved or unchanged. A total of 59 (14.6%) met the criteria for both recovery and improvement and were considered to be reliably recovered. Among treatment completers, the rates of recovery (44%), reliable improvement (33.5%), and reliable recovery (20.8%) were higher (Figure <xref rid="bjc12365-fig-0003" ref-type="fig">3</xref>). When looking at the OCI‐R alone, 102 (25%) of participants reliably improved, 15 (4%) reliably deteriorated, and 287 (71%) neither improved nor deteriorated.</p>
+                <fig position="float" fig-type="FIGURE" id="bjc12365-fig-0003">
+                  <label>FIGURE 3</label>
+                  <caption>
+                    <p>Rates of recovery, reliable change, and reliable recovery using the first and last assessments on the OCI‐R and PHQ‐9</p>
+                  </caption>
+                  <graphic xlink:href="BJC-61-895-g001" position="anchor" id="jats-graphic-5"/>
+                </fig>
+              </sec>
+              <sec id="bjc12365-sec-0029">
+                <title>Engagement and satisfaction</title>
+                <p>The patients sent 7.63 (<italic toggle="yes">SD</italic> = 8.91) messages on average, and received 11.24 (<italic toggle="yes">SD</italic> =8.88) messages from their therapist, however with a wide range from 0 to 50 messages sent by the participants. Out of 193 respondents on the post‐treatment patient experience questionnaire, 74% were completely or mostly satisfied with their online therapy, 80% found the online materials very helpful or helpful, 71% experienced the online therapy as easy to use, and 87% found it easy to communicate with their therapist.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="bjc12365-sec-0030">
+              <title>DISCUSSION</title>
+              <p>The purpose of this study was to evaluate the implementation of an evidence‐based ICBT intervention for OCD in three IAPT services across the United Kingdom. The treatment was associated with large reductions in OCD symptoms (mean reduction on the OCI‐R −10 points, <italic toggle="yes">d</italic> = 1.77), anxiety (<italic toggle="yes">d</italic> = 1.55), and depression (<italic toggle="yes">d</italic> = 0.8). Further, 35% and 25% of participants met IAPT criteria for recovery and clinically significant improvement, respectively. For outcomes where reference data from all OCD treatments in IAPT was available, OCD‐NET was associated with equal or larger improvements compared to face‐to‐face CBT which is the current gold‐standard treatment for OCD.</p>
+              <p>The results from this open trial are in line with previous evaluations of OCD‐NET, which have found effect sizes on the OCI‐R ranging from <italic toggle="yes">d</italic> = 0.9 to <italic toggle="yes">d</italic> = 1.7 (Andersson et al., <xref rid="bjc12365-bib-0007" ref-type="bibr">2011</xref>, <xref rid="bjc12365-bib-0004" ref-type="bibr">2012</xref>, <xref rid="bjc12365-bib-0005" ref-type="bibr">2015</xref>; Patel et al., <xref rid="bjc12365-bib-0032" ref-type="bibr">2018</xref>). These effect sizes are comparable or slightly higher than those obtained in other studies evaluating ICBT and low‐intensity treatments for OCD in clinical practice. For example, a large randomized controlled trial from the United Kingdom evaluated computerized CBT and guided self‐help for OCD and found pre‐treatment to post‐treatment reductions on the Yale‐Brown Obsessive–Compulsive Scale (Y‐BOCS; (Goodman et al., <xref rid="bjc12365-bib-0018" ref-type="bibr">1989</xref>)) of <italic toggle="yes">d</italic> = 0.6 and 0.8, respectively (observer‐rated when available otherwise self‐rated) (Lovell et al., <xref rid="bjc12365-bib-0024" ref-type="bibr">2017</xref>). A recent evaluation of both guided and unguided ICBT for OCD in the Australian routine care ICBT clinic <italic toggle="yes">MindSpot</italic> found standardized effect sizes on the self‐rated version of the Y‐BOCS of <italic toggle="yes">g</italic> = 0.6 at post‐treatment and <italic toggle="yes">g</italic> = 0.9 at 3‐month follow‐up (Wootton et al., <xref rid="bjc12365-bib-0048" ref-type="bibr">2021</xref>), similar to an early evaluation that found an effect size of <italic toggle="yes">d</italic> = 0.9 on the self‐rated version of the Y‐BOCS (Titov et al., <xref rid="bjc12365-bib-0044" ref-type="bibr">2017</xref>). An evaluation of a mix of guided and unguided ICBT for OCD on another online treatment platform developed in Australia, <italic toggle="yes">THISWAYUP</italic>, found a pre–post standardized effect size of <italic toggle="yes">g</italic> = 0.61 on the dimensional Y‐BOCS scale (Luu et al., <xref rid="bjc12365-bib-0025" ref-type="bibr">2020</xref>). Although direct comparisons between studies are hard due to differences in outcome measures used, programme structure and content, technological platforms used, and the context in which therapy is delivered, this study adds to the growing evidence base showing the effectiveness of ICBT for OCD when delivered in routine care.</p>
+              <p>This study is not without limitations. First, as this was an open trial without a control group, it is unclear whether the observed changes in symptoms were due to the treatment, general factors in care such as attention from clinicians, or due to the passage of time. However reference data of all treatments for OCD in IAPT is available as a comparison, and spontaneous remission is uncommon in OCD (Skoog &amp; Skoog, <xref rid="bjc12365-bib-0039" ref-type="bibr">1999</xref>). Second, although eligibility criteria for the trial were broad to not interfere with criteria for treatment in regular clinical practice, some exclusion criteria were still in place which may reduce the generalisability of the results. For example, among the reasons for exclusion were attention deficits that would interfere with reading the treatment texts, low expressed motivation to participate, or another severe mental disorder that would interfere with treatment such as unmedicated psychosis or bipolar disorder. These, however, reflected general exclusion criteria at the IAPT services participating in the evaluation, as the services treat common mental health disorders such as depression and anxiety disorders, and not more severe conditions typically seen in specialist psychiatric care. Third, we do not have data on the number of patients who were offered OCD‐NET but declined to participate or the number of participants who were excluded prior to being registered on the online treatment platform, thus limiting the generalisability of the results to individuals who chose to participate in this evaluation over other alternatives (e.g., the waitlist for face‐to‐face treatment for OCD). Finally, OCD‐NET should be further evaluated using gold‐standard instruments such as the clinician‐administered Y‐BOCS and with longer follow‐ups, to confirm that treatment gains are maintained over time.</p>
+              <p>There are multiple challenges associated with translating findings from research into clinical practice. First, many clinicians involved in the trial had no or limited experience with OCD and were tasked with learning about effective psychological treatment for OCD and learning how to use a new treatment platform simultaneously, while also continuing their regular clinical work. To address this, regular supervision via videoconferencing was scheduled after the initial 1‐day workshop, where therapists could raise issues and questions related to the platform or the ongoing treatments. We also developed an online resource for therapists that contains written instructions and videos about using the treatment platform, as well as guidance on clinical best practices and common issues in treatment. Second, the style of communication in OCD‐NET (frequent, short messages) was unlike other digital treatments the therapists had previously encountered which were scheduled weekly or bi‐weekly, with structured sessions for 30–60 minutes at a time. During the implementation, we observed and received feedback from therapists that PWPs faced a bigger challenge than HI‐CBT in implementing the short daily check‐ins on the platform, as their schedules rarely included the 15–30 minutes blocks needed to monitor patient progress on the platform. This was also seen in post‐hoc analyses of the OCI‐R where patients treated by PWPs improved less over time. To the best of our knowledge, this is the first study to suggest that therapist seniority could be an important factor in ICBT outcome. By contrast, there was no effect of therapist experience in using OCD‐NET when comparing the first five patients to subsequent patients treated by the same therapist. HI‐CBT therapists are often expected to take on more complex patients and may in turn have more autonomy in planning their schedules, and thus be able to fit in regular checks on the OCD‐NET platform throughout the week.</p>
+            </sec>
+            <sec sec-type="conclusions" id="bjc12365-sec-0031">
+              <title>CONCLUSION</title>
+              <p>This study evaluated internet‐delivered cognitive behaviour therapy for obsessive–compulsive disorder (OCD‐NET) when implemented at three services within the IAPT programme. Improvement on self‐rated measures of OCD, depression, anxiety, and functional impairment were in line with benchmark data from all OCD treatments in IAPT. A majority of patients were satisfied with their online therapy. We conclude that OCD‐NET is an effective treatment option when implemented in IAPT services.</p>
+            </sec>
+            <sec sec-type="COI-statement" id="bjc12365-sec-0033">
+              <title>CONFLICT OF INTEREST</title>
+              <p>Prof. Mataix‐Cols receives royalties for contributing articles to UpToDate, Wolters Kluwer Health, outside the submitted work. Prof. Mataix‐Cols reports personal fees from Elsevier, outside the submitted work. The other authors declare no potential conflicts of interest.</p>
+            </sec>
+            <sec id="bjc12365-sec-0034">
+              <title>AUTHOR CONTRIBUTION</title>
+              <p><bold>Oskar Flygare:</bold> Conceptualization; Data curation; Formal analysis; Funding acquisition; Methodology; Project administration; Visualization; Writing – original draft; Writing – review &amp; editing. <bold>Lina Lundström:</bold> Writing – review &amp; editing. <bold>Erik Andersson:</bold> Conceptualization; Funding acquisition; Supervision; Writing – review &amp; editing. <bold>David Mataix‐Cols:</bold> Conceptualization; Funding acquisition; Supervision; Writing – review &amp; editing. <bold>Christian Rück:</bold> Conceptualization; Data curation; Funding acquisition; Project administration; Supervision; Writing – review &amp; editing.</p>
+            </sec>
+          </body>
+          <back>
+            <ack id="bjc12365-sec-0032">
+              <title>ACKNOWLEDGEMENTS</title>
+              <p>The authors would like to express their gratitude to the therapists and other staff at the three evaluation sites who participated in training workshops, supervision, and engaged with learning a new treatment modality with enthusiasm. The authors thank Professor David Clark for guidance (without remuneration) in the IAPT evaluation process. Open access publishing facilitated by University of New South Wales, as part of the Wiley ‐ University of New South Wales agreement via the Council of Australian University Librarians.</p>
+            </ack>
+            <sec sec-type="data-availability" id="bjc12365-sec-0036">
+              <title>DATA AVAILABILITY STATEMENT</title>
+              <p>The data that support the findings of this study are available on request from the corresponding author. The data are not publicly available due to privacy or ethical restrictions.</p>
+            </sec>
+            <ref-list content-type="cited-references" id="bjc12365-bibl-0001">
+              <title>REFERENCES</title>
+              <ref id="bjc12365-bib-0001">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0001"><string-name><surname>Abramowitz</surname>, <given-names>J. S.</given-names></string-name>, &amp; <string-name><surname>Deacon</surname>, <given-names>B. J.</given-names></string-name> (<year>2006</year>). <article-title>Psychometric properties and construct validity of the ObsessiveCompulsive InventoryRevised: Replication and extension with a clinical sample</article-title>. <source>Journal of Anxiety Disorders</source>, <volume>20</volume>(<issue>8</issue>), <fpage>1016</fpage>–<lpage>1035</lpage>. <pub-id pub-id-type="doi">10.1016/j.janxdis.2006.03.001</pub-id>
+<pub-id pub-id-type="pmid">16621437</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0002">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0002"><string-name><surname>Abramowitz</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Tolin</surname>, <given-names>D.</given-names></string-name>, &amp; <string-name><surname>Diefenbach</surname>, <given-names>G.</given-names></string-name> (<year>2005</year>). <article-title>Measuring change in OCD: Sensitivity of the obsessive‐compulsive inventory‐revised</article-title>. <source>Journal of Psychopathological and Behavioral Assessment</source>, <volume>27</volume>(<issue>4</issue>), <fpage>317</fpage>–<lpage>324</lpage>. <pub-id pub-id-type="doi">10.1007/s10862-005-2411-y</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0003">
+                <mixed-citation publication-type="book" id="bjc12365-cit-0003"><collab collab-type="authors">American Psychiatric Association</collab>
+(<year>2013</year>). <source>Diagnostic and statistical manual of mental disorders: Dsm‐5</source>. <publisher-name>Amer Psychiatric Pub Incorporated</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0004">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0004"><string-name><surname>Andersson</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Enander</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Andrén</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Hedman</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Ljótsson</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Hursti</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Bergström</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Kaldo</surname>, <given-names>V.</given-names></string-name>, <string-name><surname>Lindefors</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Andersson</surname>, <given-names>G.</given-names></string-name>, &amp; <string-name><surname>Rück</surname>, <given-names>C.</given-names></string-name> (<year>2012</year>). <article-title>Internet‐based cognitive behaviour therapy for obsessiveCompulsive disorder: A randomized controlled trial</article-title>. <source>Psychological Medicine</source>, <volume>42</volume>(<issue>10</issue>), <fpage>2193</fpage>–<lpage>2203</lpage>. <pub-id pub-id-type="doi">10.1017/S0033291712000244</pub-id>
+<pub-id pub-id-type="pmid">22348650</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0005">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0005"><string-name><surname>Andersson</surname><given-names>E.</given-names></string-name>, <string-name><surname>Hedman</surname><given-names>E.</given-names></string-name>, <string-name><surname>Enander</surname><given-names>J.</given-names></string-name>, <string-name><surname>Radu Djurfeldt</surname><given-names>D.</given-names></string-name>, <string-name><surname>Ljótsson</surname><given-names>B.</given-names></string-name>, <string-name><surname>Cervenka</surname><given-names>S.</given-names></string-name>, <string-name><surname>Isung</surname><given-names>J.</given-names></string-name>, <string-name><surname>Svanborg</surname><given-names>C.</given-names></string-name>, <string-name><surname>Mataix‐Cols</surname><given-names>D.</given-names></string-name>, <string-name><surname>Kaldo</surname><given-names>V.</given-names></string-name>, <string-name><surname>Andersson</surname><given-names>G.</given-names></string-name>, <string-name><surname>Lindefors</surname><given-names>N.</given-names></string-name>, &amp; <string-name><surname>Rück</surname><given-names>C.</given-names></string-name> (<year>2015</year>). <article-title>d‐Cycloserine vs Placebo as Adjunct to Cognitive Behavioral Therapy for Obsessive‐Compulsive Disorder and Interaction With Antidepressants</article-title>. <source>JAMA Psychiatry</source>, <volume>72</volume>(<issue>7</issue>), <fpage>659</fpage>. <pub-id pub-id-type="doi">10.1001/jamapsychiatry.2015.0546</pub-id>
+<pub-id pub-id-type="pmid">25970252</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0006">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0006"><string-name><surname>Andersson</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Hedman</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Ljótsson</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Wikström</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Elveling</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Lindefors</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Andersson</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Kaldo</surname>, <given-names>V.</given-names></string-name>, &amp; <string-name><surname>Rück</surname>, <given-names>C.</given-names></string-name> (<year>2015</year>). <article-title>Cost‐effectiveness of internet‐based cognitive behavior therapy for obsessive‐compulsive disorder: Results from a randomized controlled trial</article-title>. <source>Journal of Obsessive‐Compulsive and Related Disorders</source>, <volume>4</volume>, <fpage>47</fpage>–<lpage>53</lpage>. <pub-id pub-id-type="doi">10.1016/j.jocrd.2014.12.004</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0007">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0007"><string-name><surname>Andersson</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Ljótsson</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Hedman</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Kaldo</surname>, <given-names>V.</given-names></string-name>, <string-name><surname>Paxling</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Andersson</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Lindefors</surname>, <given-names>N.</given-names></string-name>, &amp; <string-name><surname>Rück</surname>, <given-names>C.</given-names></string-name> (<year>2011</year>). <article-title>Internet‐based cognitive behavior therapy for obsessive compulsive disorder: A pilot study</article-title>. <source>BMC Psychiatry</source>, <volume>11</volume>(<issue>1</issue>), <fpage>125</fpage>. <pub-id pub-id-type="doi">10.1186/1471-244X-11-125</pub-id>
+<pub-id pub-id-type="pmid">21812991</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0008">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0008"><string-name><surname>Andersson</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Steneby</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Karlsson</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Ljótsson</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Hedman</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Enander</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Kaldo</surname>, <given-names>V.</given-names></string-name>, <string-name><surname>Andersson</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Lindefors</surname>, <given-names>N.</given-names></string-name>, &amp; <string-name><surname>Rück</surname>, <given-names>C.</given-names></string-name> (<year>2014</year>). <article-title>Long‐term efficacy of Internet‐based cognitive behavior therapy for obsessiveCompulsive disorder with or without booster: A randomized controlled trial</article-title>. <source>Psychological Medicine</source>, <volume>44</volume>(<issue>13</issue>), <fpage>2877</fpage>–<lpage>2887</lpage>. <pub-id pub-id-type="doi">10.1017/S0033291714000543</pub-id>
+<pub-id pub-id-type="pmid">25066102</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0009">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0009"><string-name><surname>Bennion</surname>, <given-names>M. R.</given-names></string-name>, <string-name><surname>Hardy</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Moore</surname>, <given-names>R. K.</given-names></string-name>, &amp; <string-name><surname>Millings</surname>, <given-names>A.</given-names></string-name> (<year>2017</year>). <article-title>E‐therapies in England for stress, anxiety or depression: What is being used in the NHS? A survey of mental health services</article-title>. <source>British Medical Journal Open</source>, <volume>7</volume>(<issue>1</issue>), <elocation-id>e014844</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmjopen-2016-014844</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0010">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0010"><string-name><surname>Clark</surname>, <given-names>D. M.</given-names></string-name> (<year>2011</year>). <article-title>Implementing NICE guidelines for the psychological treatment of depression and anxiety disorders: The IAPT experience</article-title>. <source>International Review of Psychiatry</source>, <volume>23</volume>(<issue>4</issue>), <fpage>318</fpage>–<lpage>327</lpage>. <pub-id pub-id-type="doi">10.3109/09540261.2011.606803</pub-id>
+<pub-id pub-id-type="pmid">22026487</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0011">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0011"><string-name><surname>Clark</surname>, <given-names>D. M.</given-names></string-name> (<year>2018</year>). <article-title>Realizing the mass public benefit of evidence‐based psychological therapies: The IAPT program</article-title>. <source>Annual Review of Clinical Psychology</source>, <volume>14</volume>(<issue>1</issue>), <fpage>159</fpage>–<lpage>183</lpage>. <pub-id pub-id-type="doi">10.1146/annurev-clinpsy-050817-084833</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0012">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0012"><string-name><surname>Clark</surname>, <given-names>D. M.</given-names></string-name>, <string-name><surname>Canvin</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Green</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Layard</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>Pilling</surname>, <given-names>S.</given-names></string-name>, &amp; <string-name><surname>Janecka</surname>, <given-names>M.</given-names></string-name> (<year>2018</year>). <article-title>Transparency about the outcomes of mental health services (IAPT approach): An analysis of public data</article-title>. <source>The Lancet</source>, <volume>391</volume>(<issue>10121</issue>), <fpage>679</fpage>–<lpage>686</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(17)32133-5</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0013">
+                <mixed-citation publication-type="book" id="bjc12365-cit-0013"><string-name><surname>England</surname>, <given-names>P. H.</given-names></string-name> (<year>2021</year>). <source>Common mental health disorders ‐ PHE</source>. Retrieved from: <ext-link xlink:href="https://fingertips.phe.org.uk/profile-group/mental-health/profile/common-mental-disorders" ext-link-type="uri">https://fingertips.phe.org.uk/profile‐group/mental‐health/profile/common‐mental‐disorders</ext-link>
+</mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0014">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0014"><string-name><surname>Fawcett</surname>, <given-names>E. J.</given-names></string-name>, <string-name><surname>Power</surname>, <given-names>H.</given-names></string-name>, &amp; <string-name><surname>Fawcett</surname>, <given-names>J. M.</given-names></string-name> (<year>2020</year>). <article-title>Women are at greater risk of OCD than men: A meta‐analytic review of OCD prevalence worldwide</article-title>. <source>The Journal of Clinical Psychiatry</source>, <volume>81</volume>(<issue>4</issue>). <pub-id pub-id-type="doi">10.4088/JCP.19r13085</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0015">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0015"><string-name><surname>Foa</surname>, <given-names>E. B.</given-names></string-name>, <string-name><surname>Huppert</surname>, <given-names>J. D.</given-names></string-name>, <string-name><surname>Leiberg</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Langner</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>Kichic</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>Hajcak</surname>, <given-names>G.</given-names></string-name> &amp; <string-name><surname>Salkovskis</surname>, <given-names>P. M.</given-names></string-name> (<year>2002</year>). <article-title>The obsessive‐compulsive inventory: Development and validation of a short version</article-title>. <source>Psychological Assessment</source>, <volume>14</volume>(<issue>4</issue>), <fpage>485</fpage>–<lpage>496</lpage>. <pub-id pub-id-type="doi">10.1037/1040-3590.14.4.485</pub-id>
+<pub-id pub-id-type="pmid">12501574</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0016">
+                <mixed-citation publication-type="book" id="bjc12365-cit-0016"><string-name><surname>Foa</surname>, <given-names>E. B.</given-names></string-name>, <string-name><surname>Yadin</surname>, <given-names>E.</given-names></string-name>, &amp; <string-name><surname>Lichner</surname>, <given-names>T. K.</given-names></string-name> (<year>2012</year>). <source>Exposure and response (ritual) prevention for obsessive‐compulsive disorder: Therapist guide</source> (<edition>2</edition>nd ed.). <publisher-name>Oxford University Press</publisher-name>. (Treatments that work).</mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0017">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0017"><string-name><surname>Fullana</surname>, <given-names>M. A.</given-names></string-name>, <string-name><surname>Mataix‐Cols</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Caspi</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Harrington</surname>, <given-names>H.</given-names></string-name>, <string-name><surname>Grisham</surname>, <given-names>J. R.</given-names></string-name>, <string-name><surname>Moffitt</surname>, <given-names>T. E.</given-names></string-name> &amp; <string-name><surname>Poulton</surname>, <given-names>R.</given-names></string-name> (<year>2009</year>). <article-title>Obsessions and compulsions in the community: prevalence, interference, help‐seeking, developmental stability, and co‐occurring psychiatric conditions</article-title>. <source>American Journal of Psychiatry</source>, <volume>166</volume>(<issue>3</issue>), <fpage>329</fpage>–<lpage>336</lpage>. <pub-id pub-id-type="doi">10.1176/appi.ajp.2008.08071006</pub-id>
+<pub-id pub-id-type="pmid">19188283</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0018">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0018"><string-name><surname>Goodman</surname>, <given-names>W. K.</given-names></string-name>, <string-name><surname>Price</surname>, <given-names>L. H.</given-names></string-name>, <string-name><surname>Rasmussen</surname>, <given-names>S. A.</given-names></string-name>, <string-name><surname>Mazure</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Delgado</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Heninger</surname>, <given-names>G. R.</given-names></string-name>, &amp; <string-name><surname>Charney</surname>, <given-names>D.S.</given-names></string-name> (<year>1989</year>). <article-title>The Yale‐Brown Obsessive Compulsive Scale. I. Development, Use, and Reliability</article-title>. <source>Archives of General Psychiatry</source>, <volume>46</volume>(<issue>11</issue>), <fpage>1012</fpage>–<lpage>1016</lpage>. <pub-id pub-id-type="doi">10.1001/archpsyc.1989.01810110054008</pub-id>
+<pub-id pub-id-type="pmid">2510699</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0019">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0019"><string-name><surname>Goodwin</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>Koenen</surname>, <given-names>K. C.</given-names></string-name>, <string-name><surname>Hellman</surname>, <given-names>F.</given-names></string-name>, <string-name><surname>Guardino</surname>, <given-names>M.</given-names></string-name>, &amp; <string-name><surname>Struening</surname>, <given-names>E.</given-names></string-name> (<year>2002</year>). <article-title>Helpseeking and access to mental health treatment for obsessive‐compulsive disorder</article-title>. <source>Acta Psychiatrica Scandinavica</source>, <volume>106</volume>(<issue>2</issue>), <fpage>143</fpage>–<lpage>149</lpage>. <pub-id pub-id-type="doi">10.1034/j.1600-0447.2002.01221.x</pub-id>
+<pub-id pub-id-type="pmid">12121213</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0020">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0020"><string-name><surname>Hedman</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Ljótsson</surname>, <given-names>B.</given-names></string-name>, &amp; <string-name><surname>Lindefors</surname>, <given-names>N.</given-names></string-name> (<year>2012</year>). <article-title>Cognitive behavior therapy via the Internet: A systematic review of applications, clinical efficacy and costEffectiveness</article-title>. <source>Expert Review of Pharmacoeconomics &amp; Outcomes Research</source>, <volume>12</volume>(<issue>6</issue>), <fpage>745</fpage>–<lpage>764</lpage>. <pub-id pub-id-type="doi">10.1586/erp.12.67</pub-id>
+<pub-id pub-id-type="pmid">23252357</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0021">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0021"><string-name><surname>Hoppen</surname>, <given-names>L. M.</given-names></string-name>, <string-name><surname>Kuck</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Bürkner</surname>, <given-names>P.‐C.</given-names></string-name>, <string-name><surname>Karin</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Wootton</surname>, <given-names>B. M.</given-names></string-name>, &amp; <string-name><surname>Buhlmann</surname>, <given-names>U.</given-names></string-name> (<year>2021</year>). <article-title>Low intensity technology‐delivered cognitive behavioral therapy for obsessive‐compulsive disorder: A meta‐analysis</article-title>. <source>BMC Psychiatry</source>, <volume>21</volume>(<issue>1</issue>), <fpage>322</fpage>. <pub-id pub-id-type="doi">10.1186/s12888-021-03272-5</pub-id>
+<pub-id pub-id-type="pmid">34193113</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0022">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0022"><string-name><surname>Huppert</surname>, <given-names>J. D.</given-names></string-name>, <string-name><surname>Simpson</surname>, <given-names>H. B.</given-names></string-name>, <string-name><surname>Nissenson</surname>, <given-names>K. J.</given-names></string-name>, <string-name><surname>Liebowitz</surname>, <given-names>M. R.</given-names></string-name>, &amp; <string-name><surname>Foa</surname>, <given-names>E. B.</given-names></string-name> (<year>2009</year>). <article-title>Quality of life and functional impairment in obsessiveCompulsive disorder: A comparison of patients with and without comorbidity, patients in remission, and healthy controls</article-title>. <source>Depression and Anxiety</source>, <volume>26</volume>(<issue>1</issue>), <fpage>39</fpage>–<lpage>45</lpage>. <pub-id pub-id-type="doi">10.1002/da.20506</pub-id>
+<pub-id pub-id-type="pmid">18800368</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0023">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0023"><string-name><surname>Kroenke</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Spitzer</surname>, <given-names>R. L.</given-names></string-name>, &amp; <string-name><surname>Williams</surname>, <given-names>J. B.</given-names></string-name> (<year>2001</year>). <article-title>The PHQ‐9: Validity of a brief depression severity measure</article-title>. <source>Journal of General Internal Medicine</source>, <volume>16</volume>(<issue>9</issue>), <fpage>606</fpage>–<lpage>613</lpage>. <pub-id pub-id-type="doi">10.1046/j.1525-1497.2001.016009606.x</pub-id>
+<pub-id pub-id-type="pmid">11556941</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0024">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0024"><string-name><surname>Lovell</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Bower</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Gellatly</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Byford</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Bee</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>McMillan</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Arundel</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Gilbody</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Gega</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Hardy</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Reynolds</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Barkham</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Mottram</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Lidbetter</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Pedley</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>Molle</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Peckham</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Knopp‐Hoffer</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Price</surname>, <given-names>O.</given-names></string-name>, <string-name><surname>Connell</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Heslin</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Foley</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Plummer</surname>, <given-names>F.</given-names></string-name>, &amp; <string-name><surname>Roberts</surname>, <given-names>C.</given-names></string-name> (<year>2017</year>). <article-title>Low‐intensity cognitive‐behaviour therapy interventions for obsessive‐compulsive disorder compared to waiting list for therapist‐led cognitive‐behaviour therapy: 3‐arm randomised controlled trial of clinical effectiveness</article-title>. <source>PLoS Med</source>, <volume>14</volume>(<issue>6</issue>), <elocation-id>e1002337</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pmed.1002337</pub-id>
+<pub-id pub-id-type="pmid">28654682</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0025">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0025"><string-name><surname>Luu</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Millard</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Newby</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Haskelberg</surname>, <given-names>H.</given-names></string-name>, <string-name><surname>Hobbs</surname>, <given-names>M. J.</given-names></string-name>, &amp; <string-name><surname>Mahoney</surname>, <given-names>A. E. J.</given-names></string-name> (<year>2020</year>). <article-title>Internet‐based cognitive behavioural therapy for treating symptoms of obsessive compulsive disorder in routine care</article-title>. <source>Journal of Obsessive‐Compulsive and Related Disorders</source>, <volume>26</volume>, <fpage>100561</fpage>. <pub-id pub-id-type="doi">10.1016/j.jocrd.2020.100561</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0026">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0026"><string-name><surname>Marques</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>LeBlanc</surname>, <given-names>N. J.</given-names></string-name>, <string-name><surname>Weingarden</surname>, <given-names>H. M.</given-names></string-name>, <string-name><surname>Timpano</surname>, <given-names>K. R.</given-names></string-name>, <string-name><surname>Jenike</surname>, <given-names>M.</given-names></string-name>, &amp; <string-name><surname>Wilhelm</surname>, <given-names>S.</given-names></string-name> (<year>2010</year>). <article-title>Barriers to treatment and service utilization in an internet sample of individuals with obsessiveCompulsive symptoms</article-title>. <source>Depression and Anxiety</source>, <volume>27</volume>(<issue>5</issue>), <fpage>470</fpage>–<lpage>475</lpage>. <pub-id pub-id-type="doi">10.1002/da.20694</pub-id>
+<pub-id pub-id-type="pmid">20455248</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0027">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0027"><string-name><surname>Mataix‐Cols</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Rauch</surname>, <given-names>S. L.</given-names></string-name>, <string-name><surname>Baer</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Eisen</surname>, <given-names>J. L.</given-names></string-name>, <string-name><surname>Shera</surname>, <given-names>D. M.</given-names></string-name>, <string-name><surname>Goodman</surname>, <given-names>W. K.</given-names></string-name>, <string-name><surname>Rasmussen</surname>, <given-names>S. A.</given-names></string-name>, &amp; <string-name><surname>Jenike</surname>, <given-names>M. A.</given-names></string-name> (<year>2002</year>). <article-title>Symptom stability in adult obsessive‐compulsive disorder: data from a naturalistic two‐year follow‐up study</article-title>. <source>American Journal of Psychiatry</source>, <volume>159</volume>(<issue>2</issue>), <fpage>263</fpage>–<lpage>268</lpage>. <pub-id pub-id-type="doi">10.1176/appi.ajp.159.2.263</pub-id>
+<pub-id pub-id-type="pmid">11823269</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0028">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0028"><string-name><surname>Mundt</surname>, <given-names>J. C.</given-names></string-name>, <string-name><surname>Marks</surname>, <given-names>I. M.</given-names></string-name>, <string-name><surname>Shear</surname>, <given-names>M. K.</given-names></string-name>, &amp; <string-name><surname>Greist</surname>, <given-names>J. M.</given-names></string-name> (<year>2002</year>). <article-title>The Work and Social Adjustment Scale: A simple measure of impairment in functioning</article-title>. <source>British Journal of Psychiatry</source>, <volume>180</volume>(<issue>5</issue>), <fpage>461</fpage>–<lpage>464</lpage>. <pub-id pub-id-type="doi">10.1192/bjp.180.5.461</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0029">
+                <mixed-citation publication-type="book" id="bjc12365-cit-0029"><collab collab-type="authors">NICE</collab>
+(<year>2019</year>). <source>OCD‐NET for adults with obsessive compulsive disorder</source>. <publisher-name>National Institute for Health and Care Excellence</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0030">
+                <mixed-citation publication-type="book" id="bjc12365-cit-0030"><collab collab-type="authors">National Institute for Clinical Excellence</collab>
+(<year>2005</year>). <source>Obsessive‐Compulsive disorder: Core interventions in the treatment of obsessive‐compulsive disorder and body dysmorphic disorder</source>. <publisher-name>OCD</publisher-name>. Retrieved from: <ext-link xlink:href="https://www.nice.org.uk/guidance/cg31" ext-link-type="uri">https://www.nice.org.uk/guidance/cg31</ext-link>
+</mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0031">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0031"><string-name><surname>Öst</surname>, <given-names>L.‐G.</given-names></string-name>, <string-name><surname>Havnen</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Hansen</surname>, <given-names>B.</given-names></string-name>, &amp; <string-name><surname>Kvale</surname>, <given-names>G.</given-names></string-name> (<year>2015</year>). <article-title>Cognitive behavioral treatments of obsessiveCompulsive disorder. A systematic review and meta‐analysis of studies published 1993</article-title>. <source>Clinical Psychology Review</source>, <volume>40</volume>, <fpage>156</fpage>–<lpage>169</lpage>.<pub-id pub-id-type="pmid">26117062</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0032">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0032"><string-name><surname>Patel</surname>, <given-names>S. R.</given-names></string-name>, <string-name><surname>Wheaton</surname>, <given-names>M. G.</given-names></string-name>, <string-name><surname>Andersson</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Rück</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Schmidt</surname>, <given-names>A. B.</given-names></string-name>, <string-name><surname>La Lima</surname>, <given-names>C. N.</given-names></string-name>, <string-name><surname>Galfavy</surname>, <given-names>Hanga</given-names></string-name>, <string-name><surname>Pascucci</surname>, <given-names>O.</given-names></string-name>, <string-name><surname>Myers</surname>, <given-names>R. W.</given-names></string-name>, <string-name><surname>Dixon</surname>, <given-names>L. B.</given-names></string-name>, &amp; <string-name><surname>Simpson</surname>, <given-names>H. B.</given-names></string-name> (<year>2018</year>). <article-title>Acceptability, feasibility, and effectiveness of internet‐based cognitive‐behavioral therapy for obsessive‐compulsive disorder in New York</article-title>. <source>Behavior Therapy</source>, <volume>49</volume>(<issue>4</issue>), <fpage>631</fpage>–<lpage>641</lpage>. <pub-id pub-id-type="doi">10.1016/j.beth.2017.09.003</pub-id>
+<pub-id pub-id-type="pmid">29937263</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0033">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0033"><string-name><surname>Pérez‐Vigil</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Fernández de la Cruz</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Brander</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Isomura</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Jangmo</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Feldman</surname>, <given-names>I.</given-names></string-name>, <string-name><surname>Hesselmark</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Serlachius</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Lázaro</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Rück</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Kuja‐Halkola</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>D’Onofrio</surname>, <given-names>B. M.</given-names></string-name>, <string-name><surname>Larsson</surname>, <given-names>H.</given-names></string-name>, &amp; <string-name><surname>Mataix‐Cols</surname>, <given-names>D.</given-names></string-name> (<year>2018</year>). <article-title>Association of obsessive‐compulsive disorder with objective indicators of educational attainment: A nationwide register‐based sibling control study</article-title>. <source>JAMA Psychiatry</source>, <volume>75</volume>(<issue>1</issue>), <fpage>47</fpage>. <pub-id pub-id-type="doi">10.1001/jamapsychiatry.2017.3523</pub-id>
+<pub-id pub-id-type="pmid">29141084</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0034">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0034"><string-name><surname>Pérez‐Vigil</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Mittendorfer‐Rutz</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Helgesson</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>de la Cruz</surname>, <given-names>L. F.</given-names></string-name>, &amp; <string-name><surname>Mataix‐Cols</surname>, <given-names>D.</given-names></string-name> (<year>2018</year>). <article-title>Labour market marginalisation in obsessiveCompulsive disorder: A nationwide register‐based sibling control study</article-title>. <source>Psychological Medicine</source>, <volume>49</volume>(<issue>6</issue>), <fpage>1015</fpage>–<lpage>1024</lpage>. <pub-id pub-id-type="doi">10.1017/S0033291718001691</pub-id>
+<pub-id pub-id-type="pmid">29950186</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0035">
+                <mixed-citation publication-type="book" id="bjc12365-cit-0035"><collab collab-type="authors">R Core Team. R</collab>
+(<year>2021</year>). <source>A language and environment for statistical computing</source>. <publisher-name>R Foundation for Statistical Computing</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0036">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0036"><string-name><surname>Richards</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Duffy</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Blackburn</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Earley</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Enrique</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Palacios</surname>, <given-names>J.</given-names></string-name> et al. (<year>2018</year>). <article-title>Digital IAPT: The effectiveness &amp; cost‐effectiveness of internet‐delivered interventions for depression and anxiety disorders in the Improving Access to Psychological Therapies programme: Study protocol for a randomised control trial</article-title>. <source>BMC Psychiatry</source>, <volume>18</volume>(<issue>1</issue>), <fpage>59</fpage>.<pub-id pub-id-type="pmid">29499675</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0037">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0037"><string-name><surname>Rück</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Lundström</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Flygare</surname>, <given-names>O.</given-names></string-name>, <string-name><surname>Enander</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Bottai</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Mataix‐Cols</surname>, <given-names>D.</given-names></string-name> &amp; <string-name><surname>Andersson</surname>, <given-names>E.</given-names></string-name> (<year>2018</year>). <article-title>Study protocol for a single‐blind, randomised controlled, non‐inferiority trial of internet‐based versus face‐to‐face cognitive behaviour therapy for obsessiveCompulsive disorder</article-title>. <source>British Medical Journal Open</source>, <volume>8</volume>(<issue>9</issue>), <elocation-id>e022254</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmjopen-2018-022254</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0038">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0038"><string-name><surname>Schröder</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Werkle</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Cludius</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Jelinek</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Moritz</surname>, <given-names>S.</given-names></string-name>, &amp; <string-name><surname>Westermann</surname>, <given-names>S.</given-names></string-name> (<year>2020</year>). <article-title>Unguided Internet‐based cognitive‐behavioral therapy for obsessive‐compulsive disorder: A randomized controlled trial</article-title>. <source>Depression and Anxiety</source>, <volume>37</volume>(<issue>12</issue>), <fpage>1208</fpage>–<lpage>1220</lpage>. <pub-id pub-id-type="doi">10.1002/da.23105</pub-id>
+<pub-id pub-id-type="pmid">33169490</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0039">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0039"><string-name><surname>Skoog</surname>, <given-names>G.</given-names></string-name>, &amp; <string-name><surname>Skoog</surname>, <given-names>I.</given-names></string-name> (<year>1999</year>). <article-title>A 40‐year follow‐up of patients with obsessive‐compulsive disorder</article-title>. <source>Archives of General Psychiatry</source>, <volume>56</volume>(<issue>2</issue>), <fpage>121</fpage>. <pub-id pub-id-type="doi">10.1001/archpsyc.56.2.121</pub-id>
+<pub-id pub-id-type="pmid">10025435</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0040">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0040"><string-name><surname>Spitzer</surname>, <given-names>R. L.</given-names></string-name>, <string-name><surname>Kroenke</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Williams</surname>, <given-names>J. B. W.</given-names></string-name>, &amp; <string-name><surname>Löwe</surname>, <given-names>B.</given-names></string-name> (<year>2006</year>). <article-title>A brief measure for assessing generalized anxiety disorder: The GAD‐7</article-title>. <source>Archives of Internal Medicine</source>, <volume>166</volume>(<issue>10</issue>), <fpage>1092</fpage>. <pub-id pub-id-type="doi">10.1001/archinte.166.10.1092</pub-id>
+<pub-id pub-id-type="pmid">16717171</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0041">
+                <mixed-citation publication-type="book" id="bjc12365-cit-0041"><collab collab-type="authors">Team I, Digital N</collab>
+(<year>2020</year>). <source>Psychological therapies, annual report on the use of IAPT services 2019‐20</source>. <publisher-name>NHS Digital</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0042">
+                <mixed-citation publication-type="book" id="bjc12365-cit-0042"><collab collab-type="authors">The National Collaborating Centre for Mental Health</collab>
+(<year>2021</year>). <source>The improving access to psychological therapies manual</source>. <publisher-name>The National Collaborating Centre for Mental Health</publisher-name>. Aug. Report No.: 5.</mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0043">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0043"><string-name><surname>Thew</surname>, <given-names>G. R.</given-names></string-name> (<year>2020</year>). <article-title>IAPT and the internet: the current and future role of therapist‐guided internet interventions within routine care settings</article-title>. <source>The Cognitive Behaviour Therapist</source>, <volume>13</volume>, <fpage>E4</fpage>. <pub-id pub-id-type="doi">10.1017/S1754470X20000033</pub-id>
+<pub-id pub-id-type="pmid">34567240</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0044">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0044"><string-name><surname>Titov</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Dear</surname>, <given-names>B. F.</given-names></string-name>, <string-name><surname>Staples</surname>, <given-names>L. G.</given-names></string-name>, <string-name><surname>Bennett‐Levy</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Klein</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Rapee</surname>, <given-names>R. M.</given-names></string-name>, <string-name><surname>Andersson</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Purtell</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Bezuidenhout</surname>, <given-names>G.</given-names></string-name>, &amp; <string-name><surname>Nielssen</surname>, <given-names>O. B.</given-names></string-name> (<year>2017</year>). <article-title>The first 30 months of the MindSpot Clinic: Evaluation of a national e‐mental health service against project objectives</article-title>. <source>Australian &amp; New Zealand Journal of Psychiatry</source>, <volume>51</volume>(<issue>12</issue>), <fpage>1227</fpage>–<lpage>1239</lpage>. <pub-id pub-id-type="doi">10.1177/0004867416671598</pub-id>
+<pub-id pub-id-type="pmid">27733709</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0045">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0045"><string-name><surname>Veale</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Lim</surname>, <given-names>L. F.</given-names></string-name>, <string-name><surname>Nathan</surname>, <given-names>S. L.</given-names></string-name>, &amp; <string-name><surname>Gledhill</surname>, <given-names>L. J.</given-names></string-name> (<year>2016</year>). <article-title>Sensitivity to change in the Obsessive Compulsive Inventory: Comparing the standard and revised versions in two cohorts of different severity</article-title>. <source>Journal of Obsessive‐Compulsive and Related Disorders</source>, <volume>9</volume>, <fpage>16</fpage>–<lpage>23</lpage>. <pub-id pub-id-type="doi">10.1016/j.jocrd.2016.02.001</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0046">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0046"><string-name><surname>Vogel</surname>, <given-names>P. A.</given-names></string-name>, <string-name><surname>Solem</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Hagen</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Moen</surname>, <given-names>E. M.</given-names></string-name>, <string-name><surname>Launes</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Håland</surname>, <given-names>Å. T.</given-names></string-name>, <string-name><surname>Hansen</surname>, <given-names>B.</given-names></string-name>, &amp; <string-name><surname>Himle</surname>, <given-names>J. A.</given-names></string-name> (<year>2014</year>). <article-title>A pilot randomized controlled trial of videoconference‐assisted treatment for obsessive‐compulsive disorder</article-title>. <source>Behaviour Research and Therapy</source>, <volume>63</volume>, <fpage>162</fpage>–<lpage>168</lpage>. <pub-id pub-id-type="doi">10.1016/j.brat.2014.10.007</pub-id>
+<pub-id pub-id-type="pmid">25461792</pub-id></mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0047">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0047"><string-name><surname>Wootton</surname>, <given-names>B. M.</given-names></string-name>, <string-name><surname>Johnston</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Dear</surname>, <given-names>B. F.</given-names></string-name>, <string-name><surname>Terides</surname>, <given-names>M. D.</given-names></string-name>, &amp; <string-name><surname>Titov</surname>, <given-names>N.</given-names></string-name> (<year>2013</year>). <article-title>Remote treatment of obsessive‐compulsive disorder: A randomized controlled trial</article-title>. <source>J Obsessive Compuls Relat Disord</source>, <volume>2</volume>(<issue>4</issue>), <fpage>375</fpage>–<lpage>384</lpage>. <pub-id pub-id-type="doi">10.1016/j.jocrd.2013.07.002</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="bjc12365-bib-0048">
+                <mixed-citation publication-type="journal" id="bjc12365-cit-0048"><string-name><surname>Wootton</surname>, <given-names>B. M.</given-names></string-name>, <string-name><surname>Karin</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>Dear</surname>, <given-names>B. F.</given-names></string-name>, <string-name><surname>Staples</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Nielssen</surname>, <given-names>O.</given-names></string-name>, <string-name><surname>Kayrouz</surname>, <given-names>R.</given-names></string-name> &amp; <string-name><surname>Titov</surname>, <given-names>N.</given-names></string-name> (<year>2021</year>). <article-title>Internet‐delivered cognitive‐behaviour therapy (ICBT) for obsessive‐compulsive disorder when delivered as routine clinical care: A phase IV clinical trial</article-title>. <source>Journal of Anxiety Disorders</source>, <volume>82</volume>, <fpage>102444</fpage>. <pub-id pub-id-type="doi">10.1016/j.janxdis.2021.102444</pub-id>
+<pub-id pub-id-type="pmid">34273871</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

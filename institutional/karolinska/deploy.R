@@ -1,0 +1,5 @@
+install.packages('rsconnect')
+library(rsconnect)
+rsconnect::setAccountInfo(name='zavalis', token='D306130531F099629DE283D0B1951678', secret='pqaUW9rOWApHUv+AFo93dBmpDlJWL7f4hIm+CVNX')
+library(rsconnect)
+    rsconnect::deployApp('./shinyapp_transp.R')

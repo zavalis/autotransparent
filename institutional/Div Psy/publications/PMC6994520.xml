@@ -1,0 +1,1605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-07T13:03:42Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6994520" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6994520</identifier>
+        <datestamp>2020-02-03</datestamp>
+        <setSpec>ncomms</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+              <journal-title-group>
+                <journal-title>Nature Communications</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2041-1723</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6994520</article-id>
+              <article-id pub-id-type="pmcid">PMC6994520</article-id>
+              <article-id pub-id-type="pmc-uid">6994520</article-id>
+              <article-id pub-id-type="pmid">32005822</article-id>
+              <article-id pub-id-type="publisher-id">14520</article-id>
+              <article-id pub-id-type="doi">10.1038/s41467-020-14520-9</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Non-invasive recording from the human olfactory bulb</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9905-1067</contrib-id>
+                  <name>
+                    <surname>Iravani</surname>
+                    <given-names>Behzad</given-names>
+                  </name>
+                  <address>
+                    <email>Behzad.iravani@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Arshamian</surname>
+                    <given-names>Artin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7265-0449</contrib-id>
+                  <name>
+                    <surname>Ohla</surname>
+                    <given-names>Kathrin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wilson</surname>
+                    <given-names>Donald A.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3529-8981</contrib-id>
+                  <name>
+                    <surname>Lundström</surname>
+                    <given-names>Johan N.</given-names>
+                  </name>
+                  <address>
+                    <email>johan.lundstrom@ki.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                  <xref ref-type="aff" rid="Aff8">8</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1937 0626</institution-id><institution-id institution-id-type="GRID">grid.4714.6</institution-id><institution>Department of Clinical Neuroscience, </institution><institution>Karolinska Institutet, </institution></institution-wrap>17177 Stockholm, Sweden </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1936 9377</institution-id><institution-id institution-id-type="GRID">grid.10548.38</institution-id><institution>Department of Psychology, </institution><institution>Stockholm University, </institution></institution-wrap>10691 Stockholm, Sweden </aff>
+                <aff id="Aff3"><label>3</label>Research Center Jülich, Institute of Neuroscience and Medicine (INM-3), Cognitive Neuroscience, Jülich, Germany </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0000 9142 2735</institution-id><institution-id institution-id-type="GRID">grid.250221.6</institution-id><institution>Monell Chemical Senses Center, </institution></institution-wrap>Philadelphia, PA 19104 USA </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2189 4777</institution-id><institution-id institution-id-type="GRID">grid.250263.0</institution-id><institution>Nathan Kline Institute for Psychiatric Research, </institution></institution-wrap>Orangeburg, NY 10962 USA </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1936 8753</institution-id><institution-id institution-id-type="GRID">grid.137628.9</institution-id><institution>Department of Child and Adolescent Psychiatry, </institution><institution>New York University Langone Medical School, </institution></institution-wrap>New York, NY 10016 USA </aff>
+                <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1936 8972</institution-id><institution-id institution-id-type="GRID">grid.25879.31</institution-id><institution>Department of Psychology, </institution><institution>University of Pennsylvania, </institution></institution-wrap>Philadelphia, PA 19104 USA </aff>
+                <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1936 9377</institution-id><institution-id institution-id-type="GRID">grid.10548.38</institution-id><institution>Stockholm University Brain Imaging Centre, Stockholm University, </institution></institution-wrap>10691 Stockholm, Sweden </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>31</day>
+                <month>1</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>31</day>
+                <month>1</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2020</year>
+              </pub-date>
+              <volume>11</volume>
+              <elocation-id>648</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>3</day>
+                  <month>8</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="accepted">
+                  <day>14</day>
+                  <month>1</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2020</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">Current non-invasive neuroimaging methods can assess neural activity in all areas of the human brain but the olfactory bulb (OB). The OB has been suggested to fulfill a role comparable to that of V1 and the thalamus in the visual system and have been closely linked to a wide range of olfactory tasks and neuropathologies. Here we present a method for non-invasive recording of signals from the human OB with millisecond precision. We demonstrate that signals obtained via recordings from EEG electrodes at the nasal bridge represent responses from the human olfactory bulb - recordings we term Electrobulbogram (EBG). The EBG will aid future olfactory-related translational work but can also potentially be implemented as an everyday clinical tool to detect pathology-related changes in human central olfactory processing in neurodegenerative diseases. In conclusion, the EBG is localized to the OB, is reliable, and follows response patterns demonstrated in non-human animal models.</p>
+              </abstract>
+              <abstract id="Abs2" abstract-type="web-summary">
+                <p id="Par2">Measures of neural processing can be obtained non-invasively from all areas of the human brain but one, the olfactory bulb. Here, the authors show that signals obtained from EEG electrodes at the nasal bridge represent responses from the human olfactory bulb, the so-called Electrobulbogram.</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Olfactory bulb</kwd>
+                <kwd>Parkinson's disease</kwd>
+              </kwd-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2020</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1" sec-type="introduction">
+              <title>Introduction</title>
+              <p id="Par3">Measures of neural processing can be obtained using non-invasive methods from all areas of the human brain but one, the olfactory bulb (OB). The OB is the critical first central processing stage of the olfactory system, intimately involved in processing of an ever-increasing list of olfactory tasks: odor discrimination, concentration-invariant odor recognition, odor segmentation, and odor pattern recognition<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>, to mention but a few. Moreover, recent studies demonstrate that the role of the OB is not limited to the olfactory system, but that it impacts many brain functions<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR3">3</xref></sup>. Within the olfactory system, the OB has been suggested to fulfill a role comparable to both V1<sup><xref ref-type="bibr" rid="CR4">4</xref></sup> and the thalamus in the visual system<sup><xref ref-type="bibr" rid="CR5">5</xref></sup>. Critically, all our knowledge about the OB comes from animal studies. In rodents the relative size of the OB compared to the rest of the brain is very large<sup><xref ref-type="bibr" rid="CR6">6</xref></sup> and as such, it is not surprising that the OB is one of the most well-studied brain areas in the mammalian brain.</p>
+              <p id="Par4">The OB is also linked to several disabling neurodegenerative diseases<sup><xref ref-type="bibr" rid="CR7">7</xref></sup> where a strong link to Parkinson’s disease stands out<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>. The OB is the very first cerebral area of insult in Parkinson’s disease<sup><xref ref-type="bibr" rid="CR9">9</xref></sup> which explains why behavioral olfactory disturbances commonly precede the characteristic motor symptoms defining the disease by several years<sup><xref ref-type="bibr" rid="CR10">10</xref></sup> and why early occurrence of olfactory dysfunction is more prevalent (~91%) than motor problems (~75%)<sup><xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR11">11</xref></sup>. Thus, the development of a non-invasive method to assess OB processing in the awake human is a necessary and important step to fully understand the neural mechanisms of human olfactory processing in both health and disease.</p>
+              <p id="Par5">The only published data of human OB odor responses dates back fifty years and was obtained from electrodes placed directly on the human OB during intracranial surgery<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>. Attempts to acquire neural signals from the human OB using functional neuroimaging have failed either due to poor spatial resolution of the method (positron emission tomography; PET) or, in the case of functional magnetic resonance imaging (fMRI), due to the OB’s proximity to the sinuses where the cavity creates susceptibility artifacts and reduced signal strength in the OB area<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. Electroencephalogram (EEG) signals do not suffer from interferences from the sinuses and recordings in rabbits demonstrate that OB signals can be obtained from scalp electrodes placed above the OB<sup><xref ref-type="bibr" rid="CR14">14</xref>,<xref ref-type="bibr" rid="CR15">15</xref></sup>. However, until now, no attempts have been made to demonstrate non-invasive recordings of OB function in humans using EEG.</p>
+              <p id="Par6">Odor-dependent EEG recordings in humans have, by tradition, used low-pass filters at around 30 Hz<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>, based partly—on the now disputed assumption—that most human perceptual processes occur in lower frequency bands, and on the observation that human cortical processing of odors mainly operates at around 5 Hz<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>. In sharp contrast, odor processing within the rodent OB has been demonstrated to produce both beta and gamma oscillations<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>. However, when centrifugal input to the OB is eliminated, only gamma oscillations remain<sup><xref ref-type="bibr" rid="CR19">19</xref>,<xref ref-type="bibr" rid="CR20">20</xref></sup>. Given that gamma and gamma-like oscillations in the OB have been related to odor processing in a range of species<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR21">21</xref>,<xref ref-type="bibr" rid="CR22">22</xref></sup> and gamma-band responses have been observed in the only study to date where intracranial recordings from the human OB have been collected<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>, we hypothesized that non-invasive signals from the OB, a so-called electrobulbogram (EBG), should be detectable within the gamma-band range. Specifically, this activation should occur within 100–200 ms after odor onset based on the temporal limits given by the biology of the olfactory system (see Supplementary Note <xref rid="MOESM1" ref-type="media">1</xref>) and past studies demonstrating that down-stream areas are activated shortly before 300 ms post odor onset<sup><xref ref-type="bibr" rid="CR23">23</xref>,<xref ref-type="bibr" rid="CR24">24</xref></sup>.</p>
+              <p id="Par7">To this end, we are addressing the hypothesis that signals from the human OB can be assessed from the scalp using micro-amplified EEG using a four-stage approach. First, we will optimize the electrode placement by simulating how a potential signal would be manifested on the scalp. Second, we will determine whether we can observe an EBG signal on the sensor level that on the source level is located to the OB, with subsequent assessment of reliability of the obtained measure. Third, we will demonstrate that while participants after long odor exposure perceptually habituate, the EBG signal is insensitive to odor habituation. This is a hallmark neural signature of the OB commonly reported in animal models<sup><xref ref-type="bibr" rid="CR25">25</xref></sup>. Finally, using a human lesion-type model—i.e., an individual born without bilateral OBs—we will determine whether absence of OBs abolishes the EBG signal.</p>
+            </sec>
+            <sec id="Sec2" sec-type="results">
+              <title>Results</title>
+              <sec id="Sec3">
+                <title>Determining and localizing the EBG</title>
+                <p id="Par8">We first assessed optimal electrode positions by performing a lead-field simulation where bilateral dipoles where placed in the OB of an anatomical head model (Fig. <xref rid="Fig1" ref-type="fig">1b</xref>). Optimal electrode position for signal acquisition was determined on each side of the nasal bridge, just above the eyebrows; standard EEG scalp recording electrode placement charts do not commonly place electrodes there. In Study 1, we therefore placed four micro-amplified EEG electrodes (ActiveTwo, BioSemi, Amsterdam, The Netherlands), two on each side of the nasal bridge (Fig. <xref rid="Fig1" ref-type="fig">1c</xref>) to capture the dipole spread and to reduce potential influence of artifacts from single electrodes. Analyses (Fig. <xref rid="Fig1" ref-type="fig">1a, d–f</xref>—see the “Methods” section for details) were based on averaged responses to 1 s odor or clean air presentations, presented by a computer-controlled olfactometer<sup><xref ref-type="bibr" rid="CR26">26</xref></sup>. Spectral density of the signal was time-locked to stimulus onset, assessed and adjusted by a photoionization detector<sup><xref ref-type="bibr" rid="CR27">27</xref></sup> and averaged across the four electrodes and trials to optimize signal-to-noise ratio.<fig id="Fig1"><label>Fig. 1</label><caption><title>Overview of the methodological procedure to extract signal from olfactory bulbs.</title><p><bold>a</bold> Flowchart of the procedures. <bold>b</bold> A lead-field simulation of olfactory bulb activity projected on the scalp using a symmetrically located dipole in each olfactory bulb (left/right). <bold>c</bold> Electrode placement for the electrobulbogram (EBG) on the forehead and exemplary recordings. <bold>d</bold> Multi-taper time-frequency decomposition using two Slepian tapers. <bold>e</bold> Cross-spectral density between scalp electrodes and EBG channels. <bold>f</bold> Four concentric spheres used to construct the head model. <bold>g</bold> The undetermined source model of every voxel of brain with gray matter probability more than 40%, together with the digitalized sensor position of each individual and head model, were fed into dynamical imaging of coherent source to localize the cortical sources.</p></caption><graphic xlink:href="41467_2020_14520_Fig1_HTML" id="d29e507"/></fig></p>
+                <p id="Par9">Stimuli were triggered shortly after the nadir of the sniff cycle to optimize odor stimulus perception and to eliminate sniff-cycle dependent effects. We therefore first determined whether the motor task of sniffing produced any signal within the designated time and frequency band at the sensor level. To this end, we assessed sniff onset-related responses in the time-frequency map (TFR) within the clean air only condition (Air). Sniff-related activity was indicated in the lower frequency range (~38–45 Hz) just prior to, and around, odor onset (Fig. <xref rid="Fig2" ref-type="fig">2a</xref>); however, this sniff-related activity did not differ from baseline in the time-frequency window of interest latter obtained in the Odor versus Air contrast where sniff onset-related activation is cancel out (Fig. <xref rid="Fig2" ref-type="fig">2b</xref>; Monte Carlo permutation test with 1000 permutations). We then determined the TFR for odor trials within the designated time and frequency band. To exclude contamination by sniffing and other motor-related artifacts that were not observable, we contrasted the Odor against the Air condition. An odor event-related synchronization (OERS) was observed in the gamma band (~55–65 Hz) around ~100–150 ms post stimulus (Fig. <xref rid="Fig2" ref-type="fig">2d</xref>). Subsequent permutation testing (1000 permutations) revealed significant differences between Odor vs. Air conditions. To directly determine the direction of the effect, we compared the averaged power within the time/frequency of interest for each condition against their baseline. Power during the Odor condition (Fig. <xref rid="Fig2" ref-type="fig">2f</xref>) was significantly larger than during the Air condition (Fig. <xref rid="Fig2" ref-type="fig">2c</xref>), <italic>t</italic>(28) = 3.62, <italic>p</italic> &lt; 0.01, CI [0.23, 0.91] as determined by a Student’s <italic>t</italic>-test, providing further evidence that the effect is mediated by the presence of an odor, and not de-synchronization during presentation of air (Supplementary Fig. <xref rid="MOESM1" ref-type="media">1</xref>). However, as Fig. <xref rid="Fig2" ref-type="fig">2f</xref> demonstrate, an EBG response in the time-window of interest was not clearly detected in all individuals and it is our experience that the exact location (time/frequency) will differ slightly between individuals.<fig id="Fig2"><label>Fig. 2</label><caption><title>Localization of odor-evoked response in sensor and source space (<italic>n</italic> = 29).</title><p><bold>a</bold> Sensor time-frequency decomposition of difference in power for Air vs. Baseline condition for the EBG electrodes. <bold>b</bold> T-statistics derived from 1000 Monte Carlo permutations demonstrating no change in power for inhalation of Air only condition for the EBG electrodes. <bold>c</bold> Averaged power change for Air across 100–125 ms with standard error of the mean (s.e.m). Circles show individual values. <bold>d</bold> Sensor time-frequency decomposition for Odor against Air conditions. <bold>e</bold> T-statistics derived from 1000 Monte Carlo permutations contrasting Odor with Air conditions (<italic>p</italic> &lt; .01). Orange color marks significant change in power for Odor against Air and the black horizontal line on the color-bar marks the threshold for displayed <italic>t</italic>-values. <bold>f</bold> Averaged power change for Odor condition across 100–125 ms with s.e.m. Circles show individual values. <bold>g</bold> Reconstructed sources of the olfactory evoked synchronization indicating olfactory bulb as the source. Color bars denote relative change in power and <italic>x</italic>, <italic>y</italic>, <italic>z</italic> coordinates in figures indicate coordinates of slice in Talairach space according to the MNI stereotactile reference system.</p></caption><graphic xlink:href="41467_2020_14520_Fig2_HTML" id="d29e590"/></fig></p>
+                <p id="Par10">Early visual and auditory sensory responses are often characterized by a phase-locked response to stimulus onset<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>. To assess whether we could detect stimulus phase-locking to odor onset in the obtained gamma band response in our EBG scalp recordings, we assessed a potential inter-trial phase locking effect in the gamma band and within the same contrast between Odor and Air. There was a change in phase-locked response to the onset of the odor stimuli around the same time point as in our temporal windows of interest used in our analyses (~100 ms), thus bringing additional support to the notion that the EBG signal is an odor-evoked response.</p>
+                <p id="Par11">Due to the proximity to the eyes and facial muscles, the EBG measure is artifact sensitive. In Study 1, an average of 52% of all trials was removed from analyses due to artifacts. Thus, to determine the amount of data needed to detect a reliable signal from the EBG with the same statistical power as demonstrated in Study 1, individuals were stepwise added to power analyses. Only seven artifacts free individuals were required to reach full statistical power (Supplementary Fig. <xref rid="MOESM1" ref-type="media">2</xref>). From this, we conclude that with the average trial rejection rate, a simple experimental session with one condition would need a minimum of 15 trials to detect a robust EBG signal.</p>
+                <p id="Par12">The above detailed power analyses demonstrated that odor stimuli produce a significant EBG signal in the predicted time and frequency domain on the sensor level, and that this was not a function of potential motor and attention-related confounds produced by sniffing. We next asked if the OB is the specific source of this signal. We did this by applying a multi-taper time-frequency decomposition (Fig. <xref rid="Fig1" ref-type="fig">1d</xref>) on the signal from all EBG and scalp electrodes in the time/frequency area of interest and localized the signal at single-trial level. Importantly, the individual EEG data was co-registered to a multiple-tissue head (Fig. <xref rid="Fig1" ref-type="fig">1f</xref>) and a source model (Fig. <xref rid="Fig1" ref-type="fig">1g</xref>) using a neuronavigation system (Brainsight, Rogue Research, Montreal, Canada) for improved spatial precision. The reconstructed source of the OERS revealed elevated power in the OB, with an 8% increase in power in Odor compared with air condition (Fig. <xref rid="Fig2" ref-type="fig">2g</xref>). No other major sources were detected in the time and frequency domain of interest suggesting the OB is, in fact, the underlying source of the EBG signal. To assure that the used source model is the best suited to detect a signal source in the OB, we also assessed the source using eLORETA<sup><xref ref-type="bibr" rid="CR29">29</xref></sup>. Also this competing model localized the source to the OB, albeit with a more dispersed source (Supplementary Fig. <xref rid="MOESM1" ref-type="media">3</xref>); probably due to the demonstrated better performance of our initial and main source model for assessments of single sources<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>.</p>
+                <p id="Par13">The undetermined source model indicated the OB as the underlying source of the EBG but this does not directly compare competing solutions. To directly compare different hypothetical potential signal sources, we used a constrained source-model (guided dipole placement; Supplementary Fig. <xref rid="MOESM1" ref-type="media">4a</xref>) to compare the OB, the anterior piriform cortex, the medial orbitofrontal cortex, and, as a non-olfactory control, the primary auditory cortex. The OB solution explained more than twice the amount of the total variance of the signal source space parameters than did dipole solutions in piriform-, orbitofrontal-, and auditory cortex (Supplementary Fig. <xref rid="MOESM1" ref-type="media">4b</xref>).</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Reliability and precision of the EBG</title>
+                <p id="Par14">Having established the EBG measure, we next determined its reliability and precision by comparing the EBG in the same individuals across repeated testing sessions spanning multiple days. In Study 2, participants completed three identical testing sessions that were at least one day and at most one month apart. The EBG was acquired using the above described method and analysis focused on the same time and frequency window of interest. First, to determine test–retest reliability, we assessed both intra-class correlation [ICC(2, k)], a measure of agreement<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>, as well as pair-wise similarities (i.e., correlation coefficient) between gamma-band power from both sessions. The ICC(2, k) showed agreement between measurements (<italic>r</italic><sub><italic>i</italic></sub> = 0.47) and subsequent <italic>F</italic>-test showed that the agreement was statistically significant, <italic>F</italic>(2, 26.65) = 3.99 <italic>p</italic> &lt; .03, indicating a low spread among individuals’ EBG values and therefore high agreement<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. Test–retest correlations ranged between <italic>r</italic> = 0.76 to <italic>r</italic> = 0.81 (Fig. <xref rid="Fig3" ref-type="fig">3a</xref>), thereby indicating high test–retest reliability.<fig id="Fig3"><label>Fig. 3</label><caption><title>Test–retest reliability and dispersion rate of the EBG (<italic>n</italic> = 18).</title><p><bold>a</bold> Pairwise correlation matrix across the three sessions. Values indicate bivariate Pearson correlation coefficients and black dots within scatter plots shows individual values for each comparison. Colors indicate mean dispersion with colors indicating smoothed underlying distribution based on bootstrapping of the test data. <bold>b</bold> Effect size and 95% confidence interval for EBG detection within each testing session (CI<sub>session1</sub> = [0.16, 0.68], CI<sub>session2</sub> = [0.27, 0.80] and CI<sub>session3</sub> = [0.10, 0.62]). Overall effect showed medium effect size (Cohen’s <italic>d</italic> = 0.44) and meta-regression showed insignificant dispersion among the three sessions.</p></caption><graphic xlink:href="41467_2020_14520_Fig3_HTML" id="d29e704"/></fig></p>
+                <p id="Par15">Although test–retest correlation is a widely used measure of reliability, the magnitude of a correlation is, to some degree, dependent on the amount of true variability among participants that is in turn dependent on within-participant homogeneity. So, to assess the precision of the EBG measure, we also assessed the mean effect size and the standard error of the mean (s.e.m), an estimate of the standard deviation of the single-trial EBG across an infinite number of sessions. The mean effect size across the three sessions demonstrated a medium effect (Cohen’s <italic>d</italic> = 0.44, Fig. <xref rid="Fig3" ref-type="fig">3b</xref>) and the s.e.m value across the three sessions (±0.067), compared to a mean power of 0.75, indicate that the EBG measure has good precision. Finally, we assessed dispersion rate using a within experiment meta-regression estimate (<italic>Q</italic>). The dispersion rate indicates whether the distribution is squeezed or stretched compared to an ideal distribution. Assessing the dispersion rate of the three sessions, as determined by help of meta-regression, we found a <italic>Q</italic> value of 0.04 that is smaller than the experimental degrees of freedom (2) and indicate that the EBG measure has a low dispersion rate (Fig. <xref rid="Fig3" ref-type="fig">3b</xref>). Taken together, these data suggest that the EBG measure is both reliable and precise.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Validating the EBG</title>
+                <p id="Par16">The signal source analyses (Fig. <xref rid="Fig2" ref-type="fig">2g</xref>) support the conclusion that the EBG signal originates from the OB. However, the signal source solution is merely the most likely given the acquired data, and not a validation of the method per se. Because no established measure of signal from the human OB exists short of direct and invasive recording from the OB—a measure that is uniquely difficult to obtain due to the ethical dilemma of placing intracranial electrodes that are not strictly needed from a clinical perspective—validation of the measure needs to be indirect. We therefore assessed whether the EBG signal displayed a hallmark signature demonstrated in OB data obtained in several non-human animal models, namely insensitivity to habituation. Importantly, the piriform cortex is known to demonstrate a rapid habituation to repeated or prolonged odor exposure resulting in a clearly diminished neural signal<sup><xref ref-type="bibr" rid="CR25">25</xref>,<xref ref-type="bibr" rid="CR32">32</xref></sup>. This habituation can be clearly observed in ERPs of the scalp where a short inter trial interval between odor stimuli greatly reduce the signal. In contrast, the signal generated by the OB shows reduced sensitivity to habituation: even after repeated exposure, the OB in rats displays only a minimal reduction in odor-evoked activity<sup><xref ref-type="bibr" rid="CR25">25</xref>,<xref ref-type="bibr" rid="CR33">33</xref></sup>. Thus, a lack of a significant modulation after rapid, repeated odor presentation would suggest the OB as a primary origin whereas a marked decline of the EBG would indicate that the signal has a major cortical source.</p>
+                <p id="Par17">In Study 3, we determined the effect of odor habituation on the EBG response from rapid repetition of odor exposures with long duration, a paradigm that is known to introduce fast and sustained odor habituation<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. We measured responses from EBG electrodes as well as scalp EEG electrodes. After each trial, participants rated the perceived intensity of the odor on a 10 step computerized visual analogue scale. We first assessed whether our experimental paradigm rendered perceptual odor habituation. As expected, participants experienced a rapid decline in perceived intensity of the odor on repeated exposure (Supplementary Fig. <xref rid="MOESM1" ref-type="media">5</xref>). We then assessed whether the EBG signal demonstrated a similar decline or whether the signal is uncoupled from the perceived intensity of the odor. As predicted by the hypothesis that the EBG signal originates from the OB, a mixed effect model (with trials as fixed effect and subjects as random intercepts) showed no significant slope in OERS power as a function of trial (Fig. <xref rid="Fig4" ref-type="fig">4a</xref>). Furthermore, to reduce variability and increase the chance of detecting a potential change, we split the session into two halves (i.e., first half and second half of the session), and statistically tested for potential significant difference between early and late trials in power by 1000 permutations. Although a small nominal decrease in power in the area of interest was observed, there was no statistical change in power between early and late trials (Fig. <xref rid="Fig4" ref-type="fig">4b</xref>). We next assessed habitation effects for the scalp ERP signal were we hypothesized that the effect would be large. An established scalp ERP correlate of perceived odor intensity is the difference (delta) in amplitudes between the N1 and P2/3 ERP components over the parietal cortex<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>. The N1-P2/3 difference in power over parietal areas (Pz scalp electrode) demonstrated a characteristic habituation slope with initial large responses that subsequently progressed over trials towards zero (Supplementary Fig. <xref rid="MOESM1" ref-type="media">6</xref>). Specifically, the linear trend (linear mixed model) of the effect demonstrated a significant slope across trials, as assessed by a <italic>t</italic>-test, <italic>t</italic>(971) = −3.15, <italic>p</italic> &lt; 0.002, CI [−0.010, −0.002] (Fig. <xref rid="Fig4" ref-type="fig">4c</xref>). Together, the results show that the EBG signal possesses the hallmark signature of insensitivity towards odor habituation.<fig id="Fig4"><label>Fig. 4</label><caption><title>Lack of habituation of the EBG measure (<italic>n</italic> = 21).</title><p><bold>a</bold> Linear mixed model demonstrate that an odor habitation paradigm produce no significant change in power of the olfactory evoked synchronization across trials tested by a one sample <italic>t</italic>-test, slope = 0.008, <italic>t</italic>(437) = 1.58 <italic>p</italic> &gt; 0.11 CI = [−0.002, 0.02]). Blue circles in figure represent the mean of each trial for first half and rust colored cubes the second half of the total number of trials. Error bar show 95% confidence interval. Unfilled circles and cubes represent individual values and dashed line indicate the slope as a function of trials. <bold>b</bold> T-statistics with 1000 Monte Carlo permutations demonstrating no significant change in power (<italic>p</italic> &gt; .05). Positive values indicate larger signal for early trials. Error bar show 95% confidence interval and circles indicate individual values. <bold>c</bold> Pz potentials were band-pass filtered and the local minima and maxima within the time intervals of interest were detected as the peak of N1 and P2/3, respectively. Black curve shows the mean N1-P2/3 peak-to-peak responses in the olfactory event-related potentials (ERPs) over the Pz electrode as a function of trials and shaded blue area shows 95 % confidence interval. The mean curve is smoothed for presentation purposes. Blue line represent the slope revealed by the linear model and indicate a decrease in amplitude difference between N1-P2/P3 ERP components at electrode Pz across trials.</p></caption><graphic xlink:href="41467_2020_14520_Fig4_HTML" id="d29e813"/></fig></p>
+              </sec>
+              <sec id="Sec6">
+                <title>Validating the EBG response with a human lesion-type model</title>
+                <p id="Par18">Finally, we assessed whether unknown non-olfactory related factors might mediate the EGB response seen in Study 1–3. Although unlikely given the consistency of the EBG signal across experimental conditions, there is a possibility that the EBG signal is mediated by some spurious effect that our experimental designs cannot account for, such as a systematic imbalance in attentional load, task-demands, sniff-related motor activity, micro saccades etc. Therefore, in Study 4, we ruled out these factors by applying the technique to a human lesion-like model by testing whether an EBG signal would emerge when there is no bulb to produce it. We did this by testing one individual with isolated idiopathic congenital anosmia (ICA), i.e., born without the sense of smell. Critically, this individual was without bilateral OBs but otherwise healthy. A magnetic resonance image examination using an OB sensitive image sequence indicated a complete absence of the OB in both hemispheres (Fig. <xref rid="Fig5" ref-type="fig">5a</xref>).<fig id="Fig5"><label>Fig. 5</label><caption><title>Lack of EBG from one individual (<italic>n</italic> = 1) with isolated congenital anosmia (ICA) missing both OBs.</title><p><bold>a</bold> Coronal view of T2-weighted image of the brain of an individual with ICA, lacking bilateral OB (marked with red). In the left corner is an example of OB from a healthy individual using identical MR examination with the green outline in the green circle delineating the OB. <bold>b</bold> Monte Carlo permutation test with 1000 permutations demonstrating no change in the OERS signal between Odor vs. Air. <bold>c</bold> Distribution of EBG power for the normosmic cohort from Study 1 represented by the green area, the observed sulcus depth (OS) and OB power (OERS) of the individual with isolated congenital anosmia is represented by an open red circle and square, respectively.</p></caption><graphic xlink:href="41467_2020_14520_Fig5_HTML" id="d29e843"/></fig></p>
+                <p id="Par19">Although there is no definitive test that can distinguish between acquired anosmia, bulb degeneration at very young age, and ICA due to congenital absence of OB, recent studies have reported that an olfactory sulcus depth of less than 8 mm is much more prevalent in ICA patients compared to healthy controls<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>. The ICA subject tested in Study 4 had a mean olfactory depth of 1.12 mm; a value more than 3SD away from an age-comparable control population (Fig. <xref rid="Fig5" ref-type="fig">5c</xref>) and, as expected from an individual with anosmia, performed at chance level in a standardized olfactory identification test.</p>
+                <p id="Par20">Using an identical experimental protocol as Study 1, we demonstrate that the ICA subject did not exhibit an EBG response following odor stimulation. Specifically, within the time and frequency window of interest, no significant EBG signal was observed for Odors compared with Air condition, Fig. <xref rid="Fig5" ref-type="fig">5b</xref>. Visually assessing a single participant’s TRF result is inherently difficult due to its noisy structure. We therefore compared the strength of the signal in the time-window of interest to that of all participants in Study 1. As predicted, the mean EBG signal was 2.5 SD below that of the mean of all participants in Study 1 (Fig. <xref rid="Fig5" ref-type="fig">5c</xref>). This is yet further evidence that the EBG is sensitive to OB responsiveness.</p>
+              </sec>
+            </sec>
+            <sec id="Sec7" sec-type="discussion">
+              <title>Discussion</title>
+              <p id="Par21">Even though the OB is the first and, arguably, a critical processing stage of the olfactory neural network, this is the first non-invasive measure of OB processing proposed in humans. The vast majority of olfactory-related electrophysiological recordings targeting odor perception in non-human animal focus on the OB and these explorations have determined that the OB is an important hub for fundamental neural mechanisms across a wide set of topics, including, but not restricted to, memory, learning, social behavior, and motor function<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>. Whether the OB serves the same important role in humans is not known. Delineating cortex from OB activity using electrophysiological measures is inherently difficult. However, using multiple approaches, we demonstrate that the neural processing within the human OB can be noninvasively and robustly measured with electrodes placed at the base of the nose to obtain an EBG. We show that the measure can be obtained with only four EBG and two reference electrodes. We believe this measure is well isolated to OB due to its early occurrence after stimulus onset. We also found that in both forward and inverse models, the OB is a stronger solution as underlying source to the measures signal than potential sources in either the piriform cortex or orbitofrontal cortex (OFC). The EBG measure requires relatively cheap and off-the-shelf equipment and as such, can be easily implemented even with limited financial or computational resources. This method allows for a direct comparison of future studies with humans and already existing non-human animal data. Moreover, the OB is the neural area of initiation of Parkinson’s disease<sup><xref ref-type="bibr" rid="CR9">9</xref></sup> and clear behavioral olfactory disturbances precede the characteristic motor symptoms defining the disease by several years<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>. Because a large portion of the OB needs to be destroyed before significant behavioral reduction in olfactory performance is detected<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>, recording of EBG signal could potentially serve as a very early marker of PD.</p>
+              <p id="Par22">The EBG appears in the gamma band. It is very likely that other signals indicative of OB processing also appears in the alpha, beta, and theta bands at a later time<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>. However, here we focus on the gamma band due to our aim of producing a measure that is localized to the OB and primarily represents processing of the incoming signal with a lesser focus on centrifugal information. Gamma band processing within the OB seems tightly linked to initial intra-bulb processing with limited to no centrifugal influence<sup><xref ref-type="bibr" rid="CR18">18</xref>,<xref ref-type="bibr" rid="CR19">19</xref></sup>. Indeed, when centrifugal input to the OB is severed, only gamma oscillations can be detected within the OB in response to odors<sup><xref ref-type="bibr" rid="CR20">20</xref>,<xref ref-type="bibr" rid="CR39">39</xref></sup> whereas beta oscillations are more likely to be modulated by context of odor associations<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>. Similarly, gamma oscillations in the anterior piriform cortex, the area immediately upstream from the OB, are reduced when gamma oscillation is reduced in the OB<sup><xref ref-type="bibr" rid="CR41">41</xref></sup>. Beta oscillations in the anterior piriform cortex are not, however, affected by manipulating gamma in the OB, thus providing further support that gamma activity within the OB reflects within-bulbar processing and potentially OB output—the target of the EBG measure. That said, a plethora of studies in non-human animals have demonstrated that beta oscillations in the OB are very important for the final odor percept. Future studies should thus use the EGB measure to assess the role of beta and alpha oscillations in the human OB. Moreover, the brief activation in lower gamma frequency at stimuli onset in the Air condition is a potential indication that respiration alone may entrain gamma band OB activity; an intriguing question that should be the aim of future studies specifically addressing sniff-induced OB activation.</p>
+              <p id="Par23">Our measure is dependent on several key methodological aspects that are required to enhance the EBG signal-to-noise ratio. First, participants were always tested when they were in a nutrition deprived state. This is because in non-human animals, the OB is decidedly more responsive to odors when the individual is in a hungry compared to a satiated state<sup><xref ref-type="bibr" rid="CR42">42</xref>,<xref ref-type="bibr" rid="CR43">43</xref></sup>. Past studies have demonstrated that more mitral/tufted (M/T) cells are odor responsive when the animal has not been fed, whereas a significant portion of the M/T cells are inhibited during satiation. The fact that we could not obtain a clear EBG signal in a subset of participants could potentially be explained by poor participant compliance with the fasting requirement. Future studies need to assess this potential confound in a systematic manner within a feeding-controlled environment. Second, in all studies but Study 3, odors were presented synchronized to onset of the inhalation phase of the breathing cycle and without a detectable onset cue. About 50% of all M/T cells in the OB are locked to respiration<sup><xref ref-type="bibr" rid="CR18">18</xref>,<xref ref-type="bibr" rid="CR44">44</xref></sup> and oscillations in the olfactory system, and beyond<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>, seem specifically attuned to the respiration cycle. However, note that respiration-locked oscillations normally occur in the theta band and should not be prominently expressed in the gamma band<sup><xref ref-type="bibr" rid="CR44">44</xref></sup>. Third, odors should not have a clear trigeminal perception. Given the automatic motor response of facial frowning elicited by the trigeminal nerve, a part of the pain system, use of trigeminal odors could potentially mask the EBG response<sup><xref ref-type="bibr" rid="CR46">46</xref></sup>. Finally, the measure is dependent on a temporally reliable olfactometer<sup><xref ref-type="bibr" rid="CR26">26</xref></sup> with precise stimuli onset given the dependence on averaging across trails. Jittered onsets would significantly reduce the sensitivity of the EBG measure.</p>
+              <p id="Par24">A measure is only useful if it can produce reliable and consistent values that are relatively stable across similar sessions. The EBG measure produced test–retest <italic>r</italic>-values between 0.76 and 0.81; results that are in the same range as established event-related based olfactory and non-olfactory EEG measures. Test–retest of olfactory-derived scalp ERPs normally produce values between as low as 0.05<sup><xref ref-type="bibr" rid="CR47">47</xref></sup> to as high as 0.81<sup><xref ref-type="bibr" rid="CR48">48</xref></sup>, dependent on manipulation. Similarly, test–retest coefficients for auditory and visual ERPs are commonly in the 0.48–0.80 range<sup><xref ref-type="bibr" rid="CR49">49</xref></sup>. However, given the low number of trials needed,  future development of the measure should consider this potential by including synchronization between an automatic online artifact detection and olfactometer triggering where trials are only initiated when no muscle activity is detected.</p>
+              <p id="Par25">Only one publication has presented data originating from surface recordings of the human OB. Hughes and colleagues<sup><xref ref-type="bibr" rid="CR12">12</xref></sup> recorded OB responses to odor stimuli and reported, as do we, predominantly gamma band responses to a range of odors. It could be argued that a weakness of our approach was to base our EBG development on information mostly drawn from studies in non-human animal models. Specifically, one should be aware that the basic assumptions underlying Study 3, demonstrating a lack of habituation in the OB, is based on recordings done on anesthetized animals where later studies have demonstrated that odor-induced neural activity in animals in an awake state do not always generalize well to an anesthetized state<sup><xref ref-type="bibr" rid="CR50">50</xref></sup>. Similarly, separating an OB from a signal source in the OFC based on scalp recordings acquired in humans is a non-trivial task due to the proximity between the two locations. We argue that the EBG response originate from the OB rather than the OFC based on three arguments. First, the signal occurs too early to originate from the OFC (see Supplementary Note <xref rid="MOESM1" ref-type="media">1</xref>); second, the OB as a source explained more of the total variance of the recorded signal than other probable source solutions; third, there was no clear habituation detected, a defining feature of neural signals in human perceptual cortex. Nonetheless, the only direct signal validation would be simultaneous recordings from the EBG electrodes as well electrodes placed directly on the OB during odor presentation. However, access to direct recording from the human OB is restricted because measures of OB processing in humans are only possible from recordings done from surgically implanted intracranial electrodes in patients undergoing elected resection surgery for intractable epilepsy where clinical need direct placement. It is our hope that the EBG measure will produce a richer literature on the role the human OB serves in creating an odor percept, and to delineate similarities and differences of odor processing in human and non-human animal models.</p>
+              <p id="Par26">In conclusion, the EBG measure is a valid and reliable measure of signals from the human OB. All needed components are commonly available in most neuroscience institutions and clinical establishments with the one exception being availability of a temporally precise olfactometer. It is our hope that the EBG measures will enable detailed investigations into the role of the OB in the human olfactory system. Specifically, the measure allows the exploration of fundamental mechanistic questions, such as what role the human OB plays in processing odor pleasantness, quality coding, and odor fear learning. Moreover, this method will allow further investigation of a wide variety of clinical disorders known to affect olfactory processing, such as neurodegenerative, eating disorders, as well as schizophrenia.</p>
+            </sec>
+            <sec id="Sec8">
+              <title>Methods</title>
+              <sec id="Sec9">
+                <title>Participants</title>
+                <p id="Par27">In Study 1, 29 individuals participated (age = 27.07 ± 5.30, 18 women); in Study 2, 18 individuals (age = 28.89 ± 4.80, 7 women) participated in three separate testing sessions on different days; in Study 3, 21 individuals participated (age = 29.55 ± 5.59, 11 women); in Study 4, a 27 years old male, otherwise healthy, individual with the diagnosis of isolated congenital anosmia participated. The diagnosis was confirmed by an ENT physician within the Swedish healthcare system and further supported by our own assessments that indicated that he scored at random when his ability to identify, discriminate, and detect odors was assessed with the standardized clinical odor test Sniffin Sticks<sup><xref ref-type="bibr" rid="CR51">51</xref>,<xref ref-type="bibr" rid="CR52">52</xref></sup>. Moreover, both his parents, as well as himself, reported no recollection of him ever having an odor sensation and T1-weighted and T2-weighted MR images indicated total absence of bilateral OB and having an average olfactory sulcus depth of 1.12 mm, both morphological measures are indicative of congenital anosmia<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>. All other participants had a functional olfactory sense with no history of head trauma leading to unconsciousness, did not use any prescription drugs, were not habitual smokers, and declared themselves as generally healthy. Functional sense of smell was assessed both by verbal confirmation from the participant and a 5-item 4-alternative cued odor identification test comprising of odors from the Sniffin Sticks odor identification test<sup><xref ref-type="bibr" rid="CR52">52</xref></sup>. A minimum of three correct answers were required to participate (mean correct over Studies 1–4: 4.5). Given the low rate of functional anosmia in our tested age group and the known chance score, the likelihood of erroneously labeling an individual with anosmia as having a functional sense of smell is about 0.05%. Participants were recruited through the Karolinska Institutet’s participant recruiting site and signed informed consent was obtained before participants enrolled in the respective study. A unique set of participants was used for each study. All aspects were approved by the Swedish national ethical permission board, Etikprövningsnämnden (EPN: 2017/2332-31/1).</p>
+              </sec>
+              <sec id="Sec10">
+                <title>Odor stimuli and odor presentation methods</title>
+                <p id="Par28">We used different sets of odors in the studies to demonstrate the generalizability of results. In Study 1, Orange (Sigma Aldrich, # W282510, CAS 8008-57-9), Chocolate (Givaudan, VE00185273), and n-Butanol (Merck, CAS 71-36-3) were diluted to 30%, 15%, and 20%, respectively, in neat diethyl phthalate (99.5% pure, Sigma Aldrich, CAS 84-66-2). In Study 2, we used Linalool (Sigma Aldrich, CAS 78-70-6), Ethyl Butyrate (Sigma Aldrich, CAS 105-54-4), 2-Phenyl-Ethanol (Sigma Aldrich, CAS 60-12-8), 1-Oceten-3-OL (Sigma Aldrich, CAS 3391-86-4), Octanole Acid (Sigma Aldrich, CAS 124-07-2), and Deithyl Disulfide (Sigma Aldrich, CAS 110-81-6) diluted in neat diethyl phthalate to 0.14%, 0.25%, 0.1%, 0.2%, 1%, 0.25%, respectively. In Study 3, we used 1% isopropyl alcohol (99% pure, Fisher Scientific, CAS 67-63-0) diluted in Propylene Glycol (99% pure, Sigma Aldrich, CAS 57-55-6). In Study 4, Chocolate (Givaudan, VE00185273), n-Butanol (Merck, CAS 71-36-3), and 1-Oceten-3-OL were diluted to 15%, 20% and 1%, respectively, in neat diethyl phthalate. All dilution values above are given as volume/volume from neat concentration.</p>
+                <p id="Par29">In all studies, odors were delivered birhinally using a computer-controlled olfactometer with a known rise-time (time to reach 90% of max concentration from triggering) of about 200 ms<sup><xref ref-type="bibr" rid="CR26">26</xref></sup> and a total flow-rate of 3 L/min/channel and inserted into an ongoing 0.3 L/min constant flow to avoid tactile sensation of the odor onset. This means that total airflow per nostril was never higher than 1.65 L/min, a flow significantly lower than airflows known to elicit nasal irritation<sup><xref ref-type="bibr" rid="CR26">26</xref></sup>.</p>
+                <p id="Par30">The olfactory and respiratory system are tightly intertwined. To remove potential effects of respiration from the measure, we used a sniff-triggered design: in Study 1, 2, and 4, all trials were initiated at the onset of inhalation. This was achieved by monitoring the sniff pattern by means of temperature pod attached close to the right nostril sampling at rate of 400 Hz (Powerlab 16/35, ADInstruments, Colorado) and processed in LabChart Pro version 8.1.13. As the individual breathes in, the cold air lower the temperature and as the person breathes out, warm air elevates the temperature. The change of temperature therefore indicates the respiration cycle. An individual threshold was set to trigger the olfactometer slightly before the nadir of the respiratory cycle to synchronize odor presentation with nasal inspiration. In Study 3, we employed a different strategy to remove the effect of respiration by instructing the participant to breathe through their mouth throughout the study, thus abolishing the sniff cycle, and the odor stimuli were passively presented.</p>
+                <p id="Par31">Stimulus triggering and timing was achieved using E-prime 2 (Psychology Software Tools, Pennsylvania). To avoid participants predicting the onset of the trial, a jittered pre-stimulus interval (600~2000 ms) was inserted before each trial. Moreover, to minimize habituation, a long inter-trial-interval (ITI) was initiated after odor offset (14,000 ms), except in Study 3 where habituation was sought. Moreover, to minimize potential redundant disturbances, participants were tested in a sound attenuated recording booth with good ventilation and potential sounds from the olfactometer and odor mixing manifold, which might give away odor onset, was masked with low volume white noise presented via headphones throughout the whole experiment. The volume of noise was adjusted for each individual to keep them comfortable through the full experiment.</p>
+              </sec>
+              <sec id="Sec11">
+                <title>Electrode placement for EBG</title>
+                <p id="Par32">The optimal location of the EBG channels were determined based on simulated lead-field. The scalp lead-field were simulated for two dipoles placed in left and right OB. The left and right OB location were determined on the native space of individual T2-weighted images in ACPC coordinate system and converted to the MNI coordinate system; left OB (<italic>x</italic> −6, <italic>y</italic> 30, <italic>z</italic> −32) and right OB (<italic>x</italic> 6, <italic>y</italic> 30, <italic>z</italic> −32).</p>
+                <p id="Par33">The dipoles momentum was assumed to face radially outward and the same head model (i.e., four co-centric spheres) as the main analysis was used to project the lead-field on the scalp level (Fig. <xref rid="Fig1" ref-type="fig">1b</xref>). The simulation suggested that the majority of the OB’s energy concentrate on the forehead; therefore, optimal placement of the four electrodes were determined to be a curved configuration on the forehead slightly above the eyebrows, bilaterally, in addition to two mastoid electrodes as the reference electrodes (Fig. <xref rid="Fig1" ref-type="fig">1c</xref>; mastoid electrodes are not shown in the figure). For detailed implementation of lead-field estimation, please see ref. <sup><xref ref-type="bibr" rid="CR53">53</xref></sup>.</p>
+              </sec>
+              <sec id="Sec12">
+                <title>Electroencephalogramy and neuronavigation measurement</title>
+                <p id="Par34">In all studies, the EEG (acquired using either 32 or 64 electrodes, dependent on study) and EBG (acquired using four additional frontal electrodes) signal was sampled at 512 Hz using active electrodes (ActiveTwo, BioSemi, Amsterdam, The Netherland) and band-pass filtered at 0.01–100 Hz during recording within the ActiView software (BioSemi, Amsterdam, The Netherland). Before the actual EEG/EBG recording, electrode offset of each electrode was visually checked and electrodes with offset above 40 mV was adjusted until the offset reached below the accepted threshold value. EEG electrode placement followed the international 10/20 standard in all studies and two mastoids electrodes were used as reference.</p>
+                <p id="Par35">In Study 1 and 2, the EEG/EBG recording included 64 EEG scalp electrodes and 4 EBG electrodes. After the attachment of all electrodes, the positions of each electrode in stereotactic space were digitalized using an optical neuro-navigation system (BrainSight, Rogue Research, Montreal, Canada). The digitalization protocol comprised of localizing fiducial landmarks such as the nasion and left/right preauricular as well as the central point of each electrode. These landmarks were next used to co-register each electrode to the standard MNI space. The digitalized electrode positions were later used in the Beamforming algorithm to enable the localization of cortical sources. In Study 3, data were recorded from 32 EEG scalp electrodes and 4 EBG electrodes and Study 4 used 64 EEG scalp electrodes and 4 EBG electrodes.</p>
+              </sec>
+              <sec id="Sec13">
+                <title>Preprocessing of EEG and EBG data</title>
+                <p id="Par36">EEG/EBG signals were preprocessed by epoching data from 500 ms pre-stimulus to 1500 ms post stimulus. Next, data were re-referenced to the average of left and right mastoids electrodes, band-pass filtered at 1 Hz–100 Hz, and line-filtered at electrical frequency. The line filtering was performed with discrete Fourier transform (DFT) filters in which we applied a notch filter to the data to remove power line noise. The notch filter was implemented by fitting a sine and cosine function to the data at power line frequency with subsequent subtraction of the noise component. The epoch length in all analysis was at least 2 s, covering 100–120 cycles of power line noise component and led to sharp spectral of the notch filter. This sharp spectral feature of the notch filter increases the specificity of removing the noise component<sup><xref ref-type="bibr" rid="CR54">54</xref>,<xref ref-type="bibr" rid="CR55">55</xref></sup>. Furthermore, trials with different types of artifacts (i.e. muscle and eye blinks) were identified with automatic algorithms. Identifying muscle artifacts was performed by band pass filtering the raw data using Butterworth filter order of 8 and Hilbert transformed to extract amplitude values, followed by <italic>z</italic>-score. Trials with <italic>z</italic>-value above 6 were identified as trials contaminated by muscle artifact and removed from further analysis.</p>
+                <p id="Par37">Trials with eye blinks were identified by band-passing the raw data by Butterworth filter order of 4 and Hilbert transformed to extract amplitude values, followed by <italic>z</italic>-score. The major concern for EBG signal is eye blinks and eye movements therefore, a lower <italic>z</italic>-value of 4 was used to increase the detection sensitivity of the algorithm. Trials with value exceeding 4 were removed from further analysis. Finally, a manual inspection was carried out and trials with comparative high variance were removed.</p>
+              </sec>
+              <sec id="Sec14">
+                <title>EBG time-frequency analysis for OERS detection</title>
+                <p id="Par38">Development of power across time and frequency of the EBG channel in the gamma frequency was determined by employing a multi-taper sliding window (range 30–100 Hz with step 0.1 Hz). Power was estimated at each bin using wavelet with two tapers from discrete prolate spheroidal sequences (DPSS). The window length was adjusted to capture three cycles of the signal at each frequency bin. For lower frequencies, we considered a wider window and as the frequencies reaches higher value the window also becomes narrower. A narrower window at the higher frequencies increases the sensitive of the power estimation by implementation of a higher time resolution but also lower frequency resolution. In the gamma band, lower frequency resolution is not a significant confound because the gamma band is considered to be broadband (i.e., 30–100 Hz). Wavelets transformation at each time bin was carried out by two sets of wavelet function that was derived from the two DPSS tapers. To perform the wavelet transformation, the wavelet function had to convolve with the EEG/EBG signal (Fig. <xref rid="Fig1" ref-type="fig">1d</xref>). The convolution was implemented in the frequency domain as a multiplication of fast Fourier coefficients of the signal and the wavelets. Next, the estimated power of the epochs was demeaned by normalizing to the average power of the whole epoch and converted to decibel values (dB).</p>
+              </sec>
+              <sec id="Sec15">
+                <title>Localizing the OERS’ cortical source</title>
+                <p id="Par39">To localize the cortical source of the detected OERS, EEG/EBG were re-referenced to average of electrodes and spectral density of the signal at the time period of 100–250 ms post-stimulus were estimated using fast Fourier algorithm with central frequency 60 Hz (i.e., the central frequency of the OERS) and taper smoothing parameter 5 Hz, meaning that the range from 55 Hz to 65 Hz were taken into the computation of cross-spectral density for source localization (Fig. <xref rid="Fig1" ref-type="fig">1e</xref>). The number of tapers was estimated as the time half bandwidth<sup><xref ref-type="bibr" rid="CR55">55</xref></sup>. Prior to cross-spectral density estimation noisy electrodes were identified by examining the power of power line noise (50 Hz) of the electrodes for given time window, those electrodes with <italic>z</italic>-value more than 3.5 were interpolated using weight average of the adjacent electrodes. Then, the cross-spectral density between pairs of electrodes was derived by multiplying the spectral density of a channel with conjugated spectral density of other channels. To solve the inverse problem on a trial level, a linear transformation of dynamic imaging of coherent sources (DICS) was used<sup><xref ref-type="bibr" rid="CR56">56</xref></sup>. Given the associations among electrodes, a unique configuration of cortical sources can be estimated by DICS that explains the scalp potential. Association among electrodes was measured by coherence derived from cross-spectral density between pairs of channels at the central frequency (i.e. 60 ± 5 HZ). We also assigned the regularization parameter to 10% in order to reduce the effect of nuisance parameter.</p>
+                <p id="Par40">Digitalized electrode-positions of each participant were co-registered to the default MNI brain. Co-registration was performed automatically with six parameters affine transformation followed by manual inspection for any misalignment. Subsequently, a head model was created based on a multi-shell spherical head model. Construction of the head model was initiated by tissue segmentation on the default MNI T1-weighted image. The segmentation procedure included scalp, skull, gray matter, and white matter. Next, spherical volume conductors with the conductivity of 0.43, 0.01, 0.33, and 0.14 were assigned to scalp, skull, gray matter, and white matter respectively (Fig. <xref rid="Fig1" ref-type="fig">1f</xref>). An underdetermined source model was used in which distributed sources were equally spread over the full brain. The brain was divided into a three dimensional grid, covering the whole brain with at least 10 mm spacing between two points on the grid. We constructed the source model on each grid-point depending on the gray matter probability of that particular point. A dipole was placed on the points with the gray matter probability larger than 40% (Fig. <xref rid="Fig1" ref-type="fig">1g</xref>). The DICS algorithm looks for a weighted summation of the scalp electrodes in order to reconstruct the cortical sources on trial level. We used the balanced common filter approach: here, sources for both conditions (i.e. Odor and Air) were concatenated and a common solution for the inverse problem was computed. Therefore, the difference of the cortical sources between two conditions is free from biases originating from different solutions estimated by DICS. Subsequently, Odor trials and Air trials were averaged within individuals. Moreover, to quantitatively investigate the goodness of fit for the inverse model, we used the dipole fitting approach (determined source model) to assess the amount of power each hypothetical sources can explain. Multiple sites of the brain selected including OB, anterior piriform cortex, orbitofrontal cortex, and a non-olfactory related area, primary auditor cortex, as the underlying sources. Two symmetric dipole place in each of these sites bi-hemispherically. Then, the forward problem was solved with the same head model as inverse problem within time frequency of the interest for each scenario and the explained power and error estimated. DICS analysis were carried out in the open source Fieldtrip toolbox<sup><xref ref-type="bibr" rid="CR57">57</xref></sup>.</p>
+              </sec>
+              <sec id="Sec16">
+                <title>Statistical analysis</title>
+                <p id="Par41">All statistical analyses were performed within the MATLAB (version 2018a) environment with Signal Processing and Fieldtrip toolboxes. The spectral density of the four EBG electrodes were averaged on the participant level. Then, Monte Carlo permutation tests was used to examine if the power of averaged EBG spectral density was significantly higher in Odor compared with Air on the group level. Non-parametric permutation tests were used to assess statistical significance rather than parametric statistics given the tests ability to assess a sharp null hypothesis (i.e. no difference between conditions), its ability to provide exact control of false positives, because the EBG measure is producing an unknown distribution, and the increase in generalization of obtained results. A 1000 permutations were performed on the averaged EBG spectral density so that in each permutation, 50% of conditions where shuffled and the difference between Odor and Air calculated by means of two tailed t-test between the actual data and shuffled data. The exact <italic>p</italic>-value was derived by the average number of the times that the actual data is bigger than shuffle data out of 1000 permutations. For purpose of illustration, <italic>t</italic>-maps were smoothed while maintaining the shape of the observation. Standard conservative corrections for multi-comparison could not be employed due to extensive number of test elicited by the high resolution of the spectral density maps. We therefore reduced the risk of false positive results induced by the many statistical tests by replicating the main EBG finding in independent experiments (Study 1, 2, and 3). Test–retest reliability was assessed by bivariate Pearson correlations and interclass correlation determined with ICC(2, k), a measure widely used to quantify the agreement of the target measure (i.e. OERS power) between individuals across different sessions<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. All tests, when applicable, are two-sided.</p>
+              </sec>
+              <sec id="Sec17">
+                <title>Reporting summary</title>
+                <p id="Par42">Further information on research design is available in the <xref rid="MOESM3" ref-type="media">Nature Research Reporting Summary</xref> linked to this article.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary information</title>
+              <sec id="Sec18">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41467_2020_14520_MOESM1_ESM.pdf">
+                      <caption>
+                        <p>Supplementary information</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM2">
+                    <media xlink:href="41467_2020_14520_MOESM2_ESM.pdf">
+                      <caption>
+                        <p>Peer Review File</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM3">
+                    <media xlink:href="41467_2020_14520_MOESM3_ESM.pdf">
+                      <caption>
+                        <p>Reporting Summary</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p><bold>Peer review information</bold><italic>Nature Communications</italic> thanks Don Tucker and the other, anonymous, reviewer(s) for their contribution to the peer review of this work. Peer reviewer reports are available.</p>
+              </fn>
+              <fn>
+                <p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Supplementary information</title>
+              <p><bold>Supplementary information</bold> is available for this paper at 10.1038/s41467-020-14520-9.</p>
+            </sec>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>We thank Christopher Maude, Kristen Gregory, and Martin Schaefer for assistance with data collection, Dr. Asifa Majid for helpful comments on the manuscript, and Kimberly Battista (battistaillustration.com) for the making of Fig. <xref rid="Fig1" ref-type="fig">1c</xref>. Funding provided by the National Institute on Deafness and Other Communication Disorders (R21DC016735) as well as the Knut and Alice Wallenberg Foundation (KAW 2018.0152), awarded to J.N.L., A.A. is supported by a grant from the Swedish Research Council (2018–01603).</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>Conceptualization, J.N.L.; Investigation, B.I., K.O.; Methodology, J.N.L., B.I., A.A., K.O., D.W.; Analyses, B.I.; Visualization, B.I., A.A.; Writing—Original Draft, J.N.L., B.I., A.A.; Writing—Review and Editing, all authors; Funding Acquisition, J.N.L.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data availability</title>
+              <p>Data is freely and publicly available at: [<ext-link ext-link-type="uri" xlink:href="https://osf.io/64tdk/?view_only=a544ade42c9443f0a2842a7eebca7138">https://osf.io/64tdk/?view_only = a544ade42c9443f0a2842a7eebca7138</ext-link>]. A reporting summary for this Article is available as a <xref rid="MOESM1" ref-type="media">Supplementary Information file</xref>.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Code availability</title>
+              <p>Code to reproduce data visualized in Figs. <xref rid="Fig2" ref-type="fig">2</xref> and <xref rid="Fig3" ref-type="fig">3</xref> are available in the above mentioned link in the Data availability section.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par43">A patent has been filed to protect the method from unwanted commercialization by third parties. Aspect of manuscript covered in patent application: Experiment 1 within the manuscript. Experiments 2–5 not mentioned/covered.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Sullivan</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cortical processing of odor objects</article-title>
+                  <source>Neuron</source>
+                  <year>2011</year>
+                  <volume>72</volume>
+                  <fpage>506</fpage>
+                  <lpage>519</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuron.2011.10.027</pub-id>
+                  <?supplied-pmid 22099455?>
+                  <pub-id pub-id-type="pmid">22099455</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Biskamp</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Bartos</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Sauer</surname>
+                      <given-names>J-F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Organization of prefrontal network activity by respiration-related oscillations</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2017</year>
+                  <volume>7</volume>
+                  <fpage>45508</fpage>
+                  <pub-id pub-id-type="doi">10.1038/srep45508</pub-id>
+                  <?supplied-pmid 28349959?>
+                  <pub-id pub-id-type="pmid">28349959</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Laurent</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Olfactory network dynamics and the coding of multidimensional signals</article-title>
+                  <source>Nat. Rev. Neurosci.</source>
+                  <year>2002</year>
+                  <volume>3</volume>
+                  <fpage>884</fpage>
+                  <lpage>895</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nrn964</pub-id>
+                  <?supplied-pmid 12415296?>
+                  <pub-id pub-id-type="pmid">12415296</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <mixed-citation publication-type="other">Shepherd, G., Chen, W. &amp; Greer, C. in <italic>The Synaptic Organization of the Brain</italic> (ed. Shepherd, G.) (Oxford University Press, U.S.A., 2004).</mixed-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kay</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>Sherman</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An argument for an olfactory thalamus</article-title>
+                  <source>Trends Neurosci.</source>
+                  <year>2007</year>
+                  <volume>30</volume>
+                  <fpage>47</fpage>
+                  <lpage>53</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.tins.2006.11.007</pub-id>
+                  <?supplied-pmid 17161473?>
+                  <pub-id pub-id-type="pmid">17161473</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <mixed-citation publication-type="other">McGann, J. P. Poor human olfaction is a 19th-century myth. <italic>Science</italic><bold>356</bold>, eaam7263 (2017).</mixed-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Murphy</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Olfactory and other sensory impairments in Alzheimer disease</article-title>
+                  <source>Nat. Rev. Neurol.</source>
+                  <year>2019</year>
+                  <volume>15</volume>
+                  <fpage>11</fpage>
+                  <lpage>24</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41582-018-0097-5</pub-id>
+                  <?supplied-pmid 30532084?>
+                  <pub-id pub-id-type="pmid">30532084</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Doty</surname>
+                      <given-names>RL</given-names>
+                    </name>
+                    <name>
+                      <surname>Deems</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Stellar</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Olfactory dysfunction in parkinsonism: a general deficit unrelated to neurologic signs, disease stage, or disease duration</article-title>
+                  <source>Neurology</source>
+                  <year>1988</year>
+                  <volume>38</volume>
+                  <fpage>1237</fpage>
+                  <lpage>1244</lpage>
+                  <pub-id pub-id-type="doi">10.1212/WNL.38.8.1237</pub-id>
+                  <?supplied-pmid 3399075?>
+                  <pub-id pub-id-type="pmid">3399075</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Halliday</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Lees</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Stern</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Milestones in Parkinson’s disease–clinical and pathologic features</article-title>
+                  <source>Mov. Disord.</source>
+                  <year>2011</year>
+                  <volume>26</volume>
+                  <fpage>1015</fpage>
+                  <lpage>1021</lpage>
+                  <pub-id pub-id-type="doi">10.1002/mds.23669</pub-id>
+                  <?supplied-pmid 21626546?>
+                  <pub-id pub-id-type="pmid">21626546</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ross</surname>
+                      <given-names>GW</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Association of olfactory dysfunction with risk for future Parkinson’s disease</article-title>
+                  <source>Ann. Neurol.</source>
+                  <year>2008</year>
+                  <volume>63</volume>
+                  <fpage>167</fpage>
+                  <lpage>173</lpage>
+                  <pub-id pub-id-type="doi">10.1002/ana.21291</pub-id>
+                  <?supplied-pmid 18067173?>
+                  <pub-id pub-id-type="pmid">18067173</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Haehner</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Prevalence of smell loss in Parkinson’s disease–a multicenter study</article-title>
+                  <source>Parkinsonism Relat. Disord.</source>
+                  <year>2009</year>
+                  <volume>15</volume>
+                  <fpage>490</fpage>
+                  <lpage>494</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.parkreldis.2008.12.005</pub-id>
+                  <?supplied-pmid 19138875?>
+                  <pub-id pub-id-type="pmid">19138875</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hughes</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                    <name>
+                      <surname>Hendrix</surname>
+                      <given-names>DE</given-names>
+                    </name>
+                    <name>
+                      <surname>Wetzel</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Johnston</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Correlations between electrophysiological activity from the human olfactory bulb and subjective responses to odoriferous stimuli</article-title>
+                  <source>Olfaction Tast.</source>
+                  <year>1969</year>
+                  <volume>3</volume>
+                  <fpage>172</fpage>
+                  <lpage>191</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Glover</surname>
+                      <given-names>GH</given-names>
+                    </name>
+                    <name>
+                      <surname>Law</surname>
+                      <given-names>CS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spiral-in/out BOLD fMRI for increased SNR and reduced susceptibility artifacts</article-title>
+                  <source>Magn. Reson Med</source>
+                  <year>2001</year>
+                  <volume>46</volume>
+                  <fpage>515</fpage>
+                  <lpage>522</lpage>
+                  <pub-id pub-id-type="doi">10.1002/mrm.1222</pub-id>
+                  <?supplied-pmid 11550244?>
+                  <pub-id pub-id-type="pmid">11550244</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yamamoto</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Olfactory bulb potentials to electrical stimulation of the olfactory mucosa</article-title>
+                  <source>Jpn J. Physiol.</source>
+                  <year>1961</year>
+                  <volume>11</volume>
+                  <fpage>545</fpage>
+                  <lpage>554</lpage>
+                  <pub-id pub-id-type="doi">10.2170/jjphysiol.11.545</pub-id>
+                  <?supplied-pmid 14008826?>
+                  <pub-id pub-id-type="pmid">14008826</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Evans</surname>
+                      <given-names>WJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Starr</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stimulus parameters and temporal evolution of the olfactory evoked-potential in rats</article-title>
+                  <source>Chem. Senses</source>
+                  <year>1992</year>
+                  <volume>17</volume>
+                  <fpage>61</fpage>
+                  <lpage>77</lpage>
+                  <pub-id pub-id-type="doi">10.1093/chemse/17.1.61</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <mixed-citation publication-type="other">Hummel, T. &amp; Kobal, G. in <italic>Methods in Chemosensory Research</italic> (eds. Simon, S. A. &amp; Nicolelis, M. A. L.) 429–464 (CRC Press, 2001).</mixed-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huart</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Legrain</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Hummel</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Rombaux</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Mouraux</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Time-frequency analysis of chemosensory event-related potentials to characterize the cortical representation of odors in humans</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2012</year>
+                  <volume>7</volume>
+                  <fpage>e33221</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0033221</pub-id>
+                  <?supplied-pmid 22427997?>
+                  <pub-id pub-id-type="pmid">22427997</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kay</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Circuit oscillations in odor perception and memory</article-title>
+                  <source>Prog. Brain Res</source>
+                  <year>2014</year>
+                  <volume>208</volume>
+                  <fpage>223</fpage>
+                  <lpage>251</lpage>
+                  <pub-id pub-id-type="doi">10.1016/B978-0-444-63350-7.00009-7</pub-id>
+                  <?supplied-pmid 24767485?>
+                  <pub-id pub-id-type="pmid">24767485</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Ravel</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Beta and gamma oscillatory activities associated with olfactory memory tasks: different rhythms for different functional networks?</article-title>
+                  <source>Front. Behav. Neurosci.</source>
+                  <year>2014</year>
+                  <volume>8</volume>
+                  <fpage>218</fpage>
+                  <?supplied-pmid 25002840?>
+                  <pub-id pub-id-type="pmid">25002840</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Neville</surname>
+                      <given-names>KR</given-names>
+                    </name>
+                    <name>
+                      <surname>Haberly</surname>
+                      <given-names>LB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Beta and gamma oscillations in the olfactory system of the urethane-anesthetized rat</article-title>
+                  <source>J. Neurophysiol.</source>
+                  <year>2003</year>
+                  <volume>90</volume>
+                  <fpage>3921</fpage>
+                  <lpage>3930</lpage>
+                  <pub-id pub-id-type="doi">10.1152/jn.00475.2003</pub-id>
+                  <?supplied-pmid 12917385?>
+                  <pub-id pub-id-type="pmid">12917385</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nusser</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Kay</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>Laurent</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Homanics</surname>
+                      <given-names>GE</given-names>
+                    </name>
+                    <name>
+                      <surname>Mody</surname>
+                      <given-names>I</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Disruption of GABA(A) receptors on GABAergic interneurons leads to increased oscillatory power in the olfactory bulb network</article-title>
+                  <source>J. Neurophysiol.</source>
+                  <year>2001</year>
+                  <volume>86</volume>
+                  <fpage>2823</fpage>
+                  <lpage>2833</lpage>
+                  <pub-id pub-id-type="doi">10.1152/jn.2001.86.6.2823</pub-id>
+                  <?supplied-pmid 11731539?>
+                  <pub-id pub-id-type="pmid">11731539</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kay</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Olfactory oscillations: the what, how and what for</article-title>
+                  <source>Trends Neurosci.</source>
+                  <year>2009</year>
+                  <volume>32</volume>
+                  <fpage>207</fpage>
+                  <lpage>214</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.tins.2008.11.008</pub-id>
+                  <?supplied-pmid 19243843?>
+                  <pub-id pub-id-type="pmid">19243843</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hudry</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Perrin</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Ryvlin</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Mauguière</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Royet</surname>
+                      <given-names>J-P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Olfactory short-term memory and related amygdala recordings in patients with temporal lobe epilepsy</article-title>
+                  <source>Brain</source>
+                  <year>2003</year>
+                  <volume>126</volume>
+                  <fpage>1851</fpage>
+                  <lpage>1863</lpage>
+                  <pub-id pub-id-type="doi">10.1093/brain/awg192</pub-id>
+                  <?supplied-pmid 12805107?>
+                  <pub-id pub-id-type="pmid">12805107</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Theta oscillations rapidly convey odor-specific content in human piriform cortex</article-title>
+                  <source>Neuron</source>
+                  <year>2017</year>
+                  <volume>94</volume>
+                  <fpage>207</fpage>
+                  <lpage>219.e4</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuron.2017.03.021</pub-id>
+                  <?supplied-pmid 28384472?>
+                  <pub-id pub-id-type="pmid">28384472</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Habituation of odor responses in the rat anterior piriform cortex</article-title>
+                  <source>J. Neurophysiol.</source>
+                  <year>1998</year>
+                  <volume>79</volume>
+                  <fpage>1425</fpage>
+                  <lpage>1440</lpage>
+                  <pub-id pub-id-type="doi">10.1152/jn.1998.79.3.1425</pub-id>
+                  <?supplied-pmid 9497422?>
+                  <pub-id pub-id-type="pmid">9497422</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lundström</surname>
+                      <given-names>JN</given-names>
+                    </name>
+                    <name>
+                      <surname>Gordon</surname>
+                      <given-names>AR</given-names>
+                    </name>
+                    <name>
+                      <surname>Alden</surname>
+                      <given-names>EC</given-names>
+                    </name>
+                    <name>
+                      <surname>Boesveldt</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Albrecht</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Methods for building an inexpensive computer-controlled olfactometer for temporally-precise experiments</article-title>
+                  <source>Int J. Psychophysiol.</source>
+                  <year>2010</year>
+                  <volume>78</volume>
+                  <fpage>179</fpage>
+                  <lpage>189</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ijpsycho.2010.07.007</pub-id>
+                  <?supplied-pmid 20688109?>
+                  <pub-id pub-id-type="pmid">20688109</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ohla</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Lundström</surname>
+                      <given-names>JN</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sex differences in chemosensation: sensory or emotional?</article-title>
+                  <source>Front Hum. Neurosci.</source>
+                  <year>2013</year>
+                  <volume>7</volume>
+                  <fpage>607</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fnhum.2013.00607</pub-id>
+                  <?supplied-pmid 24133429?>
+                  <pub-id pub-id-type="pmid">24133429</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lachaux</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodriguez</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Martinerie</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Varela</surname>
+                      <given-names>FJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Measuring phase synchrony in brain signals</article-title>
+                  <source>Hum. Brain Mapp.</source>
+                  <year>1999</year>
+                  <volume>8</volume>
+                  <fpage>194</fpage>
+                  <lpage>208</lpage>
+                  <pub-id pub-id-type="doi">10.1002/(SICI)1097-0193(1999)8:4&lt;194::AID-HBM4&gt;3.0.CO;2-C</pub-id>
+                  <?supplied-pmid 10619414?>
+                  <pub-id pub-id-type="pmid">10619414</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <mixed-citation publication-type="other">Pascual-Marqui, R. D. Discrete, 3D distributed, linear imaging methods of electric neuronal activity. Part 1: exact, zero error localization. Preprint at <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/0710.3341">https://arxiv.org/abs/0710.3341</ext-link> (2007).</mixed-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <mixed-citation publication-type="other">Halder, T., Talwar, S., Jaiswal, A. K. &amp; Banerjee, A. Quantitative evaluation in estimating sources underlying brain oscillations using current source density methods and beamformer approaches. <italic>eNeuro.</italic><bold>6</bold>, ENEURO.0170-19.2019 (2019).</mixed-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shrout</surname>
+                      <given-names>PE</given-names>
+                    </name>
+                    <name>
+                      <surname>Fleiss</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Intraclass correlations: uses in assessing rater reliability</article-title>
+                  <source>Psychol. Bull.</source>
+                  <year>1979</year>
+                  <volume>86</volume>
+                  <fpage>420</fpage>
+                  <lpage>428</lpage>
+                  <pub-id pub-id-type="doi">10.1037/0033-2909.86.2.420</pub-id>
+                  <?supplied-pmid 18839484?>
+                  <pub-id pub-id-type="pmid">18839484</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Poellinger</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Activation and habituation in olfaction–an fMRI study</article-title>
+                  <source>Neuroimage</source>
+                  <year>2001</year>
+                  <volume>13</volume>
+                  <fpage>547</fpage>
+                  <lpage>560</lpage>
+                  <pub-id pub-id-type="doi">10.1006/nimg.2000.0713</pub-id>
+                  <?supplied-pmid 11305885?>
+                  <pub-id pub-id-type="pmid">11305885</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>fMRI study of olfaction in the olfactory bulb and high olfactory structures of rats: Insight into their roles in habituation</article-title>
+                  <source>Neuroimage</source>
+                  <year>2016</year>
+                  <volume>127</volume>
+                  <fpage>445</fpage>
+                  <lpage>455</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuroimage.2015.10.080</pub-id>
+                  <?supplied-pmid 26522425?>
+                  <pub-id pub-id-type="pmid">26522425</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rankin</surname>
+                      <given-names>CH</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Habituation revisited: an updated and revised description of the behavioral characteristics of habituation</article-title>
+                  <source>Neurobiol. Learn Mem.</source>
+                  <year>2009</year>
+                  <volume>92</volume>
+                  <fpage>135</fpage>
+                  <lpage>138</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.nlm.2008.09.012</pub-id>
+                  <?supplied-pmid 18854219?>
+                  <pub-id pub-id-type="pmid">18854219</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pause</surname>
+                      <given-names>BM</given-names>
+                    </name>
+                    <name>
+                      <surname>Krauel</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Chemosensory event-related potentials (CSERP) as a key to the psychology of odors</article-title>
+                  <source>Int. J. Psychophysiol.</source>
+                  <year>2000</year>
+                  <volume>36</volume>
+                  <fpage>105</fpage>
+                  <lpage>122</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0167-8760(99)00105-1</pub-id>
+                  <pub-id pub-id-type="pmid">10742566</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huart</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The depth of the olfactory sulcus is an indicator of congenital anosmia</article-title>
+                  <source>AJNR Am. J. Neuroradiol.</source>
+                  <year>2011</year>
+                  <volume>32</volume>
+                  <fpage>1911</fpage>
+                  <lpage>1914</lpage>
+                  <pub-id pub-id-type="doi">10.3174/ajnr.A2632</pub-id>
+                  <pub-id pub-id-type="pmid">21868619</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sullivan</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Ravel</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Mouly</surname>
+                      <given-names>A-M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Olfactory memory networks: from emotional learning to social behaviors</article-title>
+                  <source>Front. Behav. Neurosci.</source>
+                  <year>2015</year>
+                  <volume>9</volume>
+                  <fpage>36</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fnbeh.2015.00036</pub-id>
+                  <?supplied-pmid 25741259?>
+                  <pub-id pub-id-type="pmid">25741259</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lu</surname>
+                      <given-names>XC</given-names>
+                    </name>
+                    <name>
+                      <surname>Slotnick</surname>
+                      <given-names>BM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Olfaction in rats with extensive lesions of the olfactory bulbs: implications for odor coding</article-title>
+                  <source>Neuroscience</source>
+                  <year>1998</year>
+                  <volume>84</volume>
+                  <fpage>849</fpage>
+                  <lpage>866</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0306-4522(97)00520-4</pub-id>
+                  <pub-id pub-id-type="pmid">9579789</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Gervais</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Messaoudi</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Ravel</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Learning-induced oscillatory activities correlated to odour recognition: a network activity</article-title>
+                  <source>Eur. J. Neurosci.</source>
+                  <year>2006</year>
+                  <volume>23</volume>
+                  <fpage>1801</fpage>
+                  <lpage>1810</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1460-9568.2006.04711.x</pub-id>
+                  <pub-id pub-id-type="pmid">16623837</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Frederick</surname>
+                      <given-names>DE</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Gamma and beta oscillations define a sequence of neurocognitive modes present in odor processing</article-title>
+                  <source>J. Neurosci.</source>
+                  <year>2016</year>
+                  <volume>36</volume>
+                  <fpage>7750</fpage>
+                  <lpage>7767</lpage>
+                  <pub-id pub-id-type="doi">10.1523/JNEUROSCI.0569-16.2016</pub-id>
+                  <?supplied-pmid 27445151?>
+                  <pub-id pub-id-type="pmid">27445151</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Osinski</surname>
+                      <given-names>BL</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Xiao</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Mehta</surname>
+                      <given-names>NM</given-names>
+                    </name>
+                    <name>
+                      <surname>Kay</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Pharmacological manipulation of the olfactory bulb modulates beta oscillations: testing model predictions</article-title>
+                  <source>J. Neurophysiol.</source>
+                  <year>2018</year>
+                  <volume>120</volume>
+                  <fpage>1090</fpage>
+                  <lpage>1106</lpage>
+                  <pub-id pub-id-type="doi">10.1152/jn.00090.2018</pub-id>
+                  <?supplied-pmid 29847235?>
+                  <pub-id pub-id-type="pmid">29847235</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pager</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Giachetti</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Holley</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Le Magnen</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A selective control of olfactory bulb electrical activity in relation to food deprivation and satiety in rats</article-title>
+                  <source>Physiol. Behav.</source>
+                  <year>1972</year>
+                  <volume>9</volume>
+                  <fpage>573</fpage>
+                  <lpage>579</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0031-9384(72)90014-5</pub-id>
+                  <?supplied-pmid 4670856?>
+                  <pub-id pub-id-type="pmid">4670856</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Royet</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Pager</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Olfactory bulb responsiveness to an aversive or novel food odor in;the unrestrained rat</article-title>
+                  <source>Brain Res. Bull.</source>
+                  <year>1981</year>
+                  <volume>7</volume>
+                  <fpage>375</fpage>
+                  <lpage>378</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0361-9230(81)90032-0</pub-id>
+                  <?supplied-pmid 7296307?>
+                  <pub-id pub-id-type="pmid">7296307</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bhalla</surname>
+                      <given-names>US</given-names>
+                    </name>
+                    <name>
+                      <surname>Bower</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Multiday recordings from olfactory bulb neurons in awake freely moving rats: spatially and temporally organized variability in odorant response properties</article-title>
+                  <source>J. Comput. Neurosci.</source>
+                  <year>1997</year>
+                  <volume>4</volume>
+                  <fpage>221</fpage>
+                  <lpage>256</lpage>
+                  <pub-id pub-id-type="doi">10.1023/A:1008819818970</pub-id>
+                  <?supplied-pmid 9257234?>
+                  <pub-id pub-id-type="pmid">9257234</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <mixed-citation publication-type="other">Perl, O. et al. Human non-olfactory cognition phase-locked with inhalation. <italic>Nat. Human Behav</italic>. 501–512 (2019).</mixed-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Albrecht</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The neuronal correlates of intranasal trigeminal function-an ALE meta-analysis of human functional brain imaging data</article-title>
+                  <source>Brain Res. Rev.</source>
+                  <year>2010</year>
+                  <volume>62</volume>
+                  <fpage>183</fpage>
+                  <lpage>196</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.brainresrev.2009.11.001</pub-id>
+                  <?supplied-pmid 19913573?>
+                  <pub-id pub-id-type="pmid">19913573</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Welge-Lüssen</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Wille</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Renner</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Kobal</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Test-retest reliability of chemosensory evoked potentials</article-title>
+                  <source>J. Clin. Neurophysiol.</source>
+                  <year>2003</year>
+                  <volume>20</volume>
+                  <fpage>135</fpage>
+                  <lpage>142</lpage>
+                  <pub-id pub-id-type="doi">10.1097/00004691-200304000-00008</pub-id>
+                  <?supplied-pmid 12766687?>
+                  <pub-id pub-id-type="pmid">12766687</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Thesen</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Murphy</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Reliability analysis of event-related brain potentials to olfactory stimuli</article-title>
+                  <source>Psychophysiology</source>
+                  <year>2002</year>
+                  <volume>39</volume>
+                  <fpage>733</fpage>
+                  <lpage>738</lpage>
+                  <pub-id pub-id-type="doi">10.1111/1469-8986.3960733</pub-id>
+                  <?supplied-pmid 12462501?>
+                  <pub-id pub-id-type="pmid">12462501</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nordin</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersson</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Olofsson</surname>
+                      <given-names>JK</given-names>
+                    </name>
+                    <name>
+                      <surname>McCormack</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Polich</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Evaluation of auditory, visual and olfactory event-related potentials for comparing interspersed- and single-stimulus paradigms</article-title>
+                  <source>Int. J. Psychophysiol.</source>
+                  <year>2011</year>
+                  <volume>81</volume>
+                  <fpage>252</fpage>
+                  <lpage>262</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ijpsycho.2011.06.020</pub-id>
+                  <?supplied-pmid 21756945?>
+                  <pub-id pub-id-type="pmid">21756945</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rinberg</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Koulakov</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Gelperin</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sparse odor coding in awake behaving mice</article-title>
+                  <source>J. Neurosci.</source>
+                  <year>2006</year>
+                  <volume>26</volume>
+                  <fpage>8857</fpage>
+                  <lpage>8865</lpage>
+                  <pub-id pub-id-type="doi">10.1523/JNEUROSCI.0884-06.2006</pub-id>
+                  <?supplied-pmid 16928875?>
+                  <pub-id pub-id-type="pmid">16928875</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hummel</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Kobal</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Gudziol</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Mackay-Sim</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Normative data for the “Sniffin’ Sticks” including tests of odor identification, odor discrimination, and olfactory thresholds: an upgrade based on a group of more than 3,000 subjects</article-title>
+                  <source>Eur. Arch. Otorhinolaryngol.</source>
+                  <year>2007</year>
+                  <volume>264</volume>
+                  <fpage>237</fpage>
+                  <lpage>243</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00405-006-0173-0</pub-id>
+                  <?supplied-pmid 17021776?>
+                  <pub-id pub-id-type="pmid">17021776</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kobal</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Multicenter investigation of 1,036 subjects using a standardized method for the assessment of olfactory function combining tests of odor identification, odor discrimination, and olfactory thresholds</article-title>
+                  <source>Eur. Arch. Otorhinolaryngol.</source>
+                  <year>2000</year>
+                  <volume>257</volume>
+                  <fpage>205</fpage>
+                  <lpage>211</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s004050050223</pub-id>
+                  <?supplied-pmid 10867835?>
+                  <pub-id pub-id-type="pmid">10867835</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR53">
+                <label>53.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cuffin</surname>
+                      <given-names>BN</given-names>
+                    </name>
+                    <name>
+                      <surname>Cohen</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparison of the magnetoencephalogram and electroencephalogram</article-title>
+                  <source>Electroencephalogr. Clin. Neurophysiol.</source>
+                  <year>1979</year>
+                  <volume>47</volume>
+                  <fpage>132</fpage>
+                  <lpage>146</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0013-4694(79)90215-3</pub-id>
+                  <?supplied-pmid 95707?>
+                  <pub-id pub-id-type="pmid">95707</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR54">
+                <label>54.</label>
+                <mixed-citation publication-type="other">Oppenheim, A. V. Digital Signal Processing. 10.21236/ADA110902 (1981).</mixed-citation>
+              </ref>
+              <ref id="CR55">
+                <label>55.</label>
+                <mixed-citation publication-type="other">Percival, D. B. &amp; Walden, A. T. <italic>Spectral Analysis for Physical Applications</italic>. (Cambridge University Press, 1993).</mixed-citation>
+              </ref>
+              <ref id="CR56">
+                <label>56.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gross</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Dynamic imaging of coherent sources: studying neural interactions in the human brain</article-title>
+                  <source>Proc. Natl Acad. Sci. USA</source>
+                  <year>2001</year>
+                  <volume>98</volume>
+                  <fpage>694</fpage>
+                  <lpage>699</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.98.2.694</pub-id>
+                  <?supplied-pmid 11209067?>
+                  <pub-id pub-id-type="pmid">11209067</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR57">
+                <label>57.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Oostenveld</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Fries</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Maris</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Schoffelen</surname>
+                      <given-names>J-M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>FieldTrip: open source software for advanced analysis of MEG, EEG, and invasive electrophysiological data</article-title>
+                  <source>Comput. Intell. Neurosci.</source>
+                  <year>2011</year>
+                  <volume>2011</volume>
+                  <fpage>156869</fpage>
+                  <pub-id pub-id-type="doi">10.1155/2011/156869</pub-id>
+                  <?supplied-pmid 21253357?>
+                  <pub-id pub-id-type="pmid">21253357</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

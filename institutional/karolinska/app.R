@@ -1,15 +1,16 @@
 library(shiny)
-
-
-
-
 library( shinyWidgets )
-
 library(ggplot2)
 
+df=read.delim('./raw.csv', sep=',')
 df=read.delim('./groups_and_institutions.csv', sep=',')
 
-  ui = (basicPage(
+#ggplot(df) + 
+#  stat_summary(aes(x = class, y = cyl), 
+#               fun.y = function(x) length(x) / length(unique(x)), 
+#               geom = "bar")
+
+  ui = basicPage(
     selectInput("select", "Select columns to display",c( 'is_coi_pred','is_register_pred','is_fund_pred','is_open_code','is_open_data'), multiple = FALSE),
     selectInput("institutioner", "Select institutions/groups to display",as.list(unique(df$short_name)), multiple = TRUE),
    # numericInput("rangelow", "What minimum percentage would you like", 0, min = 1, max = 100),
